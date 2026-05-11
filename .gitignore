@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
+
+# Large PDF directories (keep papers/ out of GitHub)
+papers/
+
+# Internal working directories
+output/2026_03_*/
+output/2026_04_*/
+output/2026_05_*/

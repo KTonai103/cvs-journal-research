@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CVS Journal Report — 2026年3月</title>
+<style>
+/* ===== CSS Variables ===== */
+:root {
+  --bg: #1a1a2e;
+  --bg-card: #22223a;
+  --bg-card-hover: #2a2a48;
+  --border: #33335a;
+  --text: #e0e0e0;
+  --text-muted: #8a8aaa;
+  --accent: #64b5f6;
+  --accent-hover: #90caf9;
+  --tag-aorta: #ef5350;
+  --tag-valve: #ab47bc;
+  --tag-tx: #26a69a;
+  --tag-mcs: #ffa726;
+  --tag-ecmo: #42a5f5;
+  --tag-rhythm: #ec407a;
+  --tag-periop: #78909c;
+  --tag-chd: #66bb6a;
+  --tag-guide: #ffca28;
+  --shadow: 0 2px 12px rgba(0,0,0,0.4);
+  --radius: 10px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f0f0ff;
+  --border: #d0d0e0;
+  --text: #222233;
+  --text-muted: #666680;
+  --accent: #1565c0;
+  --accent-hover: #0d47a1;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+/* ===== Reset & Base ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--accent-hover); }
+
+/* ===== Layout ===== */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+/* ===== Header ===== */
+.site-header {
+  background: linear-gradient(135deg, #16213e 0%, #1a1a2e 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 32px 0 24px;
+  position: sticky; top: 0; z-index: 100;
+}
+[data-theme="light"] .site-header {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f5f5f5 100%);
+}
+.header-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.site-header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: 0.02em; }
+.site-header .subtitle { color: var(--text-muted); font-size: 0.9rem; margin-top: 4px; }
+.theme-toggle {
+  background: var(--bg-card); border: 1px solid var(--border); color: var(--text);
+  padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 0.85rem;
+  transition: all 0.2s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* ===== Navigation ===== */
+.journal-nav {
+  display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap;
+}
+.journal-nav a {
+  padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;
+  border: 1px solid var(--border); transition: all 0.2s;
+}
+.journal-nav a:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ===== Dashboard ===== */
+.dashboard { padding: 32px 0; }
+.dashboard h2 { font-size: 1.3rem; margin-bottom: 20px; }
+.dash-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px; margin-bottom: 24px;
+}
+.dash-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 18px; text-align: center; box-shadow: var(--shadow);
+}
+.dash-card .num { font-size: 2rem; font-weight: 800; color: var(--accent); }
+.dash-card .label { font-size: 0.8rem; color: var(--text-muted); margin-top: 4px; }
+.dash-breakdown {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 14px;
+}
+.dash-breakdown .breakdown-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 18px; box-shadow: var(--shadow);
+}
+.breakdown-card h3 { font-size: 1rem; margin-bottom: 10px; }
+.breakdown-card ul { list-style: none; }
+.breakdown-card li { font-size: 0.85rem; padding: 3px 0; display: flex; justify-content: space-between; }
+.breakdown-card li span:last-child { font-weight: 700; color: var(--accent); }
+
+/* ===== Section ===== */
+.journal-section { padding: 28px 0 12px; }
+.journal-section h2 {
+  font-size: 1.4rem; border-bottom: 2px solid var(--accent); display: inline-block;
+  padding-bottom: 6px; margin-bottom: 20px;
+}
+
+/* ===== Paper Card ===== */
+.paper-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 24px; margin-bottom: 18px; box-shadow: var(--shadow);
+  transition: transform 0.15s, border-color 0.2s, box-shadow 0.2s;
+}
+.paper-card:hover {
+  transform: translateY(-2px); border-color: var(--accent);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.3);
+}
+[data-theme="light"] .paper-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.1); }
+.paper-title {
+  font-size: 1.1rem; font-weight: 700; line-height: 1.5; margin-bottom: 6px;
+}
+.paper-title a { color: var(--accent); }
+.paper-title a::after { content: " \2197"; font-size: 0.85em; }
+.paper-authors { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px; }
+.paper-citation { font-size: 0.82rem; color: var(--text-muted); font-style: italic; margin-bottom: 10px; }
+.category-badge {
+  display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 3px 10px;
+  border-radius: 12px; color: #fff; margin-bottom: 12px;
+}
+.cat-aorta { background: var(--tag-aorta); }
+.cat-valve { background: var(--tag-valve); }
+.cat-tx { background: var(--tag-tx); }
+.cat-mcs { background: var(--tag-mcs); color: #333; }
+.cat-ecmo { background: var(--tag-ecmo); }
+.cat-rhythm { background: var(--tag-rhythm); }
+.cat-periop { background: var(--tag-periop); }
+.cat-chd { background: var(--tag-chd); }
+.cat-guide { background: var(--tag-guide); color: #333; }
+
+/* Collapsible */
+.collapsible-btn {
+  background: none; border: 1px solid var(--border); color: var(--accent);
+  padding: 4px 12px; border-radius: 6px; cursor: pointer; font-size: 0.82rem;
+  margin-bottom: 10px; transition: all 0.2s;
+}
+.collapsible-btn:hover { background: var(--accent); color: #fff; }
+.collapsible-content { display: none; }
+.collapsible-content.open { display: block; }
+.abstract-text { font-size: 0.9rem; line-height: 1.7; margin-bottom: 12px; color: var(--text); }
+.summary-text { font-size: 0.92rem; line-height: 1.7; margin-bottom: 14px; padding: 12px; background: rgba(100,181,246,0.07); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; }
+
+/* Analysis grid */
+.analysis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 10px; }
+.analysis-item {
+  padding: 12px; border-radius: 8px; font-size: 0.85rem; line-height: 1.6;
+  border: 1px solid var(--border); background: rgba(255,255,255,0.02);
+}
+[data-theme="light"] .analysis-item { background: #f8f8ff; }
+.analysis-item strong { display: block; margin-bottom: 4px; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
+
+/* ===== Footer ===== */
+.site-footer {
+  text-align: center; padding: 32px 0; color: var(--text-muted); font-size: 0.82rem;
+  border-top: 1px solid var(--border); margin-top: 40px;
+}
+
+/* ===== Back to top ===== */
+.back-to-top {
+  position: fixed; bottom: 24px; right: 24px; width: 44px; height: 44px;
+  border-radius: 50%; background: var(--accent); color: #fff; border: none;
+  font-size: 1.3rem; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0; pointer-events: none; transition: opacity 0.3s;
+}
+.back-to-top.visible { opacity: 1; pointer-events: auto; }
+
+/* ===== Print ===== */
+@media print {
+  body { background: #fff !important; color: #000 !important; }
+  .site-header { position: static; background: #fff !important; border-bottom: 2px solid #000; }
+  .paper-card { box-shadow: none !important; border: 1px solid #ccc; break-inside: avoid; }
+  .paper-card:hover { transform: none; }
+  .collapsible-content { display: block !important; }
+  .collapsible-btn, .theme-toggle, .back-to-top, .journal-nav { display: none !important; }
+  .summary-text { background: #f0f0f0 !important; border-left-color: #333 !important; }
+  .analysis-item { background: #f8f8f8 !important; border-color: #ccc !important; }
+  .category-badge { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  a { color: #000 !important; }
+  a::after { content: " (" attr(href) ")" !important; font-size: 0.7em; }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .site-header h1 { font-size: 1.2rem; }
+  .paper-card { padding: 16px; }
+  .paper-title { font-size: 1rem; }
+  .analysis-grid { grid-template-columns: 1fr; }
+  .dash-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1>CVS Journal Report — 2026年3月号</h1>
+        <div class="subtitle">心臓血管外科ジャーナル 最新論文レビュー（全42編）</div>
+      </div>
+      <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">☀ Light Mode</button>
+    </div>
+    <nav class="journal-nav">
+      <a href="#dashboard">ダッシュボード</a>
+      <a href="#jtcvs">JTCVS (12)</a>
+      <a href="#jhlt">JHLT (15)</a>
+      <a href="#ejcts">EJCTS (15)</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+<!-- ===== DASHBOARD ===== -->
+<section class="dashboard" id="dashboard">
+  <h2>ダッシュボード</h2>
+  <div class="dash-grid">
+    <div class="dash-card"><div class="num">42</div><div class="label">総論文数</div></div>
+    <div class="dash-card"><div class="num">12</div><div class="label">JTCVS</div></div>
+    <div class="dash-card"><div class="num">15</div><div class="label">JHLT</div></div>
+    <div class="dash-card"><div class="num">15</div><div class="label">EJCTS</div></div>
+    <div class="dash-card"><div class="num">3</div><div class="label">日本発論文 🇯🇵</div></div>
+  </div>
+  <div class="dash-breakdown">
+    <div class="breakdown-card">
+      <h3>JTCVS カテゴリ別</h3>
+      <ul>
+        <li><span>弁膜症・心臓外科</span><span>4</span></li>
+        <li><span>大動脈外科</span><span>3</span></li>
+        <li><span>心臓移植</span><span>2</span></li>
+        <li><span>周術期管理</span><span>2</span></li>
+        <li><span>不整脈外科</span><span>1</span></li>
+      </ul>
+    </div>
+    <div class="breakdown-card">
+      <h3>JHLT カテゴリ別</h3>
+      <ul>
+        <li><span>心臓移植</span><span>7</span></li>
+        <li><span>MCS / LVAD</span><span>6</span></li>
+        <li><span>ECMO</span><span>2</span></li>
+      </ul>
+    </div>
+    <div class="breakdown-card">
+      <h3>EJCTS カテゴリ別</h3>
+      <ul>
+        <li><span>大動脈外科</span><span>5</span></li>
+        <li><span>弁膜症・心臓外科</span><span>4</span></li>
+        <li><span>先天性心疾患</span><span>3</span></li>
+        <li><span>ガイドライン</span><span>2</span></li>
+        <li><span>ECMO</span><span>1</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!--                         JTCVS (12)                           -->
+<!-- ============================================================ -->
+<section class="journal-section" id="jtcvs">
+  <h2>JTCVS — 12 Papers</h2>
+
+  <!-- JTCVS #1 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.02.034" target="_blank" rel="noopener">Optimal Strategy for Aortic Root Replacement in Advanced Aged Patients: Valve-Sparing Root Replacement or Bio-Bentall?</a></div>
+    <div class="paper-authors">Norton EL, Patel PM, Levine D, Nissen AP, Muralidharan VJ, Rajesh K, Chung M, Leshnower BG, Takayama H, Chen EP</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.02.034</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">VSRR is being performed into the 8th decade of life. 801 patients ≥65 years (VSRR n=94 vs Bio-Bentall n=236). VSRR had less prolonged ventilation (7.5% vs 18%), shorter LOS (7 vs 9 days). In-hospital mortality 3% similar. VSRR had better 12-year survival (70% vs 59%, p=0.03). VSRR appropriate in elderly without significant valvular degeneration.</div>
+      <div class="summary-text">65歳以上でもVSRRはBio-Bentallと同等以上の成績。12年生存率70% vs 59%。弁構造変性がなければ高齢者でもVSRR選択可。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>高齢者VSRRの長期成績データはこれまで限定的だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>65歳以上でVSRRの12年生存がBio-Bentallを上回ることを2施設大規模データで初めて示した。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>高齢者でも弁構造が良好ならVSRRを積極的に検討すべき。年齢のみで弁温存を否定しない。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #2 -->
+  <article class="paper-card">
+    <span class="category-badge cat-periop">周術期管理</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.02.018" target="_blank" rel="noopener">Oxygen Extraction Trajectories During Cardiopulmonary Bypass Impact Postoperative Outcomes in CABG</a></div>
+    <div class="paper-authors">Ahmad A, Williams AM, Trahanas J, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.02.018</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">885 isolated CABG patients. Unsupervised clustering identified 3 O2ER trajectories: low (21%), moderate (23%), high (24.4%). High O2ER associated with morbidity/mortality (OR 2.04) and AKI (OR 1.6). Maintaining iDO2 ≥300 for ≥92% of CPB would reduce AKI by 66.8% and morbidity/mortality by 63.8%.</div>
+      <div class="summary-text">CPB中のO2ER軌跡をクラスタリングで分類。高O2ER群は合併症リスク2倍。iDO2≥300の維持がAKI・合併症を6割以上低減する推計。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>従来のgoal-directed perfusionはiDO2閾値のみに着目していた。</div>
+        <div class="analysis-item"><strong>What's New</strong>O2ER（抽出率）の時間的軌跡が個別の灌流不足をiDO2より鋭敏に捉えることを示した。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>CPB中の灌流管理にO2ERモニタリングを統合すべき。特に高リスク患者で個別化灌流が重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #3 -->
+  <article class="paper-card">
+    <span class="category-badge cat-periop">周術期管理</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.02.006" target="_blank" rel="noopener">A decade of reoperative adult cardiac surgery with Del Nido cardioplegia</a></div>
+    <div class="paper-authors">Pamidighantam P, Chen C, Parker J, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.02.006</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">696 adult reoperations. Propensity-matched 287 pairs. DN shorter AXC (121 vs 189 min) and CPB (177 vs 256 min). Similar mortality, stroke, renal failure, AF, MCS need. 9-year survival equivalent (63.2% vs 65.3%).</div>
+      <div class="summary-text">成人再手術696例。Del Nido群は遮断時間・CPB時間が大幅短縮（121 vs 189分）。死亡率・9年生存は同等。再手術でもDN心停止液は有効。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>Del Nido心停止液の成人再手術における大規模・長期データが不足していた。</div>
+        <div class="analysis-item"><strong>What's New</strong>10年間の再手術データで、DNがBuckberg法と同等の9年生存を示した初の大規模報告。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>再手術でもDel Nido採用は安全であり、手術時間短縮の利点がある。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #4 -->
+  <article class="paper-card">
+    <span class="category-badge cat-valve">弁膜症・心臓外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.02.005" target="_blank" rel="noopener">Association of GLP-1 Inhibitors with Cardiovascular Outcomes in Patients Undergoing CABG</a></div>
+    <div class="paper-authors">Hasan I, Bessette LG, Jacquemyn X, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.02.005</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">11,389 CABG patients. 165 (3.9%) on GLP-1. No difference in mortality or MACCE. GLP-1 associated with lower postop AF (14% vs 22%, p=0.02).</div>
+      <div class="summary-text">GLP-1阻害薬使用CABG患者では死亡率は変わらないが術後AF発生率が有意に低下（14% vs 22%）。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>GLP-1受容体作動薬の心臓外科周術期への影響は未知だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>CABG後AF低減効果の初報告。抗炎症・代謝改善を介した機序が推察される。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>GLP-1RA内服中のCABG患者では周術期継続を検討。AF予防効果のRCTが期待される。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #5 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.01.026" target="_blank" rel="noopener">Prolonged pulseless electrical activity warm ischemia predicts mortality and graft dysfunction in DCD heart transplant</a></div>
+    <div class="paper-authors">Williams AM, Wang CC, Ahmad A, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.01.026</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">133 DCD heart transplants with TA-NRP. Median PWIT 11 min. PWIT >12 min: severe PGD (OR 4.62), 90-day mortality (OR 7.67), 1-year mortality (OR 5.93). Standardization of declaration upon PEA could improve outcomes.</div>
+      <div class="summary-text">DCD心臓移植133例。PEA温虚血時間>12分で重症PGD（OR 4.62）・90日死亡（OR 7.67）が有意に増加。PEA発生時の迅速な死亡宣告標準化が重要。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>DCD心臓移植でPEA期間の影響を定量的に評価した研究はなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>PWIT 12分という明確な閾値を初めて提示。42.9%のドナーがPEA時に宣告されていない問題を指摘。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>DCD心臓ドナー管理でPEA発生時の速やかな死亡宣告のプロトコル整備が急務。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #6 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.03.572" target="_blank" rel="noopener">The Impact of Re-operation on Aortic Arch Reconstructive Surgery: National Registry</a></div>
+    <div class="paper-authors">Qin C, Stevens LM, Atoui R, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.03.572</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">2,481 arch repairs under circulatory arrest (2002-2021). 374 (15%) redo. Overall redo mortality 12%. No significant mortality difference between primary, aortic-redo, other-redo groups. Redo hemi-arch had higher mortality (p=0.014). Independent predictors: age, acute dissection, CPB time.</div>
+      <div class="summary-text">大動脈弓手術の15%が再手術。Redo全体の死亡率12%で初回手術と有意差なし。ただしredo hemi-archは死亡率高い。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>大動脈弓再手術の多施設・国家レジストリデータは限られていた。</div>
+        <div class="analysis-item"><strong>What's New</strong>カナダ全国レジストリで弓部再手術の安全性を初めて大規模に検証。Total arch redoは初回と同等。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>Redo total archは適切な症例選択で安全に施行可能。Hemi-arch redoは慎重なリスク評価が必要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #7 -->
+  <article class="paper-card">
+    <span class="category-badge cat-valve">弁膜症・心臓外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.01.024" target="_blank" rel="noopener">Valve characteristics and surgical options for severe rheumatic mitral stenosis with more than mild regurgitation</a></div>
+    <div class="paper-authors">Jia S, Zhang H, Wang M, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.01.024</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">870 severe rheumatic MS. 408 (46.9%) had >mild MR. Repair (n=265) vs replacement (n=143): 5-year mortality lower with repair (1.4% vs 7.1%, p=.009). Comparable reoperation. Repair independently predicted survival (HR 0.347).</div>
+      <div class="summary-text">重症リウマチMSの約半数にMR合併。弁形成は弁置換より5年死亡率が有意に低い（1.4% vs 7.1%）。再手術率は同等。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>リウマチ性MS+MR合併例での弁形成 vs 弁置換の比較データは限定的。</div>
+        <div class="analysis-item"><strong>What's New</strong>MR合併リウマチMSでも積極的弁形成の優位性を870例の大規模データで初めて実証。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>リウマチ性MSでMR合併があっても弁形成を第一選択として検討すべき。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #8 -->
+  <article class="paper-card">
+    <span class="category-badge cat-chd">先天性心疾患</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2026.01.034" target="_blank" rel="noopener">Long-term Outcomes of Aortic Valve Repair in Children after Infancy</a></div>
+    <div class="paper-authors">Zhu MZL, Konstantinov IE, Fricke TA, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2026.01.034</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">326 patients ≥1 year. Median age 9.4 years. Early mortality 0.61%. 20-year survival 94.9%. Freedom from AoV reoperation at 20 years: 55.0%. 20-year freedom from prosthetic AVR 79.1%. Risk factors: prior balloon valvuloplasty (HR 2.34), CardioCel patch (HR 4.30).</div>
+      <div class="summary-text">小児326例のAV形成。20年生存94.9%、人工弁回避率79.1%。バルーン弁形成術・CardioCelパッチが再手術リスク因子。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>小児AV形成の20年超の長期成績データは世界的にも稀。</div>
+        <div class="analysis-item"><strong>What's New</strong>326例20年追跡で、初回AV形成により約8割の患者が成人期まで人工弁を回避できることを示した。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>小児AV疾患では形成術を第一選択とし、バルーン拡張歴のある症例は注意深いフォローが必要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #9 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2025.12.030" target="_blank" rel="noopener">Type A aortic dissection during pregnancy and postpartum: 60 patients over 25 years</a></div>
+    <div class="paper-authors">Zhu JM, Chen SW, Ma WG, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2025.12.030</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">60 pregnant women (mean 31.4 years, 30.3 GW). Marfan 65%. After 28 GW: single-stage delivery+repair best (maternal mortality 3.4%). Before 28 GW: prioritize maternal survival. Prophylactic repair for Marfan at root ≥45mm.</div>
+      <div class="summary-text">妊娠中のA型解離60例。Marfan 65%。28週以降は分娩+大動脈手術同時施行が最良（母体死亡3.4%）。28週未満は母体優先。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>妊娠中TAAD管理の大規模シリーズはほぼ存在しなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>60例25年の経験から妊娠週数別の管理戦略を体系化。世界最大級のシリーズ。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>妊娠中TAAD管理の意思決定アルゴリズムとして参照可能。Marfan女性の妊娠前評価が重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #10 -->
+  <article class="paper-card">
+    <span class="category-badge cat-rhythm">不整脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2025.10.023" target="_blank" rel="noopener">The ICE-AFIB trial: Multicenter prospective IDE trial using cryosurgical ablation for AF during concomitant cardiac surgery</a></div>
+    <div class="paper-authors">Ad N, Romano MA, Bolling S, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2025.10.023</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">150 patients, 14 sites, nonparoxysmal AF. Cryothermy-only Cox-maze III. 70% AF-free at 6-12 months; 77% at 12 months off AADs. MAE 9.3% at 30 days (none ablation-related). Demonstrates safety and effectiveness of cryo-only cryomaze.</div>
+      <div class="summary-text">非発作性AF 150例のIDE試験。冷凍凝固のみCox-maze IIIで12ヶ月AF離脱77%（AADなし）。安全性良好。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>冷凍凝固単独のCox-maze IIIに対する前向き多施設IDE試験は初。</div>
+        <div class="analysis-item"><strong>What's New</strong>冷凍凝固エネルギーのみで持続性・長期持続性AFの有効な治療が可能であることを規制当局レベルのエビデンスで実証。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>冷凍凝固による併施AFアブレーションの標準化に向けた重要なエビデンス。RFなしでも有効。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #11 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2025.11.025" target="_blank" rel="noopener">Ex vivo heart perfusion offsets ischemic penalties with ≥6-hour preservation in adult DBD heart transplant</a></div>
+    <div class="paper-authors">Berg AR, Krishnan A, Heng EE, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2025.11.025</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">UNOS 16,859 DBD recipients. Preservation ≥6h: EVHP (n=320) vs no-EVHP (n=226). 1-year survival EVHP 92.5% vs 86.3%. No-EVHP ≥6h had 1.90x greater 1-year mortality. Benefits concentrated at higher-volume centers.</div>
+      <div class="summary-text">DBD心臓移植で保存6時間以上の場合、EVHPは1年生存92.5%で非EVHP（86.3%）を凌駕。長時間保存の虚血ペナルティをEVHPが相殺。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>長時間保存DBD心臓におけるEVHPの具体的な生存改善効果は不明だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>UNOS全国データで、EVHPが6時間以上保存時の生存ペナルティを完全に打ち消すことを証明。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>遠距離ドナーでも積極的にEVHPを活用すべき。ただし高ボリュームセンターでの使用が重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JTCVS #12 -->
+  <article class="paper-card">
+    <span class="category-badge cat-valve">弁膜症・心臓外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.jtcvs.2025.10.029" target="_blank" rel="noopener">Changes in EF after CABG for ischemic cardiomyopathy: Impact on survival</a></div>
+    <div class="paper-authors">Patlolla SH, Crestanello JA, Schaff HV, et al.</div>
+    <div class="paper-citation">JTCVS 2026 (in press) &middot; DOI: 10.1016/j.jtcvs.2025.10.029</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">679 patients EF ≤35%. Operative mortality 2.2%. EF improved by median 5 units. EF increase by 18% associated with 43% lower mortality (HR 0.57). Lower preop EF showed strong initial improvement then decline. Younger age, female sex predicted improvement.</div>
+      <div class="summary-text">EF≤35%の679例。CABG後EF中央値5%改善。18%以上改善で死亡ハザード43%低下。若年・女性がEF回復の予測因子。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>虚血性心筋症CABG後のEF改善パターンと生存の詳細な関連は不明だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>EF改善幅と生存の用量反応関係を示し、18%改善という具体的閾値を提示。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>虚血性心筋症でもCABGによるEF改善は生存に直結。若年女性では特にrevasc効果が期待できる。</div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- ============================================================ -->
+<!--                         JHLT (15)                            -->
+<!-- ============================================================ -->
+<section class="journal-section" id="jhlt">
+  <h2>JHLT — 15 Papers</h2>
+
+  <!-- JHLT #1 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.10.002" target="_blank" rel="noopener">Improved 2-year heart transplant survival with moderate hypothermic donor heart preservation in the GUARDIAN heart registry</a></div>
+    <div class="paper-authors">Silvestry S, Meyer DM, Pham SM, et al.</div>
+    <div class="paper-citation">JHLT 2026;45(4):544-552 &middot; DOI: 10.1016/j.healun.2025.10.002</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">1,261 US adult heart transplants. SherpaPak (SCTS) reduced severe PGD (6.8% vs 10.8%, p=0.015) and severe RVD (6.1% vs 9.9%, p=0.022). SCTS independent predictor of severe PGD (OR=0.60). Propensity-matched 2-year mortality: SCTS 5.7% vs Ice 10.5% (p=0.042). First study of any preservation modality to demonstrate significant impact on transplant survival.</div>
+      <div class="summary-text">SherpaPak（中等度低体温保存）が重症PGD・RVDを低減し、2年生存を有意に改善。先進的保存技術で移植後生存改善を初めて実証。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>先進的心臓保存技術の移植後生存への影響を示した研究はこれまでなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>SherpaPakが心臓移植の2年生存を有意に改善した初のエビデンス（10.5%→5.7%）。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>SherpaPakの積極的導入により移植後生存改善が期待できる。保存技術の標準変更を支持する重要データ。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #2 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2026.02.004" target="_blank" rel="noopener">Improved outcomes and donor utilization in heart transplantation with 10°C static cold storage</a></div>
+    <div class="paper-authors">Ahmad A, Williams AM, Bommareddi S, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2026.02.004</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">442 transplants. 10°C group (n=142) despite older donors and longer ischemic times (234 vs 202 min) had 64% reduced severe PGD and 30-day mortality (RR 0.37). Adoption increased donor risk acceptance without increasing mortality. 10°C challenges ice as default method.</div>
+      <div class="summary-text">10°C静的冷却保存は長時間虚血にもかかわらず30日死亡を64%低減。ドナー利用拡大にも貢献。Ice storageの代替として注目。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>従来の4°C ice storageに代わる中等度低温保存の臨床効果は大規模検証されていなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>10°C保存が重症PGD・30日死亡を64%低減し、ドナーリスク許容範囲を拡大した初の臨床報告。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>10°C保存は簡便かつ低コストでドナー利用拡大を実現。導入検討に値する。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #3 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2026.03.019" target="_blank" rel="noopener">Initial Pediatric Experience of Preserving Cardiac Allografts in a 10°C Cooler</a></div>
+    <div class="paper-authors">Coyan G, Ragoowansi J, Well A, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2026.03.019</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">First report of 10°C preservation in pediatric heart transplantation. Abstract not yet available (PubMed not indexed).</div>
+      <div class="summary-text">小児心臓移植における10°C保存の世界初報告。Abstract未公開。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>10°C保存の小児への適用データがなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>小児心臓移植への10°C保存の初適用。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>成人で示された10°C保存の利点が小児でも再現されるか注目。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #4 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2026.03.021" target="_blank" rel="noopener">24-Hour Hypothermic Oxygenated Perfusion Preserves Graft Viability in Porcine DCD and DBD Heart Transplant</a></div>
+    <div class="paper-authors">Thomassen MB, Ballan EM, Moeslund N, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2026.03.021</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Porcine model demonstrating 24-hour HOPE preservation of DCD and DBD hearts. Abstract not yet available.</div>
+      <div class="summary-text">豚モデルでDCD・DBD心臓の24時間HOPE保存がグラフト機能を維持。保存時間の大幅延長の可能性。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>HOPEの保存限界時間は明確でなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>24時間というこれまでの常識を超える保存時間でグラフト機能維持を実証。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>保存時間制約の緩和によりドナー心の長距離搬送・計画的手術が可能になる展望。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #5 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.09.020" target="_blank" rel="noopener">HOPE for children: pediatric DCD heart transplant using hypothermic oxygenated perfusion</a></div>
+    <div class="paper-authors">Chilvers NJS, Vandendriessche K, Moeslund N, et al.</div>
+    <div class="paper-citation">JHLT 2026;45(3):494-512 &middot; DOI: 10.1016/j.healun.2025.09.020</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Porcine DCD-HOPE model developed. Clinical: 6 pediatric donors (3 DCD, 3 DBD, 16 months-13 years) preserved with HOPE. Hearts from donors as small as 9 kg recovered. DCD cohort: median fWIT 19 min, no severe PGD. Survival 100% at median 287.5 days follow-up. World's first and smallest pediatric DCD-HOPE heart transplants.</div>
+      <div class="summary-text">世界初の小児DCD-HOPE心臓移植。最小9kgドナーから回収成功。DCD群は重症PGDなし、全例生存。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>小児DCD心臓移植の実現可能性は未証明で、特にHOPEの小児適用データはゼロだった。</div>
+        <div class="analysis-item"><strong>What's New</strong>世界初の小児DCD-HOPE心臓移植を6例で実施し、100%生存を達成。9kgの最小記録。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>小児心臓移植のドナープール拡大に画期的。小児DCD心臓利用の臨床実装が現実的に。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #6 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.10.024" target="_blank" rel="noopener">Defining relationships among four tests for AMR in heart transplants: Trifecta-Heart study</a></div>
+    <div class="paper-authors">Madill-Thomsen KS, Hidalgo LG, Mackova M, et al.</div>
+    <div class="paper-citation">JHLT 2026;45(4):659-670 &middot; DOI: 10.1016/j.healun.2025.10.024</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Trifecta-Heart study (NCT04707872). 214 EMBs. MMDx diagnosed more ABMR than histology. MMDx ABMR correlated more with dd-cfDNA and DSA. DSA-negative ABMR had elevated dd-cfDNA similar to DSA-positive. Guides ABMR management including monitoring.</div>
+      <div class="summary-text">4検査（組織学・MMDx・dd-cfDNA・DSA）を比較。MMDxがABMR診断精度で優越。DSA陰性ABMRでもdd-cfDNA上昇。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>ABMR診断における各種検査の相互関係が体系的に検討されていなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>前向き研究でMMDxの優越性とDSA陰性ABMRの存在を4検査の同時比較で証明。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>ABMR診断はMMDxとdd-cfDNAを組み合わせたマルチモーダルアプローチが望ましい。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #7 -->
+  <article class="paper-card">
+    <span class="category-badge cat-tx">心臓移植</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.11.013" target="_blank" rel="noopener">Multimodal molecular testing provides prognostic value for heart transplant recipients</a></div>
+    <div class="paper-authors">Teuteberg J, Patel S, Baran DA, et al.</div>
+    <div class="paper-citation">JHLT 2026;45(3):388-400 &middot; DOI: 10.1016/j.healun.2025.11.013</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">1,934 recipients. GEP+/dd-cfDNA+ (dual positive) at months 2-6: highest graft dysfunction/CV death (15.5%, HR 1.59). Single dual-positive: 3-fold 30-day risk increase (IRR 3.12). Provides prognostic info not detected by histology.</div>
+      <div class="summary-text">GEP+dd-cfDNA二重陽性が最も高リスク（15.5%）。単回の二重陽性でも30日リスク3倍。組織学では検出不能な予後情報を提供。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>GEPとdd-cfDNAの組み合わせによる予後予測価値は検証されていなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>1,934例の大規模データで二重陽性の予後予測価値を初めて定量化。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>移植後2-6ヶ月のGEP+dd-cfDNA二重モニタリングをルーチン化し、ハイリスク群の早期介入に活用。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #8 -->
+  <article class="paper-card">
+    <span class="category-badge cat-mcs">MCS / LVAD</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2026.02.1679" target="_blank" rel="noopener">Hidden Danger of Microaxial Flow Pumps: Five Cases of Aortic and Innominate Mural Thrombi</a></div>
+    <div class="paper-authors">An KR, Elmously A, Lee J, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2026.02.1679</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Among 90 patients with Impella 5.5 as BTT/LVAD bridge (2021-2025), 5 (5.5%) developed aortic/innominate mural thrombi. 4 underwent successful transplant/LVAD after thrombectomy or conservative management. 1 fatal embolic stroke. Raises considerations regarding anticoagulation targets and device explant techniques.</div>
+      <div class="summary-text">Impella 5.5のBTT/LVAD使用90例中5.5%に壁在血栓。1例で致死的脳卒中。抗凝固・抜去手技の再考が必要。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>Impella 5.5のBTT/LVAD使用における壁在血栓リスクは未報告。</div>
+        <div class="analysis-item"><strong>What's New</strong>5.5%の壁在血栓発生率と致死的塞栓の可能性を初めて報告。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>Impella 5.5長期使用時はCTによる定期的血栓スクリーニングと抗凝固強化を検討。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #9 -->
+  <article class="paper-card">
+    <span class="category-badge cat-mcs">MCS / LVAD</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2026.02.1683" target="_blank" rel="noopener">Temporary MCS in LVAD Candidates with RV Dysfunction: Acuity Without Long-Term Futility</a></div>
+    <div class="paper-authors">Crespo-Diaz R, Hryniewicz K, Samara M, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2026.02.1683</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">RV dysfunction in LVAD candidates managed with temporary MCS. Abstract not yet available.</div>
+      <div class="summary-text">RV機能不全を伴うLVAD候補者における一時的MCS使用の報告。Abstract未公開。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>LVAD候補のRVD管理における一時的MCSの位置付けが不明確だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>一時的MCSによるRVD安定化がLVAD植込みのfutilityを回避する可能性。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>RVD合併LVAD候補者に対する段階的アプローチの妥当性を支持するデータとして注目。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #10 -->
+  <article class="paper-card">
+    <span class="category-badge cat-mcs">MCS / LVAD</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.12.003" target="_blank" rel="noopener">Less RV contractility but more afterload after LVAD: How two wrongs ache the right</a></div>
+    <div class="paper-authors">Scheel PJ 3rd, Hsu S</div>
+    <div class="paper-citation">JHLT 2026;45(4):618-620 &middot; DOI: 10.1016/j.healun.2025.12.003</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Editorial discussing RV failure mechanisms after LVAD: reduced contractility plus increased afterload create a dual challenge for the right ventricle.</div>
+      <div class="summary-text">LVAD後RV不全の二重機序（収縮力低下＋後負荷増大）を論じるEditorial。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>LVAD後RV不全の病態生理は単純化されがちだった。</div>
+        <div class="analysis-item"><strong>What's New</strong>収縮力低下と後負荷増大の同時存在というパラダイムを提示。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>LVAD植込み前のRV評価では収縮力だけでなく肺血管抵抗の予測も重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #11 -->
+  <article class="paper-card">
+    <span class="category-badge cat-mcs">MCS / LVAD</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2026.02.1674" target="_blank" rel="noopener">Hybrid durable BiVAD: Berlin Heart EXCOR pulsatile RVAD + continuous flow LVAD</a></div>
+    <div class="paper-authors">Meyer AL, Bernhardt AM, Garbade J, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2026.02.1674</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">19 patients at 6 German centers (2017-2024). 89.5% INTERMACS 1. Median support 112 days. 1-year mortality 21.1% (14.3% simultaneous implantation). Improved renal and hepatic function with simultaneous support.</div>
+      <div class="summary-text">ドイツ6施設19例のHybrid BiVAD（EXCOR RVAD+CF-LVAD）。INTERMACS 1が89.5%でも1年死亡21.1%。同時植込みで14.3%。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>両心不全に対する持続的BiVADサポートの実臨床データが乏しかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>拍動型RVAD＋連続流LVADのハイブリッドアプローチで両心不全管理が可能であることを多施設で実証。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>両心不全でLVAD単独が困難な場合のオプションとして、EXCOR RVADの併用を検討。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #12 -->
+  <article class="paper-card">
+    <span class="category-badge cat-mcs">MCS / LVAD</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.12.011" target="_blank" rel="noopener">Cutaneous integration of wireless TET system for durable VAD in pig model</a></div>
+    <div class="paper-authors">Hakansson J, Jonsson K, Bern B, Dellgren G</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2025.12.011</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">9 pigs, 4 trials. Final implant design eliminated necrosis and seroma, achieving stable skin integration during 14-day follow-up. Demonstrates feasibility of wireless TET implant cutaneous integration toward fully implantable VAD without percutaneous drivelines.</div>
+      <div class="summary-text">豚9匹で新規ワイヤレスTETインプラントの皮膚統合を達成。ドライブラインなしの完全埋込型VADへの基盤研究。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>VADのワイヤレス給電における皮膚統合の実現可能性は未証明だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>14日間の安定した皮膚統合を豚モデルで達成。ドライブライン関連感染を解消する可能性。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>ドライブライン感染はLVAD最大の合併症。この技術の臨床応用が実現すればQOL革命的改善。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #13 -->
+  <article class="paper-card">
+    <span class="category-badge cat-mcs">MCS / LVAD</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.12.021" target="_blank" rel="noopener">Mechanical stretch reduces fibroblast activation in HFrEF</a></div>
+    <div class="paper-authors">Silverman DN, Ismail AA, Wakefield L, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2025.12.021</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">HFrEF myocardium (n=15) vs donor hearts (n=5). Collagen content greater in HFrEF (6.7% vs 2.1%). HFrEF fibroblasts on 1 kPa with cyclic stretch produced less collagen, TIMP1, alphaSMA (p&lt;.01). RNA-seq identified dysregulated force sensing pathways altered toward controls. Normalized substrate + stretch attenuated fibroblast activation. Potentially relevant for pulsatile LVAD therapy.</div>
+      <div class="summary-text">HFrEF心筋線維芽細胞は低硬度基質+周期的伸展でコラーゲン産生・αSMAが抑制。力感知経路の正常化を確認。拍動型LVAD治療の理論的根拠。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>LVAD補助下での心筋リモデリング逆転の分子機序は不明だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>機械的ストレッチ（拍動性）が線維芽細胞活性化を直接抑制することをヒト細胞で初証明。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>拍動型LVAD（EXCOR等）の心筋リモデリング逆転効果の科学的根拠として重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #14 -->
+  <article class="paper-card">
+    <span class="category-badge cat-ecmo">ECMO</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2026.02.001" target="_blank" rel="noopener">VA-ECMO with or without LV active unloading: hemodynamics, energetics, and signaling</a></div>
+    <div class="paper-authors">Beurton A, Bordier E, Veyret S, et al.</div>
+    <div class="paper-citation">JHLT 2026 (in press) &middot; DOI: 10.1016/j.healun.2026.02.001</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Sheep cardiogenic shock model. VA-ECMO+IABP and VA-ECMO+Impella both reduced LVEDP (-51% and -58%). Only Impella reduced LV volumes and improved cardiac energetics. Both combinations activated ERK/Akt cardioprotective signaling. Infarct size and apoptosis similar.</div>
+      <div class="summary-text">VA-ECMO+IABP/ImpellaはLVEDP 50-58%低下。Impellaのみがエネルギー効率改善。心保護シグナル（ERK/Akt）は両方で活性化。梗塞サイズは同等。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>VA-ECMO+アンローディングの分子レベルでの心保護効果は不明だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>LVアンローディングが心保護シグナルを活性化することを初めて分子レベルで証明。Impellaの優越性を示唆。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>VA-ECMO+LVアンローディング（特にImpella）の早期併用を支持する基礎的根拠。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- JHLT #15 -->
+  <article class="paper-card">
+    <span class="category-badge cat-ecmo">ECMO</span>
+    <div class="paper-title"><a href="https://doi.org/10.1016/j.healun.2025.12.024" target="_blank" rel="noopener">Venopulmonary ECLS: An ELSO Registry Analysis</a></div>
+    <div class="paper-authors">Baldetti L, Pontillo D, Capoccia M, et al.</div>
+    <div class="paper-citation">JHLT 2026;45(4):621-633 &middot; DOI: 10.1016/j.healun.2025.12.024</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">838 adults, first VP ECLS modality (2020-2024). HF/CS 54.4%, ARF/ARDS 26.6%. Adverse events: AKI/CRRT 37.4%, infections 35.4%. 60-day survival 49.3%. Predictors of death: age, female sex, BMI, pre-ECLS CRRT. Largest VP ECLS registry.</div>
+      <div class="summary-text">VP ECLS 838例の最大レジストリ。60日生存49.3%。AKI 37.4%、感染35.4%が主要有害事象。死亡予測：高齢、女性、高BMI、ECLS前CRRT。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>VP ECLSの大規模レジストリデータは存在しなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>ELSOレジストリから838例のVP ECLSの適応・成績・予後因子を初めて包括的に報告。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>VP ECLSの適応判断と予後予測に活用可能な初のリファレンスデータ。</div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- ============================================================ -->
+<!--                         EJCTS (15)                           -->
+<!-- ============================================================ -->
+<section class="journal-section" id="ejcts">
+  <h2>EJCTS — 15 Papers</h2>
+
+  <!-- EJCTS #1 -->
+  <article class="paper-card">
+    <span class="category-badge cat-guide">ガイドライン</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezaf296" target="_blank" rel="noopener">EACTS Expert Consensus: Protected Cardiac Surgery — pre-emptive use of tMCS</a></div>
+    <div class="paper-authors">Lorusso R, Salazar L, Nersesian G, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezaf296</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">First EACTS guidance on pre-emptive tMCS in high-risk adult cardiac surgery. Structured risk stratification, early initiation, individualized device management. Reviews IABP, microaxial flow pumps, VA-ECLS, hybrid strategies. ICU protocols, ethics, consent, support withdrawal addressed.</div>
+      <div class="summary-text">周術期LCOSハイリスク患者への予防的tMCS使用の初のEACTSコンセンサス文書。リスク層別化・デバイス選択・ICU管理を包括。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>予防的tMCS使用に関する学会レベルのガイダンスがなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>EACTS初の体系的なProtected Cardiac Surgeryガイダンス。全デバイス戦略を網羅。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>ハイリスク心臓手術の術前計画にProtected Surgery概念を組み込むべき。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #2 -->
+  <article class="paper-card">
+    <span class="category-badge cat-guide">ガイドライン</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezaf295" target="_blank" rel="noopener">EACTS Expert Consensus Statement on the Ross Procedure in Adult Patients</a></div>
+    <div class="paper-authors">Vojacek J, Gofus J, Andreas M, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(2) &middot; DOI: 10.1093/ejcts/ezaf295</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Ross procedure positioned as viable first-line option for selected young/middle-aged adults with non-repairable AV disease. Evidence demonstrates restoration of life expectancy. Addresses selection, techniques, perioperative management, standardization, high-volume expertise, imaging follow-up.</div>
+      <div class="summary-text">Ross手術をEACTSが若年〜中年成人の大動脈弁疾患に対する第一選択として正式に推奨。平均余命回復のエビデンスを総括。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>Ross手術の位置付けに関する学会コンセンサスが存在しなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>EACTSがRoss手術を「first-line option」として公式に推奨した初のコンセンサス文書。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>修復不能なAV疾患の若年患者にRoss手術を積極的に提示。専門施設への紹介体制構築が重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #3 -->
+  <article class="paper-card">
+    <span class="category-badge cat-valve">弁膜症・心臓外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag102" target="_blank" rel="noopener">Double Valve Surgery Reduces HF Readmissions vs Isolated TAVR in Multivalvular Stenosis</a></div>
+    <div class="paper-authors">Tagliafierro M, Kanade R, Kirilina D, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag102</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">97 DVS vs 129 I-TAVR for severe AS + moderate-to-severe MS. No difference in mortality or stroke. I-TAVR associated with significantly greater HF rehospitalizations (p=.001). DVS should be considered preferred in surgical candidates.</div>
+      <div class="summary-text">重症AS+中等度以上MS（DVS 97例 vs TAVR 129例）。死亡・脳卒中は同等だが、TAVR群は心不全再入院が有意に多い。手術可能な患者ではDVS推奨。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>多弁膜狭窄症におけるDVS vs TAVR単独の比較データは限定的。</div>
+        <div class="analysis-item"><strong>What's New</strong>未治療のMS残存がTAVR後の心不全再入院を増加させることを明示。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>重症AS+MS合併例ではTAVR単独で済ませず、DVSを積極的に検討すべき。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #4 -->
+  <article class="paper-card">
+    <span class="category-badge cat-valve">弁膜症・心臓外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag022" target="_blank" rel="noopener">Left Atrial Volume Index as Risk Predictor in Isolated SAVR</a></div>
+    <div class="paper-authors">Handa K, Maeda K, Pak K, et al. 🇯🇵</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag022</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">812 patients, 8 Japanese institutions. LAVI ≥40 mL/m²: 5-year cardiac mortality 13.4% vs 2.6% (P=.001). LAVI ≥40 independent predictor of cardiac mortality (HR 2.08, P=.041). SAVR before significant LA enlargement may improve prognosis.</div>
+      <div class="summary-text">🇯🇵 日本8施設812例。LAVI≥40 mL/m²で5年心臓死亡率13.4%（vs 2.6%）。LA拡大前のSAVRが予後改善に寄与する可能性。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>AS患者の手術時期決定におけるLAVIの予後予測的価値は未検証。</div>
+        <div class="analysis-item"><strong>What's New</strong>LAVI≥40を独立した心臓死亡予測因子として多施設データで初めて実証。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>AS患者のフォローアップにLAVI測定を組み込み、40 mL/m²以上で手術適応を再検討すべき。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #5 -->
+  <article class="paper-card">
+    <span class="category-badge cat-valve">弁膜症・心臓外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag085" target="_blank" rel="noopener">HOME Score for Bicuspid Aortic Valve Repair</a></div>
+    <div class="paper-authors">Italiano G, Belli M, Folino G, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(2) &middot; DOI: 10.1093/ejcts/ezag085</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">203 BAV patients. Four TEE parameters: geometric height ≥18mm (OR 8.05), commissural orientation ≥140° (OR 8.29), good cusp quality (OR 20.4), preserved cusp mobility (OR 11.1). 9-point HOME score (AUC 0.89).</div>
+      <div class="summary-text">BAV修復可否を予測する9点HOMEスコア（AUC 0.89）。4つのTEEパラメータで低・中・高の修復確率を層別化。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>BAV修復の術前適応予測に用いる体系的スコアがなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>BAV修復確率を術前TEEで予測する初の定量的スコアリングシステム。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>BAV患者の術前TEE評価にHOMEスコアを導入し、修復可能性の術前カウンセリングに活用。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #6 -->
+  <article class="paper-card">
+    <span class="category-badge cat-valve">弁膜症・心臓外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag091" target="_blank" rel="noopener">Endoscopic Combined Aortic and Mitral Valve Surgery: Feasibility and Mid-term Outcomes</a></div>
+    <div class="paper-authors">Cresce GD, Zoni D, Grazioli V, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(2) &middot; DOI: 10.1093/ejcts/ezag091</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">111 patients, right mini-thoracotomy with 30-degree thoracoscope. AV replaced in all; MV repaired 54, replaced 57. In-hospital mortality 3.6%. Median follow-up 46 months, overall survival 87%.</div>
+      <div class="summary-text">内視鏡下AV+MV複合手術111例。院内死亡3.6%、46ヶ月全生存87%。MICSアプローチの複合弁手術への拡張を実証。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>内視鏡下での複合弁手術の実現可能性と中期成績のデータが乏しかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>111例という十分な症例数で内視鏡下AV+MV手術の安全性と中期成績を示した初の大規模報告。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>複合弁手術でもMICSアプローチは実行可能。患者選択と施設経験が重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #7 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag108" target="_blank" rel="noopener">Descending Thoracic Aortic Diameter Predicts Poor Outcome After TEVAR</a></div>
+    <div class="paper-authors">Piffaretti G, Lomazzi C, Grassi V, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag108</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">GREAT registry, 762 patients. Large diameter (≥7cm) independently associated with higher all-cause mortality (HR 1.6), reintervention (HR 2.4), aortic-related mortality (HR 2.2), type 1 endoleaks (HR 3.3). Patients with ≤7cm showed better outcomes.</div>
+      <div class="summary-text">GREATレジストリ762例。下行大動脈径≥7cmは全死亡HR 1.6、再介入HR 2.4、Type 1 EL HR 3.3。7cm以下での介入が好成績。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>TEVAR後の長期予後における瘤径の閾値が明確でなかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>7cmを閾値としたTEVAR後予後層別化を大規模レジストリで初めて明確化。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>下行大動脈瘤では7cm到達前のTEVAR介入が好ましい。大径例は厳重フォローが必要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #8 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag110" target="_blank" rel="noopener">Combining Ascending Aortic Diameter and Length and Growth Rates Improves ATAAD Prediction</a></div>
+    <div class="paper-authors">Kotanen IM, Selander T, Olsson C, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag110</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">116 patients (30 ATAAD vs 86 non-ATAAD). 46.7% of ATAAD did not exceed current diameter thresholds. Risk function combining diameter, length, and growth rates: AUC 0.83 for 5-year ATAAD prediction.</div>
+      <div class="summary-text">ATAAD患者の46.7%は径基準未達。径+長さ+成長率の4パラメータ統合で5年ATAAD予測AUC 0.83。径基準だけでは不十分。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>現行の予防的手術適応は径のみに依存し、約半数の解離を見逃す。</div>
+        <div class="analysis-item"><strong>What's New</strong>上行大動脈の「長さ」と「成長率」を加えた予測モデルで解離リスク評価が大幅に向上。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>上行大動脈瘤フォローアップに長さ計測を追加すべき。径55mm未満でも急速成長例は手術検討。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #9 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag098" target="_blank" rel="noopener">Left Subclavian Artery Revascularization in Arch Replacement: In Situ vs Extra-Anatomic Bypass</a></div>
+    <div class="paper-authors">Tokuda Y, Yamada M, Uemura T, et al. 🇯🇵</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag098</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">436 patients (240 in situ, 196 extra-anatomic). Extra-anatomic: immediate patency 100% vs 92.9% (P&lt;.001), 5-year patency 97.7% vs 87.8% (P=.0002). Similar perioperative outcomes.</div>
+      <div class="summary-text">🇯🇵 日本からの報告。弓部置換のLSA再建436例。Extra-anatomic bypassの即時・5年開存率がin situを上回る（97.7% vs 87.8%）。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>弓部置換でのLSA再建法の長期開存率比較データが不足していた。</div>
+        <div class="analysis-item"><strong>What's New</strong>Extra-anatomic bypassの長期開存率優越性を436例の大規模データで初めて実証。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>LSA再建はextra-anatomic bypassを第一選択として検討。特にFET使用時に有利。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #10 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag104" target="_blank" rel="noopener">Outcomes Following Contemporary Open TAAA Extent I Repair</a></div>
+    <div class="paper-authors">Frankort J, Doukas P, Krabbe J, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag104</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">171 patients. In-hospital mortality 14.6%, stroke 4.6%, paraplegia 2.9%, permanent dialysis 4.0%. 5-year survival 58.6%, elective 65.7%. Established treatment for patients without endovascular options.</div>
+      <div class="summary-text">TAAA Extent I open修復171例。院内死亡14.6%、対麻痺2.9%。5年生存58.6%（待機65.7%）。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>現代的TAAA Extent I open repairの成績報告が少なかった。</div>
+        <div class="analysis-item"><strong>What's New</strong>現代のopen TAAA Extent Iの合併症・生存データを提示。対麻痺率2.9%は改善傾向。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>血管内治療適応外のTAAA Extent Iではopen repairが依然有効な選択肢。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #11 -->
+  <article class="paper-card">
+    <span class="category-badge cat-aorta">大動脈外科</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag099" target="_blank" rel="noopener">Hybrid Repair for Thoraco-Abdominal Aortic Diseases: Staged Treatment Benefits</a></div>
+    <div class="paper-authors">Murana G, Piffaretti G, Di Marco L, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag099</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">86 patients, 2 Italian centers (2003-2024). In-hospital mortality 23.3%, SCI 5.8%. 2-stage in 79.1%. 5-year survival 50.9%, bypass patency 84%. Staged approach keeps SCI rates low.</div>
+      <div class="summary-text">Hybrid TAAA修復86例。院内死亡23.3%、SCI率5.8%。段階的アプローチでSCI低減。5年生存50.9%。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>Hybrid TAARAの長期成績、特にSCI率に対する段階的アプローチの効果データが限定的。</div>
+        <div class="analysis-item"><strong>What's New</strong>79.1%で2段階戦略を採用し、SCI率5.8%を達成。段階的approachの利点を提示。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>TAAA高リスク患者では2段階hybrid approachを検討し、脊髄虚血リスクを軽減。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #12 -->
+  <article class="paper-card">
+    <span class="category-badge cat-ecmo">ECMO</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag121" target="_blank" rel="noopener">Elective VV-ECMO to Support Complex Central Airway Surgery</a></div>
+    <div class="paper-authors">Jones D, Chow OS, Grosser R, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag121</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Reports on elective use of VV-ECMO for complex surgery involving central airways. Abstract not yet available.</div>
+      <div class="summary-text">中心気道を含む複雑手術に対する選択的VV-ECMOの使用。Abstract未公開。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>中心気道手術でのVV-ECMO支援の体系的データが不足。</div>
+        <div class="analysis-item"><strong>What's New</strong>選択的VV-ECMOによる複雑気道手術支援の経験を報告。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>中心気道手術の計画段階でVV-ECMOスタンバイを組み込む体制が重要。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #13 -->
+  <article class="paper-card">
+    <span class="category-badge cat-chd">先天性心疾患</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag105" target="_blank" rel="noopener">Cardiac Resynchronization Therapy for Failing Single Ventricle Physiology</a></div>
+    <div class="paper-authors">Tominaga Y, Sakaguchi H, Takeshita M, et al. 🇯🇵</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag105</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">Glenn (n=9) and Fontan (n=11). 1-year EF improvement: Glenn 30%→40% (P=.006), Fontan 30%→53% (P=.001). 5-year survival: Glenn 89%, Fontan 82%. Fontan completion 76% at 5 years for Glenn group.</div>
+      <div class="summary-text">🇯🇵 日本からの報告。単心室患者のCRT。Glenn後・Fontan後ともEF有意改善。5年生存89%/82%。Glenn群のFontan到達76%。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>単心室に対するCRTの有効性データは極めて限定的。</div>
+        <div class="analysis-item"><strong>What's New</strong>Glenn後・Fontan後の両フェーズでCRTの有効性を示した初の報告。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>単心室でdyssynchronyを認めた場合、CRT導入で心機能改善・Fontan到達率向上が期待。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #14 -->
+  <article class="paper-card">
+    <span class="category-badge cat-chd">先天性心疾患</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag086" target="_blank" rel="noopener">Risk Factors for IE in Contegra Grafts as RV-PA Conduits</a></div>
+    <div class="paper-authors">Jang DH, Kim DH, Choi ES, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag086</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">206 patients. IE in 13 (6.3%) at median 27.1 months. Annualized incidence 1.8%. Higher conduit peak flow velocity only risk factor (HR 4.01/m/s, cutoff 1.45 m/s). Gram-positive cocci 84.6%.</div>
+      <div class="summary-text">Contegra 206例中IE 6.3%。コンデュイト最大流速が唯一のリスク因子（カットオフ1.45 m/s）。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>Contegra特有のIEリスク因子は不明だった。</div>
+        <div class="analysis-item"><strong>What's New</strong>コンデュイト流速1.45 m/sをIE予測カットオフとして初めて提示。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>Contegra植込み後は定期エコーで流速監視。1.45 m/s超ではIE予防策の強化を検討。</div>
+      </div>
+    </div>
+  </article>
+
+  <!-- EJCTS #15 -->
+  <article class="paper-card">
+    <span class="category-badge cat-chd">先天性心疾患</span>
+    <div class="paper-title"><a href="https://doi.org/10.1093/ejcts/ezag097" target="_blank" rel="noopener">Midterm Outcomes of Handmade Pericardial Valved Conduits in CHD</a></div>
+    <div class="paper-authors">Yenduri N, Bayya PR, Sasikumar N, et al.</div>
+    <div class="paper-citation">EJCTS 2026;68(3) &middot; DOI: 10.1093/ejcts/ezag097</div>
+    <button class="collapsible-btn" onclick="toggleCollapse(this)">Abstract / 詳細を表示</button>
+    <div class="collapsible-content">
+      <div class="abstract-text">185 patients, median age 1.58 years. Cost 30% of commercial. Mortality 3.8%. Median follow-up 29.5 months. 5-year freedom from composite endpoint 70%. Cost-effective alternative in resource-limited settings.</div>
+      <div class="summary-text">手作りペリカーディアル弁付きコンデュイト185例。商用品の30%のコスト。死亡率3.8%。5年複合エンドポイント回避70%。</div>
+      <div class="analysis-grid">
+        <div class="analysis-item"><strong>Gap Analysis</strong>低資源環境での手作りコンデュイトの中期成績データが不足。</div>
+        <div class="analysis-item"><strong>What's New</strong>185例で手作りコンデュイトの実用性と費用対効果を実証。</div>
+        <div class="analysis-item"><strong>Clinical Implications</strong>低資源環境では有効な選択肢。先進国でも緊急時の代替として知識を持つ価値がある。</div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <p>CVS Journal Report — 2026年3月号 &middot; 全42編</p>
+    <p>JTCVS / JHLT / EJCTS 最新論文レビュー</p>
+    <p style="margin-top:8px;">Generated: 2026-03-23</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<!-- ===== JavaScript ===== -->
+<script>
+// Theme toggle
+function toggleTheme() {
+  const html = document.documentElement;
+  const btn = document.getElementById('themeBtn');
+  if (html.getAttribute('data-theme') === 'dark') {
+    html.setAttribute('data-theme', 'light');
+    btn.textContent = '🌙 Dark Mode';
+  } else {
+    html.setAttribute('data-theme', 'dark');
+    btn.textContent = '☀ Light Mode';
+  }
+  localStorage.setItem('theme', html.getAttribute('data-theme'));
+}
+// Restore saved theme
+(function() {
+  const saved = localStorage.getItem('theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+    document.getElementById('themeBtn').textContent = saved === 'dark' ? '☀ Light Mode' : '🌙 Dark Mode';
+  }
+})();
+
+// Collapsible abstracts
+function toggleCollapse(btn) {
+  const content = btn.nextElementSibling;
+  content.classList.toggle('open');
+  btn.textContent = content.classList.contains('open') ? 'Abstract / 詳細を閉じる' : 'Abstract / 詳細を表示';
+}
+
+// Back to top button visibility
+window.addEventListener('scroll', function() {
+  const btn = document.getElementById('backToTop');
+  if (window.scrollY > 400) {
+    btn.classList.add('visible');
+  } else {
+    btn.classList.remove('visible');
+  }
+});
+</script>
+
+</body>
+</html>
