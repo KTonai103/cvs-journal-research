@@ -1,6 +1,6 @@
 ---
 title: 心臓外科・MCS・LVAD関連ジャーナル 2026年5月号まとめ
-date: 2026-05-11
+date: 2026-05-16
 journals:
   - JTCVS
   - JHLT
@@ -15,18 +15,26 @@ tags:
   - MCS
   - LVAD
   - heart-transplant
+updated: 2026-05-16
 ---
 
 # 心臓外科・MCS・LVAD関連ジャーナル 2026年5月号 注目論文まとめ
 
-> [!info] 対象号と論文数
-> - **JTCVS** Vol.171 Issue 5（2026年5月号） + Online-First重要論文
-> - **JHLT** Vol.45 Issue 5（2026年5月号） + Online-First重要論文
-> - **EJCTS** Vol.68 Issue 5（2026年5月号・発行進行中）
-> - 収録論文数: JTCVS 21件 ＋ JHLT 19件 ＋ EJCTS 5件 = 計45件
-> - データソース: PubMed E-utilities, CrossRef API | 生成: 2026-05-11
+> [!info] 対象号と論文数（2026-05-16 更新）
+> - **JTCVS** Vol.171 Issue 5（2026年5月号 完成） + Online-First重要論文
+> - **JHLT** Vol.45 Issue 5（2026年5月号 完成） + Online-First重要論文（一部はVol.45 Issue 6へ）
+> - **EJCTS** Vol.68 Issue 5（2026年5月号 — 2026-05-11 EACTS公式発行） + Online-First
+> - 収録論文数: JTCVS 21件＋OF追加15件 ＋ JHLT 19件＋OF追加13件 ＋ EJCTS 12件（Iss5）＋OF 6件 = 計86件
+> - データソース: PubMed E-utilities, CrossRef API | 初版: 2026-05-11 | 改訂: 2026-05-16
 > - 関連ファイル: [[cardiothoracic_journals_schedule]] | [[cardiac_surgery_journals_2026_04]]
 > - DOI検証ログ: output/doi_verification_2026_05.md
+
+> [!warning] 2026-05-16 アップデート概要
+> 初版（2026-05-11）作成時、EJCTS Vol.68 Issue 5は発行進行中で **Online First 5本のみ** を掲載していた。
+> 5月11日にEACTSが正式発行し、Issue 5は **12論文** で構成された。本改訂で全12論文を反映。
+> あわせてJTCVS・JHLTの新規Online First論文（5/11以降にCrossRef登録された主要論文）も追加。
+> 特筆: **ISHLT ALADコンセンサス**（Juvet, JHLT 52著者）、**AATS 2026 N2+ NSCLC コンセンサス**（Linden, JTCVS）、
+> **Coselli 10年Marfan AVR vs AVS多施設研究**（JTCVS）、**10°C SCS心臓移植成績改善**（Ahmad, JHLT）等。
 
 ---
 
@@ -256,6 +264,143 @@ tags:
 
 ---
 
+### 🆕 2026-05-16 アップデート追加分（JTCVS Online First）
+
+#### 24. AATS 2026 コンセンサス：N2+ 非小細胞肺がんの評価と管理 ★★★★★
+
+> Linden P, Martin LW, Stiles B, et al. *The 2026 American Association for Thoracic Surgery (AATS) Expert Consensus Document: Evaluation and Management of N2+ Non-Small Cell Lung Cancer.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.03.622](https://doi.org/10.1016/j.jtcvs.2026.03.622)
+
+> [!abstract]
+> N2 stage NSCLCはheterogeneousな疾患群で、診療パターンに大きなばらつきがある。AATS委員会18人の専門家による初の包括的コンセンサス。診断ステージング・術前治療・外科適応・術後補助療法・サーベイランスの全範囲を体系化。胸部外科診療を直接変革する文書。
+
+---
+
+#### 25. Marfan症候群へのValve-Replacing vs Valve-Sparing大動脈基部置換：10年成績多施設研究 ★★★★★
+
+> Coselli JS, Miller DC, Volguina I, et al. *Ten-year outcomes of valve-replacing versus valve-sparing aortic root replacement in Marfan syndrome patients: An observational multicenter study.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.044](https://doi.org/10.1016/j.jtcvs.2026.04.044)
+
+> [!abstract]
+> Marfan症候群の大動脈基部置換においてValve-Replacing（Bentall）vs Valve-Sparing（David/Yacoub）の10年長期成績を多施設で観察評価。Coselli, Miller, Volguinaらによる歴史的Cohortからの10年追跡データ。AVS戦略の妥当性に直接エビデンスを提供する重要論文。#5（Murrieta-Álvarez）#6（David）#13と相補的なMarfan AVS関連の3本柱の1つ。
+
+---
+
+#### 26. 心臓外科後低心拍出症候群への先制的ECMO vs 救命的ECMO ★★★★
+
+> Halloum A, Tabbutt S, Ghanayem N, et al. *Proactive versus Resuscitative Extracorporeal Membrane Oxygenation for Low Cardiac Output Syndrome after Cardiac Surgery.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.05.003](https://doi.org/10.1016/j.jtcvs.2026.05.003)
+
+> [!abstract]
+> 小児心臓外科後の低心拍出症候群（LCOS）に対するECMO導入タイミング戦略を比較。先制的（Proactive）導入と従来の救命的（Resuscitative）導入の予後比較。ECMO早期介入の臨床効果を検証した実用的研究。
+
+---
+
+#### 27. 急性A型解離での上行entry tearに対する拡大弓部置換の長期成績（🇯🇵 日本＋多国） ★★★★
+
+> Kainuma S, Werner P, Inoue Y, et al. *Extended Arch Replacement Is Associated with Improved Long-Term Outcomes in Acute Type A Aortic Dissection with Ascending Entry Tear.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.054](https://doi.org/10.1016/j.jtcvs.2026.04.054)
+
+> [!abstract]
+> 急性A型大動脈解離（上行入口tear症例）に対する拡大弓部置換 vs 限定置換の長期成績を多施設比較。Kainuma（大阪）, Werner（Vienna）, Inoue（榊原）ら17名による国際多施設後向き研究。エントリ位置別の最適切除範囲決定に対するエビデンスを提供。
+
+---
+
+#### 28. 心臓移植後Vasoplegia：移植機能温存例での独立した血行動態フェノタイプ ★★★★
+
+> Ahmad A, Wang CC, Williams AM, et al. *Vasoplegia as a Distinct Hemodynamic Phenotype After Heart Transplantation: Prevalence, Determinants, and Clinical Consequences Despite Preserved Allograft Function.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.052](https://doi.org/10.1016/j.jtcvs.2026.04.052)
+
+> [!abstract]
+> 心臓移植後のVasoplegiaを「グラフト機能とは独立した血行動態フェノタイプ」として再定義。Vanderbilt（Ahmadら28名）による包括解析。グラフト機能が正常でもVasoplegiaが発生し独立した予後因子となることを実証。術中・術後管理に直接影響する重要発見。
+
+---
+
+#### 29. 10°C静的冷却保存（10°C SCS）による長時間虚血許容と重症PGD抑制 ★★★★
+
+> Ahmad A, Trahanas JM, Wang CC, et al. *From Constraint to Opportunity: 10°C Static Cold Storage Allows Prolonged Ischemic Time and Attenuates Severe Primary Graft Dysfunction Risk in Adult Heart Transplantation.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.016](https://doi.org/10.1016/j.jtcvs.2026.04.016)
+
+> [!abstract]
+> 4°Cの伝統的SCSではなく10°C SCSによって虚血許容時間が延長し、重症PGDリスクが低下することを成人心臓移植コホートで実証。Vanderbilt群による臨床的画期データ。JHLT 2026 Issue（Ahmad, healun.2026.02.004）と相補的なJTCVS版報告。心臓保存戦略のパラダイムシフト。
+
+---
+
+#### 30. HCM遺伝子型は中隔心筋切除術の成績に影響するか ★★★
+
+> Karadzha A, Schaff HV, Sawma T, et al. *Does the Genotype of Hypertrophic Cardiomyopathy Impact the Outcomes of Septal Myectomy?* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.051](https://doi.org/10.1016/j.jtcvs.2026.04.051)
+
+> [!abstract]
+> 肥大型心筋症（HCM）の遺伝子型が中隔心筋切除術の長期成績に与える影響を検討。Mayo Clinic（Schaffら）コホートから遺伝子型別アウトカム比較。HCM外科治療の個別化に向けた重要な遺伝学的アプローチ。
+
+---
+
+#### 31. Ross "Switch-Back" 手術：動脈スイッチ術後晩期Neo大動脈弁機能不全への対応 ★★★
+
+> Alsoufi B, Talley LS, Alsoufi M, et al. *Ross "Switch-Back" Procedure for Late Neo-Aortic Valve Dysfunction After Arterial Switch Operation.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.040](https://doi.org/10.1016/j.jtcvs.2026.04.040)
+
+> [!abstract]
+> TGAに対する動脈スイッチ術（ASO）後の晩期Neo大動脈弁機能不全に対する革新的アプローチ「Switch-Back」（Rossの応用）を提唱。Alsoufi群による技術解説と症例集積。先天性心臓外科における再手術戦略の新しい選択肢。
+
+---
+
+#### 32. Norwood vs ハイブリッド手術後のFontan成績：多施設比較 ★★★
+
+> Kobayashi K, Schiff M, Seese L, et al. *Multicenter comparison of hybrid and Norwood procedures in patients with Fontan circulation.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.005](https://doi.org/10.1016/j.jtcvs.2026.04.005)
+
+> [!abstract]
+> 単心室症の段階手術における第1段階としてのNorwood vs ハイブリッド戦略を、Fontan段階での成績で多施設比較（53名共著の大規模collaboration）。HLHS治療パラダイムの選択に直接影響する重要データ。
+
+---
+
+#### 33. 重症AS+心内膜線維弾性症児へのRoss手術と左室再賦活 ★★★
+
+> Jacob KA, Korsuize NA, van Wijk A, et al. *Left Ventricular Rehabilitation after Ross operation for Critical Aortic Stenosis with Endocardial Fibroelastosis.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.05.004](https://doi.org/10.1016/j.jtcvs.2026.05.004)
+
+> [!abstract]
+> 重症大動脈弁狭窄＋心内膜線維弾性症（EFE）の小児に対するRoss手術と左室再賦活戦略。Utrecht群による単施設経験。HLHS spectrum/borderline LV症例の二心室修復戦略にエビデンスを提供。
+
+---
+
+#### 34. 開存ITA-LAD例の再CABG：依然リスク因子か？ ★★★
+
+> Alaraj R, Alshneikat M, Awad AK, et al. *Is a Patent Internal Thoracic Artery-to-Left Anterior Descending Artery Still a Risk Factor in Patients Undergoing Isolated Redo-CABG?* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.026](https://doi.org/10.1016/j.jtcvs.2026.04.026)
+
+> [!abstract]
+> 開存ITA-LADを有する再CABG患者の周術期リスクを現代データで再評価。古典的「Patent ITAは再開胸の独立リスク」の概念を最新の手術技術で見直し。再手術CABG計画における意思決定支援。
+
+---
+
+#### 35. SAVRでの「Flow-adjusted Pressure Gradient」の臨床的価値（🇯🇵 日本） ★★★
+
+> Ohmori T, Maeda K, Hiraoka A, et al. *Clinical value of the flow-adjusted pressure gradient in patients undergoing surgical aortic valve replacement.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.003](https://doi.org/10.1016/j.jtcvs.2026.04.003)
+
+> [!abstract]
+> SAVR症例におけるFlow-adjusted Pressure Gradient（FPG）の予後評価指標としての価値を検証。Ohmori（大阪大学）, Maeda, Hiraoka（榊原大阪）ら19名による日本多施設研究。AS術前評価の精緻化に向けた新指標。
+
+---
+
+#### 36. Glenn循環でのVADステップワイズ戦略 ★★★
+
+> Keizman E, Bacha EA, Schindler K, et al. *Improved outcomes with a stepwise ventricular assist device strategy in Glenn physiology: A single-center experience.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.01.033](https://doi.org/10.1016/j.jtcvs.2026.01.033)
+
+> [!abstract]
+> Glenn循環患者（単心室）に対するVAD導入のステップワイズ戦略でアウトカム改善を示したColumbia単施設経験。先天性心疾患MCSの新しい臨床アルゴリズム。
+
+---
+
+#### 37. 営利病院でCABG価値は劣る：全国Medicareデータ ★★
+
+> Alcudia A, Adams G, Kumar S, et al. *For-profit hospitals deliver lower coronary artery bypass graft value: National evidence on mortality and Medicare expenditures.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.015](https://doi.org/10.1016/j.jtcvs.2026.04.015)
+
+> [!abstract]
+> 米国全国Medicareデータから営利vs非営利病院のCABG成績（死亡率＋Medicare費用）を比較。営利病院でvalue（成績/費用比）が劣ることを実証。医療政策・施設選択に影響する経済医学研究。
+
+---
+
+#### 38. PTE専門フェローシップの安全性・有効性：Royal Papworth経験 ★★★
+
+> Kumar U, Chiu S, Chia A, et al. *Safety and efficacy of a dedicated pulmonary thromboendarterectomy fellowship: The Royal Papworth experience at a high-volume center.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.03.603](https://doi.org/10.1016/j.jtcvs.2026.03.603)
+
+> [!abstract]
+> 慢性血栓塞栓性肺高血圧（CTEPH）への肺動脈血栓内膜剥離術（PTE）の専門フェローシップ訓練成績をRoyal Papworth（世界最大級のPTEセンター）で評価。PTE specialty trainingの安全性・教育的価値の検証。
+
+---
+
 ## JHLT（The Journal of Heart and Lung Transplantation）
 
 **2026年5月号｜Vol.45 Issue 5（pp.719–890＋pe149–e171）**
@@ -376,29 +521,268 @@ tags:
 
 ---
 
-## EJCTS（European Journal of Cardio-Thoracic Surgery）
+### 🆕 2026-05-16 アップデート追加分（JHLT Online First）
 
-**2026年5月号｜Vol.68 Issue 5（発行進行中 — 2026-05-11時点）**
+#### 12. ISHLT コンセンサス：急性肺アログラフト機能不全（ALAD）— 定義・病因・診断・治療・研究優先課題 ★★★★★
 
-> [!info] 発行状況
-> EJCTS Vol.68 Issue 5は現在発行進行中（In Progress）。2026年5月末までに追加論文が掲載予定。
+> Juvet S, Snell GI, Bos S, et al. *ISHLT Consensus Statement on Acute Lung Allograft Dysfunction (ALAD): Definition, Etiology, Diagnostic and Therapeutic Approaches, and Research Priorities.* JHLT Online First. DOI: [10.1016/j.healun.2026.02.1677](https://doi.org/10.1016/j.healun.2026.02.1677)
+
+> [!abstract]
+> ALAD（Acute Lung Allograft Dysfunction）は急性拒絶・感染・PGD・体液過剰など多様な原因で生じる肺移植早期の機能不全の包括概念。ISHLTが招集した52人の国際専門家パネルが、定義の統一・病因分類・診断手順・治療戦略・優先研究課題を体系化した初の国際コンセンサス。肺移植実施施設のbedside protocolを直接書き換える歴史的文書。
 
 ---
 
-### MCS / LVAD
+#### 13. 10°C静的冷却保存（10°C SCS）による心臓移植成績改善とドナー有効活用 ★★★★★
 
-#### 1. マイクロアキシャルフローポンプ（mAFP）部分から全補助への段階的強化がdLVAD前の転帰に与える影響（17欧州施設・130例） ★★★★
+> Ahmad A, Williams AM, Bommareddi S, et al. *Improved outcomes and donor utilization in heart transplantation with 10 °C static cold storage.* JHLT Online First. DOI: [10.1016/j.healun.2026.02.004](https://doi.org/10.1016/j.healun.2026.02.004)
 
-> Lewin D, et al. *Impact of partial- to full-support escalation with microaxial flow pumps prior to durable left ventricular assist device implantation.* EJCTS Online First. DOI: [10.1016/j.ejcts.2026.ezag165](https://doi.org/10.1093/ejcts/ezag165)
+> [!abstract]
+> 4°Cではなく10°C SCSによる心臓保存戦略を導入した心臓移植成績を解析。Vanderbilt群（Ahmadら22名）による臨床的画期データ。10°C SCSにより虚血許容時間延長・PGD減少が達成され、ドナー利用率拡大に貢献。JTCVS（#29 Ahmadら）と相補的なJHLT本論文。心臓保存のパラダイムシフトを臨床的に確証する画期論文。
+
+---
+
+#### 14. RecoverHeart：心筋回復の個別化確率を予測する多施設計算ツール ★★★★
+
+> Taleb I, Kyriakopoulos CP, Wever-Pinzon O, et al. *Determining the individualized probability of myocardial recovery: The multicenter RecoverHeart calculator.* JHLT Online First. DOI: [10.1016/j.healun.2026.04.008](https://doi.org/10.1016/j.healun.2026.04.008)
+
+> [!abstract]
+> 心筋回復は重要な治療目標だが、個別患者での予測は困難だった。32名共著の多施設共同研究によりRecoverHeart計算ツールを開発し、個別患者の心筋回復確率を予測。LVAD weaningや移植回避戦略の意思決定支援を実現。MCS患者の臨床アルゴリズムに直結する重要ツール。
+
+---
+
+#### 15. ASSIST CLAD：新規発症CLADへの間葉系間質細胞（MSC）の第2相RCT ★★★★
+
+> Chambers DC, Westall G, Darley D, et al. *The ASSIST CLAD study: A phase 2 randomized controlled trial of mesenchymal stromal cells for new-onset chronic lung allograft dysfunction.* JHLT Online First. DOI: [10.1016/j.healun.2026.03.032](https://doi.org/10.1016/j.healun.2026.03.032)
+
+> [!abstract]
+> CLAD（慢性肺アログラフト機能不全）は肺移植後死亡の主要原因で治療選択肢が限られる。新規発症CLADに対するMSC治療の第2相無作為化対照試験。Chambers, Westallらオーストラリア多施設共同（35名共著）。CLADへの細胞治療の初の良質RCTエビデンス。
+
+---
+
+#### 16. 死の限界を超えて：循環死後prolonged "no-touch" 期間でのRapid超酸素化復元 ★★★★
+
+> Williams AM, McGann K, Trahanas JM, et al. *Pushing the limits of death—Rapid ultraoxygenated recovery without preimplant heart reanimation in circulatory death with prolonged "no-touch" period.* JHLT Online First. DOI: [10.1016/j.healun.2026.01.023](https://doi.org/10.1016/j.healun.2026.01.023)
+
+> [!abstract]
+> DCD心臓移植において、従来より長いno-touch期間（5分超）を経た心臓を、植込み前再蘇生なしの「rapid超酸素化復元」技術で活用。Vanderbilt群（Williamsら15名）による画期的提案。DCDドナープールの劇的拡大可能性を示す技術的ブレークスルー。
+
+---
+
+#### 17. DCDの長時間無心拍温虚血後Outcomeと術中酸素負債 ★★★
+
+> Williams AM, Ahmad A, Trahanas J, et al. *Intraoperative oxygen debt is associated with early clinical outcomes after prolonged asystolic warm ischemia time in donation after circulatory death heart transplantation.* JHLT Online First. DOI: [10.1016/j.healun.2026.01.005](https://doi.org/10.1016/j.healun.2026.01.005)
+
+> [!abstract]
+> 延長された無心拍温虚血を経たDCD心臓移植後の早期臨床成績と術中酸素負債の関連を評価。28名共著。DCD心臓移植の代謝モニタリング指標としての術中酸素負債の有用性を提示。
+
+---
+
+#### 18. 2018年米国心臓割り当てポリシー変更後のd-LVADブリッジ患者の移植後生存低下 ★★★★
+
+> Meyer JS, Zur A, Aravot D, et al. *Reduced Post-transplant Survival in Patients Bridged with durable LVADs following the 2018 US Heart Allocation Policy Change: OPTN/UNOS Registry Analysis.* JHLT Online First. DOI: [10.1016/j.healun.2026.04.020](https://doi.org/10.1016/j.healun.2026.04.020)
+
+> [!abstract]
+> 2018年の米国心臓割り当てポリシー（6段階システム）導入後、d-LVADブリッジ患者の移植後生存が低下することをOPTN/UNOSレジストリで検証。LVADブリッジ戦略の見直し・ポリシー再評価の根拠となる重要レジストリ研究。
+
+---
+
+#### 19. 心原性ショック患者の心置換療法（HRT）軌跡とアウトカム ★★★★
+
+> Ton VK, Kong Q, Kanwar MK, et al. *Trajectories and outcomes in patients with cardiogenic shock receiving heart replacement therapies.* JHLT Online First. DOI: [10.1016/j.healun.2026.03.037](https://doi.org/10.1016/j.healun.2026.03.037)
+
+> [!abstract]
+> 心原性ショック患者でHRT（heart replacement therapies: 移植・d-LVAD・MCS）を受けた症例の経時的軌跡とアウトカムを解析。13名共著。CSの患者選別・段階的治療戦略決定への臨床指針。
+
+---
+
+#### 20. 移植前安全ネット腎臓移植：心臓移植後早期成果（新ポリシー下） ★★★
+
+> Kwon YIC, Ambrosio M, Keller M, et al. *Safety-net kidney transplantation after heart transplantation: Early real-world outcomes under the new policy.* JHLT 2026;45:933-938（Vol.45 Iss6）. DOI: [10.1016/j.healun.2026.01.033](https://doi.org/10.1016/j.healun.2026.01.033)
+
+> [!abstract]
+> 心臓移植後の腎機能低下症例に対する「Safety-net腎臓移植」新ポリシー下での実世界成績。Heart-kidney listing戦略の妥当性検証。MCS/移植患者の多臓器戦略に影響。
+
+---
+
+#### 21. DCD vs DBD心臓のTranscriptomic/Metabolomic解析 ★★★
+
+> Sicim H, Abou El Ela A, Lu S, et al. *Differential transcriptomic and metabolomic landscape between human hearts donated after cardiac vs brain death.* JHLT Online First. DOI: [10.1016/j.healun.2026.03.014](https://doi.org/10.1016/j.healun.2026.03.014)
+
+> [!abstract]
+> DCD vs DBD心臓のtranscriptomic/metabolomicランドスケープ比較により、両donor sourceの基礎生物学的差異を解明。DCD心臓の最適保存・再灌流戦略の分子基盤を提供。
+
+---
+
+#### 22. 心臓移植年齢上限の再定義（コメンタリー） ★★★
+
+> Quader M, Patel H. *Redefining Age Boundaries in Heart Transplantation.* JHLT Online First. DOI: [10.1016/j.healun.2026.05.009](https://doi.org/10.1016/j.healun.2026.05.009)
+
+> [!abstract]
+> 高齢化社会における心臓移植年齢上限の再定義の必要性を論じたコメンタリー。Donor利用拡大・recipient適格性の見直しに向けた議論を整理。
+
+---
+
+#### 23. 大西洋を挟むDCD心臓移植：実践の相違と成績の収束（コメンタリー） ★★
+
+> Noly PE, Guihaire J. *DCD Heart Transplantation Across the Atlantic: Diverging Practices, Converging Outcomes.* JHLT Online First. DOI: [10.1016/j.healun.2026.04.030](https://doi.org/10.1016/j.healun.2026.04.030)
+
+> [!abstract]
+> 米国（NRP・direct procurement）vs英国/オーストラリア（NRP・ex-situ perfusion）のDCD心臓移植実践の地理的差異と、最終アウトカムの収束を論じたコメンタリー。Morcos UK報告（#2）への解説的編集論文。
+
+---
+
+#### 24. DCD利活用への機械学習活用可能性（コメンタリー） ★★
+
+> Lerman JB, DeVore AD. *Between Withdrawal and Death: Can Machine Learning Improve DCD Utilization?* JHLT Online First. DOI: [10.1016/j.healun.2026.04.029](https://doi.org/10.1016/j.healun.2026.04.029)
+
+> [!abstract]
+> DCDドナーの「withdrawal-to-death」予測へのML活用可能性を論じたコメンタリー。Functional Donor Warm Ischemic Time（fDWIT）の予測精度向上による移植機会拡大の議論。
+
+---
+
+## EJCTS（European Journal of Cardio-Thoracic Surgery）
+
+**2026年5月号｜Vol.68 Issue 5（pp.発行完了 — 2026-05-11 EACTS発行）**
+
+> [!success] 発行状況更新（2026-05-16）
+> EJCTS Vol.68 Issue 5は2026-05-11にEACTS公式発行完了。**Issue 5には12論文**が掲載された。
+> 初版（5/11）で既収載の5論文はすべて Online First のまま（Issue配属未確定）。
+
+---
+
+### Vol.68 Issue 5 掲載論文（2026-05-11 発行）
+
+#### 1. 低リスク患者の自己拡張型TAVR vs SAVR：長期追跡データが示すもの ★★★★★
+
+> Heuts S, Marin-Cuartas M, Borger MA. *Longer-Term Follow-up of Self-Expanding Transcatheter Versus Surgical Aortic Valve Replacement in Low Risk Patients: What Does the Data Tell Us?* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag120](https://doi.org/10.1093/ejcts/ezag120)
+
+> [!abstract]
+> 低リスク患者を対象とした自己拡張型TAVR vs SAVRの長期追跡データ（おそらくEvolut Low Risk・PARTNER 3等の5年以上follow-up）の批判的レビュー。Heuts, Marín-Cuartas, BorgerによるLeipzigグループ。低リスクAS患者への戦略選択（TAVR vs SAVR）に直接エビデンスを与える注目レビュー論文。
+
+---
+
+#### 2. 急性心筋梗塞合併の心室自由壁破裂・偽性瘤・乳頭筋断裂：包括レビュー ★★★★★
+
+> Lorusso R, Matteucci M, Ronco D, et al. *Ventricular free-wall rupture, ventricular pseudoaneurysm, and papillary muscle rupture complicating acute myocardial infarction.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag157](https://doi.org/10.1093/ejcts/ezag157)
+
+> [!abstract]
+> AMI後の機械的合併症（自由壁破裂・偽性瘤・乳頭筋断裂）は再灌流療法の進歩で<1%まで減少したが、依然として致死率が高い。35名共著（Maastricht Lorussoグループ主導）による包括的レビュー。診断・血行動態評価・外科適応・MCSサポート・カテーテルベース介入・術後管理の全範囲を体系化。AMI合併mechanical complicationの現代的標準を確立。
+
+---
+
+#### 3. 2025 ESC/EACTS弁膜症ガイドラインの外科的含意：橋渡し総括 ★★★★★
+
+> Marín-Cuartas M, de Waha S, Borger MA. *Surgical Implications of the 2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease: Key Recommendations Bridging Guidelines and Clinical Practice.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag158](https://doi.org/10.1093/ejcts/ezag158)
+
+> [!abstract]
+> 2025年に発表されたESC/EACTS弁膜症ガイドラインの外科診療への直接的含意を体系的に解説。Marín-Cuartas, de Waha, BorgerによるLeipzigグループ。外科適応・術式選択・タイミング決定にガイドラインを実装する実用的橋渡し文書。心臓外科医必読。
+
+---
+
+#### 4. 外科的左心耳閉鎖の成功評価：方法と基準のシステマティックレビュー ★★★★
+
+> Vad R, Gosvig K, Beetham R, et al. *Methods and Criteria for Evaluating the Success of Surgical Left Atrial Appendage Closure: A Systematic Review.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag146](https://doi.org/10.1093/ejcts/ezag146)
+
+> [!abstract]
+> 外科的LAACの成功評価方法・基準は標準化されていない問題に対するシステマティックレビュー。画像モダリティ（TEE・CT等）・評価基準・バリデーション手法を網羅。LAARGE試験・OBSERVE-AFを補完する重要methodology paper。同号Servito ezag169コメンタリーと併読推奨。
+
+---
+
+#### 5. 心房性僧帽弁逸脱への外科vs TEER：不整脈負荷への影響 ★★★★
+
+> Sharew B, Sallam A, Razavi AA, et al. *Impact of Transcatheter or Surgical Mitral Repair on Arrhythmic Burden in Patients With Mitral Valve Prolapse.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag131](https://doi.org/10.1093/ejcts/ezag131)
+
+> [!abstract]
+> 不整脈性僧帽弁逸脱（AMVP）は悪性心室不整脈と関連するが、外科修復 vs TEERの不整脈アウトカム比較は未解明だった。2004–2024年単施設1911例の後向きコホート。AMVP有無別の外科vsTEERのPVC負荷・VT発生を評価。AMVP治療戦略選択への重要な実臨床エビデンス。
+
+---
+
+#### 6. 単独・ハイブリッド胸腔鏡的AFアブレーション：13年多施設レジストリ ★★★★
+
+> Aerts L, Kawczynski MJ, Verberkmoes NJ, et al. *Safety and Efficacy of Stand-Alone and Hybrid Thoracoscopic Atrial Fibrillation Ablation.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag161](https://doi.org/10.1093/ejcts/ezag161)
+
+> [!abstract]
+> bipolar irrigated RFクランプによる単独/ハイブリッド胸腔鏡的AFアブレーションの長期効果と安全性を13年（2010–2023）多施設レジストリ（19名共著）で評価。主要評価項目は心房頻拍性不整脈（ATAs）自由生存。Maze IV代替戦略としてのthoracoscopic ablationの位置づけを明確化。
+
+---
+
+#### 7. RV機能不全への解剖学的基礎による三尖弁修復：annuloplasty超え（🇯🇵 日本） ★★★★
+
+> Arai H, Grau JB. *Beyond Annuloplasty: Anatomy-based Tricuspid Valve Repair for Right Ventricular Dysfunction.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag160](https://doi.org/10.1093/ejcts/ezag160)
+
+> [!abstract]
+> RV remodelingを伴う機能性三尖弁逆流（fTR）への外科治療は標準化が遅れている。Arai（東京医科歯科）, Grauによる解剖学的基盤に立脚した修復戦略の包括的レビュー。Annuloplasty単独を超える複合修復技術（leaflet augmentation・papillary muscle approximation等）を体系化。日本からの重要review。
+
+---
+
+#### 8. 30日以降のCABG再入院：その先の地平 ★★★
+
+> Sandner S, Arnreiter M. *Readmission After Coronary Artery Bypass Grafting: Beyond the 30-Day Horizon.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag162](https://doi.org/10.1093/ejcts/ezag162)
+
+> [!abstract]
+> CABG後再入院評価は30日以内に集中してきたが、それ以降の再入院パターン・予測因子・予防戦略を論じたEditorial/perspective。CABG後長期管理の評価指標再考。
+
+---
+
+#### 9. 原発性MR外科修復後の心臓ダメージの程度・進行 ★★★
+
+> Myagmardorj R, Fortuni F, Mantegazza V, et al. *Extent and Progression of Cardiac Damage in Patients With Primary Mitral Regurgitation Undergoing Surgical Repair.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag149](https://doi.org/10.1093/ejcts/ezag149)
+
+> [!abstract]
+> 原発性MR外科修復後の心臓ダメージ（extra-MV: 左房・LV・肺高血圧・RV）の進行を5施設多施設で評価（17名共著）。MV修復後の心エコー追跡（中央値7ヶ月）から心臓damage staging分類を用いた予後評価。MR手術タイミング判断への新知見。
+
+---
+
+#### 10. 1次的瘤適応なきARでの孤立性大動脈弁修復後の大動脈成長 ★★★
+
+> Zito F, Takkenberg JJM, Melina G, et al. *Aortic Growth After Isolated Aortic Valve Repair in Patients With Aortic Regurgitation Without Primary Aneurysm Indication.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag163](https://doi.org/10.1093/ejcts/ezag163)
+
+> [!abstract]
+> 大動脈瘤適応のない大動脈弁逆流（AR）に対する孤立性大動脈弁修復後の大動脈成長を多施設（33名共著）で評価。Takkenbergら欧州コホート。AR isolated repair戦略後の大動脈サーベイランスに対する重要長期データ。
+
+---
+
+#### 11. 胎児大動脈弁形成からRoss手術まで：胎児介入の旅 ★★★
+
+> Sames-Dolzer E, Tulzer A, Mair R. *From Fetal Aortic Valvuloplasty to Ross Operation: An Exciting Journey.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag152](https://doi.org/10.1093/ejcts/ezag152)
+
+> [!abstract]
+> 胎児大動脈弁形成術から段階的に新生児・乳児期Ross手術まで進む先天性心臓外科の経路を、Linz Children's Heart Center経験から概説。胎児介入の長期成績と外科戦略の進化。
+
+---
+
+#### 12. EACTS Residents' Committee 30年の歩み ★★
+
+> Amabile A, Hussein N, Zancanaro E, et al. *Three Decades of the European Association for Cardio-Thoracic Surgery (EACTS) Residents' Committee.* EJCTS 2026;68(5). DOI: [10.1093/ejcts/ezag150](https://doi.org/10.1093/ejcts/ezag150)
+
+> [!abstract]
+> 1996年設立のEACTS Residents' Committee 30年史。研修標準化・教育イニシアチブ・若手代表性の確保への貢献を整理。心臓胸部外科教育のヨーロッパモデルの理解に。
+
+---
+
+### EJCTS Online First（Issue配属未確定）
+
+#### 13. 妊娠予定女性への大動脈弁選択：適切な弁を適切な時期に（コメンタリー） ★★★
+
+> Servito M, Tawfik J, Tam DY, et al. *The Right Valve at the Right Time: aortic Valve Choice in Women Planning Pregnancy.* EJCTS Online First. DOI: [10.1093/ejcts/ezag168](https://doi.org/10.1093/ejcts/ezag168)
+
+> [!abstract]
+> 妊娠予定の女性AS/AR患者の弁選択戦略（生体弁・機械弁・Ross・修復）を論じたコメンタリー。抗凝固管理・弁劣化・将来の再手術リスクのバランスを整理。日本における若年女性弁膜症患者の意思決定にも参照可能。
+
+---
+
+### EJCTS Online First（初版5/11時点で収載済）
+
+#### 14. マイクロアキシャルフローポンプ（mAFP）部分から全補助への段階的強化がdLVAD前の転帰に与える影響（17欧州施設・130例） ★★★★
+
+> Lewin D, et al. *Impact of partial- to full-support escalation with microaxial flow pumps prior to durable left ventricular assist device implantation.* EJCTS Online First. DOI: [10.1093/ejcts/ezag165](https://doi.org/10.1093/ejcts/ezag165)
 
 > [!abstract]
 > mAFPは心原性ショック患者のdLVADブリッジとして有効だが、部分補助mAFP（最大3.5L/min）は全補助（Impella 5.0/5.5等）への段階的強化が適切な患者群では前処置として不十分な可能性がある。17欧州心臓施設130例（2015–2024）の後向き解析で、部分→全補助段階化のタイミングとdLVAD後転帰を評価。多施設欧州データによりmAFP使用戦略の最適化指針を提供。
 
 ---
 
-### 弁膜症・心臓外科
-
-#### 2. 経心尖的カテーテル弁植込み（AR）：多施設前向き試験（中国15施設・142例） ★★★
+#### 15. 経心尖的カテーテル弁植込み（AR）：多施設前向き試験（中国15施設・142例） ★★★
 
 > Xiao B, et al. *Transapical transcatheter valve implantation for aortic regurgitation: a multicenter, prospective trial.* EJCTS Online First. DOI: [10.1093/ejcts/ezag065](https://doi.org/10.1093/ejcts/ezag065)
 
@@ -407,9 +791,7 @@ tags:
 
 ---
 
-### 先天性心疾患
-
-#### 3. ccTGA修復後の長期成功の鍵としての三尖弁 ★★★
+#### 16. ccTGA修復後の長期成功の鍵としての三尖弁 ★★★
 
 > Weixler V, et al. *Beyond survival - Tricuspid valve as key determinant for long-term success after ccTGA repair.* EJCTS Online First. DOI: [10.1093/ejcts/ezag174](https://doi.org/10.1093/ejcts/ezag174)
 
@@ -418,7 +800,7 @@ tags:
 
 ---
 
-#### 4. Fontanループ患者への標準化アプローチの利点 ★★
+#### 17. Fontanループ患者への標準化アプローチの利点 ★★
 
 > Avgeridou S, et al. *The benefits of a standardized approach in Fontan patients-an Effective Approach for Tailoring Treatment to Individual Needs.* EJCTS Online First. DOI: [10.1093/ejcts/ezag170](https://doi.org/10.1093/ejcts/ezag170)
 
@@ -427,9 +809,7 @@ tags:
 
 ---
 
-### その他
-
-#### 5. 左心耳閉鎖の「成功」の意味：未解決の問い（Commentary） ★★
+#### 18. 左心耳閉鎖の「成功」の意味：未解決の問い（Commentary） ★★
 
 > Servito M, et al. *More questions than answers: the elusive meaning of success in left atrial appendage closure.* EJCTS Online First. DOI: [10.1093/ejcts/ezag169](https://doi.org/10.1093/ejcts/ezag169)
 
@@ -440,20 +820,27 @@ tags:
 
 ## 特に注目すべき論文 一覧表
 
-> [!tip] 今月のTop 10（★3以上から選出）
+> [!tip] 今月のTop 15（★4以上 + 2026-05-16 改訂版コンセンサス含む）
 
 | 順位 | 重要度 | 雑誌 | 著者 | タイトル（要約） | カテゴリ |
 |---|---|---|---|---|---|
 | 1 | ★★★★★ | JHLT | Kobashigawa J et al. | ISHLT 2026 PGDコンセンサス会議サマリー | 心臓移植 |
-| 2 | ★★★★★ | JTCVS | Mori M et al. | AATS 2026 AFMR管理コンセンサス | 弁膜症 |
-| 3 | ★★★★★ | JTCVS | Damiano RJ et al. | Cox-Maze IV多施設前向き試験（NPAF治療） | 不整脈外科 |
-| 4 | ★★★★ | JHLT | Morcos K et al. | 英国DCD心臓移植国家プログラム成績 | 心臓移植 |
-| 5 | ★★★★ | JTCVS | Xu X et al. | 三尖弁輪形成RCT：フレキシブルバンド vs リジッドリング | 弁膜症 |
-| 6 | ★★★★ | JTCVS | David TE et al. | 大動脈弁温存術後25年超長期追跡（Marfan） | 大動脈外科 |
-| 7 | ★★★★ | JTCVS | Alvarez A et al. | ma-LVAD vs d-LVADによる心臓移植ブリッジ成績 | MCS/LVAD |
-| 8 | ★★★★ | JTCVS | Chatterjee S et al. | AATS 2026 HIT管理コンセンサス | 周術期管理 |
-| 9 | ★★★★ | JHLT | Håkansson J et al. | 新規ワイヤレスTET：ドライブラインフリーLVAD | MCS/LVAD |
-| 10 | ★★★★ | EJCTS | Lewin D et al. | mAFP部分→全補助段階化のdLVAD前転帰（17施設） | MCS/LVAD |
+| 2 | ★★★★★ | JHLT | Juvet S et al. 🆕 | ISHLT コンセンサス：ALAD（急性肺アログラフト機能不全） | 肺移植 |
+| 3 | ★★★★★ | JTCVS | Linden P et al. 🆕 | AATS 2026 N2+ NSCLC コンセンサス | 胸部腫瘍 |
+| 4 | ★★★★★ | JTCVS | Mori M et al. | AATS 2026 AFMR管理コンセンサス | 弁膜症 |
+| 5 | ★★★★★ | JTCVS | Damiano RJ et al. | Cox-Maze IV多施設前向き試験（NPAF治療） | 不整脈外科 |
+| 6 | ★★★★★ | EJCTS | Marín-Cuartas M et al. 🆕 | 2025 ESC/EACTS弁膜症ガイドライン外科的含意 | 弁膜症 |
+| 7 | ★★★★★ | EJCTS | Heuts S et al. 🆕 | 自己拡張型TAVR vs SAVR 長期追跡（低リスク） | 弁膜症/TAVR |
+| 8 | ★★★★★ | EJCTS | Lorusso R et al. 🆕 | AMI合併mechanical complication 包括レビュー | MCS/AMI |
+| 9 | ★★★★★ | JTCVS | Coselli JS et al. 🆕 | 10年Marfan AVR vs AVS多施設研究 | 大動脈外科 |
+| 10 | ★★★★★ | JHLT | Ahmad A et al. 🆕 | 10°C SCSによる心臓移植成績改善 | 心臓移植/保存 |
+| 11 | ★★★★ | JHLT | Morcos K et al. | 英国DCD心臓移植国家プログラム成績 | 心臓移植 |
+| 12 | ★★★★ | JTCVS | David TE et al. | 大動脈弁温存術後25年超長期追跡（Marfan） | 大動脈外科 |
+| 13 | ★★★★ | EJCTS | Vad R et al. 🆕 | 外科的LAAC成功評価のシステマティックレビュー | 不整脈/弁膜症 |
+| 14 | ★★★★ | JHLT | Taleb I et al. 🆕 | RecoverHeart計算ツール（心筋回復個別予測） | MCS/LVAD |
+| 15 | ★★★★ | JHLT | Chambers DC et al. 🆕 | ASSIST CLAD：MSC第2相RCT | 肺移植 |
+
+🆕 = 2026-05-16 アップデートで追加された新規論文
 
 ---
 
@@ -481,8 +868,28 @@ tags:
 
 ### 大動脈外科・その他
 - **AATS HIT管理コンセンサス**（Chatterjee, JTCVS）— 心臓外科患者特有のHIT診断・管理ガイダンスが初めて策定
+- **Coselli 10年Marfan AVR vs AVS**（🆕 JTCVS, 5/16追加）— Marfan基部置換10年成績の多施設観察研究。#5/6/13と合わせてMarfan AVS戦略の3つの大規模長期データが2026年5月に集中
+- **Kainuma拡大弓部置換（🇯🇵 + 多国）**（🆕 JTCVS, 5/16追加）— 上行entry tear型A型解離での弓部全置換の長期優位性
+
+### 🆕 2026-05-16 追加 — 主要コンセンサス・ガイドライン文書
+- **ISHLT ALADコンセンサス**（Juvet et al., JHLT, 52著者）— 急性肺アログラフト機能不全の初の国際統一定義
+- **AATS 2026 N2+ NSCLC コンセンサス**（Linden et al., JTCVS）— ステージN2肺癌の外科診療を標準化
+- **2025 ESC/EACTS 弁膜症ガイドラインの外科的含意**（Marín-Cuartas et al., EJCTS）— ガイドライン実装の橋渡し文書
+
+### 🆕 2026-05-16 追加 — 心臓移植/MCS分野の重要進展
+- **10°C SCS**：Vanderbilt群（Ahmad et al.）がJTCVS・JHLTでJoint Publication。4°Cから10°Cへの保存温度移行で虚血許容時間延長＋PGD減少を実証 — 心臓保存のパラダイムシフト
+- **RecoverHeart計算ツール**（Taleb et al., JHLT, 32著者）— 心筋回復確率の個別化予測。LVAD weaning・移植回避判断に活用
+- **ASSIST CLAD RCT**（Chambers et al., JHLT）— 新規発症CLADへのMSC治療の第2相RCT。CLAD治療選択肢拡大の重要エビデンス
+- **DCD領域の継続的進展**：Williams（ultraoxygenated recovery）, Sicim（DCD vs DBD molecular landscape）, Meyer（2018ポリシー後のd-LVAD bridge生存低下）等のDCD/MCS関連の多数の進展
+
+### 🆕 2026-05-16 追加 — EJCTS Vol.68 Issue 5 主要論文
+- **Heuts: TAVR vs SAVR 長期追跡**（低リスク）— EvoLow Risk・PARTNER 3等の5年以上follow-upの批判レビュー
+- **Lorusso: AMI mechanical complications**（35著者の包括レビュー）— 自由壁破裂・偽性瘤・乳頭筋断裂の現代的標準
+- **Arai（東京医科歯科）解剖学的tricuspid valve repair** — 日本からの重要review
+- **Sharew: AMVP外科vs TEER**（1911例）— Arrhythmic MVPの治療選択戦略
 
 ---
 
-*最終更新: 2026年5月11日 10:15 JST*
+*初版: 2026年5月11日 10:15 JST*
+*改訂: 2026年5月16日 22:00 JST — EJCTS Vol.68 Issue 5発行完了反映、JTCVS/JHLTの5月11日以降Online First追加、Top 15ランキング更新*
 *DOI検証ログ: output/doi_verification_2026_05.md*
