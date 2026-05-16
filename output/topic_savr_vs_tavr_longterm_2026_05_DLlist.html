@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>SAVR vs TAVR 長期成績レビュー — 文献ダウンロード用リスト</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="savr-vs-tavr-長期成績レビュー--文献dlリスト">SAVR vs TAVR 長期成績レビュー — 文献DLリスト</h1>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p><strong>用途</strong>: 阪大附属図書館（オンキャンパス機関アクセス）での <strong>PDF一括ダウンロード用</strong> チェックリスト</p>
+</div>
+>
+> **総文献数**: 56本（Tier 1: 15、Tier 2: 19、Tier 3: 22）
+>
+> **DL優先度**:
+> - 🥇 **Tier 1（★★★★★）必須**: レビューの中核論文。最優先でDL
+> - 🥈 **Tier 2（★★★★）重要**: メタアナリシス・主要試験のサブ解析
+> - 🥉 **Tier 3（★★★）補助**: 定義論文・周辺論文・経済性等
+>
+> **OA表記**:
+> - 🔓 **Open Access**（institution不要、PMC等でフリー）
+> - 🔒 **Subscription**（阪大VPN/学内アクセス必要）
+
+<hr />
+<h2 id="1st_place_medal-tier-1-必須-dl-15本">🥇 Tier 1（★★★★★）— 必須 DL 15本</h2>
+<h3 id="起点となるeditorial中心論文">起点となるEditorial（中心論文）</h3>
+<h4 id="1-heuts-ejcts-2026--起点エディトリアル-unlock">1. <strong>Heuts EJCTS 2026 — 起点エディトリアル</strong> 🔓</h4>
+<ul>
+<li><strong>タイトル</strong>: Longer-Term Follow-up of Self-Expanding Transcatheter Versus Surgical Aortic Valve Replacement in Low Risk Patients: What Does the Data Tell Us?</li>
+<li><strong>著者</strong>: Heuts S, Marin-Cuartas M, Borger MA</li>
+<li><strong>雑誌</strong>: Eur J Cardiothorac Surg 2026;68(5):ezag120</li>
+<li><strong>DOI</strong>: 10.1093/ejcts/ezag120</li>
+<li><strong>PMID</strong>: 42120054</li>
+<li><strong>PMC</strong>: PMC13167190（OA）</li>
+<li><strong>URL</strong>: <a href="https://academic.oup.com/ejcts/article/68/5/ezag120">https://academic.oup.com/ejcts/article/68/5/ezag120</a></li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="evolut-low-risk-trial--主要時系列">Evolut Low Risk Trial — 主要時系列</h3>
+<h4 id="2-forrest-jacc-2026--evolut-lr-6年7年-lock">2. <strong>Forrest JACC 2026 — Evolut LR 6年/7年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Six-year outcomes after transcatheter vs surgical aortic valve replacement in low-risk patients with aortic stenosis</li>
+<li><strong>著者</strong>: Forrest JK, Yakubov SJ, Deeb GM, Reardon MJ (Evolut Low Risk Trial Investigators)</li>
+<li><strong>雑誌</strong>: J Am Coll Cardiol 2026 (Epub Feb 16, 2026)</li>
+<li><strong>DOI</strong>: 10.1016/j.jacc.2026.02.5063</li>
+<li><strong>PMID</strong>: 41697183</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h4 id="3-forrest-jacc-2025--evolut-lr-5年acc25-lbt-lock">3. <strong>Forrest JACC 2025 — Evolut LR 5年（ACC.25 LBT）</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: 5-year outcomes after transcatheter or surgical aortic valve replacement in low-risk patients with aortic stenosis</li>
+<li><strong>著者</strong>: Forrest JK et al.</li>
+<li><strong>雑誌</strong>: J Am Coll Cardiol 2025;85(15):1523-1532</li>
+<li><strong>DOI</strong>: 10.1016/j.jacc.2025.03.004</li>
+<li><strong>PMID</strong>: 40158212</li>
+<li><strong>PMC</strong>: PMC12687276（OA）</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="partner-3-trial--主要時系列">PARTNER 3 Trial — 主要時系列</h3>
+<h4 id="4-leon-nejm-2026--partner-3-7年-lock">4. <strong>Leon NEJM 2026 — PARTNER 3 7年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Transcatheter or Surgical Aortic-Valve Replacement in Low-Risk Patients at 7 Years</li>
+<li><strong>著者</strong>: Leon MB, Mack MJ et al.</li>
+<li><strong>雑誌</strong>: N Engl J Med 2026;394(8):773-783 (Epub 2025 Oct 27)</li>
+<li><strong>DOI</strong>: 10.1056/NEJMoa2509766</li>
+<li><strong>PMID</strong>: 41144631</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h4 id="5-mack-nejm-2023--partner-3-5年-lock">5. <strong>Mack NEJM 2023 — PARTNER 3 5年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Transcatheter Aortic-Valve Replacement in Low-Risk Patients at Five Years</li>
+<li><strong>著者</strong>: Mack MJ, Leon MB et al.</li>
+<li><strong>雑誌</strong>: N Engl J Med 2023;389(21):1949-1960</li>
+<li><strong>DOI</strong>: 10.1056/NEJMoa2307447</li>
+<li><strong>PMID</strong>: 37874020</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="notion-trial--10年データ">NOTION Trial — 10年データ</h3>
+<h4 id="6-thyregod-ehj-2024--notion-10年-lock">6. <strong>Thyregod EHJ 2024 — NOTION 10年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Transcatheter or surgical aortic valve replacement in patients with severe aortic valve stenosis: 10-year follow-up of the NOTION trial</li>
+<li><strong>著者</strong>: Thyregod HGH, Jørgensen TH et al.</li>
+<li><strong>雑誌</strong>: Eur Heart J 2024;45(13):1116-1124</li>
+<li><strong>DOI</strong>: 10.1093/eurheartj/ehae043</li>
+<li><strong>PMID</strong>: 38321820</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h4 id="7-jørgensen-ehj-2021--notion-8年-lock">7. <strong>Jørgensen EHJ 2021 — NOTION 8年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Eight-year outcomes for patients with aortic valve stenosis at low surgical risk randomized to TAVI or SAVR</li>
+<li><strong>著者</strong>: Jørgensen TH, Thyregod HGH et al.</li>
+<li><strong>雑誌</strong>: Eur Heart J 2021;42(30):2912-2919</li>
+<li><strong>DOI</strong>: 10.1093/eurheartj/ehab375</li>
+<li><strong>PMID</strong>: 34179981</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="inspiris-resilia--commence-pivotal">Inspiris RESILIA — COMMENCE Pivotal</h3>
+<h4 id="8-beaver-jtcvs-2024--commence-7年-lock">8. <strong>Beaver JTCVS 2024 — COMMENCE 7年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Seven-year follow-up from the COMMENCE Trial: A study of bovine pericardial bioprosthesis with novel tissue treatment</li>
+<li><strong>著者</strong>: Beaver T et al.</li>
+<li><strong>雑誌</strong>: J Thorac Cardiovasc Surg 2024;168(3):781-791</li>
+<li><strong>DOI</strong>: 10.1016/j.jtcvs.2023.09.047</li>
+<li><strong>PMID</strong>: 37778503</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h4 id="9-kaneko-jtcvs-open-2026--commence-8年-propensity-vs-magna-ease-unlock">9. <strong>Kaneko JTCVS Open 2026 — COMMENCE 8年 propensity vs Magna Ease</strong> 🔓</h4>
+<ul>
+<li><strong>タイトル</strong>: Eight-year outcomes of a bovine pericardial surgical aortic valve with novel tissue treatment: A propensity-weighted comparison</li>
+<li><strong>著者</strong>: Kaneko T, Bavaria JE, Thourani VH, Johnston DR et al.</li>
+<li><strong>雑誌</strong>: J Thorac Cardiovasc Surg Open 2026;29:101557</li>
+<li><strong>DOI</strong>: 10.1016/j.xjon.2025.101557</li>
+<li><strong>PMID</strong>: 41960126</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h4 id="10-bavaria-ann-thorac-surg-2023--commence-5年-lock">10. <strong>Bavaria Ann Thorac Surg 2023 — COMMENCE 5年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Five-year outcomes of the COMMENCE trial investigating aortic valve replacement with a novel tissue bioprosthesis</li>
+<li><strong>著者</strong>: Bavaria JE, Tommasino A et al.</li>
+<li><strong>雑誌</strong>: Ann Thorac Surg 2023;115(6):1429-1436</li>
+<li><strong>DOI</strong>: 10.1016/j.athoracsur.2021.12.058</li>
+<li><strong>PMID</strong>: 35065065</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="notion-2--若年bicuspid">NOTION-2 — 若年/Bicuspid</h3>
+<h4 id="11-jørgensen-circulation-2025--notion-2-3年-lock">11. <strong>Jørgensen Circulation 2025 — NOTION-2 3年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Three-year outcomes of transcatheter versus surgical aortic valve replacement in younger, low-risk patients: The NOTION-2 trial</li>
+<li><strong>著者</strong>: Jørgensen TH et al.</li>
+<li><strong>雑誌</strong>: Circulation 2025 (online)</li>
+<li><strong>DOI</strong>: 10.1161/CIRCULATIONAHA.125.076678</li>
+<li><strong>PMID</strong>: 40884768</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="varc-3--定義">VARC-3 — 定義</h3>
+<h4 id="12-généreux-jacc-2021--varc-3-lock同時掲載-ehj">12. <strong>Généreux JACC 2021 — VARC-3</strong> 🔒（同時掲載 EHJ）</h4>
+<ul>
+<li><strong>タイトル</strong>: Valve Academic Research Consortium 3: Updated Endpoint Definitions for Aortic Valve Clinical Research</li>
+<li><strong>著者</strong>: Généreux P, Piazza N, Alu MC, Nazif T, Hahn RT, Pibarot P, Bax JJ, et al.</li>
+<li><strong>雑誌</strong>: J Am Coll Cardiol 2021;77(21):2717-2746</li>
+<li><strong>DOI</strong>: 10.1016/j.jacc.2021.02.038</li>
+<li><strong>PMID</strong>: 33888385</li>
+<li><strong>同時掲載</strong>: Eur Heart J 2021;42(19):1825-1857 (DOI: 10.1093/eurheartj/ehaa799)</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="meta-analysis">Meta-analysis</h3>
+<h4 id="13-reddy-jacc-2025--tavr-vs-savr-5年-ipdメタ-lock">13. <strong>Reddy JACC 2025 — TAVR vs SAVR 5年 IPDメタ</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Transcatheter vs Surgical Aortic Valve Replacement in Lower-Risk Patients: An Updated Meta-Analysis of RCTs</li>
+<li><strong>著者</strong>: Reddy RK, Howard JP, Ahmad Y, Mack MJ, Leon MB</li>
+<li><strong>雑誌</strong>: J Am Coll Cardiol 2025;85(9):926-940</li>
+<li><strong>DOI</strong>: 10.1016/j.jacc.2024.12.031</li>
+<li><strong>PMID</strong>: 40044297</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="haltleaflet-thrombosis-landmark">HALT/Leaflet Thrombosis Landmark</h3>
+<h4 id="14-makkar-jacc-2020--partner-3-ct-substudy-lock">14. <strong>Makkar JACC 2020 — PARTNER 3 CT substudy</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Subclinical Leaflet Thrombosis in Transcatheter and Surgical Bioprosthetic Valves: PARTNER 3 Cardiac Computed Tomography Substudy</li>
+<li><strong>著者</strong>: Makkar RR, Blanke P, Leipsic J, Thourani V et al.</li>
+<li><strong>雑誌</strong>: J Am Coll Cardiol 2020;75(24):3003-3015</li>
+<li><strong>DOI</strong>: 10.1016/j.jacc.2020.04.043</li>
+<li><strong>PMID</strong>: 32553252</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<h3 id="savr弁-benchmark">SAVR弁 Benchmark</h3>
+<h4 id="15-bourguignon-ann-thorac-surg-2015--perimount-20年-lock">15. <strong>Bourguignon Ann Thorac Surg 2015 — PERIMOUNT 20年</strong> 🔒</h4>
+<ul>
+<li><strong>タイトル</strong>: Very long-term outcomes of the Carpentier-Edwards Perimount valve in aortic position</li>
+<li><strong>著者</strong>: Bourguignon T, Bouquiaux-Stablo AL, Candolfi P et al.</li>
+<li><strong>雑誌</strong>: Ann Thorac Surg 2015;99(3):831-837</li>
+<li><strong>DOI</strong>: 10.1016/j.athoracsur.2014.09.030</li>
+<li><strong>PMID</strong>: 25583467</li>
+<li><strong>DL状態</strong>: ☐ 未取得</li>
+</ul>
+<hr />
+<h2 id="2nd_place_medal-tier-2-重要-dl-19本">🥈 Tier 2（★★★★）— 重要 DL 19本</h2>
+<h3 id="evolut-lr-中間時点">Evolut LR 中間時点</h3>
+<h4 id="16-forrest-jacc-2022--evolut-lr-2年-lock">16. <strong>Forrest JACC 2022 — Evolut LR 2年</strong> 🔒</h4>
+<ul>
+<li>J Am Coll Cardiol 2022;79(9):882-896</li>
+<li>DOI: 10.1016/j.jacc.2021.11.062</li>
+<li>PMID: 35241222</li>
+<li>☐</li>
+</ul>
+<h4 id="17-forrest-jacc-2023--evolut-lr-3年-lock">17. <strong>Forrest JACC 2023 — Evolut LR 3年</strong> 🔒</h4>
+<ul>
+<li>J Am Coll Cardiol 2023;81(17):1663-1674</li>
+<li>DOI: 10.1016/j.jacc.2023.02.017</li>
+<li>PMID: 36882136</li>
+<li>☐</li>
+</ul>
+<h4 id="18-forrest-jacc-2023--evolut-lr-4年tct-2023-lbt-lock">18. <strong>Forrest JACC 2023 — Evolut LR 4年（TCT 2023 LBT）</strong> 🔒</h4>
+<ul>
+<li>J Am Coll Cardiol 2023;82(22):2163-2165 (Research Letter)</li>
+<li>DOI: 10.1016/j.jacc.2023.09.813</li>
+<li>PMID: 37877907</li>
+<li>☐</li>
+</ul>
+<h4 id="19-popma-nejm-2019--evolut-lr-1年-lock">19. <strong>Popma NEJM 2019 — Evolut LR 1年</strong> 🔒</h4>
+<ul>
+<li>N Engl J Med 2019;380(18):1706-1715</li>
+<li>DOI: 10.1056/NEJMoa1816885</li>
+<li>PMID: 30883053</li>
+<li>☐</li>
+</ul>
+<h3 id="partner-3--companion-studies">PARTNER 3 — Companion studies</h3>
+<h4 id="20-hahn-jacc-cardiovasc-imaging-2025--partner-3-5年echo-lock">20. <strong>Hahn JACC Cardiovasc Imaging 2025 — PARTNER 3 5年echo</strong> 🔒</h4>
+<ul>
+<li>JACC Cardiovasc Imaging 2025;18(6):625-640</li>
+<li>DOI: 10.1016/j.jcmg.2025.01.015</li>
+<li>PMID: 40243974</li>
+<li>☐</li>
+</ul>
+<h4 id="21-thourani-ann-thorac-surg-2025--partner-3-5年-savr-arm-lock">21. <strong>Thourani Ann Thorac Surg 2025 — PARTNER 3 5年 SAVR arm</strong> 🔒</h4>
+<ul>
+<li>Ann Thorac Surg 2025;119(3):555-566</li>
+<li>DOI: 10.1016/j.athoracsur.2024.11.025</li>
+<li>PMID: 39694217</li>
+<li>☐</li>
+</ul>
+<h3 id="notion-中間時点">NOTION 中間時点</h3>
+<h4 id="22-søndergaard-circulation-2019--notion-5年-unlock">22. <strong>Søndergaard Circulation 2019 — NOTION 5年</strong> 🔓</h4>
+<ul>
+<li>Circulation 2019;139(24):2714-2723</li>
+<li>DOI: 10.1161/CIRCULATIONAHA.118.036606</li>
+<li>PMID: 30704298</li>
+<li>☐</li>
+</ul>
+<h4 id="23-thyregod-jacc-2015--notion-1年-lock">23. <strong>Thyregod JACC 2015 — NOTION 1年</strong> 🔒</h4>
+<ul>
+<li>J Am Coll Cardiol 2015;65(20):2184-2194</li>
+<li>DOI: 10.1016/j.jacc.2015.03.014</li>
+<li>PMID: 25787196</li>
+<li>☐</li>
+</ul>
+<h3 id="notion-2-1年">NOTION-2 1年</h3>
+<h4 id="24-jørgensen-ehj-2024--notion-2-1年-lock">24. <strong>Jørgensen EHJ 2024 — NOTION-2 1年</strong> 🔒</h4>
+<ul>
+<li>Eur Heart J 2024;45(37):3804-3814</li>
+<li>DOI: 10.1093/eurheartj/ehae331</li>
+<li>PMID: 38747246</li>
+<li>☐</li>
+</ul>
+<h3 id="inspiris-resilia--real-world">Inspiris RESILIA — Real-world</h3>
+<h4 id="25-salna-icvts-2025--commence-7年-bav亜群-lock">25. <strong>Salna ICVTS 2025 — COMMENCE 7年 BAV亜群</strong> 🔒</h4>
+<ul>
+<li>Interact Cardiovasc Thorac Surg 2025;40:ivaf176</li>
+<li>DOI: 10.1093/icvts/ivaf176</li>
+<li>PMID: 40748697</li>
+<li>☐</li>
+</ul>
+<h4 id="26-bavaria-ann-thorac-surg-2024--commence-5年-bav亜群-lock">26. <strong>Bavaria Ann Thorac Surg 2024 — COMMENCE 5年 BAV亜群</strong> 🔒</h4>
+<ul>
+<li>Ann Thorac Surg 2024;118(1):173-179</li>
+<li>DOI: 10.1016/j.athoracsur.2023.11.036</li>
+<li>PMID: 38135262</li>
+<li>☐</li>
+</ul>
+<h4 id="27-meuris-icvts-2023--indure-registry-1年-unlock">27. <strong>Meuris ICVTS 2023 — INDURE registry 1年</strong> 🔓</h4>
+<ul>
+<li>Interdiscip Cardiovasc Thorac Surg 2023;37(2):ivad115</li>
+<li>DOI: 10.1093/icvts/ivad115</li>
+<li>PMID: 37462612</li>
+<li>☐</li>
+</ul>
+<h4 id="28-bakhtiary-icvts-2026--impact-registry-3年-lock">28. <strong>Bakhtiary ICVTS 2026 — IMPACT registry 3年</strong> 🔒</h4>
+<ul>
+<li>Interdiscip Cardiovasc Thorac Surg 2026;41(3):ivag056</li>
+<li>DOI: 10.1093/icvts/ivag056</li>
+<li>PMID: 41787958</li>
+<li>☐</li>
+</ul>
+<h4 id="29-geisler-jtcvs-open-2026--vienna-7年-resilia-vs-magna-ease-unlock">29. <strong>Geisler JTCVS Open 2026 — Vienna 7年 RESILIA vs Magna Ease</strong> 🔓</h4>
+<ul>
+<li>J Thorac Cardiovasc Surg Open 2026;30:101571</li>
+<li>DOI: 10.1016/j.xjon.2025.101571</li>
+<li>PMID: 42079900</li>
+<li>☐</li>
+</ul>
+<h3 id="meta-analysis--pooled">Meta-analysis / Pooled</h3>
+<h4 id="30-marin-cuartas-heart-2026--tavr-vs-savr-5年メタ-lock">30. <strong>Marin-Cuartas Heart 2026 — TAVR vs SAVR 5年メタ</strong> 🔒</h4>
+<ul>
+<li>Heart 2026 (Epub ahead)</li>
+<li>DOI: 10.1136/heartjnl-2025-327092</li>
+<li>PMID: 41672766</li>
+<li>☐</li>
+</ul>
+<h3 id="svd-definition--eapci-2017">SVD Definition — EAPCI 2017</h3>
+<h4 id="31-capodanno-ehj-2017--eapciesceacts-consensus-unlock">31. <strong>Capodanno EHJ 2017 — EAPCI/ESC/EACTS Consensus</strong> 🔓</h4>
+<ul>
+<li>Eur Heart J 2017;38(45):3382-3390</li>
+<li>DOI: 10.1093/eurheartj/ehx303</li>
+<li>PMID: 29020344</li>
+<li>EJCTS同時版: Eur J Cardiothorac Surg 2017;52(3):408-417 (DOI: 10.1093/ejcts/ezx244, PMID: 28874031)</li>
+<li>☐</li>
+</ul>
+<h3 id="other-major-rcts">Other major RCTs</h3>
+<h4 id="32-makkar-nejm-2020--partner-2a-5年-lock">32. <strong>Makkar NEJM 2020 — PARTNER 2A 5年</strong> 🔒</h4>
+<ul>
+<li>N Engl J Med 2020;382(9):799-809</li>
+<li>DOI: 10.1056/NEJMoa1910555</li>
+<li>PMID: 32004427</li>
+<li>☐</li>
+</ul>
+<h4 id="33-pibarot-jacc-2020--partner-2-svd-5年-lock">33. <strong>Pibarot JACC 2020 — PARTNER 2 SVD 5年</strong> 🔒</h4>
+<ul>
+<li>J Am Coll Cardiol 2020;76(16):1830-1843</li>
+<li>DOI: 10.1016/j.jacc.2020.08.049</li>
+<li>PMID: 33059828</li>
+<li>☐</li>
+</ul>
+<h4 id="34-van-mieghem-jama-cardiol-2022--surtavi-5年-lock">34. <strong>Van Mieghem JAMA Cardiol 2022 — SURTAVI 5年</strong> 🔒</h4>
+<ul>
+<li>JAMA Cardiol 2022;7(10):1000-1008</li>
+<li>DOI: 10.1001/jamacardio.2022.2695</li>
+<li>PMID: 35976625</li>
+<li>☐</li>
+</ul>
+<hr />
+<h2 id="3rd_place_medal-tier-3-補助周辺-22本">🥉 Tier 3（★★★）— 補助・周辺 22本</h2>
+<h3 id="high-risk--inoperable-trials">High Risk / Inoperable Trials</h3>
+<h4 id="35-mack-lancet-2015--partner-1a-5年-lock">35. <strong>Mack Lancet 2015 — PARTNER 1A 5年</strong> 🔒</h4>
+<ul>
+<li>Lancet 2015;385(9986):2477-2484</li>
+<li>DOI: 10.1016/S0140-6736(15)60308-7</li>
+<li>PMID: 25788234</li>
+<li>☐</li>
+</ul>
+<h4 id="36-kapadia-lancet-2015--partner-1b-5年-lock">36. <strong>Kapadia Lancet 2015 — PARTNER 1B 5年</strong> 🔒</h4>
+<ul>
+<li>Lancet 2015;385(9986):2485-2491</li>
+<li>DOI: 10.1016/S0140-6736(15)60290-2</li>
+<li>PMID: 25788231</li>
+<li>☐</li>
+</ul>
+<h4 id="37-gleason-jacc-2018--corevalve-high-risk-5年-lock">37. <strong>Gleason JACC 2018 — CoreValve High Risk 5年</strong> 🔒</h4>
+<ul>
+<li>J Am Coll Cardiol 2018;72(22):2687-2696</li>
+<li>DOI: 10.1016/j.jacc.2018.08.2146</li>
+<li>PMID: 30249462</li>
+<li>☐</li>
+</ul>
+<h4 id="38-toff-jama-2022--uk-tavi-1年-unlock">38. <strong>Toff JAMA 2022 — UK TAVI 1年</strong> 🔓</h4>
+<ul>
+<li>JAMA 2022;327(19):1875-1887</li>
+<li>DOI: 10.1001/jama.2022.5776</li>
+<li>PMID: 35579641</li>
+<li>☐</li>
+</ul>
+<h3 id="lifetime-management--viv">Lifetime Management / ViV</h3>
+<h4 id="39-hahn-jacc-cardiovasc-interv-2022--partner-2-viv-5年-lock">39. <strong>Hahn JACC Cardiovasc Interv 2022 — PARTNER 2 ViV 5年</strong> 🔒</h4>
+<ul>
+<li>JACC Cardiovasc Interv 2022;15(7):698-708</li>
+<li>DOI: 10.1016/j.jcin.2022.02.014</li>
+<li>PMID: 35393102</li>
+<li>☐</li>
+</ul>
+<h4 id="40-atkins-ann-cardiothorac-surg-2024--tavr-savr-trials-review-unlock">40. <strong>Atkins Ann Cardiothorac Surg 2024 — TAVR-SAVR trials review</strong> 🔓</h4>
+<ul>
+<li>Ann Cardiothorac Surg 2024;13(3):206-210</li>
+<li>DOI: 10.21037/acs-2023-aae-0152</li>
+<li>PMID: 38841082</li>
+<li>☐</li>
+</ul>
+<h4 id="41-sharaf-jtcvs-2025--aortic-valve-2024-which-valve-for-which-patient-lock">41. <strong>Sharaf JTCVS 2025 — Aortic valve 2024: Which valve for which patient</strong> 🔒</h4>
+<ul>
+<li>J Thorac Cardiovasc Surg 2025;170(1):164-174</li>
+<li>DOI: 10.1016/j.jtcvs.2024.06.023</li>
+<li>PMID: 38950770</li>
+<li>☐</li>
+</ul>
+<h4 id="42-sudhakaran-jacc-adv-2024--treating-as-in-young-patients-unlock">42. <strong>Sudhakaran JACC Adv 2024 — Treating AS in Young Patients</strong> 🔓</h4>
+<ul>
+<li>JACC Adv 2024;3(11):101311</li>
+<li>DOI: 10.1016/j.jacadv.2024.101311</li>
+<li>PMID: 39391671</li>
+<li>☐</li>
+</ul>
+<h4 id="43-basman-j-cardiol-2022--lifetime-management-review-lock">43. <strong>Basman J Cardiol 2022 — Lifetime management review</strong> 🔒</h4>
+<ul>
+<li>J Cardiol 2022;80(3):185-189</li>
+<li>DOI: 10.1016/j.jjcc.2021.12.010</li>
+<li>PMID: 35016808</li>
+<li>☐</li>
+</ul>
+<h3 id="statistical-methodsheuts引用">Statistical Methods（Heuts引用）</h3>
+<h4 id="44-gregson-jacc-2019--non-proportional-hazards-lock">44. <strong>Gregson JACC 2019 — Non-proportional hazards</strong> 🔒</h4>
+<ul>
+<li>J Am Coll Cardiol 2019;74(16):2102-2112</li>
+<li>DOI: 10.1016/j.jacc.2019.08.1034</li>
+<li>PMID: 31623769</li>
+<li>☐</li>
+</ul>
+<h4 id="45-redfors-ejcts-2026--how-to-read-non-inferiority-trials-unlock">45. <strong>Redfors EJCTS 2026 — How to read non-inferiority trials</strong> 🔓</h4>
+<ul>
+<li>Eur J Cardiothorac Surg 2026;68:ezag082</li>
+<li>DOI: 10.1093/ejcts/ezag082</li>
+<li>PMID: 41700729</li>
+<li>☐</li>
+</ul>
+<h3 id="haltleaflet-thrombosis">HALT/Leaflet Thrombosis</h3>
+<h4 id="46-ahmad-prog-cardiovasc-dis-2022--haltrelm-review-lock">46. <strong>Ahmad Prog Cardiovasc Dis 2022 — HALT/RELM review</strong> 🔒</h4>
+<ul>
+<li>Prog Cardiovasc Dis 2022;72:78-83</li>
+<li>DOI: 10.1016/j.pcad.2022.05.007</li>
+<li>PMID: 35675882</li>
+<li>☐</li>
+</ul>
+<h4 id="47-salah-curr-probl-cardiol-2023--halt-meta-analysis-lock">47. <strong>Salah Curr Probl Cardiol 2023 — HALT meta-analysis</strong> 🔒</h4>
+<ul>
+<li>Curr Probl Cardiol 2023;48(7):101155</li>
+<li>DOI: 10.1016/j.cpcardiol.2022.101155</li>
+<li>PMID: 35192871</li>
+<li>☐</li>
+</ul>
+<h3 id="inspiris-resilia--supplementary">Inspiris RESILIA — Supplementary</h3>
+<h4 id="48-johnston-jtcvs-2021--commence-4年中間-lock">48. <strong>Johnston JTCVS 2021 — COMMENCE 4年中間</strong> 🔒</h4>
+<ul>
+<li>J Thorac Cardiovasc Surg 2021;162(5):1478-1485</li>
+<li>DOI: 10.1016/j.jtcvs.2020.01.095</li>
+<li>PMID: 32340804</li>
+<li>☐</li>
+</ul>
+<h4 id="49-puskas-ejcts-2017--commence-2年-unlock">49. <strong>Puskas EJCTS 2017 — COMMENCE 2年</strong> 🔓</h4>
+<ul>
+<li>Eur J Cardiothorac Surg 2017;52(3):432-439</li>
+<li>DOI: 10.1093/ejcts/ezx158</li>
+<li>PMID: 28605428</li>
+<li>☐</li>
+</ul>
+<h4 id="50-bartus-ejcts-2021--resilia-precursor-5年-lock">50. <strong>Bartus EJCTS 2021 — RESILIA precursor 5年</strong> 🔒</h4>
+<ul>
+<li>Eur J Cardiothorac Surg 2021;59(2):434-441</li>
+<li>DOI: 10.1093/ejcts/ezaa311</li>
+<li>PMID: 33141188</li>
+<li>☐</li>
+</ul>
+<h4 id="51-bartus-j-comp-eff-res-2023--resilia-vs-partner-2a-savr-arm-lock">51. <strong>Bartus J Comp Eff Res 2023 — RESILIA vs PARTNER 2A SAVR arm</strong> 🔒</h4>
+<ul>
+<li>J Comp Eff Res 2023;12:e220180</li>
+<li>DOI: 10.2217/cer-2022-0180</li>
+<li>PMID: 36691718</li>
+<li>☐</li>
+</ul>
+<h4 id="52-sef-ejcts-2024--inspiris-systematic-review-lock">52. <strong>Sef EJCTS 2024 — Inspiris systematic review</strong> 🔒</h4>
+<ul>
+<li>Eur J Cardiothorac Surg 2024;65(3):ezae045</li>
+<li>DOI: 10.1093/ejcts/ezae045</li>
+<li>PMID: 38331412</li>
+<li>☐</li>
+</ul>
+<h4 id="53-donofrio-int-j-cardiol-heart-vasc-2024--intu-itares-ita-unlock">53. <strong>D'Onofrio Int J Cardiol Heart Vasc 2024 — INTU-ITA/RES-ITA</strong> 🔓</h4>
+<ul>
+<li>Int J Cardiol Heart Vasc 2024;54:101487</li>
+<li>DOI: 10.1016/j.ijcha.2024.101487</li>
+<li>PMID: 39263409</li>
+<li>☐</li>
+</ul>
+<h3 id="competitor-valves">Competitor Valves</h3>
+<h4 id="54-bourguignon-ann-thorac-surg-2015--perimount-60歳-lock">54. <strong>Bourguignon Ann Thorac Surg 2015 — PERIMOUNT ≤60歳</strong> 🔒</h4>
+<ul>
+<li>Ann Thorac Surg 2015;100(3):853-859</li>
+<li>DOI: 10.1016/j.athoracsur.2015.03.105</li>
+<li>PMID: 26187006</li>
+<li>☐</li>
+</ul>
+<h4 id="55-werner-icvts-2021--trifecta-7年-svd-unlock">55. <strong>Werner ICVTS 2021 — Trifecta 7年 SVD</strong> 🔓</h4>
+<ul>
+<li>Interact Cardiovasc Thorac Surg 2021;32(1):39-46</li>
+<li>DOI: 10.1093/icvts/ivaa236</li>
+<li>PMID: 33221889</li>
+<li>☐</li>
+</ul>
+<h4 id="56-werner-ejcts-2022--trifecta-vs-intuity-lock">56. <strong>Werner EJCTS 2022 — Trifecta vs Intuity</strong> 🔒</h4>
+<ul>
+<li>Eur J Cardiothorac Surg 2022;61(5):1124-1130</li>
+<li>DOI: 10.1093/ejcts/ezab470</li>
+<li>PMID: 34738111</li>
+<li>☐</li>
+</ul>
+<hr />
+<h2 id="dl作業用チェックリストコピペ用">DL作業用チェックリスト（コピペ用）</h2>
+<pre><code>□ 01. Heuts EJCTS 2026 — Editorial（10.1093/ejcts/ezag120）🔓
+□ 02. Forrest JACC 2026 — Evolut LR 6年/7年（10.1016/j.jacc.2026.02.5063）
+□ 03. Forrest JACC 2025 — Evolut LR 5年（10.1016/j.jacc.2025.03.004）🔓
+□ 04. Leon NEJM 2026 — PARTNER 3 7年（10.1056/NEJMoa2509766）
+□ 05. Mack NEJM 2023 — PARTNER 3 5年（10.1056/NEJMoa2307447）
+□ 06. Thyregod EHJ 2024 — NOTION 10年（10.1093/eurheartj/ehae043）
+□ 07. Jørgensen EHJ 2021 — NOTION 8年（10.1093/eurheartj/ehab375）
+□ 08. Beaver JTCVS 2024 — COMMENCE 7年（10.1016/j.jtcvs.2023.09.047）
+□ 09. Kaneko JTCVS Open 2026 — COMMENCE 8年 propensity（10.1016/j.xjon.2025.101557）🔓
+□ 10. Bavaria Ann Thorac Surg 2023 — COMMENCE 5年（10.1016/j.athoracsur.2021.12.058）
+□ 11. Jørgensen Circulation 2025 — NOTION-2 3年（10.1161/CIRCULATIONAHA.125.076678）
+□ 12. Généreux JACC 2021 — VARC-3（10.1016/j.jacc.2021.02.038）
+□ 13. Reddy JACC 2025 — Meta-analysis 5年（10.1016/j.jacc.2024.12.031）
+□ 14. Makkar JACC 2020 — PARTNER 3 CT HALT（10.1016/j.jacc.2020.04.043）
+□ 15. Bourguignon Ann Thorac Surg 2015 — PERIMOUNT 20年（10.1016/j.athoracsur.2014.09.030）
+─── Tier 1 完 ───
+□ 16. Forrest JACC 2022 — Evolut LR 2年（10.1016/j.jacc.2021.11.062）
+□ 17. Forrest JACC 2023 — Evolut LR 3年（10.1016/j.jacc.2023.02.017）
+□ 18. Forrest JACC 2023 — Evolut LR 4年（10.1016/j.jacc.2023.09.813）
+□ 19. Popma NEJM 2019 — Evolut LR 1年（10.1056/NEJMoa1816885）
+□ 20. Hahn JACC Cardiovasc Imaging 2025 — PARTNER 3 5年echo（10.1016/j.jcmg.2025.01.015）
+□ 21. Thourani Ann Thorac Surg 2025 — PARTNER 3 5年 SAVR（10.1016/j.athoracsur.2024.11.025）
+□ 22. Søndergaard Circulation 2019 — NOTION 5年（10.1161/CIRCULATIONAHA.118.036606）🔓
+□ 23. Thyregod JACC 2015 — NOTION 1年（10.1016/j.jacc.2015.03.014）
+□ 24. Jørgensen EHJ 2024 — NOTION-2 1年（10.1093/eurheartj/ehae331）
+□ 25. Salna ICVTS 2025 — COMMENCE 7年 BAV（10.1093/icvts/ivaf176）
+□ 26. Bavaria Ann Thorac Surg 2024 — COMMENCE 5年 BAV（10.1016/j.athoracsur.2023.11.036）
+□ 27. Meuris ICVTS 2023 — INDURE 1年（10.1093/icvts/ivad115）🔓
+□ 28. Bakhtiary ICVTS 2026 — IMPACT 3年（10.1093/icvts/ivag056）
+□ 29. Geisler JTCVS Open 2026 — Vienna 7年（10.1016/j.xjon.2025.101571）🔓
+□ 30. Marin-Cuartas Heart 2026 — 5年メタ（10.1136/heartjnl-2025-327092）
+□ 31. Capodanno EHJ 2017 — EAPCI consensus（10.1093/eurheartj/ehx303）🔓
+□ 32. Makkar NEJM 2020 — PARTNER 2A 5年（10.1056/NEJMoa1910555）
+□ 33. Pibarot JACC 2020 — PARTNER 2 SVD 5年（10.1016/j.jacc.2020.08.049）
+□ 34. Van Mieghem JAMA Cardiol 2022 — SURTAVI 5年（10.1001/jamacardio.2022.2695）
+─── Tier 2 完 ───
+□ 35. Mack Lancet 2015 — PARTNER 1A 5年（10.1016/S0140-6736(15)60308-7）
+□ 36. Kapadia Lancet 2015 — PARTNER 1B 5年（10.1016/S0140-6736(15)60290-2）
+□ 37. Gleason JACC 2018 — CoreValve High Risk 5年（10.1016/j.jacc.2018.08.2146）
+□ 38. Toff JAMA 2022 — UK TAVI 1年（10.1001/jama.2022.5776）🔓
+□ 39. Hahn JACC Cardiovasc Interv 2022 — ViV 5年（10.1016/j.jcin.2022.02.014）
+□ 40. Atkins Ann Cardiothorac Surg 2024 — Review（10.21037/acs-2023-aae-0152）🔓
+□ 41. Sharaf JTCVS 2025 — Which valve（10.1016/j.jtcvs.2024.06.023）
+□ 42. Sudhakaran JACC Adv 2024 — Young patients（10.1016/j.jacadv.2024.101311）🔓
+□ 43. Basman J Cardiol 2022 — Lifetime mgmt（10.1016/j.jjcc.2021.12.010）
+□ 44. Gregson JACC 2019 — Non-proportional hazards（10.1016/j.jacc.2019.08.1034）
+□ 45. Redfors EJCTS 2026 — Non-inferiority trials（10.1093/ejcts/ezag082）
+□ 46. Ahmad Prog Cardiovasc Dis 2022 — HALT/RELM（10.1016/j.pcad.2022.05.007）
+□ 47. Salah Curr Probl Cardiol 2023 — HALT meta（10.1016/j.cpcardiol.2022.101155）
+□ 48. Johnston JTCVS 2021 — COMMENCE 4年（10.1016/j.jtcvs.2020.01.095）
+□ 49. Puskas EJCTS 2017 — COMMENCE 2年（10.1093/ejcts/ezx158）🔓
+□ 50. Bartus EJCTS 2021 — RESILIA precursor 5年（10.1093/ejcts/ezaa311）
+□ 51. Bartus J Comp Eff Res 2023 — RESILIA vs PARTNER 2A（10.2217/cer-2022-0180）
+□ 52. Sef EJCTS 2024 — Inspiris review（10.1093/ejcts/ezae045）
+□ 53. D&#39;Onofrio Int J Cardiol Heart Vasc 2024 — Multicenter（10.1016/j.ijcha.2024.101487）🔓
+□ 54. Bourguignon Ann Thorac Surg 2015 — PERIMOUNT ≤60歳（10.1016/j.athoracsur.2015.03.105）
+□ 55. Werner ICVTS 2021 — Trifecta 7年 SVD（10.1093/icvts/ivaa236）🔓
+□ 56. Werner EJCTS 2022 — Trifecta vs Intuity（10.1093/ejcts/ezab470）
+─── Tier 3 完 ───</code></pre>
+<hr />
+<h2 id="ジャーナル別グループ化一括検索用">ジャーナル別グループ化（一括検索用）</h2>
+<h3 id="nejm5本">NEJM（5本）</h3>
+<ul>
+<li>Leon 2026 / Mack 2023 / Makkar 2020 (PARTNER 2A) / Popma 2019 (Evolut LR 1y) / +関連</li>
+</ul>
+<h3 id="jacc10本">JACC（10本+）</h3>
+<ul>
+<li>Forrest 2026/2025/2023×2/2022 / Reddy 2025 / Makkar 2020 (HALT) / Pibarot 2020 / Gleason 2018 / Généreux 2021 (VARC-3) / Thyregod 2015 / Gregson 2019</li>
+</ul>
+<h3 id="jacc-cardiovasc-imaging1本">JACC Cardiovasc Imaging（1本）</h3>
+<ul>
+<li>Hahn 2025</li>
+</ul>
+<h3 id="jacc-cardiovasc-interv1本">JACC Cardiovasc Interv（1本）</h3>
+<ul>
+<li>Hahn 2022 (ViV)</li>
+</ul>
+<h3 id="jacc-adv1本">JACC Adv（1本）</h3>
+<ul>
+<li>Sudhakaran 2024</li>
+</ul>
+<h3 id="eur-heart-j4本">Eur Heart J（4本）</h3>
+<ul>
+<li>Thyregod 2024 / Jørgensen 2021 / Jørgensen 2024 / Capodanno 2017</li>
+</ul>
+<h3 id="ejcts5本">EJCTS（5本）</h3>
+<ul>
+<li>Heuts 2026 ★ / Puskas 2017 / Bartus 2021 / Sef 2024 / Werner 2022 / Redfors 2026 / Capodanno 2017 (同時版)</li>
+</ul>
+<h3 id="jtcvs--jtcvs-open3本">JTCVS / JTCVS Open（3本）</h3>
+<ul>
+<li>Beaver 2024 / Kaneko 2026 / Johnston 2021 / Geisler 2026 / Sharaf 2025</li>
+</ul>
+<h3 id="ann-thorac-surg4本">Ann Thorac Surg（4本）</h3>
+<ul>
+<li>Bavaria 2023 / Bavaria 2024 (BAV) / Thourani 2025 / Bourguignon 2015×2</li>
+</ul>
+<h3 id="lancet2本">Lancet（2本）</h3>
+<ul>
+<li>Mack 2015 / Kapadia 2015</li>
+</ul>
+<h3 id="circulation2本">Circulation（2本）</h3>
+<ul>
+<li>Søndergaard 2019 / Jørgensen 2025</li>
+</ul>
+<h3 id="jama--jama-cardiol2本">JAMA / JAMA Cardiol（2本）</h3>
+<ul>
+<li>Toff 2022 (UK TAVI) / Van Mieghem 2022 (SURTAVI)</li>
+</ul>
+<h3 id="heart1本">Heart（1本）</h3>
+<ul>
+<li>Marin-Cuartas 2026</li>
+</ul>
+<h3 id="interact-cardiovasc-thorac-surg--icvts4本">Interact Cardiovasc Thorac Surg / ICVTS（4本）</h3>
+<ul>
+<li>Salna 2025 / Meuris 2023 / Bakhtiary 2026 / Werner 2021</li>
+</ul>
+<h3 id="その他5本">その他（5本）</h3>
+<ul>
+<li>Ann Cardiothorac Surg / Prog Cardiovasc Dis / J Cardiol / Curr Probl Cardiol / J Comp Eff Res / Int J Cardiol Heart Vasc</li>
+</ul>
+<hr />
+<h2 id="dl作業の効率化メモ">DL作業の効率化メモ</h2>
+<h3 id="阪大附属図書館でのアクセス手順">阪大附属図書館でのアクセス手順</h3>
+<ol type="1">
+<li><strong>学内VPN接続 or 学内Wi-Fi</strong>で機関アクセス確保</li>
+<li>各DOIリンク（<code>https://doi.org/{DOI}</code>）からpublisher siteへ</li>
+<li>機関認証経由でPDFダウンロード</li>
+</ol>
+<h3 id="open-access優先取得vpn不要自宅でも可">Open Access優先取得（VPN不要、自宅でも可）</h3>
+<ul>
+<li>🔓マーク: 11本（#1, #3, #9, #22, #27, #29, #31, #38, #40, #42, #49, #53, #55）</li>
+</ul>
+<h3 id="publisher別の主要url">Publisher別の主要URL</h3>
+<ul>
+<li><strong>NEJM</strong>: <a href="https://www.nejm.org/doi/full/{DOI}">https://www.nejm.org/doi/full/{DOI}</a></li>
+<li><strong>JACC系</strong>: <a href="https://www.jacc.org/doi/{DOI}">https://www.jacc.org/doi/{DOI}</a></li>
+<li><strong>EHJ/EJCTS/ICVTS</strong>: <a href="https://academic.oup.com/{journal}/article/">https://academic.oup.com/{journal}/article/</a>...</li>
+<li><strong>JTCVS系</strong>: <a href="https://www.jtcvs.org/article/{DOI}/">https://www.jtcvs.org/article/{DOI}/</a></li>
+<li><strong>Ann Thorac Surg</strong>: <a href="https://www.annalsthoracicsurgery.org/article/{DOI}/">https://www.annalsthoracicsurgery.org/article/{DOI}/</a></li>
+<li><strong>Lancet</strong>: <a href="https://www.thelancet.com/journals/lancet/article/{DOI}">https://www.thelancet.com/journals/lancet/article/{DOI}</a></li>
+<li><strong>Circulation</strong>: <a href="https://www.ahajournals.org/doi/{DOI}">https://www.ahajournals.org/doi/{DOI}</a></li>
+<li><strong>PMC（OA）</strong>: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC{ID}/">https://pmc.ncbi.nlm.nih.gov/articles/PMC{ID}/</a></li>
+</ul>
+<h3 id="一括取得tips">一括取得Tips</h3>
+<ul>
+<li>PubMedで PMID リストを使ったexport → Reference Manager（EndNote/Mendeley/Zotero）取り込み</li>
+<li>EndNote の "Find Full Text" 機能で機関アクセス自動取得</li>
+<li>Zotero の Browser Connector + 機関認証で逐次保存</li>
+</ul>
+<hr />
+<p><strong>作成日</strong>: 2026年5月16日 <strong>関連レビュー</strong>: topic_savr_vs_tavr_longterm_2026_05</p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

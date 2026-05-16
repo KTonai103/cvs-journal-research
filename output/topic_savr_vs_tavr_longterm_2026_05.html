@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>SAVR vs TAVR 長期成績 包括レビュー — 7年データ時代の到来</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="savr-vs-tavr-長期成績-包括レビュー--7年データ時代の到来">SAVR vs TAVR 長期成績 包括レビュー — 7年データ時代の到来</h1>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p><strong>本レビューの起点</strong>：EJCTS 2026年5月号（Vol.68 Issue 5）に掲載されたエディトリアル「<strong>Longer-Term Follow-up of Self-Expanding Transcatheter Versus Surgical Aortic Valve Replacement in Low Risk Patients: What Does the Data Tell Us?</strong>」（Heuts S, Marin-Cuartas M, Borger MA, <a href="https://doi.org/10.1093/ejcts/ezag120">10.1093/ejcts/ezag120</a>）を起点に、2025–2026年に立て続けに公開された <strong>PARTNER 3 7年（NEJM）／Evolut Low Risk 6・7年（JACC）／NOTION 10年（EHJ）／COMMENCE 7・8年（JTCVS / JTCVS Open）／NOTION-2 3年（Circulation）／UK TAVI 5年（EuroPCR）</strong> までを横断する包括レビューです。</p>
+</div>
+>
+> 「学会で7年データが話題」という認識のとおり、**2026年は低リスクTAVR vs SAVRの長期成績エビデンスが7-10年フェーズに突入した分水嶺の年**となっています。本稿はその全体像と臨床的含意を一望できるようにまとめたものです。
+
+<hr />
+<h2 id="0-エグゼクティブサマリー--7年データが意味するもの">0. エグゼクティブサマリー — 「7年データ」が意味するもの</h2>
+<h3 id="0-1-5つの中核ファインディング">0-1. 5つの中核ファインディング</h3>
+<ol type="1">
+<li><strong>TAVRの早期優位は5–6年で消失、7年で逆転傾向</strong>：PARTNER 3（SAPIEN 3）は7年でTAVR 19.5% vs SAVR 16.8%（複合エンドポイントHR 0.87, NS）。Evolut LR（self-expanding）は5年でKM曲線がクロスし、6年でTAVR 23.3% vs SAVR 20.4%、7年で死亡率差 3.7%（95%CI −2.4–9.9%）。</li>
+<li><strong>再介入はTAVRで時間とともに有意に増加</strong>：Evolut LRの7年再介入率 9.8% vs 6.0%（sHR 1.68, <strong>P=0.02</strong>）。再介入の原因はほぼAR起因（sHR 3.39, P&lt;0.001）、しかも65%が外科的explant-TAVI。</li>
+<li><strong>NOTION 10年では構造的弁劣化（SVD）はTAVRが少ない</strong>（severe SVD 1.5% vs 10.0%, P=0.02）が、患者中心アウトカム（BVF=再介入＋関連死）は両群同等（9.7% vs 13.8%, NS）。</li>
+<li><strong>SAVR弁の耐久性は急速に進化</strong>：Inspiris RESILIA は COMMENCE 7年で SVD-free 99.3%、8年propensity-matchedで前世代Magna Ease（90.5%）に対しP&lt;0.0001で優越。50歳以下を含む二尖弁・若年症例でもSVD 0%。<strong>「古いSAVR弁データでTAVRと比較する時代」は終わりつつある</strong>。</li>
+<li><strong>方法論的批判が表面化</strong>：Heuts論文は、非比例ハザード状況でlog-rank/Cox検定を機械的適用した解析を批判し、マイルストーン解析や時間依存ハザードモデルが必要と主張。「P=0.43」を盾にしたequipoise主張は再検証が必要。</li>
+</ol>
+<h3 id="0-2-リスク層別-7-10年データの全体像">0-2. リスク層別 7-10年データの全体像</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>試験</th>
+<th>リスク層</th>
+<th>最新FU</th>
+<th>全死亡 (TAVR vs SAVR)</th>
+<th>再介入 (TAVR vs SAVR)</th>
+<th>SVD/BVF</th>
+<th>解釈</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PARTNER 3</strong></td>
+<td>Low</td>
+<td><strong>7年</strong> (NEJM 2025/2026)</td>
+<td>19.5% vs 16.8%</td>
+<td>6.7% vs 6.0%</td>
+<td>BVF 6.9% vs 7.3%</td>
+<td>TAVR非劣性継続、ただし死亡数値的に逆転</td>
+</tr>
+<tr>
+<td><strong>Evolut LR</strong></td>
+<td>Low</td>
+<td><strong>6/7年</strong> (JACC 2026)</td>
+<td>23.3% vs 20.4% (P=0.43)</td>
+<td><strong>9.8% vs 6.0% (P=0.02)</strong></td>
+<td>エコー未実施</td>
+<td>再介入で初の有意差、AR主因</td>
+</tr>
+<tr>
+<td><strong>NOTION</strong></td>
+<td>Low (高齢)</td>
+<td><strong>10年</strong> (EHJ 2024)</td>
+<td>62.7% vs 64.0%</td>
+<td>—</td>
+<td><strong>Severe SVD 1.5% vs 10% (TAVR有利)</strong>, BVF 9.7% vs 13.8% (NS)</td>
+<td>10年でもTAVR非劣性</td>
+</tr>
+<tr>
+<td><strong>SURTAVI</strong></td>
+<td>Intermediate</td>
+<td>5年 (JAMA Card 2022)</td>
+<td>31.3% vs 30.8% 複合</td>
+<td>TAVR 3.5% vs 1.9%</td>
+<td>—</td>
+<td>中等度リスクでTAVR非劣性</td>
+</tr>
+<tr>
+<td><strong>PARTNER 2A</strong></td>
+<td>Intermediate</td>
+<td>5年 (NEJM 2020)</td>
+<td>47.9% vs 43.4% 複合</td>
+<td>3.2% vs 0.8%</td>
+<td>SAPIEN XT SVD↑, SAPIEN 3同等</td>
+<td>TAVR非劣性、経胸壁群はSAVR有利</td>
+</tr>
+<tr>
+<td><strong>CoreValve High Risk</strong></td>
+<td>High</td>
+<td>5年 (JACC 2018)</td>
+<td>55.3% vs 55.4%</td>
+<td>1.9% vs 1.4%</td>
+<td>—</td>
+<td>高リスクで早期メリット消失</td>
+</tr>
+<tr>
+<td><strong>PARTNER 1A</strong></td>
+<td>High</td>
+<td>5年 (Lancet 2015)</td>
+<td>67.8% vs 62.4%</td>
+<td>弁取替えなし</td>
+<td>—</td>
+<td>高リスクで両群同等</td>
+</tr>
+<tr>
+<td><strong>UK TAVI</strong></td>
+<td>Inter/High</td>
+<td><strong>5年</strong> (EuroPCR 2025)</td>
+<td>mortality NS</td>
+<td>—</td>
+<td><strong>TAVI で脳卒中ほぼ2倍</strong></td>
+<td>pragmatic trialで警鐘</td>
+</tr>
+<tr>
+<td><strong>NOTION-2</strong></td>
+<td>Low / 若年 / Bicuspid含</td>
+<td><strong>3年</strong> (Circulation 2025)</td>
+<td>Tricuspid 14.5 vs 14.4% (NS) / <strong>Bicuspid 20.4 vs 7.8% (TAVR劣勢)</strong></td>
+<td>—</td>
+<td>—</td>
+<td>若年/BAVではTAVR慎重</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="0-3-本レビューを読み解く視点">0-3. 本レビューを読み解く視点</h3>
+<ul>
+<li><strong>TAVR vs SAVR 論争は、もはや「どちらが優れるか」ではなく「どの患者に、どの時間軸で、どの戦略が最適か」</strong>。</li>
+<li><strong>生体弁の calcific SVD は 5–8年で初発、10年で顕性化</strong>するため、7-10年は耐久性議論の分水嶺。</li>
+<li><strong>新世代SAVR弁（RESILIA等）の長期成績</strong>は、過去のRCT前提（SAVR弁=Carpentier-Edwards PERIMOUNT等）を覆しつつある。</li>
+<li><strong>若年低リスク・bicuspid症例</strong>ではTAVR適応拡大に強いブレーキ。「<strong>少なくとも10年フォローまでTAVR適応の正式拡大を保留すべき</strong>」が現在のEditorialコンセンサス。</li>
+</ul>
+<hr />
+<h2 id="i-起点となるeditorialheuts論文の方法論的批判">I. 起点となるEditorial：Heuts論文の方法論的批判</h2>
+<h3 id="heuts-s-marin-cuartas-m-borger-ma-longer-term-follow-up-of-self-expanding-transcatheter-versus-surgical-aortic-valve-replacement-in-low-risk-patients-what-does-the-data-tell-us">Heuts S, Marin-Cuartas M, Borger MA. <em>Longer-Term Follow-up of Self-Expanding Transcatheter Versus Surgical Aortic Valve Replacement in Low Risk Patients: What Does the Data Tell Us?</em></h3>
+<blockquote>
+<p>EJCTS 2026;68(5):ezag120 (Clinical Trials Corner / Editorial). DOI: <a href="https://doi.org/10.1093/ejcts/ezag120">10.1093/ejcts/ezag120</a> | PMID: 42120054 | PMC: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13167190/">PMC13167190</a>（OA）</p>
+</blockquote>
+<p><strong>所属</strong>: Heuts — Maastricht University Medical Centre (Netherlands) / Marin-Cuartas &amp; Borger — Leipzig Heart Centre (Germany)</p>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
+<p>Evolut Low Risk（Evolut-LR）試験の6年成績と追加の7年探索的解析は、低リスク患者における自己拡張型TAVI vs SAVRの長期比較に重要な視座を与える。表面的には主要複合エンドポイント（全死亡＋脳卒中）で有意差なし（log-rank P=0.43, TAVI 23.3% vs SAVR 20.4%）であるが、その均衡の裏側にはより精密な解釈が必要である。</p>
+</div>
+
+<h4 id="主要論点1統計設計の中途変更とp値の解釈不能性">主要論点1：統計設計の中途変更とP値の解釈不能性</h4>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p>Evolut-LRの1年時評価はBayesian非劣性デザイン（非劣性マージン6%絶対リスク差）。3年時以降は<strong>頻度論的優越性検定（log-rank/Cox）に転換</strong>。log-rank・Coxは比例ハザード仮定に依拠するが、Kaplan-Meier曲線は明らかに非比例 → <strong>そのP値は方法論的に解釈不能</strong>。</p>
+</div>
+
+<p>代替手法として <strong>Gregson J et al.</strong> <em>Nonproportional hazards for time-to-event outcomes in clinical trials.</em> J Am Coll Cardiol 2019;74:2102-12. DOI: <a href="https://doi.org/10.1016/j.jacc.2019.08.1034">10.1016/j.jacc.2019.08.1034</a> のマイルストーン解析を推奨。</p>
+<h4 id="主要論点2死亡率の指数関数的divergence">主要論点2：死亡率の指数関数的divergence</h4>
+<ul>
+<li><strong>TAVI群</strong>: 4年 9.0% → 7年 27.7%（<strong>+18.7ポイント</strong>）</li>
+<li><strong>SAVR群</strong>: 4年 12.1% → 7年 23.9%（+11.8ポイント）</li>
+<li>7年時マイルストーン差: <strong>3.7%（95%CI −2.4–9.9%）</strong> で SAVR優位方向</li>
+<li>「初期の安心感（reassurance）」から「長期の不確実性（uncertainty）」へエビデンスの天秤が傾いた</li>
+</ul>
+<h4 id="主要論点3再介入の有意増加しかも65が外科的explant">主要論点3：再介入の有意増加、しかも65%が外科的Explant</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>時点</th>
+<th>TAVI再介入</th>
+<th>SAVR再介入</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6年</td>
+<td>5.5%</td>
+<td>3.3%</td>
+<td>0.07</td>
+</tr>
+<tr>
+<td><strong>7年</strong></td>
+<td><strong>9.8%</strong></td>
+<td><strong>6.0%</strong></td>
+<td><strong>0.02</strong></td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>再介入の <strong>65%が外科的（explant-TAVI）</strong> — 現在最も急速に増加している心臓外科手術で、罹病・死亡率が不釣り合いに高い</li>
+<li>post-dilatationの<strong>off-guideline balloon oversizing</strong>がSE弁尖損傷の主因の一つ。しかしpost-dilatationはPVL対策として不可避な側面もあり、SE TAVIに本質的な工程</li>
+</ul>
+<h4 id="主要論点4試験横断の一致性">主要論点4：試験横断の一致性</h4>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p>Evolut-LR、PARTNER-3、NOTION の <strong>3 RCT全てで「初期TAVI優位 → 曲線交差 → 後期divergence」という同じパターン</strong>。Heutsらは7年KMをreconstructed pseudo-IPDで重ね合わせた図（Figure 1）でこれを可視化。</p>
+</div>
+
+<h4 id="主要論点5heart-teamへの含意と結論">主要論点5：Heart Teamへの含意と結論</h4>
+<ul>
+<li><strong>若年・余命の長い低リスク患者</strong>では、早期の周術期回復（TAVI）と晩期の構造的リスク・再介入（SAVR）のトレードオフを詳細に協議</li>
+<li><strong>少なくとも10年フォローまで、TAVI適応の「低リスクかつ若年」への正式拡大は保留すべき</strong></li>
+<li>結語: <em>"The long-term story on the optimal management of aortic stenosis is not yet finished. Stay tuned."</em></li>
+</ul>
+<h4 id="引用文献heuts論文中で引用">引用文献（Heuts論文中で引用）</h4>
+<ol type="1">
+<li><strong>Forrest JK et al.</strong> Six-year outcomes after transcatheter vs surgical aortic valve replacement in low-risk patients. <em>J Am Coll Cardiol</em> 2026. DOI: <a href="https://doi.org/10.1016/j.jacc.2026.02.5063">10.1016/j.jacc.2026.02.5063</a> | PMID: 41697183</li>
+<li><strong>Popma JJ et al.</strong> Evolut Low Risk 1-year. <em>N Engl J Med</em> 2019;380:1706-15. DOI: <a href="https://doi.org/10.1056/NEJMoa1816885">10.1056/NEJMoa1816885</a> | PMID: 30883053</li>
+<li><strong>Redfors B.</strong> How to read non-inferiority trials. <em>EJCTS</em> 2026;68. DOI: <a href="https://doi.org/10.1093/ejcts/ezag082">10.1093/ejcts/ezag082</a> | PMID: 41700729</li>
+<li><strong>Marin-Cuartas M et al.</strong> Updated 5-year outcomes of TAVR vs SAVR in severe AS at low-to-intermediate risk. <em>Heart</em> 2026. DOI: <a href="https://doi.org/10.1136/heartjnl-2025-327092">10.1136/heartjnl-2025-327092</a> | PMID: 41672766</li>
+<li><strong>Gregson J et al.</strong> Nonproportional hazards in clinical trials. <em>J Am Coll Cardiol</em> 2019;74:2102-12. DOI: <a href="https://doi.org/10.1016/j.jacc.2019.08.1034">10.1016/j.jacc.2019.08.1034</a> | PMID: 31623769</li>
+</ol>
+<hr />
+<h2 id="ii-主要rctの長期データ--試験ごとの最新像">II. 主要RCTの長期データ — 試験ごとの最新像</h2>
+<h3 id="ii-a-evolut-low-risk-trialself-expanding">II-A. Evolut Low Risk Trial（self-expanding）</h3>
+<p><strong>Medtronic Evolut R/PRO TAVR vs SAVR</strong>、n=1,414、平均74歳、STS-PROM 1.9%、86施設、2016–2019年登録、10年フォロー予定。NCT02701283。</p>
+<h4 id="主要論文時系列">主要論文時系列</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>FU</th>
+<th>著者</th>
+<th>雑誌</th>
+<th>DOI / PMID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1年</td>
+<td>Popma JJ et al.</td>
+<td>NEJM 2019;380:1706-15</td>
+<td><a href="https://doi.org/10.1056/NEJMoa1816885">10.1056/NEJMoa1816885</a> / 30883053</td>
+</tr>
+<tr>
+<td>2年</td>
+<td>Forrest JK et al.</td>
+<td>JACC 2022;79:882-96</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2021.11.062">10.1016/j.jacc.2021.11.062</a> / 35241222</td>
+</tr>
+<tr>
+<td>3年</td>
+<td>Forrest JK et al.</td>
+<td>JACC 2023;81:1663-74</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2023.02.017">10.1016/j.jacc.2023.02.017</a> / 36882136</td>
+</tr>
+<tr>
+<td>4年 (TCT 2023 LBT)</td>
+<td>Forrest JK et al.</td>
+<td>JACC 2023;82:2163-5</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2023.09.813">10.1016/j.jacc.2023.09.813</a> / 37877907</td>
+</tr>
+<tr>
+<td><strong>5年 (ACC.25 LBT)</strong></td>
+<td><strong>Forrest JK et al.</strong></td>
+<td><strong>JACC 2025;85:1523-32</strong></td>
+<td><a href="https://doi.org/10.1016/j.jacc.2025.03.004"><strong>10.1016/j.jacc.2025.03.004</strong></a> <strong>/ 40158212</strong></td>
+</tr>
+<tr>
+<td><strong>6年 (ACC.26 LBT)</strong></td>
+<td><strong>Forrest JK et al.</strong></td>
+<td><strong>JACC 2026 (epub Feb 16)</strong></td>
+<td><a href="https://doi.org/10.1016/j.jacc.2026.02.5063"><strong>10.1016/j.jacc.2026.02.5063</strong></a> <strong>/ 41697183</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="主要エンドポイント推移複合--全死亡disabling-stroke">主要エンドポイント推移（複合 = 全死亡＋disabling stroke）</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>時点</th>
+<th>TAVR</th>
+<th>SAVR</th>
+<th>絶対差</th>
+<th>HR (95%CI)</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2年</td>
+<td>4.3%</td>
+<td>6.3%</td>
+<td>−2.0%</td>
+<td>—</td>
+<td>0.084</td>
+</tr>
+<tr>
+<td>3年</td>
+<td>7.4%</td>
+<td>10.4%</td>
+<td>−2.9%</td>
+<td>0.70 (0.49–1.00)</td>
+<td>0.051</td>
+</tr>
+<tr>
+<td>4年</td>
+<td>10.7%</td>
+<td>14.1%</td>
+<td>−3.4%</td>
+<td>0.74 (0.54–1.00)</td>
+<td>0.05</td>
+</tr>
+<tr>
+<td><strong>5年</strong></td>
+<td><strong>15.5%</strong></td>
+<td><strong>16.4%</strong></td>
+<td><strong>−0.9%</strong></td>
+<td>~0.90</td>
+<td><strong>0.47</strong></td>
+</tr>
+<tr>
+<td><strong>6年</strong></td>
+<td><strong>23.3%</strong></td>
+<td><strong>20.4%</strong></td>
+<td><strong>+2.8%</strong></td>
+<td>—</td>
+<td><strong>0.43</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>→ <strong>5年でKM曲線がクロス、6年でSAVR数値優位（NS）</strong>。</p>
+<h4 id="再介入最重要長期問題">再介入（最重要長期問題）</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>時点</th>
+<th>TAVR</th>
+<th>SAVR</th>
+<th>sHR (95%CI)</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5年</td>
+<td>3.3%</td>
+<td>2.5%</td>
+<td>—</td>
+<td>0.44</td>
+</tr>
+<tr>
+<td>6年</td>
+<td>5.5%</td>
+<td>3.3%</td>
+<td>1.66 (0.96–2.86)</td>
+<td>0.07</td>
+</tr>
+<tr>
+<td><strong>7年</strong></td>
+<td><strong>9.8%</strong></td>
+<td><strong>6.0%</strong></td>
+<td><strong>1.68 (1.10–2.58)</strong></td>
+<td><strong>0.02</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>再介入原因の内訳（6年）</strong>:</p>
+<ul>
+<li><strong>AR起因</strong>: TAVR 5.6% vs SAVR 1.6% — sHR <strong>3.39 (1.62–7.07)</strong>, <strong>P&lt;0.001</strong></li>
+<li>AS起因: TAVR 3.6% vs SAVR 3.5% — sHR 1.14, P=0.70</li>
+</ul>
+<p><strong>Off-guideline postdilation の影響（6年AR再介入）</strong>:</p>
+<ul>
+<li>なし: 4.3%</li>
+<li>ガイドライン準拠: 4.3%</li>
+<li><strong>Off-guideline postdilation: 9.3%（34mm Evolut R では19.1%）</strong></li>
+</ul>
+<h4 id="self-expanding-特有の問題">Self-expanding 特有の問題</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th>5年 TAVR</th>
+<th>5年 SAVR</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PPI（恒久ペースメーカー）</strong></td>
+<td><strong>27.0%</strong></td>
+<td><strong>11.3%</strong></td>
+<td><strong>&lt;0.001</strong></td>
+</tr>
+<tr>
+<td>Mild以上PVL</td>
+<td><strong>14.7%</strong></td>
+<td><strong>0.5%</strong></td>
+<td><strong>&lt;0.001</strong></td>
+</tr>
+<tr>
+<td>新規Af</td>
+<td>16.3%</td>
+<td>41.2%</td>
+<td>&lt;0.001</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="self-expanding-特有の強み--hemodynamics">Self-expanding 特有の強み — Hemodynamics</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th>5年 TAVR</th>
+<th>5年 SAVR</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mean gradient</td>
+<td><strong>10.7 mmHg</strong></td>
+<td><strong>12.8 mmHg</strong></td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>EOA</td>
+<td><strong>2.1 cm²</strong></td>
+<td><strong>1.9 cm²</strong></td>
+<td>&lt;0.001</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p>Supra-annular self-expanding設計の <strong>forward flow hemodynamicsの優位性は6-7年でも維持</strong>。一方、<strong>PPI 27%・PVL・再介入率の上昇</strong>で長期comprehensive durabilityはまだ未確定。<strong>6年時点でのエコー未実施</strong>（プロトコル上Year 1-5, 7, 10）でVARC-3 SVD/BVF評価は<strong>7年エコー待ち</strong>。</p>
+</div>
+
+<hr />
+<h3 id="ii-b-partner-3-trialballoon-expandable-sapien-3">II-B. PARTNER 3 Trial（balloon-expandable SAPIEN 3）</h3>
+<p><strong>Edwards SAPIEN 3 TAVR vs SAVR</strong>、低リスク（STS &lt;4%）、n=1,000、平均73歳、NCT02675114。10年フォロー予定。</p>
+<h4 id="主要論文時系列">主要論文時系列</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>FU</th>
+<th>著者</th>
+<th>雑誌</th>
+<th>DOI / PMID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1年</td>
+<td>Mack MJ et al.</td>
+<td>NEJM 2019;380:1695-1705</td>
+<td><a href="https://doi.org/10.1056/NEJMoa1814052">10.1056/NEJMoa1814052</a></td>
+</tr>
+<tr>
+<td>2年</td>
+<td>Leon MB et al.</td>
+<td>JACC 2021;77:1149-61</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2020.12.052">10.1016/j.jacc.2020.12.052</a></td>
+</tr>
+<tr>
+<td>5年</td>
+<td>Mack MJ et al.</td>
+<td>NEJM 2023;389:1949-60</td>
+<td><a href="https://doi.org/10.1056/NEJMoa2307447">10.1056/NEJMoa2307447</a> / 37874020</td>
+</tr>
+<tr>
+<td>5年 (echo)</td>
+<td>Hahn RT et al.</td>
+<td>JACC Cardiovasc Imaging 2025;18:625-40</td>
+<td><a href="https://doi.org/10.1016/j.jcmg.2025.01.015">10.1016/j.jcmg.2025.01.015</a> / 40243974</td>
+</tr>
+<tr>
+<td>5年 (SAVR arm)</td>
+<td>Thourani VH et al.</td>
+<td>Ann Thorac Surg 2025;119:555-66</td>
+<td><a href="https://doi.org/10.1016/j.athoracsur.2024.11.025">10.1016/j.athoracsur.2024.11.025</a> / 39694217</td>
+</tr>
+<tr>
+<td><strong>7年 (TCT 2025 LBT)</strong></td>
+<td><strong>Leon MB et al.</strong></td>
+<td><strong>NEJM 2026;394:773-83 (Epub 2025 Oct 27)</strong></td>
+<td><a href="https://doi.org/10.1056/NEJMoa2509766"><strong>10.1056/NEJMoa2509766</strong></a> <strong>/ 41144631</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="7年主要結果">7年主要結果</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>エンドポイント</th>
+<th>TAVR (n=503)</th>
+<th>SAVR (n=497)</th>
+<th>統計</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>第1主要複合</strong>（死亡/脳卒中/再入院）</td>
+<td><strong>34.6%</strong></td>
+<td><strong>37.2%</strong></td>
+<td>差 −2.6%pt（95%CI −9.0–3.7）, <strong>NS</strong></td>
+</tr>
+<tr>
+<td>第2主要 win ratio</td>
+<td>—</td>
+<td>—</td>
+<td><strong>WR 1.04（0.84–1.30）</strong>, NS</td>
+</tr>
+<tr>
+<td><strong>全死亡</strong></td>
+<td><strong>19.5%</strong></td>
+<td><strong>16.8%</strong></td>
+<td>数値的にTAVR↑（late reversal）</td>
+</tr>
+<tr>
+<td>全脳卒中</td>
+<td>8.5%</td>
+<td>8.1%</td>
+<td>NS</td>
+</tr>
+<tr>
+<td>再入院</td>
+<td>20.6%</td>
+<td>23.5%</td>
+<td>TAVR少</td>
+</tr>
+<tr>
+<td>弁再介入</td>
+<td>6.7%</td>
+<td>6.0%</td>
+<td>NS</td>
+</tr>
+<tr>
+<td>平均圧較差</td>
+<td>13.1±8.5 mmHg</td>
+<td>12.1±6.3 mmHg</td>
+<td>TAVRやや高</td>
+</tr>
+<tr>
+<td><strong>BVF</strong></td>
+<td><strong>6.9%</strong></td>
+<td><strong>7.5%</strong></td>
+<td><strong>NS</strong></td>
+</tr>
+<tr>
+<td>臨床的弁血栓</td>
+<td>2.8%</td>
+<td>0.5%</td>
+<td>TAVR↑（脳卒中・BVF増加には繋がらず）</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p>PARTNER 3 7年: <strong>5年で消失したTAVRの優位性が7年で完全に同等化</strong>。死亡が<strong>TAVRで数値的にやや高い方向</strong>に反転（19.5% vs 16.8%）。**BVF両群同等（6.9% vs 7.5%）**で、SAPIEN 3の中期耐久性はSAVRと同等であることが確認。<strong>結論：低リスク患者では7年で TAVR と SAVR は equivalent</strong>。</p>
+</div>
+
+<h4 id="5年-echohahn-2025の重要所見">5年 echo（Hahn 2025）の重要所見</h4>
+<ul>
+<li><strong>≥mild AR: TAVR 24.5% vs SAVR 6.3%, P&lt;0.001</strong> — 軽度ARはTAVRで4倍多い</li>
+<li>平均圧較差: TAVR 12.8±6.5 vs SAVR 11.7±5.6 mmHg</li>
+<li>5年予後予測因子は **RV-PA coupling と valvulo-arterial impedance（Zva）**のみ。30日PPMやmild ARは予測因子にならず</li>
+</ul>
+<hr />
+<h3 id="ii-c-notion-trialnordic-唯一の10年rctデータ">II-C. NOTION Trial（Nordic）— 唯一の10年RCTデータ</h3>
+<p><strong>Self-expanding CoreValve TAVR vs SAVR</strong>、70歳以上の低リスクAS、n=280（TAVI 145 / SAVR 135）、平均79.1歳、STS 3.0%、2010–2013年登録。</p>
+<h4 id="主要論文時系列">主要論文時系列</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>FU</th>
+<th>著者</th>
+<th>雑誌</th>
+<th>DOI / PMID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1年</td>
+<td>Thyregod HGH et al.</td>
+<td>JACC 2015;65:2184-94</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2015.03.014">10.1016/j.jacc.2015.03.014</a> / 25787196</td>
+</tr>
+<tr>
+<td>5年</td>
+<td>Søndergaard L et al.</td>
+<td>Circulation 2019;139:2714-23</td>
+<td><a href="https://doi.org/10.1161/CIRCULATIONAHA.118.036606">10.1161/CIRCULATIONAHA.118.036606</a> / 30704298</td>
+</tr>
+<tr>
+<td>8年</td>
+<td>Jørgensen TH et al.</td>
+<td>Eur Heart J 2021;42:2912-9</td>
+<td><a href="https://doi.org/10.1093/eurheartj/ehab375">10.1093/eurheartj/ehab375</a> / 34179981</td>
+</tr>
+<tr>
+<td><strong>10年</strong></td>
+<td><strong>Thyregod HGH et al.</strong></td>
+<td><strong>Eur Heart J 2024;45:1116-24</strong></td>
+<td><a href="https://doi.org/10.1093/eurheartj/ehae043"><strong>10.1093/eurheartj/ehae043</strong></a> <strong>/ 38321820</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="10年主要結果tavi-vs-savr">10年主要結果（TAVI vs SAVR）</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>エンドポイント</th>
+<th>TAVI</th>
+<th>SAVR</th>
+<th>HR (95%CI)</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>複合（死亡/脳卒中/MI）</td>
+<td>65.5%</td>
+<td>65.5%</td>
+<td>1.0 (0.7–1.3)</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>全死亡</td>
+<td>62.7%</td>
+<td>64.0%</td>
+<td>1.0</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>脳卒中</td>
+<td>9.7%</td>
+<td>16.4%</td>
+<td>—</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td><strong>重度SVD（VARC-3）</strong></td>
+<td><strong>1.5%</strong></td>
+<td><strong>10.0%</strong></td>
+<td><strong>0.2 (0.04–0.7)</strong></td>
+<td><strong>0.02</strong></td>
+</tr>
+<tr>
+<td><strong>BVF（VARC-3）</strong></td>
+<td><strong>9.7%</strong></td>
+<td><strong>13.8%</strong></td>
+<td><strong>0.7 (0.4–1.5)</strong></td>
+<td><strong>0.4</strong></td>
+</tr>
+<tr>
+<td>Mod/severe PVL</td>
+<td>25.4%</td>
+<td>2.5%</td>
+<td>—</td>
+<td>&lt;0.01</td>
+</tr>
+<tr>
+<td>新規PPM</td>
+<td>44.7%</td>
+<td>14.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>新規Af</td>
+<td>52.0%</td>
+<td>74.1%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p>NOTION 10年は<strong>現時点で唯一のSAVR vs TAVR 10年RCTデータ</strong>。<strong>重度SVDはTAVIが少ない（1.5% vs 10%）<strong>が、BVF（再介入＋関連死を含む）は同等。</strong>「TAVIはSAVRより耐久性で劣るとは言えない」というキーメッセージ</strong>を支える根拠論文。ただし対照のSAVRは「2010-2013年時代のCarpentier-Edwards等」であり、現代のRESILIA との比較ではない点に注意。</p>
+</div>
+
+<hr />
+<h3 id="ii-d-その他の主要rct--リスク層別の5年データ">II-D. その他の主要RCT — リスク層別の5年データ</h3>
+<h4 id="partner-1a--1bhigh-risk--inoperable">PARTNER 1A / 1B（High Risk / Inoperable）</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>試験</th>
+<th>5年論文</th>
+<th>DOI / PMID</th>
+<th>主要結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PARTNER 1A</strong> (n=699, High Risk)</td>
+<td>Mack MJ et al. <em>Lancet</em> 2015;385:2477-84</td>
+<td><a href="https://doi.org/10.1016/S0140-6736(15)60308-7">10.1016/S0140-6736(15)60308-7</a> / 25788234</td>
+<td>5年全死亡 TAVR 67.8% vs SAVR 62.4%, NS；moderate以上PVL TAVR 14% vs SAVR 2%（mortality関連）</td>
+</tr>
+<tr>
+<td><strong>PARTNER 1B</strong> (n=358, Inoperable)</td>
+<td>Kapadia SR et al. <em>Lancet</em> 2015;385:2485-91</td>
+<td><a href="https://doi.org/10.1016/S0140-6736(15)60290-2">10.1016/S0140-6736(15)60290-2</a></td>
+<td>5年全死亡 TAVR 71.8% vs 標準治療 93.6%（HR 0.50, P&lt;0.0001）；TAVRが救命的</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="corevalve-us-pivotal-high-risk">CoreValve US Pivotal High Risk</h4>
+<blockquote>
+<p>Gleason TG et al. 5-year outcomes of self-expanding TAVR vs SAVR in high-risk patients. <em>J Am Coll Cardiol</em> 2018;72:2687-96. DOI: <a href="https://doi.org/10.1016/j.jacc.2018.08.2146">10.1016/j.jacc.2018.08.2146</a> | PMID: 30249462</p>
+</blockquote>
+<ul>
+<li>5年全死亡: TAVR 55.3% vs SAVR 55.4%（NS）</li>
+<li>早期TAVR優位は5年で消失（高リスクで非心臓死が増えるため）</li>
+<li>弁血行動態はTAVR（self-expanding）優位</li>
+</ul>
+<h4 id="partner-2aintermediate-risk-sapien-xt">PARTNER 2A（Intermediate Risk, SAPIEN XT）</h4>
+<blockquote>
+<p>Makkar RR et al. 5-year outcomes of TAVR or SAVR in intermediate-risk patients. <em>N Engl J Med</em> 2020;382:799-809. DOI: <a href="https://doi.org/10.1056/NEJMoa1910555">10.1056/NEJMoa1910555</a></p>
+</blockquote>
+<ul>
+<li>5年複合: TAVR 47.9% vs SAVR 43.4% (HR 1.09, NS)</li>
+<li>経大腿: HR 1.02（差なし）／<strong>経胸壁: HR 1.32（P=0.03, SAVR有利）</strong></li>
+<li>弁再介入: TAVR 3.2% vs SAVR 0.8%</li>
+</ul>
+<h4 id="partner-2-svd-5年専用分析重要">PARTNER 2 SVD 5年専用分析（重要）</h4>
+<blockquote>
+<p>Pibarot P et al. Structural deterioration of transcatheter vs surgical aortic valve bioprostheses in the PARTNER-2 trial. <em>J Am Coll Cardiol</em> 2020;76:1830-43. DOI: <a href="https://doi.org/10.1016/j.jacc.2020.08.049">10.1016/j.jacc.2020.08.049</a> | PMID: 33059828</p>
+</blockquote>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>比較</th>
+<th>SVD率/年</th>
+<th>SVD-BVF率/年</th>
+<th>all-cause BVF率/年</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SAPIEN XT vs SAVR</strong></td>
+<td><strong>1.61% vs 0.63%（TAVR↑）</strong></td>
+<td>0.58% vs 0.12%（TAVR↑）</td>
+<td>0.81% vs 0.27%（TAVR↑）</td>
+</tr>
+<tr>
+<td><strong>SAPIEN 3 vs SAVR</strong></td>
+<td><strong>0.68% vs 0.60%（NS）</strong></td>
+<td>0.29% vs 0.14%（NS）</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>新世代SAPIEN 3でTAVR durabilityがSAVRと同等水準まで改善</strong> — TAVR vs SAVR論争を「世代別」に分離する根拠。</p>
+</div>
+
+<h4 id="surtaviintermediate-risk-corevalve">SURTAVI（Intermediate Risk, CoreValve）</h4>
+<blockquote>
+<p>Van Mieghem NM et al. 5-year outcomes of SURTAVI: TAVI vs SAVR in intermediate-risk patients. <em>JAMA Cardiol</em> 2022;7:1000-8. DOI: <a href="https://doi.org/10.1001/jamacardio.2022.2695">10.1001/jamacardio.2022.2695</a></p>
+</blockquote>
+<ul>
+<li>5年複合（死亡/disabling stroke）: TAVR 31.3% vs SAVR 30.8% (HR 1.02, P=0.85)</li>
+<li><strong>PPI: TAVR 35.8% vs SAVR 14.6% (P&lt;0.001)</strong></li>
+</ul>
+<h4 id="uk-tavi-trialpragmatic-industry-neutral">UK TAVI Trial（pragmatic, industry-neutral）</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>FU</th>
+<th>著者</th>
+<th>雑誌</th>
+<th>DOI / PMID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1年</td>
+<td>Toff WD et al.</td>
+<td>JAMA 2022;327:1875-87</td>
+<td><a href="https://doi.org/10.1001/jama.2022.5776">10.1001/jama.2022.5776</a> / 35579641</td>
+</tr>
+<tr>
+<td><strong>5年</strong></td>
+<td>EuroPCR 2025 発表</td>
+<td>full publication pending</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><strong>1年</strong>: TAVI 4.6% vs SAVR 6.6%（非劣性, P&lt;0.001）</li>
+<li><strong>5年</strong>: 全死亡・心血管死亡 NS、しかし <strong>TAVI で脳卒中ほぼ2倍</strong>（disabling strokeでは差なし）</li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p>UK TAVIは industry sponsor 中立の pragmatic trial。<strong>5年でstrokeリスク2倍</strong>という所見は、industry-sponsored trial（PARTNER, Evolut）と方向性が異なり、適応拡大議論で要注意。</p>
+</div>
+
+<h4 id="notion-2若年--bicuspid含む">NOTION-2（若年 / Bicuspid含む）</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>FU</th>
+<th>著者</th>
+<th>雑誌</th>
+<th>DOI / PMID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1年</td>
+<td>Jørgensen TH et al.</td>
+<td>Eur Heart J 2024;45:3804-14</td>
+<td><a href="https://doi.org/10.1093/eurheartj/ehae331">10.1093/eurheartj/ehae331</a> / 38747246</td>
+</tr>
+<tr>
+<td><strong>3年</strong></td>
+<td>Jørgensen TH et al.</td>
+<td>Circulation 2025 (online)</td>
+<td><a href="https://doi.org/10.1161/CIRCULATIONAHA.125.076678">10.1161/CIRCULATIONAHA.125.076678</a> / 40884768</td>
+</tr>
+</tbody>
+</table></div>
+<p>n=370、平均71.1歳、STS 1.1%、bicuspid 100例（27%）。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>群</th>
+<th>1年複合 (TAVI vs SAVR)</th>
+<th>3年複合 (TAVI vs SAVR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tricuspid</td>
+<td>8.7% vs 8.3% (NS)</td>
+<td>14.5% vs 14.4% (NS)</td>
+</tr>
+<tr>
+<td><strong>Bicuspid</strong></td>
+<td><strong>14.3% vs 3.9%（TAVI劣勢）</strong></td>
+<td><strong>20.4% vs 7.8%（TAVI劣勢, NS だが臨床的重要）</strong></td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>NOTION-2は「若年（&lt;75歳）かつbicuspid」でのTAVIに警鐘</strong>を鳴らす唯一のRCT。<strong>ガイドラインで「若年・bicuspidにはTAVR慎重」の根拠</strong>。</p>
+</div>
+
+<hr />
+<h2 id="iii-メタアナリシス統合解析">III. メタアナリシス・統合解析</h2>
+<h3 id="iii-a-reddy-2025-jacc--ipdメタアナリシス5年">III-A. Reddy 2025 JACC — IPDメタアナリシス（5年）</h3>
+<blockquote>
+<p>Reddy RK, Howard JP, ..., Mack MJ, Leon MB, Ahmad Y. <em>Transcatheter vs Surgical Aortic Valve Replacement in Lower-Risk Patients: An Updated Meta-Analysis of RCTs.</em> J Am Coll Cardiol 2025;85:926-40. DOI: <a href="https://doi.org/10.1016/j.jacc.2024.12.031">10.1016/j.jacc.2024.12.031</a> | PMID: 40044297</p>
+</blockquote>
+<ul>
+<li>6 RCT, n=5,341, weighted mean FU 35.7か月</li>
+<li>5年pooled IPD reconstruction:
+<ul>
+<li><strong>全死亡 HR 0.80（95%CI 0.66-0.97, P=0.02）</strong> — TAVR favorable</li>
+<li>死亡 or disabling stroke HR 0.81（0.68-0.96, P=0.01）</li>
+<li>脳卒中 HR 0.97（NS）</li>
+</ul></li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p>本メタアナリシスは <strong>PARTNER 3 7年データ（2025/2026年公開）を含まない</strong>。今後7年データ反映でHRが<strong>1.0に近づく可能性</strong>を念頭に置く必要がある。</p>
+</div>
+
+<h3 id="iii-b-marin-cuartas-2026-heart--5年再評価">III-B. Marin-Cuartas 2026 Heart — 5年再評価</h3>
+<blockquote>
+<p>Marin-Cuartas M, Kawczynski MJ, de Waha S, et al. <em>Updated 5-year outcomes of transcatheter versus surgical aortic valve replacement in patients with severe aortic stenosis at low- to intermediate-surgical risk.</em> Heart 2026. DOI: <a href="https://doi.org/10.1136/heartjnl-2025-327092">10.1136/heartjnl-2025-327092</a> | PMID: 41672766</p>
+</blockquote>
+<p>Heutsらと同じLeipzigグループによる5年メタアナリシス。Heuts editorialの中核引用文献。</p>
+<hr />
+<h2 id="iv-savr弁の進化--inspiris-resilia-を巡る7年データ">IV. SAVR弁の進化 — Inspiris RESILIA を巡る7年データ</h2>
+<h3 id="iv-a-なぜ外科弁の耐久性を再評価するのか">IV-A. なぜ「外科弁の耐久性」を再評価するのか</h3>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p>NOTION（10年）・PARTNER 3（7年）の比較対照SAVR弁は、<strong>Carpentier-Edwards PERIMOUNT / Magna Ease 等の前世代生体弁</strong>。一方、2017年以降に普及したInspiris RESILIA（Edwards、anti-calcification "Integrity Preservation Technology"採用）は、過去30年のSAVR弁とは<strong>異なる耐久性プロファイル</strong>を示しつつあり、「TAVR vs SAVR 議論の前提を変える」可能性がある。</p>
+</div>
+
+<h3 id="iv-b-commence-trial--inspiris-resilia-のピボタル試験">IV-B. COMMENCE Trial — Inspiris RESILIA のピボタル試験</h3>
+<p>NCT01757665、国際多施設（27施設）、単群、FDA IDE、n=689、平均66.9歳、STS-PROM 2.0%、2013–2016年登録。</p>
+<h4 id="主要論文時系列">主要論文時系列</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>FU</th>
+<th>著者</th>
+<th>雑誌</th>
+<th>DOI / PMID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2年</td>
+<td>Puskas JD et al.</td>
+<td>EJCTS 2017;52:432-9</td>
+<td><a href="https://doi.org/10.1093/ejcts/ezx158">10.1093/ejcts/ezx158</a> / 28605428</td>
+</tr>
+<tr>
+<td>4年（中間）</td>
+<td>Johnston DR et al.</td>
+<td>JTCVS 2021;162:1478-85</td>
+<td><a href="https://doi.org/10.1016/j.jtcvs.2020.01.095">10.1016/j.jtcvs.2020.01.095</a> / 32340804</td>
+</tr>
+<tr>
+<td>5年</td>
+<td>Bavaria JE et al.</td>
+<td>Ann Thorac Surg 2023;115:1429-36</td>
+<td><a href="https://doi.org/10.1016/j.athoracsur.2021.12.058">10.1016/j.athoracsur.2021.12.058</a> / 35065065</td>
+</tr>
+<tr>
+<td>5年 BAV亜群</td>
+<td>Bavaria JE et al.</td>
+<td>Ann Thorac Surg 2024;118:173-9</td>
+<td><a href="https://doi.org/10.1016/j.athoracsur.2023.11.036">10.1016/j.athoracsur.2023.11.036</a> / 38135262</td>
+</tr>
+<tr>
+<td><strong>7年（pivotal）</strong></td>
+<td><strong>Beaver T et al.</strong></td>
+<td><strong>JTCVS 2024;168:781-91</strong></td>
+<td><a href="https://doi.org/10.1016/j.jtcvs.2023.09.047"><strong>10.1016/j.jtcvs.2023.09.047</strong></a> <strong>/ 37778503</strong></td>
+</tr>
+<tr>
+<td>7年 BAV update</td>
+<td>Salna M et al.</td>
+<td>ICVTS 2025;40:ivaf176</td>
+<td><a href="https://doi.org/10.1093/icvts/ivaf176">10.1093/icvts/ivaf176</a> / 40748697</td>
+</tr>
+<tr>
+<td><strong>8年（vs Magna Ease propensity）</strong></td>
+<td><strong>Kaneko T et al.</strong></td>
+<td><strong>JTCVS Open 2026;29:101557</strong></td>
+<td><a href="https://doi.org/10.1016/j.xjon.2025.101557"><strong>10.1016/j.xjon.2025.101557</strong></a> <strong>/ 41960126</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="commence-7年beaver-2024主要結果">COMMENCE 7年（Beaver 2024）主要結果</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>エンドポイント</th>
+<th>値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>全生存 1/5/7年</td>
+<td>97.7% / 89.4% / <strong>85.4%</strong></td>
+</tr>
+<tr>
+<td><strong>Freedom from SVD（7年）</strong></td>
+<td><strong>99.3%</strong></td>
+</tr>
+<tr>
+<td>平均圧較差（7年）</td>
+<td>9.4±4.5 mmHg</td>
+</tr>
+<tr>
+<td>EOA（7年）</td>
+<td>1.82±0.57 cm²</td>
+</tr>
+<tr>
+<td>軽度以上PVL</td>
+<td>3.2%（none/trace 96.8%）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>著者結語</strong>: "<em>This tissue demonstrates excellent outcomes through 7 years and is the benchmark for future surgical and transcatheter prostheses.</em>"</p>
+<h4 id="commence-8年-propensity-matchedkaneko-2026-2026年の決定的論文">COMMENCE 8年 propensity-matched（Kaneko 2026）— <strong>2026年の決定的論文</strong></h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>8年エンドポイント</th>
+<th>Inspiris RESILIA (n=689)</th>
+<th>Magna Ease (ThermaFix, n=258)</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Freedom from any reoperation</td>
+<td>97.0%</td>
+<td>90.5%</td>
+<td>0.0014</td>
+</tr>
+<tr>
+<td>Freedom from SVD-related reoperation</td>
+<td>99.2%</td>
+<td>93.9%</td>
+<td>0.0007</td>
+</tr>
+<tr>
+<td><strong>Freedom from SVD</strong></td>
+<td><strong>99.3%</strong></td>
+<td><strong>90.5%</strong></td>
+<td><strong>&lt;0.0001</strong></td>
+</tr>
+<tr>
+<td>Freedom from all-cause mortality</td>
+<td>83.3%</td>
+<td>81.3%</td>
+<td>0.6332（NS）</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>Inspiris RESILIAは8年でSVD回避率99.3%、先代Magna Ease（ThermaFix抗石灰化処理）の90.5%に対し絶対値で約9ポイント優越</strong>（P&lt;0.0001）。全死亡は同等で、差は<strong>真のSVD抑制効果に起因</strong>。COMMENCEは現在 <strong>10年extended follow-up</strong>（225例の再同意subset）が進行中で、<strong>2027–2029年に10年RESILIAデータが出る</strong>見込み。</p>
+</div>
+
+<h4 id="二尖弁bav亜群salna-2025">二尖弁（BAV）亜群（Salna 2025）</h4>
+<p>n=214、平均59.8歳（三尖弁より10歳若年）、18%が&lt;50歳</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>7年</th>
+<th>二尖弁</th>
+<th>三尖弁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Freedom from SVD</td>
+<td><strong>0%発生</strong></td>
+<td>0%発生</td>
+</tr>
+<tr>
+<td>PS-adjusted survival</td>
+<td>91.9%</td>
+<td>88.1% (P=0.35)</td>
+</tr>
+<tr>
+<td>EOA / mean gradient変化</td>
+<td>不変</td>
+<td>不変</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>若年・二尖弁症例で7年SVD 0%</strong> — TAVR適応下限年齢の議論で「SAVR + RESILIA」が強い競合選択肢となる根拠。</p>
+</div>
+
+<h3 id="iv-c-real-world-registries--resilia-の市販後データ">IV-C. Real-world Registries — RESILIA の市販後データ</h3>
+<h4 id="indure-registry60歳専用">INDURE Registry（&lt;60歳専用）</h4>
+<blockquote>
+<p>Meuris B et al. INDURE 1-year. <em>ICVTS</em> 2023;37:ivad115. DOI: <a href="https://doi.org/10.1093/icvts/ivad115">10.1093/icvts/ivad115</a> | PMID: 37462612</p>
+</blockquote>
+<ul>
+<li>n=421, 平均53.5歳</li>
+<li>1年: 全死亡回避 98.3%, <strong>VARC-3 stage 3 SVD 0例</strong>, 平均圧較差 12.6 mmHg, EOA 1.9 cm²</li>
+</ul>
+<h4 id="impact-registry市販後3年">IMPACT Registry（市販後3年）</h4>
+<blockquote>
+<p>Bakhtiary F et al. IMPACT 3-year. <em>Interdiscip Cardiovasc Thorac Surg</em> 2026;41(3):ivag056. DOI: <a href="https://doi.org/10.1093/icvts/ivag056">10.1093/icvts/ivag056</a> | PMID: 41787958</p>
+</blockquote>
+<ul>
+<li>n=556, 平均63.4歳, EuroSCORE II 2.2%</li>
+<li>3年: 全生存 91.0%, 弁関連死回避 97.5%, SVD stage 2回避 96.8%, stage 3回避 99.4%</li>
+</ul>
+<h4 id="vienna-single-center-7年-noninferiority">Vienna Single-center 7年 noninferiority</h4>
+<blockquote>
+<p>Geisler D et al. RESILIA vs Magna Ease 7-year noninferiority. <em>JTCVS Open</em> 2026;30:101571. DOI: <a href="https://doi.org/10.1016/j.xjon.2025.101571">10.1016/j.xjon.2025.101571</a> | PMID: 42079900</p>
+</blockquote>
+<ul>
+<li>n=1,704（PSM後 554 vs 554）、2008–2024年</li>
+<li><strong>全死亡 noninferiority HR 0.791（95%CI 0.546–1.146）</strong></li>
+<li>1/3/5/7年生存: 94.6/93.1/91.1/86.8% (RESILIA) vs 94.8/91.9/87.7/84.2% (Magna Ease)</li>
+</ul>
+<h3 id="iv-d-ベンチマーク--perimount-20年実績">IV-D. ベンチマーク — PERIMOUNT 20年実績</h3>
+<blockquote>
+<p>Bourguignon T et al. Very long-term outcomes of the Carpentier-Edwards Perimount valve in aortic position. <em>Ann Thorac Surg</em> 2015;99:831-7. DOI: <a href="https://doi.org/10.1016/j.athoracsur.2014.09.030">10.1016/j.athoracsur.2014.09.030</a> | PMID: 25583467</p>
+</blockquote>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>年齢層</th>
+<th>20年Freedom from SVD reoperation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>≤60歳</td>
+<td><strong>38.1%</strong></td>
+</tr>
+<tr>
+<td>60–70歳</td>
+<td><strong>59.6%</strong></td>
+</tr>
+<tr>
+<td>&gt;70歳</td>
+<td>98.1% (15年)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Expected durability</strong>: 全コホート <strong>19.7年</strong>、≤60歳 17.6年、50–65歳 19年。</p>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p>PERIMOUNT の20年実臨床データは、<strong>60歳以下で40%しか再手術なし</strong>を意味し、若年AS患者で機械弁が依然推奨される根拠の一つ。RESILIA がこのベンチマークを15-20年で上回れるかが、今後の最大の臨床question。</p>
+</div>
+
+<h3 id="iv-e-競合外科弁との比較">IV-E. 競合外科弁との比較</h3>
+<h4 id="trifectaabbott-注意を要する競合">Trifecta（Abbott）— 注意を要する競合</h4>
+<blockquote>
+<p>Werner P, et al. Trifecta valve 7-year SVD. <em>ICVTS</em> 2021;32:39-46. DOI: <a href="https://doi.org/10.1093/icvts/ivaa236">10.1093/icvts/ivaa236</a> | PMID: 33221889</p>
+</blockquote>
+<ul>
+<li>n=347, <strong>7年freedom from SVD 65.5%</strong>, 7年再介入回避 76.9%</li>
+<li>Externally-mounted leaflet設計でinitial blade openingは良好だが、<strong>早期cusp tear</strong>による SVD報告多発</li>
+</ul>
+<blockquote>
+<p>Werner P et al. Trifecta vs Intuity. <em>EJCTS</em> 2022;61:1124-30. DOI: <a href="https://doi.org/10.1093/ejcts/ezab470">10.1093/ejcts/ezab470</a> | PMID: 34738111</p>
+</blockquote>
+<ul>
+<li>n=1,118, Trifecta群で <strong>SVD HR 11.20（3.79–33.09）</strong></li>
+</ul>
+<h4 id="multicenter-比較intu-ita--res-ita">Multicenter 比較（INTU-ITA + RES-ITA）</h4>
+<blockquote>
+<p>D'Onofrio A et al. Multicenter comparison Magna Ease/Intuity/Inspiris RESILIA. <em>Int J Cardiol Heart Vasc</em> 2024;54:101487. DOI: <a href="https://doi.org/10.1016/j.ijcha.2024.101487">10.1016/j.ijcha.2024.101487</a> | PMID: 39263409</p>
+</blockquote>
+<ul>
+<li>n=2,589（Magna Ease 296 + Intuity 1,688 + Inspiris RESILIA 605）</li>
+<li><strong>PPI: Inspiris 2% vs Magna Ease/Intuity 各6% (P&lt;0.001)</strong> — 有意に低い</li>
+<li>平均圧較差: 10 mmHg（Intuityと同等, Magna Easeより低）</li>
+</ul>
+<h4 id="系統的レビュー">系統的レビュー</h4>
+<blockquote>
+<p>Sef D et al. Inspiris RESILIA systematic review. <em>EJCTS</em> 2024;65:ezae045. DOI: <a href="https://doi.org/10.1093/ejcts/ezae045">10.1093/ejcts/ezae045</a> | PMID: 38331412</p>
+</blockquote>
+<p>15研究 n=3,202, FU 最大5.3年。30日死亡・脳卒中OR両群同等（短中期）、<strong>長期SVD抑制効果が真価</strong>。</p>
+<h3 id="iv-f-機械的耐久性in-vitro">IV-F. 機械的耐久性（in vitro）</h3>
+<ul>
+<li>Sadri V et al. 21/23mm Inspiris <strong>10億サイクル（≈25年相当）</strong> 加速摩耗試験合格。<em>JTCVS Open</em> 2022;9:60-72. DOI: <a href="https://doi.org/10.1016/j.xjon.2021.10.056">10.1016/j.xjon.2021.10.056</a> | PMID: 36003435</li>
+<li>Bhat S et al. <strong>20億サイクル（≈50年相当）</strong> まで延長試験合格。<em>Ann Thorac Surg Short Rep</em> 2024. DOI: <a href="https://doi.org/10.1016/j.atssr.2024.11.013">10.1016/j.atssr.2024.11.013</a> | PMID: 40525171</li>
+</ul>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>In vitroでは50年相当の機械的durability</strong>。生物学的因子（calcification・タンパク質沈着）を除けば、leaflet基材の機械的疲労は実質ボトルネックではないことを意味する。</p>
+</div>
+
+<h3 id="iv-g-5年hemodynamic直接比較vs-partner-2a-savr-arm">IV-G. 5年hemodynamic直接比較（vs PARTNER 2A SAVR arm）</h3>
+<blockquote>
+<p>Bartus K et al. RESILIA vs PARTNER 2A SAVR arm (5-year HVD). <em>J Comp Eff Res</em> 2023;12:e220180. DOI: <a href="https://doi.org/10.2217/cer-2022-0180">10.2217/cer-2022-0180</a> | PMID: 36691718</p>
+</blockquote>
+<ul>
+<li>COMMENCE n=689 vs PARTNER 2A SAVR arm n=936</li>
+<li>SVD関連 HVD grade ≥2: <strong>RESILIA 1.8% vs PARTNER 2A SAVR 3.5%</strong></li>
+<li>PS-matched n=239ペア: <strong>1.0% vs 4.8% (HR下限95%CI 1.15, P=0.03)</strong> — RESILIA が <strong>半減</strong></li>
+</ul>
+<h3 id="iv-h-経済性">IV-H. 経済性</h3>
+<blockquote>
+<p>Keuffel EL et al. Economic comparison of Inspiris RESILIA vs mechanical SAVR. <em>J Med Econ</em> 2024;27:1041-50. DOI: <a href="https://doi.org/10.1080/13696998.2024.2373001">10.1080/13696998.2024.2373001</a> | PMID: 38923952</p>
+</blockquote>
+<p>7年COMMENCEデータに基づく経済モデル：</p>
+<ul>
+<li>7年累積コスト削減: <strong>$13,415/患者</strong></li>
+<li>15年累積コスト削減: <strong>$23,001/患者</strong>（主に抗凝固管理回避）</li>
+</ul>
+<hr />
+<h2 id="v-svdbvf-定義と評価枠組み--varc-3-を中心に">V. SVD/BVF 定義と評価枠組み — VARC-3 を中心に</h2>
+<h3 id="v-a-varc-3現行ゴールドスタンダード-2021">V-A. VARC-3（現行ゴールドスタンダード, 2021）</h3>
+<blockquote>
+<p>Généreux P, Piazza N, Alu MC, et al. <em>Valve Academic Research Consortium 3: Updated Endpoint Definitions for Aortic Valve Clinical Research.</em> J Am Coll Cardiol 2021;77:2717-46. DOI: <a href="https://doi.org/10.1016/j.jacc.2021.02.038">10.1016/j.jacc.2021.02.038</a> | PMID: 33888385</p>
+</blockquote>
+<p>同時掲載: Eur Heart J 2021;42:1825-57. DOI: <a href="https://doi.org/10.1093/eurheartj/ehaa799">10.1093/eurheartj/ehaa799</a></p>
+<h4 id="bioprosthetic-valve-dysfunction-bvd--4カテゴリ">Bioprosthetic Valve Dysfunction (BVD) — 4カテゴリ</h4>
+<ol type="1">
+<li><strong>Structural valve deterioration (SVD)</strong> — leaflet/支持構造の永続的変化</li>
+<li><strong>Non-structural valve dysfunction (NSVD)</strong> — PPM, PVL, malposition</li>
+<li><strong>Clinical/subclinical leaflet thrombosis</strong> — HALT含む</li>
+<li><strong>Endocarditis</strong></li>
+</ol>
+<h4 id="svd-ステージングvarc-3">SVD ステージング（VARC-3）</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>名称</th>
+<th>エコー基準</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Stage 1</strong></td>
+<td>Morphological</td>
+<td>leaflet calcification/pannus/tear/flail 等を imaging で確認するが血行動態は正常</td>
+</tr>
+<tr>
+<td><strong>Stage 2</strong></td>
+<td>Moderate hemodynamic</td>
+<td><strong>2S</strong>: mean gradient ≥20 mmHg + ベースラインから ≥10 mmHg上昇、EOA低下、DVI低下 / <strong>2R</strong>: 中等度intra-prosthetic AR新規・悪化 / <strong>2RS</strong>: 両方</td>
+</tr>
+<tr>
+<td><strong>Stage 3</strong></td>
+<td>Severe hemodynamic</td>
+<td><strong>3S</strong>: mean gradient ≥30 mmHg + ベースラインから ≥20 mmHg上昇、または高度EOA低下 / <strong>3R</strong>: 高度intra-prosthetic AR</td>
+</tr>
+</tbody>
+</table></div>
+<h4 id="bioprosthetic-valve-failure-bvf--患者中心アウトカム">Bioprosthetic Valve Failure (BVF) — 患者中心アウトカム</h4>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Stage 1</strong></td>
+<td>持続したBVDの存在のみ（症状なし・再介入なし）</td>
+</tr>
+<tr>
+<td><strong>Stage 2</strong></td>
+<td>BVDによる弁関連再介入（redo-SAVR / TAV-in-SAV / TAV-in-TAV）</td>
+</tr>
+<tr>
+<td><strong>Stage 3</strong></td>
+<td>BVDによる弁関連死亡</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="v-b-eapciesceacts-2017-コンセンサスvarc-3の前身">V-B. EAPCI/ESC/EACTS 2017 コンセンサス（VARC-3の前身）</h3>
+<blockquote>
+<p>Capodanno D, Petronio AS, Prendergast B, et al. <em>Standardized definitions of structural deterioration and valve failure in assessing long-term durability of transcatheter and surgical aortic bioprosthetic valves.</em> Eur Heart J 2017;38:3382-90. DOI: <a href="https://doi.org/10.1093/eurheartj/ehx303">10.1093/eurheartj/ehx303</a> | PMID: 29020344</p>
+</blockquote>
+<p>EJCTS同時版: Eur J Cardiothorac Surg 2017;52:408-17. DOI: <a href="https://doi.org/10.1093/ejcts/ezx244">10.1093/ejcts/ezx244</a></p>
+<p><strong>重要な変更点</strong>:</p>
+<ul>
+<li>EAPCI 2017: severe SVD = mean gradient <strong>≥40 mmHg</strong> + baseline比 ≥20 mmHg</li>
+<li>VARC-3 2021: severe SVD（Stage 3）= mean gradient <strong>≥30 mmHg</strong> + baseline比 ≥20 mmHg</li>
+<li>→ VARC-3で<strong>閾値が10 mmHg低下</strong>し、より早期にSVDを検出できる</li>
+</ul>
+<h3 id="v-c-halt--leaflet-thrombosis">V-C. HALT / Leaflet Thrombosis</h3>
+<h4 id="partner-3-ct-substudylandmark">PARTNER 3 CT substudy（landmark）</h4>
+<blockquote>
+<p>Makkar RR, Blanke P, Leipsic J, et al. <em>Subclinical Leaflet Thrombosis in Transcatheter and Surgical Bioprosthetic Valves: PARTNER 3 Cardiac Computed Tomography Substudy.</em> J Am Coll Cardiol 2020;75:3003-15. DOI: <a href="https://doi.org/10.1016/j.jacc.2020.04.043">10.1016/j.jacc.2020.04.043</a> | PMID: 32553252</p>
+</blockquote>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>時点</th>
+<th>TAVR HALT</th>
+<th>SAVR HALT</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30日</td>
+<td>13%</td>
+<td>5%</td>
+<td><strong>0.03</strong></td>
+</tr>
+<tr>
+<td>1年</td>
+<td>28%</td>
+<td>20%</td>
+<td>0.19（差消失）</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><strong>HALT自然消退率（30日→1年）</strong>: 54%（抗凝固の有無に関わらず）</li>
+<li>HALT持続 → 1年圧較差 ↑（17.8 vs 12.7 mmHg, P=0.04）</li>
+<li>単一時点HALTでは血行動態への有意影響なし</li>
+</ul>
+<h4 id="haltメタアナリシス">HALTメタアナリシス</h4>
+<blockquote>
+<p>Salah HM et al. HALT meta-analysis (10 studies, n=1,462). <em>Curr Probl Cardiol</em> 2023;48:101155. DOI: <a href="https://doi.org/10.1016/j.cpcardiol.2022.101155">10.1016/j.cpcardiol.2022.101155</a> | PMID: 35192871</p>
+</blockquote>
+<ul>
+<li>HALT発生率: TAVR後 14.4%</li>
+<li>Stroke/TIA: OR 1.38 (NS)</li>
+<li>全死亡: OR 0.67 (NS)</li>
+<li>平均圧較差: HALT群で +2.31 mmHg</li>
+</ul>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p><strong>HALTはTAVR後に多いが、stroke・死亡の独立リスクではない</strong>。<strong>ルーチン抗凝固は推奨されない</strong>（GALILEO trialでmortality/塞栓増加）。長期durability（SVD早期マーカー）への影響は7-10年データ待ち。</p>
+</div>
+
+<hr />
+<h2 id="vi-lifetime-management--戦略マトリクス">VI. Lifetime Management — 戦略マトリクス</h2>
+<h3 id="vi-a-若年as患者の-initial-intervention-選択">VI-A. 若年AS患者の Initial intervention 選択</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>初回手術</th>
+<th>First failure時の選択肢</th>
+<th>Second failure時</th>
+<th>制約</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>若年でSAVR（RESILIA等生体弁）</strong></td>
+<td>① ViV-TAVR (TAV-in-SAV) ② Redo-SAVR</td>
+<td>TAV-in-TAV、機械弁再置換</td>
+<td>STJ径、coronary height、surgical valve sizingが将来のViVを制約</td>
+</tr>
+<tr>
+<td><strong>若年でTAVR</strong></td>
+<td>① TAV-in-TAV ② TAVR explant + SAVR</td>
+<td>TAVR explant→SAVR</td>
+<td>initial valve type と neoskirt heightがcoronary occlusion／2nd ViVのlimitationを規定</td>
+</tr>
+<tr>
+<td><strong>若年で機械弁SAVR</strong></td>
+<td>通常不要（lifetime durability）</td>
+<td>—</td>
+<td>Warfarin生涯投与</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="vi-b-viv-tavr-の長期成績partner-2-viv-registry-5年">VI-B. ViV-TAVR の長期成績（PARTNER 2 ViV registry 5年）</h3>
+<blockquote>
+<p>Hahn RT, Webb J, Pibarot P, et al. <em>5-Year Follow-Up From the PARTNER 2 Aortic Valve-in-Valve Registry.</em> JACC Cardiovasc Interv 2022;15:698-708. DOI: <a href="https://doi.org/10.1016/j.jcin.2022.02.014">10.1016/j.jcin.2022.02.014</a> | PMID: 35393102</p>
+</blockquote>
+<ul>
+<li>n=365, 平均78.9歳, STS 9.1%（高リスク）</li>
+<li><strong>5年mortality: 50.6%</strong></li>
+<li><strong>5年stroke: 10.5%</strong></li>
+<li><strong>VARC-3 SVD/HVD/BVF: 6.6%</strong></li>
+<li>Aortic valve re-replacement: 6.3%</li>
+</ul>
+<h3 id="vi-c-tavr-explant--急増する高リスク手術">VI-C. TAVR Explant — 急増する高リスク手術</h3>
+<p>Heuts editorialで指摘されたように、Evolut LR の7年再介入の <strong>65%が外科的（explant-TAVI）</strong>。Explantは現在最も急速に増加している心臓外科手術で、罹病率・死亡率が不釣り合いに高い。</p>
+<h3 id="vi-d-関連レビュー">VI-D. 関連レビュー</h3>
+<ul>
+<li>Atkins MD, Reardon MJ. <em>What did the TAVR-SAVR trials tell us?</em> Ann Cardiothorac Surg 2024;13:206-10. DOI: <a href="https://doi.org/10.21037/acs-2023-aae-0152">10.21037/acs-2023-aae-0152</a> | PMID: 38841082</li>
+<li>Sharaf OM, Beaver TM. <em>Aortic valve 2024: Which valve for which patient?</em> J Thorac Cardiovasc Surg 2025;170:164-74. DOI: <a href="https://doi.org/10.1016/j.jtcvs.2024.06.023">10.1016/j.jtcvs.2024.06.023</a> | PMID: 38950770</li>
+<li>Sudhakaran S, Thourani VH, Guerrero ME. <em>Treating Aortic Stenosis in Young Patients.</em> JACC Adv 2024;3:101311. DOI: <a href="https://doi.org/10.1016/j.jacadv.2024.101311">10.1016/j.jacadv.2024.101311</a> | PMID: 39391671</li>
+<li>Basman C et al. <em>Lifetime management for aortic stenosis: Planning for future therapies.</em> J Cardiol 2022;80:185-9. DOI: <a href="https://doi.org/10.1016/j.jjcc.2021.12.010">10.1016/j.jjcc.2021.12.010</a> | PMID: 35016808</li>
+</ul>
+<hr />
+<h2 id="vii-ガイドライン展望と臨床判断">VII. ガイドライン展望と臨床判断</h2>
+<h3 id="vii-a-現行ガイドライン">VII-A. 現行ガイドライン</h3>
+<ul>
+<li><strong>2020 ACC/AHA Valvular Heart Disease Guideline</strong> (Otto CM et al., JACC 2021;77:e25-e197): TAVR推奨年齢 ≥65歳（class I）、65歳未満ではSAVR優先（class IIa）。「<strong>長期 durability data の蓄積待ち</strong>」が低年齢制限の根拠。</li>
+<li><strong>2021 ESC/EACTS Valvular Heart Disease Guideline</strong> (Vahanian A et al., EHJ 2022;43:561-632. DOI: <a href="https://doi.org/10.1093/eurheartj/ehab395">10.1093/eurheartj/ehab395</a>): TAVR推奨年齢 ≥75歳（または高リスク）、75歳未満かつ手術可能例ではSAVR優先。VARC-3定義採用。</li>
+</ul>
+<h3 id="vii-b-2026年データを踏まえた臨床判断">VII-B. 2026年データを踏まえた臨床判断</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>患者属性</th>
+<th>推奨される戦略（2026年エビデンス）</th>
+<th>主要根拠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>&gt;80歳・解剖学的にTAVR可能・low surgical morbidity tolerance</strong></td>
+<td><strong>TAVR first</strong></td>
+<td>PARTNER 1A, CoreValve High Risk, PARTNER 3 7yr</td>
+</tr>
+<tr>
+<td><strong>70–80歳・解剖学的にTAVR適合</strong></td>
+<td>TAVR優位だが Heart Team評価</td>
+<td>PARTNER 3 7yr, NOTION 10yr, Reddy 2025 meta</td>
+</tr>
+<tr>
+<td><strong>65–75歳・低リスク・三尖弁・余命長い</strong></td>
+<td><strong>両群equipoise — Heart Team評価必須</strong></td>
+<td>PARTNER 3 7yr, Evolut LR 6/7yr</td>
+</tr>
+<tr>
+<td><strong>&lt;65歳・低リスク・三尖弁</strong></td>
+<td><strong>SAVR優先（RESILIA等新世代生体弁、または機械弁）</strong></td>
+<td>Heuts editorial, Bourguignon PERIMOUNT 20yr, COMMENCE 7/8yr</td>
+</tr>
+<tr>
+<td><strong>&lt;70歳・bicuspid AS</strong></td>
+<td><strong>SAVR優先</strong></td>
+<td>NOTION-2 3yr (bicuspid TAVI劣勢)</td>
+</tr>
+<tr>
+<td><strong>若年・社会的にanticoagulation困難</strong></td>
+<td><strong>RESILIA等新世代生体弁 + 将来のViV-TAVR戦略</strong></td>
+<td>COMMENCE 7yr SVD 99.3%, ViV PARTNER 2 5yr</td>
+</tr>
+<tr>
+<td><strong>若年・anticoagulation許容・lifetime durability重視</strong></td>
+<td><strong>機械弁</strong></td>
+<td>Bourguignon ≤60歳20年 38.1% reoperation-free（生体弁の限界）</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="viii-結論--7年データが我々に何を教えたか">VIII. 結論 — 「7年データ」が我々に何を教えたか</h2>
+<h3 id="viii-1-確定したこと">VIII-1. 確定したこと</h3>
+<ol type="1">
+<li><strong>PARTNER 3とEvolut LRの7年データ</strong>で、低リスク患者における<strong>TAVRの早期優位性は5–6年で消失、7年で逆転傾向</strong>。「<strong>TAVRはSAVRに非劣性（=equivalent）であって優越（=superior）ではない</strong>」が長期phrase。</li>
+<li><strong>TAVRの再介入は時間とともに有意に増加</strong>（Evolut LR 7年9.8% vs 6.0%, P=0.02）。再介入の主因はAR、しかも65%が外科的explant-TAVI。</li>
+<li><strong>NOTION 10年では構造的SVDはTAVR有利</strong>（1.5% vs 10%）だが、<strong>BVF（患者中心アウトカム）は同等</strong>。</li>
+<li><strong>新世代SAVR弁（Inspiris RESILIA）はSVD 7年99.3% / 8年99.3%</strong>、先代Magna Easeを有意に上回る。SAVR弁の進化はTAVR vs SAVR論争の前提を変えつつある。</li>
+<li><strong>若年・bicuspidではTAVR劣勢</strong>（NOTION-2）、<strong>UK TAVI 5年でstrokeほぼ2倍</strong>——industry-neutral・若年・非典型解剖でのTAVRは慎重に。</li>
+</ol>
+<h3 id="viii-2-まだ不確定なこと">VIII-2. まだ不確定なこと</h3>
+<ol type="1">
+<li><strong>PARTNER 3 / Evolut LR の8-10年データ</strong>（2027–2029年予定）。死亡曲線の逆転がそのまま拡大するかが最大の論点。</li>
+<li><strong>COMMENCE 10年データ</strong>（RESILIA durabilityの真価）。</li>
+<li><strong>TAV-in-TAV と Explant-TAVI の長期成績</strong>。Lifetime management戦略の最重要piece。</li>
+<li><strong>VARC-4（次期コンセンサス）</strong>——HALT, neoskirt heightなど新指標の組み込み。</li>
+<li><strong>Bicuspid・若年・小弁輪・高活動性アスリート</strong>等の subgroups でのlong-term TAVR成績。</li>
+</ol>
+<h3 id="viii-3-メッセージ">VIII-3. メッセージ</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>「7年データ時代」のキーメッセージは、TAVR vs SAVR が「どちらが優れるか」の二元論から、「<strong>どの患者に、どの時間軸で、どの戦略が最適か</strong>」という多軸最適化問題に移行したことです。</strong></p>
+</div>
+
+<blockquote>
+<p>Heut らの結語 <em>"Stay tuned"</em> が示すように、<strong>現時点で TAVR適応の「低リスクかつ若年」への正式拡大は時期尚早</strong>。少なくとも進行中の RCT が10年フォローを完了するまで、Heart Teamによる個別最適化が王道となります。</p>
+</blockquote>
+<hr />
+<h2 id="重要度ランキング--top-15-references">重要度ランキング — Top 15 References</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>重要度</th>
+<th>雑誌</th>
+<th>著者</th>
+<th>主題</th>
+<th>カテゴリ</th>
+<th>DOI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>★★★★★</td>
+<td><strong>EJCTS 2026</strong></td>
+<td><strong>Heuts S et al.</strong> 🆕</td>
+<td>自己拡張型TAVR vs SAVR 7年データ批判的Editorial</td>
+<td>TAVR vs SAVR</td>
+<td><a href="https://doi.org/10.1093/ejcts/ezag120">10.1093/ejcts/ezag120</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>★★★★★</td>
+<td><strong>JACC 2026</strong></td>
+<td><strong>Forrest JK et al.</strong> 🆕</td>
+<td>Evolut LR 6年（+ 7年探索）</td>
+<td>TAVR</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2026.02.5063">10.1016/j.jacc.2026.02.5063</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>★★★★★</td>
+<td><strong>NEJM 2026</strong></td>
+<td><strong>Leon MB et al.</strong> 🆕</td>
+<td>PARTNER 3 7年</td>
+<td>TAVR</td>
+<td><a href="https://doi.org/10.1056/NEJMoa2509766">10.1056/NEJMoa2509766</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>★★★★★</td>
+<td>EHJ 2024</td>
+<td>Thyregod HGH et al.</td>
+<td>NOTION 10年（唯一）</td>
+<td>TAVR durability</td>
+<td><a href="https://doi.org/10.1093/eurheartj/ehae043">10.1093/eurheartj/ehae043</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>★★★★★</td>
+<td><strong>JTCVS Open 2026</strong></td>
+<td><strong>Kaneko T et al.</strong> 🆕</td>
+<td>COMMENCE 8年 propensity vs Magna Ease</td>
+<td>SAVR durability</td>
+<td><a href="https://doi.org/10.1016/j.xjon.2025.101557">10.1016/j.xjon.2025.101557</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>★★★★★</td>
+<td>JTCVS 2024</td>
+<td>Beaver T et al.</td>
+<td>COMMENCE 7年</td>
+<td>SAVR durability</td>
+<td><a href="https://doi.org/10.1016/j.jtcvs.2023.09.047">10.1016/j.jtcvs.2023.09.047</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>★★★★★</td>
+<td>JACC 2021</td>
+<td>Généreux P et al.</td>
+<td>VARC-3 定義</td>
+<td>コンセンサス</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2021.02.038">10.1016/j.jacc.2021.02.038</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>★★★★</td>
+<td>JACC 2025</td>
+<td>Forrest JK et al.</td>
+<td>Evolut LR 5年 (ACC.25 LBT)</td>
+<td>TAVR</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2025.03.004">10.1016/j.jacc.2025.03.004</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>★★★★</td>
+<td>Circulation 2025</td>
+<td>Jørgensen TH et al.</td>
+<td>NOTION-2 3年 (bicuspid / 若年)</td>
+<td>TAVR</td>
+<td><a href="https://doi.org/10.1161/CIRCULATIONAHA.125.076678">10.1161/CIRCULATIONAHA.125.076678</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>★★★★</td>
+<td>JACC 2025</td>
+<td>Reddy RK et al.</td>
+<td>TAVR vs SAVR 5年 IPDメタアナリシス</td>
+<td>meta</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2024.12.031">10.1016/j.jacc.2024.12.031</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>★★★★</td>
+<td>NEJM 2023</td>
+<td>Mack MJ et al.</td>
+<td>PARTNER 3 5年</td>
+<td>TAVR</td>
+<td><a href="https://doi.org/10.1056/NEJMoa2307447">10.1056/NEJMoa2307447</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>★★★★</td>
+<td>JACC 2020</td>
+<td>Pibarot P et al.</td>
+<td>PARTNER 2 SVD 5年（XT vs S3）</td>
+<td>TAVR durability</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2020.08.049">10.1016/j.jacc.2020.08.049</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>★★★★</td>
+<td>JACC 2020</td>
+<td>Makkar RR et al.</td>
+<td>PARTNER 3 CT substudy HALT</td>
+<td>leaflet thrombosis</td>
+<td><a href="https://doi.org/10.1016/j.jacc.2020.04.043">10.1016/j.jacc.2020.04.043</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>★★★★</td>
+<td>EHJ 2017</td>
+<td>Capodanno D et al.</td>
+<td>EAPCI/ESC/EACTS SVD コンセンサス</td>
+<td>コンセンサス</td>
+<td><a href="https://doi.org/10.1093/eurheartj/ehx303">10.1093/eurheartj/ehx303</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>★★★★</td>
+<td>Ann Thorac Surg 2015</td>
+<td>Bourguignon T et al.</td>
+<td>PERIMOUNT 20年 benchmark</td>
+<td>SAVR durability</td>
+<td><a href="https://doi.org/10.1016/j.athoracsur.2014.09.030">10.1016/j.athoracsur.2014.09.030</a></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="主要キーポイント総括">主要キーポイント総括</h2>
+<h3 id="1-tavr-vs-savr-長期成績の現在地">1. TAVR vs SAVR 長期成績の現在地</h3>
+<ul>
+<li><strong>低リスク TAVR非劣性が7年で確立</strong>（PARTNER 3 / Evolut LR）するも、<strong>早期優位は消失</strong></li>
+<li><strong>Evolut LR 7年再介入で初の有意差</strong>（9.8% vs 6.0%, P=0.02）</li>
+<li>**NOTION 10年で「TAVRはSAVRより耐久性で劣るとは言えない」**が、対照SAVRは旧世代弁</li>
+</ul>
+<h3 id="2-savr弁の進化パラダイムシフト">2. SAVR弁の進化（パラダイムシフト）</h3>
+<ul>
+<li><strong>Inspiris RESILIA 7年SVD 99.3% / 8年SVD 99.3%</strong>（COMMENCE）</li>
+<li><strong>若年・bicuspidでもSVD 0%</strong>（COMMENCE BAV 7年）</li>
+<li>「過去のSAVR弁データでTAVRと比較する時代は終わる」</li>
+</ul>
+<h3 id="3-方法論的批判heuts-ejcts-2026">3. 方法論的批判（Heuts EJCTS 2026）</h3>
+<ul>
+<li>非比例ハザード状況でのlog-rank/Coxは<strong>P値解釈不能</strong></li>
+<li>マイルストーン解析推奨</li>
+<li>統計設計の中途変更（Bayesian→頻度論）への警鐘</li>
+</ul>
+<h3 id="4-若年bicuspidへのtavr適応拡大は時期尚早">4. 若年・bicuspidへのTAVR適応拡大は時期尚早</h3>
+<ul>
+<li>NOTION-2 3年で <strong>bicuspid TAVI劣勢</strong>（20.4% vs 7.8%）</li>
+<li>UK TAVI 5年で <strong>TAVI stroke 約2倍</strong></li>
+<li>Heuts: <strong>少なくとも10年フォローまで適応拡大保留</strong></li>
+</ul>
+<h3 id="5-lifetime-management-の重要性">5. Lifetime management の重要性</h3>
+<ul>
+<li>ViV-TAVR 5年成績は良好（PARTNER 2 ViV registry）</li>
+<li><strong>Explant-TAVI は急速に増加する高リスク手術</strong></li>
+<li>初回intervention 選択が、後続の治療選択肢を制約</li>
+</ul>
+<hr />
+<h2 id="参考スケジュール--今後の主要発表予定">参考スケジュール — 今後の主要発表予定</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>発表予定</th>
+<th>試験</th>
+<th>学会・時期</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PARTNER 3 8年</strong></td>
+<td>TAVR vs SAVR</td>
+<td>TCT 2026 / AHA 2026</td>
+</tr>
+<tr>
+<td><strong>Evolut LR 7-year echo</strong></td>
+<td>TAVR vs SAVR</td>
+<td>ACC.27 (2027)</td>
+</tr>
+<tr>
+<td><strong>COMMENCE 10年</strong></td>
+<td>Inspiris RESILIA durability</td>
+<td>AATS / STS 2027–2028</td>
+</tr>
+<tr>
+<td><strong>NOTION-2 5年</strong></td>
+<td>bicuspid / 若年</td>
+<td>EuroPCR / ESC 2027</td>
+</tr>
+<tr>
+<td><strong>UK TAVI full 5-year paper</strong></td>
+<td>pragmatic TAVI vs SAVR</td>
+<td>2026–2027</td>
+</tr>
+<tr>
+<td><strong>VARC-4</strong> (予測)</td>
+<td>アウトカム定義改訂</td>
+<td>2026–2027</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<p><strong>作成日</strong>: 2026年5月16日 <strong>作成元</strong>: CVS Journal Research プロジェクト <strong>ベース文献</strong>: EJCTS 2026年5月号（Vol.68 Issue 5）Heuts editorial <strong>データソース</strong>: CrossRef API / PubMed E-utilities / PMC Open Access / 学会公式サイト <strong>関連月次レポート</strong>: cardiac_surgery_journals_2026_05</p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>
