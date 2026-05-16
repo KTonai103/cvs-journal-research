@@ -1,11 +1,12 @@
 ---
 title: SAVR vs TAVR 長期成績レビュー — 文献ダウンロード用リスト
-date: 2026-05-16
+date: 2026-05-16 (updated)
 purpose: 阪大附属図書館での一括PDF取得用
-total_papers: 56
+total_papers: 69
 tier_1_count: 15
 tier_2_count: 19
 tier_3_count: 22
+appendix_count: 13
 tags:
   - paper-list
   - download-list
@@ -518,6 +519,124 @@ tags:
 
 ---
 
+---
+
+## 📋 Appendix（追加調査）— Inspiris/Avalus/Epic 比較関連 13本
+
+### Inspiris RESILIA 最長フォロー関連
+
+#### A1. **Svensson AATS 2026 抄録 — COMMENCE 10年（口頭発表）** 🔒
+
+- *J Thorac Cardiovasc Surg* 2026;171(4):S18-S19
+- DOI: 10.1016/j.jtcvs.2026.03.090
+- ☐ 抄録段階（フルペーパー 2026 Q3-Q4予測）
+
+#### A2. **Bartus ICVTS 2024 — POLRES先行133例 5年** 🔒
+
+- *Interact Cardiovasc Thorac Surg* 2024;38(1):ivad209
+- DOI: 10.1093/icvts/ivad209
+- ☐
+
+#### A3. **Perek Cardiol J 2025 — POLRES protocol** 🔒
+
+- *Cardiol J* 2025;32(5):507-511
+- DOI: 10.5603/cj.104560
+- PMID: 40771126
+- ☐
+
+### Avalus / PERIGON Trial — 7本
+
+#### A4. **Sabik EJCTS 2025 — PERIGON 7年（最長）** 🔒
+
+- *Eur J Cardiothorac Surg* 2025;67(1):ezae414
+- DOI: 10.1093/ejcts/ezae414
+- PMID: 39565905
+- ☐
+
+#### A5. **Klautz EJCTS 2022 — PERIGON 5年** 🔓
+
+- *Eur J Cardiothorac Surg* 2022;62(3):ezac374
+- DOI: 10.1093/ejcts/ezac374
+- PMC: PMC9346377
+- ☐
+
+#### A6. **Klautz EJCTS 2017 — PERIGON 1年** 🔒
+
+- *Eur J Cardiothorac Surg* 2017;52(3):425-431
+- DOI: 10.1093/ejcts/ezx066
+- PMID: 28475690
+- ☐
+
+#### A7. **Sabik JTCVS 2019 — PERIGON 2年** 🔒
+
+- *J Thorac Cardiovasc Surg* 2019
+- PMID: 31590957
+- ☐
+
+#### A8. **Reardon Ann Thorac Surg 2022 — PERIGON ≤65 vs >65年齢subgroup** 🔒
+
+- PMID: 35065064
+- ☐
+
+#### A9. **Chiariello J Cardiovasc Surg 2023 — Avalus vs Inspiris直接比較** 🔒
+
+- *J Cardiovasc Surg (Torino)* 2023;64(3):338-347
+- DOI: 10.23736/S0021-9509.23.12534-1
+- PMID: 37078984
+- ☐
+
+#### A10. **Burri Thorac Cardiovasc Surg 2024 — Avalus vs Magna Ease 5年** 🔒
+
+- *Thorac Cardiovasc Surg* 2024;72(3):181-187
+- DOI: 10.1055/s-0042-1758553
+- PMID: 36462752
+- ☐
+
+### Epic弁 — 4本
+
+#### A11. **Anselmi J Cardiovasc Med 2023 — Epic 15年最長** 🔒
+
+- *J Cardiovasc Med* 2023;24(8):514-521
+- DOI: 10.2459/JCM.0000000000001505
+- PMID: 37409596
+- ☐
+
+#### A12. **Wiechmann JTCVS Open 2022 — Epic Medicare 10年 n=11,685** 🔓
+
+- *J Thorac Cardiovasc Surg Open* 2022;12:84-102
+- DOI: 10.1016/j.xjon.2022.08.002
+- PMID: 36590734
+- ☐
+
+#### A13. **Mykén JTCVS 2009 — Biocor (Epic母体) 20年** 🔒
+
+- *J Thorac Cardiovasc Surg* 2009;137(1):76-81
+- DOI: 10.1016/j.jtcvs.2008.05.068
+- ☐
+
+#### A14. **Shibata J Artif Organs 2024 — Epic Supra 日本 5年** 🔒
+
+- *J Artif Organs* 2024;27(2):131-137
+- DOI: 10.1007/s10047-023-01401-3
+- PMID: 37099052
+- ☐
+
+#### A15. **Mukharyamov ICVTS 2024 — 29mm Epic Supra 10年** 🔓
+
+- *Interdiscip Cardiovasc Thorac Surg* 2024;ivaf050
+- DOI: 10.1093/icvts/ivaf050
+- PMID: 40045568
+- ☐
+
+#### A16. **Bobiarski Arch Med Sci 2013 — Epic vs Magna hemodynamics** 🔓
+
+- *Arch Med Sci* 2013;9(3):445-451
+- DOI: 10.5114/aoms.2013.35479
+- PMC: PMC3701989
+- ☐
+
+---
+
 ## DL作業用チェックリスト（コピペ用）
 
 ```
@@ -580,6 +699,23 @@ tags:
 □ 55. Werner ICVTS 2021 — Trifecta 7年 SVD（10.1093/icvts/ivaa236）🔓
 □ 56. Werner EJCTS 2022 — Trifecta vs Intuity（10.1093/ejcts/ezab470）
 ─── Tier 3 完 ───
+□ A1. Svensson AATS 2026 — COMMENCE 10年抄録（10.1016/j.jtcvs.2026.03.090）
+□ A2. Bartus ICVTS 2024 — POLRES先行 5年（10.1093/icvts/ivad209）
+□ A3. Perek Cardiol J 2025 — POLRES protocol（10.5603/cj.104560）
+□ A4. Sabik EJCTS 2025 — PERIGON 7年（10.1093/ejcts/ezae414）
+□ A5. Klautz EJCTS 2022 — PERIGON 5年（10.1093/ejcts/ezac374）🔓
+□ A6. Klautz EJCTS 2017 — PERIGON 1年（10.1093/ejcts/ezx066）
+□ A7. Sabik JTCVS 2019 — PERIGON 2年（PMID 31590957）
+□ A8. Reardon Ann Thorac Surg 2022 — PERIGON age subgroup（PMID 35065064）
+□ A9. Chiariello J Cardiovasc Surg 2023 — Avalus vs Inspiris（10.23736/S0021-9509.23.12534-1）
+□ A10. Burri Thorac Cardiovasc Surg 2024 — Avalus vs Magna 5年（10.1055/s-0042-1758553）
+□ A11. Anselmi J Cardiovasc Med 2023 — Epic 15年（10.2459/JCM.0000000000001505）
+□ A12. Wiechmann JTCVS Open 2022 — Epic Medicare 10年（10.1016/j.xjon.2022.08.002）🔓
+□ A13. Mykén JTCVS 2009 — Biocor 20年（10.1016/j.jtcvs.2008.05.068）
+□ A14. Shibata J Artif Organs 2024 — Epic Supra日本 5年（10.1007/s10047-023-01401-3）
+□ A15. Mukharyamov ICVTS 2024 — 29mm Epic 10年（10.1093/icvts/ivaf050）🔓
+□ A16. Bobiarski Arch Med Sci 2013 — Epic vs Magna hemodynamics（10.5114/aoms.2013.35479）🔓
+─── Appendix 完 ───
 ```
 
 ---

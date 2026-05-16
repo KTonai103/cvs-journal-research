@@ -395,6 +395,15 @@ NCT01757665、国際多施設（27施設）、単群、FDA IDE、n=689、平均6
 | **7年（pivotal）** | **Beaver T et al.** | **JTCVS 2024;168:781-91** | [**10.1016/j.jtcvs.2023.09.047**](https://doi.org/10.1016/j.jtcvs.2023.09.047) **/ 37778503** |
 | 7年 BAV update | Salna M et al. | ICVTS 2025;40:ivaf176 | [10.1093/icvts/ivaf176](https://doi.org/10.1093/icvts/ivaf176) / 40748697 |
 | **8年（vs Magna Ease propensity）** | **Kaneko T et al.** | **JTCVS Open 2026;29:101557** | [**10.1016/j.xjon.2025.101557**](https://doi.org/10.1016/j.xjon.2025.101557) **/ 41960126** |
+| **10年（AATS 2026抄録）🆕** | **Svensson LG et al.** | **JTCVS 2026;171(4):S18-S19** | [**10.1016/j.jtcvs.2026.03.090**](https://doi.org/10.1016/j.jtcvs.2026.03.090) **/ 抄録段階** |
+
+> [!important]
+> **【最長フォロー状況の現時点まとめ — 2026年5月16日】**
+> - **査読付きフルペーパーの最長は8年**（Kaneko 2026 propensity-matched版） / 単アーム最長は7年（Beaver 2024）
+> - **10年データはAATS 2026年次総会（2026年5月、Boston）で口頭発表済み**（Svensson LG, Blackstone EH, Bavaria JE et al. ）。JTCVS 171(4):S18-S19 に抄録掲載（DOI: 10.1016/j.jtcvs.2026.03.090）
+> - **COMMENCE trial（NCT01757665）は2026-03-23 公式 COMPLETED**。10年延長フォロー（225例 re-consent subset）全例10年到達済み
+> - **10年フルペーパーのpublication ETAは2026年Q3–Q4 〜 2027年Q1**（過去抄録→フル12-18か月遅延パターンより）
+> - つまり「Inspiris RESILIAは事実上10年データがある」が、**現時点で引用可能な「公式数値」は8年まで**
 
 #### COMMENCE 7年（Beaver 2024）主要結果
 
@@ -472,7 +481,101 @@ n=214、平均59.8歳（三尖弁より10歳若年）、18%が<50歳
 > [!note]
 > PERIMOUNT の20年実臨床データは、**60歳以下で40%しか再手術なし**を意味し、若年AS患者で機械弁が依然推奨される根拠の一つ。RESILIA がこのベンチマークを15-20年で上回れるかが、今後の最大の臨床question。
 
-### IV-E. 競合外科弁との比較
+### IV-E. 競合 SAVR弁との比較 — Avalus, Epic, Trifecta
+
+#### Avalus（Medtronic, PERIGON Pivotal Trial）— bovine pericardial + AOA処理
+
+**PERIGON Pivotal Trial**（NCT02088554, n=1,132, 39施設, 平均70.0歳, STS-PROM 2.0%, 2014–2016年登録）— Inspiris RESILIAと並ぶ現代の主要bovine pericardial弁。
+
+##### 主要論文時系列
+
+| FU | 著者 | 雑誌 | DOI / PMID |
+|---|---|---|---|
+| 1年 | Klautz RJM et al. | EJCTS 2017;52:425-31 | [10.1093/ejcts/ezx066](https://doi.org/10.1093/ejcts/ezx066) / 28475690 |
+| 2年 | Sabik JF 3rd et al. | JTCVS 2019 | — / 31590957 |
+| **5年** | **Klautz RJM et al.** | **EJCTS 2022;62:ezac374** | [10.1093/ejcts/ezac374](https://doi.org/10.1093/ejcts/ezac374) / — |
+| 5年 age subgroup | Reardon MJ et al. | Ann Thorac Surg 2022 | — / 35065064 |
+| **7年（最新最長）🆕** | **Sabik JF 3rd, Klautz RJM et al.** | **EJCTS 2025;67(1):ezae414** (EACTS 2024発表) | [**10.1093/ejcts/ezae414**](https://doi.org/10.1093/ejcts/ezae414) **/ 39565905** |
+| 7年 bicuspid解析 | Labrousse L et al. | Rev Port Cir Cardiotorac Vasc 2025;32(1):25-33 | [10.48729/pjctvs.531](https://doi.org/10.48729/pjctvs.531) |
+| 2025 letters | Sabik et al. (EOA core lab再解析) | EJCTS 2025;67(7) ezaf137 / (11) ezaf387 | — |
+
+##### PERIGON 7年主要結果（Sabik 2025）
+
+| エンドポイント | 値 |
+|---|---|
+| 全生存 | **82.6%** (79.5–85.0%) |
+| 心臓死回避 | 91% |
+| 弁関連死回避 | 97% |
+| **Adjudicated SVD** | **0例 / 1,132 例** |
+| KM SVD/SHD要reint | **1.2%** (0.5–2.5%) |
+| 全 reintervention | 5.7% |
+| 心内膜炎 | 6.3% |
+| 弁血栓 | 0.4% |
+| MPG (7年) | 13.8±5.9 mmHg |
+| EOA (7年) | 1.99±0.53 cm² |
+| Severe PPM (core lab再解析後) | 3.5% |
+
+##### vs Inspiris RESILIA 直接比較
+
+> Chiariello GA et al. *Avalus vs Inspiris RESILIA mid-term comparison.* J Cardiovasc Surg (Torino) 2023;64:338-47. DOI: [10.23736/S0021-9509.23.12534-1](https://doi.org/10.23736/S0021-9509.23.12534-1) | PMID: 37078984
+
+- n=148（74/74）、mid-term 2.4年
+- MPG: Avalus 13 vs Inspiris 12 mmHg (NS)
+- EOA: 1.4 vs 1.5 cm² (NS)
+- **LV mass regression: Avalus −52 vs Inspiris −33 g/m² (P<0.01)** — Avalus有利
+- SVD: 両群とも0例
+
+##### vs Magna Ease 5年比較（Burri 2024）
+
+> Burri M et al. *Avalus vs Perimount Magna Ease 5-year propensity comparison.* Thorac Cardiovasc Surg 2024;72:181-7. DOI: [10.1055/s-0042-1758553](https://doi.org/10.1055/s-0042-1758553) | PMID: 36462752
+
+- 48/48 propensity-matched, 5年
+- MPG: Avalus 14.7 vs Magna 16.6 mmHg (NS)
+- EOA: 1.51 vs 1.60 cm² (NS)
+- 生存: 91% vs 88%
+- → **Magna Easeと血行動態同等**
+
+##### Avalus の主な限界
+
+> [!warning]
+> **Balloon fracture / remodeling 不可** — Inspiris RESILIA の VFit (expandable frame) のような将来 ViV-TAVR時の有効弁口径確保機構がない。これが Inspiris との大きな差。**Avalus Ultra**（2024-10 EACTS launch、radiopaque coil追加でTAV-in-SAV対応強化、米国PAS NCT06506903 recruiting中）で改善計画あり。
+
+##### 10年データの状況
+
+- **未公表** — 522例が最大12年フォロー継続中、**2027–2028年公表予測**
+- 7年論文が現時点での最長公式データ
+
+#### Epic（Abbott / 旧St. Jude, porcine + Linx AC）— 第3世代porcine弁
+
+##### 主要論文（最長15年）
+
+| 報告 | 著者 / 雑誌 | DOI / PMID | n | フォロー | 主要数値 |
+|---|---|---|---|---|---|
+| FDA pivotal 4年 | Jamieson WR et al. JTCVS 2011;141:1449-54 | [10.1016/j.jtcvs.2010.05.055](https://doi.org/10.1016/j.jtcvs.2010.05.055) / 21277603 | 761 | 4年 | AVR SVD 2例のみ; ≤60歳でFreedom from SVD 93.3% |
+| **Real-world 10年** | Wiechmann RJ et al. JTCVS Open 2022;12:84-102 | [10.1016/j.xjon.2022.08.002](https://doi.org/10.1016/j.xjon.2022.08.002) / 36590734 | 11,685 (Medicare) | 10年 | reint回避 94.6% |
+| **15年最長** | **Anselmi A et al.** J Cardiovasc Med 2023;24:514-21 | [**10.2459/JCM.0000000000001505**](https://doi.org/10.2459/JCM.0000000000001505) **/ 37409596** | 888 | **15年** | **Freedom from SVD 98.4%** (15y), 10y 99.4% |
+| 29mm Supra 10年 | Mukharyamov M et al. ICVTS 2024 | [10.1093/icvts/ivaf050](https://doi.org/10.1093/icvts/ivaf050) / 40045568 | 360 | 10年 | 全reint は IE のみ; **構造的失敗なし** |
+| 日本5年 | Shibata K et al. J Artif Organs 2024;27:131-7 | [10.1007/s10047-023-01401-3](https://doi.org/10.1007/s10047-023-01401-3) / 37099052 | 44 | 5年 | severe SVD 0%; mod SVD 8% |
+| 母体Biocor 20年 | Mykén PS, Bech-Hanssen O. JTCVS 2009;137:76-81 | [10.1016/j.jtcvs.2008.05.068](https://doi.org/10.1016/j.jtcvs.2008.05.068) | 1,712 | 20年 | Freedom from SVD 70.3%, 再手術回避 86.5% |
+
+##### Hemodynamic 比較（最大の弱点）
+
+> Bobiarski J et al. *Comparison of Carpentier-Edwards Magna and St Jude Medical Epic.* Arch Med Sci 2013;9:445-51. DOI: [10.5114/aoms.2013.35479](https://doi.org/10.5114/aoms.2013.35479)
+
+| 指標（21mm弁、1年時点） | Magna | Epic | P |
+|---|---|---|---|
+| MPG (mmHg) | 10.4±2.7 | **15.3±6.5** | **0.0002** |
+| iEOA (cm²/m²) | 0.80 | **0.67** | 0.02 |
+
+→ **Epicはbovine pericardial弁よりMPGが約5 mmHg高い** — small annulusでは特に不利。
+
+##### Porcine vs Bovine 大規模registry
+
+> Glaser N et al. SWEDEHEART nationwide 1995-2012, n=12,845 (porcine 4,198 / bovine 8,647)
+
+- 15年生存: porcine 17% vs bovine 15%（HR 0.90, **porcineわずか優位**）
+- **再手術リスク: porcine高い**（HR 1.48, 95%CI 1.11–1.98）
+- HF入院: 差なし
 
 #### Trifecta（Abbott）— 注意を要する競合
 
@@ -499,7 +602,35 @@ n=214、平均59.8歳（三尖弁より10歳若年）、18%が<50歳
 
 15研究 n=3,202, FU 最大5.3年。30日死亡・脳卒中OR両群同等（短中期）、**長期SVD抑制効果が真価**。
 
-### IV-F. 機械的耐久性（in vitro）
+### IV-F. 現代SAVR弁 3者比較サマリ — Inspiris / Avalus / Epic
+
+| 項目 | **Inspiris RESILIA** | **Avalus** | **Epic** |
+|---|---|---|---|
+| 製造社 | Edwards | Medtronic | Abbott |
+| 弁葉材質 | **Bovine pericardial** | **Bovine pericardial** | **Porcine** |
+| 抗石灰化処理 | RESILIA tissue（aldehyde capping + glycerol） | AOA（α-amino oleic acid 共有結合） | Linx AC（ethanol-based） |
+| Pivotal trial | COMMENCE (n=689) | PERIGON (n=1,132) | Jamieson FDA (n=761) |
+| 平均年齢 (pivotal) | 66.9歳 | 70.0歳 | 73.9歳 |
+| **最長publish full paper** | **8年**（Kaneko 2026 propensity）/ **7年単アーム** | **7年**（Sabik 2025） | **15年**（Anselmi 2023, n=888） |
+| **10年データ** | **AATS 2026抄録あり、フル待ち** | **未公開**（2027-28予想） | **公表済（Anselmi 15年）** |
+| 7年SVD（VARC-3） | **99.3% SVD-free** | **adj SVD 0/1,132**, KM 1.2% SVD/SHD要reint | n/a直接、15年98.4% (n=888) |
+| 7年生存 | 85.4% (mean age 67) | 82.6% (mean age 70) | 50% (mean age 75, n=888) |
+| MPG (21mm, 1y) | ~11-13 mmHg | ~13-15 mmHg | **~15 mmHg** |
+| 5年MPG | 11.5 mmHg | 12.5 mmHg | (Shibata 11.3 mmHg / Anselmi 高め) |
+| Severe PPM | ~3-8% | 3.5% (core lab後) | 高め（小サイズで顕著） |
+| **ViV-TAVR対応** | **VFit（balloon fracture / expandable）** | **Avalus Ultra で radiopaque coil追加** | 限定的 |
+| 二尖弁・若年データ | ◎ (BAV 7年 SVD 0%) | ○ (Labrousse 2025) | △ (n小) |
+| 直接比較研究 | — | Chiariello 2023 mid-term (Avalus LV mass regression優位) | Bobiarski 2013 (Epic MPG↑) |
+| 主な強み | RESILIA tissue 7-8年SVD&lt;1%、ViV対応、BAV成績 | 5/7年SVD 0実例、LV mass regression、大規模n=1,132 | 15年データあり、porcine長期実績、Biocor 20年継承 |
+| 主な弱み | 10年フルペーパーまだ | balloon fracture不可、19/21mmでgradient↑ | **MPG高め（small annulus不利）**、bovineよりPPM多 |
+
+> [!info]
+> **3弁の使い分け（2026年時点の臨床判断）**:
+> - **<65歳・低リスク・将来ViV戦略重視 → Inspiris RESILIA**（VFit、若年BAV 7年SVD 0%、8年propensity優越）
+> - **70歳前後・SVD実例ゼロ重視・LV mass regression重視 → Avalus**（PERIGON 5/7年SVD 0実例、n=1,132の大規模data）
+> - **高齢・durability長期実績重視・コスト考慮 → Epic**（15年98.4%、Medicare 10年94.6%、ただしsmall annulusで不利）
+
+### IV-G. 機械的耐久性（in vitro）
 
 - Sadri V et al. 21/23mm Inspiris **10億サイクル（≈25年相当）** 加速摩耗試験合格。*JTCVS Open* 2022;9:60-72. DOI: [10.1016/j.xjon.2021.10.056](https://doi.org/10.1016/j.xjon.2021.10.056) | PMID: 36003435
 - Bhat S et al. **20億サイクル（≈50年相当）** まで延長試験合格。*Ann Thorac Surg Short Rep* 2024. DOI: [10.1016/j.atssr.2024.11.013](https://doi.org/10.1016/j.atssr.2024.11.013) | PMID: 40525171
@@ -507,7 +638,7 @@ n=214、平均59.8歳（三尖弁より10歳若年）、18%が<50歳
 > [!success]
 > **In vitroでは50年相当の機械的durability**。生物学的因子（calcification・タンパク質沈着）を除けば、leaflet基材の機械的疲労は実質ボトルネックではないことを意味する。
 
-### IV-G. 5年hemodynamic直接比較（vs PARTNER 2A SAVR arm）
+### IV-H. 5年hemodynamic直接比較（vs PARTNER 2A SAVR arm）
 
 > Bartus K et al. RESILIA vs PARTNER 2A SAVR arm (5-year HVD). *J Comp Eff Res* 2023;12:e220180. DOI: [10.2217/cer-2022-0180](https://doi.org/10.2217/cer-2022-0180) | PMID: 36691718
 
@@ -515,7 +646,7 @@ n=214、平均59.8歳（三尖弁より10歳若年）、18%が<50歳
 - SVD関連 HVD grade ≥2: **RESILIA 1.8% vs PARTNER 2A SAVR 3.5%**
 - PS-matched n=239ペア: **1.0% vs 4.8% (HR下限95%CI 1.15, P=0.03)** — RESILIA が **半減**
 
-### IV-H. 経済性
+### IV-I. 経済性
 
 > Keuffel EL et al. Economic comparison of Inspiris RESILIA vs mechanical SAVR. *J Med Econ* 2024;27:1041-50. DOI: [10.1080/13696998.2024.2373001](https://doi.org/10.1080/13696998.2024.2373001) | PMID: 38923952
 
