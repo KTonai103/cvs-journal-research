@@ -39,6 +39,9 @@ CSS_TEMPLATE = """
   --header-fg: #ffffff;
   --link: #1565c0;
   --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -51,10 +54,105 @@ body {
   line-height: 1.75;
   color: var(--fg);
   background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
   max-width: 900px;
   margin: 0 auto;
-  padding: 32px 24px 80px;
+  padding: 32px 32px 80px;
 }
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
 
 h1 {
   font-size: clamp(1.3rem, 4vw, 1.7rem);
@@ -98,6 +196,23 @@ a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; color: var(--link-hover); }
 
 hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
 
 ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
 li { margin-bottom: 5px; line-height: 1.6; }
@@ -171,8 +286,8 @@ mark {
 .callout ul, .callout ol { margin: 4px 0 4px 18px; }
 .callout table { font-size: 0.8rem; }
 
-/* Floating TOC button (mobile only) */
-#toc-toggle {
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -181,97 +296,143 @@ mark {
   color: #fff;
   border: none;
   border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  font-size: 1.3rem;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
   cursor: pointer;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
-  z-index: 100;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
   align-items: center;
   justify-content: center;
 }
 
-#toc-panel {
+#sidebar-backdrop {
   display: none;
   position: fixed;
-  bottom: 80px;
-  right: 16px;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 12px 16px;
-  max-width: 280px;
-  max-height: 60vh;
-  overflow-y: auto;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-  z-index: 99;
-  font-size: 0.82rem;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
 }
 
-#toc-panel a { display: block; padding: 3px 0; color: var(--link); }
-#toc-panel a:hover { text-decoration: underline; }
-
 @media print {
-  body { max-width: 100%; padding: 16px; font-size: 11px; }
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
   table { font-size: 9px; }
   h2 { break-after: avoid; }
-  #toc-toggle, #toc-panel { display: none !important; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
 }
 
 @media (max-width: 640px) {
-  body { padding: 16px 14px 72px; font-size: 14px; }
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
   h2 { margin-top: 36px; }
   h3 { margin-top: 22px; }
   ul, ol { padding-left: 18px; }
   li, p { font-size: 0.88rem; }
   .callout { padding: 10px 12px !important; }
   blockquote { padding: 8px 12px; }
-  #toc-toggle { display: flex; }
 }
 
 @media (max-width: 380px) {
-  body { padding: 12px 10px 72px; font-size: 13px; }
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
   thead th { font-size: 0.72rem; padding: 8px; }
   tbody td { padding: 6px 8px; font-size: 0.8rem; }
 }
 """
 
-# DOM-based TOC — no innerHTML with untrusted content
+# DOM-based sidebar nav — no innerHTML with untrusted content
 TOC_SCRIPT = """
 <script>
 (function() {
-  var btn = document.getElementById('toc-toggle');
-  var panel = document.getElementById('toc-panel');
-  if (!btn || !panel) return;
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
 
-  var headings = document.querySelectorAll('h2, h3');
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
   headings.forEach(function(h, idx) {
-    if (!h.id) {
-      h.id = 'heading-' + idx;
-    }
+    if (!h.id) h.id = 'heading-' + idx;
     var a = document.createElement('a');
     a.href = '#' + h.id;
-    a.textContent = h.textContent;
-    if (h.tagName === 'H3') {
-      a.style.paddingLeft = '10px';
-      a.style.fontSize = '0.78rem';
-    } else {
-      a.style.fontWeight = '600';
-    }
-    panel.appendChild(a);
+    a.textContent = h.textContent.replace(/\\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
   });
 
-  btn.addEventListener('click', function() {
-    panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
   });
-  panel.addEventListener('click', function(e) {
-    if (e.target.tagName === 'A') panel.style.display = 'none';
-  });
-  document.addEventListener('click', function(e) {
-    if (!panel.contains(e.target) && e.target !== btn) {
-      panel.style.display = 'none';
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
     }
   });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
 })();
 </script>
 """
@@ -407,9 +568,17 @@ def convert_file(md_path, html_path):
 <style>{CSS_TEMPLATE}</style>
 </head>
 <body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
 {body_html}
-<button id="toc-toggle" aria-label="目次">&#9776;</button>
-<div id="toc-panel"></div>
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
 {TOC_SCRIPT}
 </body>
 </html>
@@ -437,7 +606,10 @@ def main():
         md_dir = os.path.join(base, "MD")
         out_dir = os.path.join(base, "output")
         pairs = [
+            ("cardiac_surgery_journals_2026_03.md", "journal_report_2026_03.html"),
+            ("cardiac_surgery_journals_2026_04.md", "cardiac_surgery_journals_2026_04.html"),
             ("cardiac_surgery_journals_2026_05.md", "journal_report_2026_05.html"),
+            ("cardiac_surgery_journals_2026_06.md", "journal_report_2026_06.html"),
         ]
         print("Converting Obsidian MD → styled HTML:")
         for md_name, html_name in pairs:
