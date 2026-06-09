@@ -28,6 +28,7 @@ updated: 2026-06-09
 > - データソース: CrossRef API, PubMed E-utilities | 全DOI機械検証済（誤リンク0件）
 > - 関連ファイル: [[cardiothoracic_journals_schedule]] | [[cardiac_surgery_journals_2026_05]]
 > - DOI検証ログ: output/doi_verification_2026_06.md
+> - **✅DL済** = PDF入手・整理済（5本: Sugaya / Ferrel / Lamy / Grinstein / Kawada）→ `All Papers/Clinical/`
 
 > [!warning] EJCTS Vol.68 Issue 6 は発行進行中
 > 2026-06-09時点でEJCTS 6月号は組版が始まったばかりで **掲載確定は4論文**（うち本まとめ対象3編）。
@@ -125,7 +126,7 @@ updated: 2026-06-09
 
 ---
 
-#### 9. 僧帽弁修復後の失敗モード（技術的 vs 非技術的）と再手術成績 ★★★★🔓
+#### 9. 僧帽弁修復後の失敗モード（技術的 vs 非技術的）と再手術成績 ★★★★🔓 ✅DL済
 
 > Ferrel MN, Wagner CM, Romano MA, et al. *Impact and Outcomes of Failure Mode Following Mitral Valve Repair.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.05.020](https://doi.org/10.1016/j.jtcvs.2026.05.020)
 
@@ -134,7 +135,7 @@ updated: 2026-06-09
 
 ---
 
-#### 10. 機能性三尖弁逆流の弁輪拡大は非一様：標準化術中計測による機序解明（🇯🇵 日本）★★★
+#### 10. 機能性三尖弁逆流の弁輪拡大は非一様：標準化術中計測による機序解明（🇯🇵 日本）★★★ ✅DL済
 
 > Kawada N, Naganuma H, Muramatsu K, et al. *Rationale of Functional Tricuspid Annular Dilatation Based on Standardized Intraoperative Measurements.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.05.016](https://doi.org/10.1016/j.jtcvs.2026.05.016)
 
@@ -172,7 +173,7 @@ updated: 2026-06-09
 
 ### 冠動脈外科・CABG
 
-#### 14. No-touch採取伏在静脈グラフトの長期成績と形態（🇯🇵 日本）★★★★
+#### 14. No-touch採取伏在静脈グラフトの長期成績と形態（🇯🇵 日本）★★★★ ✅DL済
 
 > Sugaya A, Hirao S, Yamashita G, Sakai J, Komiya T. *Long-term clinical outcomes and morphology of no-touch saphenous vein grafts.* JTCVS 2026;171:1221–1232.e21. DOI: [10.1016/j.jtcvs.2026.01.018](https://doi.org/10.1016/j.jtcvs.2026.01.018)
 
@@ -192,7 +193,7 @@ updated: 2026-06-09
 
 ### 不整脈外科・周術期管理
 
-#### 16. 心臓外科後合併症と死亡の関連：VISION Cardiac Surgery前向きコホート（12カ国15,550例）★★★★
+#### 16. 心臓外科後合併症と死亡の関連：VISION Cardiac Surgery前向きコホート（12カ国15,550例）★★★★ ✅DL済
 
 > Lamy A, Browne A, Whitlock RP, et al; VISION Cardiac Surgery Investigators. *Association between complications and mortality after cardiac surgery: Results from the VISION Cardiac Surgery prospective cohort study.* JTCVS Online First. DOI: [10.1016/j.jtcvs.2026.04.056](https://doi.org/10.1016/j.jtcvs.2026.04.056)
 
@@ -321,7 +322,7 @@ updated: 2026-06-09
 
 ### MCS / LVAD
 
-#### 1. マイクロアキシャル流ポンプ前置はdLVAD後の大動脈弁閉鎖不全・右心不全を増やす（Intermacs 5,942例）★★★★
+#### 1. マイクロアキシャル流ポンプ前置はdLVAD後の大動脈弁閉鎖不全・右心不全を増やす（Intermacs 5,942例）★★★★ ✅DL済
 
 > Grinstein J, Cowger J, Elad B, et al; Kanwar MK. *Aortic insufficiency and right heart failure in patients treated with durable left ventricular assist devices after preoperative support with microaxial flow devices.* JHLT Online First. DOI: [10.1016/j.healun.2026.05.011](https://doi.org/10.1016/j.healun.2026.05.011)
 
