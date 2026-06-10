@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ロボット支援下心臓手術における人工心肺管理の注意点・Pitfall — 心臓外科医・臨床工学技士・麻酔科医の視点別まとめ">
+<title>ロボット支援下心臓手術における人工心肺(CPB)管理の注意点・Pitfall — 心臓血管外科医／臨床工学技士／麻酔科医の3視点統合レビュー</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+
+/* ---- search box + results ---- */
+#sidebar-search { padding: 0 8px 12px; position: sticky; top: 0; background: var(--sidebar-bg); z-index: 5; }
+#search-input {
+  width: 100%; padding: 8px 30px 8px 10px; font-size: 0.82rem;
+  border: 1px solid var(--border); border-radius: 6px; background: #fff; color: var(--fg);
+  font-family: inherit;
+}
+#search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(44,62,80,0.12); }
+#search-clear {
+  position: absolute; right: 16px; top: 7px; border: none; background: transparent;
+  font-size: 1rem; color: var(--muted); cursor: pointer; line-height: 1; display: none;
+}
+#search-meta {
+  display: none; align-items: center; gap: 6px; margin-top: 6px; font-size: 0.72rem; color: var(--muted);
+}
+#search-meta.show { display: flex; }
+#search-count { flex: 1; }
+#search-meta button {
+  border: 1px solid var(--border); background: #fff; border-radius: 4px; cursor: pointer;
+  width: 22px; height: 22px; font-size: 0.8rem; color: var(--accent); line-height: 1;
+}
+#search-meta button:hover { background: var(--sidebar-active); }
+#sidebar-nav a.filtered-out { display: none; }
+mark.search-hit { background: #ffe08a; color: inherit; padding: 0 1px; border-radius: 2px; }
+mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2px rgba(255,145,0,0.35); }
+
+/* lead / meta blocks */
+.doc-meta { font-size: 0.8rem; color: var(--muted); margin: -8px 0 18px; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次と検索">
+    <div id="sidebar-search">
+      <div style="position:relative;">
+        <input id="search-input" type="search" placeholder="本文を検索 ( / でフォーカス )" autocomplete="off" aria-label="本文を検索">
+        <button id="search-clear" aria-label="検索をクリア">&times;</button>
+      </div>
+      <div id="search-meta">
+        <span id="search-count"></span>
+        <button id="search-prev" aria-label="前の一致">&#8593;</button>
+        <button id="search-next" aria-label="次の一致">&#8595;</button>
+      </div>
+    </div>
+    <div id="sidebar-header">目次 — 視点・トピック</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="ロボット支援下心臓手術における人工心肺cpb管理の注意点pitfall">ロボット支援下心臓手術における人工心肺(CPB)管理の注意点・Pitfall</h1>
+<p><strong>心臓血管外科医 / 臨床工学技士（灌流） / 麻酔科医 — 3つの視点からの統合レビュー</strong></p>
+<p>ロボット支援下・完全内視鏡下心臓手術（主に僧帽弁・三尖弁手術、ロボットTECAB）では、人工心肺（CPB）の運用そのものが胸骨正中切開とは構造的に異なる。<strong>閉胸・末梢送脱血・大動脈内バルーン遮断・真空補助脱血(VAVD)・分離換気＋CO₂送気</strong>という5つの特徴が、通常CPBには無い固有のPitfallを生む。本稿は心臓外科系主要誌（JTCVS/JTCVS Tech、EJCTS/ICVTS、Ann Thorac Surg、Innovations）と臨床工学・灌流系誌（J Extra Corpor Technol、Perfusion、体外循環技術）＋公式ガイドライン／コンセンサス計<strong>31本</strong>の精読から、注意点を3職種＋チーム横断の視点で整理したものである。各記述には出典（PubMed/DOI）をハイパーリンクしており、クリックして一次資料に当たれる。</p>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">このドキュメントの使い方（HTML版）</div>
+<ul>
+<li>左サイドバーは「視点 → トピック」の目次。クリックで該当箇所へジャンプ、スクロールで現在地がハイライトされる。</li>
+<li>右上ではなく<strong>サイドバー上部の検索窓</strong>にキーワード（例: <code>VAVD</code>, <code>バルーン</code>, <code>Harlequin</code>, <code>DO2</code>）を入れると本文をハイライトし、<code>Enter</code>/<code>↑↓</code>で一致箇所を順に移動、件数も表示される。キーボードの <code>/</code> で検索窓にフォーカス。</li>
+<li>各引用（例: <a href="https://pubmed.ncbi.nlm.nih.gov/23404687/">Murzi 2013</a>）はPubMed/DOIへのリンク。<strong>追加学習</strong>にはここから一次資料へ。</li>
+<li>末尾に<a href="#文献リスト全31本--dl状況付き">全文献リスト（DL状況付き）</a>。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">エビデンスの大前提</div>
+<p>ロボット/低侵襲CPBに関するリスク推定の多くは**観察研究（エビデンスレベルB）**で、施設の症例選択・ラーニングカーブによる交絡を含む。数値は「因果」ではなく「関連」として読み、自施設の経験・適応に当てはめて解釈すること（<a href="https://pubmed.ncbi.nlm.nih.gov/22437890/">Falk/ISMICS 2011</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/29506260/">Khan 2018</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/32519587/">Burns 2021</a>）。</p>
+</div>
+
+<hr />
+<h2 id="総論ロボット支援下cpbがなぜ難しいのかリスクの源泉">総論：ロボット支援下CPBがなぜ難しいのか（リスクの源泉）</h2>
+<p>通常CPBとの差分が、そのままPitfallの源になる。</p>
+<ol type="1">
+<li><strong>閉胸・術野が見えない</strong> — 中枢（上行大動脈・右房直接）カニュレーションができず、外科医はカニューレ位置や心内空気を直接確認できない。→ 画像（TEE＝経食道心エコー ／ CT）依存。</li>
+<li><strong>末梢送脱血（大腿/腋窩/内頸）</strong> — 細く長いカニューレによる流量制限、<strong>逆行性送血</strong>による脳塞栓・大動脈解離・下肢虚血。</li>
+<li><strong>大動脈内バルーン遮断（EndoClamp/IntraClude）</strong> — 遊離型遮断ゆえの<strong>移動・破裂</strong>、無名動脈閉塞、心筋保護液送達の不安定さ。</li>
+<li><strong>真空補助脱血(VAVD)</strong> — 細径カニューレを成立させる代償として<strong>ガス状微小塞栓(GME)・溶血・リザーバ過陽圧</strong>。</li>
+<li><strong>分離換気(OLV)＋CO₂気胸(capnothorax)</strong> — 低酸素・高炭酸ガス血症、静脈還流低下、片肺虚血再灌流障害（片側肺水腫）。</li>
+</ol>
+<p>これらは外科・灌流・麻酔のいずれか一職種では完結せず、<strong>3者の協働</strong>で初めて安全域に入る。以下、各視点で詳述する。</p>
+<hr />
+<h2 id="i-心臓血管外科医の視点">I. 心臓血管外科医の視点</h2>
+<h3 id="i-1-送脱血カニュレーション戦略と血管合併症">I-1. 送脱血カニュレーション戦略と血管合併症</h3>
+<p>末梢（大腿）送血は閉胸手術の標準アクセスだが、<strong>逆行性送血の塞栓・解離リスク</strong>と<strong>鼠径・下肢の血管合併症</strong>を伴う。</p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 逆行性大腿送血による脳卒中・大動脈解離</div>
+<p>逆行性の大腿動脈送血は、下行大動脈の粥腫・壁在血栓を剥離して脳塞栓を起こしうる。NYUでは逆行性送血が神経学的合併症の独立予測因子（OR 3.8, P=0.01）、<a href="https://pubmed.ncbi.nlm.nih.gov/23404687/">Murzi 2013</a> では逆行 vs 順行で脳卒中 4.8% vs 1.2%（補正後OR 4.24, P=0.002）・術後せん妄 14.4% vs 5.2%、医原性大動脈解離 1.2% vs 0%。<a href="https://pubmed.ncbi.nlm.nih.gov/40261087/">Werner 2025</a> は逆行性医原性解離を大腿0.47% vs 中枢0.06%と報告。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li><strong>全例術前CTA（CT血管造影; CT angiography）</strong>（胸腹部・骨盤）で大動脈・腸骨/大腿の粥腫・石灰化・蛇行・瘤を評価し、適応を判断（<a href="https://pubmed.ncbi.nlm.nih.gov/27127556/">Ramchandani 2016</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a> はCFA（総大腿動脈; common femoral artery）径 ≥7 mm・管腔内閉塞性病変なしを推奨）。</li>
+<li>粥腫負荷の高い患者は<strong>順行（中枢/腋窩）送血</strong>を選択。<a href="https://pubmed.ncbi.nlm.nih.gov/33448282/">Nakamura 2021</a> はCT基準（血栓&gt;3 mm厚、円周1/3超、全周性石灰化のいずれか）で腋窩送血へ振り分け（35%が腋窩）。</li>
+<li>ガイドワイヤを<strong>TEE（経食道心エコー; transesophageal echocardiography）で下行大動脈内に確認</strong>してからカニューレ挿入（<a href="https://pubmed.ncbi.nlm.nih.gov/40261087/">Werner 2025</a>）。カニュレーション時は<strong>収縮期血圧&lt;100 mmHg</strong>で解離リスク低減（<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>）。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 鼠径・下肢の血管/創合併症（しばしば過小評価）</div>
+<p>大規模実態（<a href="https://pubmed.ncbi.nlm.nih.gov/28017338/">Lamelas 2017</a>, 2645例）では末梢動脈合併症0.07%・<strong>鼠径部漿液腫/表層感染6.58%（最多）</strong>・下肢コンパートメント症候群で筋膜切開0.08%。深部鼠径感染は0。腋窩送血は内胸筋切開・瘢痕・手技時間延長という別の代償を伴う（<a href="https://pubmed.ncbi.nlm.nih.gov/33448282/">Nakamura 2021</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li>リンパ管損傷を避ける愛護的展開、<strong>経皮アクセス優先</strong>（カットダウンより創/漿液腫/リンパ瘻が少ない；<a href="https://pubmed.ncbi.nlm.nih.gov/40261087/">Werner 2025</a> は "ProGlide-first"＝失敗時にMANTAでレスキュー可能を推奨）。ただし新規施設では視認性確保のため<strong>1–2 cmカットダウン</strong>から開始（<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>）。</li>
+<li><strong>下肢遠位灌流</strong>（6Frカニューレ）または双方向Bi-Flowカニューレで肢虚血を予防（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>）。</li>
+<li>腋窩は近位鎖骨下/腕頭動脈狭窄があれば禁忌。脆弱なため<strong>8 mm Dacron側枝</strong>を介して送血（<a href="https://pubmed.ncbi.nlm.nih.gov/27127556/">Ramchandani 2016</a>）。</li>
+<li>IVCフィルター/閉塞がある患者は大腿静脈脱血が不可 → MICS（低侵襲心臓手術; minimally invasive cardiac surgery）適応外か中枢経由を検討（<a href="https://pubmed.ncbi.nlm.nih.gov/27127556/">Ramchandani 2016</a>）。</li>
+</ul>
+</div>
+
+<h3 id="i-2-大動脈遮断エンドアオルティックバルーン-vs-経胸壁クランプ">I-2. 大動脈遮断：エンドアオルティックバルーン vs 経胸壁クランプ</h3>
+<p>完全内視鏡では経胸壁クランプ（Chitwood/Cygnet）かエンドバルーン（IntraClude）かを選ぶ。両者は<strong>安全性プロファイルが異なる</strong>。</p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — エンドバルーンの移動・破裂・解離</div>
+<p>バルーンは固定式クランプと違い、<strong>大動脈基部圧・全身血圧・カテーテル張力</strong>で位置が動く（<a href="https://pubmed.ncbi.nlm.nih.gov/36802961/">Kaneyuki 2023</a>）。遠位移動 → 腕頭動脈閉塞（右脳/右上肢虚血）、近位移動 → 冠動脈口閉塞・心筋保護不良。メタ解析で<strong>解離リスクがクランプより高い</strong>（同一施設プールOR 3.88, P=0.04；<a href="https://pubmed.ncbi.nlm.nih.gov/29506260/">Khan 2018</a>）、Kowalewski 2017では1.5% vs 0.4%（P=.004; <a href="https://pubmed.ncbi.nlm.nih.gov/38657703/">Ergi 2024</a> 引用）。<strong>胸骨切開への転換</strong>もバルーンで高率（プールOR 3.07, P=0.009）で、多くが早期ラーニングカーブに集中。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li>適応を厳格化：<strong>上行大動脈&gt;40 mm（device仕様20–38 mm）・有意なAR（大動脈弁逆流; aortic regurgitation）・著明な蛇行/粥腫・大腿石灰化は禁忌</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/29506260/">Khan 2018</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/27607762/">Breves 2016</a>）。径だけでなく<strong>年齢・性・BSA（体表面積; body surface area）に対する期待径比</strong>で判断（安全示唆は最大130%まで；<a href="https://pubmed.ncbi.nlm.nih.gov/27607762/">Breves 2016</a>）。</li>
+<li>拡張大動脈では<strong>固定容量でなくバルーンを生理的エンドポイント（大動脈基部圧が0になるまで）で滴定</strong>して閉塞（<a href="https://pubmed.ncbi.nlm.nih.gov/27607762/">Breves 2016</a>）。</li>
+<li>心筋保護液送達後は<strong>カテーテルのslackを排除しロック</strong>（近位移動防止；<a href="https://pubmed.ncbi.nlm.nih.gov/36802961/">Kaneyuki 2023</a>）。</li>
+<li><strong>バックアップ（クランプ／冷却細動下停止／胸骨切開）を必ずリハーサルし、術前同意</strong>を取る（<a href="https://pubmed.ncbi.nlm.nih.gov/27607762/">Breves 2016</a>）。</li>
+<li>経胸壁クランプはChitwood/Cygnetを第3–4肋間から。多くの施設が解離・移動を嫌いバルーンからクランプへ移行している（<a href="https://pubmed.ncbi.nlm.nih.gov/23404687/">Murzi 2013</a>）。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">時間の誤解に注意</div>
+<p>バルーンの利点は<strong>遮断（虚血）時間短縮ではない</strong>。<a href="https://pubmed.ncbi.nlm.nih.gov/38657703/">Ergi 2024</a>（前向きMayo）では遮断時間64.0 vs 64.0分（差なし）・総手術時間も不変で、<strong>CPB時間のみ約10分短縮</strong>（84.0 vs 94.5分, P=.006、大動脈カテ抜去のための再送血を省けるため）。心筋保護計画はクランプと同一に立てる。</p>
+</div>
+
+<h3 id="i-3-心筋保護順行性逆行性心筋保護">I-3. 心筋保護（順行性／逆行性心筋保護）</h3>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 閉胸下での心筋保護不良</div>
+<p>内視鏡下は遮断時間が延びやすく、AR合併時は順行性心筋保護液がLVへ逆流して保護不良＋LV過伸展を招く。逆行性単独はRV/中隔の保護が遅く不完全（順行30–60秒 vs 逆行2–4分；<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>）。RCA（右冠動脈; right coronary artery）起始が高位だとバルーンでRCA口を塞ぎRV保護不良（<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li>遷延遮断・高度CAD・AR例は<strong>順行＋逆行併用</strong>。逆行性は冠静脈洞圧を低め（~50 mmHg）に、カテーテルを進め過ぎない（<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>）。</li>
+<li>大動脈基部圧（バルーン中央腔）を**&gt;30 mmHg・流量≥250 mL/min**で監視、TEEで左右冠動脈血流を確認（<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>）。</li>
+<li>del Nido単回投与でも<strong>予定遮断時間が1時間超なら40分で再投与</strong>（実経過でなく予定で先回り；median遮断64分のため再投与はほぼ定型；<a href="https://pubmed.ncbi.nlm.nih.gov/38657703/">Ergi 2024</a>）。</li>
+</ul>
+</div>
+
+<h3 id="i-4-緊急時転換コンバージョンへの備え">I-4. 緊急時転換（コンバージョン）への備え</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 閉胸ゆえの危機対応の遅れ</div>
+<p>末梢CPBの閉胸構成では、出血・血行動態破綻時に<strong>小開胸/胸骨切開への迅速転換</strong>が要る。転換は出血が最多原因で、<strong>出血による転換の死亡率は20–24%</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">Heine 2026</a>）。肝損傷（右アーム/横隔膜縫合）など術野外の隠れ損傷もある（<a href="https://pubmed.ncbi.nlm.nih.gov/38657703/">Ergi 2024</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li><strong>転換手順をフェーズI（シミュレーション）でリハーサル</strong>、ロボット迅速アンドック、役割分担・チェックリスト・閉ループ通信を確立（<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>）。常時、胸骨切開に備え消毒・ドレープ、カニュレーション部位を即アクセス可能に（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>）。</li>
+<li>大量輸血・体位変換の人員を確保（<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>）。転換率は経験で約14%→2.5%へ低下（<a href="https://pubmed.ncbi.nlm.nih.gov/29506260/">Khan 2018</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/22437890/">Falk/ISMICS 2011</a> 平均3.4%）。</li>
+</ul>
+</div>
+
+<h3 id="i-5-中枢カニュレーション再手術の落とし穴">I-5. 中枢カニュレーション・再手術の落とし穴</h3>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 中枢/末梢の二者択一は単純でない</div>
+<p>中枢上行大動脈カニュレーションは逆行性リスクを排除し適応を広げる一方、技術的に難しく医原性解離は低頻度だが死亡率15–50%（<a href="https://pubmed.ncbi.nlm.nih.gov/40261087/">Werner 2025</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/27127556/">Ramchandani 2016</a> は解離0.01–0.09%）。再手術では末梢CPBが一律に安全とは限らず、独立した死亡予測因子になりうる（Brown: 18.7% vs 7.5%, HR 1.53；<a href="https://pubmed.ncbi.nlm.nih.gov/40261087/">Werner 2025</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<p>解剖・リスクに基づく<strong>個別化アルゴリズム</strong>で選択。CPB開始後はTEEで解離を能動的に除外し、高ライン圧＋低全身圧は解離/カニューレ誤位置を疑う（<a href="https://pubmed.ncbi.nlm.nih.gov/27127556/">Ramchandani 2016</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/40261087/">Werner 2025</a>）。触診でなく<strong>epiaortic超音波</strong>で軟性プラークを避けて遮断/送血部位を選ぶ（<a href="https://pubmed.ncbi.nlm.nih.gov/27127556/">Ramchandani 2016</a>）。</p>
+</div>
+
+<hr />
+<h2 id="ii-臨床工学技士灌流の視点">II. 臨床工学技士（灌流）の視点</h2>
+<h3 id="ii-1-静脈脱血と真空補助脱血vavd">II-1. 静脈脱血と真空補助脱血(VAVD)</h3>
+<p>細く長い大腿静脈カニューレでは重力脱血が不足し、VAVDが必須となる。その代償管理がCEの中心課題。</p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 過陰圧による溶血・GME・チャタリング</div>
+<p>過剰な陰圧は溶血（遊離Hb上昇）とGME増加を招き、<strong>カニューレ先端で右房が虚脱（chattering）して逆に脱血が落ちる</strong>。実際にカニューレが受ける陰圧は<strong>リザーバ真空＋落差サイフォン圧の合計</strong>で、レギュレータ設定値より強くなる点に注意（<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策（陰圧の上限）</div>
+<ul>
+<li><strong>必要最小限の真空</strong>に留める。血液損傷は**−120 mmHg超で線形に悪化<strong>するため、<strong>正味陰圧（落差＋VAVD）を約−100 mmHgまで</strong>に制限（<a href="https://pubmed.ncbi.nlm.nih.gov/26543250/">Gambino 2015</a>）。−40 mmHgで小径カニューレでも虚脱なく脱血可（<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。EACTSは</strong>−60 mmHgまでは溶血なく安全、過陰圧は非推奨（Class III, Level B）・陰圧監視（Class I, Level C）<strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>）。臨床例では</strong>最大−40 mmHg**運用（<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>）。</li>
+<li>レギュレータは<strong>0〜−100 mmHgに制限</strong>し、開始プリセット−20 mmHg以下、定期校正（<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。</li>
+<li>多孔/自己拡張型カニューレで低陰圧でも良好な脱血を確保。BSA（体表面積; body surface area）&gt;2.0–2.1で<strong>SVC補助カニューレ</strong>追加（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">Heine 2026</a>）。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — リザーバ過陽圧 → 逆行性空気塞栓</div>
+<p>真空系のキンクやPPRV（陽圧リリーフ弁; positive pressure relief valve）不良で<strong>リザーバが陽圧化</strong>すると、重力サイフォンを超えて<strong>静脈ラインを逆行して空気が右房へ</strong>送られ得る。約1/4のperfusionistが経験（26.2%）し、心内シャント例では系統的（奇異性）塞栓に至る（<a href="https://pubmed.ncbi.nlm.nih.gov/26543250/">Gambino 2015</a>）。非閉塞性/遠心ポンプでは陰圧が人工肺に伝わりガス側から血液側へ空気を引き込む（<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策（安全装備）</div>
+<p><strong>陰圧/陽圧の両方向リリーフ弁</strong>＋一方向弁、<strong>陽圧側でトリガする小さな閾値のアラーム</strong>（負圧側だけでは不可）、リザーバ実圧のリアルタイム監視。PPRVは単独では不十分（+40 mmHg超を漏らす個体あり）で監視・サーボ制御を併用（<a href="https://pubmed.ncbi.nlm.nih.gov/26543250/">Gambino 2015</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。AmSECT標準では**補助脱血時は静脈リザーバ圧監視（Standard 6.1）**を必須化（<a href="https://pubmed.ncbi.nlm.nih.gov/24303597/">Baker/AmSECT 2013</a>）。</p>
+</div>
+
+<h3 id="ii-2-ガス状微小塞栓gmeと脱気空気塞栓">II-2. ガス状微小塞栓(GME)と脱気・空気塞栓</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — VAVDがGME送達を約10倍に増幅</div>
+<p>静脈側に空気が引き込まれると、VAVDは動脈ラインへのGME送達を<strong>重力脱血比で約10倍</strong>に増やす（不完全な閉鎖系＝縫合糸の小さな裂け目でも）。高真空・高流量・拍動流・温度勾配・冷却perfusateが各々GMEを増やす（<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。GMEは目視不能（&lt;200 µm）で神経認知障害の原因。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li><strong>真に閉鎖した系</strong>を保ち、動脈ラインに気泡を見たら<strong>直ちにVAVDを止めてリーク源を探す</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。</li>
+<li><strong>リアルタイムGMEモニタ</strong>（EDAC等、動静脈ラインで同時検出）で発生源を特定（<a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">Wang &amp; Ündar 2008</a>）。</li>
+<li><strong>マクロ気泡検出器が動脈ポンプを制御</strong>する構成、<strong>動脈ラインフィルタ</strong>と<strong>ベント一方向弁</strong>は必須（AmSECT Standard 6.2/6.5/6.6）。低レベルセンサが動脈ポンプをサーボ制御（6.3）（<a href="https://pubmed.ncbi.nlm.nih.gov/24303597/">Baker/AmSECT 2013</a>）。</li>
+<li>閉胸ゆえ用手的脱気ができないため、<strong>CO₂を術野へ充満</strong>（カメラポートから）、TEE（経食道心エコー; transesophageal echocardiography）で心内空気消失を確認するまで大動脈基部ベントを留置（<a href="https://pubmed.ncbi.nlm.nih.gov/22437890/">Falk/ISMICS 2011</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/23404687/">Murzi 2013</a>、<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>）。</li>
+</ul>
+</div>
+
+<h3 id="ii-3-遠心ポンプmiecc回路の落とし穴">II-3. 遠心ポンプ・MiECC回路の落とし穴</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — VAVD＋遠心ポンプで「表示流量」が実送血量を覆い隠す</div>
+<p>遠心ポンプは前負荷依存のため、VAVDの陰圧で<strong>実際に患者へ送られる順行流量が低下</strong>する（設定回転数は不変でも）。in vitroで−80 mmHg時、1500→590 mL/min（<strong>60.4%減</strong>）、2000→1220、2500→1830 mL/min。<strong>低流量域ほど損失割合が大きい</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/32369291/">Guimarães 2020</a>）。動脈フィルタのパージライン等のシャントも真空で盗血が増える（−80 mmHgで全流量の最大80%）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li><strong>動脈側に独立した流量プローブ</strong>を設置し「実送血量」を直接監視（表示値を信用しない）。遠心ポンプ使用時は特に必須（<a href="https://pubmed.ncbi.nlm.nih.gov/32369291/">Guimarães 2020</a>）。</li>
+<li>遠心ポンプは<strong>逆流防止策</strong>（一方向弁/ハードストップ/電動クランプ/低速アラームのいずれか）が必須（AmSECT Standard 6.7；<a href="https://pubmed.ncbi.nlm.nih.gov/24303597/">Baker/AmSECT 2013</a>）。</li>
+<li>**MiECC（低侵襲体外循環＝小型閉鎖回路; minimally invasive extracorporeal circulation）**は希釈・炎症・輸血・脳GMEを減らす一方、<strong>静脈リザーバが無く空気/容量管理が脆弱</strong>。静脈バブルトラップ/脱気装置を組み込み、**緊急時に開放系へ即転換できるハイブリッド（第4世代）**を用いる（<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/31293801/">Anastasiadis 2019</a>）。</li>
+</ul>
+</div>
+
+<h3 id="ii-4-適正灌流量酸素供給do₂vo₂と灌流モニタリング">II-4. 適正灌流量・酸素供給(DO₂/VO₂)と灌流モニタリング</h3>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — MICS（低侵襲心臓手術; minimally invasive cardiac surgery）では「PI（灌流指数＝体表面積あたりの基準流量; perfusion index）」が達成できない</div>
+<p>大腿カニューレ径に流量が制約され、成人標準PI 2.2–2.8 L/min/m²を出せない（ある研究では目標≥2.0に対し<strong>実測中央値1.7</strong>）。固定したPI/DO₂目標を追うのは誤りで、希釈・低体温で代謝も変動する（<a href="https://doi.org/10.7130/jject.51.464">Hara 2024</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策（GDP＝目標指向的灌流; goal-directed perfusion）</div>
+<ul>
+<li><strong>絶対DO₂iでなく酸素需給比（VO₂i/DO₂i, 酸素摂取率）で管理</strong>。VO₂i/DO₂i ≥0.245（=DO₂iが4×VO₂i未満）で高乳酸・AKI（急性腎障害; acute kidney injury）増（AKI 28% vs 9%, P=0.049）。<strong>DO₂iをVO₂iの4倍以上・乳酸&lt;2 mmol/Lに保つ</strong>（<a href="https://doi.org/10.7130/jject.51.464">Hara 2024</a>）。</li>
+<li>EACTSは**最低DO₂ 280 mL/min/m²（Class I, Level A）**でAKI低減、昇圧でなくGDPを推奨。MAP（平均動脈圧; mean arterial pressure）&lt;50・心係数&lt;1.6が死亡予測（<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>）。</li>
+<li><strong>CO₂送気中はVCO₂由来指標が不正確</strong>（術野CO₂がリザーバ静脈血に混入）。乳酸も低体温・アドレナリン・乳酸リンゲルで上昇するため単独では不可（重炭酸プライム推奨）。在線血ガス＋脳オキシメトリで多角的に（<a href="https://doi.org/10.7130/jject.51.464">Hara 2024</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/24303597/">Baker/AmSECT 2013</a>）。</li>
+<li>MICSは流量2.2–2.6 L/min/m²・最低体温32℃前後で<strong>予備が乏しい</strong>ため、複数経路（両大腿/大腿＋腋窩/中枢）のバックアップを準備（<a href="https://pubmed.ncbi.nlm.nih.gov/33448282/">Nakamura 2021</a>）。</li>
+</ul>
+</div>
+
+<h3 id="ii-5-吸引回路と血液損傷">II-5. 吸引回路と血液損傷</h3>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — フレキシブルサッカーの過陰圧</div>
+<p>視野確保で多用されるフレキシブルサッカー（細径・高抵抗）は、ローラーポンプ吸引で<strong>理論1,000 mL/minで既に−100 mmHg超</strong>、1,600 mL/minで**−199 mmHg**に達し許容陰圧を大きく超える。吸引嘴管は同条件で−71 mmHg（<a href="https://doi.org/10.7130/jject.51.138">Oshima/Tojo 2024</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li>可能なら<strong>吸引嘴管を優先</strong>。フレキシブルサッカー使用時は<strong>800 mL/min程度（−100 mmHg以下）<strong>に抑え、必要時は</strong>複数系統で陰圧を分散</strong>。表示（理論）流量は実吸引より最大13%低いため、<strong>貯血量を見て実流量で管理</strong>（<a href="https://doi.org/10.7130/jject.51.138">Oshima/Tojo 2024</a>）。</li>
+<li>嘴管は先端の詰まり・先当たりで過陰圧＋空気混入の乱流→溶血。脱血圧基準−60〜−100 mmHg超過を避ける。cardiotomy suctionは血液損傷の主因なので短時間運用を（<a href="https://doi.org/10.7130/jject.51.138">Oshima/Tojo 2024</a>）。</li>
+</ul>
+</div>
+
+<h3 id="ii-6-回路安全装備チェックリストamsect標準">II-6. 回路安全装備・チェックリスト・AmSECT標準</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — チェックリスト省略・単独施行で移行期のエラーが見逃される</div>
+<p>重大エラーはセットアップ・開始・離脱・再CPBという<strong>移行点に集中</strong>する。VAVDのリーク（52.4%が経験）・レギュレータ不良（33.3%）・壁吸引不良（33.3%）はCPB開始時に脱血不能を起こす。VAVD圧の記録は28.4%、両方向アラームは51.6%にとどまる（<a href="https://pubmed.ncbi.nlm.nih.gov/26543250/">Gambino 2015</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策（AmSECT標準）</div>
+<ul>
+<li><strong>全例チェックリスト（2名read-verify、全フェーズ）</strong>（Standard 4.1、Guideline 4.1–4.2）。</li>
+<li><strong>患者個別の灌流計画を術前ブリーフで共有、閉ループ通信</strong>（Standard 5.1、Guideline 5.2）。</li>
+<li>連続監視：動脈圧・ライン圧・流量・温度・血ガス・Hct（ヘマトクリット; hematocrit）・FiO₂/ガス流量・静脈飽和度（Standard 7.1–7.10）。<strong>動脈出口温度アラーム</strong>（過温防止, 6.4）。</li>
+<li>抗凝固は<strong>ACT（活性化凝固時間; activated clotting time）アルゴリズム＋ヘパリン抵抗/HIT（ヘパリン起因性血小板減少症; heparin-induced thrombocytopenia）代替策</strong>を事前規定（Standard 8.1）、長時間CPB(&gt;2–3h)は高濃度ヘパリン維持（Class IIb）。</li>
+<li><strong>予測希釈後Hctを算出しチームへ伝達</strong>、回路容量最小化（Standard 9.1–9.3）。<strong>ハンドクランク・予備ガス/電源・機器故障対応文書</strong>を常備（Standard 6.9–6.11, 14.3–14.4）。勤務間休息（16時間あたり8時間）も標準（15.1）。すべて<a href="https://pubmed.ncbi.nlm.nih.gov/24303597/">Baker/AmSECT 2013</a>。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="iii-麻酔科医の視点">III. 麻酔科医の視点</h2>
+<h3 id="iii-1-teeガイド下カニュレーション盲目的留置を避ける">III-1. TEEガイド下カニュレーション（盲目的留置を避ける）</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 盲目的末梢カニュレーションによる致命的血管/心損傷</div>
+<p>閉胸で外科医は大血管を直視できず、ガイドワイヤ/カニューレが誤位置・穿孔しうる（肝静脈誤挿入、右房/右室/心房中隔穿孔；<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>）。透視ガイドは合併症7.14%・成功92.86%だったがTEE（経食道心エコー; transesophageal echocardiography）で穿孔0.78%に改善（<a href="https://pubmed.ncbi.nlm.nih.gov/22964315/">Wang 2012</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<p><strong>TEEで全ステップを確認</strong>：大腿静脈ワイヤ→右房→SVC（ME bicaval）、大腿動脈ワイヤを下行大動脈に確認（desc aortic SAX）、エンドバルーンワイヤを下行→上行へ。IVCカニューレ先端は心房-大静脈接合部直下、二段カニューレはSVCへ。解離・SVC損傷を早期除外（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/22964315/">Wang 2012</a>）。TEE不能は<strong>MICS（低侵襲心臓手術; minimally invasive cardiac surgery）そのものの禁忌</strong>に近い（RV/バルーン/AR（大動脈弁逆流; aortic regurgitation）評価ができない；<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">Heine 2026</a>）。</p>
+</div>
+
+<h3 id="iii-2-エンドバルーン位置移動のモニタリング">III-2. エンドバルーン位置・移動のモニタリング</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 片側監視ではバルーン移動を見逃す</div>
+<p>バルーンが遠位移動して腕頭動脈を閉塞すると<strong>右橈骨動脈圧・右脳NIRS（近赤外分光法＝脳局所酸素モニタ; near-infrared spectroscopy）のみ低下</strong>する。片側（特に左のみ）監視では検出できない。左房開放後はTEEで気体介在によりバルーンが見えなくなる<strong>監視の盲点</strong>が生じる（<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/22437890/">Falk/ISMICS 2011</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策（多モーダル監視）</div>
+<ul>
+<li><strong>両側橈骨（上肢）動脈圧＋両側脳NIRS＋大動脈基部圧＋TEE</strong>を併用。バルーン移動の早期検出は<strong>両側動脈圧（脳オキシメトリより速い）</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/36802961/">Kaneyuki 2023</a>）。</li>
+<li>上行大動脈**&lt;3.8 cm**をTEEで確認してからバルーン遮断、250–300 mmHgへ加圧はTEE確認後（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>）。両側脳オキシメトリ&gt;20%低下（位置正常なら）→ 段階的に脳酸素供給を最適化（昇圧・FiO₂・Hct・麻酔深度/体温）（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>）。</li>
+<li>左房開放後は<strong>TEEに頼らず</strong>両側上肢圧・基部圧・脳NIRSで監視（<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>）。送血側と同側の動脈ラインは「ライン圧」を見ている点に注意（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>）。</li>
+<li>二腔チューブなら気管支カフを生食充填し<strong>音響窓</strong>を作ってバルーンを描出（左主気管支の空気で上行大動脈が隠れる対策；<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>）。</li>
+</ul>
+</div>
+
+<h3 id="iii-3-逆行性灌流の生理harlequindifferential-hypoxemia-と橈骨-大腿圧較差">III-3. 逆行性灌流の生理：Harlequin/differential hypoxemia と橈骨-大腿圧較差</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — Differential hypoxemia（Harlequin/north-south症候群）</div>
+<p>大腿（逆行性）送血中、拍動する心臓が<strong>低酸素の自己肺由来血を駆出</strong>し、逆行する酸素化血との混合点（watershed）が弓部より遠位だと、<strong>上半身・脳が低酸素血で灌流</strong>される。非拍動流ではパルスオキシが無効になる点も（<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">Heine 2026</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<p><strong>脳NIRSの急低下で即認識</strong>。no-flow扱いの間も肺を換気し、心が駆出する血を酸素化する。右上肢パルスオキシを併用（<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">Heine 2026</a>）。</p>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 橈骨動脈圧が中枢圧を過小評価</div>
+<p>逆行性灌流では<strong>橈骨収縮期圧が大腿/中枢より有意に低く</strong>読まれ、<strong>離脱時に較差が最大（23±16 mmHg、54%で≥20 mmHg）</strong>。perfusionist（大腿/回路側）と麻酔科（橈骨側）で「実圧」の認識がずれる（<a href="https://pubmed.ncbi.nlm.nih.gov/29998763/">Nakamura 2018</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<p>収縮期は信頼せず<strong>平均血圧(MAP)で管理</strong>（MAP較差≥20 mmHgは9%のみ）。離脱・遮断解除前後は特に較差が開くため、<strong>橈骨単独で灌流圧を判断しない</strong>。どの値を目標にするかをチームで明示（<a href="https://pubmed.ncbi.nlm.nih.gov/29998763/">Nakamura 2018</a>）。逆行性は脳卒中だけでなく神経学的合併症全般の関連（<a href="https://pubmed.ncbi.nlm.nih.gov/32519587/">Burns 2021</a>）— 死亡/腎は不変でも<strong>神経学的監視を優先</strong>。</p>
+</div>
+
+<h3 id="iii-4-分離換気olvとco₂気胸capnothorax">III-4. 分離換気(OLV)とCO₂気胸(capnothorax)</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — capnothorax過圧・OLV不耐</div>
+<p>外科医が要求する10–15 mmHgの送気は<strong>静脈還流低下・心係数/MAP/SvO₂低下・緊張性capnothorax</strong>を起こしうる（最適は5–10 mmHg）。OLVはPaO₂を最大51%低下、高炭酸ガスはヘパリン効果を下げ回路血栓・冠攣縮の一因（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li>送気は<strong>5–10 mmHg</strong>、不安定なら<strong>まず500 mL輸液→昇圧</strong>、改善なければ左胸を脱気し昇圧後に再送気。胸腔内圧を18Gで測定・余剰CO₂を排出（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>）。前毛細血管性肺高血圧では相対禁忌（<a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">Heine 2026</a>）。</li>
+<li>安静時PaCO₂&gt;50 mmHgやPaO₂&lt;65 mmHgはOLV不耐＝内視鏡手術不適。FEV1&lt;40%/DLCO&lt;40%等を術前評価。非換気側CPAP＋換気側PEEP・高FiO₂、不耐なら<strong>両肺換気へ転換</strong>する計画を（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">White 2021</a>）。</li>
+<li><strong>CO₂気胸のタイミング</strong>：bicaval脱血カニュレーション完了前にcapnothoraxを作ると右房虚脱でTEE bicaval像が得られない（<a href="https://pubmed.ncbi.nlm.nih.gov/41162279/">Singh 2026</a> が問題提起）。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 片側肺水腫（CPB関連・高死亡）</div>
+<p>手術側肺の虚血再灌流障害により<strong>片側性肺水腫</strong>が約1.4%、その死亡寄与は大きい（11例中5例；<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>）。対策はMurphyバンドル：CPB開始時に気管支カフ脱気・人工呼吸器離脱（room air）・能動冷却28–32℃・MAP 65・無加温CO₂・早期に肺血流再開・復温時抗炎症（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>）。</p>
+</div>
+
+<h3 id="iii-5-逆行性心筋保護のための冠静脈洞csカテーテル">III-5. 逆行性心筋保護のための冠静脈洞(CS)カテーテル</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 経皮CSカテーテルの malposition・穿孔・無効保護</div>
+<p>経皮CSカテーテル（内頸→9F）の盲目的進入は<strong>右房/右室/CS穿孔・左房解離</strong>を起こし、閉胸では胸骨切開を要しうる（CS損傷でsternotomy転換例；<a href="https://pubmed.ncbi.nlm.nih.gov/41139241/">Sun 2025</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>）。<strong>遺残左SVC・unroofed CS</strong>があると逆行性保護が無効化。挿入操作でVT（心室頻拍; ventricular tachycardia）（要除細動）も。経皮CS留置は<strong>約6%が留置失敗、成功例でも約10%は逆行単独で停止維持できず</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/41139241/">Sun 2025</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<ul>
+<li><strong>TEEで先端を常時直視</strong>し愛護的に操作。中食道変法bicaval/四腔/30–40°多平面で進める。2Dで困難なら<strong>3D zoomのen face像</strong>でCS口に同軸化（3D対応機・熟練が前提）（<a href="https://pubmed.ncbi.nlm.nih.gov/41139241/">Sun 2025</a>）。</li>
+<li><strong>バルーン閉塞は圧波形の"ventricularization"（静脈波→拍動波）で確認</strong>してから注入。MCV（中心臓静脈; middle cardiac vein）等の分枝への迷入・過度のbowingをTEEで是正、深さは脱落と過挿入の間で全経路を描出（<a href="https://pubmed.ncbi.nlm.nih.gov/41139241/">Sun 2025</a>）。波形がRA波なら先端は右房内（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>）。</li>
+<li><strong>CS操作前に全身ヘパリン（5000単位、または100 U/kg）</strong>、カテーテルは1000 U/100 mL生食でフラッシュ（血栓予防）。遺残左SVC（CS径&gt;1 cmで疑う、左上肢からの撹拌生食で診断）・unroofed CSを術前に除外し、<strong>代替（順行/併用）を準備</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41139241/">Sun 2025</a>）。</li>
+<li>静脈カニュレーション中に位置がずれるため<strong>断続的に再確認</strong>し、注入前にカテが正位・非クランプであることを閉ループ通信で確認（<a href="https://pubmed.ncbi.nlm.nih.gov/41139241/">Sun 2025</a>）。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">その他の麻酔側デバイス</div>
+<p>肺動脈ベント(EndoVent 8.3F)は非ヘパリンコートで拍動毎にPA（肺動脈; pulmonary artery）-RV間を移動し<strong>OR外使用不可</strong>。TEE下にバルーン生食充填で留置、搬送前に標準PAC（肺動脈カテーテル; pulmonary artery catheter）へ交換（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>）。PAベントは挿入時ヘパリン化、プロタミン後に抜去（<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>）。</p>
+</div>
+
+<h3 id="iii-6-抗凝固出血除細動の制約">III-6. 抗凝固・出血・除細動の制約</h3>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 閉胸での除細動・出血が困難</div>
+<p>内視鏡では<strong>内部除細動が不可</strong>、capnothoraxが通電を妨げ、ECGリードが背側/側方で虚血判読困難。外部パッドは<strong>非手術側前方＋手術側後方</strong>に貼り、通電前に<strong>胸腔内器具を抜去し左肺を再膨張</strong>（絶対）（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">Bernstein 2015</a>）。VF（心室細動; ventricular fibrillation）時はアミオダロン/リドカイン投与・CO₂排出・両肺換気再開。術後出血は心嚢部分開放のため<strong>右胸腔に潜在貯留</strong>し検出が遅れる（<a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">Heine 2026</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策</div>
+<p>プロタミン投与・脱カニュレーション後は<strong>MCS（機械的循環補助; mechanical circulatory support）の再確立が困難</strong>になるため、TEEで修復・止血を確認するまでカニューレ温存・プロタミンを遅らせる。出血は「数値でなく出血そのもの」を治療、30分で累積&gt;100 mLは再評価、フィブリノゲン製剤(RiaSTAP 25–75 mg/kg)を即時補正用に準備（<a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">Fitzgerald 2020</a>）。</p>
+</div>
+
+<hr />
+<h2 id="iv-チーム横断の注意点外科灌流麻酔の協働">IV. チーム横断の注意点（外科・灌流・麻酔の協働）</h2>
+<h3 id="iv-1-術前画像評価と患者選択">IV-1. 術前画像評価と患者選択</h3>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">全例で共有すべき選択基準</div>
+<ul>
+<li><strong>術前CTA（CT血管造影; CT angiography。胸腹部・骨盤を3D再構成）<strong>で大動脈・腸骨/大腿を評価：CFA（総大腿動脈; common femoral artery）径≥7 mm、管腔内閉塞性病変なし、上行大動脈の高度粥腫は</strong>MICS（低侵襲心臓手術; minimally invasive cardiac surgery）自体の除外</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33448282/">Nakamura 2021</a>）。</li>
+<li><strong>エンドバルーン</strong>は上行&gt;40 mm・有意AR（大動脈弁逆流; aortic regurgitation）・著明蛇行/粥腫・大腿石灰化で禁忌（<a href="https://pubmed.ncbi.nlm.nih.gov/29506260/">Khan 2018</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>、<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>）。</li>
+<li>大動脈基部/上行の拡張・石灰化、中等度以上のARはロボット手術の<strong>強い禁忌</strong>（経胸壁遮断・順行心筋保護が不成立；<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>）。重度肺高血圧・高度肺気腫・右胸既往はOLV（分離換気; one-lung ventilation）/小開胸不耐で禁忌（<a href="https://pubmed.ncbi.nlm.nih.gov/23404687/">Murzi 2013</a>）。</li>
+</ul>
+</div>
+
+<h3 id="iv-2-マルチモーダルモニタリングの統合">IV-2. マルチモーダル・モニタリングの統合</h3>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">「単一モダリティに頼らない」が共通原則</div>
+<p>バルーン位置は動的で、<strong>TEE（経食道心エコー; transesophageal echocardiography）・両側上肢動脈圧・大動脈基部圧・両側脳NIRS（近赤外分光法＝脳局所酸素モニタ; near-infrared spectroscopy）・ロボットカメラの蛍光直視</strong>を同時に統合して判断（<a href="https://pubmed.ncbi.nlm.nih.gov/36802961/">Kaneyuki 2023</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">Pisano 2021</a>）。逆行性灌流では**頭部＋両下肢のrSO₂（局所脳酸素飽和度; regional cerebral O₂ saturation）**を測定（<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>）。TEEは必須だが食道穿孔等のリスク（罹病0.08%）もあり熟練者が施行（<a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">Wahba/EACTS 2024</a>）。</p>
+</div>
+
+<h3 id="iv-3-ラーニングカーブ施設チーム基準">IV-3. ラーニングカーブ・施設/チーム基準</h3>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall — 経験不足での高度手技の早期導入</div>
+<p>脳卒中・転換・解離の多くが<strong>早期症例に集中</strong>（脳梗塞: 初期500例2% → 後期0.8%；<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>）。エンドバルーン/経皮カニュレーションは技術リスクが高く、新規施設の早期導入は危険（<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対策（施設・チーム基準）</div>
+<ul>
+<li>**専任の体外循環認定士（≥1名）・年間CPB ≥100例（STS基準は≥250 adult/yr×3年）・TEE熟練麻酔科医・即時MCS（機械的循環補助; mechanical circulatory support）**を導入前に確保（<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>）。</li>
+<li>段階的導入：経皮カニュレーション/エンドバルーンはフェーズIV（既に内視鏡経験豊富なら≥50例/2年でII–III）。再手術はフェーズIV。VF（心室細動; ventricular fibrillation）停止は大動脈弁が健常な場合のみ（<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>）。</li>
+<li><strong>遮断・CPB時間を必須記録</strong>し、最初の100例は25例ごとに成績レビュー（O/E≤1）、胸骨正中切開と同等に近づける（<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>）。看護師・臨床工学技士・麻酔を含む<strong>チーム訓練</strong>（<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>）。</li>
+</ul>
+</div>
+
+<h3 id="iv-4-コミュニケーションチェックリスト緊急転換">IV-4. コミュニケーション・チェックリスト・緊急転換</h3>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">共通対策</div>
+<ul>
+<li><strong>術前ブリーフで患者個別計画を共有、閉ループ通信、術後デブリーフ</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/24303597/">Baker/AmSECT 2013</a>）。送血方向・目標流量・遮断法・心筋保護法を「意図的な症例別決定」として明文化（<a href="https://pubmed.ncbi.nlm.nih.gov/32519587/">Burns 2021</a>）。</li>
+<li><strong>転換のリハーサル</strong>、消毒・ドレープ・カニューレ温存で常時備える。機器故障時の対応を術前同意に明記（<a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">Badhwar/STS 2026</a>、<a href="https://doi.org/10.11281/shinzo.51.18">Shimokawa 2019</a>）。</li>
+</ul>
+</div>
+
+<h3 id="iv-5-エビデンスの限界">IV-5. エビデンスの限界</h3>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p>本稿の数値の多くは観察研究（Level B）に基づき、症例選択・ラーニングカーブの交絡を含む。EABO vs EACも30研究中の直接比較は7研究のみで、1996–2016の時代変遷（EABO→EAC）と経験で結果が変わる（Port Accessレジストリで解離1.3%→0.2%）。<strong>自施設の経験・適応で再解釈</strong>し、同意・チーム計画でエビデンスの質の低さを共有すること（<a href="https://pubmed.ncbi.nlm.nih.gov/22437890/">Falk/ISMICS 2011</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/29506260/">Khan 2018</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/32519587/">Burns 2021</a>）。</p>
+</div>
+
+<hr />
+<h2 id="文献リスト全31本-dl状況付き">文献リスト（全31本）— DL状況付き</h2>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">凡例</div>
+<p>✅ = <code>robotic_cpb/pdf/</code> に全文取得済 ／ 🔒 = 要購読（本稿は要旨で反映）。リンクはPubMed/DOI（追加学習用）。</p>
+</div>
+
+<h3 id="ガイドラインコンセンサスステートメント">ガイドライン・コンセンサス／ステートメント</h3>
+<ol type="1">
+<li>✅ Wahba A, et al. <strong>2024 EACTS/EACTAIC/EBCP Guidelines on cardiopulmonary bypass in adult cardiac surgery.</strong> Eur J Cardiothorac Surg 2025;67(2):ezae354. <a href="https://pubmed.ncbi.nlm.nih.gov/39949326/">PubMed</a> ・ <a href="https://doi.org/10.1093/ejcts/ezae354">DOI</a></li>
+<li>✅ Falk V, et al. <strong>MICS vs open mitral valve surgery: ISMICS 2010 consensus statement.</strong> Innovations 2011;6(2):66-76. <a href="https://pubmed.ncbi.nlm.nih.gov/22437890/">PubMed</a></li>
+<li>✅ Badhwar V, et al. <strong>STS Expert Consensus Pathway for Robotic Cardiac Surgical Training.</strong> Ann Thorac Surg 2026;121(5):1038-1048. <a href="https://pubmed.ncbi.nlm.nih.gov/41619927/">PubMed</a></li>
+<li>✅ Baker RA, et al. <strong>AmSECT Standards and Guidelines for Perfusion Practice: 2013.</strong> J Extra Corpor Technol 2013;45(3):156-166. <a href="https://pubmed.ncbi.nlm.nih.gov/24303597/">PubMed</a></li>
+</ol>
+<h3 id="送脱血カニュレーション血管合併症">送脱血カニュレーション・血管合併症</h3>
+<ol start="5" type="1">
+<li>✅ Werner P, et al. <strong>Femoral versus central cannulation (State-of-the-art review).</strong> Innovations 2025;20(2):148-157. <a href="https://pubmed.ncbi.nlm.nih.gov/40261087/">PubMed</a></li>
+<li>✅ Ramchandani M, et al. <strong>Cannulation strategies and pitfalls in MICS.</strong> Methodist DeBakey Cardiovasc J 2016;12(1):10-13. <a href="https://pubmed.ncbi.nlm.nih.gov/27127556/">PubMed</a></li>
+<li>✅ Nakamura Y, et al. <strong>Axillary vs femoral cannulation, CT-based criteria (270例).</strong> Eur J Cardiothorac Surg 2021;59(6):1200-1207. <a href="https://pubmed.ncbi.nlm.nih.gov/33448282/">PubMed</a></li>
+<li>✅ Lamelas J, et al. <strong>Complications associated with femoral cannulation during MICS (2645例).</strong> Ann Thorac Surg 2017;103(6):1927-1932. <a href="https://pubmed.ncbi.nlm.nih.gov/28017338/">PubMed</a></li>
+</ol>
+<h3 id="大動脈遮断エンドバルーン-vs-クランプ">大動脈遮断（エンドバルーン vs クランプ）</h3>
+<ol start="9" type="1">
+<li>✅ Khan H, et al. <strong>External aortic clamping vs endoaortic balloon occlusion: systematic review/meta-analysis.</strong> Interact Cardiovasc Thorac Surg 2018;27(2):208-214. <a href="https://pubmed.ncbi.nlm.nih.gov/29506260/">PubMed</a></li>
+<li>✅ Pisano C, et al. <strong>Imaging and monitoring with an intra-aortic occlusion device.</strong> J Thorac Dis 2021;13(2):1011-1019. <a href="https://pubmed.ncbi.nlm.nih.gov/33717574/">PubMed</a></li>
+<li>✅ Breves SL, et al. <strong>Endoballoon occlusion feasible despite moderately enlarged aorta.</strong> Innovations 2016;11(5):355-359. <a href="https://pubmed.ncbi.nlm.nih.gov/27607762/">PubMed</a></li>
+<li>✅ Ergi DG, et al. <strong>Cross-clamp vs balloon occlusion in robotic mitral surgery (prospective).</strong> Ann Thorac Surg 2024;118(2):412-419. <a href="https://pubmed.ncbi.nlm.nih.gov/38657703/">PubMed</a></li>
+<li>🔒 Kaneyuki D, et al. <strong>Endoaortic balloon occlusion in totally endoscopic &amp; percutaneous robotic cardiac surgery.</strong> Innovations 2023;18(1):90-96. <a href="https://pubmed.ncbi.nlm.nih.gov/36802961/">PubMed</a></li>
+</ol>
+<h3 id="逆行性灌流脳卒中">逆行性灌流・脳卒中</h3>
+<ol start="14" type="1">
+<li>✅ Murzi M, et al. <strong>Antegrade vs retrograde perfusion in MICS mitral (1280例, propensity).</strong> Eur J Cardiothorac Surg 2013;43(6):e167-72. <a href="https://pubmed.ncbi.nlm.nih.gov/23404687/">PubMed</a></li>
+<li>🔒 Burns DJP, et al. <strong>Retrograde arterial perfusion in MICS mitral: systematic review.</strong> Perfusion 2021;36(1):11-20. <a href="https://pubmed.ncbi.nlm.nih.gov/32519587/">PubMed</a></li>
+<li>🔒 Nakamura Y, et al. <strong>Radial vs femoral pressure difference under retrograde perfusion.</strong> Int J Artif Organs 2018;41(10):635-643. <a href="https://pubmed.ncbi.nlm.nih.gov/29998763/">PubMed</a></li>
+</ol>
+<h3 id="静脈脱血vavdgme吸引回路">静脈脱血(VAVD)・GME・吸引・回路</h3>
+<ol start="17" type="1">
+<li>✅ Wang S, Ündar A. <strong>VAVD and gaseous microemboli in CPB (review).</strong> J Extra Corpor Technol 2008;40(4):249-256. <a href="https://pubmed.ncbi.nlm.nih.gov/19192754/">PubMed</a></li>
+<li>✅ Gambino R, et al. <strong>VAVD: a 2014 safety survey.</strong> J Extra Corpor Technol 2015;47(3):160-166. <a href="https://pubmed.ncbi.nlm.nih.gov/26543250/">PubMed</a></li>
+<li>✅ Guimarães DP, et al. <strong>Impact of VAVD on forward flow with a centrifugal pump.</strong> Braz J Cardiovasc Surg 2020;35(2):134-140. <a href="https://pubmed.ncbi.nlm.nih.gov/32369291/">PubMed</a></li>
+<li>✅ 大島弘之・東條圭一ほか. <strong>吸引カニューレの違いによる吸引回路の流量特性および圧変化に関する実験的検討.</strong> 体外循環技術 2024;51(2):138-143. <a href="https://doi.org/10.7130/jject.51.138">DOI/J-STAGE</a></li>
+<li>✅ Anastasiadis K, et al. <strong>MiECC: state-of-the-art in perfusion.</strong> J Thorac Dis 2019;11(Suppl 10):S1507-S1514. <a href="https://pubmed.ncbi.nlm.nih.gov/31293801/">PubMed</a></li>
+</ol>
+<h3 id="灌流量酸素需給do₂vo₂">灌流量・酸素需給（DO₂/VO₂）</h3>
+<ol start="22" type="1">
+<li>✅ 原怜史ほか. <strong>MICSにおける酸素供給量と酸素消費量を用いた適正灌流量の検討.</strong> 体外循環技術 2024;51(4):464-468. <a href="https://doi.org/10.7130/jject.51.464">DOI/J-STAGE</a></li>
+</ol>
+<h3 id="モニタリングtee">モニタリング・TEE</h3>
+<ol start="23" type="1">
+<li>✅ Wang Y, et al. <strong>TEE-guided cannulation for peripheral CPB in robotic cardiac surgery.</strong> Chin Med J (Engl) 2012;125(18):3236-3239. <a href="https://pubmed.ncbi.nlm.nih.gov/22964315/">PubMed</a></li>
+<li>✅ Sun KW, et al. <strong>Percutaneous coronary sinus catheter placement/management with TEE in robotic mitral surgery.</strong> Echocardiography 2025. <a href="https://pubmed.ncbi.nlm.nih.gov/41139241/">PubMed</a></li>
+<li>🔒 Singh P, et al. <strong>Capnothorax timing and echocardiographic challenges in robotic mitral valve surgery.</strong> J Cardiothorac Vasc Anesth 2026;40(1):406-407. <a href="https://pubmed.ncbi.nlm.nih.gov/41162279/">PubMed</a></li>
+</ol>
+<h3 id="麻酔灌流レビューロボット内視鏡">麻酔・灌流レビュー（ロボット/内視鏡）</h3>
+<ol start="26" type="1">
+<li>✅ Bernstein WK, Walker A. <strong>Anesthetic issues for robotic cardiac surgery.</strong> Ann Card Anaesth 2015;18(1):58-68. <a href="https://pubmed.ncbi.nlm.nih.gov/25566713/">PubMed</a></li>
+<li>✅ Fitzgerald MM, et al. <strong>Robotic Cardiac Surgery Part I: anesthetic considerations (TERCS).</strong> J Cardiothorac Vasc Anesth 2020;34(1):267-277. <a href="https://pubmed.ncbi.nlm.nih.gov/30930139/">PubMed</a></li>
+<li>✅ Heine M, et al. <strong>Anesthetic management for endoscopic cardiac surgery.</strong> J Cardiothorac Vasc Anesth 2026;40(2):710-723. <a href="https://pubmed.ncbi.nlm.nih.gov/41130847/">PubMed</a></li>
+<li>✅ White A, et al. <strong>Anesthesia for minimally invasive cardiac surgery.</strong> J Thorac Dis 2021;13(3):1886-1898. <a href="https://pubmed.ncbi.nlm.nih.gov/33841977/">PubMed</a></li>
+</ol>
+<h3 id="総説本邦">総説（本邦）</h3>
+<ol start="30" type="1">
+<li>✅ 下川智樹. <strong>ロボット支援下心臓手術.</strong> 心臓 2019;51(1):18-23. <a href="https://doi.org/10.11281/shinzo.51.18">DOI/J-STAGE</a></li>
+</ol>
+<h3 id="関連要旨で補足未取得">関連（要旨で補足、未取得）</h3>
+<ol start="31" type="1">
+<li>🔒 Condello I, et al. <strong>The emerging role of MiECC in totally endoscopic and robotic-assisted cardiac surgery.</strong> Perfusion 2025;40(5):1083-1087. <a href="https://pubmed.ncbi.nlm.nih.gov/39244646/">PubMed</a></li>
+</ol>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">さらなる追加学習の候補（本稿未収載・要検討）</div>
+<p>Colangelo 2006（VAVD in extrathoracic CPB, Perfusion; <a href="https://pubmed.ncbi.nlm.nih.gov/17312860/">PubMed</a>）／Leonard 2019（術前CTで脳卒中低減のメタ解析, Int J Cardiol; <a href="https://pubmed.ncbi.nlm.nih.gov/30563771/">PubMed</a>）／Anastasiadis 2022（MiECC systematic review, Perfusion; <a href="https://pubmed.ncbi.nlm.nih.gov/34137323/">PubMed</a>）。</p>
+</div>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function () {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  var content = document.querySelector('main.content');
+  if (!sidebar || !nav || !content) return;
+
+  // ---------- build TOC ----------
+  var headings = content.querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+  headings.forEach(function (h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+  if (btn) btn.addEventListener('click', function () { setOpen(!sidebar.classList.contains('open')); });
+  if (backdrop) backdrop.addEventListener('click', function () { setOpen(false); });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) setOpen(false);
+  });
+
+  // ---------- scroll spy ----------
+  if ('IntersectionObserver' in window) {
+    var current = null, visible = new Set();
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) visible.add(en.target.id); else visible.delete(en.target.id);
+      });
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visible.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function (l) { l.classList.toggle('active', l.dataset.target === firstId); });
+        var act = nav.querySelector('a.active');
+        if (act) {
+          var r = act.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+          if (r.top < s.top || r.bottom > s.bottom) act.scrollIntoView({ block: 'nearest' });
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function (h) { obs.observe(h); });
+  }
+
+  // ---------- full-text search ----------
+  var input = document.getElementById('search-input');
+  var clearBtn = document.getElementById('search-clear');
+  var meta = document.getElementById('search-meta');
+  var countEl = document.getElementById('search-count');
+  var prevBtn = document.getElementById('search-prev');
+  var nextBtn = document.getElementById('search-next');
+  if (!input) return;
+
+  var hits = [], curHit = -1, timer = null;
+
+  function clearHits() {
+    var marks = content.querySelectorAll('mark.search-hit');
+    marks.forEach(function (m) {
+      var p = m.parentNode;
+      p.replaceChild(document.createTextNode(m.textContent), m);
+      p.normalize();
+    });
+    hits = []; curHit = -1;
+  }
+
+  function highlight(q) {
+    var lc = q.toLowerCase();
+    var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var t = node.parentNode && node.parentNode.tagName;
+        if (t === 'SCRIPT' || t === 'STYLE') return NodeFilter.FILTER_REJECT;
+        return node.nodeValue.toLowerCase().indexOf(lc) !== -1
+          ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue, lower = text.toLowerCase();
+      var frag = document.createDocumentFragment(), idx = 0, pos;
+      while ((pos = lower.indexOf(lc, idx)) !== -1) {
+        if (pos > idx) frag.appendChild(document.createTextNode(text.slice(idx, pos)));
+        var mk = document.createElement('mark');
+        mk.className = 'search-hit';
+        mk.textContent = text.slice(pos, pos + q.length);
+        frag.appendChild(mk);
+        hits.push(mk);
+        idx = pos + q.length;
+      }
+      if (idx < text.length) frag.appendChild(document.createTextNode(text.slice(idx)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  function filterNav(q) {
+    var lc = q.toLowerCase();
+    navLinks.forEach(function (l) {
+      var match = !q || l.textContent.toLowerCase().indexOf(lc) !== -1;
+      l.classList.toggle('filtered-out', !match);
+    });
+  }
+
+  function gotoHit(i) {
+    if (!hits.length) return;
+    if (curHit >= 0 && hits[curHit]) hits[curHit].classList.remove('current');
+    curHit = (i + hits.length) % hits.length;
+    var m = hits[curHit];
+    m.classList.add('current');
+    m.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    countEl.textContent = (curHit + 1) + ' / ' + hits.length + ' 件';
+  }
+
+  function run(q) {
+    clearHits();
+    filterNav(q);
+    if (!q || q.length < 2) {
+      meta.classList.remove('show');
+      clearBtn.style.display = q ? 'block' : 'none';
+      return;
+    }
+    highlight(q);
+    clearBtn.style.display = 'block';
+    meta.classList.add('show');
+    if (hits.length) { gotoHit(0); }
+    else { countEl.textContent = '該当なし'; }
+  }
+
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    var q = input.value.trim();
+    timer = setTimeout(function () { run(q); }, 180);
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); gotoHit(curHit + (e.shiftKey ? -1 : 1)); }
+    if (e.key === 'Escape') { input.value = ''; run(''); input.blur(); }
+  });
+  if (nextBtn) nextBtn.addEventListener('click', function () { gotoHit(curHit + 1); });
+  if (prevBtn) prevBtn.addEventListener('click', function () { gotoHit(curHit - 1); });
+  if (clearBtn) clearBtn.addEventListener('click', function () { input.value = ''; run(''); input.focus(); });
+
+  // keyboard shortcut: "/" focuses search
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== input) { e.preventDefault(); input.focus(); }
+  });
+})();
+</script>
+
+</body>
+</html>

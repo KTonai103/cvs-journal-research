@@ -17,3 +17,9 @@ papers/
 output/2026_03_*/
 output/2026_04_*/
 output/2026_05_*/
+
+# Topic full-text PDFs / extracted text — keep copyrighted papers out of the public repo
+*/pdf/
+*/pdfs/
+*/pdf_text/
+*/pitfalls_digest.txt
