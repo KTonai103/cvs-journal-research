@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>外科用AVR人工弁 耐久性 — 取得論文11本の精読サマリー（弁別・最長フォロー）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="a弁大動脈位外科用avr人工弁-耐久性--取得論文11本-精読サマリー">【A弁・大動脈位】外科用AVR人工弁 耐久性 — 取得論文11本 精読サマリー</h1>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p><strong>🅰 本サマリーは全て大動脈位（A弁 / AVR）のデータです。</strong> 僧帽位（M弁 / MVR）版は別途調査中 → topic_mitral_valve_durability_2026_06（Perceval・INTUITY・Inspiris・Avalus・Freestyle・Crown・Soprano は大動脈専用でM弁版なし）。</p>
+</div>
+>
+> **対象**：2026-06-09に取得した弁耐久性論文 **11本（10弁）** を全文精読し、SVD・再手術・生存・血行動態を時点別に抽出したもの。
+> PDFは [valve_durability/pdf/](../valve_durability/pdf/)、抽出テキストは [valve_durability/pdf_text/](../valve_durability/pdf_text/)。
+> 親レビュー topic_savr_vs_tavr_longterm_2026_05（RCT＋Inspiris/Avalus/Epic）と、DLリスト topic_valve_durability_by_valve_2026_06 を補完する。
+>
+> **未取得**：Mosaic 20年（Celiento *J Heart Valve Dis* 2018, DOI非付与誌, PMID 30560605）は今回入手できず。本サマリーは取得11本＋既存レビュー値で構成。
+
+<hr />
+<h2 id="0-エグゼクティブサマリー--精読で確定した4つの軸">0. エグゼクティブサマリー — 精読で確定した4つの軸</h2>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>① 耐久性を決める最大因子は「弁種」より「植込み時年齢」</strong> Hancock II・Freestyle・Mitroflow・Soprano の4本すべてで、<strong>&lt;60〜65歳 vs &gt;70歳でSVD回避率が劇的に分かれる</strong>。 例：Hancock II 20年SVD回避 <strong>&lt;60歳 29.2% vs &gt;70歳 99.8%</strong>／Soprano 15年重度SVD累積 <strong>≤65歳 48.4% vs 全体 22.1%</strong>。 → 「この弁は何年もつ？」の答えは年齢で全く変わる。<strong>高齢者の長期成績を若年者に外挿してはいけない。</strong></p>
+</div>
+
+<blockquote>
+<p><strong>② 「最長フォロー年数」は生存者バイアスに汚染される</strong> 高齢コホートでは10年生存が Perceval 25.2%・Hancock II（25年で6.7%）と激減するため、<strong>actuarial（カプランマイヤー）とactual（実発生＝競合リスク）でSVD回避率が大きく乖離</strong>する。 例：Mitroflow 20年SVD回避 ≥70歳で <strong>actuarial 84.8% vs actual 96.6%</strong>。"何年成績が出ているか"を読むときは必ずこの2値を区別する。</p>
+<p><strong>③ 小弁輪・外付けウシ心膜は早期劣化の地雷</strong> <strong>Sorin/LivaNova 外付けウシ心膜系列（Mitroflow → Soprano → Crown PRT）は一貫して早期・高率SVD</strong>、特に19–22mmの小サイズ。Mitroflow 19mmは5年SVD 20%、Soprano 18–22mmはSVD HR 2.31。</p>
+<p><strong>④ Sutureless（Perceval）の中長期耐久性は"従来弁並み"が確立、ただしPPM率に注意</strong> Perceval は10年再手術回避 95–97.6%・重度SVD 0.74%/患者年で<strong>従来生体弁と遜色なし</strong>。一方で<strong>ペースメーカー率は初期8–11%</strong>（新サイジング/Plusで4–6%に改善）。Intuityも7年SVD回避97.5%だが<strong>PPI 21.8%@7年と高い</strong>。</p>
+</blockquote>
+<hr />
+<h2 id="1-マスター比較表pdf精読実数値ベース">1. マスター比較表（PDF精読・実数値ベース）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>弁</th>
+<th>論文</th>
+<th>n</th>
+<th>最長FU</th>
+<th>耐久性の主要値</th>
+<th>年齢/サイズ依存</th>
+<th>取得</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Perceval/S</strong></td>
+<td>Lamberigts 2025（Leuven）</td>
+<td>1,136</td>
+<td><strong>15年</strong>（中央値7.2y）</td>
+<td>再手術回避 <strong>97.8%@5y / 95.3%@10y</strong>、重度SVD <strong>0.74%/患者年</strong></td>
+<td>年齢・サイズとも有意差なし（高齢コホート）</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Perceval</strong></td>
+<td>Concistré 2023（Massa）</td>
+<td>1,157</td>
+<td><strong>10年</strong>（平均4.5y）</td>
+<td>再介入回避 <strong>97.6%</strong>、SVD実数 <strong>2.4%</strong>（平均5.6年）</td>
+<td>早期oversizing→2017是正</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>INTUITY</strong></td>
+<td>Malaisrie 2023（TRANSFORM）</td>
+<td>885</td>
+<td><strong>7年</strong></td>
+<td>SVD回避 <strong>97.5%</strong>、再介入回避95.7%、explant回避97.8%</td>
+<td>層別報告なし／<strong>PPI 21.8%@7y</strong></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Magna Ease</strong></td>
+<td>Anselmi 2024（Rennes）</td>
+<td>1,016</td>
+<td><strong>13.4年</strong>（中央値9.8y）</td>
+<td>SVD回避 <strong>96.3%@10y(KM)/97.2%(competing)</strong>、再介入回避97.8%@10y</td>
+<td>&lt;65歳でSVD/再手術↑（有意）</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Hancock II</strong></td>
+<td>David 2010（Toronto）</td>
+<td>1,134</td>
+<td><strong>25年</strong>（20年が主軸）</td>
+<td>20年SVD回避 全体63.4% / <strong>&lt;60歳29.2% / 60–70歳85.2% / &gt;70歳99.8%</strong></td>
+<td><strong>年齢が唯一の独立予測因子</strong></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Freestyle</strong>（stentless）</td>
+<td>Mohammadi 2012（Québec）</td>
+<td>430</td>
+<td><strong>18年</strong></td>
+<td>SVD再手術回避 <strong>95.9%@10y / 82.3%@15y</strong>（&lt;60歳62.6% vs ≥60歳88.4%@15y, P=0.002）</td>
+<td><strong>age&lt;60: HR 8.2</strong>／劣化様式は弁尖tear 77.8%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Mitroflow</strong> ⚠️</td>
+<td>Yankah 2008（Berlin）</td>
+<td>1,513</td>
+<td><strong>21年</strong></td>
+<td>20年SVD回避 全体62.3%(actuarial)／<strong>≥70歳 84.8%(actuarial)/96.6%(actual)</strong></td>
+<td>&lt;65歳 SVD 2.1%/患者年 vs ≥70歳0.34%</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Mitroflow</strong> ⚠️</td>
+<td>Sénage 2014（Nantes）</td>
+<td>617</td>
+<td>5年</td>
+<td><strong>5年SVD累積8.4%</strong>、SVD 1.66%/患者年、<strong>33%が加速劣化</strong></td>
+<td><strong>19mm SVD回避79.8% vs 21mm 94%@5y</strong></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Soprano</strong> ⚠️</td>
+<td>Holmgren 2026（瑞典全国）</td>
+<td>1,054</td>
+<td><strong>17.5年</strong>（15年報告）</td>
+<td>重度SVD累積 <strong>22.1%@15y（全体）/ 48.4%@15y（≤65歳）</strong>、SVD再介入7.2%@10y</td>
+<td><strong>≤65歳 HR 1.95／18–22mm HR 2.31</strong></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Crown PRT</strong> ⚠️</td>
+<td>Montero Cruces 2023（BEST-VALVE RCT）</td>
+<td>51</td>
+<td>5年（6年）</td>
+<td>重度SVD累積 <strong>2.63%@6y</strong>、再介入9.8%@5y、<strong>平均圧較差15mmHg（Magna Easeより有意に高い）</strong></td>
+<td>&gt;80歳が保護因子／Crown自体がSVD独立危険因子</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>St Jude（機械弁）</strong></td>
+<td>Sawa 2024（東京女子医大）</td>
+<td>519</td>
+<td><strong>30年</strong></td>
+<td>心臓死回避 <strong>85.2%@30y</strong>、再手術回避92.6%@30y、<strong>SVDなし（定義上）</strong></td>
+<td>INR 1.6–2.5で塞栓0.35%/患者年・出血0.16%/患者年</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><em>Mosaic（porcine）</em></td>
+<td><em>Celiento 2018（未取得）</em></td>
+<td><em>254</em></td>
+<td><em>20年</em></td>
+<td><em>SVD回避96±2%@20y（既存レビュー値）</em></td>
+<td><em>&lt;60歳で劣化↑</em></td>
+<td>❌</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="2-弁種別ディープダイブ">2. 弁種別ディープダイブ</h2>
+<h3 id="a-sutureless--rapid-deployment--percevalintuity">A. Sutureless / Rapid-deployment — Perceval・INTUITY</h3>
+<h4 id="a-1-perceval最長15年-lamberigts-202510年-concistré-2023">A-1. Perceval（最長15年, Lamberigts 2025／10年, Concistré 2023）</h4>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>要点：Sutureless Percevalの中長期耐久性は"従来生体弁と同等"がほぼ確立。</strong></p>
+</div>
+
+<p><strong>Lamberigts 2025（Leuven 1,136例, 2007–2022, 累積3,775患者年, 中央値FU 7.2年, 最長15年）</strong></p>
+<ul>
+<li>再手術回避 <strong>97.8%@5年 / 95.3%@10年</strong>、重度SVD発生率 <strong>0.74%/患者年</strong>（ESC/EACTS/EAPCI基準）</li>
+<li>ViV-TAVR は10例（0.88%）で平均5.4年後に施行 → <strong>将来のViV戦略が現実的</strong></li>
+<li><strong>PPM</strong>：退院時 moderate 24.6% / severe 12.3%。ただし <strong>旧サイジング50.1% → 新サイジング32.2% → Perceval Plus 22.1%</strong> と改善</li>
+<li><strong>PPI（30日）8.1%</strong>（旧11.0% → 新6.1% → Plus 6.8%、XLはPlusで12.8%→4.0%）</li>
+<li>院内死亡3.4%、5年生存71.1%、<strong>10年生存25.2%</strong>（中央年齢79歳・43%が80歳以上のため生存者バイアス大）</li>
+</ul>
+<p><strong>Concistré 2023（Massa 1,157例, 2011–2021, 平均FU 4.5年）</strong></p>
+<ul>
+<li>再介入回避 <strong>97.6%</strong>、構造劣化 <strong>2.4%</strong>（27例：ViV 19・redo 8、平均5.6年）</li>
+<li>競合リスクでの再手術累積：1年0.1% → 5年1.2% → <strong>10年3.4%</strong></li>
+<li>30日死亡 <strong>1.38%</strong>、PPI 4%@30日、平均圧較差 54.4→13.7 mmHg、LV mass 152.8→116.1 g/m²</li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>Perceval の留保</strong>：両者とも<strong>高齢・後ろ向き・単施設・対照群なし</strong>。VARC基準でないSVD定義。10年生存が低い（25%）ため真の弁耐久性は過小評価の可能性（=実際はもっと持つ）。Perceval Plus（2020〜FREE抗石灰化）の長期データはまだ無い。</p>
+</div>
+
+<h4 id="a-2-intuity最長7年-transform-malaisrie-2023">A-2. INTUITY（最長7年, TRANSFORM, Malaisrie 2023）</h4>
+<ul>
+<li>885例・29施設・前向き単群（NCT01700439）。<strong>SVD回避 97.5%@7年</strong>、再介入回避95.7%、explant回避97.8%</li>
+<li>血行動態良好：平均圧較差 43.7（術前）→ 11.1 mmHg@7年、EOA 1.6 cm²@7年、moderate以上PVL 0%</li>
+<li><strong>最大の弱点＝ペースメーカー</strong>：isolated AVRで <strong>PPI 21.8%@7年</strong>（完全房室ブロック単独でも10.9%）。独立予測因子は術前右脚ブロック（OR 7.35）。市販後の経験施設では低下（2年累積10.1%）</li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>TRANSFORM の留保</strong>：7年到達は<strong>160/885（18%）のみ</strong>と脱落が大きく、長期エコーは101–160例。Akins基準（VARC前）。Edwards社が解析関与。<strong>balloon-expandable frameのためViV不可。</strong></p>
+</div>
+
+<hr />
+<h3 id="b-現行ステント付きウシ心膜--perimount-magna-ease">B. 現行ステント付きウシ心膜 — PERIMOUNT Magna Ease</h3>
+<h4 id="anselmi-2024rennes-1016例-20082014-中央値fu-98年最長134年-エコー追跡100">Anselmi 2024（Rennes 1,016例, 2008–2014, 中央値FU 9.8年・最長13.4年, エコー追跡100%）</h4>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>Magna Ease は10年でSVD回避96–97%。「10–12年の余命の患者に適する」が著者結論。</strong></p>
+</div>
+
+<ul>
+<li><strong>SVD回避 96.3%±0.8%@10年（KM）/ 97.2%±0.6%（competing risks）</strong>、5年は99.3%</li>
+<li>SVD 28例（2.9%）平均6.9±3.3年（最長12.7年）。SVD再介入 1.5%（redo-SAVR 10・ViV 5）、再介入回避97.8%@10年</li>
+<li>全生存 83.2%@5年 / <strong>56.8%@10年</strong>、弁関連死回避97.8%@10年</li>
+<li><strong>PPM</strong>：moderate 26.8% / severe 5.4%（小弁輪多用の施設特性）だが<strong>死亡とは無関係</strong>（P=0.12/0.70）</li>
+<li><strong>年齢依存</strong>：&lt;65歳でSVD/再手術が有意に高い（余命が長く劣化に到達するため）。サイズ別では小弁輪で圧較差↑だが<strong>弁関連イベント発生率に有意差なし</strong></li>
+<li>劣化様式は<strong>石灰化／狭窄が主体</strong>でporcineより早期発生 → 15–20年データで最終評価が必要</li>
+</ul>
+<hr />
+<h3 id="c-ブタ弁--hancock-ii25年freestyle-stentless18年">C. ブタ弁 — Hancock II（25年）・Freestyle stentless（18年）</h3>
+<h4 id="c-1-hancock-iidavid-2010-toronto-1134例-19822004-中央値fu-122年最長25年">C-1. Hancock II（David 2010, Toronto 1,134例, 1982–2004, 中央値FU 12.2年・最長25年）</h4>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>"年齢が全て"を最も鮮明に示すランドマーク。SVDの唯一の独立予測因子は年齢（Cox）。</strong></p>
+</div>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>20年SVD回避</th>
+<th>&lt;60歳</th>
+<th>60–70歳</th>
+<th>&gt;70歳</th>
+<th>全体</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>値</strong></td>
+<td><strong>29.2%±5.7%</strong></td>
+<td><strong>85.2%±3.7%</strong></td>
+<td><strong>99.8%±0.2%</strong>（18年で打切り）</td>
+<td>63.4%±4.2%</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>再AVR回避@20年も同様（&lt;60歳29.8% / &gt;70歳98.3%）</li>
+<li>全生存 19.2%@20年・6.7%@25年（25年は3例のみ）→ <strong>25年は数値的に信頼薄、20年が実質的上限</strong></li>
+<li>著者が明記する重要点：<strong>SVD 87例中13例は手術不能で再手術せず</strong> → 「再手術回避」は真のSVD発生を過小評価する（文献で混同されがちな点）</li>
+<li>血行動態・PPIの報告なし</li>
+</ul>
+<h4 id="c-2-freestyle-stentlessmohammadi-2012-québec-430例-subcoronary-最長18年-追跡100">C-2. Freestyle stentless（Mohammadi 2012, Québec 430例, subcoronary, 最長18年, 追跡100%）</h4>
+<ul>
+<li><strong>SVD再手術回避 95.9%@10年 / 82.3%@15年</strong>（全体）</li>
+<li><strong>年齢で二分</strong>：&lt;60歳 62.6% vs ≥60歳 88.4%@15年（P=0.002）。独立危険因子 <strong>age&lt;60 HR 8.2</strong>、脂質異常症 HR 3.1</li>
+<li><strong>劣化様式が特徴的</strong>：explant 27例の <strong>77.8%が弁尖tearによる急性ARで発症</strong>（石灰化狭窄は22.2%）。組織は石灰化軽微・ECM変性主体 → porcine stentedとは異なる失敗形態</li>
+<li>圧較差は15.1（退院）→12.1 mmHg@15年と安定。PPM 36.6%（小弁輪・女性に多い）だが<strong>生存に影響せず</strong></li>
+</ul>
+<hr />
+<h3 id="d-反面教師--sorinlivanova-外付けウシ心膜系列mitroflow--soprano--crown-prt">D. 反面教師 — Sorin/LivaNova 外付けウシ心膜系列（Mitroflow → Soprano → Crown PRT）</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>この3弁は系譜的に「外付けウシ心膜」で、いずれも早期・高率SVD（特に小サイズ・若年）。耐久性議論の警告例。</strong></p>
+</div>
+
+<h4 id="d-1-mitroflowyankah-2008-21年--sénage-2014-早期svd">D-1. Mitroflow（Yankah 2008 21年 ＋ Sénage 2014 早期SVD）</h4>
+<ul>
+<li><strong>Yankah（Berlin 1,513例, 最長21年）</strong>：20年SVD回避は <strong>≥70歳 actuarial 84.8%／actual 96.6%</strong> と高齢では良好に見えるが、<strong>全体actuarialは62.3%</strong>。&lt;65歳でSVD 2.1%/患者年（≥70歳0.34%の6倍）</li>
+<li><strong>Sénage（Nantes 617例, 12A/LX, 抗石灰化処理なし）</strong>：<strong>5年SVD累積8.4%</strong>、SVD 1.66%/患者年、初発14か月。<strong>19mm 5年SVD回避79.8%（≒20%劣化）vs 21mm 94%</strong>。SVDの<strong>33%が加速劣化</strong>（12か月で圧較差22→61 mmHg）。SVDは死亡の最強予測因子 <strong>HR 7.7</strong></li>
+<li>→ 抗石灰化処理の欠如＋外付け設計＋小サイズが重なると破局的</li>
+</ul>
+<h4 id="d-2-sopranoholmgren-2026-スウェーデン全国-1054例-最長175年">D-2. Soprano（Holmgren 2026, スウェーデン全国 1,054例, 最長17.5年）</h4>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>新データ（EJCTS 2026）。重度SVD累積は15年で全体22.1%、≤65歳では48.4%。著者は「エコー欠測24%によりむしろ過小評価」と明言。</strong></p>
+</div>
+
+<ul>
+<li>重度SVD累積（Dvir 2018基準）：5年3.1% → 10年13.7% → <strong>15年22.1%（全体）</strong>／≤65歳は5年7.4% → <strong>15年48.4%</strong></li>
+<li>SVD再介入累積：<strong>10年7.2%（全体）/ 19.0%（≤65歳）</strong>、15年11.5%/35.1%</li>
+<li>危険因子（Cox）：<strong>小サイズ18–22mm HR 2.31</strong>、<strong>≤65歳 HR 1.95</strong>、女性 HR 1.42、BMI&gt;30 HR 1.71</li>
+<li>抗石灰化（homocysteic acid）は現行モデルで既に置換済み。Magna Ease（10年SVD再介入1.9%）より<strong>明確に劣る</strong>、Mitroflow並み</li>
+</ul>
+<h4 id="d-3-crown-prtmontero-cruces-2023-best-valve-rct-n51">D-3. Crown PRT（Montero Cruces 2023, BEST-VALVE RCT, n=51）</h4>
+<ul>
+<li>3弁RCT（Crown PRT vs Magna Ease vs Trifecta）。<strong>重度SVD累積2.63%@6年</strong>だが、<strong>平均圧較差15 mmHg@5年とMagna Ease(12.3)より有意に高い</strong>（P&lt;0.001）、EOA 0.68 cm²</li>
+<li><strong>Crown PRT自体がSVDの独立危険因子（P=0.001）</strong>、&gt;80歳が保護因子。再介入9.8%@5年</li>
+<li>RCTは2017年に初代Trifecta製造中止で中断（n=396予定→154）。<strong>PRT抗石灰化の長期有効性は5年止まりで未確立</strong></li>
+</ul>
+<hr />
+<h3 id="e-機械弁--st-jude30年">E. 機械弁 — St Jude（30年）</h3>
+<h4 id="sawa-2024東京女子医大-519例-洞調律単独avr-平均fu-199年-最長30年">Sawa 2024（東京女子医大 519例, 洞調律・単独AVR, 平均FU 19.9年, 最長30年）</h4>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>構造劣化（SVD）が定義上なく、30年級の生涯耐久性。低強度INR（1.6–2.5）で塞栓・出血とも低率。</strong></p>
+</div>
+
+<ul>
+<li>心臓死回避 <strong>100%@5年 → 93.6%@20年 → 85.2%@30年</strong>、再手術回避92.6%@30年（再手術3.7%・0.19%/患者年）</li>
+<li>全生存 49.9%@30年（平均年齢53歳・若年コホート）</li>
+<li><strong>塞栓0.35%/患者年・出血0.16%/患者年</strong>、平均INR 2.03。<strong>INR&lt;2.0は心臓死・MACCEの危険因子ではない</strong>（低強度抗凝固が安全）</li>
+<li>唯一の心臓死危険因子は<strong>70歳以上（HR 6.44）</strong></li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>留保</strong>：INR完全データのある519/774例（67%）のみ＝コンプライアンス良好例への選択バイアスで耐久性が良く出る方向。日本人・SJM限定。<strong>ただし「若年で抗凝固許容なら機械弁が生涯耐久性で圧倒」という結論は揺るがない。</strong></p>
+</div>
+
+<hr />
+<h2 id="3-横断的考察--この11本から読み取れること">3. 横断的考察 — この11本から読み取れること</h2>
+<h3 id="3-1-年齢層別の実用耐久年数マップsvd回避が概ね90を保てる目安">3-1. 年齢層別の「実用耐久年数」マップ（SVD回避が概ね&gt;90%を保てる目安）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>弁</th>
+<th>&lt;60–65歳</th>
+<th>&gt;70歳</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>機械弁（SJM）</strong></td>
+<td>生涯（構造劣化なし）</td>
+<td>生涯</td>
+</tr>
+<tr>
+<td><strong>Hancock II（porcine）</strong></td>
+<td>❌ 20年で29%</td>
+<td>✅ 20年で99.8%</td>
+</tr>
+<tr>
+<td><strong>Freestyle（stentless）</strong></td>
+<td>△ 15年で62.6%</td>
+<td>✅ 15年で88.4%</td>
+</tr>
+<tr>
+<td><strong>Magna Ease</strong></td>
+<td>△（&lt;65歳で有意に劣化↑）</td>
+<td>✅ 10年で96%超</td>
+</tr>
+<tr>
+<td><strong>Perceval（sutureless）</strong></td>
+<td>データ乏（高齢中心）</td>
+<td>✅ 10年で再手術回避95%超</td>
+</tr>
+<tr>
+<td><strong>INTUITY</strong></td>
+<td>データ乏</td>
+<td>✅ 7年でSVD回避97.5%</td>
+</tr>
+<tr>
+<td><strong>Mitroflow / Soprano / Crown PRT</strong></td>
+<td>❌❌（19–22mm・若年で破局的）</td>
+<td>△（高齢でのみ許容）</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="3-2-最長何年データがあるかとその年数で実際もつかは別問題">3-2. 「最長何年データがあるか」と「その年数で実際もつか」は別問題</h3>
+<ul>
+<li><strong>生存者バイアス</strong>：高齢コホートは10年で60–75%、20年で6–20%しか生存せず、SVDに到達する前に他因死する。よって <strong>actuarial（KM）よりactual（競合リスク）SVD回避が高く出る</strong>（Mitroflow ≥70歳で84.8% vs 96.6%が典型）。</li>
+<li><strong>若年データこそ弁の真価</strong>：Hancock II &lt;60歳29%・Freestyle &lt;60歳62.6%・Soprano ≤65歳48.4%劣化 が示すように、<strong>長期耐久性の本当の試金石は若年症例</strong>。高齢の好成績を若年に外挿しない。</li>
+</ul>
+<h3 id="3-3-再手術回避--svd回避david-2010の警告">3-3. 「再手術回避 ≠ SVD回避」（David 2010の警告）</h3>
+<p>SVDを来しても手術不能・患者拒否で再手術しない例が相当数（Hancock 87例中13例、Soprano 206例中49.5%、Sénage 39例中90%）。<strong>「再手術回避率」は真の構造劣化を大きく過小評価する</strong>。弁間比較ではエンドポイント定義（actuarial SVD vs reintervention）を必ず確認する。</p>
+<h3 id="3-4-弁選択への含意2026年6月本11本ベース">3-4. 弁選択への含意（2026年6月・本11本ベース）</h3>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><ul>
+<li><strong>&lt;60–65歳・抗凝固許容 → 機械弁（SJM/On-X, 低強度INRで安全・生涯耐久）</strong></li>
+<li><strong>&lt;65歳・生体弁希望 → Magna Ease/Inspiris等の現行ステント付きウシ心膜、将来ViV前提</strong>。porcine単独（Hancock II/Mosaic）やstentless Freestyleは若年でSVD早い</li>
+<li><strong>高齢・低侵襲/小弁輪 → Perceval/INTUITY（耐久性は10年級で従来弁並み、ただしPPM/PPIに留意）</strong></li>
+<li><strong>避ける → Mitroflow全般・Soprano・Crown PRT（外付けウシ心膜系列、特に19–22mm・若年）。Trifecta初代も同様（cusp tear）</strong></li>
+</ul>
+</div>
+
+<hr />
+<h2 id="4-取得状況と限界">4. 取得状況と限界</h2>
+<ul>
+<li><strong>取得・精読済（11本）</strong>：<a href="../valve_durability/pdf/">valve_durability/pdf/</a> に格納、テキスト <a href="../valve_durability/pdf_text/">valve_durability/pdf_text/</a></li>
+<li><strong>未取得（1本）</strong>：Mosaic 20年（Celiento <em>J Heart Valve Dis</em> 2018）はDOI非付与誌で今回入手できず。porcine 20年データとして価値があり、PMID 30560605 で別途取得推奨</li>
+<li><strong>DLリスト値からの訂正</strong>（PDF精読で確定）：
+<ul>
+<li><strong>Soprano</strong>：最長「14年」→ <strong>17.5年（15年エンドポイント報告）</strong>、重度SVD「19.5%@8.6年（粗率）」→ <strong>累積22.1%@15年（全体）/48.4%@15年（≤65歳）</strong></li>
+<li><strong>Magna Ease</strong>：10年SVD回避「96.5%」→ <strong>96.3%（KM）/97.2%（competing risks）</strong></li>
+<li><strong>Freestyle</strong>：取得論文は Mohammadi 2012（Québec単施設n=430, subcoronary）。Bach 2014（多施設）は別論文</li>
+</ul></li>
+<li><strong>横断比較の注意</strong>：SVD定義が論文間で不統一（Akins/EAPCI/VARC-2/VARC-3/Dvir 2018）、actuarial vs actual混在、単施設・後ろ向き多数。<strong>直接の弁間比較は同一基準のRCT（例：BEST-VALVE）以外は慎重に。</strong></li>
+</ul>
+<hr />
+<p><em>作成: 2026-06-09 ／ 親: topic_savr_vs_tavr_longterm_2026_05 ／ DLリスト: topic_valve_durability_by_valve_2026_06</em> <em>データソース: 取得PDF全文（pdftotext）→ 11並列抽出エージェント。数値はPDF本文から逐語抽出・構造化</em></p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

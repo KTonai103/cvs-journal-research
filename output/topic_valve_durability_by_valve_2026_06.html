@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>外科用AVR人工弁 — 弁ごとの「最長フォロー年数」一覧＋追加DLリスト</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="a弁大動脈位外科用avr人工弁--弁ごとの最長フォロー年数一覧追加dlリスト">【A弁・大動脈位】外科用AVR人工弁 — 弁ごとの「最長フォロー年数」一覧＋追加DLリスト</h1>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p><strong>🅰 本リストは全て大動脈位（A弁 / AVR）。</strong> 僧帽位（M弁 / MVR）版は別途 → topic_mitral_valve_durability_2026_06。</p>
+</div>
+>
+> **背景**：既存の SAVR vs TAVR 長期成績レビュー は RCT（PARTNER 3 / Evolut LR / NOTION 等）と **Inspiris / Avalus / Epic / Trifecta / PERIMOUNT** を詳細にカバーしている。
+> 一方、「**どの弁が何年まで成績が出ているか**」という弁別の最長フォロー視点では **Perceval（sutureless）・Intuity・Magna Ease単独・Mosaic・Hancock II・Mitroflow・Freestyle・機械弁** が欠けていた。本ファイルはその欠落弁を調査し、**全引用をDOI/PMIDで個別検証**してまとめたもの。
+>
+> **全文DL前の用途**：§1で各弁の到達年数を俯瞰 → §2の追加DLリストで PDF を一括取得 → 取得後に弁別の詳細まとめを作成する。
+
+<hr />
+<h2 id="1-マスター一覧--弁ごとの査読フルペーパー最長フォロー">§1. マスター一覧 — 弁ごとの「査読フルペーパー最長フォロー」</h2>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>「最長FU」は査読付きフルペーパーで到達した最大追跡年数</strong>（抄録・case report は別記）。 生体弁の指標は <strong>SVD回避 / 再手術回避</strong>、機械弁は構造劣化が定義上ないため <strong>生涯耐久性 / 臨床FU年数</strong> で記載。 ✅=既存レビュー収録済 / 🆕=本調査で追加</p>
+</div>
+
+<h3 id="生体弁ウシ心膜ステント付き">生体弁（ウシ心膜・ステント付き）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>弁</th>
+<th>メーカー</th>
+<th>最長FU(full)</th>
+<th>その時点の主要成績</th>
+<th>代表論文</th>
+<th>収録</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Inspiris RESILIA</strong></td>
+<td>Edwards</td>
+<td><strong>8年</strong>（10年は抄録のみ）</td>
+<td>SVD回避 <strong>99.3%</strong>@8y（vs Magna Ease 90.5%, P&lt;0.0001）</td>
+<td>Kaneko <em>JTCVS Open</em> 2025</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>PERIMOUNT Magna Ease</strong></td>
+<td>Edwards</td>
+<td><strong>13.4年</strong></td>
+<td>SVD回避 <strong>96.5%</strong>@10y / 再手術回避 97.8%@10y</td>
+<td>Anselmi <em>EJCTS</em> 2024</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>CE PERIMOUNT（classic）</strong></td>
+<td>Edwards</td>
+<td><strong>20年</strong></td>
+<td>再手術回避 ≤60歳 <strong>38.1%</strong> / 60–70歳 59.6%@20y</td>
+<td>Bourguignon <em>ATS</em> 2015</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Avalus</strong></td>
+<td>Medtronic</td>
+<td><strong>7年</strong></td>
+<td>adjudicated SVD <strong>0例/1,132</strong></td>
+<td>Sabik <em>EJCTS</em> 2025</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Avalus Ultra</strong></td>
+<td>Medtronic</td>
+<td><strong>長期データなし</strong>（2024 launch）</td>
+<td>— PAS進行中</td>
+<td>—</td>
+<td>✅(注)</td>
+</tr>
+<tr>
+<td><strong>Trifecta（初代）</strong></td>
+<td>Abbott</td>
+<td><strong>7年</strong></td>
+<td>SVD回避 <strong>65.5%</strong>（早期cusp tear多発）</td>
+<td>Werner <em>ICVTS</em> 2021</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Mitroflow</strong> ⚠️</td>
+<td>Sorin/LivaNova</td>
+<td><strong>21年</strong>（※≥70歳のみ）</td>
+<td>9年SVD回避 <strong>67.9%</strong>（全体）／若年・19mmで早期劣化</td>
+<td>Yankah <em>JTCVS</em> 2008 / Ius <em>EJCTS</em> 2017</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>Crown PRT</strong></td>
+<td>LivaNova</td>
+<td><strong>5年</strong></td>
+<td>SVD ~3.9%@5y（BEST-VALVE RCT, n=51）</td>
+<td>Montero Cruces <em>EJCTS</em> 2023</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>Sorin Soprano</strong> ⚠️</td>
+<td>LivaNova</td>
+<td><strong>14年</strong></td>
+<td>重度SVD <strong>19.5%</strong>@平均8.6年（要警戒）</td>
+<td>Holmgren <em>EJCTS</em> 2026</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>Epic</strong></td>
+<td>Abbott</td>
+<td><strong>15年</strong></td>
+<td>SVD回避 <strong>98.4%</strong>@15y（small annulusでMPG高め）</td>
+<td>Anselmi <em>JCM</em> 2023</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="生体弁ブタステント付きステントレス">生体弁（ブタ・ステント付き／ステントレス）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>弁</th>
+<th>メーカー</th>
+<th>最長FU(full)</th>
+<th>その時点の主要成績</th>
+<th>代表論文</th>
+<th>収録</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mosaic</strong>（porcine, AOA）</td>
+<td>Medtronic</td>
+<td><strong>20年</strong></td>
+<td>SVD回避 <strong>96±2%</strong>@20y（年齢依存大）</td>
+<td>Celiento <em>J Heart Valve Dis</em> 2018</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>Hancock II</strong>（porcine）</td>
+<td>Medtronic</td>
+<td><strong>25年</strong>（20年が主軸）</td>
+<td>SVD回避 全体63.4% / <strong>&gt;70歳 99.8%</strong> / &lt;60歳 ~39%@20y</td>
+<td>David <em>ATS</em> 2010</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>Freestyle</strong>（stentless porcine）</td>
+<td>Medtronic</td>
+<td><strong>18年</strong></td>
+<td>SVD再手術回避 <strong>82.3%</strong>@15y / 再手術回避 75%@15y</td>
+<td>Mohammadi <em>Circulation</em> 2012</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>Sorin Pericarbon Freedom</strong>（stentless）</td>
+<td>LivaNova</td>
+<td><strong>8.9年</strong></td>
+<td>MPG 8.0±3.5 mmHg、小弁輪で良好</td>
+<td>Milano <em>ICVTS</em> 2018</td>
+<td>🆕(任意)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="sutureless--rapid-deployment">Sutureless / Rapid-deployment</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>弁</th>
+<th>メーカー</th>
+<th>最長FU(full)</th>
+<th>その時点の主要成績</th>
+<th>代表論文</th>
+<th>収録</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Perceval / Perceval S</strong> ★</td>
+<td>Corcym/LivaNova</td>
+<td><strong>15年</strong></td>
+<td>再手術回避 <strong>95.3%</strong>@10y / 重度SVD <strong>0.74%/患者年</strong></td>
+<td>Lamberigts <em>J Heart Valve Soc</em> 2025</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>Perceval Plus</strong>（2020〜）</td>
+<td>Corcym/LivaNova</td>
+<td><strong>短期のみ</strong>（MANTRA 2024）</td>
+<td>FREE抗石灰化、長期FU不足</td>
+<td>—</td>
+<td>🆕(注)</td>
+</tr>
+<tr>
+<td><strong>Intuity / Intuity Elite</strong></td>
+<td>Edwards</td>
+<td><strong>7年</strong></td>
+<td>SVD回避 <strong>97.5%</strong>@7y / 再介入回避 95.7%（PPI率高）</td>
+<td>Malaisrie <em>JTCVS Open</em> 2023（TRANSFORM）</td>
+<td>🆕</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="機械弁構造劣化定義上なし生涯耐久性">機械弁（構造劣化＝定義上なし、生涯耐久性）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>弁</th>
+<th>メーカー</th>
+<th>最長FU(full)</th>
+<th>その時点の主要成績</th>
+<th>代表論文</th>
+<th>収録</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>St Jude / Regent</strong></td>
+<td>Abbott</td>
+<td><strong>30年</strong></td>
+<td>心臓死回避 <strong>85.2%</strong>@30y（低強度INR 1.6–2.5）/ 構造破綻回避 <strong>99.94%</strong>@25y</td>
+<td>Sawa <em>Heart Vessels</em> 2024 / Emery <em>ATS</em> 2005</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>CarboMedics</strong></td>
+<td>LivaNova</td>
+<td><strong>10年（RCT）</strong></td>
+<td>SVDなし、SJMと同等（生存64.7%@10y）</td>
+<td>Bryan <em>JTCVS</em> 2007</td>
+<td>🆕</td>
+</tr>
+<tr>
+<td><strong>On-X</strong></td>
+<td>Artivion</td>
+<td>（PROACT系）</td>
+<td>低強度INR可。<strong>PROACT Xa（apixaban）は2022中止</strong>＝抗凝固フリー不可</td>
+<td>（既存レビュー言及）</td>
+<td>✅(注)</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p><strong>★ = あなたが例に挙げた Perceval。最長は Leuven 単施設1,136例の15年（Lamberigts 2025, 10年再手術回避95.3%・重度SVD 0.74%/患者年）。</strong> Inspiris は「フルペーパー8年・10年は抄録のみ（後述）」が正確な現状。</p>
+</div>
+
+<hr />
+<h2 id="2-追加dlリスト--既存69本に入っていない新規論文">§2. 追加DLリスト — 既存69本に<strong>入っていない</strong>新規論文</h2>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p>ここに挙げるのは <strong>既存DLリスト（topic_savr_vs_tavr_longterm_2026_05_DLlist 69本）に未収録</strong> の論文のみ。 Intuity の Werner 2022（#56）、Avalus 7年 Sabik（A4）、Inspiris の Beaver/Kaneko/Svensson抄録/Bavaria（#8,9,A1,#51）、Trifecta 7年 Werner（#55）は<strong>既存リストに既にある</strong>ため再掲しない。 🔓=Open Access / 🔒=機関アクセス要 / DOIは全件ワークフローで個別検証（修正済は注記）</p>
+</div>
+
+<h3 id="1st_place_medal-must-have弁ごとの最長フォロー最優先-12本">🥇 Must-have（弁ごとの最長フォロー＝最優先, 12本）</h3>
+<h4 id="m1-perceval-15年最長-unlock">M1. Perceval 15年（最長）★ 🔓</h4>
+<ul>
+<li>Lamberigts M, et al. <strong>Sutureless Aortic Valve Replacement: 15-year Experience in 1136 Patients.</strong> <em>J Heart Valve Soc</em> 2025;2(1):53-59.</li>
+<li>DOI: 10.1177/30494826241301285 ／ PMID: 未付番（新誌・PubMed未収載の可能性）</li>
+<li>10年再手術回避95.3%、重度SVD 0.74%/患者年 ／ ☐</li>
+</ul>
+<h4 id="m2-perceval-10年単施設1157例lock">M2. Perceval 10年（単施設1,157例）🔒</h4>
+<ul>
+<li>Concistré G, et al. <strong>Ten-year experience with sutureless Perceval bioprosthesis: single-centre analysis in 1157 implants.</strong> <em>J Cardiovasc Med</em> 2023;24(8):506-513.</li>
+<li>DOI: 10.2459/JCM.0000000000001475 ／ PMID: 37115966 ／ ☐</li>
+</ul>
+<h4 id="m3-intuity-7年transform-最長unlock">M3. Intuity 7年（TRANSFORM, 最長）🔓</h4>
+<ul>
+<li>Malaisrie SC, et al. <strong>Midterm outcomes of AVR using a rapid-deployment valve for aortic stenosis: TRANSFORM trial.</strong> <em>JTCVS Open</em> 2023;17:55-63.</li>
+<li>DOI: 10.1016/j.xjon.2023.10.034 ／ PMID: 38420551 ／ SVD回避97.5%@7y ／ ☐</li>
+</ul>
+<h4 id="m4-magna-ease-134年最長lock">M4. Magna Ease 13.4年（最長）🔒</h4>
+<ul>
+<li>Anselmi A, et al. <strong>Late clinical and echocardiographic results with the Magna Ease pericardial aortic bioprosthesis.</strong> <em>EJCTS</em> 2024;65(2):ezad351.</li>
+<li>DOI: 10.1093/ejcts/ezad351 ／ PMID: 38001032（検証で付番）／ 10年SVD回避96.5% ／ ☐</li>
+</ul>
+<h4 id="m5-mosaic-20年最長lock">M5. Mosaic 20年（最長）🔒</h4>
+<ul>
+<li>Celiento M, et al. <strong>Excellent Durability of the Mosaic Porcine Aortic Bioprosthesis at Extended Follow-Up.</strong> <em>J Heart Valve Dis</em> 2018;27(1):97-103.</li>
+<li><strong>DOI なし</strong>（J Heart Valve Dis は DOI 非付与誌）→ <strong>PMID: 30560605</strong> で取得 ／ 20年SVD回避96±2% ／ ☐</li>
+</ul>
+<h4 id="m6-hancock-ii-25年最長-gold-standardlock">M6. Hancock II 25年（最長, gold standard）🔒</h4>
+<ul>
+<li>David TE, Armstrong S, Maganti M. <strong>Hancock II bioprosthesis for AVR: the gold standard of bioprosthetic valve durability?</strong> <em>Ann Thorac Surg</em> 2010;90(3):775-781.</li>
+<li>DOI: 10.1016/j.athoracsur.2010.05.034 ／ PMID: 20732495 ／ 20年SVD回避 全体63.4%/&gt;70歳99.8% ／ ☐</li>
+</ul>
+<h4 id="m7-mitroflow-21年-warning-lock">M7. Mitroflow 21年 ⚠️ 🔒</h4>
+<ul>
+<li>Yankah CA, et al. <strong>AVR with the Mitroflow pericardial bioprosthesis: durability results up to 21 years.</strong> <em>J Thorac Cardiovasc Surg</em> 2008;136(3):688-696.</li>
+<li>DOI: 10.1016/j.jtcvs.2008.05.022 ／ PMID: 18805273 ／ ☐</li>
+</ul>
+<h4 id="m8-mitroflow-早期svdランドマーク-warning-lock">M8. Mitroflow 早期SVDランドマーク ⚠️ 🔒</h4>
+<ul>
+<li>Sénage T, Le Tourneau T, et al. <strong>Early structural valve deterioration of Mitroflow aortic bioprosthesis: mode, incidence, and impact on outcome.</strong> <em>Circulation</em> 2014;130(23):2012-2020.</li>
+<li>DOI: 10.1161/CIRCULATIONAHA.114.010400 ／ PMID: 25355912 ／ 5年SVD回避 19mm 79.8% vs 21mm 94% ／ ☐</li>
+</ul>
+<h4 id="m9-freestyle-18年stentless最長lock">M9. Freestyle 18年（stentless最長）🔒</h4>
+<ul>
+<li>Mohammadi S, et al. <strong>Long-term clinical and echocardiographic follow-up of the Freestyle stentless aortic bioprosthesis.</strong> <em>Circulation</em> 2012;126(11 Suppl 1):S198-204.（※巻号・頁を検証修正）</li>
+<li>DOI: 10.1161/CIRCULATIONAHA.111.084806 ／ PMID: 22965983 ／ 15年SVD再手術回避82.3% ／ ☐</li>
+</ul>
+<h4 id="m10-crown-prt-5年best-valve-rctlock">M10. Crown PRT 5年（BEST-VALVE RCT）🔒</h4>
+<ul>
+<li>Montero Cruces L, et al. <strong>5-Year haemodynamic performance of three aortic bioprostheses. A randomized clinical trial.</strong> <em>EJCTS</em> 2023;64(2):ezad261.</li>
+<li>DOI: 10.1093/ejcts/ezad261 ／ PMID: 37471587 ／ ☐</li>
+</ul>
+<h4 id="m11-機械弁-st-jude-30年最長lock">M11. 機械弁 St Jude 30年（最長）🔒</h4>
+<ul>
+<li>Sawa S, et al. <strong>Thirty-year outcomes of low-intensity anticoagulation for mechanical aortic valve.</strong> <em>Heart Vessels</em> 2024;39(6):549-555.</li>
+<li>DOI: 10.1007/s00380-024-02365-x ／ PMID: 38393378 ／ 30年心臓死回避85.2%（INR 1.6–2.5）／ ☐</li>
+</ul>
+<h4 id="m12-sorin-soprano-14年-warning要警戒小弁輪関連lock">M12. Sorin Soprano 14年 ⚠️（要警戒・小弁輪関連）🔒</h4>
+<ul>
+<li>Holmgren A, et al. <strong>Long-Term Durability of the Sorin Soprano Aortic Bioprosthetic Valve — A Swedish Nationwide Study.</strong> <em>EJCTS</em> 2026.</li>
+<li>DOI: 10.1093/ejcts/ezaf469 ／ PMID: 41428413 ／ 重度SVD 19.5%@平均8.6年 ／ ☐</li>
+</ul>
+<h3 id="2nd_place_medal-supplementary補強年次推移サブ解析-18本">🥈 Supplementary（補強・年次推移・サブ解析, 18本）</h3>
+<h4 id="perceval">Perceval</h4>
+<ul>
+<li>S1. Schizas N, et al. <strong>Perceval-S over time: clinical outcomes after ten years of usage.</strong> <em>J Cardiothorac Surg</em> 2024;19:192. DOI: 10.1186/s13019-024-02617-x ／ PMID: 38594705 🔓 ／ ☐</li>
+<li>S2. Shrestha M, et al. <strong>European multicentre experience with the sutureless Perceval valve: up to 5 years in over 700 patients.</strong> <em>EJCTS</em> 2016;49(1):234-241. DOI: 10.1093/ejcts/ezv040 ／ PMID: 25750010 🔒 ／ ☐</li>
+</ul>
+<h4 id="intuity">Intuity</h4>
+<ul>
+<li>S3. Laufer G, et al. <strong>Long-term outcomes of a rapid-deployment aortic valve: data up to 5 years.</strong> <em>EJCTS</em> 2017;52(2):281-287. DOI: 10.1093/ejcts/ezx103 ／ PMID: 28453629 🔒 ／ ☐</li>
+</ul>
+<h4 id="magna-ease">Magna Ease</h4>
+<ul>
+<li>S4. Piperata A, et al. <strong>Carpentier-Edwards Magna Ease bioprosthesis: multicentre experience and 12-year durability.</strong> <em>EJCTS</em> 2022;61(4):888-896. DOI: 10.1093/ejcts/ezab552 ／ PMID: 34962258 🔒 ／ ☐</li>
+<li>S5. Tsui S, et al. <strong>Eight-year outcomes of AVR with the CE PERIMOUNT Magna Ease valve.</strong> <em>J Card Surg</em> 2022;37(12):4999-5010.（※巻号・頁を検証修正）DOI: 10.1111/jocs.17140 ／ PMID: 36378942 🔒 ／ ☐</li>
+<li>S6. Mayr B, et al. <strong>Serial echocardiographic evaluation of the Perimount Magna Ease prosthesis.</strong> <em>J Thorac Dis</em> 2021;13(7):4104-4113.（※号・頁を検証修正）DOI: 10.21037/jtd-21-481 ／ PMID: 34422340 🔓 ／ ☐</li>
+</ul>
+<h4 id="mosaic">Mosaic</h4>
+<ul>
+<li>S7. Rieß FC, et al. <strong>Long-term outcomes of the Mosaic bioprosthesis.</strong> <em>Ann Thorac Surg</em> 2018;105(3):763-769.（※号を検証修正）DOI: 10.1016/j.athoracsur.2017.09.053 ／ PMID: 29289363 🔒 ／ ☐</li>
+<li>S8. Gansera B, et al. <strong>The Mosaic bioprosthesis in the aortic position: 17 years' results.</strong> <em>Thorac Cardiovasc Surg</em> 2014;62(1):26-34.（※頁を検証修正）DOI: 10.1055/s-0033-1345724 ／ PMID: 23817772 🔒 ／ ☐</li>
+</ul>
+<h4 id="hancock-ii">Hancock II</h4>
+<ul>
+<li>S9. Borger MA, et al. <strong>Twenty-year results of the Hancock II bioprosthesis.</strong> <em>J Heart Valve Dis</em> 2006;15(1):49-56. <strong>DOIなし</strong>→PMID: 16480012 🔒 ／ ☐</li>
+<li>S10. Valfrè C, et al. <strong>The fate of Hancock II porcine valve recipients 25 years after implant.</strong> <em>EJCTS</em> 2010;38(2):141-146. DOI: 10.1016/j.ejcts.2010.01.046 ／ PMID: 20194029 🔒 ／ ☐</li>
+<li>S11. Rizzoli G, et al. <strong>Fifteen-year results with the Hancock II valve: a multicenter experience.</strong> <em>J Thorac Cardiovasc Surg</em> 2006;132(3):602-609. DOI: 10.1016/j.jtcvs.2006.05.031 ／ PMID: 16935116 🔒 ／ ☐</li>
+</ul>
+<h4 id="mitroflow">Mitroflow</h4>
+<ul>
+<li>S12. Ius F, et al. <strong>Long-term results of the Mitroflow aortic pericardial bioprosthesis in over 800 patients.</strong> <em>EJCTS</em> 2017;52(2):264-271. DOI: 10.1093/ejcts/ezx161 ／ PMID: 28838100 🔒 ／ ☐</li>
+<li>S13. Saleeb SF, et al. <strong>Accelerated degeneration of a bovine pericardial bioprosthetic aortic valve in children and young adults.</strong> <em>Circulation</em> 2014;130(1):51-60. DOI: 10.1161/CIRCULATIONAHA.114.009835 ／ PMID: 24756063 🔒 ／ ☐</li>
+</ul>
+<h4 id="freestyle">Freestyle</h4>
+<ul>
+<li>S14. Bach DS, et al. <strong>Long-term clinical outcomes 15 years after AVR with the Freestyle stentless bioprosthesis.</strong> <em>Ann Thorac Surg</em> 2014;97(2):544-551.（※号・頁を検証修正）DOI: 10.1016/j.athoracsur.2013.08.047 ／ PMID: 24140209 🔒 ／ ☐</li>
+<li>S15. Ennker J, et al. <strong>Freestyle stentless bioprosthesis: 17-year clinical results.</strong> <em>Asian Cardiovasc Thorac Ann</em> 2016;24(9):868-874.（※頁を検証修正）DOI: 10.1177/0218492316675244 ／ PMID: 27926465 🔒 ／ ☐</li>
+<li>S16. Milano AD, et al. <strong>Long-term outcomes using the stentless LivaNova-Sorin Pericarbon Freedom valve after AVR.</strong> <em>ICVTS</em> 2018. DOI: 10.1093/icvts/ivy012 ／ PMID: 29481624 🔒 ／ ☐</li>
+</ul>
+<h4 id="機械弁">機械弁</h4>
+<ul>
+<li>S17. Emery RW, et al. <strong>The St. Jude Medical cardiac valve prosthesis: a 25-year experience with single valve replacement.</strong> <em>Ann Thorac Surg</em> 2005;79(3):776-782. DOI: 10.1016/j.athoracsur.2004.08.047 ／ PMID: 15734375 🔒 ／ ☐</li>
+<li>S18. Bryan AJ, et al. <strong>Prospective randomized comparison of CarboMedics and St Jude Medical bileaflet valves: ten-year follow-up.</strong> <em>J Thorac Cardiovasc Surg</em> 2007;133(3):614-622. DOI: 10.1016/j.jtcvs.2006.08.075 ／ PMID: 17320553 🔒 ／ ☐</li>
+<li>（任意）Minakata K, et al. <strong>Twenty-year outcome of AVR with SJM mechanical valves in Japanese patients.</strong> <em>Circ J</em> 2015;79(11):2380-2388. DOI: 10.1253/circj.CJ-15-0793 ／ PMID: 26346033 🔒 ／ ☐</li>
+</ul>
+<hr />
+<h2 id="3-dl作業用チェックリストコピペ用">§3. DL作業用チェックリスト（コピペ用）</h2>
+<pre><code>─── Must-have（最長FU, 12本）── 2026-06-09: 11/12取得・精読済（M5のみ未）→ 精読版 topic_valve_durability_summary_2026_06
+✅ M1.  Perceval 15年 — Lamberigts JHVS 2025（10.1177/30494826241301285）🔓 ＝Lamberigts_SuturelessAVR15y1136pts_JHeartValveSoc_2025.pdf
+✅ M2.  Perceval 10年 — Concistré JCM 2023（10.2459/JCM.0000000000001475 / PMID 37115966）
+✅ M3.  Intuity 7年 — Malaisrie TRANSFORM JTCVS Open 2023（10.1016/j.xjon.2023.10.034）🔓
+✅ M4.  Magna Ease 13.4年 — Anselmi EJCTS 2024（10.1093/ejcts/ezad351 / PMID 38001032）
+☐ M5.  Mosaic 20年 — Celiento JHVD 2018（DOIなし / PMID 30560605）★唯一の未取得
+✅ M6.  Hancock II 25年 — David ATS 2010（10.1016/j.athoracsur.2010.05.034）
+✅ M7.  Mitroflow 21年 — Yankah JTCVS 2008（10.1016/j.jtcvs.2008.05.022）
+✅ M8.  Mitroflow 早期SVD — Sénage Circulation 2014（10.1161/CIRCULATIONAHA.114.010400）
+✅ M9.  Freestyle 18年 — Mohammadi Circulation 2012（10.1161/CIRCULATIONAHA.111.084806）
+✅ M10. Crown PRT 5年 — Montero Cruces EJCTS 2023（10.1093/ejcts/ezad261）
+✅ M11. 機械弁30年 — Sawa Heart Vessels 2024（10.1007/s00380-024-02365-x）
+✅ M12. Soprano 17.5年（旧記載14年を訂正） — Holmgren EJCTS 2026（10.1093/ejcts/ezaf469 / PMID 41428413）
+─── Supplementary（18本）───
+□ S1.  Perceval — Schizas JCS 2024（10.1186/s13019-024-02617-x）🔓
+□ S2.  Perceval — Shrestha EJCTS 2016（10.1093/ejcts/ezv040）
+□ S3.  Intuity — Laufer EJCTS 2017（10.1093/ejcts/ezx103）
+□ S4.  Magna Ease — Piperata EJCTS 2022（10.1093/ejcts/ezab552）
+□ S5.  Magna Ease — Tsui J Card Surg 2022（10.1111/jocs.17140）
+□ S6.  Magna Ease — Mayr J Thorac Dis 2021（10.21037/jtd-21-481）🔓
+□ S7.  Mosaic — Rieß ATS 2018（10.1016/j.athoracsur.2017.09.053）
+□ S8.  Mosaic — Gansera TCVS 2014（10.1055/s-0033-1345724）
+□ S9.  Hancock II — Borger JHVD 2006（DOIなし / PMID 16480012）
+□ S10. Hancock II — Valfrè EJCTS 2010（10.1016/j.ejcts.2010.01.046）
+□ S11. Hancock II — Rizzoli JTCVS 2006（10.1016/j.jtcvs.2006.05.031）
+□ S12. Mitroflow — Ius EJCTS 2017（10.1093/ejcts/ezx161）
+□ S13. Mitroflow — Saleeb Circulation 2014（10.1161/CIRCULATIONAHA.114.009835）
+□ S14. Freestyle — Bach ATS 2014（10.1016/j.athoracsur.2013.08.047）
+□ S15. Freestyle — Ennker ACTA 2016（10.1177/0218492316675244）
+□ S16. Pericarbon Freedom — Milano ICVTS 2018（10.1093/icvts/ivy012）
+□ S17. 機械弁 — Emery ATS 2005（10.1016/j.athoracsur.2004.08.047）
+□ S18. 機械弁 — Bryan JTCVS 2007（10.1016/j.jtcvs.2006.08.075）
+□ (任意) 機械弁日本 — Minakata Circ J 2015（10.1253/circj.CJ-15-0793）</code></pre>
+<hr />
+<h2 id="4-検証で判明した注意点重要">§4. 検証で判明した注意点（重要）</h2>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>引用の修正・要注意事項（全てワークフローのadversarial verifyで検出）</strong></p>
+</div>
+
+<blockquote>
+<ol type="1">
+<li><strong>Inspiris RESILIA の「10年」はまだ抄録のみ</strong>：Svensson AATS 2026（<em>JTCVS</em> 2026;171(4):S18-S19, 10.1016/j.jtcvs.2026.03.090）は <strong>meeting abstract</strong> で、PubMed/PMC未収載。**フルペーパー最長は8年（Kaneko 2025, PMID 41960126）**が正確な現状（既存レビューの記載と一致）。</li>
+<li><strong>既存レビューの Bavaria <em>J Comp Eff Res</em> 2023 のDOI</strong>：研究エージェントが一時 <code>10.57264/cer-2022-0194</code> と誤記 → 正しくは <strong>10.2217/cer-2022-0180（記事ID e220180）</strong>（既存DLリスト#51は元から正しい）。</li>
+<li><strong>「Avalus Ultra に7年データ」は誤り</strong>：網羅性チェックが Avalus Ultra として挙げた論文（PMID 39565905 / 10.1093/ejcts/ezae414）は、<strong>実は既存リストA4の Avalus標準弁 PERIGON 7年（Sabik）と同一</strong>。<strong>Avalus Ultra（2024 launch）には長期データなし</strong>。重複登録しない。</li>
+<li><strong>DOI非付与誌</strong>：<em>J Heart Valve Dis</em>（Mosaic Celiento 2018 / Hancock II Borger 2006）はDOIを持たないため <strong>PMIDで取得</strong>すること。Perceval Lamberigts 2025 も新誌でPMID未付番の可能性 → DOIから取得。</li>
+<li><strong>巻号・頁の修正</strong>（検証で訂正済、§2に反映）：Mosaic Rieß（号3）/ Mosaic Gansera（頁26-34）/ Magna Ease Tsui（37(12):4999-5010）/ Magna Ease Mayr（13(7):4104-4113）/ Freestyle Mohammadi（126(11 Suppl):S198-204）/ Freestyle Bach（97(2):544-551）/ Freestyle Ennker（24(9):868-874）。</li>
+</ol>
+</blockquote>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**Mitroflow / Soprano は「反面教師」枠**</div>
+<p>Mitroflow（特に19mm・&lt;60歳）と Sorin Soprano は <strong>早期・高率SVD</strong> が大規模データで確立。耐久性の良い弁との対比として収集する価値はあるが、臨床推奨弁ではない。</p>
+</div>
+
+<hr />
+<h2 id="5-臨床的サマリ--弁選択の到達年数ヒエラルキー2026年6月時点">§5. 臨床的サマリ — 弁選択の到達年数ヒエラルキー（2026年6月時点）</h2>
+<ul>
+<li><strong>最長実績（20年超）</strong>：機械弁(St Jude 30年) &gt; Hancock II(porcine 25年) &gt; Mitroflow(21年※高齢限定) ≈ CE PERIMOUNT classic(20年) ≈ Mosaic(porcine 20年)</li>
+<li><strong>新世代ウシ心膜の到達点</strong>：Epic(15年) &gt; Magna Ease(13.4年) &gt; <strong>Inspiris RESILIA(8年・SVD回避99.3%＝同年数で最良)</strong> &gt; Avalus(7年)</li>
+<li><strong>Sutureless/RD</strong>：<strong>Perceval(15年・SVD 0.74%/患者年)</strong> ＞ Intuity(7年)。手術時間短縮の代償としてPerceval/Intuityともに長期SVDは従来弁と同等〜良好だが、<strong>Perceval/Intuityはペースメーカー率が高め</strong>。</li>
+<li><strong>要警戒</strong>：Mitroflow・Soprano（早期SVD）、Trifecta初代（cusp tear）、Crown PRT（PRT抗石灰化の長期有効性は5年止まり）。</li>
+</ul>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>若年・耐久性最重視 → 機械弁(St Jude/On-X 30年級) or Hancock II/Inspiris</strong>。 <strong>手術低侵襲・小弁輪 → Perceval/Intuity（ただしPPI率）、または Inspiris/Magna Ease</strong>。 <strong>避けるべき → Mitroflow全般・19mm小サイズ・若年への旧世代porcine単独</strong>。</p>
+</div>
+
+<hr />
+<p><em>作成: 2026-06-09 ／ 親レビュー: topic_savr_vs_tavr_longterm_2026_05 ／ 親DLリスト: topic_savr_vs_tavr_longterm_2026_05_DLlist</em> <em>全引用はワークフロー（19エージェント・research→adversarial DOI/PMID verify）で個別検証済み</em></p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

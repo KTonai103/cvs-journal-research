@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>HOCM Septal Myectomy ― 現在のコンセンサス・標準術式・推奨</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="hocm-septal-myectomy--現在のコンセンサス標準術式推奨">HOCM Septal Myectomy ― 現在のコンセンサス・標準術式・推奨</h1>
+<p>検索日: 2026-05-27 検索ソース: PubMed (E-utilities, curl) ヒット母集団: 115 unique PMIDs (技術 / ガイドライン / 高ボリュームセンター / アプローチ別)</p>
+<blockquote>
+<p><strong>2026-05-27 更新</strong>: 25本のPDF本文を精読した統合版を <a href="HOCM_myectomy_integrated_review.md">HOCM_myectomy_integrated_review.md</a> として作成しました。本ファイルはPubMedアブストラクトベースの初期版です ― 詳細な数値・両施設の哲学的差異・Mayo vs Cleveland 直接比較は統合版を参照してください。</p>
+</blockquote>
+<hr />
+<h2 id="1-国際ガイドラインの位置づけ-class-i-推奨">1. 国際ガイドラインの位置づけ (Class I 推奨)</h2>
+<h3 id="1-1-2024-ahaaccamssmhrspacesscmr-hcm-guideline">1-1. <strong>2024 AHA/ACC/AMSSM/HRS/PACES/SCMR HCM Guideline</strong></h3>
+<ul>
+<li><strong>PMID 38718139</strong> (Circulation 2024;149:e1239-e1311) — Ommen SR, Dearani JA et al</li>
+<li><strong>PMID 38727647</strong> (J Am Coll Cardiol 2024;83:2324-2405) ― 同一内容のJACC版</li>
+<li><strong>PMID 39159227</strong> ― Correction (Circulation 2024;150:e198)</li>
+<li>2020版 (PMID <strong>33215931</strong>, Circulation 2020;142:e558-e631) を更新</li>
+<li>周術期の解説: <strong>PMID 39209618</strong> (J Cardiothorac Vasc Anesth 2024)</li>
+</ul>
+<h3 id="1-2-2023-esc-guidelines-for-the-management-of-cardiomyopathies">1-2. <strong>2023 ESC Guidelines for the management of cardiomyopathies</strong></h3>
+<ul>
+<li><strong>PMID 37622657</strong> (Eur Heart J 2023;44:3503-3626) — Arbelo E, Kaski JP et al</li>
+<li>10 commandments summary: <strong>PMID 38289320</strong> (Eur Heart J 2024;45:1101) ― Kaski JP</li>
+</ul>
+<p><strong>共通推奨 (Class I)</strong>: 最大耐用量の薬物治療 (β-blocker, Ca拮抗薬, disopyramide, 近年は mavacamten) で持続性NYHA III/IV ないし運動誘発失神を呈する症候性LVOT obstruction (resting/provoked gradient ≥50 mmHg) には <strong>septal reduction therapy</strong> を推奨。SRTは <strong>comprehensive (high-volume) HCM center</strong> で実施することが推奨されている。</p>
+<hr />
+<h2 id="2-標準術式--extended-transaortic-septal-myectomy">2. 標準術式 — Extended Transaortic Septal Myectomy</h2>
+<p>両ガイドラインおよびAJC Expert Panel (Maron 2022, PMID 35965115; 10施設・約11,000例) のコンセンサスでは、subaortic obstruction を伴う典型的なHOCMに対しては <strong>extended transaortic septal myectomy (Morrowを発展させたMessmer式extended myectomy)</strong> が標準術式。</p>
+<h3 id="2-1-包括的レビュー--mayo-clinic">2-1. 包括的レビュー — Mayo Clinic</h3>
+<ul>
+<li><strong>PMID 37914148</strong> (Schaff &amp; Wei, Ann Thorac Surg 2024;117:271-281) ― <strong>Contemporary Surgical Management of HCM</strong> ★最新総説</li>
+<li><strong>PMID 28912182</strong> (Nishimura, Seggewiss, Schaff, Circ Res 2017;121:771-783) ― 教科書的レビュー (myectomy vs ASA)</li>
+<li><strong>PMID 28944173</strong> (Kotkar et al, Ann Cardiothorac Surg 2017) ― Mayo Clinic experience &gt;3,000 例 (1993-2016)</li>
+<li><strong>PMID 17712363</strong> (Dearani et al, Nat Clin Pract CV Med 2007) ― 古典的Mayo総説</li>
+<li><strong>PMID 38368037</strong> (Schaff &amp; Juarez-Casso, Am J Cardiol 2024) ― Surgical strategies overview</li>
+<li><strong>PMID 41613494</strong> (Qamar &amp; Schaff, Indian J Thorac CV Surg 2026) ― mid/apical HCMの外科治療レビュー</li>
+</ul>
+<h3 id="2-2-包括的レビュー--cleveland-clinic">2-2. 包括的レビュー — Cleveland Clinic</h3>
+<ul>
+<li><strong>PMID 41613496</strong> (Ananthanarayanan ... Smedira, Indian J Thorac CV Surg 2026) ★最新Clevelandレビュー (&gt;4,000例)</li>
+<li><strong>PMID 30782406</strong> (Hodges, Smedira et al, JTCVS 2019;157:2289-2299) ― Single surgeon, 1,559 consecutive operations</li>
+<li><strong>PMID 18154797</strong> (Smedira ... Blackstone, Ann Thorac Surg 2008) ― 古典的Cleveland報告</li>
+<li><strong>PMID 37652213</strong> (Mehra &amp; Desai, Prog CV Dis 2023) ― Invasive therapies for symptomatic obstructive HCM</li>
+</ul>
+<h3 id="2-3-how-to--teaching-papers-実践的">2-3. How-to / Teaching Papers (実践的)</h3>
+<ul>
+<li><strong>PMID 36089072</strong> (Ward, Schaff, Dearani, Ann Thorac Surg 2023) ★ <strong>"Septal Myectomy: How I Teach It"</strong> ― Mayo流の教育的記載</li>
+<li><strong>PMID 30447720</strong> (Nguyen &amp; Schaff, Cardiol Clin 2019) ― Subaortic, midventricular, apical を網羅した手技解説</li>
+<li><strong>PMID 36628660</strong> (Robich, Schaff, Chen, JTCVS 2023) ― Understanding septal morphology ― implications for the surgeon</li>
+<li><strong>PMID 38251434</strong> (Lio &amp; Musumeci, J Cardiovasc Med 2024) ― Extended septal myectomy と mitral valve function</li>
+</ul>
+<hr />
+<h2 id="3-高ボリュームセンター推奨-volume-outcome-ガイドライン裏付け">3. 高ボリュームセンター推奨 (Volume-Outcome) ★ガイドライン裏付け</h2>
+<h3 id="3-1-stsデータベース解析-推奨の根拠">3-1. STSデータベース解析 (推奨の根拠)</h3>
+<ul>
+<li><strong>PMID 35779600</strong> (Holst, Schaff, Smedira, Badhwar, Dearani ... Ann Thorac Surg 2022) ★
+<ul>
+<li>n=5,935 / 481施設 (2012-2019). <strong>&lt;1例/年の施設は mortality OR 5.4 (3.0-9.9), iatrogenic VSD OR 9.3 (4.2-20.4), pacemaker OR 2.0, MVR OR 9.4 (vs MVr)</strong>. 国際的に最も引用される volume-outcome 証拠。</li>
+</ul></li>
+<li><strong>PMID 35944704</strong> (Anyanwu &amp; Weiss, Ann Thorac Surg 2022) ― 上記へのEditorial commentary</li>
+<li><strong>PMID 37230867</strong> (Hadaya &amp; Benharash, Surgery 2023) ― NRD解析: high-volume hospital で mortality OR 0.24, MV repair率 5.33倍</li>
+<li><strong>PMID 30326232</strong> (Wei, Schaff, Smedira, Badhwar et al, Ann Thorac Surg 2019) ― US contemporary outcomes (n=2,382)</li>
+</ul>
+<h3 id="3-2-紹介バイアスへの反証">3-2. 紹介バイアスへの反証</h3>
+<ul>
+<li><strong>PMID 33190872</strong> (Calderon-Rojas, Schaff et al, JTCVS 2022) ― Mayo の遠隔・地域・国内紹介患者で outcome 不変 → high-volume center に紹介すべきとの推奨に矛盾しない</li>
+</ul>
+<p><strong>結論</strong>: Mayo Clinic / Cleveland Clinic / Tufts / Fuwai / Toronto General など <strong>10施設で世界の myectomy 約11,000例の大多数を占める</strong> (PMID 35965115 Expert Panel)。両ガイドラインとも、SRTは"experienced multidisciplinary HCM centers"で実施することを Class I で推奨。</p>
+<hr />
+<h2 id="4-アプローチ別の文献整理">4. アプローチ別の文献整理</h2>
+<h3 id="4-1-経大動脈-transaortic--standard">4-1. <strong>経大動脈 (Transaortic) — Standard</strong></h3>
+<p>2-1, 2-2 のレビュー群 (PMID 37914148, 38368037, 41613496, 30782406, 36089072) で詳述。<strong>Subaortic obstruction with SAM の99%超でこれが第一選択</strong>。</p>
+<h3 id="4-2-経僧帽弁-transmitral">4-2. <strong>経僧帽弁 (Transmitral)</strong></h3>
+<p>僧帽弁前尖を切離 (detachment) / 縦切開 (longitudinal valvotomy) して心室中隔へアクセスする方法。MR合併例・低用量septal hypertrophy例・MICS適応例で支持あり。</p>
+<ul>
+<li><strong>PMID 29453001</strong> (Wehman &amp; Gammie, Ann Thorac Surg 2018) ★ ― <strong>Transmitral Septal Myectomy</strong> ― 提唱論文。"curtain stitch"による anterior leaflet 再配置。著者らは "transmitral approach は preferred approach となり得る" と主張</li>
+<li><strong>PMID 32740992</strong> (CJ AK, Smedira, Wierup ... J Card Surg 2020) ― <strong>Cleveland Clinic</strong> の robotic trans-mitral myectomy + papillary muscle reorientation</li>
+<li><strong>PMID 34453351</strong> (Hashmi, J Card Surg 2021) / <strong>PMID 34463383</strong> (Zhang ... Wang, J Card Surg 2021) ― 自家心膜パッチでAML延長</li>
+<li><strong>PMID 39212331</strong> (Ito, Kato, Multimed Man Cardiothorac Surg 2024) ★ ― <strong>AML 縦切開による endoscopic transmitral myectomy</strong> (日本: 名古屋赤十字)</li>
+<li><strong>PMID 40843543</strong> (Paivin, MMCTS 2025) ― Right mini-thoracotomy 経由 endoscopic transmitral</li>
+<li><strong>PMID 36503671</strong> (Çelmeta &amp; Glauber, MMCTS 2022) ― MICS で extensive myectomy + double valve replacement</li>
+<li><strong>PMID 33271581</strong> (Matsuno, Kyobu Geka 2020) ― 邦文症例報告</li>
+</ul>
+<h3 id="4-3-経心尖-transapical--midventricularapical-用">4-3. <strong>経心尖 (Transapical) — Midventricular/Apical 用</strong></h3>
+<p>Subaortic から到達困難な midventricular obstruction (MVO) や apical HCM に対する Mayo 発の確立されたアプローチ。</p>
+<ul>
+<li><strong>PMID 22640263</strong> (Said &amp; Dearani, J Card Surg 2012) ― 黎明期Mayo報告</li>
+<li><strong>PMID 23809730</strong> (Kunkala, Schaff, Ommen ... Ann Thorac Surg 2013) ― n=56 (mid/apical), 30日死亡なし</li>
+<li><strong>PMID 24722802</strong> (Ong &amp; Nishimura, Eur Heart J 2014) ― severe midventricular HOCM</li>
+<li><strong>PMID 26180164</strong> (Quintana &amp; Dearani, World J Pediatr Congenit Heart Surg 2015) ― aortic rootから到達困難な症例</li>
+<li><strong>PMID 29153286</strong> (Hang, Schaff, Nishimura, JTCVS 2018) ★ ― <strong>Combined transaortic + transapical</strong> (n=86) ― 複雑形態に対する併用</li>
+<li><strong>PMID 29868767</strong> (Tang &amp; Hu, Eur J Cardiothorac Surg 2018) ― Fuwai 拡大myectomy for MVO</li>
+<li><strong>PMID 32771468</strong> (Sun, Schaff, Ommen, Dearani ... Ann Thorac Surg 2021) ★ ― Mayo n=196 (1997-2018) ― MVOに対するtransapical</li>
+<li><strong>PMID 35291875</strong> (Shimizu, Takanashi, Isobe, Asian CV Thorac Ann 2022) ★ ― <strong>日本 (榊原記念) のtransapical myectomy 経験 n=59</strong></li>
+<li><strong>PMID 38530331</strong> (Estafanos &amp; Said, MMCTS 2024) ― 小児例の combined transaortic/transapical</li>
+</ul>
+<h3 id="4-4-transapical-beating-heart-septal-myectomy-ta-bsm--新しい潮流">4-4. <strong>Transapical Beating-Heart Septal Myectomy (TA-BSM) — 新しい潮流</strong></h3>
+<p>中国 Tongji/Wei グループが主導する CPB なし・左小開胸ビーティングハート手技。専用デバイスとリアルタイムTEEガイド。</p>
+<ul>
+<li><strong>PMID 38113423</strong> (Li &amp; Wei, Eur J Cardiothorac Surg 2024) ― latent obstruction (n=33 vs 87 resting)</li>
+<li><strong>PMID 38807870</strong> (Li &amp; Wei, Heliyon 2024) ― midventricular に対するTA-BSM</li>
+<li><strong>PMID 40315478</strong> (Fang &amp; Wei ... Quintana, Grau, Wan, Circ CV Interv 2025) ★ ― <strong>Lessons learned after learning curve (n=418)</strong> ― 30日死亡 0.2%</li>
+<li><strong>PMID 41473065</strong> (Qamar, Wei, Schaff et al, JTCVS Open 2025) ★ ― <strong>Mayo × Tongji 共同: transapical beating-heart vs transaortic on-pump 各200例の比較</strong> ― 同等の血行動態、TA-BSMはICU滞在短縮・AF減少・輸血減・新規LBBB増加 (63.8% vs 37%)</li>
+</ul>
+<h3 id="4-5-cleveland-の見解-transaortic-で-midapical-も可能">4-5. <strong>Cleveland の見解: Transaortic で mid/apical も可能</strong></h3>
+<ul>
+<li><strong>PMID 38692479</strong> (Maigrot &amp; Smedira, JTCVS 2024) ★ ― n=940中682 (73%)で<strong>transaortic approach のみで midventricular (85%) と apical (11%) も到達可能</strong>と主張. 専用器具・詳細な画像・septal anatomyの理解があれば transapical 不要. <strong>これは Mayo の transapical 推奨と対照的な立場</strong>。</li>
+<li><strong>PMID 40490213</strong> (Maigrot &amp; Smedira, JTCVS 2025) ― 軽度中隔肥厚 + MV-induced LVOTO に対する "surgeon's toolkit"</li>
+</ul>
+<hr />
+<h2 id="5-mitral-valve--弁下構造の併施">5. Mitral Valve / 弁下構造の併施</h2>
+<ul>
+<li><strong>PMID 30611455</strong> (Holst &amp; Schaff, Mayo Clin Proc 2019) ― 国別 concomitant MV手術の outcome</li>
+<li><strong>PMID 37164054</strong> (Juarez-Casso, Nishimura ... JTCVS 2024) ― transaortic myectomy 後の AR</li>
+<li><strong>PMID 40314635</strong> (Qamar &amp; Ommen, JTCVS 2025) ★ ― myectomy 後 residual MR の影響</li>
+<li><strong>PMID 34605271</strong> (Gharibeh &amp; Grau, Asian CV Thorac Ann 2022) ― beyond septal reduction (papillary muscle / chordae)</li>
+</ul>
+<p>Cleveland単一施設1,559例 (PMID 30782406) の MV介入内訳: anterior leaflet shortening 16%, chordae resection 9.8%, PM resection 7.2%, PM reorientation 7.5%, MVR 5.9%。</p>
+<hr />
+<h2 id="6-asa-との比較-class-iia-for-asa-in-selected-patients">6. ASA との比較 (Class IIa for ASA in selected patients)</h2>
+<ul>
+<li><strong>PMID 35483751</strong> (Cui &amp; Maron ... Ommen, JACC 2022) ★ ― 長期生存 比較</li>
+<li><strong>PMID 36631204</strong> (Mentias &amp; Desai, JACC 2023) ★ ― <strong>&gt;65歳における septal reduction 生存</strong> ― Cleveland大規模解析</li>
+<li><strong>PMID 36782361</strong> (Yokoyama &amp; Kuno, Eur J Cardiothorac Surg 2023) ― meta-analysis (最新)</li>
+<li><strong>PMID 30421437</strong> (Osman &amp; Alkhouli, Clin Cardiol 2019) ― meta-analysis</li>
+<li><strong>PMID 20170823</strong> (Agarwal &amp; Kapadia, JACC 2010, Cleveland) ― 最初期 meta-analysis</li>
+</ul>
+<hr />
+<h2 id="7-補助技術--術前計画">7. 補助技術 / 術前計画</h2>
+<ul>
+<li><strong>PMID 30578058</strong> (Takayama &amp; Ginns, JTCVS 2019, Columbia) ― <strong>Virtual septal myectomy</strong> 術前計画</li>
+<li><strong>PMID 39426997</strong> (Ding, Sci Rep 2024) ― CFD-based 術前計画</li>
+<li><strong>PMID 37831900</strong> (Lu &amp; Wang, Eur J Cardiothorac Surg 2024) ― <strong>Patient-specific 3D printing</strong></li>
+</ul>
+<hr />
+<h1 id="bottom-line--consensus-summary">Bottom Line ― Consensus Summary</h1>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>領域</th>
+<th>コンセンサス</th>
+<th>主たる根拠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gold standard</strong></td>
+<td>Extended transaortic septal myectomy (Mayo extension of Morrow/Messmer)</td>
+<td>2024 AHA/ACC, 2023 ESC, Expert Panel (PMID 35965115)</td>
+</tr>
+<tr>
+<td><strong>Volume</strong></td>
+<td>Comprehensive HCM center (≥10 cases/yr が望ましい) で実施</td>
+<td>STS db (PMID 35779600), NRD (PMID 37230867)</td>
+</tr>
+<tr>
+<td><strong>経大動脈</strong></td>
+<td>全 obstructive HCM の standard</td>
+<td>Mayo, Cleveland 両者一致</td>
+</tr>
+<tr>
+<td><strong>経僧帽弁</strong></td>
+<td>MICS/robotic 対応, MR合併・低用量septum で考慮</td>
+<td>Wehman 2018 (29453001), Cleveland robotic (32740992)</td>
+</tr>
+<tr>
+<td><strong>経心尖 (CPB あり)</strong></td>
+<td>Midventricular obstruction, apical HCM, complex long-segment</td>
+<td>Mayo 系列 (32771468, 23809730, 29153286)</td>
+</tr>
+<tr>
+<td><strong>経心尖 Beating-Heart</strong></td>
+<td>Emerging less-invasive option (中国主導, learning curve 必要)</td>
+<td>Wei グループ (40315478, 41473065)</td>
+</tr>
+<tr>
+<td><strong>Mid/Apical も transaortic で?</strong></td>
+<td>Cleveland は専用器具下で可能と主張 (Mayo は併用推奨)</td>
+<td>Maigrot/Smedira (38692479) ⟷ Hang/Nishimura (29153286)</td>
+</tr>
+<tr>
+<td><strong>30日死亡</strong></td>
+<td>High-volume center: 0.2-0.6% (isolated SM)</td>
+<td>Mayo, Cleveland, Maron Expert Panel</td>
+</tr>
+<tr>
+<td><strong>MV管理</strong></td>
+<td>Routine MV/SAM評価 (anterior leaflet, chordae, PM reorientation)</td>
+<td>Cleveland (30782406), Mayo (30611455)</td>
+</tr>
+</tbody>
+</table></div>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

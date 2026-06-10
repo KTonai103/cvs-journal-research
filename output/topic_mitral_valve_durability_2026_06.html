@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>【M弁・僧帽位】人工弁 耐久性 — 弁ごとの「最長フォロー年数」一覧＋DLリスト</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="m弁僧帽位人工弁-耐久性--弁ごとの最長フォロー年数一覧dlリスト">【M弁・僧帽位】人工弁 耐久性 — 弁ごとの「最長フォロー年数」一覧＋DLリスト</h1>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p><strong>🅼 本ファイルは僧帽位（M弁 / MVR）。</strong> 大動脈位（A弁）版は → 一覧 topic_valve_durability_by_valve_2026_06／精読 topic_valve_durability_summary_2026_06。 全引用はワークフロー（15エージェント・research→adversarial DOI/PMID verify）で個別検証済み。</p>
+</div>
+
+<hr />
+<h2 id="0-m弁で最初に押さえる3つの事実a弁と決定的に違う">§0. M弁で最初に押さえる3つの事実（A弁と決定的に違う）</h2>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**① A弁の主役弁の多くは「M弁版が存在しない」**</div>
+<p>下記はすべて<strong>大動脈専用</strong>で、僧帽位の選択肢にならない（＝本リストの対象外）： <strong>Perceval（sutureless）・INTUITY（rapid-deployment）・Inspiris RESILIA・Avalus・Freestyle（stentless）・Crown PRT・Soprano・Mitroflow（現代の僧帽データなし）</strong> → Inspiris RESILIA の僧帽版は<strong>別製品「MITRIS RESILIA」</strong>（COMMENCE mitral、5年データ）。</p>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**② 同じ弁でも、M弁はA弁より2–3倍速く劣化する（閉鎖時圧が高いため）**</div>
+<ul>
+<li><strong>PERIMOUNT</strong>：20年SVD-explant回避 <strong>M弁 25±8% vs A弁 54±5%</strong>（Bourguignonら、ただしA弁値は別のBourguignon A弁論文由来）</li>
+<li><strong>Hancock II</strong>：15年SVD回避 <strong>M弁 59.5% vs A弁 88.9%</strong>（Rizzoli 2003、同一コホート内比較）</li>
+<li><strong>Taiwan全国</strong>：SVD再手術までの平均 <strong>M弁で porcine 11.1年 vs bovine心膜 6.8年</strong>（Chen 2023）</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**③ 年齢依存が極端 — M弁の生体弁は若年で破綻が早い**</div>
+<ul>
+<li>メタ解析16,465例：15年SVD回避 <strong>64%</strong>、SVDの <strong>HR 6.6（&lt;60歳 vs &gt;70歳）</strong>（Koulouroudias 2024）</li>
+<li>PERIMOUNT mitral ≤65歳の<strong>期待耐久 わずか14.2年</strong>（Bourguignon 2018）</li>
+<li>機械弁の生存優位は<strong>MVRでは70歳まで持続</strong>（A弁は55歳まで）＝<strong>M弁ではより若年に機械弁が有利</strong>（Goldstone 2017）</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="1-m弁マスター一覧僧帽位査読フルペーパー最長フォロー">§1. M弁マスター一覧（僧帽位・査読フルペーパー最長フォロー）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>弁</th>
+<th>種別</th>
+<th>最長FU(M弁)</th>
+<th>M弁での主要値</th>
+<th>代表論文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CE PERIMOUNT</strong></td>
+<td>ウシ心膜</td>
+<td><strong>25年</strong></td>
+<td>20年SVD再手術回避 <strong>24–25%</strong>（≤60–65歳39% / ≥60歳66%）、期待耐久 ≤65歳14.2年</td>
+<td>Aupart 2011 / Bourguignon 2018</td>
+</tr>
+<tr>
+<td><strong>Magna (Ease) mitral</strong></td>
+<td>ウシ心膜</td>
+<td>5年</td>
+<td>5年SVD回避 ~90%</td>
+<td>Loor 2016 🔓</td>
+</tr>
+<tr>
+<td><strong>Epic / Biocor</strong></td>
+<td>ブタ</td>
+<td><strong>20年</strong></td>
+<td>20年再手術回避 88%(&gt;65歳)／10年SVD回避 89.6%（<strong>&lt;60歳47.6% / ≥70歳96.5%</strong>）</td>
+<td>Mykén 2009 / Anselmi 2022</td>
+</tr>
+<tr>
+<td><strong>Hancock II</strong></td>
+<td>ブタ</td>
+<td><strong>25年</strong></td>
+<td>20年再手術回避 <strong>52.8%</strong>（A弁79.3%）／15年SVD回避 59.5%（A弁88.9%）</td>
+<td>Valfrè 2010 / Rizzoli 2003</td>
+</tr>
+<tr>
+<td><strong>Mosaic</strong></td>
+<td>ブタ</td>
+<td><strong>~15–17年</strong></td>
+<td>15年SVD回避 ~93%（日本多施設）</td>
+<td>日本Mosaic多施設 / Celiento 2016</td>
+</tr>
+<tr>
+<td><strong>MITRIS RESILIA</strong> 🆕</td>
+<td>ウシ心膜(新)</td>
+<td><strong>5年</strong></td>
+<td>5年SVD回避 <strong>98.7%</strong>・再手術回避97.1%</td>
+<td>Heimansohn 2023（COMMENCE mitral）</td>
+</tr>
+<tr>
+<td><strong>機械弁</strong>（SJM/On-X/CarboMedics/ATS）</td>
+<td>機械</td>
+<td><strong>15–30年</strong></td>
+<td>構造劣化なし。<strong>機械弁の生存優位はMVRで70歳まで持続</strong></td>
+<td>Goldstone 2017（NEJM）</td>
+</tr>
+<tr>
+<td><em>Perceval/INTUITY/Inspiris/Avalus/Freestyle/Crown/Soprano/Mitroflow</em></td>
+<td>—</td>
+<td><strong>—</strong></td>
+<td><strong>M弁版なし（大動脈専用）</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="2-dlリストm弁既存a弁リストと重複しない新規論文中心">§2. DLリスト（M弁・既存A弁リストと重複しない新規論文中心）</h2>
+<blockquote>
+<p>🔓=Open Access ／ 🔒=機関アクセス要。<strong>A弁リストと重複する論文は【A弁にも収録】と注記。</strong></p>
+</blockquote>
+<h3 id="1st_place_medal-must-have弁ごと最長横断比較-10本">🥇 Must-have（弁ごと最長＋横断比較, 10本）</h3>
+<h4 id="mm1-perimount-mitral-25年最長のm弁生体弁lock">MM1. PERIMOUNT mitral 25年（最長のM弁生体弁）🔒</h4>
+<ul>
+<li>Aupart MR, Ayegnon KG, Bourguignon T, et al. <strong>A 25-year experience with Carpentier-Edwards Perimount in the mitral position.</strong> <em>Asian Cardiovasc Thorac Ann</em> 2011;19(1):14-19.</li>
+<li>DOI: 10.1177/0218492310395422 ／ PMID: 21357312 ／ 20年SVD再手術回避24.3%（degenerative）／ ☐</li>
+</ul>
+<h4 id="mm2-perimount-mitral-65歳年齢a弁vsm弁の核心lock">MM2. PERIMOUNT mitral ≤65歳（年齢・A弁vsM弁の核心）🔒</h4>
+<ul>
+<li>Bourguignon T, Espitalier F, Pantaleon C, et al. <strong>Bioprosthetic mitral valve replacement in patients aged 65 years or younger: long-term outcomes with the CE PERIMOUNT pericardial valve.</strong> <em>EJCTS</em> 2018;54(2):302-309.</li>
+<li>DOI: 10.1093/ejcts/ezy029 ／ PMID: 29444229 ／ 20年SVD-explant回避25±8%、期待耐久14.2年 ／ ☐</li>
+</ul>
+<h4 id="mm3-biocorepic-20年m弁a弁併載locka弁にも関連">MM3. Biocor/Epic 20年（M弁＋A弁併載）🔒【A弁にも関連】</h4>
+<ul>
+<li>Mykén PS, Bech-Hansen O. <strong>A 20-year experience of 1712 patients with the Biocor porcine bioprosthesis.</strong> <em>J Thorac Cardiovasc Surg</em> 2009;137(1):76-81.</li>
+<li>DOI: 10.1016/j.jtcvs.2008.05.068 ／ PMID: 19154907 ／ 20年再手術回避 mitral 88% / aortic 92%（&gt;65歳）／ ☐</li>
+</ul>
+<h4 id="mm4-epic-mitral-現代大規模n1397lock">MM4. Epic mitral 現代大規模（n=1,397）🔒</h4>
+<ul>
+<li>Bernard J, El Khoury G, Folliguet T, et al. <strong>Long-term echocardiographic data, mechanisms of failure, and reintervention outcomes of the Epic valve in mitral position.</strong> <em>J Thorac Cardiovasc Surg</em> 2023;166(6):1644-1655.</li>
+<li>DOI: 10.1016/j.jtcvs.2023.06.019 ／ PMID: 37423547 ／ 10年 全再介入回避88% / SVD再介入回避92% ／ ☐</li>
+</ul>
+<h4 id="mm5-hancock-ii-25年a弁302m弁215-両位置locka弁m6にも収録">MM5. Hancock II 25年（A弁302＋M弁215, 両位置）🔒【A弁M6にも収録】</h4>
+<ul>
+<li>Valfrè C, Ius P, Minniti G, et al. <strong>The fate of Hancock II porcine valve recipients 25 years after implant.</strong> <em>EJCTS</em> 2010;38(2):141-147.</li>
+<li>DOI: 10.1016/j.ejcts.2010.01.046 ／ PMID: 20194029 ／ 20年再手術回避 mitral 52.8% vs aortic 79.3% ／ ☐</li>
+</ul>
+<h4 id="mm6-hancock-ii-同一コホートa弁vsm弁比較-lock">MM6. Hancock II 同一コホートA弁vsM弁比較 🔒</h4>
+<ul>
+<li>Rizzoli G, Bottio T, Thiene G, et al. <strong>Long-term durability of the Hancock II porcine bioprosthesis.</strong> <em>J Thorac Cardiovasc Surg</em> 2003;126(1):66-74.</li>
+<li>DOI: 10.1016/S0022-5223(02)73618-0 ／ PMID: 12878940 ／ 15年SVD回避 mitral 59.5% vs aortic 88.9% ／ ☐</li>
+</ul>
+<h4 id="mm7-mitris-resiliainspirisの僧帽版commence-mitral-5年unlock">MM7. MITRIS RESILIA（Inspirisの僧帽版・COMMENCE mitral 5年）🔓</h4>
+<ul>
+<li>Heimansohn DA, Baker C, Rodriguez E, et al. <strong>Mid-term outcomes of the COMMENCE trial investigating mitral valve replacement using a bioprosthesis with a novel tissue.</strong> <em>JTCVS Open</em> 2023;15:151-163.</li>
+<li>DOI: 10.1016/j.xjon.2023.05.008 ／ PMID: 37808026 ／ 5年SVD回避98.7%・再手術回避97.1% ／ ☐</li>
+</ul>
+<h4 id="mm8-機械弁-vs-生体弁avrmvr-15年nejmlock">MM8. 機械弁 vs 生体弁（AVR&amp;MVR, 15年・NEJM）🔒</h4>
+<ul>
+<li>Goldstone AB, Chiu P, Baiocchi M, et al. <strong>Mechanical or Biologic Prostheses for Aortic-Valve and Mitral-Valve Replacement.</strong> <em>N Engl J Med</em> 2017;377:1847-1857.</li>
+<li>DOI: 10.1056/NEJMoa1613792 ／ PMID: 29117490 ／ MVRで機械弁の生存優位が70歳まで持続（15,503 MVR）／ ☐</li>
+</ul>
+<h4 id="mm9-m弁生体弁メタ解析16465例年齢hr-66lock">MM9. M弁生体弁メタ解析（16,465例・年齢HR 6.6）🔒</h4>
+<ul>
+<li>Koulouroudias M, Di Mauro M, Chiariello G, et al. <strong>Long-term outcomes of bioprosthetic valves in the mitral position: pooled meta-analysis of reconstructed IPD.</strong> <em>Am J Cardiol</em> 2024;221:64-73.</li>
+<li>DOI: 10.1016/j.amjcard.2024.04.008 ／ PMID: 38636624 ／ 15年SVD回避64%、SVD HR 6.6（&lt;60 vs &gt;70歳）／ ☐</li>
+</ul>
+<h4 id="mm10-a弁-vs-m弁-直接比較taiwan全国レジストリlock">MM10. A弁 vs M弁 直接比較（Taiwan全国レジストリ）🔒</h4>
+<ul>
+<li>Chen CY, Lin CP, Hung KC, et al. <strong>Durability of Biological Valves Implanted in Aortic or Mitral Positions: A Nationwide Cohort Study.</strong> <em>Ann Thorac Surg</em> 2023;116(4):751-757.</li>
+<li>DOI: 10.1016/j.athoracsur.2023.05.038 ／ PMID: 37356516 ／ M弁SVD再手術までの平均 porcine 11.1年 vs bovine 6.8年 ／ ☐</li>
+</ul>
+<h3 id="2nd_place_medal-supplementary補強10本">🥈 Supplementary（補強・10本）</h3>
+<ul>
+<li>MS1. <strong>Marchand MA, et al.</strong> Fifteen-year experience with the mitral CE PERIMOUNT pericardial bioprosthesis. <em>Ann Thorac Surg</em> 2001;71(5 Suppl):S236-9. DOI: 10.1016/s0003-4975(01)02550-4 ／ PMID: 11388194 🔒 ／ ☐</li>
+<li>MS2. <strong>Loor G, et al.</strong> The CE Perimount Magna mitral valve bioprosthesis: intermediate-term efficacy and durability. <em>J Cardiothorac Surg</em> 2016;11:20. DOI: 10.1186/s13019-016-0412-4 ／ PMID: 26818795 🔓 ／ ☐</li>
+<li>MS3. <strong>Anselmi A, et al.</strong> Durability of Mitral Valve Replacement With a Third-generation Bioprosthesis（Epic mitral n=482, 年齢層別）. <em>Ann Thorac Surg</em> 2022;113(3):837-844. DOI: 10.1016/j.athoracsur.2021.03.097 ／ PMID: 33901453 🔒 ／ ☐</li>
+<li>MS4. <strong>Rodriguez E, et al.</strong> Ten-Year Follow-Up of MVR With the Epic Porcine Valve in a Medicare Population（n=14,015）. <em>Ann Thorac Surg</em> 2025;119(5):1027-1035. DOI: 10.1016/j.athoracsur.2024.07.032 ／ PMID: 39147118 🔒 ／ ☐</li>
+<li>MS5. <strong>Mykén PS.</strong> Seventeen-year experience with the St. Jude Medical Biocor porcine bioprosthesis. <em>J Heart Valve Dis</em> 2005;14(4):486-492. <strong>DOIなし</strong>→PMID: 16116875 🔒 ／ ☐</li>
+<li>MS6. <strong>（日本Mosaic多施設・M弁）</strong> Japan Mosaic Valve Long-Term Multicenter Study（mitral）. <em>Circ J</em> — PMID: 34526438 ／ DOI: 10.1253/circj.CJ-21-0528（<strong>要最終確認</strong>：gaps由来）🔒 ／ ☐</li>
+<li>MS7. <strong>Sezai A, et al.</strong> Fifteen years of experience with ATS mechanical heart valve prostheses（A弁+M弁）. <em>J Thorac Cardiovasc Surg</em> 2010;139:1494-1500. DOI: 10.1016/j.jtcvs.2009.07.039 ／ PMID: 19744673 🔒 ／ ☐</li>
+<li>MS8. <strong>（On-X mitral PROACT）</strong> PROACT Mitral 低強度抗凝固. <em>Ann Thorac Surg</em> — PMID: 31701905 ／ DOI: 10.1016/j.athoracsur.2019.08.056（<strong>要最終確認</strong>：gaps由来）🔒 ／ ☐</li>
+<li>MS9. <strong>Koulouroudias M, et al.</strong> Long-term outcomes of bioprosthetic valves in the mitral position: systematic review（21研究15,833例）. <em>EJCTS</em> 2023;64(5):ezad384. DOI: 10.1093/ejcts/ezad384 ／ PMID: 37963023 🔒 ／ ☐</li>
+<li>MS10. <strong>Kim W, et al.</strong> Bovine pericardial vs porcine bioprosthetic MVR の比較（15年SVD累積 32.4% vs 41.7%）. <em>J Thorac Dis</em> 2021;13(7):3969-3978. DOI: 10.21037/jtd-21-281 ／ PMID: 34422327 🔓 ／ ☐</li>
+</ul>
+<hr />
+<h2 id="3-dl作業用チェックリストコピペ用">§3. DL作業用チェックリスト（コピペ用）</h2>
+<pre><code>─── Must-have（M弁最長＋横断, 10本）───
+□ MM1.  PERIMOUNT mitral 25年 — Aupart ACTA 2011（10.1177/0218492310395422 / PMID 21357312）
+□ MM2.  PERIMOUNT mitral ≤65歳 — Bourguignon EJCTS 2018（10.1093/ejcts/ezy029 / PMID 29444229）
+□ MM3.  Biocor/Epic 20年 — Mykén JTCVS 2009（10.1016/j.jtcvs.2008.05.068 / PMID 19154907）※A弁にも
+□ MM4.  Epic mitral n=1,397 — Bernard JTCVS 2023（10.1016/j.jtcvs.2023.06.019 / PMID 37423547）
+□ MM5.  Hancock II 25年(A+M) — Valfrè EJCTS 2010（10.1016/j.ejcts.2010.01.046 / PMID 20194029）※A弁M6
+□ MM6.  Hancock II A弁vsM弁 — Rizzoli JTCVS 2003（10.1016/S0022-5223(02)73618-0 / PMID 12878940）
+□ MM7.  MITRIS RESILIA 5年 — Heimansohn JTCVS Open 2023（10.1016/j.xjon.2023.05.008 / PMID 37808026）🔓
+□ MM8.  機械弁vs生体弁 NEJM — Goldstone NEJM 2017（10.1056/NEJMoa1613792 / PMID 29117490）
+□ MM9.  M弁メタ解析 — Koulouroudias AmJCardiol 2024（10.1016/j.amjcard.2024.04.008 / PMID 38636624）
+□ MM10. A弁vsM弁 Taiwan — Chen ATS 2023（10.1016/j.athoracsur.2023.05.038 / PMID 37356516）
+─── Supplementary（10本）───
+□ MS1.  PERIMOUNT mitral 15年 — Marchand ATS 2001（10.1016/s0003-4975(01)02550-4 / PMID 11388194）
+□ MS2.  Magna mitral 5年 — Loor JCS 2016（10.1186/s13019-016-0412-4 / PMID 26818795）🔓
+□ MS3.  Epic mitral 年齢層別 — Anselmi ATS 2022（10.1016/j.athoracsur.2021.03.097 / PMID 33901453）
+□ MS4.  Epic Medicare n=14,015 — Rodriguez ATS 2025（10.1016/j.athoracsur.2024.07.032 / PMID 39147118）
+□ MS5.  Biocor 17年 — Mykén JHVD 2005（DOIなし / PMID 16116875）
+□ MS6.  日本Mosaic mitral — Circ J（PMID 34526438 / 10.1253/circj.CJ-21-0528）※要確認
+□ MS7.  ATS機械弁15年 — Sezai JTCVS 2010（10.1016/j.jtcvs.2009.07.039 / PMID 19744673）
+□ MS8.  On-X mitral PROACT — ATS（PMID 31701905 / 10.1016/j.athoracsur.2019.08.056）※要確認
+□ MS9.  M弁系統的レビュー — Koulouroudias EJCTS 2023（10.1093/ejcts/ezad384 / PMID 37963023）
+□ MS10. 心膜vsブタ MVR — Kim J Thorac Dis 2021（10.21037/jtd-21-281 / PMID 34422327）🔓</code></pre>
+<hr />
+<h2 id="4-検証で判明した注意点重要">§4. 検証で判明した注意点（重要）</h2>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><p><strong>adversarial verifyで検出した誤り・要注意（全て訂正済）</strong></p>
+</div>
+
+<blockquote>
+<ol type="1">
+<li><strong>PROACT本体（Puskas 2014）はA弁のみ・MVR 0例</strong>。研究エージェントが「MVR 62例含む」と誤記 → M弁にPROACT本体は使えない。On-Xの僧帽は別の <strong>PROACT Mitral</strong>（MS8, 要最終確認）。</li>
+<li><strong>「Lehmann 2016＝Mosaic」は誤り</strong>。実体は <strong>Epic（St Jude）xenograft 研究</strong>で平均FU 4.5年 → Mosaic mitralの根拠にならない。Mosaic mitralは日本多施設(MS6)/Celiento 2016を使用。</li>
+<li><strong>PERIMOUNT/Magna を「A弁専用」とした研究エージェントの判定は誤り</strong> → 検証で <strong>Aupart 2011（25年mitral）・Bourguignon 2018（mitral）・Marchand 2001</strong> を回収。M弁の主力データはこれ。</li>
+<li><strong>Hancock II の「M弁版なし」も誤り</strong> → Valfrè 2010・Rizzoli 2003 にM弁データあり（mitral 215例 / 114例）。</li>
+<li><strong>A弁vsM弁比較値の出典に注意</strong>：Bourguignon 2018(mitral 25%)の「A弁54%」は<strong>別のBourguignon A弁論文</strong>由来で、同一論文内の比較ではない。クリーンな同一コホート比較は <strong>Rizzoli 2003</strong>（同一弁）と <strong>Chen 2023</strong>（全国レジストリ）。</li>
+<li><strong>DOI/PMID訂正</strong>：Bourguignon 2018 PMID→29444229、Anselmi 2022 頁→837-844、Sezai 2010 DOI→10.1016/j.jtcvs.2009.07.039・PMID→19744673。Acuña Pais 2025（Epic mitral）は<strong>検証不能</strong>のため本リストから除外。</li>
+</ol>
+</blockquote>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p><strong>MS6（日本Mosaic mitral）・MS8（On-X PROACT Mitral）は gaps エージェント由来でフル検証前</strong>。DL前にPMIDで実在確認を推奨。</p>
+</div>
+
+<hr />
+<h2 id="5-a弁--m弁-早見表弁の使い分け">§5. A弁 / M弁 早見表（弁の使い分け）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>観点</th>
+<th>A弁（大動脈位）</th>
+<th>M弁（僧帽位）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>主力生体弁</td>
+<td>Inspiris/Magna Ease/Avalus/Epic</td>
+<td>PERIMOUNT/Epic-Biocor/Hancock II/Mosaic/<strong>MITRIS RESILIA</strong></td>
+</tr>
+<tr>
+<td>低侵襲特化弁</td>
+<td>Perceval・INTUITY（sutureless/RD）</td>
+<td><strong>該当なし</strong>（M弁版が存在しない）</td>
+</tr>
+<tr>
+<td>生体弁の耐久性</td>
+<td>良好（10年SVD回避95%超が多い）</td>
+<td><strong>A弁より2–3倍速く劣化</strong>（15年SVD回避~64%）</td>
+</tr>
+<tr>
+<td>年齢の影響</td>
+<td>&lt;60–65歳で劣化↑</td>
+<td><strong>さらに急峻</strong>（HR 6.6、≤65歳の期待耐久~14年）</td>
+</tr>
+<tr>
+<td>機械弁の位置づけ</td>
+<td>&lt;55–60歳で生存優位</td>
+<td><strong>70歳まで生存優位</strong>＝より広い年齢で機械弁有利</td>
+</tr>
+<tr>
+<td>結論</td>
+<td>高齢・低侵襲ニーズに生体弁/sutureless</td>
+<td><strong>若年は機械弁を強く考慮</strong>、生体弁なら再手術/ViV前提</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<p><em>作成: 2026-06-09 ／ A弁版: topic_valve_durability_by_valve_2026_06・topic_valve_durability_summary_2026_06</em> <em>全引用はワークフロー（15エージェント・research→adversarial verify）で個別検証済み（一部gaps由来はDL前確認推奨）</em></p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

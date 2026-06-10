@@ -5,218 +5,499 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CVS Journal Research — 心臓外科ジャーナル論文まとめ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+:root {
+  /* Neutrals tinted toward the house navy hue */
+  --bg:        oklch(0.984 0.004 245);
+  --surface:   oklch(0.997 0.002 245);
+  --fg:        oklch(0.24 0.012 245);
+  --muted:     oklch(0.52 0.012 245);
+  --faint:     oklch(0.66 0.010 245);
+  --border:    oklch(0.905 0.006 245);
+  --border-soft: oklch(0.945 0.005 245);
+  --navy:      oklch(0.35 0.035 245);   /* ~#2c3e50 */
+  --navy-deep: oklch(0.29 0.035 245);
+
+  /* Category accents (one hue per clinical field) */
+  --c-aortic:  oklch(0.55 0.14 255);
+  --c-mitral:  oklch(0.56 0.15 350);
+  --c-hocm:    oklch(0.62 0.13 58);
+  --c-perf:    oklch(0.56 0.11 168);
+  --c-report:  oklch(0.46 0.03 245);
+
+  --shadow-1: 0 1px 3px oklch(0.35 0.03 245 / 0.07);
+  --shadow-2: 0 10px 28px oklch(0.35 0.03 245 / 0.14);
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
   font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans", Arial, sans-serif;
-  background: #f5f7fa;
-  color: #1a1a1a;
+  background: var(--bg);
+  color: var(--fg);
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.55;
 }
 
+/* ---------- Header ---------- */
 header {
-  background: #2c3e50;
-  color: #fff;
-  padding: 32px 24px 28px;
+  background:
+    radial-gradient(120% 140% at 85% -20%, oklch(0.42 0.05 248) 0%, transparent 55%),
+    linear-gradient(160deg, var(--navy) 0%, var(--navy-deep) 100%);
+  color: oklch(0.97 0.005 245);
+  padding: 40px 24px 34px;
   text-align: center;
 }
 header h1 {
-  font-size: clamp(1.2rem, 4vw, 1.7rem);
+  font-size: clamp(1.35rem, 4.5vw, 2rem);
   font-weight: 700;
-  letter-spacing: 0.02em;
-  line-height: 1.4;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
 }
 header p {
-  margin-top: 8px;
-  font-size: 0.88rem;
-  opacity: 0.75;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: oklch(0.97 0.005 245 / 0.72);
 }
+.header-stats {
+  margin-top: 18px;
+  display: inline-flex;
+  gap: 22px;
+  font-size: 0.82rem;
+  color: oklch(0.97 0.005 245 / 0.78);
+}
+.header-stats b { font-size: 1.05rem; font-weight: 700; color: #fff; }
+.header-stats span { display: flex; flex-direction: column; align-items: center; gap: 1px; }
 
-main {
-  max-width: 720px;
+/* ---------- Sticky category nav (jump) ---------- */
+.catnav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: oklch(0.997 0.002 245 / 0.86);
+  backdrop-filter: saturate(1.4) blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.catnav-inner {
+  max-width: 820px;
   margin: 0 auto;
-  padding: 32px 20px 60px;
+  display: flex;
+  gap: 8px;
+  padding: 11px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.catnav-inner::-webkit-scrollbar { display: none; }
+.catnav a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 7px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  white-space: nowrap;
+  transition: color 0.18s, border-color 0.18s, background 0.18s;
+}
+.catnav a .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--accent, var(--navy));
+}
+.catnav a .n { font-size: 0.72rem; color: var(--faint); font-weight: 600; }
+.catnav a:hover { color: var(--fg); border-color: var(--accent, var(--navy)); }
+.catnav a.active {
+  color: #fff;
+  background: var(--accent, var(--navy));
+  border-color: var(--accent, var(--navy));
+}
+.catnav a.active .dot { background: #fff; }
+.catnav a.active .n { color: oklch(1 0 0 / 0.8); }
 
-h2 {
-  font-size: 1rem;
+/* ---------- Main ---------- */
+main { max-width: 760px; margin: 0 auto; padding: 8px 18px 72px; }
+
+section { scroll-margin-top: 66px; padding-top: 38px; }
+
+.sec-head {
+  display: flex;
+  align-items: baseline;
+  gap: 11px;
+  margin-bottom: 16px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.sec-head .marker {
+  width: 11px; height: 11px; border-radius: 3px;
+  background: var(--accent);
+  align-self: center;
+  flex: 0 0 auto;
+}
+.sec-head h2 {
+  font-size: 1.18rem;
   font-weight: 700;
-  color: #2c3e50;
-  border-left: 4px solid #2c3e50;
-  padding-left: 10px;
-  margin-bottom: 14px;
+  color: var(--fg);
+  letter-spacing: 0.01em;
+}
+.sec-head .en {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--faint);
+  letter-spacing: 0.04em;
+}
+.sec-head .count {
+  margin-left: auto;
+  align-self: center;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+  border-radius: 999px;
+  padding: 3px 10px;
 }
 
-.card-list { display: flex; flex-direction: column; gap: 12px; }
+.card-list { display: flex; flex-direction: column; gap: 11px; }
 
 .card {
   display: block;
-  background: #fff;
-  border-radius: 10px;
-  border: 1px solid #dde1e7;
-  padding: 18px 20px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 17px 19px;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow 0.15s, transform 0.15s;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  box-shadow: var(--shadow-1);
+  transition: box-shadow 0.18s ease-out, transform 0.18s ease-out, border-color 0.18s;
 }
 .card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  transform: translateY(-1px);
+  box-shadow: var(--shadow-2);
+  transform: translateY(-2px);
+  border-color: var(--accent, var(--navy));
 }
-
-.card-month {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #fff;
-  background: #2c3e50;
-  border-radius: 4px;
-  padding: 2px 8px;
-  display: inline-block;
-  margin-bottom: 8px;
-  letter-spacing: 0.04em;
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 9px;
 }
-.card-title {
-  font-size: 1rem;
+.card-kind {
+  font-size: 0.7rem;
   font-weight: 700;
-  color: #1a1a1a;
-  line-height: 1.45;
+  letter-spacing: 0.05em;
+  color: var(--accent, var(--navy));
+  background: color-mix(in oklch, var(--accent, var(--navy)) 13%, var(--surface));
+  border-radius: 5px;
+  padding: 3px 8px;
+  text-transform: uppercase;
+}
+.card-date { margin-left: auto; font-size: 0.76rem; color: var(--faint); font-variant-numeric: tabular-nums; }
+.card-title {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--fg);
+  line-height: 1.46;
 }
 .card-meta {
-  margin-top: 6px;
-  font-size: 0.8rem;
-  color: #666;
+  margin-top: 7px;
+  font-size: 0.81rem;
+  color: var(--muted);
+  line-height: 1.6;
 }
-.card-journals {
+.card-badges {
   display: flex;
   gap: 6px;
-  margin-top: 10px;
+  margin-top: 11px;
   flex-wrap: wrap;
 }
 .badge {
-  font-size: 0.72rem;
+  font-size: 0.71rem;
   font-weight: 600;
-  border-radius: 4px;
-  padding: 2px 7px;
-  letter-spacing: 0.03em;
+  border-radius: 5px;
+  padding: 2px 8px;
+  letter-spacing: 0.02em;
 }
-.badge-jtcvs { background: #e3f0ff; color: #1565c0; }
-.badge-jhlt  { background: #fdecea; color: #b71c1c; }
-.badge-ejcts { background: #e8f5e9; color: #1b5e20; }
-.badge-topic { background: #f3e5f5; color: #6a1b9a; }
-.badge-list  { background: #fff3e0; color: #e65100; }
+.badge-jtcvs { background: oklch(0.94 0.04 250); color: oklch(0.45 0.13 255); }
+.badge-jhlt  { background: oklch(0.94 0.045 25); color: oklch(0.5 0.16 25); }
+.badge-ejcts { background: oklch(0.94 0.05 150); color: oklch(0.44 0.12 152); }
+.badge-topic { background: oklch(0.93 0.05 305); color: oklch(0.48 0.16 305); }
+.badge-list  { background: oklch(0.94 0.06 70); color: oklch(0.52 0.13 60); }
+.badge-soft  { background: var(--border-soft); color: var(--muted); }
 
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 26px 20px;
   font-size: 0.78rem;
-  color: #999;
-  border-top: 1px solid #e0e0e0;
-  background: #fff;
+  color: var(--faint);
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+footer a { color: var(--muted); text-decoration: none; }
+footer a:hover { color: var(--navy); }
+
+@media (max-width: 560px) {
+  header { padding: 32px 18px 26px; }
+  .header-stats { gap: 16px; }
+  .sec-head .en { display: none; }
+  section { padding-top: 30px; }
 }
 </style>
 </head>
 <body>
+
 <header>
   <h1>CVS Journal Research</h1>
-  <p>心臓外科・MCS・LVAD関連ジャーナル 注目論文まとめ</p>
+  <p>心臓外科・MCS・LVAD 関連ジャーナル 注目論文＆トピックレビュー</p>
+  <div class="header-stats">
+    <span><b>8</b>トピックレビュー</span>
+    <span><b>4</b>月次レポート</span>
+    <span><b>3</b>対象誌</span>
+  </div>
 </header>
 
+<nav class="catnav" aria-label="カテゴリ">
+  <div class="catnav-inner">
+    <a href="#aortic"  style="--accent:var(--c-aortic)"><span class="dot"></span>大動脈弁<span class="n">4</span></a>
+    <a href="#mitral"  style="--accent:var(--c-mitral)"><span class="dot"></span>僧帽弁<span class="n">1</span></a>
+    <a href="#hocm"    style="--accent:var(--c-hocm)"><span class="dot"></span>HOCM・心筋切除<span class="n">2</span></a>
+    <a href="#perf"    style="--accent:var(--c-perf)"><span class="dot"></span>体外循環・周術期<span class="n">1</span></a>
+    <a href="#reports" style="--accent:var(--c-report)"><span class="dot"></span>月次レポート<span class="n">4</span></a>
+  </div>
+</nav>
+
 <main>
-  <h2>トピックレビュー</h2>
-  <div class="card-list">
 
-    <a class="card" href="output/robotic_cpb_pitfalls_review.html">
-      <div class="card-month">2026年6月｜トピック</div>
-      <div class="card-title">ロボット支援下心臓手術における人工心肺(CPB)管理の注意点・Pitfall — 心臓外科医／臨床工学技士／麻酔科医の3視点</div>
-      <div class="card-meta">2026-06-10 作成 ｜ 31文献を3視点＋チーム横断で統合（283 Pitfall）｜ 全文検索窓つき ｜ 全引用にPubMed/DOIリンク</div>
-      <div class="card-journals">
-        <span class="badge badge-topic">Topic Review</span>
-        <span class="badge badge-jtcvs">EACTS / STS Guidelines</span>
-        <span class="badge badge-ejcts">Perfusion / JECT</span>
-        <span class="badge badge-jhlt">体外循環技術</span>
-      </div>
-    </a>
+  <!-- ============ 大動脈弁 ============ -->
+  <section id="aortic" style="--accent:var(--c-aortic)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>大動脈弁</h2>
+      <span class="en">Aortic Valve</span>
+      <span class="count">4件</span>
+    </div>
+    <div class="card-list">
 
-    <a class="card" href="output/topic_savr_vs_tavr_longterm_2026_05.html">
-      <div class="card-month">2026年5月｜トピック</div>
-      <div class="card-title">SAVR vs TAVR 長期成績 包括レビュー — 7年データ時代の到来</div>
-      <div class="card-meta">2026-05-16 作成・更新 ｜ 起点: Heuts EJCTS 2026 Editorial ｜ 69論文を体系化（Inspiris vs Avalus vs Epic 比較追加）</div>
-      <div class="card-journals">
-        <span class="badge badge-topic">Topic Review</span>
-        <span class="badge badge-jtcvs">PARTNER 3 7y</span>
-        <span class="badge badge-jtcvs">Evolut LR 6/7y</span>
-        <span class="badge badge-ejcts">NOTION 10y</span>
-        <span class="badge badge-jhlt">COMMENCE 7/8y</span>
-      </div>
-    </a>
+      <a class="card" href="output/topic_savr_vs_tavr_longterm_2026_05.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-05-16</span></div>
+        <div class="card-title">SAVR vs TAVR 長期成績 包括レビュー — 7年データ時代の到来</div>
+        <div class="card-meta">起点: Heuts EJCTS 2026 Editorial ｜ 69論文を体系化（Inspiris vs Avalus vs Epic 比較を追加）</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-jtcvs">PARTNER 3 7y</span>
+          <span class="badge badge-jtcvs">Evolut LR 6/7y</span>
+          <span class="badge badge-ejcts">NOTION 10y</span>
+          <span class="badge badge-jhlt">COMMENCE 7/8y</span>
+        </div>
+      </a>
 
-    <a class="card" href="output/topic_savr_vs_tavr_longterm_2026_05_DLlist.html">
-      <div class="card-month">2026年5月｜文献DLリスト</div>
-      <div class="card-title">SAVR vs TAVR レビュー 文献ダウンロード用リスト（69本）</div>
-      <div class="card-meta">2026-05-16 作成・更新 ｜ 阪大附属図書館 一括取得用 ｜ Tier 1: 15本 / Tier 2: 19本 / Tier 3: 22本 / Appendix（弁比較）: 13本</div>
-      <div class="card-journals">
-        <span class="badge badge-list">DL List</span>
-        <span class="badge badge-topic">Open Access 11本</span>
-      </div>
-    </a>
+      <a class="card" href="output/topic_valve_durability_by_valve_2026_06.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-06-09</span></div>
+        <div class="card-title">【A弁・大動脈位】外科用AVR人工弁 — 弁ごとの「最長フォロー年数」一覧</div>
+        <div class="card-meta">SAVR/TAVRレビュー補遺 ｜ Perceval 等の欠落弁を 11本精読で補完し、弁別の最長追跡年数を一覧化（追加DLリスト付き）</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">弁別 最長フォロー</span>
+          <span class="badge badge-list">追加DLリスト</span>
+        </div>
+      </a>
 
-  </div>
+      <a class="card" href="output/topic_valve_durability_summary_2026_06.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-06-09</span></div>
+        <div class="card-title">【A弁・大動脈位】外科用AVR人工弁 耐久性 — 取得論文11本 精読サマリー</div>
+        <div class="card-meta">弁別・最長フォローの根拠論文 11本をフルテキスト精読し要点を整理（actuarial vs actual の区別を明記）</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">精読サマリー 11本</span>
+        </div>
+      </a>
 
-  <h2 style="margin-top: 36px;">月次レポート</h2>
-  <div class="card-list">
+      <a class="card" href="output/topic_savr_vs_tavr_longterm_2026_05_DLlist.html">
+        <div class="card-top"><span class="card-kind">DL List</span><span class="card-date">2026-05-16</span></div>
+        <div class="card-title">SAVR vs TAVR レビュー 文献ダウンロード用リスト（69本）</div>
+        <div class="card-meta">阪大附属図書館 一括取得用 ｜ Tier 1: 15本 / Tier 2: 19本 / Tier 3: 22本 / 弁比較: 13本（Open Access 11本）</div>
+        <div class="card-badges">
+          <span class="badge badge-list">DL List</span>
+          <span class="badge badge-soft">Open Access 11本</span>
+        </div>
+      </a>
 
-    <a class="card" href="output/journal_report_2026_06.html">
-      <div class="card-month">2026年6月号</div>
-      <div class="card-title">心臓外科・MCS・LVAD関連ジャーナル 2026年6月号 注目論文まとめ</div>
-      <div class="card-meta">2026-06-09 作成 ｜ 51件収録（JTCVS 28件 + JHLT 18件 + EJCTS 5件）｜ 全DOI検証済</div>
-      <div class="card-journals">
-        <span class="badge badge-jtcvs">JTCVS Vol.171 Iss.6</span>
-        <span class="badge badge-jhlt">JHLT Vol.45 Iss.6</span>
-        <span class="badge badge-ejcts">EJCTS Vol.68 Iss.6</span>
-      </div>
-    </a>
+    </div>
+  </section>
 
-    <a class="card" href="output/journal_report_2026_05.html">
-      <div class="card-month">2026年5月号</div>
-      <div class="card-title">心臓外科・MCS・LVAD関連ジャーナル 2026年5月号 注目論文まとめ</div>
-      <div class="card-meta">2026-05-11 作成 ｜ 45件収録（JTCVS 21件 + JHLT 19件 + EJCTS 5件）</div>
-      <div class="card-journals">
-        <span class="badge badge-jtcvs">JTCVS Vol.171 Iss.5</span>
-        <span class="badge badge-jhlt">JHLT Vol.45 Iss.5</span>
-        <span class="badge badge-ejcts">EJCTS Vol.68 Iss.5</span>
-      </div>
-    </a>
+  <!-- ============ 僧帽弁 ============ -->
+  <section id="mitral" style="--accent:var(--c-mitral)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>僧帽弁</h2>
+      <span class="en">Mitral Valve</span>
+      <span class="count">1件</span>
+    </div>
+    <div class="card-list">
 
-    <a class="card" href="output/cardiac_surgery_journals_2026_04.html">
-      <div class="card-month">2026年4月号</div>
-      <div class="card-title">心臓外科・MCS・LVAD関連ジャーナル 2026年4月号 注目論文まとめ</div>
-      <div class="card-meta">2026-05-11 作成</div>
-      <div class="card-journals">
-        <span class="badge badge-jtcvs">JTCVS</span>
-        <span class="badge badge-jhlt">JHLT</span>
-        <span class="badge badge-ejcts">EJCTS</span>
-      </div>
-    </a>
+      <a class="card" href="output/topic_mitral_valve_durability_2026_06.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-06-10</span></div>
+        <div class="card-title">【M弁・僧帽位】人工弁 耐久性 — 弁ごとの「最長フォロー年数」一覧＋DLリスト</div>
+        <div class="card-meta">僧帽位人工弁の弁別 最長追跡年数を一覧化 ｜ Must-have 9本をフルテキスト反映（Chen porcine/bovine 表記を訂正）</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">弁別 最長フォロー</span>
+          <span class="badge badge-list">DLリスト</span>
+        </div>
+      </a>
 
-    <a class="card" href="output/journal_report_2026_03.html">
-      <div class="card-month">2026年3月号</div>
-      <div class="card-title">心臓外科・MCS・LVAD関連ジャーナル 2026年3月号 注目論文まとめ</div>
-      <div class="card-meta">2026-03-23 作成</div>
-      <div class="card-journals">
-        <span class="badge badge-jtcvs">JTCVS</span>
-        <span class="badge badge-jhlt">JHLT</span>
-        <span class="badge badge-ejcts">EJCTS</span>
-      </div>
-    </a>
+    </div>
+  </section>
 
-  </div>
+  <!-- ============ HOCM ============ -->
+  <section id="hocm" style="--accent:var(--c-hocm)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>肥大型心筋症・中隔心筋切除</h2>
+      <span class="en">HOCM / Septal Myectomy</span>
+      <span class="count">2件</span>
+    </div>
+    <div class="card-list">
+
+      <a class="card" href="output/HOCM_myectomy_consensus_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-05-27</span></div>
+        <div class="card-title">HOCM Septal Myectomy — 現在のコンセンサス・標準術式・推奨</div>
+        <div class="card-meta">25本の文献からコンセンサスと標準術式・推奨を整理（Mayo transapical 併用 vs Cleveland transaortic 単独 の対立点）</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">コンセンサス・標準術式</span>
+        </div>
+      </a>
+
+      <a class="card" href="hocm_myectomy/output/HOCM_myectomy_integrated_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-05-27</span></div>
+        <div class="card-title">HOCM Septal Myectomy — 統合レビュー（本文ベース）</div>
+        <div class="card-meta">25 PDF 精読の統合版本文 ｜ 両派とも mortality &lt;1% で同等とする数値根拠を詳述</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">統合本文・25本精読</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ 体外循環・周術期 ============ -->
+  <section id="perf" style="--accent:var(--c-perf)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>体外循環・周術期</h2>
+      <span class="en">Perfusion / Perioperative</span>
+      <span class="count">1件</span>
+    </div>
+    <div class="card-list">
+
+      <a class="card" href="output/robotic_cpb_pitfalls_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-06-10</span></div>
+        <div class="card-title">ロボット支援下心臓手術における人工心肺(CPB)管理の注意点・Pitfall — 3視点統合</div>
+        <div class="card-meta">31文献を心臓外科医／臨床工学技士／麻酔科医の3視点で統合（283 Pitfall）｜ 全文検索窓つき・全引用に PubMed/DOI リンク</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-ejcts">Perfusion / JECT</span>
+          <span class="badge badge-jtcvs">EACTS / STS Guidelines</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ 月次レポート ============ -->
+  <section id="reports" style="--accent:var(--c-report)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>月次レポート</h2>
+      <span class="en">Monthly Reports</span>
+      <span class="count">4件</span>
+    </div>
+    <div class="card-list">
+
+      <a class="card" href="output/journal_report_2026_06.html">
+        <div class="card-top"><span class="card-kind">2026年6月号</span><span class="card-date">2026-06-09</span></div>
+        <div class="card-title">心臓外科・MCS・LVAD 関連ジャーナル 2026年6月号 注目論文まとめ</div>
+        <div class="card-meta">51件収録（JTCVS 28件 + JHLT 18件 + EJCTS 5件）｜ 全DOI検証済</div>
+        <div class="card-badges">
+          <span class="badge badge-jtcvs">JTCVS Vol.171 Iss.6</span>
+          <span class="badge badge-jhlt">JHLT Vol.45 Iss.6</span>
+          <span class="badge badge-ejcts">EJCTS Vol.68 Iss.6</span>
+        </div>
+      </a>
+
+      <a class="card" href="output/journal_report_2026_05.html">
+        <div class="card-top"><span class="card-kind">2026年5月号</span><span class="card-date">2026-05-11</span></div>
+        <div class="card-title">心臓外科・MCS・LVAD 関連ジャーナル 2026年5月号 注目論文まとめ</div>
+        <div class="card-meta">45件収録（JTCVS 21件 + JHLT 19件 + EJCTS 5件）</div>
+        <div class="card-badges">
+          <span class="badge badge-jtcvs">JTCVS Vol.171 Iss.5</span>
+          <span class="badge badge-jhlt">JHLT Vol.45 Iss.5</span>
+          <span class="badge badge-ejcts">EJCTS Vol.68 Iss.5</span>
+        </div>
+      </a>
+
+      <a class="card" href="output/cardiac_surgery_journals_2026_04.html">
+        <div class="card-top"><span class="card-kind">2026年4月号</span><span class="card-date">2026-05-11</span></div>
+        <div class="card-title">心臓外科・MCS・LVAD 関連ジャーナル 2026年4月号 注目論文まとめ</div>
+        <div class="card-meta">JTCVS / JHLT / EJCTS 3誌の注目論文を収録</div>
+        <div class="card-badges">
+          <span class="badge badge-jtcvs">JTCVS</span>
+          <span class="badge badge-jhlt">JHLT</span>
+          <span class="badge badge-ejcts">EJCTS</span>
+        </div>
+      </a>
+
+      <a class="card" href="output/journal_report_2026_03.html">
+        <div class="card-top"><span class="card-kind">2026年3月号</span><span class="card-date">2026-03-23</span></div>
+        <div class="card-title">心臓外科・MCS・LVAD 関連ジャーナル 2026年3月号 注目論文まとめ</div>
+        <div class="card-meta">JTCVS / JHLT / EJCTS 3誌の注目論文を収録</div>
+        <div class="card-badges">
+          <span class="badge badge-jtcvs">JTCVS</span>
+          <span class="badge badge-jhlt">JHLT</span>
+          <span class="badge badge-ejcts">EJCTS</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
 </main>
 
 <footer>
-  CVS Journal Research &mdash; KTonai103
+  CVS Journal Research &mdash; <a href="https://github.com/KTonai103/cvs-journal-research">KTonai103</a>
 </footer>
+
+<script>
+// Scroll-spy: highlight the category pill for the section in view
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.catnav a'));
+  var map = {};
+  links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+  var sections = links.map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); }).filter(Boolean);
+
+  function setActive(id) {
+    links.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href').slice(1) === id); });
+    var active = map[id];
+    if (active && active.scrollIntoView) {
+      active.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    }
+  }
+
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) setActive(e.target.id);
+    });
+  }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+
+  sections.forEach(function (s) { obs.observe(s); });
+  if (sections[0]) setActive(sections[0].id);
+})();
+</script>
 </body>
 </html>

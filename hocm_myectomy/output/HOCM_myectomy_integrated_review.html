@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>HOCM Septal Myectomy ― 統合レビュー (本文ベース)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="hocm-septal-myectomy--統合レビュー-本文ベース">HOCM Septal Myectomy ― 統合レビュー (本文ベース)</h1>
+<p><strong>作成日:</strong> 2026-05-27 <strong>根拠:</strong> 25論文の本文精読 (Tier 1 ガイドライン 4本 + Mayo系総説 5本 + Cleveland系総説 2本 + How-to/Morphology 2本 + アプローチ別 7本 + Volume-Outcome/ASA/MV/補助 5本) <strong>読者想定:</strong> 心臓血管外科医</p>
+<hr />
+<h2 id="executive-summary-結論先出し">Executive Summary (結論先出し)</h2>
+<ol type="1">
+<li><p><strong>Gold standard は extended transaortic septal myectomy</strong> ― <a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024 Mayo総説</a>, <a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026 Cleveland総説</a>, <a href="../pdf/PMID35965115_Maron_2022_AJC_ExpertPanel_60yr.pdf">Maron 2022 10施設Expert Panel</a> で完全一致。10施設・約11,000例の周術期死亡率 <strong>0.6%</strong>、Cleveland単独 (n=1,549, 2005-2015) で<strong>0.38%</strong> (<a href="../pdf/PMID30782406_Hodges_2019_JTCVS_Cleveland_n1559_LVOTO.pdf">Hodges 2019</a>)。</p></li>
+<li><p><strong>2024 AHA/ACC ガイドライン</strong> (<a href="../pdf/PMID38718139_Ommen_2024_Circulation_AHA-ACC-Guideline.pdf">Ommen 2024 Circulation</a>, <a href="../pdf/PMID38727647_Ommen_2024_JACC_AHA-ACC-Guideline.pdf">JACC版</a>) と <strong>2023 ESC ガイドライン</strong> (<a href="../pdf/PMID37622657_Arbelo_2023_EHJ_ESC-Cardiomyopathy-Guideline.pdf">Arbelo 2023</a>) で<strong>SRT は Class I</strong>、特に小児・併施病変ありの成人ではmyectomy が ASA より推奨 (Class I)。両ガイドラインとも <strong>"experienced HCM center" 実施</strong> を強調 (Class I-LOE C / B-NR)。</p></li>
+<li><p><strong>Mayo Clinic vs Cleveland Clinic の哲学的差異</strong> (mid/apical へのアプローチ):</p>
+<ul>
+<li><strong>Mayo</strong>: transaortic では mid/apical の exposure に限界。Combined transaortic + transapical を推奨 (<a href="../pdf/PMID29153286_Hang_2018_JTCVS_Combined-Transaortic-Transapical_Mayo.pdf">Hang 2018 n=86</a>, <a href="../pdf/PMID32771468_Sun_2021_AnnThoracSurg_Transapical_MVO.pdf">Sun 2021 n=196</a>)</li>
+<li><strong>Cleveland</strong>: 専用器具・detailed imaging・解剖理解があれば transaortic 単独で mid (85%) と apical (11%) 到達可能 (<a href="../pdf/PMID38692479_Maigrot_2024_JTCVS_Transaortic_MidApical.pdf">Maigrot 2024 n=940 のうち682 (73%) でmid/apical resection, mortality 0.1%</a>)</li>
+<li><strong>両者ともoutcome は &lt;1% 死亡で同等</strong> ― 経験豊富施設なら手技選択は二次的</li>
+</ul></li>
+<li><p><strong>Volume-outcome は不可逆的に確立</strong> (<a href="../pdf/PMID35779600_Holst_2022_AnnThoracSurg_VolumeOutcome_STSdb.pdf">Holst 2022 STS db n=5,935</a>)。<strong>&lt;1例/年施設は死亡 OR 5.4 / VSD OR 9.3 / MVR OR 9.4</strong> (vs ≥10例/年)。にもかかわらず Medicare データでは依然 <strong>70% が low-volume center で実施</strong> (<a href="../pdf/PMID36631204_Mentias_2023_JACC_SeptalReduction_over65y_Cleveland.pdf">Mentias 2023</a>) ― 紹介の重要性をユーザー (心臓血管外科医) は再認識すべき。</p></li>
+<li><p><strong>SM vs ASA</strong>: 短期 mortality は同等だが、<strong>10年全死亡 26.1% (ASA) vs 8.2% (SM)</strong>、調整後 HR 1.68 (<a href="../pdf/PMID35483751_Cui_2022_JACC_SMvsASA_Survival.pdf">Cui 2022 JACC n=3,859</a>)。Medicare &gt;65歳 cohort でも 2年以降 SM 有利 (HR 0.72, <a href="../pdf/PMID36631204_Mentias_2023_JACC_SeptalReduction_over65y_Cleveland.pdf">Mentias 2023</a>)。</p></li>
+<li><p><strong>Emerging technique</strong>: 中国Tongji の <strong>Transapical Beating-Heart Septal Myectomy (TA-BSM)</strong> (<a href="../pdf/PMID40315478_Fang_2025_CircCVInterv_TA-BSM_LessonsLearned_n418.pdf">Fang 2025 n=418</a>, <a href="../pdf/PMID41473065_Qamar_2025_JTCVSOpen_TA-BSM-vs-Transaortic.pdf">Qamar/Wei/Schaff 2025 Mayo×Tongji 200 vs 200</a>)。30日死亡 0.2-0.5%、ICU滞在短縮・AF減少・輸血減のメリットあり一方で新規LBBB 63.8% と高頻度。日本ではまだ普及していない。</p></li>
+</ol>
+<hr />
+<h2 id="1-歴史的背景--60年の発展">1. 歴史的背景 ― 60年の発展</h2>
+<p><a href="../pdf/PMID35965115_Maron_2022_AJC_ExpertPanel_60yr.pdf">Maron 2022 10施設Expert Panel</a> と <a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026 Cleveland総説</a> の歴史記述に基づく。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>年</th>
+<th>出来事</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1957</td>
+<td>Brock が septal endocardium の "contact lesion" を剖検で記載</td>
+<td>Cleveland総説</td>
+</tr>
+<tr>
+<td>1958</td>
+<td>Cleland (London) が初の myectomy 成功 (1963発表)</td>
+<td>Cleveland総説</td>
+</tr>
+<tr>
+<td>1960s</td>
+<td>Morrow (NIH) が "Morrow operation" 確立 ― 2本平行切開を transverse myotomy で連結。本人がHCM罹患・診断はBraunwald</td>
+<td>Maron 2022, Cleveland総説</td>
+</tr>
+<tr>
+<td>1990s</td>
+<td><strong>Messmer (Aachen)</strong> が "extended septal myectomy" 提唱 ― <strong>基部だけでなく心尖方向への遠位拡張が鍵</strong></td>
+<td>Schaff 2024</td>
+</tr>
+<tr>
+<td>1995</td>
+<td>Sigwart が alcohol septal ablation (ASA) 開始 ― myectomy への challenger となる</td>
+<td>Maron 2022</td>
+</tr>
+<tr>
+<td>1992-94</td>
+<td>Dual-chamber pacing の流行 (placebo effect で消滅)</td>
+<td>Maron 2022</td>
+</tr>
+<tr>
+<td>2010s</td>
+<td>Cleveland (Swistel "RPR" を取り込み) で <strong>三段階resection</strong> 標準化</td>
+<td>Cleveland総説</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>Wei (Wuhan Tongji) が <strong>transapical beating-heart SM (TA-BSM)</strong> をJACCに発表</td>
+<td>Fang 2023</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>AHA/ACC ガイドライン改訂</td>
+<td>Ommen 2024</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>Mayo × Tongji が <strong>TA-BSM vs transaortic 直接比較</strong> をJTCVS Openに発表</td>
+<td>Qamar 2025</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>重要な観察</strong>: Maron 2022は「ヨーロッパで一旦 myectomy 文化が失われた (Germany / Switzerland / Netherlands / 米国 Stanford・BWH・Vanderbilt・NIH も縮小)」と警告。"a lost generation of surgeons with myectomy expertise" を危惧している。</p>
+<hr />
+<h2 id="2-国際ガイドライン推奨-class-i-は青class-iia-は黄class-iib-は灰として読む">2. 国際ガイドライン推奨 (Class I は青、Class IIa は黄、Class IIb は灰として読む)</h2>
+<h3 id="2-1-2024-ahaaccamssmhrspacesscmr-guideline-ommen-2024-circulation">2-1. 2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline (<a href="../pdf/PMID38718139_Ommen_2024_Circulation_AHA-ACC-Guideline.pdf">Ommen 2024 Circulation</a>)</h3>
+<p>「<strong>Recommendations for Invasive Treatment of Symptomatic Patients With Obstructive HCM</strong>」より:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>COR</th>
+<th>LOE</th>
+<th>推奨内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong></td>
+<td>B-NR</td>
+<td>1. <strong>GDMT 後も症候性obstructive HCM</strong> に対しては、experienced HCM center での SRT が <strong>LVOTO 解除のために推奨</strong></td>
+</tr>
+<tr>
+<td><strong>I</strong></td>
+<td>B-NR</td>
+<td>2. <strong>併施病変</strong> (anomalous papillary muscle, markedly elongated AML, intrinsic MV disease, multivessel CAD, valvular AS) のある症候性obstructive HCM では、<strong>experienced HCM center での surgical myectomy が推奨</strong></td>
+</tr>
+<tr>
+<td><strong>I</strong></td>
+<td>C-LD</td>
+<td>3. <strong>手術禁忌・高リスク</strong> (severe comorbidities, 高齢) の成人で experienced HCM center での <strong>ASA が推奨</strong></td>
+</tr>
+<tr>
+<td><strong>IIb</strong></td>
+<td>B-NR</td>
+<td>4. <strong>NYHA II の早期手術</strong>は (a) 進行性肺高血圧 (b) 症候性AF + 左房拡大 (c) 運動負荷で機能低下 (d) 安静時gradient &gt;100 mmHg の若年 のいずれかがあれば comprehensive HCM center で reasonable</td>
+</tr>
+<tr>
+<td><strong>IIb</strong></td>
+<td>C-LD</td>
+<td>5. shared decision-making 後、SRT が GDMT escalation の代替として may be considered</td>
+</tr>
+<tr>
+<td><strong>III: Harm</strong></td>
+<td>C-LD</td>
+<td>6. <strong>無症候かつ運動能力正常</strong>なら SRT は推奨しない</td>
+</tr>
+<tr>
+<td><strong>III: Harm</strong></td>
+<td>B-NR</td>
+<td>7. SRT が選択肢である症候性obstructive HCMに対して、<strong>LVOTO解除のみを目的とした MVR を行ってはならない</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>General eligibility for SRT</strong> (脚注より厳格化):</p>
+<ul>
+<li><strong>Clinical</strong>: 最大薬物療法後も NYHA III/IV または運動誘発失神等、ADL/QOLを阻害する症状</li>
+<li><strong>Hemodynamic</strong>: 安静時または provoked LVOT gradient ≥50 mm Hg + 中隔肥大 + SAM</li>
+<li><strong>Anatomic</strong>: 安全・効果的に切除できるだけの前部中隔厚 (執刀医判断)</li>
+</ul>
+<p><strong>Synopsis (重要)</strong>: "Transaortic extended septal myectomy (ESM) is an appropriate treatment for the broadest range of patients and <strong>allows gradient relief at any level within the ventricle</strong>, with a mortality rate of &lt;1% and clinical success &gt;90% to 95%." ― つまり<strong>AHA/ACC は ESM を "全レベルのobstruction を解除可能" と明記</strong> している。</p>
+<p><a href="../pdf/PMID38727647_Ommen_2024_JACC_AHA-ACC-Guideline.pdf">Ommen 2024 JACC版</a> は内容同一。</p>
+<h3 id="2-2-2023-esc-guidelines-on-cardiomyopathies-arbelo-2023">2-2. 2023 ESC Guidelines on Cardiomyopathies (<a href="../pdf/PMID37622657_Arbelo_2023_EHJ_ESC-Cardiomyopathy-Guideline.pdf">Arbelo 2023</a>)</h3>
+<p>「<strong>Recommendation Table 20 ― Septal Reduction Therapy</strong>」より:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Class</th>
+<th>LOE</th>
+<th>推奨内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>I</strong></td>
+<td>C</td>
+<td>SRT は HCM管理のmultidisciplinary teamの一部としての experienced operator により実施</td>
+</tr>
+<tr>
+<td><strong>I</strong></td>
+<td>B</td>
+<td>LVOT gradient ≥50 mmHg + NYHA III/IV (despite maximally tolerated medical therapy) には SRT 推奨</td>
+</tr>
+<tr>
+<td><strong>I</strong></td>
+<td>C</td>
+<td><strong>小児</strong> + <strong>他病変 (例: MV) を要する成人</strong> には <strong>ASA ではなく septal myectomy</strong> 推奨</td>
+</tr>
+<tr>
+<td><strong>IIa</strong></td>
+<td>C</td>
+<td>LVOT gradient ≥50 mmHg + 運動誘発失神 (despite optimal medical therapy) には SRT を考慮</td>
+</tr>
+<tr>
+<td><strong>IIa</strong></td>
+<td>C</td>
+<td>LVOT gradient ≥50 mmHg + 中等度以上MR (SRT単独で解除困難) には <strong>MV repair or replacement</strong> を考慮</td>
+</tr>
+<tr>
+<td><strong>IIa</strong></td>
+<td>C</td>
+<td>Isolated myectomy 後の中等度以上MR には MV repair を考慮</td>
+</tr>
+<tr>
+<td><strong>IIb</strong></td>
+<td>C</td>
+<td>NYHA II (medical refractory) + gradient ≥50 mmHg + (SAM関連中等度以上MR or AF or LA拡大) には専門センターでの SRT may be considered</td>
+</tr>
+<tr>
+<td><strong>IIb</strong></td>
+<td>C</td>
+<td>Isolated myectomy 後の中等度以上MR には MVR may be considered</td>
+</tr>
+<tr>
+<td><strong>IIb</strong></td>
+<td>C</td>
+<td>Surgical AF ablation / LAA occlusion may be considered if 症候性AF を併発</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>ESC特有の言及</strong>: "The most commonly performed surgical procedure is <strong>ventricular septal myectomy</strong> (rectangular trough below AV)... abolishes/reduces LVOT gradient in <strong>&gt;90%</strong> ... long-term symptomatic benefit in <strong>&gt;80%</strong> with survival comparable to general population." Mid-cavity obstruction には "the standard myectomy can be extended distally into the mid-ventricle... however, data on efficacy and long-term outcomes of this approach are limited." ― つまりESCはmid-ventricular拡張に対しMayo/Cleveland両者よりやや慎重。</p>
+<h3 id="2-3-ガイドライン比較表">2-3. ガイドライン比較表</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>2024 AHA/ACC</th>
+<th>2023 ESC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SRT 適応 gradient閾値</td>
+<td><strong>≥50 mmHg</strong> (rest/provoked) + 症候性 + GDMT後</td>
+<td><strong>≥50 mmHg</strong> (rest/provoked) + NYHA III/IV</td>
+</tr>
+<tr>
+<td>Experienced center 要件</td>
+<td>Class I (脚注で明文化)</td>
+<td>Class I (LOE C)</td>
+</tr>
+<tr>
+<td>早期手術 (NYHA II)</td>
+<td>Class IIb (4条件のいずれか)</td>
+<td>Class IIb (3条件のいずれか)</td>
+</tr>
+<tr>
+<td>MVR (LVOTO目的のみ)</td>
+<td><strong>Class III: Harm</strong></td>
+<td>中等度以上MR残存時のみ IIa/IIb</td>
+</tr>
+<tr>
+<td>ASA優先する場面</td>
+<td>高齢・併存疾患・手術禁忌 (Class I)</td>
+<td>同左 (本文内記述)</td>
+</tr>
+<tr>
+<td>小児/併施病変ありの成人</td>
+<td>Surgery 推奨 (Class I)</td>
+<td><strong>ASAではなくSurgery</strong> (Class I)</td>
+</tr>
+<tr>
+<td>Apical/midventricular への記述</td>
+<td>Transapical or combined を明示的に許容</td>
+<td>Distally extended myectomyを記載するが long-term data limited とコメント</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="3-標準術式--extended-transaortic-septal-myectomy">3. 標準術式 ― Extended Transaortic Septal Myectomy</h2>
+<h3 id="3-1-解剖学的理解-robich-2023-のzone分類">3-1. 解剖学的理解 (Robich 2023 のZone分類)</h3>
+<p><a href="../pdf/PMID36628660_Robich_2023_JTCVS_SeptalMorphology.pdf">Robich/Schaff/Chen 2023 JTCVS</a> はMayo-Tufts合同のexpert opinionで、<strong>3 zoneによる septal 分類</strong> を提案 (Maigrot 2024 Clevelandも同分類を採用):</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Zone</th>
+<th>位置</th>
+<th>臨床的意義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Zone 1</strong></td>
+<td>大動脈弁直下〜僧帽弁前尖 chordal insertion tip</td>
+<td>基部"knuckle" or basal bulge。古典的subaortic obstruction</td>
+</tr>
+<tr>
+<td><strong>Zone 2</strong></td>
+<td>AML chordae tipから乳頭筋頭まで</td>
+<td>Mid-ventricular。SM全体の&lt;10%で isolated zone 2</td>
+</tr>
+<tr>
+<td><strong>Zone 3</strong></td>
+<td>心尖部 + distal septum</td>
+<td>Apical hypertrophy</td>
+</tr>
+<tr>
+<td>All 3</td>
+<td>全層拡張</td>
+<td>稀だが obstructive HCM で見られる</td>
+</tr>
+</tbody>
+</table></div>
+<p>時計法による orientation:</p>
+<ul>
+<li>右冠動脈洞 nadir = 12時</li>
+<li>右-無冠 commissure = 2時</li>
+<li>左-無冠 commissure = 5時</li>
+<li>AML A1 = 8時 / A3 = 4時</li>
+</ul>
+<p>「Mayoの "zone 1/2/3" は Cleveland Maigrot 2024 の "basal/midventricular/apical" 区分と一致する」と論文中で明示されており、両施設の専門用語が統一されつつある。</p>
+<h3 id="3-2-mayo流-transaortic-手技-schaff-2024--ward-2023-how-i-teach-it">3-2. Mayo流 transaortic 手技 (<a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024</a> + <a href="../pdf/PMID36089072_Ward_2023_AnnThoracSurg_HowITeachIt.pdf">Ward 2023 "How I Teach It"</a>)</h3>
+<p><img src="../figures/fig_ward2023_mayo_transaortic.png" alt="Mayo流 transaortic exposure と切除範囲 (Ward 2023 &quot;How I Teach It&quot; p.3 より引用)" /></p>
+<blockquote>
+<p><strong>図 1</strong> Mayo流 extended transaortic septal myectomy の exposure と切除範囲。非冠状洞経由のaortotomy + cardiotomy sucker による AML 押下、右冠状cusp nadir直下からのMessmer式切開、apex方向への遠位拡張 (length が outcome を決める)。出典: <a href="../pdf/PMID36089072_Ward_2023_AnnThoracSurg_HowITeachIt.pdf">Ward 2023 Ann Thorac Surg</a></p>
+</blockquote>
+<p>主要ポイント:</p>
+<ol type="1">
+<li><strong>Median sternotomy + 低位斜め切開 aortotomy</strong> を非冠状洞基部まで延長</li>
+<li><strong>Cardiotomy sucker</strong> を大動脈弁経由でAMLを下方へ押下 ― separate vent不要、AMLの保護兼ねる</li>
+<li>非冠状cusp が exposure を妨げれば 5-0 polypropylene の traction suture (Arantius結節free edge)</li>
+<li><strong>No.10 blade</strong> で右冠状洞 nadir のすぐ右に上向き切開、AMLまで左方へ延ばす (8-10 mm depth)</li>
+<li><strong>遠位 (apex方向) への切除延長が成否を決める</strong> ― Mayo 2024総説の図2は "residual gradient の最頻原因は深さ・右方ではなく<strong>length不足</strong>" と強調</li>
+<li>切除筋量 <strong>3-12 g</strong> が adequate</li>
+<li><strong>TEE + 直接針穿刺による LV-Ao gradient測定</strong> で &gt;10-15 mm Hg ならCPB再開して追加切除</li>
+<li>切除はMessmer式extendedで、<strong>Morrow原法より subaortic area をwiderに、distal exposureを改善</strong></li>
+</ol>
+<p><a href="../pdf/PMID36089072_Ward_2023_AnnThoracSurg_HowITeachIt.pdf">Ward 2023 "How I Teach It"</a> (Mayo + Emoryで現在は教育担当) の特記事項:</p>
+<ul>
+<li><strong>"Extended" = midventricular levelで progressively wider、broad resection opposite papillary muscles、left-right commissureとAML間 (posterolateral free wall) へleftward</strong></li>
+<li>軽度肥厚 (12-15 mm) でも experienced centerなら良好な結果 ― thickness は contraindicationではない</li>
+<li>術中TEEで gradient + SAM + MV機能を全例評価</li>
+</ul>
+<h3 id="3-3-cleveland流-transaortic-手技-ananthanarayanan-2026--smedira系統">3-3. Cleveland流 transaortic 手技 (<a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026</a> ― Smedira系統)</h3>
+<p><strong>"Three-step resection"</strong> が標準化された Cleveland 法:</p>
+<ol type="1">
+<li><strong>Step 1</strong>: 右冠状cusp nadir 直下に <strong>2本の平行切開</strong> (10mm間隔、5mm深さ、15-20mm長 apex方向) → #15 blade で連結し<strong>長方形ブロック切除</strong></li>
+<li><strong>Step 2</strong>: 切開を <strong>右fibrous trigone</strong> 方向へ延長 (membranous septumよりは下、infero-septum はantero-septumより薄い ことに注意)</li>
+<li><strong>Step 3</strong>: 第1切開の前縁を <strong>左fibrous trigone</strong> 上へ延長してさらに長方形切除 (左冠状cuspに近づけても伝導路損傷リスク低い)</li>
+</ol>
+<p><strong>特徴</strong>:</p>
+<ul>
+<li>切除した長方形ブロックを <strong>方向を保ってタオル上に並べ、切除前の中隔を再構築</strong> ― 解剖を可視化</li>
+<li><strong>Intracardiac ultrasound (Toshiba Aplio i900)</strong> で中隔厚を術中評価</li>
+<li>安静時 + isoproterenol誘発下の TEE で <strong>provoked peak gradient &lt;30 mmHg + MR ≤2+</strong> を retreat基準</li>
+<li>自院 2005-2015 の 1,549例:
+<ul>
+<li><strong>術前 peak LVOT gradient 63±4.6 → 術後 15±8.9 mmHg</strong></li>
+<li>平均 AoCC time <strong>28±10 min</strong> (isolated SM)</li>
+<li>平均切除筋量 <strong>8.1±3.7 g</strong></li>
+<li>新規PPM <strong>4.2%</strong>、医原性VSD <strong>2例 (0.13%)</strong>、operative mortality <strong>0.38%</strong></li>
+<li>平均在院日数 <strong>6日</strong>、大多数が術後NYHA I</li>
+</ul></li>
+</ul>
+<h3 id="3-4-切除筋量の目安比較">3-4. 切除筋量の目安比較</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>文献</th>
+<th>Center</th>
+<th>n</th>
+<th>平均切除量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Schaff 2024総説</td>
+<td>Mayo</td>
+<td>(text指針)</td>
+<td>3-12 g (adequate)</td>
+</tr>
+<tr>
+<td>Hodges 2019</td>
+<td>Cleveland</td>
+<td>1,559</td>
+<td>MV介入なし 8.8±3.8 g, MV介入あり 6.2±3.5 g</td>
+</tr>
+<tr>
+<td>Ananthanarayanan 2026</td>
+<td>Cleveland</td>
+<td>1,549</td>
+<td>8.1±3.7 g</td>
+</tr>
+<tr>
+<td>Maigrot 2024 (mid/apical含む)</td>
+<td>Cleveland</td>
+<td>682</td>
+<td>10 g (median, IQR 7-15)</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="4-アプローチ別の比較-本レビューの中核">4. アプローチ別の比較 (本レビューの中核)</h2>
+<h3 id="4-1-経大動脈-transaortic--standard-for-all-subaortic">4-1. 経大動脈 (Transaortic) ― standard for all subaortic</h3>
+<ul>
+<li><strong>適応</strong>: 全 obstructive HCM の第一選択。Cleveland は mid/apical も含めて第一選択 (<a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026</a>)。</li>
+<li><strong>利点</strong>: median sternotomy で広い視野、AVへの familiar approach、全レベルへ理論上到達可</li>
+<li><strong>欠点</strong>: aortic annulus が小さい (小児・小柄成人) と exposure 不十分。Mayo は mid/apical では transapical 併用を推奨</li>
+<li><strong>死亡率</strong>: &lt;1% (high-volume center)</li>
+</ul>
+<h3 id="4-2-経僧帽弁-transmitral">4-2. 経僧帽弁 (Transmitral)</h3>
+<p><a href="../pdf/PMID29453001_Wehman_2018_AnnThoracSurg_Transmitral_Myectomy.pdf">Wehman &amp; Gammie 2018 (University of Maryland) PMID 29453001</a>:</p>
+<p><img src="../figures/fig_wehman2018_transmitral_curtain.png" alt="Transmitral septal myectomy 手技図 (Wehman 2018 Fig 1)" /></p>
+<blockquote>
+<p><strong>図 2</strong> Transmitral septal myectomy. (A) 左房経由でAMLを露出、(B-C) AML を annulus から detach、(D) extended myectomy、(E) "<strong>curtain stitch</strong>" による anterolateral commissure閉鎖でAML外側をLVOT外へ移動。出典: <a href="../pdf/PMID29453001_Wehman_2018_AnnThoracSurg_Transmitral_Myectomy.pdf">Wehman 2018 Ann Thorac Surg</a></p>
+</blockquote>
+<ul>
+<li>n=20 (70%女性、平均63歳)。術前 LVOT gradient 92±43 mm Hg</li>
+<li>左心耳経由でAMLを annulus からdetach → extended myectomy → AML再縫着 + concomitant MV修復/置換 (修復11、置換9)</li>
+<li>"<strong>curtain stitch</strong>" (modified anterolateral commissural closure) でAML外側を LVOT 外へ移動</li>
+<li>術後LVOT gradient 10±5 mm Hg、operative mortality 0%、22±25か月FUで再手術なし、MR mild以下</li>
+<li><strong>著者主張</strong>: "transmitral approach は preferred approach となり得る" ― 中隔・弁下構造のpanoramic view + 同時にMV病変対処可能 + 教育的視野</li>
+<li><strong>欠点</strong>: AML detachment/reattachment による distortion・suture dehiscence の理論的risk (<a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024 のコメント</a>)</li>
+</ul>
+<p><a href="../pdf/PMID32740992_AnandKumar_2020_JCardSurg_RoboticTransmitral_Cleveland.pdf">AnandKumar/Gillinov/Smedira/Wierup 2020 J Card Surg (Cleveland)</a>:</p>
+<ul>
+<li>Robotic trans-mitral septal myectomy + papillary muscle reorientation (DaVinci, 30° camera up)</li>
+<li>適応: 軽度から中等度basal septal hypertrophy + 主たるLVOT obstruction原因がMV (hypermobile PM, elongated AML, primary MR)</li>
+<li>Cleveland のmitral repair経験を生かして、MICS septal myectomyを robotic で実現</li>
+<li>技術論文 (n非明示)</li>
+</ul>
+<p><strong>位置づけ</strong>: Mayo/Clevelandの mainline は依然 transaortic。Transmitral は (a) intrinsic MV disease要対処、(b) 軽度septum、(c) MICS/robotic 適応症例 で選択肢となる。</p>
+<h3 id="4-3-経心尖-transapical-on-pump--mayo-流の-midapical-アプローチ">4-3. 経心尖 (Transapical, on-pump) ― Mayo 流の mid/apical アプローチ</h3>
+<p><a href="../pdf/PMID32771468_Sun_2021_AnnThoracSurg_Transapical_MVO.pdf">Sun/Schaff/Nishimura/Geske/Dearani/Ommen 2021 Ann Thorac Surg</a>:</p>
+<p><img src="../figures/fig_sun2021_transapical_intraop.png" alt="Mayo transapical myectomy 術中写真 (Sun 2021 Fig 3)" /></p>
+<blockquote>
+<p><strong>図 3</strong> Mayo transapical approach for midventricular HCM. (A-B) Apical dimple経由で transapical incision、(C-D) 拡張した左室腔から hypertrophic muscle を切除、(E) Apical ventriculotomyを double-layer closure で閉鎖、(F) 切除筋標本。出典: <a href="../pdf/PMID32771468_Sun_2021_AnnThoracSurg_Transapical_MVO.pdf">Sun 2021 Ann Thorac Surg</a></p>
+</blockquote>
+<ul>
+<li>Mayo 1997-2018, n=196 midventricular myectomy</li>
+<li>基準: MV gradient &gt;30 mm Hg + 症候性 (NYHA III/IV 80%)</li>
+<li>80例 isolated MVO のうち 63 (79%) は isolated transapical</li>
+<li>116例で subaortic + midcavity を併発 → うち 108 (93%) で combined transaortic + transapical</li>
+<li>中央値peak gradient: 術前 48 (IQR 23-77) → 術前 dismissal 8 (IQR 0-19) mm Hg</li>
+<li>FU 中央値 2.9年、推定 1/5/10年生存 99%/98%/90%</li>
+<li><strong>late complication attributable to transapical incision はゼロ</strong> ― 重要な safety message</li>
+</ul>
+<p><a href="../pdf/PMID29153286_Hang_2018_JTCVS_Combined-Transaortic-Transapical_Mayo.pdf">Hang/Schaff/Ommen/Dearani/Nishimura 2018 JTCVS</a>:</p>
+<ul>
+<li>Mayo n=86 ― <strong>combined transaortic + transapical</strong> ★ Mayo flagship paper</li>
+<li>適応: long-segment septal hypertrophy + (MVO 59例/cavitary obliteration 12例/両者15例)</li>
+<li>中央値 prebypass intracavitary gradient <strong>85 mm Hg → postbypass 4 mm Hg</strong></li>
+<li>術後dismissal LVOT 0 mm Hg, MV 0 mm Hg (中央値)</li>
+<li>中央値 XCL <strong>35 min</strong>, perfusion <strong>48.5 min</strong></li>
+<li>30日 / 1年生存 ともに <strong>95%</strong> (2例の早期死亡)</li>
+<li>FU可能42例中41例がNYHA I/II</li>
+<li><strong>著者主張 (Mayoの公式立場)</strong>: "<strong>inadequate length of septal resection</strong> が persistent symptoms の主因 ― complex long-segment では transaortic単独では不十分で、combined approach がgold standard"</li>
+</ul>
+<h3 id="4-4-cleveland-の対立立場-transaortic-で-midapical-も-achievable-最重要対比">4-4. <strong>Cleveland の対立立場</strong>: Transaortic で mid/apical も achievable ★★最重要対比</h3>
+<p><a href="../pdf/PMID38692479_Maigrot_2024_JTCVS_Transaortic_MidApical.pdf">Maigrot/Weiss/Steely/Firth/Moros/Blackstone/Smedira 2024 JTCVS</a>:</p>
+<p><img src="../figures/fig_maigrot2024_zones_instruments.png" alt="Cleveland: septal regions と専用器具 (Maigrot 2024)" /></p>
+<blockquote>
+<p><strong>図 4</strong> Cleveland approach for mid/apical via transaortic. <strong>上 (Fig 2)</strong>: Septal regions (Apex / Midventricular / Basal) と template切除 ― <strong>MV pillar をfree wall方向に移動</strong> することで apex までの exposure 改善。<strong>下 (Fig 3)</strong>: 「specialized instruments」と論文では呼ばれるが<strong>実体は長尺カスタム柄の通常器具</strong> ― (A) apex を押す sponge stick、(B) 普通の thoracoscopic 器具、(C-D) 15-blade knife を <strong>35cm/22cm の長柄</strong> に custom mount、(E-F) <strong>35cm長の malleable retractor</strong> (0.050-inch / 18-gauge ステンレス) + intraoperative video link。出典: <a href="../pdf/PMID38692479_Maigrot_2024_JTCVS_Transaortic_MidApical.pdf">Maigrot 2024 JTCVS</a></p>
+</blockquote>
+<ul>
+<li>Cleveland 2018-2023, <strong>n=940</strong> transaortic SM のうち <strong>682 (73%) で mid/apical resection (basal以遠への切除)</strong></li>
+<li>582 (85%) basal + midventricular、78 (11%) basal + midventricular + apical</li>
+<li>切除筋量 中央値 10 g (IQR 7-15)</li>
+<li>術前 intraventricular gradient 102±41 → 術後 16±10 mm Hg、<strong>625 (96%) で gradient ≤36 mm Hg</strong></li>
+<li><strong>iatrogenic mitral/aortic valve injury ゼロ</strong></li>
+<li>新規PPM 38例 (5.6%) ― そのうち <strong>preop伝導正常者は8 (1.2%)</strong></li>
+<li><strong>Operative mortality 1例 (0.1%)</strong> ― intraoperative VSD後</li>
+<li><strong>著者主張 (Cleveland公式立場)</strong>: "<strong>A transaortic approach to the apex is an extension of a procedure familiar to most surgeons.</strong> With specialized instruments, this approach can be safely and effectively used for midventricular and apical septal myectomy." Insufficient initial resection を将来の再手術の主因と捉え、Mayoと同様 "length が成否を決める" との認識を共有 ― <strong>ただし length を出す手段が transaortic 単独で十分</strong> と主張。</li>
+<li>装備 (注: 論文中 "specialized instruments" と表現されるが<strong>新規開発デバイスではない</strong>): <strong>35cm長の柄を custom 製作した 15-blade knife</strong> + 30cm長 tooth forceps + 35cm 長 malleable retractor (0.050 inch / 18 gauge ステンレス) + 既存の thoracoscopic 器具 + <strong>高出力LED headlight</strong> + apex を押す sponge stick。本質は「<strong>通常器具の長尺カスタム化 + 照明 + 解剖理解 + 経験</strong>」であり、Wei グループの Wei-Xin-Tan BMD (真空吸引-切断 multi-component) のような専用デバイスとは別物</li>
+</ul>
+<p><strong>両派の食い違いの本質</strong>:</p>
+<ul>
+<li>どちらも "extended length resection" の必要性は一致</li>
+<li>Mayo: transaortic は exposure に物理的限界 → transapical で補完</li>
+<li>Cleveland: 専用器具 + 経験で transaortic 単独で apical到達可、追加切開のmorbidity (transapical incisionによる)を避けられる</li>
+<li><strong>客観的outcome は両者とも mortality &lt;1% で同等</strong> (<a href="../pdf/PMID29153286_Hang_2018_JTCVS_Combined-Transaortic-Transapical_Mayo.pdf">Hang 2018 30日95%生存</a> と <a href="../pdf/PMID38692479_Maigrot_2024_JTCVS_Transaortic_MidApical.pdf">Maigrot 2024 mortality 0.1%</a>)</li>
+<li>注: Mayo の Sun 2021 (n=196) は "<strong>transapical incision attributable late complication ゼロ</strong>" を強調 ― つまり"追加切開のmorbidity" 反論に対する Mayo の防御エビデンス</li>
+</ul>
+<h3 id="4-5-transapical-beating-heart-septal-myectomy-ta-bsm--中国wei流-emerging">4-5. Transapical Beating-Heart Septal Myectomy (TA-BSM) ― 中国Wei流, Emerging</h3>
+<p><a href="../pdf/PMID40315478_Fang_2025_CircCVInterv_TA-BSM_LessonsLearned_n418.pdf">Fang/Chen/Liu/Li/Wei et al 2025 Circ CV Interv</a>:</p>
+<ul>
+<li>中国 Tongji Hospital (Wuhan), 2023年1月-2024年1月、<strong>n=418</strong> (learning curve 後 cohort)</li>
+<li><strong>左mini-thoracotomy + beating-heart 専用デバイス + リアルタイムTEE誘導</strong></li>
+<li>デバイス: bullet-headed resection tube + tubular blade + paraxial puncture needle + multiporous tunnel ― negative pressure で中隔を捕捉、3-6回の resection</li>
+<li>術前 max LVOT gradient 中央値 <strong>85 → 3-6か月FUで 19 mm Hg</strong></li>
+<li>MR ≤2+: 47.7% → 98.8%</li>
+<li><strong>Procedural success 91.1%</strong> (resting &lt;30 mmHg + provoked &lt;50 mmHg + MR ≤2+ at 3-6 months)</li>
+<li>重大有害事象: LV apical tear 0.7%, iatrogenic MV injury 0.7%, <strong>新規PPM 2.4%</strong>, 一過性虚血性脳卒中 0.5%</li>
+<li><strong>30日死亡 0.2% (1例)</strong>、1年生存 98.7%</li>
+<li>著者主張: "real-time echo guidance + tailored approach で適切な中隔切除を達成。"</li>
+</ul>
+<p><a href="../pdf/PMID41473065_Qamar_2025_JTCVSOpen_TA-BSM-vs-Transaortic.pdf">Qamar/Li/Geske/Fang/Schaff/Wei 2025 JTCVS Open (Mayo × Tongji)</a> ★直接比較★:</p>
+<ul>
+<li><strong>n=200 TA-BSM (Tongji)</strong> vs <strong>n=200 transaortic on-pump (Mayo)</strong></li>
+<li>LVOT gradient 中央値:
+<ul>
+<li>TA-BSM: <strong>102 → 15 mm Hg</strong></li>
+<li>Transaortic: <strong>88 → 12 mm Hg</strong></li>
+<li>両群とも P&lt;.001 内部差、群間有意差なし</li>
+</ul></li>
+<li><strong>TA-BSM 有利</strong>: ICU滞在短縮 (24h vs 26h, P&lt;.001), AF減少 (9.5% vs 30.0%, P&lt;.001), 輸血減 (8.0% vs 22.0%, P&lt;.001)</li>
+<li><strong>Transaortic 有利</strong>: 新規LBBB 37.0% vs <strong>63.8%</strong> (P&lt;.001), 在院日数 中央値 5日 vs <strong>11日</strong> (P&lt;.001, institutional protocol差)</li>
+<li><strong>30日死亡</strong>: TA-BSM 0.5% (1例) vs Transaortic 1.0% (2例), P=.562</li>
+<li>著者主張: "TA-BSMは comparable hemodynamic outcome + ICU recovery/transfusion/AF面で有利。Less invasive alternative for selected oHCM patients。長期成績はrandomized trialが必要。"</li>
+</ul>
+<p><strong>実践的含意</strong>:</p>
+<ul>
+<li>TA-BSMは日本ではまだ専用デバイスが普及していない (Wei グループの商用device、規制上の問題)</li>
+<li><strong>新規LBBB 63.8% は注意すべき</strong> ― 長期PPMリスクとの関係は未確立</li>
+<li>在院日数 11日 はTongjiのprotocolで institutional bias、術自体の問題ではない</li>
+<li>国際的に追随する施設が現れるかは今後の randomized trial 次第</li>
+</ul>
+<h3 id="4-6-アプローチ別-まとめ表">4-6. アプローチ別 まとめ表</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アプローチ</th>
+<th>推奨適応</th>
+<th>主たる施設</th>
+<th>30日死亡</th>
+<th>主たる利点</th>
+<th>主たる欠点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Transaortic (standard)</strong></td>
+<td>全obstructive HCM (Cleveland: all)</td>
+<td>Mayo, Cleveland, Tufts, Fuwai 他</td>
+<td>0.1-0.6%</td>
+<td>Familiar, 全レベル到達可 (Cleveland argues)</td>
+<td>小aortic annulusでexposure不十分 (Mayo argues for mid/apical)</td>
+</tr>
+<tr>
+<td><strong>Transmitral</strong></td>
+<td>軽度septum + 主たる原因がMV、MICS適応</td>
+<td>Univ Maryland (Wehman), Cleveland (robotic)</td>
+<td>0% (Wehman n=20)</td>
+<td>Panoramic view, MV同時対処, 教育的</td>
+<td>AML distortion/dehiscence理論risk</td>
+</tr>
+<tr>
+<td><strong>Transapical (on-pump)</strong></td>
+<td>Midventricular obstruction, apical HCM, 複雑long-segment</td>
+<td>Mayo (&gt;200例)</td>
+<td>1-2% (combined: 5%)</td>
+<td>Mid/apical exposureに優れる</td>
+<td>追加切開, late complicationsはMayoシリーズではゼロ</td>
+</tr>
+<tr>
+<td><strong>Combined transaortic + transapical</strong></td>
+<td>Long-segment + MVO + cavitary obliteration</td>
+<td>Mayo (n=86 Hang 2018)</td>
+<td>5% (95%生存)</td>
+<td>確実な gradient relief</td>
+<td>最も侵襲大、cross-clamp長 (~35 min)</td>
+</tr>
+<tr>
+<td><strong>TA-BSM (beating-heart)</strong></td>
+<td>適切な解剖の選択患者 (現状中国主導)</td>
+<td>Tongji (n=418), Mayo比較</td>
+<td>0.2-0.5%</td>
+<td>小開胸, CPB回避, AF/輸血減</td>
+<td>LBBB 63.8%, 専用デバイス必須, 日本未普及</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="5-mayo-clinic-vs-cleveland-clinic--直接比較--本レビューの核心">5. Mayo Clinic vs Cleveland Clinic ― 直接比較 ★ 本レビューの核心</h2>
+<h3 id="5-1-数値の比較">5-1. 数値の比較</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>Mayo Clinic</th>
+<th>Cleveland Clinic</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>累積myectomy症例数</td>
+<td>&gt;3,000 (1993-2016) → 推定 4,000+ (現在)</td>
+<td>&gt;4,000 (30年)</td>
+<td><a href="../pdf/PMID28944173_Kotkar_2017_AnnCardiothoracSurg_MayoExperience.pdf">Kotkar 2017</a>, <a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026</a></td>
+</tr>
+<tr>
+<td>直近大規模シリーズ</td>
+<td>(Mayo isolated SM死亡 &lt;1%, Schaff 2024より)</td>
+<td>n=1,549 (2005-2015), Hodges 2019; n=940 (2018-23) Maigrot 2024</td>
+<td><a href="../pdf/PMID30782406_Hodges_2019_JTCVS_Cleveland_n1559_LVOTO.pdf">Hodges 2019</a>, <a href="../pdf/PMID38692479_Maigrot_2024_JTCVS_Transaortic_MidApical.pdf">Maigrot 2024</a></td>
+</tr>
+<tr>
+<td>Operative mortality (isolated SM)</td>
+<td>&lt;1%</td>
+<td><strong>0.38%</strong> (Hodges), <strong>0.1%</strong> (Maigrot 2018-23 mid/apical)</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>Iatrogenic VSD</td>
+<td>&lt;0.3% (Kotkar)</td>
+<td>0.13% (Hodges, 1559中2例)</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>新規PPM率</td>
+<td>2% (Kotkar)</td>
+<td>4.2% (Ananthanarayanan), 5.6% (Maigrot mid/apical)</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>MV介入率</td>
+<td>~2% (一系列 n&gt;2000, MV intrinsic disease以外)</td>
+<td><strong>MV repair 28.7%</strong> (Holst STS db全国)、Cleveland 1,559中 MV intervention あり 522 (33.5%) + MVR 92 (5.9%)</td>
+<td><a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024</a>, <a href="../pdf/PMID30782406_Hodges_2019_JTCVS_Cleveland_n1559_LVOTO.pdf">Hodges 2019</a></td>
+</tr>
+<tr>
+<td>切除筋量</td>
+<td>3-12 g (target)</td>
+<td>8.1±3.7 g (isolated), 10 g (mid/apical)</td>
+<td>同上</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Note</strong>: 厳密な"同等期間・同方法"の比較ではないが、両施設とも<strong>isolated SM mortality &lt;1%、&gt;4000例の経験、両ガイドラインの推奨をclassして満たす</strong>ことに変わりない。</p>
+<h3 id="5-2-哲学的差異--5つの軸">5-2. 哲学的差異 ― 5つの軸</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>軸</th>
+<th>Mayo Clinic</th>
+<th>Cleveland Clinic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mid/apical へのアプローチ</strong></td>
+<td>Transaortic では exposure 限界 → <strong>combined transaortic + transapical を積極推奨</strong>。Sun 2021 で transapical の late safety を立証</td>
+<td><strong>Transaortic 単独で mid 85% / apical 11% achievable</strong> (Maigrot 2024)。専用器具・解剖理解で克服</td>
+</tr>
+<tr>
+<td><strong>MV/subvalvular 介入の積極性</strong></td>
+<td><strong>Adequate myectomy が MR の85%を解消</strong> ― MV介入は ~2% (intrinsic disease除く) (<a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024</a>)</td>
+<td><strong>MV介入を積極的に併施</strong>: AML shortening 16%, chordae resection 9.8%, PM resection 7.2%, <strong>PM reorientation 7.5%</strong> (<a href="../pdf/PMID30782406_Hodges_2019_JTCVS_Cleveland_n1559_LVOTO.pdf">Hodges 2019</a>)</td>
+</tr>
+<tr>
+<td><strong>新技術への姿勢</strong></td>
+<td>Wei グループと<strong>TA-BSM 直接比較trial を共同実施</strong> (Qamar 2025) ― TA-BSMを評価対象に。Apical myectomyも自前で開発</td>
+<td>三段階resection 標準化、robotic transmitral 開発、MV virtual planning</td>
+</tr>
+<tr>
+<td><strong>教育論文の Style</strong></td>
+<td>Ward 2023 "How I Teach It" + Robich 2023 zone分類 ― <strong>明示的かつ standardized</strong></td>
+<td>教科書的review (Ananthanarayanan 2026) + 三段階法を図解</td>
+</tr>
+<tr>
+<td><strong>Anatomy nomenclature</strong></td>
+<td>Schaff &amp; Juarez-Casso の <strong>zone 1/2/3</strong> (Robich 2023 で確立)</td>
+<td>Maigrot 2024 で <strong>basal/midventricular/apical</strong> を採用、Mayo zone と "closely related" と明記 ― <strong>両施設で語彙統一傾向</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="5-3-両派の合致点-重要">5-3. 両派の合致点 (重要)</h3>
+<ul>
+<li><strong>Extended length resection が outcome を決める</strong> ― Morrow → Messmer → 現代extended への進化を両者が共有</li>
+<li><strong>Mortality &lt;1% は high-volume center で実現可能</strong> (両者の自前データで実証)</li>
+<li><strong>MV介入の判断は患者ごと</strong> ― Cleveland は積極派だが、intrinsic MV diseaseなしの軽度症例ではMayoも介入を否定しない</li>
+<li><strong>ASA より SM が長期生存で有利</strong> (両者の共著 Cui 2022 PMID 35483751)</li>
+<li><strong>Volume-Outcome relationshipは両者が共著 Holst 2022 PMID 35779600</strong></li>
+</ul>
+<h3 id="5-4-ユーザー-心臓血管外科医-への実践的含意">5-4. ユーザー (心臓血管外科医) への実践的含意</h3>
+<ol type="1">
+<li>"Mayo vs Cleveland どちらが正しいか" は false dichotomy ― <strong>どちらも mortality &lt;1% で同等</strong></li>
+<li><strong>手技選択は (a) 自施設の経験 (b) 患者の解剖 (c) 利用可能なdevice/imaging で決まる</strong></li>
+<li>Mid/apicalで unfamiliar なら transapical 併用が無難 (Mayo方針) ― Cleveland流の transaortic単独はexperience必要</li>
+<li><strong>日本国内では症例数が10例/年以上の施設は限定的</strong> ― volume-outcome の議論から<strong>集約化が望ましい</strong></li>
+<li>国際学会発表時の比較: 両派の主張をニュートラルに引用すれば polarization を避けられる</li>
+</ol>
+<hr />
+<h2 id="6-volume-outcome-の根拠">6. Volume-Outcome の根拠</h2>
+<h3 id="6-1-sts-adult-cardiac-surgery-database-解析-holstschaffsmedirabadhwardearani-2022">6-1. STS Adult Cardiac Surgery Database 解析 (<a href="../pdf/PMID35779600_Holst_2022_AnnThoracSurg_VolumeOutcome_STSdb.pdf">Holst/Schaff/Smedira/Badhwar/Dearani 2022</a>)</h3>
+<p><strong>Pivotal study</strong> ― Mayo + Cleveland + WV + Columbia + Northwestern の合同研究:</p>
+<ul>
+<li>2012-2019, n=5,935 / 481施設 / 933術者</li>
+<li>平均施設volume: &lt;1〜138例/年と極端な分布</li>
+<li>全体: early mortality 2.6%, VSD 1.9%, complete heart block 9.0%, MV repair 28.7%, MVR 17.1%</li>
+</ul>
+<p><strong>Multivariable解析 (&lt;1 例/年施設 vs &gt;10例/年)</strong>: | Outcome | Odds Ratio | 95% CI | P | |---|---|---|---| | Early mortality | <strong>5.4</strong> | 3.0-9.9 | &lt;0.001 | | Iatrogenic VSD | <strong>9.3</strong> | 4.2-20.4 | &lt;0.001 | | Complete heart block | <strong>2.0</strong> | 1.5-2.7 | &lt;0.001 | | MV replacement (vs repair) | <strong>9.4</strong> | 7.5-11.8 | &lt;0.001 |</p>
+<p><strong>Schaff 2024 総説の Figure 4 引用</strong> (<a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024</a>):</p>
+<ul>
+<li><blockquote>
+<p>10例/年施設: mortality &lt;1%, VSD 0.4%</p>
+</blockquote></li>
+<li>1-5例/年施設: mortality <strong>3.7%</strong>, VSD <strong>2.6%</strong></li>
+<li>"The impact of lower case volume remains significantly associated with mortality in adjusted analysis"</li>
+</ul>
+<h3 id="6-2-medicare実地データ-mentiassmediradesai-2023-jacc">6-2. Medicare実地データ (<a href="../pdf/PMID36631204_Mentias_2023_JACC_SeptalReduction_over65y_Cleveland.pdf">Mentias/Smedira/Desai 2023 JACC</a>)</h3>
+<ul>
+<li>Medicare &gt;65歳, 2013-2019, n=5,679 SRT (SM 3,680 + ASA 1,999)</li>
+<li>Landmark解析: <strong>2年以降は SM が ASA より低死亡</strong> (HR 0.72, 95%CI 0.60-0.87, P&lt;0.001)</li>
+<li><strong>70% の SRT が low-volume center で実施されている</strong> ― ガイドライン推奨と実地のギャップ</li>
+<li>High-volume centerは short/long-term mortality 両方で有利</li>
+</ul>
+<h3 id="6-3-ガイドライン推奨との整合性">6-3. ガイドライン推奨との整合性</h3>
+<ul>
+<li>2024 AHA/ACC は "experienced HCM centers" を <strong>Class I</strong> で繰り返し言及 ― <strong>Table 5</strong> で具体的target (mortality &lt;1%, success &gt;90%, 重症合併症 &lt;5%等) を明示</li>
+<li>2023 ESC も同様に "experienced operators working as part of multidisciplinary team" を <strong>Class I-LOE C</strong></li>
+<li><strong>両ガイドラインの "Comprehensive HCM Center" 基準を満たす施設は世界で限定的</strong> ― 米国・欧州でも10数施設、日本では数施設</li>
+</ul>
+<hr />
+<h2 id="7-sm-vs-asa--長期生存の決定的差">7. SM vs ASA ― 長期生存の決定的差</h2>
+<h3 id="7-1-cui-2022-jacc--landmark-study-cuischaffwangmaronrastegareleiddearanikimmelstielmaronnishimuraommenmaron-2022">7-1. Cui 2022 JACC ★ Landmark study (<a href="../pdf/PMID35483751_Cui_2022_JACC_SMvsASA_Survival.pdf">Cui/Schaff/Wang/Maron/Rastegar/Eleid/Dearani/Kimmelstiel/Maron/Nishimura/Ommen/Maron 2022</a>)</h3>
+<ul>
+<li>Mayo + Fuwai + Tufts の3施設合同、n=3,859 (ASA 585 + SM 3,274)</li>
+<li>ASA群: 有意に高齢 (中央値 63.0歳 vs 53.7歳), septum薄い (19.0 vs 20.0 mm), 併存疾患多い</li>
+<li><strong>Early death</strong>: ASA 0.7% vs SM 0.3%</li>
+<li>中央値FU 6.4年 (IQR 3.6-10.2)</li>
+<li><strong>10年全死亡: ASA 26.1% vs SM 8.2%</strong></li>
+<li>年齢・性・併存調整後でも <strong>HR 1.68 (95%CI 1.29-2.19, P&lt;0.001)</strong> で ASA &gt; SM</li>
+</ul>
+<p>→ "centers with sufficient experience, <strong>septal myectomy is preferred</strong> to relieve LVOTO" (<a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024</a>)</p>
+<h3 id="7-2-mentias-2023-jacc--medicare-65歳-cohort-で再確認">7-2. Mentias 2023 JACC ― Medicare &gt;65歳 cohort で再確認</h3>
+<p>詳細は §6-2参照。<strong>高齢者でも 2年以降 SM が ASA より生存有利</strong> (HR 0.72)。これは "ASA は手術禁忌例向け" との通念に対するreal-world validationだが、紹介の問題 (low-volume centerでの実施 70%) を浮き彫りにする。</p>
+<h3 id="7-3-ガイドラインの位置づけ">7-3. ガイドラインの位置づけ</h3>
+<ul>
+<li>2024 AHA/ACC: SRT 1st-line は SM、ASA は "<strong>surgery is contraindicated or risk is unacceptable</strong>" の場合に Class I (LOE C-LD)</li>
+<li>2023 ESC: 小児 + 併施病変ありの成人で <strong>ASA ではなく SM</strong> を Class I (LOE C)</li>
+<li><strong>ASA を選ぶべき症例</strong>: 高齢, 重症併存疾患, septum 16-30 mm, 適切なseptal perforator解剖, 開心術 unwilling</li>
+</ul>
+<hr />
+<h2 id="8-mitral-valve--弁下構造の併施">8. Mitral Valve / 弁下構造の併施</h2>
+<h3 id="8-1-mayo-の立場--adequate-myectomy-で-mr-の85が解消">8-1. Mayo の立場 ― "Adequate myectomy で MR の85%が解消"</h3>
+<p><a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024</a>:</p>
+<ul>
+<li>"In one large series of &gt;2000 patients undergoing septal myectomy, <strong>additional MV interventions were performed in only 2% of patients without intrinsic MV disease</strong>"</li>
+<li>MV replacement は rheumatic / severe myxomatous / degenerative で repair不能例に限定</li>
+<li>例外: 中隔が異常に薄く iatrogenic VSDのrisk高い場合、 mechanical prosthesis preferred</li>
+</ul>
+<h3 id="8-2-cleveland-の立場--積極的に-mvpm-介入">8-2. Cleveland の立場 ― "積極的に MV/PM 介入"</h3>
+<p><a href="../pdf/PMID30782406_Hodges_2019_JTCVS_Cleveland_n1559_LVOTO.pdf">Hodges 2019 PMID 30782406</a>:</p>
+<ul>
+<li>1,559例中 <strong>522 (33.5%) で MV/subvalvular intervention併施</strong></li>
+<li>内訳: anterior leaflet shortening <strong>16%</strong>, chordae tendineae resection <strong>9.8%</strong>, PM resection <strong>7.2%</strong>, <strong>PM reorientation 7.5%</strong></li>
+<li>MVR 92 (5.9%)</li>
+<li>MV介入群は septum 薄い (18±0.4 vs 22±0.5 mm) + 切除筋量少ない (6.2±3.5 vs 8.8±3.8 g)</li>
+<li>Operative mortality 0.38% 全体 (MV介入ありでも outcome 良好)</li>
+</ul>
+<p><a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026 Cleveland総説</a> の手技記載:</p>
+<ul>
+<li>Papillary muscle relocation/partial resection (Fig 10)</li>
+<li><strong>Papillary muscle re-orientation</strong> (Cleveland独自手技, Fig 11) ― 異所性PM headを posterior less-mobile headに縫着して LVOT 外へ pull</li>
+<li>"current era では MVR は intrinsic MV disease not suitable for repair に限定"</li>
+</ul>
+<p><img src="../figures/fig_anan2026_pm_reorientation.png" alt="Papillary muscle relocation と re-orientation (Ananthanarayanan 2026 Fig 10-11)" /></p>
+<blockquote>
+<p><strong>図 5</strong> Cleveland独自の <strong>papillary muscle 操作</strong>。<strong>上 (Fig 10)</strong>: PM head の partial resection と relocation (A, B, C は PM head)。<strong>下 (Fig 11)</strong>: PM <strong>re-orientation</strong> ― 異所性に LVOT 側を向いた PM head を posterior less-mobile head に縫着し直して LVOT 外へ pull。SAM 機序の subvalvular 病態を解剖学的に正す Cleveland 流の積極的MV介入の象徴的手技。出典: <a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026 Indian J Thorac CV Surg</a></p>
+</blockquote>
+<h3 id="8-3-residual-mr-の重要性-qamarschaffgeskedearanigiudicessiommen-2025">8-3. Residual MR の重要性 (<a href="../pdf/PMID40314635_Qamar_2025_JTCVS_ResidualMR_AfterMyectomy.pdf">Qamar/Schaff/Geske/Dearani/Giudicessi/Ommen 2025</a>)</h3>
+<ul>
+<li>Mayo 2001-2024, n=3,061 全体, propensity match 398 vs 398</li>
+<li><strong>術直後 moderate以上 residual MR: 13.9%</strong></li>
+<li>Late progression (15年で moderate-severe MR): residual MR群 <strong>48.0% vs 11.9%</strong> (P=.002)</li>
+<li>MV reintervention 15年: residual MR群 <strong>14.0% vs 3.9%</strong> (P=.007, 3倍)</li>
+<li><strong>Overall survival は差なし</strong> (P=.48)</li>
+<li>解釈: 術直後の residual moderate以上 MR は <strong>未認識の mild intrinsic MV disease を示唆</strong> ― 単に SAM 解除では不十分なケースがある</li>
+</ul>
+<p><strong>含意</strong>: Clevelandの "積極的MV介入" は理論的にこのlate progression を予防する可能性。<strong>ただし Mayo seriesのoverall survival は良好</strong> ― どの程度の積極介入が必要かは個別判断。</p>
+<h3 id="8-4-ガイドライン-2024-ahaacc-2023-esc">8-4. ガイドライン (2024 AHA/ACC, 2023 ESC)</h3>
+<p>両ガイドラインとも <strong>"LVOTO 解除のみを目的とした MVR は Class III: Harm"</strong> (AHA/ACC) / <strong>MV repair を考慮 Class IIa</strong> (ESC, isolated myectomy後の中等度以上MR時)。Mayo (control myectomy first) と Cleveland (active MV intervention) のどちらも guideline-compliant range にある。</p>
+<hr />
+<h2 id="9-術前計画--imaging-adjuncts">9. 術前計画 ― Imaging Adjuncts</h2>
+<h3 id="9-1-cmr-両ガイドライン-class-i">9-1. CMR (両ガイドライン Class I)</h3>
+<ul>
+<li>中隔分布、fibrosis (gadolinium uptake), MV/subvalvular の形態評価</li>
+<li>2024 AHA/ACC で全例recommended (Class I)</li>
+</ul>
+<h3 id="9-2-exercise-doppler--provocative-catheterization">9-2. Exercise Doppler / Provocative catheterization</h3>
+<ul>
+<li>安静時 gradient &lt;30 mmHg でも 50%は provoked obstruction (<a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">Schaff 2024</a>)</li>
+<li>Outcome は resting / provoked で同等 (Cui 2022)</li>
+</ul>
+<h3 id="9-3-virtual-septal-myectomy-takayama-2019-columbia-jtcvs">9-3. Virtual Septal Myectomy (<a href="../pdf/PMID30578058_Takayama_2019_JTCVS_VirtualMyectomy_Columbia.pdf">Takayama 2019 Columbia JTCVS</a>)</h3>
+<ul>
+<li>3D CT再構成で術前にidealとconservativeのVMを作成</li>
+<li>Retrospective n=15, surgical resection volume 6.2±1.7 cm3、VM予測 12.8 (ideal) / 6.7 (conservative) cm3, R=0.44-0.56</li>
+<li>Hospital mortality 0%, 術後LVOT gradient 13 mm Hg</li>
+<li><strong>Subjectiveな procedure を objective化</strong> する試み ― 普及には課題</li>
+</ul>
+<h3 id="9-4-intracardiac-ultrasound-cleveland-tee-両者必須">9-4. Intracardiac ultrasound (Cleveland), TEE (両者必須)</h3>
+<ul>
+<li>Cleveland: <strong>Toshiba Aplio i900</strong> intracardiac US で術中中隔厚 (<a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">Ananthanarayanan 2026</a>)</li>
+<li>両者とも術中TEE + 直接針穿刺 LV-Ao gradient</li>
+<li>Cleveland: <strong>Isoproterenol provocation</strong> で provoked peak &lt;30 mmHg + MR ≤2+ を retreat基準</li>
+</ul>
+<hr />
+<h2 id="10-日本の文脈">10. 日本の文脈</h2>
+<h3 id="10-1-日本の-transapical-myectomy-経験">10-1. 日本の transapical myectomy 経験</h3>
+<ul>
+<li><strong>PMID 35291875 (Shimizu/Takanashi/Isobe 2022 Asian CV Thorac Ann)</strong>: 榊原記念のtransapical myectomy n=59 (key_papers_abstracts.txt にabstact有、本文未DL)</li>
+<li><strong>PMID 39212331 (Ito/Kato 2024 MMCTS)</strong>: 名古屋赤十字 endoscopic transmitral myectomy with longitudinal AML valvotomy (key_papers_abstracts.txt にabstract有)</li>
+<li><strong>PMID 33271581 (Matsuno 2020 Kyobu Geka)</strong>: transmitral症例報告 (邦文)</li>
+</ul>
+<h3 id="10-2-日本での集約化議論">10-2. 日本での集約化議論</h3>
+<ul>
+<li>国内 high-volume HCM center は数施設に限定</li>
+<li>Volume-Outcome の論理から、症候性obstructive HCM の myectomy 適応症例は <strong>&gt;10例/年 を実施している施設へ紹介すべき</strong></li>
+<li>Maron 2022 の "lost generation" 警告は日本にも当てはまる ― 専門医育成・症例集約が学会レベルの課題</li>
+</ul>
+<h3 id="10-3-ta-bsm-の日本展開">10-3. TA-BSM の日本展開</h3>
+<ul>
+<li>中国Wei グループの専用デバイスは日本未承認 (現時点)</li>
+<li>Mayo × Tongji の比較trial (Qamar 2025) で先進国 evidence が出始めたところ</li>
+<li>日本で導入される場合はWei グループとのcollaboration + 規制対応が必要</li>
+</ul>
+<hr />
+<h2 id="11-結論--ユーザーの質問への直接回答">11. 結論 ― ユーザーの質問への直接回答</h2>
+<h3 id="q1-現在の標準術式は">Q1. 現在の標準術式は?</h3>
+<p>→ <strong>Extended transaortic septal myectomy</strong> (Messmer extended, Mayo refinement)。Morrow原法に対し<strong>遠位 (apex方向) への長さの拡張</strong>が成否を決める。</p>
+<h3 id="q2-アプローチ別の推奨は">Q2. アプローチ別の推奨は?</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>シナリオ</th>
+<th>推奨アプローチ</th>
+<th>根拠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>古典的subaortic obstruction + SAM</td>
+<td><strong>Transaortic</strong></td>
+<td>両施設一致, 両ガイドライン</td>
+</tr>
+<tr>
+<td>Mid-ventricular obstruction (isolated)</td>
+<td>Mayo: <strong>Transapical</strong>, Cleveland: <strong>Transaortic単独</strong></td>
+<td>Sun 2021 vs Maigrot 2024</td>
+</tr>
+<tr>
+<td>Apical HCM + 拡張型</td>
+<td><strong>Apical myectomy</strong> (transapical)</td>
+<td>Schaff 2024</td>
+</tr>
+<tr>
+<td>Long-segment + 複雑形態</td>
+<td><strong>Combined transaortic + transapical</strong> (Mayo) or <strong>Extended transaortic</strong> (Cleveland)</td>
+<td>Hang 2018 vs Maigrot 2024</td>
+</tr>
+<tr>
+<td>Intrinsic MV disease + LVOTO</td>
+<td><strong>Transaortic SM + MV repair</strong> または <strong>Transmitral SM</strong></td>
+<td>Schaff 2024, Wehman 2018</td>
+</tr>
+<tr>
+<td>軽度septum + 主たる原因MV</td>
+<td><strong>Transmitral / Robotic + PM reorientation</strong></td>
+<td>AnandKumar 2020</td>
+</tr>
+<tr>
+<td>手術禁忌・高齢併存</td>
+<td><strong>ASA</strong></td>
+<td>両ガイドライン Class I</td>
+</tr>
+<tr>
+<td>Selected anatomy, less-invasive希望</td>
+<td><strong>TA-BSM</strong> (中国主導, emerging)</td>
+<td>Fang 2025, Qamar 2025</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="q3-cleveland-と-mayo-はコンセンサスありますか">Q3. Cleveland と Mayo はコンセンサスありますか?</h3>
+<p>→ <strong>基本コンセンサスあり、手技選択で哲学差</strong> (詳細は §5)</p>
+<ul>
+<li><strong>一致</strong>: Extended transaortic SM が gold standard、mortality &lt;1%、volume matters、SM &gt; ASA in long-term survival</li>
+<li><strong>対立</strong>: mid/apicalへのアプローチ (Mayo: combined transapical / Cleveland: transaortic単独で可)、MV介入の積極性 (Mayo: 控えめ / Cleveland: 積極)</li>
+<li><strong>両派ともoutcome同等</strong> (mortality &lt;1%) ― 経験豊富施設での実施が決定因子</li>
+</ul>
+<h3 id="q4-volume-requirement-は">Q4. Volume requirement は?</h3>
+<p>→ <strong>少なくとも10例/年</strong>, できれば comprehensive HCM center (Mayo, Cleveland, Tufts, Fuwai, Toronto General等の10施設). <strong>&lt;1例/年施設は死亡率5.4倍</strong> (Holst 2022)。</p>
+<hr />
+<h2 id="12-引用論文一覧-本レビュー本文で引用pmid昇順">12. 引用論文一覧 (本レビュー本文で引用、PMID昇順)</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>PMID</th>
+<th>著者</th>
+<th>年</th>
+<th>誌</th>
+<th>PDF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>28912182</td>
+<td>Nishimura, Seggewiss, Schaff</td>
+<td>2017</td>
+<td>Circ Res</td>
+<td><a href="../pdf/PMID28912182_Nishimura_2017_CircRes_Myectomy-vs-ASA-Review.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>28944173</td>
+<td>Kotkar, Said, Dearani, Schaff</td>
+<td>2017</td>
+<td>Ann Cardiothorac Surg</td>
+<td><a href="../pdf/PMID28944173_Kotkar_2017_AnnCardiothoracSurg_MayoExperience.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>29153286</td>
+<td>Hang, Schaff, Ommen, Dearani, Nishimura</td>
+<td>2018</td>
+<td>JTCVS</td>
+<td><a href="../pdf/PMID29153286_Hang_2018_JTCVS_Combined-Transaortic-Transapical_Mayo.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>29453001</td>
+<td>Wehman, Gammie et al</td>
+<td>2018</td>
+<td>Ann Thorac Surg</td>
+<td><a href="../pdf/PMID29453001_Wehman_2018_AnnThoracSurg_Transmitral_Myectomy.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>30578058</td>
+<td>Takayama, Ginns et al</td>
+<td>2019</td>
+<td>JTCVS</td>
+<td><a href="../pdf/PMID30578058_Takayama_2019_JTCVS_VirtualMyectomy_Columbia.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>30782406</td>
+<td>Hodges, Smedira et al</td>
+<td>2019</td>
+<td>JTCVS</td>
+<td><a href="../pdf/PMID30782406_Hodges_2019_JTCVS_Cleveland_n1559_LVOTO.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>32740992</td>
+<td>AnandKumar, Gillinov, Smedira, Wierup</td>
+<td>2020</td>
+<td>J Card Surg</td>
+<td><a href="../pdf/PMID32740992_AnandKumar_2020_JCardSurg_RoboticTransmitral_Cleveland.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>32771468</td>
+<td>Sun, Schaff, Nishimura, Geske, Dearani, Ommen</td>
+<td>2021</td>
+<td>Ann Thorac Surg</td>
+<td><a href="../pdf/PMID32771468_Sun_2021_AnnThoracSurg_Transapical_MVO.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>33215931</td>
+<td>Ommen et al</td>
+<td>2020</td>
+<td>Circulation</td>
+<td><a href="../pdf/PMID33215931_Ommen_2020_Circulation_AHA-ACC-Guideline.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>35483751</td>
+<td>Cui, Schaff, Wang, Maron, Rastegar, Ommen, Maron</td>
+<td>2022</td>
+<td>JACC</td>
+<td><a href="../pdf/PMID35483751_Cui_2022_JACC_SMvsASA_Survival.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>35779600</td>
+<td>Holst, Schaff, Smedira, Badhwar, Dearani, Takayama, McCarthy</td>
+<td>2022</td>
+<td>Ann Thorac Surg</td>
+<td><a href="../pdf/PMID35779600_Holst_2022_AnnThoracSurg_VolumeOutcome_STSdb.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>35965115</td>
+<td>Maron, Dearani, Smedira, Schaff, Wang, Rastegar et al (10施設)</td>
+<td>2022</td>
+<td>Am J Cardiol</td>
+<td><a href="../pdf/PMID35965115_Maron_2022_AJC_ExpertPanel_60yr.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>36089072</td>
+<td>Ward, Schaff, Dearani</td>
+<td>2023</td>
+<td>Ann Thorac Surg</td>
+<td><a href="../pdf/PMID36089072_Ward_2023_AnnThoracSurg_HowITeachIt.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>36628660</td>
+<td>Robich, Schaff, Chen et al</td>
+<td>2023</td>
+<td>JTCVS</td>
+<td><a href="../pdf/PMID36628660_Robich_2023_JTCVS_SeptalMorphology.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>36631204</td>
+<td>Mentias, Smedira, Desai et al</td>
+<td>2023</td>
+<td>JACC</td>
+<td><a href="../pdf/PMID36631204_Mentias_2023_JACC_SeptalReduction_over65y_Cleveland.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>37622657</td>
+<td>Arbelo, Kaski et al (ESC Task Force)</td>
+<td>2023</td>
+<td>Eur Heart J</td>
+<td><a href="../pdf/PMID37622657_Arbelo_2023_EHJ_ESC-Cardiomyopathy-Guideline.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>37914148</td>
+<td>Schaff, Wei</td>
+<td>2024</td>
+<td>Ann Thorac Surg</td>
+<td><a href="../pdf/PMID37914148_Schaff_2024_AnnThoracSurg_ContemporaryMgmt.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>38368037</td>
+<td>Schaff, Juarez-Casso</td>
+<td>2024</td>
+<td>Am J Cardiol</td>
+<td><a href="../pdf/PMID38368037_Schaff_2024_AJC_SurgicalStrategies.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>38692479</td>
+<td>Maigrot, Weiss, Steely, Blackstone, Smedira</td>
+<td>2024</td>
+<td>JTCVS</td>
+<td><a href="../pdf/PMID38692479_Maigrot_2024_JTCVS_Transaortic_MidApical.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>38718139</td>
+<td>Ommen, Dearani et al (AHA/ACC)</td>
+<td>2024</td>
+<td>Circulation</td>
+<td><a href="../pdf/PMID38718139_Ommen_2024_Circulation_AHA-ACC-Guideline.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>38727647</td>
+<td>Ommen, Dearani et al (AHA/ACC)</td>
+<td>2024</td>
+<td>JACC</td>
+<td><a href="../pdf/PMID38727647_Ommen_2024_JACC_AHA-ACC-Guideline.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>40314635</td>
+<td>Qamar, Schaff, Geske, Dearani, Giudicessi, Ommen</td>
+<td>2025</td>
+<td>JTCVS</td>
+<td><a href="../pdf/PMID40314635_Qamar_2025_JTCVS_ResidualMR_AfterMyectomy.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>40315478</td>
+<td>Fang, Chen, Liu, Li, Wei et al</td>
+<td>2025</td>
+<td>Circ CV Interv</td>
+<td><a href="../pdf/PMID40315478_Fang_2025_CircCVInterv_TA-BSM_LessonsLearned_n418.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>41473065</td>
+<td>Qamar, Li, Geske, Fang, Schaff, Wei</td>
+<td>2025</td>
+<td>JTCVS Open</td>
+<td><a href="../pdf/PMID41473065_Qamar_2025_JTCVSOpen_TA-BSM-vs-Transaortic.pdf">PDF</a></td>
+</tr>
+<tr>
+<td>41613496</td>
+<td>Ananthanarayanan, Smedira et al</td>
+<td>2026</td>
+<td>Indian J Thorac CV Surg</td>
+<td><a href="../pdf/PMID41613496_Ananthanarayanan_2026_IndianJTCVS_ClevelandReview.pdf">PDF</a></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="付録-用語集">付録: 用語集</h2>
+<ul>
+<li><strong>HCM</strong> = Hypertrophic cardiomyopathy</li>
+<li><strong>oHCM</strong> = Obstructive HCM</li>
+<li><strong>LVOT / LVOTO</strong> = Left ventricular outflow tract / obstruction</li>
+<li><strong>SAM</strong> = Systolic anterior motion (of the mitral valve)</li>
+<li><strong>MVO</strong> = Midventricular obstruction</li>
+<li><strong>SM</strong> = Septal myectomy</li>
+<li><strong>ESM</strong> = Extended septal myectomy</li>
+<li><strong>SRT</strong> = Septal reduction therapy (SM または ASA の総称)</li>
+<li><strong>ASA</strong> = Alcohol septal ablation</li>
+<li><strong>TA-BSM</strong> = Transapical beating-heart septal myectomy</li>
+<li><strong>PPM</strong> = Permanent pacemaker</li>
+<li><strong>PM</strong> = Papillary muscle</li>
+<li><strong>AML</strong> = Anterior mitral leaflet</li>
+<li><strong>RPR</strong> = Resection / Plication / Release (Swistel operation)</li>
+<li><strong>AHA/ACC</strong> = American Heart Association / American College of Cardiology</li>
+<li><strong>ESC</strong> = European Society of Cardiology</li>
+<li><strong>STS db</strong> = Society of Thoracic Surgeons Adult Cardiac Surgery Database</li>
+<li><strong>Cardiac Magnetic Resonance</strong> = CMR</li>
+<li><strong>NYHA</strong> = New York Heart Association functional class</li>
+<li><strong>GDMT</strong> = Guideline-directed medical therapy</li>
+</ul>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>
