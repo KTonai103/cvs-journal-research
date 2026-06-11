@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="狭小弁輪 SAVR と弁輪拡大術の統合レビュー（PMID/DOI ハイパーリンク付き）">
+<title>狭小弁輪 SAVR と弁輪拡大術の正当性 — アジア人小体格を起点とした統合レビュー（2026-06 改訂版）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+
+/* citation superscripts */
+sup.cite { font-size: 0.7em; line-height: 0; white-space: nowrap; }
+sup.cite a {
+  color: var(--link); font-weight: 600; text-decoration: none;
+  padding: 0 1px;
+}
+sup.cite a:hover { text-decoration: underline; }
+/* reference list */
+ol.ref-list { padding-left: 0; list-style: none; counter-reset: ref; font-size: 0.82rem; }
+ol.ref-list > li {
+  counter-increment: ref;
+  position: relative;
+  padding: 7px 8px 7px 40px;
+  border-bottom: 1px solid #eee;
+  line-height: 1.5;
+}
+ol.ref-list > li::before {
+  content: counter(ref);
+  position: absolute; left: 0; top: 7px;
+  width: 30px; text-align: right;
+  font-weight: 700; color: var(--accent);
+}
+ol.ref-list > li:target { background: #fff8e1; border-radius: 4px; }
+.ref-title { font-weight: 600; color: var(--fg); }
+.ref-meta { color: var(--muted); }
+.ref-links a {
+  display: inline-block; margin-right: 8px; margin-top: 2px;
+  font-size: 0.78rem; font-weight: 600;
+  padding: 1px 7px; border-radius: 3px; border: 1px solid var(--border);
+  background: var(--light-bg);
+}
+.ref-links a.pmid { color: #0b6e4f; }
+.ref-links a.doi { color: #8a4b08; }
+.ref-links a:hover { text-decoration: none; background: #eef1f5; }
+.review-meta { color: var(--muted); font-size: 0.82rem; margin: -8px 0 18px; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="狭小弁輪-savr-と弁輪拡大術の正当性--アジア人小体格を起点とした統合レビュー2026-06-改訂版">狭小弁輪 SAVR と弁輪拡大術の正当性 — アジア人小体格を起点とした統合レビュー（2026-06 改訂版）</h1>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">要旨</div>
+<p>大動脈弁置換 (AVR) を要する狭小弁輪 (≤21–23 mm)・小体格 (BSA &lt;1.6 m²) 患者に対し、Yang らの <strong>Y-incision</strong> を契機に「3–5 弁サイズ拡大する弁輪拡大術 (AAE) で大型弁を入れ、prosthesis-patient mismatch (PPM) を回避し将来の valve-in-valve (ViV) margin を確保する」という "bigger is better" パラダイムが欧米で急速に標準化している。本レビューは <strong>84 本</strong>の取得文献（2026-06 に 15 本を追加）を統合し、特に<strong>アジア人小体格患者に routine AAE が本当に正当化されるか</strong>を批判的に検証する。要点は次の通り。<strong>(1)</strong> severe PPM (measured iEOA ≤0.65) が長期死亡・心臓死を増やすことは頑健に確立されるが（Head 2012 全死亡 HR 1.84／Sá 2024 n=122,989 で 20年 HR 1.29・心臓死 HR 2.04）<sup class="cite"><a href="#ref-1" title="Head SJ, et al. Eur Heart J 2012;33:1518-1529">[1]</a></sup><sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup>、その「測り方」（measured vs predicted iEOA）が結論を左右する脆弱点であり、予測チャートは PPM を系統的に過小評価する <sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup><sup class="cite"><a href="#ref-4" title="Bilkhu R, et al. Eur Heart J Cardiovasc Imaging 2020 Oct 1;21(10):1115-1123">[4]</a></sup>。<strong>(2)</strong> AAE は PPM を確実に減らす（メタ解析で severe PPM RR 0.61；Y-incision PSM で 23%→5.5%）が、<strong>死亡で利益が出る確証はない</strong>（Tanaka メタで中期死亡 HR 1.03, n.s.）<sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup><sup class="cite"><a href="#ref-6" title="Alexander Makkinejad, et al. Ann Cardiothorac Surg 2024;13(3):255-265">[6]</a></sup>。本テーマに最も近い既発表研究 Makkinejad（matched ≤23 mm 弁輪で AAE vs isolated AVR を PSM、6年生存 98% vs 74%・HR 0.19）は AAE 生存優位の最強シグナルだが、米国・大 BSA・TAVI 対照欠如・術後エコー不足という限界をもつ <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。<strong>(3)</strong> アジア人小体格には interrupted suturing（PPM 56%→29%）<sup class="cite"><a href="#ref-8" title="Tabata M, et al. J Thorac Cardiovasc Surg 2014;147:321-5">[8]</a></sup>、17 mm 高性能機械弁 <sup class="cite"><a href="#ref-9" title="Homare Okamura, et al. Circ J 2012;76:365-371">[9]</a></sup>、supra-annular self-expanding TAVI <sup class="cite"><a href="#ref-10" title="Hiromu Hase, et al. Catheter Cardiovasc Interv 2021;97:E875-E886">[10]</a></sup>、20 mm THV（5年死亡同等）<sup class="cite"><a href="#ref-11" title="Okuno T, et al. JACC Asia 2025;5(2):245-254">[11]</a></sup> という複数の <strong>"AAE 回避ルート"</strong> が成立し、aorto-mitral continuity 8 mm という解剖学的天井 <sup class="cite"><a href="#ref-12" title="Atsuo Maekawa, et al. Artif Organs 2002;26(10):833-839">[12]</a></sup> と Y-AAE 後 severe central MR の合併症シグナル <sup class="cite"><a href="#ref-13" title="Safa Özçelik, et al. J Cardiothorac Surg 2026 (Online ahead of print)">[13]</a></sup> は過拡大の代償を示す。<strong>(4)</strong> RCT は依然 <strong>TAVI vs Y-incision-SAVR を直接比較していない</strong>（RHEIA の外科群は AAE ゼロ＝実質 no-AAE 対照）<sup class="cite"><a href="#ref-14" title="Didier Tchétché et al. (RHEIA Investigators) Eur Heart J 2025;46(22):2079-2088">[14]</a></sup>。結論として、<strong>「狭小弁輪＋小体格に一律 AAE」という規範はエビデンス的に正当化されない</strong>。この空白を、当コンソーシアムが日韓多施設で <strong>AAE-SAVR vs no-AAE SAVR を傾向スコアで直接比較し（self-expanding TAVI 参照、co-primary = measured iEOA による severe PPM・1 年平均圧較差、安全性 = AAE 後 MR）</strong> 検証する研究が <strong>SAKURA-AVR</strong> である（2026-06-11_SAKURA-AVR_protocol）。本レビューはその科学的背景・エンドポイント・方法論の根拠を 9 章で提示する。</p>
+</div>
+
+<hr />
+<h2 id="0-はじめに--問いと本レビューの構成">0. はじめに — 問いと本レビューの構成</h2>
+<p>成人重症大動脈弁狭窄症に対する surgical AVR (SAVR) は操作死亡 1–2% に達し、関心は「いかに死なせないか」から「いかに最良の血行動態と長期予後を残すか」へ移った。その中心に PPM 回避があり、さらに将来の ViV-TAVR を見据えた <strong>"先回りの大型化"</strong> 戦略として、Yang ら (Univ Michigan) の Y-incision AAE が 2021 年以降に欧米で急速に普及した。一方、同じ「狭小弁輪＋予想 PPM」に対し <strong>JCS 2020（日本）は TAVI を推奨</strong>し、ACC/AHA・ESC/EACTS の root enlargement 志向とは方向が逆転している。この乖離は単なる学派の差ではなく、欧米コホート（BSA ≥1.8 m²、annulus 21 mm）と<strong>アジア人小体格</strong>（BSA 1.3–1.5 m²、annulus 17–20 mm、aorto-mitral continuity 8 mm）の解剖学的前提の差に根ざす。</p>
+<p>本レビューの問いは一貫して <strong>「Yang の魅力的な technical paper を契機に欧米で進む routine AAE の標準化は、アジア人小体格にもそのまま転用できるのか」</strong> である。これは、(Primary) 狭小弁輪＋小体格で AAE 付き SAVR は AAE なし SAVR / TAVI よりアウトカムを改善するか、(Secondary) 将来の ViV を見据えた初回弁径は何 mm 必要で 19 mm は許容か、(Tertiary) アジア人特有の解剖を反映した手術戦略はどうあるべきか、の 3 つの research question (RQ) に分解される。</p>
+<p>以下、§1 で PPM の長期予後と「測定 vs 予測」iEOA の方法論的争点、§2 で AAE 4 法（古典原著を含む）と解剖学的限界・メタ解析、§3 で Y-incision の手技・成績・合併症・アジア圏展開、§4 でアジア人小体格コホートの特殊性と「AAE 回避」エビデンス、§5 で TAVI vs SAVR の小弁輪 RCT（SMART/VIVA/RHEIA）、§6 で ViV-TAVR と初回 sizing（19 mm 許容性）、§7 で sutureless 代替戦略、§8 で機械弁 vs 生体弁とガイドライン乖離、§9 で本テーマに最も近い先行研究と残された gap・<strong>SAKURA-AVR 提案</strong>を論じ、§10 で 3 つの RQ に解答する。引用は本文中の上付き番号 [N] から巻末参考文献（PMID/DOI ハイパーリンク付き）へ辿れる。</p>
+<h2 id="1-prosthesis-patient-mismatch-ppm-の長期予後と測定-vs-予測ieoa">1. Prosthesis-Patient Mismatch (PPM) の長期予後と「測定 vs 予測」iEOA</h2>
+<p>狭小弁輪 AVR をめぐる議論の出発点は、植え込まれた人工弁の有効弁口面積（effective orifice area, EOA）が患者の心拍出需要に対して相対的に小さいために、正常機能の弁であっても異常な圧較差を生じる Prosthesis-Patient Mismatch (PPM) という概念である。SAKURA-AVR が co-primary endpoint として「measured indexed EOA (iEOA) ≤0.65 cm²/m² で定義する severe PPM」を採用している以上、本レビューはまず (1) PPM 定義の確立過程、(2) その長期予後への定量的影響、(3) 「測定 (measured) vs 予測 (predicted/projected) iEOA」という方法論的争点 — の三点を批判的に整理する必要がある。</p>
+<h3 id="11-定義の確立と-ieoa-閾値">1.1 定義の確立と iEOA 閾値</h3>
+<p>PPM は Rahimtoola が 1978 年に「植え込まれた人工弁の有効面積が正常成人弁より小さい状態」として概念化した <sup class="cite"><a href="#ref-15" title="Pibarot P, et al. J Am Coll Cardiol 2000;36:1131-41">[15]</a></sup>。これを定量化可能な指標へと昇華させたのが Pibarot/Dumesnil の 2000 年 JACC 論文であり、iEOA = prosthesis EOA / patient BSA を定義し、<strong>moderate PPM ≤0.85 cm²/m²、severe PPM ≤0.65 cm²/m²</strong> という現在まで標準として用いられる閾値を提唱した <sup class="cite"><a href="#ref-15" title="Pibarot P, et al. J Am Coll Cardiol 2000;36:1131-41">[15]</a></sup>。その物理的本質は transvalvar gradient = flow² / EOA² という流体力学関係にあり、同一の 1.3 cm² 弁でも患者 BSA が 1.5 → 2.5 m² と大きくなれば安静時 mean gradient は 13 → 35 mmHg に上昇し、運動時には二乗関係でさらに増悪する <sup class="cite"><a href="#ref-16" title="Pibarot P, et al. Heart 2006 Aug;92(8):1022-1029">[16]</a></sup>。この閾値は 34 研究中 27/34 (79%) で採用され、2009 年 ASE/EACVI ガイドラインで endorse されることで業界標準化された <sup class="cite"><a href="#ref-17" title="Pibarot P, et al. J Am Coll Cardiol 2012;60(13):1136-9">[17]</a></sup><sup class="cite"><a href="#ref-1" title="Head SJ, et al. Eur Heart J 2012;33:1518-1529">[1]</a></sup>。重要なのは、EOA は実際に血流が通る面積であって、メーカー spec の internal geometric area (IGA) や sewing ring 径とは異なり、IGA は EOA を過大評価して術後 gradient との相関を欠くため、<strong>iEOA が唯一の validated parameter</strong> とされる点である <sup class="cite"><a href="#ref-17" title="Pibarot P, et al. J Am Coll Cardiol 2012;60(13):1136-9">[17]</a></sup><sup class="cite"><a href="#ref-16" title="Pibarot P, et al. Heart 2006 Aug;92(8):1022-1029">[16]</a></sup>。</p>
+<h3 id="12-長期予後へのインパクト--severity-dependent">1.2 長期予後へのインパクト — severity-dependent</h3>
+<p>PPM の予後影響は重症度依存的であり、severe PPM が一貫して致命的である。主要メタ解析・コホートの数値を以下に集約する。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>研究</th>
+<th>n</th>
+<th>指標</th>
+<th>Moderate PPM</th>
+<th>Severe PPM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Head 2012 (meta) <sup class="cite"><a href="#ref-1" title="Head SJ, et al. Eur Heart J 2012;33:1518-1529">[1]</a></sup></td>
+<td>27,186</td>
+<td>全死亡 HR</td>
+<td>1.19 (1.07-1.33)</td>
+<td>1.84 (1.38-2.45)</td>
+</tr>
+<tr>
+<td>Head 2012 (meta) <sup class="cite"><a href="#ref-1" title="Head SJ, et al. Eur Heart J 2012;33:1518-1529">[1]</a></sup></td>
+<td>27,186</td>
+<td>心臓死 HR</td>
+<td>1.32 (1.02-1.71)</td>
+<td>6.46 (2.79-14.97)</td>
+</tr>
+<tr>
+<td>Sá 2024 (recon-IPD) <sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup></td>
+<td>122,989</td>
+<td>20年全死亡 HR</td>
+<td>1.09 (1.06-1.11)</td>
+<td>1.29 (1.24-1.35)</td>
+</tr>
+<tr>
+<td>Sá 2024 <sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup></td>
+<td>122,989</td>
+<td>心臓死 HR (15y)</td>
+<td>1.41 (1.11-1.79)</td>
+<td>2.04 (1.52-2.77)</td>
+</tr>
+<tr>
+<td>Sá 2024 <sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup></td>
+<td>122,989</td>
+<td>弁再介入 HR (15y)</td>
+<td>0.98 (n.s.)</td>
+<td>1.75 (1.41-2.17)</td>
+</tr>
+<tr>
+<td>Mohty 2009 (single-center) <sup class="cite"><a href="#ref-18" title="Mohty D, et al. J Am Coll Cardiol 2009;53:39-47">[18]</a></sup></td>
+<td>2,576</td>
+<td>10年生存</td>
+<td>57±3%</td>
+<td>40±10%</td>
+</tr>
+</tbody>
+</table></div>
+<p>Head 2012 は any PPM の全死亡 HR を 1.34 (1.18-1.51) とし、severe で心臓死を 6.46 倍に増加させることを示した <sup class="cite"><a href="#ref-1" title="Head SJ, et al. Eur Heart J 2012;33:1518-1529">[1]</a></sup>。これを 122,989例 / 592,952 patient-years の reconstructed-IPD で更新した Sá 2024 は、25年で any PPM の生存率が 11.8% vs 20.6% (HR 1.16) と差が拡大し、RMST 差で約2年の余命短縮、20年で moderate −7.4% / severe −10.7% の絶対差を報告した <sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup>。すなわち「<strong>追跡が長いほど PPM の悪影響は顕在化する</strong>」のであり、これは moderate PPM を臨床的に無視できるとする見解（SWEDEHEART）への直接反論となる <sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup>。Mohty 2009 の単施設コホートは絶対値として severe PPM が 10年生存を 40±10% まで落とすことを示し、加えて重要な effect modifier を同定した — severe PPM の悪影響は <strong>&lt;70歳 (HR 1.77)、BMI &lt;30 (HR 1.59)、LVEF &lt;50%</strong> の患者で顕著で、高齢・肥満者では消失する <sup class="cite"><a href="#ref-18" title="Mohty D, et al. J Am Coll Cardiol 2009;53:39-47">[18]</a></sup>。痩せ型 (BMI&lt;30) で影響が増幅する点は、一般に低 BMI のアジア人小体格患者で PPM 感受性が高い可能性を示唆する <sup class="cite"><a href="#ref-18" title="Mohty D, et al. J Am Coll Cardiol 2009;53:39-47">[18]</a></sup>。さらに Mohty 2014 は、preoperative paradoxical low-flow (PLF) と postoperative PPM が共存する coreグループで 10年生存 38±9% vs 70±5% (HR 2.58) と、PLF/PPM 群がより小さい弁 (21.9 vs 23.2 mm) を受けやすい構造的悪循環を示した <sup class="cite"><a href="#ref-19" title="Mohty D, et al. Circulation 2014;130[suppl 1]:S25-S31">[19]</a></sup>。これらは「狭小弁輪＋小 BSA＋低 LVEF/低流量」という、まさに AAE の適応を検討すべき患者像を浮き彫りにする。</p>
+<h3 id="13-測定-vs-予測ieoa--sakura-avr-の方法論的核心">1.3 「測定 vs 予測」iEOA — SAKURA-AVR の方法論的核心</h3>
+<p>ここで本レビューが最も批判的に扱うべきは、severe PPM をどう「測る」かである。iEOA は (a) 弁モデル・サイズごとの参照 EOA をチャートから引いて BSA で割る <strong>predicted/projected iEOA</strong> と、(b) 退院前/術後エコーで continuity equation により実測する <strong>measured iEOA</strong> の二通りで算出され、両者は大きく乖離する。Pibarot 自身が著者に名を連ねる 2020 年 EHJ-CI 論文（Vriesendorp/PERIGON, n=494）は、projected と measured iEOA の相関がわずか <strong>r=0.50</strong> で、PPM 誤分類率 30%（severe PPM では misclassification 22%、感度わずか13%・特異度98%）であることを示し、「<strong>EOAi charts should not be used by surgeons and cardiologists to predict PPM in individual patients before surgery</strong>」と自己批判的に結論した <sup class="cite"><a href="#ref-4" title="Bilkhu R, et al. Eur Heart J Cardiovasc Imaging 2020 Oct 1;21(10):1115-1123">[4]</a></sup>。同論文は size 別精度も示し、<strong>19mm では misclassification 5% と良好</strong>だが 27mm では 42% と最悪である点が、19mm 弁の許容性議論には projected chart がなお有用、一方で大型化 (AAE) の妥当性評価には projected が無効、という非対称性を示す <sup class="cite"><a href="#ref-4" title="Bilkhu R, et al. Eur Heart J Cardiovasc Imaging 2020 Oct 1;21(10):1115-1123">[4]</a></sup>。</p>
+<p>方向性については、Abushouk 2023 が 8 研究をレビューし、<strong>predicted iEOA は真の PPM を系統的に過小評価する</strong>ことを示した（Ternacle PARTNER: 予測 moderate 10%/severe 1% vs 実測 27%/17%, P&lt;.001; PARTNER 2 SAVR: 予測 28.4%/1.2% vs 実測 31.0%/<strong>23.6%</strong>）<sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup>。一方で measured iEOA も万能ではなく、TAVR 患者の最大45%が low-flow (SVi&lt;35 mL/m²) で弁尖が完全開放せず measured EOA が小さく出る、すなわち <strong>measured は逆に PPM を過大評価しうる</strong>という対称的バイアスを抱える <sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup>。Sá 2024 も Doppler 測定 iEOA は pressure recovery 未補正で severe率を 17%→1% と過大評価しうると警告し、効果量も in vivo HR 1.13 に対し Doppler HR 1.36 と測定法で異なることを示した <sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup>。Abushouk は総じて Bleiziffer 2007 を引いて measured iEOA が最良の診断精度をもつと位置づけ、manufacturer チャート・indexed GOA の信頼性の低さを指摘する <sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup>。</p>
+<p>これらは SAKURA-AVR の設計に直接的含意をもつ。SAKURA が severe PPM を <strong>measured iEOA ≤0.65</strong> で一次定義し projected を感度解析に回す設計は、「predicted は PPM を過小評価する」という Abushouk および Fallacy 論文の知見によって citable に正当化される <sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup><sup class="cite"><a href="#ref-4" title="Bilkhu R, et al. Eur Heart J Cardiovasc Imaging 2020 Oct 1;21(10):1115-1123">[4]</a></sup>。同時に二つの留保が必要である。第一に、SAKURA がアジア人小体格 (BSA ≈1.3-1.6 m²) を対象とする以上、欧米中心コホートで導出された projected chart の予測精度も、Pibarot 閾値の人種・体格 transferability も未検証であり、measured PPM 率の解釈には測定法バイアスを E-value 感度分析で明示すべきである <sup class="cite"><a href="#ref-4" title="Bilkhu R, et al. Eur Heart J Cardiovasc Imaging 2020 Oct 1;21(10):1115-1123">[4]</a></sup><sup class="cite"><a href="#ref-2" title="Michel Pompeu Sá, et al. J Am Heart Assoc 2024;13(7):e033176">[2]</a></sup>。第二に、Ternacle の 2 研究では measured PPM と臨床アウトカムの有意な関連が認められなかったため、measured severe PPM を硬い予後指標へ短絡的に転写することには慎重を要する <sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup>。要するに、severe PPM の予後的悪性は頑健に確立されている一方、その「測り方」自体が結論を左右しうる脆弱点であり、ここに小体格アジア患者への AAE の routine 適用を無条件に正当化できない論理的余地が残る。</p>
+<h2 id="2-弁輪拡大術-aae-4-法--古典原著解剖学的限界メタ解析">2. 弁輪拡大術 (AAE) 4 法 — 古典原著・解剖学的限界・メタ解析</h2>
+<p>弁輪拡大術 (aortic annular enlargement; AAE) は、狭小大動脈弁輪に対して物理的に弁輪を拡げ、より大径の人工弁を植え込むことで患者-人工弁ミスマッチ (patient-prosthesis mismatch; PPM) を回避する外科戦略である。本章では古典 4 法 (Nicks / Manouguian / Konno / Y-incision) の原著に立ち返り、各法が得られる拡大量と固有のリスク、Asian の解剖学的限界、そして現代メタ解析が示す「AAE は本当に予後を改善するのか」という問いを批判的に検討する。SAKURA-AVR は AAE-SAVR (Arm2) vs no-AAE SAVR (Arm1) を PSM で比較し、co-primary endpoint に measured indexed EOA ≤0.65 cm²/m² の severe PPM と 1 年平均圧較差、secondary に中期生存、safety に AAE 後 mitral regurgitation を据えるが、これらの問いの起点はすべて以下の古典原著に遡る。</p>
+<h3 id="2-1-3-つの古典原著--拡大量と侵襲度のスペクトラム">2-1. 3 つの古典原著 — 拡大量と侵襲度のスペクトラム</h3>
+<p><strong>Nicks 法 (1970, Sydney)</strong> は AAE の技術的源流である。Nicks らは「aortic ring・近位大動脈の径が実質的に 2.5 cm 未満」を低形成基部と定義し、非冠尖 (non-coronary cusp; NCC) から僧帽弁起始部まで aortotomy を後方限局で延長し、woven Dacron 由来の舌状 gusset を挿入して size 8A も入らない弁輪を size 9 (外径 22mm)〜10 (外径 24mm) に拡げた <sup class="cite"><a href="#ref-20" title="R. Nicks, et al. Thorax 1970;25(3):339-346">[20]</a></sup>。n=5 (死亡 2 / 生存 3) の case series ながら、Discussion で示された <strong>size 8A 弁群の死亡率 45% vs size 9 弁群の死亡率 9%</strong> という観察は、PPM 概念以前に「弁輪を拡大せず小型弁を強行すると予後が悪い」という AAE の仮説的根拠を最初に明文化した点で歴史的に重要である <sup class="cite"><a href="#ref-20" title="R. Nicks, et al. Thorax 1970;25(3):339-346">[20]</a></sup>。</p>
+<p><strong>Manouguian 法 (1979, Göttingen/Tübingen)</strong> は、aortotomy を左冠尖–無冠尖交連から intervalvular trigone を貫いて前尖 (anterior mitral leaflet) 起始部へ約 1cm 延長し、fusiform な Dacron または心膜パッチを V 字欠損に縫着する術式で、約 1cm の延長で弁輪を 15mm 拡大、8 例での拡大レンジは 10–25mm であった <sup class="cite"><a href="#ref-21" title="Sahin Manouguian, et al. J Thorac Cardiovasc Surg 1979;78(3):402-412">[21]</a></sup>。原著は成人の適応に「aortic valve diameter &lt; 21mm の狭小弁輪」を明記し、原弁輪径 15–25mm に Björk-Shiley No.23–27 を植え込んでいる <sup class="cite"><a href="#ref-21" title="Sahin Manouguian, et al. J Thorac Cardiovasc Surg 1979;78(3):402-412">[21]</a></sup>。重要なのは、本原著が SAKURA の safety endpoint である「AAE 後 MR」の初出臨床根拠である点で、n=8 中 4 例 (Case 1,2,6,8) で僧帽弁機能障害なし、1 例で術前 MR 持続、<strong>Case 4 で心膜パッチが前尖から破断し術後 4 日に急性 MR→MVR</strong> という failure mode が記載されている <sup class="cite"><a href="#ref-21" title="Sahin Manouguian, et al. J Thorac Cardiovasc Surg 1979;78(3):402-412">[21]</a></sup>。著者自身が「前尖初期部まで約 1cm の延長なら永続的障害はないが、appositional portion まで延長するとパッチ収縮・前尖変形による機能障害は否定できない」と安全な延長閾値を明示しており、これは Manouguian 系の MR リスクの本質を突いている <sup class="cite"><a href="#ref-21" title="Sahin Manouguian, et al. J Thorac Cardiovasc Surg 1979;78(3):402-412">[21]</a></sup>。</p>
+<p><strong>Konno 法 (1975, 東京女子医大)</strong> は、市販人工弁の最小外径 17mm すら入らない超狭小先天性弁輪に対し、前方 aortotomy を心室中隔まで縦切開し右室流出路へ延長、両心室流出路を二層 fusiform Dacron patch で再建する aortoventriculoplasty で、<strong>弁輪を原径の約 2 倍まで拡大可能</strong>とした <sup class="cite"><a href="#ref-22" title="Soji Konno et al. J Thorac Cardiovasc Surg 1975;70(5):909-917">[22]</a></sup>。原径 11mm/13mm の弁輪に Björk-Shiley No.19 AB / No.21 AB を留置し、Case 2 (23 歳女性) は術後 1 年で正常生活、中隔切開にもかかわらず脚ブロックを認めなかった <sup class="cite"><a href="#ref-22" title="Soji Konno et al. J Thorac Cardiovasc Surg 1975;70(5):909-917">[22]</a></sup>。本邦・日本人 2 例から生まれた術式であり、Keio 大 Sohma &amp; Inoue の独立報告とあわせ、AAE が Asian congenital AS 集団を発祥地の一つとすることを示す <sup class="cite"><a href="#ref-22" title="Soji Konno et al. J Thorac Cardiovasc Surg 1975;70(5):909-917">[22]</a></sup>。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>術式</th>
+<th>切開到達範囲</th>
+<th>拡大量</th>
+<th>固有リスク</th>
+<th>原著 n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nicks (1970)</td>
+<td>NCC→僧帽弁起始部 (後方限局)</td>
+<td>1–2 size up</td>
+<td>限定的拡大</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Manouguian (1979)</td>
+<td>trigone→前尖へ約1cm</td>
+<td>15mm (10–25mm) / 1–2 size</td>
+<td>MR (前尖切開・パッチ破断)</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Konno (1975)</td>
+<td>心室中隔→右室流出路</td>
+<td>原径の約2倍</td>
+<td>伝導障害・高侵襲</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Y-incision (Yang/Hassler)</td>
+<td>aorto-mitral curtain を violate せず</td>
+<td>3–5 size up</td>
+<td>LVOT 不拡大 (利点と主張)</td>
+<td>119</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="2-2-hasslernicksmanouguian-は-obsolete-かと-y-aae-の挑戦">2-2. Hassler「Nicks/Manouguian は obsolete か」と Y-AAE の挑戦</h3>
+<p>Hassler ら (Univ Michigan, 2024) は古典法が「Nicks=数 mm/1 size、Manouguian=1–2 size で MR risk」に留まる限界を指摘し、Y-incision (Y-AAE) を提示した <sup class="cite"><a href="#ref-23" title="Kenneth R. Hassler, et al. Semin Thorac Cardiovasc Surg PedCardSurgAnnu 2024;27:25-36">[23]</a></sup>。Y-AAE は LCC–NCC commissure から aorto-mitral curtain へ向かい両 trigone を "into not through" (2–3mm 残す) で切開し、LVOT を violate せず前尖を温存したまま 3–5 size の upsize を可能にする <sup class="cite"><a href="#ref-23" title="Kenneth R. Hassler, et al. Semin Thorac Cardiovasc Surg PedCardSurgAnnu 2024;27:25-36">[23]</a></sup>。119 連続例 (median annulus 21mm、女性 67%、BSA 2.0 m²) で <strong>operative mortality 0.8%、stroke 0.8%、moderate/severe PPM 0%、size 27+ を 88% 達成、postop mean gradient 6 mmHg、AVA 2.2 cm²、iEOA 1.1 cm²/m²</strong> という成績を示し、MR はむしろ改善 (moderate 11%→8%、severe 3%→0%) した <sup class="cite"><a href="#ref-23" title="Kenneth R. Hassler, et al. Semin Thorac Cardiovasc Surg PedCardSurgAnnu 2024;27:25-36">[23]</a></sup>。著者は「adult valvular AS では LVOT/basal ring は正常で AVR は supra-annular に配置するため LVOT 拡大は不要」と論じ、"Y-AAE is safer + more effective than Nicks/Manouguian" と結論づける <sup class="cite"><a href="#ref-23" title="Kenneth R. Hassler, et al. Semin Thorac Cardiovasc Surg PedCardSurgAnnu 2024;27:25-36">[23]</a></sup>。ただし follow-up は median 1 年で、long-term durability と ViV 後成績は未検証である <sup class="cite"><a href="#ref-23" title="Kenneth R. Hassler, et al. Semin Thorac Cardiovasc Surg PedCardSurgAnnu 2024;27:25-36">[23]</a></sup>。</p>
+<h3 id="2-3-asian-の解剖学的限界--aorto-mitral-continuity-という天井">2-3. Asian の解剖学的限界 — aorto-mitral continuity という天井</h3>
+<p>「3–5 size up が可能なら常に最大拡大すべき」という論理に対し、Asian 解剖は明確な制約を課す。Maekawa ら (名古屋大, 2002) は AVR+MVR + Manouguian で aorto-mitral (AM) continuity を再建する 3 例の幾何学解析から、aortic mechanical valve が mitral prosthesis に押されて dysfunction を起こすのを避けるため、<strong>mitral annulus 拡大は 25mm 未満に制限すべき</strong>と定量した <sup class="cite"><a href="#ref-12" title="Atsuo Maekawa, et al. Artif Organs 2002;26(10):833-839">[12]</a></sup>。式 D = L − B/π において、<strong>日本人平均 AM continuity 長 L = 8mm</strong> (40 例の健常成人 TTE) を代入すると、2 valve 間距離 D &gt; 0 を維持するには B &lt; πL ≈ 25mm が要請される <sup class="cite"><a href="#ref-12" title="Atsuo Maekawa, et al. Artif Organs 2002;26(10):833-839">[12]</a></sup>。実際 3 例中 1 例 (Case 1) で aortic mechanical valve dysfunction が生じ、弁回転で resolve した <sup class="cite"><a href="#ref-12" title="Atsuo Maekawa, et al. Artif Organs 2002;26(10):833-839">[12]</a></sup>。この <strong>AM continuity 8mm</strong> という Asian-specific 解剖値は、SAKURA の Asian cohort における拡大限界と post-AAE MR リスクを理解する foundational data である。同様に Masaki ら (宮城こども病院/岩手医大, 2026) は 9 歳男児 (BSA 1.0 m²、annulus 21mm) に modified Nicks (small Y-shape: LCC 側 5mm・NCC 側 7mm + 12mm 幅 J-Graft patch) で 21mm St Jude Regent を留置し 3 年無症状とし、Yang の 3–5 size up は小児で過剰侵襲・LCC 広範切開で left coronary kinking、NCC 広範切開で長期 MV deterioration の懸念があると批判して "1 size up minimum invasion" を主張する <sup class="cite"><a href="#ref-24" title="Naoki Masaki, et al. Pediatr Cardiol 2026 (Online ahead of print)">[24]</a></sup>。Masaki は「<strong>日本人男性で 19mm 機械弁は PPM リスクがあり 21mm 以上を目指すべき</strong>」と明言しており、SAKURA secondary RQ (19mm 許容性) に対する日本人外科医の立場を直接示す <sup class="cite"><a href="#ref-24" title="Naoki Masaki, et al. Pediatr Cardiol 2026 (Online ahead of print)">[24]</a></sup>。中間的なアプローチとして Malfitano ら (UNC, 2022) は modified Manouguian (aorto-mitral curtain を incise せず Y 形 aortotomy + パッチ) の 13 例で <strong>operative mortality 0%、PPM 0%、1–2 size upsize 100%</strong> を達成したが、size 19 を 4 例 (31%) で留置し 1 例で推奨 size 21 に届かず、conservative AAE の限界も露呈した <sup class="cite"><a href="#ref-25" title="Madison J. Malfitano, et al. J Card Surg 2022;37(3):574-578">[25]</a></sup>。</p>
+<h3 id="2-4-メタ解析が突きつけるnull-寄りの真実">2-4. メタ解析が突きつける「null 寄りの真実」</h3>
+<p>Tanaka ら (2024) の system review・meta-analysis は 15 観察研究・<strong>全 216,654 例 (AAE 7,967 / no-AAE 208,687)</strong> を統合した最も網羅的な集積である <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。結論は二面的である。第一に、未調整 study では AAE 群の周術期死亡が高い (RR 1.34, 1.02–1.76) が、<strong>PSM/調整 study ではこの差は消失する (RR 1.06, 0.69–1.61)</strong> <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。第二に、AAE は確かに PPM を減らす — <strong>重症 PPM (iEOA≤0.65) RR 0.61 (0.40–0.93)、中等度以上 PPM (iEOA≤0.85) RR 0.70 (0.58–0.84)</strong> <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。しかしこの PPM 改善が予後に翻訳される確証はなく、<strong>中期死亡 HR 1.03 (0.95–1.11)、AV 再介入 HR 0.98 (0.75–1.27)、心不全 HR 1.06 (0.86–1.30)</strong> といずれも有意差を欠く <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。GRADE は low〜very low、RCT なし、mean follow-up 10 年超の比較 study は皆無で、含まれた術式は Nicks・Manouguian 主体・<strong>Konno/Y-incision を用いた study は 1 つもなく</strong>、拡大量もせいぜい 1–2 size に留まる <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。著者は「術式そのものより弁の upsizing と PPM 回避の成功が本質」「マッチは植込弁径でなく術前弁輪径で行うべき」と提言する <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。</p>
+<p>このメタ解析の含意は SAKURA にとって決定的である。<strong>重症 PPM RR 0.61</strong> は SAKURA co-primary (measured iEOA≤0.65 の severe PPM・1 年平均圧較差) で AAE が PPM を減らす主機序を裏づける一方、<strong>死亡で利益が出ない (HR≈1)</strong> という事実は「PPM 改善が中期生存に必ずしも翻訳されない」という反証可能性を提示し、SAKURA key secondary (中期 survival/MACE) の解釈枠組みを与える <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。さらに Asian subgroup の個別解析はなく、Y-incision を含む最新技法も不在であることから、Asian 小体格に特化した戦略の直接エビデンスは不足しており、まさに SAKURA が埋めるべき gap が明確化される <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。総じて、古典 4 法は「拡大量と侵襲のトレードオフ」を体現し、Y-AAE は拡大量で優越するが long-term と Asian validation を欠き、メタ解析は PPM 改善は確実だが生存改善は未証明という状況にある。Asian 小体格患者で routine AAE が正当化されるか否かは、AM continuity 8mm という解剖学的天井と「PPM 改善が予後に翻訳されるか」という未解決の問いに照らして、SAKURA の measured iEOA・1 年圧較差・中期生存・post-AAE MR の同時評価によってのみ答えうる。</p>
+<h2 id="3-y-incision--手技成績比較研究合併症アジア圏展開">3. Y-incision — 手技・成績・比較研究・合併症・アジア圏展開</h2>
+<h3 id="31-手技の確立と単施設パイロットデータ">3.1 手技の確立と単施設パイロットデータ</h3>
+<p>Bo Yang らが2020年8月に University of Michigan で開発した Y-incision/rectangular patch 法は、left non-coronary commissure を aorto-mitral curtain へ向けて切開し左右の fibrous trigone まで延長、矩形 Hemashield Dacron patch を curtain に沿って縫合することで弁輪を3-5弁サイズ upsize する手技である。Nicks（upsize能 1）・Manouguian（1-2）・Konno（2-3）を凌駕する拡大能を持つ点が最大の特徴とされる <sup class="cite"><a href="#ref-26" title="Sarah A. Chen, et al. Ann Thorac Surg 2025;119:1151-1165 (Invited Expert Review)">[26]</a></sup>。最初の前向き n=50 報告では native annulus median 21mm（女性70%、BSA 1.93m²）に対し median 3弁サイズ upsize（最終 size 27が54%、29が44%）、operative mortality 0%、pacemaker 0%、stroke 2%、postop mean gradient 7 mmHg、AVA 1.9 cm²、aortic root 27→40mm という成績を示した <sup class="cite"><a href="#ref-27" title="Bo Yang, et al. J Thorac Cardiovasc Surg 2024;167:1196-1205">[27]</a></sup>。その後 n=142 連続例では operative mortality 1/142 (0.7%)、pacemaker 1.4%、mean gradient 6-7 mmHg、AVA 2.4 cm²、LV mass index 41% regression、root 27→40mm/STJ 29→36mm と再現された <sup class="cite"><a href="#ref-28" title="Bo Yang Ann Cardiothorac Surg 2024;13(3):294-302">[28]</a></sup>。手技改良として、矩形 patch 下縁の tensing と AML 過剰縫合による MR を防ぐ Arc modification（patch短辺に0.5-1cm高×2-2.5cm幅の弧を切り抜く）が n=17 で hemostasis 問題なく導入された <sup class="cite"><a href="#ref-29" title="Bo Yang, et al. Ann Thorac Surg Short Rep 2025;3:14-17">[29]</a></sup>。Roof technique・wider patch・fibrous trigone まで届かせること（不十分だと1-2サイズしか upsizeできない）が成功の鍵とされる <sup class="cite"><a href="#ref-30" title="Bo Yang, et al. Ann Cardiothorac Surg 2024;13(3):308-310">[30]</a></sup>。累積 n=229 では3年時 mean gradient 5 mmHg、EOA 2.7 cm²、iEOA 1.32 cm²/m²、HALT 2/229（apixaballで消失）、tilt 1/229、left coronary torsion 0/229、Y-AAE後 mitral repair 0/229 が報告され、STS database でも AAE実施率は2020-2023年に8→13%（女性18→27%）へと急速に普及している <sup class="cite"><a href="#ref-31" title="Bo Yang, et al. Ann Thorac Surg 2026 (Editorial, in press)">[31]</a></sup>。</p>
+<h3 id="32-比較研究traditional-aaeおよびisolated-avrとの対比">3.2 比較研究：traditional AAEおよびisolated AVRとの対比</h3>
+<p>Makkinejad らによる Y-incision vs Nicks/Manouguian の初の propensity-matched 比較（103 pairs、両群とも median annulus 21mm）は、本手技の中核的エビデンスである。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th>Traditional AAE</th>
+<th>Y-incision</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operative mortality</td>
+<td>4.9%</td>
+<td>2.9%</td>
+<td>0.72</td>
+</tr>
+<tr>
+<td>Pacemaker</td>
+<td>2.9%</td>
+<td>0%</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td>Implanted size (median)</td>
+<td>23</td>
+<td>27</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>Mean gradient (1yr)</td>
+<td>10 mmHg</td>
+<td>7 mmHg</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>iEOA</td>
+<td>0.86</td>
+<td>1.05</td>
+<td>0.002</td>
+</tr>
+<tr>
+<td>Moderate/severe PPM</td>
+<td>23%</td>
+<td>5.5%</td>
+<td>0.039</td>
+</tr>
+<tr>
+<td>Severe PPM</td>
+<td>4.5%</td>
+<td>0%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>1yr survival</td>
+<td>95%</td>
+<td>97%</td>
+<td>0.54</td>
+</tr>
+</tbody>
+</table></div>
+<p>operative mortality は同等のまま PPM を23%→5.5%に低減し、size 19/21留置を回避できる点が示された <sup class="cite"><a href="#ref-6" title="Alexander Makkinejad, et al. Ann Cardiothorac Surg 2024;13(3):255-265">[6]</a></sup>。著者らは続報で、Nicks も Manouguian も Y-incision も「surgical aortic annulus（crown形）を越えて patch で拡大する」点で共通とし、未発表データとして「男性 AS では size 29留置 SAVR のみが general-population matched survival を達成」と主張した <sup class="cite"><a href="#ref-32" title="Alexander Makkinejad, et al. Ann Thorac Surg 2025;120:799-805 (Correspondence)">[32]</a></sup>。Chen の招待レビューは matched-annulus 解析で AAE群の6年生存98% vs isolated AVR 74%（HR 0.19、P=0.016）を引用し、size 19-21が operative OR 11.4・long-term HR 2.05-2.49 の独立 risk であることから「19mm弁を許容すべきでない」と定量的に論じた <sup class="cite"><a href="#ref-26" title="Sarah A. Chen, et al. Ann Thorac Surg 2025;119:1151-1165 (Invited Expert Review)">[26]</a></sup>。</p>
+<h3 id="33-解剖学的血行動態的裏付け">3.3 解剖学的・血行動態的裏付け</h3>
+<p>Truesdell らの paired CTA（n=45、91%が≤23mm）では postop basal ring 26.3mm &gt; native 25.3mm（PPM eliminate可能）、STJ +8.1mm拡大、VTC が LM 6.6mm/RCA 4.9mm、VTA 4-8mm と future ViV-TAVR に必要な安全域を確保していた。ただし RCA VTC ≤4mm が16/45 (36%)に残り、preop sinus &lt;30mm 群での慎重 sizing が caveat とされた <sup class="cite"><a href="#ref-33" title="William Truesdell, et al. Ann Cardiothorac Surg 2024;13(3):266-274">[33]</a></sup>。患者特異的 CFD modeling（n=15）は Y-AAE+SAVR で peak velocity -39.3%、mean TPG -87.2%、ViV設定で -55%/-92% の劇的改善を示し、「large sinusで stasis 増加」の懸念を blood residence time が増えないことで否定した <sup class="cite"><a href="#ref-34" title="Mia Bonini, et al. J Cardiovasc Transl Res 2025;18:876-887">[34]</a></sup>。</p>
+<h3 id="34-安全性シグナルsevere-central-mr合併症">3.4 安全性シグナル：severe central MR合併症</h3>
+<p>重要な批判的視点として、Y-incision後の重度 central MR の初の literature 報告がある。58歳女性（BSA 1.77、annulus &lt;19mm、aorto-mitral curtain 1.7-1.8cmと短く narrow aorto-mitral angle）に Y-AAE + size 23 On-X 留置後、即時 severe central MR を発症し50日後に MVR（27mm CarboMedics）を要した。提唱機序は short curtain への patch augmentation が pouch-like neo-curtain を形成し turbulent flow が mitral annulus を distort するというもので、「Y-AAEは MV温存」という Yang chain の主張に対する重要な caveat となる <sup class="cite"><a href="#ref-13" title="Safa Özçelik, et al. J Cardiothorac Surg 2026 (Online ahead of print)">[13]</a></sup>。BSA 1.77 という borderline body size と短い curtain は Asian で頻発しうるため、小柄患者での個別解剖評価の重要性を示唆する。</p>
+<h3 id="35-複雑解剖適応拡大">3.5 複雑解剖・適応拡大</h3>
+<p>Y-AAE は concomitant MV手術（n=15、LA-dome アプローチ、median annulus 19mm、PPM 0/15、CHB 0、ただし operative mortality 2/15はいずれも radiation多弁+CAD）<sup class="cite"><a href="#ref-35" title="Busra Cangut, et al. JTCVS Tech 2026;35:102126">[35]</a></sup>、TAVI-explant後の salvage（19mm→size 25、cohort n=119で mortality 0.8%、PPM 0/119）<sup class="cite"><a href="#ref-36" title="Kanhua Yin, et al. Ann Cardiothorac Surg 2025;14(2):173-175">[36]</a></sup>、右冠尖起始の anomalous LCx（4例、ただし1/4で LCx 95% transection→8-0 Prolene修復）<sup class="cite"><a href="#ref-37" title="Kanhua Yin, et al. Eur J Cardiothorac Surg 2025;67(11):ezaf353">[37]</a></sup>、double small annuli への Chimney MVR併用（Commando代替）<sup class="cite"><a href="#ref-38" title="Li-Xi Gan, et al. Ann Thorac Surg 2026 (Correspondence, in press)">[38]</a></sup> へと拡張されている。技術修正も bovine pericardial patch + 心室内invagination + 外側 reinforcing strip（Beirut）<sup class="cite"><a href="#ref-39" title="Amine Fikani, et al. Thorac Cardiovasc Surg 2026 (Online ahead of print)">[39]</a></sup> など他施設から報告され始めた。Makkinejad の術者経験別解析（n=202、high-vol vs low-vol）では operative mortality・4年生存は同等で、AAEは経験が少なくても安全に実施可能と示された一方、size 27 vs 25・PPM 6.9% vs 26%（P=0.005）と hemodynamics には差が残り、learning curve は overcome可能だが aggressive sizingの選好が成績を分ける <sup class="cite"><a href="#ref-40" title="Alexander Makkinejad, et al. JTCVS Open 2025;28:36-44">[40]</a></sup>。</p>
+<h3 id="36-アジア圏展開と本研究への含意">3.6 アジア圏展開と本研究への含意</h3>
+<p>Asian cohortからの報告は本レビューの核心に直結する。Fuwai Hospital（北京）の Wang らは2024年の53連続例で平均4.9±1.5弁サイズ upsize（range 3-8）、in-hospital death 0、severe complication 0を報告し、oblique aortotomy主体の new roof technique（8-10cm scarf-like patch）で経験の少ない術者でも実施可能化した。annulus 15-23mm→18-27mmという range はまさに Asian典型像である <sup class="cite"><a href="#ref-41" title="Guan-Xi Wang, et al. JTCVS Tech 2025;31:34-38">[41]</a></sup>。北里大学の Kitamura らは BSA 1.3m²・annulus 16.4×23mm・SoV 14.9mmという小柄日本人女性に対し、posterior Y-incisionに anterior I-incision を加えた "Y and I"法で size 21 Inspirisを留置、VTC を予測2.6mmから実測7.5mmへ改善した。これは posterior拡大のみでは anterior sinus と RCA-VTC が改善しないという Truesdell の所見を踏まえた Asian特化の改良である <sup class="cite"><a href="#ref-42" title="Tadashi Kitamura, et al. Ann Thorac Surg Short Rep 2025;3:1074-1076">[42]</a></sup>。</p>
+<p>総じて Y-incision は欧米の小弁輪 SAVR で PPM を解消する強力な手技として確立されつつあるが、その一次エビデンスは BSA 1.9-2.0m²の Western集団・Bo Yang単一術者・self-referentialな引用構造に依存しており、BSA &lt;1.6m²の Asian小柄患者への外挿は未検証である。さらに severe central MR の合併症シグナルは、short aorto-mitral curtainを持つ小柄患者で routine AAE の risk-benefitを再考させる。本レビューが取り組む SAKURA-AVR study（日韓 retrospective、AAE-SAVR vs no-AAE SAVR を PSM、self-expanding TAVIを参照群とし、co-primary を測定 iEOA ≤0.65による severe PPM と1年 mean gradient、安全性 endpoint に post-AAE mitral regurgitation を設定）は、まさにこの Asian-specificな空白—routine AAE が小柄アジア人で正当化されるか、MR合併症が許容範囲か—を直接検証する点で、上記文献群の論理的延長線上に位置づけられる。</p>
+<h2 id="4-アジア人日本人小体格コホートの特殊性とaae-回避エビデンス">4. アジア人・日本人小体格コホートの特殊性と「AAE 回避」エビデンス</h2>
+<p>本章では、欧米の small-annulus 議論をそのままアジア人小体格患者に適用してよいか――とりわけ「狭小弁輪 = 一律 routine AAE 必須」というドグマが、日本人・韓国人・中国人の解剖学的・人口統計学的特性のもとで本当に正当化されるのか――を批判的に検討する。SAKURA-AVR が日韓レトロスペクティブコホートで AAE-SAVR vs no-AAE SAVR を PSM 比較し、self-expanding TAVI を reference arm に据える設計を採る背景には、まさにこのアジア特異性がある。</p>
+<h3 id="41-アジア人小体格の中の異質性--一括りにできない-bsa-スペクトラム">4.1 「アジア人小体格」の中の異質性 ― 一括りにできない BSA スペクトラム</h3>
+<p>アジア人小弁輪は単一集団ではない。BSA の中央値は日本人で最も小さく、中国・台湾・韓国はそれより大きい。Chen らの editorial はこの勾配を明示し、CT 由来 annulus 径も台湾・韓国 23.1 mm、日本 22.0–22.4 mm に対し欧米主要試験は 24.2–24.6 mm と整理している <sup class="cite"><a href="#ref-43" title="Ying-Hwa Chen, et al. JACC Asia 2025;5(2):322-326">[43]</a></sup>。実コホートの数値もこれを裏づける。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>コホート</th>
+<th>集団</th>
+<th>BSA (m²)</th>
+<th>女性比率</th>
+<th>弁病態の特徴</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meguro J-TVT 小弁輪群 <sup class="cite"><a href="#ref-44" title="Meguro K, et al. Circ J 2021;85:967-976">[44]</a></sup></td>
+<td>日本</td>
+<td>1.34</td>
+<td>93.2%</td>
+<td>高齢 degenerative</td>
+</tr>
+<tr>
+<td>Kamioka <sup class="cite"><a href="#ref-45" title="Kamioka N, et al. Int Heart J 2019;60:86-92">[45]</a></sup></td>
+<td>日本</td>
+<td>1.38</td>
+<td>93.6%</td>
+<td>高齢 high-risk</td>
+</tr>
+<tr>
+<td>Shishido 女性 <sup class="cite"><a href="#ref-46" title="Shishido K, et al. Circ J 2021;85:979-988">[46]</a></sup></td>
+<td>日本</td>
+<td>1.36</td>
+<td>(女性 69.3%)</td>
+<td>concentric LVH 主体</td>
+</tr>
+<tr>
+<td>Tabata <sup class="cite"><a href="#ref-8" title="Tabata M, et al. J Thorac Cardiovasc Surg 2014;147:321-5">[8]</a></sup></td>
+<td>日本</td>
+<td>1.45</td>
+<td>81.4% (A)</td>
+<td>degenerative</td>
+</tr>
+<tr>
+<td>Okamura midterm <sup class="cite"><a href="#ref-9" title="Homare Okamura, et al. Circ J 2012;76:365-371">[9]</a></sup></td>
+<td>日本</td>
+<td>1.44</td>
+<td>94%</td>
+<td>degenerative</td>
+</tr>
+<tr>
+<td>Lee <sup class="cite"><a href="#ref-47" title="Lee YJ, et al. Korean Circ J 2021;51(3):222-231">[47]</a></sup></td>
+<td>韓国</td>
+<td>1.5</td>
+<td>92.9%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Kim <sup class="cite"><a href="#ref-48" title="Kim DJ, et al. J Clin Med 2021;10:1063">[48]</a></sup></td>
+<td>韓国</td>
+<td>1.55</td>
+<td>約 80%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Hu <sup class="cite"><a href="#ref-49" title="Jia Hu, et al. J Cardiothorac Surg 2014;9:17">[49]</a></sup></td>
+<td>中国</td>
+<td>1.56</td>
+<td>74.5%</td>
+<td>rheumatic (平均 52.5 歳)</td>
+</tr>
+<tr>
+<td>Zhao <sup class="cite"><a href="#ref-50" title="Zhao D, et al. J Cardiothorac Surg 2012;7:88">[50]</a></sup></td>
+<td>中国</td>
+<td>1.61</td>
+<td>77.5%</td>
+<td>rheumatic (平均 47.2 歳)</td>
+</tr>
+<tr>
+<td>Mao <sup class="cite"><a href="#ref-51" title="Mao Y, et al. Cardiovasc Interv Ther 2026;41:402-413">[51]</a></sup></td>
+<td>中国</td>
+<td>1.68</td>
+<td>(男性 52.0%)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p>日本人女性の極小体格は際立つ。Shishido の OCEAN-TAVI 2,588 例では女性の身長 145.8 cm・体重 46.8 kg・BSA 1.36 m² であり <sup class="cite"><a href="#ref-46" title="Shishido K, et al. Circ J 2021;85:979-988">[46]</a></sup>、Yashima の 20mm THV 群は全例女性・身長 141.9 cm・BSA 1.26 m² に達する <sup class="cite"><a href="#ref-52" title="Yashima F, et al. Int J Cardiol 2017;240:126-131">[52]</a></sup>。これに対し中国コホートは BSA 1.56–1.68 m² と相対的に大きく、しかも rheumatic AI/AS 主体で平均年齢 47–53 歳と若年である <sup class="cite"><a href="#ref-49" title="Jia Hu, et al. J Cardiothorac Surg 2014;9:17">[49]</a></sup><sup class="cite"><a href="#ref-50" title="Zhao D, et al. J Cardiothorac Surg 2012;7:88">[50]</a></sup>。「アジア人だから皆 AAE が必要」という単純化は、この内的異質性を無視している。SAKURA が日韓統合コホートで層別・感度解析を要するという含意も、この BSA 差(日本 1.4 vs 韓国 1.5–1.6)から直接導かれる <sup class="cite"><a href="#ref-43" title="Ying-Hwa Chen, et al. JACC Asia 2025;5(2):322-326">[43]</a></sup>。</p>
+<h3 id="42-アジアの逆説--小弁輪なのに-ppm-絶対率が欧米より低い">4.2 「アジアの逆説」 ― 小弁輪なのに PPM 絶対率が欧米より低い</h3>
+<p>低 BSA は分母を小さくするため、indexed EOA を分子の EOA が小さくても保ちやすい。Chen は Multiracial Transpacific Registry で Asians の PPM 33.6% が non-Asians 24.7% を上回る逆転を引用しつつ、これは小型弁の多用(東アジアの小型 prosthesis 使用率 37–70% vs 欧米 21–32%)に起因し、低 BSA 効果で日本人(BSA 1.4)では PPM 絶対率がむしろ低めに出ると整理する <sup class="cite"><a href="#ref-43" title="Ying-Hwa Chen, et al. JACC Asia 2025;5(2):322-326">[43]</a></sup>。実際、Tabata cohort では BSA 1.45 m² の日本人に 19/21mm Magna を AAE なしで装着しても severe PPM は両群 3.9–6.0% にとどまった <sup class="cite"><a href="#ref-8" title="Tabata M, et al. J Thorac Cardiovasc Surg 2014;147:321-5">[8]</a></sup>。この「small body → small valve でも血行動態破綻が必ずしも起こらない」という事実は、SAKURA の「19mm 初回弁は許容か」という secondary RQ の文脈材料となる。</p>
+<h3 id="43-tabata-の-interrupted-suturing--equipment-非依存で-ppm-を半減">4.3 Tabata の interrupted suturing ― equipment 非依存で PPM を半減</h3>
+<p>AAE 回避戦略の核心は Tabata の研究である。同一 surgeon team・同一 prosthesis(Magna 19/21mm、AAE 例は除外)で suture 法のみを変えた 152 例で、≥moderate PPM(iEOA&lt;0.85)は simple interrupted 29.4% vs noneverting mattress 56.0%(P=0.002)と劇的に低下し、多変量(GEE)で interrupted suturing は PPM の独立 protective 因子(OR 0.33, 95%CI 0.27–0.39, P&lt;0.001)であった <sup class="cite"><a href="#ref-8" title="Tabata M, et al. J Thorac Cardiovasc Surg 2014;147:321-5">[8]</a></sup>。pledgeted mattress が annulus 組織を内側にロールさせ orifice を狭めるのに対し、interrupted では組織温存と同時に同一弁輪に大きい弁(size ratio 0.98 vs 0.92)を入れられる。重要なのは、これが<strong>追加デバイスも AAE も不要な、純粋に手技的な工夫</strong>で達成された点である。米国 Yang Y-incision が BSA 1.7+ の患者で 3–4 サイズアップした 23–25mm 弁を入れる思想とは根本的に異なる、日本独自の equipment-agnostic な小弁輪戦略を提示している。</p>
+<h3 id="44-17mm-機械弁というもう一つの-aae-回避--ただし-lvef-が-modifier">4.4 17mm 機械弁という「もう一つの AAE 回避」 ― ただし LVEF が modifier</h3>
+<p>Okamura らは BSA &lt;1.65 m² の日本人に AAE なしで 17mm SJM Regent を留置し、初期 23 例で severe PPM 4.3%・EOAI 0.94 <sup class="cite"><a href="#ref-53" title="Homare Okamura, et al. Ann Thorac Surg 2009;87:90-4">[53]</a></sup>、midterm 78 例で severe PPM 6.9%・5y survival 78.7%、PPM の有無で長期生存・LVMI regression に差なし(log-rank P=0.439)と報告した <sup class="cite"><a href="#ref-9" title="Homare Okamura, et al. Circ J 2012;76:365-371">[9]</a></sup>。中国の Zhao も AAE の complexity を回避する目的で 17/19mm Regent を選択し、3y survival 100%、19mm 群では EOAI 1.27・PPM 0% を達成している <sup class="cite"><a href="#ref-50" title="Zhao D, et al. J Cardiothorac Surg 2012;7:88">[50]</a></sup>。ただし無条件の楽観は禁物である。Hu の中国コホート(BSA 1.56 m²)では moderate PPM が 43.4% と高頻度で、overall には生存に影響しないものの、**LVEF &lt;50% 例では moderate PPM が中期死亡を増加(HR 1.80, 95%CI 1.32–2.46, P=0.02)**させた <sup class="cite"><a href="#ref-49" title="Jia Hu, et al. J Cardiothorac Surg 2014;9:17">[49]</a></sup>。すなわち「AAE 回避」は左室機能良好例で正当化されやすく、低 LVEF 例では AAE を検討すべきという effect modification を、アジアコホートが定量化している。</p>
+<h3 id="45-aae-しない-savrが露呈させる限界と-tavi-device-選択による代替">4.5 「AAE しない SAVR」が露呈させる限界と TAVI device 選択による代替</h3>
+<p>一方で AAE 回避が常に成立するわけではない。Kamioka は高齢日本人 SAA(annulus ≤20mm, BSA 1.38)で supra-annular SAVR(19/21mm 主体)を行うと severe PPM 22.0% に達し、Sapien XT 23mm TAVR の 2.9% を大きく上回ったが、2y mortality は 19.2% vs 19.4% と同等であった <sup class="cite"><a href="#ref-45" title="Kamioka N, et al. Int Heart J 2019;60:86-92">[45]</a></sup>。これは「AAE しないと SAVR で何が起こるか」を定量化した日本人ベンチマークであり、SAKURA の no-AAE SAVR arm が示すであろう severe PPM 率の参照値となる。AAE の代替として有力なのが <strong>device(弁種)選択による実効的アップサイジング</strong>である。アジア各レジストリは一貫して supra-annular SEV の血行動態優位を示す。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>研究</th>
+<th>集団 (BSA)</th>
+<th>SEV iEOA / mPG</th>
+<th>BEV iEOA / mPG</th>
+<th>severe PPM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hase OCEAN matched ≤23mm <sup class="cite"><a href="#ref-10" title="Hiromu Hase, et al. Catheter Cardiovasc Interv 2021;97:E875-E886">[10]</a></sup></td>
+<td>日本 (1.4)</td>
+<td>1.04 / 9.0 (1y)</td>
+<td>0.96 / 12.0</td>
+<td>1.5% vs 3.0%</td>
+</tr>
+<tr>
+<td>Hase extreme ≤21mm <sup class="cite"><a href="#ref-10" title="Hiromu Hase, et al. Catheter Cardiovasc Interv 2021;97:E875-E886">[10]</a></sup></td>
+<td>日本</td>
+<td>moderate PPM 6.9%</td>
+<td>moderate PPM 28.4% (P=0.015)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Meguro J-TVT (S3 20mm vs EvolutR 23mm) <sup class="cite"><a href="#ref-44" title="Meguro K, et al. Circ J 2021;85:967-976">[44]</a></sup></td>
+<td>日本 (1.34)</td>
+<td>1.07 / 11.0</td>
+<td>0.94 / 14.0</td>
+<td>2.9% vs 7.8%</td>
+</tr>
+<tr>
+<td>Lee 1y <sup class="cite"><a href="#ref-47" title="Lee YJ, et al. Korean Circ J 2021;51(3):222-231">[47]</a></sup></td>
+<td>韓国 (1.5)</td>
+<td>1.18 / 8.5</td>
+<td>0.95 / 14.7</td>
+<td>0% vs 33.3%</td>
+</tr>
+<tr>
+<td>Moon BEV vs SEV <sup class="cite"><a href="#ref-54" title="Moon IT, et al. J Cardiovasc Interv 2023;2(3):187-198">[54]</a></sup></td>
+<td>韓国</td>
+<td>1.060 / 10.9</td>
+<td>0.971 / 15.7</td>
+<td>3.3% vs 12.5%</td>
+</tr>
+</tbody>
+</table></div>
+<p>Hase の OCEAN-TAVI 576 例 <sup class="cite"><a href="#ref-10" title="Hiromu Hase, et al. Catheter Cardiovasc Interv 2021;97:E875-E886">[10]</a></sup>、Meguro の J-TVT 全国 5,870 例(小弁輪 11.0%, 小弁輪は PPM の独立予測因子 OR 1.84) <sup class="cite"><a href="#ref-44" title="Meguro K, et al. Circ J 2021;85:967-976">[44]</a></sup>、Moon の韓国 660 例(小弁輪 10.6%) <sup class="cite"><a href="#ref-54" title="Moon IT, et al. J Cardiovasc Interv 2023;2(3):187-198">[54]</a></sup>、Lee の Severance 70 例 <sup class="cite"><a href="#ref-47" title="Lee YJ, et al. Korean Circ J 2021;51(3):222-231">[47]</a></sup> のいずれでも、supra-annular SEV が intra-annular BEV より低 mPG・高 iEOA を示し、severe PPM が抑制された。Chen はこれを総括し、Sapien 3 が PPM の独立予測因子(OR 1.92–2.73)であること、20-/23-mm BEV が特に高リスクであることを示した上で、SAKURA の TAVI reference arm が SEV であるべき根拠を提供している <sup class="cite"><a href="#ref-43" title="Ying-Hwa Chen, et al. JACC Asia 2025;5(2):322-326">[43]</a></sup>。極小弁輪では Yashima(annulus &lt;314 mm², BSA 1.26)の 20mm SAPIEN XT が severe PPM 0% <sup class="cite"><a href="#ref-52" title="Yashima F, et al. Int J Cardiol 2017;240:126-131">[52]</a></sup>、Okuno の 5 年データ(20mm THV severe PPM 4.9% vs standard 1.5%, 5y mortality 34.2% vs 38.0%, HR 1.01, P=0.97)が「PPM は多いが長期生存は許容範囲」を示し、SAVR で AAE が必要となるサイズでも TAVI なら 20mm で対応可能という initial sizing の選択肢を裏づけた <sup class="cite"><a href="#ref-11" title="Okuno T, et al. JACC Asia 2025;5(2):245-254">[11]</a></sup>。</p>
+<h3 id="46-性差lvmi-regressionそして-tte-過大評価という落とし穴">4.6 性差・LVMI regression、そして TTE 過大評価という落とし穴</h3>
+<p>アジア特異性は性差にも及ぶ。Shishido は日本人女性が TAVR 後に男性より良好な生存(female sex は独立 protective 因子, HR 0.615, P&lt;0.001)を示し、この優位は LVMI regression を達成した群に限られたと報告した <sup class="cite"><a href="#ref-46" title="Shishido K, et al. Circ J 2021;85:979-988">[46]</a></sup>。concentric hypertrophy 主体の日本人女性が reverse remodeling 能力に富む可能性は、「小体格女性 = 予後不良」という前提を覆す。最後に方法論的警告として、Mao の中国 391 例は TTE が LHC より mean PGAV を 9.8 mmHg 過大評価することを定量化し、XGBoost で補正した <sup class="cite"><a href="#ref-51" title="Mao Y, et al. Cardiovasc Interv Ther 2026;41:402-413">[51]</a></sup>。SAKURA の co-primary が <strong>measured indexed EOA ≤0.65 と 1 年 mean gradient</strong> である以上、Chen の指摘する「measured PPM は early low-flow で true PPM を過大評価する」 <sup class="cite"><a href="#ref-43" title="Ying-Hwa Chen, et al. JACC Asia 2025;5(2):322-326">[43]</a></sup> と Mao の TTE 過大評価 <sup class="cite"><a href="#ref-51" title="Mao Y, et al. Cardiovasc Interv Ther 2026;41:402-413">[51]</a></sup> は、SAKURA の severe PPM 率がエコー由来であれば系統的に過大評価されうることを意味し、measured vs predicted の感度解析設計に直結する留意点である。</p>
+<h3 id="47-小括--routine-aae-は正当化されるか">4.7 小括 ― routine AAE は正当化されるか</h3>
+<p>以上を総合すると、アジア人小体格患者で routine AAE を一律に正当化するエビデンスは乏しい。低 BSA による PPM 絶対率の低下、interrupted suturing による PPM 半減 <sup class="cite"><a href="#ref-8" title="Tabata M, et al. J Thorac Cardiovasc Surg 2014;147:321-5">[8]</a></sup>、17/19mm 高性能機械弁の中期妥当性 <sup class="cite"><a href="#ref-9" title="Homare Okamura, et al. Circ J 2012;76:365-371">[9]</a></sup><sup class="cite"><a href="#ref-50" title="Zhao D, et al. J Cardiothorac Surg 2012;7:88">[50]</a></sup>、supra-annular SEV による実効的アップサイジング <sup class="cite"><a href="#ref-10" title="Hiromu Hase, et al. Catheter Cardiovasc Interv 2021;97:E875-E886">[10]</a></sup><sup class="cite"><a href="#ref-47" title="Lee YJ, et al. Korean Circ J 2021;51(3):222-231">[47]</a></sup> という複数の「AAE 回避ルート」が成立する。一方で、低 LVEF 例(Hu の modifier) <sup class="cite"><a href="#ref-49" title="Jia Hu, et al. J Cardiothorac Surg 2014;9:17">[49]</a></sup> や、AAE しない場合に severe PPM 22% が露呈する高齢 SAVR <sup class="cite"><a href="#ref-45" title="Kamioka N, et al. Int Heart J 2019;60:86-92">[45]</a></sup> では AAE の意義が残る。SAKURA-AVR が日韓コホートで AAE-SAVR vs no-AAE SAVR を PSM 比較し、post-AAE mitral regurgitation を安全性指標に据えるのは、この「AAE は誰に本当に必要か」という選別を、measured PPM の過大評価バイアスに留意しつつ定量化する試みとして位置づけられる。</p>
+<h2 id="5-tavi-vs-savr--小弁輪-rct-エビデンス-smart--viva--rheia-と-registry">5. TAVI vs SAVR — 小弁輪 RCT エビデンス (SMART / VIVA / RHEIA) と registry</h2>
+<p>小弁輪 AVR における TAVI と SAVR の優劣は、近年ようやく前向き RCT で検証されはじめた。本節では small annulus を直接対象とした 3 つの RCT(SMART / VIVA / RHEIA)、それを補完する registry(TAVI-SMALL 2)・PSM コホート(Suruga)・メタ解析(Abdelfattah/Ayyad)を統合し、SAKURA-AVR が問う「小体格アジア人で routine AAE が正当化されるか」という臨床課題に対し、これらのエビデンスが<strong>何を直接比較し、何を比較していないか</strong>を批判的に整理する。結論を先取りすれば、<strong>TAVI vs Y-incision-SAVR を直接比較した RCT は存在せず</strong>、現状の RCT エビデンスはいずれも「no-AAE もしくは AAE 任意の現代 SAVR」を対照としている点が最大の限界である。</p>
+<h3 id="5-1-tavi-内での-device-選択は決定的--smart-trial-と-tavi-small-2">5-1. TAVI 内での device 選択は決定的 — SMART trial と TAVI-SMALL 2</h3>
+<p>まず重要なのは、small annulus に TAVI を選ぶ場合、<strong>SEV(supra-annular)か BEV(intra-annular)かで血行動態が劇的に異なる</strong>点である。SMART trial(n=716 as-treated、87% 女性、annulus area ≤430 mm²)は Evolut(SEV)と SAPIEN 3/3 Ultra(BEV)を 1:1 で比較し、第 1 主要評価項目(death/disabling stroke/HF rehosp at 12mo)は SEV 9.4% vs BEV 10.6% で非劣性が成立した一方、第 2 主要評価項目の bioprosthetic valve dysfunction(BVD)は SEV 9.4% vs BEV 41.6%(差 −32.2pp, P&lt;0.001 for superiority)と SEV が圧倒的に優位であった <sup class="cite"><a href="#ref-55" title="Herrmann HC, et al. N Engl J Med 2024;390(21):1959-71">[55]</a></sup>。12 ヶ月 mean gradient は SEV 7.7 vs BEV 15.7 mmHg、moderate/severe PPM at 30d は SEV 11.2% vs BEV 35.3%(severe PPM は 1.8% vs 7.1%)であった <sup class="cite"><a href="#ref-55" title="Herrmann HC, et al. N Engl J Med 2024;390(21):1959-71">[55]</a></sup>。post-hoc 解析では BEV 使用が BVD の最強独立予測因子(OR 8.21, 95%CI 5.10–13.23)であり、annulus area &lt;386 mm² 群では BVD が SEV 6.1% vs BEV 51.4% と差が拡大した <sup class="cite"><a href="#ref-56" title="Herrmann HC, et al. Circ Cardiovasc Interv. 2025;18:e015202">[56]</a></sup>。注目すべきは BSA per 0.1 m² が BVD の独立危険因子(OR 1.27, 95%CI 1.13–1.43)である点で、これは<strong>より小さい BSA をもつアジア人女性では同一弁サイズでも severe PPM 判定に至りにくく、TAVI 側の数値が逆方向に有利化しうる</strong>ことを示唆する <sup class="cite"><a href="#ref-56" title="Herrmann HC, et al. Circ Cardiovasc Interv. 2025;18:e015202">[56]</a></sup>。SMART の設計論文は small annulus を annulus area ≤430 mm²(≒径 ≤23mm)と定義しており、SAKURA の ≤21mm 定義より広い点に注意が必要である <sup class="cite"><a href="#ref-57" title="Herrmann HC, et al. Am Heart J 2022;243:92-102">[57]</a></sup>。</p>
+<p>この RCT 所見は registry でも再現される。TAVI-SMALL 2(16 施設・1,378 例、89% 女性、perimeter &lt;72mm or area &lt;400mm²)では SAV(supra-annular)の severe PPM 3.6% vs IAV 8.8%(p=0.007)、predischarge mean gradient 7.8 vs 12.0 mmHg(p&lt;0.001)で SAV が優位だったが、<strong>&gt;mild PVL は SEV で多かった(11.6% vs 2.6%, p&lt;0.001)</strong> <sup class="cite"><a href="#ref-58" title="Leone PP, et al. EuroIntervention. 2023;19:256-266">[58]</a></sup>。つまり TAVI 最良群(SAV+SEV)でも PVL のトレードオフが残り、PVL ほぼゼロ・耐久性既知という SAVR の長所と対比される <sup class="cite"><a href="#ref-58" title="Leone PP, et al. EuroIntervention. 2023;19:256-266">[58]</a></sup>。</p>
+<h3 id="5-2-小弁輪-bev-tavi-のベンチマーク--suruga-コホート">5-2. 小弁輪 BEV-TAVI のベンチマーク — Suruga コホート</h3>
+<p>SAKURA の TAVI 参照アームは self-expanding TAVI だが、BEV を小弁輪に入れた場合の実測値も対照として有用である。Suruga ら(Cedars-Sinai、SAPIEN 3 系列 3,182 例、PSM 533 ペア)では小弁輪群で AV mean gradient ≥20mmHg が 14.1% vs 2.9%(P&lt;0.001)、severe PPM(iEOA ≤0.65)が 9.8% vs 5.2%(P=0.019)と血行動態は劣ったが、<strong>5 年全死亡は HR 0.75(95%CI 0.52–1.09, P=0.13)で有意差なく</strong>、HF 再入院・BVF・AV 再介入も同等であった <sup class="cite"><a href="#ref-59" title="Kaoru Suruga et al. (Raj R. Makkar) J Am Heart Assoc 2026;15(3):e043880">[59]</a></sup>。さらに小弁輪内で severe PPM vs non-PPM の全死亡 HR 1.61(95%CI 0.68–3.81, P=0.281)、高 gradient(≥20 vs &lt;20mmHg)の HR 1.34(P=0.459)といずれも有意でなく、<strong>severe PPM/高 gradient が少なくとも 5 年では硬いエンドポイントに転写しない</strong>ことを示した <sup class="cite"><a href="#ref-59" title="Kaoru Suruga et al. (Raj R. Makkar) J Am Heart Assoc 2026;15(3):e043880">[59]</a></sup>。これは SAKURA において AAE-SAVR が PPM/gradient を改善しても mid-term 生存改善まで示せるかを慎重に解釈すべき、という重要な反証材料となる。ただし著者は 10 年 BVF が約 10% に上昇しうるため小型弁植込み例には長期フォローが必要と明記している <sup class="cite"><a href="#ref-59" title="Kaoru Suruga et al. (Raj R. Makkar) J Am Heart Assoc 2026;15(3):e043880">[59]</a></sup>。</p>
+<h3 id="5-3-tavi-vs-savr-の直接-rct--viva-と-rheiaいずれも-no任意-aae-が対照">5-3. TAVI vs SAVR の直接 RCT — VIVA と RHEIA(いずれも no/任意 AAE が対照)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Trial</th>
+<th>n / 集団</th>
+<th>SAVR の AAE</th>
+<th>Severe PPM (TAVI vs SAVR)</th>
+<th>Mean gradient</th>
+<th>主要臨床アウトカム</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VIVA <sup class="cite"><a href="#ref-60" title="Rodés-Cabau J, et al. Circulation. 2024;149:644–655">[60]</a></sup></td>
+<td>151(93% 女性, annulus &lt;23mm)</td>
+<td>surgeon discretion(任意)</td>
+<td>5.6% vs 10.3%(p=0.30)</td>
+<td>NR(本文断片)</td>
+<td>2年死亡 9.1% vs 8.1%(p=0.89), 同等</td>
+</tr>
+<tr>
+<td>RHEIA <sup class="cite"><a href="#ref-14" title="Didier Tchétché et al. (RHEIA Investigators) Eur Heart J 2025;46(22):2079-2088">[14]</a></sup></td>
+<td>443(女性のみ)</td>
+<td><strong>0例(実施されず)</strong></td>
+<td>3.0% vs 2.6%(p=0.17)</td>
+<td>30日 13.6 vs 10.9 mmHg(surgery 有利)</td>
+<td>1年複合 8.9% vs 15.6%(P=0.034, TAVI 優越)</td>
+</tr>
+</tbody>
+</table></div>
+<p>VIVA は small annulus 専用の初の TAVI vs SAVR RCT で、primary(severe PPM or mod/severe AR)に差なく(severe PPM 5.6% vs 10.3%, p=0.30)、2 年死亡・脳卒中・再入院も同等であった <sup class="cite"><a href="#ref-60" title="Rodés-Cabau J, et al. Circulation. 2024;149:644–655">[60]</a></sup>。SAVR の severe PPM 10.3% は historical(&gt;30%)から大幅に低下し、sutureless 多用・正確な CT sizing・任意の AAE の合算効果と解釈される <sup class="cite"><a href="#ref-60" title="Rodés-Cabau J, et al. Circulation. 2024;149:644–655">[60]</a></sup>。ただし 151/300(52%)で premature termination した underpowered な試験であり、SAVR は median 21mm 弁植込みで将来 ViV に不利な点が指摘される <sup class="cite"><a href="#ref-60" title="Rodés-Cabau J, et al. Circulation. 2024;149:644–655">[60]</a></sup>。</p>
+<p>RHEIA は女性のみ 443 例の最大規模 RCT で、1 年複合(死亡/脳卒中/再入院)が TAVI 8.9% vs Surgery 15.6%(差 −6.8%, P=0.034)と<strong>優越性を達成したが、差は再入院半減(HR 0.40)で駆動され、死亡・脳卒中・severe PPM・mean gradient には有意差がない(むしろ血行動態は外科有利)</strong> <sup class="cite"><a href="#ref-14" title="Didier Tchétché et al. (RHEIA Investigators) Eur Heart J 2025;46(22):2079-2088">[14]</a></sup>。SAKURA との関連で決定的に重要なのは、<strong>外科群で弁輪拡大が 1 例も施行されず、23mm/21mm 弁主体(19mm 稀)に終始した「現実の no-AAE SAVR」を対照とした</strong>点である <sup class="cite"><a href="#ref-14" title="Didier Tchétché et al. (RHEIA Investigators) Eur Heart J 2025;46(22):2079-2088">[14]</a></sup>。すなわち RHEIA は SAKURA の TAVI 参照アームに最も近い表現型で「no-AAE SAVR vs TAVI」を直接対照し、早期臨床(再入院・在院日数)では TAVI 優位、血行動態では SAVR 優位というトレードオフを定量化した。ただし BMI 約 29・弁輪面積 400mm² 前後と<strong>小体格アジア人女性より弁輪が大きく</strong>、19mm 問題・root enlargement の必要性には踏み込んでいないため、日本人小体格への外挿には severe PPM の過小評価リスクがある <sup class="cite"><a href="#ref-14" title="Didier Tchétché et al. (RHEIA Investigators) Eur Heart J 2025;46(22):2079-2088">[14]</a></sup>。</p>
+<h3 id="5-4-メタ解析の総括と-sakura-への含意">5-4. メタ解析の総括と SAKURA への含意</h3>
+<p>9 研究 2,476 例(Japanese cohort 2 件含む)のメタ解析では、TAVR は SAVR と 30 日・2 年 mortality 同等(30d OR 0.65, 95%CI 0.09–4.61)ながら、moderate PPM(OR 0.6)・severe PPM(OR 0.53, p≤0.0001)・major bleeding(OR 0.44)を有意に低減し、一方 30 日 PPI は SAVR が有利(OR 2.76, p=0.04)であった <sup class="cite"><a href="#ref-61" title="Ayyad M, et al. Int J Cardiol. 2024;411:132243">[61]</a></sup>。これは「高齢 frail・出血リスク高・AAE 困難なら TAVR、若年低リスク・将来 ViV 視野なら AAE-SAVR」というトレードオフを支持するが、含まれる SAVR の AAE 実施率は variable で、なお<strong>機械的に AAE を加えた SAVR との比較ではない</strong> <sup class="cite"><a href="#ref-61" title="Ayyad M, et al. Int J Cardiol. 2024;411:132243">[61]</a></sup>。</p>
+<p>総じて、現存する RCT/registry はいずれも「no-AAE もしくは AAE 任意の現代 SAVR」を対照とし、TAVI に対して severe PPM・mean gradient では拮抗ないし TAVI 不利、早期臨床アウトカムでは TAVI 優位(再入院・出血)という構図を示す。SAKURA-AVR が問う「<strong>機械的 AAE-SAVR を加えれば、この no-AAE 劣位を埋め血行動態で self-expanding TAVI に勝てるか、かつ post-AAE MR を含む安全性を犠牲にしないか</strong>」は、本節のいずれの試験も直接答えていない未充足の臨床課題である。とりわけ、small annulus かつ小 BSA のアジア人では severe PPM 率が欧米女性集団の値(VIVA 10.3%/RHEIA 2.6%/Suruga BEV 9.8%)を上回りうる一方、severe PPM が 5 年生存に転写しないという Suruga 所見も併存するため、SAKURA が measured indexed EOA(≤0.65)と 1 年 mean gradient を co-primary に据え、mid-term survival と post-AAE MR を併せて評価する設計は、これらの RCT が残した空白を埋める妥当な戦略といえる。</p>
+<h2 id="6-viv-tavr-戦略と-initial-valve-sizing--19mm-は許容か">6. ViV-TAVR 戦略と initial valve sizing — 「19mm は許容か」</h2>
+<p>初回 SAVR の弁サイズ選択は、その弁が将来 SVD で劣化したときに ViV-TAVR を hemodynamically・clinically に成立させられるか否かを規定する。本節は VIVID を中心とした ViV エビデンスを批判的に整理し、「Asian 小体格患者に対し AAE を回避して 19mm 弁を植え込む」という選択が将来世代の介入余地をどこまで残すのかを検証する。これは SAKURA-AVR が問う「AAE-SAVR vs no-AAE SAVR」の lifetime management 上の核心でもある。</p>
+<h3 id="initial-valve-size-が-viv-後予後を規定する--vivid-の-seminal-finding">initial valve size が ViV 後予後を規定する — VIVID の seminal finding</h3>
+<p>ViV-TAVR の予後を最も強く規定する初回弁因子は label size である。VIVID registry 原著 459 例で、overall 1 年生存は 83.2% だが、small surgical valve (≤21mm) では 74.8%、intermediate (&gt;21–&lt;25mm) 81.8%、large (≥25mm) 93.3% と段階的に低下した（p=0.001）<sup class="cite"><a href="#ref-62" title="Dvir D, et al. JAMA. 2014;312(2):162–170">[62]</a></sup>。多変量解析では small bioprosthesis ≤21mm が 1 年死亡の独立予測因子 (HR 2.04, 95%CI 1.14–3.67) であり、stenosis 機序の失敗も予後不良であった (HR 3.07)<sup class="cite"><a href="#ref-62" title="Dvir D, et al. JAMA. 2014;312(2):162–170">[62]</a></sup>。すなわち「初回 SAVR で小弁を選べば将来 ViV で 1 年死亡が約 2 倍」という関係が seminal に確立されている。</p>
+<p>この閾値は外科弁の internal diameter (ID) でさらに先鋭化する。Italian multicenter cohort では、severe stenosis (post-ViV mean gradient &gt;35 mmHg) を呈した VIV-A 3 例 (6.8%) が全例 ID &lt;20mm 群に集中し、post-ViV gradient は ID &lt;20mm &gt; 21–23mm &gt; &gt;23mm と有意に階層化した<sup class="cite"><a href="#ref-63" title="D'Onofrio A, et al. Ann Thorac Surg. 2016;102:1966–1973">[63]</a></sup>。著者らは「初回 SAVR で stent ID ≥21mm（label ≥23mm に概ね相当）を確保すべき」と具体的閾値を提示している<sup class="cite"><a href="#ref-63" title="D'Onofrio A, et al. Ann Thorac Surg. 2016;102:1966–1973">[63]</a></sup>。21mm label の Perimount 系は true ID が約 19mm であり、まさに penalty 域に該当する。REDUCE registry でもこの線形性が定量化され、surgical valve size 1mm 増ごとに post-ViV mean gradient が 0.84 mmHg 低下した（p=0.001）<sup class="cite"><a href="#ref-64" title="Ruge H, et al. Catheter Cardiovasc Interv. 2025;106:1409–1420">[64]</a></sup>。AAE で 19mm を 23mm（+4mm）に拡大できれば約 −3.4 mmHg の gradient 改善が見込める計算となり、SAKURA-AVR の AAE 群で measured indexed EOA と 1 年 mean gradient の優位が期待される機序的根拠となる。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>初回外科弁サイズ</th>
+<th>post-ViV 1年生存 / gradient 関連所見</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>≤21mm (small)</td>
+<td>1年生存 74.8%、死亡 HR 2.04</td>
+<td><sup class="cite"><a href="#ref-62" title="Dvir D, et al. JAMA. 2014;312(2):162–170">[62]</a></sup></td>
+</tr>
+<tr>
+<td>&gt;21–&lt;25mm</td>
+<td>1年生存 81.8%</td>
+<td><sup class="cite"><a href="#ref-62" title="Dvir D, et al. JAMA. 2014;312(2):162–170">[62]</a></sup></td>
+</tr>
+<tr>
+<td>≥25mm (large)</td>
+<td>1年生存 93.3% (p=0.001)</td>
+<td><sup class="cite"><a href="#ref-62" title="Dvir D, et al. JAMA. 2014;312(2):162–170">[62]</a></sup></td>
+</tr>
+<tr>
+<td>ID &lt;20mm</td>
+<td>severe stenosis 6.8% が全例集中、gradient 最高</td>
+<td><sup class="cite"><a href="#ref-63" title="D'Onofrio A, et al. Ann Thorac Surg. 2016;102:1966–1973">[63]</a></sup></td>
+</tr>
+<tr>
+<td>size 1mm 増</td>
+<td>post-ViV mean gradient −0.84 mmHg</td>
+<td><sup class="cite"><a href="#ref-64" title="Ruge H, et al. Catheter Cardiovasc Interv. 2025;106:1409–1420">[64]</a></sup></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="gradient-を救済する手技--implantation-depth-sev-bvf-の限界">gradient を救済する手技 — implantation depth, SEV, BVF の限界</h3>
+<p>小弁への ViV gradient は手技的に部分緩和できる。VIVID 292 例の implantation depth 解析では、high implantation で elevated gradient (≥20 mmHg) が低減し、CoreValve Evolut 15% vs 34.2%、Sapien XT 18.5% vs 43.5%（いずれも p=0.03）であった<sup class="cite"><a href="#ref-65" title="Simonato M, et al. Circ Cardiovasc Interv. 2016;9:e003651">[65]</a></sup>。最適 depth は CoreValve Evolut 0–5mm、Sapien XT 0–10% frame height で、high position は最強の独立予測因子 (OR 0.22)、supra-annular SEV も独立して有利 (OR 0.5)、stenosis/mixed failure は高 gradient リスク (OR 3.12) であった<sup class="cite"><a href="#ref-65" title="Simonato M, et al. Circ Cardiovasc Interv. 2016;9:e003651">[65]</a></sup>。REDUCE でも SEV 使用 (−7.31 mmHg) と postdilation (−3.25 mmHg) が gradient を下げたが、<strong>BVF は standard postdilation に対し hemodynamic 優位を示さなかった</strong><sup class="cite"><a href="#ref-64" title="Ruge H, et al. Catheter Cardiovasc Interv. 2025;106:1409–1420">[64]</a></sup>。重要なのは、high implant でも CoreValve label ≤21mm 症例の 15% が elevated gradient を残した点であり<sup class="cite"><a href="#ref-65" title="Simonato M, et al. Circ Cardiovasc Interv. 2016;9:e003651">[65]</a></sup>、手技救済は生物物理的限界に近く、初回 sizing の不利を完全には埋められない。BVF への過度な期待は禁物で、初回 sizing で勝負する戦略が現実的である<sup class="cite"><a href="#ref-64" title="Ruge H, et al. Catheter Cardiovasc Interv. 2025;106:1409–1420">[64]</a></sup>。</p>
+<h3 id="coronary-obstruction-とその予防--basilica-は救済策だが代償を伴う">coronary obstruction とその予防 — BASILICA は救済策だが代償を伴う</h3>
+<p>ViV-TAVR の致死的合併症が coronary obstruction (CO) である。VIVID 1,612 例で CO は 2.3% に発生し、CO 群 30 日死亡 48.6–52.9% vs 対照 3.7–3.9% と壊滅的であった<sup class="cite"><a href="#ref-66" title="Ribeiro HB, et al. Eur Heart J. 2018;39:687–695">[66]</a></sup>。CO は stented external-leaflet 弁 6.1%、stentless 3.7%、stented internal-leaflet 0.8% と弁構造で大差があり (p&lt;0.001)、独立予測因子は external-leaflet/stentless 弁 (OR 7.67) と CT 由来 VTC で、VTC &lt;4mm が最適 cutoff (AUC 0.943) であった<sup class="cite"><a href="#ref-66" title="Ribeiro HB, et al. Eur Heart J. 2018;39:687–695">[66]</a></sup>。CO 群は Valsalva 洞径が 27.44 vs 32.55mm と狭く<sup class="cite"><a href="#ref-66" title="Ribeiro HB, et al. Eur Heart J. 2018;39:687–695">[66]</a></sup>、SOV の小さい Asian/女性で CO リスクが高まる。</p>
+<p>BASILICA はこの CO を電気外科的 leaflet laceration で予防する。IDE trial 30 例で primary success 93%、CO freedom 100%、ただし disabling stroke 3.3%、major vascular complication 20% を伴った<sup class="cite"><a href="#ref-67" title="Khan JM, et al. J Am Coll Cardiol Intv. 2019;12:1240–1252">[67]</a></sup>。1 年 follow-up でも late CO・追加 stroke はゼロで mid-term durability が確認された一方、30 日 stroke は 10% であった<sup class="cite"><a href="#ref-68" title="Khan JM, et al. Circ Cardiovasc Interv. 2021;14:e010238">[68]</a></sup>。real-world International Registry 214 例では traversal 94.9%、laceration 94.4%、CO 残存 4.7%、30 日 mortality 2.8%、stroke 2.8%（disabling 0.5%）、1 年生存 83.9% と feasibility が再現された<sup class="cite"><a href="#ref-69" title="Khan JM, et al. J Am Coll Cardiol Intv. 2021;14:941–948">[69]</a></sup>。CT で VTC・coronary height・SOV を評価し high-risk 例に BASILICA を計画するアルゴリズムが定式化されている<sup class="cite"><a href="#ref-70" title="Lederman RJ, et al. J Am Coll Cardiol Intv. 2019;12:1197–1216">[70]</a></sup>。ただし CO 残存 4.7%＋procedure success 86.9% という限界、stroke・vascular の代償、専門 center 依存を踏まえると、<strong>初回に internal-leaflet 弁を適正サイズ（AAE 後 ≥23mm）で植える戦略が依然最善</strong>であり、BASILICA はあくまで rescue である<sup class="cite"><a href="#ref-69" title="Khan JM, et al. J Am Coll Cardiol Intv. 2021;14:941–948">[69]</a></sup><sup class="cite"><a href="#ref-70" title="Lederman RJ, et al. J Am Coll Cardiol Intv. 2019;12:1197–1216">[70]</a></sup>。</p>
+<h3 id="ppi-と-redo-の不確実性">PPI と redo の不確実性</h3>
+<p>ViV-TAVR の PPI は native TAVR より低く、VIVID 1,987 例で 6.4%、新世代 THV 4.7% vs 旧世代 7.4%、Evolut R/Pro 3.7% vs CoreValve 9.0% であった<sup class="cite"><a href="#ref-71" title="Alperi A, et al. J Am Coll Cardiol. 2021;77:2263–2273">[71]</a></sup>。larger THV size が PPI 予測因子 (OR 1.10/size) である点は AAE で大弁→大 THV とする戦略と緩やかな trade-off を成すが、絶対リスク増は小さい<sup class="cite"><a href="#ref-71" title="Alperi A, et al. J Am Coll Cardiol. 2021;77:2263–2273">[71]</a></sup>。一方、初回 TAVI を選んだ場合の lifetime 出口は未確定で、redo TAVI vs TAV explant + SAVR を前向きに比較する REVALVE registry が進行中である。既存 retrospective では TAV explant 後 SAVR の 30 日死亡が 13.1–19.4% と高く<sup class="cite"><a href="#ref-72" title="Blackman DJ, et al. Int J Cardiol. 2025;435:133400">[72]</a></sup>、初回 TAVI の bail-out 不利が示唆される。</p>
+<h3 id="結論--19mm-は許容か">結論 — 「19mm は許容か」</h3>
+<p>エビデンスは一貫して「19mm（true ID &lt;20mm、label 21mm 相当）は ViV 戦略上の不利域」を示す。small valve は ViV 後 1 年死亡 HR 2.04<sup class="cite"><a href="#ref-62" title="Dvir D, et al. JAMA. 2014;312(2):162–170">[62]</a></sup>、ID &lt;20mm で severe stenosis が集中し<sup class="cite"><a href="#ref-63" title="D'Onofrio A, et al. Ann Thorac Surg. 2016;102:1966–1973">[63]</a></sup>、size 1mm の差が直接 gradient に効く<sup class="cite"><a href="#ref-64" title="Ruge H, et al. Catheter Cardiovasc Interv. 2025;106:1409–1420">[64]</a></sup>。high implant・SEV・postdilation は緩和するが限界があり<sup class="cite"><a href="#ref-65" title="Simonato M, et al. Circ Cardiovasc Interv. 2016;9:e003651">[65]</a></sup><sup class="cite"><a href="#ref-64" title="Ruge H, et al. Catheter Cardiovasc Interv. 2025;106:1409–1420">[64]</a></sup>、小 SOV では CO リスクも高い<sup class="cite"><a href="#ref-66" title="Ribeiro HB, et al. Eur Heart J. 2018;39:687–695">[66]</a></sup>。したがって、再介入が想定される若年・長期予後良好な患者では、19mm は許容しがたく、AAE で internal-leaflet 弁を ≥23mm 確保する戦略が将来 ViV の hemodynamic・安全性の両面で正当化される。逆に、高齢で再介入の蓋然性が低く AAE の付加リスク（SAKURA-AVR が安全性アウトカムとする post-AAE mitral regurgitation 等）が patient benefit を上回る症例では、19mm + 将来 BASILICA を含む救済前提の戦略も現実的選択肢となる。すなわち「19mm は許容か」の答えは患者の余命と再介入確率に依存し、SAKURA-AVR が AAE 群の measured indexed EOA・gradient 優位と安全性を定量化することで、この閾値を Asian 小体格集団で実証的に区分できる。</p>
+<h2 id="7-sutureless--rapid-deployment-による-aae-代替戦略">7. Sutureless / Rapid-deployment による AAE 代替戦略</h2>
+<p>狭小弁輪に対する EOA 確保戦略として、AAE が古典的選択肢である一方、CPB・大動脈遮断時間の延長と手技複雑性を伴う。これに対し sutureless valve (Perceval) と rapid-deployment valve (Intuity) は、stentless 様構造あるいは LVOT を拡げる inflow frame により、弁輪を切開せずに同サイズ stented 弁より大きい EOA を、より短い implantation 時間で得る「第3の戦略」である。本節では、これらが AAE の低侵襲代替となりうるか、とりわけ高齢・高リスク・小体格集団における位置づけを批判的に検討する。</p>
+<h3 id="71-sutureless-vs-root-enlargement-の直接対比-beckmann">7.1 Sutureless vs Root enlargement の直接対比 (Beckmann)</h3>
+<p>狭小弁輪 (projected indexed EOA ≤0.89 cm²/m²) 128例において、Perceval sutureless と Nicks ARE を直接比較した唯一の研究が Beckmann らである <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup>。Sutureless 群 (n=92) は ARE 群 (n=36) より高齢 (79 vs 62歳)・NYHA III/IV が多く (84% vs 28%)・併施手術も多い (33% vs 6%) にもかかわらず、operation time -34 min、CPB -38 min、cross-clamp -35 min と全術中時間が有意短縮した <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup>。退院時 indexed EOA は ARE 0.91 vs Sutureless 0.83 cm²/m² と ARE が統計的に上回ったが (P=0.04)、両者とも mild PPM 領域にとどまり、<strong>severe PPM (iEOA ≤0.65) は 6% vs 11% と有意差なし</strong> であった <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup>。30日死亡 6% vs 2%、5年生存 76% vs 54% (いずれも n.s.) で、mid-term mortality の独立予測因子は年齢のみ (HR 1.122, P=0.022) であった <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup>。Trade-off は PMI 増加 (15% vs 6%, n.s.) である。著者らは「sutureless は ARE の代替となりうる」と結論し、特に高齢者で優位とした <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup>。ただし BSA 1.8 ± 0.2 m²・BMI 28–34 の欧州肥満集団であり、日本人小体格 (BSA &lt;1.6) への直接外挿には注意を要する点を著者自身が明記している <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup>。</p>
+<h3 id="72-intuity-vs-perceval--機種選択の論点-berretta-surd-ir">7.2 Intuity vs Perceval — 機種選択の論点 (Berretta SURD-IR)</h3>
+<p>SURD-IR 4,695例の PS-matched 比較 (isolated 823 pairs / combined 467 pairs) では、in-hospital 死亡・主要合併症は両機種同等であった一方、機種特性が明確に分岐した <sup class="cite"><a href="#ref-74" title="Berretta P, et al. Ann Thorac Surg 2022;114(3):758–766.">[74]</a></sup>。<strong>Perceval</strong> は CPB time 63 vs 85 min、clamp time 39.5 vs 54 min と有意に短く (いずれも P&lt;.001)、collapsed design により annulus visualization が良好で ART (右前小開胸) approach が多い (31.2% vs 21.4%) <sup class="cite"><a href="#ref-74" title="Berretta P, et al. Ann Thorac Surg 2022;114(3):758–766.">[74]</a></sup>。<strong>Intuity</strong> は size-by-size で mean gradient が有意に低く (isolated 11.6 vs 14.5 mmHg, P&lt;.001)、mild AR も少ない (6.1% vs 10.9%, P&lt;.001) <sup class="cite"><a href="#ref-74" title="Berretta P, et al. Ann Thorac Surg 2022;114(3):758–766.">[74]</a></sup>。著者らは Intuity の inflow frame design が LVOT を拡げ「particularly in those patients with a small aortic annulus」で PPM リスクを下げると述べており、<strong>狭小弁輪で gradient 重視なら Intuity、時間短縮重視 (frail/高齢) なら Perceval</strong> という選択指針を補強する <sup class="cite"><a href="#ref-74" title="Berretta P, et al. Ann Thorac Surg 2022;114(3):758–766.">[74]</a></sup>。PMI 9–11% は両機種共通の課題だが、optimal implantation technique で経年的に 12.8% → 5.9% へ減少している <sup class="cite"><a href="#ref-74" title="Berretta P, et al. Ann Thorac Surg 2022;114(3):758–766.">[74]</a></sup>。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標 (isolated, matched)</th>
+<th>Perceval</th>
+<th>Intuity</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPB time (min)</td>
+<td>63</td>
+<td>85</td>
+<td>&lt;.001</td>
+</tr>
+<tr>
+<td>Clamp time (min)</td>
+<td>39.5</td>
+<td>54</td>
+<td>&lt;.001</td>
+</tr>
+<tr>
+<td>Mean gradient (mmHg)</td>
+<td>14.5 ± 5.9</td>
+<td>11.6 ± 5.5</td>
+<td>&lt;.001</td>
+</tr>
+<tr>
+<td>Mild AR</td>
+<td>10.9%</td>
+<td>6.1%</td>
+<td>&lt;.001</td>
+</tr>
+<tr>
+<td>Pacemaker</td>
+<td>9.1%</td>
+<td>7.9%</td>
+<td>.84</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="73-リスク階層を超えた安全性と-bicuspid-への拡張-santarpino-berretta-bav">7.3 リスク階層を超えた安全性と bicuspid への拡張 (Santarpino, Berretta-BAV)</h3>
+<p>SURD が AAE の代替として高リスク症例まで使えるか、を裏づけるのが Santarpino らの risk-stratified 解析 (isolated SURD-AVR 2,057例) である。EuroSCORE で Low/Intermediate/High/Very High に層別しても hospital mortality は 1.6% / 0.8% / 1.9% / 2.7% と有意差なく (P=0.2)、MICS 74.1% で施行された <sup class="cite"><a href="#ref-75" title="Santarpino G, et al. Eur J Cardiothorac Surg 2019;56(1):38–43.">[75]</a></sup>。Very-high (EuroSCORE &gt;20) でも mortality 2.7% は PARTNER B (inoperable TAVI 5.0%) の約半分であり、SURD が high-risk SAVR を成立させる強い outcome を示した <sup class="cite"><a href="#ref-75" title="Santarpino G, et al. Eur J Cardiothorac Surg 2019;56(1):38–43.">[75]</a></sup>。PMI rate は期間を通じ 17.2% → 5.4% に減少 (P=0.002) しており learning curve の寄与が大きい <sup class="cite"><a href="#ref-75" title="Santarpino G, et al. Eur J Cardiothorac Surg 2019;56(1):38–43.">[75]</a></sup>。一方、適応の幅としては bicuspid (BAV) への拡張が問題となる。SURD-IR の BAV サブグループ 191例では 30日死亡 1.6%、PMI 7.9%、moderate-severe AR 3.7% と許容範囲であったが、これは commissural plication と 360° 石灰除去で annulus を三尖様に circular 化する technical caveat を前提とし、<strong>raphe を欠く type 0 BAV は絶対禁忌</strong> とされる <sup class="cite"><a href="#ref-76" title="Miceli A, et al. Ann Cardiothorac Surg 2020;9(4):298–304.">[76]</a></sup>。注目すべきは小弁輪での血行動態で、Intuity 19 mm の mean gradient 14.1 ± 5.2 mmHg、21 mm で 12.3 ± 6.4 mmHg は同サイズ stented 弁より明らかに低く、<strong>狭小弁輪+BAV でも AAE を要さず SURD で対応しうる</strong> ことを示唆する <sup class="cite"><a href="#ref-76" title="Miceli A, et al. Ann Cardiothorac Surg 2020;9(4):298–304.">[76]</a></sup>。ただし PPM rate (iEOA) の直接報告はなく、gradient データのみである点が共通の限界である <sup class="cite"><a href="#ref-76" title="Miceli A, et al. Ann Cardiothorac Surg 2020;9(4):298–304.">[76]</a></sup>。</p>
+<h3 id="74-小体格集団における-sutureless-vs-tavi--中期成績の分岐-dibacco">7.4 小体格集団における Sutureless vs TAVI — 中期成績の分岐 (DiBacco)</h3>
+<p>本研究 RQ に最も近い小体格集団を扱うのが DiBacco らの欧州5施設 PSM 研究で、echo 弁輪径 ≤21 mm の AS 患者を Perceval sutureless (SUAVR) vs TAVI で 146 vs 146 に matching している <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>。matched 集団は年齢 81歳・<strong>BSA 1.57–1.58 m²・女性 89%・平均弁輪径 20.2–20.3 mm</strong> と、Asian small-body に近い小体格であり、SAKURA-AVR の対象像に親和性が高い <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>。退院時～1年は iEOA・mean gradient・mod-severe PPM ともに両群同等であった (退院時 mod-severe PPM 4.1% vs 8.9%, P=0.096) が、<strong>3年で TAVI 群は iEOA が低下 (1.06 vs 0.99, P=0.057)・mod-severe PPM 増加 (8.2% vs 15.7%, P=0.047)・PVL≥2 増加 (6.1% vs 13.9%, P=0.031)</strong> を示した <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>。36か月全死亡は matched で SUAVR 12.2% vs TAVI 21.0% (P=0.058)、unmatched では有意 (11.5% vs 19.9%, P=0.022)、36か月 MACCE は 18.1% vs 32.6% (P&lt;0.001) と TAVI で有意に不良であった <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>。多変量 Cox では <strong>PMI (HR 3.05) と PPM (HR 2.72) が独立死亡予測因子</strong> であり、PPM が予後を規定するという本レビューの中核仮説を裏づける <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>。重要なのは、本研究に AAE が一切登場せず、Perceval は「弁輪を拡げずに大型 EOA を得る no-AAE 手術戦略」の代表として TAVI と対比されている点で、SAKURA-AVR の no-AAE SAVR arm の一変法と位置づけられる <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>。ただし severe PPM (≤0.65) 単独 rate は mod-severe 合算でしか報告されず、また TA approach 比率 26.0% が TAVI 早期死亡 (30日 6.1% vs SUAVR 1.4%) を押し上げた可能性、旧世代 TAVI 弁の混在が limitation である <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>。</p>
+<h3 id="75-統合的考察--aae-ルーチン化への含意">7.5 統合的考察 — AAE ルーチン化への含意</h3>
+<p>以上を総合すると、sutureless/rapid-deployment は <strong>狭小弁輪に対し AAE を回避しつつ大型 EOA を確保する低侵襲代替</strong> として、特に高齢・高リスク・併施手術例で合理的である。Beckmann の直接比較で severe PPM が ARE と有意差なく <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup>、Santarpino で very-high risk まで mortality が低位安定し <sup class="cite"><a href="#ref-75" title="Santarpino G, et al. Eur J Cardiothorac Surg 2019;56(1):38–43.">[75]</a></sup>、DiBacco で小体格集団でも TAVI より中期成績が良好である <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup> ことは、SAKURA-AVR が問う「Asian 小体格でルーチン AAE は正当化されるか」に対し、<strong>AAE のための CPB 延長を避けたい高齢層では sutureless が第一の対抗戦略となる</strong> ことを示す。一方で本戦略には明確な留保がある。(1) PMI は ARE/conventional SAVR より高く (Beckmann 15%, BAV 7.9%) <sup class="cite"><a href="#ref-73" title="Beckmann E, et al. Interact CardioVasc Thorac Surg 2016;22(6):744–749.">[73]</a></sup> <sup class="cite"><a href="#ref-76" title="Miceli A, et al. Ann Cardiothorac Surg 2020;9(4):298–304.">[76]</a></sup>、これが独立死亡因子 (HR 3.05) であることから <sup class="cite"><a href="#ref-77" title="Lorenzo Di Bacco et al. (Claudio Muneretto) Braz J Cardiovasc Surg 2024;39(4):e20230155">[77]</a></sup>、若年で耐久性が要る症例では AAE+conventional 弁がなお安全である。(2) 機種選択では gradient 重視で Intuity、時間短縮で Perceval という棲み分けが妥当である <sup class="cite"><a href="#ref-74" title="Berretta P, et al. Ann Thorac Surg 2022;114(3):758–766.">[74]</a></sup>。(3) いずれの registry も iEOA に基づく PPM 直接解析を欠き、追跡が in-hospital に限られるため、SAKURA-AVR が co-primary とする「測定 indexed EOA による severe PPM ≤0.65」「1年 mean gradient」を真に評価しうるデータは現状不足している。したがって sutureless は AAE のルーチン化を不要とする有力な代替であるものの、severe PPM の測定値ベース評価と中長期 LV remodeling データを伴う前向き検証が、SAKURA-AVR を含め今後の課題として残る。</p>
+<h2 id="8-機械弁-vs-生体弁-と-ガイドラインの方向性の差-accahaesceacts-vs-jcs">8. 機械弁 vs 生体弁 と ガイドラインの方向性の差 (ACC/AHA・ESC/EACTS vs JCS)</h2>
+<p>狭小弁輪症例の治療戦略は、(1) 機械弁か生体弁かという prosthesis type の選択、(2) PPM 回避のために aortic annular enlargement (AAE) を加える SAVR を選ぶか、それとも TAVI を選ぶかという mode of intervention の選択、という二つの軸で決まる。本節では弁種選択の長期エビデンス (Goldstone) を踏まえたうえで、欧米ガイドライン (ACC/AHA・ESC/EACTS) が狭小弁輪に対し AAE/root enlargement を narrative に支持するのに対し、JCS 2020 が逆に TAVI を支持するという方向性の乖離を、日本人の体格と解剖学的余地という観点から批判的に検討する。</p>
+<h3 id="81-機械弁-vs-生体弁-若年小体格での-long-term-mortality-優位">8.1 機械弁 vs 生体弁: 若年小体格での long-term mortality 優位</h3>
+<p>弁種選択は anticoagulation と再手術の trade-off だが、long-term mortality の観点では現行ガイドラインが想定するより若い年齢まで機械弁が優位である。California 全州 142 病院・1996–2013 年の isolated AVR 9,942 例 (Mechanical 6,097, Biologic 3,845) を inverse-probability-weighted で解析した Goldstone らによれば、AVR 45–54 歳で 15 年死亡は機械弁 26.4% vs 生体弁 30.6% (HR 1.23, 95%CI 1.02–1.48, P=0.03) と機械弁が有意に良好で、連続年齢解析では機械弁の生存利益は概ね 55 歳まで持続した <sup class="cite"><a href="#ref-78" title="Goldstone AB, et al. N Engl J Med 2017;377:1847-57">[78]</a></sup>。一方 55–64 歳では 32.1% vs 36.1% (HR 1.04, P=0.60) と差が消失する <sup class="cite"><a href="#ref-78" title="Goldstone AB, et al. N Engl J Med 2017;377:1847-57">[78]</a></sup>。経年的には生体弁使用が 1996 年 11.5% から 2013 年 51.6% へ増加しており、redo TAVI への期待が背景にある <sup class="cite"><a href="#ref-78" title="Goldstone AB, et al. N Engl J Med 2017;377:1847-57">[78]</a></sup>。ただし本研究は administrative database のため valve size を持たず、PPM の直接評価は不可能で、Asian/Pacific Islander も 4.1–4.9% にとどまりアジア人特異的解析はできない点が限界である <sup class="cite"><a href="#ref-78" title="Goldstone AB, et al. N Engl J Med 2017;377:1847-57">[78]</a></sup>。</p>
+<p>この知見は SAKURA-AVR の文脈で重要な含意を持つ。若年小体格症例で AAE により 21mm 生体弁を入れる戦略に対し、「&lt;55 歳なら 17/19mm 機械弁を選ぶ」という選択肢が long-term mortality 上は対抗しうる。各ガイドラインの弁種年齢推奨は概ね一致するが、機械弁を支持する年齢域には差がある (下表)。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>ガイドライン</th>
+<th>機械弁推奨</th>
+<th>生体弁推奨</th>
+<th>機械弁 long-term 優位 (実データ)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACC/AHA 2020</td>
+<td>&lt;50 y (Class I, B-NR)</td>
+<td>&gt;65 y (Class IIa)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>ESC/EACTS 2021</td>
+<td>&lt;60 y (Class IIa, B)</td>
+<td>&gt;65 y (Class IIa, C)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>JCS 2020</td>
+<td>&lt;60 y (Class IIa, C)</td>
+<td>≥65 y (Class IIa, C)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Goldstone (実データ)</td>
+<td>—</td>
+<td>—</td>
+<td>AVR ~55 y まで機械弁が mortality 優位</td>
+</tr>
+</tbody>
+</table></div>
+<p>ACC/AHA は &lt;50 歳で機械弁を Class I (B-NR)、&gt;65 歳で生体弁を Class IIa とし、50–65 歳は shared decision とする <sup class="cite"><a href="#ref-79" title="Otto CM, et al. Circulation 2021;143:e72–e227.">[79]</a></sup>。ESC/EACTS は &lt;60 歳で機械弁 (Class IIa B)、&gt;65 歳で生体弁 (Class IIa C) とより積極的に若年機械弁を推奨し <sup class="cite"><a href="#ref-80" title="Vahanian A, et al. Eur Heart J 2022;43(7):561–632.">[80]</a></sup>、JCS も &lt;60 歳で機械弁・≥65 歳で生体弁 (いずれも Class IIa C) と ESC に倣う <sup class="cite"><a href="#ref-81" title="Izumi C, et al. Circ J 2020;84(11):2037–2119.">[81]</a></sup>。すなわち ESC/EACTS・JCS の &lt;60 歳機械弁推奨は、Goldstone の「~55 歳まで機械弁優位」という実データと方向性が一致し、若年狭小弁輪での「19mm 機械弁 + AAE」という選択肢を後押しする。</p>
+<h3 id="82-狭小弁輪に対する-mode-of-intervention-aae-か-tavi-か">8.2 狭小弁輪に対する mode of intervention: AAE か TAVI か</h3>
+<p>ここに欧米ガイドラインと JCS の決定的な乖離が現れる。</p>
+<p><strong>ACC/AHA 2020</strong> は Figure 3 の注釈で「small aortic annulus or aorta では、より大きな prosthesis を留置し PPM を回避するために surgical annulus-enlarging procedure が必要となりうる」と明記し、AAE を SAVR の adjunct として位置付ける <sup class="cite"><a href="#ref-79" title="Otto CM, et al. Circulation 2021;143:e72–e227.">[79]</a></sup>。Executive summary の decision table はさらに踏み込み、「Concern for patient–prosthesis mismatch (annular enlargement might be considered)」を SAVR を支持する factor として明示する <sup class="cite"><a href="#ref-82" title="Otto CM, et al. J Am Coll Cardiol 2021;77(4):450–500.">[82]</a></sup>。SAVR vs TAVI の age cutoff は &lt;65 歳 SAVR (Class I A)、65–80 歳 shared decision、&gt;80 歳 TF-TAVI 優先 (Class I A) である <sup class="cite"><a href="#ref-82" title="Otto CM, et al. J Am Coll Cardiol 2021;77(4):450–500.">[82]</a></sup>。ただし AAE には Class/LOE は付与されず、narrative consensus にとどまる <sup class="cite"><a href="#ref-79" title="Otto CM, et al. Circulation 2021;143:e72–e227.">[79]</a></sup>。</p>
+<p><strong>ESC/EACTS 2021</strong> は Section 11.3 で「狭小弁輪患者の戦略には root enlargement と stentless valve の使用が含まれる」と明記し、AAE を最も明示的に narrative 支持する一方、sutureless/RDV については「大規模 RCT が欠如し conventional AVR が gold standard である」と最も保守的な姿勢をとる <sup class="cite"><a href="#ref-80" title="Vahanian A, et al. Eur Heart J 2022;43(7):561–632.">[80]</a></sup>。Table 6 では「High likelihood of severe PPM (AVA &lt;0.65 cm²/m² BSA)」を SAVR を strongly favor する factor (rated 1) として明示する <sup class="cite"><a href="#ref-80" title="Vahanian A, et al. Eur Heart J 2022;43(7):561–632.">[80]</a></sup>。SAVR vs TAVI cutoff は &lt;75 歳 low risk で SAVR (Class I B)、≥75 歳または high risk で TAVI (Class I A) と、ACC/AHA より SAVR 領域が広い <sup class="cite"><a href="#ref-80" title="Vahanian A, et al. Eur Heart J 2022;43(7):561–632.">[80]</a></sup>。したがって &lt;75 歳・low risk・PPM 予測の狭小弁輪では、年齢・リスク・PPM の三要素すべてが SAVR を favor し、「SAVR + AAE」が triple recommend となる。</p>
+<p><strong>JCS 2020</strong> はこれと真っ向から対立する。Table 33 (SAVR vs TAVI 選択因子) は「Small annulus highly expected patient-prosthesis mismatch」を <strong>TAVI を支持する factor</strong> として位置付ける <sup class="cite"><a href="#ref-81" title="Izumi C, et al. Circ J 2020;84(11):2037–2119.">[81]</a></sup>。これは ESC/EACTS Table 6 の「PPM → SAVR」、ACC/AHA exec summary の「PPM → annular enlargement (SAVR)」と論理が逆転している。下表に方向性の対比を示す。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>ガイドライン</th>
+<th>狭小弁輪 + PPM 予測の方向性</th>
+<th>AAE の扱い</th>
+<th>SAVR vs TAVI age cutoff</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACC/AHA 2020</td>
+<td>annular enlargement → SAVR</td>
+<td>narrative (Class/LOE なし)</td>
+<td>&lt;65 SAVR / 65–80 共有 / &gt;80 TAVI</td>
+</tr>
+<tr>
+<td>ESC/EACTS 2021</td>
+<td>PPM (AVA &lt;0.65) → SAVR (rated 1)</td>
+<td>narrative (Class/LOE なし)</td>
+<td>&lt;75 SAVR / ≥75 TAVI</td>
+</tr>
+<tr>
+<td>JCS 2020</td>
+<td>Small annulus + PPM → <strong>TAVI</strong></td>
+<td>明文記載なし (初回弁拡大は narrative)</td>
+<td>&lt;75 SAVR / ≥80 TAVI (明確な cutoff は設けず)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="83-乖離の根-体格と解剖学的余地そして批判的検討">8.3 乖離の根: 体格と解剖学的余地、そして批判的検討</h3>
+<p>この乖離は学術的対立ではなく、日本の臨床現実を反映する。JCS は日本人の平均余命が欧米より 3–5 年長く、≥75 歳でも 1–2 年長いことを理由に TAVI 優先年齢を ≥80 歳へ引き上げ、明確な age cutoff を設けない方針をとる <sup class="cite"><a href="#ref-81" title="Izumi C, et al. Circ J 2020;84(11):2037–2119.">[81]</a></sup>。同時に severe PPM を BMI 別に細分し、BMI &lt;30 で iEOA &lt;0.65 cm²/m²、BMI &gt;30 で &lt;0.55 cm²/m² と定義する <sup class="cite"><a href="#ref-81" title="Izumi C, et al. Circ J 2020;84(11):2037–2119.">[81]</a></sup>。BMI &lt;25 が多い日本人では &lt;0.65 基準がやや厳しく作用し、SAVR で弁を大きくしても PPM が出やすい現実 — すなわち小体格ゆえの解剖学的 headroom の乏しさ — がある。加えて日本では AAE の経験を持つ施設・術者が限定的で、Table 33 が「small annulus + PPM → TAVI」とするのは、この技術的制約と TAVI の large EOA 利点を正当化する現実主義的判断と解釈できる。</p>
+<p>しかし JCS 内部には論理的乖離がある。一方で Table 33 は狭小弁輪を TAVI へ振り向けながら、他方では「初回 SAVR の弁サイズ・タイプ選択は将来の ViV を見据えて重要」と narrative で強調し <sup class="cite"><a href="#ref-81" title="Izumi C, et al. Circ J 2020;84(11):2037–2119.">[81]</a></sup>、さらに「初回 SAVR 直後に小型生体弁 + PPM の症例に対する ViV は予後不良の報告がある」と明確に警告する <sup class="cite"><a href="#ref-81" title="Izumi C, et al. Circ J 2020;84(11):2037–2119.">[81]</a></sup>。ESC/EACTS も同様に「small aortic root では ViV TAVI が適切でない可能性」を指摘する <sup class="cite"><a href="#ref-80" title="Vahanian A, et al. Eur Heart J 2022;43(7):561–632.">[80]</a></sup>。ACC/AHA も「外科的アプローチは ViV より PPM・paravalvular leak が少なく gradient が低い」と述べる <sup class="cite"><a href="#ref-79" title="Otto CM, et al. Circulation 2021;143:e72–e227.">[79]</a></sup>。これらは一貫して「初回に大きい弁を入れる (= AAE) ことの長期戦略的価値」を支持する。</p>
+<p>ここに本研究の核心がある。JCS が「小体格・狭小弁輪 → TAVI」とする唯一の major guideline であることは、まさに SAKURA-AVR の motivation である。日本人小体格でも、若年 (&lt;75 歳 SAVR・&lt;60 歳機械弁推奨域) であれば AAE-SAVR が TAVI より長期予後上優位でありうる。SAKURA-AVR が co-primary に measured indexed EOA ≤0.65 による severe PPM と 1 年平均圧較差を据え、self-expanding TAVI を reference に AAE-SAVR vs no-AAE SAVR を PSM 比較する設計は、JCS の現実主義と欧米の AAE narrative のいずれが日本人小体格に妥当かを検証するものである。ただし AAE には mitral regurgitation という安全性懸念があり、Goldstone が機械弁の出血・脳卒中増加を示したように <sup class="cite"><a href="#ref-78" title="Goldstone AB, et al. N Engl J Med 2017;377:1847-57">[78]</a></sup>、AAE の routine 化が小体格患者で正当化されるかは、PPM 回避の利得と AAE 由来の合併症 (post-AAE MR) のバランスで判断されねばならない。本レビューはこの equipoise を、日本人の体格と解剖学的余地という固有条件のもとで批判的に評価する立場をとる。</p>
+<h2 id="9-レビューから研究へ--最も近い先行研究-makkinejad-とエビデンスギャップsakura-avr-提案">9. レビューから研究へ — 最も近い先行研究 (Makkinejad) とエビデンス・ギャップ、SAKURA-AVR 提案</h2>
+<p>本レビューがここまで検討してきた中心的な未解決問題 — 「狭小弁輪に対する aortic annular enlargement (AAE) は、弁輪サイズを揃えた前提で本当に予後を改善するのか」 — に最も直接答えようとした既発表研究が、University of Michigan の Makkinejad ら (Ann Thorac Surg 2025) である <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。本節ではこの最近接 analog の到達点と限界を批判的に整理し、残るエビデンス・ギャップを SAKURA-AVR がどう埋めるかを、その方法論的背骨とともに提示する。</p>
+<h3 id="91-最も近い先行研究-makkinejad--設計上の-novelty-と所見">9.1 最も近い先行研究 Makkinejad — 設計上の novelty と所見</h3>
+<p>従来の AAE 研究は「小弁輪で AAE を要した群」と「大弁輪で AAE 不要だった群」を比較する apples-to-oranges な設計に陥っており、survival benefit を示せず noninferiority の証明にとどまっていた <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。Makkinejad らはこの交絡を解消すべく、native aortic annulus 径 (術中実測) を ≤23 mm に揃えた isolated AVR 1328 例を propensity score matching (PSM) で 112 pair (n=224) に整え、AAE 群 vs no-AAE 群を直接比較した <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。両群の native annulus 径中央値は揃って 23 mm だが、AAE 群では植込弁サイズが 1 フルサイズ大きく (25 vs 23)、弁内径も 24 mm vs 21.4 mm であった <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>no-AAE (n=112)</th>
+<th>AAE (n=112)</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Native annulus 径 (中央値, mm)</td>
+<td>23</td>
+<td>23</td>
+<td>&gt;.99</td>
+</tr>
+<tr>
+<td>Implanted valve size</td>
+<td>23</td>
+<td>25</td>
+<td>&lt;.001</td>
+</tr>
+<tr>
+<td>BSA (m²)</td>
+<td>1.9</td>
+<td>2.1</td>
+<td>&lt;.001</td>
+</tr>
+<tr>
+<td>Operative mortality</td>
+<td>3.6%</td>
+<td>1.8%</td>
+<td>.68</td>
+</tr>
+<tr>
+<td>1yr mean AV gradient (mmHg)</td>
+<td>11</td>
+<td>9</td>
+<td>.08</td>
+</tr>
+<tr>
+<td>Moderate/severe PPM</td>
+<td>31%</td>
+<td>19%</td>
+<td>.16</td>
+</tr>
+<tr>
+<td>6yr KM 生存率</td>
+<td>74%</td>
+<td>98%</td>
+<td>.016</td>
+</tr>
+</tbody>
+</table></div>
+<p>周術期成績 (operative mortality 3.6% vs 1.8%、pacemaker・stroke・再開胸いずれも同等) に差はないが、6 年 Kaplan-Meier 生存率は 74% vs 98% (P=.016) と AAE 群が優り、AAE は midterm 死亡の独立保護因子であった (HR 0.19, 95% CI 0.06-0.62, P=.006) <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。重要なのは、AAE 群が BSA 2.1 vs 1.9 m² (P&lt;.001) という不利 (BSA 自体は HR 5.77 のリスク因子) を抱えながら生存優位を示した点である <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。さらに、術後 MR の増悪は認めず、AAE 自体は合併症リスクを増やさないと結論された <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。</p>
+<h3 id="92-makkinejad-の限界--sakura-が埋めるべき4つの穴">9.2 Makkinejad の限界 — SAKURA が埋めるべき4つの穴</h3>
+<p>設計の優秀さにもかかわらず、本研究には SAKURA-AVR が補完すべき決定的な限界がある。第一に、<strong>米国・大 BSA 集団</strong>であり asian-cohort ではない。むしろ AAE 群の BSA が大きく、小体格アジア集団 (SAKURA の対象) とは構図が真逆で、外的妥当性が未検証である <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。第二に、<strong>TAVI 参照アームを欠く</strong>。第三に、co-primary が survival 中心で、hemodynamic 指標 (1yr mean gradient P=.08、iEOA P=.53、moderate/severe PPM P=.16) はいずれも非有意にとどまった <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。第四に、<strong>postop echo の follow-up 率が低く</strong>、EOA 算出可能なエコーが不足したことがこの非有意の主因と明示されている <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。すなわち「AAE が PPM を減らす」という主機序を、本研究は hemodynamics として有意に証明しきれていない。</p>
+<p>この限界はメタ解析の知見とも整合する。Tanaka ら (15 study, n=216,654) は、PS マッチ/調整後では AAE 群の周術期死亡差が消失し (RR 1.06, 95% CI 0.69-1.61)、中期死亡 (HR 1.03)・AV 再介入 (HR 0.98)・心不全 (HR 1.06) のいずれも有意差を示さなかった一方、<strong>重症 PPM (iEOA ≤0.65) RR 0.61 (0.40-0.93)・中等度以上 PPM (iEOA ≤0.85) RR 0.70 (0.58-0.84)</strong> と PPM 低減を明確に示した <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。つまり文献全体として「AAE は PPM を減らすが、それが midterm survival に必ず翻訳されるとは限らない」という null 寄りの構図が見える。Tanaka らはさらに、mean follow-up 10 年超の比較研究が皆無であること、多くの研究が native 弁輪径を報告せず弁輪径でマッチした比較がほぼ存在しないこと、GRADE 品質が low〜very low であることを重大な限界として挙げ、<strong>a priori の技術成功ベンチマークを備えた多施設前向き協同研究</strong>を提言している <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。SAKURA-AVR はこの提言に直接応答する設計である。</p>
+<h3 id="93-sakura-avr-の方法論的背骨">9.3 SAKURA-AVR の方法論的背骨</h3>
+<p>SAKURA-AVR は日韓多施設後ろ向きコホートで、measured annulus ≤23 mm (primary stratum ≤21 mm) のアジア人小体格 AS 患者を対象に、Arm1 (no-AAE SAVR) vs Arm2 (AAE-SAVR) を PSM/IPTW で比較し、self-expanding TAVI を参照アームに置く。co-primary は <strong>measured indexed EOA ≤0.65 cm²/m² による severe PPM</strong> と <strong>1 年平均経弁圧較差</strong>、key secondary は中期生存、prespecified safety は post-AAE mitral regurgitation である。この設計は上記4つのギャップに対し以下の方法論で対応する。</p>
+<ul>
+<li><p><strong>MEASURED iEOA を一次定義に置く</strong> — Makkinejad が postop echo 不足で示せなかった hemodynamic benefit を主要評価項目に据える。Abushouk らは predicted/projected iEOA が PPM を系統的に過小評価することを 8 研究で示し (Ternacle PARTNER: 予測 moderate 10%/severe 1% vs 実測 27%/17%, P&lt;.001; PARTNER 2 SAVR: 予測 28.4%/1.2% vs 実測 31.0%/<strong>23.6%</strong>)、measured iEOA が最良の診断精度をもつとした <sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup>。これが measured を一次・projected を感度解析に回す設計の citable authority となる。ただし Ternacle の2研究では measured PPM と臨床アウトカムの有意な関連が示されなかった点は、副次解釈における留意事項である <sup class="cite"><a href="#ref-3" title="Abdelrahman I. Abushouk, et al. JACC Cardiovasc Interv 2023;16(11):1428-1430">[3]</a></sup>。</p></li>
+<li><p><strong>VARC-3 エンドポイント定義</strong> — PPM は NSVD (非構造的弁機能不全) の一型として位置づけられ、出血は BARC 整合の Type 1-4、SVD/HVD は連続2回のエコーによる Stage 1-3 で判定する <sup class="cite"><a href="#ref-83" title="Philippe Généreux et al. (VARC-3 Writing Committee) Eur Heart J 2021;42(19):1825-1857">[83]</a></sup>。死亡は Kaplan-Meier 累積率で、弁耐久性は競合リスク (conditional probability) 法で報告する <sup class="cite"><a href="#ref-83" title="Philippe Généreux et al. (VARC-3 Writing Committee) Eur Heart J 2021;42(19):1825-1857">[83]</a></sup>。AAE 特有の術後 MR・心構造合併症は Table 7 の cardiac structural complication 枠で前向きに捕捉する <sup class="cite"><a href="#ref-83" title="Philippe Généreux et al. (VARC-3 Writing Committee) Eur Heart J 2021;42(19):1825-1857">[83]</a></sup>。なお severe PPM ≤0.65 cm²/m² の数値カットオフは VARC-3 本文に明示表がないため、PPM 定義の原典を併記する必要がある <sup class="cite"><a href="#ref-83" title="Philippe Généreux et al. (VARC-3 Writing Committee) Eur Heart J 2021;42(19):1825-1857">[83]</a></sup>。</p></li>
+<li><p><strong>PSM バランス診断 SMD&lt;0.1</strong> — Austin は標準化差 (SMD) を中核指標とし、サンプルサイズ非依存で SMD&gt;0.1 を意味のある残存不均衡の閾値とする慣行を確立した <sup class="cite"><a href="#ref-84" title="Peter C. Austin Stat Med 2009;28(25):3083-3107">[84]</a></sup>。SAKURA は全共変量 SMD&lt;0.1 をバランス達成基準として報告するが、平均のバランスだけでは不十分との指摘に従い分散比 (目安 0.92-1.08) や交互作用も補助診断として確認する <sup class="cite"><a href="#ref-84" title="Peter C. Austin Stat Med 2009;28(25):3083-3107">[84]</a></sup>。≤21 mm primary stratum でマッチ対が小さくなりうるため、「バランスは大標本特性 (matched pair=100 で許容域 ±0.234)」という指摘も明示的に踏まえる <sup class="cite"><a href="#ref-84" title="Peter C. Austin Stat Med 2009;28(25):3083-3107">[84]</a></sup>。</p></li>
+<li><p><strong>E-value による感度分析</strong> — PSM でも未測定交絡 (術者選好・解剖学的微差・施設方針・フレイルティ) は原理的に消えない。VanderWeele と Ding の E-value (RR&gt;1 で E-value = RR + √{RR×(RR−1)}) を、点推定値と帰無側 CI 限界の双方について算出する <sup class="cite"><a href="#ref-85" title="Tyler J. VanderWeele, et al. Ann Intern Med 2017;167(4):268-274">[85]</a></sup>。閾値は設けず連続指標として p 値・効果量と並置するが、E-value が 2-3 倍を超えればアジア小体格コホートでそれほど強い未測定交絡を想定しにくく、因果的解釈が補強される <sup class="cite"><a href="#ref-85" title="Tyler J. VanderWeele, et al. Ann Intern Med 2017;167(4):268-274">[85]</a></sup>。</p></li>
+<li><p><strong>STROBE 準拠</strong> — 22 項目チェックリスト (うち4項目がデザイン固有) に従い、適格基準・群定義 (item 6/7)、交絡調整と感度分析 (item 9/12)、欠測フロー (item 13/14)、限界 (item 19)、そして<strong>アジア小体格集団への限定的外的妥当性</strong> (item 21) を明記する <sup class="cite"><a href="#ref-86" title="Erik von Elm, et al. PLoS Med 2007;4(10):e296">[86]</a></sup>。STROBE は研究の質評価ツールではなく報告の透明性ガイドである点に留意し、cohort 版チェックリストを投稿時補足資料として添付する <sup class="cite"><a href="#ref-86" title="Erik von Elm, et al. PLoS Med 2007;4(10):e296">[86]</a></sup>。</p></li>
+</ul>
+<h3 id="94-まとめ">9.4 まとめ</h3>
+<p>Makkinejad は「弁輪サイズを揃えれば AAE は midterm survival を改善する」(HR 0.19) という最有力先行エビデンスを提供したが <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>、その所見はアジア小体格集団では未検証であり、PPM 低減という主機序を hemodynamics として有意に示せず、TAVI 比較も欠く。Tanaka のメタ解析が示す「PPM は減るが survival には必ずしも翻訳されない」という null 寄りの全体像 <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup> を前に、SAKURA-AVR は measured iEOA を co-primary に据え、VARC-3 <sup class="cite"><a href="#ref-83" title="Philippe Généreux et al. (VARC-3 Writing Committee) Eur Heart J 2021;42(19):1825-1857">[83]</a></sup>・E-value <sup class="cite"><a href="#ref-85" title="Tyler J. VanderWeele, et al. Ann Intern Med 2017;167(4):268-274">[85]</a></sup>・SMD バランス診断 <sup class="cite"><a href="#ref-84" title="Peter C. Austin Stat Med 2009;28(25):3083-3107">[84]</a></sup>・STROBE <sup class="cite"><a href="#ref-86" title="Erik von Elm, et al. PLoS Med 2007;4(10):e296">[86]</a></sup> という方法論で robustness を上乗せし、アジア小体格患者でルーチン AAE が正当化されるかという本レビューの中核問題に、これら先行研究が残したギャップを直接埋める形で答えようとするものである。</p>
+<h2 id="10-結論--3-つの-research-question-への解答">10. 結論 — 3 つの Research Question への解答</h2>
+<h3 id="primary-rq狭小弁輪小体格で-aae-付き-savr-は-aae-なし-savr--tavi-よりアウトカムを改善するか">Primary RQ：狭小弁輪＋小体格で AAE 付き SAVR は AAE なし SAVR / TAVI よりアウトカムを改善するか</h3>
+<p><strong>一律に改善するとは言えない。</strong> AAE が severe PPM を減らすことは確実である（メタ解析で severe PPM RR 0.61 <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>、Y-incision PSM で moderate/severe PPM 23%→5.5% <sup class="cite"><a href="#ref-6" title="Alexander Makkinejad, et al. Ann Cardiothorac Surg 2024;13(3):255-265">[6]</a></sup>）。しかし <strong>その PPM 改善が死亡減少に翻訳される確証はなく</strong>、Tanaka メタは調整後の周術期死亡 (RR 1.06)・中期死亡 (HR 1.03)・心不全 (HR 1.06) のいずれも有意差を示さない <sup class="cite"><a href="#ref-5" title="Dustin Tanaka et al. (Maral Ouzounian) Ann Cardiothorac Surg 2024;13(3):187-205">[5]</a></sup>。本テーマに最も近い Makkinejad の matched-annulus PSM は AAE 群の 6 年生存 98% vs 74%（HR 0.19）という強い生存優位を示すが、米国・BSA 大・TAVI 対照なし・術後エコー不足で hemodynamics は非有意であり、Asian small-body へそのまま外挿できない <sup class="cite"><a href="#ref-7" title="Alexander Makkinejad et al. (Bo Yang) Ann Thorac Surg 2025;119(3):568-575">[7]</a></sup>。さらに <strong>AAE-SAVR vs TAVI の直接 RCT は存在せず</strong>、VIVA は TAVR を AAE 含む SAVR と 2 年死亡同等とし、RHEIA の外科群は AAE ゼロ＝実質 no-AAE 対照で TAVI が 1 年複合に優越した <sup class="cite"><a href="#ref-60" title="Rodés-Cabau J, et al. Circulation. 2024;149:644–655">[60]</a></sup><sup class="cite"><a href="#ref-14" title="Didier Tchétché et al. (RHEIA Investigators) Eur Heart J 2025;46(22):2079-2088">[14]</a></sup>。<strong>「AAE-SAVR が TAVI より優れる」という前提も支持されない。</strong></p>
+<h3 id="secondary-rqviv-を見据えた初回弁径は何-mm-必要か19-mm-は許容か">Secondary RQ：ViV を見据えた初回弁径は何 mm 必要か、19 mm は許容か</h3>
+<p><strong>内径 (ID) ≥21 mm が ViV 成功の実質閾値だが、19 mm 弁は絶対禁忌ではなく慎重な患者選択を要する。</strong> D'Onofrio は ID &lt;20 mm で ViV 後 severe gradient 6.8%、Dvir は小型弁 ViV で 1 年死亡 25.2% (HR 2.04) を示す一方 <sup class="cite"><a href="#ref-63" title="D'Onofrio A, et al. Ann Thorac Surg. 2016;102:1966–1973">[63]</a></sup><sup class="cite"><a href="#ref-62" title="Dvir D, et al. JAMA. 2014;312(2):162–170">[62]</a></sup>、BASILICA・BVF・最適 implantation depth など 2020 年代の技術で 19 mm 弁内 ViV も改善可能になった <sup class="cite"><a href="#ref-69" title="Khan JM, et al. J Am Coll Cardiol Intv. 2021;14:941–948">[69]</a></sup><sup class="cite"><a href="#ref-65" title="Simonato M, et al. Circ Cardiovasc Interv. 2016;9:e003651">[65]</a></sup>。Okuno の 20 mm THV 5 年データ（死亡 ≥20 mm 群と同等）は「初回弁径が小さくても長期生存は許容範囲」を示す <sup class="cite"><a href="#ref-11" title="Okuno T, et al. JACC Asia 2025;5(2):245-254">[11]</a></sup>。高齢小体格では SVD 発生前に他要因で死亡することが多く、<strong>ViV を絶対視して初回に過剰侵襲の AAE を加える戦略は、若年・低リスクでなければ過剰回避の必要はない</strong>。方法論的には、19 mm 弁は projected EOA chart の誤分類が最小（5%）で評価可能だが、27 mm への大型化の妥当性評価には projected が無効（誤分類 42%）であり、SAKURA が measured iEOA を一次採用する根拠となる <sup class="cite"><a href="#ref-4" title="Bilkhu R, et al. Eur Heart J Cardiovasc Imaging 2020 Oct 1;21(10):1115-1123">[4]</a></sup>。</p>
+<h3 id="tertiary-rqアジア人特有の解剖を反映した戦略は">Tertiary RQ：アジア人特有の解剖を反映した戦略は</h3>
+<p><strong>第 3 のパラダイム — "Asian refinement"。</strong> アジア人小体格には、interrupted suturing で AAE なしに PPM を半減（56%→29%）<sup class="cite"><a href="#ref-8" title="Tabata M, et al. J Thorac Cardiovasc Surg 2014;147:321-5">[8]</a></sup>、17/19 mm 高性能機械弁の中期妥当性 <sup class="cite"><a href="#ref-9" title="Homare Okamura, et al. Circ J 2012;76:365-371">[9]</a></sup><sup class="cite"><a href="#ref-50" title="Zhao D, et al. J Cardiothorac Surg 2012;7:88">[50]</a></sup>、supra-annular self-expanding TAVI による実効的アップサイジング <sup class="cite"><a href="#ref-10" title="Hiromu Hase, et al. Catheter Cardiovasc Interv 2021;97:E875-E886">[10]</a></sup><sup class="cite"><a href="#ref-47" title="Lee YJ, et al. Korean Circ J 2021;51(3):222-231">[47]</a></sup>、20 mm THV <sup class="cite"><a href="#ref-11" title="Okuno T, et al. JACC Asia 2025;5(2):245-254">[11]</a></sup> という複数の AAE 回避ルートがある。AAE を選ぶ場合も、aorto-mitral continuity 8 mm という解剖学的天井 <sup class="cite"><a href="#ref-12" title="Atsuo Maekawa, et al. Artif Organs 2002;26(10):833-839">[12]</a></sup> を尊重し、Y-AAE 後 severe central MR のリスク <sup class="cite"><a href="#ref-13" title="Safa Özçelik, et al. J Cardiothorac Surg 2026 (Online ahead of print)">[13]</a></sup> に留意して、Kitamura の "Y and I" のような refined approach を選ぶべきである <sup class="cite"><a href="#ref-42" title="Tadashi Kitamura, et al. Ann Thorac Surg Short Rep 2025;3:1074-1076">[42]</a></sup>。ただし低 LVEF 例 <sup class="cite"><a href="#ref-49" title="Jia Hu, et al. J Cardiothorac Surg 2014;9:17">[49]</a></sup> や AAE 非施行で severe PPM 22% が露呈する高齢 SAVR <sup class="cite"><a href="#ref-45" title="Kamioka N, et al. Int Heart J 2019;60:86-92">[45]</a></sup> では AAE の意義が残る。JCS 2020 の「小弁輪 → TAVI」推奨は、ACC/AHA・ESC/EACTS と方向は逆だが、日本人体格・施設状況に整合的であり独立に正当化される <sup class="cite"><a href="#ref-81" title="Izumi C, et al. Circ J 2020;84(11):2037–2119.">[81]</a></sup>。</p>
+<h3 id="総括">総括</h3>
+<p>「狭小弁輪＋小体格に一律 AAE を行うべき」という命題は、84 本の取得文献の総体から見て <strong>エビデンス的に正当化されない</strong>。欧米熟練施設の Y-incision 成績は素晴らしいが、その対象は BSA ≈2.0 m² の中等度狭小であり、severe small（≤19 mm）＋ BSA &lt;1.5 の日本人女性へそのまま転用する根拠は薄い。19 mm 弁植込みは絶対的禁忌ではなく、患者の予測余命・SVD 発生時期・LVEF・性別を踏まえた deliberate decision を要する。<strong>この命題を、当該集団そのもの（日韓多施設アジア小体格）のデータで、measured iEOA・1 年圧較差・中期生存・post-AAE MR を同時評価して検証する確証研究が SAKURA-AVR である</strong>（2026-06-11_SAKURA-AVR_protocol）。本レビューはその科学的根拠を提供する。</p>
+<hr />
+<p><em>v2 / 2026-06-11 / corpus: 84 papers（2026-06 に 15 本追加）/ 関連: _index・2026-06-11_SAKURA-AVR_protocol。本文の上付き番号 [N] は巻末の参考文献（PMID→PubMed / DOI→出版社）にリンクする。</em></p>
+
+<hr>
+<h2 id="references">参考文献 (References)</h2>
+<p class="review-meta">各文献の PMID は PubMed、DOI は出版社ページにリンクします。本文中の上付き番号 [N] をクリックすると該当文献へ移動します。</p>
+<ol class="ref-list">
+<li id="ref-1"><span class="ref-meta">Head SJ, Mokhles MM, Osnabrugge RLJ, Pibarot P, Mack MJ, Takkenberg JJM, Bogers AJJC, Kappetein AP </span><span class="ref-title">The impact of prosthesis–patient mismatch on long-term survival after aortic valve replacement: a systematic review and meta-analysis of 34 observational studies comprising 27 186 patients with 133 141 patient-years.</span> <span class="ref-meta">Eur Heart J 2012;33:1518-1529.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/22408037/" target="_blank" rel="noopener">PMID 22408037</a><a class="doi" href="https://doi.org/10.1093/eurheartj/ehs003" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-2"><span class="ref-meta">Michel Pompeu Sá, Xander Jacquemyn, Jef Van den Eynde, et al. </span><span class="ref-title">Impact of Prosthesis-Patient Mismatch After Surgical Aortic Valve Replacement: Systematic Review and Meta-Analysis of Reconstructed Time-to-Event Data of 122,989 Patients With 592,952 Patient-Years.</span> <span class="ref-meta">J Am Heart Assoc 2024;13(7):e033176.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38533939/" target="_blank" rel="noopener">PMID 38533939</a><a class="doi" href="https://doi.org/10.1161/JAHA.123.033176" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-3"><span class="ref-meta">Abdelrahman I. Abushouk, Amro Aglan, Ingy A. Mahana, Rishi Puri, Amar Krishnaswamy, Grant W. Reed, James Yun, Samir R. Kapadia </span><span class="ref-title">Measured or Predicted Patient-Prosthesis Mismatch Following Aortic Valve Replacement.</span> <span class="ref-meta">JACC Cardiovasc Interv 2023;16(11):1428-1430.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/37316156/" target="_blank" rel="noopener">PMID 37316156</a><a class="doi" href="https://doi.org/10.1016/j.jcin.2023.04.029" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-4"><span class="ref-meta">Bilkhu R, Borger MA, Briffa NP, Jahangiri M, Pibarot P, Dahou A, Hahn RT et al. </span><span class="ref-title">The fallacy of indexed effective orifice area charts to predict prosthesis-patient mismatch after prosthesis implantation.</span> <span class="ref-meta">Eur Heart J Cardiovasc Imaging 2020 Oct 1;21(10):1115-1123.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/32243493/" target="_blank" rel="noopener">PMID 32243493</a><a class="doi" href="https://doi.org/10.1093/ehjci/jeaa092" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-5"><span class="ref-meta">Dustin Tanaka et al. (Maral Ouzounian) </span><span class="ref-title">Early and mid-term outcomes of aortic annular enlargement: a systematic review and meta-analysis.</span> <span class="ref-meta">Ann Cardiothorac Surg 2024;13(3):187-205.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38841080/" target="_blank" rel="noopener">PMID 38841080</a><a class="doi" href="https://doi.org/10.21037/acs-2024-aae-0023" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-6"><span class="ref-meta">Alexander Makkinejad, Joanna Hua, Kenneth R. Hassler, Katelyn Monaghan, Karen Kim, Shinichi Fukuhara, Himanshu J. Patel, Bo Yang </span><span class="ref-title">Comparison of the short-term outcomes between Y-incision aortic annular enlargement and traditional aortic annular enlargement techniques.</span> <span class="ref-meta">Ann Cardiothorac Surg 2024;13(3):255-265.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38841083/" target="_blank" rel="noopener">PMID 38841083</a><a class="doi" href="https://doi.org/10.21037/acs-2023-aae-0102" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-7"><span class="ref-meta">Alexander Makkinejad et al. (Bo Yang) </span><span class="ref-title">Aortic Annular Enlargement vs Isolated Aortic Valve Replacement in Patients With Matched Annulus.</span> <span class="ref-meta">Ann Thorac Surg 2025;119(3):568-575.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39102933/" target="_blank" rel="noopener">PMID 39102933</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2024.07.022" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-8"><span class="ref-meta">Tabata M, Shibayama K, Watanabe H, Sato Y, Fukui T, Takanashi S </span><span class="ref-title">Simple interrupted suturing increases valve performance after aortic valve replacement with a small supra-annular bioprosthesis.</span> <span class="ref-meta">J Thorac Cardiovasc Surg 2014;147:321-5.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/23228405/" target="_blank" rel="noopener">PMID 23228405</a><a class="doi" href="https://doi.org/10.1016/j.jtcvs.2012.11.020" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-9"><span class="ref-meta">Homare Okamura, Atsushi Yamaguchi, Hiroshi Nagano, et al. </span><span class="ref-title">Mid-Term Outcomes After Aortic Valve Replacement With the 17-mm St. Jude Medical Regent Valve.</span> <span class="ref-meta">Circ J 2012;76:365-371.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/22130314/" target="_blank" rel="noopener">PMID 22130314</a><a class="doi" href="https://doi.org/10.1253/circj.CJ-11-0733" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-10"><span class="ref-meta">Hiromu Hase, Nobuhiro Yoshijima, Ryo Yanagisawa, et al.; OCEAN-TAVI Investigators </span><span class="ref-title">Transcatheter aortic valve replacement with Evolut R versus Sapien 3 in Japanese patients with a small aortic annulus: The OCEAN-TAVI registry.</span> <span class="ref-meta">Catheter Cardiovasc Interv 2021;97:E875-E886.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/32926552/" target="_blank" rel="noopener">PMID 32926552</a><a class="doi" href="https://doi.org/10.1002/ccd.29259" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-11"><span class="ref-meta">Okuno T, Izumo M, Takahiko K, Kuwata S, Koga M, Akashi YJ, Shirai S, Watanabe Y, Naganuma T, Tada N, Yamanaka F, Noguchi M, Ueno H, Ohno Y, Nishina H, Takagi K, Asami M, Mizutani K, Yashima F, Otsuka T, Yamamoto M, Hayashida K </span><span class="ref-title">Extremely Small 20-mm Versus Standard-Size Balloon-Expandable Transcatheter Heart Valves: Propensity-Matched Analysis From the OCEAN-TAVI Registry.</span> <span class="ref-meta">JACC Asia 2025;5(2):245-254.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39967214/" target="_blank" rel="noopener">PMID 39967214</a><a class="doi" href="https://doi.org/10.1016/j.jacasi.2024.09.005" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-12"><span class="ref-meta">Atsuo Maekawa, Takashi Watanabe, Akihiko Usui, Yasuhisa Ohara, Yasushi Takagi, Hiroshi Masumoto, Takashi Yano, Masato Usui, Yuji Narita, Haruki Takemura, Shinichi Mizutani, Yuichi Ueda </span><span class="ref-title">Optimal Size of Prostheses for Functioning of the Aortic Prosthetic Valve in Aortic and Mitral Valve Replacement with Annular Enlargement through Manouguian's Technique.</span> <span class="ref-meta">Artif Organs 2002;26(10):833-839.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/12296921/" target="_blank" rel="noopener">PMID 12296921</a><a class="doi" href="https://doi.org/10.1046/j.1525-1594.2002.06970.x" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-13"><span class="ref-meta">Safa Özçelik, Farid Gojayev </span><span class="ref-title">Severe mitral regurgitation after aortic annular enlargement with Y-incision: a case report.</span> <span class="ref-meta">J Cardiothorac Surg 2026 (Online ahead of print).</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/42083003/" target="_blank" rel="noopener">PMID 42083003</a><a class="doi" href="https://doi.org/10.1186/s13019-026-04047-3" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-14"><span class="ref-meta">Didier Tchétché et al. (RHEIA Investigators) </span><span class="ref-title">Transcatheter vs. surgical aortic valve replacement in women: the RHEIA trial.</span> <span class="ref-meta">Eur Heart J 2025;46(22):2079-2088.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40171878/" target="_blank" rel="noopener">PMID 40171878</a><a class="doi" href="https://doi.org/10.1093/eurheartj/ehaf133" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-15"><span class="ref-meta">Pibarot P, Dumesnil JG </span><span class="ref-title">Hemodynamic and Clinical Impact of Prosthesis–Patient Mismatch in the Aortic Valve Position and Its Prevention.</span> <span class="ref-meta">J Am Coll Cardiol 2000;36:1131-41.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/11028462/" target="_blank" rel="noopener">PMID 11028462</a><a class="doi" href="https://doi.org/10.1016/S0735-1097(00)00859-7" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-16"><span class="ref-meta">Pibarot P, Dumesnil JG </span><span class="ref-title">Prosthesis-patient mismatch: definition, clinical impact, and prevention.</span> <span class="ref-meta">Heart 2006 Aug;92(8):1022-1029.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/16251232/" target="_blank" rel="noopener">PMID 16251232</a><a class="doi" href="https://doi.org/10.1136/hrt.2005.067363" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-17"><span class="ref-meta">Pibarot P, Dumesnil JG </span><span class="ref-title">Valve Prosthesis–Patient Mismatch, 1978 to 2011: From Original Concept to Compelling Evidence.</span> <span class="ref-meta">J Am Coll Cardiol 2012;60(13):1136-9.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/22995023/" target="_blank" rel="noopener">PMID 22995023</a><a class="doi" href="https://doi.org/10.1016/j.jacc.2012.07.005" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-18"><span class="ref-meta">Mohty D, Dumesnil JG, Echahidi N, Mathieu P, Dagenais F, Voisine P, Pibarot P </span><span class="ref-title">Impact of Prosthesis-Patient Mismatch on Long-Term Survival After Aortic Valve Replacement: Influence of Age, Obesity, and Left Ventricular Dysfunction.</span> <span class="ref-meta">J Am Coll Cardiol 2009;53:39-47.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/19118723/" target="_blank" rel="noopener">PMID 19118723</a><a class="doi" href="https://doi.org/10.1016/j.jacc.2008.09.022" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-19"><span class="ref-meta">Mohty D, Boulogne C, Magne J, Pibarot P, Echahidi N, Cornu E, Dumesnil JG, Laskar M, Virot P, Aboyans V </span><span class="ref-title">Prevalence and Long-Term Outcome of Aortic Prosthesis–Patient Mismatch in Patients With Paradoxical Low-Flow Severe Aortic Stenosis.</span> <span class="ref-meta">Circulation 2014;130[suppl 1]:S25-S31.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25200051/" target="_blank" rel="noopener">PMID 25200051</a><a class="doi" href="https://doi.org/10.1161/CIRCULATIONAHA.113.007819" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-20"><span class="ref-meta">R. Nicks, T. Cartmill, L. Bernstein </span><span class="ref-title">Hypoplasia of the aortic root. The problem of aortic valve replacement.</span> <span class="ref-meta">Thorax 1970;25(3):339-346.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/5452289/" target="_blank" rel="noopener">PMID 5452289</a><a class="doi" href="https://doi.org/10.1136/thx.25.3.339" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-21"><span class="ref-meta">Sahin Manouguian, Wolfgang Seybold-Epting </span><span class="ref-title">Patch enlargement of the aortic valve ring by extending the aortic incision into the anterior mitral leaflet. New operative technique.</span> <span class="ref-meta">J Thorac Cardiovasc Surg 1979;78(3):402-412.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/470420/" target="_blank" rel="noopener">PMID 470420</a><a class="doi" href="https://doi.org/10.1016/S0022-5223(19)38105-X" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-22"><span class="ref-meta">Soji Konno et al. </span><span class="ref-title">A new method for prosthetic valve replacement in congenital aortic stenosis associated with hypoplasia of the aortic valve ring.</span> <span class="ref-meta">J Thorac Cardiovasc Surg 1975;70(5):909-917.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/127094/" target="_blank" rel="noopener">PMID 127094</a><a class="doi" href="https://doi.org/10.1016/S0022-5223(19)39673-4" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-23"><span class="ref-meta">Kenneth R. Hassler, Katelyn Monaghan, China Green, Bo Yang </span><span class="ref-title">How-I-Do-It: Aortic Annular Enlargement - Are the Nicks and Manouguian Obsolete?.</span> <span class="ref-meta">Semin Thorac Cardiovasc Surg PedCardSurgAnnu 2024;27:25-36.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38522868/" target="_blank" rel="noopener">PMID 38522868</a><a class="doi" href="https://doi.org/10.1053/j.pcsu.2023.12.005" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-24"><span class="ref-meta">Naoki Masaki, Masaru Kumae, Sadahiro Sai </span><span class="ref-title">Modification of Nicks Technique for Aortic Annular Enlargement in Children.</span> <span class="ref-meta">Pediatr Cardiol 2026 (Online ahead of print).</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41843014/" target="_blank" rel="noopener">PMID 41843014</a><a class="doi" href="https://doi.org/10.1007/s00246-026-04230-2" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-25"><span class="ref-meta">Madison J. Malfitano, Julia A. Brickey, Aurelie Merlo, Thomas Caranasos </span><span class="ref-title">Modified Manouguian technique for aortic root enlargement: A case series.</span> <span class="ref-meta">J Card Surg 2022;37(3):574-578.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/34970789/" target="_blank" rel="noopener">PMID 34970789</a><a class="doi" href="https://doi.org/10.1111/jocs.16194" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-26"><span class="ref-meta">Sarah A. Chen, Chi Chi Do-Nguyen, Marc Titsworth, Bo Yang </span><span class="ref-title">Aortic Annular Enlargement: Y-Incision Rationale, Technique, and Outcomes.</span> <span class="ref-meta">Ann Thorac Surg 2025;119:1151-1165 (Invited Expert Review).</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39892843/" target="_blank" rel="noopener">PMID 39892843</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2025.01.016" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-27"><span class="ref-meta">Bo Yang, Corina Ghita, Alexander Makkinejad, China Green, Xiaoting Wu </span><span class="ref-title">Early outcomes of the Y-incision technique to enlarge the aortic annulus 3 to 4 valve sizes.</span> <span class="ref-meta">J Thorac Cardiovasc Surg 2024;167:1196-1205.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36031424/" target="_blank" rel="noopener">PMID 36031424</a><a class="doi" href="https://doi.org/10.1016/j.jtcvs.2022.07.006" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-28"><span class="ref-meta">Bo Yang </span><span class="ref-title">Aortic annular enlargement with Y-incision/rectangular patch.</span> <span class="ref-meta">Ann Cardiothorac Surg 2024;13(3):294-302.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38841092/" target="_blank" rel="noopener">PMID 38841092</a><a class="doi" href="https://doi.org/10.21037/acs-2023-aae-0151" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-29"><span class="ref-meta">Bo Yang, Kenneth R. Hassler, Sarah Chen, Marc Titsworth, Nicole White </span><span class="ref-title">Arc' Modification of the Patch for the Y-Incision Aortic Annular Enlargement.</span> <span class="ref-meta">Ann Thorac Surg Short Rep 2025;3:14-17.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40098828/" target="_blank" rel="noopener">PMID 40098828</a><a class="doi" href="https://doi.org/10.1016/j.atssr.2024.09.008" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-30"><span class="ref-meta">Bo Yang, Katelyn Monaghan, Kenneth Hassler, Alexander Brescia, Farhang Yazdchi </span><span class="ref-title">Updates on Y-incision aortic annular enlargement.</span> <span class="ref-meta">Ann Cardiothorac Surg 2024;13(3):308-310.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38841090/" target="_blank" rel="noopener">PMID 38841090</a><a class="doi" href="https://doi.org/10.21037/acs-2023-aae-0140" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-31"><span class="ref-meta">Bo Yang, Sarah A. Chen </span><span class="ref-title">The 5 Misconceptions of Y-Incision Aortic Annular Enlargement.</span> <span class="ref-meta">Ann Thorac Surg 2026 (Editorial, in press).</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41619928/" target="_blank" rel="noopener">PMID 41619928</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2025.12.049" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-32"><span class="ref-meta">Alexander Makkinejad, Bo Yang </span><span class="ref-title">Nicks, Manouguian, and Y-incision Aortic Annular Enlargement: Do All Roads Lead to Rome? (Reply to Editor).</span> <span class="ref-meta">Ann Thorac Surg 2025;120:799-805 (Correspondence).</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40403905/" target="_blank" rel="noopener">PMID 40403905</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2025.04.025" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-33"><span class="ref-meta">William Truesdell, Corina Ghita, China Green, Heather Knauer, Bo Yang, Nicholas S. Burris </span><span class="ref-title">Changes in aortic root dimensions post aortic root enlargement with Y-incision and modified aortotomy.</span> <span class="ref-meta">Ann Cardiothorac Surg 2024;13(3):266-274.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38841089/" target="_blank" rel="noopener">PMID 38841089</a><a class="doi" href="https://doi.org/10.21037/acs-2024-aae-0042" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-34"><span class="ref-meta">Mia Bonini, Surya Sanjay, Maximilian Balmus, Alexander Makkinejad, Katelyn Monaghan, Marc Hirschvogel, Nicholas Burris, Bo Yang, David Nordsletten </span><span class="ref-title">Modeling the Hemodynamic Impact of Y-incision Aortic Annular Enlargements on Aortic Valve Replacement and Valve-in-Valve Procedures.</span> <span class="ref-meta">J Cardiovasc Transl Res 2025;18:876-887.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40500547/" target="_blank" rel="noopener">PMID 40500547</a><a class="doi" href="https://doi.org/10.1007/s12265-025-10634-x" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-35"><span class="ref-meta">Busra Cangut, Marc Titsworth, Sarah A. Chen, Aditya Sridhar, Bo Yang </span><span class="ref-title">Mitral valve surgery with concomitant Y-incision aortic annular enlargement.</span> <span class="ref-meta">JTCVS Tech 2026;35:102126.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41658927/" target="_blank" rel="noopener">PMID 41658927</a><a class="doi" href="https://doi.org/10.1016/j.xjtc.2025.10.003" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-36"><span class="ref-meta">Kanhua Yin, Marc Titsworth, Yujiro Yokoyama, Chi Chi Do-Nguyen, Bo Yang </span><span class="ref-title">Y-incision aortic annular enlargement after surgical explantation of transcatheter aortic valve bioprosthesis.</span> <span class="ref-meta">Ann Cardiothorac Surg 2025;14(2):173-175.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40270847/" target="_blank" rel="noopener">PMID 40270847</a><a class="doi" href="https://doi.org/10.21037/acs-2024-etavr-0152" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-37"><span class="ref-meta">Kanhua Yin, Marc Titsworth, Bo Yang </span><span class="ref-title">Y-Incision Aortic Annular Enlargement in Patients With Anomalous Left Circumflex Artery.</span> <span class="ref-meta">Eur J Cardiothorac Surg 2025;67(11):ezaf353.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41100181/" target="_blank" rel="noopener">PMID 41100181</a><a class="doi" href="https://doi.org/10.1093/ejcts/ezaf353" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-38"><span class="ref-meta">Li-Xi Gan, Yi Chang, Hong-Wei Guo </span><span class="ref-title">Y-Incision Aortic Annular Enlargement With Chimney Mitral Valve Replacement for Double Small Annuli: An Alternative to Commando Procedure?.</span> <span class="ref-meta">Ann Thorac Surg 2026 (Correspondence, in press).</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41621561/" target="_blank" rel="noopener">PMID 41621561</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2026.01.022" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-39"><span class="ref-meta">Amine Fikani, Victor Jebara </span><span class="ref-title">Technical Modifications to the Y-Incision Aortic Annular Enlargement Technique.</span> <span class="ref-meta">Thorac Cardiovasc Surg 2026 (Online ahead of print).</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41856503/" target="_blank" rel="noopener">PMID 41856503</a><a class="doi" href="https://doi.org/10.1055/a-2836-2224" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-40"><span class="ref-meta">Alexander Makkinejad, Barbara C. S. Hamilton, Robert B. Hawkins, Shinichi Fukuhara, Karen Kim, Paul Tang, Himanshu J. Patel, Francis Pagani, Gorav Ailawadi, Bo Yang </span><span class="ref-title">The effect of surgeon experience on the short-term outcomes of aortic annular enlargement.</span> <span class="ref-meta">JTCVS Open 2025;28:36-44.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41473041/" target="_blank" rel="noopener">PMID 41473041</a><a class="doi" href="https://doi.org/10.1016/j.xjon.2025.09.039" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-41"><span class="ref-meta">Guan-Xi Wang, Sen Zhang, Fei Xu </span><span class="ref-title">The Y-incision with a new roof technique to enlarge the aortic root.</span> <span class="ref-meta">JTCVS Tech 2025;31:34-38.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40641760/" target="_blank" rel="noopener">PMID 40641760</a><a class="doi" href="https://doi.org/10.1016/j.xjtc.2025.02.013" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-42"><span class="ref-meta">Tadashi Kitamura, Yusuke Motoji, Masaomi Fukuzumi, Toshiaki Mishima, Ryoichi Kondo, Yoshimi Tamura, Saya Ishikawa, Kagami Miyaji </span><span class="ref-title">Y Incision Plus Anterior Extended Aortoplasty for Aortic Stenosis With Small Annulus and Sinus of Valsalva: The 'Y and I' Incision Technique.</span> <span class="ref-meta">Ann Thorac Surg Short Rep 2025;3:1074-1076.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41425437/" target="_blank" rel="noopener">PMID 41425437</a><a class="doi" href="https://doi.org/10.1016/j.atssr.2025.04.013" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-43"><span class="ref-meta">Ying-Hwa Chen, Howard C. Herrmann </span><span class="ref-title">Selecting the Proper Transcatheter Aortic Valve Replacement Device in East Asians With a Small Aortic Annulus.</span> <span class="ref-meta">JACC Asia 2025;5(2):322-326.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39967226/" target="_blank" rel="noopener">PMID 39967226</a><a class="doi" href="https://doi.org/10.1016/j.jacasi.2024.11.002" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-44"><span class="ref-meta">Meguro K, Kumamaru H, Kohsaka S, Hashimoto T, Kakizaki R, Kitamura T, Shimizu H, Ako J </span><span class="ref-title">Transcatheter Aortic Valve Replacement in Patients With a Small Annulus — From the Japanese Nationwide Registry (J-TVT).</span> <span class="ref-meta">Circ J 2021;85:967-976.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33642425/" target="_blank" rel="noopener">PMID 33642425</a><a class="doi" href="https://doi.org/10.1253/circj.CJ-20-1084" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-45"><span class="ref-meta">Kamioka N, Arita T, Hanyu M, et al. </span><span class="ref-title">Valve Hemodynamics and Clinical Outcomes After Transcatheter Aortic Valve Replacement for a Small Aortic Annulus.</span> <span class="ref-meta">Int Heart J 2019;60:86-92.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30464118/" target="_blank" rel="noopener">PMID 30464118</a><a class="doi" href="https://doi.org/10.1536/ihj.17-656" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-46"><span class="ref-meta">Shishido K, Yamanaka F, Ochiai T, Moriyama N, Yokoyama H, Yokota S, Noguchi K, Yashima F, Tada N, Naganuma T, Araki M, Shirai S, Ueno H, Mizutani K, Tabata M, Takagi K, Watanabe Y, Yamamoto M, Saito S, Hayashida K </span><span class="ref-title">Effect of Sex on Mortality and Left Ventricular Remodeling After Transcatheter Aortic Valve Implantation.</span> <span class="ref-meta">Circ J 2021;85:979-988.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33907051/" target="_blank" rel="noopener">PMID 33907051</a><a class="doi" href="https://doi.org/10.1253/circj.CJ-20-1095" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-47"><span class="ref-meta">Lee YJ, Lee SJ, Hong SJ, et al. (Hong MK, corresponding) </span><span class="ref-title">Comparison of Transcatheter Aortic Valve Replacement between Self-Expanding versus Balloon-Expandable Valves in Patients with Small Aortic Annulus.</span> <span class="ref-meta">Korean Circ J 2021;51(3):222-231.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/NR (PMC 7997446)/" target="_blank" rel="noopener">PMID NR (PMC 7997446)</a><a class="doi" href="https://doi.org/10.4070/kcj.2020.0409" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-48"><span class="ref-meta">Kim DJ, Lee S, Joo HC, Youn YN, Yoo KJ, Lee SH </span><span class="ref-title">A Retrospective Comparison of Hemodynamic and Clinical Outcomes between Two Differently Designed Aortic Bioprostheses for Small Aortic Annuli.</span> <span class="ref-meta">J Clin Med 2021;10:1063.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33806531/" target="_blank" rel="noopener">PMID 33806531</a><a class="doi" href="https://doi.org/10.3390/jcm10051063" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-49"><span class="ref-meta">Jia Hu, Hong Qian, Ya-jiao Li, Jun Gu, Jing Janice Zhao, Er-yong Zhang </span><span class="ref-title">Seventeen-millimeter St. Jude Medical Regent valve in patients with small aortic annulus: does moderate prosthesis-patient mismatch matter?.</span> <span class="ref-meta">J Cardiothorac Surg 2014;9:17.</span><div class="ref-links"><a class="doi" href="https://doi.org/10.1186/1749-8090-9-17" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-50"><span class="ref-meta">Zhao D, Wang C, Hong T, Pan C, Guo C </span><span class="ref-title">Application of Regent mechanical valve in patients with small aortic annulus: 3-year follow-up.</span> <span class="ref-meta">J Cardiothorac Surg 2012;7:88.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/NR (BMC journal article)/" target="_blank" rel="noopener">PMID NR (BMC journal article)</a><a class="doi" href="https://doi.org/10.1186/1749-8090-7-88" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-51"><span class="ref-meta">Mao Y, Liu Y, Zhai M, Jin P, Li W, Chen F, Yang Y, Zhang G, Liu J, Guo Y, Pan X, Wu Y, Yang J </span><span class="ref-title">Clinical significance of machine learning algorithm in predicting PPM during TAVR in small annuli.</span> <span class="ref-meta">Cardiovasc Interv Ther 2026;41:402-413.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41491442/" target="_blank" rel="noopener">PMID 41491442</a><a class="doi" href="https://doi.org/10.1007/s12928-025-01215-5" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-52"><span class="ref-meta">Yashima F, Yamamoto M, Tanaka M, Yanagisawa R, Arai T, Shimizu H, Fukuda K, Watanabe Y, Naganuma T, Shirai S, Araki M, Tada N, Yamanaka F, Hayashida K </span><span class="ref-title">Transcatheter aortic valve implantation in patients with an extremely small native aortic annulus: The OCEAN-TAVI registry.</span> <span class="ref-meta">Int J Cardiol 2017;240:126-131.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/28606674/" target="_blank" rel="noopener">PMID 28606674</a><a class="doi" href="https://doi.org/10.1016/j.ijcard.2017.01.076" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-53"><span class="ref-meta">Homare Okamura, Atsushi Yamaguchi, Masashi Tanaka, et al. </span><span class="ref-title">The 17-mm St. Jude Medical Regent Valve Is a Valid Option for Patients With a Small Aortic Annulus.</span> <span class="ref-meta">Ann Thorac Surg 2009;87:90-4.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/19101276/" target="_blank" rel="noopener">PMID 19101276</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2008.09.051" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-54"><span class="ref-meta">Moon IT, Kang SH, Yoon CH, Youn TJ, Chang K, Yu CW, Chae IH </span><span class="ref-title">Features and Outcomes of Small Aortic Valve Annulus Transcatheter Aortic Valve Replacement: The Korean TAVR Registry.</span> <span class="ref-meta">J Cardiovasc Interv 2023;2(3):187-198.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/NR (Korean society journal, PMID 未割当の可能性)/" target="_blank" rel="noopener">PMID NR (Korean society journal, PMID 未割当の可能性)</a><a class="doi" href="https://doi.org/10.54912/jci.2023.0001" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-55"><span class="ref-meta">Herrmann HC, Mehran R, Blackman DJ, Bailey S, Möllmann H, Abdel-Wahab M, Ben Ali W, Mahoney PD, Ruge H, Wood DA, Bleiziffer S, Ramlawi B, Gada H, Petronio AS, Resor CD, Merhi W, Garcia del Blanco B, Attizzani GF, Batchelor WB, Gillam LD, Guerrero M, Rogers T, Rovin JD, Szerlip M, Whisenant B, Deeb GM, Grubb KJ, Padang R, Fan MT, Althouse AD, Tchétché D, for the SMART Trial Investigators </span><span class="ref-title">Self-Expanding or Balloon-Expandable TAVR in Patients with a Small Aortic Annulus (SMART Trial).</span> <span class="ref-meta">N Engl J Med 2024;390(21):1959-71.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38587261/" target="_blank" rel="noopener">PMID 38587261</a><a class="doi" href="https://doi.org/10.1056/NEJMoa2312573" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-56"><span class="ref-meta">Herrmann HC, Blackman DJ, Attizzani GF, Abdel-Wahab M, Batchelor WB, Gillam LD, Rogers T, Oh JK, Althouse AD, Mehran R, Tchétché D </span><span class="ref-title">Evaluation of Bioprosthetic Valve Dysfunction in the SMART Randomized Clinical Trial.</span> <span class="ref-meta">Circ Cardiovasc Interv. 2025;18:e015202.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40452601/" target="_blank" rel="noopener">PMID 40452601</a><a class="doi" href="https://doi.org/10.1161/CIRCINTERVENTIONS.125.015202" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-57"><span class="ref-meta">Herrmann HC, Abdel-Wahab M, Attizzani GF, Batchelor W, Bleiziffer S, Verdoliva S, Gada H, Gillam L, Guerrero M, Mahoney PD, Petronio AS, Rogers T, Rovin J, Szerlip M, Whisenant B, Mehran R, Tchetche D </span><span class="ref-title">Rationale and design of the SMall Annuli Randomized To Evolut or SAPIEN Trial (SMART Trial).</span> <span class="ref-meta">Am Heart J 2022;243:92-102.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/34587510/" target="_blank" rel="noopener">PMID 34587510</a><a class="doi" href="https://doi.org/10.1016/j.ahj.2021.09.011" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-58"><span class="ref-meta">Leone PP, Regazzoli D, Pagnesi M, Cannata F, Mangieri A, Hokken TW, Costa G, Barbanti M, Teles R, Adamo M, Taramasso M, Reifart J, De Marco F, Giannini F, Kargoli F, Ohno Y, Saia F, Buono A, Ielasi A, Pighi M, Chiarito M, Bongiovanni D, Cozzi O, Stefanini G, Ribichini F, Maffeo D, Chizzola G, Bedogni F, Kim WK, Maisano F, Tamburino C, Van Mieghem NM, Colombo A, Reimers B, Latib A </span><span class="ref-title">Implantation of contemporary transcatheter aortic valves in small aortic annuli: the international multicentre TAVI-SMALL 2 registry.</span> <span class="ref-meta">EuroIntervention. 2023;19:256-266.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/36950893/" target="_blank" rel="noopener">PMID 36950893</a><a class="doi" href="https://doi.org/10.4244/EIJ-D-22-00843" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-59"><span class="ref-meta">Kaoru Suruga et al. (Raj R. Makkar) </span><span class="ref-title">Comparing Clinical Outcomes of Patients With a Small Versus Large Annulus After Newer-Generation Balloon-Expandable Transcatheter Aortic Valve Replacement.</span> <span class="ref-meta">J Am Heart Assoc 2026;15(3):e043880.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/41568567/" target="_blank" rel="noopener">PMID 41568567</a><a class="doi" href="https://doi.org/10.1161/JAHA.125.043880" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-60"><span class="ref-meta">Rodés-Cabau J, Ribeiro HB, Mohammadi S, Serra V, Al-Atassi T, Iñiguez A, Vilalta V, Nombela-Franco L, Sáez de Ibarra Sánchez JI, Auffret V, Forcillo J, Conradi L, Urena M, Moris C, Muñoz-Garcia A, Paradis JM, Dumont E, Kalavrouziotis D, Pomerantzeff PM, Rosa VEE, Lopes MP, Sureda C, Jimenez Diaz VA, Giuliani C, Avvedimento M, Pelletier-Beaumont E, Pibarot P (VIVA Trial Investigators) </span><span class="ref-title">Transcatheter or Surgical Aortic Valve Replacement in Patients With Severe Aortic Stenosis and Small Aortic Annulus: A Randomized Clinical Trial (VIVA).</span> <span class="ref-meta">Circulation. 2024;149:644–655.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/37883682/" target="_blank" rel="noopener">PMID 37883682</a><a class="doi" href="https://doi.org/10.1161/CIRCULATIONAHA.123.067326" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-61"><span class="ref-meta">Ayyad M, Jabri A, Khalefa BB, Al-Abdouh A, Madanat L, Albandak M, Alhuneafat L, Sukhon F, Shahrori Z, Mourid MR, Mhanna M, Giustino G, Wang DD, Hanson ID, Abbas AE, AlQarqaz M, Villablanca P (筆頭は Ayyad、Codex リストでは Abdelfattah とも参照) </span><span class="ref-title">Efficacy and safety of TAVR versus SAVR in patients with small aortic annuli: A systematic review and meta-analysis.</span> <span class="ref-meta">Int J Cardiol. 2024;411:132243.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/38851542/" target="_blank" rel="noopener">PMID 38851542</a><a class="doi" href="https://doi.org/10.1016/j.ijcard.2024.132243" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-62"><span class="ref-meta">Dvir D, Webb JG, Bleiziffer S, Pasic M, Waksman R, Kodali S, Barbanti M, Latib A, Schaefer U, Rodés-Cabau J, Treede H, Piazza N, Hildick-Smith D, Himbert D, Walther T, Hengstenberg C, Nissen H, Bekeredjian R, Presbitero P, Ferrari E, Segev A, de Weger A, Windecker S, Moat NE, Napodano M, Wilbring M, Cerillo AG, Brecker S, Tchetche D, Lefèvre T, De Marco F, Fiorina C, Petronio AS, Teles RC, Testa L, Laborde JC, Leon MB, Kornowski R (VIVID Investigators) </span><span class="ref-title">Transcatheter Aortic Valve Implantation in Failed Bioprosthetic Surgical Valves (VIVID Registry, original report).</span> <span class="ref-meta">JAMA. 2014;312(2):162–170.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/25005653/" target="_blank" rel="noopener">PMID 25005653</a><a class="doi" href="https://doi.org/10.1001/jama.2014.7246" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-63"><span class="ref-meta">D'Onofrio A, Tarja E, Besola L, Luzi G, Agrifoglio M, Aiello M, Gabbieri D, Tarantini G, Rizzoli G, Musumeci F, Gerosa G </span><span class="ref-title">Early and Midterm Clinical and Hemodynamic Outcomes of Transcatheter Valve-in-Valve Implantation: Results From a Multicenter Experience.</span> <span class="ref-meta">Ann Thorac Surg. 2016;102:1966–1973.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/27496631/" target="_blank" rel="noopener">PMID 27496631</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2016.05.055" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-64"><span class="ref-meta">Ruge H, Burri M, Schreyer J, Georgescu TC, Frank D, Kim WK, de Backer O, Beyer M, Schäfer A, Fraccaro C, Tarantini G, Xhepa E, Joner M, Krane M, Alvarez Covarrubias HA </span><span class="ref-title">Bioprosthetic Valve Fracturing in Valve-in-Valve TAVI: Clinical and Echocardiographic Outcomes in Failing Perimount Aortic Bioprostheses — A Multicenter Registry (REDUCE).</span> <span class="ref-meta">Catheter Cardiovasc Interv. 2025;106:1409–1420.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40537943/" target="_blank" rel="noopener">PMID 40537943</a><a class="doi" href="https://doi.org/10.1002/ccd.31686" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-65"><span class="ref-meta">Simonato M, Webb J, Kornowski R, Vahanian A, Frerker C, Nissen H, Bleiziffer S, Duncan A, Rodés-Cabau J, Attizzani GF, Horlick E, Latib A, Bekeredjian R, Barbanti M, Lefevre T, Cerillo A, Hernández JM, Bruschi G, Spargias K, Iadanza A, Brecker S, Palma JH, Finkelstein A, Abdel-Wahab M, Lemos P, Petronio AS, Champagnac D, Sinning JM, Salizzoni S, Napodano M, Fiorina C, Marzocchi A, Leon M, Dvir D </span><span class="ref-title">Transcatheter Replacement of Failed Bioprosthetic Valves: Large Multicenter Assessment of the Effect of Implantation Depth on Hemodynamics After Aortic Valve-in-Valve.</span> <span class="ref-meta">Circ Cardiovasc Interv. 2016;9:e003651.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/27301396/" target="_blank" rel="noopener">PMID 27301396</a><a class="doi" href="https://doi.org/10.1161/CIRCINTERVENTIONS.115.003651" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-66"><span class="ref-meta">Ribeiro HB, Rodés-Cabau J, Blanke P, Leipsic J, Park JK, Bapat V, Makkar R, Simonato M, Barbanti M, Schofer J, Bleiziffer S, Latib A, Hildick-Smith D, Presbitero P, Windecker S, Napodano M, Cerillo AG, Abdel-Wahab M, Tchetche D, Fiorina C, Sinning JM, Cohen MG, Guerrero ME, Whisenant B, Nietlispach F, Palma JH, Nombela-Franco L, de Weger A, Kass M, Sandoli de Brito F Jr, Lemos PA, Kornowski R, Webb J, Dvir D </span><span class="ref-title">Incidence, predictors, and clinical outcomes of coronary obstruction following transcatheter aortic valve replacement for degenerative bioprosthetic surgical valves: insights from the VIVID registry.</span> <span class="ref-meta">Eur Heart J. 2018;39:687–695.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/29020413/" target="_blank" rel="noopener">PMID 29020413</a><a class="doi" href="https://doi.org/10.1093/eurheartj/ehx455" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-67"><span class="ref-meta">Khan JM, Greenbaum AB, Babaliaros VC, Rogers T, Eng MH, Paone G, Leshnower BG, Reisman M, Satler L, Waksman R, Chen MY, Stine AM, Tian X, Dvir D, Lederman RJ </span><span class="ref-title">The BASILICA Trial: Prospective Multicenter Investigation of Intentional Leaflet Laceration to Prevent TAVR Coronary Obstruction.</span> <span class="ref-meta">J Am Coll Cardiol Intv. 2019;12:1240–1252.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/31202947/" target="_blank" rel="noopener">PMID 31202947</a><a class="doi" href="https://doi.org/10.1016/j.jcin.2019.03.035" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-68"><span class="ref-meta">Khan JM, Greenbaum AB, Babaliaros VC, Dvir D, Reisman M, McCabe JM, Satler L, Waksman R, Eng MH, Paone G, Chen MY, Bruce CG, Stine AM, Tian X, Rogers T, Lederman RJ </span><span class="ref-title">BASILICA Trial: One-Year Outcomes of Transcatheter Electrosurgical Leaflet Laceration to Prevent TAVR Coronary Obstruction.</span> <span class="ref-meta">Circ Cardiovasc Interv. 2021;14:e010238.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/34003670/" target="_blank" rel="noopener">PMID 34003670</a><a class="doi" href="https://doi.org/10.1161/CIRCINTERVENTIONS.120.010238" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-69"><span class="ref-meta">Khan JM, Babaliaros VC, Greenbaum AB, Spies C, Daniels D, Depta JP, Oldemeyer JB, Whisenant B, McCabe JM, Muhammad KI, George I, Mahoney P, Lanz J, Laham RJ, Shah PB, Chhatriwalla A, Yazdani S, Hanzel G, Pershad A, Leonardi RA, Khalil R, Tang GHL, Herrmann HC, Agarwal S, Fail PS, Zhang M, Pop A, Lisko J, Perdoncin E, Koch RL, Ben-Dor I, Satler LF, Zhang C, Cohen JE, Lederman RJ, Waksman R, Rogers T </span><span class="ref-title">Preventing Coronary Obstruction During Transcatheter Aortic Valve Replacement: Results From the Multicenter International BASILICA Registry.</span> <span class="ref-meta">J Am Coll Cardiol Intv. 2021;14:941–948.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33958168/" target="_blank" rel="noopener">PMID 33958168</a><a class="doi" href="https://doi.org/10.1016/j.jcin.2021.02.035" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-70"><span class="ref-meta">Lederman RJ, Babaliaros VC, Rogers T, Khan JM, Kamioka N, Dvir D, Greenbaum AB </span><span class="ref-title">Preventing Coronary Obstruction During Transcatheter Aortic Valve Replacement: From Computed Tomography to BASILICA.</span> <span class="ref-meta">J Am Coll Cardiol Intv. 2019;12:1197–1216.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/31272666/" target="_blank" rel="noopener">PMID 31272666</a><a class="doi" href="https://doi.org/10.1016/j.jcin.2019.04.052" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-71"><span class="ref-meta">Alperi A, Rodés-Cabau J, Simonato M, Tchetche D, Charbonnier G, Ribeiro HB, Latib A, Montorfano M, Barbanti M, Bleiziffer S, Redfors B, Abdel-Wahab M, Allali A, Bruschi G, Napodano M, Agrifoglio M, Petronio AS, Giannini C, Chan A, Kornowski R, Schamroth Pravda N, Adam M, Iadanza A, Noble S, Chatfield A, Erlebach M, Kempfert J, Ubben T, Wijeysundera H, Seiffert M, Pilgrim T, Kim WK, Testa L, Hildick-Smith D, Nerla R, Fiorina C, Brinkmann C, Conzelmann L, Champagnac D, Saia F, Nissen H, Amrane H, Whisenant B, Shamekhi J, Søndergaard L, Webb JG, Dvir D </span><span class="ref-title">Permanent Pacemaker Implantation Following Valve-in-Valve Transcatheter Aortic Valve Replacement: VIVID Registry.</span> <span class="ref-meta">J Am Coll Cardiol. 2021;77:2263–2273.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33958122/" target="_blank" rel="noopener">PMID 33958122</a><a class="doi" href="https://doi.org/10.1016/j.jacc.2021.03.228" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-72"><span class="ref-meta">Blackman DJ, Aktaa S, Pickles D, Abdel-Wahab M, De Backer O, Van Mieghem NM, Treede H, Landes U, Bapat V, Hildick-Smith D, Barbanti M </span><span class="ref-title">REdo transcatheter aortic VALVE implantation for the management of transcatheter aortic valve failure: Design and rationale of the REVALVE study.</span> <span class="ref-meta">Int J Cardiol. 2025;435:133400.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/40393632/" target="_blank" rel="noopener">PMID 40393632</a><a class="doi" href="https://doi.org/10.1016/j.ijcard.2025.133400" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-73"><span class="ref-meta">Beckmann E, Martens A, Alhadi F, Hoeffler K, Umminger J, Kaufeld T, Sarikouch S, Koigeldiev N, Cebotari S, Schmitto JD, Haverich A, Shrestha M </span><span class="ref-title">Aortic valve replacement with sutureless prosthesis: better than root enlargement to avoid patient–prosthesis mismatch?.</span> <span class="ref-meta">Interact CardioVasc Thorac Surg 2016;22(6):744–749..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/26920726/" target="_blank" rel="noopener">PMID 26920726</a><a class="doi" href="https://doi.org/10.1093/icvts/ivw041" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-74"><span class="ref-meta">Berretta P, Meuris B, Kappert U, Andreas M, Fiore A, Solinas M, Misfeld M, Carrel TP, Villa E, Savini C, Santarpino G, Teoh K, Albertini A, Fischlein T, Martinelli G, Mignosa C, Glauber M, Shrestha M, Laufer G, Phan K, Yan T, Di Eusanio M </span><span class="ref-title">Sutureless Versus Rapid Deployment Aortic Valve Replacement: Results From a Multicenter Registry.</span> <span class="ref-meta">Ann Thorac Surg 2022;114(3):758–766..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/34563505/" target="_blank" rel="noopener">PMID 34563505</a><a class="doi" href="https://doi.org/10.1016/j.athoracsur.2021.08.037" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-75"><span class="ref-meta">Santarpino G, Berretta P, Fischlein T, Carrel TP, Teoh K, Misfeld M, Savini C, Kappert U, Glauber M, Villa E, Meuris B, Mignosa C, Albertini A, Martinelli G, Folliguet TA, Shrestha M, Solinas M, Laufer G, Phan K, Yan T, Di Eusanio M </span><span class="ref-title">Operative outcome of patients at low, intermediate, high and 'very high' surgical risk undergoing isolated aortic valve replacement with sutureless and rapid deployment prostheses: results of the SURD-IR registry.</span> <span class="ref-meta">Eur J Cardiothorac Surg 2019;56(1):38–43..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/30689828/" target="_blank" rel="noopener">PMID 30689828</a><a class="doi" href="https://doi.org/10.1093/ejcts/ezy477" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-76"><span class="ref-meta">Miceli A, Berretta P, Fiore A, Andreas M, Solinas M, Santarpino G, Kappert U, Misfeld M, Savini C, Albertini A, Villa E, Phan K, Fischlein T, Meuris B, Martinelli G, Teoh K, Mignosa C, Shrestha M, Carrel TP, Yan TD, Glauber M, Di Eusanio M </span><span class="ref-title">Sutureless and rapid deployment implantation in bicuspid aortic valve: results from the sutureless and rapid-deployment aortic valve replacement international registry.</span> <span class="ref-meta">Ann Cardiothorac Surg 2020;9(4):298–304..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/32832411/" target="_blank" rel="noopener">PMID 32832411</a><a class="doi" href="https://doi.org/10.21037/acs-2020-surd-33" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-77"><span class="ref-meta">Lorenzo Di Bacco et al. (Claudio Muneretto) </span><span class="ref-title">Sutureless Aortic Valve Replacement vs. Transcatheter Aortic Valve Implantation in Patients with Small Aortic Annulus: Clinical and Hemodynamic Outcomes from a Multi-Institutional Study.</span> <span class="ref-meta">Braz J Cardiovasc Surg 2024;39(4):e20230155.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/39038084/" target="_blank" rel="noopener">PMID 39038084</a><a class="doi" href="https://doi.org/10.21470/1678-9741-2023-0155" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-78"><span class="ref-meta">Goldstone AB, Chiu P, Baiocchi M, Lingala B, Patrick WL, Fischbein MP, Woo YJ </span><span class="ref-title">Mechanical or Biologic Prostheses for Aortic-Valve and Mitral-Valve Replacement.</span> <span class="ref-meta">N Engl J Med 2017;377:1847-57.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/29117490/" target="_blank" rel="noopener">PMID 29117490</a><a class="doi" href="https://doi.org/10.1056/NEJMoa1613792" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-79"><span class="ref-meta">Otto CM, Nishimura RA, Bonow RO, Carabello BA, Erwin JP 3rd, Gentile F, Jneid H, Krieger EV, Mack M, McLeod C, O'Gara PT, Rigolin VH, Sundt TM 3rd, Thompson A, Toly C </span><span class="ref-title">2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease.</span> <span class="ref-meta">Circulation 2021;143:e72–e227..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33332150/" target="_blank" rel="noopener">PMID 33332150</a><a class="doi" href="https://doi.org/10.1161/CIR.0000000000000923" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-80"><span class="ref-meta">Vahanian A, Beyersdorf F, Praz F, Milojevic M, Baldus S, Bauersachs J, Capodanno D, Conradi L, De Bonis M, De Paulis R, Delgado V, Freemantle N, Gilard M, Haugaa KH, Jeppsson A, Jüni P, Pierard L, Prendergast BD, Sádaba JR, Tribouilloy C, Wojakowski W; ESC/EACTS Scientific Document Group </span><span class="ref-title">2021 ESC/EACTS Guidelines for the management of valvular heart disease.</span> <span class="ref-meta">Eur Heart J 2022;43(7):561–632..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/34453165/" target="_blank" rel="noopener">PMID 34453165</a><a class="doi" href="https://doi.org/10.1093/eurheartj/ehab395" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-81"><span class="ref-meta">Izumi C, Eishi K, Ashihara K, Arita T, Otsuji Y, Kunihara T, Komiya T, Shibata T, Seo Y, Daimon M, Takanashi S, Tanaka H, Nakatani S, Ninami H, Nishi H, Hayashida K, Yaku H, Yamaguchi J, Yamamoto K, Watanabe H, Abe Y, Amaki M, Amano M, Obase K, Tabata M, Miura T, Miyake M, Murata M, Watanabe N, Akasaka T, Okita Y, Kimura T, Sawa Y, Yoshida K; Japanese Circulation Society Joint Working Group </span><span class="ref-title">JCS/JSCS/JATS/JSVS 2020 Guidelines on the Management of Valvular Heart Disease.</span> <span class="ref-meta">Circ J 2020;84(11):2037–2119..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33012768/" target="_blank" rel="noopener">PMID 33012768</a><a class="doi" href="https://doi.org/10.1253/circj.CJ-20-0135" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-82"><span class="ref-meta">Otto CM, Nishimura RA, Bonow RO, Carabello BA, Erwin JP 3rd, Gentile F, Jneid H, Krieger EV, Mack M, McLeod C, O'Gara PT, Rigolin VH, Sundt TM 3rd, Thompson A, Toly C </span><span class="ref-title">2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease: Executive Summary.</span> <span class="ref-meta">J Am Coll Cardiol 2021;77(4):450–500..</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33332149/" target="_blank" rel="noopener">PMID 33332149</a><a class="doi" href="https://doi.org/10.1016/j.jacc.2020.11.018" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-83"><span class="ref-meta">Philippe Généreux et al. (VARC-3 Writing Committee) </span><span class="ref-title">Valve Academic Research Consortium 3: updated endpoint definitions for aortic valve clinical research.</span> <span class="ref-meta">Eur Heart J 2021;42(19):1825-1857.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/33871579/" target="_blank" rel="noopener">PMID 33871579</a><a class="doi" href="https://doi.org/10.1093/eurheartj/ehaa799" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-84"><span class="ref-meta">Peter C. Austin </span><span class="ref-title">Balance diagnostics for comparing the distribution of baseline covariates between treatment groups in propensity-score matched samples.</span> <span class="ref-meta">Stat Med 2009;28(25):3083-3107.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/19757444/" target="_blank" rel="noopener">PMID 19757444</a><a class="doi" href="https://doi.org/10.1002/sim.3697" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-85"><span class="ref-meta">Tyler J. VanderWeele, Peng Ding </span><span class="ref-title">Sensitivity Analysis in Observational Research: Introducing the E-Value.</span> <span class="ref-meta">Ann Intern Med 2017;167(4):268-274.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/28693043/" target="_blank" rel="noopener">PMID 28693043</a><a class="doi" href="https://doi.org/10.7326/M16-2607" target="_blank" rel="noopener">DOI</a></div></li>
+<li id="ref-86"><span class="ref-meta">Erik von Elm, Douglas G. Altman, Matthias Egger, et al. (STROBE Initiative) </span><span class="ref-title">The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: guidelines for reporting observational studies.</span> <span class="ref-meta">PLoS Med 2007;4(10):e296.</span><div class="ref-links"><a class="pmid" href="https://pubmed.ncbi.nlm.nih.gov/17941714/" target="_blank" rel="noopener">PMID 17941714</a><a class="doi" href="https://doi.org/10.1371/journal.pmed.0040296" target="_blank" rel="noopener">DOI</a></div></li>
+</ol>
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

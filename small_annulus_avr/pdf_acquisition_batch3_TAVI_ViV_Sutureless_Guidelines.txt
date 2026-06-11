@@ -1,0 +1,337 @@
+# PDF Acquisition Batch 3 — TAVI vs SAVR + ViV-TAVR + Sutureless + Guidelines
+# Target: 26 papers (Cat E: 6 + Cat F: 11 + Cat G: 5 + Cat H: 4)
+# Save to: /Users/k.tonai/Documents/CVS_Journal_Research/small_annulus_avr/pdfs/
+# Filename rule: [LastName]_[CamelCaseDescriptor]_[JournalAbbr]_[Year].pdf
+# Verification: Codex (GPT-5) が独立検証、特に first author / 雑誌 / 年の多数訂正あり
+# 検索順序: ① PubMed PMID → "Full text links" → ② DOI 直接 → ③ Google Scholar PMID
+
+============================================================
+CATEGORY E: TAVI vs SAVR in Small Annulus (6 papers)
+============================================================
+
+#1 ★★★★★ [SMART TRIAL — PMID 訂正済]
+PMID: 38587261 ← Claude 側 PMID 38701631 は誤り、Codex で訂正
+DOI: 10.1056/NEJMoa2312573
+Author: Herrmann HC, Mehran R, Blackman DJ, Bailey S, Möllmann H, Abdel-Wahab M, Ben Ali W, Mahoney PD, Ruiz CE, Gada H, Forrest JK, et al.
+Title: Self-Expanding or Balloon-Expandable TAVR in Patients with a Small Aortic Annulus (SMART trial)
+Journal: N Engl J Med
+Year: 2024
+Volume: 390:1959-1971
+Sample: 716 patients, mean age 80, 87% female
+Save as: Herrmann_SMARTTrial_NEJM_2024.pdf
+Key data: self-expanding (Evolut PRO+) vs balloon-expandable (SAPIEN 3); BVF 32.2% lower with self-expanding
+
+#2 ★★★
+PMID: 34587510
+DOI: 10.1016/j.ahj.2021.09.011
+Author: Herrmann HC, Popma JJ
+Title: Rationale and design of the SMall Annuli Randomized To Evolut or SAPIEN Trial (SMART Trial)
+Journal: Am Heart J
+Year: 2022
+Save as: Herrmann_SMARTRationaleDesign_AmHeartJ_2022.pdf
+
+#3 ★★★★ [META-ANALYSIS]
+PMID: 38851542
+DOI: 10.1016/j.ijcard.2024.132243 ← Claude 側 DOI 10.1016/j.ijcard.2024.132136 は誤り
+Author: (first author 要確認, Abdelfattah は coauthor の可能性)
+Title: Efficacy and Safety of TAVR vs SAVR in Patients with Small Aortic Annuli: Systematic Review and Meta-Analysis
+Journal: Int J Cardiol
+Year: 2024
+Sample: n=2,476 (9 studies)
+Save as: Abdelfattah_TAVRvsSAVRSmallAnnuliMeta_IntJCardiol_2024.pdf
+Key data: TAVR lower PPM (31% vs 52%), lower bleeding (8.8% vs 17.8%); SAVR lower PPI (3.2% vs 11.4%)
+
+#4 ★★★★★ [VIVA TRIAL — 著者訂正]
+PMID: 37883682
+DOI: 10.1161/CIRCULATIONAHA.123.067326
+Author: Rodés-Cabau J ← Claude 側 "Abdelfattah/Babaliaros" は誤り、Codex で訂正
+Title: Transcatheter or Surgical Aortic Valve Replacement in Patients With Severe Aortic Stenosis and Small Aortic Annulus: VIVA Trial
+Journal: Circulation
+Year: 2024;149:644-655 (epub 2023-10-26)
+Sample: n=151 (TAVR 77, SAVR 74)
+Save as: RodesCabau_VIVATrialSmallAnnulus_Circulation_2024.pdf
+Key data: RCT, impaired hemodynamics 5.6% vs 10.3% (NS)
+
+#5 ★★★★ [TAVI-SMALL 2 REGISTRY — 年訂正]
+PMID: 36950893
+DOI: 10.4244/EIJ-D-22-00843
+Author: TAVI-SMALL 2 registry investigators
+Title: Implantation of contemporary transcatheter aortic valves in small aortic annuli: the international multicentre TAVI-SMALL 2 registry
+Journal: EuroIntervention
+Year: 2023 ← Claude 側 "2024" は誤り、正は 2023
+Volume: 19:256-266
+Sample: n=1,378
+Save as: TAVISMALL2Registry_EuroIntervention_2023.pdf
+
+#6 ★★★★ [SMART 2025 SECONDARY]
+PMID: 40452601
+Author: (SMART trial team)
+Title: Evaluation of Bioprosthetic Valve Dysfunction in the SMART Randomized Clinical Trial
+Journal: (要確認)
+Year: 2025
+Save as: SMART_BioprostheticValveDysfunction_2025.pdf
+Note: SMART 2 年解析関連
+
+============================================================
+CATEGORY F: ViV-TAVR / TAVI Explant (11 papers)
+============================================================
+
+#7 ★★★★★ [VIVID ORIGINAL — Claude 側にない発見] ★ 必須 ★
+PMID: 25005653
+DOI: 10.1001/jama.2014.7246
+Author: Dvir D, Webb J, Bleiziffer S, et al. (VIVID Investigators)
+Title: Transcatheter aortic valve implantation in failed bioprosthetic surgical valves
+Journal: JAMA
+Year: 2014
+Sample: 459 (small ≤21mm, intermediate >21<25mm, large ≥25mm)
+Save as: Dvir_VIVIDOriginalAorticViV_JAMA_2014.pdf
+Key data: 30d mortality 7.6-8%; 1y survival 83.2%; worse with small valves and stenotic failure
+
+#8 ★★★★★ [VIVID CORONARY OBSTRUCTION — 著者/DOI 訂正]
+PMID: 29020413
+DOI: 10.1093/eurheartj/ehx455 ← Claude 側 DOI ehy079 は誤り
+Author: Ribeiro HB, Rodés-Cabau J, Blanke P, Leipsic J, Bleiziffer S, et al. ← first author は Ribeiro, NOT Bleiziffer
+Title: Incidence, predictors, and clinical outcomes of coronary obstruction following transcatheter aortic valve replacement for degenerative bioprosthetic surgical valves: insights from the VIVID registry
+Journal: Eur Heart J
+Year: 2018
+Sample: 1,612
+Save as: Ribeiro_VIVIDCoronaryObstruction_EHJ_2018.pdf
+Key data: Coronary obstruction 37/1612 (2.3%); 30d mortality with obstruction 52.9% vs 3.9%; VTC cutoff 4 mm
+
+#9 ★★★★ [VIVID DEPTH — 著者/DOI 訂正]
+PMID: 27301396
+DOI: 10.1161/CIRCINTERVENTIONS.115.003651 ← Claude 側 DOI 116.004056 は誤り
+Author: Simonato M, Webb J, Kornowski R, Bleiziffer S, et al. ← first author は Simonato, NOT Bleiziffer
+Title: Transcatheter Replacement of Failed Bioprosthetic Valves: Large Multicenter Assessment of the Effect of Implantation Depth on Hemodynamics After Aortic Valve-in-Valve
+Journal: Circ Cardiovasc Interv
+Year: 2016
+Save as: Simonato_ViVImplantationDepth_CircCardiovascInterv_2016.pdf
+
+#10 ★★★★ [VIVID PPI]
+PMID: 33958122
+DOI: 10.1016/j.jacc.2021.03.228 ← Claude 側 DOI 2021.01.049 は誤り
+Author: Alperi A, Bleiziffer S, Tchetche D, et al.
+Title: Permanent Pacemaker Implantation Following Valve-in-Valve Transcatheter Aortic Valve Replacement: VIVID Registry
+Journal: J Am Coll Cardiol
+Year: 2021
+Sample: 1,987
+Save as: Alperi_PPIPostViVTAVR_JACC_2021.pdf
+Key data: PPI 6.4%; 30d mortality 4.7% with PPI vs 2.7% without
+
+#11 ★★★★ [VIV BY VALVE SIZE — 著者訂正]
+PMID: 27496631
+DOI: 10.1016/j.athoracsur.2016.05.055
+Author: D'Onofrio A, Tarantini G, et al. ← first author は D'Onofrio, NOT Tarantini
+Title: Early and Midterm Clinical and Hemodynamic Outcomes of Transcatheter Valve-in-Valve Implantation
+Journal: Ann Thorac Surg
+Year: 2016
+Sample: 65 patients/66 procedures
+Save as: DOnofrio_ViVValveSizing_AnnThoracSurg_2016.pdf
+Key data: Valve ID groups <20, 21-23, >23mm; 30d mortality 6% overall, 4.5% aortic ViV
+
+#12 ★★★ [BVF 2025 — 著者訂正]
+PMID: 40537943
+DOI: 10.1002/ccd.31686
+Author: Ruge H, Tarantini G, et al. ← first author は Ruge, NOT Tarantini
+Title: Bioprosthetic Valve Fracturing in Valve-in-Valve TAVI: Clinical and Echocardiographic Outcomes in Failing Perimount Aortic Bioprostheses (REDUCE registry)
+Journal: Catheter Cardiovasc Interv
+Year: 2025
+Sample: 240
+Save as: Ruge_BVFPerimountReduce_CCI_2025.pdf
+Key data: 60% true ID ≤21mm; 30d survival 93.3%
+
+#13 ★★ [REVALVE DESIGN — 著者訂正]
+PMID: 40393632
+DOI: 10.1016/j.ijcard.2025.133400
+Author: Blackman D, Bapat V, et al. ← first author は Blackman, NOT Bapat; design paper only
+Title: REdo transcatheter aortic VALVE implantation for the management of transcatheter aortic valve failure: Design and rationale of the REVALVE study
+Journal: Int J Cardiol
+Year: 2025
+Sample: 300 planned
+Save as: Blackman_REVALVEDesign_IntJCardiol_2025.pdf
+
+#14 ★★★ [BASILICA REVIEW]
+PMID: 31272666
+DOI: 10.1016/j.jcin.2019.04.052
+Author: Lederman RJ, Khan JM
+Title: Preventing Coronary Obstruction During Transcatheter Aortic Valve Replacement: From Computed Tomography to BASILICA
+Journal: JACC Cardiovasc Interv
+Year: 2019
+Save as: Lederman_BASILICAReview_JACCCardiovascInterv_2019.pdf
+
+#15 ★★★★ [BASILICA TRIAL]
+PMID: 31202947
+DOI: 10.1016/j.jcin.2019.03.035
+Author: Khan JM
+Title: The BASILICA Trial: Prospective Multicenter Investigation of Intentional Leaflet Laceration to Prevent TAVR Coronary Obstruction
+Journal: JACC Cardiovasc Interv
+Year: 2019
+Sample: 30
+Save as: Khan_BASILICATrial_JACCCardiovascInterv_2019.pdf
+Key data: success 28/30; 30d death 1/30; coronary obstruction 0%
+
+#16 ★★★
+PMID: 34003670
+DOI: 10.1161/CIRCINTERVENTIONS.120.010238
+Author: Khan JM
+Title: The BASILICA Trial: One-Year Outcomes
+Journal: Circ Cardiovasc Interv
+Year: 2021
+Save as: Khan_BASILICA1yr_CircCardiovascInterv_2021.pdf
+
+#17 ★★★
+PMID: 33958168
+DOI: 10.1016/j.jcin.2021.02.035
+Author: Khan JM
+Title: Preventing Coronary Obstruction During Transcatheter Aortic Valve Replacement: Results From the Multicenter International BASILICA Registry
+Journal: JACC Cardiovasc Interv
+Year: 2021
+Sample: 214
+Save as: Khan_BASILICARegistry_JACCCardiovascInterv_2021.pdf
+
+============================================================
+CATEGORY G: Sutureless / Rapid Deployment (5 papers — 全件 Codex 訂正済)
+============================================================
+
+#18 ★★★★ [SURD-IR — 著者訂正]
+PMID: 30689828
+DOI: 10.1093/ejcts/ezy477
+Author: Santarpino G, Berretta P, Fischlein T, Carrel T, Teoh K, Misfeld M, Di Eusanio M, et al. ← first author は Santarpino, NOT Di Eusanio
+Title: Operative Outcome of Patients at Low, Intermediate, High and "Very High" Surgical Risk Undergoing Isolated Aortic Valve Replacement With Sutureless and Rapid Deployment Prostheses: SURD-IR Registry
+Journal: Eur J Cardiothorac Surg
+Year: 2019;56:38-43
+Sample: n=3,479
+Save as: Santarpino_SURDIROperativeOutcomes_EJCTS_2019.pdf
+
+#19 ★★★ [BICUSPID SUTURELESS — 雑誌/年訂正]
+PMID: 32832411
+DOI: 10.21037/acs-2020-surd-33
+Author: Berretta P
+Title: Sutureless and Rapid Deployment Implantation in Bicuspid Aortic Valve: SURD-IR Registry
+Journal: Ann Cardiothorac Surg ← Claude 側 "JTCVS 2021" は誤り
+Year: 2020;9:298-304
+Sample: n=452 (bicuspid subgroup)
+Save as: Berretta_SuturelessBicuspidSURDIR_AnnCardiothoracSurg_2020.pdf
+
+#20 ★★★★ [SUTURELESS vs RAPID DEPLOYMENT — 著者/雑誌/年訂正]
+PMID: 34563505
+DOI: 10.1016/j.athoracsur.2021.08.037
+Author: Berretta P ← Claude 側 "Lorusso" は誤り
+Title: Sutureless Versus Rapid Deployment Aortic Valve Replacement: Results From a Multicenter Registry
+Journal: Ann Thorac Surg ← Claude 側 "JTCVS" は誤り
+Year: 2022;114:758-765 ← Claude 側 "2021" は誤り
+Save as: Berretta_SuturelessVsRapidDeployment_AnnThoracSurg_2022.pdf
+Key data: Intuity lower mPG vs Perceval; AR/PPM similar
+
+#21 ★★★ [INTUITY TECHNIQUE — 著者/雑誌/年訂正]
+PMID: 24413009
+DOI: 10.1093/mmcts/mmt011
+Author: Borger M ← Claude 側 "Sénage T" は誤り
+Title: Minimally invasive implantation of an Edwards Intuity rapid deployment aortic valve
+Journal: Multimedia Manual of Cardiothoracic Surgery (MMCTS) ← Claude 側 "JTCVS" は誤り
+Year: 2013 ← Claude 側 "2015" は誤り
+Save as: Borger_IntuityMinInvasive_MMCTS_2013.pdf
+
+#22 ★★★★★ [SUTURELESS vs ROOT ENLARGEMENT — 著者訂正]
+PMID: 26920726
+DOI: 10.1093/icvts/ivw041
+Author: Beckmann A ← Claude 側 "Folliguet T" は誤り
+Title: Aortic Valve Replacement with Sutureless Prosthesis: Better Than Root Enlargement to Avoid Patient-Prosthesis Mismatch?
+Journal: Interact Cardiovasc Thorac Surg (ICVTS)
+Year: 2016;22:744-749
+Sample: n=100 (sutureless Perceval) vs n=100 (root enlargement)
+Save as: Beckmann_SuturelessVsRootEnlargement_ICVTS_2016.pdf
+Key data: PPM 11% vs 6% (NS); 75 min shorter operation; **直接比較研究 — 本研究 RQ に重要**
+
+============================================================
+CATEGORY H: Guidelines (4 papers — 全件 PMID 訂正済)
+============================================================
+
+#23 ★★★★★ [ACC/AHA 2020 FULL — PMID 訂正]
+PMID: 33332150 ← Claude 側 PMID 33332149 は executive summary、full は 33332150
+DOI: 10.1161/CIR.0000000000000923
+Author: Otto CM, Nishimura RA, Bonow RO, et al.
+Title: 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease
+Journal: Circulation
+Year: 2021;143:e72-e227
+Save as: Otto_2020ACCAHAVHDGuideline_Circulation_2021.pdf
+Key recommendations:
+  - Small annulus に specific Class/LOE 無し
+  - PPM/ViV feasibility 議論あり
+  - 「For patients with a small aortic annulus, selection of a larger prosthesis should be considered for potential future ViV」
+
+#24 ★★★ [ACC/AHA 2020 EXEC SUMMARY]
+PMID: 33332149
+DOI: 10.1016/j.jacc.2020.11.018 (JACC executive summary version)
+Author: Otto CM, Nishimura RA, Bonow RO, et al.
+Title: 2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease: Executive Summary
+Journal: J Am Coll Cardiol
+Year: 2021
+Save as: Otto_2020ACCAHAVHDExecSummary_JACC_2021.pdf
+
+#25 ★★★★★ [ESC/EACTS 2021 — PMID 訂正]
+PMID: 34453165 ← Claude 側 PMID 35636831 は Rev Esp Cardiol 翻訳版、正は 34453165
+DOI: 10.1093/eurheartj/ehab395
+Author: Vahanian A, Beyersdorf F, Praz F, et al.
+Title: 2021 ESC/EACTS Guidelines for the management of valvular heart disease
+Journal: Eur Heart J
+Year: 2022;43:561-632
+Save as: Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022.pdf
+Key recommendations:
+  - AAE: Class IIb / LOE C
+  - Severe PPM (AVA <0.65 cm²/m²) favors TAVI
+  - 「Efforts to prevent PPM should receive more emphasis」
+
+#26 ★★★★★ [JCS 2020 — 日本ガイドライン 本研究最重要]
+PMID: N/A (PubMed indexing 弱い)
+DOI: 10.1253/circj.CJ-20-0135
+Author: Izumi E et al. (Japanese Circulation Society + JSCS + JATS + JSVS)
+Title: JCS/JSCS/JATS/JSVS 2020 Guidelines on the Management of Valvular Heart Disease
+Journal: Circ J
+Year: 2020;84:2037-2119
+Save as: Izumi_JCS2020VHDGuideline_CircJ_2020.pdf
+Source:
+  - English: https://www.jstage.jst.go.jp/article/circj/84/11/84_CJ-20-0135/_html/-char/en
+  - Japanese PDF: https://www.j-circ.or.jp/cms/wp-content/uploads/2020/04/JCS2020_Izumi_Eishi.pdf
+Key recommendations (Table 33):
+  - Small annulus + expected severe PPM → favors TAVI
+  - ViV-TAVI: Class IIa for symptomatic severe bioprosthetic AS/AR with high surgical risk
+  - 「Valve size/type at first SAVR is important given future ViV」明記
+  - 「Poor prognosis when ViV in small-sized bioprostheses with PPM」明記
+
+============================================================
+NOTE: STS Expert Consensus on AAE — DOES NOT EXIST
+============================================================
+Claude 側で「想定実在」とした STS formal AAE consensus document は、Codex 検証で
+**存在しないと判明**。STS Learning Center の hands-on course (Yang B / Reardon が director)
+は educational material のみ。Class/LOE 推奨を持つ document ではない。
+本リストからは除外。
+
+============================================================
+ACQUISITION PRIORITY ORDER
+============================================================
+1. 最優先 (本研究 RQ 直接寄与): #1 (SMART), #4 (VIVA), #7 (VIVID original), #22 (sutureless vs AAE), #26 (JCS 2020)
+2. 高優先 (ガイドライン): #23 (ACC/AHA), #25 (ESC/EACTS)
+3. 高優先 (ViV/coronary obstruction): #8, #11
+4. 標準 (meta/sutureless): #3, #5, #18, #20
+5. 補助 (BASILICA series, individual ViV papers): #14-#17, #9, #10, #12, #13
+
+============================================================
+SEARCH TIPS
+============================================================
+- SMART/VIVA trials: PubMed → "NCT04722250" (SMART), "NCT04839081" (VIVA)
+- JCS 2020 (#26): j-circ.or.jp 公式 PDF が free, 日本語版・英文要約両方ある
+- ACC/AHA (#23), ESC/EACTS (#25): 大学図書館 institutional access か、各学会の公式サイト経由
+- BASILICA series (#14-17): 全て Khan JM (NIH), 公開度高い (PMC 多数)
+- 著者名訂正に注意: Bleiziffer → Ribeiro/Simonato, Tarantini → D'Onofrio/Ruge, Bapat → Blackman, Di Eusanio → Santarpino, Lorusso → Berretta, Sénage → Borger, Folliguet → Beckmann
+
+============================================================
+END OF BATCH 3 (26 papers — Cat E:6 + Cat F:11 + Cat G:5 + Cat H:4)
+============================================================
+
+============================================================
+GRAND TOTAL across 3 batches: 81 papers (29 + 26 + 26)
+============================================================
+- Batch 1 (Y-incision + 古典 AAE): 29 papers
+- Batch 2 (Asian cohort + PPM + 機械vs生体): 26 papers
+- Batch 3 (TAVI vs SAVR + ViV + Sutureless + Guidelines): 26 papers

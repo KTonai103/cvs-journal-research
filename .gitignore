@@ -23,3 +23,9 @@ output/2026_05_*/
 */pdfs/
 */pdf_text/
 */pitfalls_digest.txt
+*/Reference/
+*.pdf
+
+# small_annulus_avr working dirs (raw PDFs kept out of public repo)
+small_annulus_avr/Reference/
+small_annulus_avr/pdfs/

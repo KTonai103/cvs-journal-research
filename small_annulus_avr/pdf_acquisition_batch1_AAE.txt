@@ -1,0 +1,276 @@
+# PDF Acquisition Batch 1 — Y-incision + 古典 AAE
+# Target: 27 papers (Cat A: 21 + Cat B: 6)
+# Save to: /Users/k.tonai/Documents/CVS_Journal_Research/small_annulus_avr/pdfs/
+# Filename rule: [LastName]_[CamelCaseDescriptor]_[JournalAbbr]_[Year].pdf
+# Verification: 全 PMID は Claude メインスレッドが PubMed E-utilities (esummary.fcgi) で 2026-05-13 に実検証済
+# 検索順序: ① PubMed PMID → "Full text links" → ② DOI 直接 → ③ Google Scholar PMID 検索
+
+============================================================
+CATEGORY A: Y-incision / Roof technique (21 papers)
+============================================================
+
+#1 ★★★★★ [SEMINAL]
+PMID: 36031424
+DOI: 10.1016/j.jtcvs.2022.07.006
+Author: Yang B
+Title: Early outcomes of the Y-incision technique to enlarge the aortic annulus 3 to 4 valve sizes
+Journal: J Thorac Cardiovasc Surg
+Year: 2024 Apr
+Save as: Yang_YIncisionEarlyOutcomes3to4ValveSizes_JTCVS_2024.pdf
+
+#2 ★★★★★
+PMID: 38841090
+Author: Yang B
+Title: Updates on Y-incision aortic annular enlargement
+Journal: Ann Cardiothorac Surg
+Year: 2024 May
+Save as: Yang_UpdatesYIncisionAAE_AnnCardiothoracSurg_2024.pdf
+
+#3 ★★★★★
+PMID: 38841092
+Author: Yang B
+Title: Aortic annular enlargement with Y-incision/rectangular patch
+Journal: Ann Cardiothorac Surg
+Year: 2024 May
+Save as: Yang_YIncisionRectangularPatch_AnnCardiothoracSurg_2024.pdf
+
+#4 ★★★
+PMID: 40098828
+Author: Yang B
+Title: "Arc" Modification of the Patch for the Y-Incision Aortic Annular Enlargement
+Journal: Ann Thorac Surg Short Rep
+Year: 2025 Mar
+Save as: Yang_ArcModificationPatch_AnnThoracSurgShortRep_2025.pdf
+
+#5 ★★★★★
+PMID: 41619928
+Author: Yang B
+Title: The 5 Misconceptions of Y-Incision Aortic Annular Enlargement
+Journal: Ann Thorac Surg
+Year: 2026 Jan
+Save as: Yang_5MisconceptionsYIncisionAAE_AnnThoracSurg_2026.pdf
+
+#6 ★★★★★ [DIRECT COMPARISON]
+PMID: 38841083
+Author: Makkinejad A (Yang group)
+Title: Comparison of the short-term outcomes between Y-incision aortic annular enlargement and traditional aortic annular enlargement techniques
+Journal: Ann Cardiothorac Surg
+Year: 2024 May
+Save as: Makkinejad_YIncisionVsTraditionalAAE_AnnCardiothoracSurg_2024.pdf
+
+#7 ★★★★
+PMID: 38841089
+Author: Truesdell W (Yang group)
+Title: Changes in aortic root dimensions post aortic root enlargement with Y-incision and modified aortotomy
+Journal: Ann Cardiothorac Surg
+Year: 2024 May
+Save as: Truesdell_AorticRootDimensionsPostYIncision_AnnCardiothoracSurg_2024.pdf
+
+#8 ★★★★★ [3-WAY COMPARISON]
+PMID: 40403905
+Author: Makkinejad A
+Title: Nicks, Manouguian, and Y-incision Aortic Annular Enlargement: Do All Roads Lead to Rome?
+Journal: Ann Thorac Surg
+Year: 2025 Oct
+Save as: Makkinejad_NicksManouguianYIncisionComparison_AnnThoracSurg_2025.pdf
+
+#9 ★★★
+PMID: 41473041
+Author: Makkinejad A
+Title: The effect of surgeon experience on the short-term outcomes of aortic annular enlargement
+Journal: JTCVS Open
+Year: 2025 Dec
+Save as: Makkinejad_SurgeonExperienceAAE_JTCVSOpen_2025.pdf
+
+#10 ★★★★
+PMID: 39892843
+Author: Chen SA
+Title: Aortic Annular Enlargement: Y-Incision Rationale, Technique, and Outcomes
+Journal: Ann Thorac Surg
+Year: 2025 Jun
+Save as: Chen_YIncisionRationaleTechniqueOutcomes_AnnThoracSurg_2025.pdf
+
+#11 ★★★
+PMID: 41100181
+Author: Yin K
+Title: Y-Incision Aortic Annular Enlargement in Patients With Anomalous Left Circumflex Artery
+Journal: Eur J Cardiothorac Surg
+Year: 2025 Nov
+Save as: Yin_YIncisionAnomalousLCX_EJCTS_2025.pdf
+
+#12 ★★★★
+PMID: 40270847
+Author: Yin K
+Title: Y-incision aortic annular enlargement after surgical explantation of transcatheter aortic valve bioprosthesis
+Journal: Ann Cardiothorac Surg
+Year: 2025 Mar
+Save as: Yin_YIncisionAfterTAVIExplant_AnnCardiothoracSurg_2025.pdf
+
+#13 ★★★
+PMID: 40500547
+Author: Bonini M
+Title: Modeling the Hemodynamic Impact of Y-incision Aortic Annular Enlargements on Aortic Valve Replacement and Valve-in-Valve Procedures
+Journal: J Cardiovasc Transl Res
+Year: 2025 Aug
+Save as: Bonini_HemodynamicModelingYIncisionAAE_JCardiovascTranslRes_2025.pdf
+
+#14 ★★★
+PMID: 40641760
+Author: Wang GX
+Title: The Y-incision with a new roof technique to enlarge the aortic root
+Journal: JTCVS Tech
+Year: 2025 Jun
+Save as: Wang_YIncisionNewRoofTechnique_JTCVSTech_2025.pdf
+
+#15 ★★★
+PMID: 41856503
+Author: Fikani A
+Title: Technical Modifications to the Y-Incision Aortic Annular Enlargement Technique
+Journal: Thorac Cardiovasc Surg
+Year: 2026 Mar
+Save as: Fikani_TechnicalModificationsYIncision_ThoracCardiovascSurg_2026.pdf
+
+#16 ★★★★ [ASIAN EDUCATIONAL]
+PMID: 41781359
+Author: Do-Nguyen CC
+Title: Y-incision aortic root enlargement — Common mistakes and update of early outcomes
+Journal: Asian Cardiovasc Thorac Ann
+Year: 2026 Mar
+Save as: DoNguyen_YIncisionCommonMistakes_AsianCardiovascThoracAnn_2026.pdf
+
+#17 ★★★
+PMID: 41658927
+DOI: 10.1016/j.xjtc.2025.10.003
+Author: Cangut B
+Title: Mitral valve surgery with concomitant Y-incision aortic annular enlargement
+Journal: JTCVS Tech
+Year: 2026 Feb
+Save as: Cangut_MitralValveYIncisionConcomitant_JTCVSTech_2026.pdf
+
+#18 ★★ [PEDIATRIC]
+PMID: 41843014
+Author: Masaki N
+Title: Modification of Nicks Technique for Aortic Annular Enlargement in Children
+Journal: Pediatr Cardiol
+Year: 2026 Mar
+Save as: Masaki_NicksModificationChildren_PediatrCardiol_2026.pdf
+
+#19 ★★★★ [DOUBLE SMALL ANNULI]
+PMID: 41621561
+Author: Gan LX
+Title: Y-Incision Aortic Annular Enlargement With Chimney Mitral Valve Replacement for Double Small Annuli: An Alternative to Commando Procedure?
+Journal: Ann Thorac Surg
+Year: 2026 Jan
+Save as: Gan_YIncisionChimneyMVRDoubleAnnuli_AnnThoracSurg_2026.pdf
+
+#20 ★★★★ [JAPANESE AUTHOR]
+PMID: 41425437
+Author: Kitamura T
+Title: Y Incision Plus Anterior Extended Aortoplasty for Aortic Stenosis With Small Annulus and Sinus of Valsalva: The "Y and I" Incision Technique
+Journal: Ann Thorac Surg Short Rep
+Year: 2025 Dec
+Save as: Kitamura_YandIIncisionTechnique_AnnThoracSurgShortRep_2025.pdf
+
+#21 ★ [COMPLICATION CASE REPORT]
+PMID: 42083003
+Author: Özçelik S
+Title: Severe mitral regurgitation after aortic annular enlargement with Y-incision: a case report
+Journal: J Cardiothorac Surg
+Year: 2026 May
+Save as: Ozcelik_SevereMRAfterYIncisionCaseReport_JCardiothoracSurg_2026.pdf
+
+============================================================
+CATEGORY B: 古典 AAE (Nicks / Manouguian / Konno + 日本人歴史的論文) (6 papers)
+============================================================
+
+#22 ★★★★★ [SEMINAL MANOUGUIAN ORIGINAL]
+PMID: 470420
+Author: Manouguian S
+Title: Patch enlargement of the aortic valve ring by extending the aortic incision into the anterior mitral leaflet. New operative technique
+Journal: J Thorac Cardiovasc Surg
+Year: 1979 Sep
+Save as: Manouguian_PatchEnlargementAVRAnteriorMitralLeaflet_JTCVS_1979.pdf
+Note: 古典論文、handsearch / institutional library 必要
+
+#23 ★★★★★ [SEMINAL NICKS ORIGINAL]
+PMID: 5452289
+Author: Nicks R
+Title: Hypoplasia of the aortic root. The problem of aortic valve replacement
+Journal: Thorax
+Year: 1970 May
+Save as: Nicks_HypoplasiaAorticRoot_Thorax_1970.pdf
+Note: 古典論文
+
+#24 ★★★★★ [SEMINAL KONNO ORIGINAL]
+PMID: 127094
+Author: Konno S
+Title: A new method for prosthetic valve replacement in congenital aortic stenosis associated with hypoplasia of the aortic valve ring
+Journal: J Thorac Cardiovasc Surg
+Year: 1975 Nov
+Save as: Konno_NewMethodAortoVentriculoplasty_JTCVS_1975.pdf
+Note: 古典論文・日本人著者
+
+#25 ★★★★ [DIRECT COMPARISON]
+PMID: 38522868
+Author: Hassler KR
+Title: How-I-Do-It: Aortic Annular Enlargement — Are the Nicks and Manouguian Obsolete?
+Journal: Semin Thorac Cardiovasc Surg Pediatr Card Surg Annu
+Year: 2024
+Save as: Hassler_AreNicksManouguianObsolete_SeminThoracCardiovascSurg_2024.pdf
+
+#26 ★★★
+PMID: 34970789
+Author: Malfitano MJ
+Title: Modified Manouguian technique for aortic root enlargement: A case series
+Journal: J Card Surg
+Year: 2022 Mar
+Save as: Malfitano_ModifiedManouguianTechnique_JCardSurg_2022.pdf
+
+#27 ★★★★★ [JAPANESE LONG-TERM] ★★ 最重要 ★★
+PMID: 1434702
+Author: Kawachi Y
+Title: Eleven-year follow-up study of aortic or aortic-mitral anulus-enlarging procedure by Manouguian's technique
+Journal: J Thorac Cardiovasc Surg
+Year: 1992 Nov
+Save as: Kawachi_11YrFollowupManouguian_JTCVS_1992.pdf
+Note: 本研究 RQ への直接寄与（日本人 Manouguian 長期成績）
+
+#28 ★★★★★ [JAPANESE SMALL ANNULUS] ★★ 最重要 ★★
+PMID: 8953456
+Author: Kitamura M
+Title: Aortic valve replacement in small aortic annulus with or without annular enlargement
+Journal: J Heart Valve Dis
+Year: 1996 Nov
+Save as: Kitamura_SmallAnnulusAVRWithEnlargement_JHeartValveDis_1996.pdf
+Note: 本研究 RQ への直接寄与（日本人小弁輪 +/- AAE 比較）
+
+#29 ★★★★★ [JAPANESE OPTIMAL SIZING] ★★ 最重要 ★★
+PMID: 12296921
+Author: Maekawa A
+Title: Optimal size of prostheses for functioning of the aortic prosthetic valve in aortic and mitral valve replacement with annular enlargement through Manouguian's technique
+Journal: Artif Organs
+Year: 2002 Oct
+Save as: Maekawa_OptimalProsthesisSizeManouguian_ArtifOrgans_2002.pdf
+Note: 本研究 RQ への直接寄与（日本人 double valve Manouguian optimal sizing）
+
+============================================================
+ACQUISITION PRIORITY ORDER
+============================================================
+1. 最優先 (本研究 RQ 直接寄与): #1, #5, #6, #8, #27, #28, #29
+2. 高優先 (Yang group seminal): #2, #3, #10
+3. 標準 (技術詳細・派生): #4, #7, #11-#21
+4. 古典 (handsearch 必要): #22, #23, #24
+5. 補助: #9, #25, #26
+
+============================================================
+SEARCH TIPS
+============================================================
+- Yang B paper: PubMed → Yang B[Author] AND aortic AND enlargement
+- 古典 (1970s): 大学図書館の電子ジャーナルバックナンバー、interlibrary loan
+- Annals of Cardiothoracic Surgery 2024 May (PMID 38841083, 38841089, 38841090, 38841092): 同一特集号、まとめて入手可能
+- Open access: 多くの JTCVS Tech, JTCVS Open, Ann Cardiothorac Surg は PMC 経由で free
+- 日本語論文 (B7-B9): J-STAGE (https://www.jstage.jst.go.jp) で論文タイトル検索
+
+============================================================
+END OF BATCH 1 (29 papers — Cat A:21 + Cat B:8 including 3 Japanese historical)
+============================================================

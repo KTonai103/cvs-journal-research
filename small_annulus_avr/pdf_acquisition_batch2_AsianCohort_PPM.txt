@@ -1,0 +1,313 @@
+# PDF Acquisition Batch 2 — アジア人コホート + 機械弁vs生体弁 + PPM
+# Target: 26 papers (Cat C: 17 + Cat I: 1 + Cat D: 6 + 既収集参照: 2)
+# Save to: /Users/k.tonai/Documents/CVS_Journal_Research/small_annulus_avr/pdfs/
+# Filename rule: [LastName]_[CamelCaseDescriptor]_[JournalAbbr]_[Year].pdf
+# Verification: PMID は Codex (GPT-5) が独立検証、Claude 側 PMID は破棄 (hallucination 多数)
+# 検索順序: ① PubMed PMID → "Full text links" → ② DOI 直接 → ③ J-STAGE/Korean Circ J
+
+============================================================
+CATEGORY C-1: OCEAN-TAVI / J-TVT 日本人コホート (6 papers) ★ 本研究最重要 ★
+============================================================
+
+#1 ★★★★★ [OCEAN-TAVI EXTRA-SMALL ANNULUS]
+PMID: 28606674
+DOI: 10.1016/j.ijcard.2017.01.076
+Author: Yashima F, Yamamoto M, Watanabe Y, Hayashida K (OCEAN-TAVI investigators)
+Title: Transcatheter aortic valve implantation in patients with an extremely small native aortic annulus: results from the OCEAN-TAVI registry
+Journal: Int J Cardiol
+Year: 2017
+Sample: 20-mm SXT n=19; 23-mm SXT n=492; matched 18+18
+Save as: Yashima_OCEANTAVIExtremelySmallAnnulus_IntJCardiol_2017.pdf
+Key data: annulus area <314mm²; moderate PPM higher with 20mm SXT, severe PPM rare
+
+#2 ★★★★★ [DEVICE COMPARISON JAPANESE]
+PMID: 32926552
+DOI: 10.1002/ccd.29259
+Author: Hase H, Watanabe Y, Yamamoto M, Hayashida K
+Title: Evolut R vs SAPIEN 3 in Japanese patients with small aortic annulus from OCEAN-TAVI registry
+Journal: Catheter Cardiovasc Interv
+Year: 2021
+Sample: n=576
+Save as: Hase_EvolutRvsSAPIEN3JapaneseSmallAnnulus_CCI_2021.pdf
+Key data: Evolut R 1y mPG lower, iEOA higher; mortality similar
+
+#3 ★★★★★ [20-mm THV ASIAN 2025]
+PMID: 39967214
+DOI: 10.1016/j.jacasi.2024.09.005
+Author: Okuno T, Watanabe Y, Yamamoto M, Hayashida K
+Title: Extremely Small 20-mm Versus Standard-Size Balloon-Expandable Transcatheter Heart Valves
+Journal: JACC Asia
+Year: 2025
+Sample: 5,086 eligible; 284 received 20mm; matched 276 vs 828
+Save as: Okuno_ExtremelySmall20mmTHV_JACCAsia_2025.pdf
+Key data: PMCID PMC11840232; PPM higher with 20mm THV
+
+#4 ★★★★★ [LONG-TERM BE-TAVI 2025]
+PMID: 41243775
+DOI: 10.4244/EIJ-D-25-00682
+Author: Yamamoto M
+Title: Long-term outcomes and durability of balloon-expandable TAVI in small and large annuli
+Journal: EuroIntervention
+Year: 2025
+Sample: 2,699
+Save as: Yamamoto_LongTermBETAVISmallLargeAnnuli_EuroIntervention_2025.pdf
+Key data: SAA defined as area ≤430mm²; includes sex/PPM/mPG subanalyses
+
+#5 ★★★★★ [J-TVT NATIONWIDE REGISTRY]
+PMID: 33642425
+DOI: 10.1253/circj.CJ-20-1084
+Author: Meguro K
+Title: TAVR in patients with a small annulus: results from the Japanese nationwide registry J-TVT
+Journal: Circ J
+Year: 2021
+Sample: 5,870; SAA 647
+Save as: Meguro_JTVTSmallAnnulus_CircJ_2021.pdf
+Key data: SAA ≤314mm²; SAA patients 93.2% female; moderate PPM 15.6%, severe 2.6%; J-STAGE で取得可能
+
+#6 ★★★ [SEX/LV REMODELING]
+PMID: 33907051
+DOI: 10.1253/circj.CJ-20-1095
+Author: Shishido K (OCEAN-TAVI/Hayashida group)
+Title: Effect of sex on mortality and LV remodeling after TAVI
+Journal: Circ J
+Year: 2021
+Sample: 2,588; female 1,793
+Save as: Shishido_SexEffectMortalityTAVI_CircJ_2021.pdf
+Key data: Female survival advantage after TAVI; J-STAGE で取得可能
+
+============================================================
+CATEGORY C-2: Japanese SAVR Cohort (4 papers)
+============================================================
+
+#7 ★★★★★ [TABATA 19/21mm MAGNA] ★ 必須 ★
+PMID: 23228405
+DOI: 10.1016/j.jtcvs.2012.11.020
+Author: Tabata M
+Title: Simple interrupted suturing increases valve performance after aortic valve replacement with small supra-annular bioprosthesis
+Journal: J Thorac Cardiovasc Surg
+Year: 2014
+Sample: 152
+Save as: Tabata_InterruptedSuturingSmallSupraAnnular_JTCVS_2014.pdf
+Key data: 19/21mm Magna; PPM 29% vs 56% by suture technique
+
+#8 ★★★★ [TAVR vs SAVR JAPANESE ≤20mm]
+PMID: 30464118
+DOI: 10.1536/ihj.17-656
+Author: Kamioka N
+Title: Valve hemodynamics and clinical outcomes after TAVR for small aortic annulus
+Journal: Int Heart J
+Year: 2019
+Sample: 94; TAVR 35, SAVR 59
+Save as: Kamioka_TAVRvsSAVRSmallAnnulus_IntHeartJ_2019.pdf
+Key data: Japanese SAA ≤20mm; severe PPM 2.9% TAVR vs 22.0% SAVR
+
+#9 ★★★
+PMID: 22130314
+DOI: 10.1253/circj.CJ-11-0733
+Author: Okamura H
+Title: Mid-term outcomes after aortic valve replacement with the 17-mm St. Jude Medical Regent valve
+Journal: Circ J
+Year: 2012
+Sample: 78
+Save as: Okamura_17mmStJudeRegentMidterm_CircJ_2012.pdf
+
+#10 ★★★
+PMID: 19101276
+DOI: 10.1016/j.athoracsur.2008.09.051
+Author: Okamura H
+Title: The 17-mm St. Jude Medical Regent valve is a valid option for patients with a small aortic annulus
+Journal: Ann Thorac Surg
+Year: 2009
+Sample: 23
+Save as: Okamura_17mmStJudeRegentValid_AnnThoracSurg_2009.pdf
+
+============================================================
+CATEGORY C-3: Korean / Chinese Cohort (7 papers)
+============================================================
+
+#11 ★★★
+PMID: 33806531
+DOI: 10.3390/jcm10051063
+Author: Kim DJ / Lee S
+Title: Two differently designed aortic bioprostheses for small aortic annuli
+Journal: J Clin Med
+Year: 2021
+Save as: Kim_TwoBioprosthesesSmallAnnuli_JClinMed_2021.pdf
+
+#12 ★★★★ [KOREAN TAVR REGISTRY]
+PMID: N/A (not in PubMed)
+DOI: 10.54912/jci.2023.0001
+Author: Moon SH / Kang HJ
+Title: Features and outcomes of small annulus TAVR: Korean TAVR Registry
+Journal: J Cardiovasc Interv (Korea)
+Year: 2023
+Sample: 660; SAA 70
+Save as: Moon_KoreanTAVRRegistrySmallAnnulus_JCardiovascInterv_2023.pdf
+Search tip: 検索 "Moon Korean TAVR registry small annulus 2023" or DOI 直接
+
+#13 ★★★
+PMID: N/A
+DOI: 10.4070/kcj.2020.0409
+Author: Lee YJ (Yong-Joon Lee)
+Title: Self-expanding versus balloon-expandable TAVR in small annulus
+Journal: Korean Circ J
+Year: 2021
+Save as: Lee_SelfvsBalloonExpandableTAVRSmallAnnulus_KoreanCircJ_2021.pdf
+
+#14 ★★ [CHINESE 17mm REGENT]
+PMID: 23745280
+Author: Liu/Zhang
+Title: Mid-long-term aortic valve replacement results with 17-mm St. Jude Regent valve
+Journal: Sichuan Univ Med Sci (Chinese)
+Year: 2013
+Sample: 44
+Save as: Liu_17mmRegentAVR_SichuanUnivMedSci_2013.pdf
+Key data: PPM 82.1%, severe 30.8%
+
+#15 ★★★
+PMID: N/A
+DOI: 10.1186/1749-8090-9-17
+Author: Hu R / Qian H / Zhang E
+Title: Long-term outcome of 17-mm Sorin Bicarbon mechanical heart valve and clinical significance of moderate prosthesis-patient mismatch in small aortic annulus
+Journal: J Cardiothorac Surg
+Year: 2014
+Sample: 114 (n=106 analyzed)
+Save as: Hu_17mmRegentPPMatter_JCardiothoracSurg_2014.pdf
+Search tip: BMC J Cardiothorac Surg — open access
+
+#16 ★★
+PMID: N/A
+DOI: 10.1186/1749-8090-7-88
+Author: Zhao Q / Wang J / Guo X
+Title: Application of Regent mechanical valve in patients with small aortic annulus: a 3-year follow-up
+Journal: J Cardiothorac Surg
+Year: 2012
+Sample: 40
+Save as: Zhao_RegentMechValveSmallAnnulus3yr_JCardiothoracSurg_2012.pdf
+
+#17 ★★★★ [CHINESE ML PPM 2026 INCL FUWAI]
+PMID: 41491442
+DOI: 10.1007/s12928-025-01215-5
+Author: Mao Y / Zhang H / Pan W / Wu Y / Yang B (China multicenter incl Fuwai)
+Title: Development and external validation of a machine learning algorithm for predicting prosthesis-patient mismatch during TAVR in patients with small aortic annuli
+Journal: Cardiovasc Interv Ther
+Year: 2026
+Sample: 273 derivation + 118 validation
+Save as: Mao_MLPPMTAVRSmallAnnulus_CardiovascIntervTher_2026.pdf
+
+============================================================
+CATEGORY D: PPM (Prosthesis-Patient Mismatch) (6 papers)
+============================================================
+
+#18 ★★★★★ [SEMINAL PPM CONCEPT]
+PMID: 11028462
+DOI: 10.1016/S0735-1097(00)00859-7
+Author: Pibarot P, Dumesnil JG
+Title: Hemodynamic and clinical impact of prosthesis-patient mismatch in the aortic valve position and its prevention
+Journal: J Am Coll Cardiol
+Year: 2000
+Save as: Pibarot_PPMHemodynamicClinical_JACC_2000.pdf
+Key data: severe PPM iEOA <0.65, moderate 0.65-0.85
+
+#19 ★★★★
+PMID: 16251232
+DOI: 10.1136/hrt.2005.067363
+Author: Pibarot P, Dumesnil JG
+Title: Prosthesis-patient mismatch: definition, clinical impact, and prevention
+Journal: Heart
+Year: 2006
+Save as: Pibarot_PPMDefinitionImpactPrevention_Heart_2006.pdf
+
+#20 ★★★★
+PMID: 22995023
+DOI: 10.1016/j.jacc.2012.07.005
+Author: Pibarot P, Dumesnil JG
+Title: Valve prosthesis-patient mismatch, 1978 to 2011: from original concept to compelling evidence
+Journal: J Am Coll Cardiol
+Year: 2012
+Save as: Pibarot_PPMConceptToCompellingEvidence_JACC_2012.pdf
+
+#21 ★★★★★ [META-ANALYSIS]
+PMID: 22408037
+DOI: 10.1093/eurheartj/ehs003
+Author: Head SJ, Mokhles MM, Osnabrugge RL, Pibarot P
+Title: The impact of prosthesis-patient mismatch on long-term survival after aortic valve replacement: a systematic review and meta-analysis of 34 observational studies comprising 27,186 patients
+Journal: Eur Heart J
+Year: 2012
+Save as: Head_PPMLongTermSurvivalMeta_EHJ_2012.pdf
+Key data: severe PPM HR 1.84; moderate HR 1.19; overall PPM HR 1.34
+
+#22 ★★★★
+PMID: 19118723
+DOI: 10.1016/j.jacc.2008.09.022
+Author: Mohty D, Dumesnil JG, Echahidi N, Mathieu P, Dagenais F, Voisine P, Pibarot P
+Title: Impact of prosthesis-patient mismatch on long-term survival after aortic valve replacement: influence of age, obesity, and left ventricular dysfunction
+Journal: J Am Coll Cardiol
+Year: 2009
+Save as: Mohty_PPMLongTermAgeObesityLVD_JACC_2009.pdf
+
+#23 ★★★
+PMID: 25200051
+DOI: 10.1161/CIRCULATIONAHA.113.007819
+Author: Mohty D
+Title: Prevalence and long-term outcome of aortic prosthesis-patient mismatch in patients with paradoxical low-flow severe aortic stenosis
+Journal: Circulation
+Year: 2014
+Sample: 677
+Save as: Mohty_PPMParadoxicalLowFlow_Circulation_2014.pdf
+Key data: PLF+PPM 2.6× mortality vs neither
+
+============================================================
+CATEGORY I: 機械弁 vs 生体弁 in small annulus (1 paper)
+============================================================
+
+#24 ★★★ [GOLDSTONE NEJM 2017 — PMID 訂正済]
+PMID: 29117490 ← Claude 側 PMID 28296591 は誤り、Codex で訂正
+DOI: 10.1056/NEJMoa1613792
+Author: Goldstone AB, Chiu P, Baiocchi M, Lingala B, Patrick WL, Fischbein MP, Woo YJ
+Title: Mechanical or biologic prostheses for aortic and mitral valve replacement
+Journal: N Engl J Med
+Year: 2017
+Save as: Goldstone_MechanicalBiologicAVR_NEJM_2017.pdf
+
+============================================================
+既収集論文 (PDF 不要、wikilink で参照)
+============================================================
+
+#25 [既存資料参照]
+Author: Handa K et al.
+Title: Left Atrial Volume Index as a Risk Predictor in Isolated Surgical Aortic Valve Replacement
+Journal: EJCTS
+Year: 2026
+Reference: [[MD/cardiac_surgery_journals_2026_03#Handa]]
+Note: 既収集、新規 PDF 取得不要
+
+#26 [既存資料参照]
+Author: Carducci et al.
+Title: Worse survival in transcatheter aortic valve replacement with untreated tricuspid regurgitation
+Journal: JTCVS
+Year: 2026
+Reference: [[MD/cardiac_surgery_journals_2026_05#Carducci]]
+Note: 既収集、新規 PDF 取得不要
+
+============================================================
+ACQUISITION PRIORITY ORDER
+============================================================
+1. 最優先 (Japanese SAA evidence): #1, #2, #3, #4, #5, #7, #8
+2. 高優先 (PPM seminal/meta): #18, #21
+3. 標準 (Asian cohorts + PPM cohorts): #6, #9-#17, #19-#23
+4. 補助 (mechanical vs biologic): #24
+
+============================================================
+SEARCH TIPS
+============================================================
+- OCEAN-TAVI/J-TVT papers: J-STAGE (https://www.jstage.jst.go.jp) で日本語の補助情報も取得可能
+- Korean Circulation Journal: https://e-kcj.org (open access)
+- BMC J Cardiothorac Surg (Chinese 2012, 2014): https://cardiothoracicsurgery.biomedcentral.com (open access)
+- Hayashida K, Watanabe Y, Yamamoto M は OCEAN-TAVI cluster — 関連論文を著者検索で芋づる式に発見可能
+- Tabata M (#7): 横浜市立大学・順天堂大学関連、Pubmed → "Tabata M[Author] AND aortic valve"
+- Goldstone (#24) PMID 訂正: Claude 28296591 は無関係、正は 29117490
+
+============================================================
+END OF BATCH 2 (26 papers — Cat C:17 + Cat D:6 + Cat I:1 + 既収集:2)
+============================================================

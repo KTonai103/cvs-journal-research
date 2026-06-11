@@ -24,6 +24,7 @@
   --c-mitral:  oklch(0.56 0.15 350);
   --c-hocm:    oklch(0.62 0.13 58);
   --c-perf:    oklch(0.56 0.11 168);
+  --c-mcs:     oklch(0.55 0.15 300);
   --c-report:  oklch(0.46 0.03 245);
 
   --shadow-1: 0 1px 3px oklch(0.35 0.03 245 / 0.07);
@@ -254,7 +255,7 @@ footer a:hover { color: var(--navy); }
   <h1>CVS Journal Research</h1>
   <p>心臓外科・MCS・LVAD 関連ジャーナル 注目論文＆トピックレビュー</p>
   <div class="header-stats">
-    <span><b>8</b>トピックレビュー</span>
+    <span><b>9</b>トピックレビュー</span>
     <span><b>4</b>月次レポート</span>
     <span><b>3</b>対象誌</span>
   </div>
@@ -266,6 +267,7 @@ footer a:hover { color: var(--navy); }
     <a href="#mitral"  style="--accent:var(--c-mitral)"><span class="dot"></span>僧帽弁<span class="n">1</span></a>
     <a href="#hocm"    style="--accent:var(--c-hocm)"><span class="dot"></span>HOCM・心筋切除<span class="n">2</span></a>
     <a href="#perf"    style="--accent:var(--c-perf)"><span class="dot"></span>体外循環・周術期<span class="n">1</span></a>
+    <a href="#mcs"     style="--accent:var(--c-mcs)"><span class="dot"></span>MCS・LVAD<span class="n">1</span></a>
     <a href="#reports" style="--accent:var(--c-report)"><span class="dot"></span>月次レポート<span class="n">4</span></a>
   </div>
 </nav>
@@ -278,9 +280,21 @@ footer a:hover { color: var(--navy); }
       <span class="marker"></span>
       <h2>大動脈弁</h2>
       <span class="en">Aortic Valve</span>
-      <span class="count">4件</span>
+      <span class="count">5件</span>
     </div>
     <div class="card-list">
+
+      <a class="card" href="output/small_annulus_avr_integrated_review_2026-06.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-06-11</span></div>
+        <div class="card-title">狭小弁輪 SAVR と弁輪拡大術の正当性 — アジア人小体格を起点とした統合レビュー（v2）</div>
+        <div class="card-meta">84論文を9章に統合（弁輪拡大術 vs 非拡大 / PPM / TAVI比較）｜ 参考文献は PMID→PubMed・DOI→出版社 ハイパーリンク｜ 研究プロトコル SAKURA-AVR の科学的背景</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">84論文・全文献リンク</span>
+          <span class="badge badge-jtcvs">Y-incision / AAE</span>
+          <span class="badge badge-ejcts">TAVI vs SAVR</span>
+        </div>
+      </a>
 
       <a class="card" href="output/topic_savr_vs_tavr_longterm_2026_05.html">
         <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-05-16</span></div>
@@ -404,6 +418,30 @@ footer a:hover { color: var(--navy); }
           <span class="badge badge-topic">Topic Review</span>
           <span class="badge badge-ejcts">Perfusion / JECT</span>
           <span class="badge badge-jtcvs">EACTS / STS Guidelines</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ MCS・LVAD ============ -->
+  <section id="mcs" style="--accent:var(--c-mcs)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>MCS・LVAD</h2>
+      <span class="en">Mechanical Circulatory Support</span>
+      <span class="count">1件</span>
+    </div>
+    <div class="card-list">
+
+      <a class="card" href="output/topic_lvad_antithrombotic_aries_2026_06.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-06-10</span></div>
+        <div class="card-title">【LVAD抗血栓療法】ARIES-HM3「アスピリン削除可」のガイドライン反映状況 — 関連文献リスト＋調査履歴</div>
+        <div class="card-meta">2023 ISHLTガイドライン本体は未反映（アスピリン併用のまま）／ARIESは2024 ISHLTコンセンサス＋FDA HM3ラベル変更で実装先行 ｜ 全引用 DOI/PMID 個別検証</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">ガイドライン反映状況</span>
+          <span class="badge badge-list">文献リスト・調査履歴</span>
         </div>
       </a>
 
