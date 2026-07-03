@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cor-Knot（自動チタンファスナー）の合併症とPitfall — 弁尖穿孔・大動脈基部損傷・冠動脈干渉・遅発性塞栓の機序と、どう打つべきかのテクニカルガイド（PubMed 61本の統合レビュー）">
+<title>Cor-Knot（自動チタンファスナー）の合併症とPitfall — 文献レビュー＋「どう打つべきか」テクニカルガイド</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+
+/* ---- search box + results ---- */
+#sidebar-search { padding: 0 8px 12px; position: sticky; top: 0; background: var(--sidebar-bg); z-index: 5; }
+#search-input {
+  width: 100%; padding: 8px 30px 8px 10px; font-size: 0.82rem;
+  border: 1px solid var(--border); border-radius: 6px; background: #fff; color: var(--fg);
+  font-family: inherit;
+}
+#search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(44,62,80,0.12); }
+#search-clear {
+  position: absolute; right: 16px; top: 7px; border: none; background: transparent;
+  font-size: 1rem; color: var(--muted); cursor: pointer; line-height: 1; display: none;
+}
+#search-meta {
+  display: none; align-items: center; gap: 6px; margin-top: 6px; font-size: 0.72rem; color: var(--muted);
+}
+#search-meta.show { display: flex; }
+#search-count { flex: 1; }
+#search-meta button {
+  border: 1px solid var(--border); background: #fff; border-radius: 4px; cursor: pointer;
+  width: 22px; height: 22px; font-size: 0.8rem; color: var(--accent); line-height: 1;
+}
+#search-meta button:hover { background: var(--sidebar-active); }
+#sidebar-nav a.filtered-out { display: none; }
+mark.search-hit { background: #ffe08a; color: inherit; padding: 0 1px; border-radius: 2px; }
+mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2px rgba(255,145,0,0.35); }
+
+/* lead / meta blocks */
+.doc-meta { font-size: 0.8rem; color: var(--muted); margin: -8px 0 18px; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次と検索">
+    <div id="sidebar-search">
+      <div style="position:relative;">
+        <input id="search-input" type="search" placeholder="本文を検索 ( / でフォーカス )" autocomplete="off" aria-label="本文を検索">
+        <button id="search-clear" aria-label="検索をクリア">&times;</button>
+      </div>
+      <div id="search-meta">
+        <span id="search-count"></span>
+        <button id="search-prev" aria-label="前の一致">&#8593;</button>
+        <button id="search-next" aria-label="次の一致">&#8595;</button>
+      </div>
+    </div>
+    <div id="sidebar-header">目次</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="cor-knot自動チタンファスナーの合併症とpitfall">Cor-Knot（自動チタンファスナー）の合併症とPitfall</h1>
+<p><strong>弁膜症手術における自動縫合結紮デバイスの落とし穴と、安全な手技の実践</strong></p>
+<p>Cor-Knot®（LSI Solutions社）は、手結び結節（hand-tied knot）を<strong>圧着式チタンファスナー</strong>に置き換える自動結紮デバイスである。1結節を10秒台で終える高速性と、狭く深い術野でも一定の締結圧を得られる利点から、低侵襲（MICS）・完全内視鏡下・ロボット弁膜症手術の**実現技術（enabling technology）**として急速に普及した。一方で「金属異物を弁輪に留置し、鋭利な断端を残す」というデバイスの本質に由来する固有の合併症——<strong>弁尖穿孔・大動脈基部損傷・冠動脈干渉・遅発性塞栓</strong>——が症例報告として蓄積している。</p>
+<p>本稿は Cor-Knot 関連の PubMed 文献 <strong>61本</strong>（2010–2026、症例報告・比較研究・メタアナリシス・レジストリ・動物実験・MAUDE解析を含む）を機械収集し、8観点で構造化・敵対的検証（引用PMID・数値の要旨照合）したうえで統合したものである。<strong>各記述にはPMIDをハイパーリンク</strong>しており、クリックで一次資料に当たれる。前半で合併症・Pitfallを機序別に、後半で「<strong>どう打つべきか</strong>」を実践ガイドとしてまとめた。</p>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">このドキュメントの使い方（HTML版）</div>
+<ul>
+<li>左サイドバーは見出しベースの目次。クリックでジャンプ、スクロールで現在地がハイライトされる。</li>
+<li><strong>サイドバー上部の検索窓</strong>にキーワード（例: <code>穿孔</code>, <code>垂直</code>, <code>RCA</code>, <code>MAUDE</code>, <code>塞栓</code>）を入れると本文をハイライトし、<code>Enter</code>/<code>↑↓</code>で一致箇所を移動、件数も表示。キーボードの <code>/</code> で検索窓にフォーカス。</li>
+<li>各引用（例: <a href="https://pubmed.ncbi.nlm.nih.gov/39790133/">PMID 39790133</a>）はPubMedへのリンク。追加学習はここから一次資料へ。</li>
+<li>末尾に<a href="#文献リスト全61本">全文献リスト（61本）</a>。掲載写真は<strong>オープンアクセス（CC BY / CC BY-NC）論文からの引用</strong>で、各図に出典・ライセンスを明記している。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">エビデンスの大前提</div>
+<p>Cor-Knot の**重大合併症の大半は症例報告（エビデンスレベルは低い）**であり、分母（総使用数）が不明なため「頻度」を論じにくい。一方、単施設・多施設コホート（<a href="https://pubmed.ncbi.nlm.nih.gov/34099017/">PMID 34099017</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/39784471/">PMID 39784471</a>）では穿孔・塞栓ゼロの報告もあり、<strong>合併症は「デバイスの宿命」ではなく「術者依存の手技エラー」<strong>という性格が強い。数値は因果でなく関連として読み、自施設の適応・経験に当てはめて解釈すること。MAUDE解析（<a href="https://pubmed.ncbi.nlm.nih.gov/40098839/">PMID 40098839</a>）は有害事象</strong>報告</strong>の集計であり、真の発生率ではない点にも注意。</p>
+</div>
+
+<hr />
+<h2 id="総論なぜ-cor-knot-固有の合併症が起きるのか">総論：なぜ Cor-Knot 固有の合併症が起きるのか</h2>
+<p>Cor-Knot は shaft（シャフト）／curved handle（カーブハンドル）／wire snare（ワイヤースネア）／<strong>crimpable titanium fastener（圧着式チタンファスナー）<strong>から成る（<a href="https://pubmed.ncbi.nlm.nih.gov/40223981/">PMID 40223981</a>）。縫合糸をワイヤースネアで捉え、先端のチタンスリーブに通し、ハンドル操作でスリーブを</strong>クリンプ（圧着）して糸を掴み、同時に余剰糸を切断</strong>する。この機序が高速性の正体だが、同時に全合併症の根源でもある。</p>
+<p>合併症を生む物理的性質は2つに集約される。</p>
+<ol type="1">
+<li><strong>剛直性（rigidity）</strong> — チタンファスナーは手結びの柔らかい糸塊と違い硬い。可動する弁尖に繰り返し当たれば弁尖は摩耗して穿孔する（moth-eaten様、<a href="https://pubmed.ncbi.nlm.nih.gov/35758627/">PMID 35758627</a>）。金属クリップで固定された糸尾は「<strong>less pliable（しなやかでない）</strong>」まま突出し、拍動ごとに弁尖が衝突する（<a href="https://pubmed.ncbi.nlm.nih.gov/28379473/">PMID 28379473</a>）。</li>
+<li><strong>鋭利な金属端（sharp edge）</strong> — クリンプ後の断端は鋭く、隣接する大動脈壁・右房を erosion しうる（<a href="https://pubmed.ncbi.nlm.nih.gov/32865452/">PMID 32865452</a>）。シャフト遠位端そのものが内膜を裂き、大動脈基部解離を起こした剖検例もある（<a href="https://pubmed.ncbi.nlm.nih.gov/36450144/">PMID 36450144</a>）。</li>
+</ol>
+<p><img src="figures/ck_technique_vs_handtied_PMC11211209.jpg" alt="Cor-Knotファスナー留置（自動）と手結びの対比" /> <em>図1. SAVRにおける縫合固定：自動チタンファスナー（左）と手結び（右）。ファスナーは糸に直接手を触れずに sewing ring 上で圧着・切断される。出典: Elbadawi/Salsano ら. Eur J Cardiothorac Surg. 2024（<a href="https://pubmed.ncbi.nlm.nih.gov/38913864/">PMID 38913864</a>, PMC11211209, CC BY 4.0）より Fig 2 を引用。</em></p>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">発想の転換</div>
+<p>Cor-Knot は「便利な結紮器」ではなく「<strong>弁輪に金属異物を留置する行為</strong>」と認識する。だからこそ、位置・向き・締結を1発ずつ意識して打つ——これが後述する全 Pitfall 回避の共通原則になる。</p>
+</div>
+
+<hr />
+<h1 id="第i部合併症pitfall機序別">第I部：合併症・Pitfall（機序別）</h1>
+<h2 id="1-弁尖穿孔生体弁損傷--cor-knot-最重要かつ固有の合併症">1. 弁尖穿孔・生体弁損傷 — Cor-Knot 最重要かつ固有の合併症</h2>
+<p>最も報告が多く、Cor-Knot に特異的な重大合併症。生体弁・自己弁尖・sutureless 弁のいずれでも起こりうる。</p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall① 生体弁リーフレットの多発穿孔（moth-eaten様）</div>
+<p>剛直なチタンファスナーの突出・鋭利な断端に閉じた弁尖が反復接触して摩耗・穿孔する。25mm Inspiris Resilia 生体弁の再AVRで<strong>3尖すべてに計7ヶ所の穿孔</strong>を認めた例（<a href="https://pubmed.ncbi.nlm.nih.gov/35758627/">PMID 35758627</a>）が代表的。欠損は<strong>術直後でなく術後4ヶ月以内</strong>に出現し、変性弁として valve-in-valve で置換され見逃されるため、<strong>真の頻度は過小評価</strong>されうると警告されている。</p>
+</div>
+
+<p><img src="figures/ck_perforation_howithappens_PMC10792379.jpg" alt="COR-KNOTによる生体弁尖穿孔" /> <em>図2. COR-KNOT誘発の弁尖穿孔。(A) 右冠尖の穿孔（矢印がCOR-KNOT）、(B) 無冠尖の2ヶ所の穿孔、(C) 摘出弁で3尖（N/R/L）に対応する穿孔（丸印）。出典: Kim ら. J Chest Surg. 2024;57(1):96「COR-KNOT-Induced Leaflet Perforation: How It Happens and How to Prevent It」（<a href="https://pubmed.ncbi.nlm.nih.gov/37927063/">PMID 37927063</a>, PMC10792379, CC BY-NC 4.0）より Fig 1 を引用。</em></p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall② 遅発性穿孔（術後数ヶ月〜5年以降）＝「早期変性」との誤認</div>
+<p>金属クリップで硬く突出した糸尾に弁尖が拍動ごとに衝突し、<strong>長期に穿孔が進行</strong>する。Trifecta 弁で植込み<strong>5年以上後</strong>の穿孔→重症AR（<a href="https://pubmed.ncbi.nlm.nih.gov/36183406/">PMID 36183406</a>）、sutureless 心膜弁で8ヶ月後に穿孔（摘出弁の穿孔位置がノット位置と一致、<a href="https://pubmed.ncbi.nlm.nih.gov/28379473/">PMID 28379473</a>）。遅発ゆえ「弁の早期変性」と誤診されやすく、<strong>Cor-Knot使用後は長期の心エコー監視</strong>が必要。</p>
+</div>
+
+<p>穿孔を疑う所見は<strong>人工弁における複数の偏心性ジェット</strong>である（<a href="https://pubmed.ncbi.nlm.nih.gov/33117948/">PMID 33117948</a>）。若手向けに機序と回避策をまとめた症例報告（<a href="https://pubmed.ncbi.nlm.nih.gov/37927063/">PMID 37927063</a>）、問題提起のレター（<a href="https://pubmed.ncbi.nlm.nih.gov/29362179/">PMID 29362179</a>「More Usual Than You Think」、<a href="https://pubmed.ncbi.nlm.nih.gov/29679535/">PMID 29679535</a>）も参照。</p>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">予防（詳細は[第IV部テクニカルガイド](#第iv部how-to-cor-knotをどう打つべきか)）</div>
+<ul>
+<li>狭小空間では sewing ring とファスナー先端の<strong>垂直アポジション（perpendicular apposition）を常に維持</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/39790133/">PMID 39790133</a>）。</li>
+<li>ノット断端を<strong>弁尖可動域に突出させない</strong>位置・向きに配置。</li>
+<li>生体弁AVRでは特に慎重に使用し、術後echoを綿密にフォロー。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">反対の視点：丁寧に打てば穿孔はまれ</div>
+<p>単施設132例（157弁）で1年まで弁尖穿孔・弁血栓・デバイス脱落・中等度以上PVLの報告なし（trivial/mild PVL 1.01%、<a href="https://pubmed.ncbi.nlm.nih.gov/34099017/">PMID 34099017</a>）、4施設368例の前向きレジストリ（平均14.7ヶ月）でも穿孔・塞栓ゼロ（<a href="https://pubmed.ncbi.nlm.nih.gov/39784471/">PMID 39784471</a>）。<strong>穿孔は宿命ではなく手技依存</strong>であることを示す分母データ。</p>
+</div>
+
+<h2 id="2-大動脈基部valsalva洞冠動脈の損傷--深すぎ角度不良の帰結">2. 大動脈基部・Valsalva洞・冠動脈の損傷 — 「深すぎ・角度不良」の帰結</h2>
+<p>肋間の狭く角度の制限された術野で、sewing ring への<strong>不完全な当接のまま盲目的に発射</strong>することが共通機序。致死的となりうる。</p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall③ デバイスシャフト遠位端による大動脈基部解離</div>
+<p>右開胸MICS AVRで postcardiotomy shock、剖検で<strong>基部周囲90%・両側冠動脈口に及ぶ解離</strong>。デバイスシャフト遠位端が内膜を直接裂いており、肋間の制限された角度で sewing ring へ完全当接できなかったことが原因とされた（<a href="https://pubmed.ncbi.nlm.nih.gov/36450144/">PMID 36450144</a>）。</p>
+</div>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall④ クリップ部位一致の基部 punctate 損傷・大出血</div>
+<p>二尖弁・変形した基部の72歳MICS AVRで、aortotomy 閉鎖後に基部から旺盛な出血。再クロスクランプで<strong>クリップ部位に一致する点状（punctate）損傷</strong>を確認、正中切開転換・自己心膜パッチ修復で救命した（<a href="https://pubmed.ncbi.nlm.nih.gov/40708028/">PMID 40708028</a>）。<strong>解剖学的困難例（二尖弁・変形基部）ではデバイス選択とクリップ位置決めに特に注意</strong>する、という教訓。完全内視鏡下MICS AVRでの Valsalva 洞穿孔例もある（<a href="https://pubmed.ncbi.nlm.nih.gov/41112446/">PMID 41112446</a>）。</p>
+</div>
+
+<p><img src="figures/ck_root_injury_PMC12291292.jpg" alt="COR-KNOTによる大動脈基部損傷" /> <em>図3. 人工弁植込み後のCOR-KNOTデバイス留置状況と基部損傷。ファスナー先端（矢印）が基部壁に近接する。出典: 二尖弁MICS AVRの基部損傷例. Gen Thorac Cardiovasc Surg Cases. 2025（<a href="https://pubmed.ncbi.nlm.nih.gov/40708028/">PMID 40708028</a>, PMC12291292, CC BY 4.0）より Fig 2 を引用。</em></p>
+<p><img src="figures/ck_sinus_perforation_PMC12529675.jpg" alt="Valsalva洞穿孔と推奨されるファスナーの向き" /> <em>図4. 完全内視鏡下MICS AVRでのValsalva洞穿孔（Cor-Knotファスナー幅に一致する単発穿孔）。出典: Valsalva sinus perforation caused by Cor-Knot. JTCVS Tech. 2025（<a href="https://pubmed.ncbi.nlm.nih.gov/41112446/">PMID 41112446</a>, PMC12529675, CC BY 4.0）より Fig（Video 1 静止画）を引用。</em></p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall⑤ 冠動脈口干渉による冠血流障害・再発STEMI</div>
+<p>mini-sternotomy＋On-X弁SAVRで、ファスナーが<strong>RCA入口部に干渉</strong>し、至適抗凝固下でも数年にわたり下壁STEMIを反復。冠動脈造影では有意狭窄・塞栓なし、IVUSで入口部 filling defect、心臓CTで Cor-Knot と RCA の干渉を確認し、入口部PCIで対応した（<strong>自動縫合器由来STEMIの初報告</strong>、<a href="https://pubmed.ncbi.nlm.nih.gov/41128694/">PMID 41128694</a>）。僧帽弁形成では後尖側・房室溝の<strong>回旋枝（LCx）・LAD近接</strong>に注意（<a href="https://pubmed.ncbi.nlm.nih.gov/39142732/">PMID 39142732</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">予防</div>
+<ul>
+<li><strong>完全な垂直当接を確保できる角度でのみ発射</strong>する。角度が取れない部位は無理をせず手結び／別法に切り替える。</li>
+<li><strong>冠動脈口近傍のクリップ配置を避ける</strong>。原因不明の術後虚血ではファスナー干渉を鑑別し、IVUS・心臓CTで評価（<a href="https://pubmed.ncbi.nlm.nih.gov/41128694/">PMID 41128694</a>）。</li>
+<li>radiopaque性を逆手に取り、術中冠動脈造影下で閉塞縫合をピンポイント除去したハイブリッド治療も報告（<a href="https://pubmed.ncbi.nlm.nih.gov/39142732/">PMID 39142732</a>）。</li>
+</ul>
+</div>
+
+<h2 id="3-ファスナーの塞栓脱落--稀だが致死的な遅発性合併症">3. ファスナーの塞栓・脱落 — 稀だが致死的な遅発性合併症</h2>
+<p>固定不良・締結不良で脱落したチタンファスナーが<strong>血管内異物</strong>となり、脳・冠動脈・末梢へ塞栓する。</p>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall⑥ 遅発性の脳・冠動脈塞栓</div>
+<ul>
+<li>ロボット僧帽弁形成の<strong>5年後</strong>に金属異物塞栓による脳血管障害（<a href="https://pubmed.ncbi.nlm.nih.gov/29302408/">PMID 29302408</a>）。</li>
+<li>AVR<strong>8日後</strong>に右中大脳動脈M2枝起始部へファスナーが迷入、contact aspiration で摘出（<a href="https://pubmed.ncbi.nlm.nih.gov/39556819/">PMID 39556819</a>）。機械弁例でも M2 枝に金属 density（<a href="https://pubmed.ncbi.nlm.nih.gov/31375507/">PMID 31375507</a>）。</li>
+<li>MICS僧帽弁形成のリング固定に用いたファスナー2個が<strong>術後6ヶ月でLADに塞栓</strong>し閉塞、心尖部貫壁性梗塞（<a href="https://pubmed.ncbi.nlm.nih.gov/41431961/">PMID 41431961</a>）。</li>
+</ul>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall⑦ デバイス誤作動（misfire）＝異物遺残・塞栓の上流機序</div>
+<p>MAUDE データベース（2015–2023、推定74件）では、デバイス事象の最多が <strong>malfunction 63.5%</strong>（うち misfire 22.8%・使用手技問題 22.8%）、患者側合併症は弁機能不全10.8%・<strong>異物遺残8.1%</strong>・出血2.7%。報告数は<strong>2015年1件→2023年13件</strong>と採用拡大に伴い増加しており、十分なデバイストレーニング整備の必要性が示唆される（<a href="https://pubmed.ncbi.nlm.nih.gov/40098839/">PMID 40098839</a>）。</p>
+</div>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">予防</div>
+<ul>
+<li><strong>確実な seating と締結</strong>が第一の予防。術野に脱落した金属片は必ず回収する。</li>
+<li>術後に新規壁運動異常・胸痛・脱力が出現したら<strong>ファスナー塞栓を鑑別</strong>し、心カテ・画像で金属異物を検索。頭蓋内例は contact aspiration で摘出可能なことがある（<a href="https://pubmed.ncbi.nlm.nih.gov/39556819/">PMID 39556819</a>）。</li>
+</ul>
+</div>
+
+<h2 id="4-パラバルブラーリーク縫合離開逆流--むしろ-cor-knot-で減る">4. パラバルブラーリーク・縫合離開・逆流 — むしろ Cor-Knot で「減る」</h2>
+<p>直感に反し、<strong>適切に打てば Cor-Knot は PVL・離開を減らす</strong>。締結圧が高く一定であることの利点が勝る領域。</p>
+<ul>
+<li><strong>人工弁/リング離開</strong>：僧帽弁2678例で自動ファスナー群の離開再介入が有意に低リスク（補正sHR 0.34、95%CI 0.12–0.91、<a href="https://pubmed.ncbi.nlm.nih.gov/41512298/">PMID 41512298</a>）。</li>
+<li><strong>弁逆流</strong>：メタアナリシス2件で Cor-Knot 群の術後弁逆流が有意に低い（RR 0.40、<a href="https://pubmed.ncbi.nlm.nih.gov/38487081/">PMID 38487081</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/33301736/">PMID 33301736</a>）。SAVR比較でも術後AR発生が有意に少ない（<a href="https://pubmed.ncbi.nlm.nih.gov/30075552/">PMID 30075552</a>）。</li>
+<li><strong>術中PVL はむしろ手結び側</strong>：SAVR 636例で術中PVL発生1.4%は<strong>全例が手結び群</strong>（締結不良、<a href="https://pubmed.ncbi.nlm.nih.gov/31496371/">PMID 31496371</a>）。</li>
+<li><strong>締結強度の定量</strong>：ex vivo で保持圧 中央値 <strong>1008.9 vs 手結び415.8 mmHg</strong>（P&lt;0.001）、全ファスナー&gt;500mmHg に対し手結びは56%が&lt;500・14%が&lt;75mmHg（<a href="https://pubmed.ncbi.nlm.nih.gov/24755535/">PMID 24755535</a>）。</li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Pitfall⑧ 「向き（orientation）」の誤りによる経弁性逆流</div>
+<p>ただし PVL とは別に、<strong>ファスナーの向きが弁ジオメトリと不整合</strong>だと弁尖可動を妨げ、経弁性（transvalvular）逆流を生じる。向き不良で2例が再手術となり「ファスナーの向きを弁形状に対して評価すべき」と結論された（<a href="https://pubmed.ncbi.nlm.nih.gov/27899293/">PMID 27899293</a>）。</p>
+</div>
+
+<h2 id="5-溶血血栓感染性心内膜炎--懸念に反して増やさない">5. 溶血・血栓・感染性心内膜炎 — 懸念に反して「増やさない」</h2>
+<p>金属異物が感染巣・血栓の温床になるという理論的懸念は、実データでは支持されない。</p>
+<ul>
+<li><strong>感染性心内膜炎（IE）</strong>：SAVR 1405例で自動ファスナー群は追跡中IEが有意に<strong>低リスク</strong>（補正sHR 0.44、早期IE 0.4% vs 1.4%、<a href="https://pubmed.ncbi.nlm.nih.gov/38913864/">PMID 38913864</a>）。手結び結節より糸残存量・結節塊が小さいことが寄与すると考えられる。</li>
+<li><strong>活動性IE手術</strong>でもチタンファスナー群の再感染が低リスク（補正sHR 0.33、<a href="https://pubmed.ncbi.nlm.nih.gov/38322769/">PMID 38322769</a>）。ただし220例の小規模後ろ向きで要検証。</li>
+<li><strong>血栓</strong>：ヒツジ僧帽弁輪形成モデルで、<strong>チタンクリップ表面には血栓を認めず</strong>、糸端の小血栓は手結び群でも同様（Day60で有意差なし、<a href="https://pubmed.ncbi.nlm.nih.gov/35224036/">PMID 35224036</a>）。臨床コホートでも弁血栓・金属塞栓は認めず（<a href="https://pubmed.ncbi.nlm.nih.gov/39784471/">PMID 39784471</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/34099017/">PMID 34099017</a>）。</li>
+</ul>
+<hr />
+<h1 id="第ii部有効性とベネフィットバランスのために">第II部：有効性とベネフィット（バランスのために）</h1>
+<p>Pitfall だけを見ると危険なデバイスに映るが、<strong>時間短縮と締結の確実性という明確な利点</strong>があるからこそ普及した。適応を誤らなければ利益が勝る。</p>
+<ul>
+<li><strong>AXC・CPB時間短縮</strong>：メタアナリシスで AXC MD −15.1分・CPB MD −12.4分（<a href="https://pubmed.ncbi.nlm.nih.gov/38487081/">PMID 38487081</a>）。開胸AVRのRCTで結紮 7.4 vs 13.0分・AXC 69 vs 90分・CPB 86 vs 114分いずれも有意短縮（<a href="https://pubmed.ncbi.nlm.nih.gov/29465629/">PMID 29465629</a>）。低侵襲AVR・僧帽弁形成でも同様（<a href="https://pubmed.ncbi.nlm.nih.gov/31599141/">PMID 31599141</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/29547910/">PMID 29547910</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/31155918/">PMID 31155918</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/30187516/">PMID 30187516</a>）。</li>
+<li><strong>締結速度</strong>：低侵襲シミュレーションで結紮時間を平均56%短縮、保持強度は手結びと同等（<a href="https://pubmed.ncbi.nlm.nih.gov/19854658/">PMID 19854658</a>）。</li>
+<li><strong>実現技術</strong>：ロボット500例で標準化ポート配置・suture alignment・Cor-Knot導入が学習曲線の変曲点に一致（手術時間 中央値420→280分、<a href="https://pubmed.ncbi.nlm.nih.gov/41563306/">PMID 41563306</a>）。右前小開胸AVRのUKコンセンサスでも術中補助として推奨（<a href="https://pubmed.ncbi.nlm.nih.gov/37001910/">PMID 37001910</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/29718234/">PMID 29718234</a>）。</li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">ただし「術中効率＝予後改善」ではない・コストにも注意</div>
+<ul>
+<li>24論文のSRは「総手術時間短縮のエビデンスは多いが、<strong>患者転帰改善への翻訳は証明されておらず相当な費用を伴う</strong>」と結論（<a href="https://pubmed.ncbi.nlm.nih.gov/33111445/">PMID 33111445</a>）。</li>
+<li><strong>胸骨切開下の弁輪形成では時間短縮が1針あたり数秒に留まり、AXC/CPB全体に有意差なし</strong>。コストは $1,190 vs <span class="math inline">164（+</span>1,026/手術）と純増（<a href="https://pubmed.ncbi.nlm.nih.gov/29883653/">PMID 29883653</a>）。<strong>利益は低侵襲アプローチでこそ明確</strong>。</li>
+</ul>
+</div>
+
+<hr />
+<h1 id="第iii部術式別の注意点">第III部：術式別の注意点</h1>
+<h2 id="avr大動脈弁置換-cor-knot-の最良の適応">AVR（大動脈弁置換）— Cor-Knot の最良の適応</h2>
+<p>時間短縮・弁逆流低減が最も明確（<a href="https://pubmed.ncbi.nlm.nih.gov/29465629/">PMID 29465629</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/30075552/">PMID 30075552</a>）。孤立AVRの長期成績も良好だが、7年 再介入回避率は手結び98.8% vs Cor-Knot 94.1%（p=0.02）とわずかに劣り（<a href="https://pubmed.ncbi.nlm.nih.gov/40770359/">PMID 40770359</a>）、これは遅発性穿孔リスクを反映しうる。<strong>生体弁では穿孔リスクを最優先</strong>、機械弁では冠動脈口干渉・塞栓に注意。</p>
+<h2 id="mvr僧帽弁形成--利益は限定的慎重な適応判断">MVR/僧帽弁形成 — 利益は限定的、慎重な適応判断</h2>
+<p>離開低減・時間短縮の利点はある（<a href="https://pubmed.ncbi.nlm.nih.gov/41512298/">PMID 41512298</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/26530124/">PMID 26530124</a>）が、<strong>残存弁逆流が手結びより高い傾向</strong>（僧帽弁 p=0.28、二弁 p=0.49）で短長期ベネフィットは限定的（<a href="https://pubmed.ncbi.nlm.nih.gov/40770359/">PMID 40770359</a>）。<strong>回旋枝・LAD近接</strong>に注意（<a href="https://pubmed.ncbi.nlm.nih.gov/39142732/">PMID 39142732</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41431961/">PMID 41431961</a>）。</p>
+<p><strong>腱索再建（ePTFE人工腱索）</strong>：金属crimpは<strong>長さの再調整が不能</strong>。chordal holder等で加圧生食テスト下に長さを一時固定し、最適coaptation後に永久固定する専用デバイス／手技が研究されている（<a href="https://pubmed.ncbi.nlm.nih.gov/42292127/">PMID 42292127</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/37890817/">PMID 37890817</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/36447382/">PMID 36447382</a>）。</p>
+<h2 id="tvr胸骨切開下弁輪形成--費用対効果に注意">TVR・胸骨切開下弁輪形成 — 費用対効果に注意</h2>
+<p>前述の通り時間短縮が僅少でコスト純増（<a href="https://pubmed.ncbi.nlm.nih.gov/29883653/">PMID 29883653</a>）。</p>
+<h2 id="内視鏡ロボット--実現技術としての価値と落とし穴">内視鏡・ロボット — 実現技術としての価値と落とし穴</h2>
+<p>深く狭い術野では knot pusher 結紮の締結圧が弱く、Cor-Knot が低侵襲/完全内視鏡アプローチを可能にする（<a href="https://pubmed.ncbi.nlm.nih.gov/38576096/">PMID 38576096</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41163860/">PMID 41163860</a>）。一方、狭い術野は垂直当接が難しく基部損傷・洞穿孔のリスクが上がる（<a href="https://pubmed.ncbi.nlm.nih.gov/36450144/">PMID 36450144</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41112446/">PMID 41112446</a>）——<strong>角度が取れないなら打たない勇気を持つ</strong>。</p>
+<h2 id="off-label応用的使用">off-label／応用的使用</h2>
+<ul>
+<li><strong>順行性心筋保護カニューレ抜去部の止血</strong>：鋭利端が大動脈/右房を erosion しうるため、<strong>Teflon-feltバンド上にクリンプし右房側の鋭端を 5/0 Prolene で被覆</strong>する改良法で20例全例止血・6ヶ月 erosion 再手術なし（<a href="https://pubmed.ncbi.nlm.nih.gov/32865452/">PMID 32865452</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/28291141/">PMID 28291141</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41163860/">PMID 41163860</a>）。</li>
+<li><strong>全弓部置換の困難な遠位吻合</strong>で Hegar dilator 上に締結（<a href="https://pubmed.ncbi.nlm.nih.gov/34306706/">PMID 34306706</a>）。</li>
+<li><strong>TAVR前SAVRのマーカー</strong>：radiopaque な Cor-Knot ラインを coplanar 角度・弁深度の基準に活用（<a href="https://pubmed.ncbi.nlm.nih.gov/36735874/">PMID 36735874</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/25282227/">PMID 25282227</a>）。ただし冠動脈口近傍配置は避ける。</li>
+<li>**気管・気管支閉鎖（VATS）**などエビデンスの限られた応用例も報告（<a href="https://pubmed.ncbi.nlm.nih.gov/37599508/">PMID 37599508</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/42304887/">PMID 42304887</a>）。</li>
+</ul>
+<hr />
+<h1 id="第iv部how-to--cor-knot-をどう打つべきか">第IV部：How-to — Cor-Knot をどう打つべきか</h1>
+<p>以下は研修医〜若手術者が手術前に読む実践ガイド。合併症の機序から逆算した「正しい1発」の原則をまとめる。</p>
+<h2 id="step-1-機序を意識する">Step 1. 機序を意識する</h2>
+<p>剛直・鋭利な金属異物を弁輪に留置している——この認識をすべての操作の前提に置く（<a href="https://pubmed.ncbi.nlm.nih.gov/40223981/">PMID 40223981</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/28379473/">PMID 28379473</a>）。</p>
+<h2 id="step-2-垂直保持perpendicular-appositionとseating-最重要">Step 2. 垂直保持（perpendicular apposition）とseating ★最重要</h2>
+<p>最も繰り返し警告される原則。<strong>sewing ring とファスナー先端の間に常に垂直な当接を保つ</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/39790133/">PMID 39790133</a>）。先端が斜めに当たるとファスナーが弁尖側／大動脈壁側に突出し、穿孔・損傷の起点になる。</p>
+<p><img src="figures/ck_orientation_porcine_PMC12529675.jpg" alt="ファスナーの推奨される向き（ex vivoブタ心）" /> <em>図5. ex vivoブタ心でのCor-Knot展開シミュレーション。(A) 推奨される向き＝ファスナーの断端を弁尖・組織から遠ざけて留置する。破線はデバイス軸。狭小術野での垂直保持と断端の向きが穿孔・洞損傷回避の鍵。出典: Valsalva sinus perforation caused by Cor-Knot. JTCVS Tech. 2025（<a href="https://pubmed.ncbi.nlm.nih.gov/41112446/">PMID 41112446</a>, PMC12529675, CC BY 4.0）より Fig 2 を引用。</em></p>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">打つ前の3秒チェックリスト</div>
+<p>① 先端は糸に<strong>垂直</strong>か　② 弁輪に<strong>密着（seat）<strong>しているか　③ 弁尖の動く側／冠動脈口に</strong>突出していない</strong>か</p>
+</div>
+
+<h2 id="step-3-テンション管理--過緊張と緩みの両方が敵">Step 3. テンション管理 — 過緊張と緩みの両方が敵</h2>
+<p>Cor-Knot は手結びより高く一貫した保持圧を与える（<a href="https://pubmed.ncbi.nlm.nih.gov/24755535/">PMID 24755535</a>）が、テンションは両方向に管理する。</p>
+<ul>
+<li><strong>過緊張 → 糸切断・組織裂傷</strong>：糸を強く引きすぎてクリンプすると弁輪・心筋を裂く。適正テンションで座らせ、引きちぎる方向の力をかけない（心尖部コネクタで筋裂傷回避の標準化手技、<a href="https://pubmed.ncbi.nlm.nih.gov/26187461/">PMID 26187461</a>）。</li>
+<li><strong>緩み → PVL・離開・塞栓</strong>：確実に seat させて緩みゼロにする。ただし緩み由来トラブルは手結び側で多い（<a href="https://pubmed.ncbi.nlm.nih.gov/31496371/">PMID 31496371</a>）。</li>
+</ul>
+<h2 id="step-4-打ち込み深さ角度--深すぎ浅すぎの両極を避ける">Step 4. 打ち込み深さ・角度 — 深すぎ／浅すぎの両極を避ける</h2>
+<ul>
+<li><strong>深すぎ・角度不良</strong> → 基部解離・洞穿孔・冠動脈干渉（<a href="https://pubmed.ncbi.nlm.nih.gov/36450144/">PMID 36450144</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/40708028/">PMID 40708028</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/41128694/">PMID 41128694</a>）。</li>
+<li><strong>浅すぎ</strong> → 締結不良・misfire・異物遺残（<a href="https://pubmed.ncbi.nlm.nih.gov/40098839/">PMID 40098839</a>）。</li>
+<li><strong>完全な垂直当接を確保できる角度でのみ発射</strong>。困難例（二尖弁・変形基部・狭小空間）はデバイス選択とクリップ位置に特に注意（<a href="https://pubmed.ncbi.nlm.nih.gov/40708028/">PMID 40708028</a>）。</li>
+</ul>
+<h2 id="step-5-弁尖coaptation面交連からの距離を確保する">Step 5. 弁尖・coaptation面・交連からの距離を確保する</h2>
+<p>打つ前に「このファスナーは閉じた弁尖のどこに面するか」を想像する。<strong>向きを弁ジオメトリに合わせ、突出方向を弁から遠ざける</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/27899293/">PMID 27899293</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/28379473/">PMID 28379473</a>）。</p>
+<p><img src="figures/ck_aortavalve_angle_ct_PMC11708687.jpg" alt="Cor-Knotによる弁尖穿孔と大動脈・弁の角度" /> <em>図6. MICS AVR例のCTで大動脈と弁の角度は42.5°。この幾何学的ミスマッチが垂直当接を妨げ穿孔リスクを高めた。出典: Leaflet Perforation Using Cor-Knot in MIS AVR. Ann Thorac Surg Short Rep. 2024（<a href="https://pubmed.ncbi.nlm.nih.gov/39790133/">PMID 39790133</a>, PMC11708687, CC BY 4.0）より Fig 2 を引用。</em></p>
+<p><img src="figures/ck_punctate_defects_PMC11708687.jpg" alt="Cor-Knot誘発の弁尖punctate欠損" /> <em>図7. 弁と大動脈の角度偏位により生じた心膜弁尖の点状欠損（矢印）。出典: 同上（<a href="https://pubmed.ncbi.nlm.nih.gov/39790133/">PMID 39790133</a>, PMC11708687, CC BY 4.0）より Fig 3 を引用。</em></p>
+<h2 id="step-6-打った後の確認回収">Step 6. 打った後の確認・回収</h2>
+<ol type="1">
+<li><strong>1発ごとに seating と向きを目視確認</strong>（弁尖側突出・冠動脈口干渉がないか）。</li>
+<li><strong>全ファスナー留置後に生食テスト</strong>で弁尖可動・閉鎖・逆流を確認（<a href="https://pubmed.ncbi.nlm.nih.gov/27899293/">PMID 27899293</a>の教訓）。</li>
+<li><strong>術中TEE</strong>で残存逆流・PVLを確認（術中PVLは締結不良のサイン）。</li>
+<li><strong>止血確認</strong>：基部・aortotomy閉鎖部の出血はクリップ部位損傷を示唆（<a href="https://pubmed.ncbi.nlm.nih.gov/40708028/">PMID 40708028</a>）。</li>
+<li><strong>脱落金属片を必ず回収</strong>。radiopaque性は位置同定・経皮的除去に活用できる（<a href="https://pubmed.ncbi.nlm.nih.gov/36735874/">PMID 36735874</a>）。</li>
+</ol>
+<h2 id="step-7-ラーニングカーブと品質管理">Step 7. ラーニングカーブと品質管理</h2>
+<ul>
+<li><strong>S technique</strong>：縫合糸・カーブハンドル・ワイヤースネアの連続的制御でソロかつ迅速に締結（<a href="https://pubmed.ncbi.nlm.nih.gov/40223981/">PMID 40223981</a>）。</li>
+<li><strong>標準化と段階的習熟</strong>：ポート配置・suture alignment を標準化（<a href="https://pubmed.ncbi.nlm.nih.gov/41563306/">PMID 41563306</a>）。有害事象報告は採用拡大とともに増加しており、<strong>十分なデバイストレーニングが必須</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/40098839/">PMID 40098839</a>）。</li>
+<li><strong>長期サーベイランス</strong>：遅発性穿孔・塞栓を「弁の早期変性」と誤認しない（<a href="https://pubmed.ncbi.nlm.nih.gov/35758627/">PMID 35758627</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/36183406/">PMID 36183406</a>）。</li>
+</ul>
+<hr />
+<h2 id="まとめ--安全な1発のための7原則">まとめ — 安全な1発のための7原則</h2>
+<ol type="1">
+<li><strong>機序を意識する</strong>：剛直・鋭利な金属異物を弁輪に留置している。</li>
+<li><strong>垂直に保つ</strong>：sewing ring とファスナー先端は常に perpendicular apposition。</li>
+<li><strong>テンションは中庸</strong>：過緊張で糸切断・組織裂傷、緩みで PVL/塞栓。適正圧で seat。</li>
+<li><strong>角度と深さ</strong>：完全当接できる角度でのみ発射、盲目的発射は基部/洞/冠動脈損傷。</li>
+<li><strong>弁尖・交連から離す</strong>：突出方向を弁から遠ざけ、向きを弁ジオメトリに合わせる。</li>
+<li><strong>部位で使い分ける</strong>：AVR＞僧帽弁、低侵襲で真価。生体弁・冠動脈近接・狭小術野は特に慎重。</li>
+<li><strong>打った後に確認・回収・長期フォロー</strong>：seating目視、生食テスト、TEE、脱落金属回収、術後echoサーベイランス。</li>
+</ol>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">結論</div>
+<p>正しく打てば Cor-Knot は離開・PVL・感染性心内膜炎をむしろ<strong>減らし</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/41512298/">PMID 41512298</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/38487081/">PMID 38487081</a>、<a href="https://pubmed.ncbi.nlm.nih.gov/38913864/">PMID 38913864</a>）、時間を短縮する安全なデバイスである。重大合併症の大半は<strong>術者依存の手技エラー</strong>であり、上記の原則で回避できる。「速く打つ」前に「<strong>正しく打つ</strong>」を身につけること。</p>
+</div>
+
+<hr />
+<h2 id="図の出典ライセンスについて">図の出典・ライセンスについて</h2>
+<p>本稿の写真（図1–7）は、いずれも<strong>オープンアクセス論文</strong>から、Creative Commons ライセンス（CC BY 4.0 または CC BY-NC 4.0）の条件に従い<strong>出典を明記して引用</strong>したものである。各図キャプションに原著・PMID・PMC番号・ライセンスを記載した。原著の著作権は各著者に帰属する。二次利用の際は各原著のライセンス条件を確認されたい。</p>
+<hr />
+<h2 id="文献リスト全61本">文献リスト（全61本）</h2>
+<p>すべて本稿引用の実在PubMed文献（機械収集後、引用PMID・数値を要旨と照合して検証済み）。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>PMID</th>
+<th>年</th>
+<th>誌</th>
+<th>タイトル</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/19854658/">19854658</a></td>
+<td>2010</td>
+<td>EJCTS</td>
+<td>A laparoscopic knot-tying device for minimally invasive cardiac surgery.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/24349971/">24349971</a></td>
+<td>2013</td>
+<td>Ann Cardiothorac Surg</td>
+<td>Systematic review of robotic minimally invasive mitral valve surgery.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/24755535/">24755535</a></td>
+<td>2014</td>
+<td>Innovations</td>
+<td>Comparison of strength, consistency, and speed of COR-KNOT versus manually hand-tied knots in an ex vivo minimally invasive model.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/25282227/">25282227</a></td>
+<td>2014</td>
+<td>Ann Thorac Surg</td>
+<td>The Cor-Knot device may serve as an ideal radiopaque marker of the annular plane for future valve-in-valve implantation.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/26187461/">26187461</a></td>
+<td>2015</td>
+<td>Asian Cardiovasc Thorac Ann</td>
+<td>Cor-Knot automated fastener to facilitate Corex aortic valve bypass implantation.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/26530124/">26530124</a></td>
+<td>2015</td>
+<td>J Cardiothorac Surg</td>
+<td>Automated fastener versus manually tied knots in minimally invasive mitral valve repair: impact on operation time and short- term results.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/27899293/">27899293</a></td>
+<td>2017</td>
+<td>Ann Thorac Surg</td>
+<td>Valvular Regurgitation After Implantation of Prostheses Secured With Cor-Knot Automated Fasteners.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/28291141/">28291141</a></td>
+<td>2017</td>
+<td>Innovations</td>
+<td>Antegrade Cardioplegia Decannulation Using the COR-KNOT System in Minimally Invasive Mitral Valve Surgery.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/28379473/">28379473</a></td>
+<td>2017</td>
+<td>ICVTS</td>
+<td>Severe aortic regurgitation after implantation of a sutureless valve prosthesis using an automatic knot fastener device.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29302408/">29302408</a></td>
+<td>2017</td>
+<td>Thorac Cardiovasc Surg Rep</td>
+<td>Delayed Metallic Embolization of a Cor-Knot Fastener.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29362179/">29362179</a></td>
+<td>2018</td>
+<td>Ann Thorac Surg</td>
+<td>Leaflet Perforation by Cor-Knot Automated Fasteners: More Usual Than You Think.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29465629/">29465629</a></td>
+<td>2018</td>
+<td>Innovations</td>
+<td>Comparison of Automated Titanium Fasteners to Hand-Tied Knots in Open Aortic Valve Replacement.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29501643/">29501643</a></td>
+<td>2018</td>
+<td>Ann Thorac Surg</td>
+<td>Use of an Automated Suture Fastening Device in Minimally Invasive Aortic Valve Replacement.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29547910/">29547910</a></td>
+<td>2018</td>
+<td>ICVTS</td>
+<td>Facilitating technologies in minimally invasive aortic valve replacement: a propensity score analysis.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29679535/">29679535</a></td>
+<td>2018</td>
+<td>Ann Thorac Surg</td>
+<td>Cor-Knot Perforation of Aortic Valve Leaflet.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29718234/">29718234</a></td>
+<td>2018</td>
+<td>EJCTS</td>
+<td>Technical points for aortic valve replacement through right anterior minithoracotomy.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29883653/">29883653</a></td>
+<td>2018</td>
+<td>Ann Thorac Surg</td>
+<td>Automated Titanium Fasteners Versus Hand-Tied Knots: A Randomized Controlled Trial.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/30075552/">30075552</a></td>
+<td>2018</td>
+<td>Medicine</td>
+<td>Automated fastener (Core-Knot) versus manually tied knots in patients undergoing aortic valve replacement: Impact on cross-clamp time and short-term echocardiographic results.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/30187516/">30187516</a></td>
+<td>2018</td>
+<td>J Card Surg</td>
+<td>Safety and benefits of new techniques and technologies in less invasive mitral valve repair.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/31155918/">31155918</a></td>
+<td>2019</td>
+<td>Ann R Coll Surg Engl</td>
+<td>Use of an automated knot fastener shortens operative times in minimally invasive mitral valve repair.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/31375507/">31375507</a></td>
+<td>2019</td>
+<td>BMJ Case Rep</td>
+<td>Metallic embolus to the brain in a patient with mechanical heart valves: an extremely rare complication.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/31496371/">31496371</a></td>
+<td>2019</td>
+<td>Innovations</td>
+<td>Incidence, Natural History, and Factors Associated With Paravalvular Leak Following Surgical Aortic Valve Replacement.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/31725943/">31725943</a></td>
+<td>2019</td>
+<td>J Card Surg</td>
+<td>What is the safety and efficacy of the use of automated fastener in heart valve surgery?</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/31599141/">31599141</a></td>
+<td>2020</td>
+<td>J Cardiovasc Surg</td>
+<td>Comparison of automated fastener device Cor-Knot versus manually-tied knot in minimally-invasive isolated aortic valve replacement surgery.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/32865452/">32865452</a></td>
+<td>2020</td>
+<td>Innovations</td>
+<td>Antegrade Cardioplegia Decannulation Made Simple With the Cor-Knot System: Technique and Tips After 20 Consecutive and Controlled Patients.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/33111445/">33111445</a></td>
+<td>2020</td>
+<td>J Card Surg</td>
+<td>The role of Cor-Knot in the future of cardiac surgery: A systematic review.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/33117948/">33117948</a></td>
+<td>2020</td>
+<td>CASE</td>
+<td>A Rare Etiology for Bioprosthetic Aortic Valve Regurgitation.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/33301736/">33301736</a></td>
+<td>2021</td>
+<td>Ann Thorac Surg</td>
+<td>Automated Fastener vs Hand-tied Knots in Heart Valve Surgery: A Systematic Review and Meta-analysis.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/34099017/">34099017</a></td>
+<td>2021</td>
+<td>J Cardiothorac Surg</td>
+<td>Incidence of valvular regurgitation and leaflet perforation by using automated titanium fasteners (CORKNOT®) in heart valve repair or replacement: less usual than reported.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/34130533/">34130533</a></td>
+<td>2021</td>
+<td>Innovations</td>
+<td>Automated Suture Fastener Gaining Complete Commitment: Cumulative Propensity-Matched Comparison with Hand-Tied Knot in Heart Valve Surgery.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/34306706/">34306706</a></td>
+<td>2021</td>
+<td>Clin Case Rep</td>
+<td>Cor-Knot automated fastener in distal anastomosis of total aortic arch replacement: A case report.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/35224036/">35224036</a></td>
+<td>2022</td>
+<td>Front Cardiovasc Med</td>
+<td>Safety and Effectiveness Outcomes of a Novel Automated Titanium Suture Fastener Device Applied for Heart Valve Surgery in an Ovine Model.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/35758627/">35758627</a></td>
+<td>2022</td>
+<td>EJCTS</td>
+<td>Moth-eaten like impact of automated titanium fasteners on aortic valve bioprosthesis: a word of caution.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/36183406/">36183406</a></td>
+<td>2022</td>
+<td>J Card Surg</td>
+<td>Prosthetic valve leaflet perforation resulting in critical aortic insufficiency: A rare late complication after use of Cor-knot®.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/36447382/">36447382</a></td>
+<td>2022</td>
+<td>Innovations</td>
+<td>Novel Automated Suturing Technology for Minimally Invasive Mitral Chord Implantation: A Preclinical Evaluation Study.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/36450144/">36450144</a></td>
+<td>2022</td>
+<td>Tex Heart Inst J</td>
+<td>Aortic Root Dissection Due to an Automated Fastener Device.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/36735874/">36735874</a></td>
+<td>2023</td>
+<td>J Invasive Cardiol</td>
+<td>Cor-Knot Use in SAVR Facilitates Coplanar Angle Adjustment During TAVR.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/37001910/">37001910</a></td>
+<td>2023</td>
+<td>Open Heart</td>
+<td>Consensus statement on aortic valve replacement via an anterior right minithoracotomy in the UK healthcare setting.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/37599508/">37599508</a></td>
+<td>2023</td>
+<td>Innovations</td>
+<td>Off-Label Use of COR-KNOT Automated Fastener for Manual Bronchial Closure Through a Video-Assisted Thoracoscopic Surgery Approach.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/37890817/">37890817</a></td>
+<td>2024</td>
+<td>Ann Thorac Surg</td>
+<td>Evaluation of a Novel Automated Suturing Technology for Mitral Chordal Implantation: 1-Year Results.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/37927063/">37927063</a></td>
+<td>2024</td>
+<td>J Chest Surg</td>
+<td>COR-KNOT-Induced Leaflet Perforation: How It Happens and How to Prevent It: A Case Report.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/38322769/">38322769</a></td>
+<td>2024</td>
+<td>Front Cardiovasc Med</td>
+<td>Automated titanium fastener vs. hand-tied knots for prosthesis fixation in infective endocarditis.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/38487081/">38487081</a></td>
+<td>2024</td>
+<td>EXCLI J</td>
+<td>Efficacy of automated fasteners versus hand-tied knots in cardiac surgery: a systematic review and meta-analysis.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/38576096/">38576096</a></td>
+<td>2024</td>
+<td>Innovations</td>
+<td>Implementation of Endoscopic Minimally Invasive Mitral Valve Replacement Surgery With Automated Suturing Technology.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/38913864/">38913864</a></td>
+<td>2024</td>
+<td>EJCTS</td>
+<td>Automated titanium fastener for surgical aortic valve replacement-preventive role for infective endocarditis?</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/39142732/">39142732</a></td>
+<td>2024</td>
+<td>JACC</td>
+<td>Combined Surgical and Percutaneous Management of Circumflex Artery Occlusion After Minimally Invasive Mitral Valve Repair.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/39556819/">39556819</a></td>
+<td>2024</td>
+<td>J Neurosurg Case Lessons</td>
+<td>Endovascular removal of a symptomatic intracranial foreign body via contact aspiration: illustrative case.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/39784471/">39784471</a></td>
+<td>2024</td>
+<td>J Cardiovasc Surg</td>
+<td>Safety and efficacy of the automated suture system in valvular heart surgery: a multicenter, prospective registry.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/39790133/">39790133</a></td>
+<td>2024</td>
+<td>Ann Thorac Surg Short Rep</td>
+<td>Leaflet Perforation Using Cor-Knot in Minimally Invasive Aortic Valve Replacement.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/40098839/">40098839</a></td>
+<td>2025</td>
+<td>Ann Thorac Surg Short Rep</td>
+<td>Acute Clinical Adverse Outcomes Associated With the Cor-Knot.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/40223981/">40223981</a></td>
+<td>2025</td>
+<td>J Thorac Dis</td>
+<td>Mastering efficient Cor-Knot skills: novel S technique for solo automated suture fastening.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/40708028/">40708028</a></td>
+<td>2025</td>
+<td>Gen Thorac Cardiovasc Surg Cases</td>
+<td>COR-KNOT-induced aortic root injury during minimally invasive aortic valve replacement of a bicuspid aortic valve: a case report.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/40770359/">40770359</a></td>
+<td>2025</td>
+<td>J Cardiothorac Surg</td>
+<td>Comparison of outcomes post Cor-Knot versus Manual tying in valve surgery: our 8-year analysis of over 1000 patients.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/41112446/">41112446</a></td>
+<td>2025</td>
+<td>JTCVS Tech</td>
+<td>Valsalva sinus perforation caused by Cor-Knot during totally endoscopic minimally invasive aortic valve replacement.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/41128694/">41128694</a></td>
+<td>2025</td>
+<td>JACC Case Rep</td>
+<td>Recurrent STEMI After Surgical Aortic Valve Replacement.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/41163860/">41163860</a></td>
+<td>2025</td>
+<td>Ann Thorac Surg Short Rep</td>
+<td>Fast-Track Hemostasis by an Automated Fastener for Decannulation of an Antegrade Cardioplegia Cannula in Robotic Cardiac Surgery.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/41431961/">41431961</a></td>
+<td>2026</td>
+<td>EJCTS</td>
+<td>Late Embolization of a Cor-Knot Fastener Device Resulting in Left Anterior Descending Artery Occlusion.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/41512298/">41512298</a></td>
+<td>2026</td>
+<td>EJCTS</td>
+<td>Automated Suture Securing Technology in Mitral Valve Surgery: A Strategy to Reduce Prosthetic Dehiscence?</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/41563306/">41563306</a></td>
+<td>2026</td>
+<td>Int J Surg</td>
+<td>Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient outcomes.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/42292127/">42292127</a></td>
+<td>2026</td>
+<td>JTCVS Tech</td>
+<td>Evaluating the feasibility of a novel device for enhanced control of chordal length assessment in mitral valve surgery: A porcine model study.</td>
+</tr>
+<tr>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/42304887/">42304887</a></td>
+<td>2026</td>
+<td>Innovations</td>
+<td>COR-KNOT Repair of Iatrogenic Tracheal Injury During VATS Right Upper Lobectomy in a 65-Year-Old Female Patient.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<p><em>作成: 2026-07-03 ／ 心臓外科ジャーナルリサーチ・トピックレビュー。データソース: PubMed（80件を機械収集→61件を精読・検証）。合併症・技術知見の抽出は8観点の並列ワークフロー＋敵対的検証で構造化。</em></p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function () {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  var content = document.querySelector('main.content');
+  if (!sidebar || !nav || !content) return;
+
+  // ---------- build TOC ----------
+  var headings = content.querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+  headings.forEach(function (h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+  if (btn) btn.addEventListener('click', function () { setOpen(!sidebar.classList.contains('open')); });
+  if (backdrop) backdrop.addEventListener('click', function () { setOpen(false); });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) setOpen(false);
+  });
+
+  // ---------- scroll spy ----------
+  if ('IntersectionObserver' in window) {
+    var current = null, visible = new Set();
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) visible.add(en.target.id); else visible.delete(en.target.id);
+      });
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visible.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function (l) { l.classList.toggle('active', l.dataset.target === firstId); });
+        var act = nav.querySelector('a.active');
+        if (act) {
+          var r = act.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+          if (r.top < s.top || r.bottom > s.bottom) act.scrollIntoView({ block: 'nearest' });
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function (h) { obs.observe(h); });
+  }
+
+  // ---------- full-text search ----------
+  var input = document.getElementById('search-input');
+  var clearBtn = document.getElementById('search-clear');
+  var meta = document.getElementById('search-meta');
+  var countEl = document.getElementById('search-count');
+  var prevBtn = document.getElementById('search-prev');
+  var nextBtn = document.getElementById('search-next');
+  if (!input) return;
+
+  var hits = [], curHit = -1, timer = null;
+
+  function clearHits() {
+    var marks = content.querySelectorAll('mark.search-hit');
+    marks.forEach(function (m) {
+      var p = m.parentNode;
+      p.replaceChild(document.createTextNode(m.textContent), m);
+      p.normalize();
+    });
+    hits = []; curHit = -1;
+  }
+
+  function highlight(q) {
+    var lc = q.toLowerCase();
+    var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var t = node.parentNode && node.parentNode.tagName;
+        if (t === 'SCRIPT' || t === 'STYLE') return NodeFilter.FILTER_REJECT;
+        return node.nodeValue.toLowerCase().indexOf(lc) !== -1
+          ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue, lower = text.toLowerCase();
+      var frag = document.createDocumentFragment(), idx = 0, pos;
+      while ((pos = lower.indexOf(lc, idx)) !== -1) {
+        if (pos > idx) frag.appendChild(document.createTextNode(text.slice(idx, pos)));
+        var mk = document.createElement('mark');
+        mk.className = 'search-hit';
+        mk.textContent = text.slice(pos, pos + q.length);
+        frag.appendChild(mk);
+        hits.push(mk);
+        idx = pos + q.length;
+      }
+      if (idx < text.length) frag.appendChild(document.createTextNode(text.slice(idx)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  function filterNav(q) {
+    var lc = q.toLowerCase();
+    navLinks.forEach(function (l) {
+      var match = !q || l.textContent.toLowerCase().indexOf(lc) !== -1;
+      l.classList.toggle('filtered-out', !match);
+    });
+  }
+
+  function gotoHit(i) {
+    if (!hits.length) return;
+    if (curHit >= 0 && hits[curHit]) hits[curHit].classList.remove('current');
+    curHit = (i + hits.length) % hits.length;
+    var m = hits[curHit];
+    m.classList.add('current');
+    m.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    countEl.textContent = (curHit + 1) + ' / ' + hits.length + ' 件';
+  }
+
+  function run(q) {
+    clearHits();
+    filterNav(q);
+    if (!q || q.length < 2) {
+      meta.classList.remove('show');
+      clearBtn.style.display = q ? 'block' : 'none';
+      return;
+    }
+    highlight(q);
+    clearBtn.style.display = 'block';
+    meta.classList.add('show');
+    if (hits.length) { gotoHit(0); }
+    else { countEl.textContent = '該当なし'; }
+  }
+
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    var q = input.value.trim();
+    timer = setTimeout(function () { run(q); }, 180);
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); gotoHit(curHit + (e.shiftKey ? -1 : 1)); }
+    if (e.key === 'Escape') { input.value = ''; run(''); input.blur(); }
+  });
+  if (nextBtn) nextBtn.addEventListener('click', function () { gotoHit(curHit + 1); });
+  if (prevBtn) prevBtn.addEventListener('click', function () { gotoHit(curHit - 1); });
+  if (clearBtn) clearBtn.addEventListener('click', function () { input.value = ''; run(''); input.focus(); });
+
+  // keyboard shortcut: "/" focuses search
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== input) { e.preventDefault(); input.focus(); }
+  });
+})();
+</script>
+
+</body>
+</html>
