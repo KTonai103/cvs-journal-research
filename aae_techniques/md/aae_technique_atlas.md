@@ -20,7 +20,7 @@ category: 弁膜症外科
 > [!info] このアトラスの狙い
 > 狭小大動脈弁輪に対する弁輪拡大術（AAE: Aortic Annulus Enlargement）は、古典 3 法（**Nicks 1970 / Manouguian 1979 / Konno 1975**）に、2020 年以降の **Y-incision（Yang, University of Michigan）** とその変法が加わり、選択肢が一気に広がった。本稿は「**それぞれの術式はどう行うのか（how-to）**」「**どれだけ拡大でき、何が固有のリスクか**」「**では小体格・狭小弁輪の日本人にはどれが良いのか**」を、原著と最新比較研究・メタ解析に基づいて 1 枚に束ねた実践アトラスである。
 >
-> 図版は、著作権的にクリーンな **自作の模式図（SVG）** を主軸に、オープンアクセス（CC BY / CC BY-NC-ND）論文の術中写真・イラストを帰属明記のうえ併載した。
+> 図版は、**オープンアクセス（CC BY / CC BY-NC-ND）論文の術中イラスト・写真**を帰属明記のうえ掲載する（各術式の作図は Jahanyar, de Kerchove らの解剖レビューに統一された美しい 3D 図を主に用いた）。解剖オリエンテーションと拡大量の比較のみ、補助的に自作の模式図を併用している。
 >
 > **姉妹レビュー**: 「AAE はそもそも小体格アジア人に正当化されるか（bigger-is-better 論争と SAKURA-AVR）」という*適応論*は `small_annulus_avr/` の統合レビュー v2 に詳しい。本稿はそれと相補的に、*手技そのもの*に焦点を当てる。
 
@@ -58,9 +58,17 @@ category: 弁膜症外科
 
 古典 3 法と Y-incision は、**同じ弁輪を異なる方向へ切る** 4 つの戦略と理解すると整理しやすい。
 
-![4術式が切り込む方向の一望比較](figures/aae_incision_map.svg)
+<figure style="margin:16px 0;max-width:540px;">
+<img src="figures/aae_wheretocut.jpg" alt="どこを切るか：Nicks/Manouguian/Konnoの切開部位を一望" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">図 3-1. 弁を外して見下ろした大動脈弁輪と、古典 3 法の切開部位 —— <b>①=Nicks</b>（無冠尖を後方へ）、<b>②=Manouguian</b>（左-無冠交連から三角を貫く）、<b>③=Konno-Rastan</b>（前方・右-左冠交連から心室中隔へ）。左右の矢印は冠動脈（LCA/RCA）。後方（①②）と前方（③）という 2 つの向きに大別される。<br><i>出典: Jahanyar J, Said S, de Kerchove L, et al. Aortic root anatomy: insights into annular and root enlargement techniques. Ann Cardiothorac Surg 2024;13(3):244-254 ([PMC11148763](https://pmc.ncbi.nlm.nih.gov/articles/PMC11148763/)). CC BY-NC-ND 4.0 に基づき原図を改変せず掲載。</i></figcaption>
+</figure>
 
-*図 3-1. 4 術式の切開方向（自作）。**後方・僧帽弁方向**（Nicks/Manouguian/Y-incision）と、**前方・心室中隔方向**（Konno）という 2 つの向きに大別される。Y-incision は交連から両三角へ Y 字に切るが、カーテンを「貫かず（into, not through）」前尖を温存する点が古典法との決定的な差。*
+<figure style="margin:16px 0;max-width:560px;">
+<img src="figures/aae_incisionlines_jcdd.jpg" alt="切開線の別イラスト：Nicks A / Manouguian B / Konno C" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">図 3-2. 同じ切開部位を別のイラストで。<b>A=Nicks</b>、<b>B=Manouguian</b>（前尖方向へ）、<b>C=Konno</b>。左右冠動脈口と前尖（anterior mitral leaflet）の位置関係が明示され、「どこを切ると何に当たるか」が読み取りやすい。<br><i>出典: Fazmin IT, Ali JM. Prosthesis-patient mismatch and aortic root enlargement. J Cardiovasc Dev Dis 2023;10(9):373. [doi:10.3390/jcdd10090373](https://doi.org/10.3390/jcdd10090373). CC BY 4.0。</i></figcaption>
+</figure>
+
+*後方（僧帽弁方向）に切る Nicks/Manouguian/Y-incision と、前方（心室中隔方向）に切る Konno という 2 つの向きが、すべての AAE の基本骨格である。*
 
 拡大できる「量」は術式ごとに大きく異なる。
 
@@ -83,9 +91,10 @@ category: 弁膜症外科
 
 ### 4.1 Nicks 法（1970）— 後方限局・低侵襲の原点
 
-![Nicks法の模式図（冠状断）](figures/aae_nicks.svg)
-
-*図 4-1. Nicks 法の冠状断模式図（自作）。横切開した大動脈切開線を**無冠尖（NCC）の nadir を通って僧帽弁輪起始部まで後方に延長**し、生じた V 字欠損に涙滴（teardrop）型のパッチ（Dacron／自己心膜／ウシ心膜）を縫着する。前尖本体には及ばないため MR リスクは低い。*
+<figure style="margin:16px 0;max-width:460px;">
+<img src="figures/aae_nicks_paper.jpg" alt="Nicks法の3D模式図" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">図 4-1. Nicks 法。横切開した大動脈切開線を<b>無冠尖を通って virtual basal ring（黄環）を越え、左室流出路まで後方に延長</b>し、生じた欠損に "Nicks' patch" を縫着する。青=sinotubular junction、黄=virtual basal ring、緑=弁輪、赤=弁尖付着線。前尖本体に及ばず MR リスクは低いが、拡大量は控えめ。<br><i>出典: Jahanyar J, et al. Ann Cardiothorac Surg 2024;13(3):244-254 ([PMC11148763](https://pmc.ncbi.nlm.nih.gov/articles/PMC11148763/)). CC BY-NC-ND 4.0。</i></figcaption>
+</figure>
 
 **手技のステップ**
 1. 大動脈横切開（transverse aortotomy）を行い、狭小弁輪を確認。
@@ -105,9 +114,10 @@ category: 弁膜症外科
 
 ### 4.2 Manouguian 法（1979）— 三角を貫き前尖へ、拡大量とMRリスクの交換
 
-![Manouguian法の模式図（冠状断）](figures/aae_manouguian.svg)
-
-*図 4-2. Manouguian 法の冠状断模式図（自作）。切開を **LCC–NCC 交連から線維性三角を貫いて僧帽弁前尖起始部へ約 1cm** 延長し、紡錘（fusiform）型パッチを当てる。原著（1979）では Case 4 でパッチが前尖から破断し術後 4 日に急性 MR → MVR を要した ——「前尖への過延長」が MR の機序であることを最初に示した failure mode である。*
+<figure style="margin:16px 0;max-width:460px;">
+<img src="figures/aae_manouguian_paper.jpg" alt="Manouguian法の3D模式図" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">図 4-2. Manouguian 法。切開を<b>左-無冠交連（後方交連）から線維性三角を貫き、virtual basal ring を越えて僧帽弁前尖起始部へ</b>延長し、"Manouguian patch"（三角形の先端が僧帽弁側へ深く入る）を当てる。Nicks より深く切るぶん拡大量は増すが、前尖に及ぶため MR リスクを負う（同じ配色: 青=STJ・黄=VBR・緑=弁輪・赤=弁尖）。<br><i>出典: Jahanyar J, et al. Ann Cardiothorac Surg 2024;13(3):244-254 ([PMC11148763](https://pmc.ncbi.nlm.nih.gov/articles/PMC11148763/)). CC BY-NC-ND 4.0。</i></figcaption>
+</figure>
 
 **手技のステップ**（Manouguian & Seybold-Epting, *JTCVS* 1979）
 1. 大動脈切開を **LCC–NCC 交連へ向けて** 延長。
@@ -126,9 +136,17 @@ category: 弁膜症外科
 
 ### 4.3 Konno 法（1975）— 大動脈-心室形成、日本発の "最大拡大"
 
-![Konno法の模式図（冠状断）](figures/aae_konno.svg)
+<figure style="margin:16px 0;max-width:420px;">
+<img src="figures/aae_konno_paper.jpg" alt="Konno-Rastan法の3D模式図" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">図 4-3. Konno-Rastan 法。<b>前方・右-左冠交連から心室中隔を縦に切開</b>し、"Konno-Rastan patch" で前方の大動脈弁輪・基部を大きく再建する（本図は右室流出路側の再建は省略）。切開が前方＝中隔・伝導路側へ向かうため、後方 3 法とは向きが逆。弁輪を原径の約 2 倍まで拡大できるが伝導障害と高侵襲が代償。<br><i>出典: Jahanyar J, et al. Ann Cardiothorac Surg 2024;13(3):244-254 ([PMC11148763](https://pmc.ncbi.nlm.nih.gov/articles/PMC11148763/)). CC BY-NC-ND 4.0。</i></figcaption>
+</figure>
 
-*図 4-3. Konno 法（aortoventriculoplasty）の冠状断模式図（自作）。前方の大動脈切開を **心室中隔まで縦切開し右室流出路（RVOT）へ延長**、2 枚の紡錘型パッチで大動脈側と RVOT 側の両流出路を再建する。弁輪を原径の約 2 倍まで拡大できるが、中隔切開に伴う伝導障害と高侵襲が代償。*
+小体格・小弁輪に対しては、中隔切開を最小限にした **Mini-Konno** が現実的な選択肢になる。以下は大阪の Yoshioka らによる小弁輪症例の手術ステップ（CC BY, オープンアクセス）。
+
+<figure style="margin:16px 0;max-width:620px;">
+<img src="figures/aae_minikonno_steps.jpg" alt="Mini-Konno手術ステップ（小弁輪）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">図 4-4. Mini-Konno の手術ステップ。(A) 心室中隔を限定的に切開（第 1 中隔枝を避ける）、(B) ウシ心膜パッチで中隔を再建、(C) Inspiris 23mm を大動脈パッチとともに縫着、(D) 術後 CT。annular＋sinus 拡大で VTA/VTC（将来の ViV 用の冠動脈安全域）も確保できる、小弁輪向けの縮小版 Konno。<br><i>出典: Yoshioka D, Kawamura A, et al. Mini-Konno procedure for aortic stenosis with small aortic annulus. JTCVS Tech 2026. [doi:10.1016/j.xjtc.2025.09.030](https://doi.org/10.1016/j.xjtc.2025.09.030). CC BY 4.0。</i></figcaption>
+</figure>
 
 **手技のステップ**（Konno et al., 東京女子医大, *JTCVS* 1975）
 1. **前方**の大動脈縦切開を、右冠尖付近から心室中隔へ向けて延長。
@@ -409,6 +427,11 @@ Maekawa ら（名古屋大, *Artif Organs* 2002）は、AVR+MVR＋Manouguian で
 - Masaki, et al. Modified Nicks in children. *Pediatr Cardiol* 2026. [doi:10.1007/s00246-026-04230-2](https://doi.org/10.1007/s00246-026-04230-2)
 - Malfitano, et al. Modified Manouguian technique. *J Card Surg* 2022;37:574-578. [doi:10.1111/jocs.16194](https://doi.org/10.1111/jocs.16194)
 
+**解剖・術式イラスト（本アトラス図版の主要出典）**
+- Jahanyar J, Said S, de Kerchove L, et al. Aortic root anatomy: insights into annular and root enlargement techniques. *Ann Cardiothorac Surg* 2024;13:244-254. [PMC11148763](https://pmc.ncbi.nlm.nih.gov/articles/PMC11148763/) — **CC BY-NC-ND 4.0**（Nicks/Manouguian/Konno/Yang の作図・「どこを切るか」図）
+- Fazmin IT, Ali JM. Prosthesis-patient mismatch and aortic root enlargement: indications, techniques and outcomes. *J Cardiovasc Dev Dis* 2023;10:373. [doi:10.3390/jcdd10090373](https://doi.org/10.3390/jcdd10090373) — **CC BY 4.0**（切開線ラベル図）
+- Yoshioka D, Kawamura A, et al. Mini-Konno procedure for aortic stenosis with small aortic annulus. *JTCVS Tech* 2026. [doi:10.1016/j.xjtc.2025.09.030](https://doi.org/10.1016/j.xjtc.2025.09.030) — **CC BY 4.0**（Mini-Konno 手術ステップ）
+
 **比較研究・メタ解析・解剖・生理**
 - Makkinejad A, et al. Y-incision vs traditional AAE (PSM). *Ann Cardiothorac Surg* 2024;13:255-265. [doi:10.21037/acs-2023-aae-0102](https://doi.org/10.21037/acs-2023-aae-0102) — **CC BY-NC-ND 4.0**
 - Makkinejad A, et al. Nicks/Manouguian/Y-incision comparison. *Ann Thorac Surg* 2025;120:799-805.
@@ -424,4 +447,4 @@ Maekawa ら（名古屋大, *Artif Organs* 2002）は、AVR+MVR＋Manouguian で
 
 ---
 
-*本アトラス作成: 2026-07-04 ｜ 姉妹レビュー: `small_annulus_avr/`（AAE 適応論・SAKURA-AVR）・`cor_knot/`（自動ファスナー手技）｜ 図版は自作 SVG（原著性あり）＋オープンアクセス論文図（CC BY / CC BY-NC-ND、帰属明記）。CC BY-NC-ND 図は非商用・改変なしで原図のまま掲載している。*
+*本アトラス作成: 2026-07-04（2026-07-04 図版改訂：古典 3 法・「どこを切るか」図をオープンアクセス論文の術中イラストへ差し替え）｜ 姉妹レビュー: `small_annulus_avr/`（AAE 適応論・SAKURA-AVR）・`cor_knot/`（自動ファスナー手技）｜ 図版はオープンアクセス論文図（CC BY / CC BY-NC-ND、帰属明記）を主に用い、解剖オリエンテーションと拡大量比較のみ自作模式図を併用。CC BY-NC-ND 図は非商用・改変なしで原図のまま掲載している。*
