@@ -1,0 +1,34 @@
+<svg viewBox="0 0 820 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="術式別の弁サイズアップ能力" style="width:100%;height:auto;max-width:820px;display:block;margin:0 auto;border:1px solid #e3e3e3;border-radius:10px;background:#fff;font-family:'Noto Sans JP','Hiragino Sans',sans-serif;">
+<text x="410" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2933">術式別の弁サイズ up 能力（目安）</text>
+<text x="196" y="100" text-anchor="end" font-size="14" font-weight="700" fill="#1f2933">Nicks (1970)</text>
+<rect x="210" y="78" width="70" height="30" rx="4" fill="#2f6db5" opacity="1.00"/>
+<text x="245.0" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+1</text>
+<text x="294" y="99" font-size="11" fill="#5b6673">後方 / 低侵襲</text>
+<text x="196" y="158" text-anchor="end" font-size="14" font-weight="700" fill="#1f2933">Manouguian (1979)</text>
+<rect x="210" y="136" width="70" height="30" rx="4" fill="#2e8b57" opacity="0.78"/>
+<text x="245.0" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+1</text>
+<rect x="288" y="136" width="70" height="30" rx="4" fill="#2e8b57" opacity="1.00"/>
+<text x="323.0" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+2</text>
+<text x="372" y="157" font-size="11" fill="#5b6673">trigone / 中侵襲・MRリスク</text>
+<text x="196" y="216" text-anchor="end" font-size="14" font-weight="700" fill="#1f2933">Konno (1975)</text>
+<rect x="210" y="194" width="70" height="30" rx="4" fill="#d9772f" opacity="0.70"/>
+<text x="245.0" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+1</text>
+<rect x="288" y="194" width="70" height="30" rx="4" fill="#d9772f" opacity="0.85"/>
+<text x="323.0" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+2</text>
+<rect x="366" y="194" width="70" height="30" rx="4" fill="#d9772f" opacity="1.00"/>
+<text x="401.0" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+3</text>
+<text x="450" y="215" font-size="11" fill="#5b6673">両心室 / 高侵襲・伝導障害</text>
+<text x="196" y="274" text-anchor="end" font-size="14" font-weight="700" fill="#1f2933">Y-incision (2023-)</text>
+<rect x="210" y="252" width="70" height="30" rx="4" fill="#7a4fb5" opacity="0.64"/>
+<text x="245.0" y="274" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+1</text>
+<rect x="288" y="252" width="70" height="30" rx="4" fill="#7a4fb5" opacity="0.73"/>
+<text x="323.0" y="274" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+2</text>
+<rect x="366" y="252" width="70" height="30" rx="4" fill="#7a4fb5" opacity="0.82"/>
+<text x="401.0" y="274" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+3</text>
+<rect x="444" y="252" width="70" height="30" rx="4" fill="#7a4fb5" opacity="0.91"/>
+<text x="479.0" y="274" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+4</text>
+<rect x="522" y="252" width="70" height="30" rx="4" fill="#7a4fb5" opacity="1.00"/>
+<text x="557.0" y="274" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">+5</text>
+<text x="606" y="273" font-size="11" fill="#5b6673">curtain温存 / 3-5サイズ</text>
+<text x="210" y="314" font-size="11" fill="#5b6673">※ 1目盛 = 人工弁1サイズ（≈2mm）up。実際の到達量は弁輪径・体格・解剖により変動。Y-incisionの実臨床中央値は3サイズ。</text>
+</svg>

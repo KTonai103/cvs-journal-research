@@ -1,0 +1,27 @@
+<svg viewBox="0 0 620 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="大動脈基部の解剖ランドマーク" style="width:100%;height:auto;max-width:620px;display:block;margin:0 auto;border:1px solid #e3e3e3;border-radius:10px;background:#fff;font-family:'Noto Sans JP','Hiragino Sans',sans-serif;">
+<text x="310" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2933">大動脈基部（術者視・弁を除いた見下ろし図）</text><text x="310" y="54" text-anchor="middle" font-size="12" fill="#5b6673">弁輪拡大術を理解する解剖ランドマーク</text><g transform="translate(0,20)"><circle cx="310" cy="250" r="156" fill="#d98b8b" stroke="#b45c5c" stroke-width="2"/>
+<circle cx="310" cy="250" r="140" fill="#fbf4ef" stroke="#b45c5c" stroke-width="1.5"/>
+<path d="M 429 324 Q 310 338 191 324" fill="none" stroke="#5b6673" stroke-width="2.2"/>
+<path d="M 186 316 Q 234 206 305 110" fill="none" stroke="#5b6673" stroke-width="2.2"/>
+<path d="M 315 110 Q 386 206 434 316" fill="none" stroke="#5b6673" stroke-width="2.2"/>
+<line x1="194" y1="317" x2="175" y2="328" stroke="#b45c5c" stroke-width="3"/>
+<line x1="426" y1="317" x2="445" y2="328" stroke="#b45c5c" stroke-width="3"/>
+<line x1="310" y1="116" x2="310" y2="94" stroke="#b45c5c" stroke-width="3"/>
+<circle cx="249" cy="215" r="9" fill="#7a1f1f"/><circle cx="249" cy="215" r="9" fill="none" stroke="#fff" stroke-width="2"/>
+<circle cx="371" cy="215" r="9" fill="#7a1f1f"/><circle cx="371" cy="215" r="9" fill="none" stroke="#fff" stroke-width="2"/>
+<path d="M 101 268 Q 147 367 4 404 Q 64 438 124 398 Q 227 367 211 435 Z" fill="#f0d9b5" stroke="#c9a978" stroke-width="1.5"/>
+<path d="M 6 406 Q 64 444 122 400" fill="none" stroke="#b45c5c" stroke-width="2" stroke-dasharray="2 4"/>
+<circle cx="101" cy="268" r="8" fill="#c9a978" stroke="#1f2933" stroke-width="1"/>
+<circle cx="211" cy="435" r="8" fill="#c9a978" stroke="#1f2933" stroke-width="1"/>
+<rect x="443" y="325" width="28" height="20" rx="5" fill="#e7d27a" stroke="#a68a2a" stroke-width="1.2" transform="rotate(30 457 335)"/>
+<text x="310" y="306" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2933">NCC</text>
+<text x="268" y="226" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2933">LCC</text>
+<text x="352" y="226" text-anchor="middle" font-size="15" font-weight="600" fill="#1f2933">RCC</text>
+<text x="235" y="201" text-anchor="end" font-size="12" font-weight="700" fill="#7a1f1f">LCA</text>
+<text x="385" y="201" text-anchor="start" font-size="12" font-weight="700" fill="#7a1f1f">RCA</text>
+<text x="66" y="422" text-anchor="middle" font-size="12" font-weight="700" fill="#b45c5c">前尖(AML)</text>
+<text x="87" y="270" text-anchor="end" font-size="11" font-weight="700" fill="#c9a978">左trigone</text>
+<text x="227" y="437" text-anchor="start" font-size="11" font-weight="700" fill="#c9a978">右trigone</text>
+<text x="60" y="390" text-anchor="middle" font-size="11" font-weight="700" fill="#9a7b3a">大動脈-僧帽弁curtain</text>
+<text x="491" y="339" text-anchor="start" font-size="11" font-weight="700" fill="#8a7020">膜性中隔</text></g>
+</svg>

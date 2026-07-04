@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="大動脈弁輪拡大術（AAE）テクニカル・アトラス — Nicks / Manouguian / Konno / Y-incision の手技・拡大量・固有リスクを自作模式図とオープンアクセス術中図で総括し、日本人小体格に対する術式選択（aortomitral curtain 8mm の解剖学的天井・Y-incision後central MR・ViV戦略）を実践的に整理">
+<title>大動脈弁輪拡大術（AAE）テクニカル・アトラス — Nicks / Manouguian / Konno / Y-incision を日本人小体格の視点で総括</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+
+/* ---- search box + results ---- */
+#sidebar-search { padding: 0 8px 12px; position: sticky; top: 0; background: var(--sidebar-bg); z-index: 5; }
+#search-input {
+  width: 100%; padding: 8px 30px 8px 10px; font-size: 0.82rem;
+  border: 1px solid var(--border); border-radius: 6px; background: #fff; color: var(--fg);
+  font-family: inherit;
+}
+#search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(44,62,80,0.12); }
+#search-clear {
+  position: absolute; right: 16px; top: 7px; border: none; background: transparent;
+  font-size: 1rem; color: var(--muted); cursor: pointer; line-height: 1; display: none;
+}
+#search-meta {
+  display: none; align-items: center; gap: 6px; margin-top: 6px; font-size: 0.72rem; color: var(--muted);
+}
+#search-meta.show { display: flex; }
+#search-count { flex: 1; }
+#search-meta button {
+  border: 1px solid var(--border); background: #fff; border-radius: 4px; cursor: pointer;
+  width: 22px; height: 22px; font-size: 0.8rem; color: var(--accent); line-height: 1;
+}
+#search-meta button:hover { background: var(--sidebar-active); }
+#sidebar-nav a.filtered-out { display: none; }
+mark.search-hit { background: #ffe08a; color: inherit; padding: 0 1px; border-radius: 2px; }
+mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2px rgba(255,145,0,0.35); }
+
+/* lead / meta blocks */
+.doc-meta { font-size: 0.8rem; color: var(--muted); margin: -8px 0 18px; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次と検索">
+    <div id="sidebar-search">
+      <div style="position:relative;">
+        <input id="search-input" type="search" placeholder="本文を検索 ( / でフォーカス )" autocomplete="off" aria-label="本文を検索">
+        <button id="search-clear" aria-label="検索をクリア">&times;</button>
+      </div>
+      <div id="search-meta">
+        <span id="search-count"></span>
+        <button id="search-prev" aria-label="前の一致">&#8593;</button>
+        <button id="search-next" aria-label="次の一致">&#8595;</button>
+      </div>
+    </div>
+    <div id="sidebar-header">目次</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="大動脈弁輪拡大術aaeテクニカルアトラス">大動脈弁輪拡大術（AAE）テクニカル・アトラス</h1>
+<h2 id="-nicks--manouguian--konno--y-incision-を日本人の小さな体の視点で総括する">— Nicks / Manouguian / Konno / Y-incision を「日本人の小さな体」の視点で総括する</h2>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">このアトラスの狙い</div>
+<p>狭小大動脈弁輪に対する弁輪拡大術（AAE: Aortic Annulus Enlargement）は、古典 3 法（<strong>Nicks 1970 / Manouguian 1979 / Konno 1975</strong>）に、2020 年以降の <strong>Y-incision（Yang, University of Michigan）</strong> とその変法が加わり、選択肢が一気に広がった。本稿は「<strong>それぞれの術式はどう行うのか（how-to）</strong>」「<strong>どれだけ拡大でき、何が固有のリスクか</strong>」「<strong>では小体格・狭小弁輪の日本人にはどれが良いのか</strong>」を、原著と最新比較研究・メタ解析に基づいて 1 枚に束ねた実践アトラスである。</p>
+</div>
+>
+> 図版は、著作権的にクリーンな **自作の模式図（SVG）** を主軸に、オープンアクセス（CC BY / CC BY-NC-ND）論文の術中写真・イラストを帰属明記のうえ併載した。
+>
+> **姉妹レビュー**: 「AAE はそもそも小体格アジア人に正当化されるか（bigger-is-better 論争と SAKURA-AVR）」という*適応論*は `small_annulus_avr/` の統合レビュー v2 に詳しい。本稿はそれと相補的に、*手技そのもの*に焦点を当てる。
+
+<hr />
+<h2 id="1-なぜ弁輪を拡げるのか--ppm-と小体格という文脈">1. なぜ弁輪を拡げるのか — PPM と小体格という文脈</h2>
+<p>狭小弁輪に無理に小径弁を押し込むと、体格に対して弁の有効弁口面積（EOA）が不足し、<strong>患者-人工弁ミスマッチ（PPM: prosthesis-patient mismatch）</strong> が生じる。indexed EOA（iEOA = EOA/BSA）が <strong>≤0.85 cm²/m² で中等度、≤0.65 で重度</strong> と定義され（Pibarot, <em>Heart</em> 2006）、重度 PPM は長期生存を悪化させる（Head, <em>EHJ</em> 2012 メタ解析）。AAE は「弁輪を物理的に拡げ、より大径・高 EOA の弁を植える」ことで PPM を回避する戦略である。</p>
+<p>歴史的な出発点は PPM 概念以前にさかのぼる。Nicks（1970）は「size 8A 弁群の死亡率 45% に対し、弁輪を拡げて size 9 を入れた群は 9%」という観察を報告し、<strong>「小さい弁を強行すると予後が悪い」</strong> という AAE の原仮説を最初に明文化した（Nicks, <em>Thorax</em> 1970, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC472719/">PMC472719</a>）。</p>
+<p>この文脈は日本人・アジア人でこそ切実である。小さな弁輪・小さな大動脈基部・低い BMI という解剖のため、欧米で標準の 23–25mm 弁が入らない症例が多い。一方で「小さいから拡げるべき」という単純な図式が本当に予後を改善するかは、後述（§7・§8）のとおり慎重な検討を要する。</p>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">「PPM を減らす」≠「生存を延ばす」</div>
+<p>最大のメタ解析（Tanaka 2024, 全 216,654 例）では、AAE は重度 PPM を確かに減らす（RR 0.61）が、<strong>中期死亡は HR 1.03 と改善しない</strong>。AAE の目的は "PPM 回避" であって "延命" が保証されているわけではない、という前提を最初に押さえておきたい。</p>
+</div>
+
+<hr />
+<h2 id="2-術式を理解するための大動脈基部解剖">2. 術式を理解するための大動脈基部解剖</h2>
+<p>すべての AAE は「大動脈弁輪のどの<strong>線維性/筋性の壁</strong>を、どの方向へ切り、どこにパッチを当てるか」で決まる。まず術者視点の解剖ランドマークを確認する。</p>
+<p><img src="figures/aae_anatomy.svg" alt="大動脈基部の解剖ランドマーク（術者視・見下ろし図）" /></p>
+<p><em>図 2-1. 大動脈基部を弁を外して見下ろした術者視の模式図（自作）。3 つの Valsalva 洞（NCC = 無冠尖 / LCC = 左冠尖 / RCC = 右冠尖）、左右冠動脈口（LCA/RCA）、そして拡大術の鍵となる 3 つの「切ってよい/切ると危ない」場所 —— <strong>大動脈-僧帽弁カーテン（aortomitral curtain）</strong>、それを挟む<strong>左右の線維性三角（fibrous trigone）</strong>、<strong>膜性中隔（membranous septum）</strong> の位置関係を示す。</em></p>
+<ul>
+<li><strong>NCC（無冠尖）の後方</strong>は僧帽弁前尖へ連続する線維性の区域で、ここが古典的 AAE の主戦場。冠動脈口が無いため後方への切開が比較的安全。</li>
+<li><strong>LCC–NCC 交連の直下</strong>に<strong>大動脈-僧帽弁カーテン</strong>が広がり、その左右端を<strong>左・右線維性三角</strong>が支える。ここを「どこまで切るか」が拡大量とMRリスクのトレードオフを決める。</li>
+<li><strong>膜性中隔</strong>は NCC–RCC 交連付近にあり、房室伝導束（His 束）が走る。ここへ及ぶ切開（Konno など）は伝導障害のリスクを負う。</li>
+<li><strong>前方（RCC–LCC 交連〜右室流出路）</strong> は Konno が向かう方向。心室中隔を切るため大きく拡がるが侵襲は最大。</li>
+</ul>
+<hr />
+<h2 id="3-4-術式が切り込む場所と量-一望比較">3. 4 術式が切り込む「場所」と「量」— 一望比較</h2>
+<p>古典 3 法と Y-incision は、<strong>同じ弁輪を異なる方向へ切る</strong> 4 つの戦略と理解すると整理しやすい。</p>
+<p><img src="figures/aae_incision_map.svg" alt="4術式が切り込む方向の一望比較" /></p>
+<p><em>図 3-1. 4 術式の切開方向（自作）。<strong>後方・僧帽弁方向</strong>（Nicks/Manouguian/Y-incision）と、<strong>前方・心室中隔方向</strong>（Konno）という 2 つの向きに大別される。Y-incision は交連から両三角へ Y 字に切るが、カーテンを「貫かず（into, not through）」前尖を温存する点が古典法との決定的な差。</em></p>
+<p>拡大できる「量」は術式ごとに大きく異なる。</p>
+<p><img src="figures/aae_enlargement_ladder.svg" alt="術式別の弁サイズアップ能力" /></p>
+<p><em>図 3-2. 到達しうる弁サイズ up の目安（自作）。1 目盛 = 人工弁 1 サイズ（≈2mm）。侵襲度と拡大量はおおむね比例するが、Y-incision は「カーテン温存で低侵襲のまま 3–5 サイズ」という点で従来のトレードオフを崩した、というのが提唱者の主張である。</em></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>術式</th>
+<th>切開の到達範囲</th>
+<th>拡大量の目安</th>
+<th>固有リスク</th>
+<th>主な適応</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nicks</strong> (1970)</td>
+<td>NCC → 僧帽弁輪起始（後方限局）</td>
+<td>約 1 サイズ</td>
+<td>拡大量が限定的</td>
+<td>軽度の狭小・追加拡大を最小限にしたい時</td>
+</tr>
+<tr>
+<td><strong>Manouguian</strong> (1979)</td>
+<td>LCC–NCC 交連 → 三角貫通 → 前尖起始 約 1cm</td>
+<td>1–2 サイズ（原著で 15mm）</td>
+<td><strong>僧帽弁機能障害（MR）</strong>、パッチ破断</td>
+<td>中等度の狭小、AVR±MVR</td>
+</tr>
+<tr>
+<td><strong>Konno</strong> (1975)</td>
+<td>前方 → 心室中隔 → 右室流出路</td>
+<td>原径の <strong>約 2 倍</strong></td>
+<td>房室ブロック・伝導障害・高侵襲</td>
+<td>先天性の超狭小弁輪（弁輪-大動脈低形成）</td>
+</tr>
+<tr>
+<td><strong>Y-incision</strong> (2023–)</td>
+<td>交連 → 両三角へ Y 字（カーテン温存）</td>
+<td><strong>3–5 サイズ</strong></td>
+<td>経験依存、short-curtain 例での central MR</td>
+<td>PPM を確実に消したい成人 SAVR</td>
+</tr>
+</tbody>
+</table></div>
+<p>以下、各術式の「やり方」を順に見ていく。</p>
+<hr />
+<h2 id="4-各術式の手技how-to">4. 各術式の手技（How-to）</h2>
+<h3 id="41-nicks-法1970-後方限局低侵襲の原点">4.1 Nicks 法（1970）— 後方限局・低侵襲の原点</h3>
+<p><img src="figures/aae_nicks.svg" alt="Nicks法の模式図（冠状断）" /></p>
+<p><em>図 4-1. Nicks 法の冠状断模式図（自作）。横切開した大動脈切開線を<strong>無冠尖（NCC）の nadir を通って僧帽弁輪起始部まで後方に延長</strong>し、生じた V 字欠損に涙滴（teardrop）型のパッチ（Dacron／自己心膜／ウシ心膜）を縫着する。前尖本体には及ばないため MR リスクは低い。</em></p>
+<p><strong>手技のステップ</strong></p>
+<ol type="1">
+<li>大動脈横切開（transverse aortotomy）を行い、狭小弁輪を確認。</li>
+<li>切開線を <strong>NCC の中央（nadir）から後方・下方へ、僧帽弁前尖起始部の手前まで</strong> 延長する。カーテン深部・前尖本体には入らない。</li>
+<li>生じた涙滴型の欠損に、幅を持たせたパッチ（Dacron / 自己心膜 / ウシ心膜）を連続縫合で当てる。</li>
+<li>パッチにより拡大した弁輪に、1 サイズ大きい弁を supra-annular に留置。</li>
+<li>パッチ上縁を大動脈切開の閉鎖に取り込んで止血。</li>
+</ol>
+<p><strong>メリット / デメリット</strong></p>
+<ul>
+<li>✅ 手技が単純・追加侵襲が小さい・伝導路や前尖から離れており安全域が広い。</li>
+<li>✅ 心膜パッチを使えば止血が容易。</li>
+<li>⚠️ 拡大量が <strong>1 サイズ程度に限られる</strong>。19mm→21mm がやっと、という症例では「拡げたつもりが依然 PPM」になりうる。</li>
+<li>⚠️ 大きな upsize が必要な症例には力不足。</li>
+</ul>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">小児・小柄例での "modified Nicks" 復権</div>
+<p>Masaki ら（宮城県立こども病院／岩手医大, <em>Pediatr Cardiol</em> 2026）は 9 歳男児（BSA 1.0 m²、弁輪 21mm）に <strong>small-Y 変法の Nicks</strong>（LCC 側 5mm・NCC 側 7mm の小切開＋幅 12mm の J-Graft パッチ）で 21mm St Jude Regent を留置し 3 年無症状。Yang の 3–5 サイズ up は小児では過剰侵襲で、LCC 広範切開は左冠動脈の kinking、NCC 広範切開は長期の僧帽弁劣化を招きうると批判し、<strong>"1 size up・最小侵襲"</strong> を推奨した。同時に「<strong>日本人男性で 19mm 機械弁は PPM リスクがあり 21mm 以上を目指すべき</strong>」と明言している点は、後述の術式選択（§8）に直結する。</p>
+</div>
+
+<h3 id="42-manouguian-法1979-三角を貫き前尖へ拡大量とmrリスクの交換">4.2 Manouguian 法（1979）— 三角を貫き前尖へ、拡大量とMRリスクの交換</h3>
+<p><img src="figures/aae_manouguian.svg" alt="Manouguian法の模式図（冠状断）" /></p>
+<p><em>図 4-2. Manouguian 法の冠状断模式図（自作）。切開を <strong>LCC–NCC 交連から線維性三角を貫いて僧帽弁前尖起始部へ約 1cm</strong> 延長し、紡錘（fusiform）型パッチを当てる。原著（1979）では Case 4 でパッチが前尖から破断し術後 4 日に急性 MR → MVR を要した ——「前尖への過延長」が MR の機序であることを最初に示した failure mode である。</em></p>
+<p><strong>手技のステップ</strong>（Manouguian &amp; Seybold-Epting, <em>JTCVS</em> 1979）</p>
+<ol type="1">
+<li>大動脈切開を <strong>LCC–NCC 交連へ向けて</strong> 延長。</li>
+<li>交連から<strong>左右線維性三角を貫き、僧帽弁前尖の起始部まで約 1cm</strong> 切り込む。これで弁輪が V 字に開大する。</li>
+<li>紡錘型の Dacron または心膜パッチを V 字欠損に縫着。前尖側の縫着は「初期部まで」に留め、appositional portion（弁尖可動部）まで及ばせないのが要点。</li>
+<li>拡大弁輪に Björk-Shiley No.23–27 相当（原著）を留置。原径 15–25mm を約 15mm 拡大できた。</li>
+<li>必要に応じて左房切開を併用し、僧帽弁・左房壁も同じパッチで再建（AVR+MVR 併施時）。</li>
+</ol>
+<p><strong>メリット / デメリット</strong></p>
+<ul>
+<li>✅ Nicks より確実に <strong>1–2 サイズ</strong> 拡大でき、AVR+MVR の同時再建にも応用が利く。</li>
+<li>⚠️ <strong>僧帽弁機能障害（MR）が固有リスク</strong>。原著自身が「前尖初期部まで約 1cm なら永続障害はないが、可動部まで延長するとパッチ収縮・前尖変形による機能障害は否定できない」と安全閾値を明示。</li>
+<li>⚠️ 左房・僧帽弁前尖に及ぶため出血・再建の手間が増える。</li>
+</ul>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">"modified Manouguian" ── カーテンを切らずに Y 字＋パッチ</div>
+<p>Malfitano ら（UNC, <em>J Card Surg</em> 2022）は、<strong>大動脈-僧帽弁カーテンを切開せず</strong> Y 字切開＋パッチで拡大する modified Manouguian を 13 例に施行。<strong>手術死亡 0%・PPM 0%・1–2 サイズ upsize 100%</strong> と良好だが、size 19 を 4 例（31%）で留置し 1 例は推奨 size 21 に届かず。「カーテン温存＝安全だが拡大量は控えめ」という保守的 AAE の限界も示した。この発想が次の Y-incision へと橋渡しされる。</p>
+</div>
+
+<h3 id="43-konno-法1975-大動脈-心室形成日本発の-最大拡大">4.3 Konno 法（1975）— 大動脈-心室形成、日本発の "最大拡大"</h3>
+<p><img src="figures/aae_konno.svg" alt="Konno法の模式図（冠状断）" /></p>
+<p><em>図 4-3. Konno 法（aortoventriculoplasty）の冠状断模式図（自作）。前方の大動脈切開を <strong>心室中隔まで縦切開し右室流出路（RVOT）へ延長</strong>、2 枚の紡錘型パッチで大動脈側と RVOT 側の両流出路を再建する。弁輪を原径の約 2 倍まで拡大できるが、中隔切開に伴う伝導障害と高侵襲が代償。</em></p>
+<p><strong>手技のステップ</strong>（Konno et al., 東京女子医大, <em>JTCVS</em> 1975）</p>
+<ol type="1">
+<li><strong>前方</strong>の大動脈縦切開を、右冠尖付近から心室中隔へ向けて延長。</li>
+<li>切開を心室中隔筋層に入れ、狭小な流出路を縦に開大。右室流出路（RVOT）まで達する。</li>
+<li>大きな Dacron パッチで <strong>大動脈・左室流出路側</strong>を再建（弁を留置する土台を作る）。</li>
+<li>拡大した弁輪に人工弁を留置（原著は原径 11mm/13mm の弁輪に Björk-Shiley No.19–21 を留置）。</li>
+<li><strong>第 2 のパッチで右室流出路側</strong>を再建し、RVOT の連続性を回復。</li>
+</ol>
+<p><strong>メリット / デメリット</strong></p>
+<ul>
+<li>✅ <strong>拡大量が最大</strong>（原径の約 2 倍）。市販弁の最小外径すら入らない先天性の弁輪-大動脈低形成に対する切り札。</li>
+<li>⚠️ 心室中隔切開に伴う <strong>房室ブロック・脚ブロック等の伝導障害</strong>（ただし原著 Case 2 では脚ブロックを認めず）。</li>
+<li>⚠️ 2 パッチ再建で <strong>侵襲・手術時間・出血リスクが最大</strong>。成人の後天性大動脈弁狭窄には過剰。</li>
+</ul>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Konno は「日本発」の術式</div>
+<p>Konno 法は東京女子医大で日本人 2 例から生まれた術式であり、慶應の Sohma &amp; Inoue の独立報告とあわせ、<strong>AAE の一源流がアジアの先天性 AS 集団にある</strong>ことを示す。現在の成人 SAVR では Konno そのものはまれだが、「どこまで拡げられるか」の上限を定義する術式として教育的価値が高い。</p>
+</div>
+
+<h3 id="44-y-incision-法2023-カーテンを温存して-35-サイズ">4.4 Y-incision 法（2023–）— カーテンを温存して 3–5 サイズ</h3>
+<p>Bo Yang（University of Michigan, 2020 年 8 月開発）の Y-incision/rectangular-patch 法は、<strong>LCC–NCC 交連を大動脈-僧帽弁カーテンへ向けて切開し、左右の線維性三角まで Y 字に延長、矩形の Hemashield Dacron パッチをカーテンに沿って縫着</strong>することで、弁輪を <strong>3–5 サイズ</strong> upsize する。Nicks（1）・Manouguian（1–2）・Konno（2–3）を凌ぐ拡大量を、<strong>カーテンを貫かず前尖を温存</strong>したまま得る点が最大の特徴とされる（Chen, <em>Ann Thorac Surg</em> 2025 invited review）。</p>
+<p>以下は、提唱者自身によるオープンアクセスの手術アトラス（Yang, <em>Ann Cardiothorac Surg</em> 2024, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11148751/">PMC11148751</a>, CC BY-NC-ND 4.0）から、鍵となる手順を原図のまま掲載する。</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:18px 0;">
+<figure style="margin:0;"><img src="figures/yang2024_f1.jpg" alt="Yang step1 aortotomy" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;"><b>① 大動脈切開・基部剥離</b>：初回 AVR では完全横切開。</figcaption></figure>
+<figure style="margin:0;"><img src="figures/yang2024_f2.jpg" alt="Yang step2 Y-incision anatomy" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;"><b>② Y-incision</b>：LCC–NCC 交連から大動脈-僧帽弁カーテンへ、弁輪と平行に左右三角へ Y 字に延長（前尖は温存）。</figcaption></figure>
+<figure style="margin:0;"><img src="figures/yang2024_f3.jpg" alt="Yang step3 patch" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;"><b>③ パッチ</b>：2×3 inch（5×7.5cm）の矩形 Hemashield Dacron を成形。</figcaption></figure>
+<figure style="margin:0;"><img src="figures/yang2024_f6.jpg" alt="Yang step6 valve sutures" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;"><b>④ 弁の縫合糸</b>：非 pledget の 2-0 ETHIBOND を自己弁輪に non-everting で配置。</figcaption></figure>
+<figure style="margin:0;"><img src="figures/yang2024_f7.jpg" alt="Yang step7 seating" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;"><b>⑤ 弁の着座</b>：1 strut を左右交連に向け、upsize した弁を留置。</figcaption></figure>
+<figure style="margin:0;"><img src="figures/yang2024_f11.jpg" alt="Yang step11 closure" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;"><b>⑥ 切開閉鎖</b>：矩形パッチの三角端を縦切開に取り込んで 4-0 PROLENE で閉鎖。</figcaption></figure>
+</div>
+
+<p><em>出典: Yang B, et al. Rectangular patch aortic annular enlargement (Y-incision). Ann Cardiothorac Surg 2024;13(3):294-302. <a href="https://doi.org/10.21037/acs-2023-aae-0151">doi:10.21037/acs-2023-aae-0151</a>. CC BY-NC-ND 4.0 に基づき原図を改変せず掲載。全 12 ステップは原著参照。</em></p>
+<p><strong>成績（自験例の集積）</strong></p>
+<ul>
+<li>初回前向き n=50：native 弁輪 median 21mm（女性 70%、BSA 1.93）に対し median 3 サイズ up（最終 size 27 が 54%、29 が 44%）、<strong>手術死亡 0%・pacemaker 0%</strong>・術後平均圧較差 7mmHg・AVA 1.9 cm²、大動脈基部 27→40mm（Yang, <em>JTCVS</em> 2024）。</li>
+<li>連続 n=142：手術死亡 0.7%・pacemaker 1.4%・平均圧較差 6–7mmHg・AVA 2.4 cm²・<strong>LV mass index 41% 退縮</strong>（Yang, <em>Ann Cardiothorac Surg</em> 2024）。</li>
+<li>累積 n=229：3 年で平均圧較差 5mmHg・EOA 2.7 cm²・iEOA 1.32、HALT 2/229（apixaban で消失）、left coronary torsion 0/229、<strong>Y-AAE 後の僧帽弁修復 0/229</strong>（Yang "5 misconceptions", <em>Ann Thorac Surg</em> 2026）。米国 STS データベースでも AAE 実施率は 2020→2023 に 8→13%（女性 18→27%）へ急増。</li>
+</ul>
+<p><strong>手技上のコツ（提唱者の強調点）</strong></p>
+<ul>
+<li><strong>矩形パッチを十分な幅で</strong>、かつ<strong>線維性三角まで確実に届かせる</strong>こと。届かないと 1–2 サイズしか拡大できない。</li>
+<li><strong>Arc modification</strong>：矩形パッチ下縁の tensing と前尖の過剰縫合による MR を防ぐため、パッチ短辺に 0.5–1cm 高 × 2–2.5cm 幅の弧を切り抜く（Yang, <em>Ann Thorac Surg Short Rep</em> 2025, n=17 で止血問題なし）。</li>
+</ul>
+<p><strong>メリット / デメリット</strong></p>
+<ul>
+<li>✅ <strong>拡大量が圧倒的</strong>（3–5 サイズ）で PPM をほぼ確実に消せる。伝導障害・pacemaker がほぼゼロ、僧帽弁修復もほぼ不要というのが自験データ。</li>
+<li>✅ 将来の ViV-TAVR に十分な基部径を残せる（§9）。</li>
+<li>⚠️ 一次エビデンスが <strong>BSA 1.9–2.0 の欧米集団・Bo Yang 単一術者・self-referential な引用構造</strong> に依存。BSA &lt;1.6 の日本人小柄例への外挿は未検証。</li>
+<li>⚠️ <strong>short aortomitral curtain の小柄例では central MR</strong> の報告あり（§6・§8）。</li>
+</ul>
+<h3 id="45-現代の変法--アジア小柄例への適応">4.5 現代の変法 —— アジア・小柄例への適応</h3>
+<p>Y-incision は世界各地で改良が進む。特にアジア圏・小柄例向けの改良は本アトラスの核心に直結する。</p>
+<p><strong>① New roof technique（Fuwai / Wang, 2025）</strong></p>
+<figure style="margin:16px 0;max-width:520px;">
+<img src="figures/wang2025_newroof.jpg" alt="Wang new roof technique illustration" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">Fuwai（北京）の "new roof" 変法。斜切開（oblique aortotomy）主体で 8–10cm の scarf 状パッチを用い、経験の浅い術者でも実施可能に。53 連続例で平均 <b>4.9±1.5 サイズ up（range 3–8）</b>、院内死亡 0・重篤合併症 0。弁輪 15–23mm→18–27mm というレンジはまさにアジア典型像。<br><i>出典: Wang, JTCVS Tech 2025;31:34-38. <a href="https://doi.org/10.1016/j.xjtc.2025.02.013">doi:10.1016/j.xjtc.2025.02.013</a>. CC BY-NC-ND 4.0。</i></figcaption>
+</figure>
+
+<p><strong>② "Y and I" incision（北里大学 / Kitamura, 2025）— 日本人小柄女性への最適化</strong></p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:16px 0;">
+<figure style="margin:0;"><img src="figures/kitamura2025_technique.jpg" alt="Kitamura Y and I incision" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;">後方 Y-incision（下）＋前方 I-incision（上）の 2 切開＋2 パッチ。</figcaption></figure>
+<figure style="margin:0;"><img src="figures/kitamura2025_cta.jpg" alt="Kitamura pre/post CTA" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;"><figcaption style="font-size:12px;color:#5b6673;margin-top:4px;">術前後 CTA。前方拡大で valve-to-coronary（RCA）距離を予測 2.6mm → 実測 7.5mm へ改善。</figcaption></figure>
+</div>
+
+<p><em>BSA 1.3 m²・弁輪 16.4×23mm・Valsalva 洞高 14.9mm という小柄日本人女性に、後方 Y-incision に<strong>前方 I-incision</strong> を追加。size 21 Inspiris を留置し、RCA との干渉距離（VTC）を改善した。「後方拡大だけでは前洞と RCA-VTC が改善しない」という Truesdell の所見（下記）を踏まえたアジア特化の改良。出典: Kitamura, Ann Thorac Surg Short Rep 2025;3:1074-1076. <a href="https://doi.org/10.1016/j.atssr.2025.04.013">doi:10.1016/j.atssr.2025.04.013</a>. <strong>CC BY 4.0</strong>。</em></p>
+<p><strong>③ その他の技術修正</strong></p>
+<ul>
+<li><strong>Fikani ら（Beirut, 2026）</strong>：ウシ心膜パッチ＋心室内 invagination＋外側 reinforcing strip で止血を強化。</li>
+<li>Y-AAE は複雑解剖へも拡張 —— concomitant 僧帽弁手術（Cangut, LA-dome アプローチ）、TAVI-explant 後の salvage（Yin）、右冠尖起始の anomalous LCx 例（Yin, ただし 1/4 で LCx 損傷→修復）、double small annuli への Chimney MVR 併用（Gan, Commando 代替）。</li>
+</ul>
+<hr />
+<h2 id="5-メリットデメリット拡大量の総覧">5. メリット・デメリット・拡大量の総覧</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>観点</th>
+<th>Nicks</th>
+<th>Manouguian</th>
+<th>Konno</th>
+<th>Y-incision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>切開方向</td>
+<td>後方（NCC→僧帽弁輪）</td>
+<td>後方（交連→三角→前尖）</td>
+<td>前方（中隔→RVOT）</td>
+<td>後方（交連→両三角、カーテン温存）</td>
+</tr>
+<tr>
+<td>拡大量</td>
+<td>〜1 サイズ</td>
+<td>1–2 サイズ</td>
+<td>原径の約 2 倍</td>
+<td>3–5 サイズ（中央値 3）</td>
+</tr>
+<tr>
+<td>侵襲度</td>
+<td>低</td>
+<td>中</td>
+<td>高（2 パッチ・中隔切開）</td>
+<td>中（拡大量の割に低いと主張）</td>
+</tr>
+<tr>
+<td>固有合併症</td>
+<td>拡大不足</td>
+<td><strong>MR・パッチ破断</strong></td>
+<td><strong>伝導障害</strong></td>
+<td>short-curtain 例の central MR</td>
+</tr>
+<tr>
+<td>pacemaker</td>
+<td>まれ</td>
+<td>まれ</td>
+<td>あり得る</td>
+<td>0–1.4%</td>
+</tr>
+<tr>
+<td>僧帽弁への影響</td>
+<td>ほぼ無</td>
+<td>あり（前尖切開）</td>
+<td>無</td>
+<td>温存（自験 MV 修復 0/229）</td>
+</tr>
+<tr>
+<td>主対象</td>
+<td>軽度狭小・小児</td>
+<td>中等度狭小・AVR+MVR</td>
+<td>先天性超狭小</td>
+<td>PPM を確実に消したい成人</td>
+</tr>
+<tr>
+<td>エビデンスの厚み</td>
+<td>歴史的</td>
+<td>歴史的</td>
+<td>歴史的・限定的</td>
+<td>増加中だが単一術者依存</td>
+</tr>
+<tr>
+<td>ViV 見据えた基部確保</td>
+<td>限定的</td>
+<td>中</td>
+<td>大</td>
+<td>大（basal ring 26mm 到達）</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">メタ解析の視点 —— 術式より "弁の upsize と PPM 回避の成否" が本質</div>
+<p>Tanaka ら（2024, 全 216,654 例）は、含まれた術式が <strong>Nicks・Manouguian 主体で Konno/Y-incision を用いた研究は 1 つも無い</strong>ことを明示しつつ、「<strong>術式そのものより、弁の upsizing と PPM 回避に成功したか</strong>が本質」「マッチは植込弁径でなく<strong>術前弁輪径</strong>で行うべき」と結論する。つまり "どの術式か" は手段であり、目的は "適切な EOA の獲得" である。</p>
+</div>
+
+<hr />
+<h2 id="6-合併症とピットフォール">6. 合併症とピットフォール</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>合併症</th>
+<th>機序</th>
+<th>関連術式</th>
+<th>対策</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>僧帽弁機能障害（MR）</strong></td>
+<td>前尖切開・パッチ収縮/破断・カーテン変形</td>
+<td>Manouguian・（short-curtain の）Y</td>
+<td>前尖可動部まで切らない、パッチ幅の適正化、Arc modification</td>
+</tr>
+<tr>
+<td><strong>central MR（Y 特有）</strong></td>
+<td>short curtain への patch augmentation が pouch 状 neo-curtain を形成し乱流が僧帽弁輪を歪める</td>
+<td>Y-incision（BSA 1.77・curtain 1.7–1.8cm 例で報告）</td>
+<td>小柄・narrow curtain 例で個別解剖評価、過度な拡大を避ける</td>
+</tr>
+<tr>
+<td><strong>伝導障害・房室ブロック</strong></td>
+<td>膜性中隔・His 束近傍の切開</td>
+<td>Konno</td>
+<td>中隔切開範囲を限定、術中モニター</td>
+</tr>
+<tr>
+<td><strong>冠動脈干渉/torsion・kinking</strong></td>
+<td>交連の広範切開、LCx 走行異常</td>
+<td>広範な Y・変則解剖</td>
+<td>術前 CTA で冠動脈起始を確認、Yin の anomalous LCx 報告を想起</td>
+</tr>
+<tr>
+<td><strong>出血</strong></td>
+<td>パッチ縫合線・大動脈-左房移行部</td>
+<td>Manouguian・Konno</td>
+<td>心膜パッチ、reinforcing strip（Fikani）</td>
+</tr>
+<tr>
+<td><strong>拡大不足（PPM 残存）</strong></td>
+<td>三角まで届かない切開</td>
+<td>保守的 AAE 全般</td>
+<td>三角まで確実に到達、術中サイザーで nadir 到達確認</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Y-incision 後 central MR ── 小柄アジア人で最も注意すべきシグナル</div>
+<p>Ozcelik ら（<em>J Cardiothorac Surg</em> 2026）は、58 歳女性（<strong>BSA 1.77・弁輪 &lt;19mm・aortomitral curtain 1.7–1.8cm と短く narrow</strong>）に Y-AAE＋size 23 On-X 留置後、即時に重度 central MR を発症し 50 日後に MVR（27mm CarboMedics）を要した初の文献報告を示した。short curtain へのパッチ増生が pouch 状の neo-curtain を作り、乱流が僧帽弁輪を歪めるという機序。<strong>BSA 1.77 という borderline body size と短いカーテンはアジア人で頻発しうる</strong> ため、「Y-AAE は僧帽弁温存」という一般論を小柄例にそのまま当てはめてはならない。</p>
+</div>
+
+<hr />
+<h2 id="7-エビデンス--比較研究とメタ解析">7. エビデンス —— 比較研究とメタ解析</h2>
+<h3 id="71-y-incision-vs-古典-aaemakkinejad-propensity-matched">7.1 Y-incision vs 古典 AAE（Makkinejad, propensity-matched）</h3>
+<p>Y-incision の中核的比較エビデンスは、Makkinejad らによる Y-incision vs Nicks/Manouguian の傾向スコアマッチ（103 pairs、両群とも median 弁輪 21mm）である。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th>古典 AAE（Nicks/Manouguian）</th>
+<th>Y-incision</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>手術死亡</td>
+<td>4.9%</td>
+<td>2.9%</td>
+<td>0.72</td>
+</tr>
+<tr>
+<td>Pacemaker</td>
+<td>2.9%</td>
+<td>0%</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td>植込弁サイズ（中央値）</td>
+<td>23</td>
+<td>27</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>平均圧較差（1 年）</td>
+<td>10 mmHg</td>
+<td>7 mmHg</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>iEOA</td>
+<td>0.86</td>
+<td>1.05</td>
+<td>0.002</td>
+</tr>
+<tr>
+<td>中等度/重度 PPM</td>
+<td>23%</td>
+<td>5.5%</td>
+<td>0.039</td>
+</tr>
+<tr>
+<td>重度 PPM</td>
+<td>4.5%</td>
+<td>0%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>1 年生存</td>
+<td>95%</td>
+<td>97%</td>
+<td>0.54</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>手術死亡は同等のまま、PPM を 23%→5.5% に低減し、size 19/21 の留置を回避できた（Makkinejad, Ann Cardiothorac Surg 2024）。</em></p>
+<p><img src="figures/makkinejad2024_km.jpg" alt="古典AAEとY-incisionの早期生存（Kaplan-Meier）" /></p>
+<p><em>図 7-1. 両群の早期生存に有意差なし（Makkinejad 2024, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11148761/">PMC11148761</a>, CC BY-NC-ND 4.0）。「PPM は改善するが早期生存は同等」という構図はメタ解析（§7.3）と符合する。</em></p>
+<h3 id="72-size-1921-を許容すべきでない--chen--hassler-の主張">7.2 "size 19–21 を許容すべきでない" ── Chen / Hassler の主張</h3>
+<ul>
+<li><strong>Chen</strong>（<em>Ann Thorac Surg</em> 2025 invited review）は matched-annulus 解析で AAE 群の 6 年生存 <strong>98% vs isolated AVR 74%（HR 0.19, P=0.016）</strong> を引用し、size 19–21 が手術 OR 11.4・長期 HR 2.05–2.49 の独立リスクであることから「19mm 弁を許容すべきでない」と論じる。</li>
+<li><strong>Hassler</strong>（Univ Michigan, <em>Semin Thorac Cardiovasc Surg</em> 2024）は「Nicks/Manouguian は obsolete か？」を問い、Y-AAE 119 連続例（median 弁輪 21mm、女性 67%、BSA 2.0）で手術死亡 0.8%・<strong>中等度/重度 PPM 0%</strong>・size 27+ を 88% 達成・MR はむしろ改善、と報告。"Y-AAE は Nicks/Manouguian より安全かつ有効" と結論する。ただし follow-up 中央値は 1 年で、long-term durability と ViV 後成績は未検証。</li>
+</ul>
+<h3 id="73-メタ解析が突きつけるnull-寄りの真実">7.3 メタ解析が突きつける「null 寄りの真実」</h3>
+<p>Tanaka ら（2024）の system review・メタ解析（15 観察研究、全 <strong>216,654 例</strong>、AAE 7,967 / no-AAE 208,687）は最も網羅的な集積である。</p>
+<ul>
+<li>未調整では AAE 群の周術期死亡が高い（RR 1.34, 1.02–1.76）が、<strong>PSM/調整後はこの差は消失</strong>（RR 1.06, 0.69–1.61）。</li>
+<li>AAE は PPM を確かに減らす —— <strong>重度 PPM RR 0.61（0.40–0.93）、中等度以上 RR 0.70（0.58–0.84）</strong>。</li>
+<li>しかし予後への翻訳は不確実 —— <strong>中期死亡 HR 1.03、AV 再介入 HR 0.98、心不全 HR 1.06</strong> といずれも有意差なし。</li>
+<li>GRADE は low〜very low、RCT なし、<strong>Konno/Y-incision を含む研究はゼロ</strong>、Asian subgroup の個別解析もなし。</li>
+</ul>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">統合的読み</div>
+<p>「AAE は PPM を減らす（機序は確実）」が「延命は未証明（アウトカムは null 寄り）」。そして<strong>アジア小体格に特化した直接エビデンスは不在</strong>である。この gap が、日本人での術式選択を "エビデンスの外挿" ではなく "解剖と生理に基づく個別判断" に委ねている。</p>
+</div>
+
+<hr />
+<h2 id="8-日本人アジア人小体格での術式選択">8. 日本人・アジア人小体格での術式選択</h2>
+<p>ここが本アトラスの実践的な結論部である。欧米で確立した「PPM を消すために積極拡大」というロジックを、そのまま日本人の小さな体に適用してよいのか。</p>
+<h3 id="81-解剖学的な天井-aortomitral-continuity-8mm">8.1 解剖学的な「天井」── aortomitral continuity 8mm</h3>
+<p>Maekawa ら（名古屋大, <em>Artif Organs</em> 2002）は、AVR+MVR＋Manouguian でカーテンを再建する 3 例の幾何解析から、<strong>日本人の平均 aortomitral continuity 長 L = 8mm</strong>（健常成人 40 例の TTE）を測定した。式 <strong>D = L − B/π</strong>（D = 2 弁間距離、B = 弁周長）より、2 弁が干渉しないためには <strong>僧帽弁輪拡大を 25mm 未満に制限</strong>すべきと定量した。実際 3 例中 1 例で大動脈側機械弁が僧帽弁に押されて dysfunction を起こし、弁回転で解決している。</p>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">「3–5 サイズ拡げられるなら常に最大拡大」への反証</div>
+<p><strong>日本人の aortomitral continuity は約 8mm しかない</strong>。Y-incision が前提とする「カーテンに余裕のある基部」は、小柄アジア人では成立しないことがある。short-curtain 例での Y-AAE 後 central MR（Ozcelik）は、この解剖学的天井の臨床的帰結である。<strong>拡大量の上限は体格ではなく "カーテンの実測長" が決める。</strong></p>
+</div>
+
+<h3 id="82-アジアの逆説と-equipment-非依存の-ppm-回避">8.2 「アジアの逆説」と equipment 非依存の PPM 回避</h3>
+<ul>
+<li><strong>アジアの逆説</strong>：弁輪は小さいのに、PPM の<strong>絶対発生率は欧米より低い</strong>傾向がある（体格が小さいぶん、小径弁でも iEOA が保てる症例が一定数ある）。「小弁輪 = 要拡大」と機械的に結びつけない。</li>
+<li><strong>Tabata の interrupted suturing</strong>（<em>JTCVS</em> 2014）：supra-annular 位に非 everting の<strong>結節縫合</strong>で弁を高く座らせるだけで、追加パッチなしに PPM を半減できる。<strong>器械・パッチに依存しない PPM 回避</strong>の第一選択として、拡大の前に検討すべき。</li>
+<li><strong>17mm 機械弁という別解</strong>（Okamura, 17mm St Jude Regent）：超狭小例では 17mm 機械弁が中期成績良好。ただし <strong>LVEF が modifier</strong>（低左心機能では不利）。</li>
+</ul>
+<h3 id="83-性差lvmitte-過大評価という落とし穴">8.3 性差・LVMI・TTE 過大評価という落とし穴</h3>
+<ul>
+<li>女性・小体格に AAE 適応が集中するが、性差の交絡と LV mass index 退縮の解釈には注意。</li>
+<li><strong>TTE は圧較差を過大評価しうる</strong>（低流量・不整合流など）。"PPM だから拡大" の判断を経胸壁エコー単独で下さない。CT/カテ・measured iEOA での確認が望ましい。</li>
+</ul>
+<h3 id="84-実践的アルゴリズム提案">8.4 実践的アルゴリズム（提案）</h3>
+<p>以上を統合した、日本人小体格に対する術式選択の考え方を示す。</p>
+<svg viewBox="0 0 860 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="日本人小体格の弁輪拡大術 選択アルゴリズム" style="width:100%;height:auto;max-width:860px;display:block;margin:0 auto;border:1px solid #e3e3e3;border-radius:10px;background:#fff;font-family:'Noto Sans JP',sans-serif;">
+<defs><marker id="fa" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#5b6673"/></marker></defs>
+<style>
+.bx{fill:#f7f5f2;stroke:#c9a978;stroke-width:1.5;rx:10;}
+.dc{fill:#eef3f8;stroke:#2f6db5;stroke-width:1.5;}
+.ac{fill:#eaf5ee;stroke:#2e8b57;stroke-width:1.5;}
+.wc{fill:#fdeee5;stroke:#d9772f;stroke-width:1.5;}
+.t{font-size:13px;fill:#1f2933;}
+.tb{font-size:13px;fill:#1f2933;font-weight:700;}
+.ln{stroke:#5b6673;stroke-width:1.6;fill:none;marker-end:url(#fa);}
+.el{font-size:11px;fill:#5b6673;font-weight:700;}
+</style>
+<rect x="300" y="20" width="260" height="48" rx="10" class="bx"/>
+<text x="430" y="40" text-anchor="middle" class="tb">狭小弁輪の SAVR 症例</text>
+<text x="430" y="58" text-anchor="middle" class="t">（BSA・弁輪径・カーテン長・冠動脈をCTで評価）</text>
+<line x1="430" y1="68" x2="430" y2="98" class="ln"/>
+<rect x="300" y="100" width="260" height="52" rx="10" class="dc"/>
+<text x="430" y="122" text-anchor="middle" class="tb">結節縫合＋supra-annular で</text>
+<text x="430" y="140" text-anchor="middle" class="t">目標 iEOA を満たせるか？（Tabata）</text>
+<line x1="300" y1="126" x2="150" y2="126" class="ln"/><text x="222" y="118" text-anchor="middle" class="el">満たせる</text>
+<rect x="20" y="102" width="130" height="48" rx="10" class="ac"/>
+<text x="85" y="124" text-anchor="middle" class="tb">拡大せず AVR</text>
+<text x="85" y="142" text-anchor="middle" class="t">（過剰侵襲回避）</text>
+<line x1="430" y1="152" x2="430" y2="182" class="ln"/><text x="470" y="170" text-anchor="middle" class="el">不足</text>
+<rect x="290" y="184" width="280" height="52" rx="10" class="dc"/>
+<text x="430" y="206" text-anchor="middle" class="tb">aortomitral curtain は十分長いか？</text>
+<text x="430" y="224" text-anchor="middle" class="t">（実測 ≳8mm／narrowでないか, Maekawa/Ozcelik）</text>
+<line x1="290" y1="210" x2="150" y2="210" class="ln"/><text x="215" y="202" text-anchor="middle" class="el">短い/narrow</text>
+<rect x="10" y="186" width="140" height="66" rx="10" class="wc"/>
+<text x="80" y="206" text-anchor="middle" class="tb">保守的拡大</text>
+<text x="80" y="224" text-anchor="middle" class="t">Nicks/modified</text>
+<text x="80" y="240" text-anchor="middle" class="t">Manouguian（1-2size）</text>
+<line x1="430" y1="236" x2="430" y2="266" class="ln"/><text x="470" y="254" text-anchor="middle" class="el">十分</text>
+<rect x="300" y="268" width="260" height="52" rx="10" class="dc"/>
+<text x="430" y="290" text-anchor="middle" class="tb">目標は大幅 upsize か</text>
+<text x="430" y="308" text-anchor="middle" class="t">（ViV 見据え・size 25+ 希望）</text>
+<line x1="560" y1="294" x2="700" y2="294" class="ln"/><text x="632" y="286" text-anchor="middle" class="el">1-2size で可</text>
+<rect x="700" y="270" width="150" height="48" rx="10" class="wc"/>
+<text x="775" y="292" text-anchor="middle" class="tb">Manouguian</text>
+<text x="775" y="310" text-anchor="middle" class="t">/ Nicks</text>
+<line x1="430" y1="320" x2="430" y2="350" class="ln"/><text x="470" y="338" text-anchor="middle" class="el">大幅拡大希望</text>
+<rect x="290" y="352" width="280" height="60" rx="10" class="ac"/>
+<text x="430" y="376" text-anchor="middle" class="tb">Y-incision（±前方 I / new roof）</text>
+<text x="430" y="396" text-anchor="middle" class="t">3–5 size。前洞/RCA-VTC が要改善なら Y and I（Kitamura）</text>
+<line x1="430" y1="412" x2="430" y2="442" class="ln"/>
+<rect x="250" y="444" width="360" height="60" rx="10" class="bx"/>
+<text x="430" y="468" text-anchor="middle" class="tb">術中・術後チェック</text>
+<text x="430" y="488" text-anchor="middle" class="t">サイザーで nadir 到達確認／TEE で MR（central MR）除外／冠動脈口</text>
+<line x1="430" y1="504" x2="430" y2="534" class="ln"/>
+<rect x="230" y="536" width="400" height="72" rx="10" class="dc"/>
+<text x="430" y="560" text-anchor="middle" class="tb">超狭小・先天性弁輪-大動脈低形成の場合</text>
+<text x="430" y="580" text-anchor="middle" class="t">市販弁の最小外径すら入らない → Konno（aortoventriculoplasty）</text>
+<text x="430" y="598" text-anchor="middle" class="t">＝ 拡大量最大だが高侵襲・伝導障害を許容する最終手段</text>
+</svg>
+
+<p><em>図 8-1. 日本人小体格を想定した術式選択の考え方（本アトラスの提案・自作）。要点は 3 つ ——(1) <strong>拡げる前に "拡げずに済むか"（Tabata/17mm 弁）を検討</strong>、(2) <strong>拡大量の上限はカーテン実測長が決める</strong>（short-curtain 例に大幅 Y-AAE を当てない）、(3) <strong>前洞/RCA 干渉が問題なら後方拡大に前方 I を足す</strong>（Kitamura Y and I）。</em></p>
+<h3 id="85-viv-tavr-を見据えたサイジング">8.5 ViV-TAVR を見据えたサイジング</h3>
+<p>将来の弁機能不全に対する ViV-TAVR を見据えるなら、初回 SAVR で残す基部径が重要になる。Truesdell ら（paired CTA, n=45、91% が弁輪 ≤23mm）は Y-AAE 後に <strong>postop basal ring 26.3mm（native 25.3mm を上回る）・STJ +8.1mm</strong> を確保し、ViV に必要な安全域を得たと報告する。ただし <strong>RCA の valve-to-coronary 距離 ≤4mm が 36% に残る</strong>ため、preop sinus &lt;30mm 例では慎重な sizing が必要。</p>
+<figure style="margin:16px 0;max-width:560px;">
+<img src="figures/truesdell2024_rootschematic.jpg" alt="Truesdell aortic root measurement schematic" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin-top:6px;">ViV を見据えた大動脈基部計測のスキーマ（basal ring, STJ, VTC/VTA など）。<br><i>出典: Truesdell, Ann Cardiothorac Surg 2024;13(3):266-274. <a href="https://doi.org/10.21037/acs-2024-aae-0042">doi:10.21037/acs-2024-aae-0042</a>. CC BY-NC-ND 4.0。</i></figcaption>
+</figure>
+
+<p>「19mm は許容か」への解答は、<strong>症例による</strong>。日本人男性・低左心機能では Masaki らが言うように 21mm 以上を目指す価値がある一方、high-risk・高齢・short-curtain 例では 19mm＋将来の ViV も現実的な妥協点になる。</p>
+<hr />
+<h2 id="9-結論--日本人小体格でどの術式を選ぶか">9. 結論 —— 日本人小体格でどの術式を選ぶか</h2>
+<ol type="1">
+<li><strong>まず "拡げずに済むか" を問う。</strong> 結節縫合＋supra-annular 留置（Tabata）や 17mm 機械弁で目標 iEOA を満たせるなら、追加侵襲の AAE は不要。アジアの逆説（小弁輪でも PPM 絶対率は低め）を忘れない。</li>
+<li><strong>拡げるなら、量は "カーテンの実測長" で決める。</strong> 日本人の aortomitral continuity は約 8mm と短く、short-curtain 例への大幅 Y-AAE は central MR を招きうる。CT で curtain 長・冠動脈起始を必ず評価する。</li>
+<li><strong>中等度の拡大には Nicks / modified Manouguian</strong>、<strong>大幅 upsize と ViV 見据えには Y-incision</strong>（前洞・RCA 干渉が問題なら Kitamura の Y and I）。<strong>超狭小・先天性には Konno</strong>。</li>
+<li><strong>術式は手段、目的は適切な EOA。</strong> メタ解析が示すとおり、"どの切開か" より "適切な弁径を PPM なく入れられたか" が予後を規定する。マッチは植込弁径でなく術前弁輪径で。</li>
+<li><strong>エビデンスの限界を直視する。</strong> Y-incision の一次データは欧米・単一術者依存で、日本人小柄例への直接エビデンスは無い。だからこそ、日韓多施設の <code>SAKURA-AVR</code>（AAE-SAVR vs no-AAE SAVR を PSM、measured iEOA と post-AAE MR を評価）のような Asian 特化研究が待たれる。</li>
+</ol>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">一言で</div>
+<p><strong>「小さいから最大限に拡げる」ではなく、「その体・その基部で、PPM を消すのに必要十分な弁径を、最も安全な切開で得る」</strong> —— これが日本人小体格に対する弁輪拡大術の実践原則である。</p>
+</div>
+
+<hr />
+<h2 id="参考文献主要">参考文献（主要）</h2>
+<p><strong>古典原著</strong></p>
+<ul>
+<li>Nicks R, et al. Hypoplasia of the aortic root. <em>Thorax</em> 1970;25:339-346. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC472719/">PMC472719</a> / PMID 5452289</li>
+<li>Manouguian S, Seybold-Epting W. Patch enlargement of the aortic valve ring... <em>J Thorac Cardiovasc Surg</em> 1979;78:402-412. PMID 470420</li>
+<li>Konno S, et al. A new method for prosthetic valve replacement in congenital aortic stenosis associated with hypoplasia of the aortic valve ring. <em>J Thorac Cardiovasc Surg</em> 1975;70:909-917. PMID 127094</li>
+</ul>
+<p><strong>Y-incision と変法</strong></p>
+<ul>
+<li>Yang B, et al. Y-incision aortic annular enlargement — early outcomes (3-4 valve sizes). <em>J Thorac Cardiovasc Surg</em> 2024;167:1196-1205. <a href="https://doi.org/10.1016/j.jtcvs.2022.07.006">doi:10.1016/j.jtcvs.2022.07.006</a></li>
+<li>Yang B, et al. Rectangular patch aortic annular enlargement (operative atlas). <em>Ann Cardiothorac Surg</em> 2024;13:294-302. <a href="https://doi.org/10.21037/acs-2023-aae-0151">doi:10.21037/acs-2023-aae-0151</a> — <strong>CC BY-NC-ND 4.0</strong></li>
+<li>Yang B, et al. Arc modification of the patch. <em>Ann Thorac Surg Short Rep</em> 2025. <a href="https://doi.org/10.1016/j.athoracsur.2025.01.016">doi:10.1016/j.athoracsur...</a></li>
+<li>Yang B, et al. Five misconceptions of Y-incision AAE. <em>Ann Thorac Surg</em> 2026.</li>
+<li>Chen (invited review). Y-incision AAE — rationale, technique, outcomes. <em>Ann Thorac Surg</em> 2025;119:1151-1165. <a href="https://doi.org/10.1016/j.athoracsur.2025.01.016">doi:10.1016/j.athoracsur.2025.01.016</a></li>
+<li>Hassler K, et al. Are Nicks and Manouguian obsolete? <em>Semin Thorac Cardiovasc Surg PedCardSurgAnnu</em> 2024;27:25-36. <a href="https://doi.org/10.1053/j.pcsu.2023.12.005">doi:10.1053/j.pcsu.2023.12.005</a></li>
+<li>Wang, et al. New roof technique. <em>JTCVS Tech</em> 2025;31:34-38. <a href="https://doi.org/10.1016/j.xjtc.2025.02.013">doi:10.1016/j.xjtc.2025.02.013</a> — <strong>CC BY-NC-ND 4.0</strong></li>
+<li>Kitamura, et al. "Y and I" incision. <em>Ann Thorac Surg Short Rep</em> 2025;3:1074-1076. <a href="https://doi.org/10.1016/j.atssr.2025.04.013">doi:10.1016/j.atssr.2025.04.013</a> — <strong>CC BY 4.0</strong></li>
+<li>Fikani, et al. Technical modifications of Y-incision. <em>Thorac Cardiovasc Surg</em> 2026. <a href="https://doi.org/10.1055/a-2836-2224">doi:10.1055/a-2836-2224</a></li>
+<li>Masaki, et al. Modified Nicks in children. <em>Pediatr Cardiol</em> 2026. <a href="https://doi.org/10.1007/s00246-026-04230-2">doi:10.1007/s00246-026-04230-2</a></li>
+<li>Malfitano, et al. Modified Manouguian technique. <em>J Card Surg</em> 2022;37:574-578. <a href="https://doi.org/10.1111/jocs.16194">doi:10.1111/jocs.16194</a></li>
+</ul>
+<p><strong>比較研究・メタ解析・解剖・生理</strong></p>
+<ul>
+<li>Makkinejad A, et al. Y-incision vs traditional AAE (PSM). <em>Ann Cardiothorac Surg</em> 2024;13:255-265. <a href="https://doi.org/10.21037/acs-2023-aae-0102">doi:10.21037/acs-2023-aae-0102</a> — <strong>CC BY-NC-ND 4.0</strong></li>
+<li>Makkinejad A, et al. Nicks/Manouguian/Y-incision comparison. <em>Ann Thorac Surg</em> 2025;120:799-805.</li>
+<li>Makkinejad A, et al. Surgeon experience and AAE. <em>JTCVS Open</em> 2025.</li>
+<li>Truesdell, et al. Aortic root dimensions post Y-AAE (paired CTA). <em>Ann Cardiothorac Surg</em> 2024;13:266-274. <a href="https://doi.org/10.21037/acs-2024-aae-0042">doi:10.21037/acs-2024-aae-0042</a> — <strong>CC BY-NC-ND 4.0</strong></li>
+<li>Bonini, et al. Hemodynamic (CFD) modeling of Y-AAE. <em>J Cardiovasc Transl Res</em> 2025;18:876-887. <a href="https://doi.org/10.1007/s12265-025-10634-x">doi:10.1007/s12265-025-10634-x</a></li>
+<li>Ozcelik, et al. Severe central MR after Y-incision (case report). <em>J Cardiothorac Surg</em> 2026.</li>
+<li>Tanaka, et al. AAE outcomes meta-analysis (216,654 patients). <em>Ann Cardiothorac Surg</em> 2024.</li>
+<li>Maekawa, et al. Optimal prosthesis size in Manouguian (aortomitral continuity). <em>Artif Organs</em> 2002;26:833-839. <a href="https://doi.org/10.1046/j.1525-1594.2002.06970.x">doi:10.1046/j.1525-1594.2002.06970.x</a></li>
+<li>Tabata M, et al. Interrupted suturing for supra-annular small-annulus AVR. <em>J Thorac Cardiovasc Surg</em> 2014.</li>
+<li>Pibarot P, Dumesnil JG. PPM: definition, clinical impact, prevention. <em>Heart</em> 2006;92:1022-1029.</li>
+<li>Head SJ, et al. PPM and long-term survival (meta-analysis). <em>Eur Heart J</em> 2012.</li>
+</ul>
+<hr />
+<p><em>本アトラス作成: 2026-07-04 ｜ 姉妹レビュー: <code>small_annulus_avr/</code>（AAE 適応論・SAKURA-AVR）・<code>cor_knot/</code>（自動ファスナー手技）｜ 図版は自作 SVG（原著性あり）＋オープンアクセス論文図（CC BY / CC BY-NC-ND、帰属明記）。CC BY-NC-ND 図は非商用・改変なしで原図のまま掲載している。</em></p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function () {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  var content = document.querySelector('main.content');
+  if (!sidebar || !nav || !content) return;
+
+  // ---------- build TOC ----------
+  var headings = content.querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+  headings.forEach(function (h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+  if (btn) btn.addEventListener('click', function () { setOpen(!sidebar.classList.contains('open')); });
+  if (backdrop) backdrop.addEventListener('click', function () { setOpen(false); });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) setOpen(false);
+  });
+
+  // ---------- scroll spy ----------
+  if ('IntersectionObserver' in window) {
+    var current = null, visible = new Set();
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) visible.add(en.target.id); else visible.delete(en.target.id);
+      });
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visible.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function (l) { l.classList.toggle('active', l.dataset.target === firstId); });
+        var act = nav.querySelector('a.active');
+        if (act) {
+          var r = act.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+          if (r.top < s.top || r.bottom > s.bottom) act.scrollIntoView({ block: 'nearest' });
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function (h) { obs.observe(h); });
+  }
+
+  // ---------- full-text search ----------
+  var input = document.getElementById('search-input');
+  var clearBtn = document.getElementById('search-clear');
+  var meta = document.getElementById('search-meta');
+  var countEl = document.getElementById('search-count');
+  var prevBtn = document.getElementById('search-prev');
+  var nextBtn = document.getElementById('search-next');
+  if (!input) return;
+
+  var hits = [], curHit = -1, timer = null;
+
+  function clearHits() {
+    var marks = content.querySelectorAll('mark.search-hit');
+    marks.forEach(function (m) {
+      var p = m.parentNode;
+      p.replaceChild(document.createTextNode(m.textContent), m);
+      p.normalize();
+    });
+    hits = []; curHit = -1;
+  }
+
+  function highlight(q) {
+    var lc = q.toLowerCase();
+    var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var t = node.parentNode && node.parentNode.tagName;
+        if (t === 'SCRIPT' || t === 'STYLE') return NodeFilter.FILTER_REJECT;
+        return node.nodeValue.toLowerCase().indexOf(lc) !== -1
+          ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue, lower = text.toLowerCase();
+      var frag = document.createDocumentFragment(), idx = 0, pos;
+      while ((pos = lower.indexOf(lc, idx)) !== -1) {
+        if (pos > idx) frag.appendChild(document.createTextNode(text.slice(idx, pos)));
+        var mk = document.createElement('mark');
+        mk.className = 'search-hit';
+        mk.textContent = text.slice(pos, pos + q.length);
+        frag.appendChild(mk);
+        hits.push(mk);
+        idx = pos + q.length;
+      }
+      if (idx < text.length) frag.appendChild(document.createTextNode(text.slice(idx)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  function filterNav(q) {
+    var lc = q.toLowerCase();
+    navLinks.forEach(function (l) {
+      var match = !q || l.textContent.toLowerCase().indexOf(lc) !== -1;
+      l.classList.toggle('filtered-out', !match);
+    });
+  }
+
+  function gotoHit(i) {
+    if (!hits.length) return;
+    if (curHit >= 0 && hits[curHit]) hits[curHit].classList.remove('current');
+    curHit = (i + hits.length) % hits.length;
+    var m = hits[curHit];
+    m.classList.add('current');
+    m.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    countEl.textContent = (curHit + 1) + ' / ' + hits.length + ' 件';
+  }
+
+  function run(q) {
+    clearHits();
+    filterNav(q);
+    if (!q || q.length < 2) {
+      meta.classList.remove('show');
+      clearBtn.style.display = q ? 'block' : 'none';
+      return;
+    }
+    highlight(q);
+    clearBtn.style.display = 'block';
+    meta.classList.add('show');
+    if (hits.length) { gotoHit(0); }
+    else { countEl.textContent = '該当なし'; }
+  }
+
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    var q = input.value.trim();
+    timer = setTimeout(function () { run(q); }, 180);
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); gotoHit(curHit + (e.shiftKey ? -1 : 1)); }
+    if (e.key === 'Escape') { input.value = ''; run(''); input.blur(); }
+  });
+  if (nextBtn) nextBtn.addEventListener('click', function () { gotoHit(curHit + 1); });
+  if (prevBtn) prevBtn.addEventListener('click', function () { gotoHit(curHit - 1); });
+  if (clearBtn) clearBtn.addEventListener('click', function () { input.value = ''; run(''); input.focus(); });
+
+  // keyboard shortcut: "/" focuses search
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== input) { e.preventDefault(); input.focus(); }
+  });
+})();
+</script>
+
+</body>
+</html>

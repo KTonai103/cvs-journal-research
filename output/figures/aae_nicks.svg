@@ -1,0 +1,16 @@
+<svg viewBox="0 0 500 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nicks法の模式図" style="width:100%;height:auto;max-width:500px;display:block;margin:0 auto;border:1px solid #e3e3e3;border-radius:10px;background:#fff;font-family:'Noto Sans JP','Hiragino Sans',sans-serif;">
+<text x="250" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2933">Nicks法（後方パッチ）</text>
+<path d="M 150 60 L 150 150 Q 150 190 200 195 L 300 195 Q 350 190 350 150 L 350 60" fill="#fbf4ef" stroke="#b45c5c" stroke-width="3"/>
+<path d="M 135 60 L 135 150 Q 135 205 200 210 L 300 210 Q 365 205 365 150 L 365 60" fill="none" stroke="#b45c5c" stroke-width="3"/>
+<line x1="150" y1="195" x2="350" y2="195" stroke="#1f2933" stroke-width="2" stroke-dasharray="4 3"/>
+<path d="M 200 210 Q 175 320 250 360 Q 325 320 300 210" fill="#d98b8b" opacity="0.35" stroke="#b45c5c" stroke-width="2"/>
+<text x="250" y="52" text-anchor="middle" font-size="12" fill="#5b6673">上行大動脈</text>
+<text x="250" y="188" text-anchor="middle" font-size="11" font-weight="700" fill="#1f2933">大動脈弁輪</text>
+<path d="M 200 70 L 200 205" stroke="#2f6db5" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+<path d="M 185 205 Q 178 235 195 250" stroke="#2f6db5" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+<path d="M 200 90 Q 165 150 175 250 Q 200 265 220 205 L 220 90 Z" fill="#2f6db5" opacity="0.20" stroke="#2f6db5" stroke-width="2"/>
+<text x="150" y="150" text-anchor="end" font-size="12" font-weight="700" fill="#2f6db5">涙滴型パッチ</text>
+<text x="150" y="166" text-anchor="end" font-size="11" fill="#5b6673">NCC→僧帽弁輪</text>
+<text x="330" y="255" text-anchor="middle" font-size="11" fill="#5b6673">中隔側</text>
+<text x="250" y="392" text-anchor="middle" font-size="11" fill="#5b6673">拡大量 ≈ 1弁サイズ・僧帽弁前尖に及ばず低リスク</text>
+</svg>
