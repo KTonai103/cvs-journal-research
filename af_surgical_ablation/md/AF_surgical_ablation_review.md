@@ -12,12 +12,60 @@ title: 外科的心房細動治療の現在地 — Maze・ハイブリッド・P
 > - 左サイドバーは章立ての目次。クリックでジャンプ、スクロールで現在地がハイライトされる。
 > - **サイドバー上部の検索窓**にキーワード（例: `CTSN`, `LAAOS`, `nsPFA`, `PPM`, `AFMR`, `blanking`）を入れると本文をハイライトし、`Enter`/`↑↓` で一致箇所を順に移動する。キーボードの `/` で検索窓にフォーカス。
 > - 各引用（例: [Gillinov 2015](https://pubmed.ncbi.nlm.nih.gov/25853744/)）は PubMed へのリンク。**追加学習はここから一次資料へ。**
+> - **画面右上の「略語 A–Z」ボタン**（キーボード `a`）で略語集をいつでも開ける。A–Z で絞り込み・検索でき、行をクリックするとその略語を本文検索する。略語は本文の初出時にも定義している（[本稿の表記と略語](#本稿の表記と略語)）。
 > - 図は**すべてオープンアクセス論文（CC BY / CC BY-NC / CC BY-NC-ND）の原図を改変せず**引用しており、各図の直下に出典・DOI・ライセンスを記した。一覧は末尾の[図版の出典とライセンス](#図版の出典とライセンス全35点)。
 > - 末尾に[精読文献リスト（全72本）](#精読文献リスト全72本)。
 > - 章 0（[「成功率」を比較してはならない](#0-このレビューの読み方--成功率を横に並べてはならない)）と章 XIV（[実務への落とし込み](#xiv-実務への落とし込み--症例別の判断と術前説明の文言)）だけでも通読の価値がある。
 
 > [!warning] このレビューが最初に置く警告
 > 外科的 AF 治療の文献において、**報告された「洞調律維持率」を判定手段と切り離して比較してはならない。** 同一の CTSN 患者集団ですら、6・12か月の72時間 Holter 2点なら ablation 群 **63.2%** が "AF free" だが、週1回 transtelephonic monitoring の all-or-none 基準では **43%** に落ちる（[Gillinov 2015](https://pubmed.ncbi.nlm.nih.gov/25853744/)／[Blackstone 2019](https://pubmed.ncbi.nlm.nih.gov/30557941/)）。CASA-AF の同一施設パイロット（間欠7日 Holter）で外科 73% vs カテーテル 32% だった成績は、**植込み型ループレコーダ（ILR）連続監視の RCT では 26% vs 28% に収束した**（[Haldar 2020](https://pubmed.ncbi.nlm.nih.gov/32860414/)）。数値を引くときは必ず **① blanking period ② 閾値（>30秒か） ③ AAD off か ④ モニタリング手段**の4条件を併記する。
+
+---
+
+## 本稿の表記と略語
+
+略語は**本文の初出時に「略語（英語フルスペル：日本語）」の形で定義**する。ここに挙げるものは表題・冒頭の表・図から使い始めるため、先にまとめて定義しておく。**この一覧に無いものも含め、全略語は画面右上の「略語 A–Z」ボタン**（キーボード `a`）**から常時参照できる。**
+
+### 病態・術式・判定
+
+| 略語 | 英語 | 意味 |
+|---|---|---|
+| **AF** | atrial fibrillation | 心房細動 |
+| **PAF / PsAF / LSPAF** | paroxysmal / persistent / long-standing persistent AF | 発作性（7日以内に自然停止）／持続性（7日超）／長期持続性（1年超） |
+| **SR** | sinus rhythm | 洞調律。※文献では systematic review の略でも使われる |
+| **AAD** | antiarrhythmic drug | 抗不整脈薬。"AAD off" ＝抗不整脈薬なしでの成功判定（成績が数〜十数ポイント下がる） |
+| **ATA** | atrial tachyarrhythmia | 心房性頻脈性不整脈。AF・心房粗動（AFL）・心房頻拍（AT）の総称で、多くの試験はこの3つをまとめて「再発」と数える |
+| **AFMR（= A-SMR）** | atrial functional (secondary) mitral regurgitation | 心房機能性僧帽弁閉鎖不全。左房・弁輪拡大による中心性 MR で左室機能は保たれる |
+| **AFTR（= A-STR）** | atrial functional (secondary) tricuspid regurgitation | 心房機能性三尖弁閉鎖不全 |
+| **VFMR（= V-SMR）／V-STR** | ventricular functional (secondary) MR / TR | 心室性の二次性 MR／TR。乳頭筋変位・leaflet tethering による偏心性逆流で左室（右室）機能低下を伴う |
+| **LA / RA / LV / RV** | left atrium / right atrium / left ventricle / right ventricle | 左房／右房／左室／右室 |
+| **LAA / LAAO** | left atrial appendage / LAA occlusion | 左心耳／左心耳閉鎖（LAAC も同義） |
+| **PV / PVI / PWI** | pulmonary vein / PV isolation / posterior wall isolation | 肺静脈／肺静脈隔離／左房後壁隔離（box lesion） |
+| **CS / CTI / VOM** | coronary sinus / cavotricuspid isthmus / vein of Marshall | 冠状静脈洞／下大静脈–三尖弁輪間峡部／Marshall 静脈 |
+| **CMP-IV（CMIV）** | Cox-Maze IV procedure | Cox-Maze IV 手術。**CMP-B / CMP-L** ＝両心房版／左房限定版 |
+| **RF / BRF / cryo** | radiofrequency / bipolar RF / cryoablation | 高周波／双極高周波（クランプ）／冷凍凝固。※心エコー文脈の RF は regurgitant fraction（逆流率） |
+| **PFA / nsPFA** | pulsed field / nanosecond pulsed field ablation | パルスフィールドアブレーション（不可逆的電気穿孔による非熱アブレーション）／ナノ秒パルス版（外科用クランプは開発中） |
+| **PPM / SND** | permanent pacemaker / sinus node dysfunction | 恒久的ペースメーカ／洞結節機能不全 |
+| **POAF** | postoperative AF | 術後心房細動 |
+| **blanking period** | — | 術後の判定除外期間。原法は90日、EHRA/HRS 2024 は8週 |
+| **ILR / ICM / TTM** | implantable loop recorder / insertable cardiac monitor / transtelephonic monitoring | 植込み型ループレコーダ／植込み型心臓モニタ（ILR とほぼ同義）／電話伝送式心電図 |
+| **COR / LOE** | class of recommendation / level of evidence | 推奨クラス／エビデンスレベル（CoR・LoE とも表記） |
+
+### 統計・研究デザイン
+
+| 略語 | 英語 | 意味 |
+|---|---|---|
+| **CI / CrI・BCI** | confidence interval / (Bayesian) credible interval | 信頼区間／ベイズ信用区間 |
+| **HR / SHR** | hazard ratio / subdistribution HR | ハザード比／競合リスクを考慮した Fine–Gray モデルのハザード比 |
+| **OR / aOR** | odds ratio / adjusted OR | オッズ比／調整オッズ比 |
+| **RR / IRR** | risk ratio / incidence rate ratio | リスク比／発生率比 |
+| **IQR / SD / I²** | interquartile range / standard deviation / I-squared | 四分位範囲／標準偏差／メタ解析の異質性指標 |
+| **KM** | Kaplan–Meier | Kaplan–Meier 法（生存時間解析） |
+| **RCT / SRMA / NMA** | randomized controlled trial / systematic review and meta-analysis / network meta-analysis | 無作為化比較試験／系統的レビュー＋メタ解析／ネットワークメタ解析 |
+| **IPD / IPDMA** | individual patient data (meta-analysis) | 個々の患者データ（とそのメタ解析）。**公表 KM 曲線からの再構成 IPD は原データではない** |
+| **PSM / IPTW** | propensity score matching / inverse probability of treatment weighting | 傾向スコアマッチング／治療確率の逆数による重み付け |
+| **ITT / mITT** | intention to treat / modified ITT | 割付どおり解析／修正 ITT |
+| **NNT / NNH** | number needed to treat / to harm | 1件の利益／有害事象を生じる治療必要数 |
 
 ---
 
@@ -53,7 +101,7 @@ Blackstone の一次記述がこの現象を最も端的に言う — *"the more
 
 ## I. 病態の背骨 — AF → 左房・弁輪リモデリング → AFMR/AFTR → 洞調律の意義
 
-本レビューの背骨は、講演が提示した因果ストーリーである。**AF が持続すると左房と弁輪が拡大し、それ自体が僧帽弁・三尖弁閉鎖不全（AFMR/AFTR）を生む。だから洞調律の維持には弁を守るという意味がある。** この矢印を最初に確認しておくと、以降の術式論がすべて同じ座標系に乗る。
+本レビューの背骨は、講演が提示した因果ストーリーである。**AF が持続すると左房と弁輪が拡大し、それ自体が僧帽弁・三尖弁閉鎖不全（AFMR = atrial functional mitral regurgitation：心房機能性僧帽弁閉鎖不全／AFTR = atrial functional tricuspid regurgitation：心房機能性三尖弁閉鎖不全）を生む。だから洞調律の維持には弁を守るという意味がある。** この矢印を最初に確認しておくと、以降の術式論がすべて同じ座標系に乗る。
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
 <figure style="margin:0;">
@@ -73,7 +121,7 @@ Blackstone の一次記述がこの現象を最も端的に言う — *"the more
 <figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 3. AFMR を成立させる要素</b> — 中央の模式図を囲む5つのラベルが AFMR の構成要素 — <b>僧帽弁輪拡大</b>、<b>leaflet remodeling の不足</b>（弁が伸びて追いつかない）、<b>atriogenic leaflet tethering</b>（拡大した左房に弁尖が引き込まれる）、そして左房 myopathy と左室機能障害。「弁が壊れる」病気ではなく「<b>入れ物が伸びて弁が足りなくなる</b>」病気である。<br><i>出典: Pagnesi M, et al. <i>ESC Heart Fail</i> 2025;12(6):3788-3805. <a href="https://doi.org/10.1002/ehf2.15405">doi:10.1002/ehf2.15405</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40927944/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
 </figure>
 
-CABANA の事後解析（n=1391、trivial 超の MR 722例＝52%）で、moderate 以上の有意 MR の独立予測因子は **年齢（OR 1.05, 95%CI 1.02–1.09, p=0.003）・左房容積係数 LAVI（OR 1.05, 95%CI 1.03–1.07, p<0.001）・persistent AF（OR 1.52, 95%CI 1.01–2.30, p=0.047）** の3つのみで、**LVEF は多変量で有意でなかった（OR 0.97, 95%CI 0.94–1.05, p=0.056）**（[Dhont 2025](https://pubmed.ncbi.nlm.nih.gov/40256860/)）。無作為化試験コホートで「AFMR は左室ではなく左房・弁輪の疾患」が裏づけられた所見である。
+CABANA の事後解析（n=1391、trivial 超の MR 722例＝52%）で、moderate 以上の有意 MR（mitral regurgitation：僧帽弁閉鎖不全） の独立予測因子は **年齢（OR 1.05, 95%CI 1.02–1.09, p=0.003）・左房容積係数 LAVI（left atrial volume index）（OR 1.05, 95%CI 1.03–1.07, p<0.001）・persistent AF（OR 1.52, 95%CI 1.01–2.30, p=0.047）** の3つのみで、**LVEF（left ventricular ejection fraction：左室駆出率） は多変量で有意でなかった（OR 0.97, 95%CI 0.94–1.05, p=0.056）**（[Dhont 2025](https://pubmed.ncbi.nlm.nih.gov/40256860/)）。無作為化試験コホートで「AFMR は左室ではなく左房・弁輪の疾患」が裏づけられた所見である。
 
 この病態理解は術式論に直結する — **AFMR は undersized ring annuloplasty 単独で治せる**（章 XII）。実際、国際多施設レジストリ MMIR の AFMR 430例のうち **91.4%（393/430）が isolated annuloplasty のみで修復され、人工腱索・切除・スライディングの施行例はゼロ**、edge-to-edge 追加も3例（0.7%）に過ぎない（[Berretta 2025](https://pubmed.ncbi.nlm.nih.gov/41339275/)）。
 
@@ -86,11 +134,11 @@ CABANA の事後解析（n=1391、trivial 超の MR 722例＝52%）で、moderat
 <figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 4. A-STR と V-STR、そして「重なる領域」</b> — 左（A-STR）は<b>三尖弁輪拡大が優位</b>・RV は conical remodeling・RV 収縮能と LVEF は保たれる。右（V-STR）は leaflet tethering 優位・RV elliptical remodeling・RV 機能低下。中央は両者に共通しうる特徴（AF・HFpEF・PH・弁尖 remodeling など）で、<b>実臨床の多くはこの中央に落ちる</b> — だから章 XII-4 の鑑別基準が必要になる。<br><i>出典: Muraru D, et al. <i>Eur Heart J</i> 2024;45(11):895-911. <a href="https://doi.org/10.1093/eurheartj/ehae088">doi:10.1093/eurheartj/ehae088</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38441886/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
 </figure>
 
-同じ矢印は右心系にも走る。in vitro では **三尖弁輪面積の40%拡大で臨床的に意味のある TR が生じるのに対し、僧帽弁で二次性 MR が生じるには弁輪面積の75%拡大を要する**（[Muraru 2024](https://pubmed.ncbi.nlm.nih.gov/38441886/)）。すなわち三尖弁のほうが構造的に脆い。
+同じ矢印は右心系にも走る。in vitro では **三尖弁輪面積の40%拡大で臨床的に意味のある TR（tricuspid regurgitation：三尖弁閉鎖不全） が生じるのに対し、僧帽弁で二次性 MR が生じるには弁輪面積の75%拡大を要する**（[Muraru 2024](https://pubmed.ncbi.nlm.nih.gov/38441886/)）。すなわち三尖弁のほうが構造的に脆い。
 
-臨床データもこれと整合する。AFMR 外科例では **Cleveland Clinic の194例中 85%（165例）に TR が存在し 66% が中等度以上、64%（124例）に三尖弁手術が併施**（[Bakir 2025](https://pubmed.ncbi.nlm.nih.gov/39197816/)）、MMIR では術前中等度以上 TR 47.3%（203/430）で TAP 併施 44.2%（190/430）（[Berretta 2025](https://pubmed.ncbi.nlm.nih.gov/41339275/)）。AFMR 外科症例の約60%で TR が優位病変であるとの指摘もある（[Farhan 2022](https://pubmed.ncbi.nlm.nih.gov/36480974/)）。**AFMR は「両心房疾患」である。**
+臨床データもこれと整合する。AFMR 外科例では **Cleveland Clinic の194例中 85%（165例）に TR が存在し 66% が中等度以上、64%（124例）に三尖弁手術が併施**（[Bakir 2025](https://pubmed.ncbi.nlm.nih.gov/39197816/)）、MMIR では術前中等度以上 TR 47.3%（203/430）で TAP（tricuspid annuloplasty：三尖弁輪形成） 併施 44.2%（190/430）（[Berretta 2025](https://pubmed.ncbi.nlm.nih.gov/41339275/)）。AFMR 外科症例の約60%で TR が優位病変であるとの指摘もある（[Farhan 2022](https://pubmed.ncbi.nlm.nih.gov/36480974/)）。**AFMR は「両心房疾患」である。**
 
-そして三尖弁介入は待つほど不利になる — **孤立性 TR 手術の院内死亡は約10%**、重症孤立性 TR 2413例の国際レジストリ TRIGISTRY では早期かつ成功した介入が2年生存を改善したのは **low TRI-SCORE 群のみ**で、high TRI-SCORE 群では利益が認められなかった（[Muraru 2024](https://pubmed.ncbi.nlm.nih.gov/38441886/)、[Farhan 2022](https://pubmed.ncbi.nlm.nih.gov/36480974/)）。**僧帽弁手術の機会に予防的に対処することが、後の孤立性 TR 手術という不利な状況を避ける最良の手段である。**
+そして三尖弁介入は待つほど不利になる — **孤立性 TR 手術の院内死亡は約10%**、重症孤立性 TR 2413例の国際レジストリ TRIGISTRY では早期かつ成功した介入が2年生存を改善したのは **low TRI-SCORE（孤立性三尖弁手術の術死リスクスコア） 群のみ**で、high TRI-SCORE 群では利益が認められなかった（[Muraru 2024](https://pubmed.ncbi.nlm.nih.gov/38441886/)、[Farhan 2022](https://pubmed.ncbi.nlm.nih.gov/36480974/)）。**僧帽弁手術の機会に予防的に対処することが、後の孤立性 TR 手術という不利な状況を避ける最良の手段である。**
 
 ### I-3. 「洞調律である」ことの予後価値 — ただし因果ではない
 
@@ -103,7 +151,7 @@ CABANA の高密度モニタリング下1240例を対象とした**事前規定*
 
 ただし2つ、術前説明に直結する留保がある。
 
-1. **QOL は改善しない。** EAST-AFNET 4 では24か月洞調律率が 78.9%（255/323）vs 52.3%（170/325）（調整 OR 3.65, 95%CI 2.56–5.22）と大きく改善したにもかかわらず、2年時点の **EQ-5D（調整平均差 1.53, 95%CI −1.74–4.80）・SF-12 physical（−0.83, −2.33–0.68）・MoCA（0.05, −0.42–0.53）・LVEF（0.18, −1.00–1.36）はいずれも改善しなかった**（[Willems 2022](https://pubmed.ncbi.nlm.nih.gov/34447995/)）。**同時 Maze は「症状・QOL のため」ではなく「心血管イベント抑制のため」と説明すべきである。**
+1. **QOL（quality of life：生活の質） は改善しない。** EAST-AFNET 4 では24か月洞調律率が 78.9%（255/323）vs 52.3%（170/325）（調整 OR 3.65, 95%CI 2.56–5.22）と大きく改善したにもかかわらず、2年時点の **EQ-5D（調整平均差 1.53, 95%CI −1.74–4.80）・SF-12 physical（−0.83, −2.33–0.68）・MoCA（0.05, −0.42–0.53）・LVEF（0.18, −1.00–1.36）はいずれも改善しなかった**（[Willems 2022](https://pubmed.ncbi.nlm.nih.gov/34447995/)）。**同時 Maze は「症状・QOL のため」ではなく「心血管イベント抑制のため」と説明すべきである。**
 2. **抗凝固は続く。** 同試験では全期間を通じて約90%（無症候 723/801、有症候 1655/1832、いずれも90.3%）が経口抗凝固薬を継続していた。**洞調律化は抗凝固中止の根拠にならない。**
 
 ### I-4. 矢印は双方向 — MR は AF アブレーションを失敗させる
@@ -121,13 +169,13 @@ CABANA の高密度モニタリング下1240例を対象とした**事前規定*
 
 ## II. Maze の原理 — なぜ「一律の lesion set」なのか
 
-現代の術式論を読む前に、原法の設計思想を Cox 自身の一次証言で確認しておく価値がある。ここを押さえると「PVI 単独への簡略化」が何を捨てる行為なのかが明確になる。
+現代の術式論を読む前に、原法の設計思想を Cox 自身の一次証言で確認しておく価値がある。ここを押さえると「PVI（pulmonary vein isolation：肺静脈隔離） 単独への簡略化」が何を捨てる行為なのかが明確になる。
 
 Cox の回顧によれば、Maze の lesion set は**個別マッピングに基づいて設計されたものではない**。「一度成立した AF は、片側または両側の心房に2個以上の大きな macroreentrant circuit が同時に存在することを特徴とし、他の不整脈の手術と違って AF 手術はマッピングに導かれ得ない」ことが判明したため、彼らは *"fallback strategy"* として**全例に同一の術式を適用する**方針を採った（[Cox 2025](https://pubmed.ncbi.nlm.nih.gov/41176374/)）。
 
 設計原理は critical mass の考え方にある — **lesion を密に置き、かつ lesion 間の心筋領域を互いに連結したまま残せば、面積不足のため大きな macroreentrant circuit が形成され得ない。** この原理により、心房を興奮不能にしてしまう "bread-loafing" は明確に否定された。Maze という名称は幾何学そのものを指す — **1つの入口（洞結節）、1つの出口（房室結節）、その間の1本の true route、そして両心房を興奮させるために true route から分岐する複数の blind alleys**。blind alleys は術後の心房輸送能を温存するための必須構成要素であり、「lesion を追加すればするほど良い」という発想は原理的に否定されている。
 
-原法の lesion set は「**両心耳を切除し、肺静脈を隔離し、適切に配置した心房切開線で最も一般的な reentrant circuit の伝導路を遮断する**」ものであった。すなわち**左心耳のみならず右心耳の切除も原法の構成要素**であり、現代の「LAA 閉鎖のみ」との相違は認識しておく必要がある（右心耳切除の臨床的効果を検証したデータは存在しない）。
+原法の lesion set は「**両心耳を切除し、肺静脈を隔離し、適切に配置した心房切開線で最も一般的な reentrant circuit の伝導路を遮断する**」ものであった。すなわち**左心耳のみならず右心耳の切除も原法の構成要素**であり、現代の「LAA（left atrial appendage：左心耳） 閉鎖のみ」との相違は認識しておく必要がある（右心耳切除の臨床的効果を検証したデータは存在しない）。
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
 <figure style="margin:0;">
@@ -190,7 +238,7 @@ Cox は2022年の初回手術35周年記念で「Maze 手術はあと35年続く
 > [!warning] 「同時アブレーションは生存を改善する」の正確な言い方
 > **観察研究では一貫して示されているが、RCT 単独では未証明。** Sakurai メタでも生存利益は主に観察研究に由来し（RCT vs 観察研究の subgroup difference は p=0.19 で「差を示せなかった」にとどまる）、著者らは標準化 lesion set・厳格なリズムフォロー・アウトカム adjudication を備えた大規模 RCT（**NCT05434819 Surgical Ablation of AF Efficacy Trial**）の必要を結論している。
 > さらに Yi の単施設 PSM は **LAA 処置率が CMP-IV 群 100% に対し対照群 15–19%** であり、著者自身が *"Our data do not distinguish the survival benefits of sinus rhythm restoration from that of LAAO."* と明記している。**「洞調律回復の効果」と「LAA 閉鎖の効果」を分離した研究は本レビューの精読範囲に1編も存在しない。**
-> なお時間軸にも注意を要する。台湾全国データ（11,459例）では全死亡 HR 0.75（95%CI 0.69–0.81, P<0.001）であったが、**同データで外科的アブレーション群の2年生存はむしろ不良で、中期に生存曲線が交差した後に長期で逆転している**（交差時点の具体値は原著総説に記載なし）。**余命が短いと見込まれる症例では生存利益を回収できない可能性があり、IC で説明すべき点である**（[Kowalewski 2025](https://pubmed.ncbi.nlm.nih.gov/40574669/)）。23 RCT のメタでは生存利益なし（RR 1.07, 95%CI 0.75–1.52, P=0.88）。
+> なお時間軸にも注意を要する。台湾全国データ（11,459例）では全死亡 HR 0.75（95%CI 0.69–0.81, P<0.001）であったが、**同データで外科的アブレーション群の2年生存はむしろ不良で、中期に生存曲線が交差した後に長期で逆転している**（交差時点の具体値は原著総説に記載なし）。**余命が短いと見込まれる症例では生存利益を回収できない可能性があり、IC（informed consent：術前説明と同意） で説明すべき点である**（[Kowalewski 2025](https://pubmed.ncbi.nlm.nih.gov/40574669/)）。23 RCT のメタでは生存利益なし（RR 1.07, 95%CI 0.75–1.52, P=0.88）。
 
 ### III-3. 10年成績 — 40%超が再発するが、大半は無症候
 
@@ -198,11 +246,11 @@ Cox は2022年の初回手術35周年記念で「Maze 手術はあと35年続く
 
 同研究で注目すべきは **AF 病型による10年成績の差が消失した**点である（10年 freedom from ATAs 発作性 73% vs 非発作性 56%、有意差なし）。発作性群は1年（96% vs 86%, P=.004）および AAD 非使用下では5年まで優れるが、著者は *"The long-term success ... was similar across all types of AF at 10 years, **in contradistinction to catheter ablation**."* と述べる。長期生存の予測因子としても **非発作性 AF（SHR 0.96, 95%CI 0.72–1.27, P=.750）と左房径（SHR 0.99, 0.95–1.03, P=.540）はいずれも有意でなかった**。ただし10年時点の分母は71例（prolonged monitoring 36例）で 95%CI も示されておらず、「10年で差が消える」を強い主張として引用してはならない。
 
-**病型についての短期データは逆を向く** — Terminate AF では12か月の ATA 累積発生率が **persistent 8% vs long-standing persistent 28%（P=.002）**（[Damiano 2026](https://pubmed.ncbi.nlm.nih.gov/42092502/)）。**矛盾ではなく時間軸の違い**として読むのが妥当で、実務的には「LSPAF でも諦めない／ただし12か月時点で約3割は再発すると説明する」が両立する結論である。
+**病型についての短期データは逆を向く** — Terminate AF では12か月の ATA（atrial tachyarrhythmia：心房性頻脈性不整脈、AF・心房粗動・心房頻拍の総称） 累積発生率が **persistent 8% vs long-standing persistent 28%（P=.002）**（[Damiano 2026](https://pubmed.ncbi.nlm.nih.gov/42092502/)）。**矛盾ではなく時間軸の違い**として読むのが妥当で、実務的には「LSPAF でも諦めない／ただし12か月時点で約3割は再発すると説明する」が両立する結論である。
 
 ### III-4. 見落とされがちなトレードオフ — AKI
 
-Yi の単施設データでは **PSM 後 AKI が 29% vs 20%（P=.014）** と有意に増加し、かつ **AKI は晩期死亡の最強の予測因子（SHR 2.56, 95%CI 2.03–3.23, P<.001）**であった。著者は "CMP-IV is an independent risk factor for this complication" と自認する。一方 Sakurai メタでは AKI RR 1.00（0.94–1.07）、オランダ全国レジストリの非僧帽弁手術では renal failure OR 1.57（0.94–2.61）, P=0.083 と有意でない。
+Yi の単施設データでは **PSM 後 AKI（acute kidney injury：急性腎障害） が 29% vs 20%（P=.014）** と有意に増加し、かつ **AKI は晩期死亡の最強の予測因子（SHR 2.56, 95%CI 2.03–3.23, P<.001）**であった。著者は "CMP-IV is an independent risk factor for this complication" と自認する。一方 Sakurai メタでは AKI RR 1.00（0.94–1.07）、オランダ全国レジストリの非僧帽弁手術では renal failure OR 1.57（0.94–2.61）, P=0.083 と有意でない。
 
 → **フルの biatrial CMP-IV（CPB +65分）を行う文脈でのみ顕在化する可能性がある。「PPM だけがトレードオフ」という定型的記述は、Cox-Maze IV を論じる際には不十分である。**
 
@@ -226,7 +274,7 @@ Yi の単施設データでは **PSM 後 AKI が 29% vs 20%（P=.014）** と有
 
 最も要望の多かった介入は **循環器/電気生理医からのサポート（21.21%）**で、**紹介元循環器医が同時アブレーションに言及しないと答えた外科医が 39.3%**。著者は "continued education is needed even within the cardiology community" と述べ、さらに *"**Before implementing quality reporting, more data are needed regarding the effectiveness of PVI versus biatrial maze to drive the metrics.**"* と、**lesion set のエビデンス不足（章 IV）が質指標設定の障害になっている**循環構造を指摘している。
 
-なお non-mitral 手術での安全性懸念には直接の反証がある。ICE-AFIB では**非僧帽弁（左房切開を伴わない）群でも僧帽弁群と重大有害事象・不整脈再発のいずれも有意差がなかった**（30日複合 MAE 6.1% vs 10.9%, P=.5504；primary effectiveness 66.7%［25/39］ vs 70.4%［57/81］, P=.6807）。著者はこれを "perceived complexity (particularly in nonatriotomy concomitant surgery)" という普及障壁への直接的な反証として提示している（[Ad 2026](https://pubmed.ncbi.nlm.nih.gov/41138810/)）。オランダの実データでも、同時アブレーションは周術期合併症を増やさず（in-hospital mortality OR 0.76 [0.43–1.34]、CVA/TIA OR 0.52 [0.26–1.06]、pneumonia OR 0.71 [0.47–1.09]、renal failure OR 1.57 [0.94–2.61]、いずれも有意差なし）、時間コストは調整後 **CPB +18分（95%CI 16–21）、大動脈遮断 +8分（6–10）** にとどまった（[Bayón 2025](https://pubmed.ncbi.nlm.nih.gov/40720587/)）。
+なお non-mitral 手術での安全性懸念には直接の反証がある。ICE-AFIB では**非僧帽弁（左房切開を伴わない）群でも僧帽弁群と重大有害事象・不整脈再発のいずれも有意差がなかった**（30日複合 MAE 6.1% vs 10.9%, P=.5504；primary effectiveness 66.7%［25/39］ vs 70.4%［57/81］, P=.6807）。著者はこれを "perceived complexity (particularly in nonatriotomy concomitant surgery)" という普及障壁への直接的な反証として提示している（[Ad 2026](https://pubmed.ncbi.nlm.nih.gov/41138810/)）。オランダの実データでも、同時アブレーションは周術期合併症を増やさず（in-hospital mortality OR 0.76 [0.43–1.34]、CVA/TIA OR 0.52 [0.26–1.06]、pneumonia OR 0.71 [0.47–1.09]、renal failure OR 1.57 [0.94–2.61]、いずれも有意差なし）、時間コストは調整後 **CPB（cardiopulmonary bypass：人工心肺） +18分（95%CI 16–21）、大動脈遮断 +8分（6–10）** にとどまった（[Bayón 2025](https://pubmed.ncbi.nlm.nih.gov/40720587/)）。
 
 > [!tip] 時間コストは「どこまでやるか」で4倍以上変わる
 > 遮断時間の懸念（barrier の 22.73%）に対する実測値は、**+8分（オランダ・非僧帽弁レジストリ、調整後）／+17.41分（RCTメタ・遮断）／+25分（Yi のフル CMP-IV 実データ）**、CPB では **+18分／+26.96分／+31.6分／+65分**と、lesion set の完全性に比例して4倍以上の幅がある。Terminate AF の実測では焼灼操作だけで **iRF 11±4分 ＋ cryo 10±3分 ≒ 21分**。**時間コストを述べるときは lesion set とセットで示すこと。**
@@ -309,7 +357,7 @@ Yi の単施設データでは **PSM 後 AKI が 29% vs 20%（P=.014）** と有
 | **CTI line** | **8/28（28.6%）＝最も破綻しやすい**。かつ非CTI右房粗動が増える（29.6% vs 10.2%, P=.031） | PROMPT-AF 233/246（94.3%） |
 
 > [!danger] この表が示す最重要の非対称性
-> **外科が durable なのは左房後壁・roof（6%台）で、弱いのは CTI（28.6%）・intercaval（20%）・冠静脈洞・僧帽弁峡部である。** カテーテルはその逆で後壁が最も破綻する（66.7–75%）。**したがってカテーテルの2つの陰性 RCT で外科的 box lesion の価値を棄却してはならない。** 逆に、**外科側も「うちの box は本当に透壁か」を示さない限り同じ土俵に乗れない** — 外科領域でも box (n=90) vs U lesion (n=361) で再発差はなく（多変量 OR 0.50, 95%CI 0.21–1.15, P=.11、[Nitta 2025](https://pubmed.ncbi.nlm.nih.gov/40061540/)）、胸腔鏡単独外科アブレーションはカテーテルに勝てていない（CASA-AF、章 VIII）。**「外科なら透壁だから勝てる」は未証明である。**
+> **外科が durable なのは左房後壁・roof（6%台）で、弱いのは CTI（cavotricuspid isthmus：下大静脈–三尖弁輪間峡部）（28.6%）・intercaval（20%）・冠静脈洞・僧帽弁峡部である。** カテーテルはその逆で後壁が最も破綻する（66.7–75%）。**したがってカテーテルの2つの陰性 RCT で外科的 box lesion の価値を棄却してはならない。** 逆に、**外科側も「うちの box は本当に透壁か」を示さない限り同じ土俵に乗れない** — 外科領域でも box (n=90) vs U lesion (n=361) で再発差はなく（多変量 OR 0.50, 95%CI 0.21–1.15, P=.11、[Nitta 2025](https://pubmed.ncbi.nlm.nih.gov/40061540/)）、胸腔鏡単独外科アブレーションはカテーテルに勝てていない（CASA-AF、章 VIII）。**「外科なら透壁だから勝てる」は未証明である。**
 
 なお CORNERSTONE では **症候性胃不全麻痺が後壁隔離群のみ3例（1.2%）**（発症2日、消失32日）に発生している。外科でも後壁・食道近傍のエネルギー印加時には迷走神経（胃前庭部枝）損傷を意識すべきである。
 
@@ -323,7 +371,7 @@ Yi の単施設データでは **PSM 後 AKI が 29% vs 20%（P=.014）** と有
 Cox-Maze の設計思想そのものが、カテーテル領域で2つの RCT に支持された：
 
 - **PROMPT-AF**（中国12施設495例）: Marshall 静脈エタノール注入（EIVOM）＋僧帽弁峡部・左房ルーフ・CTI の3ライン追加により、12か月・AAD 非使用下の心房性不整脈非再発が **70.7%（174/246）vs 61.5%（153/249）（絶対差 9.2%, 95%CI 1.0–17.6、HR 0.73, 95%CI 0.54–0.99, P=.045）**（[Sang 2025](https://pubmed.ncbi.nlm.nih.gov/39556379/)）
-- **Marshall-Plan**（単施設118例）: VOM エタノール＋PVI＋3ライン で **86.4%（51/59）vs 66.1%（39/59）（絶対差 +20.3%, P=0.012**、HR/95%CI の報告なし）（[Derval 2025](https://pubmed.ncbi.nlm.nih.gov/40392905/)）
+- **Marshall-Plan**（単施設118例）: VOM（vein of Marshall：Marshall 静脈） エタノール＋PVI＋3ライン で **86.4%（51/59）vs 66.1%（39/59）（絶対差 +20.3%, P=0.012**、HR/95%CI の報告なし）（[Derval 2025](https://pubmed.ncbi.nlm.nih.gov/40392905/)）
 
 **両試験の共通項は「Marshall 静脈・冠静脈洞という心外膜構造を処理して僧帽弁峡部ブロックを完成させたこと」であり、これは外科が術野から無償で行える処置である。** 実際 PROMPT-AF では僧帽弁峡部ブロックのため **62.6%（154/246）で冠静脈洞内からの追加焼灼**を要し、Marshall-Plan は**系統的な冠静脈洞内焼灼 4±3分を前提**としている。
 
@@ -376,7 +424,7 @@ Maze 術後に心房頻拍を発症した36例中33例（92%）に電気生理�
 
 **しかしこの数値を因果として引いてはならない**：
 - 同解析は各原著の成功定義をそのまま採用し（*"The paper's definition of freedom from AF was used for each included study"*）、**blanking period・>30秒閾値・AAD の扱い・リズムモニタリング手段と頻度がいずれも本文に記載されていない**。
-- 決定的な4年時点の BRF データは**わずか2編78例**（AF発生率 51.39%, 95%CI 20.40–81.69, I²=87.5%, leave-one-out 変動 31–77%）に依存し、メタ回帰の OR 12.04（95%CI 2.15–67.6, p=0.0047）も同様に不安定。
+- 決定的な4年時点の BRF（bipolar radiofrequency：双極高周波） データは**わずか2編78例**（AF発生率 51.39%, 95%CI 20.40–81.69, I²=87.5%, leave-one-out 変動 31–77%）に依存し、メタ回帰の OR 12.04（95%CI 2.15–67.6, p=0.0047）も同様に不安定。
 - COI が逆方向に働く点にも注意 — Baudo 論文は AtriCure（bipolar RF クランプの主要メーカー）のコンサルタントを含み、後述の nsPFA 3編は全編 Pulse Biosciences 資金・株式保有である。**どちらの結論も企業利益と整合する。**
 
 一方、同メタ解析から実務に使える所見が2つある：**① AF 再発の唯一の多変量独立予測因子は平均左房径（OR 1.04/mm, 95%CI 1.01–1.08, p=0.0159）。② bipolar RF サブグループでは左心耳閉鎖が保護因子（OR 0.92, 95%CI 0.88–0.97, p=0.0004）** — **LAA 処置を Cox-Maze IV に組み込む根拠を、塞栓予防に加えてリズム転帰の側からも補強する所見**である。
@@ -412,18 +460,18 @@ Baudo が指摘する構造問題（**bipolar clamp の jaw 先端が僧帽弁�
 
 Yi 2026 は僧帽弁輪・三尖弁輪を跨ぐ経弁的（isthmus 代用）焼灼をあえて試み、**9頭中2頭（22%）が通電1秒以内に難治性心室細動を発症し、8–10回の除細動に不応で死亡した**。著者らは冠攣縮を疑い *"Until this work is done, **ablation over coronary arteries should not be performed**"* と明記している。
 
-**回旋枝・冠静脈洞の直上を走る mitral isthmus line と、右冠動脈近傍の CTI line については、現時点でも endocardial cryo が標準である**という結論を、この研究は覆さない。同一技術に対して「未検証（Ad ら）」「やってみたら致死的（Damiano/Zemlin ら）」という温度差があるが、**外科レビューとしては唯一実際に試した Yi の VF シグナルを最上位に置くべきである。**
+**回旋枝・冠静脈洞の直上を走る mitral isthmus line と、右冠動脈近傍の CTI line については、現時点でも endocardial cryo が標準である**という結論を、この研究は覆さない。同一技術に対して「未検証（Ad ら）」「やってみたら致死的（Damiano/Zemlin ら）」という温度差があるが、**外科レビューとしては唯一実際に試した Yi の VF（ventricular fibrillation：心室細動） シグナルを最上位に置くべきである。**
 
 そしてカテーテル PFA 側からも同方向の警告が来ている（章 IX-3）：pentaspline カテーテルによる外側僧帽弁峡部ラインの初期研究で**冠動脈攣縮が臨床的に 4–10%、無症候性では最大 40%** に生じ、EHRA 声明は pentaspline による CTI アブレーションを**静注ニトログリセリン下でのみ**行うよう求めている（[Kühne 2026](https://pubmed.ncbi.nlm.nih.gov/41968953/)）。
 
 ### V-5. 透壁性 ≠ 伝導ブロック ≠ AF free
 
 nsPFA の前臨床データを読む際の3段の飛躍を明記しておく：
-- Serra は透壁 100% を示しながら **EP 検証を行っていない**（残存平滑筋の非伝導性は染色からの推定）。
+- Serra は透壁 100% を示しながら **EP（electrophysiology：電気生理） 検証を行っていない**（残存平滑筋の非伝導性は染色からの推定）。
 - Yi は逆に、**組織学的に非透壁だった RAA lesion でも30日 exit block は成立していた**例を報告し、両者が一致しないことを自ら明記している。
 - そして **nsPFA 3編のいずれも AF モデルではなく、Holter/ILR によるリズム評価をしていない。**
 
-**「透壁100%」から「AF free 90%」への飛躍は、本レビューの精読範囲でどの論文もまだ埋めていない。** ヒトで外科的に PFA を用いた唯一の前向き報告は、CABG（10例）または AVR（2例）に併施した心外膜神経節叢（GP）への PFA 12例の単群試験（NEURAL-AF-2）だが、これは**除神経であって lesion set ではない**。デバイス関連有害事象なく施行でき副交感神経指標（rMSSD 59±18→42±15 ms, P=0.01／HF power 321±189→198±153 ms², P=0.05）の低下が12か月持続したが、**心房有効不応期の変化は非有意（+6.9%±19.6%, P=0.38）＝術中に完遂を確認する指標がない**。リズム監視は24時間 Holter 4回（12か月で計96時間）のみで、しかも**ベースライン Holter で12例全例が AF 陰性**であったため、「再発1例（burden 0.30%）」は AF 抑制効果の根拠にならない（[Musikantow 2024](https://pubmed.ncbi.nlm.nih.gov/39066781/)）。
+**「透壁100%」から「AF free 90%」への飛躍は、本レビューの精読範囲でどの論文もまだ埋めていない。** ヒトで外科的に PFA を用いた唯一の前向き報告は、CABG（coronary artery bypass grafting：冠動脈バイパス術）（10例）または AVR（2例）に併施した心外膜神経節叢（GP）への PFA 12例の単群試験（NEURAL-AF-2）だが、これは**除神経であって lesion set ではない**。デバイス関連有害事象なく施行でき副交感神経指標（rMSSD 59±18→42±15 ms, P=0.01／HF power 321±189→198±153 ms², P=0.05）の低下が12か月持続したが、**心房有効不応期の変化は非有意（+6.9%±19.6%, P=0.38）＝術中に完遂を確認する指標がない**。リズム監視は24時間 Holter 4回（12か月で計96時間）のみで、しかも**ベースライン Holter で12例全例が AF 陰性**であったため、「再発1例（burden 0.30%）」は AF 抑制効果の根拠にならない（[Musikantow 2024](https://pubmed.ncbi.nlm.nih.gov/39066781/)）。
 
 > [!note] 本セクション内で完全に成立している関係
 > **成績数値が良好な研究ほどリズム判定が疎である** — Baudo（判定手段の記載なしで4年 76.7%）／Musikantow（24時間 Holter 4回で再発 1/12例）／nsPFA 3編（pacing exit block を2–3時点のみで 94–100%）。
@@ -459,7 +507,7 @@ LA 前後径 >5.5 cm の巨大左房群でも、full Cox-Maze 主体なら術後
 
 **「巨大左房に LA 縮小術を足すべきか」に答えられる前向き RCT は存在しない** — Ad 2014 は LA reduction 施行例を最初から除外して設計、Baudo 2023 は全例 LAVR を組入れて「あり vs なし」の比較を含まない、Choi 2022 が唯一の直接比較だが後ろ向き・術者裁量・IPTW である。3編の著者全員が RCT の必要を結論している。
 
-実測平均 LA 径 72.4 mm の巨大左房を対象とした19研究1,658例のメタ解析では、LAVR 併施下の手術は 30日死亡 3.76%（95%CI 2.52–5.56, 18研究）、退院時洞調律 70.18%（47.54–85.94, 10研究）、1年時 AF 30.16%（16.23–49.05, 14研究）であった（判定手段の記載は原著19編に一切なく、他の Cox-Maze 研究と直接比較できない）。**同メタ解析のサブグループ比較が重要な示唆を与える** — LAVR に外科的アブレーションを併施した群は非併施群に比べ退院時洞調律 **83.40%（60.56–94.26, 7研究）vs 34.63%（12.55–66.15, 3研究）（p=0.0124）**、術後 CVA **1.56%（0.96–2.51）vs 12.42%（6.13–23.54）（p<0.0001）** と有意に良好であり、**左房を小さくするだけでは洞調律は得られず lesion set が主役である**（[Baudo 2023](https://pubmed.ncbi.nlm.nih.gov/37821261/)）。
+実測平均 LA 径 72.4 mm の巨大左房を対象とした19研究1,658例のメタ解析では、LAVR 併施下の手術は 30日死亡 3.76%（95%CI 2.52–5.56, 18研究）、退院時洞調律 70.18%（47.54–85.94, 10研究）、1年時 AF 30.16%（16.23–49.05, 14研究）であった（判定手段の記載は原著19編に一切なく、他の Cox-Maze 研究と直接比較できない）。**同メタ解析のサブグループ比較が重要な示唆を与える** — LAVR に外科的アブレーションを併施した群は非併施群に比べ退院時洞調律 **83.40%（60.56–94.26, 7研究）vs 34.63%（12.55–66.15, 3研究）（p=0.0124）**、術後 CVA（cerebrovascular accident：脳血管障害） **1.56%（0.96–2.51）vs 12.42%（6.13–23.54）（p<0.0001）** と有意に良好であり、**左房を小さくするだけでは洞調律は得られず lesion set が主役である**（[Baudo 2023](https://pubmed.ncbi.nlm.nih.gov/37821261/)）。
 
 **手技選択にはトレードオフがある** — 切除法は晩期 CVA 0.80%/year（95%CI 0.58–1.11, 4研究）と縫縮法 2.56%/year（0.99–6.65, 6研究）より良好（p=0.0240）である一方、**術後出血は切除 7.24%（5.81–8.99）vs 縫縮 3.19%（1.39–7.16）（p=0.0551）** と逆向き。「早期出血を取るか晩期塞栓を取るか」の判断となる。なお**組入れ RCT 4件はすべて縫縮法であり、切除法の RCT は存在しない**（研究間サブグループ比較＝ecological）。
 
@@ -502,7 +550,7 @@ LAAOS III（n=4770、平均追跡3.8年）では、虚血性脳卒中または�
 
 ### VII-2. LAA 閉鎖は OAC の「代替」ではなく「上乗せ」— ここは決着している
 
-LAAOS III の post hoc 解析で、経口抗凝固薬使用を時間依存共変量とした Cox モデルにおける LAA 閉鎖の効果は **OAC 服用期間 HR 0.63（95%CI 0.45–0.89）、非服用期間 HR 0.63（95%CI 0.32–1.23）とほぼ同一**であった（[Connolly 2023](https://pubmed.ncbi.nlm.nih.gov/37732457/)）。すなわち閉鎖の効果は OAC の有無に依らない add-on であり、**OAC を止めてよい根拠にはならない**。
+LAAOS III の post hoc 解析で、経口抗凝固薬使用を時間依存共変量とした Cox モデルにおける LAA 閉鎖の効果は **OAC（oral anticoagulant：経口抗凝固薬） 服用期間 HR 0.63（95%CI 0.45–0.89）、非服用期間 HR 0.63（95%CI 0.32–1.23）とほぼ同一**であった（[Connolly 2023](https://pubmed.ncbi.nlm.nih.gov/37732457/)）。すなわち閉鎖の効果は OAC の有無に依らない add-on であり、**OAC を止めてよい根拠にはならない**。
 
 大出血も増えない（未調整解析：全 visit で OAC 群 HR 0.91 [0.70–1.16]、一部 visit HR 1.00 [0.74–1.34]、一度も OAC なし HR 0.95 [0.62–1.45]、P_interaction=0.88）。
 
@@ -547,7 +595,7 @@ LAAOS III の post hoc 解析で、経口抗凝固薬使用を時間依存共変
 
 **最頻の実務基準「遺残血流なし ＋ 残存スタンプ <10 mm」の 10 mm という閾値の唯一の明示的根拠は、2005年 LAAOS pilot における「観察された最小の LAA の閉鎖前長の50%超に相当するから」という便宜的説明であり、臨床アウトカムとの関連では検証されていない。**
 
-再現性はほとんど担保されていない — 画像・評価プロトコルを明記していた研究は **心臓CT 13/35（37.1%）、TEE 7/70、LAA造影 0/13**、2読影者の合意を成功判定の要件としたのはわずか4研究、validation 効果を報告したのは 4/76（5.2%）。
+再現性はほとんど担保されていない — 画像・評価プロトコルを明記していた研究は **心臓CT 13/35（37.1%）、TEE（transesophageal echocardiography：経食道心エコー） 7/70、LAA造影 0/13**、2読影者の合意を成功判定の要件としたのはわずか4研究、validation 効果を報告したのは 4/76（5.2%）。
 
 **手技の質は Class 1 / LOE A レベルで要求されるようになった**（章 XI）。ACC/AHA 2023 は "absence of flow across the suture line and a stump of **<1 cm**" を術中 TEE で確認することを **COR 1 / LOE A**、AATS 2026 は "reliable technique and verified at the time of operation to be complete"（判定基準は color Doppler flow の欠如と collapsed LAA cavity、不完全なら **suture reinforcement** — クリップの付け直しは LAA 損傷リスク）を **CoR I / LoE A** としている。EHRA/HRS 2024 は "at the very base" で切除せよとし、**internal ligation・stapled excision/exclusion は late follow-up で成績不良と断言**。STS 2023 も *"Stapling only has had poor outcomes, with most patients having a residual stump and recanalization"* と記し、クリップ誤配置による**回旋枝圧迫**リスクにも言及する。
 
@@ -568,7 +616,7 @@ LAAOS III の post hoc 解析で、経口抗凝固薬使用を時間依存共変
 **両者は実は決定的に矛盾していない。** Burton は比例ハザード仮定が破綻しており、それに対応した B-spline モデルでは **HR 0.615（95%CI 0.408–0.929, P=.021）** と効果量が縮む（**この保守的推定値は Abstract に記載がない**）。OPINION の HR 0.83（0.61–1.14）と B-spline HR 0.615（0.408–0.929）は信頼区間が重なる。加えて：
 
 - **デザインの階層が違う** — Burton は6試験中4試験が観察研究で、公表 KM 曲線からの再構築 IPD（PSM/IPW 処理済の曲線と未処理の曲線を混ぜてプール）＝患者レベルの交絡調整ができない。因果推論の強さは OPINION が上。
-- **CVE の定義** — Burton は「臨床的脳卒中＋TIA＋**画像で同定された虚血性イベント**」の混合で研究間不均一。無症候性梗塞を拾う研究が混ざれば効果は大きく見える。
+- **CVE の定義** — Burton は「臨床的脳卒中＋TIA（transient ischemic attack：一過性脳虚血発作）＋**画像で同定された虚血性イベント**」の混合で研究間不均一。無症候性梗塞を拾う研究が混ざれば効果は大きく見える。
 - **抗凝固の背景** — Burton の組入れ研究は術後抗凝固プロトコルを確実に報告していない（著者が明記）。OPINION は**54%が機械弁置換で生涯ワーファリン**。
 - **術式の質** — Burton は cut-and-sew / internal closure / device clip 混在で術式別解析なし。OPINION は **amputation＋2層ポリプロピレン縫合に統一、残存 stump >1 cm を failure と定義して同一手術中に修正**（ただし失敗率の実測値と修正件数は本文に未報告）。
 - **追跡** — Burton は追跡期間の数値が一切報告されていない（4年ランドマークのみ）。OPINION は平均1年で、**LAAOS III で効果が出た「30日超」の時間軸に対して短すぎる**可能性が高い（著者自身、6か月以降にイベント曲線の乖離を観察したと記載、3年・5年追跡が進行中）。
@@ -576,7 +624,7 @@ LAAOS III の post hoc 解析で、経口抗凝固薬使用を時間依存共変
 
 **決着は LeAAPS（NCT05478304、6500例、クリップデバイス、2032年完了予定）待ちである**（他に LAACS-2 NCT03724318、経皮 vs 外科は LAAOS-4 NCT05963698）。
 
-なお **POAF が増えるか**は「増えるという確証も、増えないという確証もない。増えるとしても大きくはない」が現時点で安全な言い方である（Burton 統合 OR 1.157 [95%CI 0.904–1.481, I²=46%, P=.246]／組入れ最大 RCT の ATLAS は 47.3% vs 38.2% と逆方向／OPINION は 29.2% vs 32.3%）。**いずれも POAF の検出手段が本文に記載されていない。**
+なお **POAF（postoperative atrial fibrillation：術後心房細動） が増えるか**は「増えるという確証も、増えないという確証もない。増えるとしても大きくはない」が現時点で安全な言い方である（Burton 統合 OR 1.157 [95%CI 0.904–1.481, I²=46%, P=.246]／組入れ最大 RCT の ATLAS は 47.3% vs 38.2% と逆方向／OPINION は 29.2% vs 32.3%）。**いずれも POAF の検出手段が本文に記載されていない。**
 
 > [!warning] LAA 閉鎖の文献群を「外科的 AF 治療の成績」の根拠にしてはならない
 > 本章の6編はいずれも**術後リズム（洞調律維持率・AF 再発率）を評価していない。** LAAOS III で同時 AF 外科アブレーションが 809/2379（34.0%）／753/2391（31.5%）に併施されているにもかかわらず、その成功率は一切報告されていない。したがって「**アブレーションで洞調律に戻ったから LAA 閉鎖は不要**」という主張を支持するデータも、否定するデータも存在しない。
@@ -748,8 +796,8 @@ EORP-EHAFA レジストリ（17施設464例、非発作性74%、カテーテル�
 ### VIII-10. その他の未解決点（本章）
 
 1. **LAA 閉鎖の寄与が分離できていない** — CASA-AF・CEASE-AF・Zheng・Weininger・EHAFA すべてで外科群に LAA 処理が含まれるが、リズム改善への寄与（左心耳 trigger 除去）も脳卒中予防効果も評価されていない。Khanra は HALT-AF（AtriClip 併用）の結果待ちと述べる。
-2. **Convergent（剣状突起下）の相対的位置づけ** — Aerts は convergent を明示的に除外し「subxiphoid/trans-diaphragmatic アプローチの成績は胸腔鏡より劣ると報告されている」と述べ、Weininger も CONVERGE の lesion set を不十分と評価。一方 CONVERGE 自体は AEF 0/102・PV狭窄0 を達成。**欧州の実臨床では pericardioscopic はわずか3例（1.2%）で胸腔鏡が圧倒的。**
-3. **左片側 VATS の是非** — Weininger のみが LVATS 65% を報告し両側と同等（1年洞調律 79% vs 82%, P=.29、転換 3% vs 1.9%, P=.72）で在院日数（3 vs 4日）・ICU 入室率（9% vs 18%, P=.038）は有利と主張するが、**単一施設・単一術者の非ランダム化比較で、SVC-IVC 線を省くことの右房性不整脈への影響が評価されていない。追試がない。**
+2. **Convergent（剣状突起下）の相対的位置づけ** — Aerts は convergent を明示的に除外し「subxiphoid/trans-diaphragmatic アプローチの成績は胸腔鏡より劣ると報告されている」と述べ、Weininger も CONVERGE の lesion set を不十分と評価。一方 CONVERGE 自体は AEF（atrioesophageal fistula：心房食道瘻） 0/102・PV狭窄0 を達成。**欧州の実臨床では pericardioscopic はわずか3例（1.2%）で胸腔鏡が圧倒的。**
+3. **左片側 VATS（video-assisted thoracoscopic surgery：胸腔鏡下手術） の是非** — Weininger のみが LVATS 65% を報告し両側と同等（1年洞調律 79% vs 82%, P=.29、転換 3% vs 1.9%, P=.72）で在院日数（3 vs 4日）・ICU（intensive care unit：集中治療室） 入室率（9% vs 18%, P=.038）は有利と主張するが、**単一施設・単一術者の非ランダム化比較で、SVC-IVC 線を省くことの右房性不整脈への影響が評価されていない。追試がない。**
 4. **長期（5年超）データの欠如** — 最長でも Aerts の再構成 KM 5年（at risk 胸腔鏡105例／ハイブリッド38例）、Weininger の断面5年（N=23）。**Cox-Maze IV の10年成績と比較できるデータは存在しない。**
 5. **日本人集団への外挿** — 本章10編に日本の施設は含まれない。**EHAFA は年齢中央値63歳・BMI 28、CEASE-AF は BMI 29.7、CONVERGE は BMI 32.9–35.1** と、日本の高齢・小体格 AF 患者とは大きく異なる。**胸腔鏡アクセスの難易度も体格に依存する。**
 
@@ -905,11 +953,11 @@ Pyo（韓国5施設、年齢中央値 59.3歳、**入院中**の PPM を計上�
 
 ### X-4. PPM 以外のコストは増えていない
 
-Ivert 2025 では早期死亡 4/397（1.0%）vs 10/346（2.9%）（P=0.11）、脳卒中 4/397（1.0%）vs 4/346（1.2%）（P=0.88）、出血再開胸 25/397（6.3%）vs 17/346（4.9%）（P=0.51）、縦隔炎 4/397（1.0%）vs 2/346（0.6%）（P=0.82）で、**腎代替療法はむしろ Cox-maze IV 群で有意に少なかった（7/397 = 1.8% vs 23/346 = 6.6%, P=0.001）**。**「Cox-maze IV のコストは実質的にペースメーカに集約される」** — ただし背景の良さによる交絡は当然ある（対照群は有意に高齢 69.5±10.1 vs 65.7±9.0歳、EuroSCORE II 中央値 3.6 vs 1.8、NYHA IV 22.5% vs 1.5%、心臓手術既往 19.9% vs 4.0%、いずれも P<0.001。傾向スコアマッチングは行われていない典型的な confounding by indication）。
+Ivert 2025 では早期死亡 4/397（1.0%）vs 10/346（2.9%）（P=0.11）、脳卒中 4/397（1.0%）vs 4/346（1.2%）（P=0.88）、出血再開胸 25/397（6.3%）vs 17/346（4.9%）（P=0.51）、縦隔炎 4/397（1.0%）vs 2/346（0.6%）（P=0.82）で、**腎代替療法はむしろ Cox-maze IV 群で有意に少なかった（7/397 = 1.8% vs 23/346 = 6.6%, P=0.001）**。**「Cox-maze IV のコストは実質的にペースメーカに集約される」** — ただし背景の良さによる交絡は当然ある（対照群は有意に高齢 69.5±10.1 vs 65.7±9.0歳、EuroSCORE II（European System for Cardiac Operative Risk Evaluation II：心臓手術リスクスコア）中央値 3.6 vs 1.8、NYHA IV 22.5% vs 1.5%、心臓手術既往 19.9% vs 4.0%、いずれも P<0.001。傾向スコアマッチングは行われていない典型的な confounding by indication）。
 
 **エネルギー源は PPM 率に影響しなかった** — cryo 45/360（12.54%）vs bipolar RF 4/37（10.8%）、P=0.83（ただし RF 群37例で非劣性を示す検出力はない）。
 
-**LAA 閉鎖法との関連は仮説生成にとどまる** — 縫合閉鎖で PPM 50/197（25%）、デバイス閉鎖で 7/65（11%）だが、**検定も多変量調整も行われていない**。なお本コホートの LAA 閉鎖率は 203/397（51.1%）で術後は原則 DOAC 継続、**LAAOS III 以降の現行 practice とは異なる**。
+**LAA 閉鎖法との関連は仮説生成にとどまる** — 縫合閉鎖で PPM 50/197（25%）、デバイス閉鎖で 7/65（11%）だが、**検定も多変量調整も行われていない**。なお本コホートの LAA 閉鎖率は 203/397（51.1%）で術後は原則 DOAC（direct oral anticoagulant：直接経口抗凝固薬） 継続、**LAAOS III 以降の現行 practice とは異なる**。
 
 > [!warning] Ivert 2025 からリズム成績を引用してはならない
 > 本研究は主要エンドポイントを PPM とし、**術後の AF 再発率・洞調律維持率を一切測定していない**（blanking の設定も >30秒等の成功閾値も AAD の扱いの規定も存在しない。30秒基準は「術前」AF の定義にのみ用いられている）。**本研究は Cox-maze IV の有効性を評価する材料にはならず、合併症としてのペースメーカのみに使用できる。**
@@ -1084,9 +1132,9 @@ AFMR に maze を併施すると洞結節機能不全が顕在化する：
 
 ### XII-3. AFMR の外科 vs TEER — 決着していない
 
-**AFMR に対する外科修復と TEER を直接比較した研究は1本も存在しない。**
+**AFMR に対する外科修復と TEER（transcatheter edge-to-edge repair：経カテーテル的弁接合術） を直接比較した研究は1本も存在しない。**
 
-- **間接メタ比較**（32研究1923例、外科20研究1166 vs TEER 12研究757）: 晩期重症 MR（≥3+）**2.53/100人年（95%CI 1.66–3.84）vs 6.66（3.09–14.32）、P-interaction=.03**、晩期全死亡 **3.00（1.57–5.72）vs 8.84（4.47–17.47）、P=.02**、晩期 HF 入院 4.44 vs 17.03（P<.01）、晩期 NYHA III/IV 2.98 vs 22.47（P=.01）。**早期成績（30日死亡・脳卒中・AKI・HF入院・再介入）とリバースリモデリングは同等**（[Khairallah 2026](https://pubmed.ncbi.nlm.nih.gov/41442445/)）
+- **間接メタ比較**（32研究1923例、外科20研究1166 vs TEER 12研究757）: 晩期重症 MR（≥3+）**2.53/100人年（95%CI 1.66–3.84）vs 6.66（3.09–14.32）、P-interaction=.03**、晩期全死亡 **3.00（1.57–5.72）vs 8.84（4.47–17.47）、P=.02**、晩期 HF 入院 4.44 vs 17.03（P<.01）、晩期 NYHA（New York Heart Association 心機能分類） III/IV 2.98 vs 22.47（P=.01）。**早期成績（30日死亡・脳卒中・AKI・HF入院・再介入）とリバースリモデリングは同等**（[Khairallah 2026](https://pubmed.ncbi.nlm.nih.gov/41442445/)）
   - ★**制約が重い**：TEER 群は**平均約10歳高齢・NYHA III/IV 2倍・STS-PROM 2倍超**、weighted mean 追跡が **外科4.48年 vs TEER 1.41年**。そして**外科群は同時 AF アブレーション 74.3%（863/1162）・同時 TR 修復 64.0%（746/1165）を受けているのに対し、TEER 群は両方とも 0%** ＝ **比較しているのは「弁」ではなく「パッケージ」**。差の出た項目ほど I² 58–96%。**リズムデータは皆無。**
 - **RCT 由来（MATTERHORN の非事前規定 post hoc）**: AFMR **34例**（TEER 16 vs 手術 18）で TEER の1年複合有効性の非劣性は達成されず（21.4% vs 29.4%、差 −8、**95%CI −38〜23**、非劣性 P=0.058）。VFMR 174例では非劣性成立（15.9% vs 20.8%、差 −5、−17〜7、P<0.001）（[Rudolph 2025](https://pubmed.ncbi.nlm.nih.gov/39475706/)）
   - ★**95%CI −38〜23 は「何も言えない」幅**であり、**検出力不足であって外科優位の証明ではない。** 交互作用検定も提示されず、著者自身が hypothesis generating と位置づける。**外科側の術式情報（形成/置換、リング、Maze、LAA）が一切記載されていない。**
@@ -1127,7 +1175,7 @@ AFMR に maze を併施すると洞結節機能不全が顕在化する：
 | ⑤ **RV の円錐状リモデリング（基部優位）** | RV sphericity index **<55**／RV中位径正常 ≤38 mm／RV基部径拡大 ≥45 mm（≥24 mm/m²）男性、≥40 mm かつ ≥20 mm/m² 女性 | **A-STR は conical（基部だけ拡大）、肺高血圧による V-STR は elongated spherical（apical remodeling＋tethering）。** 2D 基部径は RV サイズを過大評価するため RV-focused view / 3D / CMR を使う |
 | ⑥ **LV/RV 収縮能保持** | LVEF ≥50%、3D RVEF ≥50%、RVFWLS ≤−20%、RV TDI S' ≥9 cm/s、FAC ≥35%、TAPSE >17 mm | RV-PA coupling：内科治療下では **TAPSE/PASP <0.36 mm/mmHg**、TTVI 後死亡増加は <0.39–0.41。AFMR の TEER 後予後不良因子 <0.34 とほぼ同水準 |
 
-**僧帽弁手術予定患者のスクリーニングに使える A-STR ハイリスク基準（9項目）**: (1) >70歳 (2) 女性 (3) 非発作性 AF/心房粗動 (4) rate control 戦略 (5) HFpEF (6) TA 拡大 (7) 軽度 A-STR＋RA 拡大＋収縮末期 RA:RV 面積比 >2.1 (8) **A-SMR（＝AFMR）の存在** (9) PH 中等度確率（peak TRV 2.9–3.4 m/s）。
+**僧帽弁手術予定患者のスクリーニングに使える A-STR ハイリスク基準（9項目）**: (1) >70歳 (2) 女性 (3) 非発作性 AF/心房粗動 (4) rate control 戦略 (5) HFpEF（heart failure with preserved ejection fraction：左室駆出率が保たれた心不全） (6) TA 拡大 (7) 軽度 A-STR＋RA 拡大＋収縮末期 RA:RV 面積比 >2.1 (8) **A-SMR（＝AFMR）の存在** (9) PH 中等度確率（peak TRV 2.9–3.4 m/s）。
 
 **手技**：A-STR は弁輪拡大という機序そのものに作用するため輪形成単独で足りることが多く、著者らは *"annuloplasty alone may be enough to treat most patients and should be preferred over suture techniques only"* と述べる一方、**進行期でテザリングが加わった症例では "TV annuloplasty alone can be ineffective or even worsen the TR"** と警告している。
 
@@ -1148,7 +1196,7 @@ AFMR に maze を併施すると洞結節機能不全が顕在化する：
 | Farhan 提案定義 | **≥60%**（従来の50%より高いと自認） | 明示せず | **LAVi >34 mL/m²** |
 
 > [!danger] 定義のばらつきが生む実害
-> **EF 42% の患者は MATTERHORN では AFMR、Cleveland では除外、Pyeatte では VFMR に分類される。** 同じ「AFMR」という語が指す集団が論文間で 30〜40% ずれている。**EROA/RVol/VC の定量カットオフを提示した AFMR 外科論文は本レビューの精読範囲でゼロ**（唯一 A-STR の Muraru が定量閾値を持つ）で、すべて定性グレード判定、コアラボ判定を行っているのは MATTERHORN のみ。**AFMR の定義の一次資料は AATS 2026 コンセンサス（[Mori 2026](https://pubmed.ncbi.nlm.nih.gov/42092503/)）に委ねるべきである。**
+> **EF 42% の患者は MATTERHORN では AFMR、Cleveland では除外、Pyeatte では VFMR に分類される。** 同じ「AFMR」という語が指す集団が論文間で 30〜40% ずれている。**EROA（effective regurgitant orifice area：有効逆流弁口面積）/RVol/VC の定量カットオフを提示した AFMR 外科論文は本レビューの精読範囲でゼロ**（唯一 A-STR の Muraru が定量閾値を持つ）で、すべて定性グレード判定、コアラボ判定を行っているのは MATTERHORN のみ。**AFMR の定義の一次資料は AATS 2026 コンセンサス（[Mori 2026](https://pubmed.ncbi.nlm.nih.gov/42092503/)）に委ねるべきである。**
 > なお AATS 2026 自身が *"no studies directly compare the relative effectiveness of PVI, left atrial maze, and biatrial maze specifically in the setting of AFMR"* と自認し、推奨はすべて**変性 MR からの外挿＋病態論理**である。同文書が示す AFMR 特有の重要事実 — **AFMR での外科アブレーションは変性 MR より成功率が低く5年で 40–60% が AF 再発する**、そして **AF アブレーションを行っても遠隔期 TR は進行する**（MVP+Cox-Maze の前向き314例で5年 freedom from ≥3+ TR は約50%、TVP は 58.3% に必要）。**AFMR は「Maze が最も効きにくい基質（平均77歳・LA径5.1 cm）でありながら biatrial maze が推奨される」という緊張関係を抱えている。**
 
 ### XII-6. AFMR 外科論文からリズム成績を引用してはならない
@@ -1190,7 +1238,7 @@ AFMR に maze を併施すると洞結節機能不全が顕在化する：
 *"Current evidence suggests **POAF may function more as a marker of perioperative or patient vulnerability than as a direct causal mechanism** for adverse outcomes."*（[Chatterjee 2026](https://pubmed.ncbi.nlm.nih.gov/42009116/)）
 
 この立場が2つの判断の論理的基盤になっている：
-1. **予防的アブレーション／予防的 LAAO を意図的に「無格付けのエビデンスレビュー」にした**（予防的 PVI のメタ解析は Visanji 7 RCT n=687 で 30日 POAF 21% vs 37%, RR 0.50, I²=64%／最長追跡 incident AF 3% vs 10%, RR 0.3, 95%CI 0.2–0.7, I²=0% と良好だが、6試験が isolated CABG）
+1. **予防的アブレーション／予防的 LAAO（left atrial appendage occlusion：左心耳閉鎖） を意図的に「無格付けのエビデンスレビュー」にした**（予防的 PVI のメタ解析は Visanji 7 RCT n=687 で 30日 POAF 21% vs 37%, RR 0.50, I²=64%／最長追跡 incident AF 3% vs 10%, RR 0.3, 95%CI 0.2–0.7, I²=0% と良好だが、6試験が isolated CABG）
 2. **POAF 後の長期抗凝固を IIb に下げた** — 根拠は STS ACSD 166,747例で ischemic stroke **aOR 0.87（95%CI 0.65–1.16, P=.35）と減らず、大出血 aOR 4.30（3.69–5.03, P<.001）、30日死亡 aOR 1.20（1.02–1.40, P=.024）**（9861 pairs で mortality HR 1.16 [1.06–1.26]、bleeding HR 1.60 [1.38–1.85]）。**ACC/AHA 2023 は COR 2a / LOE B-NR（60日投与後に再評価）、ESC/EACTS 2024 は Class IIa / Level B（2020年版 IIb/B から格上げ）で、STS だけが逆方向に動いた。**
 
 > [!danger] POAF の証拠を慢性 AF の外科アブレーションの正当化に流用してはならない
