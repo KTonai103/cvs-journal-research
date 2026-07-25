@@ -3,8 +3,15 @@
 最終更新: 2026-07-25 / フェーズ: **全フェーズ完了（A〜E 精読 ＋ F 統合・HTML化）**
 
 > ## ✅ 完了（2026-07-25、セッションF）
-> - 統合レビュー `md/AF_surgical_ablation_review.md`（全15章＋精読文献リスト72本、約150KB）
-> - HTML `output/af_surgical_ablation_review.html`（257KB、全文検索窓＋3階層サイドバー目次）
+> - 統合レビュー `md/AF_surgical_ablation_review.md`（全15章＋精読文献リスト72本、197KB / 1,215行）
+> - HTML `output/af_surgical_ablation_review.html`（257KB、全文検索窓＋3階層サイドバー目次、
+>   h2 17／h3 79／表29／callout／PubMed リンク204）
+>
+> ⚠️ **ビルド時の依存**: このHTMLは `convert_to_html.py` の `fix_cjk_emphasis()`（CJK文字に挟まれた
+> `**…**` を pandoc が太字化できない問題の救済）が入った状態で生成した。**この関数はコミット時点で
+> 未コミットの作業変更だった**ため、`convert_to_html.py` が古い状態のまま再ビルドすると本文に
+> リテラルの `**` が残る。再ビルド前に `grep -c fix_cjk_emphasis ../convert_to_html.py` で確認すること
+> （生成後のHTMLで `literal ** pairs = 0` を確認するのが確実）。
 > - ビルダー `build_html.py`（`robotic_cpb/build_html.py` を雛形に複製・meta/既定パスのみ変更）
 > - `index.html` に **不整脈外科（`#arrhythmia`, `--c-arrhythmia`）section を新設**＋カード追加、
 >   catnav リンク追加、ヘッダの「トピックレビュー」件数を 10→11 に更新
