@@ -12,6 +12,7 @@ title: 外科的心房細動治療の現在地 — Maze・ハイブリッド・P
 > - 左サイドバーは章立ての目次。クリックでジャンプ、スクロールで現在地がハイライトされる。
 > - **サイドバー上部の検索窓**にキーワード（例: `CTSN`, `LAAOS`, `nsPFA`, `PPM`, `AFMR`, `blanking`）を入れると本文をハイライトし、`Enter`/`↑↓` で一致箇所を順に移動する。キーボードの `/` で検索窓にフォーカス。
 > - 各引用（例: [Gillinov 2015](https://pubmed.ncbi.nlm.nih.gov/25853744/)）は PubMed へのリンク。**追加学習はここから一次資料へ。**
+> - 図は**すべてオープンアクセス論文（CC BY / CC BY-NC / CC BY-NC-ND）の原図を改変せず**引用しており、各図の直下に出典・DOI・ライセンスを記した。一覧は末尾の[図版の出典とライセンス](#図版の出典とライセンス全35点)。
 > - 末尾に[精読文献リスト（全72本）](#精読文献リスト全72本)。
 > - 章 0（[「成功率」を比較してはならない](#0-このレビューの読み方--成功率を横に並べてはならない)）と章 XIV（[実務への落とし込み](#xiv-実務への落とし込み--症例別の判断と術前説明の文言)）だけでも通読の価値がある。
 
@@ -54,7 +55,23 @@ Blackstone の一次記述がこの現象を最も端的に言う — *"the more
 
 本レビューの背骨は、講演が提示した因果ストーリーである。**AF が持続すると左房と弁輪が拡大し、それ自体が僧帽弁・三尖弁閉鎖不全（AFMR/AFTR）を生む。だから洞調律の維持には弁を守るという意味がある。** この矢印を最初に確認しておくと、以降の術式論がすべて同じ座標系に乗る。
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_afmr_progression_PMC8203518.jpg" alt="AF から弁逆流までの一方向の連鎖（early stage / advanced stage）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 1. AF から弁逆流までの一方向の連鎖（early stage / advanced stage）</b> — 本レビューの背骨をそのまま図にしたもの。慢性 AF → 心房拡大 → <b>弁輪拡大</b> → coaptation 浅化 → 中等度 MR/TR（early stage）。長期化すると両心房のさらなる拡大が後尖 tethering（hamstringing）と弁輪の追加拡大を招き、逆流が悪化して<b>最後に</b>心室拡大が来る（advanced stage）。<br><i>出典: Shibata T, et al. <i>Gen Thorac Cardiovasc Surg</i> 2021;69(7):1041-1049. <a href="https://doi.org/10.1007/s11748-021-01629-x">doi:10.1007/s11748-021-01629-x</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/33970433/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_asmr_vs_vsmr_PMC13027757.jpg" alt="A-SMR は「弁輪の病気」、V-SMR は「心室の病気」" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 2. A-SMR は「弁輪の病気」、V-SMR は「心室の病気」</b> — 左（A-SMR）: 左房拡大（赤 *）と弁輪の円周方向拡大（水色矢印）で coaptation が浅くなり、逆流ジェットは<b>中心性</b>、左室機能は保たれる。右（V-SMR）: 乳頭筋変位と leaflet tethering による<b>偏心性</b>ジェットで左室機能は低下。章 I-1 の CABANA 事後解析（LVEF は多変量で有意でない）が示す構図の図解。<br><i>出典: Venturiello D, et al. <i>Medicina (Kaunas)</i> 2026;62(3):520. <a href="https://doi.org/10.3390/medicina62030520">doi:10.3390/medicina62030520</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41901601/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
 ### I-1. AFMR は「左室の病気」ではなく「左房・弁輪の病気」である
+
+<figure style="margin:18px 0;max-width:620px;">
+<img src="figures/af_afmr_mechanism_PMC12719823.jpg" alt="AFMR を成立させる要素" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 3. AFMR を成立させる要素</b> — 中央の模式図を囲む5つのラベルが AFMR の構成要素 — <b>僧帽弁輪拡大</b>、<b>leaflet remodeling の不足</b>（弁が伸びて追いつかない）、<b>atriogenic leaflet tethering</b>（拡大した左房に弁尖が引き込まれる）、そして左房 myopathy と左室機能障害。「弁が壊れる」病気ではなく「<b>入れ物が伸びて弁が足りなくなる</b>」病気である。<br><i>出典: Pagnesi M, et al. <i>ESC Heart Fail</i> 2025;12(6):3788-3805. <a href="https://doi.org/10.1002/ehf2.15405">doi:10.1002/ehf2.15405</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40927944/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 CABANA の事後解析（n=1391、trivial 超の MR 722例＝52%）で、moderate 以上の有意 MR の独立予測因子は **年齢（OR 1.05, 95%CI 1.02–1.09, p=0.003）・左房容積係数 LAVI（OR 1.05, 95%CI 1.03–1.07, p<0.001）・persistent AF（OR 1.52, 95%CI 1.01–2.30, p=0.047）** の3つのみで、**LVEF は多変量で有意でなかった（OR 0.97, 95%CI 0.94–1.05, p=0.056）**（[Dhont 2025](https://pubmed.ncbi.nlm.nih.gov/40256860/)）。無作為化試験コホートで「AFMR は左室ではなく左房・弁輪の疾患」が裏づけられた所見である。
 
@@ -63,6 +80,11 @@ CABANA の事後解析（n=1391、trivial 超の MR 722例＝52%）で、moderat
 そして AFMR を「機能性だから経過観察」で済ませてはならない — **高度 AF-MR の3年死亡率は高度一次性 MR の2倍超（41% vs 19%, P=0.004）**であり、中等度〜高度 AFMR を伴う心不全入院例の3分の1超が中央値9か月で再入院している（[Farhan 2022](https://pubmed.ncbi.nlm.nih.gov/36480974/)）。
 
 ### I-2. 三尖弁は僧帽弁より弁輪拡大に脆弱 — だから予防的 TAP が理にかなう
+
+<figure style="margin:18px 0;max-width:720px;">
+<img src="figures/af_astr_overview_PMC11095052.jpg" alt="A-STR と V-STR、そして「重なる領域」" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 4. A-STR と V-STR、そして「重なる領域」</b> — 左（A-STR）は<b>三尖弁輪拡大が優位</b>・RV は conical remodeling・RV 収縮能と LVEF は保たれる。右（V-STR）は leaflet tethering 優位・RV elliptical remodeling・RV 機能低下。中央は両者に共通しうる特徴（AF・HFpEF・PH・弁尖 remodeling など）で、<b>実臨床の多くはこの中央に落ちる</b> — だから章 XII-4 の鑑別基準が必要になる。<br><i>出典: Muraru D, et al. <i>Eur Heart J</i> 2024;45(11):895-911. <a href="https://doi.org/10.1093/eurheartj/ehae088">doi:10.1093/eurheartj/ehae088</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38441886/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 同じ矢印は右心系にも走る。in vitro では **三尖弁輪面積の40%拡大で臨床的に意味のある TR が生じるのに対し、僧帽弁で二次性 MR が生じるには弁輪面積の75%拡大を要する**（[Muraru 2024](https://pubmed.ncbi.nlm.nih.gov/38441886/)）。すなわち三尖弁のほうが構造的に脆い。
 
@@ -107,6 +129,17 @@ Cox の回顧によれば、Maze の lesion set は**個別マッピングに基
 
 原法の lesion set は「**両心耳を切除し、肺静脈を隔離し、適切に配置した心房切開線で最も一般的な reentrant circuit の伝導路を遮断する**」ものであった。すなわち**左心耳のみならず右心耳の切除も原法の構成要素**であり、現代の「LAA 閉鎖のみ」との相違は認識しておく必要がある（右心耳切除の臨床的効果を検証したデータは存在しない）。
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_maze_evolution_PMC12214460.jpg" alt="Cox-Maze I → IV の変遷" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 5. Cox-Maze I → IV の変遷</b> — 原法（I）から II・III を経て、切開線（cut-and-sew）の大半をアブレーション線に置き換えた IV へ。<b>線の配置そのものはほぼ保存されている</b>点に注意 — Cox-Maze IV は「簡略化」ではなく「同じ幾何を別のエネルギーで作る」試みである。PVI 単独への縮小がこの幾何の何を捨てる行為なのかは、この4枚を見比べると明確になる。<br><i>出典: Kowalewski M, et al. <i>Eur J Cardiothorac Surg</i> 2025;67(7):ezaf187. <a href="https://doi.org/10.1093/ejcts/ezaf187">doi:10.1093/ejcts/ezaf187</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40574669/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_cmiv_lesionset_PMC13339239.jpg" alt="Cox-Maze IV の lesion set（左房6本・右房4本、エネルギー別）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 6. Cox-Maze IV の lesion set（左房6本・右房4本、エネルギー別）</b> — 左房側: ①右肺静脈 ②左肺静脈 ③roof ④floor ⑤僧帽弁輪（mitral isthmus）⑥冠状静脈洞。右房側: ⑦右房自由壁の切開 ⑧⑨右心耳側 ⑩三尖弁輪（CTI）。<b>赤＝bipolar RF・青＝cryo・黒＝外科的切開</b>で、1つの術式が複数のエネルギーの組み合わせで初めて完成することが読み取れる（章 V-2）。左心耳は切断され、原法どおり右心耳も扱われる。<br><i>出典: Witt MC, et al. <i>Rev Cardiovasc Med</i> 2026;27(6):51123. <a href="https://doi.org/10.31083/RCM51123">doi:10.31083/RCM51123</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/42416594/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
 初回手術は **1987年9月25日**。この患者は**術後第5病日に気管内吸引を契機として AF を発症**したが digoxin と procainamide で洞調律に復し（procainamide は術後2か月時点で severe lupus syndrome のため中止）、以後 **19年11か月1週間**にわたり抗不整脈薬なしで洞調律を維持、20周年の**ちょうど3週間前**に再発してβ遮断薬に即座に反応した。
 
 > [!note] blanking period の一次的正当化はここにある
@@ -126,11 +159,21 @@ Cox は2022年の初回手術35周年記念で「Maze 手術はあと35年続く
 
 ### III-1. 洞調律を取り戻すことは RCT レベルで確立している
 
+<figure style="margin:18px 0;max-width:760px;">
+<img src="figures/af_sr_factors_PMC12214460.jpg" alt="洞調律化に効く因子／効かない因子（相対リスク減少と時間軸）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 7. 洞調律化に効く因子／効かない因子（相対リスク減少と時間軸）</b> — 縦軸は AF 再発の相対リスク減少（上＝有利、下＝不利）、横軸は「1年」「5年」「5年超」の洞調律。バブル径は研究規模。<b>有利</b>: 術中の即時洞調律復帰、発作性 AF、biatrial lesion、LA径 <5 mm、MVS+CABG、LAAO。<b>不利</b>: LA径 >6 mm、術前ペースメーカ、早期 ATA、ICU 滞在延長、高齢。右のグレー（術者経験・AF Heart Team・症例数・ILR 監視）は<b>効果が疑われるが未検証</b>の因子である。<br><i>出典: Kowalewski M, et al. <i>Eur J Cardiothorac Surg</i> 2025;67(7):ezaf187. <a href="https://doi.org/10.1093/ejcts/ezaf187">doi:10.1093/ejcts/ezaf187</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40574669/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+
 持続性/長期持続性 AF を有する僧帽弁手術患者260例を対象とした CTSN の多施設 RCT では、同時外科的アブレーションにより術後6か月と12か月の**両方**で AF がない割合が **63.2%（67/106）vs 29.4%（30/102）、差 33.8パーセントポイント（95%CI 21.1–46.5）, P<0.001** と有意に改善した（リズム判定は6・12か月の3日間連続 Holter、主要エンドポイントの20%は欠測のため多重代入）（[Gillinov 2015](https://pubmed.ncbi.nlm.nih.gov/25853744/)）。
 
 僧帽弁手術の RCT のみを対象とした13試験1,089例のメタ解析でも、洞調律率は退院時 **65.1% vs 18.9%（OR 9.62, 95%CI 4.87–19.02）**、6か月 **63.5% vs 22.7%（OR 7.21, 4.30–12.11）**、1年 **67% vs 25.8%（OR 8.41, 5.14–13.77, I²=48%）** と一貫し、**13試験すべてが個別に有意**で leave-one-out・fixed effect でも変わらなかった（[Gemelli 2023](https://pubmed.ncbi.nlm.nih.gov/37848175/)）。
 
 ### III-2. ハードエンドポイントは「1年 RCT では出ず、長期観察研究で出る」
+
+<figure style="margin:18px 0;">
+<img src="figures/af_concomitant_survival_PMC13244388.jpg" alt="僧帽弁手術±同時 Cox-Maze IV の10年生存（傾向スコア調整）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 8. 僧帽弁手術±同時 Cox-Maze IV の10年生存（傾向スコア調整）</b> — 各群 257例に調整した比較で、10年生存は <b>MVS+CMP-IV 54% vs MVS 単独 43%（P=.007）</b>。曲線は術後2年以降で開き、以後平行に離れ続ける — 1年 RCT ではこの差が観測されない理由がそのまま図に出ている。<br><i>出典: Yi JJ, et al. <i>J Thorac Cardiovasc Surg</i> 2025;170(6):1631-1638.e11. <a href="https://doi.org/10.1016/j.jtcvs.2025.05.005">doi:10.1016/j.jtcvs.2025.05.005</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40383232/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 | アウトカム | RCT（CTSN／RCTメタ） | 長期メタ（median 62か月） | 単施設 PSM（10年） | 判定 |
 |---|---|---|---|---|
@@ -164,6 +207,11 @@ Yi の単施設データでは **PSM 後 AKI が 29% vs 20%（P=.014）** と有
 → **フルの biatrial CMP-IV（CPB +65分）を行う文脈でのみ顕在化する可能性がある。「PPM だけがトレードオフ」という定型的記述は、Cox-Maze IV を論じる際には不十分である。**
 
 ### III-5. 最大のボトルネックはエビデンスではなく実装
+
+<figure style="margin:18px 0;max-width:760px;">
+<img src="figures/af_csa_trend_PMC12342894.jpg" alt="AVR / CABG における同時アブレーション施行率の年次推移（オランダ全国レジストリ）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 9. AVR / CABG における同時アブレーション施行率の年次推移（オランダ全国レジストリ）</b> — 各年で左（赤系）が AVR、右（青系）が CABG、濃色＝非施行・淡色＝施行。<b>2021年でも AVR 55%・CABG 40.3%</b> にとどまり、術前 AF がありながら大半は依然アブレーションを受けていない。2018年以降に登録数が急増しているのは術前 AF の<b>登録漏れ</b>を示唆し、それ以前の年次比較には耐えない（原著の明記）。<br><i>出典: Bayón MA, et al. <i>Eur J Cardiothorac Surg</i> 2025;67(8):ezaf244. <a href="https://doi.org/10.1093/ejcts/ezaf244">doi:10.1093/ejcts/ezaf244</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40720587/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 米国2州の quality collaborative に所属する心臓外科医66名（回答率48.9%）の調査で、同時アブレーションの障壁は **46.30% が「障壁なし」、22.73% が大動脈遮断時間の延長、12.87% が患者のハイリスク**であり、**「効果があると思わない」はわずか 1.50%（1名）**であった。class I 推奨を知らなかったのは 12.1%（8/66）にすぎず、98.5% が自施設に機器と企業担当者を有していた（[Mehaffey 2023](https://pubmed.ncbi.nlm.nih.gov/33840467/)）。
 
@@ -204,9 +252,19 @@ Yi の単施設データでは **PSM 後 AKI が 29% vs 20%（P=.014）** と有
 
 ## IV. Lesion set — 「どこまで焼くか」は決着していない
 
+<figure style="margin:18px 0;max-width:760px;">
+<img src="figures/af_cmiv_lesions_detail_PMC12059748.jpg" alt="Cox-Maze IV の病変を3方向から見る（切開・クランプ・ペンの区別付き）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 10. Cox-Maze IV の病変を3方向から見る（切開・クランプ・ペンの区別付き）</b> — (a) 右房自由壁、(b) 右上方（上下大静脈側）、(c) 左房後面。<b>黒破線＝外科的切開、赤破線＝クランプによるアブレーション線</b>で、同じ lesion set が視野ごとにどう見えるかを示す。章 IV 以降の「どの線を省くか」という議論は、この3枚のどこを消すかという議論である。<br><i>出典: Yu Y, et al. <i>Rev Cardiovasc Med</i> 2025;26(4):26841. <a href="https://doi.org/10.31083/RCM26841">doi:10.31083/RCM26841</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40351669/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+
 「アブレーションをやるか否か」は決着した。**決着していないのは「どこまで焼くか」である。** AATS 2026 コンセンサスにおける Statement 3.4（AFMR での MR 矯正＋同時外科的アブレーション = **CoR I / LoE B-nonrandomized**）と 3.5（biatrial maze should be considered = **CoR IIa / LoE C-expert opinion**）の格差が、この非対称を最も端的に示す（[Mori 2026](https://pubmed.ncbi.nlm.nih.gov/42092503/)）。
 
 ### IV-1. biatrial vs 左房限定 — 「右房病変があるかどうか」が実務解
+
+<figure style="margin:18px 0;">
+<img src="figures/af_biatrial_vs_la_PMC13244388.jpg" alt="biatrial Cox-Maze IV vs 左房限定 — 生存に差はない" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 11. biatrial Cox-Maze IV vs 左房限定 — 生存に差はない</b> — CMP-B 379例 vs CMP-L 28例の10年生存は <b>26% vs 29%、P=.5</b>。ただし CMP-L の n が小さく（10年時 at risk 9例）、この図は「差がない」ことの証明ではなく<b>差を検出できていない</b>ことの提示として読む。判断は生存ではなくリズム側の指標（章 IV-1 本文の Pyo・Guo）で行う。<br><i>出典: Yi JJ, et al. <i>J Thorac Cardiovasc Surg</i> 2025;170(6):1631-1638.e11. <a href="https://doi.org/10.1016/j.jtcvs.2025.05.005">doi:10.1016/j.jtcvs.2025.05.005</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40383232/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 | データ源 | 比較 | 結果 |
 |---|---|---|
@@ -257,6 +315,11 @@ Yi の単施設データでは **PSM 後 AKI が 29% vs 20%（P=.014）** と有
 
 ### IV-3. 「線状焼灼による心房コンパートメント化」— カテーテル領域でついに陽性 RCT が出た
 
+<figure style="margin:18px 0;max-width:760px;">
+<img src="figures/af_marshallplan_PMC12094258.jpg" alt="Marshall-Plan の4ステップ lesion set" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 12. Marshall-Plan の4ステップ lesion set</b> — STEP 1: Marshall 静脈（VOM）へのエタノール注入。STEP 2: PVI。STEP 3: 解剖学的 isthmus ブロック（roof・mitral isthmus・CTI）。± STEP 4: 線に gap がある場合の floor 追加。<b>外科の Cox-Maze IV が刃とクランプで作る線を、カテーテル側が別の手段で再現しようとしている</b>構図であり、章 IV の議論が外科／内科で収束しつつあることを示す。<br><i>出典: Derval N, et al. <i>Circ Arrhythm Electrophysiol</i> 2025;18(5):e013427. <a href="https://doi.org/10.1161/CIRCEP.124.013427">doi:10.1161/CIRCEP.124.013427</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40392905/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+
 Cox-Maze の設計思想そのものが、カテーテル領域で2つの RCT に支持された：
 
 - **PROMPT-AF**（中国12施設495例）: Marshall 静脈エタノール注入（EIVOM）＋僧帽弁峡部・左房ルーフ・CTI の3ライン追加により、12か月・AAD 非使用下の心房性不整脈非再発が **70.7%（174/246）vs 61.5%（153/249）（絶対差 9.2%, 95%CI 1.0–17.6、HR 0.73, 95%CI 0.54–0.99, P=.045）**（[Sang 2025](https://pubmed.ncbi.nlm.nih.gov/39556379/)）
@@ -272,6 +335,21 @@ Cox-Maze の設計思想そのものが、カテーテル領域で2つの RCT �
 
 ### IV-4. Maze 失敗の主因は lesion set の選択ではなく、個々の lesion の不完全性
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_incomplete_lesions_PMC11883703.jpg" alt="Maze 後 AT の機序 — 45% は「線の不完全性」" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 13. Maze 後 AT の機序 — 45% は「線の不完全性」</b> — 電気生理検査の内訳（左）は incomplete ablation 45%、non-PV focus 22%、混在 22%。部位別（右）では <b>冠状静脈洞（CS）が16例で圧倒的に最多</b>、次いで僧帽弁輪5例・PVI 3例・三尖弁輪2例。<b>どこを焼くかより、焼いた線が本当に切れているか</b>が支配的である。<br><i>出典: Nitta T, et al. <i>JTCVS Open</i> 2025;23:110-119. <a href="https://doi.org/10.1016/j.xjon.2024.10.031">doi:10.1016/j.xjon.2024.10.031</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40061540/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_nonpv_foci_PMC11883703.jpg" alt="non-PV foci の分布" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 14. non-PV foci の分布</b> — 左房中隔・CS・CTI・洞結節近傍・SVC・右房側壁・前方僧帽弁輪・crista terminalis・右心耳と、<b>標準 lesion set の外側に広く散る</b>。lesion set をいくら足しても取りきれない残余があることの実データで、章 XV の「どこまで焼くか」の上限を示す。<br><i>出典: Nitta T, et al. <i>JTCVS Open</i> 2025;23:110-119. <a href="https://doi.org/10.1016/j.xjon.2024.10.031">doi:10.1016/j.xjon.2024.10.031</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40061540/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_cs_cryo_PMC11883703.jpg" alt="CS を全周性に凝固するには心内膜側だけでは足りない" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 15. CS を全周性に凝固するには心内膜側だけでは足りない</b> — 後方左房〜後方左室の長軸断面。左: 心内膜側からの cryoprobe では CS の心外膜側に<b>非凝固域が残る</b>。右: 心外膜側からの追加冷凍で全周性の necrosis が完成する。図13 で CS が最多の不完全部位だった理由と、その具体的な対処がこの1枚に収まっている。<br><i>出典: Nitta T, et al. <i>JTCVS Open</i> 2025;23:110-119. <a href="https://doi.org/10.1016/j.xjon.2024.10.031">doi:10.1016/j.xjon.2024.10.031</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40061540/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
 Maze 術後に心房頻拍を発症した36例中33例（92%）に電気生理検査を施行した単施設研究では、**24例（67%）が焼灼線の不完全性によるマクロリエントリー**であり、そのギャップ部位は **冠静脈洞が16例（67%）と最多**、次いで僧帽弁峡部5例・PVI 3例・三尖弁峡部2例であった。心内膜側の焼灼に**心外膜側からの追加冠静脈洞焼灼を加えた症例では術後 AT 発症が 14% から 3% へ減少**（P<.001、多変量 OR 0.21, 95%CI 0.06–0.82, P=.03）し、エネルギー源による差はなかった（cryo 5% vs RF 3%, N.S.）（[Nitta 2025](https://pubmed.ncbi.nlm.nih.gov/40061540/)）。
 
 ### IV-5. 最大の効果量は「術中にブロックを確認したか」
@@ -286,6 +364,11 @@ Maze 術後に心房頻拍を発症した36例中33例（92%）に電気生理�
 ---
 
 ## V. エネルギー源とデバイス — RF / cryo / nsPFA
+
+<figure style="margin:18px 0;max-width:620px;">
+<img src="figures/af_clamp_lesion_histo_PMC13339239.jpg" alt="bipolar RF クランプと、それが作る病変の実際" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 16. bipolar RF クランプと、それが作る病変の実際</b> — (A) bipolar RF クランプ。(B) 作成された病変の割面（スケールバー 5 mm）。(C) 同一病変の組織像で<b>心筋全層が置換されている</b>（スケールバー 2000 µm）。クランプが透壁性病変を作れること自体は証明済みであり、章 V-5 の論点は「透壁性が作れるか」ではなく「<b>透壁性 ≠ 伝導ブロック ≠ AF free</b>」である。<br><i>出典: Witt MC, et al. <i>Rev Cardiovasc Med</i> 2026;27(6):51123. <a href="https://doi.org/10.31083/RCM51123">doi:10.31083/RCM51123</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/42416594/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 ### V-1. RF vs cryo は決着していない
 
@@ -429,6 +512,21 @@ LAAOS III の post hoc 解析で、経口抗凝固薬使用を時間依存共変
 
 ### VII-3. 「閉鎖成功」の定義は乱立しており、成功率という数字は単独では無意味
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_laa_remnant_measure_PMC12399235.jpg" alt="残存左心耳の深さの測り方（術後 TEE）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 17. 残存左心耳の深さの測り方（術後 TEE）</b> — 左回枝を基準（青点）に左心耳入口部を径線として定義し、そこから残存腔の最深部までを測る（赤線＝実測 0.65 cm）。<b>この「入口部をどこに置くか」が施設間で揃っていない</b>ため、同じ症例が成功にも失敗にもなる。<br><i>出典: Richardson KM, et al. <i>Struct Heart</i> 2025;9(8):100469. <a href="https://doi.org/10.1016/j.shj.2025.100469">doi:10.1016/j.shj.2025.100469</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40894368/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_laa_suboptimal_PMC12399235.jpg" alt="「閉鎖したはず」の不良所見4パターン" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 18. 「閉鎖したはず」の不良所見4パターン</b> — (a) 残存 pectinate、(b) 残存腔への血流、(c) 残存深度 >1 cm、(d) 付着血栓（矢印）。<b>心表からは閉じて見えても内側は閉じていない</b>ことがあり、章 VII-3 が要求する術中/術後の画像確認の必要性を示す。<br><i>出典: Richardson KM, et al. <i>Struct Heart</i> 2025;9(8):100469. <a href="https://doi.org/10.1016/j.shj.2025.100469">doi:10.1016/j.shj.2025.100469</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40894368/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_laao_success_time_PMC13178962.jpg" alt="閉鎖成功率は「いつ評価したか」で変わる" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 19. 閉鎖成功率は「いつ評価したか」で変わる</b> — 周術期評価では <b>97%</b> が成功だが、13か月以降では <b>約82%</b> に下がる（棒＝検査件数、折れ線＝成功率）。成功率という数値は評価時期と手段を併記しない限り比較できない — 章 VII-3 の中心的主張の直接証拠。<br><i>出典: Vad R, et al. <i>Eur J Cardiothorac Surg</i> 2026;68(5):ezag146. <a href="https://doi.org/10.1093/ejcts/ezag146">doi:10.1093/ejcts/ezag146</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41965066/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
 外科的 LAA 閉鎖の「成功」判定には **17通りの基準**が併存する（80研究・7517例・10,375検査のSR）。全体成功率 92.8%（9623/10,375）という数字は、評価軸を変えるだけで **70.3% 〜 98.3%** まで動く（[Vad 2026](https://pubmed.ncbi.nlm.nih.gov/41965066/)）：
 
 | 判定軸 | 基準 | 成功率（分子/分母） | 研究数 |
@@ -458,6 +556,11 @@ LAAOS III の post hoc 解析で、経口抗凝固薬使用を時間依存共変
 > **未解決の問い（Vad が明示）**：「完全な解剖学的閉鎖が臨床効果の必要条件か、部分的除外でも十分か、**遺残血流とスタンプのどちらが塞栓源としてより危険か**」。
 
 ### VII-4. 術前 AF のない弁膜症手術例への予防的閉鎖は決着していない
+
+<figure style="margin:18px 0;">
+<img src="figures/af_opinion_km_PMC13191831.jpg" alt="OPINION — AF のない弁膜症手術での予防的左心耳閉鎖（1年）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 20. OPINION — AF のない弁膜症手術での予防的左心耳閉鎖（1年）</b> — 虚血性脳卒中/TIA/心血管死の累積発生は <b>SLAAO 7.0% vs 対照 8.3%、log-rank P=0.24</b>（各群約1060例）。曲線は6か月以降にわずかに離れるが有意差に至らない。<b>「AF がない患者にまで広げる根拠は、現時点では得られていない」</b>と読むのが正確である。<br><i>出典: Yuan X, et al. <i>Eur Heart J</i> 2026;47(20):2440-2448. <a href="https://doi.org/10.1093/eurheartj/ehaf674">doi:10.1093/eurheartj/ehaf674</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40888584/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 - **OPINION**（中国3施設2118例、**術前 AF/AFL なし**＋CHA₂DS₂-VASc ≥2、平均55.6歳、平均1年）: 主要複合（虚血性脳卒中＋TIA＋心血管死）**73/1062（6.9%）vs 87/1056（8.2%）、HR 0.83（95%CI 0.61–1.14), P=.25**。**虚血性脳卒中単独は完全に同等（2.5% vs 2.5%、HR 1.00, 0.58–1.72）**（[Yuan 2026](https://pubmed.ncbi.nlm.nih.gov/40888584/)）
 - **Burton メタ解析**（洞調律例6試験2742例、再構築IPD）: 4年ランドマークで脳血管イベント **HR 0.482（95%CI 0.361–0.643, P<.001）**、中期生存 HR 0.701（0.554–0.886, P=.003）（[Burton 2025](https://pubmed.ncbi.nlm.nih.gov/40132739/)）
@@ -501,6 +604,21 @@ de novo 長期持続性 AF 120例を対象に胸腔鏡下単独外科アブレ�
 > なお同試験は外科側の実行上の困難も記録している — **癒着でアクセス不能となりカテーテルへクロスオーバーしたのが 6/55（11%）**、lesion set 不完全2例を含め完遂率85%、**死亡 1/55（術後3週、敗血症・多臓器不全・食道および胃潰瘍からの出血）**、片側横隔膜麻痺1・不全麻痺1。
 
 ### VIII-2. 組み合わせれば勝つ — 4つの独立 RCT が同じ方向を指す
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_ceaseaf_km_PMC12304665.jpg" alt="CEASE-AF — ハイブリッド vs カテーテル（24か月）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 21. CEASE-AF — ハイブリッド vs カテーテル（24か月）</b> — AF/AFL/AT からの解放は <b>66.3%（63/95）vs 33.3%（17/51）、p&lt;0.001</b>。Class I/III AAD off でも 57.9% vs 29.4%（p=0.001）、持続性 AF 66.2% vs 37.2%、長期持続性 66.7% vs 12.5%（絶対利益 +54.2%）。<b>AF が持続的であるほど差が開く</b>。<br><i>出典: Doll N, et al. <i>Eur J Cardiothorac Surg</i> 2025;67(7):ezaf146. <a href="https://doi.org/10.1093/ejcts/ezaf146">doi:10.1093/ejcts/ezaf146</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40711852/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_surhyb_km_PMC10872694.jpg" alt="SURHYB — CryoMaze 単独に「後からカテーテル」を足すと勝つ" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 22. SURHYB — CryoMaze 単独に「後からカテーテル」を足すと勝つ</b> — AF/AT 再発の累積発生（Fine–Gray、全死亡を競合リスク）は <b>HR 0.38（95%CI 0.26–0.57, P&lt;0.001）</b>。一方<b>全死亡は HR 1.01（0.42–2.46, P=0.99）で不変</b> — 追加手技はリズムを買うが生存は買わない、という本章の主張がそのまま図になっている。<br><i>出典: Bulava A, et al. <i>Europace</i> 2024;26(2):euae040. <a href="https://doi.org/10.1093/europace/euae040">doi:10.1093/europace/euae040</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38306687/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_thora_vs_hybrid_km_PMC11448334.jpg" alt="IPDMA — 未調整では差なし、調整すると差が出る" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 23. IPDMA — 未調整では差なし、調整すると差が出る</b> — (A) 未調整: 胸腔鏡単独 vs ハイブリッドは <b>HR 1.01（0.86–1.18）P=0.92</b> で完全に重なる。(B) 交絡調整後: <b>調整 HR 0.59（0.43–0.83）P&lt;0.001</b> でハイブリッド有利。<b>ハイブリッドがより難しい患者に使われている</b>ため、生データは差を打ち消す。観察研究の読み方の教材でもある。<br><i>出典: Aerts L, et al. <i>Europace</i> 2024;26(10):euae232. <a href="https://doi.org/10.1093/europace/euae232">doi:10.1093/europace/euae232</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/39255332/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
 
 | 試験 | 比較 | 主要成功率 | 効果量 |
 |---|---|---|---|
@@ -564,6 +682,11 @@ Zheng の心内膜マッピングは、この機序を部位別に定量した�
 なお PFA 時代には第2段階の時期設定が早まる可能性がある — EHRA 声明は **PFA では blanking 期間中の再発が cryoballoon より有意に少なく（SINGLE SHOT CHAMPION の連続モニタ判定で 38.1% vs 58.1%）、術後2–3か月の再発は普遍的に晩期失敗と関連する**ことから「臨床判断上は PFA 後1か月の blanking で妥当かもしれない」と提言している（[Kühne 2026](https://pubmed.ncbi.nlm.nih.gov/41968953/)）。
 
 ### VIII-5. 代償は小さくない — 「低侵襲」という語で説明することの危うさ
+
+<figure style="margin:18px 0;max-width:620px;">
+<img src="figures/af_ceaseaf_complications_PMC12304665.jpg" alt="CEASE-AF の主要合併症は「2年かけて増え続ける」" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 24. CEASE-AF の主要合併症は「2年かけて増え続ける」</b> — 30日 7.8%（8/102）→ 12か月 8.8%（9/102）→ 24か月 <b>10.8%（11/102）</b>。カテーテル群は 5.8% → 5.8% → 9.6%（各時点 p≥0.75 で有意差なし）。<b>30日成績だけを示して同意を取ってはならない</b>。<br><i>出典: Doll N, et al. <i>Eur J Cardiothorac Surg</i> 2025;67(7):ezaf146. <a href="https://doi.org/10.1093/ejcts/ezaf146">doi:10.1093/ejcts/ezaf146</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40711852/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 15試験1671例のベイジアンメタ解析では、ハイブリッドは心内膜カテーテル単独に比べ心房性不整脈再発（RR 0.74, 95%CI 0.59–0.94, I²=73%, P=0.01）と再アブレーション（RR 0.44, 0.20–0.96, P=0.03）を減らす一方、**合併症は有意に多く（log RR 1.03, 95%CI 0.68–1.37, I²=0%, P=0.0001）、入院は +3.22日（1.74–4.7）、手技時間は +67.72分（29.81–105.63）長かった**（[Khanra 2026](https://pubmed.ncbi.nlm.nih.gov/41801607/)）。
 
@@ -651,6 +774,17 @@ RCT のみを統合した唯一まとまった直接比較（7 RCT、カテー�
 
 ### IX-2. PFA は PVI を「速く・安全に」したが、「よく効く」ようにはしていない
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_beatparox_km_PMC13043192.jpg" alt="BEAT PAROX-AF — PFA vs RF は12か月で重なる" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 25. BEAT PAROX-AF — PFA vs RF は12か月で重なる</b> — 発作性 AF の single-procedure clinical failure からの解放は、<b>12か月時点で両群ほぼ同一</b>（本文 77.2% vs 77.6%）。PFA は成功率を上げたのではなく、同じ成功率を別の安全性プロファイルで達成している。<br><i>出典: Jaïs P, et al. <i>Eur Heart J</i> 2026;47(13):1527-1537. <a href="https://doi.org/10.1093/eurheartj/ehaf1115">doi:10.1093/eurheartj/ehaf1115</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41568658/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_advent_lto_km_PMC13099369.jpg" alt="ADVENT-LTO — 4年でも差はつかない" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 26. ADVENT-LTO — 4年でも差はつかない</b> — 4年（1,440日）時点の治療成功は <b>PFA 72.8% vs 熱アブレーション 64.3%、log-rank P=0.12</b>（a: on/off-AAD）。AAD off（c）でも 68.4% vs 59.5%。<b>差は一貫して PFA 側に振れるが有意に届かない</b> — 「PFA は効きが良い」と外科側が引用してはならない根拠。<br><i>出典: Reddy VY, et al. <i>Nat Med</i> 2026;32(4):1444-1453. <a href="https://doi.org/10.1038/s41591-026-04246-4">doi:10.1038/s41591-026-04246-4</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41652117/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
 5つの RCT（計約1813例）で PFA は熱アブレーションに対し非劣性を満たすが、**優越性を示したのは SINGLE SHOT CHAMPION 1試験のみ**（PFA 62.9% vs cryoballoon 49.3%、連続 ICM 判定）。BEAT PAROX-AF では **PFA 77.2%（112/145）vs CLOSE protocol 準拠 contact-force RF 77.6%（111/143）、調整差 0.9%（95%CI −8.2〜10.1%）、P=.84 で完全な引き分け**（[Jais 2026](https://pubmed.ncbi.nlm.nih.gov/41568658/)）。EHRA/HRS/APHRS/LAHRS/CHRS 合同科学声明も *"While PFA appears easier to use and safer in most hands, **current evidence does not yet demonstrate superior effectiveness compared with thermal energy sources.**"* と裁定している（[Kühne 2026](https://pubmed.ncbi.nlm.nih.gov/41968953/)）。
 
 ADVENT-LTO（発作性AF、4年延長、n=364）で PFA 優位を主張する側の数値は 72.8% vs 64.3%（log-rank P=0.12、HR 0.75, 95%CI 0.52–1.09）で**有意差なし**。有意だったのは再アブレーション（19/183 = 10.4% vs 32/181 = 17.7%、OR 0.54, 0.29–0.99, P=0.04）と AAD 使用（11.5% vs 20.4%、OR 0.51, 0.28–0.90, P=0.02）のみで、**全解析が post hoc・探索的・nominal P**（著者自身 "should not be interpreted as inferential" と明記）（[Reddy 2026](https://pubmed.ncbi.nlm.nih.gov/41652117/)）。
@@ -660,6 +794,17 @@ ADVENT-LTO（発作性AF、4年延長、n=364）で PFA 優位を主張する側
 なお PFA は手技を確実に速くする（BEAT PAROX-AF: **総手技時間 59±22分 vs 98±33分、調整差 −39分**／左房 dwell time 39±16 vs 77±28分、−37分）が、**透視時間は PFA のほうが長い（12±6分 vs 7±6分、調整差 +5分）**。
 
 ### IX-3. PFA の弱点＝外科の残された領土
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_pfa_tissue_zones_PMC13303300.jpg" alt="PFA の作用は同心円状に減衰する" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 27. PFA の作用は同心円状に減衰する</b> — カテーテル直近から順に、熱損傷（凝固壊死）→ <b>不可逆的電気穿孔</b>（＝目的の病変）→ 可逆的電気穿孔 → 血流/組織灌流への影響 → 神経刺激・筋収縮。<b>目的の病変域の外側に「生き残る心筋」が必ず存在する</b>ことが、PFA が線の完全性を要する術式で弱い理由である。<br><i>出典: Kühne M, et al. <i>Europace</i> 2026;28(6):euag080. <a href="https://doi.org/10.1093/europace/euag080">doi:10.1093/europace/euag080</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41968953/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_pfa_complications_PMC13303300.jpg" alt="PFA が消した合併症と、PFA だけが持つ合併症" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 28. PFA が消した合併症と、PFA だけが持つ合併症</b> — 熱アブレーション（赤）で見られる<b>横隔神経麻痺 2.69%・肺静脈狭窄 0.52%・食道瘻</b>は PFA（青）でほぼゼロ。一方 <b>冠動脈スパズムは PFA 固有</b>（0.12%）で、心タンポナーデは PFA 0.36% vs 熱 0.68%。安全性の「質」が入れ替わっている。<br><i>出典: Kühne M, et al. <i>Europace</i> 2026;28(6):euag080. <a href="https://doi.org/10.1093/europace/euag080">doi:10.1093/europace/euag080</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41968953/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
 
 | 論点 | PFA での実測 | 外科への含意 |
 |---|---|---|
@@ -709,6 +854,11 @@ ADVENT-LTO（発作性AF、4年延長、n=364）で PFA 優位を主張する側
 ## X. 合併症 — ペースメーカの数字を更新する
 
 ### X-1. 「早期13%」は氷山の一角である
+
+<figure style="margin:18px 0;max-width:700px;">
+<img src="figures/af_ppm_cuminc_PMC12005902.jpg" alt="Cox-Maze IV 後のペースメーカ植込みは8年まで増え続ける" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 29. Cox-Maze IV 後のペースメーカ植込みは8年まで増え続ける</b> — 全国レジストリでの累積発生は CMIV 群が <b>術直後で約13%、5年で約22%、8年で約26.5%</b>、対照レジストリ群は5年以降 約13% で平坦（<b>p&lt;0.001, Gray 検定</b>）。<b>曲線が最後まで立ち上がり続ける</b>点が本節の主張 — 早期 PPM 率だけを説明に使うと患者は生涯リスクを過小に理解する。<br><i>出典: Ivert T, et al. <i>Interdiscip Cardiovasc Thorac Surg</i> 2025;40(4):ivaf085. <a href="https://doi.org/10.1093/icvts/ivaf085">doi:10.1093/icvts/ivaf085</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40184218/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 スウェーデン全国7施設の悉皆レジストリ研究は、僧帽弁閉鎖不全＋AF に対する Cox-maze IV 併施 397例と、外科的アブレーションを行わなかった僧帽弁手術単独の AF 患者 346例（術前 PPM 保有例を除外した解析対象690例）を**追跡中央値 8.6年（range 4.8–13.4）／6.1年（range 4.8–8.7）、脱落ゼロ**で比較した（[Ivert 2025](https://pubmed.ncbi.nlm.nih.gov/40184218/)）。
 
@@ -776,6 +926,11 @@ Ivert の対照群では**術前から 42/346（12.1%）にペースメーカが
 **ガイドラインが割れているのはエビデンスが割れているからではない。同じエビデンスに対する学会ごとの許容度の差である。**
 
 ### XI-1. 同時外科的アブレーション — 5文書で4段階に割れる
+
+<figure style="margin:18px 0;max-width:760px;">
+<img src="figures/af_guideline_summary_PMC12214460.jpg" alt="同じ試験、違う推奨 — 学会別の推奨クラス" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 30. 同じ試験、違う推奨 — 学会別の推奨クラス</b> — ESC/EACTS <b>Class I</b>（僧帽弁手術＋リズムコントロール適応例）、STS <b>Class I</b>（僧帽弁・単独 AVR・単独 CABG・AVR+CABG のすべて）、ACC/AHA/ACCP/HRS <b>Class IIa</b>。HRS/EHRA/ECAS/APHRS/SOLAECE は Class ではなく「TO DO」形式で、左房を開ける手術か否かで書き分ける。<b>同一エビデンスから4段階の推奨が生じている</b>。<br><i>出典: Kowalewski M, et al. <i>Eur J Cardiothorac Surg</i> 2025;67(7):ezaf187. <a href="https://doi.org/10.1093/ejcts/ezaf187">doi:10.1093/ejcts/ezaf187</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/40574669/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
 
 | 文書 | 僧帽弁（LA open） | 非僧帽弁（closed atrial） | 推奨文が掲げる目的 |
 |---|---|---|---|
@@ -870,6 +1025,21 @@ Ivert の対照群では**術前から 42/346（12.1%）にペースメーカが
 
 ### XII-1. AFMR は undersized ring annuloplasty 単独で治せる
 
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_asmr_annuloplasty_PMC13027757.jpg" alt="A-SMR に対する完全弁輪縫縮と同時 Cox-Maze" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 31. A-SMR に対する完全弁輪縫縮と同時 Cox-Maze</b> — 左: 全周性の人工弁輪による annuloplasty（AFMR の 91.4% はこれ単独で修復されている）。右: 同時 Cox-Maze の病変配置。<b>弁輪の病気だから弁輪だけを直す、そして原因である AF を同時に断つ</b> — 章 XII の構造がこの2枚に集約されている。<br><i>出典: Venturiello D, et al. <i>Medicina (Kaunas)</i> 2026;62(3):520. <a href="https://doi.org/10.3390/medicina62030520">doi:10.3390/medicina62030520</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41901601/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_afmr_gap_PMC8203518.jpg" alt="巨大左房では弁尖が「届かない」" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 32. 巨大左房では弁尖が「届かない」</b> — (a) 巨大左房症例のエコー — 弁尖間に明らかな gap。(b) 術中写真で同じ gap を直視（矢印は後方弁輪の拡大方向）。弁輪縫縮だけでは coaptation が確保できない症例が存在する。<br><i>出典: Shibata T, et al. <i>Gen Thorac Cardiovasc Surg</i> 2021;69(7):1041-1049. <a href="https://doi.org/10.1007/s11748-021-01629-x">doi:10.1007/s11748-021-01629-x</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/33970433/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_afmr_patch_PMC8203518.jpg" alt="後尖のパッチ増大（自己心膜）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 33. 後尖のパッチ増大（自己心膜）</b> — 自己心膜パッチで後尖を延長し、縫縮では届かない coaptation を作る。<b>AFMR の大半は縫縮単独で足りるが、進行例には弁尖側の追加が要る</b>という章 XII-1 の但し書きの実際。<br><i>出典: Shibata T, et al. <i>Gen Thorac Cardiovasc Surg</i> 2021;69(7):1041-1049. <a href="https://doi.org/10.1007/s11748-021-01629-x">doi:10.1007/s11748-021-01629-x</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/33970433/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
 | 研究 | N（AFMR） | 形成率 | リング | 同時 Maze | 同時 TAP | 残存/再発 MR | 再手術 | 死亡 | PPM |
 |---|---|---|---|---|---|---|---|---|---|
 | **Bakir 2025**（Cleveland、annuloplasty 単独のみ） | **194** | 100%（設計上） | complete rigid/semirigid **126（65%）** vs posterior flexible band **68（35%）**、**中央値 28 mm［15-85th 26–31］**、前尖面積計測後 **1–2サイズ downsizing** | **173（89%）**（biatrial Cox-Maze III/IV 152、PVI＋LAA処理 21） | **124（64%）** | **≥2+：10年 freedom 89%**（95%CI 提示なし、68% band のみ）。ring vs band early P=.41／late P=.92 | **10年 freedom 96%**（5例、うち2例 dehiscence・**1例 MS**） | **0/194（0%）** | 24例（12%） |
@@ -934,6 +1104,17 @@ AFMR に maze を併施すると洞結節機能不全が顕在化する：
 なお **≥2+ で見るか ≥3+ で見るかで TEER の評価は大きく変わる** — メタ解析と MATTERHORN は ≥3+ のみ報告、OCEAN は ≥moderate で層別して「≥moderate 残存群は内科と差なし」を見出している。
 
 ### XII-4. AFTR（A-STR）— 定義と同時 TAP の判断
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/af_astr_discriminate_PMC11095052.jpg" alt="A-STR と V-STR を分ける具体的な数値基準（TVARC / PCR 提案）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 34. A-STR と V-STR を分ける具体的な数値基準（TVARC / PCR 提案）</b> — 弁尖形態（tenting height ≤9 vs &gt;9 mm、tenting volume &lt;2.5 vs ≥2.5 mL）、右心サイズ（mid-RVD ≤38 vs &gt;38 mm、RAV:RVESV ≥1.5 vs &lt;1.5）、RV 収縮能（TAPSE &gt;17 vs ≤17 mm、FAC ≥35 vs &lt;35%）、<b>LVEF ≥50% vs variable</b>、侵襲的血行動態（PCWP ≤15 vs variable）。<b>「心房性」を名乗るには数値の裏づけが要る</b>。<br><i>出典: Muraru D, et al. <i>Eur Heart J</i> 2024;45(11):895-911. <a href="https://doi.org/10.1093/eurheartj/ehae088">doi:10.1093/eurheartj/ehae088</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38441886/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/af_astr_algorithm_PMC11095052.jpg" alt="A-STR の管理アルゴリズム — 外科はどこに入るか" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 35. A-STR の管理アルゴリズム — 外科はどこに入るか</b> — 軽症でも進行リスク（70歳超・女性・非発作性 AF・rate control 戦略・HFpEF・三尖弁輪拡大・A-SMR 併存など）があればリズムコントロールへ。有症候性重症 A-STR では TRI-SCORE による外科リスク判定を経て、<b>外科（弁輪縫縮±同時外科的 AF アブレーション、または弁置換）</b>か経カテーテル治療かに分岐する。<b>リズムコントロールが上流に置かれている</b>点が外科医にとっての要点。<br><i>出典: Muraru D, et al. <i>Eur Heart J</i> 2024;45(11):895-911. <a href="https://doi.org/10.1093/eurheartj/ehae088">doi:10.1093/eurheartj/ehae088</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38441886/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
 
 心房性二次性三尖弁閉鎖不全（A-STR）は6基準すべてで definite、4基準以上で probable と定義される（欧州の学際的専門家意見書、**推奨クラスは付されていない**）（[Muraru 2024](https://pubmed.ncbi.nlm.nih.gov/38441886/)）：
 
@@ -1213,3 +1394,49 @@ AFMR に maze を併施すると洞結節機能不全が顕在化する：
 > **精読**: ★のうち取得できた71編をフルテキスト精読。Workflow による4段パイプライン（① 1論文=1エージェントで全文精読→原文英語引用必須のフラグメント化 ② セクション別ノート執筆 ③ 敵対的ファクトチェッカーが全数値を原文 grep で照合し訂正 JSON を返す ④ 1ファイル=1エージェントで訂正適用）で **2,769数値を照合、訂正90件のうち89件を適用**（1件は誤検知）。実際に捕まった誤りの型は、表の行/列ずれによる数値の取り違え（最頻。pdftotext での列崩れが主因）、他論文の数値の混入、デザインの誤ラベル、引用の帰属先の誤り、取り違えに由来する幻の「原文内不整合」。
 > **限界**: ① **JACC 系8編・BMJ（Heart）系1編は権利上フルテキストを取得できず**、代替文献で論旨を維持した（AFMR 統一定義は AATS 2026 コンセンサスの定義章、PV 再伝導 PFA vs RF・PFA 後 AT registry・MANIFEST-US は EHRA/HRS PFA 科学声明＋ADVENT-LTO＋BEAT PAROX-AF、HARTCAP-AF は Khanra のベイジアンメタが本試験を組み入れ済み、等）。HARTCAP-AF のみ二次資料からの復元として本文中に明示した。② Ann Intern Med 2025 の外科 vs カテーテル SR+MA（PMID 40587868）は未取得で、Huang 2022（JTCVS）で代替した。③ **本レビューが示す「実務への落とし込み」（章 XIV）は文献からの著者の解釈であり、ガイドライン推奨ではない。**
 
+---
+
+## 図版の出典とライセンス（全35点）
+
+本レビューに掲載した図は**すべて査読誌のオープンアクセス論文に掲載された原図**であり、**改変せず**、各ライセンスの表示条件（出典・著者・ライセンスの明示）に従って引用している。オリジナルの図番号・パネル記号は原著のものである。
+
+> [!warning] 掲載しなかった図について
+> オープンアクセス論文の中にも、**その論文自身が第三者から許諾を得て転載した図**（`Reproduced with permission from …` / `adapted from …` と注記されたもの）が含まれる。これらは論文の CC ライセンスの対象外であるため、内容が適切であっても**本レビューでは一切採用していない**（例: Cox-Maze 原法の cut-and-sew 図、各社デバイス写真、McCarthy–Cox の意思決定フローチャート、Hahn らの TR 分類図）。また **JACC 系・BMJ 系の図は権利上使用できない**（章末「限界」参照）。
+
+| 図 | 内容 | 出典 | ライセンス |
+|---|---|---|---|
+| 図 1 | AF から弁逆流までの一方向の連鎖（early stage / advanced stage） | Shibata T, et al. Gen Thorac Cardiovasc Surg 2021;69(7):1041-1049. [doi:10.1007/s11748-021-01629-x](https://doi.org/10.1007/s11748-021-01629-x) | CC BY 4.0 |
+| 図 2 | A-SMR は「弁輪の病気」、V-SMR は「心室の病気」 | Venturiello D, et al. Medicina (Kaunas) 2026;62(3):520. [doi:10.3390/medicina62030520](https://doi.org/10.3390/medicina62030520) | CC BY 4.0 |
+| 図 3 | AFMR を成立させる要素 | Pagnesi M, et al. ESC Heart Fail 2025;12(6):3788-3805. [doi:10.1002/ehf2.15405](https://doi.org/10.1002/ehf2.15405) | CC BY-NC 4.0 |
+| 図 4 | A-STR と V-STR、そして「重なる領域」 | Muraru D, et al. Eur Heart J 2024;45(11):895-911. [doi:10.1093/eurheartj/ehae088](https://doi.org/10.1093/eurheartj/ehae088) | CC BY-NC 4.0 |
+| 図 5 | Cox-Maze I → IV の変遷 | Kowalewski M, et al. Eur J Cardiothorac Surg 2025;67(7):ezaf187. [doi:10.1093/ejcts/ezaf187](https://doi.org/10.1093/ejcts/ezaf187) | CC BY-NC 4.0 |
+| 図 6 | Cox-Maze IV の lesion set（左房6本・右房4本、エネルギー別） | Witt MC, et al. Rev Cardiovasc Med 2026;27(6):51123. [doi:10.31083/RCM51123](https://doi.org/10.31083/RCM51123) | CC BY 4.0 |
+| 図 7 | 洞調律化に効く因子／効かない因子（相対リスク減少と時間軸） | Kowalewski M, et al. Eur J Cardiothorac Surg 2025;67(7):ezaf187. [doi:10.1093/ejcts/ezaf187](https://doi.org/10.1093/ejcts/ezaf187) | CC BY-NC 4.0 |
+| 図 8 | 僧帽弁手術±同時 Cox-Maze IV の10年生存（傾向スコア調整） | Yi JJ, et al. J Thorac Cardiovasc Surg 2025;170(6):1631-1638.e11. [doi:10.1016/j.jtcvs.2025.05.005](https://doi.org/10.1016/j.jtcvs.2025.05.005) | CC BY-NC-ND 4.0 |
+| 図 9 | AVR / CABG における同時アブレーション施行率の年次推移（オランダ全国レジストリ） | Bayón MA, et al. Eur J Cardiothorac Surg 2025;67(8):ezaf244. [doi:10.1093/ejcts/ezaf244](https://doi.org/10.1093/ejcts/ezaf244) | CC BY 4.0 |
+| 図 10 | Cox-Maze IV の病変を3方向から見る（切開・クランプ・ペンの区別付き） | Yu Y, et al. Rev Cardiovasc Med 2025;26(4):26841. [doi:10.31083/RCM26841](https://doi.org/10.31083/RCM26841) | CC BY 4.0 |
+| 図 11 | biatrial Cox-Maze IV vs 左房限定 — 生存に差はない | Yi JJ, et al. J Thorac Cardiovasc Surg 2025;170(6):1631-1638.e11. [doi:10.1016/j.jtcvs.2025.05.005](https://doi.org/10.1016/j.jtcvs.2025.05.005) | CC BY-NC-ND 4.0 |
+| 図 12 | Marshall-Plan の4ステップ lesion set | Derval N, et al. Circ Arrhythm Electrophysiol 2025;18(5):e013427. [doi:10.1161/CIRCEP.124.013427](https://doi.org/10.1161/CIRCEP.124.013427) | CC BY-NC-ND 4.0 |
+| 図 13 | Maze 後 AT の機序 — 45% は「線の不完全性」 | Nitta T, et al. JTCVS Open 2025;23:110-119. [doi:10.1016/j.xjon.2024.10.031](https://doi.org/10.1016/j.xjon.2024.10.031) | CC BY-NC-ND 4.0 |
+| 図 14 | non-PV foci の分布 | Nitta T, et al. JTCVS Open 2025;23:110-119. [doi:10.1016/j.xjon.2024.10.031](https://doi.org/10.1016/j.xjon.2024.10.031) | CC BY-NC-ND 4.0 |
+| 図 15 | CS を全周性に凝固するには心内膜側だけでは足りない | Nitta T, et al. JTCVS Open 2025;23:110-119. [doi:10.1016/j.xjon.2024.10.031](https://doi.org/10.1016/j.xjon.2024.10.031) | CC BY-NC-ND 4.0 |
+| 図 16 | bipolar RF クランプと、それが作る病変の実際 | Witt MC, et al. Rev Cardiovasc Med 2026;27(6):51123. [doi:10.31083/RCM51123](https://doi.org/10.31083/RCM51123) | CC BY 4.0 |
+| 図 17 | 残存左心耳の深さの測り方（術後 TEE） | Richardson KM, et al. Struct Heart 2025;9(8):100469. [doi:10.1016/j.shj.2025.100469](https://doi.org/10.1016/j.shj.2025.100469) | CC BY-NC-ND 4.0 |
+| 図 18 | 「閉鎖したはず」の不良所見4パターン | Richardson KM, et al. Struct Heart 2025;9(8):100469. [doi:10.1016/j.shj.2025.100469](https://doi.org/10.1016/j.shj.2025.100469) | CC BY-NC-ND 4.0 |
+| 図 19 | 閉鎖成功率は「いつ評価したか」で変わる | Vad R, et al. Eur J Cardiothorac Surg 2026;68(5):ezag146. [doi:10.1093/ejcts/ezag146](https://doi.org/10.1093/ejcts/ezag146) | CC BY-NC 4.0 |
+| 図 20 | OPINION — AF のない弁膜症手術での予防的左心耳閉鎖（1年） | Yuan X, et al. Eur Heart J 2026;47(20):2440-2448. [doi:10.1093/eurheartj/ehaf674](https://doi.org/10.1093/eurheartj/ehaf674) | CC BY 4.0 |
+| 図 21 | CEASE-AF — ハイブリッド vs カテーテル（24か月） | Doll N, et al. Eur J Cardiothorac Surg 2025;67(7):ezaf146. [doi:10.1093/ejcts/ezaf146](https://doi.org/10.1093/ejcts/ezaf146) | CC BY 4.0 |
+| 図 22 | SURHYB — CryoMaze 単独に「後からカテーテル」を足すと勝つ | Bulava A, et al. Europace 2024;26(2):euae040. [doi:10.1093/europace/euae040](https://doi.org/10.1093/europace/euae040) | CC BY 4.0 |
+| 図 23 | IPDMA — 未調整では差なし、調整すると差が出る | Aerts L, et al. Europace 2024;26(10):euae232. [doi:10.1093/europace/euae232](https://doi.org/10.1093/europace/euae232) | CC BY 4.0 |
+| 図 24 | CEASE-AF の主要合併症は「2年かけて増え続ける」 | Doll N, et al. Eur J Cardiothorac Surg 2025;67(7):ezaf146. [doi:10.1093/ejcts/ezaf146](https://doi.org/10.1093/ejcts/ezaf146) | CC BY 4.0 |
+| 図 25 | BEAT PAROX-AF — PFA vs RF は12か月で重なる | Jaïs P, et al. Eur Heart J 2026;47(13):1527-1537. [doi:10.1093/eurheartj/ehaf1115](https://doi.org/10.1093/eurheartj/ehaf1115) | CC BY-NC 4.0 |
+| 図 26 | ADVENT-LTO — 4年でも差はつかない | Reddy VY, et al. Nat Med 2026;32(4):1444-1453. [doi:10.1038/s41591-026-04246-4](https://doi.org/10.1038/s41591-026-04246-4) | CC BY-NC-ND 4.0 |
+| 図 27 | PFA の作用は同心円状に減衰する | Kühne M, et al. Europace 2026;28(6):euag080. [doi:10.1093/europace/euag080](https://doi.org/10.1093/europace/euag080) | CC BY 4.0 |
+| 図 28 | PFA が消した合併症と、PFA だけが持つ合併症 | Kühne M, et al. Europace 2026;28(6):euag080. [doi:10.1093/europace/euag080](https://doi.org/10.1093/europace/euag080) | CC BY 4.0 |
+| 図 29 | Cox-Maze IV 後のペースメーカ植込みは8年まで増え続ける | Ivert T, et al. Interdiscip Cardiovasc Thorac Surg 2025;40(4):ivaf085. [doi:10.1093/icvts/ivaf085](https://doi.org/10.1093/icvts/ivaf085) | CC BY 4.0 |
+| 図 30 | 同じ試験、違う推奨 — 学会別の推奨クラス | Kowalewski M, et al. Eur J Cardiothorac Surg 2025;67(7):ezaf187. [doi:10.1093/ejcts/ezaf187](https://doi.org/10.1093/ejcts/ezaf187) | CC BY-NC 4.0 |
+| 図 31 | A-SMR に対する完全弁輪縫縮と同時 Cox-Maze | Venturiello D, et al. Medicina (Kaunas) 2026;62(3):520. [doi:10.3390/medicina62030520](https://doi.org/10.3390/medicina62030520) | CC BY 4.0 |
+| 図 32 | 巨大左房では弁尖が「届かない」 | Shibata T, et al. Gen Thorac Cardiovasc Surg 2021;69(7):1041-1049. [doi:10.1007/s11748-021-01629-x](https://doi.org/10.1007/s11748-021-01629-x) | CC BY 4.0 |
+| 図 33 | 後尖のパッチ増大（自己心膜） | Shibata T, et al. Gen Thorac Cardiovasc Surg 2021;69(7):1041-1049. [doi:10.1007/s11748-021-01629-x](https://doi.org/10.1007/s11748-021-01629-x) | CC BY 4.0 |
+| 図 34 | A-STR と V-STR を分ける具体的な数値基準（TVARC / PCR 提案） | Muraru D, et al. Eur Heart J 2024;45(11):895-911. [doi:10.1093/eurheartj/ehae088](https://doi.org/10.1093/eurheartj/ehae088) | CC BY-NC 4.0 |
+| 図 35 | A-STR の管理アルゴリズム — 外科はどこに入るか | Muraru D, et al. Eur Heart J 2024;45(11):895-911. [doi:10.1093/eurheartj/ehae088](https://doi.org/10.1093/eurheartj/ehae088) | CC BY-NC 4.0 |

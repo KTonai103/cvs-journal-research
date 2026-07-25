@@ -28,6 +28,34 @@
 > 2. 高リスク主張 **95件**について「数値の組（点推定＋95%CI＋P値など）が原ノートの同一行に共起するか」を
 >    検証 → **95/95 一致**（＝数値の取り違え・他論文からの混入がないことの確認）。
 > どちらもスクリプト1本で再実行できる。**次に本文を改訂したら必ず再実行すること。**
+>
+> ## ✅ 追補（2026-07-25、同日）— 図版35点を挿入
+> 「図解が少なすぎる」との指摘を受け、**オープンアクセス論文の原図35点**を `figures/` に取得して
+> 22箇所（章I〜XII）に挿入。MD 197KB→238KB / 1,215→1,443行、HTML 257KB→305KB。
+> 図の一覧は本文末尾の「図版の出典とライセンス（全35点）」に表として持たせた。
+>
+> **図の選定手順（再現可能・次プロジェクトでも踏襲）**
+> 1. 精読71編のPMIDを **`https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=…`**
+>    （旧 `/pmc/utils/idconv/v1.0/` は301して壊れる）でPMC IDへ変換 → 32編がPMC収載。
+> 2. 各PMC記事HTMLから `creativecommons.org/licenses/(...)/(...)` を正規表現で拾いライセンス判定
+>    → **CC系22編**（残りは author manuscript 等で再利用不可）。不足トピックは
+>    `esearch db=pmc … AND open access[filter]` で OA 論文を追加検索して補った。
+> 3. ★**第三者著作権の除外が最重要**: OA論文の中にも「`Reproduced with permission from AtriCure`」
+>    「`adapted from Hahn et al.`」等の**転載図**が混じり、これは論文のCCライセンスの対象外。
+>    `efetch db=pmc rettype=xml` で `<fig>` ごとの全キャプションを取り、
+>    `permission|Reproduced|adapted|courtesy|©` を含む図を機械的に落とした（実際に
+>    Cox-Maze原法のcut-and-sew図・各社デバイス写真・McCarthy–Coxフローチャート等が該当し除外）。
+> 4. ★**画像の実URLは記事HTML内の `https://cdn.ncbi.nlm.nih.gov/pmc/blobs/…` のみ**。
+>    `…/articles/PMCxxx/bin/<file>.jpg` は404のHTMLを返すので、拡張子だけ見て成功と誤認しないこと
+>    （先頭2バイトが `\xff\xd8` かで判定した）。PMCは連続アクセスでreCAPTCHAを返すので
+>    記事HTMLはローカルにキャッシュし、間隔を3〜6秒空ける。
+> 5. ★**全35枚を実際に画像として目視確認**してからキャプションを書いた（キャプションの数値は図中の
+>    数値と一致することを確認済み）。原著のfigure番号とファイル名の対応が記事HTMLとズレる例があり
+>    （CEASE-AF）、キャプションは**図に写っている内容だけ**を書くのが安全。
+> 6. figcaption は `convert_to_html.py` の共有CSSで `text-align:center` になるため、
+>    長文キャプションはインライン `text-align:left` で上書きする（共有CSSは変更しない）。
+>    figcaption内のmarkdownリンク `[x](url)` は**raw HTMLブロック内なので変換されない** → `<a href>` を直書き。
+> 7. 画像は `figures/` と `output/figures/` の**両方**に置く（HTMLは `output/` 起点で `figures/…` を参照）。
 
 <details>
 <summary>以下は精読フェーズ（A〜E）の記録 — 追加選定・追補時の参照用</summary>

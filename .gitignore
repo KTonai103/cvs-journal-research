@@ -29,3 +29,6 @@ output/2026_05_*/
 # small_annulus_avr working dirs (raw PDFs kept out of public repo)
 small_annulus_avr/Reference/
 small_annulus_avr/pdfs/
+
+# Cached PMC article HTML for figure harvesting (copyrighted source pages)
+*/corpus/pmc_html/
