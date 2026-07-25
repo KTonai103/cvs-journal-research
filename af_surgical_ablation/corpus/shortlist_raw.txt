@@ -1,0 +1,1178 @@
+
+====================================================================================================
+## 01_coxmaze_outcomes  Cox-Maze IV 遠隔成績
+====================================================================================================
+[ 23.5] PMID 40317284 | 2025 | J Thorac Cardiovasc Surg
+        The American Association for Thoracic Surgery (AATS) 2025 Expert Consensus Document: Management of Ebstein anomaly in children and adults
+[ 22.0] PMID 38306687 | 2024 | Europace
+        Sequential hybrid ablation vs. surgical CryoMaze alone for treatment of atrial fibrillation: results of multicentre randomized controlled trial
+[ 21.5] PMID 39471966 | 2025 | Am J Cardiol
+        Late Survival Benefits of Concomitant Surgical Ablation for Atrial Fibrillation During Cardiac Surgery: A Systematic Review and Meta-Analysis
+[ 20.5] PMID 37263356 | 2023 | Int J Cardiol
+        Outcomes of concomitant surgical ablation in patients undergoing surgical myectomy for hypertrophic obstructive cardiomyopathy: A systematic review and meta-analysis
+[ 19.0] PMID 38504314 | 2024 | J Cardiothorac Surg
+        Safety and efficacy of Cox-Maze procedure for atrial fibrillation during mitral valve surgery: a meta-analysis of randomized controlled trials
+[ 16.5] PMID 39674689 | 2025 | Heart Lung Circ
+        Radiofrequency and Cryoablation as Energy Sources in the Cox-Maze Procedure: A Meta-Analysis of Rhythm Outcomes
+[ 15.5] PMID 38879118 | 2025 | J Thorac Cardiovasc Surg
+        Surgical outcome of mitral valve surgery in atrial functional mitral regurgitation compared with degenerative etiology
+[ 15.5] PMID 37821261 | 2023 | Heart Lung Circ
+        Left Atrium Volume Reduction Procedure Concomitant With Cox-Maze Ablation in Patients Undergoing Mitral Valve Surgery: A Meta-Analysis of Clinical and Rhythm Outcomes
+[ 15.0] PMID 41138810 | 2026 | J Thorac Cardiovasc Surg
+        The ICE-AFIB trial: A multicenter prospective investigational device exemption (IDE) trial using cryosurgical ablation for atrial fibrillation during concomitant cardiac surgery
+[ 15.0] PMID 37994091 | 2024 | J Chest Surg
+        2023 KASNet Guidelines on Atrial Fibrillation Surgery
+[ 14.0] PMID 41895786 | 2026 | Eur Heart J
+        Biatrial macro-reentrant atrial tachycardia after surgical atrial septal defect closure and maze procedure identified by activation and coherent mapping
+[ 13.5] PMID 40574669 | 2025 | Eur J Cardiothorac Surg
+        Surgical ablation of atrial fibrillation with concomitant cardiac surgery: a state-of-the-art review
+[ 13.5] PMID 38011245 | 2023 | Circulation
+        Evolving Contemporary Management of Atrial Fibrillation in Hypertrophic Cardiomyopathy
+[ 13.5] PMID 37939825 | 2023 | Europace
+        Rationale and design of a randomized trial of the dapagliflozin evaluation on atrial fibrillation patients followed Cox-Maze IV: the DETAIL-CMIV study
+[ 13.0] PMID 42409208 | 2026 | Ann Thorac Surg
+        A Health Tracking Application Leads to An Avid Cyclist Being Diagnosed with ALCAPA at 52 years old, Warranting a Takeuchi Repair
+[ 13.0] PMID 42092502 | 2026 | J Thorac Cardiovasc Surg
+        A prospective, multicenter trial of irrigated radiofrequency ablation and cryoablation to treat nonparoxysmal atrial fibrillation
+[ 13.0] PMID 41951089 | 2026 | Am Heart J
+        Marshall-Plan ablation strategy versus pulmonary vein isolation in persistent atrial fibrillation: Clinical trial design
+[ 13.0] PMID 41348078 | 2026 | JACC Clin Electrophysiol
+        Biatrial Flutter in Repaired Tetralogy of Fallot: Complementary Role of Activation and Entrainment Mapping in Understanding the Mechanism of a Complex Atrial Arrhythmia
+
+====================================================================================================
+## 02_concomitant_ablation  同時手術アブレーション全般
+====================================================================================================
+[ 24.0] PMID 38043043 | 2024 | J Am Coll Cardiol
+        2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+[ 24.0] PMID 38033089 | 2024 | Circulation
+        2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 23.0] PMID 40780827 | 2026 | Heart
+        Surgical ablation in non-mitral valve cardiac surgeries: a meta-analysis of early outcomes
+[ 23.0] PMID 38597857 | 2024 | Heart Rhythm
+        2024 European Heart Rhythm Association/Heart Rhythm Society/Asia Pacific Heart Rhythm Society/Latin American Heart Rhythm Society expert consensus statement on catheter and surgical ablation of atrial fibrillation
+[ 23.0] PMID 38286206 | 2024 | Ann Thorac Surg
+        The Society of Thoracic Surgeons 2023 Clinical Practice Guidelines for the Surgical Treatment of Atrial Fibrillation
+[ 22.5] PMID 40714818 | 2025 | Interdiscip Cardiovasc Thorac Surg
+        Surgical Ablation by a Right Mini-thoracotomy Versus a Median Sternotomy: A Systematic Review and Meta-analysis of Observational Studies
+[ 22.0] PMID 38306687 | 2024 | Europace
+        Sequential hybrid ablation vs. surgical CryoMaze alone for treatment of atrial fibrillation: results of multicentre randomized controlled trial
+[ 22.0] PMID 38763376 | 2024 | Heart Rhythm
+        Long-term clinical outcomes and cost-effectiveness of catheter vs thoracoscopic surgical ablation in long-standing persistent atrial fibrillation using continuous cardiac monitoring: CASA-AF randomized controlled trial
+[ 21.5] PMID 39471966 | 2025 | Am J Cardiol
+        Late Survival Benefits of Concomitant Surgical Ablation for Atrial Fibrillation During Cardiac Surgery: A Systematic Review and Meta-Analysis
+[ 21.0] PMID 42098789 | 2026 | J Cardiothorac Surg
+        Minimally invasive thoracoscopic surgical ablation and hybrid ablation in AF patients: results from a single-arm systematic review and meta-analysis
+[ 21.0] PMID 39226147 | 2024 | Europace
+        Comparing simultaneous hybrid ablation with stand-alone thoracoscopic surgical ablation for the treatment of non-paroxysmal atrial fibrillation: a prospective randomized controlled trial
+[ 20.5] PMID 37263356 | 2023 | Int J Cardiol
+        Outcomes of concomitant surgical ablation in patients undergoing surgical myectomy for hypertrophic obstructive cardiomyopathy: A systematic review and meta-analysis
+[ 20.5] PMID 37848175 | 2023 | Am J Cardiol
+        Surgical Ablation for Atrial Fibrillation During Mitral Valve Surgery: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+[ 16.5] PMID 40587868 | 2025 | Ann Intern Med
+        Catheter and Surgical Ablation for Atrial Fibrillation : A Systematic Review and Meta-analysis
+[ 16.5] PMID 39821327 | 2025 | Eur Heart J
+        The decalogue of the 2024 European Heart Rhythm Association/Heart Rhythm Society/Asia Pacific Heart Rhythm Society/Latin American Heart Rhythm Society consensus document on catheter and surgical ablation of atrial fibrillation
+[ 15.0] PMID 41138810 | 2026 | J Thorac Cardiovasc Surg
+        The ICE-AFIB trial: A multicenter prospective investigational device exemption (IDE) trial using cryosurgical ablation for atrial fibrillation during concomitant cardiac surgery
+[ 15.0] PMID 37994091 | 2024 | J Chest Surg
+        2023 KASNet Guidelines on Atrial Fibrillation Surgery
+
+====================================================================================================
+## 03_sts_guideline  ガイドライン/コンセンサス
+====================================================================================================
+[ 24.0] PMID 38043043 | 2024 | J Am Coll Cardiol
+        2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+[ 24.0] PMID 38033089 | 2024 | Circulation
+        2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+[ 24.0] PMID 42092503 | 2026 | J Thorac Cardiovasc Surg
+        The 2026 American Association for Thoracic Surgery Expert Consensus Document: Management of atrial functional mitral regurgitation
+[ 24.0] PMID 42009116 | 2026 | Ann Thorac Surg
+        The Society of Thoracic Surgeons 2026 Clinical Practice Guidelines for the Prevention and Treatment of New-Onset Postoperative Atrial Fibrillation After Cardiac Surgery
+[ 24.0] PMID 39210723 | 2024 | Eur Heart J
+        2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)
+[ 24.0] PMID 38727647 | 2024 | J Am Coll Cardiol
+        2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines
+[ 24.0] PMID 38718139 | 2024 | Circulation
+        2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy: A Report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines
+[ 23.5] PMID 40317284 | 2025 | J Thorac Cardiovasc Surg
+        The American Association for Thoracic Surgery (AATS) 2025 Expert Consensus Document: Management of Ebstein anomaly in children and adults
+[ 23.5] PMID 40758073 | 2025 | Heart Rhythm
+        SCAI/HRS technical review on transcatheter left atrial appendage occlusion
+[ 23.0] PMID 38597857 | 2024 | Heart Rhythm
+        2024 European Heart Rhythm Association/Heart Rhythm Society/Asia Pacific Heart Rhythm Society/Latin American Heart Rhythm Society expert consensus statement on catheter and surgical ablation of atrial fibrillation
+[ 23.0] PMID 38286206 | 2024 | Ann Thorac Surg
+        The Society of Thoracic Surgeons 2023 Clinical Practice Guidelines for the Surgical Treatment of Atrial Fibrillation
+[ 22.5] PMID 40736086 | 2025 | Europace
+        Regionalization of the atria for 3D electroanatomical mapping, cardiac imaging, and computational modelling: a clinical consensus statement of the European Heart Rhythm Association and the European Association of Cardiovascular Imaging of the ESC
+[ 21.0] PMID 41968953 | 2026 | Europace
+        Pulsed field ablation for the interventional treatment of atrial fibrillation: a scientific statement of the European Heart Rhythm Association of the European Society of Cardiology, the Heart Rhythm Society, the Asia Pacific Heart Rhythm Society, the Latin American Heart Rhythm Society, and the Canadian Heart Rhythm Society
+[ 21.0] PMID 39319521 | 2024 | J Cardiovasc Electrophysiol
+        Expert opinion on design and endpoints for studies on catheter ablation of atrial fibrillation
+[ 21.0] PMID 38736156 | 2024 | J Cardiovasc Electrophysiol
+        Concise guidelines of the European Cardiac Arrhythmias Society (ECAS) on "catheter ablation of atrial fibrillation": A prepublication of the methods in preparation of the final guidelines document
+[ 20.5] PMID 40272321 | 2025 | JACC Clin Electrophysiol
+        HRS/ACC Scientific Statement: Guiding Principles on Same-Day Discharge for Intracardiac Catheter Ablation Procedures
+[ 19.5] PMID 40272340 | 2025 | Heart Rhythm
+        HRS/ACC scientific statement: Guiding principles on same-day discharge for intracardiac catheter ablation procedures
+[ 16.0] PMID 41973847 | 2026 | Europace
+        Same-day discharge after electrophysiological and cardiac implantable electronic device procedures: a clinical consensus statement of the European Heart Rhythm Association (EHRA) and the Association of Cardiovascular Nursing & Allied Professions (ACNAP) of the ESC
+
+====================================================================================================
+## 04_box_lesion_pwi  Box lesion / 後壁隔離
+====================================================================================================
+[ 23.0] PMID 41655663 | 2026 | Heart Rhythm
+        Impact of linear ablation in persistent atrial fibrillation using a dual-energy, wide-footprint catheter: Analysis from the SPHERE Per-AF randomized trial
+[ 21.5] PMID 40888774 | 2025 | JACC Clin Electrophysiol
+        Comparison of Extended Cryoballoon, Standard Cryoballoon, and Radiofrequency Catheter Ablation in Patients With Persistent AF
+[ 21.5] PMID 40799121 | 2025 | Europace
+        Circumferential pulmonary vein isolation with adjunctive linear ablation vs. circumferential pulmonary vein isolation alone for long-standing persistent atrial fibrillation: a randomized pilot study
+[ 21.5] PMID 39809414 | 2025 | Int J Cardiol
+        Posterior left atrial wall isolation for treatment of persistent atrial fibrillation during first-time catheter ablation: An updated systematic review and meta-analysis
+[ 21.5] PMID 39215996 | 2025 | Eur Heart J
+        Radiofrequency catheter ablation of persistent atrial fibrillation by pulmonary vein isolation with or without left atrial posterior wall isolation: long-term outcomes of the CAPLA trial
+[ 21.0] PMID 38759110 | 2024 | Eur Heart J
+        Catheter ablation for persistent atrial fibrillation: patterns of recurrence and impact on quality of life and health care utilization
+[ 20.5] PMID 40608037 | 2025 | JACC Clin Electrophysiol
+        Sustained Improvement in Quality of Life Following Catheter Ablation for Persistent AF Beyond 3 Years: That's No Sham
+[ 20.0] PMID 39084743 | 2024 | JACC Clin Electrophysiol
+        Diagnosis to Ablation in Persistent AF: Any Time Can Be a Good Time to Ablate
+[ 17.0] PMID 42056302 | 2026 | Sci Rep
+        Pulsed field ablation for persistent atrial fibrillation: meta-analysis of pulmonary vein isolation with or without posterior wall isolation
+[ 16.5] PMID 39907380 | 2025 | Arq Bras Cardiol
+        Efficacy and Safety of Adjunctive Posterior Wall Isolation in Patients with Persistent Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 16.5] PMID 39647469 | 2025 | Cardiology
+        Adjunctive Left Atrial Posterior Wall Isolation in Treating Non-Paroxysmal Atrial Fibrillation: An Updated Meta-Analysis of Randomized Clinical Trials
+[ 16.0] PMID 38967398 | 2024 | Pacing Clin Electrophysiol
+        Adjunctive left atrial posterior wall isolation for atrial fibrillation: An updated systematic review and meta-analysis
+[ 15.5] PMID 40306839 | 2025 | J Am Coll Cardiol
+        Pulsed Field Ablation for Persistent Atrial Fibrillation: 1-Year Results of ADVANTAGE AF
+[ 15.0] PMID 42392470 | 2026 | Heart Rhythm
+        Left atrial mechanical function following hybrid epicardial-endocardial vs endocardial catheter ablation: A randomized mechanistic trial
+[ 15.0] PMID 39084744 | 2024 | JACC Clin Electrophysiol
+        Hybrid-Convergent Procedure or Pulsed Field Ablation in Long-Standing Persistent Atrial Fibrillation
+[ 14.0] PMID 41507066 | 2026 | Interdiscip Cardiovasc Thorac Surg
+        A Retrospective Long-Term Follow-Up of the Randomized Study: Total Endoscopic Ablation of Patients With Long-Standing Persistent Atrial Fibrillation
+[ 14.0] PMID 42418771 | 2026 | J Cardiovasc Electrophysiol
+        Pulmonary Vein Isolation Plus Adjunct Techniques Versus Pulmonary Vein Isolation Alone for Persistent Atrial Fibrillation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+[ 14.0] PMID 42319794 | 2026 | Eur Heart J
+        Adjunctive posterior wall isolation for persistent and long-standing persistent atrial fibrillation: the CORNERSTONE AF trial
+
+====================================================================================================
+## 05_pvi_vs_biatrial  PVI vs biatrial lesion set
+====================================================================================================
+[ 24.0] PMID 38043043 | 2024 | J Am Coll Cardiol
+        2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+[ 24.0] PMID 38033089 | 2024 | Circulation
+        2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 21.0] PMID 36933787 | 2024 | J Thorac Cardiovasc Surg
+        Randomized feasibility trial of prophylactic radiofrequency ablation to prevent atrial fibrillation after cardiac surgery
+[ 19.5] PMID 40189000 | 2025 | Heart Rhythm
+        Surgical neuromodulation therapies to prevent postoperative atrial fibrillation: A meta-analysis, meta-regression, and trial sequential analysis of randomized controlled trials
+[ 18.5] PMID 37076929 | 2023 | J Cardiothorac Surg
+        Mid term freedom from atrial fibrillation following hybrid ablation, a systematic review and meta analysis
+[ 18.0] PMID 35066944 | 2022 | J Cardiovasc Electrophysiol
+        Pulmonary vein isolation using cryoballoon ablation versus RF ablation using ablation index following the CLOSE protocol: A prospective randomized trial
+[ 16.5] PMID 31097163 | 2019 | J Am Coll Cardiol
+        Pacemaker Implantation After Mitral Valve Surgery With Atrial Fibrillation Ablation
+[ 16.5] PMID 30557941 | 2019 | J Thorac Cardiovasc Surg
+        Biatrial maze procedure versus pulmonary vein isolation for atrial fibrillation during mitral valve surgery: New analytical approaches and end points
+[ 15.0] PMID 36040710 | 2022 | J Card Surg
+        Comparing mid-term outcomes of Cox-Maze procedure and pulmonary vein isolation for atrial fibrillation after concomitant mitral valve surgery: A systematic review
+[ 14.0] PMID 41638617 | 2026 | Heart Rhythm
+        Reablation of atrial fibrillation targeting electrogram dispersion in patients with isolated veins: The RESTART trial
+[ 13.5] PMID 40971527 | 2025 | Europace
+        Epicardial and hybrid surgical ablation of atrial fibrillation: 1-year follow-up outcomes of the EORP EHAFA registry
+[ 13.5] PMID 33045430 | 2021 | Heart Rhythm
+        Combined epicardial and endocardial ablation for atrial fibrillation: Best practices and guide to hybrid convergent procedures
+[ 13.0] PMID 42092502 | 2026 | J Thorac Cardiovasc Surg
+        A prospective, multicenter trial of irrigated radiofrequency ablation and cryoablation to treat nonparoxysmal atrial fibrillation
+[ 13.0] PMID 42462800 | 2026 | Heart Rhythm
+        Contemporary Concepts in the Onset and Maintenance of Atrial Fibrillation: Mechanisms, Substrates, and Clinical Implications
+[ 12.5] PMID 39197816 | 2025 | J Thorac Cardiovasc Surg
+        Durability of annuloplasty in patients with atrial functional mitral regurgitation associated with atrial fibrillation
+[ 12.5] PMID 34164872 | 2021 | J Cardiovasc Electrophysiol
+        Bi-atrial or left atrial ablation of atrial fibrillation during concomitant cardiac surgery: A Bayesian network meta-analysis of randomized controlled trials
+[ 12.5] PMID 33545152 | 2021 | Ann Thorac Surg
+        Surgical Ablation Concomitant With Nonmitral Valve Surgery for Persistent Atrial Fibrillation
+
+====================================================================================================
+## 06_cryo_vs_rf  Cryo vs RF
+====================================================================================================
+[ 16.5] PMID 39674689 | 2025 | Heart Lung Circ
+        Radiofrequency and Cryoablation as Energy Sources in the Cox-Maze Procedure: A Meta-Analysis of Rhythm Outcomes
+[ 15.0] PMID 41138810 | 2026 | J Thorac Cardiovasc Surg
+        The ICE-AFIB trial: A multicenter prospective investigational device exemption (IDE) trial using cryosurgical ablation for atrial fibrillation during concomitant cardiac surgery
+[ 14.5] PMID 39353499 | 2025 | Heart Rhythm
+        Underreporting of complications following AF ablation: Comparison of the manufacturer and user facility device experience FDA database and a voluntary invitation-based registry: The POTTER-AF 3 study
+[ 14.0] PMID 36184349 | 2022 | Am J Cardiol
+        Comparative Effectiveness and Safety of Cryoablation Versus Radiofrequency Ablation Treatments for Persistent Atrial Fibrillation
+[ 13.0] PMID 42092502 | 2026 | J Thorac Cardiovasc Surg
+        A prospective, multicenter trial of irrigated radiofrequency ablation and cryoablation to treat nonparoxysmal atrial fibrillation
+[ 12.5] PMID 37334891 | 2023 | Clin Physiol Funct Imaging
+        Effect of cryothermic and radiofrequency Cox-Maze IV ablation on atrial size and function assessed by 2D and 3D echocardiography, a randomized trial. To freeze or to burn
+[ 12.5] PMID 37062040 | 2023 | Eur Heart J
+        A worldwide survey on incidence, management, and prognosis of oesophageal fistula formation following atrial fibrillation catheter ablation: the POTTER-AF study
+[ 12.0] PMID 25391388 | 2015 | Eur J Cardiothorac Surg
+        Comparing energy sources for surgical ablation of atrial fibrillation: a Bayesian network meta-analysis of randomized, controlled trials
+[ 11.5] PMID 41242589 | 2025 | Heart Rhythm
+        Atrial arrhythmia recurrence after the Maze procedure: Insights from catheter-based mapping
+[ 11.5] PMID 41096075 | 2025 | J Clin Med
+        Correlation Between Catheter Ablation Timing and the Duration of Atrial Fibrillation History on Arrhythmia Recurrence in Patients with Paroxysmal Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 11.5] PMID 36003726 | 2021 | JTCVS Open
+        Hybrid ablation for atrial fibrillation: A systematic review and meta-analysis
+[ 11.5] PMID 33840467 | 2023 | J Thorac Cardiovasc Surg
+        Barriers to atrial fibrillation ablation during mitral valve surgery
+[ 11.5] PMID 33345780 | 2021 | Ann Thorac Surg
+        The Impact of the Cox-Maze Technique on Freedom From Atrial Fibrillation
+[ 11.0] PMID 41679410 | 2026 | Am J Cardiol
+        Left Atrial Mechanical and Hemodynamic Function After Ablation of Atrial Fibrillation
+[ 10.5] PMID 40061523 | 2025 | JTCVS Open
+        Epicardial cryoablation during cardiopulmonary bypass in a pig survival model
+[ 10.5] PMID 40223955 | 2025 | J Thorac Dis
+        Efficacy and safety of different forms of ablation therapies and antiarrhythmic drugs in atrial fibrillation: a systematic review and network meta-analysis of randomized clinical trials
+[ 10.0] PMID 38590994 | 2024 | Ann Cardiothorac Surg
+        Surgical options for atrial fibrillation treatment during concomitant cardiac procedures
+[ 10.0] PMID 38937269 | 2024 | Interdiscip Cardiovasc Thorac Surg
+        Epicardial and endocardial surgical ablation of atrial fibrillation: outcomes from CASE-AF Registry
+
+====================================================================================================
+## 07_hybrid_ablation  ハイブリッドアブレーション
+====================================================================================================
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 23.0] PMID 39255332 | 2024 | Europace
+        Short- and long-term outcomes in isolated vs. hybrid thoracoscopic ablation in patients with atrial fibrillation: a systematic review and reconstructed individual patient data meta-analysis
+[ 22.0] PMID 38306687 | 2024 | Europace
+        Sequential hybrid ablation vs. surgical CryoMaze alone for treatment of atrial fibrillation: results of multicentre randomized controlled trial
+[ 21.0] PMID 42098789 | 2026 | J Cardiothorac Surg
+        Minimally invasive thoracoscopic surgical ablation and hybrid ablation in AF patients: results from a single-arm systematic review and meta-analysis
+[ 21.0] PMID 39226147 | 2024 | Europace
+        Comparing simultaneous hybrid ablation with stand-alone thoracoscopic surgical ablation for the treatment of non-paroxysmal atrial fibrillation: a prospective randomized controlled trial
+[ 20.5] PMID 36752455 | 2023 | JACC Clin Electrophysiol
+        Hybrid Ablation Versus Repeated Catheter Ablation in Persistent Atrial Fibrillation: A Randomized Controlled Trial
+[ 18.5] PMID 37076929 | 2023 | J Cardiothorac Surg
+        Mid term freedom from atrial fibrillation following hybrid ablation, a systematic review and meta analysis
+[ 18.0] PMID 41801607 | 2026 | J Interv Card Electrophysiol
+        Hybrid versus endocardial ablation for persistent atrial fibrillation: a systematic review and Bayesian meta-analysis
+[ 16.5] PMID 38907073 | 2025 | J Interv Card Electrophysiol
+        Hybrid ablation for persistent/long-standing persistent atrial fibrillation: a meta-analysis and trial sequential analysis of randomized controlled trials
+[ 16.0] PMID 37540340 | 2024 | J Interv Card Electrophysiol
+        Pulmonary vein isolation plus adjunctive therapy for the treatment of atrial fibrillation: a systematic review and meta-analysis
+[ 15.0] PMID 42392470 | 2026 | Heart Rhythm
+        Left atrial mechanical function following hybrid epicardial-endocardial vs endocardial catheter ablation: A randomized mechanistic trial
+[ 15.0] PMID 39084744 | 2024 | JACC Clin Electrophysiol
+        Hybrid-Convergent Procedure or Pulsed Field Ablation in Long-Standing Persistent Atrial Fibrillation
+[ 14.5] PMID 41025224 | 2025 | Circ Arrhythm Electrophysiol
+        Dual Epicardial and Endocardial Procedure (DEEP) for Persistent or Longstanding Persistent Atrial Fibrillation
+[ 14.0] PMID 42216292 | 2026 | J Am Heart Assoc
+        Convergent Hybrid Ablation Versus Catheter Ablation in Patients With Persistent Atrial Fibrillation and Heart Failure: HALT AF Study Protocol and Rationale for a Multicenter Randomized Controlled Trial
+[ 14.0] PMID 39136365 | 2024 | J Cardiovasc Electrophysiol
+        Convergent ablation for persistent atrial fibrillation: A UK multicentre perspective
+[ 14.0] PMID 36346176 | 2022 | Eur J Cardiothorac Surg
+        Convergent ablation for persistent atrial fibrillation: outcomes from a single-centre real-world experience
+[ 13.5] PMID 40971527 | 2025 | Europace
+        Epicardial and hybrid surgical ablation of atrial fibrillation: 1-year follow-up outcomes of the EORP EHAFA registry
+[ 13.5] PMID 36754519 | 2023 | J Am Coll Cardiol
+        Combined Minimally Invasive Surgical and Percutaneous Catheter Ablation of Atrial Fibrillation: JACC Review Topic of the Week
+
+====================================================================================================
+## 08_convergent  Convergent / 心外膜
+====================================================================================================
+[ 22.0] PMID 33185144 | 2020 | Circ Arrhythm Electrophysiol
+        Hybrid Convergent Procedure for the Treatment of Persistent and Long-Standing Persistent Atrial Fibrillation: Results of CONVERGE Clinical Trial
+[ 18.5] PMID 37076929 | 2023 | J Cardiothorac Surg
+        Mid term freedom from atrial fibrillation following hybrid ablation, a systematic review and meta analysis
+[ 18.0] PMID 41801607 | 2026 | J Interv Card Electrophysiol
+        Hybrid versus endocardial ablation for persistent atrial fibrillation: a systematic review and Bayesian meta-analysis
+[ 18.0] PMID 35964093 | 2022 | J Cardiothorac Surg
+        Hybrid convergent ablation versus endocardial catheter ablation for atrial fibrillation: a systematic review and meta-analysis of randomised control trials and propensity matched studies
+[ 17.0] PMID 35331432 | 2022 | JACC Clin Electrophysiol
+        Vein of Marshall Ethanol Infusion as First Step for Mitral Isthmus Linear Ablation
+[ 17.0] PMID 29722468 | 2018 | J Cardiovasc Electrophysiol
+        Comparison of treatment outcomes between convergent procedure and catheter ablation for paroxysmal atrial fibrillation evaluated with implantable loop recorder monitoring
+[ 16.5] PMID 38907073 | 2025 | J Interv Card Electrophysiol
+        Hybrid ablation for persistent/long-standing persistent atrial fibrillation: a meta-analysis and trial sequential analysis of randomized controlled trials
+[ 16.5] PMID 30052976 | 2019 | Interact Cardiovasc Thorac Surg
+        Efficacy and safety of the convergent atrial fibrillation procedure: a meta-analysis of observational studies
+[ 15.0] PMID 39084744 | 2024 | JACC Clin Electrophysiol
+        Hybrid-Convergent Procedure or Pulsed Field Ablation in Long-Standing Persistent Atrial Fibrillation
+[ 14.5] PMID 41025224 | 2025 | Circ Arrhythm Electrophysiol
+        Dual Epicardial and Endocardial Procedure (DEEP) for Persistent or Longstanding Persistent Atrial Fibrillation
+[ 14.5] PMID 39846930 | 2025 | JACC Clin Electrophysiol
+        Intrapericardial Corticosteroids and Colchicine Prevent Pericarditis and Atrial Fibrillation After Epicardial Ablation of Ventricular Arrhythmias
+[ 14.0] PMID 36346176 | 2022 | Eur J Cardiothorac Surg
+        Convergent ablation for persistent atrial fibrillation: outcomes from a single-centre real-world experience
+[ 14.0] PMID 38898656 | 2024 | J Cardiovasc Electrophysiol
+        Real-world evidence demonstrates an appropriate atrial fibrillation population for hybrid convergent approach versus stand-alone cryoballoon ablation: A long-term safety and efficacy study
+[ 14.0] PMID 36469334 | 2022 | Eur J Cardiothorac Surg
+        Convergent procedure for non-paroxysmal atrial fibrillation: a light in the darkness
+[ 13.5] PMID 40971527 | 2025 | Europace
+        Epicardial and hybrid surgical ablation of atrial fibrillation: 1-year follow-up outcomes of the EORP EHAFA registry
+[ 13.5] PMID 33045430 | 2021 | Heart Rhythm
+        Combined epicardial and endocardial ablation for atrial fibrillation: Best practices and guide to hybrid convergent procedures
+[ 13.0] PMID 41954556 | 2026 | JACC Clin Electrophysiol
+        Patient-Tailored Minimally Invasive Hybrid Ablation of Complex Ventricular Tachycardia Substrates
+[ 13.0] PMID 41314536 | 2026 | J Thorac Cardiovasc Surg
+        Long-term outcomes for patients undergoing hybrid ablation for atrial fibrillation
+
+====================================================================================================
+## 09_thoracoscopic  胸腔鏡下・低侵襲単独手術
+====================================================================================================
+[ 23.0] PMID 39255332 | 2024 | Europace
+        Short- and long-term outcomes in isolated vs. hybrid thoracoscopic ablation in patients with atrial fibrillation: a systematic review and reconstructed individual patient data meta-analysis
+[ 22.0] PMID 38763376 | 2024 | Heart Rhythm
+        Long-term clinical outcomes and cost-effectiveness of catheter vs thoracoscopic surgical ablation in long-standing persistent atrial fibrillation using continuous cardiac monitoring: CASA-AF randomized controlled trial
+[ 21.0] PMID 42098789 | 2026 | J Cardiothorac Surg
+        Minimally invasive thoracoscopic surgical ablation and hybrid ablation in AF patients: results from a single-arm systematic review and meta-analysis
+[ 21.0] PMID 39226147 | 2024 | Europace
+        Comparing simultaneous hybrid ablation with stand-alone thoracoscopic surgical ablation for the treatment of non-paroxysmal atrial fibrillation: a prospective randomized controlled trial
+[ 21.0] PMID 42001140 | 2026 | J Cardiothorac Surg
+        Prevalence and risk factors for postoperative atrial fibrillation following pulmonary resection: a systematic review and meta-analysis
+[ 20.5] PMID 36752455 | 2023 | JACC Clin Electrophysiol
+        Hybrid Ablation Versus Repeated Catheter Ablation in Persistent Atrial Fibrillation: A Randomized Controlled Trial
+[ 20.5] PMID 36787869 | 2023 | Int J Cardiol
+        Rhythm outcomes of minimally-invasive off-pump surgical versus catheter ablation in atrial fibrillation: A meta-analysis of reconstructed time-to-event data
+[ 18.0] PMID 41752740 | 2026 | Medicina (Kaunas)
+        Totally Endoscopic Approach for Aortic Valve Replacement: A Systematic Review and Single-Arm Meta-Analysis
+[ 15.0] PMID 42046233 | 2026 | Eur J Cardiothorac Surg
+        Safety and Efficacy of Stand-Alone and Hybrid Thoracoscopic Atrial Fibrillation Ablation
+[ 14.0] PMID 41507066 | 2026 | Interdiscip Cardiovasc Thorac Surg
+        A Retrospective Long-Term Follow-Up of the Randomized Study: Total Endoscopic Ablation of Patients With Long-Standing Persistent Atrial Fibrillation
+[ 14.0] PMID 41320620 | 2026 | J Cardiothorac Vasc Anesth
+        The Effects of Nonintubated Anesthesia onNeutrophil-to-Lymphocyte Ratio and Tumor Markers Among Patients Undergoing Thoracoscopic Lung Resection: A Randomized Controlled Trial
+[ 13.0] PMID 41954556 | 2026 | JACC Clin Electrophysiol
+        Patient-Tailored Minimally Invasive Hybrid Ablation of Complex Ventricular Tachycardia Substrates
+[ 13.0] PMID 41314536 | 2026 | J Thorac Cardiovasc Surg
+        Long-term outcomes for patients undergoing hybrid ablation for atrial fibrillation
+[ 13.0] PMID 41587580 | 2026 | Ann Thorac Surg
+        Large Free-Floating Left Atrial Thrombus After Incomplete Thoracoscopic Closure of the Left Atrial Appendage
+[ 13.0] PMID 38296011 | 2024 | Heart Rhythm
+        Minimally invasive epicardial surgical left atrial appendage exclusion for atrial fibrillation patients at high risk for stroke and for bleeding
+[ 13.0] PMID 37734642 | 2024 | Ann Thorac Surg
+        A Comparative Study of Thoracoscopic Left Atrial Appendage Clipping vs Stapled Resection
+[ 12.5] PMID 40193468 | 2025 | Interdiscip Cardiovasc Thorac Surg
+        Robotic-assisted left atrial appendage occlusion: an important complementary option in the surgical management of atrial fibrillation
+[ 12.0] PMID 38573292 | 2024 | JACC Clin Electrophysiol
+        Concurrent vs Staged Hybrid Ablation for Long-Standing Persistent Atrial Fibrillation: A Propensity-Matched Cohort Study
+
+====================================================================================================
+## 10_surg_vs_catheter  外科 vs カテーテル比較
+====================================================================================================
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 23.0] PMID 39255332 | 2024 | Europace
+        Short- and long-term outcomes in isolated vs. hybrid thoracoscopic ablation in patients with atrial fibrillation: a systematic review and reconstructed individual patient data meta-analysis
+[ 23.0] PMID 32653280 | 2022 | J Thorac Cardiovasc Surg
+        Comparison of catheter and surgical ablation of atrial fibrillation: A systemic review and meta-analysis of randomized trials
+[ 22.5] PMID 30698685 | 2019 | Eur J Cardiothorac Surg
+        Hybrid versus catheter ablation in patients with persistent and longstanding persistent atrial fibrillation: a systematic review and meta-analysis†
+[ 22.0] PMID 38306687 | 2024 | Europace
+        Sequential hybrid ablation vs. surgical CryoMaze alone for treatment of atrial fibrillation: results of multicentre randomized controlled trial
+[ 22.0] PMID 38763376 | 2024 | Heart Rhythm
+        Long-term clinical outcomes and cost-effectiveness of catheter vs thoracoscopic surgical ablation in long-standing persistent atrial fibrillation using continuous cardiac monitoring: CASA-AF randomized controlled trial
+[ 22.0] PMID 33185144 | 2020 | Circ Arrhythm Electrophysiol
+        Hybrid Convergent Procedure for the Treatment of Persistent and Long-Standing Persistent Atrial Fibrillation: Results of CONVERGE Clinical Trial
+[ 22.0] PMID 32860414 | 2020 | Eur Heart J
+        Catheter ablation vs. thoracoscopic surgical ablation in long-standing persistent atrial fibrillation: CASA-AF randomized controlled trial
+[ 21.0] PMID 39226147 | 2024 | Europace
+        Comparing simultaneous hybrid ablation with stand-alone thoracoscopic surgical ablation for the treatment of non-paroxysmal atrial fibrillation: a prospective randomized controlled trial
+[ 21.0] PMID 35771487 | 2022 | J Cardiovasc Electrophysiol
+        Surgical versus catheter ablation in atrial fibrillation: A systematic review and meta-analysis of randomized controlled trials
+[ 20.5] PMID 36752455 | 2023 | JACC Clin Electrophysiol
+        Hybrid Ablation Versus Repeated Catheter Ablation in Persistent Atrial Fibrillation: A Randomized Controlled Trial
+[ 20.5] PMID 36787869 | 2023 | Int J Cardiol
+        Rhythm outcomes of minimally-invasive off-pump surgical versus catheter ablation in atrial fibrillation: A meta-analysis of reconstructed time-to-event data
+[ 20.0] PMID 33166993 | 2020 | Interact Cardiovasc Thorac Surg
+        Thoracoscopic surgical ablation or catheter ablation for patients with atrial fibrillation? A systematic review and meta-analysis of randomized controlled trials
+[ 20.0] PMID 32652775 | 2020 | J Cardiovasc Electrophysiol
+        Catheter ablation of atrial tachycardias after mitral valve surgery: A systematic review and meta-analysis
+[ 19.5] PMID 31670479 | 2019 | J Cardiovasc Electrophysiol
+        Different effects of additional ganglion plexus ablation on catheter and surgical ablation for atrial fibrillation: a systemic review and meta-analysis
+[ 19.0] PMID 30354411 | 2018 | Circ Arrhythm Electrophysiol
+        Randomized Controlled Trial of Surgical Versus Catheter Ablation for Paroxysmal and Early Persistent Atrial Fibrillation
+[ 18.5] PMID 30553497 | 2019 | Int J Cardiol
+        Persistent atrial fibrillation: A systematic review and meta-analysis of invasive strategies
+[ 18.0] PMID 41801607 | 2026 | J Interv Card Electrophysiol
+        Hybrid versus endocardial ablation for persistent atrial fibrillation: a systematic review and Bayesian meta-analysis
+
+====================================================================================================
+## 11_laaos3  LAA閉鎖 (LAAOS III等)
+====================================================================================================
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 23.5] PMID 40758073 | 2025 | Heart Rhythm
+        SCAI/HRS technical review on transcatheter left atrial appendage occlusion
+[ 23.5] PMID 40132739 | 2025 | Heart Rhythm
+        Clinical impact of surgical left atrial appendage occlusion during cardiac surgery in patients in sinus rhythm: A meta-analysis
+[ 23.0] PMID 39258365 | 2024 | Circ Cardiovasc Interv
+        Stroke Prevention With Prophylactic Left Atrial Appendage Occlusion in Cardiac Surgery Patients Without Atrial Fibrillation: A Meta-Analysis of Randomized and Propensity-Score Studies
+[ 22.0] PMID 40888584 | 2026 | Eur Heart J
+        Surgical left atrial appendage occlusion in valvular heart disease without atrial fibrillation: the OPINION trial
+[ 21.5] PMID 39477201 | 2025 | Am J Cardiol
+        Left Atrial Appendage Occlusion During Cardiac Surgery to Prevent Stroke: A Systematic Review and Meta-Analysis
+[ 20.5] PMID 39586754 | 2025 | Eur J Heart Fail
+        Heart failure after left atrial appendage occlusion: Insights from the LAAOS III randomized trial
+[ 20.0] PMID 41965066 | 2026 | Eur J Cardiothorac Surg
+        Methods and Criteria for Evaluating the Success of Surgical Left Atrial Appendage Closure: A Systematic Review
+[ 19.0] PMID 40930379 | 2026 | J Thorac Cardiovasc Surg
+        Oral anticoagulation in patients with atrial fibrillation and heart valve prosthesis: A substudy from the Left Atrial Appendage Occlusion Study (LAAOS) III trial
+[ 16.0] PMID 41247709 | 2026 | JAMA Neurol
+        Stroke Mechanism and Severity After Left Atrial Appendage Occlusion: Insights From the LAAOS III Randomized Clinical Trial
+[ 16.0] PMID 39453298 | 2024 | JACC Clin Electrophysiol
+        Pulmonary Artery Injury Following Endocardial Left Atrial Appendage Occlusion: The Known and Unknown
+[ 15.0] PMID 42120122 | 2026 | JACC Cardiovasc Interv
+        1-Year Real-World Outcomes With the Amulet Occluder From the EMERGE LAA Postapproval Study
+[ 15.0] PMID 39716733 | 2024 | Europace
+        Spotlight on the 2024 ESC/EACTS management of atrial fibrillation guidelines: 10 novel key aspects
+[ 14.5] PMID 41339275 | 2025 | Eur J Cardiothorac Surg
+        Surgical Techniques and Outcomes for Atrial Functional Mitral Regurgitation: Insights From the Mini Mitral International Registry
+[ 14.5] PMID 40801870 | 2025 | JACC Clin Electrophysiol
+        Percutaneous Aspiration Thrombectomy in Patients With Persistent Left Atrial Appendage Thrombus: A Case Series
+[ 14.5] PMID 40344308 | 2025 | Eur J Heart Fail
+        Assessing heart failure after surgical occlusion of the left atrial appendage. Letter regarding the article 'Heart failure after left atrial appendage occlusion: Insights from the LAAOS III randomized trial'
+[ 14.0] PMID 41386509 | 2026 | Can J Cardiol
+        Reconstructed Patient-Level Meta-analysis of Prophylactic Left Atrial Appendage Closure During Cardiac Surgery
+[ 14.0] PMID 39027946 | 2024 | Eur Heart J
+        Left atrial appendage closure for stroke prevention in atrial fibrillation: current status and perspectives
+
+====================================================================================================
+## 12_atriclip  AtriClip / クリップデバイス
+====================================================================================================
+[ 14.5] PMID 31292605 | 2019 | Interact Cardiovasc Thorac Surg
+        Outcomes of left atrial appendage occlusion using the AtriClip device: a systematic review
+[ 13.0] PMID 41314536 | 2026 | J Thorac Cardiovasc Surg
+        Long-term outcomes for patients undergoing hybrid ablation for atrial fibrillation
+[ 12.0] PMID 38996861 | 2024 | Ann Thorac Surg
+        Safe Implantation of a Bovine Bioprosthetic Aortic Valve in a Patient With Galactose-α-1,3-Galactose Allergy
+[ 12.0] PMID 37632481 | 2024 | JACC Cardiovasc Interv
+        Fourth Time's a Charm: Complex Closure of Incomplete Left Atrial Appendage Exclusion
+[ 11.5] PMID 40153420 | 2025 | Pacing Clin Electrophysiol
+        A Current Perspective on Left Atrial Appendage Closure Device Infections: A Systematic Review
+[ 11.5] PMID 37676222 | 2023 | JACC Cardiovasc Interv
+        Coronary Obstruction Following Epicardial Left Atrial Appendage Closure: A Rare Entity
+[ 11.5] PMID 37632482 | 2023 | JACC Cardiovasc Interv
+        Subocclusion of the Left Main Coronary Artery During Surgical Left Atrial Appendage Closure
+[ 11.5] PMID 35016783 | 2023 | J Thorac Cardiovasc Surg
+        Epicardial left atrial appendage clip occlusion in patients with atrial fibrillation during minimally invasive cardiac surgery
+[ 11.0] PMID 42123172 | 2026 | J Clin Med
+        Convergent Hybrid Ablation and Concomitant Left Atrial Appendage Exclusion for Stroke Prevention and Rhythm Control in Persistent Atrial Fibrillation
+[ 11.0] PMID 38403234 | 2024 | Heart Rhythm
+        Clinical outcomes of patients referred for left atrial appendage exclusion who did and did not undergo the procedure
+[ 11.0] PMID 36357021 | 2022 | JACC Cardiovasc Interv
+        Clean Up on Aisle 5 mm: Left Atrial Appendage Device Leak Closure With Detachable Coils, Ablation, and Vascular Plugs
+[ 11.0] PMID 36357020 | 2022 | JACC Cardiovasc Interv
+        Evaluation of Multimodality LAA Leak Closure Methods Following Incomplete Occlusion: The LAA Leak Study
+[ 11.0] PMID 34871377 | 2022 | Interact Cardiovasc Thorac Surg
+        Standalone epicardial left atrial appendage exclusion for thromboembolism prevention in atrial fibrillation
+[ 10.5] PMID 36581173 | 2023 | Heart Rhythm
+        To the Editor- Estimated prevalences of serious adverse events associated with the AtriClip device for left atrial appendage occlusion
+[ 10.5] PMID 36581171 | 2023 | Heart Rhythm
+        Reply to the Editor- Estimated prevalences of serious adverse events associated with the AtriClip device for left atrial appendage occlusion
+[ 10.5] PMID 33812821 | 2021 | JACC Cardiovasc Interv
+        Acute Compressive Coronary Artery Disease Due to Left Atrial Appendage Epicardial Occlusion
+[ 10.0] PMID 42027517 | 2026 | Ann Thorac Surg Short Rep
+        Cut, Clip, Burn: A Combined Approach to Lung Cancer and Atrial Fibrillation
+[ 10.0] PMID 35490711 | 2022 | Heart Rhythm
+        Adverse events associated with the AtriClip device for left atrial appendage occlusion: A Food and Drug Administration MAUDE database study
+
+====================================================================================================
+## 13_afmr  AFMR 心房性機能性MR
+====================================================================================================
+[ 25.0] PMID 42104906 | 2026 | Circulation
+        Angiotensin Receptor Neprilysin Inhibitor in Heart Failure With Preserved Ejection Fraction and Secondary Mitral Regurgitation: The PRAISE-MR Randomized Trial
+[ 24.0] PMID 42092503 | 2026 | J Thorac Cardiovasc Surg
+        The 2026 American Association for Thoracic Surgery Expert Consensus Document: Management of atrial functional mitral regurgitation
+[ 21.0] PMID 41442445 | 2026 | Interdiscip Cardiovasc Thorac Surg
+        Comparison of Meta-Analytical Estimates Between Surgical Repair and Transcatheter Edge-to-Edge Repair for Atrial Functional Mitral Regurgitation
+[ 17.0] PMID 40629531 | 2026 | Eur Heart J
+        Transcatheter edge-to-edge repair vs medical therapy in atrial functional mitral regurgitation: a propensity score-based comparison from the OCEAN-Mitral and REVEAL-AFMR registries
+[ 15.5] PMID 38879118 | 2025 | J Thorac Cardiovasc Surg
+        Surgical outcome of mitral valve surgery in atrial functional mitral regurgitation compared with degenerative etiology
+[ 15.5] PMID 37579199 | 2023 | Catheter Cardiovasc Interv
+        Outcomes of transcatheter edge-to-edge repair for atrial functional mitral regurgitation: A meta-analysis of observational studies
+[ 14.5] PMID 41339275 | 2025 | Eur J Cardiothorac Surg
+        Surgical Techniques and Outcomes for Atrial Functional Mitral Regurgitation: Insights From the Mini Mitral International Registry
+[ 14.5] PMID 40923951 | 2025 | JACC Cardiovasc Imaging
+        Atrial Functional Mitral Regurgitation and Exercise-Induced Changes in Heart Failure With Preserved Ejection Fraction
+[ 14.0] PMID 41949521 | 2026 | J Am Coll Cardiol
+        Atrial Functional Mitral Regurgitation: Toward a Unified Definition
+[ 14.0] PMID 41848471 | 2026 | J Am Coll Cardiol
+        Atrial Functional Mitral Regurgitation: Effect of Phenotype Definition on Classification, Valve Features, and Prognosis
+[ 14.0] PMID 41807262 | 2026 | Eur Heart J
+        Correction to: Transcatheter edge-to-edge repair vs medical therapy in atrial functional mitral regurgitation: a propensity score-based comparison from the OCEAN-Mitral and REVEAL-AFMR registries
+[ 14.0] PMID 41104561 | 2026 | Eur Heart J
+        Transcatheter edge-to-edge repair for atrial functional mitral regurgitation: the final frontier
+[ 14.0] PMID 36357130 | 2022 | JACC Cardiovasc Imaging
+        Atrial Functional Mitral Regurgitation: A JACC: Cardiovascular Imaging Expert Panel Viewpoint
+[ 13.5] PMID 40986391 | 2025 | Eur J Cardiothorac Surg
+        Outcomes of Mitral Valve Surgery for Atrial Functional Mitral Regurgitation vs Ventricular Functional Mitral Regurgitation
+[ 13.5] PMID 40109243 | 2025 | Circ Cardiovasc Interv
+        Transcatheter Mitral Valve Replacement With Atrial Fixation for Treatment of Atrial Functional Mitral Regurgitation
+[ 13.5] PMID 39972992 | 2025 | Eur J Heart Fail
+        Characteristics, determinants, and prognostic impact of severe tricuspid regurgitation in patients with atrial functional mitral regurgitation: Insights from the REVEAL-AFMR registry
+[ 13.5] PMID 39513571 | 2025 | Eur Heart J Cardiovasc Imaging
+        Qualitative and quantitative assessment of atrial functional mitral regurgitation: analysis from the REVEAL-AFMR registry
+[ 13.5] PMID 39475706 | 2025 | Circulation
+        Transcatheter Repair Versus Surgery for Atrial Versus Ventricular Functional Mitral Regurgitation: A Post Hoc Analysis of the MATTERHORN Trial
+
+====================================================================================================
+## 14_aftr  AFTR 心房性機能性TR
+====================================================================================================
+[ 14.0] PMID 38925751 | 2024 | JACC Cardiovasc Interv
+        Performance of Transcatheter Direct Annuloplasty in Patients With Atrial and Nonatrial Functional Tricuspid Regurgitation
+[ 13.5] PMID 39972992 | 2025 | Eur J Heart Fail
+        Characteristics, determinants, and prognostic impact of severe tricuspid regurgitation in patients with atrial functional mitral regurgitation: Insights from the REVEAL-AFMR registry
+[ 13.5] PMID 40338038 | 2025 | Eur J Heart Fail
+        Aetiological phenotypes of atrial and ventricular secondary tricuspid regurgitation and their prognostic implications: insights from the CARE-TR registry
+[ 13.0] PMID 36480974 | 2022 | J Am Coll Cardiol
+        Pathophysiology, Echocardiographic Diagnosis, and Treatment of Atrial Functional Mitral Regurgitation: JACC State-of-the-Art Review
+[ 13.0] PMID 39663058 | 2024 | JACC Cardiovasc Interv
+        Atrial Secondary Tricuspid Regurgitation: Insights Into the EuroTR Registry
+[ 13.0] PMID 38441886 | 2024 | Eur Heart J
+        Atrial secondary tricuspid regurgitation: pathophysiology, definition, diagnosis, and treatment
+[ 12.0] PMID 41056461 | 2026 | Eur Heart J Cardiovasc Imaging
+        Decoding right ventricular geometry: novel 3D echocardiography-derived global shape analysis across health and disease states
+[ 12.0] PMID 39663070 | 2024 | JACC Cardiovasc Interv
+        1-Year Outcomes of Transcatheter Tricuspid Annuloplasty for Patients With Severe Atrial Functional Tricuspid Regurgitation
+[ 12.0] PMID 39663059 | 2024 | JACC Cardiovasc Interv
+        What Is Atrial Secondary Tricuspid Regurgitation?: Virtues and Flaws of Definitions
+[ 12.0] PMID 38199756 | 2024 | JACC Cardiovasc Interv
+        Navigating the Heterogeneous Landscape of Atrial Functional Tricuspid Regurgitation
+[ 12.0] PMID 38199755 | 2024 | JACC Cardiovasc Interv
+        Atrial Functional Tricuspid Regurgitation in Patients Undergoing Transcatheter Aortic Valve Replacement
+[ 12.0] PMID 36480972 | 2022 | J Am Coll Cardiol
+        Understanding Atrial Fibrillation and Atrial Secondary Tricuspid Regurgitation: The Chicken or the Egg?
+[ 11.5] PMID 36752438 | 2023 | JACC Cardiovasc Imaging
+        Atrial Functional Tricuspid Regurgitation: Do We Blame the AF, Right Atrium, or Both?
+[ 11.5] PMID 36669928 | 2023 | JACC Cardiovasc Imaging
+        Atrial Functional Tricuspid Regurgitation: Importance of Atrial Fibrillation and Right Atrial Remodeling and Prognostic Significance
+[ 10.5] PMID 37905381 | 2023 | Eur J Heart Fail
+        Characteristics and outcomes of patients with atrial versus ventricular secondary tricuspid regurgitation undergoing tricuspid transcatheter edge-to-edge repair - Results from the TriValve registry
+[ 10.5] PMID 36802806 | 2023 | Circ Cardiovasc Interv
+        Correction to: Atrial Functional Tricuspid Regurgitation: Novel Definition and Impact on Prognosis
+[ 10.5] PMID 36762683 | 2023 | Eur Heart J Cardiovasc Imaging
+        Prognostic implications of atrial vs. ventricular functional tricuspid regurgitation
+[ 10.5] PMID 34274272 | 2021 | JACC Cardiovasc Imaging
+        Mechanistic Insights Into Significant Atrial Functional Tricuspid Regurgitation
+
+====================================================================================================
+## 15_afmr_surgery  AFMR/AFTR 外科治療
+====================================================================================================
+[ 24.0] PMID 42092503 | 2026 | J Thorac Cardiovasc Surg
+        The 2026 American Association for Thoracic Surgery Expert Consensus Document: Management of atrial functional mitral regurgitation
+[ 22.5] PMID 40256860 | 2025 | Eur J Heart Fail
+        The interaction between atrial fibrillation and mitral regurgitation: Insights from the CABANA randomized clinical trial
+[ 21.0] PMID 41442445 | 2026 | Interdiscip Cardiovasc Thorac Surg
+        Comparison of Meta-Analytical Estimates Between Surgical Repair and Transcatheter Edge-to-Edge Repair for Atrial Functional Mitral Regurgitation
+[ 17.0] PMID 40629531 | 2026 | Eur Heart J
+        Transcatheter edge-to-edge repair vs medical therapy in atrial functional mitral regurgitation: a propensity score-based comparison from the OCEAN-Mitral and REVEAL-AFMR registries
+[ 15.5] PMID 38879118 | 2025 | J Thorac Cardiovasc Surg
+        Surgical outcome of mitral valve surgery in atrial functional mitral regurgitation compared with degenerative etiology
+[ 15.5] PMID 37579199 | 2023 | Catheter Cardiovasc Interv
+        Outcomes of transcatheter edge-to-edge repair for atrial functional mitral regurgitation: A meta-analysis of observational studies
+[ 14.5] PMID 41339275 | 2025 | Eur J Cardiothorac Surg
+        Surgical Techniques and Outcomes for Atrial Functional Mitral Regurgitation: Insights From the Mini Mitral International Registry
+[ 14.0] PMID 41807262 | 2026 | Eur Heart J
+        Correction to: Transcatheter edge-to-edge repair vs medical therapy in atrial functional mitral regurgitation: a propensity score-based comparison from the OCEAN-Mitral and REVEAL-AFMR registries
+[ 14.0] PMID 41104561 | 2026 | Eur Heart J
+        Transcatheter edge-to-edge repair for atrial functional mitral regurgitation: the final frontier
+[ 14.0] PMID 38925751 | 2024 | JACC Cardiovasc Interv
+        Performance of Transcatheter Direct Annuloplasty in Patients With Atrial and Nonatrial Functional Tricuspid Regurgitation
+[ 13.5] PMID 40986391 | 2025 | Eur J Cardiothorac Surg
+        Outcomes of Mitral Valve Surgery for Atrial Functional Mitral Regurgitation vs Ventricular Functional Mitral Regurgitation
+[ 13.5] PMID 40109243 | 2025 | Circ Cardiovasc Interv
+        Transcatheter Mitral Valve Replacement With Atrial Fixation for Treatment of Atrial Functional Mitral Regurgitation
+[ 13.5] PMID 39475706 | 2025 | Circulation
+        Transcatheter Repair Versus Surgery for Atrial Versus Ventricular Functional Mitral Regurgitation: A Post Hoc Analysis of the MATTERHORN Trial
+[ 13.0] PMID 41365822 | 2026 | Eur J Cardiothorac Surg
+        Reply to Tomšič et al
+[ 13.0] PMID 38551534 | 2024 | JACC Cardiovasc Imaging
+        The Evolving Concept of Secondary Mitral Regurgitation Phenotypes: Lessons From the M-TEER Trials
+[ 13.0] PMID 38538205 | 2024 | J Am Coll Cardiol
+        Mitral Transcatheter Edge-to-Edge Repair in Patients With Atrial Functional Mitral Regurgitation
+[ 13.0] PMID 36480974 | 2022 | J Am Coll Cardiol
+        Pathophysiology, Echocardiographic Diagnosis, and Treatment of Atrial Functional Mitral Regurgitation: JACC State-of-the-Art Review
+[ 13.0] PMID 36075643 | 2022 | JACC Cardiovasc Interv
+        Clinical Outcomes With Transcatheter Edge-to-Edge Repair in Atrial Functional MR From the EXPAND Study
+
+====================================================================================================
+## 16_pfa_core  PFA 基礎/臨床
+====================================================================================================
+[ 24.0] PMID 42394219 | 2026 | Europace
+        Pulsed field or cryoballoon ablation for paroxysmal atrial fibrillation-insights from acute and chronic electroanatomic remapping in the randomized SINGLE-SHOT CHAMPION trial
+[ 24.0] PMID 42186803 | 2026 | Circulation
+        Pulsed Field Ablation Versus Sham to Treat Atrial Fibrillation: The PFA-SHAM Randomized Clinical Trial
+[ 24.0] PMID 42041224 | 2026 | N Engl J Med
+        Pulsed Field Ablation as Initial Therapy for Persistent Atrial Fibrillation
+[ 23.0] PMID 42227583 | 2026 | J Cardiovasc Electrophysiol
+        Pulsed-Field Ablation for Persistent Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 20.0] PMID 42300255 | 2026 | Europace
+        Autonomic effects and ablation success after pulsed field and cryoballoon ablation: a SINGLE SHOT CHAMPION substudy
+[ 17.0] PMID 42056302 | 2026 | Sci Rep
+        Pulsed field ablation for persistent atrial fibrillation: meta-analysis of pulmonary vein isolation with or without posterior wall isolation
+[ 17.0] PMID 42121033 | 2026 | BMC Cardiovasc Disord
+        Safety and efficacy of the pulsed field ablation for persistent atrial fibrillation: a meta-analysis
+[ 17.0] PMID 41975284 | 2026 | BMC Cardiovasc Disord
+        Pulsed field ablation versus cryoballoon ablation for pulmonary vein isolation in atrial fibrillation: a systematic review and meta-analysis with subgroup analyses by AF type
+[ 16.0] PMID 42190934 | 2026 | Heart Rhythm
+        Dosing of single-shot pulsed field ablation systems: A systematic review of efficacy and safety balance
+[ 15.0] PMID 42203053 | 2026 | Heart Rhythm
+        Comparative efficacy and safety of catheter ablation energy modalities for atrial fibrillation: A network meta-analysis of randomized trials
+[ 15.0] PMID 42116662 | 2026 | Europace
+        Pulsed field ablation vs. thermal ablation for pulmonary vein isolation: a network meta-analysis of randomized controlled trials
+[ 15.0] PMID 42092568 | 2026 | Heart Rhythm
+        TWOSOME trial: Randomized comparison of single-shot vs single-tip pulsed field ablation for pulmonary vein isolation
+[ 14.0] PMID 42370609 | 2026 | Europace
+        Catheter ablation of atrial fibrillation in transthyretin and light-chain cardiac amyloidosis: results from the multicentre AMYL-AF study
+[ 14.0] PMID 42188995 | 2026 | J Cardiovasc Electrophysiol
+        Comparison of Two Pulsed Field Ablation Systems for Atrial Fibrillation: One-Year Outcomes From a Multicenter Registry
+[ 14.0] PMID 42097576 | 2026 | Europace
+        Safety and effectiveness of the TactiFlex duo system: 6-month results of the FOCALFLEX study
+[ 13.0] PMID 42319332 | 2026 | JACC Clin Electrophysiol
+        Incidence, Mechanistic Insights, and Ablation of Atrial Tachycardia Occurring After Pulsed Field Ablation for Atrial Fibrillation: Results From a Large International Registry
+[ 13.0] PMID 42461200 | 2026 | JACC Clin Electrophysiol
+        Pulmonary Vein Reconnection Characteristics After Index Pulsed Field vs Radiofrequency Ablation for Atrial Fibrillation
+[ 13.0] PMID 42383974 | 2026 | JACC Clin Electrophysiol
+        Marshall Bundle-Mediated Re-Entry After Combined Endo- and Epicardial PFA at the Mitral Isthmus Successfully Treated With VOMEI
+
+====================================================================================================
+## 17_pfa_surgical  PFA 外科・心外膜応用
+====================================================================================================
+[ 20.0] PMID 42300255 | 2026 | Europace
+        Autonomic effects and ablation success after pulsed field and cryoballoon ablation: a SINGLE SHOT CHAMPION substudy
+[ 15.5] PMID 41071961 | 2025 | Circulation
+        High-Voltage Focal Pulsed Field Ablation to Treat Scar-Related Ventricular Tachycardia: The First-in-Human VCAS Trial
+[ 15.0] PMID 39084744 | 2024 | JACC Clin Electrophysiol
+        Hybrid-Convergent Procedure or Pulsed Field Ablation in Long-Standing Persistent Atrial Fibrillation
+[ 13.5] PMID 40574669 | 2025 | Eur J Cardiothorac Surg
+        Surgical ablation of atrial fibrillation with concomitant cardiac surgery: a state-of-the-art review
+[ 13.5] PMID 41031398 | 2025 | Circ Arrhythm Electrophysiol
+        Modified Unipolar Return Pulsed Field Ablation in Ventricular Myocardium
+[ 13.0] PMID 41005435 | 2026 | J Thorac Cardiovasc Surg
+        Nanosecond pulsed field ablation: Feasibility of creating the Cox-maze lesion set on the beating heart
+[ 13.0] PMID 42383974 | 2026 | JACC Clin Electrophysiol
+        Marshall Bundle-Mediated Re-Entry After Combined Endo- and Epicardial PFA at the Mitral Isthmus Successfully Treated With VOMEI
+[ 13.0] PMID 42043359 | 2026 | JACC Clin Electrophysiol
+        Early U.S. Experience With Catheter Ablation of Ventricular Arrhythmias With a Dual-Energy Lattice-Tip Catheter: Insights From the CLEAR-VT Registry
+[ 12.5] PMID 39644967 | 2025 | J Thorac Cardiovasc Surg
+        The performance of a new nanosecond pulsed-field ablation surgical clamp in the ablation of cardiac tissue: A chronic porcine model
+[ 12.0] PMID 41956267 | 2026 | Heart Rhythm
+        Epicardial validation of transmural posterior wall isolation during endocardial pulsed field ablation in long-standing persistent atrial fibrillation
+[ 12.0] PMID 42476389 | 2026 | Heart Rhythm
+        Thermal Behavior During Pulsed Field Ablation with the Pentaspline Catheter: An in vivo and in vitro Evaluation
+[ 12.0] PMID 41581848 | 2026 | Heart Rhythm
+        Unipolar voltage mapping to predict lesion durability during pulsed field ablation
+[ 12.0] PMID 39066781 | 2024 | JACC Clin Electrophysiol
+        Epicardial Pulsed Field Ablation for the Treatment of Paroxysmal Atrial Fibrillation During Cardiac Surgery
+[ 12.0] PMID 38690671 | 2024 | Circ Arrhythm Electrophysiol
+        Impact of Contact Force on Pulsed Field Ablation Outcomes Using Focal Point Catheter
+[ 12.0] PMID 38678453 | 2024 | JACC Clin Electrophysiol
+        Direct Epicardial Validation of Posterior Wall Electroporation in Persistent Atrial Fibrillation
+[ 11.5] PMID 41016419 | 2025 | Heart Rhythm
+        Electrical impedance spectroscopy facilitates quantitative depth monitoring of pulsed field ablation: An impedimetric approach with preclinical validation
+[ 11.5] PMID 40971515 | 2025 | Europace
+        Impact of pulse duration on cardiac electroporation: nanosecond pulses enhance cardiomyocyte selectivity and promote a Raman-detected shift towards apoptotic cell death
+[ 11.5] PMID 40553918 | 2025 | Heart Rhythm
+        Targeted epicardial pulsed field ablation of atrial ganglionated plexi: Electrophysiological and histologic analysis in pigs
+
+====================================================================================================
+## 18_pfa_redo_recurrence  PFA 再発・ギャップ
+====================================================================================================
+[ 24.0] PMID 42394219 | 2026 | Europace
+        Pulsed field or cryoballoon ablation for paroxysmal atrial fibrillation-insights from acute and chronic electroanatomic remapping in the randomized SINGLE-SHOT CHAMPION trial
+[ 24.0] PMID 42186803 | 2026 | Circulation
+        Pulsed Field Ablation Versus Sham to Treat Atrial Fibrillation: The PFA-SHAM Randomized Clinical Trial
+[ 24.0] PMID 42041224 | 2026 | N Engl J Med
+        Pulsed Field Ablation as Initial Therapy for Persistent Atrial Fibrillation
+[ 23.0] PMID 42227583 | 2026 | J Cardiovasc Electrophysiol
+        Pulsed-Field Ablation for Persistent Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 23.0] PMID 41568658 | 2026 | Eur Heart J
+        Pulsed field vs radiofrequency ablation for paroxysmal atrial fibrillation: the BEAT PAROX-AF trial
+[ 23.0] PMID 41517908 | 2026 | J Cardiovasc Electrophysiol
+        Prognostic Impact of Early Recurrence Following Pulsed Field Ablation: A Meta-Analysis
+[ 22.5] PMID 41338842 | 2025 | J Am Coll Cardiol
+        Pulsed Field Ablation Using a Novel Biphasic Catheter vs Thermal Ablation for Paroxysmal Atrial Fibrillation: InsightPFA Trial
+[ 20.0] PMID 42300255 | 2026 | Europace
+        Autonomic effects and ablation success after pulsed field and cryoballoon ablation: a SINGLE SHOT CHAMPION substudy
+[ 19.0] PMID 41553921 | 2026 | Pacing Clin Electrophysiol
+        Autonomic Profile Changes After Pulsed-Field Versus Thermal Ablation in Patients With Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 18.0] PMID 41251427 | 2026 | Pacing Clin Electrophysiol
+        Evaluating Pulsed Field Ablation for Atrial Fibrillation: A Systematic Review and Meta-Analysis of Procedural Outcomes
+[ 17.0] PMID 42056302 | 2026 | Sci Rep
+        Pulsed field ablation for persistent atrial fibrillation: meta-analysis of pulmonary vein isolation with or without posterior wall isolation
+[ 17.0] PMID 42121033 | 2026 | BMC Cardiovasc Disord
+        Safety and efficacy of the pulsed field ablation for persistent atrial fibrillation: a meta-analysis
+[ 17.0] PMID 41975284 | 2026 | BMC Cardiovasc Disord
+        Pulsed field ablation versus cryoballoon ablation for pulmonary vein isolation in atrial fibrillation: a systematic review and meta-analysis with subgroup analyses by AF type
+[ 17.0] PMID 41784048 | 2026 | Pacing Clin Electrophysiol
+        Pulsed Field Ablation for Atrial Fibrillation in the Elderly ≥75 Years Old: A Systematic Review and Meta-Analysis
+[ 17.0] PMID 41714974 | 2026 | BMC Cardiovasc Disord
+        Efficacy and safety of pulsed field ablation versus conventional thermal techniques for patients with atrial fibrillation: a systematic review and meta-analysis of randomized controlled trials
+[ 17.0] PMID 41652117 | 2026 | Nat Med
+        Pulsed field ablation versus conventional thermal ablation for paroxysmal atrial fibrillation: 4-year outcomes in the ADVENT-LTO study
+[ 17.0] PMID 41453480 | 2026 | Am J Cardiol
+        Pulsed-Field Ablation Versus Cryoballoon Ablation for Atrial Fibrillation: A Comparative Analysis
+[ 16.0] PMID 41563170 | 2026 | J Am Coll Cardiol
+        Pulsed-Field Ablation to Enhance the Durability of Pulmonary Vein Isolation and Treat Paroxysmal Atrial Fibrillation
+
+====================================================================================================
+## 19_la_size  左房サイズと成績
+====================================================================================================
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 23.0] PMID 41206792 | 2026 | Circulation
+        Dapagliflozin to Reduce Early Recurrence After Catheter Ablation for Atrial Fibrillation: The DARE-AF Randomized Clinical Trial
+[ 21.5] PMID 40888774 | 2025 | JACC Clin Electrophysiol
+        Comparison of Extended Cryoballoon, Standard Cryoballoon, and Radiofrequency Catheter Ablation in Patients With Persistent AF
+[ 20.5] PMID 41000017 | 2025 | Circ Arrhythm Electrophysiol
+        Efficacy of Low-Voltage-Area Ablation Is Enhanced in Patients With Advanced Left Atrial Enlargement: A Subanalysis of the SUPPRESS-AF Trial
+[ 18.0] PMID 42240420 | 2026 | Acta Cardiol
+        Incidence and predictors of postoperative atrial fibrillation following coronary artery bypass graft surgery: a meta-analysis of 207 studies
+[ 17.0] PMID 41702445 | 2026 | Int J Cardiol
+        Head-to-head comparison of two atrial fibrillation driver mapping systems for additional ablation in persistent atrial fibrillation: The CONTROL-AF trial
+[ 16.0] PMID 41563170 | 2026 | J Am Coll Cardiol
+        Pulsed-Field Ablation to Enhance the Durability of Pulmonary Vein Isolation and Treat Paroxysmal Atrial Fibrillation
+[ 15.5] PMID 40704730 | 2025 | Eur Heart J
+        Cryoballoon vs radiofrequency ablation in persistent atrial fibrillation: the CRRF-PeAF trial
+[ 15.0] PMID 41138810 | 2026 | J Thorac Cardiovasc Surg
+        The ICE-AFIB trial: A multicenter prospective investigational device exemption (IDE) trial using cryosurgical ablation for atrial fibrillation during concomitant cardiac surgery
+[ 15.0] PMID 42066879 | 2026 | Heart Rhythm
+        Identification of clinical risk factors for arrhythmia recurrence in patients with atrial fibrillation undergoing catheter ablation: A systematic review and meta-analysis
+[ 15.0] PMID 41405892 | 2026 | JAMA Cardiol
+        Myocardial Dysfunction in Primary Mitral Regurgitation: A Review
+[ 15.0] PMID 41288543 | 2026 | JACC Clin Electrophysiol
+        Catheter Ablation Outcomes and Life Expectancy in Very Elderly Atrial Fibrillation Patients: The REHEALTH AF Study
+[ 14.0] PMID 41519351 | 2026 | Heart Rhythm
+        Impact of left atrial posterior wall isolation using pulsed-field ablation in patients undergoing repeat catheter ablation for atrial fibrillation
+[ 13.0] PMID 42212987 | 2026 | JACC Clin Electrophysiol
+        Impact of Left Atrial Dilatation on Catheter Ablation Outcomes for Persistent Atrial Fibrillation: Does Size Matter?
+[ 13.0] PMID 42175980 | 2026 | JACC Clin Electrophysiol
+        High-Voltage Nanosecond Pulse Field Ablation Using a Compliant Circular Catheter to Treat Atrial Fibrillation: Lesion Durability and One-Year Outcomes
+[ 13.0] PMID 41985549 | 2026 | Heart Rhythm
+        Comparative 1-year outcomes of pentaspline versus circular array pulsed field ablation for pulmonary vein isolation with adjunctive atrial lines
+[ 13.0] PMID 42383969 | 2026 | JACC Clin Electrophysiol
+        Beyond the Silhouette: Defining a Predictive Phenotype for Persistent Atrial Fibrillation
+[ 13.0] PMID 42319340 | 2026 | JACC Clin Electrophysiol
+        Sequential vs First-Intention Marshall-PLAN Strategy in Persistent Atrial Fibrillation Ablation: A Propensity Score Analysis
+
+====================================================================================================
+## 20_la_reduction  左房縮小術
+====================================================================================================
+[ 11.0] PMID 41978515 | 2026 | Interdiscip Cardiovasc Thorac Surg
+        Surgical Repair of Supracristal Ventricular Septal Defect With Combined Multivalvular Disease in an Elderly Patient: A Transaortic Approach
+[ 11.0] PMID 41658870 | 2026 | JTCVS Tech
+        Totally endoscopic port access for rheumatic mitral valve replacement: Clinical outcomes and a single surgeon's learning curve experience
+[ 10.0] PMID 41540437 | 2026 | J Cardiothorac Surg
+        Exclusion of the left atrial appendage in Chinese population with perclip system: 1-year follow-up outcome results from a prospective, multi-center, open-label, single-arm device trial
+[ 10.0] PMID 41739411 | 2026 | Gen Thorac Cardiovasc Surg
+        Changes in the mitral valve annular angles after mitral valve repair for functional mitral regurgitation
+[ 10.0] PMID 31472135 | 2020 | Ann Thorac Surg
+        Risk Factors for Atrial Fibrillation Recurrence After Cox Maze IV Performed Without Pre-exclusion
+[  9.5] PMID 36820348 | 2023 | JTCVS Tech
+        A new surgical technique for left atrial reduction in giant left atrium
+[  9.0] PMID 37550585 | 2024 | Gen Thorac Cardiovasc Surg
+        Blood flow analysis with computational fluid dynamics in the left atrium after left atrial plication: a prospective study
+[  9.0] PMID 34087376 | 2022 | Semin Thorac Cardiovasc Surg
+        Commentary: Left Atrial Reduction Versus Preservation During Surgical Ablation of Atrial Fibrillation
+[  9.0] PMID 33713828 | 2022 | Semin Thorac Cardiovasc Surg
+        The Impact of Left Atrial Reduction During Surgical Ablation of Atrial Fibrillation
+[  9.0] PMID 29567440 | 2018 | Ann Thorac Surg
+        A Modified Atrial Volume Reduction Technique for a Giant Left Atrium
+[  9.0] PMID 26754625 | 2016 | Circ Heart Fail
+        Plasma Biomarkers Reflecting Profibrotic Processes in Heart Failure With a Preserved Ejection Fraction: Data From the Prospective Comparison of ARNI With ARB on Management of Heart Failure With Preserved Ejection Fraction Study
+[  9.0] PMID 24183909 | 2014 | J Thorac Cardiovasc Surg
+        Should surgical ablation for atrial fibrillation be performed in patients with a significantly enlarged left atrium?
+[  9.0] PMID 21982276 | 2011 | J Am Coll Cardiol
+        Hemodynamic and clinical impact of prosthesis-patient mismatch after transcatheter aortic valve implantation
+[  9.0] PMID 21420661 | 2011 | Ann Thorac Surg
+        Outcomes after transcatheter aortic valve implantation: transfemoral versus transapical approach
+[  8.0] PMID 23522227 | 2013 | Ann Thorac Surg
+        Left atrial reduction plasty
+[  8.0] PMID 23522220 | 2013 | Ann Thorac Surg
+        Aggressive atrial volume reduction for bilateral giant atria improves respiratory function
+[  8.0] PMID 23438549 | 2013 | Ann Thorac Surg
+        Mitral annulus reconstruction and giant left atrial reduction plasty
+[  8.0] PMID 22365023 | 2012 | Ann Thorac Surg
+        Left atrial reduction plasty: a novel technique
+
+====================================================================================================
+## 21_mitral_af_ablation  僧帽弁手術+AF
+====================================================================================================
+[ 25.5] PMID 39556379 | 2025 | JAMA
+        Pulmonary Vein Isolation With Optimized Linear Ablation vs Pulmonary Vein Isolation Alone for Persistent AF: The PROMPT-AF Randomized Clinical Trial
+[ 24.0] PMID 41922901 | 2026 | Europace
+        Ethanol infusion of the vein of marshall-based strategies for persistent atrial fibrillation: a systematic review and meta-analysis of randomized trials
+[ 23.5] PMID 39094723 | 2025 | Heart Rhythm
+        Catheter ablation for atrial fibrillation in patients with significant mitral regurgitation: A systematic review and meta-analysis
+[ 23.0] PMID 40780827 | 2026 | Heart
+        Surgical ablation in non-mitral valve cardiac surgeries: a meta-analysis of early outcomes
+[ 23.0] PMID 41655663 | 2026 | Heart Rhythm
+        Impact of linear ablation in persistent atrial fibrillation using a dual-energy, wide-footprint catheter: Analysis from the SPHERE Per-AF randomized trial
+[ 22.5] PMID 40256860 | 2025 | Eur J Heart Fail
+        The interaction between atrial fibrillation and mitral regurgitation: Insights from the CABANA randomized clinical trial
+[ 22.5] PMID 40947530 | 2025 | J Cardiovasc Electrophysiol
+        Impact of Adjunctive Vein of Marshall Ethanol Infusion on Catheter Ablation Outcomes in Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 22.5] PMID 40899337 | 2025 | J Cardiovasc Electrophysiol
+        Ethanol Infusion in the Vein of Marshall for Persistent Atrial Fibrillation Ablation: Evidence From Randomized Controlled Trials
+[ 22.5] PMID 40392905 | 2025 | Circ Arrhythm Electrophysiol
+        Marshall-Plan Ablation Strategy Versus Pulmonary Vein Isolation in Persistent AF: A Randomized Controlled Trial
+[ 20.0] PMID 38838745 | 2024 | Int J Cardiol
+        Extensive ablation for persistent atrial fibrillation patients with mitral regurgitation: Insights from the EARNEST-PVI prospective randomized trial
+[ 19.0] PMID 38504314 | 2024 | J Cardiothorac Surg
+        Safety and efficacy of Cox-Maze procedure for atrial fibrillation during mitral valve surgery: a meta-analysis of randomized controlled trials
+[ 18.0] PMID 41620299 | 2026 | Heart Lung Circ
+        Ethanol Infusion in the Vein of Marshall during Atrial Fibrillation Ablation: A Systematic Review and Meta-Analysis
+[ 18.0] PMID 41242590 | 2026 | Heart Rhythm
+        Targetable atrial tachycardias after artificial intelligence-guided ablation of persistent atrial fibrillation
+[ 17.0] PMID 41277368 | 2026 | Turk Kardiyol Dern Ars
+        Ethanol Infusion into the Vein of Marshall Enhances Mitral Isthmus Block and Reduces Atrial Fibrillation Recurrence: A Comprehensive Meta-Analysis
+[ 16.0] PMID 41389071 | 2026 | J Am Coll Cardiol
+        Multicenter Study on the Safety of Pulsed Field Ablation in Over 40,000 Patients: MANIFEST-US
+[ 15.5] PMID 38879118 | 2025 | J Thorac Cardiovasc Surg
+        Surgical outcome of mitral valve surgery in atrial functional mitral regurgitation compared with degenerative etiology
+[ 15.0] PMID 42213503 | 2026 | Europace
+        Transseptal puncture in cardiovascular interventions: a clinical consensus statement of the European Heart Rhythm Association, the Heart Failure Association, the European Association of Percutaneous Cardiovascular Interventions, the European Association of Cardiovascular Imaging of the ESC, and the Association for European Paediatric and Congenital Cardiology
+[ 14.5] PMID 40720587 | 2025 | Eur J Cardiothorac Surg
+        Concomitant Surgical Ablation in Atrial Fibrillation Patients Undergoing Cardiac Surgery for Isolated Coronary and Aortic Valve Disease: A Multicentre Study from The Netherlands Heart Registration
+
+====================================================================================================
+## 22_cabg_avr_af  CABG/AVR+AF
+====================================================================================================
+[ 22.0] PMID 38306687 | 2024 | Europace
+        Sequential hybrid ablation vs. surgical CryoMaze alone for treatment of atrial fibrillation: results of multicentre randomized controlled trial
+[ 17.5] PMID 33573741 | 2021 | J Am Coll Cardiol
+        Progression of Tricuspid Regurgitation After Surgery for Ischemic Mitral Regurgitation
+[ 15.0] PMID 41138810 | 2026 | J Thorac Cardiovasc Surg
+        The ICE-AFIB trial: A multicenter prospective investigational device exemption (IDE) trial using cryosurgical ablation for atrial fibrillation during concomitant cardiac surgery
+[ 14.5] PMID 40720587 | 2025 | Eur J Cardiothorac Surg
+        Concomitant Surgical Ablation in Atrial Fibrillation Patients Undergoing Cardiac Surgery for Isolated Coronary and Aortic Valve Disease: A Multicentre Study from The Netherlands Heart Registration
+[ 13.5] PMID 35965139 | 2023 | J Thorac Cardiovasc Surg
+        Atrial fibrillation ablation improves late survival after concomitant cardiac surgery
+[ 13.0] PMID 41679679 | 2026 | Ann Thorac Surg
+        Increasing but Variable Use of Surgical Treatment of Atrial Fibrillation: An Update from The STS Adult Cardiac Surgery Database
+[ 13.0] PMID 41557472 | 2026 | Eur J Cardiothorac Surg
+        Impact of Surgical Ablation of Atrial Fibrillation on Ventricular Function and Remodelling After Aortic Valve Replacement
+[ 13.0] PMID 40850487 | 2026 | Ann Thorac Surg
+        Surgical Ablation of Atrial Fibrillation in Addition to Coronary Artery Bypass Grafting: Are We Muddying the Waters?
+[ 13.0] PMID 38570109 | 2024 | Ann Thorac Surg
+        Atrial Fibrillation Management During Surgical vs Transcatheter Aortic Valve Replacement
+[ 13.0] PMID 38040323 | 2024 | Ann Thorac Surg
+        The Society of Thoracic Surgeons Adult Cardiac Surgery Database: 2023 Update on Procedure Data and Research
+[ 13.0] PMID 37160223 | 2024 | J Thorac Cardiovasc Surg
+        Surgical ablation of atrial fibrillation is associated with improved survival compared with appendage obliteration alone: An analysis of 100,000 Medicare beneficiaries
+[ 13.0] PMID 42155849 | 2026 | J Thorac Cardiovasc Surg
+        Long-term outcomes of postoperative atrial fibrillation after cardiac surgery: Results from 19,000 patients
+[ 12.5] PMID 39855338 | 2025 | J Thorac Cardiovasc Surg
+        Surgical treatment of atrial fibrillation in coronary artery bypass grafting
+[ 12.5] PMID 40828903 | 2025 | Eur J Cardiothorac Surg
+        Surgical Ablation of Pre-Existing Atrial Fibrillation During Aortic Valve Replacement in Medicare Beneficiaries
+[ 12.5] PMID 40459477 | 2025 | Ann Thorac Surg
+        Survival After Surgical Ablation of Atrial Fibrillation During Coronary Artery Bypass in Medicare Beneficiaries
+[ 12.5] PMID 33545152 | 2021 | Ann Thorac Surg
+        Surgical Ablation Concomitant With Nonmitral Valve Surgery for Persistent Atrial Fibrillation
+[ 12.5] PMID 32791060 | 2021 | Ann Thorac Surg
+        Safety of Atrial Fibrillation Ablation With Isolated Surgical Aortic Valve Replacement
+[ 12.0] PMID 38447184 | 2024 | Eur J Cardiothorac Surg
+        Clinical benefits of surgical ablation during isolated aortic valve replacement: a nationwide study
+
+====================================================================================================
+## 23_sinus_benefit  洞調律維持の予後インパクト
+====================================================================================================
+[ 24.0] PMID 38727662 | 2024 | JACC Clin Electrophysiol
+        Rhythm vs Rate Control Strategy for Atrial Fibrillation: A Meta-Analysis of Randomized Controlled Trials
+[ 24.0] PMID 38629286 | 2024 | Circ Arrhythm Electrophysiol
+        Prognostic Impact of Sinus Rhythm in Atrial Fibrillation Patients: Separating Rhythm Outcomes From Randomized Strategy Findings From the CABANA Trial
+[ 23.5] PMID 40132739 | 2025 | Heart Rhythm
+        Clinical impact of surgical left atrial appendage occlusion during cardiac surgery in patients in sinus rhythm: A meta-analysis
+[ 23.0] PMID 39258365 | 2024 | Circ Cardiovasc Interv
+        Stroke Prevention With Prophylactic Left Atrial Appendage Occlusion in Cardiac Surgery Patients Without Atrial Fibrillation: A Meta-Analysis of Randomized and Propensity-Score Studies
+[ 22.5] PMID 40466842 | 2025 | Heart Rhythm
+        Pulmonary vein isolation and low-voltage area ablation in sinus rhythm for persistent atrial fibrillation: The SCAR-AF randomized trial
+[ 22.5] PMID 39528205 | 2025 | Heart Rhythm
+        Non-early catheter ablation vs drug therapy in atrial fibrillation: Results from the CABANA trial
+[ 21.5] PMID 40799121 | 2025 | Europace
+        Circumferential pulmonary vein isolation with adjunctive linear ablation vs. circumferential pulmonary vein isolation alone for long-standing persistent atrial fibrillation: a randomized pilot study
+[ 20.5] PMID 37848175 | 2023 | Am J Cardiol
+        Surgical Ablation for Atrial Fibrillation During Mitral Valve Surgery: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+[ 19.0] PMID 38504314 | 2024 | J Cardiothorac Surg
+        Safety and efficacy of Cox-Maze procedure for atrial fibrillation during mitral valve surgery: a meta-analysis of randomized controlled trials
+[ 18.0] PMID 41839239 | 2026 | Int J Cardiol
+        Left atrial functional deterioration after beyond-pulmonary vein isolation strategy predominantly consisting of linear ablation: Insights from the EARNEST-PVI Trial
+[ 17.0] PMID 38811199 | 2024 | Circ J
+        Appropriate Selection of Substrate Ablation for Persistent Atrial Fibrillation Using Intraprocedural Assessment
+[ 16.0] PMID 38661235 | 2024 | ESC Heart Fail
+        Efficacy of catheter ablation for atrial fibrillation in heart failure: a meta-analysis of randomized controlled trials
+[ 15.5] PMID 37821261 | 2023 | Heart Lung Circ
+        Left Atrium Volume Reduction Procedure Concomitant With Cox-Maze Ablation in Patients Undergoing Mitral Valve Surgery: A Meta-Analysis of Clinical and Rhythm Outcomes
+[ 15.0] PMID 41513055 | 2026 | Heart Rhythm
+        Can oral anticoagulants be safely discontinued after atrial fibrillation ablation? A systematic review and meta-analysis of reconstructed time-to-event data
+[ 15.0] PMID 39546313 | 2024 | JAMA Netw Open
+        Strategy Optimization for a Combined Procedure in Patients With Atrial Fibrillation: The COMBINATION Randomized Clinical Trial
+[ 14.5] PMID 41435855 | 2025 | Europace
+        Management of patients with atrial tachycardia: a clinical consensus statement of the European Heart Rhythm Association (EHRA) of the ESC, endorsed by the Heart Rhythm Society (HRS), the Asia Pacific Heart Rhythm Society (APHRS), the Latin American Heart Rhythm Society (LAHRS), and the Association for European Paediatric and Congenital Cardiology (AEPC)
+[ 14.5] PMID 39680399 | 2025 | JAMA
+        Atrial Fibrillation: A Review
+[ 14.0] PMID 41507066 | 2026 | Interdiscip Cardiovasc Thorac Surg
+        A Retrospective Long-Term Follow-Up of the Randomized Study: Total Endoscopic Ablation of Patients With Long-Standing Persistent Atrial Fibrillation
+
+====================================================================================================
+## 24_early_rhythm_control  早期リズムコントロール
+====================================================================================================
+[ 24.5] PMID 40737012 | 2025 | JAMA Cardiol
+        Diabetes and Obesity and Treatment Effect of Early Rhythm Control vs Usual Care in Patients With Atrial Fibrillation: A Secondary Analysis of the EAST-AFNET 4 Randomized Clinical Trial
+[ 24.0] PMID 39215973 | 2024 | Eur Heart J
+        Biomarker-based prediction of sinus rhythm in atrial fibrillation patients: the EAST-AFNET 4 biomolecule study
+[ 23.5] PMID 39094723 | 2025 | Heart Rhythm
+        Catheter ablation for atrial fibrillation in patients with significant mitral regurgitation: A systematic review and meta-analysis
+[ 23.5] PMID 33909022 | 2021 | JAMA Cardiol
+        Assessment of Catheter Ablation or Antiarrhythmic Drugs for First-line Therapy of Atrial Fibrillation: A Meta-analysis of Randomized Clinical Trials
+[ 23.0] PMID 40250510 | 2026 | Heart Rhythm
+        Impact of atrial remodeling on efficacy of catheter ablation in reducing cardiovascular risk in atrial fibrillation: Results from CABANA trial
+[ 22.5] PMID 39528205 | 2025 | Heart Rhythm
+        Non-early catheter ablation vs drug therapy in atrial fibrillation: Results from the CABANA trial
+[ 22.5] PMID 41061672 | 2025 | Europace
+        Prevalence and severity of atrial cardiomyopathy in patients with recently diagnosed atrial fibrillation and stroke risk factors and its association with early rhythm control: a secondary analysis of EAST-AFNET 4
+[ 22.5] PMID 40295782 | 2025 | Europace
+        Dronedarone provides effective early rhythm control: post-hoc analysis of the ATHENA trial using EAST-AFNET 4 criteria
+[ 22.0] PMID 42126365 | 2026 | J Am Coll Cardiol
+        Effectiveness and Safety of Early Rhythm Control in Patients With Atrial Fibrillation and Chronic Kidney Disease
+[ 22.0] PMID 38702961 | 2024 | Europace
+        Safety and efficacy of long-term sodium channel blocker therapy for early rhythm control: the EAST-AFNET 4 trial
+[ 21.0] PMID 38964555 | 2024 | Int J Cardiol
+        Real-world evidence of early rhythm control in patients with atrial fibrillation: A systematic review and meta-analysis
+[ 21.0] PMID 34447995 | 2022 | Eur Heart J
+        Systematic, early rhythm control strategy for atrial fibrillation in patients with or without symptoms: the EAST-AFNET 4 trial
+[ 20.0] PMID 35043663 | 2022 | J Am Heart Assoc
+        Risks and Benefits of Early Rhythm Control in Patients With Acute Strokes and Atrial Fibrillation: A Multicenter, Prospective, Randomized Study (the RAFAS Trial)
+[ 19.5] PMID 36966734 | 2023 | Europace
+        Cost-effectiveness of early rhythm control vs. usual care in atrial fibrillation care: an analysis based on data from the EAST-AFNET 4 trial
+[ 18.5] PMID 40903137 | 2025 | J Am Coll Cardiol
+        Pathogenic Cardiomyopathy-Associated Gene Variants and Prognosis in Atrial Fibrillation: Results in 18,000 Clinical Trial Participants
+[ 18.0] PMID 41365742 | 2026 | Arch Cardiovasc Dis
+        Temporal trends in atrial fibrillation catheter ablation efficacy: A systematic review, meta-analysis and meta-regression from more than 20years of clinical data
+[ 18.0] PMID 35968706 | 2022 | Circulation
+        Early Rhythm Control in Patients With Atrial Fibrillation and High Comorbidity Burden
+[ 16.5] PMID 40637220 | 2025 | Eur Heart J
+        Short-term benefit of early rhythm control for atrial fibrillation: the EAST-AFNET 4 trial
+
+====================================================================================================
+## 25_devices  デバイス (AtriCure等)
+====================================================================================================
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 15.0] PMID 42046233 | 2026 | Eur J Cardiothorac Surg
+        Safety and Efficacy of Stand-Alone and Hybrid Thoracoscopic Atrial Fibrillation Ablation
+[ 12.5] PMID 39644967 | 2025 | J Thorac Cardiovasc Surg
+        The performance of a new nanosecond pulsed-field ablation surgical clamp in the ablation of cardiac tissue: A chronic porcine model
+[ 12.0] PMID 38996861 | 2024 | Ann Thorac Surg
+        Safe Implantation of a Bovine Bioprosthetic Aortic Valve in a Patient With Galactose-α-1,3-Galactose Allergy
+[ 11.5] PMID 37920983 | 2023 | Circ Arrhythm Electrophysiol
+        Nanosecond Pulsed Electric Field Ablation With a Bipolar Clamp Creates Durable Transmural Lesions in Cardiac Tissue
+[ 11.5] PMID 36935027 | 2023 | Ann Thorac Surg
+        Performance of an Irrigated Bipolar Radiofrequency Ablation Clamp on Explanted Human Hearts
+[ 10.0] PMID 42027533 | 2026 | Ann Thorac Surg Short Rep
+        Concomitant Cryoablation for Atrial Fibrillation: FREEZE-AFIB Post-Market Study
+[ 10.0] PMID 38380141 | 2024 | Ann Cardiothorac Surg
+        Hybrid strategies for stand-alone surgical ablation of atrial fibrillation
+[ 10.0] PMID 42027517 | 2026 | Ann Thorac Surg Short Rep
+        Cut, Clip, Burn: A Combined Approach to Lung Cancer and Atrial Fibrillation
+[  9.5] PMID 38390303 | 2023 | Front Cardiovasc Med
+        Convergent approach to persistent atrial fibrillation ablation: long-term single-centre safety and efficacy
+[  9.0] PMID 38199525 | 2024 | Int J Cardiol
+        Performance of a non-irrigated bipolar radiofrequency ablation clamp on beating human hearts
+[  9.0] PMID 38590996 | 2024 | Ann Cardiothorac Surg
+        Isolator Synergy EnCompass clamp: surgical notes
+[  8.5] PMID 40522325 | 2025 | Multimed Man Cardiothorac Surg
+        Aortic valve replacement, atrial fibrillation box ablation and left appendage clipping through a ministernotomy
+[  8.5] PMID 37385174 | 2023 | Am J Cardiol
+        Long-Term Imaging and Clinical Outcomes of Surgical Left Atrial Appendage Occlusion With AtriClip
+[  8.0] PMID 39196272 | 2024 | Multimed Man Cardiothorac Surg
+        Robotic-assisted left atrial appendage occlusion
+[  8.0] PMID 42182633 | 2026 | J Thorac Dis
+        Impact of intercostal nerve cryoablation on opioid use in pleural mesothelioma surgery: results from a high-volume integrated regional center
+[  7.0] PMID 38711794 | 2024 | Front Cardiovasc Med
+        Comparison of short-term efficacy of two bipolar radiofrequency ablation forceps for rheumatic heart disease concomitant with atrial fibrillation
+[  7.0] PMID 38541788 | 2024 | J Clin Med
+        Robotic-Assisted Epicardial Hybrid Ablation and Left Appendage Closure in Persistent Atrial Fibrillation: First European Experience
+
+====================================================================================================
+## 26_novel_energy  その他エネルギー源
+====================================================================================================
+[ 19.0] PMID 40221109 | 2026 | Heart Rhythm
+        Incidence of silent cerebral events detected by MRI in patients with atrial fibrillation undergoing pulsed field ablation vs thermal ablation: A systematic review and network meta-analysis
+[ 14.0] PMID 32406100 | 2020 | J Cardiovasc Electrophysiol
+        Comparison between minimal fluoroscopy and conventional approaches for visually guided laser balloon pulmonary vein isolation ablation
+[ 12.0] PMID 25391388 | 2015 | Eur J Cardiothorac Surg
+        Comparing energy sources for surgical ablation of atrial fibrillation: a Bayesian network meta-analysis of randomized, controlled trials
+[ 10.0] PMID 35661869 | 2022 | Europace
+        New energy sources and technologies for atrial fibrillation catheter ablation
+[ 10.0] PMID 23559674 | 2013 | Circ Arrhythm Electrophysiol
+        Pulmonary vein isolation using a visually guided laser balloon catheter: the first 200-patient multicenter clinical experience
+[ 10.0] PMID 22293143 | 2012 | Heart Rhythm
+        The durability of pulmonary vein isolation using the visually guided laser balloon catheter: multicenter results of pulmonary vein remapping studies
+[  9.5] PMID 36511472 | 2023 | J Cardiovasc Electrophysiol
+        Preclinical evaluation of semi-automated laser ablation for pulmonary vein isolation: A comparative study
+[  9.5] PMID 33837418 | 2021 | Europace
+        Second-generation laser balloon ablation for the treatment of atrial fibrillation assessed by continuous rhythm monitoring: the LIGHT-AF study
+[  8.5] PMID 33760290 | 2021 | J Cardiovasc Electrophysiol
+        Left atrial thickness and acute thermal injury in patients undergoing ablation for atrial fibrillation: Laser versus radiofrequency energies
+[  8.5] PMID 33650733 | 2021 | J Cardiovasc Electrophysiol
+        Novel energy source for ablating the pulmonary veins; Is pulsed field ablation the new ablation modality?
+[  8.5] PMID 31222862 | 2019 | J Cardiovasc Electrophysiol
+        Influence of various energy settings and overlap ratios on size and continuity of lesions in a laser balloon ablation in vitro model
+[  8.0] PMID 25732974 | 2016 | Eur J Cardiothorac Surg
+        Electrophysiological findings and long-term outcomes of percutaneous ablation of atrial arrhythmias after surgical ablation for atrial fibrillation†
+[  8.0] PMID 38038816 | 2024 | J Interv Card Electrophysiol
+        Esophageal injury, perforation, and fistula formation following atrial fibrillation ablation
+[  8.0] PMID 29722466 | 2018 | J Cardiovasc Electrophysiol
+        Postprocedural LGE-CMR comparison of laser and radiofrequency ablation lesions after pulmonary vein isolation
+[  8.0] PMID 22253374 | 2012 | Eur J Cardiothorac Surg
+        Electrophysiological efficacy of Epicor high-intensity focused ultrasound
+[  8.0] PMID 20934725 | 2010 | J Thorac Cardiovasc Surg
+        Reproducibility of left atrial ablation with high-intensity focused ultrasound energy in a calf model
+[  8.0] PMID 20504943 | 2010 | Circ Arrhythm Electrophysiol
+        Fatal end of a safety algorithm for pulmonary vein isolation with use of high-intensity focused ultrasound
+[  8.0] PMID 20304134 | 2010 | J Thorac Cardiovasc Surg
+        Where does atrial fibrillation surgery fail? Implications for increasing effectiveness of ablation
+
+====================================================================================================
+## 27_gp_marshall  GP / Marshall靱帯
+====================================================================================================
+[ 25.5] PMID 39556379 | 2025 | JAMA
+        Pulmonary Vein Isolation With Optimized Linear Ablation vs Pulmonary Vein Isolation Alone for Persistent AF: The PROMPT-AF Randomized Clinical Trial
+[ 24.0] PMID 41922901 | 2026 | Europace
+        Ethanol infusion of the vein of marshall-based strategies for persistent atrial fibrillation: a systematic review and meta-analysis of randomized trials
+[ 24.0] PMID 42138590 | 2026 | J Cardiovasc Electrophysiol
+        Vein of Marshall Ethanol Infusion for Recurrent Atrial Fibrillation Patients Presenting for Redo Ablation: A Systematic Review and Meta-Analysis
+[ 22.5] PMID 40947530 | 2025 | J Cardiovasc Electrophysiol
+        Impact of Adjunctive Vein of Marshall Ethanol Infusion on Catheter Ablation Outcomes in Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 22.5] PMID 40899337 | 2025 | J Cardiovasc Electrophysiol
+        Ethanol Infusion in the Vein of Marshall for Persistent Atrial Fibrillation Ablation: Evidence From Randomized Controlled Trials
+[ 22.5] PMID 40392905 | 2025 | Circ Arrhythm Electrophysiol
+        Marshall-Plan Ablation Strategy Versus Pulmonary Vein Isolation in Persistent AF: A Randomized Controlled Trial
+[ 22.5] PMID 39550720 | 2025 | JAMA Cardiol
+        Partial Cardiac Denervation to Prevent Postoperative Atrial Fibrillation After Coronary Artery Bypass Grafting: The pCAD-POAF Randomized Clinical Trial
+[ 21.5] PMID 40799121 | 2025 | Europace
+        Circumferential pulmonary vein isolation with adjunctive linear ablation vs. circumferential pulmonary vein isolation alone for long-standing persistent atrial fibrillation: a randomized pilot study
+[ 20.0] PMID 42300255 | 2026 | Europace
+        Autonomic effects and ablation success after pulsed field and cryoballoon ablation: a SINGLE SHOT CHAMPION substudy
+[ 18.5] PMID 39846931 | 2025 | JACC Clin Electrophysiol
+        Cardiovascular Disease-Specific Responses to Autonomic Denervation
+[ 18.0] PMID 41620299 | 2026 | Heart Lung Circ
+        Ethanol Infusion in the Vein of Marshall during Atrial Fibrillation Ablation: A Systematic Review and Meta-Analysis
+[ 18.0] PMID 38658060 | 2024 | JACC Clin Electrophysiol
+        Efficiency and Durability of EIVOM on Acute Reconnection After Mitral Isthmus Bidirectional Block
+[ 17.0] PMID 41277368 | 2026 | Turk Kardiyol Dern Ars
+        Ethanol Infusion into the Vein of Marshall Enhances Mitral Isthmus Block and Reduces Atrial Fibrillation Recurrence: A Comprehensive Meta-Analysis
+[ 16.0] PMID 37933170 | 2024 | Clin Cardiol
+        Efficacy and feasibility of vein of Marshall ethanol infusion during persistent atrial fibrillation ablation: A systematic review and meta-analysis
+[ 14.5] PMID 41328577 | 2025 | Circ Arrhythm Electrophysiol
+        International Survey on Vein of Marshall Retrograde Ethanol Infusion
+[ 14.5] PMID 40392662 | 2025 | JACC Clin Electrophysiol
+        Efficacy and Drug-Related Complications of Anticholinergic Drugs for Vagal Reaction Prevention During Pulsed Field Ablation
+[ 14.0] PMID 39322413 | 2024 | Eur Heart J
+        Catheter ablation for atrial fibrillation: indications and future perspective
+[ 14.0] PMID 41860501 | 2026 | JACC Clin Electrophysiol
+        Vein of Marshall Ethanol Infusion in Atrial Fibrillation
+
+====================================================================================================
+## 28_japan  日本・アジア
+====================================================================================================
+[  6.5] PMID 28536917 | 2017 | Gen Thorac Cardiovasc Surg
+        Comparison of early outcomes of surgical ablation procedures for atrial fibrillation concomitant to non-mitral cardiac surgery: a Japan Adult Cardiovascular Surgery Database study
+[  6.5] PMID 27854045 | 2017 | Gen Thorac Cardiovasc Surg
+        Development of the Maze procedure and the contribution of Japanese surgeons
+[  5.5] PMID 37126228 | 2023 | ASAIO J
+        Multicenter Study of Surgical Ablation for Atrial Fibrillation in Aortic Valve Replacement
+[  3.5] PMID 37547367 | 2023 | Eur Heart J Case Rep
+        Successful surgical repair of adult anomalous origin of the left main coronary artery from the pulmonary artery syndrome complicated by severe mitral regurgitation: a case report
+[  2.0] PMID 32698864 | 2020 | J Med Case Rep
+        Reconstruction of right ventricular outflow tract stenosis and right ventricular failure after Ross procedure - comprehensive assessment of adult congenital heart disease with four-dimensional imaging: a case report
+[  1.0] PMID 25735737 | 2015 | Surg Today
+        History and development of surgical procedures for atrial fibrillation
+[  0.0] PMID 30524555 | 2016 | J Cardiol Cases
+        A rare appearance of a large mural thrombus in left atrium detected two years after the Maze procedure
+
+====================================================================================================
+## 29_complications  合併症・ペースメーカ
+====================================================================================================
+[ 23.5] PMID 40711852 | 2025 | Eur J Cardiothorac Surg
+        Durable effectiveness and safety of hybrid ablation versus catheter ablation: 2-year results from the randomized CEASE-AF trial†
+[ 23.0] PMID 40780827 | 2026 | Heart
+        Surgical ablation in non-mitral valve cardiac surgeries: a meta-analysis of early outcomes
+[ 22.5] PMID 40714818 | 2025 | Interdiscip Cardiovasc Thorac Surg
+        Surgical Ablation by a Right Mini-thoracotomy Versus a Median Sternotomy: A Systematic Review and Meta-analysis of Observational Studies
+[ 22.0] PMID 38306687 | 2024 | Europace
+        Sequential hybrid ablation vs. surgical CryoMaze alone for treatment of atrial fibrillation: results of multicentre randomized controlled trial
+[ 21.5] PMID 39471966 | 2025 | Am J Cardiol
+        Late Survival Benefits of Concomitant Surgical Ablation for Atrial Fibrillation During Cardiac Surgery: A Systematic Review and Meta-Analysis
+[ 21.0] PMID 42098789 | 2026 | J Cardiothorac Surg
+        Minimally invasive thoracoscopic surgical ablation and hybrid ablation in AF patients: results from a single-arm systematic review and meta-analysis
+[ 20.5] PMID 37263356 | 2023 | Int J Cardiol
+        Outcomes of concomitant surgical ablation in patients undergoing surgical myectomy for hypertrophic obstructive cardiomyopathy: A systematic review and meta-analysis
+[ 20.5] PMID 37848175 | 2023 | Am J Cardiol
+        Surgical Ablation for Atrial Fibrillation During Mitral Valve Surgery: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+[ 19.0] PMID 38504314 | 2024 | J Cardiothorac Surg
+        Safety and efficacy of Cox-Maze procedure for atrial fibrillation during mitral valve surgery: a meta-analysis of randomized controlled trials
+[ 18.0] PMID 35964093 | 2022 | J Cardiothorac Surg
+        Hybrid convergent ablation versus endocardial catheter ablation for atrial fibrillation: a systematic review and meta-analysis of randomised control trials and propensity matched studies
+[ 17.5] PMID 33573741 | 2021 | J Am Coll Cardiol
+        Progression of Tricuspid Regurgitation After Surgery for Ischemic Mitral Regurgitation
+[ 15.5] PMID 38879118 | 2025 | J Thorac Cardiovasc Surg
+        Surgical outcome of mitral valve surgery in atrial functional mitral regurgitation compared with degenerative etiology
+[ 15.5] PMID 37821261 | 2023 | Heart Lung Circ
+        Left Atrium Volume Reduction Procedure Concomitant With Cox-Maze Ablation in Patients Undergoing Mitral Valve Surgery: A Meta-Analysis of Clinical and Rhythm Outcomes
+[ 14.5] PMID 40720587 | 2025 | Eur J Cardiothorac Surg
+        Concomitant Surgical Ablation in Atrial Fibrillation Patients Undergoing Cardiac Surgery for Isolated Coronary and Aortic Valve Disease: A Multicentre Study from The Netherlands Heart Registration
+[ 14.5] PMID 39481591 | 2025 | J Thorac Cardiovasc Surg
+        The long-term influence of lesion set in the surgical ablation of atrial fibrillation during mitral valve surgery: Multicenter propensity-score weighted study
+[ 14.5] PMID 34918672 | 2021 | Medicine (Baltimore)
+        Efficiency and safety of ablation procedure for the treatment of atrial fibrillation in valve surgery: A PRISMA-compliant cumulative systematic review and meta-analysis
+[ 13.5] PMID 40574669 | 2025 | Eur J Cardiothorac Surg
+        Surgical ablation of atrial fibrillation with concomitant cardiac surgery: a state-of-the-art review
+[ 13.5] PMID 38011245 | 2023 | Circulation
+        Evolving Contemporary Management of Atrial Fibrillation in Hypertrophic Cardiomyopathy
+
+====================================================================================================
+## 30_oac_after  アブレーション後の抗凝固
+====================================================================================================
+[ 24.0] PMID 40398548 | 2026 | Heart Rhythm
+        Ablation of atrial fibrillation and risk of stroke: A meta-analysis
+[ 23.5] PMID 40288474 | 2025 | Heart Rhythm
+        Comparison of left atrial appendage closure and oral anti-coagulation after catheter ablation for atrial fibrillation: Concomitant and sequential cohorts of the OPTION randomized controlled trial
+[ 21.5] PMID 39477201 | 2025 | Am J Cardiol
+        Left Atrial Appendage Occlusion During Cardiac Surgery to Prevent Stroke: A Systematic Review and Meta-Analysis
+[ 20.0] PMID 42225271 | 2026 | Europace
+        Percutaneous left atrial appendage closure following catheter ablation therapy of atrial fibrillation: outcomes stratified by bleeding risk - a sub-analysis of the OPTION study
+[ 19.0] PMID 40930379 | 2026 | J Thorac Cardiovasc Surg
+        Oral anticoagulation in patients with atrial fibrillation and heart valve prosthesis: A substudy from the Left Atrial Appendage Occlusion Study (LAAOS) III trial
+[ 19.0] PMID 41201405 | 2026 | JACC Clin Electrophysiol
+        Atrial Fibrillation Recurrence After Left Atrial Appendage Occlusion in Patients Undergoing Ablation: The OPTION Trial Sub analysis
+[ 17.5] PMID 39555822 | 2025 | N Engl J Med
+        Left Atrial Appendage Closure after Ablation for Atrial Fibrillation
+[ 17.0] PMID 41787721 | 2026 | Eur J Haematol
+        Oral Anticoagulation After Atrial Fibrillation Ablation: An Updated Systematic Review and Meta-Analysis of 267 443 Patients
+[ 16.5] PMID 39980323 | 2025 | Catheter Cardiovasc Interv
+        Comparative Efficacy and Safety of Low-Dose Direct Oral Anticoagulants Versus Dual Antiplatelet Therapy Following Left Atrial Appendage Occlusion in Patients With Nonvalvular Atrial Fibrillation: A Systematic Review and Meta-Analysis
+[ 16.0] PMID 41930400 | 2026 | Circ Arrhythm Electrophysiol
+        Post-Catheter Ablation Long-Term Antithrombotic Strategies in Atrial Fibrillation: A Network Meta-Analysis of Randomized Controlled Trials
+[ 16.0] PMID 38112741 | 2024 | Clin Res Cardiol
+        Transcatheter left atrial appendage occlusion in patients with chronic kidney disease: a systematic review and meta-analysis
+[ 15.5] PMID 37611779 | 2023 | J Am Coll Cardiol
+        Network Meta-Analysis of Initial Antithrombotic Regimens After Left Atrial Appendage Occlusion
+[ 15.0] PMID 39716733 | 2024 | Europace
+        Spotlight on the 2024 ESC/EACTS management of atrial fibrillation guidelines: 10 novel key aspects
+[ 15.0] PMID 41513055 | 2026 | Heart Rhythm
+        Can oral anticoagulants be safely discontinued after atrial fibrillation ablation? A systematic review and meta-analysis of reconstructed time-to-event data
+[ 15.0] PMID 35924410 | 2022 | Clin Appl Thromb Hemost
+        Benefits and Risks Associated with Long-term Oral Anticoagulation after Successful Atrial Fibrillation Catheter Ablation: Systematic Review and Meta-analysis
+[ 14.5] PMID 33580847 | 2021 | J Interv Card Electrophysiol
+        Clinical follow-up of left atrial appendage occlusion in patients with atrial fibrillation ineligible of oral anticoagulation treatment-a systematic review and meta-analysis
+[ 14.0] PMID 38291925 | 2024 | Europace
+        Practical guide on left atrial appendage closure for the non-implanting physician: an international consensus paper
+[ 13.0] PMID 38296011 | 2024 | Heart Rhythm
+        Minimally invasive epicardial surgical left atrial appendage exclusion for atrial fibrillation patients at high risk for stroke and for bleeding

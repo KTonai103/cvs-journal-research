@@ -22,6 +22,7 @@
   /* Category accents (one hue per clinical field) */
   --c-aortic:  oklch(0.55 0.14 255);
   --c-mitral:  oklch(0.56 0.15 350);
+  --c-arrhythmia: oklch(0.54 0.12 200);
   --c-hocm:    oklch(0.62 0.13 58);
   --c-perf:    oklch(0.56 0.11 168);
   --c-mcs:     oklch(0.55 0.15 300);
@@ -255,7 +256,7 @@ footer a:hover { color: var(--navy); }
   <h1>CVS Journal Research</h1>
   <p>心臓外科・MCS・LVAD 関連ジャーナル 注目論文＆トピックレビュー</p>
   <div class="header-stats">
-    <span><b>10</b>トピックレビュー</span>
+    <span><b>11</b>トピックレビュー</span>
     <span><b>4</b>月次レポート</span>
     <span><b>3</b>対象誌</span>
   </div>
@@ -265,6 +266,7 @@ footer a:hover { color: var(--navy); }
   <div class="catnav-inner">
     <a href="#aortic"  style="--accent:var(--c-aortic)"><span class="dot"></span>大動脈弁<span class="n">6</span></a>
     <a href="#mitral"  style="--accent:var(--c-mitral)"><span class="dot"></span>僧帽弁<span class="n">1</span></a>
+    <a href="#arrhythmia" style="--accent:var(--c-arrhythmia)"><span class="dot"></span>不整脈外科<span class="n">1</span></a>
     <a href="#hocm"    style="--accent:var(--c-hocm)"><span class="dot"></span>HOCM・心筋切除<span class="n">2</span></a>
     <a href="#perf"    style="--accent:var(--c-perf)"><span class="dot"></span>体外循環・周術期<span class="n">2</span></a>
     <a href="#mcs"     style="--accent:var(--c-mcs)"><span class="dot"></span>MCS・LVAD<span class="n">1</span></a>
@@ -379,6 +381,32 @@ footer a:hover { color: var(--navy); }
     </div>
   </section>
 
+  <!-- ============ 不整脈外科 ============ -->
+  <section id="arrhythmia" style="--accent:var(--c-arrhythmia)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>不整脈外科</h2>
+      <span class="en">Arrhythmia Surgery</span>
+      <span class="count">1件</span>
+    </div>
+    <div class="card-list">
+
+      <a class="card" href="output/af_surgical_ablation_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-25</span></div>
+        <div class="card-title">外科的心房細動治療の現在地 — Maze・ハイブリッド・PFA・AFMR を貫く1本の線</div>
+        <div class="card-meta">PubMed 42,044ヒットから177編を選定・71編をフルテキスト精読（2,769数値を敵対的照合）｜ 全15章：成功率が比較不能な理由／lesion set 論争／後壁box／左心耳閉鎖／胸腔鏡単独 vs ハイブリッド／PFA時代の外科の領土／AFMR・AFTR／PPM 8年27%（NNH 7）／ガイドライン6文書の推奨クラス地図 ｜ 全文検索窓つき・全引用に PubMed リンク</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">71編 精読・全文検索</span>
+          <span class="badge badge-jtcvs">Cox-Maze / lesion set</span>
+          <span class="badge badge-ejcts">ハイブリッド・PFA</span>
+          <span class="badge badge-jhlt">AFMR / AFTR</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
   <!-- ============ HOCM ============ -->
   <section id="hocm" style="--accent:var(--c-hocm)">
     <div class="sec-head">
@@ -418,9 +446,20 @@ footer a:hover { color: var(--navy); }
       <span class="marker"></span>
       <h2>体外循環・周術期</h2>
       <span class="en">Perfusion / Perioperative</span>
-      <span class="count">2件</span>
+      <span class="count">3件</span>
     </div>
     <div class="card-list">
+
+      <a class="card" href="output/hemostatic_agents_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-12</span></div>
+        <div class="card-title">心臓外科の止血剤・シーラント — 作用機序・メリデメ・日本の価格と、ハイドロフィットの仮性動脈瘤／感染懸念の検証</div>
+        <div class="card-meta">ボルヒール／サージフロー／フロシール／ハイドロフィット／バイオグルー／タコシール等を11クラスで各論化 ｜ PubMed 3,633本を収集・敵対的検証（28主張が生存・12却下）｜ マツダイト添付文書を一次資料で確認：仮性動脈瘤は〔重大な有害事象〕に明記も因果は未証明・比較研究ゼロ ｜ 2026年度の薬価・材料価格基準を告示原文から</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-ejcts">Hemostasis / Sealant</span>
+          <span class="badge badge-jtcvs">Safety &amp; Cost</span>
+        </div>
+      </a>
 
       <a class="card" href="output/cor_knot_pitfalls_review.html">
         <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-03</span></div>
