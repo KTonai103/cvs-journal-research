@@ -1,0 +1,20 @@
+{
+ "video_only_no_figures": [
+  "Bonatti_2024_Distal_Anastomosis_Robotic_TECAB_HowTo_ACS",
+  "Kitahara_2025_Robotic_Endoscopic_AVR_RapidDeployment_ACS",
+  "Algoet_2024_Trocar_Placement_Styles_Robotic_BeatingHeart_CABG_ACS",
+  "Loulmet_2026_MAC_Complex_Mitral_Repair_Robotics_ACS",
+  "Loulmet_2025_Robotic_Posterior_Bar_Decalcification_MAC_ACS",
+  "Gillinov_2026_Patient_Selection_Robotic_Mitral_ACS",
+  "Pickering_2025_Robotic_AVR_Simultaneous_Septal_Myectomy_ACS",
+  "Darehzereshki_2025_Robotic_AVR_Aortic_Root_Enlargement_ACS",
+  "Jonsson_2024_How_to_Start_Robotic_CABG_Program_ACS",
+  "Bonatti_2024_SinglePort_Systems_IMA_Harvesting_ICVTS",
+  "Balkhy_2025_Robotic_MultiVessel_OffPump_TECAB_Technique_JVisSurg",
+  "DeLay_2023_Robotic_Mitral_Redo_after_Failed_TEER_JTCVSTech",
+  "Podgorsek_2026_SinglePort_Robotic_Epicardial_Lead_CRT_ATSShortRep",
+  "Dorsey_2023_Subvalvular_Techniques_Robotic_Mitral_Repair_JTCVSTech",
+  "Badhwar_2026_STS_Expert_Consensus_Robotic_Cardiac_Training_ATS"
+ ],
+ "note": "extract_images.py list で埋め込み画像0を確認済み。動画リンクのみで構成する。"
+}

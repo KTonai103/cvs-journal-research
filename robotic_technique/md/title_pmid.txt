@@ -1,0 +1,55 @@
+1	The Society of Thoracic Surgeons Expert Consensus Pathway for Robotic Cardiac Surgical Training	41619927
+2	Current state of the art and recommendations in robotic mitral valve surgery	35748726
+3	How to implement a clinical robotic mitral valve surgery program	36237591
+4	Developing Proficiency in Robotic Cardiac Surgery	39209092
+5	Robotic mitral valve repair: patient positioning and port placement in male patients	40900082
+6	Robotic mitral valve repair: patient positioning and port placement in female patients	40900091
+7	Different styles in trocar placement in robotic-assisted beating heart coronary artery bypass grafting	39434974
+8	Computed Tomography in Preoperative Planning of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Clinical Application	41904670
+9	Patient selection in robotic mitral valve surgery	41669182
+10	Robotic mitral valve surgery in the very thin patient: Tips and tricks	39991302
+11	Osteophyte of the first costochondral joint is a reliable landmark to facilitate standardized robotic left internal mammary artery harvesting	39991316
+12	Simulation Training in Video-Assisted and Robotic-Assisted Cardiac Surgery: A Narrative Review	42188066
+13	Examining the learning curves in robotic cardiac surgery wet lab simulation training	39786456
+14	Inexpensive and Easy to Set Up Robotic Cardiac Simulator Offers "Unlimited" Endoscopic Coronary Artery Bypass Grafting Experience: Proof of Concept	37753828
+15	Development and Validation of a Low-Cost, High-Fidelity Simulation Model for Robotic Internal Mammary Artery Harvest Using the da Vinci Xi Robot	39473044
+16	Suturing map for endoscopic mitral valve repair developed on high-fidelity endoscopic simulator	30192451
+17	Defining the Learning Curve in Minimally Invasive Cardiac Surgery: A Systematic Review and Meta-Analysis	40886757
+18	Robotic mitral valve repair: The steps to success	38152222
+19	Tricks and tips to facilitate robotic approach for mitral valve repair	38152209
+20	Complications and their management in robotic mitral valve surgery from the surgical assistant's perspective	36237594
+21	Safeguards and pitfalls in minimally invasive mitral valve surgery	24349995
+22	Tackling MAC and other complex mitral valve repair scenarios through the lens of robotics	41669170
+23	Two decades of experience with robotic mitral valve repair: What have we learned?	38835581
+24	Robotic mitral valve repair: quadrangular resection and bidirectional sliding valvuloplasty	41114561
+25	Robotic mitral annuloplasty using a semi-continuous three-suture technique with a flexible band	40931770
+26	Subvalvular techniques enhanced with endoscopic robotic mitral valve repair	38152165
+27	Circumflex Coronary Artery Injury during Modern Mitral Valve Surgery-A Review of Current Concepts and Perspectives	37629762
+28	Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery	40913323
+29	Lateral access fully robotic aortic valve replacement "RAVR": from novel to normal	40547427
+30	Lateral approach in robotic aortic valve replacement: optimizing visualization from the orient and down under	40547428
+31	Robotic endoscopic aortic valve replacement with rapid deployment valve: technique and outcomes	40547426
+32	Robotic aortic valve replacement and aortic root enlargement for optimal prosthesis selection	40547430
+33	Robotic aortic valve replacement with simultaneous ventricular septal myectomy: a minimally invasive solution	40547425
+34	Longitudinal outcomes following international multicentre experience with robotic aortic valve replacement†	40131409
+35	How to perform distal anastomosis using a robotic platform: totally endoscopic coronary artery bypass	39157189
+36	Exposure technique for the circumflex artery territory in robotic totally endoscopic coronary artery bypass grafting	39434978
+37	How to advance from minimally invasive coronary artery bypass grafting to totally endoscopic coronary bypass grafting: challenges in Europe versus United States of America	39434975
+38	Robotic-assisted coronary artery bypass grafting: how I teach it	39157180
+39	Step-by-step technique of robotic-assisted minimally invasive direct coronary artery bypass	39434973
+40	Bilateral internal thoracic artery grafting in robotic beating-heart totally endoscopic coronary artery bypass: 10-year outcomes	39157183
+41	Robotic multi-vessel off-pump totally endoscopic coronary artery bypass (TECAB) procedure: surgical technique	42232265
+42	Lessons learned from robotic-assisted coronary artery bypass surgery: risk factors for conversion to median sternotomy	23274864
+43	Robotic repair of atrial septal defect: Pre-groove vertical right atriotomy approach	39669348
+44	Robotic myxoma resection using an ultrasonic aspirator system	39991301
+45	Robotic-assisted left atrial appendage occlusion	39196272
+46	Speech bubble sign - insights regarding incomplete left atrial appendage closure via electrocardiography-synchronized computed tomography in robotic surgery cases	41134183
+47	Robotic-Assisted Epicardial Hybrid Ablation and Left Appendage Closure in Persistent Atrial Fibrillation: First European Experience	38541788
+48	Totally endoscopic, robotic-assisted tricuspid valve repair and biatrial CryoMAZE	38167378
+49	Safety and Outcomes of Reoperative Robotic Tricuspid Valve Surgery	39267356
+50	Redo mitral valve surgery: A totally endoscopic, robotic-assisted approach for adhesiolysis and complex repair	36367136
+51	Robotic endoscopic transmitral septal myectomy and concomitant mitral valve repair for hypertrophic obstructive cardiomyopathy	37314292
+52	Single-Port Robotic-Assisted Epicardial Lead Placement for Cardiac Resynchronization Therapy	42027540
+53	First Case of Bilateral Internal Mammary Harvesting on a Human Cadaver Using the hinotori™ System	41622650
+54	Robotically assisted internal mammary artery harvesting-will single-port systems be useful?	38845068
+55	Augmented and Mixed Reality in Cardiac Surgery: A Narrative Review	41682905

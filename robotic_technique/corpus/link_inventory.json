@@ -1,0 +1,592 @@
+[
+ {
+  "pmid": "23274864",
+  "file": "pdf/Daniel_2012_RoboticCABG_Conversion_to_Sternotomy_RiskFactors_Innovations.pdf",
+  "journal": "Innovations (Phila)",
+  "year": "2012",
+  "doi": "10.1097/IMI.0b013e31827e7cf8",
+  "pmc": "",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "24349995",
+  "file": "pdf/Czesla_2013_Safeguards_and_Pitfalls_MICS_Mitral_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2013",
+  "doi": "10.3978/j.issn.2225-319X.2013.07.26",
+  "pmc": "PMC3857050",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "35748726",
+  "file": "pdf/Palmen_2022_Robotic_Mitral_State_of_Art_Recommendations_ICVTS.pdf",
+  "journal": "Interact Cardiovasc Thorac Surg",
+  "year": "2022",
+  "doi": "10.1093/icvts/ivac160",
+  "pmc": "PMC9724768",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "36237591",
+  "file": "pdf/Xue_2022_How_to_Implement_Robotic_Mitral_Program_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2022",
+  "doi": "10.21037/acs-2022-rmvs-14",
+  "pmc": "PMC9551378",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "36237594",
+  "file": "pdf/Patel_2022_Robotic_Mitral_Complications_Assistant_Perspective_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2022",
+  "doi": "10.21037/acs-2022-rmvs-15",
+  "pmc": "PMC9551371",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "36367136",
+  "file": "md/Amabile_2022_Redo_Mitral_Robotic_Adhesiolysis_ComplexRepair_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2022",
+  "doi": "10.1510/mmcts.2022.061",
+  "pmc": "",
+  "article_url": "https://www.mmcts.org/case-report/1766",
+  "video_likely": true
+ },
+ {
+  "pmid": "37314292",
+  "file": "md/AlJamal_2023_Robotic_Transmitral_Septal_Myectomy_HOCM_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2023",
+  "doi": "10.1510/mmcts.2023.025",
+  "pmc": "",
+  "article_url": "https://mmcts.org/case-report/1812",
+  "video_likely": true
+ },
+ {
+  "pmid": "37629762",
+  "file": "pdf/vanderMerwe_2023_Circumflex_Injury_Mitral_Surgery_Review_Medicina.pdf",
+  "journal": "Medicina (Kaunas)",
+  "year": "2023",
+  "doi": "10.3390/medicina59081470",
+  "pmc": "PMC10456639",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "37753828",
+  "file": "md/AlJamal_2023_Inexpensive_Robotic_Cardiac_Simulator_TECAB_Innovations_ABSTRACT.md",
+  "journal": "Innovations (Phila)",
+  "year": "2023",
+  "doi": "10.1177/15569845231199997",
+  "pmc": "",
+  "article_url": "https://journals.sagepub.com/doi/10.1177/15569845231199997",
+  "video_likely": true
+ },
+ {
+  "pmid": "38152165",
+  "file": "pdf/Dorsey_2023_Subvalvular_Techniques_Robotic_Mitral_Repair_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2023",
+  "doi": "10.1016/j.xjtc.2023.08.019",
+  "pmc": "PMC10750495",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "38152179",
+  "file": "pdf/DeLay_2023_Robotic_Mitral_Redo_after_Failed_TEER_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2023",
+  "doi": "10.1016/j.xjtc.2023.09.018",
+  "pmc": "PMC10750871",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "38152209",
+  "file": "pdf/Issa_2023_Robotic_Mitral_Repair_Tricks_and_Tips_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2023",
+  "doi": "10.1016/j.xjtc.2023.09.020",
+  "pmc": "PMC10750885",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "38152222",
+  "file": "pdf/Mick_2023_Robotic_Mitral_Repair_Steps_to_Success_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2023",
+  "doi": "10.1016/j.xjtc.2023.08.023",
+  "pmc": "PMC10750819",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "38167378",
+  "file": "md/Amabile_2024_Robotic_Tricuspid_Repair_Biatrial_CryoMAZE_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.1510/mmcts.2023.074",
+  "pmc": "",
+  "article_url": "https://mmcts.org/case-report/1861",
+  "video_likely": true
+ },
+ {
+  "pmid": "38541788",
+  "file": "pdf/Agnino_2024_Robotic_Epicardial_Hybrid_Ablation_LAA_Closure_JCM.pdf",
+  "journal": "J Clin Med",
+  "year": "2024",
+  "doi": "10.3390/jcm13061563",
+  "pmc": "PMC10971541",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "38835581",
+  "file": "pdf/Loulmet_2024_Two_Decades_Robotic_Mitral_Repair_Lessons_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2024",
+  "doi": "10.1016/j.xjtc.2024.01.014",
+  "pmc": "PMC11145349",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "38845068",
+  "file": "pdf/Bonatti_2024_SinglePort_Systems_IMA_Harvesting_ICVTS.pdf",
+  "journal": "Interdiscip Cardiovasc Thorac Surg",
+  "year": "2024",
+  "doi": "10.1093/icvts/ivae107",
+  "pmc": "PMC11165269",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "39157180",
+  "file": "pdf/Sutter_2024_Robotic_CABG_How_I_Teach_It_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.21037/acs-2024-rcabg-0033",
+  "pmc": "PMC11327414",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39157183",
+  "file": "pdf/Nisivaco_2024_BITA_Robotic_BeatingHeart_TECAB_10yr_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.21037/acs-2024-rcabg-0016",
+  "pmc": "PMC11327409",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39157189",
+  "file": "pdf/Bonatti_2024_Distal_Anastomosis_Robotic_TECAB_HowTo_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.21037/acs-2023-rcabg-0211",
+  "pmc": "PMC11327406",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39196272",
+  "file": "md/Baudo_2024_Robotic_Assisted_LAA_Occlusion_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.1510/mmcts.2024.065",
+  "pmc": "",
+  "article_url": "https://mmcts.org/tutorial/1913",
+  "video_likely": true
+ },
+ {
+  "pmid": "39209092",
+  "file": "pdf/Halkos_2025_Developing_Proficiency_Robotic_Cardiac_Surgery_ATS.pdf",
+  "journal": "Ann Thorac Surg",
+  "year": "2025",
+  "doi": "10.1016/j.athoracsur.2024.07.049",
+  "pmc": "",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39323752",
+  "file": "pdf/Takahashi_2024_3DCT_Mitral_Annulus_100_Robotic_Cases_FrontCVM.pdf",
+  "journal": "Front Cardiovasc Med",
+  "year": "2024",
+  "doi": "10.3389/fcvm.2024.1369801",
+  "pmc": "PMC11422080",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "39434972",
+  "file": "pdf/Jonsson_2024_How_to_Start_Robotic_CABG_Program_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.21037/acs-2023-rcabg-10",
+  "pmc": "PMC11491177",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39434973",
+  "file": "pdf/Wertan_2024_StepByStep_Robotic_MIDCAB_Technique_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.21037/acs-2024-rcabg-0034",
+  "pmc": "PMC11491183",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39434974",
+  "file": "pdf/Algoet_2024_Trocar_Placement_Styles_Robotic_BeatingHeart_CABG_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.21037/acs-2023-rcabg-0209",
+  "pmc": "PMC11491174",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39434975",
+  "file": "pdf/Algoet_2024_MIDCAB_to_TECAB_Europe_vs_USA_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "doi": "10.21037/acs-2023-rcabg-0210",
+  "pmc": "PMC11491180",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39669348",
+  "file": "pdf/Kim_2024_Robotic_ASD_Repair_PreGroove_Vertical_Atriotomy_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2024",
+  "doi": "10.1016/j.xjtc.2024.05.022",
+  "pmc": "PMC11632338",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39786456",
+  "file": "pdf/Atroshchenko_2024_WetLab_Simulation_LearningCurves_Robotic_ICVTS.pdf",
+  "journal": "Interdiscip Cardiovasc Thorac Surg",
+  "year": "2024",
+  "doi": "10.1093/icvts/ivae227",
+  "pmc": "PMC11723529",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "39991301",
+  "file": "pdf/Nakamura_2025_Robotic_Myxoma_Resection_Ultrasonic_Aspirator_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2025",
+  "doi": "10.1016/j.xjtc.2024.10.005",
+  "pmc": "PMC11845353",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39991302",
+  "file": "pdf/Hage_2025_Robotic_Mitral_VeryThin_Patient_TipsTricks_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2025",
+  "doi": "10.1016/j.xjtc.2024.10.001",
+  "pmc": "PMC11845388",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "39991316",
+  "file": "pdf/He_2025_Osteophyte_Landmark_Robotic_LIMA_Harvest_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2025",
+  "doi": "10.1016/j.xjtc.2024.11.004",
+  "pmc": "PMC11845373",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "40547425",
+  "file": "pdf/Pickering_2025_Robotic_AVR_Simultaneous_Septal_Myectomy_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.21037/acs-2024-ravr-0186",
+  "pmc": "PMC12177758",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "40547426",
+  "file": "pdf/Kitahara_2025_Robotic_Endoscopic_AVR_RapidDeployment_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.21037/acs-2025-ravr-10",
+  "pmc": "PMC12177755",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "40547427",
+  "file": "pdf/Murtaza_2025_Lateral_Access_Robotic_AVR_RAVR_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.21037/acs-2025-ravr-0049",
+  "pmc": "PMC12177761",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "40547430",
+  "file": "pdf/Darehzereshki_2025_Robotic_AVR_Aortic_Root_Enlargement_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.21037/acs-2024-ravr-0183",
+  "pmc": "PMC12177764",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "40886757",
+  "file": "pdf/Elsebaie_2026_Learning_Curve_MICS_SystematicReview_MetaAnalysis_ATS.pdf",
+  "journal": "Ann Thorac Surg",
+  "year": "2026",
+  "doi": "10.1016/j.athoracsur.2025.08.013",
+  "pmc": "",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "40900082",
+  "file": "md/Cullen_2025_Robotic_Mitral_Positioning_PortPlacement_Male_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.1510/mmcts.2025.096",
+  "pmc": "",
+  "article_url": "https://mmcts.org/tutorial/2069",
+  "video_likely": true
+ },
+ {
+  "pmid": "40900091",
+  "file": "md/Cullen_2025_Robotic_Mitral_Positioning_PortPlacement_Female_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.1510/mmcts.2025.097",
+  "pmc": "",
+  "article_url": "https://mmcts.org/tutorial/2068",
+  "video_likely": true
+ },
+ {
+  "pmid": "40913323",
+  "file": "md/Qi_2025_PortSite_Bleeding_Balloon_Tamponade_Robotic_Mitral_Innovations_ABSTRACT.md",
+  "journal": "Innovations (Phila)",
+  "year": "2025",
+  "doi": "10.1177/15569845251365733",
+  "pmc": "",
+  "article_url": "https://journals.sagepub.com/doi/10.1177/15569845251365733",
+  "video_likely": true
+ },
+ {
+  "pmid": "40931770",
+  "file": "md/Cullen_2025_Robotic_Mitral_Annuloplasty_SemiContinuous_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.1510/mmcts.2025.099",
+  "pmc": "",
+  "article_url": "https://mmcts.org/tutorial/2077",
+  "video_likely": true
+ },
+ {
+  "pmid": "41056422",
+  "file": "pdf/Noda_2025_Robotic_Mitral_Annuloplasty_ContinuousWrapping_ICVTS.pdf",
+  "journal": "Interdiscip Cardiovasc Thorac Surg",
+  "year": "2025",
+  "doi": "10.1093/icvts/ivaf223",
+  "pmc": "PMC12513763",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "41114561",
+  "file": "md/Cullen_2025_Robotic_Mitral_Quadrangular_Resection_Sliding_MMCTS.md",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.1510/mmcts.2025.114",
+  "pmc": "",
+  "article_url": "https://mmcts.org/tutorial/2109",
+  "video_likely": true
+ },
+ {
+  "pmid": "41134183",
+  "file": "pdf/Nakayama_2025_SpeechBubbleSign_Incomplete_LAA_Closure_CT_ICVTS.pdf",
+  "journal": "Interdiscip Cardiovasc Thorac Surg",
+  "year": "2025",
+  "doi": "10.1093/icvts/ivaf172",
+  "pmc": "PMC12620637",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "41383193",
+  "file": "pdf/Loulmet_2025_Robotic_Posterior_Bar_Decalcification_MAC_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2025",
+  "doi": "10.21037/acs-2025-mac-19",
+  "pmc": "PMC12690493",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "41619927",
+  "file": "pdf/Badhwar_2026_STS_Expert_Consensus_Robotic_Cardiac_Training_ATS.pdf",
+  "journal": "Ann Thorac Surg",
+  "year": "2026",
+  "doi": "10.1016/j.athoracsur.2026.01.003",
+  "pmc": "",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "41622650",
+  "file": "md/Algoet_2026_hinotori_BITA_Harvest_HumanCadaver_Innovations_ABSTRACT.md",
+  "journal": "Innovations (Phila)",
+  "year": "2026",
+  "doi": "10.1177/15569845251408012",
+  "pmc": "",
+  "article_url": "https://journals.sagepub.com/doi/10.1177/15569845251408012",
+  "video_likely": true
+ },
+ {
+  "pmid": "41669170",
+  "file": "pdf/Loulmet_2026_MAC_Complex_Mitral_Repair_Robotics_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2026",
+  "doi": "10.21037/acs-2025-dmv-0164",
+  "pmc": "PMC12884175",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "41669176",
+  "file": "pdf/Wei_2026_Robotic_Chordae_Shortening_Mitral_Repair_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2026",
+  "doi": "10.21037/acs-2025-dmv-0135",
+  "pmc": "PMC12884176",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "41669182",
+  "file": "pdf/Gillinov_2026_Patient_Selection_Robotic_Mitral_ACS.pdf",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2026",
+  "doi": "10.21037/acs-2025-dmv-0114",
+  "pmc": "PMC12884179",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "41682905",
+  "file": "pdf/Sarantopoulos_2026_Augmented_Mixed_Reality_Cardiac_Surgery_Review_JCM.pdf",
+  "journal": "J Clin Med",
+  "year": "2026",
+  "doi": "10.3390/jcm15031224",
+  "pmc": "PMC12898313",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "41904670",
+  "file": "pdf/Bejand_2026_CT_Preoperative_Planning_MICS_Valve_SystematicReview_EJCTS.pdf",
+  "journal": "Eur J Cardiothorac Surg",
+  "year": "2026",
+  "doi": "10.1093/ejcts/ezag101",
+  "pmc": "",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "41971857",
+  "file": "pdf/Nakamura_2026_Endocardial_Obliterative_LAA_PurseString_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2026",
+  "doi": "10.1016/j.xjtc.2026.102268",
+  "pmc": "PMC13069541",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "42027500",
+  "file": "pdf/Hirayama_2026_Incomplete_LAA_Occlusion_Robotic_Mitral_ATSShortRep.pdf",
+  "journal": "Ann Thorac Surg Short Rep",
+  "year": "2026",
+  "doi": "10.1016/j.atssr.2025.09.023",
+  "pmc": "PMC13100766",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "42027540",
+  "file": "pdf/Podgorsek_2026_SinglePort_Robotic_Epicardial_Lead_CRT_ATSShortRep.pdf",
+  "journal": "Ann Thorac Surg Short Rep",
+  "year": "2026",
+  "doi": "10.1016/j.atssr.2025.09.039",
+  "pmc": "PMC13100718",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "42188066",
+  "file": "pdf/Nameghi_2026_Simulation_Training_VATS_Robotic_Cardiac_Review_JCDD.pdf",
+  "journal": "J Cardiovasc Dev Dis",
+  "year": "2026",
+  "doi": "10.3390/jcdd13050180",
+  "pmc": "PMC13207657",
+  "article_url": "",
+  "video_likely": false
+ },
+ {
+  "pmid": "42232265",
+  "file": "pdf/Balkhy_2025_Robotic_MultiVessel_OffPump_TECAB_Technique_JVisSurg.pdf",
+  "journal": "J Vis Surg",
+  "year": "2025",
+  "doi": "10.21037/jovs-25-15",
+  "pmc": "PMC13225059",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "42292120",
+  "file": "pdf/Nisivaco_2026_CPB_Necessary_PosteriorWall_Targets_TECAB_JTCVSTech.pdf",
+  "journal": "JTCVS Tech",
+  "year": "2026",
+  "doi": "10.1016/j.xjtc.2026.102310",
+  "pmc": "PMC13261160",
+  "article_url": "",
+  "video_likely": true
+ },
+ {
+  "pmid": "42305172",
+  "file": "pdf/AlJamal_2025_Robotic_Endoscopic_Cardiac_Surgery_Reoperative_JTCVSStructEndo.pdf",
+  "journal": "JTCVS Struct Endovasc",
+  "year": "2025",
+  "doi": "10.1016/j.xjse.2025.100079",
+  "pmc": "PMC13244753",
+  "article_url": "",
+  "video_likely": true
+ }
+]
