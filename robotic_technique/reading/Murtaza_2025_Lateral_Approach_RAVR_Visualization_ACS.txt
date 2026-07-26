@@ -1,0 +1,112 @@
+Introduction
+
+Robotic-assisted cardiac surgery has introduced a paradigm shift in minimally invasive approaches, offering the potential for enhanced precision and improved patient outcomes. Among these advancements, robotic mitral valve repair has gained significant traction globally, demonstrating consistent safety, efficacy, and durability (1,2). Building on these successes, there is growing interest in applying robotic systems to aortic valve replacement (AVR).
+
+The lateral approach to AVR, traditionally performed thoracoscopically, provides excellent visualization and access to the aortic valve (3). Integrating robotic systems into this technique offers the possibility of further refining the approach, enabling enhanced dexterity and precision (4-6). However, robotic AVR (RAVR) remains in its early stages of adoption, with limited but promising experiences reported.
+
+This editorial examines the current state of RAVR using the lateral approach. By reflecting on lessons learned from robotic mitral valve repair and other minimally invasive techniques, we aim to present a balanced perspective on the future of robotic AVR and its role in advancing patient care.
+
+Advantages of the robotic-assisted lateral approach
+
+The lateral approach in AVR has been recognized for its ability to provide direct access to the aortic valve without the need for a sternotomy. When paired with robotic systems, this technique achieves an unparalleled level of precision and control, making it a compelling option for selected patients (5-7).
+
+Robotic systems amplify the advantages of the lateral approach by offering high-definition, three-dimensional imaging that transforms the surgeon’s view of the operative field. The lateral view also facilitates an ergonomic “down-under” perspective, optimizing orientation for accurate valve excision and prosthesis placement (3,5,6,8).
+
+Robotic instrumentation adds dexterity and control. This is especially beneficial when working on the aortic annulus, where precise alignment and positioning of the prosthetic valve are essential for successful outcomes (5,8).
+
+Moreover, the robotic lateral approach reduces surgical trauma by eliminating the need for sternotomy and minimizing incision size. Patients benefit from reduced postoperative pain, lower complication rates, and faster recovery times, which are characteristic of minimally invasive surgery.
+
+Comparison with traditional and thoracoscopic techniques
+
+The lateral approach has traditionally been employed in thoracoscopic AVR, which offers good exposure and visualization of the aortic valve. However, thoracoscopic techniques are limited by imaging and rigid instruments.
+
+Robotic systems enhance the lateral approach by addressing these limitations. The transition to robotic platforms introduces three-dimensional imaging and greater instrument flexibility, allowing surgeons to achieve a more comprehensive and detailed view of the operative field. RAVR builds on the strengths of thoracoscopic techniques, enabling greater reproducibility and control, reducing variability in outcomes. That said, the adoption of RAVR should be viewed as complementary rather than a replacement for thoracoscopic methods, as each technique has its strengths based on patient anatomy and surgical team expertise (4-6).
+
+Challenges to widespread adoption
+
+The integration of robotic systems into the lateral approach for AVR remains limited due to several barriers. The steep learning curve associated with robotic platforms poses a challenge for many surgical teams. Proficiency requires not only familiarity with the robotic console but also seamless coordination among team members, which can be time-intensive to develop (7,9).
+
+Cost is another major hurdle. Robotic platforms represent a significant financial investment, which is particularly challenging for smaller centers or those with lower surgical volumes.
+
+Patient selection further narrows the application of robotic AVR. This technique is most suitable for low- to moderate-risk patients with favorable anatomy in the beginning phases. Patients with prior thoracic surgeries, calcified aortas, or other anatomical complexities may not be ideal candidates.
+
+Perspectives from Taiwan and Australia
+
+Unlike the majority of global programs that were directly trained or mentored by West Virginia University (WVU), the programs in Taiwan and Australia have independently achieved success by strictly adhering to standardized, published techniques. One shared strategy is to rotate the aortic root using traction sutures, providing a better view of the annulus. This distinction underscores the potential reproducibility of the RAVR procedure and platform when adopted by experienced surgeons.
+
+Our independent experiences serve as valuable case studies demonstrating that RAVR can be successfully implemented outside of the initial centers of expertise. The structured standardization of operative techniques, patient selection criteria, and team coordination has played a critical role in ensuring consistent and reproducible outcomes.
+
+A significant advantage in successfully adopting RAVR in Taiwan and Australia stems from the foundational experience gained in thoracoscopic cardiac surgery and robotic mitral valve repair. This experience provided a natural transition into robotic-assisted techniques. The establishment of robotic mitral valve repair programs served as a critical steppingstone toward RAVR. Through iterative refinements in aortic annulus retraction strategies, and intracardiac suturing techniques, surgical teams became adept at handling complex valve pathology with robotic assistance. As expertise in robotic mitral surgery matured, the transition to robotic aortic procedures was a logical progression, building on the same ergonomic advantages and minimally invasive principles that had already been mastered in mitral surgery.
+
+Furthermore, when our established methods were compared with the standard WVU techniques, we found that the core concepts were remarkably similar. Both approaches emphasize standardized port placement, structured exposure techniques, and a focus on reproducibility and efficiency. While our programs evolved independently, the parallels with the WVU model reinforce the universal applicability of RAVR principles when applied by experienced surgical teams.
+
+Conclusions
+
+RAVR using the lateral approach offers enhanced visualization and precision, refining minimally invasive cardiac surgery. Despite its promise, widespread adoption faces hurdles, including a steep learning curve, high costs, and limited validation.
+
+Addressing these challenges through training, cost reduction, and robust research is essential to unlock its potential. With continued innovation and collaboration, RAVR could become a transformative option, improving patient care and advancing the field of cardiac surgery.
+
+Acknowledgments
+
+None.
+
+Footnotes
+
+Funding: None.
+
+Conflicts of Interest: Both authors have no conflicts of interest to declare.
+
+References
+
+1.Ishii H, Ting M, Chi NH. Robotic mitral valve repair: standardized repair strategy ensures consistent results.
+Ann Cardiothorac Surg
+2018;7:837-8. 10.21037/acs.2018.10.11
+ [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+2.Chou NK, Wang YC, Huang CH, et al. 
+Robotic mitral valve repair in National Taiwan University Hospital: 10-year results.
+Ann Cardiothorac Surg
+2022;11:605-13. 10.21037/acs-2022-rmvs-29
+ [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+3.Zubarevich A, Ruhparwar A, Weymann A.
+Robotic-Assisted Aortic Valve Replacement: Who Really Benefits From Robotic Procedures?
+Ann Thorac Surg
+2022;114:1976. 10.1016/j.athoracsur.2021.11.033
+ [DOI] [PubMed] [Google Scholar]
+
+4.Wei LM, Cook CC, Hayanga JWA, et al. 
+Robotic Aortic Valve Replacement: First 50 Cases.
+Ann Thorac Surg
+2022;114:720-6. 10.1016/j.athoracsur.2021.08.036
+ [DOI] [PubMed] [Google Scholar]
+
+5.Badhwar V, Wei LM, Cook CC, et al. 
+Robotic aortic valve replacement.
+J Thorac Cardiovasc Surg
+2021;161:1753-9. 10.1016/j.jtcvs.2020.10.078
+ [DOI] [PubMed] [Google Scholar]
+
+6.Badhwar V, Pereda D, Khaliel FH, et al. 
+Outcomes following initial multicenter experience with robotic aortic valve replacement: Defining a path forward.
+J Thorac Cardiovasc Surg
+2024;167:1244-50. 10.1016/j.jtcvs.2024.01.020
+ [DOI] [PubMed] [Google Scholar]
+
+7.Komlo CM, Guy TS. Commentary: Robotic surgical aortic valve replacement: An evolving option.
+J Thorac Cardiovasc Surg
+2021;161:1762-3. 10.1016/j.jtcvs.2020.11.118
+ [DOI] [PubMed] [Google Scholar]
+
+8.Darehzereshki A, Wei LM, Comas G, et al. 
+Feasibility and safety of robotic aortic root enlargement in conjunction with robotic aortic valve replacement.
+JTCVS Tech
+2023;22:178-80. 10.1016/j.xjtc.2023.09.023
+ [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+9.Sheetz KH, Massarweh NN. Toward IDEAL Adoption of Robotic Surgery Into Clinical Practice-Lessons From Transcatheter Aortic Valve Replacement.
+JAMA Surg
+2021;156:301-2. 10.1001/jamasurg.2020.5542
+ [DOI] [PubMed] [Google Scholar]
+
+Articles from Annals of Cardiothoracic Surgery are provided here courtesy of AME Publications

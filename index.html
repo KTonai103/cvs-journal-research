@@ -24,6 +24,7 @@
   --c-mitral:  oklch(0.56 0.15 350);
   --c-arrhythmia: oklch(0.54 0.12 200);
   --c-hocm:    oklch(0.62 0.13 58);
+  --c-coronary: oklch(0.53 0.14 25);
   --c-perf:    oklch(0.56 0.11 168);
   --c-mcs:     oklch(0.55 0.15 300);
   --c-report:  oklch(0.46 0.03 245);
@@ -256,21 +257,22 @@ footer a:hover { color: var(--navy); }
   <h1>CVS Journal Research</h1>
   <p>心臓外科・MCS・LVAD 関連ジャーナル 注目論文＆トピックレビュー</p>
   <div class="header-stats">
-    <span><b>11</b>トピックレビュー</span>
-    <span><b>4</b>月次レポート</span>
+    <span><b>13</b>トピックレビュー</span>
+    <span><b>5</b>月次レポート</span>
     <span><b>3</b>対象誌</span>
   </div>
 </header>
 
 <nav class="catnav" aria-label="カテゴリ">
   <div class="catnav-inner">
-    <a href="#aortic"  style="--accent:var(--c-aortic)"><span class="dot"></span>大動脈弁<span class="n">6</span></a>
+    <a href="#aortic"  style="--accent:var(--c-aortic)"><span class="dot"></span>大動脈弁<span class="n">8</span></a>
     <a href="#mitral"  style="--accent:var(--c-mitral)"><span class="dot"></span>僧帽弁<span class="n">1</span></a>
     <a href="#arrhythmia" style="--accent:var(--c-arrhythmia)"><span class="dot"></span>不整脈外科<span class="n">1</span></a>
     <a href="#hocm"    style="--accent:var(--c-hocm)"><span class="dot"></span>HOCM・心筋切除<span class="n">2</span></a>
+    <a href="#coronary" style="--accent:var(--c-coronary)"><span class="dot"></span>冠動脈外科<span class="n">1</span></a>
     <a href="#perf"    style="--accent:var(--c-perf)"><span class="dot"></span>体外循環・周術期<span class="n">2</span></a>
     <a href="#mcs"     style="--accent:var(--c-mcs)"><span class="dot"></span>MCS・LVAD<span class="n">1</span></a>
-    <a href="#reports" style="--accent:var(--c-report)"><span class="dot"></span>月次レポート<span class="n">4</span></a>
+    <a href="#reports" style="--accent:var(--c-report)"><span class="dot"></span>月次レポート<span class="n">5</span></a>
   </div>
 </nav>
 
@@ -282,9 +284,33 @@ footer a:hover { color: var(--navy); }
       <span class="marker"></span>
       <h2>大動脈弁</h2>
       <span class="en">Aortic Valve</span>
-      <span class="count">6件</span>
+      <span class="count">8件</span>
     </div>
     <div class="card-list">
+
+      <a class="card" href="output/ross_technique_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-27</span></div>
+        <div class="card-title">Ross手術 手技レビュー — 術式バリエーション・Pitfall・ラーニングカーブ</div>
+        <div class="card-meta">文献60編（PDF 53＋MMCTS 7）を手技レベルで統合。3系統（tailored RR＋補強／autologous inclusion／prosthetic inclusion）の設計思想を対比 ｜ 切開位置のmm・縫合糸の号数・サイジング計算式まで各流派の記載を並置 ｜ 11の対立点を一覧化 ｜ CCライセンス図63点＋動画リンク13点、略語集73項目・全文検索付き</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">術式Pitfall・ラーニングカーブ</span>
+          <span class="badge badge-jtcvs">補強法11流派の対比</span>
+          <span class="badge badge-ejcts">動画リンク集（MMCTS 7本）</span>
+        </div>
+      </a>
+
+      <a class="card" href="output/future_valve_surgery_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-26</span></div>
+        <div class="card-title">心臓弁膜症外科の未来 — EACTS Innovation Committee の主張を、一次文献で格付けし直す</div>
+        <div class="card-meta">EACTS Editorial「Heart Valve of the Future」の主張15項目を一次文献で裏取りし E0〜E5 で格付け ｜ HAART 44%再介入・脱細胞化homograft 10年69.5%・ポリマー弁はVKA必須 ｜ 日本の実行戦略（大動脈弁形成は年173例=1.6%、MICS-MV中央値5.5例/年）｜ OA図17点</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">エビデンス格付け E0–E5</span>
+          <span class="badge badge-ejcts">EACTS Editorial 検証</span>
+          <span class="badge badge-jtcvs">HAART 反証</span>
+        </div>
+      </a>
 
       <a class="card" href="output/aae_technique_atlas.html">
         <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-04</span></div>
@@ -441,14 +467,51 @@ footer a:hover { color: var(--navy); }
   </section>
 
   <!-- ============ 体外循環・周術期 ============ -->
+  <!-- ============ 冠動脈外科 ============ -->
+  <section id="coronary" style="--accent:var(--c-coronary)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>冠動脈外科</h2>
+      <span class="en">Coronary Artery Surgery</span>
+      <span class="count">1件</span>
+    </div>
+    <div class="card-list">
+
+      <a class="card" href="output/cabg_integrated_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-26</span></div>
+        <div class="card-title">CABG統合レビュー — オフポンプ／オンポンプ論争を軸に、史的背景から2030年への提言まで（15章）</div>
+        <div class="card-meta">一次文献52編を全文精読 ｜ 主要RCT4試験（ROOBY 10年・CORONARY 5年・GOPCABE・Octopus 20年）＋メタ解析＋Raja 25年コホートを術者経験で層別して読む ｜ <strong>長期死亡差はクロスオーバー&lt;10%の術者群で消える（IRR 1.30 vs 0.96）</strong>／脳卒中減少の主因は体外循環回避ではなく<strong>大動脈非接触</strong>（RR 0.41、デバイスでは代替不可）｜ 導管・完全血行再建・教育専門化・抗血小板/脂質・ガイドラインまで ｜ 学会発表由来の3つの数字を一次文献で照合（1件一致・2件は未刊、うち1件は公刊データが逆向き）｜ CCライセンス図8点を原典から引用</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-nejm">RCT / Meta-analysis</span>
+          <span class="badge badge-jtcvs">OPCAB vs ONCAB</span>
+          <span class="badge badge-ejcts">Conduits / Training</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ 体外循環・周術期 ============ -->
   <section id="perf" style="--accent:var(--c-perf)">
     <div class="sec-head">
       <span class="marker"></span>
       <h2>体外循環・周術期</h2>
       <span class="en">Perfusion / Perioperative</span>
-      <span class="count">3件</span>
+      <span class="count">4件</span>
     </div>
     <div class="card-list">
+
+      <a class="card" href="output/robotic_technique_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-27</span></div>
+        <div class="card-title">ロボット心臓手術 — 手技・Pitfall・Tips 統合レビュー（術式別ポート配置／訓練／各術式の落とし穴）</div>
+        <div class="card-meta">僧帽弁・大動脈弁(RAVR)・冠動脈(TECAB/MIDCAB)・複合弁・ASD/腫瘍/不整脈を術式別に。文献75本 ｜ ポート配置は共通化できないため各章冒頭に専用節 ｜ STS Phase 0–IV の数値要件・工程別目標時間 ｜ 原典 Figure 46点を掲載（自作図・動画コマ取りなし）・手技動画リンク集</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-ejcts">Robotic Technique</span>
+          <span class="badge badge-jtcvs">Ports / Training / Pitfalls</span>
+        </div>
+      </a>
 
       <a class="card" href="output/hemostatic_agents_review.html">
         <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-12</span></div>
@@ -516,14 +579,25 @@ footer a:hover { color: var(--navy); }
       <span class="marker"></span>
       <h2>月次レポート</h2>
       <span class="en">Monthly Reports</span>
-      <span class="count">4件</span>
+      <span class="count">5件</span>
     </div>
     <div class="card-list">
 
+      <a class="card" href="output/journal_report_2026_07.html">
+        <div class="card-top"><span class="card-kind">2026年7月号</span><span class="card-date">2026-07-26</span></div>
+        <div class="card-title">心臓外科・MCS・LVAD 関連ジャーナル 2026年7月号 注目論文まとめ</div>
+        <div class="card-meta">70件収録（JTCVS 30件 + JHLT 30件 + EJCTS 10件）｜ 全DOI検証済</div>
+        <div class="card-badges">
+          <span class="badge badge-jtcvs">JTCVS Vol.172 Iss.1</span>
+          <span class="badge badge-jhlt">JHLT Vol.45 Iss.7</span>
+          <span class="badge badge-ejcts">EJCTS Vol.68 Iss.7</span>
+        </div>
+      </a>
+
       <a class="card" href="output/journal_report_2026_06.html">
-        <div class="card-top"><span class="card-kind">2026年6月号</span><span class="card-date">2026-06-09</span></div>
+        <div class="card-top"><span class="card-kind">2026年6月号</span><span class="card-date">2026-06-09 / 追補 07-26</span></div>
         <div class="card-title">心臓外科・MCS・LVAD 関連ジャーナル 2026年6月号 注目論文まとめ</div>
-        <div class="card-meta">51件収録（JTCVS 28件 + JHLT 18件 + EJCTS 5件）｜ 全DOI検証済</div>
+        <div class="card-meta">60件収録（JTCVS 28件 + JHLT 18件 + EJCTS 14件）｜ EJCTS Issue 6 確定分を追補・全DOI検証済</div>
         <div class="card-badges">
           <span class="badge badge-jtcvs">JTCVS Vol.171 Iss.6</span>
           <span class="badge badge-jhlt">JHLT Vol.45 Iss.6</span>

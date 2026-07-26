@@ -1,0 +1,77 @@
+Clinical vignette
+
+A 67-year-old male patient presented with a two-week history of chest pain on exertion, with New York Heart Association (NYHA) class III symptoms. On the day of admission he reported pain at rest. He was therefore brought to the emergency department by emergency medical services. Due to ST-segment changes, he was taken to the catheter laboratory where a 90% stenosis of the left main coronary artery was diagnosed. Coronary artery bypass grafting (CABG) was indicated and standard workup was completed. An additional computed tomography (CT) angiography of chest-abdomen-pelvis, as well as a lung function test, confirmed suitability for robotic, totally endoscopic coronary artery bypass (TECAB) grafting using peripheral cannulation for cardiopulmonary bypass (CPB) and use of an endoballoon catheter for endo-cardioplegia. It was planned to place two internal mammary arteries to the left ventricle robotically.
+
+Surgical techniques
+
+Preparation
+
+General anesthesia was induced and a double lumen endotracheal tube was placed. Besides standard venous access, it is important to place two radial artery pressure lines for monitoring of the endoballoon position. Percutaneous defibrillator pads were placed. The patient was positioned with the left chest slightly elevated and was prepped and draped as for open CABG.
+
+Exposition
+
+Five ports were placed on the left chest and four of them were docked to the da Vinci Xi robot (Intuitive, Sunnyvale, CA, USA). Left lung collapse and a capnothorax at 8 mmHg creates sufficient cavity space. The robotic 3D/HD camera was held by robotic arm number three.
+
+Operation
+
+The right and left internal mammary arteries (RIMA and LIMA) were harvested robotically in a skeletonized fashion. In parallel to these steps, femoro-femoral cannulation was carried out and the IntracludeTM (Edwards, Irvine, CA, USA) endoaortic balloon was brought into the ascending aorta under transesophageal echocardiography (TEE) guidance. After initiation of CPB the endoballoon was inflated and cardioplegia was given.
+
+After achieving cardioplegic arrest and opening of the pericardium, a robotic long-tip forceps was inserted through the subcostal port and was held by the robotic arm number one on the da Vinci Xi system. Using this instrument, the back wall of the heart can be elevated. A robotic DeBakey forceps on arm two and a large needle driver on arm four were inserted. The patient-side assistant then handed a 10 cm long piece of CV-4 Gore-Tex suture (Newark, DE, USA) with a Teflon pledget to the console surgeon through the parasternal assistance port.
+
+The needle of this suture was driven backhand through the myocardium of the lateral left ventricular wall. It was brought twice through a counter piece of Teflon pledget and then forehand through the left ventricular wall again to go through the first pledget. It is important to take generous bites on the left ventricular myocardium to avoid tearing. The suture is tied using a minimum of eight knots. The suture ends should be kept approximately two centimeters long. This way, they can be firmly held by the long-tip forceps, and the obtuse marginal (OM) branches or the circumflex coronary artery end-branch can be pulled up into view for the console surgeon. The LIMA is usually sutured to an OM branch and the RIMA is anastomosed to the left anterior descending artery (LAD). For the details of the endoscopic bypass suturing technique, we refer to previous publications by the first author’s research groups (1,2).
+
+Completion
+
+After deflation of the endoballoon and myocardial reperfusion, the long-tip forceps on robotic arm one can also be used to expose the OM branch to check for anastomotic bleeding and to stabilize the beating heart should repair stitches become necessary. The patient was weaned from CPB and decannulated. After a thorough endoscopic inspection of the operative field the robot was undocked, a chest tube inserted and the port holes and inguinal wound were closed.
+
+Comments
+
+Advantages
+
+Our standard TECAB approach for multivessel revascularization using the da Vinci Xi robot is to bypass the LAD system with the in-situ RIMA and the circumflex system with the in-situ LIMA. The method described herein has allowed for a simplified yet totally endoscopic exposure of the circumflex system to allow for robotic anastomosis. A pledgeted Gore-Tex suture and a standard strong robotic forceps with long branches are used to pull up the inferolateral wall of the heart. Bypass suturing is comfortable and similar to the conditions achieved with the robotic endostabilizer (Endowrist-Stabilizer, Intuitive, Sunnyvale, CA, USA) which we have used for the performance of TECAB on the beating heart and also for exposure of coronary targets on the inferior wall in arrested heart TECAB (2). Unfortunately, this device is currently not produced and the method shown should be regarded as a reasonable workaround given its absence. The lack of a robotic endostabilizer is a significant problem and forces robotic coronary surgeons to innovate solutions for the performance of TECAB. One option is to stay with the third-generation da Vinci Si, in which a residual stock of the endostabilizer device is available—though this robot will eventually be phased out (3).
+
+Caveats
+
+One potential limitation is that we have only applied the method described herein in arrested heart TECAB, where the anastomosis can be performed in a motion-free environment. Applying this method on the beating heart may be dangerous as the left ventricular myocardium may tear. For beating heart TECAB, a suction stabilizer is essential, and the community of robotic coronary surgeons should strongly advocate for the return of a corresponding robotic instrument.
+
+Video.
+
+Your browser is not supporting the HTML5 <video> element.
+
+You may download that video as a file and play it with a player of you choice.
+
+Download video stream.
+
+Download video file (49MB, mp4) 
+
+Open in a new tab
+
+Exposure technique for the circumflex artery territory in robotic totally endoscopic coronary artery bypass grafting.
+
+Acknowledgments
+
+Funding: None.
+
+Footnotes
+
+Conflicts of Interest: The authors have no conflicts of interest to declare.
+
+References
+
+1.Seese L, Ashraf SF, Davila A, et al. 
+Robotic totally endoscopic coronary artery bypass grafting—port placements, internal mammary artery harvesting and anastomosis techniques.
+J Vis Surg
+2023;9:4. [Google Scholar]
+
+2.Bonatti J, Vento A, Bonaros N, et al. 
+Robotic totally endoscopic coronary artery bypass grafting (TECAB)-placement of bilateral internal mammary arteries to the left ventricle.
+Ann Cardiothorac Surg
+2016;5:589-92. 10.21037/acs.2016.11.05
+ [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+3.Balkhy HH. Robotic totally endoscopic coronary artery bypass grafting: It's now or never!
+JTCVS Tech
+2021;10:153-7. 10.1016/j.xjtc.2021.03.037
+ [DOI] [PMC free article] [PubMed] [Google Scholar]
+
+Articles from Annals of Cardiothoracic Surgery are provided here courtesy of AME Publications
