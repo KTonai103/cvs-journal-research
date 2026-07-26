@@ -18,6 +18,16 @@ output/2026_03_*/
 output/2026_04_*/
 output/2026_05_*/
 
+# Internal-only: presentation review page quotes guideline tables
+# (Circulation / Eur Heart J / Circ J) — must not be published on GitHub Pages
+output/small_annulus_avr_presentation_review_*.html
+output/small_annulus_avr_presentation_review_*.pdf
+output/figures/sa_gl_*.png
+output/figures/sa_ref_*.png
+
+# Internal-only: unpublished SAKURA-AVR study proposal handouts
+output/SAKURA-AVR_*.html
+
 # Topic full-text PDFs / extracted text — keep copyrighted papers out of the public repo
 */pdf/
 */pdfs/
@@ -32,3 +42,13 @@ small_annulus_avr/pdfs/
 
 # Cached PMC article HTML for figure harvesting (copyrighted source pages)
 */corpus/pmc_html/
+
+# future_cardiac_surgery: 非OA図はローカル閲覧用ビルドのみ（公開HTMLには埋め込まない）
+future_cardiac_surgery/figures_local/
+
+# future_cardiac_surgery: PMC記事HTMLのローカルキャッシュ（図取得用）
+future_cardiac_surgery/pdf_text/pmc_html/
+
+# Ross technique review: extracted paper text + Europe PMC XML caches (copyrighted sources)
+*/pdf_text_clean/
+*/corpus/epmc_xml/

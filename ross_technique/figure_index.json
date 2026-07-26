@@ -1,0 +1,1013 @@
+{
+ "PMC8339621": {
+  "tag": "Mazine_ACS2021_NonRepairableAR",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "acs-10-04-463-f1.jpg",
+    "caption": "Technical modifications of the Ross procedure aimed at preventing late autograft dilatation and insufficiency. (A) Autologous inclusion technique; (B) Dacron inclusion technique; (C) tailored surgical approach."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-463-f2.jpg",
+    "caption": "Benefits of the Ross procedure in patients with aortic stenosis and aortic regurgitation."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-463-vid.jpg",
+    "caption": "The Ross procedure is an excellent operation in non-repairable aortic regurgitation: insights and techniques."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-463-f1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0a92/8339621/be8554a5d4ce/acs-10-04-463-f1.jpg",
+   "acs-10-04-463-f2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0a92/8339621/e66050129860/acs-10-04-463-f2.jpg",
+   "acs-10-04-463-vid.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0a92/8339621/da4c0b697150/acs-10-04-463-vid.jpg"
+  }
+ },
+ "PMC8339626": {
+  "tag": "Williams_ACS2021_TotalRoot",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "Video.",
+    "graphic": "acs-10-04-546-vid.jpg",
+    "caption": "The Ross procedure: total root technique."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-546-vid.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/331e/8339626/6de95e57ce3c/acs-10-04-546-vid.jpg"
+  }
+ },
+ "PMC8339631": {
+  "tag": "Afifi_ACS2021_LooseJacket",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "acs-10-04-544-vid.jpg",
+    "caption": "The Ross procedure—the loose jacket technique."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-544-vid.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c0a7/8339631/0f502975a61e/acs-10-04-544-vid.jpg"
+  }
+ },
+ "PMC8339632": {
+  "tag": "Skillington_ACS2021_Inclusion",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "acs-10-04-541-vid.jpg",
+    "caption": "The Ross inclusion technique."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-541-vid.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f2db/8339632/1743d8b97894/acs-10-04-541-vid.jpg"
+  }
+ },
+ "PMC8339629": {
+  "tag": "Jahanyar_ACS2021_InclusionDacron",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "acs-10-04-549-vid1.jpg",
+    "caption": "The Ross inclusion Dacron graft."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-549-vid2.jpg",
+    "caption": "10-year follow-up: the Dacron inclusion ross procedure."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-549-vid1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/21d5/8339629/2994a148049e/acs-10-04-549-vid1.jpg",
+   "acs-10-04-549-vid2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/21d5/8339629/f433602263a3/acs-10-04-549-vid2.jpg"
+  }
+ },
+ "PMC8339634": {
+  "tag": "Misfeld_ACS2021_Subcoronary",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "acs-10-04-538-vid.jpg",
+    "caption": "The Ross sub-coronary technique."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-538-vid.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/fbe8/8339634/577572b0f185/acs-10-04-538-vid.jpg"
+  }
+ },
+ "PMC8339622": {
+  "tag": "David_ACS2021_WhyHowLearn",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [],
+  "blobs": {}
+ },
+ "PMC8339614": {
+  "tag": "Liebrich_ACS2021_ReinforcedFullRoot",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "Video 1.",
+    "graphic": "acs-10-04-485-vid1.jpg",
+    "caption": "The reinforced full-root technique for the Ross operation: surgical considerations and operative insights."
+   },
+   {
+    "label": "Figure 1.",
+    "graphic": "acs-10-04-485-f1.jpg",
+    "caption": "Survival probability of Ross patients operated on with the reinforced full-root technique. Patients at risk are also demonstrated."
+   },
+   {
+    "label": "Figure 2.",
+    "graphic": "acs-10-04-485-f2.jpg",
+    "caption": "Actuarial estimates of freedom from autograft or RV-PA connection reoperation. Patients at risk and the estimated probabilities (with 95% confidence intervals) are presented. RV-PA, right ventricle to pulmonary artery."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-485-vid1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0954/8339614/9437cbde433f/acs-10-04-485-vid1.jpg",
+   "acs-10-04-485-f1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0954/8339614/f0e5762dbda4/acs-10-04-485-f1.jpg",
+   "acs-10-04-485-f2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0954/8339614/ca7010866a63/acs-10-04-485-f2.jpg"
+  }
+ },
+ "PMC8339625": {
+  "tag": "Abeln_ACS2021_AfterFailedRepair",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "Figure 1.",
+    "graphic": "acs-10-04-476-f1.jpg",
+    "caption": "Survival in patients undergoing a Ross procedure after an initial aortic valve repair (black) compared with that of the age- and gender- matched population (blue). Dotted line represents 95% confidence interval."
+   },
+   {
+    "label": "Figure 2.",
+    "graphic": "acs-10-04-476-f2.jpg",
+    "caption": "Cumulative incidence of reintervention on the autograft in patients undergoing a Ross procedure after an initial valve repair (blue)."
+   },
+   {
+    "label": "Figure 3.",
+    "graphic": "acs-10-04-476-f3.jpg",
+    "caption": "Cumulative incidence of AR >2. AR, aortic regurgitation."
+   },
+   {
+    "label": "Figure 4.",
+    "graphic": "acs-10-04-476-f4.jpg",
+    "caption": "Changes in aortic root (Sinus) diameter in patients undergoing a Ross procedure after an initial valve repair."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-476-f1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e57d/8339625/484f69b0364e/acs-10-04-476-f1.jpg",
+   "acs-10-04-476-f2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e57d/8339625/57d6470cfab0/acs-10-04-476-f2.jpg",
+   "acs-10-04-476-f3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e57d/8339625/d932e23c1b33/acs-10-04-476-f3.jpg",
+   "acs-10-04-476-f4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e57d/8339625/7f9423014ac6/acs-10-04-476-f4.jpg"
+  }
+ },
+ "PMC8339636": {
+  "tag": "Said_ACS2021_RossKonno",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [
+   {
+    "label": "Figure 1.",
+    "graphic": "acs-10-04-527-f1.jpg",
+    "caption": "The proposed incisions for the pulmonary autograft harvest and ascending aorta transection. A skirt of right ventricular free wall muscle is harvested with the autograft for the planned anterior aortic root enlargement part (Konno) of the procedure."
+   },
+   {
+    "label": "Figure 2.",
+    "graphic": "acs-10-04-527-f2.jpg",
+    "caption": "The distal ascending aorta and both cavae are cannulated. Once cardiopulmonary bypass is initiated, the main pulmonary artery is transected just proximal to its bifurcation and the pulmonary valve is inspected to determine its suitability as an autograft. This part can also be completed after arresting the heart and determining the non-suitability of the native aortic valve for repair."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f3.jpg",
+    "caption": "Once the pulmonary valve is determined to be suitable, the main pulmonary artery is completely transected and mobilized using electrocautery and the autograft is harvested. A right-angled clamp is passed through the pulmonary valve 5 mm below the nadir of the non-facing cusp and used as a guide to incise the right ventricular free wall safely below the pulmonary valve cusps."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f4.jpg",
+    "caption": "Lifting the pulmonary artery vertically from the plane of the heart during mobilization creates a gap from the coronary arteries. It is important to be aware of the close proximity of the left main and left anterior descending coronary arteries, especially in reoperative settings where landmarks are obscured. LMCA, left main coronary artery; LAD, left anterior descending."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f5.jpg",
+    "caption": "The autograft is harvested by a combination of sharp and electrocautery dissection. The autograft is carefully removed from its posterior attachment through “enucleation”, thus preserving the first septal perforator branch of the left anterior descending coronary artery. A useful landmark for the location of the first septal perforator is the medial papillary muscle of the tricuspid valve. Administration of cardioplegia can help hemostasis at this stage by visualizing any bleeding point from the autograft harvest site. RCA, right coronary artery; LAD, left anterior descending."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f6.jpg",
+    "caption": "Preparation of the aortic root can be done prior to harvesting the autograft. The aortic valve leaflets are excised and the coronary buttons are harvested and mobilized off the epicardial surface of the heart. The left ventricular outflow tract is evaluated and a septal myectomy, and/or resection of endocardial fibroelastosis can be performed at this stage. Notice the proposed interventricular septal incision (Konno incision) (dotted line)."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f7.jpg",
+    "caption": "A Konno incision is performed to the left of the right coronary artery button or along the commissure between the left and right coronary sinuses of Valsalva. The extent of this incision depends on the degree of enlargement of the left ventricular outflow tract required and it should be done in an oblique or transverse fashion to avoid the conduction tissue."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f8.jpg",
+    "caption": "The pulmonary autograft with its infundibular extension is then implanted in the left ventricular outflow tract (A). This can be performed using running or interrupted sutures. It is important to trim the infundibular skirt to fit the septal incision and minimize the risk of outflow tract obstruction by leaving a bulk of infundibular muscle below the neoaortic valve. (B) An alternative option, especially when the length of the septal incision is longer than the infundibular skirt, is to close the created ventricular septal defect with a prosthetic patch and reimplant the autograft as a full root technique."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f9.jpg",
+    "caption": "The left followed by the right coronary arteries are implanted in the middle of the corresponding sinuses of Valsalva of the autograft. The completed autograft and the reconstructed neoaortic root are shown. The distal pulmonary homograft anastomosis can be done at this stage prior to reconstructing the ascending aorta to facilitate exposure and ensure hemostasis."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f10.jpg",
+    "caption": "Implantation of the pulmonary homograft. The distal anastomosis is constructed to the pulmonary artery bifurcation, followed by suturing the proximal homograft to the right ventricular outflow tract. It is important to take the endocardium and part of the myocardium only along the posterior suture line to avoid compromising the first septal perforator branch of the left anterior descending coronary artery which is in close proximity. This can be supported with a strip of pericardium to ensure hemostasis. We prefer to use the largest possible pulmonary homograft in this position."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f11.jpg",
+    "caption": "The completed Ross-Konno operation."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f12.jpg",
+    "caption": "The mini Ross-Konno procedure. The initial steps of the procedure are similar to the standard Ross-Konno. However, a smaller Konno incision combined with an extended left ventricular septal myectomy is performed to eliminate all potential subaortic obstruction without the creation of a ventricular septal defect. The aortic annulus is then enlarged to accommodate the autograft."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f13.jpg",
+    "caption": "The modified Ross-Konno procedure is performed by amending the ventricular septal incision. The left ventricular outflow tract is enlarged posterior to the course of the left main coronary artery (dotted line), thus avoiding the interventricular septum and the conduction tissue."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-f14.jpg",
+    "caption": "The left ventricular outflow tract is enlarged posteriorly by incising the free wall of the left ventricle posterior to the course of the left main coronary artery. The autograft is then implanted using multiple pledgeted mattress sutures to ensure stability and hemostasis."
+   },
+   {
+    "label": "",
+    "graphic": "acs-10-04-527-vid.jpg",
+    "caption": "The Ross-Konno procedure for congenital aortic stenosis."
+   }
+  ],
+  "blobs": {
+   "acs-10-04-527-f1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/a3818975ed34/acs-10-04-527-f1.jpg",
+   "acs-10-04-527-f2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/0da66caabe67/acs-10-04-527-f2.jpg",
+   "acs-10-04-527-f3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/52160dc3cae2/acs-10-04-527-f3.jpg",
+   "acs-10-04-527-f4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/29924ddbdbe0/acs-10-04-527-f4.jpg",
+   "acs-10-04-527-f5.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/85ae56029613/acs-10-04-527-f5.jpg",
+   "acs-10-04-527-f6.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/4f8bb31a8c76/acs-10-04-527-f6.jpg",
+   "acs-10-04-527-f7.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/097f0b377cae/acs-10-04-527-f7.jpg",
+   "acs-10-04-527-f8.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/088a31f58b57/acs-10-04-527-f8.jpg",
+   "acs-10-04-527-f9.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/608c0f5444a1/acs-10-04-527-f9.jpg",
+   "acs-10-04-527-f10.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/3c21fc5aab7e/acs-10-04-527-f10.jpg",
+   "acs-10-04-527-f11.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/ff19df64969e/acs-10-04-527-f11.jpg",
+   "acs-10-04-527-f12.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/6a7894c61de9/acs-10-04-527-f12.jpg",
+   "acs-10-04-527-f13.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/c0cb584e871b/acs-10-04-527-f13.jpg",
+   "acs-10-04-527-f14.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/e93a3089d8ff/acs-10-04-527-f14.jpg",
+   "acs-10-04-527-vid.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6123/8339636/3a87a248c9dd/acs-10-04-527-vid.jpg"
+  }
+ },
+ "PMC8339633": {
+  "tag": "Sievers_ACS2021_GermanRegistry",
+  "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the ",
+  "figs": [],
+  "blobs": {}
+ },
+ "PMC10405345": {
+  "tag": "Jahanyar_ACS2023_ValveSparing",
+  "license": "Open Access Statement: This is an Open Access article distributed in accordance with the Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the original work is properly cited (including links to both the formal pub",
+  "figs": [
+   {
+    "label": "Figure 1",
+    "graphic": "acs-12-04-350-f1.jpg",
+    "caption": "Survival of the entire study cohort and the 95% CI. CI, confidence interval."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "acs-12-04-350-f2.jpg",
+    "caption": "Freedom from reoperation on the aortic valve."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "acs-12-04-350-f3.jpg",
+    "caption": "Reoperation-free survival and the competing risk of reoperation and death. Blue shaded area indicates event-free survival hazard, and red shaded area indicated competing hazard of death of reintervention from a competing risk model."
+   },
+   {
+    "label": "Figure 4",
+    "graphic": "acs-12-04-350-f4.jpg",
+    "caption": "Freedom from AR grade ≥3. AR, aortic regurgitation."
+   },
+   {
+    "label": "Figure 5",
+    "graphic": "acs-12-04-350-f5.jpg",
+    "caption": "Commonly used Ross techniques at our institution. (A) Free root technique; (B) native aortic inclusion technique; (C) prosthetic-graft inclusion technique."
+   }
+  ],
+  "blobs": {
+   "acs-12-04-350-f1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ac90/10405345/89c4953f7da9/acs-12-04-350-f1.jpg",
+   "acs-12-04-350-f2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ac90/10405345/4e9d4d958d23/acs-12-04-350-f2.jpg",
+   "acs-12-04-350-f3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ac90/10405345/9d87b1f93d11/acs-12-04-350-f3.jpg",
+   "acs-12-04-350-f4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ac90/10405345/1fa0858cbe29/acs-12-04-350-f4.jpg",
+   "acs-12-04-350-f5.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ac90/10405345/aec0a88814ac/acs-12-04-350-f5.jpg"
+  }
+ },
+ "PMC10248915": {
+  "tag": "Marey_ACS2023_VSRR",
+  "license": "Open Access Statement: This is an Open Access article distributed in accordance with the Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the original work is properly cited (including links to both the formal pub",
+  "figs": [
+   {
+    "label": "Video",
+    "graphic": "acs-12-03-282-vid.jpg",
+    "caption": "Valve-sparing aortic root replacement after previous Ross procedure."
+   }
+  ],
+  "blobs": {
+   "acs-12-03-282-vid.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bded/10248915/31deed8a486c/acs-12-03-282-vid.jpg"
+  }
+ },
+ "PMC12237868": {
+  "tag": "Dafflisio_JTCVSTech2025_RootPressurization",
+  "license": "https://creativecommons.org/licenses/by/4.0/ This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Ross autograft pressurization, assessment of function, and supportive procedures."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Autograft harvest. The right ventricular outflow tract incision is started 3 to 4 mm below the hinge points of the leaflet cusps. The first incision is made superficially and then skived up to avoid injury to the first septal perforator."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Distal extension of autograft. The distal end of the autograft is trimmed to leave 3 to 4 mm of pulmonary artery distal to the tops of the commissures. A Dacron tube graft is sewn to the distal end of the autograft using running 5-0 monofilament suture."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "gr3.jpg",
+    "caption": "Autograft pressurization and assessment. Autograft pressurization is achieved by inserting a line from the cardiopulmonary bypass machine into the distal end of the Dacron extension graft. A clamp secures the graft around the tubing, and whole-blood is delivered to the autograft. This pressurizes the root, allowing for assessment of autograft function. Individualized procedures to optimize graft function such as adventitial trimming can then be done."
+   },
+   {
+    "label": "Figure 4",
+    "graphic": "gr4.jpg",
+    "caption": "A, Placement of the subcommissural plication stitch. B, A subcommissural plication stitch can be placed while the autograft is depressurized to provide additional support in the case of noncentral regurgitation."
+   },
+   {
+    "label": "Figure 5",
+    "graphic": "gr5.jpg",
+    "caption": "Placement of root reinforcing tube graft. A root reinforcing tube graft is placed around the autograft to assess initial fit. Additional adventitial or muscular cuff trimming can be performed to ensure the autograft is not crowded."
+   },
+   {
+    "label": "Figure 6",
+    "graphic": "gr6.jpg",
+    "caption": "Adjustment of autograft orientation within root graft. While pressurized, the plane and height of the autograft are manipulated within the root graft to evaluate which orientation and location allows for optimal valve competency."
+   },
+   {
+    "label": "Figure 7",
+    "graphic": "gr7.jpg",
+    "caption": "Annular plication and securing root graft to autograft. Full-thickness annular plication stitches can be placed if determined to reduce regurgitation. Once coaptation is optimized, the autograft remains pressurized and the proximal end of the autograft is secured to the root graft using interrupted sutures."
+   },
+   {
+    "label": "Figure 8",
+    "graphic": "gr8.jpg",
+    "caption": "Autograft implantation. Native aortic annular sutures are placed circumferentially, planar, and evenly spaced. The first autograft suture is placed at the nadir of the identified sinus for left coronary button implantation. The next autograft suture is placed 180° from the initial one. Sutures are then placed circumferentially around the autograft and the neoaortic root is parachuted down."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/89d6847a235d/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/9a91bd3a5859/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/af0ae92b0a35/gr2.jpg",
+   "gr3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/70a0c66ceed8/gr3.jpg",
+   "gr4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/76d36fe7967b/gr4.jpg",
+   "gr5.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/98d8dde2db3c/gr5.jpg",
+   "gr6.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/f4befa6c9c3e/gr6.jpg",
+   "gr7.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/495d9a7ddd22/gr7.jpg",
+   "gr8.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/829c/12237868/81922721ea81/gr8.jpg"
+  }
+ },
+ "PMC11184485": {
+  "tag": "Spindel_JTCVSTech2024_FloridaSleeve",
+  "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Reinforced annulus, sinus, and sinotubular junction in the Florida sleeve Ross procedure."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Stepwise root reinforcement method for the Florida sleeve Ross procedure. A, Subannular sutures are placed in the left ventricular outflow tract. B, The autograft proximal anastomosis is completed. C, Five of the 6 subannular sutures are passed through the bulged root graft. D, These 5 annular support sutures are tied. E, Slits with apertures are created in the bulged root graft for the coronary buttons. F, The coronaries are reimplanted. G, The ascending aorta is replaced and after crossclamp removal the sixth subannular suture is passed through the root graft and tied. H, The divided components of the root graft are loosely approximated with interrupted sutures and the distal portions are tacked to the ascending aortic graft."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Intraoperative images of the stepwise root reinforcement method for the Florida sleeve Ross procedure. A, Subannular sutures are placed in the left ventricular outflow tract. B, The autograft proximal anastomosis is completed. C, Five of the 6 subannular sutures are passed through the bulged root graft. D, These 5 annular support sutures are tied. E, Slits with apertures are created in the bulged root graft for the coronary buttons. F, The coronaries are reimplanted. G, The ascending aorta is replaced and after crossclamp removal the sixth subannular suture is passed through the root graft and tied. H, The divided components of the root graft are loosely approximated with interrupted sutures and the distal portions are tacked to the ascending aortic graft."
+   },
+   {
+    "label": "Figure E1",
+    "graphic": "fx3.jpg",
+    "caption": "Preparation of the bulged woven polyester aortic root graft, which is marked in sixths and bisected vertically."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/40b4/11184485/ae388de68fe8/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/40b4/11184485/2e6cf0a6cbd4/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/40b4/11184485/188d1ce248a4/gr2.jpg",
+   "fx3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/40b4/11184485/e0bbf30f2402/fx3.jpg"
+  }
+ },
+ "PMC11145418": {
+  "tag": "Redondo_JTCVSTech2024_PEARS",
+  "license": "https://creativecommons.org/licenses/by/4.0/ This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "ga1.jpg",
+    "caption": ""
+   },
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Surgical picture after having performed a Ross-PEARS operation."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Kaplan-Meier survival curve for events (reoperation for aortic valve regurgitation or discovery of aortic valve regurgitation greater than mild). CI , Confidence interval."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Box plot graphic reflecting the maximum measurements obtained for the aortic root and ascending aorta in the preoperative ( preop ) imaging (echocardiogram [ echo ] or computed tomography scan), in the follow-up magnetic resonance imaging ( MRI ) scan and in the follow-up echo. A general reduction of the diameters can be seen postoperatively compared with the preoperative values. CI , Confidence interval; postop , postoperative."
+   },
+   {
+    "label": "",
+    "graphic": "fx2.jpg",
+    "caption": ""
+   }
+  ],
+  "blobs": {
+   "ga1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4ec6/11145418/696d2485a56a/ga1.jpg",
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4ec6/11145418/38a1898bfee3/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4ec6/11145418/ede6829384db/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4ec6/11145418/6c44b8dac656/gr2.jpg",
+   "fx2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4ec6/11145418/c1700af5e5f3/fx2.jpg"
+  }
+ },
+ "PMC11145073": {
+  "tag": "Farhat_JTCVSTech2024_2F",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "The 2F inclusion Ross technique."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "View from the proximal side of the autograft. The muscle and the excess fat are trimmed to leave about 3 mm of remaining tissue."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "The pulmonary artery wall is resected, leaving 3 mm of remnants after the leaflets, same as what performed in a David approach ( left ), then the coaptation of the 3 leaflets is checked ( right )."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "gr3.jpg",
+    "caption": "The muscle below the leaflets is attached to the inclusion Dacron tube using three 5/0 polypropylene running suture after a careful assessment of the annulus geometry."
+   },
+   {
+    "label": "Figure 4",
+    "graphic": "gr4.jpg",
+    "caption": "Surgical view of the 2F inclusion technique before and after implantation on the aortic annulus. Note that the commissures are fare below the distal end of the Dacron tube without any difficulty to attach with Teflon felt U-stitches."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5518/11145073/280ff347d0a0/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5518/11145073/76200a597f8e/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5518/11145073/dbe6a39473a0/gr2.jpg",
+   "gr3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5518/11145073/7e897f24a9e0/gr3.jpg",
+   "gr4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5518/11145073/e5e8f4e2d8fb/gr4.jpg"
+  }
+ },
+ "PMC12683052": {
+  "tag": "Cote_JTCVSTech2025_DoubleRing",
+  "license": "https://creativecommons.org/licenses/by/4.0/ This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Double ring annuloplasty for a dynamic Ross procedure."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "A, Pulmonary autograft with subannular ring in situ. B, Pulmonary autograft with double annuloplasty. Arrows indicate position of native aortic remnant to be tacked to extra-aortic ring."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/36b5/12683052/c5b447b4de37/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/36b5/12683052/89b20801c74c/gr1.jpg"
+  }
+ },
+ "PMC13245295": {
+  "tag": "Kawamura_ATSShortRep2026_ReversedGraft",
+  "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "(A) Preoperative transesophageal echocardiography showing severe aortic stenosis with a type 1 bicuspid aortic valve. (B) Postoperative transesophageal echocardiography demonstrating trivial autograft regurgitation without stenosis."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "(A) Preanastomosed prosthetic vascular graft attached to the sinutubular junction of the pulmonary autograft. Continuous sutures are placed in advance with 5-0 monofilament. (B) The interposed prosthetic vascular graft expands the surgical field and allows reliable hemostasis evaluation during proximal autograft implantation."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "gr3.jpg",
+    "caption": "Schematic illustration of the inverted prosthetic vascular graft technique. An inverted prosthetic vascular graft is sutured to the sinutubular junction of the pulmonary autograft and then pulled out, stabilizing the junction and expanding the surgical field. This facilitates visualization of the autograft valve ring, enables secure hemostasis assessment, and helps prevent autograft deformation during proximal anastomosis."
+   }
+  ],
+  "blobs": {
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7b5f/13245295/e769eafcecd9/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7b5f/13245295/e57bf07ae24b/gr2.jpg",
+   "gr3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7b5f/13245295/cb406466e1ef/gr3.jpg"
+  }
+ },
+ "PMC13069552": {
+  "tag": "Nam_JTCVSTech2026_FullRoot",
+  "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Inverted autograft with 60° markings shows systematic assessment for planar implantation."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Preoperative imaging of unicuspid aortic valve. A, Transthoracic echocardiography short-axis view demonstrating unicuspid aortic valve morphology. B, ECG-gated CT scan with measurement of aortic annulus. C, ECG-gated CT scan with measurement of pulmonary annulus. ECG , Electrocardiogram; CT , computed tomography."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Postoperative transesophageal echocardiography demonstrating normal antegrade flow across the pulmonary autograft in (A) long-axis and (B) short-axis views."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b34f/13069552/73060fe50926/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b34f/13069552/94b063b2cd57/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b34f/13069552/b40b9d1264e6/gr2.jpg"
+  }
+ },
+ "PMC8691921": {
+  "tag": "Skillington_JTCVSTech2021_RightSided",
+  "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Pulmonary allograft sewn in orthotopic position, double suture line."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "An artist's impression demonstrating completed right-sided reconstruction in the Ross procedure."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Intraoperative picture of a bicuspid pulmonary valve."
+   },
+   {
+    "label": "Video 1",
+    "graphic": "https://www.jtcvs.org/article/S2666-2507(21)00698-2/fulltext",
+    "caption": "Technique of autograft harvest. Video available at: https://www.jtcvs.org/article/S2666-2507(21)00698-2/fulltext ."
+   },
+   {
+    "label": "Video 2",
+    "graphic": "https://www.jtcvs.org/article/S2666-2507(21)00698-2/fulltext",
+    "caption": "Technique of hemostasis of autograft bed while administering ostial cardioplegia. Video available at: https://www.jtcvs.org/article/S2666-2507(21)00698-2/fulltext ."
+   },
+   {
+    "label": "Video 3",
+    "graphic": "https://www.jtcvs.org/article/S2666-2507(21)00698-2/fulltext",
+    "caption": "Technique of pulmonary allograft preparation and anastomosis. Video available at: https://www.jtcvs.org/article/S2666-2507(21)00698-2/fulltext ."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e733/8691921/8ed8e41d1202/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e733/8691921/e7c392e804cf/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e733/8691921/3ff3d8eca6df/gr2.jpg",
+   "fx2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e733/8691921/88f2c854d97a/fx2.jpg",
+   "fx3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e733/8691921/771bd929fd58/fx3.jpg",
+   "fx4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e733/8691921/07f28c92aec0/fx4.jpg"
+  }
+ },
+ "PMC12230465": {
+  "tag": "Rea_JTCVSOpen2025_RVOT",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "ga1.jpg",
+    "caption": ""
+   },
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Cumulative incidence of reoperations using decellularized and cryopreserved homografts."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1a.jpg",
+    "caption": "A, Cumulative incidence of reoperations; B, any conduit dysfunction; C, dysfunction attributable to peak gradient ≥40 mm Hg; and D, dysfunction due to moderate or greater insufficiency in fresh decellularized versus standard cryopreserved homografts in the unmatched cohort. E, Cumulative incidence of reoperations; F, any conduit dysfunction; G, dysfunction attributable to peak gradient ≥40 mm Hg; and H, dysfunction attributable to moderate or greater insufficiency in fresh decellularized versus standard cryopreserved homografts in the matched cohort."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Longitudinal serial echocardiographic peak homograft gradient measurements in the unmatched cohort (A), matched cohort (B), and according to surgical technique in the fresh decellularized homograft cohort (C)."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "gr3.jpg",
+    "caption": "Decellularized homografts and proximal conical extension of the conduit may improve RVOT outcomes after the Ross operation. RVOT , Right ventricular outflow tract."
+   },
+   {
+    "label": "Figure 4",
+    "graphic": "gr4.jpg",
+    "caption": "A, Decellularized pulmonary homograft with conical extension of decellularized human pericardium. B, Proximal anastomosis with the RVOT and C, Final aspect of the RVOT reconstruction. RVOT , Right ventricular outflow tract."
+   },
+   {
+    "label": "Figure 5",
+    "graphic": "gr5.jpg",
+    "caption": "A, Computed tomography scan demonstrating mild to moderate stenosis at the proximal suture line, below the valvular plane. B, 3-D reconstruction of the same homograft. C, Surgical macroscopic appearance of this homograft during reoperation for autograft dysfunction. D, 3-D reconstruction of a homograft with circular extension, showing wide proximal anastomotic site. 3D , 3-dimensional."
+   },
+   {
+    "label": "Figure E1",
+    "graphic": "fx2.jpg",
+    "caption": "Graphical overview of the study cohort. RVOT , Right ventricular outflow tract."
+   },
+   {
+    "label": "Figure E2",
+    "graphic": "fx3.jpg",
+    "caption": "Standardized difference of the means before and after propensity score matching. SMD , Standardized mean difference; SAH , systemic arterial hypertension; NYHA , New York Heart Association; BMI , body mass index."
+   },
+   {
+    "label": "Figure E3",
+    "graphic": "fx4.jpg",
+    "caption": "Long-term survival after the Ross operation in the unmatched (A) and matched (B) cohort."
+   },
+   {
+    "label": "Figure E4",
+    "graphic": "fx5.jpg",
+    "caption": "Mixed-effects model of homograft regurgitation over time."
+   },
+   {
+    "label": "Figure E5",
+    "graphic": "fx6.jpg",
+    "caption": "Mixed-effects model of decellularized homograft regurgitation over time according to surgical technique: (A) conical extension and (B) other decellularized homografts."
+   }
+  ],
+  "blobs": {
+   "ga1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/a22c051519a5/ga1.jpg",
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/86945e6b0438/fx1.jpg",
+   "fx2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/1520455b5dad/fx2.jpg",
+   "fx3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/e986ec488536/fx3.jpg",
+   "fx4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/8a92c62389aa/fx4.jpg",
+   "gr1a.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/37939a2b3773/gr1a.jpg",
+   "gr1b.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/2401079c00be/gr1b.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/d363d7dce4bc/gr2.jpg",
+   "fx5.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/862fba089525/fx5.jpg",
+   "gr3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/2d525ae69972/gr3.jpg",
+   "gr4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/704e483be45d/gr4.jpg",
+   "gr5.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/d31f3b6b21e7/gr5.jpg",
+   "fx6.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e0e9/12230465/94c2394def48/fx6.jpg"
+  }
+ },
+ "PMC10431381": {
+  "tag": "Filippa_JTCVSTech2023_BicuspidPV",
+  "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Intraoperative view of a bicuspid pulmonary valve."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Transesophageal echocardiography and intra-operative views of bicuspid pulmonary valve."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/633a/10431381/6b855300fee9/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/633a/10431381/61b10977bc30/gr1.jpg"
+  }
+ },
+ "PMC11632344": {
+  "tag": "Verdi_JTCVSTech2024_AnomalousCoronary",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Previously unroofed anomalous right coronary artery translocated onto a pulmonary autograft."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "A, Pre-cardiopulmonary bypass ( CPB ) transesophageal echocardiography ( TEE ) demonstrating severe, eccentric aortic insufficiency. B, Post-CPB TEE status post- Ross procedure demonstrating the pulmonary autograft with trivial residual regurgitation."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Intraoperative photos of a Ross procedure performed for severe aortic insufficiency in a patient who had undergone prior unroofing of an anomalous right coronary artery ( ARCA ) and a prior aortic valve ( AV ) repair. A, Native AV, with pledgeted Prolene suture at the left–right commissure visualized from prior repair and intact tunnel of the unroofed ARCA. B, Native AV, with the left and right cusps detached from the left-right commissure and fibrotic, thickened cusps, making repair infeasible. C, The native AV leaflets have been excised, and the left and right coronary buttons have been mobilized. D, Inspection of the native pulmonic valve revealed a trileaflet valve without fenestrations, suitable for use as an autograft. Here the autograft is being prepared inside a tube graft using the modified inclusion technique. E, The proximal pulmonary autograft has been anastomosed to the aortic annulus, and the right coronary button is translocated to the proper sinus location. F, The pulmonary autograft in situ with left and right coronary buttons reimplanted."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9a3c/11632344/ace6cf63bd40/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9a3c/11632344/30d6ee7ba6d2/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9a3c/11632344/5392c6b95517/gr2.jpg"
+  }
+ },
+ "PMC11519732": {
+  "tag": "Tsaroev_JTCVSTech2024_Ministernotomy",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "The final view of the Ross procedure conducted through the L-shaped ministernotomy."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Autograft reinforcement technique. A, Dacron graft 2 to 4 mm larger than the autograft is prepared. Three anchoring sutures are placed equidistantly in the base of intercommissural triangles. B, The autograft is secured to the tube graft using a running mattress suture. C, Three guiding sutures parachute down the autograft followed by a running suture that ultimately positions the autograft into the aortic root. D, The distal part of the autograft is then sutured to the tube graft. Three anchoring sutures are placed equidistantly at the tops of the intercommissural triangles followed by a sealing running suture."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7a47/11519732/4ce82849de98/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7a47/11519732/1469ad02eacf/gr1.jpg"
+  }
+ },
+ "PMC13244776": {
+  "tag": "Stephens_JTCVSSE2026_Reoperations",
+  "license": "https://creativecommons.org/licenses/by/4.0/ This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Twin-root operation after Ross. LM , Left main; LAD , left anterior descending artery."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Final appearance after twin-root operation with mechanical composite aortic root replacement, hemiarch, and bioprosthetic conduit for the right ventricular outflow tract reconstruction. The pulmonary valve is placed relatively distal, distancing the ring from the left main for future catheter-based interventions and also avoiding acute angulation. LM , Left main; LAD , left anterior descending artery."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/fef0/13244776/5cab8a212db7/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/fef0/13244776/741d68ab1284/gr1.jpg"
+  }
+ },
+ "PMC9938366": {
+  "tag": "Zhu_JTCVSTech2023_BeatingHeart",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "fx1.jpg",
+    "caption": "Composite autograft construction completed on a beating heart."
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "Preoperative (A) and postoperative (B) transthoracic echocardiography captured in systole and diastole, respectively. Note the severely calcified aortic valve with limited mobility prior to the operation. After the Ross procedure, the autograft valve demonstrated excellent hemodynamics without regurgitation."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Pulmonary autograft preparation during beating heart using the modified inclusion technique. A, Pulmonary autograft was placed inside of a straight polyethylene terephthalate graft. B, The subannular suture line was completed to attach the pulmonary autograft to the straight polyethylene terephthalate graft. C, The distal suture line was performed to attach the pulmonary artery onto the straight polyethylene terephthalate graft. D, Completed composite pulmonary autograft using the inclusion technique."
+   }
+  ],
+  "blobs": {
+   "fx1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f678/9938366/de306aca474f/fx1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f678/9938366/7eb471e97e7f/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f678/9938366/012edb3bc297/gr2.jpg"
+  }
+ },
+ "PMC11708156": {
+  "tag": "Shih_ATSShortRep2023_Mentoring",
+  "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "Figure",
+    "graphic": "gr1.jpg",
+    "caption": "Kaplan-Meier survival of patients undergoing Ross procedure by the surgeon acting as primary operator or a mentor."
+   }
+  ],
+  "blobs": {
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e2bb/11708156/fa390a5f466d/gr1.jpg"
+  }
+ },
+ "PMC13085382": {
+  "tag": "Ramkaran_JCTS2026_Rupture",
+  "license": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the license",
+  "figs": [
+   {
+    "label": "Fig. 1",
+    "graphic": "13019_2026_3905_Fig1_HTML.jpg",
+    "caption": "PRISMA 2020 flow diagram illustrating study selection. A total of 37 records were screened at the title and abstract level using two databases (PubMed/MEDLINE and Google Scholar). Sixteen articles underwent full-text review, and eleven case reports met inclusion criteria and were included in the final analysis"
+   }
+  ],
+  "blobs": {
+   "13019_2026_3905_Fig1_HTML.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/205f/13085382/c8aa8624703e/13019_2026_3905_Fig1_HTML.jpg"
+  }
+ },
+ "PMC12011152": {
+  "tag": "Koliastasis_JACCCaseRep2025_CoronaryOcclusion",
+  "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "ga1.jpg",
+    "caption": ""
+   },
+   {
+    "label": "Figure 1",
+    "graphic": "gr1.jpg",
+    "caption": "12-Lead Electrocardiograms (A) 12-lead electrocardiogram at the time of ST-segment elevation myocardial infarction diagnosis and (B) 2 days postprocedurally."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "Coronary Angiograms During the Index Procedure Coronary angiograms during the index procedure showing (A) the right coronary artery, (B) the left coronary artery with the red circle marking the occlusion site of the left anterior descending artery, (C) the left coronary artery with the red circle marking the kinked left main, (D) the wire and balloon in place in the left anterior descending artery, (E) the perforation at the left anterior descending artery, and (F) the left anterior descending artery after the covered stent placement."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "gr3.jpg",
+    "caption": "Intracoronary Thrombus Revealed by Angiogram (A) Angiogram depicting in red circle the thrombus in the left anterior descending artery, (B) thrombus retrieved from the left anterior descending artery with thromboaspiration catheter, (C) final angiogram of the left coronary artery."
+   },
+   {
+    "label": "Visual Summary",
+    "graphic": "gr4.jpg",
+    "caption": "Timeline of the Post-Ross Complication Events"
+   }
+  ],
+  "blobs": {
+   "ga1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c99e/12011152/2c0d9e5fa1ef/ga1.jpg",
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c99e/12011152/09bb20cd9ac8/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c99e/12011152/e522d3496744/gr2.jpg",
+   "gr3.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c99e/12011152/454a8768de22/gr3.jpg",
+   "gr4.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c99e/12011152/40e60adfbc62/gr4.jpg"
+  }
+ },
+ "PMC12028067": {
+  "tag": "Scorsese_JCDD2025_Anesthesia",
+  "license": "Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( https://creativecommons.org/licenses/by/4.0/ ).",
+  "figs": [
+   {
+    "label": "Figure 1",
+    "graphic": "jcdd-12-00126-g001.jpg",
+    "caption": "ME RV Inflow/Outflow view with CFD over PV depicting PR jet. The image is frozen and the zoom function allows for measurement of PR vena contracta."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "jcdd-12-00126-g002.jpg",
+    "caption": "ME RV Inflow/Outflow with continuous wave Doppler (CWD) and angle correct, capturing the spectral Doppler profile of the PR jet. PR duration is measured from its onset in early diastole to the end of the regurgitant Doppler signal. The total diastolic time is measured from the end of the forward pulmonary flow (coinciding with the onset of the retrograde PR flow) to the beginning of the next forward pulmonary flow curve."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "jcdd-12-00126-g003.jpg",
+    "caption": "ME RV Inflow/Outflow with M-Mode through the RVOT, capturing both RVOT width and PR jet width."
+   },
+   {
+    "label": "Figure 4",
+    "graphic": "jcdd-12-00126-g004.jpg",
+    "caption": "DTG RV Inflow/Outflow view. Acquired in DTG view between 120–150° omniplane, anteflexion, and turned right to center the RV on screen. Allows for alignment of both the lateral tricuspid valve annulus and RVOT."
+   },
+   {
+    "label": "Figure 5",
+    "graphic": "jcdd-12-00126-g005.jpg",
+    "caption": "Tissue Doppler Imaging (TDI) of lateral tricuspid valve annulus in DTG RV Inflow/Outflow view. Isovolumetric contraction time (IVCT) and isovolumetric relaxation time (IVRT)."
+   },
+   {
+    "label": "Figure 6",
+    "graphic": "jcdd-12-00126-g006.jpg",
+    "caption": "RIMP measurement performed in the DTG RV Inflow/Outflow view. Isovolumetric contraction time (IVCT), isovolumetric relaxation time (IVRT), ejection time (ET), and total contraction time (TCO)."
+   },
+   {
+    "label": "Figure 7",
+    "graphic": "jcdd-12-00126-g007.jpg",
+    "caption": "UE AA SAX view: This is typically acquired between 70–90° omniplane, demonstrating the aortic arch in the short axis orientation; the innominate artery may be visualized. Pulmonary artery (PA) and pulmonic valve (PV) are also visualized."
+   }
+  ],
+  "blobs": {
+   "jcdd-12-00126-g001.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4391/12028067/ecda46d88c94/jcdd-12-00126-g001.jpg",
+   "jcdd-12-00126-g002.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4391/12028067/67e4054483f6/jcdd-12-00126-g002.jpg",
+   "jcdd-12-00126-g003.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4391/12028067/f8f0e4b15285/jcdd-12-00126-g003.jpg",
+   "jcdd-12-00126-g004.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4391/12028067/4983c8f9901e/jcdd-12-00126-g004.jpg",
+   "jcdd-12-00126-g005.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4391/12028067/3ce9c6390419/jcdd-12-00126-g005.jpg",
+   "jcdd-12-00126-g006.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4391/12028067/fbde8cfacc3c/jcdd-12-00126-g006.jpg",
+   "jcdd-12-00126-g007.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4391/12028067/24a085e949ee/jcdd-12-00126-g007.jpg"
+  }
+ },
+ "PMC10516720": {
+  "tag": "Chandra_CJCOpen2023_ExplantedHearts",
+  "license": "https://creativecommons.org/licenses/by/4.0/ This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+  "figs": [
+   {
+    "label": "Figure 1",
+    "graphic": "https://BioRender.com",
+    "caption": "Setup for the Ross Procedure simulation during orthotopic heart transplantation (OHT). While the operating team conducts the transplantation, the simulation attending, most frequently the procurement surgeon, leads resident and fellow trainees through the Ross procedure simulation, using the native explanted heart as a high-fidelity model. Created with BioRender ( BioRender.com )."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "gr2.jpg",
+    "caption": "( A ) Aortic root dissection in preparation for autograft implantation. First, an excision of the aortic valve leaflets is performed. The aortic root is investigated for assessment of annular diameter, commissural symmetry, and height. The coronary buttons are mobilized from the aortic tissue around the ostium. ( B ) Inspection and harvest of the pulmonic valve for autograft harvest. The right ventricular outflow tract is incised, and the pulmonic valve is carefully excised by partially dividing the posterior muscle and taking care to avoid injury to the first septal perforator branch of the left anterior descending artery. The excised pulmonic autograft is carefully inspected, and the infundibular muscle is trimmed to ensure autograft stability. ( C ) Implantation of pulmonic valve autograft. The pulmonic valve is prepared for anastomosis to the neo-aortic root. Silk stay sutures are used for exposure of the aortic root. Autograft implantation is performed using interrupted 4-0 Prolene (Ethicon Inc, Somerville, NJ) or Tri-Cron (Covidien, Mansfield, MA) sutures. The coronary buttons are then reimplanted, with care taken to avoid tension or kinking."
+   }
+  ],
+  "blobs": {
+   "gr1.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3760/10516720/49f2f25fc74a/gr1.jpg",
+   "gr2.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3760/10516720/0180fe54158b/gr2.jpg"
+  }
+ },
+ "PMC12909017": {
+  "tag": "Bloom_JAHA2026_Renaissance",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.",
+  "figs": [
+   {
+    "label": "Figure 1",
+    "graphic": "https://www.ahajournals.org/doi/suppl/10.1161/JAHA.125.044454",
+    "caption": "Failed prosthetic valves. Examples of prosthetic valve failures by stenosis, regurgitation or both. Top row: example of mechanical valves. Bottom row: example of bioprosthetic valves."
+   },
+   {
+    "label": "Figure 2",
+    "graphic": "JAH3-15-e044454-g001.jpg",
+    "caption": "Echocardiographic images of failed prosthetic valves. A , Transesophageal echocardiogram showing prolapse of 2 bioprosthetic valve leaflets (arrows) with severe transvalvular regurgitation. B , Echocardiogram and noncontrast computed tomography demonstrating limited leaflet mobility in a bileaflet mechanical aortic valve with severe aortic stenosis. C , Echocardiogram showing severe aortic stenosis with a mean gradient &gt;50 mm Hg; computed tomography angiography revealed minimal leaflet calcification. D , Echocardiogram revealing combined severe stenosis and moderate regurgitation in a bioprosthetic aortic valve; the leaflets were thickened and immobile without calcification, and perforations were noted."
+   },
+   {
+    "label": "Figure 3",
+    "graphic": "JAH3-15-e044454-g003.jpg",
+    "caption": "Proposal of algorithm for post–Ross procedure management. PPI indicates proton pump inhibitor; SBP, systolic blood pressure; and TTE, transthoracic echocardiograhy."
+   }
+  ],
+  "blobs": {
+   "JAH3-15-e044454-g002.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/364a/12909017/883308dcace9/JAH3-15-e044454-g002.jpg",
+   "JAH3-15-e044454-g001.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/364a/12909017/15ab66463b63/JAH3-15-e044454-g001.jpg",
+   "JAH3-15-e044454-g003.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/364a/12909017/35b05af455bb/JAH3-15-e044454-g003.jpg"
+  }
+ },
+ "PMC8924018": {
+  "tag": "Zhu_JTCVS2023_ExVivoBiomechanics",
+  "license": "",
+  "figs": [
+   {
+    "label": "",
+    "graphic": "nihms-1746355-f0006.jpg",
+    "caption": "An intraoperative photographic example of the use of the inclusion technique in a Ross procedure (A-D) and detailed surgical steps for pulmonary autograft preparation using the inclusion technique with anti-commissural plication (E-J) for ex vivo simulation experiments (K, L). (A) An intraoperative photograph of a pulmonary autograft harvested and being prepared using the inclusion technique for the Ross procedure. The three commissures were suspended and attached to a straight Dacron graft. Note the proper leaflet coaptation. (B) The distal pulmonary autograft attached to the Dacron graft. Note the competent pulmonary valve. (C) The neo-ventricular view of the same pulmonary autograft. (D) The same pulmonary autograft implanted in the left ventricular outflow tract as the neo-aortic root with excellent valve competency. (E) Human pulmonary autograft harvested. Note the competent pulmonary cusps with proper coaptation. (F) At least 2 mm of the right ventricular tissue proximal to the nadir of each pulmonary leaflet attachment site was saved. (G) Pulmonary valve commissures suspended and fixed onto the straight Dacron graft. (H) Anti-commissural plication performed to plicate the graft between the commissures at the level of the commissures. (I) The side view of the Dacron graft after anti-commissural plication. (J) The middle suture line attaching the distal pulmonary autograft"
+   },
+   {
+    "label": "",
+    "graphic": "",
+    "caption": "A video illustrating the operative steps of the Ross procedure using the inclusion technique via a straight Dacron graft with anti-commissural plication."
+   },
+   {
+    "label": "Figure 2:",
+    "graphic": "nihms-1746355-f0007.jpg",
+    "caption": "(A) Diagram of the ex vivo left heart simulator. (B) An example of leaflet motion tracking analysis. Each marker represents the position of the nodulus of each leaflet at each time frame captured by high-speed videography. Each color represents each leaflet during either opening or closing. (C) An en face view of a human pulmonary valve without using anti-commissural plications captured by high-speed videography during diastole. (D) The same human pulmonary valve with anti-commissural plications captured by high-speed videography during diastole. The pulmonary valve appeared to have slightly improved coaptation height when anti-commissural plication was used."
+   },
+   {
+    "label": "Figure 3:",
+    "graphic": "nihms-1746355-f0008.jpg",
+    "caption": "(A) Aortic flow measurements of porcine control pulmonary autografts without reinforcement, as well as porcine and human pulmonary autografts using the inclusion technique with and without anti-commissural plications. The aortic flow profiles were overall similar among the five groups. Porcine control pulmonary autografts without reinforcement demonstrated increased flow reversal during diastole, suggesting increased valve regurgitation. (B) Pressure measurements of porcine control pulmonary autografts without reinforcement, as well as porcine and human pulmonary autografts using the inclusion technique with and without anti-commissural plications. The pressure tracings were overall similar among the five groups. Shaded regions represent standard deviation. ACP = anti-commissural plication."
+   },
+   {
+    "label": "Figure 4:",
+    "graphic": "nihms-1746355-f0009.jpg",
+    "caption": "Leaflet motion tracking analysis performed to elucidate leaflet opening velocity (A), leaflet closing velocity (B), relative leaflet opening force (C) and relative leaflet closing force (D) of porcine control pulmonary autografts without reinforcement, and porcine and human specimens using the inclusion technique with and without anti-commissural plication. ACP compared to non-ACP in porcine pulmonary autografts was associated with lower leaflet rapid opening velocity ( p = 0.03), leaflet rapid closing velocity ( p = 0.01), relative leaflet rapid opening force ( p = 0.03), and relative leaflet rapid closing force ( p = 0.17). In comparison, porcine control pulmonary autografts without reinforcement showed lower leaflet rapid opening velocity than that from porcine autografts without ACP ( p = 0.05) but was similar to that from porcine autografts with ACP ( p = 0.77). Porcine control pulmonary autografts without reinforcement had similar leaflet rapid closing velocity, relative leaflet rapid opening force, and relative leaflet rapid closing force compared to those from porcine autografts using the inclusion technique with or without ACP. In human autografts, ACP was associated with lower leaflet rapid opening velocity than without ACP ( p = 0.01). The upper and lower borders of each box represent the upper and lower quartiles. The middle horizontal line represents the median. Ea"
+   },
+   {
+    "label": "",
+    "graphic": "nihms-1746355-f0010.jpg",
+    "caption": "Ross procedure using the inclusion technique with straight Dacron grafts with or without anti-commissural plication was evaluated using an ex vivo left heart simulator for valvular hemodynamics and kinematics analysis."
+   }
+  ],
+  "blobs": {
+   "nihms-1746355-f0006.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/7a669b619430/nihms-1746355-f0006.jpg",
+   "nihms-1746355-f0007.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/31a350a03dca/nihms-1746355-f0007.jpg",
+   "nihms-1746355-f0008.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/af2fba79a3a7/nihms-1746355-f0008.jpg",
+   "nihms-1746355-f0009.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/e457d80ec6e9/nihms-1746355-f0009.jpg",
+   "nihms-1746355-f0010.jpg": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/00fe8c33a831/nihms-1746355-f0010.jpg",
+   "nihms-1746355-b0001.gif": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/f240e7c26762/nihms-1746355-b0001.gif",
+   "nihms-1746355-b0002.gif": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/c85a91a0195a/nihms-1746355-b0002.gif",
+   "nihms-1746355-b0003.gif": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/4b8a25d93525/nihms-1746355-b0003.gif",
+   "nihms-1746355-b0004.gif": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/69796cf60550/nihms-1746355-b0004.gif",
+   "nihms-1746355-b0005.gif": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/15d3/8924018/123b7c0ff6e6/nihms-1746355-b0005.gif"
+  }
+ }
+}
