@@ -1,0 +1,919 @@
+0003-4975/$36.00
+
+Published by Elsevier Inc.
+
+INVITED EXPERT REVIEW
+
+Developing Proﬁciency in Robotic Cardiac
+Surgery
+Michael E. Halkos, MD, MS,1 Amalia Jonsson, MD,1 Vinay Badhwar, MD,2
+Husam H. Balkhy, MD,3 Eugene A. Grossi, MD,4 Joseph A. Dearani, MD,5
+Arnar Geirsson, MD,6 Marc Gillinov, MD,7 Serguei Melnitchouk, MD, MPH,8
+Didier Loulmet, MD,4 and Douglas A. Murphy, MD1
+
+ABSTRACT
+
+BACKGROUND The purpose of this review is to provide recommendations for cardiac surgeons
+interested in adopting a robotic platform into their programs.
+METHODS The recommendations are based on the experience of the authors and cover a diverse
+array of cardiac surgical procedures that are currently performed with robotic assistance. The focus,
+as with any innovative surgical approach, is to ensure patient safety, maximize quality and efﬁcacy,
+and set realistic expectations about what is required to achieve proﬁciency in robotic cardiac surgery.
+RESULTS Even though there may be steady growth in robotic cardiac procedures, it is possible that
+these procedures will be concentrated in higher-volume programs that already offer expertise in
+mitral valve or coronary surgery. Once success and proﬁciency with robotic cardiac approaches to
+coronary or valvular heart disease is achieved, as outlined in this review, surgeons may wish to
+embark on more complex robotic procedures, such as reoperative mitral valve surgery, totally
+endoscopic coronary artery bypass, or aortic valve replacement.
+CONCLUSIONS Maintaining the same principles and techniques for coronary surgery or intracardiac
+procedures and maintaining the fundamentals of myocardial protection and cardiopulmonary bypass
+are essential to ensure excellent technical and clinical outcomes and to optimize patient safety.
+(Ann Thorac Surg 2025;119:523-34)
+
+R
+
+obotic technology has inﬁltrated nearly
+every surgical discipline over the last 2 decades. Driven by the desire to minimize
+the morbidity associated with traditionally larger
+surgical incisions and to facilitate an earlier return
+to an active lifestyle, robotic approaches have
+been adopted to improve the quality of surgery
+as well as meet patient expectations for less invasive therapies. These efforts have also extended
+into cardiac surgery. This is evident in our own
+thoracic surgery training programs, where most
+residents, whether they are in an integrated
+
+cardiothoracic program or have completed a general surgery program before cardiothoracic surgery training, have already received training and
+performed robotic surgical procedures before being exposed to cardiac surgery. Practicing cardiac
+surgeons have been slower to adopt this technology for reasons including concerns about safety,
+
+The Supplemental Tables and Videos can be viewed in the online
+version of this article [https://doi.org/10.1016/j.athoracsur.2024.07.
+049] on http://www.annalsthoracicsurgery.org.
+
+Division of Cardiothoracic Surgery, Emory Heart and Vascular Center, Emory University School of Medicine, Atlanta, Georgia; 2Department of Cardiovascular and Thoracic Surgery, WVU Heart and Vascular Institute, West Virginia University, Morgantown, West Virginia; 3Division of Cardiac
+Surgery, University of Chicago, Chicago, Illinois; 4Department of Cardiothoracic Surgery, New York University, New York, New York; 5Division of
+Cardiovascular Surgery, Mayo Clinic, Rochester, Minnesota; 6Division of Cardiac, Thoracic, and Vascular Surgery, Columbia University Medical Center,
+New York, New York; 7Department of Thoracic and Cardiovascular Surgery, Cleveland Clinic, Cleveland, Ohio; and 8Division of Cardiac Surgery,
+Massachusetts General Hospital, Harvard University, Boston, Massachusetts
+Address correspondence to Dr Halkos, Division of Cardiothoracic Surgery, Emory University School of Medicine, 550 Peachtree St NE, Atlanta,
+GA 30308; email: mhalkos@emory.edu.
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+Ann Thorac Surg
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+Abbreviations and Acronyms
+CABG [ coronary artery bypass grafting
+CT [ computed tomographic
+HCR [ hybrid coronary revascularization
+LAD [ left anterior descending (coronary artery)
+LIMA [ left internal mammary artery
+MICS [ minimally invasive cardiac surgery
+MIDCAB [ minimally invasive direct coronary artery bypass
+OPCAB [ off-pump coronary artery bypass
+RAVR [ robotic aortic valve replacement
+STS [ The Society of Thoracic Surgeons
+TECAB [ totally endoscopic coronary artery bypass
+
+efﬁcacy, proﬁciency, critical resources, and the
+impact on overall hospital costs and revenue.
+Nonetheless, increasing numbers of surgeons
+have continued to adopt the robotic platform
+into their cardiac programs to meet patient demands and improve the quality of surgical results,
+as well as participate in leading innovative approaches to cardiac surgical practice.
+The proportion of robotic mitral valve repair for
+degenerative mitral regurgitation increased from
+10.9% of cases in 2015 to 14.6% in 2021.1 For
+robotic-assisted coronary artery bypass grafting
+(CABG) procedures, which include roboticassisted CABG or robotic minimally invasive
+direct coronary artery bypass (MIDCAB) and
+totally endoscopic coronary artery bypass
+(TECAB), the adoption rate is much lower. A previous report of The Society of Thoracic Surgeons
+(STS) Adult Cardiac Surgery Database published in
+2016 showed that robotic-assisted CABG procedures comprised less than 1% of total CABG procedures.2 An additional study, also using the STS
+database, evaluated the volume outcome
+relationship among new adopters performing
+robotic-assisted CABG procedures from 2014 to
+2019.3 Even in this more contemporary cohort,
+there were fewer than 25 new robotic-assisted
+surgeons who performed more than 20 total procedures during this period. Simultaneously, the
+overall number of robotic cardiac procedures in
+Europe doubled from 435 procedures in 2016 to
+923 in 2019.4 Although these volumes and
+changes may appear slow and subtle, there is a
+trend showing gradual adoption of robotic
+cardiac surgical procedures.
+There have been several publications documenting the volume-outcome relationship for
+complex cardiac procedures, not limited to robotic
+surgery. These include lower mortality and higher
+repair rates for degenerative mitral regurgitation
+among higher-volume surgeons and hospitals.5 It
+is also important to understand that mitral repair
+
+2025;119:523-34
+
+procedures for primary mitral regurgitation are
+performed in an increasing number of centers,
+with many procedures done robotically, but
+when compared with all hospitals performing
+cardiac surgery, the median number per hospital
+remains less than 10.6 For example, a hospital
+performing more than 50 mitral valve repairs
+annually for primary mitral regurgitation places
+them higher than the 95th percentile across the
+United States.
+This review does not attempt to reassess the
+training curriculum or volume requirements
+because these issues were recently published and
+provide contemporary consensus recommendations
+to address robotic cardiac surgery training.7 In that
+review by Badhwar and colleagues,7 the minimum
+requirements to initiate a robotic revascularization
+or mitral program are clearly stated, and we
+endorse those current recommendations. Instead,
+we provide recommendations to develop
+proﬁciency in speciﬁc areas of robotic cardiac
+surgery with an initial focus on robotic
+revascularization and mitral valve procedures.
+Throughout this review, we hope that surgeons
+will appreciate that there are a multitude of
+pathways to achieve proﬁciency. However, we
+also hope to stress that to develop proﬁciency
+and then mastery in robotic cardiac procedures
+requires an extraordinary commitment and focus
+on this cardiac surgical subspecialty.
+MATERIAL AND METHODS
+
+Institutional Review Board approval was not
+requested for this project because of the absence
+of individual patient data. A systematic search of
+“robotic cardiac surgery” or “robotic heart surgery” was performed, yielding 4837 publications.
+Of these, 28 papers were found to be relevant and
+related to the topic of proﬁciency for robotic heart
+surgery.
+TRAINING OPPORTUNITIES
+
+For early career or midcareer surgeons already in
+practice who are interested in developing robotic
+cardiac skills, several opportunities exist. STS
+currently holds an annual course (STS Workshop
+on Robotic Cardiac Surgery) at the Intuitive Surgical training facilities in Norcross, Georgia (Intuitive Surgical). This course provides both a
+didactic format and hands-on laboratory-based
+training for both revascularization and mitral
+valve procedures. Additionally, there are
+
+Ann Thorac Surg
+2025;119:523-34
+
+cadaveric training opportunities at several sites
+offered by Intuitive Surgical so that surgeons can
+practice this technique on cadavers or animal
+models before clinical implementation. The
+Thoracic Surgery Foundation in conjunction with
+STS offer an advanced robotic cardiac surgery
+fellowship,8 and The American Association for
+Thoracic Surgery Foundation offers a cardiac
+surgery robotics fellowship.9 These awards
+provide a stipend to support the initiation of a
+robotic cardiac surgery program, and the
+recipient is paired with an experienced proctor
+who provides on-site support during the initial
+cases at the surgeon’s institution. Importantly,
+these training opportunities include team-based
+training, incorporating bedside surgeons or assistants, surgical technicians, operating room nurses,
+perfusionists, and anesthesiologists.
+For residents and trainees, several fellowship
+opportunities exist at robotic cardiac surgery
+programs for those who want to pursue training
+the end of their American College of Graduate
+Medical Education cardiac surgery training. These
+programs are offered at Cedars-Sinai Medical
+Center (Los Angeles, CA), Cleveland Clinic
+(Cleveland, OH), Emory University (Atlanta, GA),
+New York University Langone Medical Center
+(New York, NY), University of Chicago (Chicago,
+IL), and West Virginia University (Morgantown,
+WV), among others.
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+ROBOTIC-ASSISTED CORONARY ARTERY BYPASS
+GRAFTING AND ROBOTIC MINIMALLY INVASIVE
+DIRECT CORONARY ARTERY BYPASS
+
+Perhaps the simplest introduction to robotic cardiac surgery is the robotic left internal mammary
+artery (LIMA) harvest. Unlike robotic intracardiac
+procedures such as mitral repair, which require
+expertise in mitral repair surgery as well as
+expertise in alternative access for perfusion and
+myocardial protection, robotic LIMA harvesting
+allows the surgeon to become facile with robotic
+instrumentation without the time pressure associated with cardiopulmonary bypass or ischemia
+time. For practicing surgeons, robotic-assisted
+CABG can and should be an evolutionary process. The technical aspects of the case have been
+described in detail.10 CABG is still the most
+commonly performed heart operation in the
+United States, and therefore most surgeons
+interested in robotics can evolve their practice to
+incorporate robotics into their coronary surgical
+programs. There are several pathways for this to
+occur, as well as several prerequisites for
+surgeons (Figure 1). Robotic-assisted CABG procedures can be broken down into 2 procedures: (1)
+robotic LIMA harvest (Video 1); and (2) off-pump,
+hand-sewn LIMA to left anterior descending (LAD)
+coronary artery bypass through a left anterolateral
+thoracotomy. For surgeons who perform most of
+their CABG procedures on an arrested heart,
+
+FIGURE 1 Prospective pathway for developing proﬁciency in robotic-assisted coronary artery bypass grafting (CABG)
+procedures. (BIMA, bilateral internal mammary arteries; LAD, left anterior descending (coronary artery); LIMA, left internal
+mammary artery; MIDCAB, minimally invasive direct coronary artery bypass; MICS, minimally invasive cardiac surgery;
+OPCAB, off-pump coronary artery bypass; TECAB, totally endoscopic coronary artery bypass.)
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+expertise and proﬁciency should be obtained with
+off-pump LIMA to LAD artery anastomoses
+through a sternotomy before they perform these
+procedures through a small left anterolateral
+thoracotomy. For those surgeons who already
+perform MIDCAB or minimally invasive cardiac
+surgery (MICS) CABG, the learning curve can be
+focused on robotic LIMA harvesting. The advantages of a robotic approach for revascularization
+compared with conventional MIDCAB include the
+following: (1) exposure during the LIMA harvest is
+superior to a direct vision or endoscopic approach
+with MIDCAB; (2) chest wall retraction with LIMA
+harvest during MIDCAB is avoided completely;
+and (3) the anastomosis can be performed with
+little to no rib spreading. Before embarking on a
+robotic LIMA harvest, we recommend at least 2 to
+3 case observations of different surgeons to
+appreciate subtle differences in this technique.
+Patients who are possible candidates for roboticassisted CABG procedures are those with isolated
+LAD artery disease and those with less complex
+multivessel disease in whom the LAD artery can
+be treated with LIMA to LAD artery grafting and
+the other lesions can be treated percutaneously
+
+Ann Thorac Surg
+2025;119:523-34
+
+with a hybrid coronary revascularization (HCR)
+approach. For patients undergoing HCR, it is
+important that these cases be discussed using a
+multidisciplinary heart team approach and that
+patient selection is conservative early on. For
+early-career surgeons who received training in
+robotic LIMA harvest in their thoracic surgical
+residency programs or during a robotic cardiac
+surgical fellowship, the robotic LIMA portion of
+the procedure may be more easily mastered than
+the surgical anastomosis through a small left
+anterolateral thoracotomy. In this case, it is most
+practical to rely on and partner with a senior
+surgeon with more experience in CABG, especially
+if the senior surgeon has expertise in off-pump
+coronary artery bypass (OPCAB) or MICS/MIDCAB.
+Although some reports have shown that competency can be achieved with 10 to 50 cases,4 a
+more recent report suggests that mastery,
+deﬁned as no signiﬁcant improvements in
+outcomes or efﬁciency, usually requires between
+250 and 500 cases11 (Figure 2). With experience,
+several surgeons have evolved to bilateral
+internal mammary harvest and multiarterial
+grafting of the left-sided vessels with excellent
+
+FIGURE 2 Cumulative sum (CUSUM) analysis curve for observed minus expected mortality for robotic-assisted coronary
+artery bypass grafting. A CUSUM plot shows how an outcome of interest changes over time and provides continuous
+monitoring of the trend. Two important characteristics of the curve include the height of the curve and the slope. If the
+height is greater than 0, this represents worse than expected outcomes, if less than 0 zero, it represents better than
+expected outcomes. A downward slope represents continued improvement in outcomes. Reprinted from Jonsson A,
+Binongo J, Patel P, et al. Mastering the learning curve for robotic-assisted coronary artery bypass surgery. Ann Thorac Surg.
+2023;115:118-126, with permission from The Society of Thoracic Surgeons.
+
+Ann Thorac Surg
+2025;119:523-34
+
+results, but our recommendation is that this
+should be attempted only after extensive experience is achieved.11
+Early in the robotic coronary surgeon’s experience, quality control measures are essential to
+ensure not only excellent clinical outcomes but
+also angiographic patency assessment. This
+assessment can be achieved with an intraoperative angiogram in a hybrid room if available
+or with postoperative catheterization or coronary
+computed tomographic (CT) angiography. Angiographic assessment during HCR procedures is
+routine; however, even in the setting of a singlevessel bypass, it is essential to have comparable,
+if not better, patency results that will ensure
+quality for a novel procedure performed in your
+hospital environment and provide the surgeon
+with direct feedback for improvement of the
+anastomotic technique.10
+Although this is not as critical as with robotic
+intracardiac procedures, our recommendation is
+to develop proﬁciency with 1 to 2 dedicated teams
+for at least the ﬁrst 25 to 50 cases. After proﬁciency is achieved, additional team members can
+be trained. Although routine use of an intracoronary shunt is recommended in all cases, there
+will be occasional periods where temporary occlusion is necessary. An astute anesthesia team
+will recognize subtle ST-segment changes as well
+as any early dysrhythmias that can alert the surgeon to conﬁrm that the shunt is working properly
+or to restore perfusion transiently to avoid hemodynamic collapse or arrhythmias. Roboticassisted CABG procedures do not usually involve
+a dedicated bedside surgeon or a specialized scrub
+technician. Therefore, including the scrub technician and nurse in the initial training is important from a safety standpoint. The scrub
+technician will routinely need to change out instruments, deliver clip appliers, clean the endoscope, and exchange different instruments. If this
+procedure is done blindly on the left side of the
+chest, a penetrating injury can easily occur in the
+beating heart. The best way to prevent this error is
+to perform all instrument exchanges under direct
+endoscopic vision. Scrub technicians should not
+insert instruments unless the port is visible on the
+monitors, so insertion is always done under direct
+vision. The camera should be pulled back into the
+camera port before withdrawing the camera.
+During the initial 20 to 30 cases, the time that is
+required to harvest the LIMA robotically will be
+much longer,11 and the conversion rate to
+sternotomy will be higher. It is important to be
+realistic about how much time is required, to
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+provide realistic expectations to the patient
+about the risks for conversion to sternotomy,
+and to set time limits or guardrails for when to
+convert the procedure. If chest wall anatomy is
+difﬁcult, if LIMA branch bleeding is encountered
+that is difﬁcult to control, or if there are any
+concerns about LIMA injury, it is much safer to
+convert to sternotomy than compromise the
+LIMA graft. Jonsson and colleagues11 reported a
+conversion rate of 4.4% in the ﬁrst 500 cases
+compared with 1.6% in the second 500 cases.
+Although
+this
+ﬁnding
+likely
+represents
+experience with the technical aspects of the
+procedure, it also includes unmeasurable
+variables such as patient selection.
+During the early experience, there are 3
+important criteria for patient selection. First is
+LAD artery anatomy. Ensure that the target vessel
+on the angiogram is an adequately sized vessel
+(>1.5 mm), free from calciﬁcation in the distal
+one-half of the LAD artery, and that no concerns
+are raised about the patient’s intramyocardial
+anatomy. There are often subtle clues to an
+intramyocardial course such as a straight LAD artery in the middistal one-third that becomes
+curved only toward the apex. The second important consideration is body habitus. Obese patients, female patients with larger breasts, or male
+patients with a signiﬁcant amount of chest adipose tissue can be very difﬁcult because of the
+challenges with exposure through a deep incision.
+Although a discrete cutoff for body mass index is
+not routinely used, we recommend caution in the
+early experience for patients with a body mass
+index >30 to 35 kg/m2. Even modest obesity in a
+patient with a smaller chest size can create difﬁculties with robotic LIMA harvest because of
+conﬂict with the robotic arms, whereas a greater
+degree of obesity may be relatively easy to
+manage in a patient with a larger chest cavity size.
+Some surgeons have recommended the routine
+use of preoperative chest CT scanning with
+intravenous contrast material or even coronary CT
+angiography to deﬁne the coronary anatomy and
+epicardial or intramyocardial course more precisely. Third, patient comorbidities and hemodynamic status are critical. Patients with signiﬁcant
+comorbidities usually are more challenging, and
+although a less invasive approach with robotic
+CABG may provide signiﬁcant beneﬁt, that beneﬁt
+will be realized only when the procedure is performed efﬁciently and without any complications.
+Furthermore, we still avoid this procedure in
+general in any patient who has an unstable presentation, such as ongoing or intermittent chest
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+pain or ischemia, hemodynamic instability, or any
+mechanical support. Patients who cannot tolerate
+single-lung ventilation should also be avoided in
+the early experience with this procedure. Patients
+with chronic total occlusion of the LAD artery may
+represent good candidates for this procedure
+because the risk of any hemodynamic complication is rare; however, the distal LAD artery should
+be well visualized from collateral vessels to
+ensure a suitable target vessel. As experience is
+gained, the criteria can be modiﬁed to include
+patients with more challenging LAD artery anatomy or a more challenging body habitus. The
+main point is that patient selection is critical for
+success of this procedure.
+ROBOTIC TOTALLY ENDOSCOPIC CORONARY ARTERY
+BYPASS
+
+The term TECAB is used to describe the procedure
+in which robotic technology is applied in coronary
+bypass surgery not only to harvest the conduits
+but also to perform the distal coronary anastomoses endoscopically. This can be done either off
+pump or on pump with a beating or arrested heart
+approach. When performed off pump, robotic
+TECAB is the least invasive form of coronary
+bypass grafting; however, it is also the most
+challenging to master (Video 2).
+Gaining proﬁciency in this procedure should be
+predicated on extensive experience in coronary
+surgery. This will likely involve expertise in
+advanced coronary surgical techniques including
+OPCAB, all arterial grafting using bilateral internal
+thoracic artery grafts, and robotic MIDCAB surgery.12 A dedicated and consistent surgical team
+including the tableside assistant is vital to
+execute these procedures safely. As with most
+surgical techniques, arriving at fully endoscopic
+robotic coronary surgery for a surgeon and team
+can occur by multiple pathways depending on
+previous experience. The most successful
+pathway consists of gradual mastery of the
+various components discussed earlier and
+integration of these elements into a safe and
+successful program (Figure 1). We believe that
+the technical skills associated with a successful
+TECAB program occur within a multispectrum
+robotic practice.13
+A simple and inexpensive simulator for TECAB
+has been described,14 and it entails using a pig
+heart inside of a box for repetitive and frequent
+endoscopic robotic anastomosis training. One of
+the most important challenges in TECAB is the
+absence of a ﬁrst assistant to help with suture
+
+Ann Thorac Surg
+2025;119:523-34
+
+management; therefore, extensive simulation
+training on endoscopic suturing is a prerequisite
+before performing the ﬁrst case.
+Depending on the surgeon and team’s comfort
+level, the ﬁrst cases should be single-vessel LIMA
+to LAD artery procedures performed either on
+pump or off pump. At least 5 to 10 proctored cases
+are necessary in our view, in which the proctor
+reviews the case with the surgical team and goes
+over the operative plan in detail. If the surgeon
+and team are experienced in OPCAB, these cases
+can be performed off pump by using standard
+techniques. If the team is more comfortable with
+arrested-heart CABG and is facile with peripheral
+perfusion and myocardial protection (IntraClude
+balloon, Edwards Lifesciences), then this should
+be the initial approach. An approach consisting of
+dividing the procedure into separate segments
+(eg, conduit harvesting, pericardiotomy and target
+preparation, anastomosis)15 and assessing mastery
+of each segment is a good way to evaluate
+progress in proﬁciency. Gradually widening the
+inclusion criteria (eg, obesity, higher risk) can be
+safely done only after mastering the entire
+procedure in ideal candidates.
+TECAB is a demanding procedure, especially
+without a robotically controlled surgical stabilizer
+for off-pump procedures (Da Vinci Xi system,
+Intuitive Surgical). Calls for subspecialization in
+coronary surgery with a dedicated fellowship at
+an experienced center to achieve proﬁciency
+safely in this procedure are not without merit. For
+junior surgeons who know that this is the path
+they would like to pursue, this is an excellent
+option. For the more senior surgeon with expertise in MIDCAB or MICS CABG, adopting robotics
+and achieving proﬁciency in robotic TECAB are
+attainable provided some of the principles discussed previously are followed.16
+BARRIERS TO ADOPTION. Common complications
+associated with robotic-assisted CABG procedures
+have been well described and are listed in
+Supplemental Table 1, along with methods to
+prevent these complications. Even though CABG
+is the most commonly performed operation by
+cardiac surgeons in the United States, adoption
+of robotics has been slower than for intracardiac
+procedures. The reasons for this are likely
+multifactorial but include the challenges
+associated with LIMA to LAD artery grafting
+through a small thoracotomy incision without
+cardiopulmonary bypass. At all centers, isolated
+CABG outcomes are meticulously scrutinized,
+and for all surgeons, the LIMA to LAD artery
+
+Ann Thorac Surg
+2025;119:523-34
+
+bypass is the hallmark of coronary surgery.
+Additionally, it is imperative that interventional
+cardiologists are supportive of a minimally
+invasive coronary program, are willing to avoid
+or reduce percutaneous intervention of the LAD
+artery, and are willing to partner with cardiac
+surgeons on an HCR program. The robotic
+conduit harvest may be the more easily learned
+portion of this procedure. Setting up the LAD
+artery for anastomosis and ensuring a perfect
+hand-sewn anastomosis through a smaller
+thoracotomy incision require experience to
+obtain proﬁciency and then mastery. For TECAB
+procedures, the barriers are even greater because
+the technical demands are greater. Therefore, we
+recommend that surgeons ﬁrst gain proﬁciency
+in robotic LIMA harvesting, followed by handsewn anastomoses through a left thoracotomy
+incision.
+ROBOTIC MITRAL VALVE SURGERY
+
+Unlike noncardiac robotic procedures such as
+prostatectomy or hysterectomy, robotic mitral
+surgery involves the complex repair of an intracardiac valve and requires cardiopulmonary
+bypass with aortic occlusion and meticulous
+attention to myocardial preservation. Several
+pathways exist to achieve proﬁciency (Figure 3).
+The most expeditious pathway is to join an
+existing robotic mitral program in an apprentice
+role to gain on-the-job training and experience
+from an experienced robotic surgeon or mitral
+surgeon. Alternatively, the practicing surgeon or
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+senior trainee can pursue a 1- to 2-year fellowship
+at an experienced program as described earlier.
+The most common pathway is the development of
+a robotic program de novo by a surgeon at an
+institution with a predominantly sternotomy or
+right thoracotomy mitral surgery experience. The
+goal of the surgeon and the institution should be
+to establish a robotic mitral program performing
+state-of-the-art mitral surgery with an outlook to
+training and continuous organic growth on the
+basis of efﬁcacy and safety and without sacriﬁcing
+repair rates and quality.7 Initiating robotic mitral
+surgery only for marketing purposes rarely
+succeeds in the absence of a substantial and
+continuous volume and experience.
+First, it is mandatory that the surgeon have a
+thorough understanding of mitral valve disease
+and surgical options for treatment. The exposure
+and technical capabilities afforded the surgeon by
+robotics will increase this knowledge base, but an
+understanding of basic conventional repair techniques is a prerequisite. Regardless of the training
+pathway taken, the surgeon must acquire expertise in several systems or technical building
+blocks. These include standard and preferred approaches for mitral valve repair that must be
+practiced in porcine models to achieve basic proﬁciency in the robotic maneuvers. The surgeon
+must have a well-established background in conventional mitral repair and replacement techniques. Common concomitant operations that are
+readily performed robotically include left atrial
+appendage closure, surgical ablation of atrial
+ﬁbrillation, mitral valve replacement, and
+
+FIGURE 3 Prospective pathway for developing proﬁciency in robotic mitral valve and concomitant intracardiac
+procedures.
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+tricuspid valve repair. These are opportunities for
+program expansion after the initial mastery of
+robotic mitral repair surgery.
+Second, the surgeon needs to develop proﬁciency in analyzing CT angiograms of the chest,
+abdomen, and pelvis, including 3-dimensional
+reconstruction. Two critical bodies of information
+are gleaned from these scans: (1) the analysis of
+arterial and venous anatomy is critical for determining safe and effective perfusion strategies;
+and (2) study of the right side of the chest and
+cardiac location determines accessibility of the
+heart from the right side of the chest, including
+appropriate port positioning. Although formal
+interpretation by radiology is important, only the
+surgeon can discern subtle ﬁndings that affect
+perfusion and right-sided chest access challenges.
+Third, the surgeon needs to be competent in
+the technical options for peripheral cardiopulmonary bypass and aortic occlusion. Both femoral
+and axillary arterial perfusion options should be
+available to the robotic team. Common contraindications for standard femoral perfusion include
+the presence of an atheroma in the descending
+thoracic or abdominal aorta or the presence of
+iliofemoral arteries that are not suitable for cannulation or perfusion. In these cases, alternative
+perfusion options such as direct aortic or axillary
+artery cannulation should be considered. The
+surgeon initiating a robotic team may opt for
+clamp occlusion of the aorta with cannulation of
+the aorta for cardioplegia delivery.17,18 Acquisition
+of endoaortic balloon occlusion technology may
+be useful, but not mandatory, for subsequent
+organic growth of the service and for more
+advanced cases such as redo operations.19
+Fourth, the console and bedside surgeons need
+to understand both the augmented capabilities
+and the potential limitations of the robotic
+instrumentation. In addition to basic instrument
+controls, the surgeon must understand and practice the rules of engagement established to prevent inadvertent injury resulting from a lack of
+proprioception and haptic feedback. In distinct
+contrast to conventional instruments, which can
+pass into and out of the chest, robotic instruments
+are captive in the chest, and this feature creates a
+very different paradigm for surgical tasks. The
+goal of the robotic surgeon is the exact replication
+of known conventional mitral procedures. Hence,
+the robotic surgeon must learn to reengineer the
+conventional steps of mitral procedures with robotic instrumentation. This reengineering can be
+performed by the console surgeon using the active
+assistance of the patient-side assistants or by the
+
+Ann Thorac Surg
+2025;119:523-34
+
+surgeon performing the tasks by using only the
+active robotic instruments. The surgeon may use a
+blend of both approaches. Regardless of the
+approach taken by the robotic surgeon, the key
+aspect of robotic instrumentation is the replication of conventional procedures of known efﬁcacy
+and durability. One of the common misconceptions about robotic mitral valve surgery is
+that surgeons will have to use repair techniques
+that are different from how they would approach
+the valve through a sternotomy or nonrobotic
+right-sided chest approach. Our philosophy is that
+the conduct of the repair should not require any
+modiﬁcation with a robotic approach. If surgeons
+prefer complete rings or partial bands, these approaches should and can be applied with robotics.
+Whether or not interrupted or running suture
+annuloplasty techniques are preferred, these also
+do not have to be modiﬁed (Figure 4). Similarly,
+both resectional and neochordal approaches, as
+well as other approaches to leaﬂet disease,
+should remain consistent for mitral repair
+surgeons adopting robotics into their program
+(Video 3). However, the robotic approach does
+allow enhanced exposure and performance of
+subvalvular procedures, which may be more
+challenging through a sternotomy.
+When the systems of peripheral perfusion and
+robotic instrumentation have been chosen and
+studied by the surgeon, they must be discussed in
+detail with all team members, especially anesthesia and perfusion members. This preparation
+includes rehearsing team member roles, ensuring
+that all cannulas and disposable devices are
+available, and conﬁrming that contingency plans
+are in place. With robotic instrumentation, it is
+critically important that the surgical team practices the replication of conventional instrument
+maneuvers with robotic instruments by using
+inanimate or porcine models to the point of proﬁciency. Attempting to compensate for the
+captive nature of robotic instruments in the
+arrested heart may result in prolonged ischemic
+times.
+When the appropriate perfusion systems, rightsided chest approach, and robotic instrument
+techniques have been adequately established and
+practiced, the robotic program can be initiated
+(Figure 5). With initiation of a robotic mitral team,
+it is prudent to apply the approach to patients
+with more predictable mitral valve disease,
+normal
+arterial
+vasculature,
+and
+fewer
+comorbidities.7,18,20 Assembly of the multiple
+building blocks of a robotic program into an
+actual surgical procedure requires discipline.
+
+Ann Thorac Surg
+2025;119:523-34
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+FIGURE 4 Examples of different robotic mitral annuloplasty techniques that can be achieved with a robotic platform. (A)
+running annuloplasty technique; (B) interrupted annuloplasty technique.
+
+Establishing a stepwise sequence or adopting the
+steps of a successful team is critical.21-25 The
+team then rehearses the steps multiple times
+before the ﬁrst actual procedure. Procedures
+should be initiated with a detailed brieﬁng of the
+patient’s condition and the planned perfusion,
+right-sided chest approach, and robotic instrumentation. There are various methods during
+
+robotic mitral procedures that can be adopted.
+Several programs exist in which the entire procedure, including pericardiotomy and traction
+suture placement in the diaphragm and pericardium, is performed robotically. Other programs
+commonly perform these procedures in the same
+manner as they would for traditional right thoracotomy mitral procedures and dock the robot only
+
+FIGURE 5 Protocols and processes required for successful initiation of a robotic mitral program applied to robotic approaches for valve repair. (2D, 2-dimensional; 3D, 3-dimensional; CTA:CAP, computed tomographic angiography chest,
+abdomen, pelvis; TEE, transesophageal echocardiography.)
+
+INVITED EXPERT REVIEW
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+for the mitral repair portion of the procedure.
+Either of these approaches is acceptable during a
+surgeon’s adoption and development. Prospective
+robotic teams should study the room ergonomics,
+communication techniques, even the checklist
+use of existing teams. For those intracardiac programs that use a surgical ﬁrst assistant instead of a
+second bedside surgeon, special attention must be
+focused on the middle portion of the procedure,
+when the robotic surgeon shifts position to the
+console. In addition to using the robotic instruments to perform complicated mitral tasks,
+the single surgeon must maintain the stability and
+protection of the patient during cardiopulmonary
+bypass with the heart arrested from the conﬁnes
+of the robotic console. This aspect requires
+communication with all team members and situational awareness of the patient’s status. For the
+surgeon, this is a departure from the conventional
+cardiac operation and requires that all members of
+the team be empowered to raise even the most
+minor but potentially serious concerns during the
+procedure. This philosophy, in which any team
+member feels comfortable and safe voicing concerns during the procedure, is critical to the success of the operation.26 Although communication
+is essential in any cardiac procedure, its
+importance during robotic procedures is
+magniﬁed because the surgeon is not necessarily
+at the bedside. Communication protocols should
+be adopted and practiced by the entire operative
+team to prevent errors, ensure patient safety,
+and avoid conﬂict. Similarly, the procedure
+should be ﬁnished with a team debrieﬁng, which
+will result in continuous improvement.
+Once proﬁciency with robotic mitral valve surgery is obtained, additional intracardiac procedures can also be successfully completed with a
+robotic approach, either as stand-alone procedures or as concomitant procedures with mitral
+valve repair or replacement (Figure 3). These
+operations include concomitant tricuspid valve
+repair and replacement, repair of simple
+congenital heart defects, septal myectomy, and
+atrial ﬁbrillation ablation. Before incorporating
+these procedures, it is imperative that
+developing surgeons have achieved excellent
+outcomes with robotic mitral repair surgery and
+that ischemia and bypass times are relatively
+efﬁcient. If these procedures are the sole
+indications for surgery, such as left atrial
+myxoma resection, these are good cases to
+approach robotically even in the early
+experience because they should be relatively
+uncomplicated. Among the major challenges for
+
+Ann Thorac Surg
+2025;119:523-34
+
+new programs are complications related to
+inadequate myocardial protection and prolonged
+ischemia and cardiopulmonary bypass times.
+Therefore, patient safety must always be
+considered when moving into this next phase for
+robotic intracardiac procedures. It is our
+recommendation that simpler procedures, such
+as repair of posterior leaﬂet prolapse or left atrial
+myxoma resection, be mastered before taking on
+concomitant procedures or more complex repairs
+or replacements.
+Additionally, we have found that the robotic
+approach can be very useful for carefully selected
+patients who have undergone previous sternotomy. A right-sided chest approach, whether performed with robotic assistance or conventionally
+can obviate the need for extensive mediastinal
+dissection, and this can be useful in patients with
+a history of cardiac surgery, including coronary
+bypass surgery, aortic valve replacement, aortic
+surgery, or previous mitral surgery. In these cases,
+expertise with the IntraClude balloon may be
+required to eliminate the need to dissect out the
+aorta for clamping and direct antegrade cardioplegia. Patients with patent grafts, especially
+the LIMA, require careful consideration and
+alternative myocardial protection techniques
+including the use of retrograde cardioplegia,
+deeper systemic hypothermia, or ﬁbrillatory arrest
+may be considered.27
+BARRIERS TO ADOPTION. Complications associated
+with robotic mitral valve procedures have been
+well described and are included in Supplemental
+Table 2, along with methods for prevention.
+Robotic mitral valve surgery has seen steady
+growth over the last decade, especially compared
+with robotic-assisted revascularization. One of
+the main reasons is that robotics facilitates
+mitral valve procedures because of the enhanced
+exposure, high deﬁnition optics, and the
+added ﬂexibility and instrumentation with
+multidimensional robotic instrumentation. Among
+the main barriers to adoption are the relatively
+lower volumes of mitral procedures performed
+across cardiac surgery programs. With limited
+volumes, it may not be possible for surgeons and
+operative teams to achieve signiﬁcant growth and
+adequate case volumes to attain proﬁciency with
+these procedures. Therefore, even though there
+may be steady growth in robotic intracardiac
+procedures, it is possible that these procedures
+will be concentrated in higher-volume programs
+that already have established mitral valve surgical
+volumes.
+
+Ann Thorac Surg
+
+INVITED EXPERT REVIEW
+
+2025;119:523-34
+
+FUTURE ROBOTIC ADVANCES: ROBOTIC AORTIC VALVE
+REPLACEMENT
+
+Once success with intracardiac robotic approaches
+to valvular heart disease is achieved as outlined
+earlier, surgeons may wish to embark on replicating traditional open or minimally invasive surgical aortic valve replacement. Badhwar and
+colleagues28 and Wei and collegues29 from the
+same group of investigators have developed the
+technique of robotic aortic valve replacement
+(RAVR) through a right mini–lateral thoracotomy
+endoscopic approach. This novel technique uses
+the identical platform, working incision, and port
+placements as for robotic mitral valve surgery, but
+it enables the surgeon to perform aortic valve
+replacement using conventional biologic or mechanical prostheses without the need for sutureless
+valves. An aortotomy is performed, the valve is
+excised and the annulus debrided with the robotic
+scissors, sutures are placed in the annulus, the
+prosthesis is delivered and secured, and the aortotomy is closed, all performed robotically and all
+in a fashion nearly identical to that of open aortic
+valve replacement. RAVR is the next possible step
+in the evolution of an established robotic program
+with experience in robotic mitral valve replacement and repair. Because this procedure requires
+additional choreography between the console surgeon and the table-side team for the management
+of calciﬁc debris, suture management, and coordinated efforts for aortotomy closure, additional
+team training is recommended. Currently, more
+than 200 RAVR procedures have been performed
+since the ﬁrst launch of RAVR in January 2020,
+several cases in international institutions, according to the technique established by Badhwar and
+
+HALKOS ET AL
+
+ROBOTIC CARDIAC SURGERY TRAINING
+
+colleagues.28 As of November 2023, 10 centers in
+the United States, Spain, Saudi Arabia, Czech
+Republic, Brazil, and Australia have actively
+commenced RAVR programs.
+In conclusion, with adequate preparation and
+planning, as well as expertise and experience with
+traditional cardiac surgical procedures, incorporating a robotic platform into a cardiac surgery
+program can be accomplished on the basis of the
+principles described in this review. Maintaining
+the same principles and techniques for coronary
+surgery, or intracardiac procedures, and maintaining the fundamentals of myocardial protection and cardiopulmonary bypass are essential to
+ensure excellent technical and clinical outcomes
+and to optimize patient safety.
+FUNDING SOURCES
+The authors have no funding sources to disclose.
+
+DISCLOSURES
+Michael E. Halkos reports a relationship with Medtronic that includes:
+board membership, consulting or advisory, and speaking and lecture
+fees. Husam H. Balkhy reports a relationship with AtriCure that includes:
+consulting or advisory; with Edwards Lifesciences that includes:
+consulting or advisory; and with Intuitive Surgical that includes:
+consulting or advisory. Eugene A. Grossi reports a relationship with
+Medtronic that includes: board membership and consulting or advisory;
+and with Edwards Lifesciences that includes: consulting or advisory.
+Arnar Geirsson reports a relationship with Medtronic Cardiac Rhythm
+and Heart Failure Management that includes: consulting or advisory; and
+with Edwards Lifesciences that includes: consulting or advisory. Marc
+Gillinov reports a relationship with Edwards Lifesciences that includes:
+consulting or advisory; with Medtronic that includes: consulting or
+advisory; with Artivion that includes: consulting or advisory; with Abbott
+that includes: consulting or advisory; with ClearFlow that includes:
+consulting or advisory; with AtriCure that includes: consulting or advisory; and with Johnson & Johnson that includes: consulting or advisory.
+Serguei Melnitchouk reports a relationship with Medtronic that includes:
+consulting or advisory. Douglas A. Murphy reports a relationship with
+Intuitive Surgical that includes: consulting or advisory. All other authors
+declare that they have no conﬂicts of interest.

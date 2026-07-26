@@ -1,0 +1,486 @@
+Keynote Lecture Series
+
+Robotic-assisted coronary artery bypass grafting: how I teach it
+Francis P. Sutter1, MaryAnn C. Wertan1, Danielle Spragan1, Yoshiyuki Yamashita2, Serge Sicouri2
+
+Department of Cardiac Surgery Research, Lankenau Institute for Medical Research, Main Line Health, Wynnewood, PA, USA; 2Department of
+
+Cardiac Surgery, Lankenau Heart Institute, Lankenau Medical Center, Main Line Health, Wynnewood, PA, USA
+East, Wynnewood, PA 19096, USA. Email: WertanM@mlhs.org.
+
+The first robotic cardiac operation was performed more than two decades ago. This paper describes the
+distinct steps and components necessary for teaching robotic-assisted minimally invasive direct coronary
+artery bypass (R-MIDCAB). It also provides a general overview of the surgical robotic setup and ways
+to troubleshoot potential complications. The focus of robotic training is not only on the surgeon but
+includes an entire dedicated cardiac team and administrative institutional support. This team approach
+ensures that R-MIDCAB can be performed safely and reproducibly. Meticulous planning, incremental
+learning, and teamwork are the main factors leading to program success and optimal patient outcomes.
+Robotic-assisted internal mammary artery (IMA) harvesting and coronary revascularization via a small,
+anterior mini-thoracotomy has provided an alternative to sternotomy in selected patients with coronary
+artery disease (CAD). Benefits include less postoperative atrial fibrillation, fewer blood transfusion, less
+time in the operating room (OR), less ventilatory support, fewer strokes, decreased intensive care unit stay
+and shortened postoperative length of stay all of which manifests as a decrease in institutional resource
+utilization. Recent data show that R-MIDCAB and hybrid coronary revascularization provides good longterm outcomes. In addition to patient satisfaction, there is an additional overall cost benefit to R-MIDCAB
+over traditional sternotomy coronary artery bypass grafting (CABG), secondary to decreased hospital length
+of stay. Robotically harvesting the IMA, operating on a beating heart, and performing anastomoses through a
+small incision all require advanced training and incremental learning. Increased experience generally leads to
+shortened surgical times and fewer complications.
+Keywords: Robotic-assisted coronary artery bypass grafting (robotic-assisted CABG); learning curve;
+minithoracotomy; coronary revascularization; minimally invasive direct coronary artery bypass (MIDCAB)
+
+Introduction
+Robotic-assisted coronary revascularization via a small,
+anterior mini-thoracotomy (Figure 1) using the da
+Vinci Intuitive Surgical System (Intuitive Surgical, Inc.,
+Sunnyvale, CA, USA), has provided an alternative treatment
+method for patients with coronary artery disease (CAD)
+(1-3). For appropriately selected patients, benefits include
+less postoperative atrial fibrillation, fewer blood transfusion,
+less time in the operating room (OR), less ventilatory
+support, fewer strokes, decreased intensive care unit
+stay and shortened postoperative length of stay (4); all
+
+of which manifests as a decrease in institutional resource
+utilization (4). A recent study over a 15-year period
+described the clinical outcomes of 2,280 patients who
+underwent robotic-assisted coronary artery bypass grafting
+(CABG) (4). The data show that robotic-assisted minimally
+invasive direct coronary artery bypass (R-MIDCAB) and
+hybrid coronary revascularization (R-MIDCAB combined
+with percutaneous coronary intervention with stents)
+provides good long-term outcomes in patients (5,6).
+In addition to patient satisfaction, there is an additional
+overall cost benefit to R-MIDCAB over traditional
+sternotomy CABG (7) secondary to decreased hospital
+
+Ann Cardiothorac Surg 2024;13(4):346-353 | https://dx.doi.org/10.21037/acs-2024-rcabg-0033
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+
+Figure 1 Minimal scars following robotic-assisted CABG procedures. CABG, coronary artery bypass grafting.
+
+length of stay. R-MIDCAB is the collective term for
+CABG procedures performed through small incisions as
+an alternative to median sternotomy. Harvesting the IMA
+robotically, operating on a beating heart, and performing
+anastomoses through a small incision all require advanced
+training and incremental learning. Increased experience
+generally leads to shortened surgical times and fewer
+complications (3,4). R-MIDCAB is a challenging procedure,
+which requires a dedicated surgical team to start this
+journey. This paper aims to describe the distinct steps and
+components necessary for teaching R-MIDCAB. It also
+provides a general overview of the surgical robotic setup
+and ways to troubleshoot potential complications that will
+lead to successful surgical outcomes.
+
+Implementation of a successful advanced R-MIDCAB
+program is achieved through strategic planning, clinical
+training, and expert support.
+
+and all necessary supplies. Additionally, dedicated OR staff
+and assistants will need to be trained to ensure a seamless
+transition to performing robotic cases. Regular access
+with dedicated robotic time is essential to overcome the
+initial learning curve associated with utilizing the robot.
+Cardiology engagement is yet another important aspect of
+robotic surgery, as interventional cardiologists are crucial
+partners for a successful program. Various distinct CABG
+procedures options are available, including conventional
+full sternotomy, either on or off pump, as well as roboticassisted CABG +/− hybrid coronary revascularization.
+Therefore, interdisciplinary discussions between surgeons
+and cardiologists will determine the best course of action
+for each specific patient. Weekly coronary revascularization
+team meetings should be arranged. Moreover, it is
+important to discuss various revascularization options with
+the patient, as there are risks, benefits, and alternatives to
+each type of procedure. Informed consent should include
+the possibility of conversion to traditional sternotomy if
+surgery cannot be completed safely through minimally
+invasive means.
+
+Institution/administrative support
+
+Creating the team
+
+Full administrative support is needed for starting a robotic
+program, including purchasing the da Vinci robotic system
+
+The initial task is to create a dedicated operative
+team, including nursing staff, surgical assistants, and
+
+Creating the team optimal qualifications:
+institution, team, and surgeon
+
+Ann Cardiothorac Surg 2024;13(4):346-353 | https://dx.doi.org/10.21037/acs-2024-rcabg-0033
+
+Sutter et al. How I teach robotic-assisted CABG
+
+anesthesiologists. Success in the operative theater is
+dependent on high levels of engagement and support.
+Operative nursing staff need to be trained in how to use
+and troubleshoot the da Vinci system. Surgical bedside
+assistants are vitally important as they will be responsible
+for both instrument exchanges and robotic arm positioning
+and adjustments. Anesthesiologists should be comfortable
+with off-pump coronary cases, in addition to the demands
+of dealing with an insufflated thorax in robotic cases.
+Perfusionists need to be immediately available if
+cardiopulmonary bypass is required. These individuals
+should all be included in formalized robotic training to
+achieve mastery of the system and instruments. The bedside
+assistant must be able to anticipate the key portions of the
+operation, and they serve as important collaborators during
+the case. The surgical assistant must also be comfortable
+assisting with off-pump coronary surgery cases, as creating
+the anastomosis is the second crucial element of the
+operation after robotic-assisted takedown of the left IMA
+(LIMA).
+Surgeon experience & training
+R-MIDCAB mastery has a threshold of approximately
+100 cases. As previously mentioned, development of a
+heart team approach is essential, and establishing rapport
+with a core team is key to successful adoption. Additional
+experience, is identified below:
+(I) Extended off-pump bypass grafting experience,
+with at least 50 off-pump cases as primary operator
+to establish proficiency in off-pump CABG.
+(II) Completion of the required training modules per
+Intuitive Surgical, Inc. to become comfortable
+with the many components of the da Vinci surgical
+system. This will entail several training modules
+and simulation sessions, to thoroughly understand
+all components of the operating system. Didactic
+sessions as well as cadaveric simulation sessions
+will improve the surgeon’s comfort level with the
+robot. Additionally, observing a live case with an
+experienced robotic surgeon is extremely helpful.
+(III) The surgeon serves as the bedside assistant
+for at least 20 cases, if possible, even if not on
+cardiac cases, where the surgeon will learn port
+placement, participate in instrument exchanges and
+troubleshooting.
+(IV) After gaining a level of comfort with simulation
+
+and bedside assisting, the surgeon then moves to
+the operating console to gain experience with IMA
+harvest.
+Ideally, there should be opportunities to train in robotic
+IMA harvesting, even during sternotomy CABG. Typically,
+the use of three 8-mm port holes results in less discomfort
+compared to the Rultract ® Skyhook Retractor (Rultract
+Incorporated, Cleveland, OH, USA), generally used to
+retract the chest wall during IMA harvesting. However,
+this approach necessitates prior discussions with the
+administration, system chief, and the patient, and should be
+appropriately documented in the patient’s medical record
+before the surgery.
+Patient selection: indications and
+contraindications of robotic-assisted CABG
+surgery
+Indications
+The main indications for R-MIDCAB focus on targeting a
+severely diseased left anterior descending artery (LAD) that
+can be accessed via a small, left anterior thoracotomy:
+(I) Severe ostial LAD disease;
+(II) Long LAD lesions, suboptimal for stenting;
+(III) Chronic total occlusions of the LAD;
+(IV) Patients with severe CAD and advanced age or
+comorbidities, following heart team discussion,
+especially with hybrid coronary revascularization
+LIMA to LAD, and stenting to non-LAD lesions;
+(V) Complex disease involving LAD and diagonal.
+Contraindications
+Contraindications of robotic-assisted cardiac surgery
+include:
+ Absolute contraindications:
+ Previous pleural symphysis;
+ Extensive lung surgery;
+ Prior use or injury of both internal mammary
+arteries.
+ Relative contraindications:
+ Severe obesity;
+ Significant heart enlargement (insufficient space
+between anterior heart surfaces and posterior chest
+wall);
+ Chest wall deformity/severe pectus excavatum;
+ Diffuse distal coronary disease;
+
+Ann Cardiothorac Surg 2024;13(4):346-353 | https://dx.doi.org/10.21037/acs-2024-rcabg-0033
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+
+ Intramyocardial coronaries arteries;
+ Severe pulmonary disease (intolerance to single
+lung ventilation).
+Incremental learning
+There are several components for successfully achieving
+R-MIDCAB mastery including proper port placement,
+robotic harvesting of the internal mammary, and performing
+off-pump anastomosis. Crucial elements of off-pump
+CABG include familiarity with manipulating the ischemic
+heart, ischemic preconditioning, shunt placement, stabilizer
+placement and finally performing arterial anastomosis on a
+beating heart. The ability to maneuver the ischemic heart
+cannot be overemphasized, as creation of the anastomosis
+often requires the heart to be repositioned a few times for
+optimal visualization. For surgeons accustomed to on-pump
+CABG, practice performing the LIMA to LAD anastomosis,
+with the heart beating, while still on-pump, can be quite
+useful. Learning to sew from the left is also important.
+Comprehensive team training
+It is important to observe experienced robotic surgeons
+during live cases, as there are numerous nuances to each
+case that can be incorporated into your own practice.
+Once ready to embark on robotic cases, the entire team
+should perform several “dry runs” with the assistance of
+an Intuitive Surgical, Inc. representative. Most elements
+of the case should be simulated including: docking the
+robot and ensuring all instruments are available (including
+for traditional sternotomy), ensuring staff familiarity and
+comfort. Anesthesiologists should be included in these
+simulation sessions as well as they play a crucial role in the
+management of the patient.
+R-MIDCAB surgical procedures—general
+considerations
+Some general considerations and troubleshooting tips are
+described below.
+
+intraoperative periods (8). The anesthesiologist will selectively
+ventilate the right lung, while isolating the left as dictated
+by the surgeon. Anesthesiologist should prepare for CO2
+insufflation of the thoracic cavity (inducing an iatrogenic
+tension pneumothorax) and its associated hypotension. The
+anesthesiologist needs to be aware of the possible restricted
+robotic arm movement which may necessitate repositioning
+of the head & neck of the patient.
+Patient positioning
+Position the patient on the operative table by aligning
+the left side of their body on the table’s edge such that
+the left shoulder overhangs slightly. This positioning
+allows bedside assistant to apply gentle pressure on the
+left shoulder which increases the arm’s maneuverability.
+Frequently during dissection of the distal IMA, the superior
+port will be significantly restricted by the anterior location
+of the shoulder. Anesthesiologist & bedside assistants
+play a key role in maintaining the free movement of the
+upper robotic arm. Similarly, gentle pressure on the costal
+margin can accomplish the same movement for the inferior
+robotic arm.
+Set up and draping
+External defibrillator pads are placed on the patient and
+positioned anteriorly over the right pectoralis major and
+posteriorly underlying the heart. It is important to have this
+prepared for use with the adequate intensity for external
+defibrillation (150–200 Joules). Plan the incision before
+draping: draw landmarks at midline sternum (Figure 2),
+LIMA location, diaphragm (typically at the step off the
+sternum and xiphoid), and locations for inferior and
+superior port sites. Avoid making an inframammary crease
+incision, which delays healing. Manipulation of the female
+breast will be required to ensure the best possible incision,
+usually retracting the breast as laterally as possible, and
+securing this position with 3 M™ Steri-Drape™ (3M
+Maplewood, USA), works best. For women, make an
+incision through the breast and generally through left lower
+inner quadrant.
+
+Anesthesia awareness participation
+Normothermia is a priority, having been achieved before
+induction of anesthesia and warming is maintained throughout
+the entire operation. An aggressive attempt to keep the
+patients warm is initiated in the immediate preoperative and
+
+Know the exact target
+Try to visualize the best port placement and endoscopic
+port placement prior to making any incision. Usually, the
+endoscopic port becomes the thoracotomy. The optimal
+
+Ann Cardiothorac Surg 2024;13(4):346-353 | https://dx.doi.org/10.21037/acs-2024-rcabg-0033
+
+Sutter et al. How I teach robotic-assisted CABG
+
+endoscopic port. When first learning R-MIDCAB, place
+endoscopic port more lateral to prevent injury to the heart;
+as experience grows, the endoscopic port can be placed
+more medially. After the endoscope and instruments have
+been placed, another method to enhance anterior/posterior
+operative space is to release the medial and anterior
+pericardial fat attachments from the chest wall, which
+further allows the CO2 to depress the heart posteriorly.
+The endoscopic port will eventually be enlarged as part of
+anterior thoracotomy, so placement is critical.
+
+Figure 2 Preparing for robotic-assisted surgery. Drawing
+landmarks.
+
+Opening the pericardium
+Open the pericardium lateral to pulmonary artery directly
+over the LAD. Wide opening of the pericardium is critical
+for several reasons. First, when operating through a small
+incision, this approach prevents pericardial fat and the
+pericardial border from obstructing the surgical view,
+ensuring that the target area remains the sole focus. Second,
+a wider pericardial opening reduces the risk of major
+bleeding and postoperative tamponade. Finally, it ensures
+proper drainage from the right side of the pericardial
+cavity; a lesson learned from early experience with delayed
+inflammatory tamponade on the right side.
+The IMA
+
+Figure 3 Robotic-assisted CABG set-up. CABG, coronary artery
+bypass grafting.
+
+thoracotomy will be dependent upon the target vessel:
+LAD, diagonal, and/or ramus intermedius, as well as the
+size of the heart seen on chest front and lateral chest X-ray
+(CXR) or computed tomography (CT) scan. Generally, it is
+better for the thoracotomy to be more lateral and inferior as
+it is difficult to push the heart laterally or superiorly.
+Docking of the robot
+Endoscopic port placement and general setup
+Figure 3 shows the general set up of Robotic-assisted
+CABG.
+Always stop ventilation during placement of the
+
+The general surgical rule of “not dissecting into a hole”
+is equally relevant to robotic-assisted LIMA harvesting.
+Slowly dissect the length of LIMA in small increments,
+to avoid pulling on any one area of the LIMA. During
+skeletonization, retaining a few anterior attachments on the
+chest wall will prevent injury until dissection is complete.
+LIMA manipulation can result in spasticity and a propensity
+for clot formation, thus leaving larger branches intact
+distally promotes greater blood flow through the LIMA to
+combat the procoagulant effects of manipulation. Beware:
+the lack of haptic feedback can result in excessive traction
+or force being applied to the vessel, thereby resulting in
+the undesired dissection of the LIMA wall. Nothing is
+worse than completing a LIMA takedown, proceeding to
+CABG, and discovering a nonfunctional LIMA conduit.
+LIMA dissection is generally performed from just distal to
+the intersection of the phrenic nerve and LIMA, until the
+bifurcation. Do NOT risk injury to the phrenic nerve!
+Using higher wattage on the cautery allows for faster
+dissection but increases risk of burning a hole through the
+LIMA, while lower wattage will cause a superficial non-
+
+Ann Cardiothorac Surg 2024;13(4):346-353 | https://dx.doi.org/10.21037/acs-2024-rcabg-0033
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+
+penetrating injury. In my experience, the vast majority of
+IMA dissections, can be performed with an equal amount of
+blunt and sharp dissection. Additionally, to avoid avulsing
+branches of the IMA, one should always dissect away from
+the IMA. Traditionally, the LIMA has been harvested as a
+pedicle (“en bloc”) under direct vision. Skeletonized IMA
+technique is used for R-MIDCAB because, invariably,
+the pedicle dissection leads to a cut in an IMA branch
+and the branch retracts back into the pedicle. It is then a
+delicate dissection to control the bleeding branch without
+damaging the IMA. While skeletonizing the LIMA, the
+surgeon and bedside assistants should constantly watch for
+the “pulsatility” of the LIMA to avoid inadvertent damage
+to IMA. Bilateral IMA harvest begins with the right IMA.
+When initially dissecting across the sternum to the right
+IMA, maintain a plane of dissection directly on the posterior
+sternal border.
+Managing complications
+Bleeding during IMA dissection
+Be meticulous in controlling any bleeding. Bleeding stains
+tissue and makes visualization difficult during further
+dissection. If bleeding occurs, use robotic instruments to
+apply gentle pressure for a few minutes to create a bloodless
+field, thus allowing for subsequent treatment of the bleeding
+branch with a clip or cautery.
+Arrhythmia
+Proceed with caution with cautery and proximity to
+myocardium, as the heat can induce tachyarrhythmias,
+including ventricular fibrillation. Lidocaine bolus should
+be readily available. Should arrhythmia occur, remove all
+robotic ports, defibrillate with external pads, powered to
+150–200 Joules. Remind anesthesia to reinflate the left lung
+to best defibrillate.
+Cardiac puncture
+Accidental cardiac puncture can occur during port
+placement without adequate visualization, stabilizer
+placement, or during instrument exchanges. Direct pressure
+should be applied as able to allow the anesthesia team to
+properly resuscitate before attempting repair. Be prepared
+to perform sternotomy, as well as cannula for fem-fem
+bypass, if necessary to control the bleeding.
+Compromised circulation
+Plan for easy and direct access to cardiopulmonary bypass
+
+supplies and an emergency tray with sternotomy and femfem bypass essentials should be readily available.
+Avoid post operative bleeding
+Meticulous hemostasis is necessary prior to robot removal,
+particularly a thorough inspection through endoscope as
+each port is removed.
+Pain management
+Optimization of postoperative pain management is
+performed by infiltration of the incision, muscles and
+drainage sites using a local anesthetic, a mixture which
+includes 30 mL lidocaine w/epinephrine 0.5%—1:200,000,
+30 mL bupivacaine 0.25% and 60 mL ropivacaine w/
+epinephrine 0.2%—1:600,000. This pain management
+protocol has been shown to facilitate intraoperative
+extubation of the patient (8). Intravenous narcotics and
+ketorolac are used with the dosage of the latter modified
+based on the patient’s age and renal status. In our
+experience, 88% of all patients are extubated in the OR.
+Conclusions
+Since 2005, we have performed 5,903 CABG procedures,
+through December 31, 2023, and 46% were robotic-assisted
+cases, with 1.8% of conversion to sternotomy, which in most
+instances were related to damaged or inadequate internal
+mammary. Thirty-day mortality was 1.2%. R-MIDCAB
+is a safe, efficacious, and reproducible procedure, offering
+an alternative to sternotomy in carefully selected patients.
+Meticulous planning, incremental learning and teamwork
+are the main factors leading to success. Robotic surgery
+training can be safely implemented in a minimally invasive
+surgery training program. A gradual introduction of robotic
+technique maximizes the learning experience and minimize
+the potential for adverse outcomes.
+The American Association for Thoracic Surgery (AATS)
+Foundation Cardiac Surgical Robotic Fellowship
+The Cardiac Surgical Robotics Program (https://www.
+aats.org/foundation/cardiac-surgical-robotic-fellowship)
+provides an advanced educational experience in robotic
+cardiac surgery for North American cardiac surgeons
+who will bring expanded knowledge back to their home
+institution. Awardee pre-requisite training before
+beginning the fellowship include: (I) system training:
+one day systems training at an Intuitive training facility
+
+Ann Cardiothorac Surg 2024;13(4):346-353 | https://dx.doi.org/10.21037/acs-2024-rcabg-0033
+
+Sutter et al. How I teach robotic-assisted CABG
+
+(preferably accompanied by requested proctor); (II)
+cadaver laboratory training: one cadaver lab while at
+training facility; (III) procedure training: observation—
+a minimum of two cardiac robotic cases at selected
+well-established training center with their experienced
+surgeon proctor; (IV) robotic simulation; (V) successful
+completion of a robotic simulation skills curriculum; (VI)
+passing test score in robotic ergonomics, accuracy, and
+speed; (VII) onsite proctoring: five patient operations;
+(VIII) case video proctoring: proctors to review the case
+videos of three patient operations to provide feedback to
+the awardee; (IX) commitment by awardee to complete 50
+cases and submit outcomes back to AATS Foundation; (X)
+hold remote training sessions with their mentor. A recent
+consensus review (9) recommends a clinical experience
+for the robotic surgeon of 250 career cases of coronary
+revascularization as primary operator (on or off pump)
+with an observed to expect (O/E) <1, of O/E of which 50
+should be off pump.
+
+Acknowledgments
+
+Society of Thoracic Surgeons/Thoracic Surgery
+Foundation (STS/TSF) Advanced Robotic Cardiac
+Surgery Fellowship

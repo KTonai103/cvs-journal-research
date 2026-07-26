@@ -1,0 +1,208 @@
+Masters of Cardiothoracic Surgery
+
+Single incision right transaxillary robotic valve and coronary artery
+bypass grafting: a future therapy
+Ghulam Murtaza1, Vinay Badhwar2
+
+Division of Cardiac Surgery, SSM Health Heart & Vascular Care Center, Madison, WI, USA; 2Department of Cardiovascular and Thoracic Surgery,
+
+West Virginia University, Morgantown, WV, USA
+WI 53715, USA. Email: gmcvts@gmail.com.
+Keywords: Totally endoscopic coronary artery bypass (TECAB); robotic aortic valve replacement; robotic mitral valve replacement; transaxillary
+cardiac surgery
+
+Introduction
+Minimally invasive and robotic-assisted cardiac surgery has
+evolved significantly, offering reproducible alternatives to
+conventional median sternotomy (1). Robotic approaches
+to mitral and aortic valve surgery via a right transaxillary
+approach, as well as totally endoscopic coronary artery
+bypass (TECAB) via the left chest, have been established.
+Patients requiring traditional concomitant coronary artery
+bypass grafting (CABG) and valve surgery present a unique
+challenge, particularly in frail individuals with multiple
+comorbidities. Recently, the technique for concomitant
+valve and CABG performed via a single-incision right
+transaxillary robotic approach has been established (2). This
+approach may provide a minimally invasive option that
+facilitates exposure of both the valve and coronary targets
+while minimizing surgical trauma.
+We present two cases where a single-incision right
+transaxillary robotic approach was used to perform
+combined valve replacement and CABG.
+Clinical vignette
+Case 1: robotic aortic valve replacement (AVR) with
+CABG
+A 73-year-old frail woman presented with heart failure
+symptoms despite guideline-directed medical therapy.
+Medical history included chronic obstructive pulmonary
+disease (COPD), low body mass index (BMI) of 17 kg/m2,
+
+prior stroke, and mechanical fall resulting in a subdural
+hematoma that required craniotomy. She also had
+cardiomyopathy with significant proximal stenosis of the
+left anterior descending artery (LAD) and severe aortic
+insufficiency. Given her high-risk profile [Society of
+Thoracic Surgeons (STS)-predicted mortality of 10%],
+robotic right transaxillary approach was planned for
+combined AVR and CABG. The heart team determined
+that a transcatheter approach was unsafe based on a review
+of imaging and the patient’s risk profile.
+Case 2: robotic mitral valve replacement (MVR)
+with CABG
+A 70-year-old frail woman with severe rheumatic mitral
+stenosis, moderate mitral regurgitation and single vessel
+coronary artery disease involving the LAD. Her history
+included severe COPD, prior left-sided empyema, and a BMI
+of 21 kg/m2. Her STS-predicted mortality risk was 8.6%.
+The case was reviewed by the heart team and was deemed
+unsuitable for balloon valvuloplasty because of concurrent
+moderate mitral regurgitation. A robotic right transaxillary
+approach was selected for concomitant MVR and CABG.
+Surgical technique
+Preparation
+Both patients were positioned supine with the right
+
+Ann Cardiothorac Surg 2025;14(3):235-237 | https://dx.doi.org/10.21037/acs-2025-ravr-0050
+
+Murtaza and Badhwar. Transaxillary robotic valve and coronary bypass grafting
+
+hemithorax elevated to facilitate left-sided exposure. The
+ipsilateral arm was suspended to optimize access. Standard
+anesthesia induction was performed, and a double-lumen
+endotracheal tube was placed for selective lung ventilation.
+Femoral arterial and venous access were obtained via
+surgical cut down. After surgically exposing the femoral
+artery and femoral vein, purse-string sutures were placed on
+each vessel to facilitate secure cannulation and subsequent
+hemostasis. An 18-gauge needle was then used to access
+each vessel under direct vision. Once blood return was
+confirmed, a guidewire was advanced into the vessel.
+Transesophageal echocardiography (TOE) was employed to
+confirm proper wire positioning:
+ On the arterial side, the guidewire was visualized
+entering the descending thoracic aorta;
+ On the venous side, the guidewire was seen
+traversing the inferior vena cava (IVC) into the right
+atrium and, extending to the superior vena cava
+(SVC) orifice.
+Following confirmation, the femoral arterial and venous
+cannulas were advanced over the guidewires and positioned
+appropriately. Final cannula placement was again verified
+using TOE, ensuring that:
+ The arterial wire was still intraluminal within the
+descending aorta;
+ The venous cannula tip was within the SVC orifice
+to optimize venous drainage during cardiopulmonary
+bypass (CPB).
+
+running suture.
+Following valve replacement, attention was directed to
+the LAD. The left pericardium was marsupialized, tacking it
+to the chest wall to rotate the heart and optimize exposure.
+Counter-retraction sutures further improved visualization.
+A sharp arteriotomy was created using a No. 11 blade
+and extended with robotic Potts scissors. A side-to-side
+anastomosis was chosen to facilitate exposure. A standard
+running 7-0 polypropylene suture was used to complete the
+anastomosis. The cross-clamp was removed, and the patient
+was weaned from CPB with good hemodynamic function.
+Case 2: robotic MVR with CABG
+Following LITA harvest, the LAD was exposed using a
+Tentacles device inserted through the right lateral port.
+These suction devices were placed lateral to the LAD and
+pulled upward with pericardial marsupialization sutures
+through the left chest wall, axially rotating the heart to
+facilitate exposure. The aorta was then cross-clamped,
+and cardioplegia was administered. The LAD arteriotomy
+was created, and an intracoronary shunt was placed. A
+running 7-0 polypropylene suture was used for an end-toside anastomosis. Following coronary revascularization,
+the mitral valve was robotically accessed and the heavily
+calcified anterior leaflet was excised. A 29-mm bioprosthetic
+valve was secured using interrupted horizontal mattress
+sutures and the left atriotomy closed. The patient was
+weaned from CPB with stable hemodynamics and no
+paravalvular leakage.
+
+Exposition
+A right lateral mini-thoracotomy was performed in the
+fourth intercostal space, lateral to the anterior axillary
+line. A soft wound protector was used to maintain
+exposure. Three additional robotic ports were inserted
+and triangulated around the access port. The left internal
+thoracic artery (LITA) was harvested in a skeletonized
+fashion using robotic instruments.
+Operation
+
+For both cases, after deairing the heart, CPB was
+discontinued, and protamine was administered. Temporary
+epicardial pacing wires were placed. Hemostasis was
+confirmed, and all ports and incisions were closed in layers.
+The patients were transferred to the intensive care unit for
+monitoring.
+Comments
+
+Case 1: robotic AVR with CABG
+Due to severe aortic insufficiency, the AVR was prioritized.
+An aortotomy was created, and ostial antegrade cardioplegia
+was administered. After valvectomy and sizing, a
+bioprosthetic valve was implanted using circumferential
+horizontal mattress sutures secured with suture fasteners.
+The aortotomy was then closed with a 4-0 polypropylene
+
+Completion
+
+Clinical results
+Both patients had uneventful recoveries. Postoperative
+echocardiography confirmed excellent prosthetic valve
+function with no paravalvular leaks. Case 1 was discharged
+home postoperative day (POD) 6, and Case 2 on POD 5,
+both in stable condition.
+
+Ann Cardiothorac Surg 2025;14(3):235-237 | https://dx.doi.org/10.21037/acs-2025-ravr-0050
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Advantages
+This series highlights the feasibility of performing robotic
+concomitant valve and CABG through a right lateral
+transaxillary approach. This technique may provide several
+advantages:
+ Minimally invasive: avoiding a median sternotomy
+reduces pain, infection risk, and recovery time;
+ Enhanced exposure: marsupialization of the left
+pericardium and robotic assistance optimize
+visualization of the LAD;
+ Improved precision: robotic instruments allow for
+meticulous dissection and anastomosis, even in highrisk patients;
+ Single incision access: the right lateral approach
+enables simultaneous valve and coronary procedures
+through one incision.
+Caveats
+ Learning curve: robotic concomitant valve-CABG
+requires expertise in both robotic CABG and valve
+surgery.
+ Patient selection: patients with prior right thoracotomy
+or severe pleural adhesions may not be suitable
+candidates.
+ Operative time: the combined approach may initially
+prolong operative duration compared to isolated
+robotic CABG or valve surgery.
+
+coronary revascularization and valve replacement. Further
+multicenter experience is needed to confirm outcomes and
+reproducibility.
+Acknowledgments
+None.
+Footnote
+to declare.
+E t h i c a l S t a t e m e n t : T h e We s t Vi r g i n i a U n i v e r s i t y
+Institutional Review Board approved this study with waiver
+of consent (Protocol #2210660362).
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and
+the original work is properly cited (including links to both
+the formal publication through the relevant DOI and the
+license). See: https://creativecommons.org/licenses/by-ncnd/4.0/.

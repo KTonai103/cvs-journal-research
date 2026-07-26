@@ -1,0 +1,199 @@
+Safeguards and Pitfalls
+
+Safeguards and pitfalls in minimally invasive mitral valve surgery
+Markus Czesla, Julia Götte, Timo Weimar, Tamas Ruttkay, Nicolas Doll
+Sana Heart Surgery Stuttgart, Herdweg 2, 70174 Stuttgart, Germany
+Corresponding to: Markus Czesla. Sana Heart Surgery Stuttgart, Herdweg 2, 70174 Stuttgart, Germany. Email: Markus.Czesla@sana.de.
+
+Minimally invasive mitral valve surgery has been established in many institutions worldwide. Appropriate
+indications and patient selection for this procedure must be based on a thorough understanding of its
+limitations and specific pitfalls. Particular risks can be minimized with careful attention to detail when
+planning and performing the surgery. The following chapter offers a stepwise description of the procedure;
+we point out particular advantages, discuss our rationale for certain steps, as well as focus on potential
+dangers of minimally invasive mitral valve surgery. Several graphics have also been provided to illustrate our
+approach and demonstrate important structural and anatomical concepts of the mitral valve apparatus.
+Keywords: Minimally invasive mitral valve surgery
+Scan to your mobile device or view this article at: http://www.annalscts.com/article/view/2904/3820
+
+In experienced hands, minimally invasive mitral valve
+surgery offers multiple advantages, including far more than
+improved cosmetic results. The entire range of mitral valve
+surgeries can be performed using this approach. To achieve
+the desired result, various key steps throughout the case
+need to be performed with close attention to detail. Keeping
+the procedure simple, efficient and with perfect exposure
+will allow the surgeon to focus upon the task at hand.
+Preoperative echocardiography is a crucial investigative
+modality used to identify the specific underlying mitral valve
+pathology. Echocardiography is essential in establishing
+the operative indication, determining patient selection and
+allowing for pre-operative planning. Valve parameters (size
+of the orifice and height of the anterior leaflet), annular
+calcification, size of the left atrium, and thrombus in the left
+atrial appendage should be evaluated. To prevent myocardial
+injury, significant aortic valve regurgitation needs to be
+excluded prior to surgery. Safe application of cardioplegia
+is not possible in patients with moderate (or severe) aortic
+regurgitation, and in this instance, a minimally invasive
+approach should not be pursued.
+A pre-operative chest X-ray should be performed to
+determine the level of the diaphragm. This is important
+for planning the site of the thoracic incision, with the chest
+film used to determine the correct height and appropriate
+intercostal space to enter the thorax.
+
+Previous thoracic surgery or other potential causes
+of significant pleural adhesions in the right hemithorax
+should prompt the surgeon to reconsider a minimally
+invasive approach. In this situation, the increased risks of
+significant intra-operative hemorrhage (US spelling) and/
+or bronchopleural fistulas may outweigh the benefits of
+minimally invasive surgery, and the patient and surgical
+team should discuss (and be prepared for) the possibility of
+a conversion into an open sternotomy.
+In our practice, we prefer commencing the surgical
+procedure by placing both the venous and arterial cannulae
+into the right femoral vessels using the Seldinger technique
+(Figure 1). Placing cannulation lines out of the surgical field is
+a major advantage. However, the surgeon must also be aware
+of potential hazards when preparing the groin. Irritation of
+the femoral nerve, seromas and lymphatic fistulas should
+be avoided by using atraumatic techniques with diligent
+ligation or clipping of sizeable vessels. The incision should
+be just long enough to allow safe access to both vessels.
+Prior to cannulation, isolating the femoral artery via blunt
+dissection will allow safe application of clamps if required.
+In some situations the artery may require repair after the
+cannula is removed. The guide wire as well as the two-staged
+venous cannula should be inserted with its tip in the superior
+vena cava under transesophageal echo guidance to avoid
+inadvertently perforating the right atrial wall. Upon placing
+
+Ann Cardiothorac Surg 2013;2(6):849-852 | https://dx.doi.org/10.3978/j.issn.2225-319X.2013.07.26
+
+Czesla et al. Safeguards and pitfalls in mini-mitral surgery
+
+Figure 1 Cannulation of right femoral vessels.
+
+Figure 2 Aortic cross-clamping (Chitwood clamp) in the transverse
+sinus under direct vision.
+
+the arterial cannula, retrograde dissection can be performed.
+The femoral artery needs to be inspected carefully for plaques
+prior to placing the guide wire. In patients with significant
+peripheral artery disease, direct cannulation of the ascending
+aorta or even the axillary artery should be considered.
+Positioning the patient with the right chest wall slightly
+elevated off the operating table allows for convenient
+placement of the thoracotomy incision. The thoracotomy
+incision (approximately 5 cm long) is made straight laterally
+from a point 1-2 cm inferior and lateral to the nipple in men,
+and in the sub-mammary crease in women. Identifying the
+most appropriate intercostal space (usually 4th) depends
+on the height of the diaphragm, as determined on the
+preoperative chest X-ray. A more superior and lateral
+incision allows for a straight on view of the mitral valve. Prior
+to entering the pleural space, the lungs are taken off the
+ventilator. Intercostal muscle and vascular hemorrhage can be
+avoided by staying along the superior surface of the rib. A soft
+tissue retractor is used to prevent the incidence of fat emboli
+(when the left atrium is later accessed). The retractor should
+be opened gradually to avoid rib fractures and the potential
+for postoperative chest wall hemorrhage or hemothorax.
+Fat pads covering the pericardium should be removed
+sparingly and well cauterized. To avoid damage to the
+phrenic nerve, the pericardium should be entered 3 cm
+anteriorly, allowing enough space for placing stay sutures at
+the posterior edge for lateral traction.
+Preparations prior to clamping the aorta include blunt
+dissection of the oblique sinus (Figure 2) and dissection of
+the fat in the interatrial groove. When placing the aortic
+
+cross-clamp using the Chitwood clamp (1), there is a chance
+of injury to the pulmonary artery or left atrial appendage,
+which would force the surgeon to convert to a full
+sternotomy. Cardioplegia can be utilized using either a rigid
+large bore cannula or a y-catheter. This allows for repeat
+cardioplegia doses and standard de-airing maneuvers later
+on. Other surgical groups have reported using endoaortic
+balloons for aortic occlusion and cardioplegia application
+instead of external clamping (2). In our experience, after two
+previous incidents of aortic dissection caused by endoaortic
+balloons, we have chosen to abandon this technique. Upon
+completion of cardioplegia application, while decompressing
+the left heart through a stab incision in the left atrium, the
+left atriotomy is extended, with careful attention to avoid
+injury of the coronary sinus and perforation of the interatrial
+septum or pulmonary veins. While positioning the retractor
+to elevate the left atrial roof, there is a risk that the venous
+cannula may be dislodged out of the SVC, which would
+compromise the upper body venous drainage. Hence, correct
+cannula placement and normal central venous pressure need
+to be confirmed prior to proceeding further.
+In re-do scenarios, cross-clamping of the aorta might
+not be possible due to adhesions at the ascending aorta.
+Minimally invasive mitral valve surgery using fibrillatory
+arrest can still be performed in these cases, but only in the
+absence of concomitant aortic regurgitation (3).
+During annuloplasty ring or valve implantation,
+placement of the sutures should be performed in
+consideration of the anatomical proximity of the aortic
+valve and the circumflex artery. Deep stitches in the region
+
+Ann Cardiothorac Surg 2013;2(6):849-852 | https://dx.doi.org/10.3978/j.issn.2225-319X.2013.07.26
+
+Annals of cardiothoracic surgery, Vol 2, No 6 November 2013
+
+Figure 3 Distance of mitral annulus and coronary system: three dimensional CT-reconstruction provided by 3 mensio Structural Heart 6.0.
+Yellow, coronary sinus; Green, LAD; Violet, circumflex artery.
+
+Figure 4 Anatomical study indicating correlation between circumflex
+artery and mitral annulus. 1, left auricle; 2, circumflex branch of
+the left coronary artery; 3, posterior mitral leaflet; 4, anterolateral
+commissure; 5, anterior mitral leaflet; 6, anterior papillary muscle.
+
+of the anterolateral commissure and the A1 segment should
+be avoided. The distance of the circumflex artery from
+the mitral annulus is variable, depending on left or right
+dominance of the coronary system (Figures 3,4).
+After completion of the mitral valve procedure, the
+left atrium should be closed in two layers and usual deairing maneuvers are performed prior to removing the
+aortic cross-clamp. The potential sites of peri-operative
+hemorrhage include the trocar site, the anterior chest
+wall stab incision for the atrial roof retractor close to the
+mammary vessels, and the soft tissues at the thoracotomy
+site. These areas should be thoroughly inspected prior to
+closing the chest to minimize postoperative hemorrhage
+and take backs. Deflating the lung while inspecting these
+chest wall sites can be very helpful; hence, our team prefers
+de-cannulating afterwards. Some groups advocate using
+double lumen tube intubations routinely with the advantage
+of de-cannulation and protamine application prior to final
+bleeding control under isolated left lung ventilation.
+Postoperative ECG changes, wall motion abnormalities
+on echocardiography and impaired hemodynamics may
+suggest air embolism or compromised circumflex artery
+perfusion (4). Pre- and perioperative transesophageal
+
+Ann Cardiothorac Surg 2013;2(6):849-852 | https://dx.doi.org/10.3978/j.issn.2225-319X.2013.07.26
+
+Czesla et al. Safeguards and pitfalls in mini-mitral surgery
+
+echocardiography has proven to be useful in identifying the
+course and flow of the circumflex artery. If there is suspicion
+of new onset coronary malperfusion, caused by extrinsic
+compression of the implanted prosthesis, immediate
+transfer to the catheterization lab is of utmost importance
+in initiating the appropriate diagnostic and therapeutic
+measures promptly. If interventional treatment fails, surgical
+bypass grafting of the circumflex artery is required as soon
+as possible to minimize further myocardial damage.
+Meticulous attention to detail is required in minimally
+invasive mitral valve surgery, allowing the surgeon to
+move through the case with efficiency and optimal results.
+Particularly devastating complications associated with
+minimally invasive mitral valve cases include (5): phrenic
+nerve injury, vascular complications of the femoral artery,
+aortic dissections, and perioperative strokes. These
+complications should be minimized at all costs.
+Acknowledgements

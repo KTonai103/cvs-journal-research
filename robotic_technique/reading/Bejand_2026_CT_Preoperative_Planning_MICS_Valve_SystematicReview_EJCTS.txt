@@ -1,0 +1,1052 @@
+Elnaz Azarmi Bejand, Benedicta Mutiara Suwita, Enoch Akowuah, Ranjit Deshpande, Joseph
+Zacharias, Srikanth Iyengar, Prabhakar Rajiah, Toufan Bahrami, Saeed Mirsadraee
+
+Computed Tomography in Preoperative Planning of Minimally
+Invasive Valvular Heart Surgery: A Systematic Review of Mixed
+Evidence and Clinical Application
+
+REVIEW
+
+of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Clinical Application. Eur J Cardiothorac Surg 2026;
+
+Computed Tomography in Preoperative Planning of Minimally
+Invasive Valvular Heart Surgery: A Systematic Review of Mixed
+Evidence and Clinical Application
+
+National Heart and Lung Institute, School of Medicine, Imperial College London, London SW3 6LY, United Kingdom
+Department of Radiology, Royal Brompton and Harefield Hospitals, Guy’s and St Thomas’ NHS Foundation Trust, London SW3 6NP, United Kingdom
+School of Medicine, Newcastle University, Newcastle upon Tyne NE2 4HH, United Kingdom
+Department of Cardiothoracic Surgery, King’s College Hospital, London SE5 9RS, United Kingdom
+Lancashire Cardiac Centre, Blackpool Teaching Hospitals NHS Foundation Trust, Blackpool FY3 8NP, United Kingdom
+Department of Radiology, Wexham Park Hospital, Frimley Health NHS Foundation Trust, Slough SL2 4HL, United Kingdom
+Department of Radiology, Mayo Clinic, Rochester, MN 55905, United States
+Department of Cardiac Surgery, Royal Brompton and Harefield Hospitals, Guy’s and St Thomas’ NHS Foundation Trust, London SW3 6NP, United Kingdom
+
+�Corresponding author. Department of Radiology, Royal Brompton and Harefield Hospitals, Guy’s and St Thomas’ NHS Foundation Trust, Sydney
+Street, London SW3 6NP, United Kingdom (saeed.mirsadraee@nhs.net).
+Received: September 18, 2025; Revised: November 24, 2025; Accepted: February 4, 2026
+
+Graphical abstract
+
+Author Contributions: E.A. Bejand and B.M. Suwita contributed equally to this work as the first authors.
+reserved. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be
+obtained through our RightsLink service via the Permissions link on the article page on our site—for further information please contact journals.
+permissions@oup.com.
+
+Elnaz Azarmi Bejand1; Benedicta Mutiara Suwita 2; Enoch Akowuah 3; Ranjit Deshpande4;
+Joseph Zacharias 5; Srikanth Iyengar6; Prabhakar Rajiah7; Toufan Bahrami8; Saeed Mirsadraee �,1,2
+
+CONVENTIONAL
+VALVE OPERATIONS
+
+European Journal of Cardio-Thoracic Surgery 2026, 68(4), ezag101
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+Abstract
+Objectives: Minimally invasive cardiac surgery (MICS) offers significant advantages over conventional sternotomy,
+
+including reduced trauma and faster recovery. Preoperative planning is crucial, with computed tomography (CT) emerg­
+ing as an essential imaging tool. This systematic review aims to evaluate CT’s role in MICS planning, focusing on imaging
+protocols, surgical guidance, and patient outcomes.
+
+Methods: This study included studies published between January 2003 and January 2025 that examined the role of CT
+
+Results: Initial search found 378 studies, and 17 studies were included in the review. The studies highlight CT’s value in
+
+assessing surgical feasibility, vascular access, and risk stratification. CT aids in selecting arterial cannulation sites, guiding
+aortic occlusion strategies, and optimizing port placement. It also identifies contraindications, such as extensive athero­
+sclerosis and anatomical abnormalities, that may necessitate sternotomy.
+
+Conclusions: Current evidence underscores CT’s critical role in optimizing MICS planning and enhancing patient safety.
+Keywords: computed tomography; minimally invasive cardiac surgery; preoperative planning; valvular heart disease.
+
+Introduction
+Valvular heart disease (VHD) remains a leading cause of
+cardiovascular morbidity and mortality worldwide.1,2
+Surgical intervention for VHD traditionally involved sternot­
+omy approach. Currently, minimally invasive cardiac sur­
+gery (MICS) is emerging as a transformative approach. By
+using a right thoracotomy incision rather than a median
+sternotomy, MICS minimizes surgical trauma, reduces re­
+covery time, and improves postoperative outcomes.3 MICS
+achieved high rates of valve repair with no significant differ­
+ence with sternotomy approach and facilitate earlier return
+to normal activities.4,5 Preoperative imaging plays a crucial
+role in planning and optimizing these procedures, with
+computed tomography (CT) emerging as an essential tool
+for preoperative assessment and procedural planning.6
+Preoperative CT assessment is valuable not only for minim­
+ally invasive mitral procedures, but also for planning min­
+imally invasive aortic valve surgery. It plays a key role in
+selecting the most suitable access route among several
+established approaches, including right anterior thoracot­
+omy, upper or lower hemi-sternotomy, and axillary inci­
+sions. The use of partial upper sternotomy for aortic valve
+replacement resulted in preservation of chest wall integrity
+and reduced blood loss and pain compared to standard
+median sternotomy. For mitral valve surgery, the right
+anterolateral minithoracotomy is currently the standard
+minimally invasive approach, and the robot-assisted port
+access has increasingly been adopted.3
+The progressive evolution from conventional sternotomy,
+fully endoscopic, and ultimately robotic valve surgery high­
+lights the growing importance of preoperative CT imaging
+in surgical planning. As the surgical access becomes in­
+creasingly limited and dependent on precise anatomical
+visualization, CT helps identify anatomical challenges,
+ensuring safer procedures.7 A significant advantage of CT
+imaging in MICS is its rapid acquisition of high-resolution
+images, allowing for efficient preoperative planning.6
+Advances in CT technology have also led to the develop­
+ment of dose reduction strategies, minimizing radiation
+exposure while maintaining diagnostic image quality.8
+
+High-resolution CT allows accurate evaluation of access
+routes, instrument trajectories, and potential anatomic
+constraints, which are critical for ensuring both feasibility
+and safety in less invasive and robotic-assisted operations.
+However, there is a lack of standardized protocols, clear
+indications, and consensus on image interpretation, high­
+lighting the need for further research to optimize its clinic­
+al application in MICS.
+This systematic review aims to evaluate published evi­
+dence on the role of CT in planning minimally invasive
+valvular heart surgery, focusing on imaging protocols,
+surgical guidance, risk assessment, and its impact on pro­
+cedural outcomes.
+
+Methods
+Literature search strategy
+This review included studies published between January
+2003 and January 2025 that examined the role of CT imag­
+ing in planning minimally invasive valvular heart surgery. A
+comprehensive search was conducted in Medical Literature
+Analysis and Retrieval System Online (MEDLINE), Cumulative
+Index to Nursing and Allied Health Literature (CINAHL), and
+Excerpta Medica Database (EMBASE) databases using pre­
+defined keywords and medical subject headings (MeSH)
+terms related to CT imaging, angiography, minimally inva­
+sive surgery, robotic surgery, aortic valve surgery, and mi­
+tral valve surgery. The search strategy combined key
+blocks—preoperative imaging, cardiac surgery, and valve
+surgery—using Boolean operators to refine relevant stud­
+ies while minimizing irrelevant results. Specific MeSH
+terms and keywords were added to each block to increase
+the chance of finding relevant studies. MeSH terms and
+keywords searched in this research were: CT imaging,
+Angiography, Minimally invasive surgery, Robotic surgery,
+Aortic valve surgery, Mitral valve surgery. Last search date
+was February 4, 2025. The reference lists of relevant journal
+articles were reviewed to identify additional studies that
+may have been missed in the primary database search.
+
+imaging in planning minimally invasive valvular heart surgery. A comprehensive search was conducted in Medical Literature
+Analysis and Retrieval System Online (MEDLINE), Cumulative Index to Nursing and Allied Health Literature (CINAHL), and
+Excerpta Medica Database (EMBASE) using predefined keywords and medical subject headings (MeSH) terms related to CT
+imaging, angiography, minimally invasive surgery, robotic surgery, aortic valve surgery, and mitral valve surgery.
+
+Eligibility criteria
+
+Data extraction and critical appraisal
+Study selection was conducted by 2 independent reviewers
+(B.S. and E.A.B.). Title and abstracts were screened according
+to the inclusion and exclusion criteria, followed by duplicate
+assessment of full-text articles for eligibility. Discrepancies in
+study selection were resolved through discussion, with arbi­
+tration by a senior reviewer (S.M.) when consensus could
+not be achieved.
+Data extraction was performed independently by both
+reviewers. Extracted variables included study design, popu­
+lation characteristics, CT acquisition protocols, surgical ap­
+proach, and outcomes relevant to preoperative planning,
+intraoperative guidance, and postoperative complications.
+All extracted data were cross-checked, and disagreements
+were reconciled by consensus. Key findings were synthe­
+sized into a narrative review that highlights the clinical
+value of CT imaging in MICS.
+Risk of bias in observational studies was evaluated in­
+dependently by both reviewers using the NewcastleOttawa Scale. Case series and narrative reviews were
+appraised qualitatively, given the absence of validated
+standardized tools for these study types.
+
+Figure sources
+The figures presented in the main text and supplementary
+material are original images acquired in our department.
+All images were fully anonymized. Written informed con­
+sent for their use in research/educational purposes was
+obtained from all patients in accordance with our institu­
+tional data governance policies.
+
+Results
+Quantity of evidence
+A search of MEDLINE, EMBASE, and CINAHL identified 378
+studies. Screening of duplicate studies removed 32 stud­
+ies, resulting in 346 studies. Title and abstract screening
+
+excluded 287 studies that were either unrelated to MICS
+or focused on non-cardiac procedures. Full-text review of
+the remaining 59 studies led to the exclusion of an add­
+itional 42 studies. A total of 17 studies on MICS met the in­
+clusion criteria for final analysis (Figure S1).
+
+Quality of evidence
+The 17 studies consisted of 5 observational studies,9-13
+2 case series,14,15 and 10 reviews,6,7,16-23 representing a
+diverse range of evidence levels.
+Risk of bias for the observational studies were assessed
+using the Newcastle-Ottawa Scale (Table S1). Three stud­
+ies scored 3 out of 9, indicating relatively low methodo­
+logical quality, predominantly due to limitations in
+control selection and comparability domains. Two studies
+scored 7 out of 9, reflecting high quality with better con­
+trol selection. Retrospective designs and relatively small
+sample sizes were common limitations across these ob­
+servational studies. The key findings of the observational
+studies were summarized in Table S2.
+Standardized tools for quality assessment were not ap­
+plicable to the case series and literature reviews. These
+studies were assessed qualitatively by the co-authors,
+which consisted of senior consultant radiologists and car­
+diothoracic surgeons. However, they inherently carry a
+higher risk of selection, reporting, and publication biases.
+
+CT protocol
+The recommended CT imaging protocol and the field of
+view varied in the literature. Commonly, it included an
+ECG-gated angiographic acquisition from the level of the
+thoracic inlet to the diaphragm, followed by a non-ECGgated acquisition of the abdomen and pelvis, extending
+from the diaphragm to the mid-thigh.9 Other authors rec­
+ommended starting 4 cm above the aortic arch (including
+the subclavian-axillary arterial system) and extending to
+the common femoral arteries.16 The imaging findings
+were categorized into preoperative assessment, intrao­
+perative guidance, and postoperative complications of
+MICS for valvular diseases, as summarized in Table 1.
+
+Preoperative CT assessment for minimally
+invasive valvular heart surgery
+Preoperative assessment for MICS was addressed in 11
+of the 17 studies.7,9-12,14,16-20 CT imaging could identify
+other cardiac abnormalities, such as significant coronary
+artery disease, that could necessitate additional interven­
+tions. Coronary assessment before valve surgery is indi­
+cated for men older than 35 years old, premenopausal
+women older than 35 years old who have coronary risk
+factors, and postmenopausal women.16 One study rou­
+tinely used invasive coronary angiography in addition to
+CT imaging to evaluate the presence of coronary artery
+disease.9 Another study suggested invasive coronary
+angiography to be performed only when CT imaging sus­
+pected significant coronary artery disease.17 Non-cardiac
+abnormalities, such as incidental malignant lesions or
+
+Observational studies involving human subjects under­
+going heart surgery were included to assess the clinical
+applications and outcomes of preoperative CT imaging.
+Only peer-reviewed full-text articles were included, while
+conference abstracts and studies on other imaging modal­
+ities, such as MRI, were excluded. All types of full-text stud­
+ies, such as case series or reviews, were included. Given
+the limited volume of primary research on CT assessment
+in MICS, this review incorporated both primary evidence
+(observational studies and case series) and secondary
+sources (narrative reviews) to achieve a comprehensive
+synthesis of current knowledge. This methodological ap­
+proach is consistent with PRISMA recommendations for
+systematic reviews encompassing heterogeneous study
+designs. Studies unrelated to MICS or focused on noncardiac procedures, including those on CT imaging with­
+out clinical relevance to MICS planning, were excluded.
+
+CONVENTIONAL
+VALVE OPERATIONS
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+Identify the presence of funnel chest or scoliosis caus­
+ing unusual cardiac position/orientation
+Location of coronary grafts with respect to the
+entry wounds
+Distance between incision point to sinotubular junc­
+tion (STJ)
+Access angle (angle between aortic root centreline
+axis and incision-annulus line)
+Distance between sternum to ascending aorta
+Length of ascending aorta
+Aortic valve position with regards to intercostal space
+Presence of pleural thickening/adhesions
+
+Assessing deformity of
+the thorax
+Assessing the position of vital
+structures (coronary grafts,
+aortic root, ascending aorta,
+aortic valve)
+
+Providing CT-derived recon­
+structions to visualize cardio­
+vascular structures
+Assessment of cardiovascu­
+lar structures
+Assessment of major cardiac
+and vascular complication
+
+Identifying oesophageal and
+diaphragmatic pathology
+
+Detailed assessment of cardiac valves and subvalvu­
+lar apparatus
+Identify stroke, aortic dissection, and iatrogenic coron­
+ary injury
+
+Presence of pericardial calcification
+Presence of oesophageal stricture, fistula, and
+diverticula
+Presence of post oesophagectomy changes
+Presence of high-grade oesophageal varices
+Presence of large diaphragmatic hernia
+Detailed assessment of cardiac chamber, coronary
+artery, valvular and great vessels anatomy
+
+Sternal anatomy with respect to the entry wounds
+
+Assessment of sternal anatomy
+
+Identifying the pleural and
+pericardial pathology
+
+Assessing the level of right diaphragmatic dome
+
+Identifies arterial and venous systems anatomy
+and pathology
+
+Assessment of anatomical land­
+marks for aortic clamping and
+cardiopulmonary bypass
+Intercostal space identification
+
+Assessment of atherosclerot­
+ic disease
+
+Identifies coronary artery anatomy and extensive cor­
+onary artery disease
+Identifies significant incidental pathologies such as un­
+known malignancies or lung diseases
+Identifies postoperative thoracic changes (eg, lungs
+or pleura)
+Identifies aorto-iliofemoral atherosclerosis
+
+Key benefits
+
+Guides surgical approach, predicts procedure complexity,
+and predicts postoperative outcomes7,9,16,14,18,22,23
+Guides patient management11
+
+Absolute contraindications for TOE probe insertion16
+Relative contraindications for TOE probe insertion16
+Relative contraindications for TOE probe insertion16
+Aids surgical planning and assists in avoiding critical struc­
+ture injury (eg, bypass grafts)6,7,16,11,14
+
+Pleural adhesions may prevent right lung collapse for
+MICS, therefore may require surgical approach changes
+from MICS to sternotomy7,16
+Extensive pericardial calcification may rule out MICS7
+Absolute contraindications for TOE probe insertion16
+
+Guides surgical approach of minimally invasive aortic valve
+replacement. Predicts procedure complexity13,15,21
+
+Used to determine the most appropriate intercostal space
+to enter the thorax16
+High right diaphragm may require restrain by a suture
+through central tendon16
+Guides decisions on surgical approach16
+Distance between the sternum and vertebra at the level of
+left atrium should be ≥ 8 cm for direct vision of minimally
+invasive mitral surgery17
+Thoracic deformities can worsen mitral valve exposure and
+can be contraindication for MICS17
+Guides surgical approach of MICS16
+
+Predicts the risk of embolic stroke or retrograde aortic
+dissection14,18
+Significant aortoiliac sclerosis may require surgical ap­
+proach changes from MICS to sternotomy7,9,10,14
+Facilitates cannulation and cross-clamping strategy7,11
+
+May alter patient management or surgical planning16
+May not be suitable for right mini thoracotomy16
+
+Contraindication for robotic MV repair16
+
+Clinical relevance
+
+Abbreviations: CT, computed tomography; MICS, minimally invasive cardiac surgery; MV, mitral valve; STJ, sinotubular junction; TOE, transoesophageal echocardiography.
+
+Valvular sur­
+gery planning
+Postoperative
+assessment
+
+Intraoperative guidance
+
+Chest wall, soft tissue,
+and thoracic anatomy
+
+Clamping and
+cannulation
+
+Assessment of coronary arteries
+
+Preoperative
+assessment
+
+Assessment of non-cardiovascu­
+lar structures
+
+Role of CT imaging
+
+Category
+
+Table 1. CT Imaging in Minimally Invasive Valvular Heart Surgery
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+significant lung disease, were also identified during the
+assessment (Figure S2). These findings could impact
+treatment planning, potentially rendering the patient un­
+suitable for MICS.16
+
+Intraoperative guidance
+
+analysis suggested that for every 29 patients having pre­
+operative CT angiography, 1 patient could have prevention
+of significant vascular complications.11 A meta-analysis
+examining 13 731 MICS patients showed a statistically sig­
+nificant difference in the postoperative stroke rate, with a
+lower rate in patients who had preoperative CT assessment
+compared to those who did not.19 A single-centre study
+routinely used CT or MR angiography for iliofemoral vessels
+assessment before minimally invasive mitral surgery and
+found that none experienced vascular complication.12
+Preoperative assessment with CT imaging is important
+to assess the aortic root, thoraco-abdominal aorta, com­
+mon iliac, external iliac, and common femoral arteries for
+vessel size, anatomy, and the presence of atheromatous
+disease, aiding in the selection of the most appropriate
+vessel for peripheral cannulation (Table 2).
+Several authors suggested using a 21 to 23 Fr cannula
+for femoral artery cannulation, requiring a minimum lu­
+minal diameter of 7 mm.14,16,18 Youssef et al10 suggested
+unilateral femoral cannulation with 23 F cannula for
+patients with ≥ 8 mm femoral artery diameter, unilateral
+21 F cannula for femoral artery diameter between 7 and
+8 mm, and bilateral 19 F cannulas for < 7 mm femoral ar­
+tery diameter. Rosu et al12 found that patients with a
+femoral artery diameter of less than 7.3 mm were signifi­
+cantly more likely to require bilateral or side-graft com­
+pared to those with larger femoral arteries.
+Cases of challenging peripheral cannulation, such as
+extensive aorto-iliac calcification, significant kinking, or
+tortuosity, may render the patient unsuitable for MICS
+and may necessitate a change in the surgical approach to
+an open sternotomy (Figure 2).7,14 A single-centre obser­
+vational study examining 111 candidates for MICS found
+that 32% of them had unfavourable CT findings, such as
+ascending aortic dilatation (> 4 cm) and moderate-severe
+atherosclerotic disease in the thoraco-abdominal aorta or
+aortoiliac bifurcation, which led to surgical strategy con­
+version to sternotomy. Other findings, such as tortuous
+
+Figure 1. Three-dimensional reconstruction from a preoperative CT scan of the ascending aorta and aortic arch. It demonstrates: (A) extensive cal­
+cification of the ascending aorta consistent with a porcelain aorta, and (B) an abnormal origin of the left carotid artery arising directly from the
+ascending aorta (arrow). (C, D) 3D-printed models generated from the same CT dataset illustrate: (C) the heart and major vessels, highlighting the
+aberrant origin of the left carotid artery (arrow), and (D) the model positioned within the rib cage to assist in planning the surgical incision and aor­
+tic clamping. In such cases, the preoperative CT scan plays a crucial role in identifying challenges related to aortic clamping and in informing the
+surgical approach.
+
+The intraoperative guidance was divided into several sub­
+categories, including strategies for cannulation and
+cross-clamping, optimal port placement, and methods to
+prevent injuries to critical structures, such as the coron­
+ary arteries.
+In MICS, cardiopulmonary bypass (CPB) may be estab­
+lished using peripheral arterial cannulation and bicaval
+venous drainage. Aortic occlusion can be achieved
+through either endoaortic balloon occlusion (EBO) or
+transthoracic cross-clamping (TTC). Peripheral CPB with
+EBO eliminates the need for direct aortic cannulation for
+cardioplegia, whereas TTC requires antegrade cardiople­
+gia via direct aortic cannulation.16 Extensive calcification
+of the ascending aorta (porcelain aorta) may preclude dir­
+ect aortic cannulation due to the increased risk of plaque
+dislodgement and cerebrovascular events (Figure 1).
+Calcification in the ascending aorta may lead to alterna­
+tive operative techniques that reduce manipulation of the
+aorta, such as performing aortic cannulation at a differ­
+ent site, avoiding cross-clamping of the aorta, or conver­
+sion to sternotomy (Table 2).14,18
+Peripheral cannulation in CPB is typically performed via
+the femoral artery.16,14,18
+Since cerebral perfusion in MICS is performed by retro­
+grade perfusion, extensive plaque burden in the aortailiofemoral arteries may increase the risk of embolic stroke.
+A previous study showed an increased stroke rate (2.2%) in
+MICS compared to sternotomy (1.1%).10,16 It has been
+reported that patients with no preoperative CT had higher
+rate of vascular-related complications, and subsequent
+
+CONVENTIONAL
+VALVE OPERATIONS
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+Great vessel assessment
+
+Assessment of the anatomy of
+aortic arch and major headneck vessels
+
+Assessment of iliofemoral artery
+for arterial cannulation
+
+Assessment of venous system
+anatomy, and patency
+
+Aortic occlusion
+
+Cerebral perfusion
+
+Arterial perfusion
+
+Venous drainage
+
+Presence of anomal­
+ous anatomy
+
+Presence of venous occlusion
+
+Angulation and tortuosity of
+thoraco-abdominal aorta and
+iliac arteries
+Femoral artery minimal lumin­
+al diameter
+
+The presence of right sided aor­
+tic arch
+Presence of aberrant right sub­
+clavian artery (left-sided arch)
+The extent of iliac artery
+calcification
+
+Presence of aberrant right sub­
+clavian artery (left-sided arch)
+Abnormal angulation of the left
+subclavian artery
+Assessment of carotid and ver­
+tebral arteries
+Patency of circle of Willis
+Presence of bovine aortic arch
+
+Extent of aortic calcification
+
+Distance from STJ to the origin
+of the first aortic arch branch
+Pulmonary artery size
+
+Ascending aortic size
+
+Key information
+
+In right axillary artery cannulation, antegrade cerebral perfusion is
+done through the right common carotid artery (CCA) and the in­
+tact circle of Willis18
+Enables bilateral CCA antegrade perfusion regardless of the integ­
+rity of circle of Willis18
+Not ideal for right axillary cannulation due to the separate origin of
+right subclavian and right CCA18
+Not ideal for right axillary cannulation, because perfusion will be
+directed towards descending aorta7,18
+Extensive aorto-iliac calcification may require a change in surgical
+approach from MICS to sternotomy7
+Calcifications may cause plaque embolization and lower extremity
+ischaemia16
+Extreme angulation, kinking or tortuosity may be unsuitable for
+cannulation (may require change from MICS to open
+sternotomy)7,14
+Size < 7 mm may be a poor candidate for cannulation7,16,18
+Size < 7.3 mm are significantly more likely to require bilateral or sidegraft cannulation12
+Patients with venous occlusions may be poor candidates for MICS7
+Venous obstruction is a contraindication for robotic MV repair16
+Patients with anomalous anatomy, such as azygos continuation of
+inferior vena cava, may be unsuitable for MICS16
+
+Transthoracic cross-clamping (TTC) is not recommended if the pul­
+monary artery is enlarged, or the aorta is small and fragile7,16
+Extensive aortoiliac calcification may require surgical approach
+changes from MICS to sternotomy7,10
+Porcelain ascending aorta may cause difficulty in aortic cannulation
+and cross-clamping14
+Not ideal for EBO. Bilateral radial artery pressure monitoring will be
+invalid to ensure proper placement of endo-aortic balloon16
+May cause difficulty in the EBO system advancement16
+
+Endo-aortic balloon occlusion (EBO) is not recommended if aortic
+diameter > 4 cm7
+Used to choose the size of EBO balloon16,18
+
+Clinical relevance
+
+Abbreviations: CCA, common carotid artery; CT, computed tomography; EBO, endoaortic balloon occlusion; MICS, minimally invasive cardiac surgery; STJ, sinotubular junction; TTC, transthora­
+cic cross-clamping.
+
+Role of CT imaging
+
+Aspect
+
+Table 2. CT Imaging in Clamping and Cannulation Planning
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+CONVENTIONAL
+VALVE OPERATIONS
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+iliac vessels and focal common iliac artery dissection, also
+led to conversion to sternotomy.10 Another study found
+that 28 out of 141 patients had significant atherosclerotic
+disease. Out of these 28 patients, 26 (93%) had a surgical
+approach change to sternotomy.9
+Similarly, challenges with venous drainage can also
+make patients unsuitable candidates for MICS (Figure S3).
+Peripheral venous access is typically achieved using a 22
+or 25 Fr multistage femoral venous cannula, which is
+advanced to approximately 4 cm above the superior cav­
+oatrial junction under transoesophageal echocardiog­
+raphy (TOE) guidance. A second venous cannula, usually
+
+16 or 18 Fr, is inserted via the internal jugular vein and
+positioned in the superior vena cava, with TOE used to
+confirm its final placement and ensure there is no overlap
+between the 2 cannulas.
+Adequate venous anatomy and normal vessel size are
+essential for successful cannulation and optimal venous
+drainage. Consequently, venous occlusion, stenosis, or
+anatomical anomalies—such as azygos continuation of
+the inferior vena cava—may preclude patients from
+undergoing MICS. The presence of an inferior vena
+cava filter should also be noted, as it can complicate can­
+nula placement. In general, significant venous obstruction
+
+Figure 2. Three-dimensional Reconstruction Images of the Arterial System on Preoperative CT to Guide Cannulation Strategy. (A) Tortuous bilateral
+iliac arteries with dissection flap in the left common iliac artery (arrow) and kinking of the infrarenal abdominal aorta (�). (B) Significant narrowing
+of the distal aortic arch (arrow) due to aortic coarctation with extra-anatomic bypass (�) connecting the descending thoracic aorta and left sub­
+clavian artery. (C) Bilateral common iliac stents (�) with calcifications along the iliac and femoral arteries. In all cases, femoral artery cannulation
+was considered technically challenging.
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+defined as the angle between the aortic root centreline axis
+and the incision-annulus line. The study found that an access
+angle greater than 38 degrees was strongly associated with
+difficult access.13 Assessment of mitral annulus and aortic
+annulus geometry can assist with sizing of the mitral annulo­
+plasty ring and aortic valve prosthesis (Table 3).14 CT meas­
+urement of the mitral annulus with a simplified D-shaped
+annulus configuration rather than the anatomical saddle
+shape of the annulus is more reproducible and allows
+more appropriate evaluation for potential left ventricular
+outflow tract (LVOT) obstruction after transcatheter valve
+implantation. CT-derived measurements of the mitral annu­
+lus, including its inter-commissural distance and 3D geom­
+etry, can guide the appropriate sizing of the annuloplasty
+ring during preprocedural planning.22 Additionally, CT can
+assess mitral valve leaflet, such as leaflet area and height,
+tenting area and height, as well as leaflet angles, with excel­
+lent correlation with 3D TOE.16
+Patients with extensive mitral annular calcification
+(MAC) are not considered optimal candidates for MICS
+due to high procedural risk.9,20 An observational study
+found that 10 out of 141 MICS candidates had extensive
+MAC, and subsequently, 8 patients were converted to
+
+Figure 3. Three-dimensional Reconstructions from Preoperative CT Scans in Different Patients Demonstrating Anatomical Variations Relevant to
+Surgical Planning. (A) Elevated right diaphragmatic dome (highlighted in red), extending to the level of the right third intercostal space (dashed
+arrow). (B) Large hiatus hernia (highlighted in red), reaching the level of the right third rib (arrow) and adjacent to the left atrium (�). (C) Broad an­
+terior ribs (arrows), resulting in narrowing of the right intercostal spaces. (D) Bifid ribs contributing to atypical positioning and narrowing of the
+right intercostal spaces. Preoperative CT enables detailed assessment of the rib cage and diaphragm, facilitating optimal selection of intercostal
+spaces for instrument access. Abbreviations: LA, left atrium; MV, mitral valve; RAA, right atrial appendage.
+
+is considered a contraindication to robotic mitral
+valve repair.7,16
+The port access from the right fourth or fifth intercostal
+spaces is the most common approach for MICS.16 However,
+the port placement may need to be adjusted for certain
+patients. CT can help to determine the most appropriate
+intercostal space for port placement based on the right dia­
+phragmatic dome position and the proximity between the
+incision point to the aortic root (Figures 3 and 4, Figures
+S4-S6).13,15,20,21 The distance between the sternum and ver­
+tebrae at the level of the left atrium should be ≥ 8 cm for
+direct vision minimally invasive mitral surgery. The access to
+the mitral valve may be limited due to chest deformities,
+such as funnel chest or scoliosis.17 The presence of chest
+wall abnormalities, such as extensive pleural adhesion, may
+also change the surgical approach to sternotomy.7,16,20
+Intraprocedural trans-oesophageal echocardiography (TOE)
+is often needed in MICS. CT scans can help identify contrain­
+dications for the insertion of a transoesophageal (TOE)
+probe, such as an oesophageal stricture.16
+CT can also provide patient-specific surgical guidance.
+Elattaar et al measured the access angle for minimally inva­
+sive aortic valve replacement using CT. This angle was
+
+CONVENTIONAL
+VALVE OPERATIONS
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+sternotomy.9 The evaluation of mitral annulus anatomy
+and its relationship to adjacent structures, such as the
+left circumflex artery, can help predict the complexity of
+mitral surgery and the risks of surgical complications
+(Figure 5, Figure S7).7,9,14,16,18
+
+meta-analysis found that patients who had preoperative CT
+assessment had lower operative mortality rate (0.8% vs
+1.6% in the non-CT group), significantly lower late mortality
+rate (0.7% vs 1.7% in the non-CT group) and significantly
+lower rate of new dialysis (0.8% vs 2.3% in the non-CT
+group) compared to those who did not.19
+
+Postoperative complication
+Postoperative complications were discussed in 4 of the 17
+studies. Immohr et al examined perioperative vascular
+complications in 143 patients who underwent MICS for the
+mitral and tricuspid valves. The vascular complications
+included stroke, coronary ischaemia, aortic dissection, and
+visceral ischaemia. Additionally, significant complications
+included conversion to sternotomy and in-hospital mortal­
+ity, which were also examined.11 The study showed an over­
+all morbidity rate of 6.3% and in-hospital mortality of 1.4%.
+Patients who had preoperative assessment by CT angio­
+gram of the whole aorta (including axillary, subclavian and
+iliac arteries) had lower morbidity and in-hospital mortality
+rates compared to those who only had non-contrast CT
+thorax and those who did not have any preoperative CT.11
+Other observational studies that routinely used preopera­
+tive cross-sectional imaging found that no patient experi­
+enced vascular complications after MICS.10,12 A large
+
+Discussion
+MICS offers several advantages compared to median ster­
+notomy, including avoidance of direct manipulation of the
+heart, great vessels, and patent vascular grafts. This is par­
+ticularly important in redo cases, where median sternotomy
+carries an increased risk of injury to major cardiac struc­
+tures due to adhesions between the posterior sternal table
+and the great vessels, the right ventricle, or bypass grafts.
+Therefore, minimally invasive approach to mitral valve sur­
+gery may be considered in selected redo cases, including
+those following coronary artery bypass grafting.24,25
+
+Current evidence supporting CT use in MICS
+Studies have shown that patients undergoing systematic
+CT evaluation before MICS tend to have lower rates of
+
+Figure 4. Three-dimensional Reconstruction of a Preoperative CT Scan in the Supine Position, Viewed from the Right Anterior Oblique Angle. Multilayered reconstruction displays: (A) skin and nipple position; (B) rib cage, and intercostal spaces. Key anatomical structures were highlighted,
+including the ascending aorta (red), pulmonary veins (blue), and other cardiac structures (brown-yellow). Bones (white) were rendered with
+reduced transparency to better visualize the relationship between cardiac structures and the first to fourth right intercostal spaces. (C) A focused
+view on the right third intercostal space shows the right superior pulmonary vein (purple). (D) At the entry level of this space, both superior and in­
+ferior pulmonary veins (purple), and the ascending and descending aorta (red) are shown. Preoperative CT can simulate the surgical view and aid
+in planning optimal port placement.
+
+Anatomical 3D segmentation
+
+Cardiac cham­
+ber anatomy
+
+Visualization of the aorta,
+pulmonary arteries, and veins
+
+Assessment of mitral annulus
+(MA)
+
+Great ves­
+sel assessment
+
+Mitral valve
+
+Identifying pericardial pathology
+
+Assessment of spatial relationships
+of cardiovascular structures
+
+Pericardial anatomy
+
+Spatial relationships
+
+Location of aortic and mitral annulus over the
+chest wall
+
+Presence and location of pericardial calcification
+
+Identify papillary muscles anatomy
+Measurement of from the leaflet edge (adjacent to
+the diseased) scallop to the tip of the papil­
+lary muscle
+Aortic annulus size
+Location of aortic annulus over the chest wall
+
+Presence of mitral valve pathology
+
+Leaflet angles
+
+Tenting area and height
+
+Presence of peri-annular abscess in mitral valve
+endocarditis
+Leaflet area and height
+
+Mitral annulus anatomic/geometric information
+
+Proximity of mitral annulus with left circumflex artery
+(CFX) and coronary sinus
+
+Isolates aorta, left atrium, and pulmonary vein from
+other structures
+Detailed assessment of LV anatomical landmarks (eg,
+LV apex, left anterior descending coronary artery and
+diagonal branches)
+Identifies extensive coronary artery disease that may
+require revascularization
+Proximity of coronary arteries (eg, left circumflex
+artery) to valve annulus and coronary sinus
+Identify great vessel anatomy and pathology
+Location of coronary grafts with respect to the
+entry wounds
+Presence and extent of mitral annular calcification
+
+Key information
+
+Appropriate valve sizing, predict procedure complexity14
+Guides surgical planning for minimally invasive aortic valve
+replacement23
+Guides surgical approach for pericardial access, predicts proced­
+ure complexity7
+Guides surgical planning for minimally invasive aortic valve
+replacement23
+
+Significantly larger P2 (length >21 mm, area >3.9 cm2) will
+require leaflet resection16
+Tenting area >2.5 cm2 has higher likelihood for persistent MR
+after MV repair16
+Posterior leaflet angle > 45 degree has higher likelihood for per­
+sistent MR after MV repair16
+Identify leaflet clefts, or coexisting prolapses which may not be
+identified by echocardiography22
+Influence MV repair approach22
+
+Extensive mitral annular calcification is a contraindication for
+robotic MV repair7,16,18
+Extensive mitral annular calcification may require surgical ap­
+proach changes from MICS to sternotomy7,9
+Debridement of annulus calcification increases the risk of LA/LV
+rupture, ventricular aneurysm and haemorrhage, and embol­
+ic stroke14
+Severe mitral annulus calcification may require changes from
+surgery to transcatheter MV replacement22
+Predict the risk of post procedural myocardial ischaemia/infarc­
+tion after MV annuloplasty16
+CFX course between coronary sinus and mitral annulus for long
+distance (>30 mm) may increase the risk of CFX compression in
+percutaneous MV repair18
+MA circumference and area predict postoperative outcomes
+after mitral regurgitation repair16
+MA intercommissural distance correlate well with sizing of mitral
+annuloplasty ring14,22
+Contraindication for minimally invasive mitral valve surgery20
+
+Predict the risk of post procedural myocardial ischaemia/infarc­
+tion due to iatrogenic coronary injury after MV annuloplasty16
+Guides cannulation and perfusion strategy7,11
+Prevent injury to the coronary grafts during surgery16
+
+Guides surgical approach and predict procedure complexity16
+
+Influences MV repair approach20
+
+Aids surgical planning and visualization of regions of interest6
+
+Clinical relevance
+
+Abbreviations: CFX, left circumflex artery; CT, computed tomography; LA, left atrium; LV, left ventricle; MA, mitral annulus; MICS, minimally invasive cardiac surgery; MV, mitral valve.
+
+Assessment of aortic annulus
+
+Aortic valve
+
+Characterization of subvalvular
+apparatus
+
+Assessment of extent of
+endocarditis
+Assessment of mitral valve leaflet
+
+Assessment of coronary artery
+
+Coronary
+artery mapping
+
+Left ventricular (LV) assessment
+
+Role of CT imaging
+
+Aspect
+
+Table 3. CT Imaging in Valvular Surgery Planning and Intraoperative Guidance
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+CONVENTIONAL
+VALVE OPERATIONS
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+perioperative stroke, operative and late mortality
+compared to those without preoperative CT imaging.11,19
+The definition of atherosclerotic disease severity may
+vary across the literature.9,10 It needs to be highlighted
+that currently, there is no standard guideline on the ath­
+erosclerosis assessment of the thoraco-abdominal and
+peripheral vessels for MICS, and therefore, the variability
+of vascular complication rates across the literature may
+be expected due to the non-uniform definition in the pre­
+operative CT assessment.
+The accuracy of coronary atherosclerosis assessment
+on CT can be compromised by motion artefacts. To min­
+imize these, pharmacological heart rate control is com­
+monly used to lower both heart rate and heart rate
+variability.26 When not contraindicated, heart rate reduc­
+tion—administered either intravenously or orally—can be
+considered to enhance the image quality of the coronary
+CT angiogram.
+Current evidence suggests preoperative CT angiography
+to evaluate the aorta and peripheral arteries.9,16 Variability
+in CT protocols directly influences the anatomical informa­
+tion that can be obtained. Scan acquisition should be tail­
+ored to the specific clinical questions after discussion with
+the operating surgeon. At minimum, an ECG-gated angio­
+graphic study of the thoracic cavity is required to evaluate
+the cardiac structures, thoracic aorta, and the chest wall.
+The field of view can be extended when additional
+
+information is needed—for instance, to assess the carotid
+arteries or peripheral vessels for cannulation suitability.
+Radiation exposure and contrast volume are influenced by
+several factors, including the extent of anatomical cover­
+age, patient body size, and the imaging technique used.
+Assessment of the venous system may require adjust­
+ments to the CT imaging protocol, including modifications
+to contrast volume, image acquisition timing, and radi­
+ation exposure settings.
+
+Clinical implications of preoperative CT
+assessment in MICS
+CT facilitates decision-making regarding the feasibility of
+peripheral cannulation, aortic occlusion strategies, and opti­
+mal port placement for thoracoscopic access. This is par­
+ticularly valuable in avoiding complications such as embolic
+stroke, vascular injury, and mortality.10-12 In cases where
+the ascending aorta is heavily calcified (eg, porcelain aorta),
+TTC may not be feasible, necessitating EBO or an alterna­
+tive perfusion strategy (Figure S8).7,16,18 Additionally, CT
+allows for detailed mapping of the rib cage and diaphragm,
+ensuring precise selection of intercostal spaces for instru­
+ment insertion.6,9,16 Three-dimensional (3D) reconstruction
+of the cardiovascular and skeletal systems can be achieved
+using CT images; however, it is important to note that the
+
+Figure 5. Preoperative CT Assessment of the Mitral Annulus for Minimally Invasive Mitral Surgery. (A) 3D reconstruction in the 2-chamber view
+shows extensive mitral annular calcification (MAC) extending into the papillary muscles. (B) 3D short-axis view at the mitral valve level highlights
+bulky MAC (yellow), with the aortic valve prosthesis (AV) and left circumflex artery (red, dashed arrow) in close proximity. (C) Another 3D short-axis
+view shows MAC (white) with muscular extension. (D) Corresponding 2D image shows the left circumflex artery (arrow) adjacent to the MAC (�).
+Abbreviations: AV, aortic valve; LA, left atrium; LV, left ventricle; MAC, mitral annular calcification; MV, mitral valve.
+
+European Journal of Cardio-Thoracic Surgery, 2026, Volume 68, Issue 4
+
+Limitations of this review and
+current evidence
+The studies included in this review are predominantly retro­
+spective, lacking high-level evidence from randomized con­
+trolled trials. The evidence in this review was derived
+primarily from descriptive studies, narrative reviews, and
+small observational case series. While these sources pro­
+vide important qualitative insights into procedural planning
+and anatomical evaluation, but limited quantitative data for
+direct clinical decision-making. Thus, the current evidence
+should be regarded as descriptive rather than definitive.
+While observational data suggest improved patient selec­
+tion and perioperative outcomes with preoperative CT, ro­
+bust prospective trials are needed to quantify these
+benefits conclusively.
+Another challenge is the absence of standardized CT
+imaging protocols across institutions. Variability in acqui­
+sition techniques, contrast administration, and image in­
+terpretation may lead to inconsistent decision-making
+and affect the reproducibility of findings. Moreover, con­
+cerns regarding radiation exposure, particularly in
+younger patients, highlight the need for optimized lowdose imaging protocols.
+Additionally, while CT is invaluable in surgical planning,
+it is not infallible. Certain intraoperative challenges, such
+as unexpected adhesions or dynamic haemodynamic
+changes, may not be fully predicted by preoperative imag­
+ing alone. Therefore, multimodal imaging approaches re­
+main essential for comprehensive patient assessment.
+
+Future directions
+Future research should focus on standardizing imaging
+protocols and conducting prospective trials comparing
+CT-guided MICS planning with traditional approaches.
+Further studies evaluating cost-effectiveness, radiation
+
+dose optimization, and integration of advanced imaging
+techniques, such as artificial intelligence-assisted ana­
+lysis, could refine CT’s clinical application.
+
+Conclusion
+While current evidence supports the utility of CT in MICS,
+its role should be further validated through high-quality
+trials. Nonetheless, CT remains a powerful tool that may
+enhance surgical precision, improve patient selection,
+and minimize complications, reinforcing its importance in
+modern cardiac surgery.
+
+Author contributions
+E.A.B. and B.M.S. contributed equally as the first author.
+E.A.B. and B.M.S. designed the article, made the figures
+and tables, and wrote and revised the manuscript. E.A.,
+R.D., J.Z., S.I., P.R., and T.B. provided important sugges­
+tions for the revision of the article and contributed to
+the literature collection, as well as checking the litera­
+ture used as references. S.M. conceptualized the study,
+contributed to literature collection, checked the litera­
+ture used as references, and supervised the creation
+process of the article. The manuscript was revised by
+the authors, and the final version was approved by all
+authors prior to submission. All authors read and
+approved the final manuscript.
+
+Supplementary material
+Supplementary material is available at EJCTS online.
+
+Conflicts of interest
+None declared.
+
+Funding
+The authors state that this work has not received
+any funding.
+
+Data availability
+The data underlying this article are available in the article
+and in its online supplementary material.

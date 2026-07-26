@@ -1,0 +1,778 @@
+Keynote Lecture Series
+
+How to advance from minimally invasive coronary artery
+bypass grafting to totally endoscopic coronary bypass grafting:
+challenges in Europe versus United States of America
+Michiel Algoet1, Tom Melvin2, Stepan Cerny3, Johannes Bonatti4, Sandeep Singh5, Thierry Folliguet6,
+Paul Modi7, Ulrich Franke8, Monica Gianoli9, Alfonso Agnino10, Filip Casselman11, Wouter Oosterlinck1
+
+Department of Cardiovascular Sciences, Research Unit of Cardiac Surgery, KU Leuven, Leuven, Belgium; 2School of Medicine, Trinity College
+
+Dublin, Dublin, Ireland; 3Cardiothoracic Surgery Department, Na Homolce Hospital, Prague, Czech Republic; 4Division of Cardiac Surgery,
+Department of Cardiothoracic Surgery, University of Pittsburgh Medical Center, Pittsburgh, PA, USA; 5ISALA Hospital, Zwolle, The Netherlands;
+
+Department of Cardio-Thoracic Surgery, University Hospital Henri-Mondor, Assistance Publique-Hopitaux de Paris Créteil, Paris, France; 7The
+
+Liverpool Heart and Chest Hospital NHS Foundation Trust, Liverpool, UK; 8Department of Cardiovascular Surgery, Robert Bosch Hospital,
+Stuttgart, Germany; 9Department of Cardiac Surgery, University Medical Centre Utrecht, Utrecht, The Netherlands; 10Department of Cardiac
+Surgery, Humanitas Gavazzeni, Bergamo, Italy; 11Cardiovascular Center Aalst, OLV Clinic Aalst, Aalst, Belgium
+3000 Leuven, Belgium. Email: michiel.algoet@kuleuven.be.
+
+Robotic coronary and intra-cardiac surgery has been available for more than 25 years. In this period,
+multiple studies have demonstrated the beneficial effects of robotic surgery over conventional open surgery.
+Throughout the years, technical developments have enabled us to perform totally endoscopic coronary artery
+bypass (TECAB) grafting. But these techniques remained in the hands of a small group of pioneers because
+of a lack of structured training programs and the absence of long-term results at that time. Currently, a
+renewed interest and a wide dispersion of robotic platforms, thanks to use of robotics in other disciplines, has
+led to an exponential increase in robotic cardiac centers both in Europe and USA. Nonetheless, this increase
+was slowed down in Europe as a result of the uncertainty introduced by the implementation of a revised
+regulatory framework for medical devices [Regulation 2017/745, ‘Medical Device Regulation’ (‘MDR’)]. The
+MDR was introduced with the goal of increasing patient safety and supporting innovation. Implementing
+the MDR has proven to be exceptionally challenging and risks to the supply of essential devices have been
+identified. Changes to both regulatory and market dynamics led to a circumstance where the only available
+robotic platform for cardiac surgery decided to cease marketing of essential accessories for conducting
+surgery. This resulted in the disappearance of dedicated tools such as the Endowrist stabilizer, essential
+for TECAB, and the atrial retractor which is essential for intra-cardiac surgery. In the mean-time, further
+clinical evidence was published demonstrating the superiority of robotic cardiac surgery over other minimally
+invasive approaches. This has demonstrated the need to better define the clinical evidence requirements
+for regulatory purposes to ensure that dedicated tools for evidence-based interventions in robotic coronary
+surgery remain available such that TECAB can continue in Europe.
+Keywords: Totally endoscopic coronary artery bypass (TECAB); minimally invasive direct coronary artery bypass
+(MIDCAB); robotic cardiac surgery
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Algoet et al. MIDCAB to TECAB
+
+Background
+Coronary artery bypass grafting (CABG) is a procedure
+with a direct effect on life expectancy and quality of life (1).
+Although, in its early days, the procedure was invasive
+and required a long recovery time, minimally invasive
+approaches in the contemporary era have facilitated
+earlier recovery after surgery. The first minimally invasive
+left internal mammary artery (LIMA) to left anterior
+descending artery (LAD) was performed in 1994 by
+Benetti and Ballester (2), but was a procedure with a steep
+learning curve, high conversion, and too high complication
+rates (including post-operative pain) compared to median
+sternotomy. Techniques and procedures have been
+optimized since then based on the best knowledge, new
+techniques and experiences. This evolution leads to a new
+gold-standard clinical practice and continuously reduce
+the risk of the surgery. Most recent data underline the
+importance of the robotic graft harvesting as the graft
+quality is pivotal in enhancing patency rates and overall
+outcomes (3). In smaller series, even now thoracoscopic
+procedures show damage to the internal mammary artery
+(IMA) in up to 1.8% of cases (4). When the da Vinci robot
+was introduced in 1998, it allowed surgeons to work in
+the chest with articulating instruments, minimizing rib
+spreading, overcoming tremor, and elevating accuracy to
+the next level. The results of this ‘new’ way of harvesting
+the IMA were excellent and reiterated in a late European
+status report (5). Additionally, intra-cardiac procedures
+showed excellent results with low risk. New robotic
+platforms are now coming onto the European market and
+should demonstrate comparable safety and efficacy.
+Although the initial dispersion of robotically assisted
+procedures was rather low and limited to a group of
+dedicated surgical teams, exponential growth is currently
+taking place both in USA and Europe. Focus of the initial
+teams is oriented towards training and education of new
+surgeons, creating a new safe environment with a lot of
+background knowledge and support. The available ways of
+supporting other surgeons can be both live and in a digital
+environment, but both lead to a higher patient safety as the
+experienced surgeons co-chair at the operation table.
+Medical Device Regulation (MDR) entered into
+force in May 2021 replacing the Medical Devices
+Directive (Directive 93/42/EC, ‘MDD’). There was no
+‘grandfathering’ (i.e., an automatic acceptance of previously
+
+approved devices). In effect, all medical devices were treated
+as new devices, requiring compliance with a variety of new
+rules and procedures. For robotic surgical systems and
+their accessories, when used for interventions in contact
+with the central circulatory system, this brought the system
+from class II under the MDD to class III under MDR.
+This change in risk classification, combined with stricter
+procedural rules concerning clinical data expectations,
+led to a general, but not a specific increase in the clinical
+evidence expectations and as a result, notified bodies (the
+organizations who assess medical devices for CE-marking)
+were more likely to request specific clinical investigation
+data for particular accessories and interventions. The
+challenge in practice, however, is that it is not possible
+to know exactly what is required, and this may not be
+discovered until the manufacturer is undergoing ‘conformity
+assessment’ (the formal term for the assessment of technical
+documentation undertaken by a notified body). This likely
+led to some medical device manufacturers deciding to
+withdraw devices or accessories from the market, rather
+than take the risk that their device would be found to have
+insufficient clinical data following a long and expensive
+assessment. Some discussions between manufacturers and
+notified bodies as to the clinical evidence expectations are
+possible in the form of ’structured dialogue’ (6), however,
+the type of advice that can be requested or provided is as
+yet unclear with respect to clinical evidence. European
+Medicines Agency (EMA) expert panels for medical devices
+can provide pilot advice to a small number of device
+developers, however, the pilot will focus on orphan or
+paediatric devices. European Union (EU) advice structures
+are in stark contrast to the United States (US) Food and
+Drug Administration (FDA) system where advice is possible
+via the Q-Submission programme, where the US FDA can
+provide clear advice on clinical evidence expectations, with
+the opportunity to provide consistent advice to developers
+of similar technologies in a way that the decentralized
+system of notified bodies cannot. As minimally invasive
+robotically assisted procedures are estimated to be 3%
+of the current cardiac procedures, the current benefits
+for industry were rather small in proceeding to bring the
+accessories through an assessment, despite the potential
+benefits for patients [which includes a 20% shorter hospital
+stay, a shorter intensive care unit (ICU) stay, fewer blood
+transfusions, and excellent graft patency] (7).
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+A
+
+B
+
+Figure 1 Endoscopic surgery performed by a master-slave concept. (A) Two robotic da Vinci consoles in a training setting. (B) Robotic view
+during ITA harvesting. ITA, internal thoracic artery.
+
+Robotic-assisted (RA) cardiac surgery in the field
+
+Coronary surgery
+
+Concept
+
+The robotic system is used in two types of coronary surgery:
+RA-minimally invasive direct coronary artery bypass
+(RA-MIDCAB) grafting and totally endoscopic coronary
+artery bypass (TECAB) grafting (Figure 3). Both procedures
+are indicated for surgical coronary bypass grafting, but local
+legislation and availability of surgical instruments determine
+which procedure can be performed. The RA-MIDCAB
+technique is by definition a robotic thoracic procedure, as
+the robotic assistance is only used in harvesting the IMA on
+the left side (or bilaterally). After the thoracic phase, a minithoracotomy is made to perform the IMA to coronary artery
+anastomosis. The difference with the TECAB procedure
+is the possibility of making the coronary anastomosis with
+the assistance of the robotic system. Both procedures can be
+performed with or without cardiopulmonary bypass, and all
+instruments and technologies necessary for this operation
+have been used and validated for many years. However,
+due to the absence of agreed upon definitions of minimally
+invasive CABG, various techniques have developed.
+Although most of these techniques have contributed to the
+field, some have misused this term in various ways. It is
+important to adhere to some elements that define minimal
+invasive cardiac surgery: minimally invasive cardiothoracic
+access, off-pump strategy, minimally invasive graft
+harvesting, anti-inflammatory management, and enhanced
+recovery after surgery. Maximal compliance with these
+determinants is encouraged to fall under the definition
+of minimally invasive coronary surgery, including robotic
+coronary surgery (9).
+
+Robotic assistance for coronary surgery was used for the
+first time in 1999 by Carpentier and Loulmet in Paris (8).
+It was described as ‘computer-enhanced cardiac surgery’.
+The terms ‘robotic-assisted’ and ‘computer-enhanced’
+covers the topic well; it means the endoscopic procedure is
+now facilitated by a robotic computer system. This system
+is a master-slave concept, the instruments that are held by
+several persons during conventional endoscopic surgery are
+now held by a digitalized robotic system that mimics the
+movements made by the surgeon in his console (Figure 1).
+What is important is that the robotic system does not make
+any decisions itself and does not leave any implants or marks
+behind on the patient. It is an external device that facilitates
+difficult endoscopic surgery by adding more flexibility and
+accuracy, avoiding tremor and hinge effect.
+Interaction of the robotic system with the patient
+RA cardiac surgery is endoscopic surgery and requires
+thoracic trocar placement. Depending on the cardiac
+procedure, 3–4 intercostal trocar placements are made with
+or without an additional mini-thoracotomy. RA cardiac
+surgery is less invasive than conventional open cardiac
+surgery and comes with well-known benefits as shorter
+intensive care and hospital stay, less blood transfusion, less
+wound infections (5). The patient is positioned in dorsal
+decubitus as in conventional surgery. Trocars serve as pivot
+point and protection for the instruments. The robot is an
+external system that is positioned next to the operating table
+(Figure 2). The arms are connected to the trocar to allow an
+organized movement and articulation of the instruments.
+
+Intra-cardiac surgery
+The use of the robotic system in valve surgery mainly
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Algoet et al. MIDCAB to TECAB
+
+Figure 2 Overview of the surgical setup for robotic coronary surgery.
+
+RA-MIDCAB
+
+TECAB
+
+Figure 3 Incisions (red lines) for different robot assisted coronary procedures. RA-MIDCAB, robotic-assisted-minimally invasive direct
+coronary artery bypass; TECAB, totally endoscopic coronary artery bypass.
+
+involves interventions to the mitral valve (MV). The
+surgical approach has evolved over the years into a fairly
+standardized approach. The technique uses four 8 mm
+robotic ports introduced through the chest wall of the right
+hemithorax towards the heart. One port is used for the
+camera and the remaining three for robotic instruments
+that operate inside the heart. An assistant incision of
+approximately 1.5–4.0 cm in size is used during the
+
+procedure to support the intervention on the valve (Figure 4).
+The entire procedure can also be performed as a “ports
+only” procedure, where the assistant incision is replaced by
+a port with a diameter between 10–12 mm (10).
+The main indication for this technique is primary mitral
+regurgitation in asymptomatic, typically young patients.
+During the same procedure and with the same approach, a
+tricuspid valve (TV) repair can also be performed, the left
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+Figure 4 Incisions (red lines) for mitral and aortic valve robotassisted surgery.
+
+atrial appendage can be closed, and cryoablation of the left
+or both atria can be performed (11). This approach has also
+been successfully used for a long time for the correction
+of congenital heart defects [e.g., patent foramen ovale
+and atrial septal defect (ASD)] and extirpation of cardiac
+tumors, such as myxomas (12,13). Recently, the same
+approach has been successfully used for replacement or
+repair of the aortic valve. The position of the robotic ports
+is the same as for MV surgery, the only modification being
+that the assistant incision must be large enough to allow
+the artificial valve to be inserted into the chest (14). All of
+these procedures are by definition intra-cardiac procedures
+because the robotic instruments directly touch the heart and
+great vessels.
+Clinical evidence on robotic assisted cardiac
+surgery procedures
+Coronary surgery
+Surgical revascularization currently accounts for half of the
+robotic cardiac surgery volume in Europe. Data presented
+by Cerny et al. (5), covering the years 2016 to 2019, shows
+that robotic CABG is associated with very low mortality
+(0.6%) and no strokes. Conversions to larger incisions were
+performed in 2.6% of patients and the rate of revision for
+bleeding was 2.1%. Most (98.7%) of these procedures were
+
+beating-heart procedures. Cumulative incidence for all
+robotic procedures indicates that robotic cardiac procedures
+have a lower in-hospital mortality compared to the
+predicted EuroSCORE II, mainly driven by the RA-CABG
+group (Figure 5). Cavallaro et al. (15) studied 2,582 patients
+undergoing RA-CABG from 2008 to 2010 using the
+Nationwide Inpatient Sample database, a publicly available
+database of inpatient hospital care in the USA. The study
+showed lower stroke and transfusion rates in patients
+undergoing single-vessel robotic CABG compared to
+conventional surgery. Multi-vessel operations had similar
+mortality and cardiovascular complications, regardless of
+whether a robotic or conventional approach was utilized.
+A recent 25-year review reported on 1,762 RA-MIDCAB
+and 1,678 robotic TECAB procedures worldwide was
+done by Bonatti et al. (16). RA-MIDCAB resulted in 6.6%
+conversion to larger incisions, 1.9% revision for bleeding,
+0.4% stroke, and 0.4% mortality. For robotic TECAB,
+there was 10.3% conversion to larger incisions, 3.4%
+revision for bleeding, 1.0% stroke, and 1.3% mortality,
+but the percentage of multi-vessel bypass surgeries in this
+cohort was larger. Hospital length of stay was slightly more
+than 5 days for both methods.
+The current European outcomes for robotic CABG,
+as published in the status report, are comparatively
+positive (5). The low (2.6%) conversion rate likely reflects
+a learning curve of the robotic cardiac surgery community
+and demonstrates that the procedures have become more
+standardized. This learning curve has also been quantified
+by Göbölös and coworkers in a review on TECAB
+(Figure 6) (17). He demonstrated a reduction of the
+conversion rate from more than 50% to less than 5%
+over a period of 20 years. In the European status report,
+very few TECAB procedures were performed, likely
+due the lack of the Endowrist stabilizer for the new da
+Vinci X and Xi systems, which were most commonly
+used in Europe. The revision for bleeding rate of 2.1%
+was acceptable, but the hospital length of stay of 6.5 days
+seemed comparable to sternotomy. European healthcare
+and reimbursement systems, where shorter hospital stays
+lead to lower remuneration, have probably been a factor in
+this observation. Early recovery after surgery and return to
+activities should further be assessed prospectively.
+The latest series was published by Lo et al. and al
+reviewed their 10-year experience involving 562 patients
+using both mammary and radial grafts operated with
+RA-MIDCAB. The morbi-mortality rate was low, with
+conversion to sternotomy of less than 1%. Their long-term
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Algoet et al. MIDCAB to TECAB
+
+A
+
+B
+
+Observed mortality vs. EuroSCORE II
+2016–2019: 2,563 consecutive patients
+
+Observed mortality vs. EuroSCORE II
+2016–2019: stratified into CABG (n=1,266) and MV/TV surgery (n=945)
+
+MV/TV surgery
+
+CABG
+
+EuroSCORE
+
+EuroSCORE
+Mortality
+
+Consecutive patients in time
+
+Cumulative number of deaths
+
+Cumulative number of deaths
+
+EuroSCORE
+Mortality
+
+Mortality
+
+250 500
+Consecutive patients in time
+
+Figure 5 Cited from Cerny et al. (5). Cumulative incidence curve of observed mortality vs. expected mortality according to EuroSCORE
+II for (A) all consecutive patients and (B) stratified for CABG and MV/TV surgery. The x-axis represents all consecutive patients operated
+between 2016–2019. The red line represents the cumulative number of deaths as observed in this cohort of patients undergoing robotic
+cardiac surgery (“observed mortality”) while the blue line represents the cumulative sum of mortality risk as predicted based on the same
+patient’s baseline demographical characteristics using the EuroSCORE II as if they had undergone conventional surgery (“expected
+mortality”). The observed mortality was lower than that expected according to EuroSCORE II in the overall sample, mainly driven by a
+reduction in the mortality after CABG. CABG, coronary artery bypass grafting; MV, mitral valve; TV, tricuspid valve.
+
+Intra-cardiac surgery
+
+Conversion to larger incision, %
+
+Year of publication
+
+Figure 6 Cited from Göbölös et al. (17). Percentage representation
+of conversion to larger surgical incision on the publication
+timeline. The trend curve well demonstrates the decreasing
+probability of conversion in TECAB grafting evolution. TECAB,
+totally endoscopic coronary artery bypass.
+
+results report 5- and 10-year survival of 82% and 65%,
+respectively. This paper shows that the use of multiple
+coronary grafts is safe using robotic assistance with the
+avoidance of sternotomy complications (18).
+
+R o b o t i c M V s u r g e r y, i n c l u d i n g b o t h r e p a i r a n d
+replacement, accounted for one third of the European
+volume. The current rates of conversion (2.2%), revision
+for bleeding (2.3%), and stroke (0.6%) are all in line with
+published data (5,13,14), while the 1.8% mortality appears
+higher than that reported in the robotic literature. It needs
+to be pointed out that combined MV/TV operations (9.6%
+mortality rate, 5/52) and MV replacement (4.1% mortality
+rate, 8/197) were included in this analysis, which had a
+higher mortality rate than isolated TV procedures (0.0%
+mortality rate, 0/70) and isolated MV repair (MVR) (0.6%
+mortality rate, 4/626). When considering only the latter,
+the reported mortality rate can very well compete with
+results reported from high volume centers in the USA.
+By comparison, in Chitwood’s series of 540 robotic MV
+repairs performed at East Carolina University, revision for
+bleeding, stroke, and mortality occurred in 2.4, 0.6, and
+0.4%, respectively. Conversion to sternotomy was necessary
+in only one patient (0.2%) and the mean hospital stay was
+5.6 days (19). In 1,257 patients operated at Emory University
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+School of Medicine, Murphy et al. (20) noted reoperation
+for bleeding, stroke, and mortality in 2.2%, 0.7%, and
+0.6% respectively, with a mean post-operative length of stay
+of 4.9 days. Urgent conversions were necessary in 1.0%.
+Gillinov et al. (21) reported an extremely low mortality
+(0.1%) and stroke rate (1.4%) in the first 1,000 robotic
+MV patients at the Cleveland Clinic. Conversion to
+larger incisions occurred in 2.0% (sternotomy) and 2.3%
+(small thoracotomy), reoperation for bleeding in 2.5%,
+and median hospital stay was 5 days. Our post-operative
+hospital stay of 7.5 days exceeded that of USA series and
+this again is likely a reflection of European reimbursement
+systems. While robotic MV repair is more commonly
+performed in the USA, only 1,533 (35.5%) out of 4,322
+minimally invasive MV repairs documented in the Society
+of Thoracic Surgeons (STS) database were carried out using
+robotic assistance, with only five centers in this analysis
+performing more than 20 cases per year (22). Data based
+on recent meta-analyses (23,24) demonstrate that robotic
+MV procedures offer a lower incidence of postoperative
+atrial fibrillation, a lower need for transfusions, a shorter
+stay in the ICU and a shorter overall hospital stay,
+despite somewhat longer extracorporeal circulation and
+cardioplegic cardiac arrest times, compared to the classical
+sternotomy technique. In his meta-analysis including
+14 studies and 2,804 patients in the robotic group and
+3,537 in the conventional sternotomy group, Williams
+even demonstrated lower mortality in both matched and
+unmatched cohorts (23).
+The strongest evidence was published in 2024, when
+Mori et al. (25) performed a retrospective analysis based on
+data from the STS Adult Cardiac Surgery Database with
+a total of 7,962 robotic MV procedures. Using propensity
+matching, they created 6,962 identical pairs for comparing
+the robotic approach with the sternotomy approach and
+5,540 identical pairs for comparing the robotic approach
+with the mini-thoracotomy approach. Mortality was
+comparable for all approaches, but the robotic approach
+demonstrated lower conversion to MV replacement, less
+need for transfusion, shorter duration of postoperative
+artificial ventilation, lower incidence of postoperative atrial
+fibrillation, shorter overall hospital stay, and lower need for
+hospital readmission compared to both other approaches.
+Compared to the sternotomy approach, it also demonstrated
+a lower need for perioperative transfusion.
+Robotic MV replacement is technically more complex
+and more demanding than repair. The major challenge is
+dealing with calcification and valve suture arrangement with
+
+the robotic arms in place. The largest series was reported by
+Kuo et al. (26) from Tainan and Taipei in Taiwan, including
+52 patients who received bioprosthetic replacements with
+73% concomitant procedures, such as maze procedures,
+patent foramen ovale closure, and TV repair. The
+conversion rate to sternotomy was 1.9% and 1.9% of the
+patients were re-explored for bleeding. The stroke rate
+was 1.9%, but there was no in-hospital mortality. Another
+recent large series of robotic MV replacement by Arslanhan
+and colleagues reports a mean cardiopulmonary bypass
+time and cross clamp time were 143±54 and 93±37 minutes,
+respectively. Mean ICU stay time was 26.5±26.0 hours.
+Postoperative stroke was observed in one (0.9%) patient
+and new onset renal failure was observed in two (1.7%)
+patients. Perioperative and postoperative early mortality
+was observed in three (2.6%) patients, which was lower
+than expected. They concluded that robotic MVR can be
+performed with good early postoperative outcomes (27).
+Other procedures eligible for robotic cardiac surgery are
+atrial septum defect closure, left atrial myxoma resection,
+epicardial left ventricular lead placement, epicardial
+ablations (e.g., maze procedure), myocardial bridge division,
+ventricular tumor resection, and hypertrophic obstructive
+cardiomyopathy resection. Atrial septum defect closure
+has been the largest cohort of these other procedures.
+Multiple case series have been published, all with excellent
+outcomes and survival (13,28). Regarding the left atrial
+myxoma resection, robotic surgery is ideally suited for the
+minimal invasive approach, with the dexterity and flexibility
+of the instruments allowing for excellent visualization
+and resection. In the published cases, no conversions
+nor revisions has been needed (12). Arrhythmia surgery
+including lead placement and surgical treatment of atrial
+fibrillation are interesting cases for starting up a robotic
+program. Small series have shown comparable results to
+open techniques (29).
+
+Legal aspects towards robotic assisted cardiac
+surgery
+The regulation of robotic surgical systems in Europe
+Robotic surgical systems are a type of medical technology
+that is regulated as a medical device in the EU. In order to
+be made available in Europe, these systems must comply
+with the applicable regulations for medical devices. These
+rules are in the process of significant change in the EU,
+as the system moves from a directive-based system, with
+laws initially published in the early 1990s (93/42/EC,
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Algoet et al. MIDCAB to TECAB
+
+‘MDD’) (5), to the MDR (EU 2017/745 ‘MDR’). The
+MDR was published in 2017, it came into initial effect in
+May of 2021 and it has a transitional period that has been
+extended from 2024 to 2027 for high-risk devices (i.e., class
+III medical devices). As a result of a series of challenges in
+complying with the new rules, product withdrawals have
+been reported across a variety of specialties (7). This may
+be due to a lack of assessment capacity in notified bodies
+(the organizations responsible for assessing devices) (8),
+increased costs and durations of assessments, and a lack of
+predictability in understanding the type of clinical evidence
+which is required (9).
+When the MDD was first introduced in the 1990s, a
+compilation of clinical evidence (clinical evaluation) was
+not required for all devices and was only suggested ‘in
+particular’ for implantable and class III devices (30). Clinical
+evidence expectations are markedly different for medical
+devices when compared to medicines. All medicines require
+phased clinical trials, whereas medical devices undergo a
+more procedural assessment known as clinical evaluation,
+which can utilize data from other devices (demonstrated
+to be ‘equivalent’), clinical studies, literature reviews and
+post-market data relating to the use of the device. Under
+the MDD, there was a much more liberal acceptance of
+equivalence data, and as a result, it was often possible
+to avoid the need to conduct pre-market clinical studies
+by referencing the evidence for another device. MDR
+changed this by linking the risk classification of a device
+to a requirement to have ‘clinical investigations’, however,
+the design or purpose of these investigations is not further
+described. MDD required a demonstration of safety and
+‘performance’. Device performance has been seen as a
+characteristic of the device alone, to be determined when
+it is correctly used for its intended purpose on patients, but
+which is not assessed by a study of patient outcome (31). In
+other words, if the design engineers tested the device, this
+could often be taken as sufficient ‘performance’ and the
+need for a clinical study could often be avoided.
+MDR requires that all devices shall be safe and
+‘effective’ (32). This is a much stronger clinical evidence
+requirement, however, it is rarely discussed in guidance
+documents, which still tend to refer to ‘performance’.
+Surveys have found that the biggest challenge in preparing
+clinical evaluations for device developers is determining
+the “amount of data needed to generate sufficient clinical
+evidence” (33). Under the MDD rules, which continue
+to apply during the transition period, robotic surgical
+systems such as the da Vinci system (Intuitive Surgical,
+
+Inc., California, USA) are marketed as intermediaterisk devices (class IIb) for indications including general
+thoracoscopic surgical procedures (10). As a result of
+changes in the classification rules in the MDR, Really
+Simple Syndication (RSS) will in general be upclassified
+to class III. This upclassification, combined with other
+changes in the MDR which increases the requirement for
+clinical investigations for class III devices in particular—
+has increased the expectation for clinical investigations with
+respect to individual indications. As the classification rules
+are based on the timing and anatomical invasiveness of
+exposure, manufacturers may seek to limit the indications to
+those which stay within class IIb. As such, the use of these
+devices with respect to the MDR could become off-label,
+and the accessories for the higher risk indications may be
+withdrawn.
+In the US, robotic surgical systems are in general class
+II devices. The classification rules are different between
+the US and EU. As a result of the classification system in
+the US, the device can be marketed by following the 510(k)
+pathway, which allows a clearance based on substantial
+equivalence to a predicate (i.e., a previously approved
+device). Robotic surgical systems are medical products,
+however, the outcomes associated with the use of these
+products relies significantly on the practice of surgery and
+the healthcare system in which they are used. The overall
+responsibilities for the deployment of robotic surgical
+systems within a hospital therefore requires that device
+manufacturers, surgeons and health systems each take their
+responsibility. Surgeons in Europe have a responsibility to
+ensure that the interventions they conduct are supported by
+robust clinical evidence. The extent to which this clinical
+responsibility interacts with the regulatory responsibilities
+of manufacturers in complying with the MDR is currently
+unclear, as the clinical evidence requirements are not
+technology- or intervention-specific. Robotic surgical
+systems are not without challenges when used for different
+interventions (11). In some cases, an overall positive benefit/
+risk is not clear. In the EU, there is high-quality registry
+data relating to cardiothoracic interventions, however, it is
+unclear as to whether this is sufficient for notified bodies to
+approve the device for the MDR.
+FDA and RA cardiac surgery
+In the US, medical devices are approved by the FDA.
+Approvals are usually procedure-specific. The da Vinci
+robot was cleared by the FDA in 1997 for assisting surgery
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+and in 2000 for performing actual surgery. It received
+clearance for robotically assisted MV surgery in 2002, ASD
+repair and coronary bypass surgery followed in 2003 and
+2004, respectively. These approvals were through so called
+510(k) processes and fulfil the requirements for a class II
+medical device. The different classification and regulatory
+pathways are important differences between the EU and US
+systems. There is no guidance for either system concerning
+type of clinical studies that are necessary to receive
+regulatory approval and requirements are decided on a caseby-case basis. The current clearance of the da Vinci Surgical
+robot is “general thoracoscopic and thoracoscopicallyassisted cardiotomy procedures”. Under cardiotomy
+procedures, only MV surgery and coronary artery bypass are
+included. Any new indication needs to be approved by the
+FDA in the US meaning procedures like myxoma resection
+and arrhythmia surgery are by definition off-label uses, and
+as such they should typically be used under institutional
+review board (IRB) approval of each hospital and are under
+the surgeon’s prevue of responsibility to perform them. The
+FDA is a US federal agency and approvals on a state-level
+are not possible. The only way to use devices outside official
+approval is under investigational device exemption (IDE) by
+the FDA or through IRB approval per hospital. In the US,
+all medical device manufacturers participate in the FDA
+MAUDE database which tracks post-market medical device
+reports regarding safety incidents.
+
+experience are gathered, robotic systems will become more
+sophisticated and refined. Machine learning algorithms
+may be employed to analyze vast amounts of surgical data
+already available, enabling surgeons to make more informed
+decisions and customize procedures according to individual
+patient needs. The use of robotic technology in conjunction
+with artificial intelligence has the potential to revolutionize
+the field and further improve patient safety and outcomes.
+However, with the introduction of MDR in Europe,
+patients in Europe may be deprived of these potentially
+game-changing developments in cardiac surgery, since
+currently no robotic platform is available for cardiac surgery
+in Europe due to administrative constraints. The initial
+research and development work 25 years ago was performed
+on the da Vinci Si system. The current out phasing of Si and
+replacement towards Xi systems will make it impossible to
+use the previously developed Endowrist stabilizer. It will be
+necessary to re-adapt these tools to the current platforms.
+To get this work done, engagement of the surgical society
+as a whole is essential, and a proficiency-based training
+pathway and learning should be promoted. The procedures,
+both coronary and MV interventions, are no longer limited
+to pioneers but are now standardized and safe procedures
+that need to be taught in a structural way to allow a
+significant pool of surgical teams to be ready and operate
+at the highest level. Only then industrial partners will be
+able to re-engage and will be able to deal with the current
+MDR constraints and stay economically healthy. The same
+requirements are applicable to progress from MIDCAB to
+TECAB, as the knowledge is there but the dispersion and
+implementation now needs to be improved. The scientific
+society is best placed to embrace this procedural knowledge,
+monitor outcomes, and connect with industry to make these
+crucial steps forward. In recent years, new robotic platforms
+became available, such as CMR Surgical (United Kingdom),
+Medicaroid (Japan), SS Innovations (India), Medtronic
+(USA) and others. These new players might enable the
+relaunch of robotic cardiac surgery but will benefit from
+clear accreditation requirements, the cost of accreditation,
+and timeline.
+
+The future of RA cardiac surgery
+The future of robotic cardiac surgery holds immense
+promise. RA cardiac surgery is synonymous with minimally
+invasive techniques, reducing the need for large incisions,
+minimizing trauma to the patient, contributing to faster
+recovery times, reducing pain, and lowering the risks of
+infection while maintaining (or even improving) patient
+outcomes. Moreover, the high level of precision offered by
+robotic cardiac surgery ensures that delicate procedures,
+through small incisions, are executed with optimum
+precision. Visualization is paramount in surgery, and robotic
+systems typically offer an immersive and detailed view of
+the surgical site. The integration of augmented reality and
+virtual reality technologies, together with the excellent
+surgical view, holds immense potential in enhancing the
+surgeon’s ability to visualize the patient’s anatomy, leading
+to better identification of critical structures with improved
+decision-making and surgical planning (e.g., in valve
+repair, complex congenital defects, etc.). As more data and
+
+Conclusions
+Robotic cardiac surgery has been present for over 25 years
+and has demonstrated good early, mid- and long-term
+results. When the results are compared to conventional
+‘open’ surgery, we see the largest progress in terms of
+blood loss, wound infections, intensive care stay, and total
+
+Ann Cardiothorac Surg 2024;13(5):397-408 | https://dx.doi.org/10.21037/acs-2023-rcabg-0210
+
+Algoet et al. MIDCAB to TECAB
+
+hospital stay while maintaining the standard cardiovascular
+outcomes. When robotics are compared to other types
+of minimal invasive surgery, recent evidence also shows
+better outcomes in favor of RA cardiac surgeries. One
+may suggest the learning curve for robotics is less difficult
+compared to thoracoscopic-assisted surgeries and thus
+lower the threshold to perform robot-assisted cardiac
+surgery. However, at the moment we are in a legislative
+framework that creates the absence of certain crucial robotic
+instruments in Europe. These circumstances have made
+it difficult to perform robotic MV surgery and pushed the
+coronary field towards robot-assisted MIDCAB to harvest
+the internal thoracic arteries but a conventional hand sewn
+anastomosis instead of TECAB where you can perform the
+complete procedure without opening the patient’s chest.
+Since the da Vinci Si was announced to be outphased,
+the last centers in the US performing TECAB will have to
+cease their activities. Together with surgeons and industry,
+we need to pave a way to keep robotic cardiac surgery at
+the forefront of innovative cardiovascular medicine and
+make it available worldwide. Both surgeons and legal
+authorities must embrace old and new industrial partners
+to ensure patient safety and optimal outcomes in cardiac
+surgery. Together, we need to keep working on evidence
+that supports the use of the Endowrist stabilizer to allow
+us to perform TECAB. For coronary and intra-cardiac
+surgery, the techniques have been standardized throughout
+the years (both for on- and off-pump) with excellent results
+on medium and long term. All knowledge, evidence and
+experience combined. RA cardiac surgery seems to be future
+proofed and is a safe surgical innovation with an added value
+for the patient. We believe that together with surgeons,
+societal, industry, and regulatory bodies, RA cardiac surgery
+can be further developed towards a new standard for select
+cardiac diseases.
+When regulation was revised in the US following the
+thalidomide tragedy and Kefauver-Harris amendments, it
+became necessary to demonstrate ‘efficacy’ of medicines
+for the first time. This led to the establishment of a
+process with the US FDA to understand which drugs had
+evidence to support efficacy or not, known as the drug
+efficacy study implementation (DESI) (34). For medical
+devices in the EU, we appear to have similarly updated the
+clinical evidence expectations, however, we have left it to
+individual developers, companies, and regulators to make
+a determination on a case-by case basis as to whether the
+regulatory requirements have been met. In order to bring the
+regulatory and evidence-based medicine worlds together,
+
+we need to develop methods, processes, and specifications
+to ensure that evidence requirements are clearly defined and
+communicated to developers, regulatory bodies, and the
+clinical community in order to ensure that safe and effective
+interventions can continue and that innovation can be safely
+introduced.
+Acknowledgments
+Footnote
+to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

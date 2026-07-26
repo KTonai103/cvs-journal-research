@@ -1,0 +1,554 @@
+Keynote Lecture Series
+
+How to implement a clinical robotic mitral valve surgery program
+Anna Xue, Sarah Chen, Alison Ranade, Kimberly Smith, Jeff Kasten, Jorge Catrip, Bob Kiaii
+Division of Cardiac Surgery, University of California Davis Health, Sacramento, CA, USA
+
+Minimally invasive, specifically, robot-assisted mitral valve surgery has evolved as a method to intervene on
+mitral valve disease without a median sternotomy while providing the advantages of excellent visualization
+and allowing for precise technical movements in a small space with the goal to decrease surgical invasiveness,
+post-operative pain, and hospital length of stay. As patient interest in minimally invasive cardiac procedures
+become more prevalent and patients seek the opportunity to undergo robotic valve surgery, institutions
+worldwide are exploring the potential of establishing a robotic mitral valve surgery program. While robust
+existing experience in open surgical mitral valve repair, careful patient selection, a dedicated team, and
+institution support are fundamental factors to implement a new robotic mitral valve surgery program,
+we believe that simulation team training prior to transitioning to live cases is also crucial and should be
+incorporated to establish a successful mitral valve surgery program.
+Keywords: Minimally invasive; robotic; mitral valve surgery; stimulation team training
+
+Introduction
+The clinical practice of cardiac surgery has changed
+drastically in recent years as minimally invasive cardiac
+surgery has come to the foreground with reduced surgical
+invasiveness, post-operative pain, blood loss, and intensive
+care/overall hospital length of stay (1-3). Dr. Alain
+Carpentier performed the first robotic mitral valve repair
+in May 1998 using an early robotic protype, and in May
+2000, Dr. W. Randolph Chitwood performed the first
+mitral valve repair using the DaVinci system (4). Robotassisted mitral valve repair is well accepted with excellent
+results and without compromising patient safety or repair
+quality (5,6). Studies have also shown that although early
+direct costs were higher in robotic cardiac surgery, this was
+balanced by higher late indirect costs in traditional open
+sternotomy cardiac surgery due to longer intensive care
+unit (ICU) and overall length of stay, readmission rates,
+and transfusion requirements (7). However, the process
+of becoming an expert at utilizing the surgical robot for
+mitral valve procedures may be intimidating and dissuade
+some institutions from implementing a robotic mitral valve
+surgery program (8). While the fundamental factors to
+
+implement a new robotic mitral valve surgery program are
+similar to starting any cardiac surgery program, in order to
+become proficient with this innovative technology, training
+a dedicated and committed surgical team and reinforcing
+the non-technical skills of the individual members of the
+team is extremely crucial. At our institution, we utilized
+the DaVinci system (DaVinci Xi surgical system, Intuitive
+Surgical Inc., Sunnyvale, CA, USA) for all of our mitral
+valve repair simulation and live cases. Robotic mitral
+valve surgery techniques have been extensively described
+elsewhere and will not be described in detail here. The
+focus instead will be on the most important factors in the
+successful implementation of a robotic cardiac surgery
+program.
+Institution support
+Institutions interested in implementing a robotic mitral
+valve surgery program should have an established cardiac
+surgery program with prior experience with minimally
+invasive mitral valve procedures. Prior to the onset of
+a robotic mitral valve surgery program, support within
+the institution is important, including from the hospital
+
+Ann Cardiothorac Surg 2022;11(5):504-509 | https://dx.doi.org/10.21037/acs-2022-rmvs-14
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+Figure 1 LifeLike BioTissue mitral valve model.
+
+CEO, department chair, administrative staff, fellow
+surgeons, cardiothoracic surgery trainees, anesthesiologists,
+perfusionists, intensivists, operating room nurses, advanced
+practice providers, and other ancillary staff. Appropriate
+infrastructure and active involvement from the team
+members empower individuals to contribute ideas and
+feedback to improve outcomes. Sufficient allocation of
+robotic operating room time is also needed to ensure skills
+repetition, increasing experience, and progressive increase in
+case volume to navigate the learning curve. An independent
+surgical robotic training consulting company that works
+directly with hospitals to develop successful robotic surgery
+programs was approved and contracted by our institution
+to oversee the implementation of our robotic mitral valve
+surgical program and carry out training simulations.
+Robotic module training
+The first step to undertake at the onset of a robotic mitral
+valve surgery program is for team members to be introduced
+to the robotic system and technology. Representatives from
+Intuitive Surgical Systems were present onsite to provide
+detailed education of the robotic system including docking,
+instrument exchange, and key safety features. Surgeons
+also complete online training modules and technical skills
+training on the robotic console simulator. Intuitive surgical
+systems only provide online modules and onsite training of
+equipment for cardiac surgery programs and do not offer
+subsequent clinical training.
+Structured team training simulation platform
+Mitral valve surgery is one of the most complex and difficult
+procedures in cardiac surgery due to the complex anatomy
+
+of the mitral valve and its diverse pathology. Given this
+complexity, team training prior to performing robotic mitral
+valve procedures on patients is critical and essential to ensure
+successful outcomes. To develop a successful program, it
+is also important to ensure appropriate knowledge base
+and experience of team members. Surgeons should be
+proficient in open cardiac surgery and have expertise in
+the surgical management of mitral valve disease. However,
+beyond the surgeon, safe and effective performance in
+healthcare relies on teamwork as well as nontechnical
+skills such as communication and leadership (9).
+Traditionally, training in healthcare has been focused
+on individual technical and clinical skills. Adoption of
+formalized team training is increasing in response to the
+need for educational efficiency, clinical time pressures, and
+an ethical imperative “not to practice on real patients” (10).
+High fidelity patient simulators provide a realistic clinical
+environment with several anatomic and physiologic
+variations to mimic real clinical problems. Training
+modules using simulated chest cavities and hearts have been
+developed for open cardiac procedures but can be applied to
+robotic cardiac surgery as well (11). We utilized a thoracic
+cage model and LifeLike BioTissue mitral valve model
+(LifeLike BioTissue Inc., London, Ontario, Canada) which
+is made of a polymer processing hydrogel technology that
+mimics the tissue characteristics of the mitral valve (12).
+The mitral valve model as shown in Figure 1 may feature
+posterior leaflet prolapse and any of the biotissue chords can
+be torn or cut to simulate chordae tendinae repair. Cadaver
+or animal mitral valve models were not used as they are
+much more challenging to obtain approval to be brought
+into the hospital and operating rooms for simulation
+training due to their biohazard properties.
+Three of our cardiac surgery advanced practice providers
+
+Ann Cardiothorac Surg 2022;11(5):504-509 | https://dx.doi.org/10.21037/acs-2022-rmvs-14
+
+Xue et al. How to implement a robotic mitral valve surgery program
+
+Team members present for simulation
+
+Cardiac surgery
+(attending,
+resident, APP)
+
+Cardiac perfusion
+
+Anesthesia
+
+Cardiac OR nursing
+
+OR equipment
+specialists
+
+Figure 2 Team members present for simulation sessions. APP, advanced practice providers; OR, operating room.
+
+were selected to be designated robotic bedside assistants
+and were present at the onset of robotic system and
+simulation training. Although we have a cardiothoracic
+surgery residency training program at our institution, the
+involvement of dedicated advanced practice providers was
+extremely important for consistency as our cardiothoracic
+surgery trainees often rotate to other clinical rotations.
+The primary robotic cardiac surgeon at our institution
+had extensive experience in robotic cardiac surgery, and
+specifically, in robotic mitral valve surgery. However, for the
+primary surgeon and other team members to be proficient
+and efficient in robotic mitral valve surgery, it is essential
+for a team training simulation platform to be developed.
+All simulations sessions were performed in the dedicated
+robotic operating room. The first several team simulation
+sessions included the surgical team, anesthesiologist, cardiac
+perfusionists, operating room nursing and equipment
+specialists to allow for the appropriate configuration of
+the operating room and set up of the DaVinci robot,
+robotic consoles, operating table, anesthesia equipment,
+transesophageal echocardiogram machine, cardiopulmonary
+bypass machine, and sterile instrument tables (Figure 2).
+A total of 33 simulation sessions totaling 83 hours
+of mitral valve repair/valvuloplasty with neochords and
+annuloplasty with a semirigid band were performed.
+Critical procedural steps of robotic mitral valve repair were
+determined which included docking the robot, valvuloplasty,
+annuloplasty, and atriotomy closure. The duration of each
+of these critical procedural steps were documented for
+each simulation session. The three designated advanced
+practice providers each took turns performing the different
+
+procedural steps as bedside assistant. Technical skills
+were taught and reinforced, as well as the communication
+required between the bedside assistant and the surgeon at
+the robotic console.
+Through stimulation training, the duration of docking
+the robot, annuloplasty, valvuloplasty, and atriotomy
+closure all steadily decreased as team members became
+more competent, confident, and comfortable in each
+procedural step and the operation overall. The duration of
+our simulation training valvuloplasty and annuloplasty are
+shown in Figure 3. Variability in simulation times were the
+result of three different advanced practice providers and at
+times a cardiothoracic surgery resident rotating through
+different critical steps of the procedure. It may also be due
+to different experience levels, familiarity with the robot,
+and affinity to technology. The number of neochords used
+during valvuloplasty and the number of sutures placed
+during each annuloplasty simulation also differed, resulting
+in variable times. Additionally, there were gaps of time
+between training periods which was reflected in the longer
+duration times for valvuloplasty and annuloplasty during
+the first simulation session of the training period. When
+there were successive simulation sessions, the duration of
+the critical procedural steps steadily decreased. Overall,
+the structured team training simulation platform steadily
+improved the efficiency and flow of critical steps of robot
+assisted mitral valve repair while enhancing team dynamics.
+Debriefing sessions
+Following each simulation training day, a team debriefing
+
+Ann Cardiothorac Surg 2022;11(5):504-509 | https://dx.doi.org/10.21037/acs-2022-rmvs-14
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+Tra
+in
+
+Tra
+in
+
+ing
+3 d perio
+ay
+s d 1:
+
+0:36
+
+Tra
+in
+
+ing
+2 d perio
+ay
+s d 2:
+
+ing
+1 d perio
+ay d 3
+:
+
+Tra
+in
+
+Tra
+in
+
+ing
+1 d perio
+ay d 4
+:
+
+Tra
+in
+
+ing
+1 d perio
+ay d 5
+:
+
+ing
+1 d perio
+ay d 6
+:
+
+Tra
+Tra
+Tra
+inin
+inin
+inin
+ing
+gp
+g
+g
+1 erio
+1 d perio
+1 d perio
+1 d perio
+ay d 7
+ay d 8
+ay d 9 day d 10
+:
+:
+:
+
+Tra
+in
+
+:
+
+Time, minutes
+
+0:28
+
+0:21
+
+0:14
+
+0:07
+
+0:00
+
+0:22
+
+0:27
+
+0:26
+
+0:24
+0:17
+
+0:23
+0:16
+
+0:12
+0:15
+
+0:32
+0:23
+
+0:16
+0:23
+
+0:18
+0:20
+
+0:25
+0:23
+
+0:26
+0:18
+
+0:20
+0:20
+
+0:16
+0:12
+
+0:24
+0:18
+
+0:20
+0:16
+
+0:15
+0:12
+
+0:26
+0:25
+
+11/5/20 11/7/20 11/8/20 11/8/20 11/8/20 11/8/20 11/8/2011/21/20 11/21/2011/21/2011/22/2011/22/2011/22/2011/22/2012/13/2012/13/2012/13/20 2/6/21
+Valvuloplasty 0:18
+Annuloplasty 0:21
+
+2/6/21
+
+2/6/21 4/11/21 4/11/21 4/11/21 6/6/21 6/6/21
+
+6/6/21 7/11/21 7/11/21 8/1/21
+
+8/1/21
+
+8/8/21
+
+8/8/21 9/13/21
+
+0:19
+0:30
+
+0:13
+0:29
+
+0:21
+0:18
+
+0:18
+0:10
+
+0:17
+0:11
+
+0:26
+0:25
+
+0:19
+0:30
+
+0:16
+0:29
+
+0:18
+0:10
+
+0:19
+0:09
+
+0:17
+0:09
+
+0:22
+0:09
+
+0:24
+0:08
+
+0:23
+0:10
+
+0:30
+0:10
+
+Figure 3 Analysis of simulated key procedural steps (valvuloplasty and annuloplasty).
+
+session was conducted which comprised of all members
+present at simulation as well as the representative from the
+independent surgical robotic training company. Each team
+member was provided the opportunity to reflect on positive
+aspects of the day’s simulation training as well as room for
+improvement. The consultant also reviewed and compared
+the durations of each critical procedure step and offered
+insight for improvement for the next simulation training
+session. Additionally, given the different level of progression
+of the advanced practice providers, the debriefing sessions
+allowed the surgeon to make necessary adjustments for
+patient safety and procedural efficiency. If a particular
+advanced practice provider is not as comfortable with cutting
+sutures bedside, the surgeon is malleable to compensate
+for that by the addition of a robotic large cutting scissor to
+the instrument tray. The debriefing sessions were critically
+important and contributed to the steady improvement in
+efficiency and team dynamics throughout simulation training
+and carried over to the live cases.
+Live cases
+The number of simulation cases required prior to the
+first live case is based on comparing duration of critical
+procedural steps to the “best in class’ benchmark times
+derived from eight other high-volume institutions who
+have implemented successful robotic mitral valve surgery
+programs. Once the surgical team is able to achieve
+
+procedural step times at or better than the benchmark times
+on each critical procedure step then they are able to proceed
+to a live case. The independent surgical robotic trainer was
+present for the first 10 live cases after the establishment of
+our program with in-depth debriefing sessions following
+each live case.
+The structured team training simulation sessions
+allows surgical teams to perform more complex robotic
+cardiac procedures at the onset of program establishment.
+Robotic cardiac surgery procedures are divided into level
+1: early learning curve procedures using three robotic
+arms which include internal thoracic artery takedown,
+pericardial window, left ventricular lead placement; level
+2: intermediate procedures (based on surgeon’s previous
+minimally invasive surgical experience) which include single
+vessel robotic minimally invasive direct coronary artery
+bypass (MIDCAB), multi-vessel robotic MIDCAB, as well
+as the initiation of four-robotic arm intracardiac procedures.
+Level 3 advanced procedures include arrest heart totally
+endoscopic coronary artery bypass graft (AH TECAB),
+mitral valve repair/replacement, aortic valve replacement,
+concomitant valve repair/replacement and coronary artery
+bypass. The recommendation is to start with level 1 robotic
+procedures and progress to level 3 procedures as experience
+increases. At our institution, our robotic cardiac surgeon’s
+extensive prior robotic cardiac surgery experience allowed
+our program to begin with the intracardiac advanced
+procedures during simulation as well as the live cases. The
+
+Ann Cardiothorac Surg 2022;11(5):504-509 | https://dx.doi.org/10.21037/acs-2022-rmvs-14
+
+Xue et al. How to implement a robotic mitral valve surgery program
+
+structured team training simulation sessions allowed the
+rest of the team to progress rapidly to be able to assist the
+surgeon.
+Careful patient selection was performed for all live cases.
+All patients underwent standard preoperative evaluation
+with the addition of a robotic cardiac surgery protocol
+chest/abdomen/pelvis computer tomography (CT) to
+assess the anteroposterior (AP) diameter of the chest,
+trajectory to the mitral valve annular plane, and femoral
+vessel anatomy. If the AP diameter is too small, then the
+heart may be shifted to the left chest and access to the
+mitral valve becomes difficult. For the initial live cases,
+the ideal AP diameter to transverse diameter ratio should
+be close to 1 when selecting patients based on anatomic
+suitability. Following simulation training, our institution has
+successfully performed 29 live robot-assisted cardiac surgery
+procedures with excellent outcomes and no deaths. For the
+future, we are in the process of developing our institution
+into a case observation site and center of excellence for
+advanced robotic cardiac surgery for teams and hospitals
+across the world to visit for case observation.
+
+Acknowledgments
+The authors would like to acknowledge Peter Carnegie
+from Minimally Invasive Solutions, LLC for his tremendous
+assistance with developing our institution’s simulation
+training and guidance during the implementation of our
+robotic cardiac surgery program.
+Footnote
+Boston Scientific, Abbott, Johnson and Johnson. The other
+authors have no conflicts of interest to declare.
+
+Conclusions
+Robotic cardiac surgery has drastically changed the clinical
+practice of cardiac surgery in recent years. Patients benefit
+from rapid return to presurgical activities, decreased
+surgical invasiveness, blood loss, and hospital length of stay
+(1-3). While implementing a robotic mitral valve surgery
+program and the learning curve may appear daunting
+initially, developing and executing a structured team
+training simulation platform to train team members prior
+to live cases is crucial and allows for a more efficient and
+safe transition to live cases. If opportunity allows, observing
+cases at a well-established robotic mitral valve surgery
+center is also an invaluable experience for team members to
+gain additional technical and non-technical skills.
+The recommendation for establishing a robotic mitral
+valve program for a surgical team with no prior robotic
+experience is 20–30 live cases to achieve surgeon autonomy
+with at least 2 cases per month. This process takes
+approximately 15–20 months after completing simulated
+team training. Programs should also aim to perform a
+minimum of 20 cases per year to maintain proficiency (13).
+Lastly, an important factor to also consider in the
+implementation and maintenance of a robotic mitral valve
+program is the presence of a referral base that is large
+enough to maintain adequate case volume to support the
+
+program’s experience, quality, and existence. The institution
+should undergo routine surveillance and evaluation of
+outcomes to continue to build upon improvements and
+identify challenges to overcome.
+As more cardiac surgeons gain experience with robotic
+cardiac surgery techniques, the volume of robotic cardiac
+procedures worldwide will increase to meet patient demand
+and pave the way for the implementation of new robotic
+cardiac surgery programs.
+
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

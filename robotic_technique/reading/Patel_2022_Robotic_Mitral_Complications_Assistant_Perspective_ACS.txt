@@ -1,0 +1,1380 @@
+Keynote Lecture Series
+
+Complications and their management in robotic mitral valve
+surgery from the surgical assistant’s perspective
+Nirav C. Patel1,2, Aaron R. Macoskey3
+
+Northwell Health, Lenox Hill Hospital, Heart and Lung, New York, NY, USA; 2Zucker School of Medicine at Hofstra/Northwell, Hempstead, NY,
+
+USA; 3Northwell Health, Robotic Surgery, Manhasset, NY, USA
+Hofstra/Northwell, Hempstead, NY, USA. Email: nipatel@northwell.edu.
+
+Robotic mitral valve (MV) repair is an alternative approach to traditional MV repair via median sternotomy.
+There is a rich history of innovation embedded within robotic MV surgery. Since the inaugural robotic MV
+repair performed in May 1998 by Carpentier, progressive techniques and expanding indications have given
+surgeons the opportunity to offer an increasing number of their patients access to robotic MV surgery. This,
+coupled with less cynicism surrounding robotic and minimally invasive surgery, has stimulated robotic cardiac
+surgery program development and the number of robotic MV procedures performed annually. Utilizing
+the robotic technology in MV surgery is far from the standard of care and must be approached modestly
+by only well trained and experienced cardiothoracic surgeons and teams. Advanced surgical techniques
+provide numerous opportunities for complications and adverse outcomes. It is essential for the entire robotic
+cardiac surgery team to be aware of the additional risks during each step of the procedure. The fundamental
+principle of robotic MV repair is to avoid complications with anticipation. No surgery is without risk, and
+unfortunately, some of those risks are unavoidable. If a complication does occur, it is essential the surgeon
+and robotic team understand their roles and how to triage the event. This keynote lecture will outline each
+phase of the robotic MV repair surgery before, during and after the patient cart is docked to the patient.
+Within each phase we will identify potential complications and their management.
+Keywords: Robotic surgery; minimally invasive surgery; mitral valve (MV); complications
+
+Introduction
+Innovations in cardiothoracic surgery and surgical robotics
+generated the opportunity for the two to merge and
+produce an alternative to the traditional median sternotomy
+approach. Intuitive Surgical originated as a start-up
+company in 1995. After acquiring tele-presence surgical
+technology from Stanford Research Institute, Intuitive
+Surgical started developing the da Vinci Surgical System (1).
+Subsequent acquisitions by Intuitive Surgical aided in the
+development of their first surgical robotic system, da Vinci.
+To date, Intuitive Surgical have developed five robotic
+surgical systems: da Vinci, da Vinci S, da Vinci Si, da Vinci
+
+Xi and da Vinci X.
+Robotic assisted minimally invasive mitral valve (MV)
+surgery is an innovative technique highly experience
+surgeons utilize in lieu of an invasive median sternotomy.
+Robotic assisted MV repair has been widely adopted
+since the first case was performed by Dr. Carpentier and
+Dr. Mohr in 1998. The first MV repair was performed
+using a prototype of the da Vinci system, prior to the
+first generation da Vinci receiving Food and Drug
+Administration approval for intra-cardiac use in 2002 (2).
+Robotic MV surgery has since evolved in both the
+technology used and the surgical approach. To date, three
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+Table 1 Absolute and relative contraindications to robotic mitral valve repair and replacement
+Absolute
+
+Relative
+
+Prior right thoracotomy
+
+Previous sternotomy
+
+Severe pulmonary dysfunction
+
+Moderate pulmonary dysfunction
+
+Myocardial infarction or ischemia <30 days
+
+Asymptomatic CAD (treated)
+
+Coronary artery disease—requiring CABG
+
+Coronary artery disease—requiring PCI
+
+Severe generalized vascular disease
+
+Limited peripheral vascular disease
+
+Symptomatic CVD or stroke <30 days
+
+Asymptomatic CVD
+
+Poor right ventricular dysfunction
+
+Poor left ventricular function (EF <30%)
+
+Pulmonary hypertension (fixed >60 torr)
+
+Pulmonary hypertension (variable >60 torr)
+
+Significant aortic stenosis or insufficiency
+
+Mild to moderate aortic stenosis or insufficiency
+
+Severe annular calcification (repairs)
+
+Moderate annular calcification
+
+Severe liver dysfunction
+Significant bleeding disorders
+Chitwood (2). CABG, coronary artery bypass grafting; CVD, cerebrovascular disease; EF, ejection fraction; CAD, coronary artery disease;
+PCI, percutaneous coronary intervention.
+
+surgical approaches for robotic MV repair have been
+described: classic robotic MV repair, lateral endoscopic
+approach with robotics (LEAR) and complete endoscopic
+approach (3). This keynote lecture focuses on the classic
+robotic MV repair approach.
+The robotic assisted approach to MV repair creates
+favorable intraoperative and postoperative advantages for
+patients. Benefits of minimally invasive cardiac surgery
+include less pain, less blood loss, decreased hospital length
+of stay, improved cosmesis and quicker return to normal
+activity (4). Conversely, robotic assisted MV repair is more
+challenging from a technical standpoint and introduces risks
+at each step of the procedure. The cardiothoracic surgeon
+and every member of the robotic surgery team must be
+aware of risks associated with robotic MV repair and be
+prepared for the complications they may encounter.
+Preoperative considerations
+Risk prevention in robotic MV surgery begins before
+the patient enters the operating room (OR). First,
+creating a well-trained and dedicated robotic surgery
+team is essential. This team consists of the cardiothoracic
+surgeon, anesthesiologist, bedside assistant, perfusionist,
+circulating nurse and surgical technician. Each robotic MV
+surgery should be performed with only these individuals.
+
+The cardiothoracic surgeon must be experienced and
+proficient in minimally invasive non-robotic MV surgery.
+It is recommended the cardiothoracic surgeon completes
+a fellowship in minimally invasive surgery and attends
+Intuitive Surgical’s practical training lab. Repetition
+increases familiarity; therefore, the dedicated robotic
+cardiac surgery team must practice “dry-runs” of robotic
+assisted MV repair at a structured cadence.
+Patient selection is one of the most essential steps in
+robotic assisted MV repair and a predictor of potential
+intraoperative and postoperative complication. Although
+indications for robotic assisted MV surgery have expanded
+since its adoption, careful patient selection will reduce
+complications and adverse outcomes. Absolute and relative
+contraindications to robotic MV surgery are described by
+Dr. Chitwood (Table 1). Patient selection is a process that
+should involve a multidisciplinary team to ensure favorable
+outcomes.
+Phases of surgery
+Cardiothoracic surgeons must anticipate prolonged
+cardiopulmonary bypass (CPB), aortic cross clamp and
+intraoperative times during robotic cardiac surgery due
+to the increased number of steps compared to traditional
+median sternotomy (5). Figure 1 outlines the phases of
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Patel and Macoskey. Complications and management in robotic MV surgery
+
+Patient
+positioning
+
+Port
+placement
+
+Decannulation
+
+Cannulation
+
+Weaning
+from CPB
+
+Pericardiotomy
+
+De-Airing
+
+Creating
+exposure
+
+Repair
+
+Cardioplegia +
+aortic root vent
+
+Myocardial
+protection
+
+Aortic
+occlusion
+
+Left Atriotomy +
+retractor + LV vent
+
+Figure 1 Phases of robotic surgery. CPB, cardiopulmonary bypass; LV, left ventricle.
+
+a robotic MV repair. It is important to understand the
+phases of robotic surgery and anticipate when and how
+complications may occur.
+Patient positioning
+After establishing intravenous access, arterial catheter(s),
+intubation, central venous catheter (CVC), Foley catheter,
+Swan-Ganz catheter if indicated and transesophageal
+echocardiogram (TEE), attention will be focused on
+positioning of the patient. Positioning for the classic robotic
+MV repair will have subtle nuances from site-to-site. The
+following steps are taken to ensure optimal functionality
+with the da Vinci Xi patient cart and safety to the patient.
+Defibrillator pads on right scapula and left anterolateral
+chest wall. Bovie grounding pads should be placed on
+bilateral buttocks unless surgical implant is present. Patient
+is moved to align right flank with the right edge of the
+operative table; 500 mL saline bag wrapped in a bed sheet to
+serve as a “bump” is placed under the right scapula, anterior
+to the heater-cooler blanket. This allows the chest to elevate
+approximately thirty degrees and the right shoulder to drop
+posteriorly to prevent collision with the robotic left arm.
+Wrist restraint is placed on patient’s right wrist and passed
+under patient and secured to the left side of operative table.
+Left upper extremity is tucked in normal fashion using
+multiple foam or gel pads to protect critical structures.
+Right upper extremity will be suspended off the right side
+of operative table. Both upper extremities are positioned in
+a dependent position, avoiding abduction, external rotation
+and shoulder displacement. Hips and lower extremities are
+placed in anatomic position, ensuring no rotation of the
+hips and five degrees of flexion at the patient’s knees. Feet
+are protected with foam and secured to the operative table
+to prevent shifting during the operation. Positioning of
+the patient must be done meticulously to avoid injury to
+peripheral nerves, brachial plexus and cervical spine. If a
+heater-cooler blanket is used, avoid direct contact with the
+patient’s skin to avoid a burn injury. Applying Tegaderm or
+
+film dressing over defibrillator and bovie pads will prevent
+pooling of surgical prep solution, avoiding risk of surgical
+fire and ensuring proper contact with the patient. Unique
+to robotic mitral valve (MV) surgery, when applicable, the
+patient’s right axilla must be shaved, as it is oftentimes in
+the surgical field to accommodate the cross-clamp port. In
+addition to the right axilla, the entire anterior surface of the
+patient’s chest and lower extremities should be prepped into
+the surgical field in the event of emergent conversion to
+sternotomy.
+Port placement
+Placing surgical ports in the correct intercostal spaces
+reduces the risk of complication and overall difficulty
+of the operation. Preoperative imaging is essential to
+understanding the patient’s anatomy and planning of port
+location. Posteroanterior and lateral chest X-ray provides
+intrathoracic measurements ensuring patient’s anatomy is
+amenable to acceptable working area. Three-dimensional
+computed tomography with angiography (CTA) of the
+chest allows the surgeon to visualize the patient’s cardiac
+anatomy in relation to the rib spaces. Additionally, surgeons
+can create digital ports to determine the correct location
+for placement during surgery. Non-contrast computed
+tomography (CT) of the chest is still beneficial for
+preoperative assessment if contrast is contraindicated or to
+limit radiation exposure to the patient. Incorrect placement
+of ports may lead to iatrogenic injury to critical anatomy,
+external robotic arm collision, increased case complexity
+and even inability to complete the operation minimally
+invasively with the assistance of the robot.
+Mini-right thoracotomy, or working port, is performed
+on all cases at our institution and established prior to port
+placement. Surgical ports should always be placed under
+direct visualization with the assistance of the robotic
+endoscope or laparoscopic tower. When utilizing a mini
+thoracotomy, the surgeon may use intrathoracic finger
+palpation to guide port placement. This practice will
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+reduce the risk of injury to intercostal vessels, right internal
+thoracic artery (ITA), or puncture of critical anatomy. If
+intercostal bleeding is encountered, hemostasis must be
+achieved before proceeding onto the next step. Hemostasis
+is achieved with cautery, surgical clip, oversewing stitch or
+manual compression. Cauterization should be performed
+intrathoracic to avoid delayed wound healing, infection
+and to ensure proper cosmesis. A high rising diaphragm
+may cause visual obstruction. Retraction of the diaphragm
+can be achieved with retraction stitch. Using a pledgeted
+stitch is recommended to prevent laceration of the
+diaphragm. Control any diaphragmatic bleeding with
+additional pledgeted stitches. At the end of the operation,
+the diaphragmatic retraction stitch should be tied on itself
+rather than removed to avoid postoperative bleeding. If
+Endo Close device is used, intercostal bleeding may occur.
+The area should be inspected after each use, and hemostasis
+achieved at that time. If diaphragmatic retraction stitch is
+not desired or the patient has a large AP diameter, use of a
+15-cm robotic trocar for the right robotic arm will exclude
+the diaphragm completely.
+
+and appropriate communication between operators. The
+right ventricle (RV) is at risk of perforation during SVC
+and inferior vena cava (IVC) cannulation by the guidewire
+or cannula. To avoid this, the operator must have clear
+visualization with TEE when inserting the guidewire
+and positioning the cannula. If the RV is perforated,
+management depends on the extent of the injury. If the
+perforation is small, from the guidewire, the operator may
+choose to monitor and evaluate prior to closing. If the
+perforation is sizeable, and the patient is not on CPB, it will
+be extremely difficult to repair minimally invasively. The
+operator will be required to convert to sternotomy for open
+repair.
+
+Cannulation: internal jugular vein
+Robotic assisted MV repair requires peripheral bicaval
+cannulation. Superior vena cava (SVC) cannulation
+is commonly achieved via right internal jugular vein.
+Facilities must establish roles for this process to avoid
+contamination and iatrogenic injury. A two-operator
+approach is best practice. The SVC cannula may be placed
+in the ipsilateral side as the CVC. To avoid complications
+with SVC cannula insertion, it is important to maintain
+a sterile field and communicate efficiently. During all
+percutaneous cannulations, the surgeon must have complete
+visualization of needles, wires and cannulas with ultrasound
+and TEE imaging. Inadvertent carotid artery puncture
+during placement is rare but may occur. If this scenario
+occurs, the provider should not remove the needle due
+to limited control with manual compression. The injury
+should be inspected with ultrasound. Vascular surgery
+should evaluate, and dependent on the extent of the injury,
+an angiogram, covered stent, or cutdown with repair may
+be necessary. The SVC cannula should be inserted using
+the Seldinger technique in a controlled and methodical
+manner. Its position may be adjusted by TEE guidance or
+via the working port with direct palpation prior to initiating
+CPB. Excessive blood loss and exsanguination is avoided
+with SVC cannula occlusion using two tubing clamps
+
+Cannulation: femoral vessels
+Ilio-femoral vessels are routinely accessed for IVC
+cannulation and retrograde arterial cannulation. Thorough
+review of the patient’s history to identify presence of
+atherosclerotic disease, active wound infections and a recent
+coronary angiogram must be performed. If peripheral
+vascular disease (PVD) is suspected, preoperative evaluation
+of the lower extremities with CTA is preferred. In the event
+the patient does have severe PVD, consider contralateral
+femoral artery or alternate access. Assessment of the aortic
+arch and descending thoracic aorta with intraoperative
+TEE is to be performed prior to commitment to retrograde
+arterial cannulation via the femoral artery. Retrograde
+arterial perfusion increases risk of embolic stroke and
+retrograde aortic dissection (2). If significant atherosclerotic
+disease or mobile plaque is present in the ascending or
+descending thoracic aorta, alternate access or sternotomy
+approach must be considered. Any recent history of a
+coronary angiogram performed with femoral artery for
+access is noted.
+Coronary angiogram may cause fibrosis, scarring
+or narrowing of the femoral artery used for access. If
+femoral access coronary angiogram occurred >30 days
+from operative date, the ipsilateral artery is appropriate
+for use at our institution. If coronary angiogram occurred
+<30 days from operative date, the contralateral femoral
+artery or alternative access is considered. However, if the
+femoral artery diameter is generous, ipsilateral femoral
+access is not an absolute contraindication at our institution.
+Femoral arteries with a minimal luminal diameter of
+<7 mm are considered poor candidates for cannulation,
+and alternate access must be considered (6). Femoral access
+in the presence of active wound infection is an absolute
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Patel and Macoskey. Complications and management in robotic MV surgery
+
+contraindication at our institution and should be prepped
+out of the operative field.
+Percutaneous and traditional cut-down access to femoral
+vessels have been previously described. Intraoperative
+ultrasound is recommended regardless of approach to
+identify common femoral artery, superior to profunda
+femoris artery. Cut-down technique is preferred at
+Northwell Health, and is the technique recommended
+for patients with recent percutaneous intervention such
+as recent cardiac catheterization or prior percutaneous
+closure device and intervention. Cut-down technique gives
+the surgeon more control and access to repair the femoral
+vessels if required. Complications to consider with the
+cut-down technique typically occur post-operatively and
+include seroma, hematoma, delayed healing, lymphatic
+fistula and wound infection. These complications are
+avoided with the percutaneous approach, however the
+risk of limb ischemia, pseudoaneurysm and other vascular
+complications increase. Limb ischemia may be prevented
+or treated with placement of a distal perfusion cannula.
+Distal perfusion cannula is recommended for suspected
+lengthy CPB time, a small common femoral artery or
+abrupt change in near-infrared spectroscopy monitors
+(NIRS). If using NIRS, relative changes from the patient’s
+baseline rSO2 are more useful predictors of limb ischemia
+than the absolute values of rSO2 (7). If limb ischemia is of
+concern while exercising percutaneous cannulation, femoral
+cut-down is recommended for inspection. Compartment
+syndrome is a sequala of acute and prolonged limb ischemia.
+If compartment syndrome is suspected or identified,
+immediate release via fasciotomy is recommended. Vascular
+surgery should be consulted intraoperatively for assessment
+of muscle viability. Limb ischemia must be avoided in every
+robotic mitral operation. Limb ischemia and subsequent
+fasciotomy are absolute catastrophes in a minimally invasive
+operation and eclipse any benefit the patient would receive
+from a robotic MV approach.
+Complications resulting from IVC cannula insertion can
+be avoided with diligent TEE guidance and communication
+between surgeon and anesthesiologist. Whether inserting
+by cut-down or percutaneous techniques, cannulation
+is performed by Seldinger technique over a wire. If not
+performed methodically, the guidewire may perforate
+the right atrium (RA) or create a patent foramen ovale
+(PFO). Injury to the RA can be repaired primarily via miniright thoracotomy. If PFO is created, it can be repaired
+primarily while on CPB. After successful cannulation, both
+arterial and venous cannulas must be secured in place. We
+
+recommend suturing the cannulas to the patient with 2-0
+silk suture. After initiation of successful CPB, the arterial
+and venous cannulas should be covered with blue towels to
+avoid disruption and migration during the operation. The
+bedside assistant must routinely inspect the position of the
+arterial and venous cannulas throughout the duration of the
+operation. Any concern must be communicated immediately
+to the surgeon.
+Cannulation: axillary
+Axillary cannulation is recommended in patients with
+an atheromatous aorta, severe PVD, morbid obesity or
+active groin infection. Axillary cannulation will provide
+antegrade arterial perfusion, decreasing the risk of embolic
+cerebrovascular accident (CVA) in patients with aortic
+arch or descending thoracic aortic atherosclerosis. Left
+axillary access should be reserved for patients with a
+history of right axillary surgery or vascular access as the
+right axillary artery is closer to the operative field (8).
+Injury to the brachial plexus may occur during axillary
+cut-down, therefore dissection must be precise, and stress
+produced by retractors should be limited. The axillary
+artery is extremely thin and fragile and must be handled
+and manipulated delicately. Commonly, an 8mm Dacron
+graft is sewn end-to-side to the axillary artery. The
+surgeon and first assistant must anticipate this to prevent
+dissection of the artery and limb ischemia. If this occurs
+or is suspected, selective peripheral angiogram needs to be
+performed and injury repaired to restore perfusion. The
+operation may need to be aborted if the injury is extensive
+requiring vascular surgery intervention. Vessel loops
+should be utilized to establish distal and proximal control
+and vessel clamps readily available prior to arteriotomy to
+prevent exsanguination.
+Pericardiotomy
+Significant and redundant pericardial adipose pad or
+residual thymus should be excised prior to pericardiotomy
+to improve visualization. The adipose pad and thymus are
+quite vascular. Achieve hemostasis of adipose tissue, thymus
+or thymic vein upon entry. Bleeding must be controlled
+when encountered to prevent unnecessary blood transfusion
+and obstruction of the operative field. Hemostasis can be
+achieved using robotic EndoWrist cautery, handheld bovie
+or surgical clips.
+Phrenic nerve injury is a known complication of robotic
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+MV repair. Phrenic nerve must always be identified
+prior to performing pericardiotomy. Pericardiotomy is
+performed anterior to the phrenic nerve, maintaining
+generous distance away from the nerve. Pericardiotomy is
+less complicated once the patient is on CPB, however an
+experienced surgeon may choose to perform pericardiotomy
+prior to CPB to decrease time on bypass. Pericardial
+retraction sutures will be utilized, so a substantial distance
+from the nerve is preferred to limit the tension applied to it
+throughout the operation.
+Cautery on or near the heart may cause ventricular
+fibrillation and other dysrhythmias. To avoid this, use the
+left arm EndoWrist instrument to securely retract the
+pericardium laterally as the pericardiotomy is performed. If
+the patient experiences a dysrhythmia, discontinue any use
+of robotic energy and treat the underlying issue. Placement
+of defibrillator pads appropriately during patient positioning
+is essential for this reason.
+
+injury. The bedside assistant must be aware of intrathoracic
+conflicts and collisions as well. The aortic cross clamp is at
+risk of collision with robotic arm one inside and outside the
+chest cavity. Proper port placement, targeting and docking
+of the da Vinci Xi should prevent external robotic arm
+collisions. After docking is complete, flex joints and then
+assess patient clearance to ensure proper spacing between
+joints, arms and the patient. Unlike earlier generations of
+the da Vinci robot, the Xi is engineered to create a safer
+working environment.
+
+Creating exposure
+After pericardiotomy is complete and pericardial retraction
+sutures are placed, exposure necessary for the operation is
+obtained. Every patient’s anatomy is unique and different
+planes will need to be developed. Dissection around the
+aorta is necessary if using an aortic cross clamp. Injury
+to the aorta may occur when developing a plane in the
+transverse sinus or when extending the pericardiotomy
+superiorly. If the injury is not substantial, it may be
+controlled with compression and repaired minimally
+invasively. If the injury is significant, CPB needs to
+be established as rapidly as possible. Conversion to
+sternotomy may be required. Each facility and robotic
+team must have protocols to follow in the event of aortic
+injury or conversion. These scenarios must be familiar to
+all individuals participating in robotic MV surgery and
+practiced frequently.
+The pulmonary artery (PA) may anatomically take a
+more caudal course in some patients and be at risk for
+injury when developing planes. This may be controlled with
+manual compression using the EndoWrist instruments and
+primary repair. If the injury is more extensive it may require
+rapid initiation of CPB or conversion to sternotomy.
+The bedside assistant must be conscious of all trocars
+once they are docked to the patient cart. Port placement can
+be tight in patients with small body habitus. It is essential
+that the bedside assistant is conscious of all surrounding
+instruments and ports to reduce robotic arm one induced
+
+Cardioplegia and aortic root vent
+Placement of cardioplegia and aortic root vent cannulas
+is not necessary when aortic occlusion is achieved with
+an endoballoon. The central lumen of the endoballoon
+is utilized for cardioplegia delivery and as the aortic root
+vent. When a transthoracic aortic occlusion clamp is used,
+additional aortic root vent and cardioplegia cannula is
+required. This can be challenging when inserting through
+a stab incision through the second or third intercostal
+space in the mid-clavicular line. An extended aortic root
+vent cannula is used for precise insertion directly through
+the assist port. To avoid aortic hematoma, bruising and
+bleeding, aortic root vent stay sutures are placed prior to
+heparinization. Two 2-0 pledgeted Ethibond sutures are
+placed to secure the cannula during the operation. The
+aortic root vent should be placed in the ascending aorta,
+leaving appropriate room for the transthoracic cross clamp.
+All peri-aortic adipose tissue and redundant tissue in
+proximity to the root vent insertion site should be excised
+to ensure the cannula will remain secure throughout the
+procedure. At Northwell Health, after achieving activated
+clotting time (ACT) of >450 seconds, the perfusionist is
+asked to lower the systemic blood pressure, and the bedside
+assistant carefully places the aortic root vent. The console
+surgeon helps guide the bedside assistant with right and
+left robotic arms. This technique decreases the risk of
+inadequate penetration of ascending aorta which can result
+in bleeding, requiring additional pledgeted repair sutures,
+or even acute aortic dissection. To reduce the number of
+accessories extending out of the working port, the aortic
+root vent is secured with a snare and short tourniquet
+tubing. Three large surgical clips are placed at the distal
+aspect of the tourniquet to secure its position, and the
+tourniquet is tucked into the chest, parallel with the SVC
+and posterior to where the transthoracic aortic cross clamp
+will be positioned. The bedside assistant must ensure proper
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Patel and Macoskey. Complications and management in robotic MV surgery
+
+de-airing technique is performed when connecting the
+aortic root cannula to the bifurcated cardioplegia cannula
+adapter. This step is critical to prevent air embolism which
+could result in a transient ischemic attack (TIA) or CVA.
+The provider performing this step must be confident in
+the steps of de-airing and communicate clearly with the
+perfusionist.
+Aortic occlusion: aortic cross clamp
+Aortic occlusion during robotic MV surgery is achieved
+by either transthoracic aortic cross clamp or endoballoon
+aortic occlusion. At our institution, we use either the
+Cygnet-Flexible clamp or the Chitwood-DeBakey
+transthoracic clamp. The Cygnet-Flexible clamp is
+passed through the assist port for application and tucked
+away from the field and covered with a blue towel.
+The Chitwood-DeBakey clamp is inserted through an
+additional incision in the chest wall. Bates describes that
+when using the Chitwood-DeBakey clamp, it is important
+to insert the clamp through the second or third intercostal
+space, mid-to-posterior axillary line (9). To avoid conflict
+with the left instrument arm, it must be passed closely in
+front of the SVC at the pericardial junction (9). Caution
+must be exercised to ensure the upper jaw of the clamp
+is within the pericardial sac and does not include the
+pericardial edge.
+Aortic cross clamping in robotic cardiac surgery
+should only be performed by the surgeon or an extremely
+experienced bedside assistant. This phase of the operation
+contains potential complications the robotic team must
+anticipate. Use of the Chitwood-DeBakey clamp requires an
+additional incision in the chest and puncture of the thoracic
+cavity. After creating the tunnel, inspect the site with the
+endoscope to evaluate bleeding. If bleeding is present, it
+should be controlled prior to inserting the cross clamp. If
+the chest wall incision for the Chitwood-DeBakey clamp
+is created too anterior, there is risk for conflict with the
+left instrument arm which could be catastrophic. Forceful
+collision could cause aortic rupture, dissection or bruising,
+and release or migration of the cross clamp. Degree of
+aortic rupture depends on location and extent. If significant,
+the operation will be abandoned, the patient will be rapidly
+placed on CPB, and then converted to sternotomy to repair
+aortic injury. If aortic dissection is suspected, evaluation of
+ascending aorta, aortic arch and descending thoracic aorta
+is performed with TEE by anesthesia. If aortic dissection
+is confirmed, the operation will be aborted, and dissection
+
+managed per dissection type guidelines. Retrograde
+aortic perfusion is contraindicated in presence of acute
+aortic dissection as well as establishing alternate access
+for antegrade aortic perfusion to continue MV surgery. If
+cross clamp is forcefully displaced causing aortic hematoma
+or bruising, adventitia should be released by the surgeon
+and cross clamp repositioned in correct position. Proper
+positioning of the clamp will prevent these scenarios. The
+bedside assistant must be conscious of the cross clamp
+throughout the entirety of the case to avoid collision
+as well.
+Creating exposure is an essential step when utilizing
+transthoracic aortic cross clamp. The surgeon must develop
+planes that allow adequate room for the clamp jaws to pass.
+Failure to complete this step may result in clamping of the
+PA or left atrial appendage (LAA). Prior to aortic occlusion
+with the transthoracic aortic clamp, the right PA and LAA
+must be visualized and freed from the clamp jaws (9). If
+using the Chitwood-DeBakey clamp, visualize its location
+in relation to the SVC after aortic occlusion to ensure there
+is no obstruction which would create insufficient venous
+drainage. To reduce risk of TIA or CVA, limit number of
+aortic occlusions with transthoracic cross clamp. Single
+cross clamping is best practice.
+Aortic occlusion: endoballoon aortic occlusion
+Aortic occlusion with endoballoon should be reserved
+for experienced surgeons with considerable robotic MV
+experience. Synergy with qualified anesthesiologist is crucial
+to successful positioning of the endoballoon. This method
+of aortic occlusion adds complexity to the operation.
+Difficulty passing the guidewire retrograde across the aortic
+arch and repetitive cannulation of the great vessels with
+the guidewire can be troubling. If this occurs, options may
+include advancing the endoballoon into the descending
+aorta, pulling the guidewire back and reinserting it again.
+Additionally, exchanging the guidewire for a multipurpose
+or JR4 catheter may be beneficial. When endoballoon aortic
+occlusion is anticipated, the patient will require bilateral
+radial artery catheters prior to initiation of the operation.
+Migration of the endoballoon may occur during the
+operation, which can be identified by discrepancies in radial
+artery pressure readings. Distal migration of endoballoon
+will obstruct the origin of the innominate artery resulting
+in systemic hypotension (4). Proximal migration of the
+endoballoon has been reported and will obscure the
+operative field especially near the left fibrous trigone (10).
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+Additional methods have been described to confirm
+the endoballoon is in the correct position. Inflating the
+endoballoon with a solution of 0.03% indocyanine green
+(ICG) in 5% albumin while activating the near-infrared
+laser on the robotic endoscope fluoresces the endoballoon,
+allowing it to be visualized as a green band around the aortic
+wall (11). This technique can be utilized to intermittently
+confirm position of endoballoon and ensure it has not
+migrated.
+Iatrogenic endoballoon rupture is quite problematic
+and may occur due to overinflation or puncture. During
+MV repair, if sub-valvular neochords are used, it is
+recommended they are placed first and that annuloplasty
+suture placement start at P1 progressing up to mid-A2
+segment as endoballoon rupture may occur with deep
+suturing in this zone (12).
+Iatrogenic aortic dissection resulting from endoballoon
+aortic occlusion is rare but has been reported. Caution must
+be exercised in patients with atherosclerotic disease and
+when utilizing retrograde arterial perfusion in ipsilateral
+extremity as endoballoon device. When the endoballoon
+catheter occupies part of the arterial cannula lumen, high jet
+pressures are created at the exit of the cannula, increasing
+the risk of retrograde aortic dissection (13). To prevent this,
+all members of the team must monitor perfusion pressures
+from that femoral artery cannula. If the patient becomes
+significantly hypertensive, pharmacotherapy must be used
+to normalize perfusion pressures. If unsuccessful, the team
+may try adjusting the trajectory of the femoral cannula
+or placing an additional retrograde arterial perfusion
+cannula in the contralateral femoral artery to split arterial
+perfusion bilaterally (13). Retrograde aortic dissection is a
+catastrophic complication of this operation. If this occurs,
+the extent of the dissection must be evaluated by TEE. If
+there is evidence of malperfusion or rupture, the dissection
+needs immediate repair by open surgical or endovascular
+approach. If the dissection is limited, the procedure should
+be aborted, the patient resuscitated and monitored in
+the ICU.
+T I A a n d C VA a r e p o t e n t i a l c o m p l i c a t i o n s o f
+endoballoon aortic occlusion. The endoballoon is
+typically inserted via left femoral artery. As insertion
+and positioning occurs over a wire using the Seldinger
+technique, wire manipulation must be limited to prevent
+emboli from an atheromatous aorta. As endoballoon
+is passed retrograde through the descending thoracic
+aorta, across the aortic arch and into the ascending aorta,
+anesthesia must use narrow windows on TEE to alert
+
+the surgeon of any identifiable atherosclerotic plaque
+and calcifications. Limit contact with the intima and
+unnecessary inflation to prevent micro emboli.
+
+Left atriotomy
+Robotic MV exposure is most frequently achieved by left
+atriotomy through the interatrial groove. The primary
+incision should be slightly posterior to the interatrial
+groove. Extension of the atriotomy should be performed
+inferiorly onto the posterior wall of the left atrium (LA). If
+the atriotomy is extended superiorly behind the SVC, it will
+be challenging to close at the conclusion of the operation.
+The bedside assistant must frequently use suction to keep
+the operative field free of potential emboli that could
+cause postoperative TIA/CVA. LA lift retractor is placed
+in robotic arm three. When exposing the MV, the LA may
+tear if excessive force is generated anteriorly by the LA lift
+retractor. This will result in challenging closure at the end
+of the case.
+Left atrial lift retractor
+The LA lift retractor is placed through the robotic third
+arm port. The port is placed in the fourth or fifth intercostal
+space, medial to the midclavicular line (4). This port must
+always be placed under direct visualization. The right ITA
+is located 2–3 cm lateral to the midline of the sternum. To
+avoid injury to the ITA, the surgeon should palpate where
+they intend to place the robotic third arm while visualizing
+with the robotic endoscope. If the ITA is injured, hemostasis
+must be achieved. This is performed with surgical clips or
+suture ligation.
+The atrioventricular (AV) septum can be injured by the
+LA lift retractor when creating exposure of the MV. The
+distal tips of the LA lift retractor need to be inspected to
+ensure they do not include the AV septum. If there is injury
+to the AV septum, it is either identified after removal of
+the LA lift retractor or when the MV is assessed by the
+anesthesiologist. Prevent this complication by minimizing
+tension with the LA lift retractor. Attempt to repair small
+injuries with primary closure using pledgeted mattress
+sutures. Larger defects and persistent small injuries will
+need patch repair.
+Excessive anterior tension on the LA by the LA lift
+retractor may distort or compress the RV. If the LA
+lift retractor is not relaxed during administration of
+cardioplegia, the right coronary anatomy may be obstructed
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Patel and Macoskey. Complications and management in robotic MV surgery
+
+and not receive essential myocardial protection. This will
+result in RV dysfunction when weaning from CPB. The
+LA lift retractor must always be relaxed when running
+cardioplegia to ensure adequate distribution and protection.
+The LA lift retractor also becomes useful at the end of the
+procedure in providing exposure. The surgeon can retract
+the RA with the LA lift retractor to expose to the LA suture
+line. Additionally, if a temporary pacing wire is desired or
+required, the LA lift retractor can be utilized to lift up the
+pericardium for placement onto the RV.
+Left ventricular vent
+To avoid additional clutter through the working port,
+the left ventricle (LV) vent may be passed through an
+additional stab incision. This should be created posterior
+and slightly superior to the working port. LV perforation
+is not recognized until after MV repair is complete, aortic
+occlusion is released and anesthesia is evaluating the
+competency of the MV. Techniques to prevent this from
+occurring include using a smaller diameter soft floppy
+catheter and crossing the MV with the vent under direct
+visualization after left atriotomy with the robotic arms.
+Oftentimes, traditional LV vent is not used in robotic MV
+surgery. Rather, a basket sucker is placed in the LA to clear
+the operative field while removing the risk of LV perforation.
+LV perforation by LV vent is identified by surgeon due to
+excessive bright red blood in the pericardium. Repair of the
+defect is unlikely from a minimally invasive approach and
+conversion to sternotomy is required.
+Myocardial protection
+It is difficult to utilize myocardial temperature probes
+due to limited visualization of the RV and essentially no
+visualization of the LV. Similarly, topical hypothermia
+with ice is not practical via mini-thoracotomy, and not
+possible in totally endoscopic surgery. If complex repair is
+anticipated, systemic hypothermia should be considered.
+When delivering cardioplegia, it is important to understand
+infusion and root pressures to ensure the transthoracic
+cross clamp or endoballoon have not migrated. Typically,
+and at our institution, del Nido is the cardioplegia
+solution of choice in robotic MV surgery. It is favorable
+for this operation given it prolongs myocardial protection
+and regularly requires only one dose per operation.
+Communication with anesthesia during cardioplegia
+delivery is critical. It is important to ensure adequate
+
+venous drainage to maintain myocardial temperature and
+protection. In the event of RV distension, redosing of
+cardioplegia is essential.
+MV repair
+The surgeon and bedside assistant must work as a team
+during the MV repair due to intricate movements, suture
+management and knot tying to perform the best repair
+the first time to limit CPB time. Suture management may
+become overwhelming for the bedside assistant, so a suture
+guide can be helpful. There are nuances to every repair
+depending on the pathology, individual surgeon technique
+and surgeon preferences. If neo-chords are required, it is
+recommended they are placed prior to annular sutures.
+Once neo-chords are placed distally in the papillary muscle,
+the remaining suture can be passed to the surgeon to be
+stored in the LV until annular sutures are placed to limit
+traffic in the working port. To further decrease demand
+on the bedside assistant, the annuloplasty ring may be
+passed to the surgeon to be sewn in with running technique
+rather than interrupted annular stitches with parachuting
+technique. After annular sutures are properly placed
+through the annuloplasty ring, they will be secured with
+either Cor-Knot or traditional tying with assistance of the
+knot pusher. The bedside assistant and surgical tech must
+be competent with the knot pusher to avoid loose knots or
+untying of the knots. If this occurs, it will require additional
+annular stitches which increase CPB time.
+Visualization is improved when utilizing the robotic
+endoscope with 3DHD vision. Awareness of sinoatrial and
+AV node location in relation to the MV annulus during
+suture placement is important to avoid conduction injury.
+Similarly, the surgeon needs to exercise caution when
+placing annuloplasty sutures near the P1 scallop, especially
+in left dominant circumflex systems. Left circumflex injury
+will be identified when weaning from CPB and new wall
+motion abnormalities are identified on TEE assessment and
+inferior ST changes are observed on the electrocardiogram
+(ECG). To manage this, the surgeon may elect to go back
+on CPB and replace the annular sutures near the P1 scallop.
+Other management options include supporting the patient
+with inotropic pharmacotherapy, intra-aortic balloon pump
+(IABP), extracorporeal membrane oxygenation (ECMO) or
+direct transfer to cardiac catheterization lab for coronary
+angiogram. If there is partial obstruction or kinking of
+the circumflex, percutaneous coronary intervention (PCI)
+may be possible. If there is complete occlusion, the patient
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+with saline injection. If a power suction-irrigator is used
+with an extended rigid tip, the bedside assistant needs to
+be conscious as to how deep into the LV they are inserting
+the tip. As the bedside assistant cannot see into the LV well,
+they need to be careful when evaluating the valve.
+
+Table 2 Echocardiographic risk factors for SAM
+Metric
+
+Parameter
+
+Aortomitral angle
+
+(A) <120°
+
+End-diastolic-diameter
+
+EDD <4.5 cm
+
+Posterior leaflet length
+
+PL ≥1.5 cm
+
+Anterior leaflet length
+
+AL ≥2.5 cm
+
+Systolic anterior motion (SAM)
+
+Basal septum
+
+BS ≥1.5 cm
+
+Coaptation-septum distance
+
+CS ≥2.5 cm
+
+SAM reportedly occurs in 4–10% of MV repairs or
+reconstructions irrespective of technique (14). This
+complication is cumbersome as it is pernicious and can
+worsen as the geometry of the LV remodels. Denti et al.
+describes TEE parameters (Table 2) that increase the risk of
+SAM in patients undergoing MV surgery (14).
+Numerous techniques have been described to prevent
+and repair SAM depending on the patient’s presenting
+geometry and pathology. At Northwell, Dr. Patel favors
+use of a large annuloplasty ring with long posterior
+leaflet, reduction of P2 height with short neo-chords,
+and avoidance of large quad-resection and slide-foldingplasty. If mitral regurgitation is greater than mild and left
+ventricular outflow tract (LVOT) gradient is greater than
+50 mmHg, Dr. Patel recommends upsizing the annuloplasty
+ring, shortening the neo-chords, and as a last resort, the
+Alfieri stitch.
+
+Denti et al. (14). SAM, systolic anterior motion.
+
+will require coronary bypass to the circumflex artery. If
+the coronary angiogram identifies there is spasm, direct
+injection of nitroglycerine may improve the patient’s
+condition.
+If decalcification of the LA wall is required during the
+MV repair, the surgeon may experience a posterior LA
+injury. This occurs due to overzealous removal of calcium
+from the LA wall. Significant bleeding after removal of
+aortic occlusion will be experienced. Management of this
+includes returning onto CPB, re-arresting the heart and
+repairing the injury from inside the LA. Repair from outside
+of the heart is not recommended.
+AV groove disruption is identified when aortic occlusion
+is released and bright red blood floods the operative
+field when attempting to wean from CPB. AV groove
+disruption can occur from overzealous removal of calcium
+from the posterior annulus of the MV or implanting too
+large of a prosthesis during MV replacement. The deep
+annular sutures will tear and separate. This is a significant
+complication and requires returning onto CPB, re-arresting
+and converting to sternotomy for repair. Left atriotomy
+will need to be reopened to explant the prosthesis. These
+defects are quite complicated to repair and often require a
+large patch of autologous or bovine pericardium.
+If new aortic insufficiency is identified by the anesthesiologist
+when separating from CPB, it could be iatrogenic from
+a suture placed during the MV repair. This needs to be
+inspected so the patient needs to be placed back onto CPB,
+the heart re-arrested and the left atriotomy re-entered to
+inspect the annular sutures. Attention should be paid to the
+anterior trigone as it may have been damaged or fixed the
+aortic cusp.
+Finally, iatrogenic LV perforation can occur by the
+bedside assistant when they are evaluating the MV repair
+
+De-airing: air embolism prevention and treatment
+Air embolism is a potential complication in MV surgery
+regardless of the surgical approach. Robotic MV repair
+limits the surgeon from performing some of the traditional
+deairing techniques that require manipulation of the heart.
+Carbon dioxide (CO 2) should flood the operative field
+during the operation. To ensure it is functioning, submerge
+the tubing in saline prior to connecting it to the port. All
+members of the team assisting with critical portions of the
+surgery need to understand their roles and responsibilities
+during cannulation, weaning from CPB and decannulation
+to avoid air embolism.
+De-airing techniques vary from institution to
+institution. Considerations made at Northwell include
+turning off LV vent and turning root vent on low when
+closing the left atriotomy, decreasing drainage while
+allowing the heart to fill with root vent on, left lung
+ventilation and placing the patient in steep Trendelenburg
+position. Of note, if the patient is still docked to the
+robot, unless the OR is equipped with a Trumpf table and
+integrated table motion, Trendelenburg positioning is
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Patel and Macoskey. Complications and management in robotic MV surgery
+
+contraindicated.
+Air in the venous circulation can be managed by
+perfusionists until the etiology is corrected. Air in the
+arterial circulation is a severe problem and needs quick
+attention. If it enters the coronary vasculature, the heart
+will fibrillate. If still cannulated, go back onto CPB while
+defibrillating the heart. Turn all vents on high and ask
+perfusion to increase systemic pressures. To decrease risk of
+cerebral air embolism, anesthesia should thoroughly inspect
+the heart with TEE before the LV vent and aortic root vent
+are removed.
+Weaning from CPB
+If having difficulty weaning from CPB, first consider
+whether the heart has been given enough time to recover.
+Be conscious of patient temperature and ensure they are
+normothermic. Double lung ventilation is preferred when
+weaning from CPB, so ensure the right lung is not isolated
+to prevent desaturation. If contractility is the culprit,
+place a temporary pacing wire or add an inotropic agent.
+Anesthesia should perform complete TEE evaluation of
+the heart to rule out any new wall motion abnormality,
+dissection, shunt or dysfunctional valve. Systemic pressure
+should be driven up by perfusion with background
+vasopressors or inotropic agents from anesthesia. If
+substantial waiting and management does not improve
+the patient’s condition, IABP, ECMO or LV/RV support
+devices should be considered. Decision should be made
+to either transport directly to the cardiac catheterization
+lab for diagnostic coronary angiogram versus converting
+to sternotomy for further inspection and possible
+coronary artery bypass grafting as a last resort if RV or LV
+dysfunction is identified.
+Failed repair
+T E E a s s e s s m e n t o f the MV rep a i r mu s t b e don e
+intraoperatively prior to decannulation. Unsuccessful repair
+is an unfortunate complication and presents challenging
+decisions for the surgeon with significant consequences.
+All decisions are multifactorial and must be made with
+confidence as a third repair or replacement is calamitous for
+the patient.
+Postoperative bleeding
+The 3DHD robotic endoscope or a traditional laparoscopic
+
+endoscope should be used at the end of the case to inspect
+all areas accessed or manipulated during the procedure,
+while on single lung ventilation. The surgeon must be
+conscious of the oxygen saturation when on single lung
+ventilation during intrathoracic inspection for hemostasis.
+Single lung ventilation shortly after separating from CPB
+may cause hemodynamic compromise, so intrathoracic
+assessment and hemostasis must be efficient. Port sites
+are common sources of bleeding and oftentimes difficult
+to control. The surgeon must be persistent and confirm
+hemostasis with direct visualization before closure. At our
+institution, if there is persistent port site bleeding despite
+cautery and manual compression, the port site incision is
+extended. The etiology of the bleeding is identified and
+corrected with cautery, oversewing stitch or hemoclip.
+Rarely, hemostatic agents are used, however may be
+appropriate if bleeding cannot be controlled with routine
+techniques.
+Chest tubes should be placed as per comfort level
+of the surgeon. At Northwell, our standard practice is
+one 28Fr right angle chest tube in the diaphragmatic
+gutter, one 32-Fr or 28-Fr straight chest tube positioned
+laterally to the apex, and oftentimes one 19 Fr Blake in
+the pericardial edge. Correct positioning of the chest
+tube(s) is essential. If unable to place the chest tube in
+the desired location, the endoscope may be used to guide
+it to the correct position. Location of each chest tube
+should be passed to critical care staff during handoff
+in the cardiothoracic intensive care unit (CTICU).
+Immediate postoperative portable chest X-ray should be
+performed in the CTICU.
+If postoperative bleeding occurs and is not manageable
+in the CTICU, return to the OR is required. Evacuation
+of the hemothorax and hemostasis should be attempted
+through the primary incision unless the patient is severely
+unstable. Resuscitate with volume, blood transfusion and
+inotropic agents as per the patient’s condition. When reexploring the operative field, irrigate and inspect all areas
+from the primary operation.
+Unilateral pulmonary edema (UPE)
+UPE is a rare complication succeeding MV surgery
+performed through the right chest. Although uncommon, it
+is devastating when encountered. The clinical presentation
+occurs minutes to hours after weaning from a prolonged
+CPB (15). The patient will display profound hypoxia from
+increased shunting, hypercapnia, pulmonary hypertension
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+and hemodynamic instability requiring significant support
+from vasopressors and inotropic agents (15). Treatment
+efforts such as ECMO support or inhaled nitric oxide are
+often futile, as there is rapid progression to multiorgan
+failure. Short CPB times, avoidance of barotrauma, limited
+blood product transfusion and minimizing lung deflation
+times can reduce the risk of UPE (2).
+
+occurs, the arms lock, an audible beep is heard, the LEDs
+turn amber or red and a message will display on the monitor
+to describe the fault. A recoverable fault does not require a
+system restart and is identified by amber LEDs. The team
+should read the error message, correct the issue and click
+“resume use” on the monitor. A non-recoverable fault does
+require system restart and is identified by red LEDs. In
+the event of a non-recoverable fault, the endoscope and all
+EndoWrist instruments must be left in place, and the system
+is powered down by pressing the power button. During this
+time, vision will be temporarily lost. Once the LEDs change
+from red to amber, the system may be restarted by pressing
+the power button.
+Although rare, the EndoWrist instruments may
+malfunction. Instrument release keys must be peel packed
+in every robotic room and staff trained on its location
+and use. If the EndoWrist instrument malfunctions, the
+bedside assist must use the instrument release key to
+remove the instrument. First, the emergency stop button
+must be pushed if the system is not already in a fault state.
+The bedside assist will insert the key into the release
+socket, stabilizing the housing with one hand, and turn
+the key one quarter turn counterclockwise, following
+the picture on housing. After the jaws open, remove the
+instrument in normal fashion. The instrument is now
+unusable and should be returned to Intuitive Surgical
+per site protocol. “Resume use” should be clicked on the
+monitor and operation continued. Complications caused
+by the robotic system are avoidable by anticipation,
+practicing emergency drills with the robotic team and
+competence in the technology by all who support robotic
+procedures.
+
+da Vinci Xi complications
+The da Vinci Xi surgical system has transformed minimally
+invasive surgery and allows patients to undergo complex
+operations in a non-traditional approach. The system is
+only beneficial if used by properly trained surgeons and OR
+staff. The robotic modality adds complexity, opportunity for
+iatrogenic injury and increased risk if used inappropriately.
+The surgeon is separated from the patient during the
+operation, so the bedside assistant must be an expert
+in utilizing the robot, troubleshooting and anticipating
+complications. The surgeon and beside assistant must
+be articulate with their communication and function
+synergistically.
+After docking the robot, EndoWrist instruments must
+be inserted under direct visualization to prevent puncture
+or laceration of critical anatomy. Afterwards, guided tool
+exchange, confirmed with a blinking green LED, allows the
+bedside assistant to exchange instruments without direct
+visualization, returning them to within 3 mm of the original
+position. If guided tool exchange is lost, identified by a solid
+blue LED light, the surgeon must find the appropriate port
+and follow the instrument back to the appropriate working
+area to prevent injury. Similarly, the surgeon must always
+keep both EndoWrist instruments in their field of vision
+while working to prevent injury.
+The 3DHD endoscope is quite advanced and does not
+require calibration, focusing or white balancing. While the
+surgeon is operating, the endoscope may fog or become
+obstructed. The surgeon must request a camera clean, and
+never proceed using one eye, as the touchscreen monitor
+may be displaying the surgeon’s obstructed eye. The bedside
+assistant must communicate clearly to the surgeon when
+a camera clean is necessary, or they cannot anticipate the
+operation.
+Recoverable and non-recoverable faults may occur
+during the operation. The surgeon should practice these
+scenarios with all members of the robotic team prior to a
+live operation. Robotic team members must understand
+their individual roles if a fault were to occur. When a fault
+
+Conclusions
+Robotic MV repair provides several benefits to patients
+compared to traditional median sternotomy if performed
+by experience and well-trained surgeons and staff. The
+robotic assisted approach enhances the complexity of
+the case with several additional steps. Consistent and
+frequent exposure both intraoperatively and through mock
+scenarios is essential for successful programs. Additionally,
+understanding of the many phases of the operation, the
+complications that have potential to occur at each phase
+and management of those complications is essential for a
+successful program (Table 3). The fundamental principle
+of robotic MV surgery at Northwell Health is to avoid
+complications with anticipation.
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Patel and Macoskey. Complications and management in robotic MV surgery
+
+Table 3 Robotic mitral valve repair complications and management
+Complication
+
+Management
+
+Injury to intercostal artery/vein
+
+Immediate hemostasis with cautery, hemoclips, manual compression, or stitch
+
+Injury to right intrathoracic artery
+
+Immediate hemostasis with cautery, hemoclips, manual compression, or stitch
+
+Diaphragm laceration
+
+Prophylactic use of pledgeted retraction stitch, oversew with additional pledgeted
+stitches
+
+Carotid artery puncture during CVC insertion
+
+Do not withdrawal needle, assess with ultrasound, consider vascular surgery
+evaluation, angiogram, covered stent, cut-down and repair
+
+Blood loss during right internal jugular SVC
+cannula insertion
+
+Occlude distal aspect of SVC cannula with two [2] tubing clamps prior to insertion
+
+Femoral cannulation site seroma, hematoma,
+infection, delayed healing
+
+Prophylactically avoid complication with diligent closure of wound in multiple layers.
+Thorough evaluation of wound post operatively
+
+Limb ischemia from femoral artery cannulation
+
+Prophylactic use of distal perfusion cannula. Immediate placement of distal
+perfusion cannula when ischemia is identified intraoperatively
+
+Compartment syndrome
+
+Immediate release via fasciotomy and post-operative vascular surgery evaluation
+
+PFO during femoral IVC cannula insertion with
+guidewire
+
+Primary repair on CPB
+
+Injury to right atrium during femoral IVC cannula
+insertion with guidewire
+
+Primary repair on CPB
+
+Iatrogenic injury to axillary artery during
+cannulation
+
+Abort axillary cannulation. Primary repair, patch angioplasty, selective peripheral
+angiogram. Vascular surgery intervention if extensive
+
+Blood loss during axillary artery cannulation
+
+Control blood loss with vessel loops or vessel clamps
+
+Phrenic nerve injury
+
+Preventative: Identify phrenic nerve prior to pericardiotomy. Maintain generous
+distance with cautery and retraction sutures. Limit tension applied
+
+Ventricular fibrillation and dysrhythmia when using
+cautery creating exposure
+
+Discontinue use of cautery/robotic energy. Treat dysrhythmia per ACLS guidelines
+
+Aortic injury (transverse sinus dissection or
+extending pericardiotomy superiorly)
+
+Dependent upon extent of injury. Compression, primary repair with pledgeted suture,
+rapid CPB, convert to sternotomy, aortic repair
+
+Pulmonary artery injury when creating exposure
+(when artery takes a more caudal course)
+
+Dependent upon extent of injury. Compression, rapid CPB, convert to sternotomy,
+primary repair, patch angioplasty
+
+Aortic hematoma, bruising, and bleeding
+during root vent placement
+
+Preventative: placement of aortic root vent stay sutures prior to heparinization,
+excise all peri-aortic adipose tissue and redundant tissue in proximation of root vent
+insertion site, communicate to perfusion to lower systemic pressure when placing
+root vent. To manage, release hematoma, cautery, primary repair with pledgeted
+stitch
+
+Air embolism
+
+On CPB: defibrillate heart, turn all vents on high, increase systemic pressures by
+perfusionist or pharmacotherapy
+Off CPB: defibrillate heart, manage per ACLS guidelines, increase systemic
+pressures with pharmacotherapy
+
+Aortic injury (disruption of aortic cross clamp by
+bedside assist or collision with robotic arm 1)
+
+Evaluation of ascending aorta, aortic arch, and descending thoracic aorta with TEE.
+If dissection identified, abort operation, convert to sternotomy, repair per dissection
+type guidelines. If no dissection, manage aortic hematoma or bruising by releasing
+adventitia and reposition cross clamp
+
+Iatrogenic endoballoon rupture
+
+TEE inspection. Rapid extraction. Insertion of new endoballoon device
+
+Table 3 (continued)
+
+Ann Cardiothorac Surg 2022;11(5):510-524 | https://dx.doi.org/10.21037/acs-2022-rmvs-15
+
+Annals of Cardiothoracic Surgery, Vol 11, No 5 September 2022
+
+Table 3 (continued)
+Complication
+
+Management
+
+Iatrogenic aortic dissection from endoballoon aortic
+occlusion
+
+Inspection with TEE. Abort procedure. Repair dissection per dissection type
+guidelines
+
+Left atrial tear from lift retractor
+
+Primary repair or patch repair at conclusion of case
+
+Injury to atrioventricular septum with left atrial lift
+retractor
+
+Small injury: primary closure with pledgeted mattress sutures
+
+LV perforation by LV vent
+
+Convert to sternotomy. Management dependent on extent of injury. Primary repair,
+pledgeted mattress stitches, hemostatic agents, patch repair
+
+Left circumflex artery injury
+
+Re-establish CPB and identify etiology. Options include: replace annular sutures
+near P1 scallop, inotropic pharmacotherapy, IABP, ECMO, transfer to cardiac
+catheterization lab for coronary angiogram and PCI, direct injection of nitroglycerine,
+convert to sternotomy and perform coronary bypass
+
+Posterior left atrial injury during decalcification
+
+Re-establish CPB, re-arrest heart, repair injury from inside left atrium
+
+Atrioventricular groove disruption
+
+Re-establish CPB, re-arrest heart, convert to sternotomy, reopen left atrium, explant
+prosthesis, large patch repair with autologous or bovine pericardium
+
+Aortic Insufficiency after separation from CPB
+
+Inspect aortic valve with TEE. Re-establish CPB, re-arrest heart, re-enter left
+atrium and inspect mitral annular sutures. If anterior trigone stitches damage or
+fix the aortic cusp must be replaced. If unclear etiology under minimally invasive
+inspection, convert to sternotomy and evaluate via open approach
+
+Systolic anterior motion
+
+Re-establish CPB, re-arrest heart, re-enter left atrium, evaluate mitral repair with
+saline injection, re-repair MV
+
+Difficulty weaning from CPB
+
+TEE inspection to identify etiology. Wait and allow heart to recover. Ensure patient’s
+core temperature is normothermic. Placement of temporary pacing wire. Inotropic
+support. Increase systemic pressure (perfusionist or pharmacotherapy), insertion of
+IABP, ECMO, RV/LV support device, cardiac catheterization for diagnostic coronary
+angiogram, convert to sternotomy for further inspection, bail-out coronary bypass
+
+Unilateral pulmonary edema
+
+If extubated: intubate and support with mechanical ventilation. ECMO support.
+Inhaled nitric oxide
+
+Large injury: patch repair
+
+CVC, central venous catheter; SVC, superior vena cava; PFO, patent foramen ovale; IVC, inferior vena cava; LV, left ventricle; CPB,
+cardiopulmonary bypass; ACLS, Advanced Cardiac Life Support; TEE, transesophageal echocardiogram; IABP, intra-aortic balloon pump;
+ECMO, extracorporeal membrane oxygenation; PCI, percutaneous coronary intervention; MV, mitral valve; RV, right ventricle.
+
+Acknowledgments
+Footnote
+to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

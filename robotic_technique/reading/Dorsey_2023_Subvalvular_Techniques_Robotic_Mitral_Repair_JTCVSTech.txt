@@ -1,0 +1,495 @@
+Dorsey et al
+
+Special Issue: Mitral Valve Repair
+
+Subvalvular techniques enhanced with endoscopic robotic
+mitral valve repair
+Michael Dorsey, MD, Les James, MD, MPH, Shashwat Shrivastava, MD, Didier Loulmet, MD, and
+Eugene A. Grossi, MD
+ABSTRACT
+Objective: Totally endoscopic intracardiac robotic surgery is generally limited to
+uncomplicated mitral valve surgery. With experience, our team has developed a
+more aggressive approach to robotic cardiac surgery that allows for repair of a
+broad spectrum of mitral valve pathologies. We report complex subvalvular procedural advancements associated with this approach secondary to enhanced team
+experience and capabilities.
+Methods: All robotic mitral procedures performed by a 2-surgeon team in a quaternary care medical center from July 2011 to May 2022 were reviewed. Natural
+language-processing techniques were used to analyze operative reports for subvalvular repair techniques. Complex subvalvular techniques included papillary muscle repositioning, division of secondary anterior leaﬂet chordae, septal
+myomectomy, division of aberrant left ventricular muscle band attachments, and
+left ventricular patch reconstruction. The surgical experience was divided into 2 periods: early robotic experience (pre-2018) versus late (2018 onwards). Baseline demographics, outcomes, and subvalvular techniques were analyzed and compared.
+Results: A total of 1287 intracardiac robotic operations were performed by a 2surgeon team. Thirty-day mortality was 0.6% (8/1287). Mitral valve repair was performed in 1024 patients. The mean age was 61 years (range, 18-90 years), and 15%
+were>75 years old; 29 patients (2.8%) had previously undergone cardiac surgery.
+There was a signiﬁcant increase with experience in the application of advanced subvalvular techniques between the early versus late period (52.3% [268/512] vs 74.2%
+[380/512] (P < .001)).
+Conclusions: An experienced 2-surgeon team can perform progressively more
+complex robotic subvalvular repair techniques. These subvalvular techniques are
+a surrogate for team proﬁciency and capabilities. (JTCVS Techniques 2023;22:23-7)
+
+Over the past 2 decades, there has been widespread acceptance of the robotic platform for performing uncomplicated
+mitral valve repair (MVR). Several large clinical series have
+
+From the Department of Cardiothoracic Surgery, NYU Langone Medical Center, New
+York, NY.
+Read at the 103rd Annual Meeting of The American Association for Thoracic Surgery, Los Angeles, California, May 6-9, 2023.
+Received for publication June 1, 2023; revisions received Aug 15, 2023; accepted for
+publication Aug 28, 2023; available ahead of print Sept 3, 2023.
+Address for reprints: Les James, MD, MPH, Department of Cardiothoracic Surgery,
+NYU Grossman School of Medicine, 530 1st Ave, Suite 9V, New York, NY 10016
+(E-mail: leslie.james@nyulangone.org).
+2666-2507
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+Robotic mitral valve repair allows optimal visualization of the subvalvular apparatus.
+
+CENTRAL MESSAGE
+
+An experienced 2-surgeon team
+and dedicated OR personnel
+allow for the consistent, seamless performance of totally
+endoscopic robotic subvalvular
+techniques in mitral valve repair.
+PERSPECTIVE
+With the continued expansion of totally endoscopic robotic techniques in mitral valve surgery,
+our study demonstrates that when an experienced 2-surgeon team works in tandem with
+dedicated OR personnel, there are additional opportunities to perform adjunctive subvalvular
+procedures during mitral valve repair.
+
+demonstrated superb hospital outcomes with increasingly
+improved short-term outcomes.1-3 There are, however,
+considerable limitations, and generally “simple” patient
+subsets are considered most appropriate for the robotic
+approach.4 Although these are good initial management
+principles, in our practice, we have found that an experienced surgical team and a dedicated operating room (OR)
+staff can routinely exceed these guidelines and perform
+more complex procedures in nearly all patients presenting
+for mitral valve surgery.5 At our institution, with a dedicated
+2-surgeon approach, we have developed a more aggressive
+use of robotic cardiac surgery for a broad spectrum of mitral
+valve pathologies. With this expansion of indications, a
+similarly increased performance of complex subvalvular robotic repair techniques has occurred. We report subvalvular
+procedural advancements associated with the totally
+JTCVS Techniques c Volume 22, Number C
+
+Special Issue: Mitral Valve Repair
+
+Dorsey et al
+
+reported as frequency and percentage. Continuous variables are reported
+as mean  standard deviation or median with interquartile range where
+appropriate. Normally distributed variables were compared with a Student
+t test, and non-normally distributed variables were compared with nonparametric testing (Mann–Whitney U).
+
+Abbreviations and Acronyms
+LV ¼ left ventricle
+MVR ¼ mitral valve repair
+OR ¼ operating room
+SAM ¼ systolic anterior motion
+endoscopic robotic approach as a surrogate marker for team
+proficiency and capabilities.
+METHODS
+All robotic MVRs performed by a 2-surgeon team from a large, academic, quaternary care center from July 2011 through May 2022 were reviewed. The operative staff included a 2-surgeon team, a group of dedicated
+cardiac anesthesiologists, and consistent OR nursing personnel. A totally
+endoscopic port-only surgical approach was used with cardioplegic arrest
+and either endoballoon or flexible clamp aortic occlusion.5 A languageprocessing program was written to analyze the syntax of operative notes
+for subvalvular techniques performed during robotic MVR. Operative reports were then analyzed in detail by the senior author for adjunctive subvalvular repair techniques performed during robotic MVR. Complex
+subvalvular techniques included papillary muscle repositioning, division
+of secondary anterior leaflet chordae, septal myomectomy, division of aberrant left ventricle (LV) muscle band attachments, and LV patch reconstruction. In addition, the Society of Thoracic Surgeons and New York State
+Cardiac Surgery data-collection instruments were analyzed. For this study,
+we divided the surgical techniques into 2 periods: early robotic MVR experience (operations performed July 2011 through December 2017) or late
+(operations performed January 2018 through May 2022). This study was
+performed as part of an ongoing Quality Assessment/Quality Improvement
+project, and a Self-Certification form is on file with the institutional review
+board at NYU Langone Health.
+
+Statistical Analysis
+Statistical analysis was performed using SPSS (Version 28; IBM Corp).
+Descriptive analyses were performed on various patient characteristics to
+summarize variable baseline distributions. Categorical variables are
+
+RESULTS
+A total of 1287 intracardiac robotic operations were performed by a 2-surgeon team during the study period. The
+30-day mortality was 0.6% (8/1287). MVR was performed
+in 1024 patients (79.6%), and this cohort is the subject of
+our report. Using the predefined stratification of early and
+late experience, 512 patients were included in each group.
+Demographic data of this cohort included a mean age of
+61 years (range, 18-90 years), and 15% of the cohort
+were older than 75 years old. Within this cohort, 2.8%
+(29/1024) had a history of previous cardiac surgery (Table
+1). Notably, the mean body mass index was 25.9 (range,
+14.4-55.5). Although it is well known that patients with
+obesity are at increased risk for postoperative complications,6 there is recent evidence to suggest that patients
+with a high body mass index have similar outcomes when
+undergoing robotic cardiac surgery.7 The clinical preoperative variables did not differ significantly between the cohorts over time, and although the complexity of
+techniques increased, there was no impact on morbidity or
+mortality (Table 1). Complex subvalvular procedures
+included papillary muscle trunk repositioning (5.1%; 51/
+1024), division of secondary anterior chordae (56.7%;
+581/1024), septal myomectomy (5.4%; 55/1024), and
+resection of abnormal LV muscle bands (8.3%; 83/1024).
+When we compared the early- and late-experience groups,
+the number of complex subvalvular procedures increased
+significantly over time, specifically regarding papillary
+
+TABLE 1. Patient demographics, preoperative, intraoperative, and postoperative variables by early versus late experience
+Perioperative characteristics and outcomes
+
+Total n ¼ 1024
+
+Early experience n ¼ 512
+
+Late experience n ¼ 512
+
+P value
+
+Age, y, mean [range]
+
+61.44 [18-90]
+
+60.26 [18-87]
+
+62.62 [25-90]
+
+<.01
+
+Height, cm, mean
+
+171.67
+
+171.7
+
+171.6
+
+.86
+
+Weight, kg, mean
+
+76.55
+
+77.00
+
+76.00
+
+.33
+
+BMI, mean [range]
+
+25.85 [14.4-55.5]
+
+26.0 [16.3-45.3]
+
+25.7 [14.4-55.5]
+
+.33
+
+Previous MV surgery, n (%)
+
+16 (5.0)
+
+10 (4.5)
+
+6 (6.0)
+
+.58
+
+Previous CABG, n (%)
+
+1.00
+
+13 (2.9)
+
+8 (3.1)
+
+5 (2.6)
+
+Ejection fraction (%), mean
+
+60.9
+
+60.7
+
+61.1
+
+.42
+
+30-d hospital mortality, n (%)
+
+6 (0.6)
+
+2 (0.4)
+
+4 (0.8)
+
+.21
+NS
+
+STS predicted mortality*
+
+0.8%
+
+0.8%
+
+0.8%
+
+Conversion to sternotomy, n (%)
+
+10 (1.0)
+
+7 (1.4)
+
+3 (0.6)
+
+.21
+
+Reoperation for bleeding, n (%)
+
+49 (4.8)
+
+27 (5.3)
+
+22 (4.3)
+
+.46
+
+Extubated in OR, n (%)
+
+814 (79.5)
+
+424 (82.8)
+
+390 (76.2)
+
+<.01
+
+8 (1.0)
+
+3 (0.6)
+
+5 (1.7)
+
+.15
+
+Post-operative stroke, n (%)
+
+BMI, Body mass index; MV, mitral valve; CABG, coronary artery bypass grafting; STS, Society of Thoracic Surgeons; NS, not significant; OR, operating room. *Excluding left
+ventricular patching and myotomy/myectomy (for which there are no STS mortality models).
+
+JTCVS Techniques c December 2023
+
+Dorsey et al
+
+Special Issue: Mitral Valve Repair
+
+A3, especially with the “seagull sign” on transesophageal
+echocardiography; the “seagull” sign results from the
+combination of ruptured marginal chordae with good secondary chordae. As a last resort, when the situation is not
+favorable for either of the 2 previous techniques we
+employ artificial chordae.
+As demonstrated in this report, as our team experience
+grew, we performed increasingly routine secondary chordae
+excisions, septal myomectomies, and divisions of LV aberrant muscle band attachments. We used these techniques to
+avoid postrepair systolic anterior motion (SAM) of the
+mitral valve leaflets. Although the occurrence of SAM is
+multifactorial and is usually secondary to either excess
+leaflet tissue, a narrow aorta-mitral angle, or an undersized
+annular ring, Manabe and colleagues10 demonstrated that
+LV function influences the development of SAM following
+MVR. In their study, the incidence of SAM significantly
+increased with greater preoperative ejection fraction and
+smaller LV diameter, patients not infrequently seen in our
+advanced guideline-driven practice. Although performing
+adjunct subvalvular techniques to limit the risk of SAM is
+not always a decision made by surgeons, we elect to
+perform such techniques prophylactically with the goal of
+enlarging the left ventricular outflow tract.11
+The increasing use of robotics in complex mitral valve
+surgery has been reported in the literature. Gillinov and colleagues3 reviewed the first 1000 patients who underwent robotic primary mitral valve minithoracotomy operations
+from 2006 to 2013. Over time, they noted an increase in frequency of artificial chordae implantations and triangular/
+quadrangular resections, while at the same time noting
+decreased cardiopulmonary bypass and myocardial
+ischemic times as well as intensive care unit and postoperative lengths of stay. In a nonrandomized observational
+study, Fujita and colleagues12 enrolled 335 patients to undergo either robotic MVR versus mini-MVR via right thoracotomy. They included repair complexity in their
+analysis, citing the complexity score developed by Loulmet
+and colleagues.5 Notably, patients in the robotic MVR
+cohort had greater complexity scores (1.5  0.8 vs
+1.2  0.5, P<.001), without any statistically significant difference in postoperative mortality or morbidity.12
+
+muscle repositioning (0.4%-9.6%, P <.001), division of
+secondary anterior chordae (47.5%-66.0%, P < .001),
+and septal myomectomy (6.0%-49.0%, P<.001). In addition, although not identified as complex, artificial chordae
+implantation similarly increased over time (52.3%74.2%, P <.001) (Table 2).
+DISCUSSION
+Alain Carpentier’s classification of leaflet motion in mitral
+regurgitation includes normal leaflet motion (Type 1), excessive leaflet motion (Type 2), and restricted leaflet motion
+(Type 3a: restricted opening during systole and diastole;
+Type 3b: restructure closure during systole).8 This classification of leaflet motion is relevant to the mitral valve surgeon,
+considering the mechanism of subvalvular repair techniques
+required for totally endoscopic robotic MVR. Mitral regurgitation with Type 2 leaflet motion predominates and is generally secondary to abnormalities of the leaflets, annulus, and
+chordae—collectively referred to as the mitral valve apparatus.9 Abnormalities such as rupture or elongation of the
+chordae or papillary muscle result in either mitral valve prolapse or a flail leaflet. The subvavlular techniques used to
+address prolapse are specifically catered to each component
+of the mitral valve apparatus and include resection, placement of artificial chordae, and opposite chordal transfer.
+More complex techniques include secondary chordal transfer and papillary muscle trunklet repositioning. These complex techniques to correct mitral valve prolapse, along with
+septal myectomy, LV patch reconstruction, and abnormal
+muscle bundle resection, are part of surgeons’ accessible
+toolbox with an advanced robotic team approach.
+With respect to Type 2 anterior leaflet, at our institution
+we favor papillary muscle shortening or repositioning in
+cases with a prolapse that mainly involves segments A2
+and A3; A1 is rarely prolapsed. Generally, the anterior
+trunk of the posterior papillary muscle supports A2 and
+A3. Shortening of the posterior papillary muscle anterior
+trunk allows for lowering the margin of A2 and A3 all
+at once. That is typically feasible only if good marginal
+chordae remains, meaning chordae that are neither too
+thin nor too elongated. Chordal transfer is preferred in
+cases with a prolapse limited to one segment like A2 or
+TABLE 2. Subvalvular techniques between early versus late experience
+Subvalvular techniques
+
+Total n ¼ 1024
+
+Early experience n ¼ 512
+
+Late experience n ¼ 512
+
+P value
+
+Complex subvalvular techniques, n (%)
+Papillary muscle repositioning
+Division of secondary anterior chordae
+Septal myomectomy
+LV patch reconstruction
+Division of LV muscle band attachments
+
+648 (63.3)
+51 (5)
+581 (56.7)
+55 (5.4)
+37 (3.6)
+83 (8.1)
+
+268 (52.3)
+2 (0.4)
+243 (47.5)
+6 (1.2)
+14 (2.7)
+43 (8.4)
+
+380 (74.2)
+49 (9.6)
+338 (66.0)
+49 (9.6)
+23 (4.5)
+40 (7.8)
+
+<.001
+<.001
+<.001
+<.001
+.18
+.82
+
+Other subvalvular techniques, n (%)
+Artificial chordae implantation
+
+290 (28.3)
+
+100 (19.5)
+
+190 (37.1)
+
+<.001
+
+LV, Left ventricle.
+
+JTCVS Techniques c Volume 22, Number C
+
+Special Issue: Mitral Valve Repair
+
+Performing complex subvalvular techniques innately requires progression along an advanced learning curve. We
+would argue that these techniques are enhanced with the robotic platform in 2 main ways: improving intraoperative
+visualization of the subvalvular apparatus and facilitating
+micromanipulation of surgical instruments. The visualization of the subvalvular apparatus and left ventricular
+outflow tract when the stereoscope is advanced inside the
+left atrium close to the mitral valve orifice reveals exquisite
+detail. It additionally allows a 2-surgeon team to see clearly
+and simultaneously without obstruction, an important condition for efficient work. The great dexterity of fine and precise robotic tools in a small space like the LV facilitates
+instrument micromanipulation, permitting us to execute
+maneuvers not previously accessible with traditional surgical instruments via a transmitral approach.
+Although our data demonstrate the expanded role of robotic surgery in performing adjunctive subvavlular repair
+techniques during MVR, these advancements are largely
+attributed to the development of an experienced and a dedicated surgical team working in tandem both at the robot and
+at the bedside. Advanced robotic subvalvular procedures
+such as septal myotomy–myectomy have been reported,13,14 although are quite limited and frankly do not
+use advanced subvalvular techniques. For instance, subvalvular knot-tying cannot easily, if at all, be accomplished
+with robotic instruments given the intraventricular space
+limitations. Two-surgeon teams are of benefit here, as an
+experienced bedside surgeon is able to offset the limitations
+of the robotic surgeon by performing specialized techniques
+from the bedside. Murphy and colleagues2 demonstrated
+that by having a bedside surgeon available, conventional
+MVR procedures historically performed only with 2
+hand-held instruments can now be rechoreographed with
+the bedside surgeon central for allowing seamless transition
+between robotic and hand-held instruments.2 For example,
+tying an LV patch to the LV myocardium requires precisely
+controlled suture tension when tying with either a knot
+pusher or a suture crimping device, a task that the bedside
+surgeon can accurately perform when working in tandem
+with the robotic surgeon at the console. Expectedly, there
+is an initial learning curve to overcome at the outset as
+team dynamics evolve. However, once the experience and
+cohesiveness of the team improves over time, so too do
+the technical capabilities of performing subvalvular repairs
+competently and expeditiously.
+Beyond these technical achievements, the importance of a
+cohesive and integrated OR team to successfully perform
+complex robotic MVRs cannot be understated. A useful analogy to convey the importance of 2-surgeon teams is to
+consider the aviation industry, and the lessons learned on
+managing errors, which many times stem from cognitive
+overload, poor interpersonal communication, and flawed decision making.15 More specifically, when comparing the
+
+JTCVS Techniques c December 2023
+
+Dorsey et al
+
+feasibility of reduced crew models in pilot operations, Bailey
+and colleagues16 demonstrated that several parameters were
+negatively impacted, including frequency of checklist usage
+and accuracy of flight path performances. As a pilot’s workload was increased during single pilot operations, the propensity of performance errors whether by poor execution
+or omission of tasks likewise increased. These observations
+are directly transferrable to the OR, where surgeons who
+perform robotic mitral valve surgery understand the information overload that exists in unpredictable environments and
+can opt to take advantage of having an experienced copilot. With a dedicated and experienced surgical team,
+communication, problem-solving, and task management
+become more fluid and ultimately successful. This is a hallmark of a “high functioning team.”
+Limitations
+This is a series conducted by 2 experienced mitral valve
+surgeons, both of whom have developed and have been performing intracardiac robotic surgery for more than 2-and-ahalf decades.17,18 As such, we realize these conclusions
+may not be easily applicable to other practices. Furthermore, this experience extends to the several iterations of robotic technology that has evolved into what it is today.
+Loulmet performed the first robotic MVR in Paris in May
+1998; at our institution, we performed the first robotic
+MVR in April 2000 using the Computer Motion ZEUS Robotic Surgical System. This was later replaced by the DaVinci Surgical System, to include its iterations from the S,
+Si, and Xi, all of which have been used and learned from
+to expand our practices.
+CONCLUSIONS
+In this report, we demonstrate that, over time, a dedicated
+2-surgeon team in conjunction with specialized OR
+personnel and the robotic platform allows for the continued
+expansion of techniques for MVR without an appreciable
+compromise in morbidity or mortality. Specifically, we
+report an increase in the performance of adjunctive complex
+subvalvular techniques in our robotic MVRs, largely attributed to the benefits of incorporating cohesive teams that
+learn together over time, improve in interpersonal communication, problem-solve as one, and distribute tasks efficiently and expertly to tackle the demanding and
+unpredictable workload that these procedures elicit.
+Dr Grossi has intellectual property and receives royalties
+from Medtronic for valve repair devices and has intellectual
+property and receives royalties from Edwards Lifesciences.
+All other authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling or reviewing manuscripts for which they may have a conflict
+
+Dorsey et al
+
+of interest. The editors and reviewers of this article have no
+conflicts of interest.

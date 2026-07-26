@@ -1,0 +1,792 @@
+Keynote Lecture Series
+
+Lateral access fully robotic aortic valve replacement “RAVR”:
+from novel to normal
+Ghulam Murtaza1, Lawrence Wei2
+
+Division of Cardiac Surgery, SSM Health Heart & Vascular Care Center, Madison, WI, USA; 2Department of Cardiovascular and Thoracic Surgery,
+
+West Virginia University, Morgantown, WV, USA
+WI 53715, USA. Email: gmcvts@gmail.com.
+
+Right lateral access robotic aortic valve replacement (RAVR) may represent a significant advancement in
+minimally invasive cardiac surgery. This review examines RAVR’s development, technical specifications,
+clinical outcomes, and future trajectory in cardiac surgery. Multicenter RAVR experiences have demonstrated
+promising results with low rates of operative mortality (0.9%), stroke (0.9%), and permanent pacemaker
+placement (2.9%). In propensity-matched comparisons with transcatheter aortic valve replacement (TAVR),
+RAVR had significantly lower rates of paravalvular leak (0.7% vs. 21.5%) and one-year mortality (1.4% vs.
+12.5%). With a 3-cm working incision at the level of the anterior axillary line, the lateral access approach offers
+distinct advantages including improved surgical visualization, reduced tissue trauma, and standardization
+potential across various cardiac procedures. While learning curve considerations exist, these are minimal for
+experienced robotic mitral teams. RAVR programs have expanded to include implementation of complex
+procedures such as aortic root enlargement. As robotic systems become more prevalent and surgical expertise
+grows, RAVR shows promise to evolve from an innovative technique to a standard therapeutic option in
+aortic valve surgery. This evolution, supported by growing clinical evidence and technological advancement,
+positions RAVR as a potentially transformative development in cardiac surgery, offering patients the benefits
+of minimally invasive approaches while maintaining the durability of traditional surgical valve replacement.
+Keywords: Robotic aortic valve replacement (RAVR); right lateral access; robotic cardiac surgery; aortic valve
+replacement (AVR)
+
+Introduction
+Aortic valve disease is one of the most common valvular
+conditions, affecting 2.5% of the general population, with
+incidence rising in the elderly (1). Treatment for aortic
+valve disease has evolved significantly over the past three
+decades. While surgical aortic valve replacement (SAVR) via
+median sternotomy was the gold standard for most of the
+20th century, the early 21st century has seen a remarkable
+expansion of therapeutic options (2). The introduction of
+transcatheter aortic valve replacement (TAVR) in 2002
+marked the start of a new era. Surgical techniques have
+advanced through innovations such as mini-sternotomy,
+
+r i g h t a n t e r i o r t h o r a c o t o m y, a n d r o b o t i c - a s s i s t e d
+techniques (3). Robotic aortic valve replacement (RAVR),
+via right lateral access, is one of the latest advancements in
+this trend (4).
+This review examines RAVR’s development and initial
+experiences to one that has the potential to become routine
+in clinical practice. By evaluating the technical details,
+clinical efficacy, and patient outcomes associated with
+RAVR, we explore its potential to transform AVR surgery.
+We consider its future in cardiac surgery, seeking to answer
+an essential question: can RAVR evolve from a “novel”
+procedure to a “normal” option for aortic valve surgery?
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Isolated AVR - STS database
+40000
+
+No. of cases
+
+30000
+
+20000
+
+10000
+
+Year
+
+continued need for SAVR in specific cases where TAVR
+may not be appropriate, such as for younger patients
+or those with anatomical considerations that favor
+surgical intervention. The stabilization of SAVR volumes
+underscores the need for ongoing innovation within SAVR
+techniques with the goal of minimizing surgical trauma,
+accelerating recovery times, and providing the best possible
+outcomes for patients requiring surgery. As aortic stenosis
+treatment continues to evolve, it is essential to maintain a
+balanced approach between TAVR and SAVR, along with
+ongoing advancements in each modality to ensure optimal,
+individualized care for patients.
+
+Figure 1 Yearly cases of isolated AVR from STS database (6,7).
+AVR, aortic valve replacement; STS, Society of Thoracic Surgeons.
+
+Historical context and evolution of AVR
+techniques
+Traditional aortic valve replacement (AVR)
+Aortic valve replacement (AVR) has long been the definitive
+treatment for patients suffering from severe aortic stenosis
+and aortic regurgitation. Traditionally, this procedure
+has been performed as an open surgery requiring a full
+sternotomy. Over the years, surgeons have developed
+minimally invasive approaches, including mini-sternotomy
+and right anterior thoracotomy. These techniques aim
+to reduce the invasiveness of AVR by accessing the heart
+through smaller incisions and avoiding a full sternotomy.
+The Food and Drug Administration (FDA) approved
+TAVR for high-risk patients with aortic stenosis in 2011 (5).
+This approval indirectly led to a rise in isolated SAVR
+volumes, which reached over 30,000 cases annually by
+2013 (6). With TAVR now available as an alternative, many
+patients previously considered too high-risk for traditional
+SAVR—and thus left untreated—were able to access a
+potentially life-saving intervention. Additionally, many
+patients who were not in the high-risk category also sought
+treatment, further contributing to the increase in SAVR
+volumes as awareness and accessibility of aortic stenosis
+treatment options expanded.
+As TAVR technology advanced, its indications gradually
+expanded to encompass intermediate- and low-risk patients,
+and TAVR began to emerge as a dominant option for a
+larger segment of the population. This expansion led to a
+substantial decline in SAVR volumes as TAVR use increased.
+In recent years, however, SAVR volumes have shown
+signs of stabilizing (7) (Figure 1). This trend reflects the
+
+Advent of robotic-assisted surgery in cardiac procedures
+The introduction of robotics into the operating room has
+transformed many surgical fields by providing surgeons
+with enhanced precision, stability, and visualization. The
+first robotic cardiac procedures were exploratory and
+primarily focused on coronary artery bypass grafting
+(CABG) and mitral valve repair, where the precision of
+robotic instruments proved beneficial.
+The earliest report of robotic use for AVR was done via a
+7–8 cm anterior thoracotomy in the 3rd intercostal space by
+Folliguet et al. in 2005 (8,9). While initially favorable, after
+five cases where the robot was used for limited portions of
+the procedure, the approach was abandoned. Balkhy et al.
+furthered this technique in 2018 with initial cases of right
+anterior RAVR using sutureless valves (10).
+Development of robotic aortic valve replacement at
+West Virginia University
+Between 2015 and 2019, initial proof-of-concept cadavers
+trials validating the feasibility of a right lateral approach
+using robotic techniques for AVR using conventional
+stented valves were carried out at West Virginia University.
+These foundational experiments paved the way for clinical
+applications.
+In 2019, the first 10 cases of direct vision and videoscopic
+non-robotic aortic valve replacements were performed
+through a 3–4 cm right lateral thoracotomy. This
+transitional phase allowed for the refinement of surgical
+techniques, setting the stage for the integration of robotic
+systems. By January 2020, the first fully robotic RAVR
+procedures were successfully performed, marking a pivotal
+milestone in the field (4).
+Progress continued with the completion of the first
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Murtaza and Wei. Lateral access RAVR
+
+double valve replacement combined with a biatrial
+Maze procedure in July 2020. By November 2021, the
+program reached its 100th RAVR case, including numerous
+concomitant procedures, further highlighting the
+technique’s versatility (11).
+In November 2022, a global community of robotic
+surgeons convened to share expertise and expand the
+practice. As of June 1, 2023, 206 RAVR operations had been
+performed worldwide, with 35 conducted outside of West
+Virginia (12). By December 2024, the program at West
+Virginia University achieved a remarkable milestone of
+completing over 300 consecutive operations, with nearly 50
+performed globally.
+Technical aspects of RAVR
+Patient selection criteria
+Ideal anatomical candidates for RAVR include those
+with horizontal aortic valves and slightly longer aortas,
+which position the native aortic valve lower in the chest,
+readily facilitating access from a lateral approach. RAVR
+is particularly suited for patients with contraindications
+to TAVR, such as younger patients requiring mechanical
+valves or concomitant procedures, those with severe aortic
+insufficiency, bicuspid valves, or left ventricular outflow
+tract (LVOT) calcification. Conversely, patients with specific
+anatomical variations or comorbidities may be better
+suited to alternative surgical approaches. These include
+severe chest deformities, extensive aortic calcification,
+prior sternotomy or right thoracotomy, or prior right lung
+resection.
+The selection process necessitates comprehensive
+preoperative screening. Imaging studies, including
+computed tomography (CT) scans, are essential to assess
+chest structural anatomy and peripheral vasculature.
+Coronary angiograms are performed to rule out coronary
+artery disease (Table 1). Preoperative screening algorithms
+originally developed for robotic mitral valve surgery can be
+adapted to guide patient selection for RAVR (13).
+These assessments enable the surgical team to evaluate
+the feasibility of a robotic approach and to plan for any
+necessary adjustments. By carefully selecting candidates—
+particularly during the early adoption phase—surgical teams
+can optimize the safety and effectiveness of lateral access
+RAVR. Once teams have established their RAVR program,
+some of the aforementioned contraindications may become
+relative, as robotic access may actually aid in decreasing comorbidity in certain higher risk patients.
+
+Anesthesia and patient preparation
+Before the patient is brought into the operating room,
+the anesthesia team administers a regional anesthetic
+for post-operative analgesia. Options include an erector
+spinae plane block or single-dose intrathecal morphine.
+Upon arrival in the operating room (OR), a double-lumen
+endotracheal tube is placed, and single-lung ventilation is
+initiated.
+A brachial arterial line is placed in the left arm for
+continuous blood pressure monitoring, while oximetry pads
+are positioned on both calves. Transcutaneous cerebral
+oximetry monitoring is employed to ensure adequacy of
+cerebral perfusion.
+The anesthesia team uses ultrasound guidance to place a
+20-Fr peripheral arterial cannula through the right internal
+jugular vein into the superior vena cava (SVC). This cannula
+is primed and later connected to the cardiopulmonary
+bypass circuit. Alternatively, a 5-Fr angiocatheter
+(micropuncture femoral arterial line kit) is initially placed in
+the right internal jugular vein and prepped into the surgical
+field. The surgical team then replaces this catheter with the
+cannula to facilitate SVC venous drainage.
+The patient is then shifted toward the right side of the
+operating table. A small blanket roll is positioned under the
+right chest to elevate the right hemithorax, and the right
+arm is suspended with draw sheets to hang below the table’s
+edge. This positioning optimally exposes the lateral chest
+wall and axilla (Figure 2).
+Once the patient is positioned, the rib spaces are marked
+using the angle of Louis as a landmark to identify the 4 th
+intercostal space.
+A thorough review of the CT scan may also help
+delineate rib angles and identify rib spaces. On the coronal
+views of the CT scan, drawing a straight line from the apex
+of the heart, passing through the middle of the aortic valve,
+and extending towards the right rib cage can guide the
+access incision placement.
+Next, the midclavicular line and anterior axillary line
+are marked. The access incision is then marked at the 4th
+intercostal space at the anterior axillary line, posterior to the
+anterior axillary fold. The port sites are planned around the
+main access port to allow for triangulation. Arm 1 and 4 ports
+are made 3–4 cm behind the midclavicular line, one or two
+intercostal space(s) above and below the access incision.
+The Arm 3 port is placed anterior to the midclavicular line,
+in the 5th intercostal space. The Arm 2 port (camera) is
+placed through the access incision (Figure 3).
+A dual-team approach is typically used: one performs
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Table 1 Purposes of preoperative screening
+Test
+
+Purpose
+
+Details
+
+CT angiography
+
+Evaluation of peripheral vasculature and
+surgical planning
+
+Ensures that peripheral vessels can accommodate a minimum of
+7 mm diameter, required for 17–19 Fr cannula
+
+Evaluation of aortic valve location relative
+to the ribcage
+
+Assesses the position and orientation of the aorta; a short or vertical
+aorta is a relative contraindication for robotic access
+
+Mapping of chest anatomy for port
+placement
+
+Helps plan port positioning for robotic arms to avoid injuring critical
+structures and optimize ergonomics
+
+Assessment of coronary artery disease
+
+Identifies significant coronary artery disease, potentially requiring
+revascularization with CABG
+
+Prefer radial artery access
+
+Radial artery access reduces complications from groin cannulation,
+especially for patients requiring femoral access during surgery
+
+Assesses lung function and tolerance for
+one-lung ventilation
+
+Ensures adequate lung capacity for single-lung ventilation, essential
+for optimal exposure during surgery
+
+Evaluation of respiratory reserve
+
+Identifies patients with compromised pulmonary function who may
+be at higher risk of perioperative respiratory complications
+
+Coronary angiogram
+
+PFT
+
+Carotid ultrasound
+
+Evaluates risk for cerebrovascular disease Detects carotid artery stenosis or plaques that increase the risk of
+and stroke
+perioperative stroke
+
+Echocardiography
+
+Detailed assessment of cardiac structure
+and function
+
+Assesses ventricular function, valve anatomy, and any structural
+abnormalities to tailor the surgical approach
+
+TEE or TTE
+
+TEE is used intraoperatively for real-time monitoring, while TTE can
+provide preoperative insight
+
+Laboratory tests
+
+Baseline health assessment, risk
+stratification, and coagulation status
+
+Includes CBC for infection/anemia, BMP for kidney function, LFT for
+liver health, and coagulation profile (PT/INR, aPTT)
+
+BNP/NT-proBNP
+
+Cardiac risk stratification for heart failure
+
+Assesses heart failure severity; elevated levels may indicate high
+perioperative risk
+
+Blood type and
+crossmatch
+
+Prepares for potential blood transfusions
+during surgery
+
+Ensures availability of compatible blood if transfusion is necessary
+due to intraoperative blood loss
+
+Anesthesia consultation Tailors the anesthesia plan to the patient’s Reviews the patient’s history and discusses anesthesia strategy,
+unique needs
+including considerations for one-lung ventilation
+aPTT, activated partial thromboplastin time; BNP, brain natriuretic peptide; BMP, basic metabolic panel; CABG, coronary artery bypass
+grafting; CBC, complete blood count; INR, international normalized ratio; LFT, liver function test; NT-proBNP, N-terminal pro-brain
+natriuretic peptide; PFT, pulmonary function test; PT, prothrombin time; TEE, transesophageal echocardiography; TTE, transthoracic
+echocardiography.
+
+right groin cannulation while the other makes the chest
+incisions.
+Peripheral cannulation
+Ultrasound is used to identify common femoral artery
+bifurcation and helps guide the incision site. A 1–2 cm
+incision is made above and parallel to the inguinal crease,
+over the right common femoral vessels, and deepened to
+expose the anterior aspect of the vessels. Circumferential
+
+dissection around the vessels is avoided. Purse-string sutures
+are placed on the common femoral vein and artery.
+Cannulation is performed after systemic heparinization
+and under transesophageal echocardiogram guidance. The
+tip of the venous cannula is positioned in the SVC.
+Bicaval cannulation is recommended primarily to
+optimize venous drainage and secondarily to standardize
+the platform for lateral access robotic cardiac surgery.
+This allows for the seamless inclusion of concomitant
+intracardiac procedures (e.g., mitral, tricuspid, Maze).
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Murtaza and Wei. Lateral access RAVR
+
+Common femoral
+vessels marked with
+ultrasound
+
+Double lumen
+endotracheal tube
+Transesophaeal
+echocardiogram
+5-Fr femoral arterial
+angiocather placed in the
+right internal jugular vein
+
+Roll under
+the right
+hemithorax
+
+Position the right arm by
+suspending it below the
+level of the bed’s edge
+
+Figure 2 Patient positioning.
+
+Figure 4 Robotic port placement in relation to access port.
+
+Figure 3 Landmarks and incision planning. 4th intercostal space is
+marked as the access incision. Robot port sites are placed one space
+below and above the robot Arms 1 and 4. Arm 3 port is placed in
+
+to the right phrenic nerve. Three pericardial stay sutures
+are externalized along the posterior axillary line directly
+posterior to the access incision using the Endo Close device,
+creating a pericardial shelf to separate the lung from the
+access port.
+Three robotic ports are positioned circumferentially
+around the access port according to pre-draping markings,
+conforming to the established robotic mitral platform
+configuration. Placing the number one and four port sites
+two interspaces above and below the working incision
+creates more working space for the tableside assistant.
+Two more stab incisions, for later placement of the left
+ventricular (LV) vent and transthoracic aortic cross-clamp
+are created now (Figure 4).
+
+the midclavicular line.
+
+Cardiopulmonary bypass setup
+Surgical access
+A 4-cm incision is made in the 4th intercostal space and
+deepened through the soft tissue to the rib cage, posterior
+to the pectoralis major muscle. A small, soft tissue retractor
+is then inserted. Optional diaphragmatic retraction is
+achieved with one or two silk sutures placed through the
+central tendon with two or three linear bites, which are
+externalized via the 6 th intercostal space in the anterior
+axillary line using an Endo Close trocar site closure device
+(Medtronic, Minneapolis, MN, USA).
+The pericardial fat pad is excised superiorly to the
+innominate vein, carefully avoiding the phrenic nerve.
+The pericardium is incised anteriorly, adjacent to the
+sternum, using electrocautery. The incision extends
+superiorly to the aortic reflection, inferiorly toward the
+diaphragm, and posteriorly to approximately 2 cm anterior
+
+After systemic heparinization, peripheral cannulation is
+performed. The cannulae are primed and connected to
+the cardiopulmonary circuit. The previously placed neck
+line is connected to the venous line in a Y-configuration.
+If a 5-Fr right internal jugular catheter was initially
+placed, it is exchanged for a 20-Fr femoral arterial cannula
+using the Seldinger technique under transesophageal
+echocardiographic guidance.
+Distal limb perfusion is routinely implemented using a
+1/16” line extended from the arterial cannula side port into
+the distal common femoral artery via a 5-Fr sheath (femoral
+micropuncture arterial line kit).
+Upon initiation of cardiopulmonary bypass, a
+mattress suture secures a long aortic root cannula to the
+posterolateral aspect of the distal ascending aorta. A LV
+vent is then placed in the right superior pulmonary vein,
+with the aortic root catheter brought through the working
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+incision and the LV vent externalized through a posterior
+axillary line stab incision.
+To ensure optimal exposure of the aortic root and
+unobstructed visualization of the valve and annulus, a
+double-armed 4-0 pledgeted polypropylene suture is
+superficially placed on the aortic (medial) side of the base of
+the right atrial appendage. Both needles are passed through
+the pericardium and diaphragm to facilitate retraction.
+Robotic system deployment
+The robotic system is docked with the following instrument
+configuration:
+ Left arm (Arm 1): DeBakey forceps;
+ Access port (Arm 2): camera;
+ Middle arm (Arm 3): long tip forceps;
+ Right arm (Arm 4): curved scissors and large needle
+driver.
+The transthoracic clamp is positioned with the slight
+convex side positioned cephalad to avoid interference
+with robotic Arm 1. It is placed distal to the antegrade
+cardioplegia catheter.
+Valvectomy
+Following aortic cross-clamping, antegrade cold blood
+micro cardioplegia is administered. For patients with aortic
+insufficiency, antegrade cardioplegia is attempted while
+watching for LV distension on echocardiography. The LV
+vent is set to suction, and the proximal aorta is monitored
+for distension and pressurization. Ostial cardioplegia is
+administered if unable to arrest the heart with antegrade
+cardioplegia.
+The aorta is incised obliquely in a hockey-stick fashion,
+extending transversely toward the main pulmonary artery
+on the left side and proximally into the center of the
+non-coronary sinus on the right side to the level of the
+sinotubular junction.
+Robotic instruments are used to excise the valve,
+adhering to established surgical principles. The long tip
+forceps optimize exposure, while curved scissors excise
+leaflets and debride calcific plaques efficiently. The scissor
+blades are used to elevate the calcium by finding the plane
+between calcium and annulus, rather than cutting through
+calcium. The bedside assistant maintains visualization
+through meticulous suction and irrigation of the aortic root,
+ensuring complete removal of debris.
+
+Valve replacement
+The curved scissors are then swapped with a large needle
+driver. Circumferential annular sutures are placed clockwise,
+starting from the non-left commissure to the left-right
+commissure, then progressing through the right and noncoronary sinuses. Valve sizing is performed using modified
+sizers, guided by preoperative imaging to prevent patientprosthesis mismatch.
+During passage of the sutures through the prosthetic
+valve sewing cuff sutures ex vivo, the prosthesis is positioned
+on the annulus under robotic guidance and secured
+using the long Cor-Knot device (LSI Solutions, Victor,
+NY, USA).
+Completion
+The aortotomy is closed in two layers with 4-0
+polypropylene sutures, tied in the middle. Standard deairing
+maneuvers are performed, and warm blood cardioplegia
+is administered. Pacing wires are placed on the right
+ventricular surface and medial surface of the right atrium
+before aortic unclamping.
+After robot undocking and successful weaning from
+cardiopulmonary bypass, decannulation is performed
+systematically. One or two chest tubes are inserted via
+robotic port incisions. The pericardium is closed, and all
+remaining incisions are approximated with absorbable
+sutures.
+Clinical outcomes
+The safety and efficacy of RAVR is supported by early data,
+which indicate that outcomes are at least comparable or
+perhaps offering some advantages to traditional open and
+minimally invasive AVR.
+The initial report by Badhwar et al. described outcomes
+in 20 patients with a mean age of 67.5±5.4 years and a
+Society of Thoracic Surgeons (STS) predicted risk of
+mortality of 1.6%±0.7% (4). The results were excellent,
+with no 30-day mortality or major morbidity. Patients
+experienced rapid recovery, with a median hospital length
+of stay of 4.5 days.
+A follow-up single-center study of 50 patients was
+published in 2022 (11). The study excluded patients with
+severe peripheral vascular disease, low ejection fraction
+(<25%), previous cardiac surgery, or those requiring
+concomitant procedures. Among the included patients,
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Murtaza and Wei. Lateral access RAVR
+
+one-third received mechanical valves, and 14% underwent
+additional cardiac procedures. The outcomes were
+exceptional, with no mortality or major morbidity reported.
+The majority of patients (84%) were extubated in the
+operating room, with the remaining patients extubated
+within 4 hours. Complications were minimal, with only one
+patient requiring a pacemaker and another needing a blood
+transfusion. The median hospital stay was 5 days. Both
+intraoperative and 30-day echocardiography showed no
+evidence of paravalvular leak.
+These findings were subsequently validated by a
+multicenter international study (12). The study included
+212 patients across 4 centers spanning four continents.
+Patient characteristics were consistent across centers, with
+a mean age of 67 years and a median STS predicted risk
+of mortality of 1.7%. The results were again excellent,
+establishing the reproducibility of RAVR, with low rates of
+complications: stroke and operative mortality (0.9% each),
+renal failure (1.4%), reoperation (7.6%), and permanent
+pacemaker placement (2.9%).
+Long-term outcomes from an international multicenter
+experience were recently presented at the 38 th Annual
+Meeting of the European Association for Cardio-Thoracic
+Surgery in October 2024. The data revealed a 150%
+increase in the number of participating centers and a 50%
+growth in RAVR volume, covering all six continents.
+Outcomes remained consistent, with low rates of mortality
+(0.7%), stroke (1%), renal failure (1.7%), and pacemaker
+implantation (2.3%).
+Jagadeesan et al. recently published a propensity-matched
+analysis of RAVR versus TAVR in low- to intermediaterisk patients (14). While there was no difference in 30-day
+mortality between the groups, TAVR patients experienced
+higher rates of permanent pacemaker implantation (7.6%
+vs. 2.1%), vascular complications (9.0% vs. 0%), and
+paravalvular leak (21.5% vs. 0.7%). At one-year follow-up,
+TAVR patients showed significantly higher mortality (12.5%
+vs. 1.4%) and paravalvular leak rates (32.6% vs. 2.3%),
+although mean valve gradients were similar between groups.
+The RAVR group had more bicuspid valves (46.5% vs.
+13.8%) and experienced more post-operative hemothorax
+requiring reoperation (5.6%), while the TAVR group had a
+trend toward higher stroke rates (4.2% vs. 0.7%).
+The case for standardizing the lateral access
+approach to cardiac surgery
+The lateral access RAVR presents a compelling alternative
+
+to traditional sternotomy and anterior chest or minimally
+invasive sternotomy techniques, offering potential
+advantages in both surgical execution and patient outcomes.
+By leveraging anatomical benefits and procedural
+consistency, this platform underscores the importance of
+standardization in robotic cardiac surgery.
+Enhanced anatomical access
+The lateral transaxillary incision capitalizes on the
+significantly wider intercostal spaces in this region. This
+wider anatomical window eliminates the need for rib
+resection or aggressive rib spreading, thereby reducing
+the risk of trauma to surrounding structures. Additionally,
+this access improves the ease of prosthetic valve delivery
+through the incision while preserving the essential technical
+aspects of traditional open SAVR.
+Muscle-sparing incision
+The incision is deliberately “muscle-sparing”, with
+meticulous care taken to stay posterior to the pectoralis
+major muscle while deepening the incision to the rib
+cage. Preserving the integrity of the muscle ensures better
+postoperative recovery by minimizing pain, maintaining
+chest wall strength, and reducing the risk of functional
+impairment. This approach demonstrates a commitment
+to reducing the invasiveness of the procedure while
+maintaining excellent surgical exposure.
+Procedural homogeneity across robotic cardiac surgery
+The lateral transaxillary platform is identical to that used
+for robotic mitral valve surgery, creating an opportunity
+for standardization across robotic cardiac procedures. This
+procedural homogeneity minimizes the learning curve for
+surgical teams, allowing them to master a single access
+technique applicable to various cardiac surgeries.
+Robotic cardiac surgery is not just a series of individual
+operations with different approaches; it is a comprehensive
+platform. By unifying the approach, the lateral transaxillary
+platform used for RAVR simplifies surgical planning
+and execution, enhancing predictability and efficiency.
+Procedures that can be performed via this platform include
+mitral and tricuspid valve repair or replacement, Maze
+procedures, left atrial appendage obliteration, atrial septal
+defect repair, ventricular septal defect repair, intracardiac
+tumor resection, epicardial pacemaker lead placement,
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+septal myectomy, and even aortic valve repair.
+The lateral transaxillary approach to RAVR sets a
+new benchmark in minimally invasive cardiac surgery.
+By improving technical execution, enhancing ergonomic
+efficiency, and simplifying procedural standardization, it
+potentially maximizes surgical outcomes while minimizing
+patient trauma.
+
+in robotic systems will likely address current limitations
+and expand the accessibility of RAVR. Future iterations
+of robotic platforms may incorporate features such as
+enhanced haptic feedback, improved visualization, and
+increased automation, enabling even greater precision and
+safety.
+Surgeon training and standardization
+
+Challenges
+Learning curve
+The successful implementation of RAVR requires unique
+skill sets. For surgeons accustomed to traditional open
+AVR, the transition to robotic procedures may represent a
+significant learning curve. Mastering robotic techniques,
+particularly through the lateral approach, requires
+additional training and ongoing practice to maintain
+proficiency. This should start with robotic mitral valve
+surgery and mitral replacement prior to commencement of
+RAVR as the skillset is very similar (12). For teams with an
+extensive experience in mitral surgery, the learning curve
+may be as little as 5–10 cases (4).
+Cost and accessibility
+The demonstrated clinical benefits shown in studies,
+including lower one-year mortality rates and fewer
+complications compared to TAVR, make a compelling case
+for expanding RAVR programs. As robotic systems become
+more prevalent across surgical specialties, hospitals can
+leverage existing infrastructure and surgical expertise to add
+RAVR capabilities. The learning curve and costs could be
+distributed across multiple surgical service lines, making the
+investment more feasible. Additionally, as more surgeons
+are trained in robotic techniques during their residency and
+fellowship programs, the specialized workforce needed for
+RAVR may naturally grow. With potential benefits in patient
+outcomes and the broader trend toward minimally invasive
+approaches, RAVR could follow a similar adoption trajectory
+to other robotic procedures that have become standard of
+care, moving from select centers to wider availability as
+experience grows and costs optimize over time.
+Future prospects and the path to routine use
+Technological advancements and improved accessibility
+As robotic technology continues to evolve, advancements
+
+To realize the full potential of RAVR, training programs
+and standardized protocols must become more widespread.
+Establishing structured robotic cardiac surgery fellowships
+and training pathways can create a consistent pipeline of
+skilled surgeons who are capable of performing RAVR safely
+and effectively. As more surgeons gain proficiency, surgical
+times and complication rates are expected to decrease,
+making the procedure more feasible for routine use.
+Adoption of the established standardized approach for
+RAVR, including patient selection criteria, procedural
+protocols, and postoperative care, will assist in obtaining
+predictable and reproducible outcomes (12). Developing and
+disseminating these guidelines can help ensure that RAVR
+is performed consistently and safely, reducing variability in
+outcomes across institutions. Furthermore, collaboration
+between institutions to share data, experiences, and best
+practices can promote continuous improvement and foster a
+culture of excellence in robotic cardiac surgery.
+Large-scale, multicenter trials may provide a solid
+evidence base for lateral access RAVR, further establishing
+its clinical value. Research that tracks patient outcomes
+over extended periods will be particularly important in
+assessing valve durability and overall survival, helping to
+determine whether RAVR can match or exceed the longterm outcomes of traditional AVR and TAVR.
+Potential for complex robotic aortic surgery
+RAVR is currently established for straightforward valve
+replacements, however emerging experience led by the West
+Virginia team has established the feasibility of additional
+procedures such as aortic root enlargement, aortic valve
+repair and trans aortic septal myectomy or LV mass
+excision (15-17). This success opens the door to potentially
+expanding robotic techniques to other complex aortic
+procedures in the future, including root replacement, valve
+resuspension, annular enlargement, and aortic aneurysm
+repair. The precision offered by robotic assistance could
+be particularly valuable in these technically demanding
+
+Ann Cardiothorac Surg 2025;14(3):192-201 | https://dx.doi.org/10.21037/acs-2025-ravr-0049
+
+Murtaza and Wei. Lateral access RAVR
+
+procedures where meticulous suture placement and tissue
+handling are critical. These developments would represent
+a significant evolution in aortic surgery, potentially offering
+patients the benefits of robotic assistance—including
+smaller incisions and faster recovery—even for procedures
+that traditionally require full sternotomy. Although most of
+these applications remain hypothetical and require careful
+research and validation, the successful implementation of
+robotic aortic root enlargement provides an encouraging
+proof of concept for future expansion.
+Conclusions
+The emergence and reproducibility of RAVR represents a
+significant advancement in cardiac surgery, supported by
+compelling clinical outcomes. The standardization of the
+lateral transaxillary robotic platform across various cardiac
+procedures not only optimizes surgical workflow but also
+provides a foundation for expanding robotic cardiac surgery
+programs beyond isolated valve replacement.
+While technical complexity and a learning curve may
+present initial challenges, these obstacles appear readily
+surmountable through structured training programs
+and clinical experience. The successful implementation
+of complex procedures such as aortic root enlargement
+demonstrates the platform’s potential for expansion into
+more advanced aortic surgeries.
+As robotic systems become more prevalent and surgical
+expertise grows, RAVR is well-positioned to follow the
+adoption trajectory of other minimally invasive techniques
+that have become standard of care. This evolution
+represents a fundamental shift in cardiac surgery, offering
+patients the benefits of minimally invasive approaches while
+maintaining the durability of traditional surgical valve
+replacement. The continued refinement and expansion of
+RAVR techniques, coupled with ongoing technological
+innovations, suggests that this approach will play an
+increasingly central role in the future of aortic valve disease
+treatment.
+
+to declare.
+Ethical Statement: The West Virginia University Institutional
+Review Board approved this study with waiver of consent
+(Protocol #2210660362).
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

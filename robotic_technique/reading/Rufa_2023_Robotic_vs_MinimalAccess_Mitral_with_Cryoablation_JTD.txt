@@ -1,0 +1,2227 @@
+Original Article
+
+A propensity matched comparison of robotic vs. traditional
+minimal access approach for mitral valve repair with concomitant
+cryoablation
+Magdalena Rufa1^, Ragi Nagib1, Dincer Aktuerk2, Samir Ahad1, Mihnea Ghinescu1, Ulrich Franke1
+
+Department of Cardiovascular Surgery, Robert Bosch Hospital, Stuttgart, Germany; 2Barts Heart Centre, Barts Health NHS, London, UK
+
+Contributions: (I) Conception and design: M Rufa; (II) Administrative support: U Franke; (III) Provision of study materials or patients: R Nagib, S
+Ahad, M Ghinescu; (IV) Collection and assembly of data: M Rufa, M Ghinescu; (V) Data analysis and interpretation: M Rufa, U Franke, D Aktuerk;
+(VI) Manuscript writing: All authors; (VII) Final approval of manuscript: All authors.
+Germany. Email: Magdalena.Rufa@rbk.de.
+
+Background: Atrial fibrillation (AF) occurs frequently in patients with mitral valve disease. Results of
+cryoablation concomitant with either minimally invasive video-assisted [minimally invasive mitral valve
+surgery (MIMVS)] or with robotic-assisted (RMV) mitral valve surgery have previously been separately
+reported. However, there are up-to-date no studies comparing the two procedures in terms of safety, efficacy,
+and mid-term follow-up.
+Methods: Between January 2017 and March 2022, 294 patients underwent MIMVS, and 187 patients
+underwent RMV at our institution. After 1:1 propensity score matching using 22 preoperative variables, the
+study included 104 patients. Group 1 (MIMVS) included 52 patients operated on between 2017–2022 using a
+minimally invasive video-assisted right-sided mini-thoracotomy. Group 2 (RMV) included 52 patients operated
+on between 2019–2021 using a robotic-assisted approach. Early and mid-term outcomes were assessed,
+including maintenance of sinus rhythm. Follow-up was 100% complete at a median follow-up of 2 years.
+Results: For the entire propensity matched cohort, the median EuroSCORE II was 3.14 [interquartile
+range (IQR), 1.93–4.99], the median age was 68 (IQR, 61–74) years, and two thirds of the patients were
+male. Most (72.1%) underwent mitral valve surgery, and 26.9% had an additional tricuspid procedure. Only
+four patients underwent mitral valve replacement (3.8%). The majority (87.5%) received a left-sided atrial
+Maze and 12.5% a bi-atrial Maze. The left atrial appendage was occluded in 72.1% cases. Overall, there
+were no significant differences between the two propensity matched groups in baseline demographics or
+intra-operative characteristics. Similarly, there were no significant differences in the post-operative short
+and mid-term outcomes between the two groups. There were no in-hospital or 30-day deaths. At the midterm survival was similar between groups, log-rank test P=0.056. Maintenance of sinus rhythm at follow-up
+was 76%.
+Conclusions: Mitral or double valve repair with concomitant cryoablation can be safely performed with
+either a MIMVS or RMV approach. Both methods demonstrated outstanding early and mid-term outcomes.
+Keywords: Minimally invasive mitral valve surgery (MIMVS); robotic-assisted mitral valve surgery (RMV); atrial
+fibrillation (AF); concomitant surgical ablation; cryoablation
+
+^ ORCID: 0000-0003-0395-9834.
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Rufa et al. Robotic vs. MIMVS mitral repair and AF ablation
+
+Introduction
+Mitral valve (MV) insufficiency is the second commonest
+heart valve disease in Europe (1). It represents a very
+significant public health burden, which is expected to
+increase as the western population ages. In the 2021
+European Society for Cardiology (ESC)/European
+Association for Cardio-Thoracic Surgery (EACTS)
+Guidelines for the management of valvular heart disease,
+MV repair (MVR) has a Class I recommendation in
+patients for both symptomatic and asymptomatic (with left
+ventricular impairment/dilatation) severe primary mitral
+insufficiency (MI) (1). This has been made possible through
+the development and international adoption of repair
+techniques propagated by Carpentier and others in the
+1980’s and 1990’s (2). These techniques consistently restore
+life expectancy to normal in a range of primary mitral
+pathologies, with outstanding short-term results and longterm freedom from reintervention exceeding 90% (3).
+Over the last twenty years, surgeons have continued to
+push boundaries through development of minimal access
+approaches including: mini-sternotomy, mini-thoracotomy,
+port access (non-spreading), and robotic-assisted MV
+intervention. Concomitant double/triple valve, and atrial
+fibrillation (AF) ablation procedures are now also commonly
+
+Highlight box
+Key findings
+• Both minimally invasive video-assisted and robotic surgery have
+been proven to be safe and effective, with outstanding early
+and mid-term outcomes in mitral or double valve repair with
+concomitant cryoablation.
+What is known and what is new?
+• Both minimally invasive video-assisted and robotic surgery have
+been proven safe and effective mitral valve repair techniques.
+Concomitant ablation and additional valve surgery ads complexity
+and increases the potential advantages. Current evidence resides
+largely from individual observational studies and meta-analyses.
+• Literature comparing robotic surgery to other minimally invasive
+strategies in patients requiring mitral or double valve procedure
+and additionally concomitant atrial ablation is lacking, reason why
+our research is unlike any other.
+What is the implication, and what should change now?
+• Prospective randomized studies comparing the two methods are
+needed to reinforce our findings, with the addition of high-quality
+longitudinal health-related quality of life and multi-modality
+pain assessments, especially given that this is where the robotic
+approach is likely to have shown advantage.
+
+done through such approaches. Such interventions have
+reduced the transfusion requirement, and improved the
+short- and medium-term health-related quality of life of
+patients (3).
+There are numerous large studies reporting the safety,
+efficacy and durability of MV surgery in both minimal invasive
+video-assisted setting via right-sided mini-thoracotomy
+[minimally invasive mitral valve surgery (MIMVS)] (4-6)
+or as robotic-assisted procedure (7-14). However, there are
+fewer reports on rather small patient populations of either
+MIMVS (15) or robotic-assisted mitral or double valve surgery
+combined with surgical AF ablation (11,14,16,17).
+Since 2007, in Stuttgart we have routinely performed
+mitral intervention with concomitant ablation of AF during
+video-assisted MV operations. As of 2019, using the da
+Vinci XI surgical system (Intuitive Surgical Inc., Sunnyvale,
+CA, USA) we have started performing this procedure
+with robotic assistance. The purpose of this study is to
+perform a comparative assessment of the two techniques in
+terms of the perioperative, early- and mid-term outcomes
+of mitral intervention with concomitant ablation. The
+added complexity of the additional ablation makes this
+an attractive cohort to study. We present this article in
+accordance with the STROBE reporting checklist (available
+at https://jtd.amegroups.com/article/view/10.21037/jtd-231306/rc).
+Methods
+Study design
+Between July 2019 and December 2021, we performed
+187 robotic-assisted MV procedures. In 64 of them, a
+concomitant cryoablation was conducted, due to paroxysmal
+AF (PAF), persistent AF (persAF) or long-standing persistent
+AF (lspersAF). PAF is classified as an episode of AF that ends
+on its own and lasts less than 7 days. People with persAF
+have an arrhythmia event that lasts for more than 7 days
+and needs electrical or drug-based cardioversion to end. As
+lspersAF, we described AF that is unresponsive to treatment
+by cardioversion and has been going on for more than a year.
+Using our prospectively collected institutional database,
+we identified similar cases performed using a MIMVS
+technique. Propensity score (PS) matching (1:1) was
+performed with 22 variables [age, gender, body mass index
+(BMI), EuroSCORE II, history of angina pectoris, New
+York Heart Association (NYHA) classification, history
+of acute myocardial infarction, history of percutaneous
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Journal of Thoracic Disease, Vol 15, No 12 December 2023
+
+coronary intervention, redo cardiac surgery, type II diabetes
+treated with oral medication, arterial hypertension, impaired
+renal function, serum creatinine value, chronic obstructive
+pulmonary disease, neurological dysfunction, peripheral
+vascular disease, type of AF, CHA2DS2-VASc score, left
+ventricular ejection fraction (LVEF), MV pathology,
+tricuspid valve pathology, year of the surgery].
+The propensity-matched cohort included 104 patients:
+group 1 (MIMVS) comprised 52 patients operated on
+between 2017–2022 using a minimally invasive videoassisted right-sided mini-thoracotomy, and group 2
+[robotic-assisted mitral valve surgery (RMV)] comprised 52
+patients operated on between 2019–2021 using a roboticassisted approach. We assessed the perioperative, early and
+mid-term outcomes in terms of morbidity and mortality, as
+well as the maintenance of sinus rhythm.
+The study was conducted in accordance with the ethics
+principles of the Declaration of Helsinki (as revised in
+2013). The study design is observational and has been
+approved by the ethics board of the Medical University
+Tübingen (number of ethics registration: 729/2020BO2).
+Due to the retrospective methodology and the use of
+anonymised data from regular patient care, patient consent
+was not thought to be necessary.
+Statistical analysis
+Continuous variables are presented as median (25 th ,
+75 th percentile), categorical variables as absolute and
+percentages. Because of the nonrandomized group
+assignment, we performed a PS matching 1:1 nearest
+neighbour to assess treatment effects. A logistic regression
+model including the above-mentioned covariates was used
+to estimate the PS. Balance of the two matched groups was
+evaluated by standardized mean differences in the matching
+variables. A maximum standardized mean difference of
+0.15 was considered acceptable. In the end, we found
+and compared 52 pairs. In order to assess the differences
+between the two groups we used the Wilcoxon signed rank
+test for continuous variables and the McNemar’s test for
+categorical variables.
+Differences were considered statistically significant if
+the P value was less than 0.05. The estimation of patient
+survival was conducted using the Kaplan-Meier curve.
+The log-rank test was employed to ascertain the disparities
+between the groups. SPSS 28.0 for Windows (SPSS Inc.,
+Chicago, IL, USA) was used for the statistical analysis, and
+R 3.5.0 (R Foundation for Statistical computational, Vienna,
+
+Austria) was used for the computational environment, with
+the programme MatchIt 3.02 (R Foundation for Statistical
+Computing, Vienna, Austria) for pairwise matching of
+instances.
+Patient management
+Preoperative
+Complete medical history, including arrhythmia history
+(duration of AF, prior ablation, prior electrical cardioversion),
+12-lead resting electrocardiography (ECG), determination
+of the CHA2DS2-VASC score, echocardiography, coronary
+angiogram, computed tomography (CT) scan of the thorax,
+carotid sonogram, current medication, written informed
+consent for the surgical procedure.
+Operative
+AF ablation
+We used the CryoForm ® probe (Atricure Europe B.V.,
+Amsterdam, Netherlands) with an application time of 90
+seconds for all lesions and an average target temperature
+of −60 ℃. Two types of lesion sets, left atrial Maze and biatrial Maze were reproduced according to the underlying
+AF pathology.
+The first cryolesion is applied on the epicardium across
+the coronary sinus. After that we perform a longitudinal
+incision in the interatrial groove toward the posterior
+wall of the left atrium. The next cryolesion extends from
+the inferior atriotomy, to the mitral annulus overlapping
+endocardially with the first lesion performed. A third line
+starts from the previous one, across the dome of the left
+atrium and ends at the superior end of the atriotomy (18).
+A fourth line extending into the left atrial appendage (LAA)
+completes the left atrial Maze procedure.
+For the right atrial lesions, a vertical or transverse
+right atriotomy is performed depending on whether a
+concomitant tricuspid valve procedure is planned. The first
+two lesions extend from the atriotomy to the inferior and
+then the superior vena cava. A third lesion extends from the
+atriotomy to the posterior tricuspid leaflet (18). We perform
+a fourth cryolesion from the superior end of the atriotomy
+into the right atrial appendage.
+The selection of cryolesions set was based on surgeon
+preference. However, as a general rule, a biatrial Maze
+would be conducted if there was also a right heart condition,
+such as tricuspid valve insufficiency or significant right atrial
+enlargement, as well as in individuals with a history of atrial
+flutter paired with AF.
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Rufa et al. Robotic vs. MIMVS mitral repair and AF ablation
+
+Minimally invasive video-assisted cardiac surgery through
+right anterior mini-thoracotomy
+As a routine approach we use a right-sided minithoracotomy in the 4th intercostal space (ICS) with twodimensional (2D) video-assistance. The preparation,
+setting and approach are similar to that described by Marin
+Cuartas et al. in their review paper under the ‘Leipzig
+minimal invasive MV technique’ (19). The only difference
+is that if a second venous cannula is required, we usually
+directly cannulate the superior vena cava and connect it to
+a supplemental line to the venous reservoir. It is inserted
+through the thoracotomy or through the 3rd ICS next to the
+Chitwood aortic cross-clamp.
+Robotic-assisted cardiac surgery
+The inclusion and exclusion criteria for robotic-assisted
+surgery in our centre, as well as the operative approach
+have been previously published (20). There are three
+operating surgeons who have extensive expertise with the
+MIMVS approach, two of whom have furthered specialized
+and are now performing the surgeries robotic-assisted.
+The establishing phase of RMV was reasonably quick
+after thorough planning, with no elevated risks for the
+patients (20). The program’s initial extended operative
+times were greatly lowered by focusing on structured and
+standardized operation methods (20). As early as 2020, less
+than a year after the program began, operation times were
+comparable to standard MIMVS procedures (20).
+With growing experience, robotic MVR almost replaced
+completely mini-MVR in our institute. In the present study
+we did not exclude patients, who underwent surgery during
+the establishment phase.
+Patients with pectus excavatum, with pulmonary
+hypertension and of older age were operated on roboticassisted (20). Patients with severe right-sided diaphragmatic
+elevation, with extended calcification of the MV and with
+an aneurysm of the ascending aorta larger than 40 mm were
+excluded from the robotic approach and operated on using
+the MIMVS technique. Patients with high-grade obesity
+and re-operations were excluded from both groups and
+treated via median sternotomy (20).
+The same reconstructive techniques, as well for the
+mitral as for the tricuspid valve have been implied in both
+groups. These included triangular resection, quadrangular
+resection with sliding repair, neochordae implantation,
+pericardial patch insertion into the anterior mitral leaflet
+and an annuloplasty with a band or a ring.
+For MVR we used two annuloplasty devices, CG Future
+Band ® (Medtronic GmbH, Meerbusch, Germany) and
+
+Carpentier-Edwards (CE) Physio II® (Edwards Lifesciences,
+Irvine, CA, USA). In the few cases where the MV had to be
+replaced, the patients opted before surgery for a biological
+prosthesis (CE Perimount®, Edwards Lifesciences, Irvine,
+CA, USA). For concomitant tricuspid valve repair we used
+exclusively the Edwards MC3 ® (Edwards Lifesciences,
+Irvine, CA, USA) annuloplasty device.
+The LAA occlusion was conducted in three different
+manners: excision with tissue stapler, endocardial closure
+using two layers suture, and endocardial resection and
+purse string suture, reinforced by a supplemental two layers
+suture. The result of the LAA closure was confirmed by
+transesophageal echocardiography in all patients before
+leaving the operating theatre.
+In-hospital arrhythmia management
+Twelve hours after surgery, subcutaneous heparin was
+initiated. Continuous telemetry was used until discharge.
+If the patient was in sinus rhythm after surgery, only
+betablockers would be used (unless amiodarone was
+one of their pre-operative medications). If AF recurred,
+amiodarone was initiated for at least 3 months.
+Haemodynamic instability or failure of medical treatment
+was managed with electrical cardioversion. If patients
+developed junctional rhythm or sick sinus syndrome (SSS),
+all antiarrhythmic drugs were discontinued. A permanent
+pacemaker (PPM) would only be used after allowing at
+least 8 days for rhythm recovery. All patients underwent
+transthoracic echocardiography before discharge.
+Follow-up
+Patients were followed up at regular intervals by their
+referring cardiologist, by means of 24-hour Holter monitor
+at every 3 months up to a year, and then yearly thereafter.
+Transthoracic echocardiography was performed 6 monthly
+up to a year, and then yearly thereafter. The results of
+all investigations were accessible by our institution,
+and discussed at regular multidisciplinary regional
+electrophysiology meetings.
+In patients with recurrent AF after the surgical ablation
+procedure the following protocol was used:
+(I) Referral to the cardiac surgery outpatient clinic.
+(II) Participation at our electrophysiology heart team
+meeting with one of the following therapeutical
+decisions:
+(i) Escalation of antiarrhythmic drug therapy with
+repeat electrical cardioversion;
+(ii) Interventional transcatheter ablation;
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Journal of Thoracic Disease, Vol 15, No 12 December 2023
+
+(iii) In case of permanent AF, optimised drug
+therapy.
+Results
+Baseline characteristics
+The study included 104 patients equally distributed between
+the two groups.
+The overall median age was 68 [interquartile range
+(IQR): 61–74] years and the median EuroSCORE II was
+3.14 (1.93–4.99) for the whole population.
+Two thirds of the patients were male. Most patients
+presented with a NYHA class II/III symptomatic. The
+majority (81.7%) had impaired renal function, deﬁned as
+stage 3a or higher chronic kidney disease with a glomerular
+ﬁltration rate <60 mL/min/1.73 m 2. Twenty patients,
+corresponding to 19.2% had a history of pulmonary disease,
+which included asthma, bronchitis, chronic obstructive
+pulmonary disease and pneumonia. Seven patients had a
+PPM. The groups were well balanced with no statistically
+significant differences in demographics or comorbidities
+between (Table 1). Table 2 renders a detailed summary of the
+heart rhythm history in both groups. Thirty-five-point-five
+percent presented with PAF and 46.1% with persAF.
+Compared to patients in the MIMVS group, those in the
+RMV group had a longer median duration of AF since first
+diagnosis (12.5 vs. 7 months, P=0.22).
+Only 10% had prior interventional ablation, but 47%
+had undergone an electrical cardioversion. In the ECG at
+presentation, 50.0% of the patients presented with SR and
+45.2% with AF.
+The preoperative echocardiography findings are
+presented in Table 3. Based on the preoperatively defined
+LVEF, patients were distributed into three categories:
+normal LVEF (>55%), moderate LVEF (30–55%), and
+severe LVEF (<30%). Most patients presented with normal
+left ventricular function. Eighty-one-point-seven percent
+presented primary MV pathology with type II insufficiency
+according to the Carpentier classification as being the most
+encountered in both study groups. Ninety-five-point-two
+percent had 3rd degree MI.
+Intraoperative data
+All surgeries were elective. Table 4 summarises the
+intraoperative outcomes: 72.1% underwent MV surgery,
+and 26.9% a double valve (i.e., additional tricuspid)
+
+procedure. There were four replacements of the MV,
+accounting for 3.8%. One replacement occurred after
+failed repair. In 76% of the patients, a Future Band device
+was implanted. The RMV group had a substantially longer
+median bypass time than the MIMVS group (181 vs.
+166 minutes, P=0.02), however this difference is not
+reflected in the cross-clamp time, which is quite similar
+between the two groups (99 vs. 101 minutes, P=0.67).
+Most (87.5%) received a left atrial Maze and 12.5% a biatrial Maze. An LAA occlusion procedure was completed
+in 72.1% cases. There were two conversions to sternotomy,
+one in each group. The conversion in the MIMVS group
+was due to severe aortic valve insufficiency after performing
+mitral and tricuspid valve repair; consequently, an aortic
+valve replacement via upper partial sternotomy was
+performed. The conversion in the RMV group was due to
+left ventricular posterior wall rupture, which was repaired
+and the patient made a full recovery thereafter.
+Post-operative outcomes
+The postoperative course was in the majority of cases
+uneventful. There were no in-hospital or 30-day deaths.
+Four patients needed re-exploration for bleeding. Only one
+patient developed a cerebrovascular accident (CVA). With
+one exception, there were no significant differences in the
+postoperative course between the two patient populations
+(Table 5). The exception constitutes a patient who needed
+an extracorporeal membrane oxygenation (ECMO) therapy.
+By the patient in question, the surgical procedure included
+biatrial Maze ablation in addition to mitral and tricuspid
+valve repair. Lactate levels as well as vasopressor support
+kept rising in the early postoperative phase, and due to
+biventricular dysfunction, we made the decision to set up a
+veno-arterial ECMO (VA ECMO) to provide hemodynamic
+and respiratory support. Following 3 days of continuous
+therapy, the hemodynamic situation stabilized with time,
+allowing the VA ECMO flow to be decreased. After a week,
+the VA ECMO was taken out and a veno-venous ECMO
+(VV ECMO) was installed because pulmonary weaning off
+the extracorporeal system was not viable. After a further
+week of weaning, the VV ECMO was removed. The patient
+made a full recovery and was discharged from our standard
+ward on the 28th day following the surgical procedure.
+Regarding heart rhythm changes in the immediate
+postoperative course, 52.8% developed supraventricular
+arrhythmias, but only 2.8% necessitated an electrical
+cardioversion. A PPM was implanted in 11 patients, 8 in the
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Rufa et al. Robotic vs. MIMVS mitral repair and AF ablation
+
+Table 1 Demographics and preoperative data
+Variables
+
+Total (n=104)
+
+MIMVS (n=52)
+
+RMV (n=52)
+
+P value
+
+SMD
+
+Age (years)
+
+68 [61–74]
+
+68 [61–73]
+
+69 [61.25–75.75]
+
+0.58
+
+0.042
+
+BSA (m2)
+
+1.97 [1.78–2.13]
+
+2.01 [1.78–2.16]
+
+1.96 [1.78–2.10]
+
+0.56
+
+BMI (kg/m )
+
+26 [23.10–28.10]
+
+26.30 [23.40–28.70]
+
+24.85 [22.72–28.10]
+
+0.24
+
+−0.091
+
+EuroSCORE II
+
+3.14 [1.93–4.99]
+
+2.76 [1.67–4.35]
+
+3.49 [2.46–5.65]
+
+0.07
+
+0.124
+
+Male gender
+
+66 (63.5)
+
+33 (63.5)
+
+33 (63.5)
+
+>0.99
+
+<0.001
+
+Angina pectoris
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+0.98
+
+<0.001
+
+0.74
+
+−0.112
+
+NYHA classification
+I
+
+28 (26.9)
+
+11 (21.2)
+
+17 (32.7)
+
+II
+
+49 (47.1)
+
+28 (53.8)
+
+21 (40.4)
+
+III
+
+23 (22.1)
+
+11 (21.2)
+
+12 (23.1)
+
+IV
+
+4 (3.8)
+
+2 (3.8)
+
+2 (3.8)
+
+History of AMI
+
+2 (1.9)
+
+2 (3.8)
+
+0.15
+
+0.13
+
+History of PCI
+
+8 (7.7)
+
+3 (5.8)
+
+5 (9.6)
+
+0.46
+
+0.142
+
+Redo cardiac surgery
+
+1 (1.0)
+
+1 (1.9)
+
+0.31
+
+−0.070
+
+Hyperlipidemia
+
+39 (37.5)
+
+17 (32.7)
+
+22 (42.3)
+
+0.31
+
+Type II diabetes treated with oral medication
+
+4 (3.8)
+
+2 (3.8)
+
+2 (3.8)
+
+>0.99
+
+<0.001
+
+Arterial hypertension
+
+87 (83.7)
+
+42 (80.8)
+
+45 (86.5)
+
+0.11
+
+0.148
+
+Impaired renal function
+
+85 (81.7)
+
+43 (82.7)
+
+42 (80.8)
+
+0.15
+
+−0.070
+
+Serum creatinine (mg/dL)
+
+1.10 [0.90–1.20]
+
+1.10 [0.90–1.20]
+
+1.05 [0.90–1.20]
+
+0.14
+
+−0.063
+
+History of pulmonary disease
+
+20 (19.2)
+
+13 (25.0)
+
+7 (13.5)
+
+0.13
+
+COPD
+
+4 (3.8)
+
+2 (3.8)
+
+2 (3.8)
+
+>0.99
+
+<0.001
+
+0.3
+
+–
+
+Neurological disease
+TIA
+
+1 (1.0)
+
+1 (1.9)
+
+CVA with deficiency
+
+1 (1.0)
+
+1 (1.9)
+
+CVA with recovery
+
+2 (1.9)
+
+2 (3.8)
+
+Neurological dysfunction
+
+9 (8.7)
+
+4 (7.7)
+
+5 (9.6)
+
+0.72
+
+0.094
+
+Peripheral vascular disease
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+>0.99
+
+<0.001
+
+History of pulmonary embolism
+
+1 (1.0)
+
+1 (1.9)
+
+0.31
+
+–
+
+Hemorrhagic events
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+>0.99
+
+–
+
+0.24
+
+–
+
+–
+
+0.127
+
+Implantable device
+Single chamber PPM
+
+1 (1.0)
+
+1 (1.9)
+
+Dual chamber PPM
+
+6 (5.8)
+
+2 (3.8)
+
+4 (7.7)
+
+–
+
+–
+
+–
+
+Year of the surgery (considering 5-year intervals)
+th
+
+th
+
+Values are presented as n (%) or median [25 , 75 percentile]. MIMVS, minimally invasive mitral valve surgery; RMV, robotic-assisted
+mitral valve surgery; SMD, standardized mean difference; BSA, body surface area; BMI, body mass index; EuroSCORE, European
+System for Cardiac Operative Risk Evaluation; NYHA, New York Heart Association; AMI, acute myocardial infarction; PCI, percutaneous
+coronary intervention; COPD, chronic obstructive pulmonary disease; TIA, transient ischemic attack; CVA, cerebrovascular accident; PPM,
+permanent pacemaker.
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Journal of Thoracic Disease, Vol 15, No 12 December 2023
+
+Table 2 Heart rhythm history
+Variables
+
+Total (n=104)
+
+MIMVS (n=52)
+
+RMV (n=52)
+
+Type of AF
+
+P value
+
+SMD
+
+0.83
+
+0.052
+
+PAF (<7 d)
+
+37 (35.6)
+
+18 (34.6)
+
+19 (36.5)
+
+PersAF (7 d–1 y)
+
+48 (46.2)
+
+26 (50.0)
+
+22 (42.3)
+
+LspersAF (>1 y)
+
+19 (18.3)
+
+8 (15.4)
+
+11 (21.2)
+
+CHA2DS2-VASc score
+
+2 [1–3]
+
+2 [2–3]
+
+2 [1–3]
+
+0.65
+
+0.011
+
+Duration of AF since first diagnosis (months)
+
+9.5 [2–28]
+
+7 [3–20]
+
+12.5 [2–45.5]
+
+0.22
+
+–
+
+0.07
+
+–
+
+0.17
+
+–
+
+0.35
+
+–
+
+0.35
+
+–
+
+0.08
+
+–
+
+Other SVT arrhythmias
+AFL
+
+7 (6.7)
+
+2 (3.8)
+
+5 (9.6)
+
+AVNRT
+
+1 (1.0)
+
+1 (1.9)
+
+AF & AFL
+
+1 (1.0)
+
+1 (1.9)
+
+Prior ablation
+AF
+
+9 (8.7)
+
+3 (5.8)
+
+6 (11.5)
+
+AVNRT
+
+1 (1.0)
+
+1 (1.9)
+
+No. of ablations
+
+7 (6.7)
+
+1 (1.9)
+
+6 (11.5)
+
+2 (1.9)
+
+2 (3.8)
+
+No. of ECV
+
+36 (34.6)
+
+19 (36.5)
+
+17 (32.7)
+
+11 (10.6)
+
+3 (5.8)
+
+8 (15.4)
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+ECG before surgery
+Heart rhythm
+SR
+
+52 (50.0)
+
+22 (42.3)
+
+30 (57.7)
+
+AF
+
+47 (45.2)
+
+26 (50.0)
+
+21 (40.4)
+
+AFL
+
+3 (2.9)
+
+3 (5.8)
+
+PM
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+LBBB
+
+4 (3.8)
+
+1 (1.9)
+
+3 (5.8)
+
+0.31
+
+–
+
+RBBB
+
+3 (2.9)
+
+2 (3.8)
+
+1 (1.9)
+
+0.56
+
+–
+
+0.13
+
+–
+
+AV block
+st
+
+1 degree
+
+12 (11.5)
+
+4 (7.7)
+
+8 (15.4)
+
+1 (1.0)
+
+1 (1.9)
+
+nd
+
+2 degree Mobitz
+th
+
+th
+
+Values are presented as n (%) or median [25 , 75 percentile]. MIMVS, minimally invasive mitral valve surgery; RMV, robotic-assisted
+mitral valve surgery; SMD, standardized mean difference; AF, atrial fibrillation; PAF, paroxysmal atrial fibrillation; persAF, persistent atrial
+fibrillation; lspersAF, long standing persistent atrial fibrillation; d, days; y, years; SVT, supraventricular tachycardia; AFL, atrial flutter;
+AVNRT, atrioventricular nodal reentry tachycardia; ECV, electrical cardioversion; ECG, electrocardiography; SR, sinus rhythm; PM,
+pacemaker; LBBB, left bundle branch block; RBBB, right bundle branch block; AV, atrio-ventricular.
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Rufa et al. Robotic vs. MIMVS mitral repair and AF ablation
+
+Table 3 Preoperative echocardiography findings
+Variables
+
+Total (n=104)
+
+MIMVS (n=52)
+
+RMV (n=52)
+
+LVEF
+Normal (>55%)
+
+81 (77.9)
+
+41 (78.8)
+
+40 (76.9)
+
+Moderate (30–55%)
+
+21 (20.2)
+
+9 (17.3)
+
+12 (23.1)
+
+Severe (<30%)
+
+2 (1.9)
+
+2 (3.8)
+
+MV pathology
+Primary
+
+85 (81.7)
+
+42 (80.8)
+
+43 (82.7)
+
+Secondary
+
+19 (18.3)
+
+10 (19.2)
+
+9 (17.3)
+
+Mitral insufficiency
+nd
+
+2 degree
+
+4 (3.8)
+
+2 (3.8)
+
+2 (3.8)
+
+3rd degree
+
+99 (95.2)
+
+50 (96.2)
+
+49 (94.2)
+
+1 (1.0)
+
+1 (1.9)
+
+th
+
+4 degree
+
+Type of MV insufficiency (Carpentier classification)
+Type I
+
+27 (26.0)
+
+10 (19.2)
+
+17 (32.7)
+
+Type II
+
+74 (71.2)
+
+39 (75.0)
+
+35 (67.3)
+
+Type III
+
+3 (2.9)
+
+3 (5.8)
+
+3 (2.9)
+
+1 (1.9)
+
+2 (3.8)
+
+Aortic valve sclerosis
+Aortic insufficiency
+1st degree
+nd
+
+2 degree
+
+22 (21.2)
+
+10 (19.2)
+
+12 (23.1)
+
+1 (1.0)
+
+1 (1.9)
+
+Tricuspid insufficiency
+st
+
+33 (31.7)
+
+19 (36.5)
+
+14 (26.9)
+
+nd
+
+22 (21.2)
+
+8 (15.4)
+
+14 (26.9)
+
+rd
+
+11 (10.6)
+
+5 (9.6)
+
+6 (11.5)
+
+th
+
+4 degree
+
+4 (3.8)
+
+1 (1.9)
+
+3 (5.8)
+
+LAA thrombus
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+1 degree
+2 degree
+3 degree
+
+P value
+
+SMD
+
+0.89
+
+0.093
+
+0.8
+
+–
+
+0.66
+
+−0.033
+
+0.08
+
+–
+
+0.56
+
+–
+
+0.45
+
+–
+
+0.13
+
+0.15
+
+–
+
+–
+
+Values are presented as n (%). MIMVS, minimally invasive mitral valve surgery; RMV, robotic-assisted mitral valve surgery; SMD,
+standardized mean difference; LVEF, left ventricular ejection fraction; MV, mitral valve; LAA, left atrial appendage.
+
+MIMVS group and 3 in the RMV group.
+The results of the discharge echocardiography and
+ECG are presented in Table 6. The MV intervention
+was successful in all patients, with no MI greater than 1st
+degree. More than half of the patients were discharged in
+sinus rhythm. There was a higher percentage of patients
+with left bundle branch block (6.7% compared to 3.8% on
+admission). Also, the percentage of patients with 1st degree
+AV block was higher (22.1% vs. 11.5% on admission).
+Follow-up was 100% complete; median follow-
+
+up time was 2 (IQR, 2–4) years. The patients in the
+MIMVS group had a longer median follow-up interval
+[4 (IQR, 2.5–4) years, 95% confidence interval (CI): 3.669–4.331
+vs. the patients in the RMV group: 2 (IQR, 1–2) years, 95% CI:
+1.611–2.389, respectively]. According to our protocol the
+patients were periodically checked by means of 24 hours
+Holter monitoring and transthoracic echocardiography.
+The gathered follow-up data are summarized in Table 7.
+Eighteen-point-two percent reported over palpitations.
+Thirty-one (29.7%) patients had an arrhythmia documented
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Journal of Thoracic Disease, Vol 15, No 12 December 2023
+
+Table 4 Operative procedure data
+Variables
+Conversion to sternotomy
+
+Total (n=104)
+
+MIMVS (n=52)
+
+RMV (n=52)
+
+P value
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+>0.99
+
+Number of operated valves
+
+0.87
+
+1 (mitral valve)
+
+75 (72.1)
+
+38 (73.1)
+
+37 (71.2)
+
+2 (mitral and tricuspid valve)
+
+28 (26.9)
+
+13 (25.0)
+
+15 (28.8)
+
+3 (aortic, mitral and tricuspid valve)
+
+1 (1.0)
+
+1 (1.9)
+
+MV procedure
+
+0.72
+
+Repair
+
+100 (96.2)
+
+48 (92.3)
+
+52 (100.0)
+
+Replacement
+
+3 (2.9)
+
+3 (5.8)
+
+Replacement after failed repair
+
+1 (1.0)
+
+1 (1.9)
+
+Implant type
+
+–
+
+Future Band
+
+79 (76.0)
+
+36 (69.2)
+
+43 (82.7)
+
+CE Perimount
+
+4 (3.8)
+
+4 (7.7)
+
+Physio II
+
+21 (20.2)
+
+12 (23.1)
+
+9 (17.3)
+
+AF ablation-procedure
+
+0.76
+
+Left atrial Maze
+
+91 (87.5)
+
+45 (86.5)
+
+46 (88.5)
+
+Biatrial Maze
+
+13 (12.5)
+
+7 (13.5)
+
+6 (11.5)
+
+LAA occlusion
+
+<0.001
+
+No procedure
+
+29 (27.9)
+
+24 (46.0)
+
+5 (9.6)
+
+Stapler excision
+
+13 (12.5)
+
+12 (23.1)
+
+1 (1.9)
+
+Endocardial suture
+
+52 (50.0)
+
+14 (26.9)
+
+38 (73.1)
+
+Resection and suture
+
+10 (9.6)
+
+2 (3.8)
+
+8 (15.4)
+
+174 [151.5–216.5]
+
+166 [130–201]
+
+181 [158.5–231.5]
+
+0.02
+
+99 [79–117]
+
+101 [77.5–115]
+
+99 [81–117.5]
+
+0.67
+
+Bypass time (min)
+Cross-clamp time (min)
+th
+
+th
+
+Values are presented as n (%) or median [25 , 75 percentile]. MIMVS, minimally invasive mitral valve surgery; RMV, robotic-assisted mitral
+valve surgery; MV, mitral valve; AF, atrial fibrillation; LAA, left atrial appendage.
+
+and 6 (5.8%) cases have undergone a ‘touch-up’ interventional
+ablation. Only one patient necessitated the implantation
+of a two-chamber PPM during follow-up. Seventy-two
+(69.2%) patients presented with stable sinus rhythm without
+amiodarone or other antiarrhythmic drugs class I/III.
+Another 7 (6.7%) patients were in sinus rhythm but still on
+antiarrhythmic drugs (class III) treatment. In total, 76% of the
+patients were in sinus rhythm at follow-up. No myocardial
+infarction and no stroke occurred during follow-up. One
+patient needed reoperation due to endocarditis of the MV.
+Five patients died during follow-up. As shown in the
+Kaplan-Meier survival curves (Figure 1), the survival rate
+
+was similar between our two study groups (log-rank test
+P=0.056).
+Discussion
+In this study we compared perioperative and mid-term
+outcomes of MV or double valve surgery with concomitant
+cryoablation performed through two different minimally
+invasive surgical approaches (MIMVS versus robotic) using
+propensity matching analysis. The advantage of our study
+is that our institutional volume has allowed our group to
+reach proficiency in both techniques, reducing the bias
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Rufa et al. Robotic vs. MIMVS mitral repair and AF ablation
+
+Table 5 In-hospital postoperative course
+Variables
+
+Total (n=104)
+
+MIMVS (n=52)
+
+RMV (n=52)
+
+P value
+
+Ventilation (hours)
+
+6 [4–9.75]
+
+6 [4–10]
+
+6 [4–8]
+
+0.57
+
+ICU stay (hours)
+
+22 [20–29.5]
+
+22 [20–27.5]
+
+20.5 [20–40]
+
+0.99
+
+In-hospital stay (days)
+
+8 [7–11.75]
+
+9 [7.5–12.5]
+
+8 [6–10.5]
+
+0.31
+
+Re-exploration for bleeding
+
+4 (3.8)
+
+3 (5.8)
+
+1 (1.9)
+
+0.31
+
+CVA
+
+1 (1.0)
+
+1 (1.9)
+
+0.31
+
+Delirium
+
+10 (9.6)
+
+5 (9.6)
+
+5 (9.6)
+
+>0.99
+
+Acute kidney injury
+
+1 (1.0)
+
+1 (1.9)
+
+0.31
+
+Pneumonia
+
+3 (2.9)
+
+3 (5.8)
+
+0.08
+
+Wound infection
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+>0.99
+
+SSI
+
+2 (1.9)
+
+2 (3.8)
+
+0.15
+
+Pleural effusion
+
+0.38
+
+Puncture
+
+9 (8.7)
+
+4 (7.7)
+
+5 (9.6)
+
+Drainage
+
+6 (5.8)
+
+2 (3.8)
+
+4 (7.7)
+
+Pericardial effusion, conservative treatment
+
+2 (1.9)
+
+2 (3.8)
+
+0.15
+
+Myocardial infarction treated with PCI
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+>0.99
+
+LCO
+
+0.98
+
+Vasopressors
+
+1 (1.0)
+
+1 (1.9)
+
+ECMO
+
+1 (1.0)
+
+1 (1.9)
+
+SVT arrhythmias
+
+0.37
+
+AF
+
+49 (47.1)
+
+26 (50)
+
+23 (44.2)
+
+AFL
+
+2 (1.9)
+
+2 (3.8)
+
+AF & AFL
+
+4 (3.8)
+
+3 (5.8)
+
+1 (1.9)
+
+Presence of tachyarrhythmia
+
+0.25
+
+Tachyarrhythmia
+
+8 (7.7)
+
+2 (3.8)
+
+6 (11.5)
+
+Tachyarrhythmia and electrical cardioversion
+
+3 (2.9)
+
+2 (3.8)
+
+1 (1.9)
+
+Bradycardia or conduction block
+
+0.23
+
+Bradycardia
+
+1 (1.0)
+
+1 (1.9)
+
+rd
+
+AV block 3 degree
+
+6 (5.8)
+
+4 (7.7)
+
+2 (3.8)
+
+SSS
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+nd
+
+AV block 2 degree Mobitz
+
+1 (1.0)
+
+1 (1.9)
+
+Tachy-brady syndrome
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+PPM implantation
+
+0.12
+
+One chamber
+
+3 (2.9)
+
+3 (5.8)
+
+Dual chamber
+
+8 (7.6)
+
+5 (9.6)
+
+3 (5.8)
+
+Values are presented as n (%) or median [25th, 75th percentile]. MIMVS, minimally invasive mitral valve surgery; RMV, robotic-assisted
+mitral valve surgery; ICU, intensive care unit; CVA, cerebrovascular accident; SSI, surgical site infection; PCI, percutaneous coronary
+intervention; LCO, low cardiac output; ECMO, extracorporeal membrane oxygenation; SVT, supra ventricular; AF, atrial fibrillation; AFL,
+atrial flutter; AV, atrio-ventricular; SSS, sick sinus syndrome; PPM, permanent pacemaker.
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Journal of Thoracic Disease, Vol 15, No 12 December 2023
+
+Table 6 Last echocardiography and ECG before discharge
+Variables
+
+Total (n=104)
+
+MIMVS (n=52)
+
+RMV (n=52)
+
+EF
+
+P value
+0.64
+
+Normal
+
+80 (76.9)
+
+39 (75.0)
+
+41 (78.8)
+
+Moderate
+
+24 (23.1)
+
+13 (25.0)
+
+11 (21.2)
+
+15 (14.4)
+
+7 (13.5)
+
+8 (15.4)
+
+Mild MV insufficiency
+Heart rhythm at discharge
+
+0.78
+0.64
+
+SR
+
+60 (57.7)
+
+28 (53.8)
+
+32 (61.5)
+
+AF
+
+24 (23.1)
+
+14 (26.9)
+
+10 (19.2)
+
+AFL
+
+6 (5.8)
+
+4 (7.7)
+
+2 (3.8)
+
+PM
+
+8 (7.7)
+
+5 (9.6)
+
+3 (5.8)
+
+Junctional rhythm
+
+6 (5.8)
+
+1 (1.9)
+
+5 (9.6)
+
+7 (6.7)
+
+4 (7.7)
+
+3 (5.8)
+
+0.71
+
+5 (4.8)
+
+4 (7.7)
+
+1 (1.9)
+
+0.17
+
+23 (22.1)
+
+11 (21.2)
+
+12 (23.1)
+
+0.81
+
+LBBB
+RBBB
+st
+
+AV block, 1 degree
+
+Values are presented as n (%). ECG, electrocardiography; MIMVS, minimally invasive mitral valve surgery; RMV, robotic-assisted mitral
+valve surgery; EF, ejection fraction; MV, mitral valve; SR, sinus rhythm; AF, atrial fibrillation; AFL, atrial flutter; PM, pacemaker; LBBB, left
+bundle branch block; RBBB, right bundle branch block; AV, atrio-ventricular.
+
+Table 7 Follow-up data
+Variables
+
+Total (n=104)
+
+MIMVS (n=52)
+
+RMV (n=52)
+
+P value
+
+Palpitations
+
+19 (18.3)
+
+9 (17.3)
+
+10 (19.2)
+
+0.8
+
+Documented arrhythmia during
+
+0.42
+
+Inside blanking
+
+5 (4.8)
+
+3 (5.8)
+
+2 (3.8)
+
+Outside blanking
+
+10 (9.6)
+
+5 (9.6)
+
+5 (9.6)
+
+Inside & outside blanking
+
+16 (15.3)
+
+6 (11.5)
+
+10 (19.2)
+
+Type of arrhythmia
+
+0.75
+
+PAF
+
+16 (15.4)
+
+8 (15.4)
+
+8 (15.4)
+
+AFL
+
+2 (1.9)
+
+1 (1.9)
+
+1 (1.9)
+
+PersAF
+
+13 (12.5)
+
+5 (9.6)
+
+8 (15.4)
+
+72 (69.2)
+
+38 (73.1)
+
+34 (65.4)
+
+0.39
+
+Myocardial infarction
+
+>0.99
+
+Stroke
+
+>0.99
+
+1 (1.0)
+
+1 (1.9)
+
+0.31
+
+SR kept without amiodarone
+
+Redo heart surgery
+
+Values are presented as n (%). MIMVS, minimally invasive mitral valve surgery; RMV, robotic-assisted mitral valve surgery; PAF, paroxysmal
+atrial fibrillation; AFL, atrial flutter; persAF, persistent atrial fibrillation; SR, sinus rhythm.
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Rufa et al. Robotic vs. MIMVS mitral repair and AF ablation
+
+Survival probability, %
+
+P=0.056
+
+MIMVS 95% CI:
+median 3.669–4.331
+RMV 95% CI:
+median 1.611–2.389
+
+MIMVS
+RMV
+
+Years
+
+Number at risk
+MIMVS
+RMV
+
+Figure 1 Kaplan-Meier survival curves for the two adjusted study
+populations. P value: long rank test. MIMVS, minimally invasive
+mitral valve surgery; RMV, robotic-assisted mitral valve surgery;
+CI, confidence interval.
+
+in comparison. Overall, we demonstrated outstanding
+outcomes in both techniques. There were no early deaths
+and the rate of adverse events during follow-up was low.
+Literature comparing robotic surgery to other minimally
+invasive strategies in patients requiring mitral or double
+valve procedure and additionally concomitant atrial ablation
+is lacking.
+There is growing consensus that in high-risk populations,
+the minimal access approach to mitral intervention may
+be of benefit (12). Concomitant ablation and additional
+valve surgery ads complexity and increases the potential
+advantages. Given the wide range of evolving minimal
+access approaches and technologies, further evidence is
+required to assess the safety and comparative benefits of
+each as they emerge.
+Both, minimally invasive video-assisted and robotic
+surgery have been proven to be safe and effective MVR
+techniques (19). They are being performed in an increasing
+number of centers and with increasing frequency over
+time (19). However, current evidence resides largely from
+individual observational studies (19) and meta-analyses
+(21,22). In a recent 20-year review on MIMVS, Bonatti
+suggests that robotic assistance resulted in lower stroke
+rates and mortality compared to the video-assisted rightsided mini-thoracotomy approach (23).
+
+A number of studies compared RMV to video-assisted
+right mini-thoracotomy. In general, the evidence was of
+inadequate quality, and long-term outcomes were not
+sufficiently documented (21). The majority of studies (21) are
+derived from single centres and involve patients ranging in
+age from 46 to 63 years who did not necessitate concurrent
+cardiac procedures.
+Wei et al. conducted a comparison of clinical outcomes
+between 121 robotic and 113 thoracoscopic mitral valve
+repair patients (24). The bypass and aortic cross-clamp time
+were significantly shorter in the robotic group (P<0.001),
+the intensive care unit (ICU) time and intraoperative
+blood transfusions rate were lower in the thoracoscopic
+group (P<0.005) and the 30-day mortality rate was 0.9%
+in both groups (24). In a study including 1,305 patients
+with isolated mitral valve insufficiency treated using three
+different surgical approaches (sternotomy: 377, videoassisted right mini-thoracotomy: 481, robotic-assisted: 447),
+the robotic approach led to a higher rate of MVR, but had
+longer bypass and aortic cross-clamp times (P<0.001) (25).
+The adjusted survival rate was similar for all approaches
+(P=0.357) (25). Fujita et al. found on 335 patients
+undergoing either robotic or MIMVS, that robotic surgery
+can be applied to repair more complex mitral lesions (26).
+The short-term outcomes were excellent and comparable
+to those with mini-MVR, in this all comers, non-matched
+population (26).
+In a multi-institutional analysis by Hawkins et al., a total
+of 590 patients were matched between robotic and minimal
+invasive approaches (27). The authors report over excellent
+early outcomes with a mortality rate <1% and major
+morbidity rate <9%. The robotic approach was associated
+with a higher rate of AF, more transfusions and one day
+longer postoperative stay compared to the minimally
+invasive approach (27).
+Although these findings are promising, long-term and
+patient-reported outcomes, including cardiac-specific
+health-related quality of life, overall survival, and heart
+failure rates, remain insufficiently supported by evidence.
+Interpretation of such evidence is hard to conduct, as very
+few centers are facile in doing both approaches, making
+comparisons difficult. In a PS matching population of 69
+pairs, robotic MVR had longer cross-clamp times and
+shorter hospital stays that non-robotic minimally invasive
+MVR, follow-up echocardiogram analysis and midterm
+survival were similar in both groups (28). In a recently
+published study by Rao et al. including 124 matched
+patients receiving robotic or endoscopic mitral valve repair
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Journal of Thoracic Disease, Vol 15, No 12 December 2023
+
+for degenerative disease, there was no difference in early or
+late mortality at 10 years in either cohort (29).
+Overall, the outcomes demonstrated are similar to those
+seen in other high-volume centres. Marchetto et al. (15)
+published their findings from 68 patients who underwent
+cryoablation for AF alongside video-assisted MIMVS.
+All patients received a left atrial Maze cryoablation. Total
+cross-clamp time was 97.6±22.8 minutes (15), similar
+to the 102.13±29.37 minutes in our study (our study
+cohort underwent more complex interventions and more
+concomitant procedures). In similar studies published by
+Aydin et al. (30) and Kadan et al. (17) the reported aortic
+clamp time and bypass time were in the same range as ours:
+105.75±20.03 and 141.8±25.6 minutes, and 188.5±53.8 and
+196±25.6 minutes, respectively. Our mean bypass time was
+184.17±51.93 minutes. It was slightly higher in the robotic
+group (as expected) with 194.90±49.02 minutes compared
+to 173.44±53.00 minutes in the MIMVS group. In the
+paper published by Nifong et al., the average cross-clamp
+and cardiopulmonary bypass times in the patients having a
+concomitant Maze procedure were 130 and 188 minutes,
+respectively (11).
+Our ventilation time, ICU and in-hospital length of
+stay are similar to those reported by Fujita et al. (26), with
+the important difference that our patients had a higher
+EuroSCORE II, median value of 3.14 and were older,
+median age 68 years. Others reported shorter times for a
+much younger study population (25,29) or for a population
+with a very low mortality risk (27). Wei et al. found a mean
+ventilation time of 13.6±5.3 hours and a mean ICU length
+of stay of 3.3±2.6 days in their study population of 234
+patients with a mean age of 46.5±14 years, data comparable
+to ours (24).
+In terms of rhythm outcomes, our patients developed
+relapse of AF in 47.1% during the hospital stay and only
+57.7% were discharged in sinus rhythm. This fact could
+be explained by the high percentage (64.3%) of patients
+presenting with persAF or lspersAF prior to surgery.
+Marchetto et al. found a 1-year follow-up freedom from
+AF recurrences rate of 94.8% (15), but their follow-up was
+mostly ECG and not Holter monitoring based. Nifong
+et al. report a 96.5% rate of freedom from AF recurrence
+and off antiarrhythmic drugs class I/III at 351 days (11). Ad
+et al. published long-term results in 473 patients following
+concomitant MV surgery and Cox maze procedure for
+AF (31): they found return to sinus rhythm rates regardless
+of antiarrhythmic drugs at 1, 5, and 7 years of 90%, 80%
+and 66%, respectively (31). The sinus rhythm rates in
+
+patients off antiarrhythmic drugs at the above-defined
+intervals were 83%, 69%, and 55%, respectively (31). The
+patients included in our study had a 75% rate of freedom
+from AF recurrence outside blanking period and at a
+median follow-up time of 2 (IQR, 2–4) years.
+The 2021 ESC/EACTS Guidelines on valve
+pathology (1) recommend after mitral valve repair,
+respectively tricuspid valve repair with other indications
+for oral anticoagulation, a long-term treatment with oral
+anticoagulation (Class I). Our study patients suffered from
+different stages of AF and were concomitantly treated
+by means of ablation, therefore, according to the abovementioned guidelines, were discharged with continued
+oral anticoagulation. However, the postoperative oral
+anticoagulation regime varied depending on the operating
+surgeon. Two of the 3 operating surgeons in the MIMVS
+group prefer for 3 months after surgery treatment with
+a coumadin. The third surgeon in the MIMVS group
+and also the leading surgeon in the RMV group prefers
+reinstating after surgery the same oral anticoagulation as
+preoperatively. In cases without oral anticoagulation prior
+to surgery we started either coumadin or rivaroxaban.
+At last follow-up, 72 (69.2%) patients presented with
+stable sinus rhythm and without amiodarone treatment.
+However, oral anticoagulation was discontinued only in
+14 cases. We suspect that this decision by the referring
+cardiologists is either due to clinical reasons (e.g., lack
+of atrial contraction), or due to lack of consensus in the
+community on whether anticoagulation should be stopped
+after successful ablation.
+We registered just one in-hospital CVA and no strokes
+during follow-up. Marchetto et al. reported CVAs at an
+annual rate of 1.7% (15). We hypothesize that our unusually
+low stroke rate is due to our multidisciplinary guided close
+follow-up and investigation of all patients post ablation.
+Bogachev-Prokophiev et al. reported their outcomes
+of 242 patients undergoing MV surgery and concomitant
+cryoablation. Seventy-point-seven percent were operated
+on using a median sternotomy and 29.3% minimally
+invasive (32). The 30-day mortality was 0.4%, the rate
+for re-exploration for bleeding was 6.2%, the rate of
+myocardial infarction was 2.1% and the CVA rate was
+1.2% (32). Chitwood reported in 321 RMV surgeries
+with concomitant Maze procedure an early mortality of
+4.7% (33). Major complications rates were 1.7% for
+myocardial infarction, 2.6% for stroke and 4.3% for reexplorations for bleeding (33). In our study group, as well
+as in the MIMVS as in the RMV population the rates of
+
+J Thorac Dis 2023;15(12):6459-6474 | https://dx.doi.org/10.21037/jtd-23-1306
+
+Rufa et al. Robotic vs. MIMVS mitral repair and AF ablation
+
+the above-mentioned complications were lower and we
+registered no casualties in the first 30 days. This most likely
+reflects the fact that these authors were pioneers in the field,
+introducing new techniques at the dawn of the minimal
+access era.
+The incidence of PPM implantation after concomitant
+surgical AF ablation varies between 5% and 25% (32).
+Bogachev-Prokophiev et al. identified by means of
+multivariate logistic regression model that concomitant
+tricuspid valve surgery was a significant risk factor for PPM
+implantation (32). From the 11 patients requiring PPM
+implantation in our study group, eight received double valve
+surgery.
+The indications for PPM in our study population were:
+high atrioventricular block in seven patients, SSS in two
+patients and tachy-brady syndrome in two other patients.
+In 2020, the patients receiving a robotic-assisted MV
+surgery in our clinic had a 25% reduction in hospital stay
+compared to MIMVS patients (20). However, in our current
+study groups of MV surgery combined with concomitant
+AF cryoablation, the ICU and in-hospital length of stay did
+not differ between the two groups. This is reflective of the
+maturity of our enhanced recovery programs.
+This was an observational, retrospective, singlecentre study. The statistical power of the analysis may
+have been impacted by the patient screening process
+and the restricted sample size. The limited occurrence
+of clinical events precluded the possibility of conducting
+a multivariate analysis to identify any independent risk
+factors. The relatively short follow-up period may have
+influenced the statistical results. The lack of health-related
+quality of life and multi-modality pain assessments also
+limit the interpretation of the results, especially given that
+this is where the robotic approach is likely to have shown
+advantage.
+Conclusions
+Robotic-assisted mitral or double valve repair with
+concomitant cryoablation is safe, feasible and has excellent
+early- and mid-term follow-up results. Sinus rhythm rate
+during follow-up was acceptable and did not differ between
+the two groups. Prospective randomized studies comparing
+the two methods are needed to reinforce our findings, with
+the addition of high-quality longitudinal health-related
+quality of life and health economic assessments.
+
+Acknowledgments
+Footnote
+STROBE reporting checklist. Available at https://jtd.
+amegroups.com/article/view/10.21037/jtd-23-1306/rc
+Data Sharing Statement: Available at https://jtd.amegroups.
+com/article/view/10.21037/jtd-23-1306/dss
+article/view/10.21037/jtd-23-1306/prf
+uniform disclosure form (available at https://jtd.amegroups.
+com/article/view/10.21037/jtd-23-1306/coif). The authors
+have no conflicts of interest to declare.
+Ethical Statement: The authors are accountable for all
+aspects of the work in ensuring that questions related
+to the accuracy or integrity of any part of the work are
+appropriately investigated and resolved. The study was
+conducted in accordance with the Declaration of Helsinki
+(as revised in 2013). The study was approved by the ethics
+board of the Medical University Tübingen (number of
+ethics registration: 729/2020BO2) and individual consent
+for this retrospective analysis was waived.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

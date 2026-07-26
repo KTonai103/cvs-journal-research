@@ -1,0 +1,782 @@
+Gennady V Atroshchenko, Emiliano Navarra, Matthew Valdis, Elena Sandoval, Nasseh Hashemi,
+Stepan Cerny, Daniel Pereda, Meindert Palmen, Flemming Bjerrum, Niels Henrik Bruun, Martin G
+Tolsgaard
+
+Examining the learning curves in robotic cardiac surgery wet lab
+simulation training
+
+ORIGINAL ARTICLE
+
+simulation training. Interdiscip CardioVasc Thorac Surg 2025; doi:10.1093/icvts/ivae227.
+
+Examining the learning curves in robotic cardiac surgery wet
+lab simulation training
+
+a
+
+Department of Cardiothoracic Surgery, Aalborg University Hospital, Aalborg, Denmark
+ROCnord Robotic Center Aalborg, Aalborg University Hospital, Aalborg, Denmark
+Department of Clinical Medicine, Aalborg University, Aalborg, Denmark
+d
+Department of Cardiac Surgery, Ospedale San Carlo di Nancy, Rome, Italy
+e
+Division of Cardiac Surgery, Department of Surgery, Western University, London, ON, Canada
+f
+Department of Cardiovascular Surgery, Hospital Cl�ınic, Barcelona, Spain
+g
+Nordsim, Aalborg University Hospital, Aalborg, Denmark
+h
+Department of Cardiovascular Surgery, University Hospital Motol, Prague, Czech Republic
+i
+Centro de Investigaci�
+on Biom�edica en Red de Enfermedades Cardiovasculares (CIBERCV), Madrid, Spain
+j
+Department of Cardiothoracic Surgery, Leiden University Medical Center, Leiden, the Netherlands
+k
+Department of Cardiothoracic Surgery, Amsterdam University Medical Center, Amsterdam, the Netherlands
+l
+Gastrounit, Surgical Section, Copenhagen University Hospital—Amager and Hvidovre, Hvidovre, Denmark
+m
+Copenhagen Academy for Medical Education and Simulation (CAMES), Center for HR & Education, Copenhagen, Denmark
+n
+Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark
+o
+Unit of Clinical Biostatistics, Aalborg University Hospital, Aalborg, Denmark
+p
+Department of Obstetrics, Copenhagen University Hospital Rigshospitalet, Copenhagen, Denmark
+b
+c
+
+�Corresponding author: Tel: þ45-97664649; fax: 97664648; e-mail: gennady.atroshchenko@gmail.com (G.V. Atroshchenko).
+Received 11 November 2024; accepted 27 December 2024
+
+Abstract
+
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+Gennady V. Atroshchenko a,b,c,�, Emiliano Navarrad, Matthew Valdise, Elena Sandovalf, Nasseh Hashemic,g,
+Stepan Cerny h, Daniel Pereda f,i, Meindert Palmen j,k, Flemming Bjerruml,m,n, Niels Henrik Bruuno and
+Martin G. Tolsgaardm,n,p
+
+GENERAL INTEREST
+
+Interdisciplinary CardioVascular and Thoracic Surgery 2025, 40(1), ivae227
+
+G.V. Atroshchenko et al. / Interdisciplinary CardioVascular and Thoracic Surgery
+
+BACKGROUND: Simulation-based training has gained distinction in cardiothoracic surgery as robotic-assisted cardiac procedures
+evolve. Despite the increasing use of wet lab simulators, the effectiveness of these training methods and skill acquisition rates remain
+poorly understood.
+OBJECTIVES: This study aimed to compare learning curves and assess the robotic cardiac surgical skill acquisition rate for cardiac and
+noncardiac surgeons who had no robotic experience in a wet lab simulation setting.
+METHODS: In this prospective cohort study, participants practiced 3 robotic tasks in a porcine model: left atriotomy closure, internal
+thoracic artery harvesting and mitral annular suturing. Participants were novice robotic cardiac and noncardiac surgeons alongside expe­
+rienced robotic cardiac surgeons who established performance benchmarks. Performance was evaluated using the time-based score and
+modified global evaluative assessment of robotic skills (mGEARS).
+
+CONCLUSIONS: Wet lab simulation facilitates the rapid acquisition of robotic cardiac surgical skills to expert levels, irrespective of sur­
+geons’ experience in open cardiac surgery. These findings support the use of wet lab simulators for standardized, competency-based
+training in robotic cardiac surgery.
+Keywords: robotic cardiac surgery • wet lab simulation • learning curves • surgical training
+
+ABBREVIATIONS
+ITA
+mGEARS
+TBS
+
+Internal thoracic artery
+Modified global evaluative assessment of ro­
+botic skills
+Time-based score
+
+INTRODUCTION
+In recent years, focus on simulation-based training in cardiotho­
+racic surgery has increased significantly [1, 2]. As surgery advan­
+ces by adopting less-invasive technologies and becoming more
+technically challenging, along with concerns about improved pa­
+tient safety, gaining competency in the preclinical setting has be­
+come of major importance [3, 4]. Robotic-assisted cardiac
+surgery is a rapidly evolving field of minimally invasive surgery
+initially limited to mitral valve [5] and coronary artery bypass
+grafting [6]; recently, it expanded to include aortic valve replace­
+ment [7], atrial fibrillation treatment[8], etc. Although simulation
+is an essential part of modern robotic surgical training [9, 10], its
+effectiveness is not well investigated within cardiac surgery [11].
+Learning curves are increasingly used in the assessment of
+competency and design of training programmes [12, 13]. In sur­
+gery, methods currently used to analyse learning curves are
+mainly descriptive and must be rigorous, with quantifiable
+parameters, to allow future surgeons to benefit from established
+performance standards [14]. Despite available learning curves
+data in robotic cardiac procedures in real-world environments
+[15–17], little, if anything, is known about the robotic cardiac skill
+acquisition rate in a wet lab simulation setting [18]. Moreover, a
+common perception is that surgeons must be expert in nonro­
+botic cardiac operations before performing robotic-assisted sur­
+gery [19]. However, expertise in video-assisted thoracoscopic
+surgery does not shorten the learning curve of roboticassisted thoracic surgery [20], and transfer from laparoscopic to
+robot-assisted surgery is not evident [21]. As robotic-assisted
+surgery is expected to become the first-line modality for many
+
+future surgeons [21], the role of nonrobotic experience must be
+clarified. Thus, this study aimed to examine learning curves and
+assess the robotic cardiac surgical skill acquisition rate for car­
+diac and noncardiac surgeons without robotic experience, aim­
+ing for mastery in a wet lab simulation setting. To the best of
+our knowledge, this study is the 1st to analyse the learning
+curves of robotic cardiac surgical skills in wet labs for partici­
+pants with different surgical backgrounds, comprising the largest
+number of participants to date.
+
+MATERIALS AND METHODS
+Study design
+This was a prospective study gathering data from a 4-week simu­
+lation training at the Biomedical Research Laboratory, Aalborg
+University, Denmark. The study was registered at ClinicalTrials.
+gov (NCT05043064), and an exemption for approval before trial
+enrolment was obtained from the Regional Scientific Ethical
+Committee of the North Denmark Region (Reference no. 2020000992-55). All participants signed an informed consent form
+before participating in the study.
+
+Participants
+Surgeons and surgical trainees with different specialities were in­
+vited to participate in the study and allocated into 2 groups:
+novice robotic cardiac and robotic noncardiac surgeons. A
+group of expert robotic cardiac surgeons was enrolled to estab­
+lish the performance standards. Novice robotic surgeons who
+had completed or had ongoing surgical speciality residency and
+<5 h of experience in any robotic system were included. The
+novice surgeons were recruited by e-mail invitation sent to dif­
+ferent surgical departments in Denmark between August and
+September 2021 on a first-come, first-served basis. Expert
+robotic cardiac surgeons who had performed a minimum of
+50 robotic cardiac operations as console surgeons were also
+
+RESULTS: The participants were 15 novice surgeons (7 cardiac; 8 noncardiac) and 4 experienced robotic surgeons. Most novices reached
+mastery in 52 (±22) min for atrial closure, 32 (±18) for internal thoracic artery harvesting and 34 (±12) for mitral stitches, with no signifi­
+cant differences between the cardiac and noncardiac surgeons. However, for mGEARS, noncardiac novices faced more challenges in in­
+ternal thoracic artery harvesting. The Thurstone learning curve model indicated no significant difference in the learning rates between
+the groups.
+
+included. Participants were recruited from different European
+sites by personal e-mail inquiry between January and April 2021.
+
+Intervention
+The study was conducted in a simulated environment using the
+da Vinci Xi Surgical System (Intuitive Surgical, CA, USA). Three
+wet lab tasks were chosen for the study (Fig. 1):
+
+The model and tasks were described in detail with a video in a
+previous study [22]. Two scores were used to assess participants’
+performance: a time-based score (TBS) and a modified global
+evaluative assessment of robotic skills [23] (mGEARS) score. Both
+scores and their validity evidence for the assessment of roboticassisted cardiac surgery skills in wet lab settings were previously
+described in greater detail [22]. Briefly, TBS was calculated as fol­
+lows: TBS ¼ maximal total training time per task − actual com­
+pletion time − errors. The idea behind the TBS was not solely to
+concentrate on the actual time spent on the task but also to be
+able to adjust for the defined set of errors, such as gross tissue
+damage or torn sutures. TBS was calculated in seconds, where 0
+was the lowest score and a higher number indicated a faster
+time to perform the task. The mGEARS score was used to evalu­
+ate the overall robotic proficiency by 5 domains: depth percep­
+tion, bimanual dexterity, efficiency, force sensitivity, and robotic
+control. The score ranged from 5 to 25, where 5 and 25 indi­
+cated the least and most proficient performance, respectively.
+The mGEARS did not account for time.
+The expert robotic cardiac surgeons were asked to perform
+each task 5 times. The mean of their last 2 attempts was used as
+the mastery learning level for each task by TBS and mGEARS
+scores. The novice surgeons were asked to complete the 3 tasks
+once, which was used as their baseline performance. Then, the
+novice surgeons continued to do the tasks until the mastery
+based on the TBS of the experienced surgeons was achieved. To
+
+ensure the successful task completion, each participant was re­
+quired to pass the exercise 2 times consecutively. Training ses­
+sions were 1.5 h with an interval of 2 days–3 weeks between
+sessions [24]. During the study, the novice surgeons were not
+allowed to practice on any robotic simulators or participate in
+robotic-assisted surgery. All tasks were videorecorded. The TBS
+was rated on site during task performances. The mGEARS score
+was obtained using a blinded video rating by 2 robotic cardiac
+surgeons not involved in the task performance.
+
+Outcomes
+The primary outcome was the total training time for the novice
+surgeons to reach the mastery learning level for each task based
+on the TBS.
+
+Statistics
+Descriptive categorical data are reported as counts and percen­
+tages and descriptive continuous data as median with lower and
+upper quartiles. Categorical data were compared using chisquare tests and continuous data using the Kruskal–Wallis test.
+Baseline performances, time spent and number of attempts be­
+tween novice surgeons are expressed as means and standard
+deviations. Comparisons were done by t-tests. The mean differ­
+ences with 95% confidence intervals and P-values for the lack of
+difference were reported. The individual learning curves were
+graphed, and a lowess smoothing curve was added. A mixedeffect maximum likelihood nonlinear regression with a random
+intercept by each participant was used to analyse the Thurstone
+learning curves [25]. The significance level was 5%. STATA ver­
+sion 18 was used for data management and analyses.
+
+RESULTS
+Seven novice robotic cardiac surgeons from 3 different Danish
+departments of cardiothoracic surgery were recruited. Eight nov­
+ice robotic noncardiac surgeons from the Danish departments
+of abdominal surgery (n ¼ 4), urology (n ¼ 1), gynaecology
+(n ¼ 2) and otolaryngology (n ¼ 1) were recruited. The cardiac
+and noncardiac surgeons were comparable by age, sex, number
+
+Figure 1: Wet lab simulation tasks. (A) Robotic-assisted closure of the left atrium. (B) Robotic-assisted harvesting of the internal thoracic artery. (C) Robotic-assisted
+placement of the mitral annular stitches.
+
+1. Robotic-assisted closure of an 8-cm-long left atriotomy in an
+isolated porcine heart.
+2. Robotic-assisted harvesting of a 10-cm segment of the internal
+thoracic artery (ITA) off the prepared porcine anterior chest
+wall.
+3. Robotic-assisted placement of 5 annular sutures in the mitral
+annulus of an isolated porcine heart.
+
+GENERAL INTEREST
+
+G.V. Atroshchenko et al. / Interdisciplinary CardioVascular and Thoracic Surgery
+
+G.V. Atroshchenko et al. / Interdisciplinary CardioVascular and Thoracic Surgery
+
+of specialists and years of experience in the speciality (Table 1).
+Four experienced robotic cardiac surgeons were recruited to es­
+tablish the mastery learning level.
+The mastery learning level by TBS was calculated as follows:
+TBS ¼ maximal total training time per task − expert completion
+mean time − errors. The results were as follows:
+Atrial closure ¼ 769 − 190 − errors ¼ 524 s
+ITA harvesting ¼ 1222 − 347 − errors ¼ 862 s
+Mitral stitches ¼ 566 − 79 − errors ¼ 450 s
+
+Table 1:
+
+DISCUSSION
+This study on the robotic wet lab simulation, the largest of its
+kind, established the mastery learning level using TBS and
+mGEARS scores across 3 robotic-assisted tasks in a porcine
+model. The robotic skill acquisition rate in 2 groups of surgeons
+
+Descriptive data on the study participants
+
+Characteristic
+
+Novice cardiac surgeons
+
+Novice noncardiac surgeons
+
+Total
+
+P-value
+
+N
+Age (years), median (IQR)
+Sex (female), n
+Specialist (yes), n
+Work experience (years), median (IQR)
+
+55 (43; 63)
+14 (3; 21)
+
+42 (36; 48)
+4.5 (2; 9)
+
+47 (37; 56)
+5 (2; 17)
+
+0.2
+0.71
+0.6
+0.3
+
+IQR: interquartile range.
+
+Table 2:
+
+Comparison of the performance of novice cardiac and noncardiac surgeons at baseline
+
+Score
+
+Task
+
+Novice cardiac surgeons,
+mean±SD
+
+Novice noncardiac surgeons,
+mean±SD
+
+Effect, mean
+difference (95% CI)
+
+P-value
+
+TBS (s)
+
+Atrial closure
+ITA
+Mitral stitches
+Atrial closure
+ITA
+Mitral stitches
+
+127 ± 171
+589 ± 303
+161 ± 128
+13 ± 2
+13 ± 2
+11 ± 3
+
+143 ± 181
+322 ± 250
+119 ± 91
+11 ± 3
+10 ± 0
+11 ± 3
+
+− 16 (−200; 168)
+267 (−25; 560)
+42 (−74; 160)
+2 (−1; 4)
+2 (1; 4)
+0 (−2; 3)
+
+0.86
+0.07
+0.46
+0.16
+0.01
+0.74
+
+mGEARS
+
+CI: confidence interval; mGEARS: modified global evaluative assessment of robotic skills score; SD: standard deviation.
+
+The mastery learning level by mGEARS was indicated by
+scores of 19 for atrial closure, 18 for ITA harvesting and 19 for
+the mitral stitch task.
+No significant difference was found in the mean TBS at base­
+line between novice robotic cardiac and noncardiac novices for
+all the tasks (Table 2). However, the novice robotic cardiac sur­
+geons scored higher on mGEARS for the ITA dissection task at
+baseline than the novice robotic noncardiac surgeons (P ¼ 0.01).
+Overall, 435 task repetitions were performed during the study.
+Out of 15 novice participants, 13 (7 cardiac and 6 noncardiac)
+achieved the mastery learning level in all 3 tasks on the TBS. Of
+the 2 remaining novice robotic noncardiac surgeons, 1 achieved
+mastery in both mitral stitching and atrial closure, and 1
+achieved proficiency only in mitral suture placement. The reason
+for the former was the inability to reach mastery within sched­
+uled training sessions and for the latter was the participant’s in­
+ability to attend the scheduled training sessions because of
+logistical issues.
+The average time and number of attempts to reach the mas­
+tery learning level on TBS are demonstrated in Table 3. Neither
+of them differed significantly between the cardiac and noncar­
+diac surgeons for all 3 tasks. The median time spent on the task
+declined sharply over the first 3 repetitions, which then levelled
+off for atrial closure and ITA dissection and continued to decline
+smoothly for mitral stitching (Fig. 2). Individual performance
+
+curves demonstrated a similar pattern in achieving mastery on
+TBS in both groups (Fig. 3).
+Five cardiac (out of 7) and 2 noncardiac novice surgeons (out
+of 7) reached the determined mastery learning level based on
+the mGEARS score 2 consecutive times for the atrial closure task
+(P ¼ 0.11). Significantly fewer (P ¼ 0.03) novice noncardiac sur­
+geons (3 out of 6) achieved mastery by the mGEARS score for
+ITA dissection compared with novice cardiac surgeons (7 out of
+7). All novice cardiac surgeons (7 out of 7) and 7 out of 8 novice
+noncardiac surgeons mastered the mitral stitch task based on
+the mGEARS score (P ¼ 0.33).
+Using the Thurstone learning curve model [25] for the group
+level comparison of both robotic novice groups, the initial level
+of performance (y-intercept), learning rate (slope) and maximum
+possible learning (asymptote) were estimated. No significant dif­
+ference was found in the estimates between the 2 groups, except
+for the y-intercept for the ITA harvesting task, where novice ro­
+botic cardiac surgeons performed better based on both TBS and
+mGEARS score (Table 4). The hypothetical probability of reach­
+ing the maximum achievable score is demonstrated in Fig. 4. As
+per the model, the maximum score of 25 on mGEARS at a group
+level could not be reached even with continuous training by
+novice noncardiac surgeons for the atrial closure task and by the
+novice cardiac surgeons for the ITA dissection task because their
+asymptotes were <25. Similarly, for TBS, the maximum attain­
+able score of 1222 s in the Thurstone modelling could not be
+reached by novice cardiac surgeons because their estimated
+maximum possible learning was 1036 s.
+
+Table 3:
+
+Time (min)
+
+Attempts (n)
+
+Time and number of attempts to reach mastery in the cardiac and noncardiac groups
+Task
+
+Novice cardiac surgeons,
+mean±SD
+
+Novice noncardiac surgeons,
+mean±SD
+
+Atrial closure
+ITA
+Mitral stitches
+Atrial closure
+ITA
+Mitral stitches
+
+52 ± 22
+32 ± 18
+34 ± 12
+8±3
+4±2
+10 ± 3
+
+48 ± 30
+40 ± 18
+45 ± 23
+6±3
+3±2
+12 ± 6
+
+Effect, mean
+difference (95% CI)
+
+P-value
+
+4 (−24; 31)
+−8 (−27; 10)
+−11 (−30; 8)
+2 (−1; 5)
+1 (−2; 3)
+−2 (−7; 3)
+
+0.79
+0.35
+0.25
+0.2
+0.59
+0.47
+
+Figure 2: Time spent on the task during consecutive attempts in both novice groups. Groups’ median time with 95% confidence interval. Cardiac: robotic cardiac
+novice group; ITA: internal thoracic artery; Noncardiac: robotic noncardiac novice group.
+
+without robotic experience, namely, cardiac surgeons and sur­
+geons form other specialties, were explored. Our findings indi­
+cate that wet lab simulation enables the rapid acquisition of
+robotic cardiac skills to an expert level for both groups.
+Qualitative and quantitative analyses of the learning curves were
+performed, and no significant differences were observed be­
+tween the groups. This suggests that robotic surgical skills are
+procedure-specific and independent of open cardiac surgical ex­
+perience [21]. These findings highlight the value of using mastery
+learning in robotic cardiac surgery training programmes. Such
+training can also help in identifying learners who may require
+additional support and allow for the adjustment of training regi­
+mens accordingly.
+The classic stepwise educational approach in robotic cardiac
+surgery involves increasing entrustment with increasing levels of
+surgical skills [11, 26]. However, this approach is not efficient
+
+because it mainly relies on clinical training with little use of
+simulation-based training as the initial part of the entrustment
+process. Although nearly all robotic cardiac training programmes
+employ simulation training [9, 10] with the assumption that the
+time spent on simulation modifies the clinical learning curve
+[27], neither the content nor the standard level of competency in
+such training are defined. Currently, 3 modalities are used in ro­
+botic surgical training: dry labs, virtual reality simulation and wet
+labs in cadaveric or animal models [28]. Skill acquisition rates us­
+ing these modalities in cardiac surgery are very scarce; however,
+procedure-specific wet lab robotic simulation appears to be as­
+sociated with the fastest skill acquisition [29]. Even though wet
+lab simulation has some well-documented limitations, such as
+high costs, logistical challenges and restricted access, it remains
+to be an essential part of robotic cardiac training [30], and
+experts recommend practicing in porcine model before initial
+
+CI: confidence interval; SD: standard deviation.
+
+GENERAL INTEREST
+
+G.V. Atroshchenko et al. / Interdisciplinary CardioVascular and Thoracic Surgery
+
+G.V. Atroshchenko et al. / Interdisciplinary CardioVascular and Thoracic Surgery
+
+cases [31]. Previously, only 1 study examined proficiency levels
+in robotic cardiac surgery simulation-based training [29]. In con­
+trast, the present study not only included a larger cohort of ex­
+pert surgeons but also encompassed a broader range of tasks.
+The use of validated scores [22] enhances the reliability of the
+mastery learning levels defined in our approach and supports
+the scalability of our training setup for robotic-assisted coronary
+revascularization and mitral valve surgery.
+Notably, the novice cardiac and noncardiac surgeons
+achieved mastery within 32–52 min over �12 repetitions for all
+tasks. This efficiency aligns with the typical duration of shortcourse robotic cardiac wet lab training sessions provided by
+professional societies [32]. Interestingly, although the difference
+was not significant, it appeared that noncardiac surgeons
+reached mastery faster in tasks such as atrial closure, suggest­
+ing that some skills may be transferable across different surgi­
+cal disciplines. However, differences emerged in the mGEARS
+score; in particular, the ITA harvesting task appeared to be
+more challenging for novice noncardiac surgeons. This pattern
+highlights the task-dependent nature of learning curves and
+the necessity for multiple iterations to achieve mastery in
+more complex tasks.
+Surgeon expertise in performing routine and high-risk cardiac
+procedures before proceeding to robotic-assisted surgery has
+been deemed essential [19, 33]. In this study, despite significant
+experience with all 3 tasks as a part of the traditional open-chest
+surgery routine with a median work experience of 14 years, car­
+diac surgeons did not show any significant difference in robotic
+performance either at the baseline or in the pace of learning
+
+compared with noncardiac surgeons. Our use of the Thurstone
+learning curve model for a quantitative group-level analysis con­
+firmed a consistent rate of learning across both groups for all
+tasks, emphasizing that robotic skills acquisition is not depen­
+dent on surgical experience from open chest surgery. This find­
+ing supports the integration of robotic training early in
+cardiothoracic surgery residency, potentially shortening the
+learning curve in clinical settings. As robotic simulators evolve,
+the ‘open’ experience gap may be substantially reduced [17].
+Implementing scoring systems in robotic skills training is ur­
+gently needed to demonstrate the learning process and facilitate
+proficiency-based progression [34]. The simulation model and
+the scales used in this study could help in establishing a single
+standardized evaluation of robotic cardiac skills across different
+institutions. Thus, tangible assessment parameters are necessary
+for a console surgeon, and centres deploying wet lab simulation
+are suggested to incorporate our model. Training should con­
+tinue until the pass/fail level [22] at either TBS or mGEARS is
+achieved. Ideally, a trainee should practice until attaining mas­
+tery learning level. However, expanding this type of training
+across institutions will likely encounter limitations for multiple
+reasons, such as infrastructures, costs, access to animal models
+and availability of the robotic platform for training (probably the
+most limiting one). Perhaps, a more realistic way would be to
+concentrate training to a few centres with resources and infra­
+structure and offer the training to the entire community of resi­
+dents, fellows and surgeons. This would make it more
+sustainable and ensure homogeneity in terms of methodology
+and results.
+
+Figure 3: Individual learning curves based on the TBS. The red dashed line refers to the mastery learning level. The thick black curve is the lowess estimated curve
+through the points. ITA: internal thoracic artery; TBS: time-based score.
+
+Table 4: Comparison of the group-level performance of novice cardiac and noncardiac surgeons using the Thurstone learn­
+ing model
+Task
+
+Estimate
+
+Novice cardiac surgeons,
+mean (96% CI)
+
+Novice noncardiac surgeons,
+mean (96% CI)
+
+P-value
+
+TBS (s)
+
+Atrial closure
+
+y-intercept
+Slope
+asymptote
+y-intercept
+slope
+asymptote
+y-intercept
+slope
+asymptote
+y-intercept
+slope
+asymptote
+y-intercept
+slope
+asymptote
+y-intercept
+slope
+asymptote
+
+83 (−31; 197)
+6 (0; 13)
+932 (540; 1323)
+588 (443; 734)
+1 (−1; 3)
+1036 (766; 1306)
+176 (125; 227)
+6 (2; 10)
+671 (536; 807)
+12 (11; 14)
+18 (−13; 49)
+34 (9; 60)
+13 (11; 14)
+1 (−1; 2)
+21 (18; 23)
+11 (9; 13)
+5 (1; 8)
+26 (22; 30)
+
+107 (2; 212)
+13 (−4; 30)
+1473 (292; 2653)
+286 (153; 418)
+6 (−3; 15)
+1894 (496; 3292)
+129 (80; 177)
+5 (3; 7)
+589 (515; 662)
+11 (9; 13)
+3 (−1; 7)
+22 (17; 27)
+10 (9; 12)
+3 (−1; 6)
+26 (18; 34)
+11 (9; 13)
+5 (2; 9)
+25 (22; 29)
+
+0.76
+0.5
+0.39
+<0.001
+0.3
+0.24
+0.19
+0.42
+0.29
+0.34
+0.37
+0.35
+0.03
+0.2
+0.18
+0.74
+0.76
+0.83
+
+ITA
+
+Mitral stitches
+
+mGEARS
+
+Atrial closure
+
+ITA
+
+Mitral stitches
+
+Asymptote: maximum possible learning; CI: confidence interval; mGEARS: modified global evaluative assessment of robotic skills score; TBS: time-based score;
+y-intercept: initial level of performance; slope: rate of learning.
+
+Figure 4: Group-level Thurstone learning curves for the TBS and mGEARS scores. The black solid line is the maximum attainable score: 769 for atrial closure, 1222 for
+ITA and 566 for mitral stitches on TBS and 25 for the mGEARS score. ITA: internal thoracic artery; mGEARS: modified global evaluative assessment of robotic
+skills score.
+
+Strengths and limitations
+The major strength of this study lies in the use of assessment
+tools such as TBS and mGEARS supported by validity evidence,
+
+enhancing the reliability of our learning curve analysis. However,
+the small participant size raises the possibility of a Type II error,
+proposing cautious interpretation of our findings. Nevertheless, the
+consistency of our results across multiple analyses strengthens the
+
+Score
+
+GENERAL INTEREST
+
+G.V. Atroshchenko et al. / Interdisciplinary CardioVascular and Thoracic Surgery
+
+G.V. Atroshchenko et al. / Interdisciplinary CardioVascular and Thoracic Surgery
+
+hypothesis that robotic cardiac surgery skills are specific to the pro­
+cedure rather than influenced by surgical experience.
+
+0[2]
+
+CONCLUSIONS
+0[3]
+
+0[4]
+
+0[5]
+
+0[6]
+
+ACKNOWLEDGEMENTS
+0[7]
+
+The authors thank Jane Petersson, RFNA, Torben Stig Madsen, ani­
+mal technician for helping with setting up the cases, and Professor
+Sten Rasmussen, MD, PhD for the methodological review.
+
+FUNDING
+This work was supported by ROCnord Robotic Center Aalborg,
+Department of Cardiothoracic Surgery, Biomedical Research
+Laboratory, Aalborg University Hospital, Denmark, Medtronic
+Danmark A/S.
+
+0[8]
+
+0[9]
+
+[10]
+[11]
+[12]
+[13]
+
+Conflict of interest: none declared.
+[14]
+
+DATA AVAILABILITY
+[15]
+
+The data underlying this article will be shared on reasonable re­
+quest to the corresponding author.
+
+Author contributions
+Gennady V. Atroshchenko: Conceptualization; Data curation; Funding
+acquisition; Investigation; Project administration; Writing—original draft.
+Emiliano Navarra: Conceptualization; Investigation; Writing—review & edit­
+ing. Matthew Valdis: Conceptualization; Investigation; Methodology;
+Writing—review & editing. Elena Sandoval: Investigation; Writing—review &
+editing. Nasseh Hashemi: Data curation; Investigation; Resources; Software;
+Writing—review & editing. Stepan Cerny: Conceptualization; Investigation;
+Writing—review & editing. Daniel Pereda: Investigation; Writing—review &
+editing. Meindert Palmen: Conceptualization; Investigation; Writing—review
+& editing. Flemming Bjerrum: Conceptualization; Methodology; Validation;
+Writing—review & editing. Niels Henrik Bruun: Data curation; Formal analy­
+sis; Writing—original draft. Martin G. Tolsgaard: Conceptualization; Formal
+analysis; Methodology; Supervision; Validation; Writing—review & editing.
+
+[16]
+
+[17]
+[18]
+
+[19]
+
+[20]
+
+[21]
+
+Reviewer information
+Interdisciplinary CardioVascular and Thoracic Surgery thanks Moslem
+Abdelghafar, Nabil Hussein and the other, anonymous reviewer(s) for their
+contribution to the peer review process of this article.

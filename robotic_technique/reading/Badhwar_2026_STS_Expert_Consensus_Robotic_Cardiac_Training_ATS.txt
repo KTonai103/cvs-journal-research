@@ -1,0 +1,1046 @@
+including those for text and data mining, AI training, and similar technologies.
+
+0003-4975/$36.00
+
+EXPERT CONSENSUS DOCUMENT
+
+The Society of Thoracic Surgeons Expert
+Consensus Pathway for Robotic Cardiac
+Surgical Training
+� �
+�
+ep�
+an Cerný,
+MD, PhD,3
+Vinay Badhwar, MD,1 Arman Arghami, MD, MPH,2 St
+Daniel Pereda, MD, PhD, Danny Ramzy, MD, Nirav Patel, MD, Joanna Chikwe, MD,7
+Jessica Rove, MD,8 J. Michael Smith, MD,9 Wouter Oosterlinck, MD,10 Joerg Kempfert, MD,11
+Gregory Pattakos, MD, PhD,12 Robert B. Hawkins, MD, MSc,13 Kelsey Gray, MD,14
+Yoshitsugu Nakamura, MD, PhD,15 Minoru Tabata, MD,16 Gennady V. Atroshchenko, MD, PhD,17
+Nai-Hsin Chi, MD,18 Sathyaki Nambala, MBBS,19 Johannes O. Bonatti, MD,20
+Husam H. Balkhy, MD,21 Robert L. Smith III, MD,22 Alberto Weber, MD,23
+Serguei Melnitchouk, MD,24 Marc Pelletier, MD,14 A. Marc Gillinov, MD,25
+Eugene A. Grossi, MD,26 Moritz C. Wyler von Ballmoos, MD, PhD,27 and Arnar Geirrson, MD28
+
+The Society of Thoracic Surgeons (STS) 2026 Expert Consensus Pathway on Robotic Cardiac Training
+outlines principles for the safe initial introduction and subsequent expansion of robotic cardiac programs. The 25-year history of robotic cardiac surgery has established safety and efficacy while
+providing multiple innovations. There is currently a unique opportunity to coalesce best practices
+and evidence to inform a recent global surge in interest in incorporating robotic techniques into standard cardiac surgical practice. This consensus is a collaborative effort between the STS Workforce on
+Evidence Based Surgery, the STS Robotic Cardiac Surgery Taskforce, and multinational leaders in robotic cardiac surgery that aims to standardize initial core principles of preparatory elements, followed
+by 4 phases of robotic cardiac training to proceed from program commencement to mastery.
+(Ann Thorac Surg 2026;121:1038-48)
+text and data mining, AI training, and similar technologies.
+
+T
+
+he field of robotic cardiac surgery was ushered in by the first clinical case in early 1998
+with a successful robotic mitral valve repair
+(MVr) by Carpentier and later championed by Chitwood.1 This was followed shortly thereafter by
+Loulmet and colleagues2 performing the first
+robotic-assisted coronary operations paving the
+
+way for robotic-assisted minimally invasive direct
+coronary artery bypass (MIDCAB) procedures, and
+eventually, totally endoscopic coronary artery
+bypass (TECAB) operations decades later.2-4 The
+past 25 years have seen a major evolution of robotic
+intracardiac surgery, including tricuspid and aortic
+valve procedures, surgical ablation with biatrial
+
+Presented at the Sixty-second Annual Meeting of The Society of Thoracic Surgeons, New Orleans, LA, Jan 29-Feb 1, 2026.
+The STS Executive Committee approved this document.
+
+Department of Cardiovascular and Thoracic Surgery, West Virginia University, Morgantown, West Virginia; 2Department of Cardiovascular Surgery,
+Mayo Clinic, Rochester, Minnesota; 3Department of Cardiovascular Surgery, University Hospital Motol, Prague, Czech Republic; 4Department of Cardiovascular Surgery, Hospital Clinic, Barcelona, Spain; 5Division of Cardiac Surgery, McGovern Medical School, UTHealth, Houston, Texas; 6Department
+of Cardiovascular and Thoracic Surgery, Lennox Hill Hospital, New York, New York; 7Department of Cardiac Surgery, Smidt Heart Institute, Cedars-Sinai,
+Los Angeles, California; 8Department of Surgery, University of Colorado Anschutz Medical Campus, Denver, Colorado; 9Division of Cardiac Surgery, The
+Christ Hospital, Cincinnati, Ohio; 10Department of Cardiac Surgery, University Hospitals Leuven, Leuven, Belgium; 11Department of Cardiothoracic and
+Vascular Surgery, Deutsches Herzzentrum der Charit �
+e, Berlin, Germany; 12Department of Cardiac Surgery, Hygeia Hospital, Athens, Greece;
+Department of Cardiac Surgery, University of Michigan, Ann Arbor, Michigan; 14Division of Cardiac Surgery, Yale School of Medicine, New
+Haven, Connecticut; 15Department of Cardiovascular Surgery, Chibanishi General Hospital, Matsudo City, Japan; 16Department of Cardiovascular
+Surgery, Toranomon Hospital, Juntendo University, Tokyo, Japan; 17Department of Cardiothoracic Surgery, Aalborg University Hospital, Aalborg,
+Denmark; 18Department of Surgery, National Taiwan University Hospital, Taipei, Taiwan; 19Division of Cardiovascular and Thoracic Surgery,
+Apollo Hospital, Bengaluru, Karnataka, India; 20Department of Cardiothoracic Surgery, University of Pittsburgh, Pittsburgh, Pennsylvania; 21Division
+of Cardiac Surgery, University of Chicago, Chicago, Illinois; 22Division of Cardiac Surgery, Baylor Scott & White Health, Plano, Texas; 23Department of
+Cardiovascular Surgery, HerzZentrum Hirslanden, Zurich, Switzerland; 24Division of Cardiac Surgery, Massachusetts General Brigham, Harvard University, Boston, Massachusetts; 25Department of Thoracic and Cardiovascular Surgery, Cleveland Clinic, Cleveland, Ohio; 26Department of Cardiothoracic
+Surgery, NYU Langone Health, New York, New York; 27Department of Cardiovascular and Thoracic Surgery, Texas Health, Fort Worth, Texas; and
+Division of Cardiac, Thoracic, and Vascular Surgery, Columbia University, New York, New York
+Address correspondence to Dr Badhwar, Department of Cardiovascular and Thoracic Surgery, West Virginia University, 1 Medical Center Dr, Morgantown, WV, 26506; email: vinay.badhwar@wvumedicine.org.
+
+Ann Thorac Surg
+
+EXPERT CONSENSUS DOCUMENT
+
+2026;121:1038-48
+
+Abbreviations and Acronyms
+CABG � coronary artery bypass grafting
+CT � computed tomography
+CTA � computed tomography angiography
+LITA � left internal thoracic artery
+O/E � observed/expected
+OPCAB � off pump coronary artery bypass
+MIDCAB � minimally invasive direct coronary artery bypass
+MVr � mitral valve repair
+STS � Society of Thoracic Surgeons
+TECAB � totally endoscopic coronary artery bypass
+
+Cox maze procedure, myectomy, congenital operations, and many different combinations of concomitant procedures, all through the perseverance and
+contributions of many surgeons dedicated to
+advancing the field.3,5-11 Once performed by only a
+fraction of programs, now one-fifth of repair operations for primary mitral regurgitation in the United
+States are performed robotically.12
+In experienced centers, robotic MVr has been
+shown recently to be of equivalent cost and durability to a sternotomy MVr, with particular added
+benefits for complex repairs and older patients.13-19
+The past 5 years have seen a multitude of advancements that go beyond the recent introduction
+of a new generation of surgical robots for cardiac
+application and have included strategies for
+myocardial protection, improvement in cannulation technology and monitoring, perioperative
+care, and novel new operations, including multiple
+concomitant cardiac procedures.20-23 As robotic
+cardiac operations have become more common and
+considered a standard of care in many experienced
+centers, there has been a commensurate growth in
+new surgeon interest in robotic training and program development.24,25
+The established safety and efficacy of robotic
+cardiac surgery, combined with a surge in surgeon/
+program interest and the potential for increased robotic access as companies enter or reenter the market to support cardiac application, provides an
+opportunity for consensus on the safe introduction
+and maintenance of programs to provide robotic
+cardiac surgery. This expert consensus is a collaborative effort between The Society of Thoracic Surgeons (STS) Workforce on Evidence Based Surgery,
+the STS Robotic Cardiac Surgery Taskforce, and
+global leaders and experts in robotic cardiac surgery.
+
+OBJECTIVE AND METHODOLOGY
+
+The goal of this document is to outline a stepwise
+and systematic approach for robotic cardiac surgery
+training to facilitate immediate clinical application
+
+BADHWAR ET AL
+
+STS ROBOTIC CARDIAC TRAINING
+
+and a pathway to mastery. The focus is not only on
+surgeon training but also relates to preparation of
+the entire surgical team to ensure reproducibility
+and sustainability of programmatic success with
+optimal patient safety and outcomes. The following
+principles and recommendations were derived
+from clinical and training experience, published
+evidence, and consensus of the coauthors.
+Within the rubric of the STS Workforce on Evidence Based Surgery, STS Workforce members
+with robotic expertise were combined with those
+from the STS Task Force on Robotic Cardiac Surgery along with United States and international
+experts to derive consensus. Ten of the authors
+had advisory-only roles with a robotic manufacturer but the first author and the remainder of the
+28 authors did not. Although only one major
+manufacturer was currently providing most of
+the robotic cardiac access globally, all authors
+agreed that the principles of these recommendations were agnostic to manufacturers and applicable to all that may enter the market.
+The conceptual framework was formulated by
+the United States- and European-based authors
+through a combination of in-person and virtual/
+electronic discussions held between November
+2024 and August 2025 to derive consensus and
+draft the manuscript. The draft was reviewed and
+edited by all international authors to finalize the
+consensus recommendations.
+BUILDING A FOUNDATION
+
+Although surgeon skill and team building are
+essential to any successfully sustainable robotic
+cardiac program, so too is access to a robot for clinical
+use. As is true for any other tool or technique, if robotic cardiac surgery is underused or under
+accessed, the team’s skill and proficiency will
+decline. At a foundational level, any program
+wishing to embark on robotic cardiac surgery should
+have secured institutional administrative support
+for access to operative robot time. An established
+and well-functioning heart team is suggested to
+ensure multidisciplinary support. It is recommended for developing programs to ideally have
+robotic access 1 to 2 days per week during standard
+hours, but at a minimum of twice per month. Team
+building to include scrub and circulators, table-side
+associates, cardiac anesthesia, and perfusion, are
+all essential. Every effort to ensure team consistency
+in the initial phases of progress is critical to secure
+cumulative learning and development.25
+Throughout the clinical advancements in robotic
+cardiac surgery, 2 broad pathways have emerged:
+
+EXPERT CONSENSUS DOCUMENT
+
+BADHWAR ET AL
+
+Ann Thorac Surg
+
+STS ROBOTIC CARDIAC TRAINING
+
+2026;121:1038-48
+
+TABLE 1 Intracardiac vs Coronary Track: Key Differences
+
+Intracardiac Track
+(Valve/AF/Tumor)
+
+Coronary Track
+(TECAB/MIDCAB)
+
+Implication for
+Program Start
+
+Mitral valve repair/replace,
+tricuspid repair, intracardiac
+tumor excision
+Often on-pump with
+peripheral cannulation or
+short cardioplegia times
+
+LITA harvest, LAD
+anastomosis, off-pump
+TECAB/MIDCAB
+Often off-pump (or on partial
+support); limited cardiac
+arrest cases
+
+Technical emphasis
+
+Fine intracorporeal suturing,
+complex valve repair
+techniques
+
+Case selection
+
+Degenerative valve disease,
+noncalcified leaflets, suitable
+peripheral access
+
+Proctoring needs
+
+High-volume proctoring for
+suturing and valve repair
+steps
+Repair rate, residual
+regurgitation, reoperation
+for valve
+
+Epicardial dissection, LITA
+harvest, precise coronary
+anastomosis on moving
+target
+Isolated LAD disease, favorable
+target vessel anatomy,
+limited atherosclerotic
+disease
+Proctoring focused on LITA
+harvest, grafting technique,
+and off-pump management
+Graft patency, need for targetvessel reintervention,
+conversion to sternotomy
+
+Different instrument sets,
+perfusion readiness vs offpump workflows
+Perfusion team training
+essential for intracardiac;
+coronary track emphasizes
+beating-heart stabilizers
+Surgeon prior experience in
+valve vs coronary
+techniques matters
+
+Feature
+
+Typical procedures
+
+Cardiopulmonary bypass
+
+Key outcomes
+
+Develop track-specific
+screening protocols
+
+Different proctor skill sets
+and assessment checklists
+required
+Define separate dashboards
+and benchmarks
+
+AF, atrial fibrillation; LAD, left anterior descending; LITA, left internal thoracic artery; MIDCAB, minimally invasive direct coronary artery bypass; TECAB, totally endoscopic
+coronary artery bypass.
+
+robotic-assisted coronary revascularization and
+robotic-assisted intracardiac valve and arrhythmia
+surgery (Table 1).25 Often, but not always, these 2
+pathways may be performed by different surgeons
+with complementary but different surgical skills
+and levels of mastery. Both pathways may coexist
+in the same institution, or separately, as
+individual programs. For optimal safety and
+patient outcomes, the initial entry into each
+pathway should be predicated on substantive
+surgeon and team experience with related
+nonrobotic operations. Although not mandatory,
+the value of prior experience with minimally
+invasive thoracotomy direct vision or endoscopicassisted approaches is very high. Robotic telemanipulation may provide enhanced visualization
+and access to cardiac structures, but it does not
+substitute for the value of open and nonrobotic
+surgical experience and technical precision. For
+surgeons not emerging from advanced robotic
+fellowship training with a command of both pathways and excellent outcomes, it is essential that
+proficiency in the focused robotic surgical procedure (eg, MVr) is established before acquiring skills in
+robotic-assisted techniques, rather than attempting
+to learn both simultaneously.
+
+PHASES OF PREPARATION AND ADVANCEMENT
+
+The following aims to outline phases of
+advancement in robotic cardiac training (Figure).
+
+These phases are recommendations for team
+elevation, sustainable quality, and to facilitate
+an evolution of procedural complexity. Volume
+recommendations to follow serve as minimums,
+with recognition that specific countries with
+different structures of centralization may wish
+to increase these thresholds. At each step, the
+most important goal is securing progress while
+maintaining optimal outcomes of mortality and
+major morbidity, including need for reoperation
+based on institutional and national comparative
+metrics to open procedures. Observed-toexpected (O/E) outcomes may be derived from
+the STS isolated coronary artery bypass grafting
+(CABG) or relevant STS valve risk calculator or
+international equivalent.
+
+PHASE 0
+
+Before embarking on robotic revascularization
+training and program initiation, surgeons should
+have a minimum of 3 years of independent
+attending-level clinical practice in cardiac surgery
+and/or successful completion of a postgraduate
+robotic fellowship, and/or formal robotic cardiac
+training is incorporated into the cardiothoracic
+training curriculum, the latter being a future
+state. Surgeons without dedicated robotic
+fellowship training with a concentration in
+revascularization should have a core competency
+in both on-pump and off-pump sternotomy
+
+Ann Thorac Surg
+2026;121:1038-48
+
+FIGURE. Phases of robotic cardiac training: from
+commencement to mastery.
+
+CABG, including a minimum of 250 career cases
+as primary operator, at least 10 of which are recommended to be off pump coronary artery
+bypass (OPCAB) or beating heart CABG, with an
+O/E mortality of ≤1, including acceptable major
+morbidity as defined by national benchmarks
+(Table 2). Prior nonrobotic MIDCAB experience is
+encouraged but not mandatory.
+
+EXPERT CONSENSUS DOCUMENT
+
+BADHWAR ET AL
+
+STS ROBOTIC CARDIAC TRAINING
+
+Before embarking on robotic valve and intracardiac training and program initiation, surgeons
+should have a minimum of 3 years of independent attending-level clinical practice and/or successful completion of a postgraduate robotic
+fellowship. In a future state, when more accredited cardiothoracic residency programs incorporate a formal robotic cardiac curriculum with
+sufficient volume and experience, graduating
+surgeons from these specific programs may
+directly incorporate robotic procedures in their
+practice. However, at the time of this expert
+consensus, this is not recommended unless candidates have received adequate basic training and
+they join an established robotic cardiac program
+with an expert mentor responsible to ensure
+staged completion of the phases outlined in this
+document.
+Surgeons should have a core competency in
+open or nonrobotic minimally invasive mitral
+valve operations that include MVr or mitral
+valve replacement, with or without concomitant
+operations, including surgical ablation, with a
+minimum of 75 career cases as primary operator
+or cosurgeon, 40 of which should be performed
+over the most recent 2 years, with an O/E mortality of ≤1, and a track record of successful
+repair of primary degenerative mitral pathology
+of at least 80% over the most recent 2 years.
+Furthermore, it is highly recommended to have
+an experience of a minimum of 15 cases of minithoracotomy cardiac operations with peripheral
+cannulation for cardiopulmonary bypass over
+the most recent 2 years before program
+commencement (Table 2).
+Before robotic program initiation of either
+pathway, institutional/program annual cardiac
+open heart volumes should ideally be at least 250
+cases per year for 3 years, with resources to support a dedicated team of institutionally based
+cardiac anesthesiologists skilled in the routine
+use of transesophageal echocardiography, a
+dedicated team of institutionally based perfusionists, and immediate institutional access to
+advanced mechanical circulatory support. It is
+recognized that the threshold to have access to
+these added supportive services may vary higher
+or lower in specific countries. It is further suggested that robotic teams have access to operative suites of optimal size to accommodate
+robotic and surgical equipment (eg, 750 square
+feet or 70 square meters) that are outfitted with
+multiple monitors capable of displaying multiple
+inputs, including vital signs, head camera, robotic
+camera, and imaging.
+
+EXPERT CONSENSUS DOCUMENT
+
+BADHWAR ET AL
+
+Ann Thorac Surg
+
+STS ROBOTIC CARDIAC TRAINING
+
+2026;121:1038-48
+
+TABLE 2 Recommended Minimum Surgeon Experience and Institutional Resources Before Initiation of a Robotic
+
+Cardiac Program
+Variable
+
+Robotic Revascularization Program
+
+Robotic Valve/Intracardiac Program
+
+Training and practice
+
+• American Board of Thoracic Surgery or
+equivalent
+• 3 years of independent attending-level
+clinical practice, and/or a minimum 1-year
+postgraduate robotic cardiac fellowship with
+robotic revascularization concentration
+
+• American Board of Thoracic Surgery or
+equivalent
+• 3 years of independent attending-level
+clinical practice, and/or a minimum 1-year
+postgraduate robotic cardiac fellowship with
+robotic valve concentration
+
+Clinical experience
+
+• 250 career cases of coronary
+revascularization as primary operator (on or
+off pump) with an O/E mortality and major
+morbidity of ≤1,a of which 10 should be off
+pump
+
+• 75 career cases of mitral valve repair or
+replacement, with or without concomitant
+procedures that may include surgical ablation,
+with an O/E mortality and major morbidity of
+≤1,a of which 40 should be within the prior 2
+years
+• 15 cases of valve/intracardiac operations
+performed using minimally invasive thoracotomy
+involving peripheral cardiopulmonary bypass
+performed within the prior 2 years with an O/E
+mortality and major morbidity of ≤1a
+
+Institutional resources
+
+• 250 adult cardiac surgical cases per year for a
+minimum of 3 years
+• A dedicated team of institutionally based
+cardiac anesthesiologists practicing routine
+use of transesophageal echocardiography
+• A dedicated team of institutionally based
+perfusionists
+• Immediate institutional access to advanced
+mechanical circulatory support
+
+• 250 adult cardiac surgical cases per year for a
+minimum of 3 years
+• A dedicated team of institutionally based
+cardiac anesthesiologists practicing routine
+use of transesophageal echocardiography
+• A dedicated team of institutionally based
+perfusionists
+• Immediate institutional access to advanced
+mechanical circulatory support
+
+a
+
+To align with The Society of Thoracic Surgeons isolated coronary artery bypass grafting or relevant valve risk calculator or international equivalent. O/E,
+observed to expected.
+
+PHASE I
+PHASE I—BASIC PREPARATION. Successful initiation of a
+
+robotic cardiac surgery program requires deliberate
+team building focused on multidisciplinary coordination: a lead cardiac robotic surgeon with prior minimally
+invasive
+experience,
+dedicated
+anesthesiologists familiar with single-lung ventilation
+and TEE, specially trained bedside cosurgeon,
+associate surgeons or assistants, scrub nurses,
+perfusionists, and institutional administrative
+support for scheduling and equipment maintenance.
+A structured team-training pathway—combining
+simulation, dry laboratory practice, and stepwise
+supervised clinical cases—reduces the learning curve
+and helps maintain patient safety during the
+program’s ramp-up phase.24,25
+The primary goal of phase I is the fundamental
+surgeon and surgical team training on use of the
+robot. This includes table-side thoracic preparation and port placement, console surgeon robotic
+manufacturer-specific telemanipulation, including
+clutching and conflict management, and team
+docking, troubleshooting, and maintenance.
+Rehearsal and team preparation for safe conversion to minithoracotomy or sternotomy should
+also be covered. Phase I is often best facilitated by
+simulation or thoracic models, and this may be
+enhanced by artificial tissue or cadaveric
+
+simulation. Phase I may be completed with the
+assistance of a facilitator experienced in robotic
+team training or training coordinators often associated with the robotic manufacturer.
+PHASE
+
+I—ESTABLISHING
+
+INTERNAL
+
+STRUCTURE
+
+AND
+
+PROCESSES. Before entering to phase II, or initial
+
+clinical application, careful case selection is a
+critical step to ensure patient safety and programmatic success. Clinical evaluation and workup
+should be protocolized, including imaging. Taking
+the time to meet with institutional stakeholders to
+establish internal processes to provide preoperative
+and intraoperative consistency and protocolized
+perioperative care would be highly recommended.
+This preparation may also involve multidisciplinary collaboration to initially prioritize patients whose anatomy and disease are well suited
+to the chosen track. This may include favorable
+body habitus, stable lung function, and low comorbid risk, and readily treatable pathoanatomy
+for the initially planned cases for programmatic
+commencement. When programs are established,
+expansion into higher comorbid risk and pathoanatomy may be safely and readily achievable
+following acceptable experience (see phase III).
+Preoperative investigations should include cardiac catheterization and transthoracic echocardiography at a minimum for the revascularization
+
+Ann Thorac Surg
+
+EXPERT CONSENSUS DOCUMENT
+
+2026;121:1038-48
+
+track (eg, MIDCAB) patients, with an optional
+computed tomography (CT) angiography (CTA)
+with 3-dimensional reconstruction to map out the
+course of the left internal thoracic artery (LITA)
+as well as to plan for the thoracic incision and
+port placement to ensure optimal exposure for
+the target vessel location, with optional iliofemoral imaging should bailout maneuvers be
+required. All intracardiac patients should have a
+preoperative high-quality echocardiogram that
+adequately visualizes detailed valve anatomy
+(transesophageal echocardiography is recommended) and CTA with 3-dimensional reconstruction at a minimum, with optional cardiac
+catheterization as needed to define coronary
+anatomy. The CT should include assessment of
+abdominal and femoral vessels to evaluate for
+safe peripheral cannulation. Specifically, this
+should serve to identify intraluminal atherosclerotic occlusive disease of the iliofemoral and
+aortic vasculature, including any anomalous
+anatomy that may influence safe perfusion.
+PHASE I—INITIAL CASE SELECTION. Teams might choose
+
+to seek out initial patients with the following
+anatomic criteria. For the intracardiac track, initial
+patients should either be isolated degenerative
+valve disease for MVr with favorable annular and
+leaflet anatomy and limited leaflet or annular
+calcification, or concomitant or stand-alone
+patients with atrial fibrillation who may benefit
+from robotic biatrial Cox maze operations with
+cryoablation, or focal pathologies such as a
+secundum atrial septal defect or left atrial
+myxoma. Adequate peripheral access on chest,
+abdomen, and pelvis CTA without intraluminal
+aortoiliac obstructive disease and a common
+femoral size of ≥7 mm is recommended.
+Patients should not have more than mild aortic
+insufficiency. For the coronary track (eg, roboticassisted MIDCAB), initial patients recommended are
+those with isolated left anterior descending disease or
+anatomies favorable for LITA-to-left anterior
+descending grafting and may exclude diffuse multivessel disease, heavily calcified targets, small-caliber
+or intramyocardial distal targets, low ejection fraction
+(≤0.25), or those requiring mechanical support.26,27
+It is recommended that programs develop a
+detailed postoperative pathway for robotic cases.
+This will allow appropriate care for these patients
+because it sometimes can be different and to
+benefit from the minimally invasive nature of the
+procedure and reduce hospital stay that translates to cost savings that can offset the added
+instrument and robotic costs of these cases.
+
+BADHWAR ET AL
+
+STS ROBOTIC CARDIAC TRAINING
+
+PHASE II
+
+After successful completion of phase I and necessary stakeholder communication and workflow
+preparation, phase II includes peer-to-peer clinical
+training and initial proctored cases. After phase I
+team training at a program’s institution, phase II
+peer-to-peer training should be coordinated to
+include site visit(s) to an established robotic
+institution that has achieved mastery (eg, phase
+III-IV) with the capability of training not only the
+console surgeon but also additional training of the
+table-side surgeon associate as well as all other
+members of the team as optional additions. The
+decision to have another attending-level surgeon
+or physician assistant perform table-side assistance should be up to each institution and team
+such that the table-side experience is sufficient to
+achieve optimal efficiency and patient safety.
+Phase II training should include case observation specific to the track desired for program
+commencement, which may include both tracks
+should the initiating program have the necessary
+access and case volumes to support both. Should
+the peer-to-peer host institutions have the capability, a separate and structured training experience dedicated to team members would be of
+benefit (eg, table side, perfusion, cardiac anesthesia, scrub, circulator). These may include
+specific sharing of equipment and pick lists,
+setup, patient positioning, instrumentation, and
+perfusion, as applicable.
+For the robotic revascularization track, essential objectives of case observation should be patient selection, anesthesia preparation, and
+patient positioning, marking, port placement,
+docking to avoid shoulder conflict, and atraumatic LITA take down, followed by strategies to
+pick working incision for ideal target vessel
+exposure. Following key lessons of robotic LITA
+harvesting, optional strategies for MIDCAB direct
+vision anastomosis preparation and completion
+are observed, including shunt use and documentation of ultrasonic transit-time flow meter
+measurement for assurance of graft patency.
+For the robotic intracardiac track, essential
+objectives for case observations should include
+patient selection, anesthetic preparation, and
+patient positioning and marking for strategic port
+placement based on imaging and physical anatomy. It is recommended that for all commencing
+programs and phase II and III experience, femoral
+cannulation is approached through a 1- to 2-cm
+common femoral artery cutdown and anterior
+artery and vein exposure with limited dissection
+
+EXPERT CONSENSUS DOCUMENT
+
+BADHWAR ET AL
+
+Ann Thorac Surg
+
+STS ROBOTIC CARDIAC TRAINING
+
+only (to mitigate risk of postoperative seroma)
+and 5-0 polypropylene purse string placement
+with transesophageal-facilitated Seldinger arterial
+and venous cannulation. An optional percutaneous distal perfusion catheter attached to the
+arterial catheter may be used.
+An additional recommendation is that programs commence through phase II and III with a
+right lateral minithoracotomy through the fourth
+intercostal space at the anterior axillary line as
+their access incision with soft tissue retraction.
+Port placement recommendations include the No.
+1 arm in the third intercostal space between the
+anterior axillary and midclavicular line, No. 2 arm
+as a camera port or directly through the working
+incision, No. 3 through the fifth intercostal space
+midclavicular line, and No. 4 through the sixth
+intercostal space at the level of the midaxillary or
+anterior axillary line.
+Bicaval venous drainage is recommended with
+a cannula placed percutaneously through the
+right internal jugular vein and positioned in the
+superior vena cava at the level of the azygous
+vein. After commencement of CPB, inserting a
+long cardioplegia vent catheter through the
+working incision into the ascending aorta is recommended. Optional left ventricular vent placement may be performed before or after atrial
+opening and cardioplegic arrest. Use of a rigid
+transthoracic cross-clamp placed through the
+third intercostal space at the midaxillary or
+anterior axillary line is recommended. An intrathoracic flexible or detachable clamp for rigid
+occlusion may be a suitable alternative if already
+in institutional use in minimally invasive cases.
+Note, the above recommendations are for programs in their initial phase of commencement,
+and this may be used for the existence of the
+program’s progression through to mastery.
+Optional use of percutaneous cannulation or use
+of endoaortic balloon occlusion (endoballoon)
+may be used in phase II and III but only by programs with a longstanding and rich experience
+with its use in endoscopic cardiac surgery (minimum of 50 cases in 2 years before program
+commencement). It is not recommended for new
+programs to use percutaneous cannulation or
+endoballoon until reaching phase IV.
+Proctoring by an experienced robotic cardiac
+surgeon may be an important step in the initial
+launch of the program, particularly for the initial 1
+to 5 cases. The proctor’s role would be to reemphasize phase I and II principles, ensure that case
+selection and imaging is adequate for patient
+safety, and to assist in the preparation,
+
+2026;121:1038-48
+
+cannulation if applicable, docking, and patient
+preparation and positioning. The proctor may
+assist with operative recommendations of a technical variety but should refrain from recommending detailed operative maneuvers that may or may
+not be within the capability or experience of the
+operative team. The most important principle of
+proctoring initial robotic cases is to meet the surgical team where they are in their clinical and
+technical experience to ensure patient safety.25
+Phase II is considered achieved after completion of the initial 10 cases in either track with
+satisfactory outcomes, including major morbidity
+and mortality O/E ≤1 within the first 6 months of
+program initiation.
+PHASE III
+
+Phase III is defined as achieving safe completion of
+robotic cardiac surgery with completion of the first
+50 cases in either track with O/E mortality and
+major morbidity ≤1, and with improving efficiency
+of operative and intraprocedural times. Evaluating
+team and case efficiency using metrics such as
+total operative time or technical or anatomic outcomes is currently insufficient to enable effective
+learning and team progression. Because each
+member of the team can develop unique skills and
+training to improve the efficient and safe performance of a robotic operation, a gradation in team
+proficiency can be measured more effectively by
+compartmentalizing operative steps and tracking
+each over time. Common steps that can be timed,
+tracked, and optimized for either robotic cardiac
+pathway may include (1) operative table setup, (2)
+patient operating room arrival, anesthetic induction including catheters (wheels in to anesthesia
+release), (3) robot sterile draping, (4) patient positioning and topographic marking, (5) skin incision
+to port placement completion, (6) robotic docking
+from resting room position to table side lock, and
+(7) robotic port locking and initial instrument
+positioning until console control has been
+established.
+All programs are recommended to use this
+compartmentalized evaluation, or similar components tailored to the individual institution, to
+track times and share at the conclusion of each
+case or at an appropriate interval for shared
+learning. It is further recommended that robotic
+operating room teams prebrief and debrief with
+regularity to track shared learning and optimize
+workflow.
+For the robotic revascularization pathway,
+although quality of LITA harvest, revision-free
+
+Ann Thorac Surg
+
+EXPERT CONSENSUS DOCUMENT
+
+2026;121:1038-48
+
+anastomosis creation, and bloodless closure, are
+of paramount importance, additional steps that
+are recommended to be timed, tracked, and
+optimized over the program’s experience may
+include (1) LITA start to heparin (target: <90 minutes), (2) heparin to LITA fixation to pericardium or
+epicardium (target, <15 minutes), (3) minithoracotomy to initial coronary incision for MIDCAB
+(target: <30 minutes), (4) initial coronary incision to
+LITA clamp release (target <20 minutes), and (5)
+LITA clamp release to closure (target <30 minutes)
+(Table 3).
+For the robotic valve/intracardiac pathway,
+although intracardiac anatomic valve or rhythm
+restoration and bloodless closure remains of
+paramount importance, additional steps that are
+recommended to be timed, tracked, and optimized over the program’s experience may include
+(1) skin incision to heparin, including pericardial
+preparation (target: <90 minutes), (2) cannulation initiation to cross-clamp, including placement of aortic root vent ± left ventricular vent
+(target: <30 minutes), (3) initial atrial incision to
+final mitral exposure (target: <15 minutes), (4)
+first annular suture placement to completed ring
+or prosthesis release, excluding leaflet repair or
+resection (target: <45 minutes), and (5) first atrial
+closure suture to completion of atrial closure
+(target: <30 minutes) (Table 3).
+Ongoing outcomes assessment—using case-level
+risk adjustment, participation in nation-specific
+registries, and routine audits of clinical end points
+(mortality, stroke, reintervention), process metrics
+(conversion to sternotomy, cross-clamp time), and
+patient-centered outcomes (length of stay, readmission, functional recovery)—is mandatory for
+quality assurance and to detect early warning signals and maintenance of O/E mortality and major
+morbidity ≤1. Public reporting is recommended.
+Interval assessment of team outcomes every 25
+cases until the first 100 are completed is recommended. Should this falter, retraining or additional
+proctoring
+may
+be
+required
+or
+recommended.
+Intracardiac track outcomes should emphasize
+repair rates of primary degenerative disease, residual regurgitation/stenosis (≤1+ mitral regurgitation, mean gradient ≤4 mm Hg), and valve
+durability, whereas coronary track outcomes
+should emphasize graft patency by intraoperative
+flow assessment and freedom from target-vessel
+reintervention; both tracks benefit from benchmarking against regional and national data sets.
+Continuous quality improvement closes the loop
+
+BADHWAR ET AL
+
+STS ROBOTIC CARDIAC TRAINING
+
+TABLE 3 Compartmentalized Steps Specific to Robotic Revascularization
+
+and Valve/Intracardiac Operations
+Robotic Revascularization Operations
+
+Robotic Valve/Intracardiac Operations
+
+• Commencement of LITA harvest to
+heparin administration
+
+• Skin incision to heparin
+
+• Heparin administration to LITA fixation to • Cannulation initiation to cross-clamp
+pericardium or epicardium
+• Minithoracotomy skin incision to initial
+• Initial atrial incision to final mitral
+coronary incision for MIDCAB, or heparin
+exposure
+to initial coronary incision for TECAB
+• Initial coronary incision to
+postanastomotic LITA clamp release
+
+• First annular suture placement to
+completed ring or prosthesis release
+(excluding leaflet repair or resection)
+
+• LITA clamp release to closure completion • First atrial closure suture to completion
+of atrial closure
+LITA, left internal thoracic artery; MIDCAB, minimally invasive coronary artery bypass; TECAB, total
+endoscopic coronary artery bypass.
+
+between team training, case selection, proctoring
+feedback, and measurable outcomes.27
+A further recommendation is that robotic
+teams start with straightforward cases to establish procedural homogeneity. This is not only for
+patient safety but also to enable consistent
+compartmental time tracking for each procedural
+step. Please note that the previously mentioned
+target times are meant to be achievable to assist
+in progression. However, programs should strive
+to achieve times that approach half of the times
+allotted above.
+Progression of case complexity or procedural
+advancement should only be done once the team
+has demonstrated improvement in each
+compartmental step with time reduction to a
+consistent plateau, often after a minimum of 20
+cases. Team coordination and leadership are
+essential to maintain an environment of patient
+safety as one introduces new techniques or
+technology. Stepwise introduction of technical
+advancement with confirmation of acceptance
+and safe adoption using similar tools to those
+above is recommended before adding further
+complexity.
+Critical review of outcomes should regularly
+occur, especially in early phases of program
+development. It is of particular importance for a
+program to track their robotic cross-clamp and
+cardiopulmonary bypass times to ensure that
+these eventually approach institutional congruency with similar operations performed through a
+sternotomy. Clearly established verbal communication protocols, checklists, and individual
+team member roles often lead to the most effective robotic teams.28-32 These formative elements
+become even more important as programs
+
+EXPERT CONSENSUS DOCUMENT
+
+BADHWAR ET AL
+
+Ann Thorac Surg
+
+STS ROBOTIC CARDIAC TRAINING
+
+2026;121:1038-48
+
+TABLE 4 Economy of Motion Metrics in Robotic Cardiac Surgery
+
+Metric
+
+Path length
+Number of movements
+Motion smoothness
+Speed/time efficiency
+Jerk (rate of change of acceleration)
+Extraneous motion
+Force profiles (when measured)
+Ratio of economy of motion (rEOM)
+
+Description
+
+Expert vs Novice Trends
+
+Total distance traveled by
+instrument tips.
+Total discrete instrument
+movements during a task.
+Continuity of motion without
+unnecessary pauses or reversals.
+Average velocity and total time to
+task completion.
+Quantifies abruptness of motion.
+
+Experts show shorter path
+length.
+Experts require fewer
+movements.
+Experts display smoother
+motion.
+Experts complete tasks faster
+with controlled speed.
+Experts demonstrate lower jerk
+values.
+Experts minimize extraneous
+motions.
+Experts apply consistent,
+controlled forces.
+Higher rEOM in experts, lower in
+trainees.
+
+Unnecessary or off-target
+instrument excursions.
+Force applied on tissue or sutures.
+Proportion of efficient vs
+inefficient motion, validated in
+dual-console robotic surgery.
+
+advance toward procedural and case complexity
+(eg, advanced pathology or addition of concomitant procedures).
+Educating one’s team, stakeholders, referring
+providers, patients, and the surgical community
+as techniques evolve is an essential part of leadership in robotic cardiac surgery. Furthermore,
+tracking of economy of motion and efficiency
+metrics may provide an opportunity to track
+more subtle improvement over time that may not
+be evident in clinical outcomes (Table 4).
+PHASE IV
+
+Phase IV is the final phase of robotic cardiac
+training, once programmatic safety, quality, and
+procedural proficiency have been achieved after
+phase III. The case minimum to enter phase IV
+should be at least 50 cases; however, this may
+require more cases if case frequency is challenging based on hospital or referral practices.
+One important objective signal of proficiency is
+achievement of the steps outlined in phase III
+that beats the target times by a significant margin
+and other team times plateau with consistency.
+If a mutually supportive relationship can be
+nurtured, along with the skill of the robotic team,
+programmatic advancement and introduction of
+new techniques can be readily achieved.3,5,6,33-35
+Overall, the objectives of phase IV are to advance
+to the desires of the program by adopting additional techniques of each track, such as TECAB in
+the revascularization track and multivalve (mitral
+and tricuspid), multivalve Cox maze, and right
+lateral transaxillary robotic aortic valve replacement for the intracardiac track. Additionally, for
+
+isolated or nonaortic procedures, should the
+programs believe that percutaneous cannulation
+with endoballoon technology provides positional
+advantages, phase IV would the appropriate time
+to explore its use for programs that have not had
+experience with it previously. Similarly, this
+would also be the time should programs wish to
+proceed with near totally endoscopic techniques
+for isolated valve or intracardiac operations that
+incorporate endoballoon technology and antegrade cardioplegia.
+Additionally, phase IV would be the appropriate time to address using the program’s robotic
+experience to approach higher comorbid risk or
+frail patients who may not tolerate a sternotomy.
+This is a particularly valuable opportunity once
+teams have reached phase IV proficiency because
+this may also be an accelerant for safe programmatic expansion. Redo cardiac operations may
+also be an option during phase IV, provided the
+operative principles remain the same. Although
+redo procedures can be performed with transthoracic clamping in certain circumstances, these
+may also be achieved with endoballoon technology or by ventricular fibrillatory arrest in patients
+with a competent aortic valve, and all with
+acceptable levels of safety.
+Finally, approaching advanced pathoanatomy
+is recommended for phase IV. This may include
+bileaflet or Barlow’s mitral pathology, endocarditis repair with autologous patches, concomitant septal myectomy, or approaching patients
+with both complex anatomy and impaired ejection fraction. All in all, the objective in phase IV is
+that programs achieve a level of mastery while
+continuing to track metrics of outcomes and
+
+Ann Thorac Surg
+
+EXPERT CONSENSUS DOCUMENT
+
+2026;121:1038-48
+
+proficiency through the adoption of each new
+procedure to ensure team commitment to
+advancing safety with a focus on quality.
+FUNDING SOURCES
+The authors have no funding sources to disclose.
+
+DISCLOSURES
+� �
+�
+�n Cerný
+St
+epa
+reports a relationship with Intuitive Surgical Inc that includes: consulting or advisory. Kelsey Gray reports a relationship with
+Intuitive Surgical Inc that includes: consulting or advisory. Arnar Geirrson
+reports a relationship with Edwards that includes: consulting or advisory;
+with Medtronic that includes: consulting or advisory; and with Intuitive
+Surgical Inc that includes: consulting or advisory. A. Marc Gillinov reports
+a relationship with Edwards Lifesciences that includes: consulting or
+advisory; with Medtronic that includes: consulting or advisory; with
+Abbott that includes: consulting or advisory; with Artivion, Inc. that includes: consulting or advisory; with ClearFlow Inc that includes: consulting or advisory; with AtriCure Inc that includes: consulting or advisory;
+and with Baxter that includes: consulting or advisory. Nirav Patel reports
+a relationship with Intuitive Surgical Inc that includes: consulting or
+advisory; and with Vascular Graft Solutions that includes: consulting or
+
+BADHWAR ET AL
+
+STS ROBOTIC CARDIAC TRAINING
+
+that includes: consulting or advisory. J. Michael Smith reports a relationship with Intuitive Surgical Inc that includes: consulting or advisory;
+and with AtriCure Inc that includes: consulting or advisory. Wouter
+Oosterlinck reports a relationship with Intuitive Surgical Inc that includes:
+consulting or advisory; and with Medtronic that includes: consulting or
+advisory. Joerg Kempfert reports a relationship with Intuitive Surgical Inc
+that includes: consulting or advisory; with Edwards Lifesciences that
+includes: consulting or advisory; with Medtronic that includes: consulting
+or advisory; with Abbott that includes: consulting or advisory; with
+Artivion that includes: consulting or advisory; and with enableCV that
+includes: consulting or advisory. Sathyaki Nambala reports a relationship
+with Intuitive Surgical Inc that includes: consulting or advisory; with
+Edwards Lifesciences that includes: consulting or advisory; and with
+Medtronic that includes: consulting or advisory. Husam H. Balkhy reports
+a relationship with Intuitive Surgical Inc that includes: consulting or
+advisory; with Edwards Lifesciences that includes: consulting or advisory;
+and with Medtronic that includes: consulting or advisory. Johannes O.
+Bonatti reports a relationship with enableCV that includes: consulting or
+advisory. Robert L. Smith III reports a relationship with Edwards Lifesciences that includes: consulting or advisory; with Abbott that includes:
+consulting or advisory; with Medtronic that includes: consulting or
+advisory; and with Artivion, Inc that includes: consulting or advisory. The
+other authors have no conflicts of interest to disclose.
+
+advisory. Jessica Rove reports a relationship with Intuitive Surgical Inc

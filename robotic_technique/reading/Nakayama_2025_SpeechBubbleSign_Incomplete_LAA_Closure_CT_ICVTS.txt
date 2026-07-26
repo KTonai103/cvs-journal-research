@@ -1,0 +1,736 @@
+Taisuke Nakayama, Yoshitsugu Nakamura, Atsushi Shukuya, Shinya Hashimoto, Yuka Higuma,
+Kusumi Niitsuma, Masaki Ushijima, Yuto Yasumoto, Miho Kuroda, Kosuke Nakamae, Akihiro
+Higashino, Yujiro Hayashi, Ryo Tsuruta, Yujiro Ito
+
+Speech Bubble Sign—Insights Regarding Incomplete Le Atrial
+Appendage Closure via Electrocardiography-Synchronized
+Computed Tomography in Robotic Surgery Cases
+
+ORIGINAL ARTICLE
+
+Appendage Closure via Electrocardiography-Synchronized Computed Tomography in Robotic Surgery Cases. Interdiscip CardioVasc Thorac Surg 2025;
+
+Speech Bubble Sign—Insights Regarding Incomplete Left Atrial
+Appendage Closure via Electrocardiography-Synchronized
+Computed Tomography in Robotic Surgery Cases
+
+Department of Cardiovascular Surgery, Chiba-Nishi General Hospital, Chiba 270-2251, Japan
+Department of Radiology, Chiba Nishi General Hospital, Chiba 270-2251, Japan
+
+�Corresponding author. Department of Cardiovascular Surgery, Chiba-Nishi General Hospital, 107-1 Kanegasaku Matsudo-shi, Chiba-Ken, Chiba 270-2251, Japan
+(ystgnkmr@gmail.com)
+Received: March 7, 2025; Revised: April 16, 2025; Accepted: July 11, 2025
+
+Graphical abstract
+
+Abstract
+Objectives: In atrial fibrillation (AF), surgical management of the left atrial appendage (LAA) is crucial to prevent stroke. However, incom­
+plete closure poses a residual embolic risk.
+All authors listed above have contributed to the manuscript and satisfy the ICMJE criteria for authorship.
+
+This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License (https://creativecommons.org/licenses/
+by-nc/4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial reuse, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the
+Permissions link on the article page on our site—for further information please contact journals.permissions@oup.com.
+
+Taisuke Nakayama 1; Yoshitsugu Nakamura �,1; Atsushi Shukuya2; Shinya Hashimoto2; Yuka Higuma1;
+Kusumi Niitsuma1; Masaki Ushijima1; Yuto Yasumoto1; Miho Kuroda1; Kosuke Nakamae 1; Akihiro Higashino1;
+Yujiro Hayashi1; Ryo Tsuruta1; Yujiro Ito1
+
+CARDIAC ARRHYTHMIA
+
+Interdisciplinary CardioVascular and Thoracic Surgery 2025, 40(10), ivaf172
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Methods: We retrospectively analysed patients who underwent LAA closure using a continuous polypropylene suture technique during
+mitral valve surgery with the da Vinci system. Closure completeness was assessed via electrocardiogram-gated computed tomography
+(CT), and 3D imaging was used to localize incomplete sites.
+Results: Of 125 patients, 100 underwent postoperative CT. Complete closure (cLAA) was achieved in 76%, while 24% had incomplete clo­
+sure (iLAA), typically at the mitral valve junction or suture start. These showed a characteristic “speech bubble” appearance. iLAA was as­
+sociated with tricuspid valve repair and low V1 f-wave amplitude. Stroke rates were similar between groups over 24 months.
+Conclusions: Incomplete LAA closure occurred in 24% of cases despite direct visualization using robotics. Anatomical factors likely con­
+tribute more than technique alone. For high-risk patients with long-standing AF, techniques such as lumen crushing or external clips may
+enhance closure success. Further refinements are needed to improve the reliability of internal LAA closure methods.
+
+INTRODUCTION
+Atrial fibrillation (AF) significantly increases the risk of intracar­
+diac thromboembolism, with the left atrial appendage (LAA) be­
+ing the source of clots in up to 90% of non-rheumatic AF
+cases.1,2 Current guidelines recommend LAA closure in AF
+patients undergoing mitral valve or maze surgery.3 The LAAOS
+study confirmed its safety and efficacy in reducing cardiogenic
+stroke.4 Robotic surgery, particularly with the da Vinci system,
+has improved precision and visualization in minimally invasive
+procedures. During mitral valve surgery, the system allows for si­
+multaneous LAA closure from within the left atrium (LA), en­
+hancing efficiency. Prior studies have reported high rates of
+incomplete closure with suture ligation, leading to increased
+thromboembolic risk,5–8 though these were based on direct vi­
+sion approaches. No studies have focused specifically on robotic
+LAA closure. Enhanced visualization with robotics may improve
+closure success through precise suturing. Although some studies
+addressed lumen closure,9,10 few analyse anatomical sites prone
+to reopening.
+This study investigates anatomical sites of LAA reopening us­
+ing ECG-gated CT, based on 78 months of robotic LAA closure
+experience since July 2018. It aims to identify technical principles
+that improve outcomes with the double continuous-suture
+technique.
+
+METHODS
+This retrospective study was approved by the institutional ethics
+committee (TGE02656-025), with informed consent waived. LAA
+closure was performed during mitral valve surgery using the da
+Vinci system in patients with paroxysmal or persistent AF. This
+study did not involve the collection or long-term storage of bio­
+logical materials or data for future unspecified use; therefore,
+the WMA Declaration of Taipei was not applicable. All proce­
+dures were conducted by the same surgeon (Y.N.) and assistant
+(M.K.). Closure outcomes were assessed by ECG-gated car­
+diac CT.
+Potential causes of incomplete closure were examined from
+patient, anatomical, and technical perspectives. We also evalu­
+ated whether these factors contributed to embolic or bleeding
+complications. Follow-up was via outpatient visits or phone
+interviews at 1, 3, 6, 12, 18, and 24 months postoperatively, then
+annually. These methods helped minimize verification bias.
+
+Stroke was defined as a neurological deficit lasting over
+24 hours, confirmed by neurologist and imaging where possible.
+Postoperative stroke required both clinical and CT or MRI con­
+firmation. Major bleeding was defined per ISTH criteria11: fatal
+bleeding, critical organ bleeding (eg, intracranial, pericardial), or
+bleeding causing ≥2.0 g/dl haemoglobin drop or ≥2-unit
+transfusion.
+
+Surgical technique
+Under general anaesthesia and one-lung ventilation in a halfsupine position, a 4-cm incision between the right fourth and
+fifth ribs served as the working port. Femoral arterio-venous
+cannulation established cardiopulmonary bypass as previously
+described.12 Ports were inserted, the pericardium opened and
+retracted. A cardioplegia cannula was inserted into the ascend­
+ing aorta and clamped via the transverse sinus. The robot was
+docked and thoracoscopic procedures performed. Myocardial
+arrest was induced per standard protocol.13 The LA was incised
+using robotic scissors, and the mitral valve exposed with
+a retractor.
+LAA closure used a continuous double polypropylene suture,
+starting ventrally. From the 65th case, felt-reinforced nodal
+sutures were added; from the 83rd case, horizontal mattress
+sutures were combined with over-and-over sutures. Extra nodal
+sutures were placed as needed.
+
+Computed tomography
+Preoperative ECG-gated CT assessed LA and LAA volume, size,
+morphology, and proximity to coronary arteries. Measurements
+were taken using Philips IntelliSpace Portal (slice thickness
+0.8 mm, increment 0.4 mm, and 75% cardiac phase). LAA mor­
+phology was classified as cactus, chicken wing, windsock, or
+cauliflower.14
+Three to 6 months postoperatively, contrast-enhanced CT was
+performed unless contraindicated. Early and delayed phases
+were analysed using ECG synchronization. Incomplete closure
+(iLAA) was identified by delayed-phase contrast in the LAA lu­
+men. Complete closure (cLAA) showed no residual contrast. For
+iLAA, 3D LA images were reconstructed to locate communica­
+tion sites relative to the mitral valve.
+
+Keywords: atrial fibrillation; left atrial appendage; minimally invasive cardiac surgery; stroke; robotic left atrial appendage closure; elec­
+trocardiography-synchronized CT.
+
+Postoperative anticoagulant management
+
+Statistical analysis
+Basic statistics were calculated for baseline demographic and
+clinical parameters. Continuous variables are presented as
+medians with interquartile ranges, expressed as the 25th and
+75th percentiles (p25; p75). Categorical variables are
+expressed as frequencies and percentages (%). Time-to-event
+data, such as stroke incidence, were analysed using KaplanMeier survival curves. To explore factors associated with iLAA,
+univariate logistic regression analysis was performed. Variables
+deemed clinically relevant or demonstrating potential associa­
+tions were subsequently included in a multivariate logistic re­
+gression model to identify independent predictors. A 2-sided
+P-value of <.05 was considered statistically significant. All sta­
+tistical analyses were performed using Excel statistical software
+(Ekuseru-Toukei; Social Survey Research Information Co.,
+Tokyo, Japan).
+
+RESULTS
+Between July 2018 and December 2023, a total of 125 patients
+with paroxysmal or persistent AF associated with mitral valve
+disease underwent LAA closure during mitral valve surgery using
+the da Vinci surgical system. No adverse events, including bleed­
+ing, arrhythmia, myocardial ischaemia, cardiac or noncardiac in­
+jury, stroke, or death, were reported. Notably, no left circumflex
+artery injury occurred during LAA closure.
+Among these patients, 100 were eligible for postoperative
+evaluation using electrocardiogram-synchronized computed
+tomography. The 25 excluded patients included 12 with renal
+dysfunction and 7 with contraindications to contrast media,
+such as asthma or a contrast media allergy. Additionally, 6
+patients were ineligible for CT imaging due to difficulties visit­
+ing the hospital as outpatients, such as living too far away.
+Patient demographic data are summarized in Table 1. The
+median age was 73 years, 55% were female, and the median
+body surface area was 1.51 m2 . Twelve patients had chronic
+renal failure, though none required dialysis. Paroxysmal AF
+was present in 40%, while 60% had long-standing persistent
+AF. The CHADS2 and CHA2DS2-VASc scores were 2 and 4, re­
+spectively. Cardiac function was generally preserved, with an
+median left ventricular ejection fraction of 67.2% and a left
+
+atrial diameter of 47.6 mm. Most patients had moderate to se­
+vere mitral regurgitation, and 51% had moderate to severe tri­
+cuspid regurgitation.
+Postoperative computed tomography angiography in the
+evaluated patients revealed complete LAA closure in 76 (76%)
+cases and incomplete closure in 24 (24%) cases. In incomplete
+closure cases, a small, speech balloon-like opening was observed
+on imaging (Figure 1).
+Surgery-related factors are summarized in Table 2. Among
+patients with incomplete closure, tricuspid valve plasty was per­
+formed in several cases, whereas maze procedures were less
+commonly documented. There were no early deaths, postopera­
+tive haemorrhages requiring reoperation, or in-hospital strokes.
+During follow-up, residual or recurrent AF occurred in 35% of all
+patients. This was observed in 14 patients (58%) within the iLAA
+group. Postoperative medications, including DOAC and VKA,
+were comparable across groups. The follow-up period exceeded
+20 months in both groups.
+
+Postoperative CT evaluations
+The median time from surgery to CT evaluation was 4 months
+(interquartile range, 3-13 months). A CT scan from the cLAA
+group (Figure 2) showed complete LAA closure, with reduced
+volume and a smooth, spherical LA. EP planning images revealed
+a regular LAA lumen and a clean intima (refer to Video 1 for
+procedural details).
+In contrast, CT scans from the iLAA group (Figure 3-1 and
+3-2) revealed blood flow entering the LAA through a small pore,
+with unchanged LAA volume. EP planning images identified
+openings, most commonly at the ceiling side where closure
+begins (50%, Figure 3-1) and at the left inflection point near the
+mitral valve and left superior pulmonary vein (45%, Figure 3-2).
+Videos 2 and 3 provide procedural details. In one iLAA case, the
+LAA was fully reopened by cutting the suture, while in 3 cases,
+the openings were challenging to locate (Table 1, Figure 4).
+Twenty-four iLAA patients underwent additional follow-up
+CT. The second follow-ups, at an mean of 16.8 ± 10 months (18
+patients), and third follow-ups, at 26.6 ± 4.7 months (4 patients),
+showed that only one patient achieved complete LAA closure by
+18 months. In the remaining 23 patients, persistent blood flow
+indicated incomplete closure throughout the follow-up period.
+
+Postoperative late events
+The follow-up period ranged from 3 to 66 months, with a me­
+dian of 24 months (IQR: 15-38 months). Median follow-up was
+31 months in the cLAA group and 21.5 months in the iLAA
+group. This difference is presented descriptively, as the study
+was not powered to assess statistical differences in follow-up
+duration. Anticoagulant therapy (DOAC or VKA) was discon­
+tinued in 52% of patients based on AF status and patient con­
+sultation. In the cLAA group, 30 patients continued DOAC
+therapy, and 5 remained on VKA. Among the 24 iLAA cases, 10
+patients achieved sinus rhythm, and despite incomplete clo­
+sure, the embolic risk was deemed low due to the speech
+bubble-like morphology. After thorough explanation, anticoa­
+gulation was discontinued. The remaining 14 patients had
+persistent AF and were generally indicated for anticoagulation;
+
+For the first 3 postoperative months, all patients received direct
+oral anticoagulants (DOAC) or warfarin (vitamin K antagonist;
+VKA) regardless of rhythm. VKAs were used after valve replace­
+ment, and DOACs after valve repair. If sinus rhythm was con­
+firmed on ECG at 3 months, anticoagulation was discontinued.
+Contrast-enhanced CT was performed between 3 and 6 months
+to assess left atrial flow; however, the presence or absence of re­
+sidual LAA flow was not a determining factor for continuing
+anticoagulation. Thereafter, therapy was individualized, except in
+patients with cardiac dysfunction or valve replacement, where it
+was routinely continued. In patients with high bleeding risk (eg,
+prior GI bleeding), anticoagulation was discontinued even with
+persistent AF.
+
+CARDIAC ARRHYTHMIA
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Table 1. Baseline Patient Characteristics Stratified by LAA Closure Outcome
+Variables
+
+cLAA (n = 76)
+
+iLAA (n = 24)
+
+73 (66.5-78.5)
+55 (55%)
+1.51 (1.37-1.65)
+55 (55%)
+19 (19%)
+8 (8%)
+12 (12%)
+0 (0%)
+42 (42%)
+2 (2%)
+24 (24%)
+60 (60%)
+40 (40%)
+12 (12%)
+2 (1-3)
+61 (61%)
+4 (2-5)
+69 (69%)
+67.2 (61.3-73.4)
+47.6 (42.3-59.6)
+98 (98%)
+
+71(65-78)
+44 (58%)
+1.53 (1.37-1.7)
+39 (51%)
+13 (17%)
+9 (12%)
+10 (13%)
+0 (0%)
+30 (39%)
+2 (2.6%)
+20 (26%)
+44 (58%)
+32 (42%)
+4 (5.3%)
+2 (1-3)
+44 (58%)
+3 (2-5)
+51 (67%)
+67.8 (62-73.1)
+47.4 (41.9-57.7)
+75 (98.7%)
+
+75 (71-79)
+11 (46%)
+1.59 (1.45-1.67)
+16 (67%)
+6 (25%)
+0 (0%)
+2 (8.3%)
+0 (0%)
+12 (50%)
+0 (0%)
+4 (17%)
+16 (67%)
+8 (33%)
+8 (33%)
+2 (1-3)
+17 (71%)
+4 (2.25-5)
+18 (75%)
+66 (59.6-74.5)
+50.6 (43-66.7)
+23 (95.8%)
+
+51 (51%)
+
+39 (51.3%)
+
+12 (50%)
+
+16 (16%)
+52 (52%)
+8 (8%)
+24 (24%)
+
+11 (15%)
+41 (54%)
+7 (9%)
+17 (22%)
+
+5 (21%)
+11 (46%)
+1 (4%)
+7 (29%)
+
+44.1 (37.7-49.1)
+28.6 (22.8-33.2)
+15.1 (10-20.7)
+82 (82%)
+17 (17%)
+
+44.4 (38.1-49.2)
+28.4 (22.9-32)
+15 (10.3-20.2)
+60 (69%)
+15 (19%)
+
+43 (33.5-47.8)
+32.3 (21.2-34.7)
+17.5 (8.7-25)
+22 (92%)
+2 (8.3%)
+1 (4%)
+3 (12%)
+20 (84%)
+10 (50%)
+9 (45%)
+1 (5%)
+
+CHADS2 and CHA2DS2-VASc scores were defined according to standard criteria. Values are presented as n (%) for categorical variables and as median (25th-75th
+percentile) for continuous variables. AF, atrial fibrillation; LAA, left atrial appendage; cLAA, complete closure; iLAA, incomplete closure; SSE, stroke/systemic
+embolization.
+
+12 continued therapy, while 2 discontinued due to patientspecific factors, such as prior gastrointestinal bleeding, follow­
+ing careful evaluation.
+Two deaths from pneumonia occurred at 4 and 38 months,
+with no cardiac, embolism, or bleeding-related deaths. Two
+patients experienced cerebral infarction: one atherosclerotic
+stroke in the cLAA group at 5 months (postoperative AF, DOAC
+continued) and a lacunar infarction in the iLAA group at 19
+months (postoperative sinus rhythm, DOAC continued). One
+haemorrhagic complication, a spinal subdural haematoma, oc­
+curred at 29 months in the cLAA group (postoperative sinus
+rhythm, DOAC continued but later discontinued). Kaplan-Meier
+curves for stroke and bleeding complications are shown
+in Figure 5.
+
+DISCUSSION
+The LAAOS III trial4 demonstrated that LAA closure performed
+during cardiac surgery effectively prevents stroke; however, it
+did not explicitly discuss the closure methods or the quality of
+closure. Notably, the trial reported that double-layer linear clo­
+sure from the endocardial side was utilized in 13.8% of patients,
+highlighting the importance of reliable intraoperative assessment
+through transoesophageal echocardiography (TEE). However,
+electrocardiogram-gated cardiac CT was not employed in that
+study to evaluate closure integrity. Our study is the first to sys­
+tematically assess the indications and limitations of LAA closure
+using the da Vinci surgical system, and specifically to employ
+electrocardiogram-gated cardiac CT imaging for postoperative
+evaluation of closure effectiveness.
+
+Age, years
+Female
+Body surface area, m2
+Hypertension
+Diabetes mellitus
+Chronic obstructive pulmonary disease
+Chronic kidney disease
+Dialysis
+Congestive heart failure
+Cardiovascular implantable electronic device
+SSE (ischaemic stroke/systemic embolization)
+Long persistent AF
+Paroxysmal AF
+Low voltage f-wave (<0.2 mV)
+CHADS2 score
+≥2
+CHA2DS2-VASc score
+≥3
+Left ventricular ejection fraction, %
+Left atrial diameter, mm
+Mitral valve regurgitation
+(moderate-severe or severe)
+Tricuspid valve regurgitation
+(≥moderate)
+LAA morphology
+Cactus
+Chicken wing
+Windsock
+Cauliflower
+LAA dimension
+Width, mm
+Inlet length, mm
+Volume, cc
+LAA closed technique
+Over and over ×2
+Over and over þ Mattress
+Reopening pattern
+Complete opening
+Indeterminate
+Speech bubble
+Speech bubble type traffic area
+Beginning point of closure
+Inflection point of closure
+Terminal point of closure
+
+All patients (n = 100)
+
+Table 2. Procedural Characteristics and Outcomes
+Variables
+
+iLAA
+(n = 24)
+
+71 (93%)
+5 (6.6%)
+26 (34%)
+43 (57%)
+3 (4%)
+28 (39%)
+42 (59%)
+28 (28-30)
+
+19 (79%)
+5 (21%)
+18 (75%)
+7 (29%)
+1 (4%)
+8 (42%)
+8 (42%)
+28 (28-30)
+
+21 (28%)
+
+14 (58%)
+
+42 (55%)
+33 (43%)
+3 (4%)
+10 (13%)
+49 (64%)
+12 (16%)
+17 (22%)
+70 (92%)
+31 (13-46)
+
+16 (67%)
+8 (33%)
+0 (0%)
+4 (17%)
+9 (38%)
+4 (17%)
+9 (38%)
+23 (96%)
+21.5 (12-32)
+
+Values are presented as n (%) for categorical variables and as median
+(25th-75th percentile) for continuous variables. Values are presented de­
+scriptively without statistical comparison between groups. DOAC, direct
+oral anticoagulant; VKA, vitamin K antagonist.
+
+Figure 1. Incomplete LAA Closure with Characteristic “Speech Bubble” Appearance.
+Circled region indicates residual communication between the LA and LAA
+
+Aryana et al15 analysed 72 patients who underwent simulta­
+neous mitral valve and maze surgery with suture closure of the
+LAA from the cardiac lumen, using CT for evaluation. They
+found cLAA in 64% and iLAA in 24%, similar to this study. SSE
+risk correlated with the degree of LAA closure. At 44 ± 19
+months post-surgery, recurrent AF rates were similar, but SSE
+occurred in 2% of cLAA and 24% of iLAA patients. Notably, all
+patients with SSE had recurrent AF and were not on DOAC. The
+annualized SSE risk was 1.9% overall, 6.5% for iLAA patients, and
+14.4% for iLAA patients not on DOAC. Univariable and multivar­
+iable analyses identified iLAA as the sole independent SSE pre­
+dictor, highlighting the need for high-quality LAA closure.
+Branzoli et al16 studied patients undergoing LAA closure before
+robotic mitral valve repair, similar to this study. Using a 2-layer
+running 4-0 polytetrafluoroethylene suture, they evaluated
+results with transoesophageal echocardiography, achieving suc­
+cessful ligation in 87.7% of cases. Of these, 9.6% had small jet
+flow into the LAA but no residual stumps, while 2.7% had unde­
+termined flow. In our cohort, intraoperative TEE revealed unde­
+termined LAA flow in some patients, but postoperative TEE was
+not performed. In some cases, contrast-enhanced CT detected
+blood flow even when TEE did not, warranting further
+investigation.
+
+There are 2 primary approaches to LAA closure: the medial
+approach, as used in the present cases, and the lateral approach.
+Traditional external methods involved excisional suture closure
+and stapling,8 but recent outcomes with epicardial clips have
+been favourable. Younju et al17 analysed 108 AF patients who
+underwent epicardial LAA clipping with or without simultaneous
+cardiac surgery using a minimally invasive approach. They
+reported a procedural success rate of 92.2%, with postoperative
+CT confirming complete LAA elimination without residual
+stumps or device-related complications such as bleeding, migra­
+tion, or reoperation. The lateral approach is generally considered
+more reliable for securely closing the LAA from its base. Antaki
+et al18 also reported success with a lateral approach using the
+DaVinci system, achieving effective closure with a clip. However,
+this approach is technically demanding and adds complexity
+when combined with right-sided mitral valve surgery, requiring
+additional ports. Its ability to consistently identify the LAA’s ori­
+gin compared to a left-sided approach remains unclear. Kuzmin
+et al19 highlighted a risk with clip placement: if the clip is too
+close to the LAA base, it may obstruct or damage the LCx.
+Preoperative CT is crucial to assess the spatial relationship be­
+tween the LAA and LCx. Despite their advantages, the high cost
+of clips remains a significant concern.
+Increased thromboembolic risk associated with incomplete
+LAA closure after surgical ligation has been reported,5 but defini­
+tions vary across studies. These include “residual anatomic struc­
+ture between the mitral valve base and the left superior
+pulmonary vein,”5,6 “residual stump of 1.0 cm or more,” and
+“persistent flow in the LAA after surgical exclusion.”7 In line with
+Healey et al, we define incomplete LAA closure as persistent
+flow into the LAA. Anatomical factors significantly contribute to
+
+Operative
+Mitral valve repair
+Mitral valve replacement
+Tricuspid valve annuloplasty
+Maze surgery
+Left atrial plication
+Mitral valve, rigid, or semi-rigid ring
+Mitral valve ring, flexible
+Ring or prosthetic valve size (mm)
+Postoperative
+Long-term postoperative AF
+Postoperative pharmacologic therapy
+DOAC
+VKA
+Antiplatelet drug
+Antiarrhythmic drug
+Beta blocker
+Statin
+ACE-I/ARB
+Diuretic drug
+Follow-up, months
+
+cLAA
+(n = 76)
+
+CARDIAC ARRHYTHMIA
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Video 1. Da Vinci-assisted LAA closure procedure demonstrating complete
+closure (Case 44)
+
+incomplete LAA closure. The LAA’s unique embryonic origin and
+trabeculated walls, resembling ventricles due to pectinate
+muscles,20,21 contrast with the smooth-walled atrium. Its com­
+plex anatomy, located in the left atrioventricular sulcus near the
+left circumflex coronary artery and great cardiac vein,22,23
+impacts closure success. An inflection point along the LAA clo­
+sure line often becomes prone to recanalization, especially un­
+der resumed blood flow after cardiac arrest. Increased left atrial
+blood volume also raises the likelihood of reopening. Closing
+only the LAA entrance may fail due to its stretched anatomy. In
+our study, incomplete closures showed “speech bubble” forma­
+tions, likely due to this mechanism. Furthermore, the risk of in­
+complete closure tended to be higher in patients with AF who
+exhibited low-voltage f-waves, cases in which completion of the
+maze procedure was not feasible, and cases requiring concomi­
+tant tricuspid valve surgery. Rather than being attributable to
+surgical technique, these findings likely reflect advanced myo­
+cardial remodelling in AF, which leads to anatomical changes
+that predispose the LAA to form residual spaces or pouches after
+closure. This interpretation is supported by our multivariate
+analysis (Table S1), which identified tricuspid valve annuloplasty
+and low-voltage f-waves in lead V1 as independent predictors of
+incomplete LAA closure. These variables likely serve as surrogate
+
+markers of atrial remodelling, rather than direct mechanical con­
+tributors to closure failure. To address these anatomical chal­
+lenges, we are exploring a technique that involves collapsing
+and sealing the LAA lumen rather than simply suturing its en­
+trance. This approach is particularly crucial for achieving com­
+plete closure in high-risk patients. We have applied this lumen
+collapse technique in 10 cases, successfully closing the LAA with­
+out creating pouch-like formations. However, this method car­
+ries an increased risk of bleeding, necessitating caution,
+especially in cases with strong adhesions.
+It goes without saying that the primary goal of closing the LAA
+is to prevent cardiogenic stroke. However, another major pur­
+pose may be to discontinue anticoagulant medication to address
+the risk of bleeding complications. While there is no clear evi­
+dence that closing the LAA leads to discontinuation of anticoag­
+ulant therapy, it has been reported that more than 90% of
+thrombogenic sites in AF cases occur in the LAA,24 and thus, it
+may help to stop anticoagulation in those with a bleeding risk. A
+report by Antaki et al18 noted that nearly all patients discontin­
+ued DOAC after LAA closure with use of a clip, except for one
+with a CHA2DS2-VASc score of 9. Additionally, post-clip bleed­
+ing was noted in only 2 of 108 gastrointestinal haemorrhage
+patients, while no transient ischaemic attack or stroke occur­
+rence was noted in the 25 patients who completed the 12month follow-up examination. That report noted that lack of
+significant haemorrhage or stroke after LAA closure with use of a
+clip lends credibility to the concept of epicardial clip exclusion
+for the LAA. As for the present cases, anticoagulants could be
+discontinued in 52 patients and the only bleeding complication
+noted was a spinal subdural Haemorrhage in one in whom
+DOAC was continued. There are no clear criteria for discontinu­
+ing anticoagulant administration. Should the decision be based
+on maintenance of sinus rhythm, complete closure of the LAA,
+or both? Further accumulation of evidence will be needed to ad­
+dress these issues.
+
+Study limitations
+This retrospective, single-centre study has several limitations, in­
+cluding selection bias and lack of a control group. CT imaging
+was not performed in patients with renal dysfunction or contrast
+allergy, which may limit generalizability. Image quality may have
+been affected by suboptimal heart rate control. Additionally,
+outcomes reflect procedures by a single surgical team,
+
+Figure 2. (A) Preoperative ECG-gated CT showing LAA presence. (B and C) Postoperative 2D and EP planning CTs from case 44 show successful closure with no flow
+and smooth LAA surface. LUPV, left upper pulmonary vein; LLPV, left lower pulmonary vein
+
+CARDIAC ARRHYTHMIA
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Video 2. Da Vinci-assisted LAA closure showing incomplete closure at the su­
+ture start (Case 52)
+
+potentially limiting reproducibility. Despite these limitations, the
+findings offer useful insights and may inform future research.
+
+CONCLUSIONS
+This study highlights the limitations of current methods for clos­
+ing the LAA from the inside. Even with direct visual closure using
+
+Video 3. Da Vinci-assisted LAA closure showing incomplete closure at the su­
+ture inflection point (Case 85)
+
+the Da Vinci system, residual flow was observed on the ventral
+side, where closure begins, and at the inflection point of the clo­
+sure line, suggesting room for improvement with future
+advancements. In patients with long-term AF, those not under­
+going maze surgery, or those with tricuspid disease, the risk of
+residual blood flow in the LAA is high. For these high-risk
+patients, alternative techniques, such as collapsing the
+
+Figure 3. (A) Preoperative ECG-gated CT. (B and C) Postoperative 2D and EP CTs. (3-1) Case 52: failed closure, communication at suture start. (3-2) Case 85: failed clo­
+sure, communication at suture inflection. Arrows indicate leakage sites. LUPV, left upper pulmonary vein; LLPV, left lower pulmonary vein
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+appendage lumen for complete occlusion or using external clips,
+may be crucial to ensure full closure.
+
+AUTHOR CONTRIBUTIONS
+
+SUPPLEMENTARY MATERIAL
+Supplementary material is available at ICVTS online.
+
+FUNDING
+Not applicable.
+
+CONFLICTS OF INTEREST
+None declared.
+
+DATA AVAILABILITY
+Figure 4. LAA Orifice Location Patterns. (A) Case with no identifiable orifice.
+(B) Summary: ‹ Suture start; › Inflection point; and fi Terminal end
+
+Figure 5. Freedom from Stroke and Bleeding Events
+
+The data underlying this article will be shared on reasonable re­
+quest to the corresponding author.
+
+Taisuke Nakayama: Data curation; Formal analysis; Investigation;
+Writing—original draft. Yoshitsugu Nakamura: Conceptualization;
+Investigation; Supervision. Atsushi Shukuya: Formal analysis.
+Shinya Hashimoto: Formal analysis. Yuka Higuma: Data curation.
+Kusumi Niitsuma: Formal analysis. Masaki Ushijima: Formal
+analysis. Yuto Yasumoto: Investigation. Miho Kuroda:
+Investigation. Kosuke Nakamae: Investigation. Akihiro Higashino:
+Data curation. Yujiro Hayashi: Data curation. Ryo Tsuruta: Data
+curation. Yujiro Ito: Formal analysis.

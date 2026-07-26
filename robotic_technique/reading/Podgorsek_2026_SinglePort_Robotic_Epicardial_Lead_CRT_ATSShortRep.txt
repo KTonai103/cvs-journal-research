@@ -1,0 +1,179 @@
+2772-9931
+
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+Coronary: Case Report
+
+Single-Port RoboticAssisted Epicardial
+Lead Placement for
+Cardiac
+Resynchronization
+Therapy
+Blaz Podgorsek, MD,1
+Philippe Tremblay, MD, MS,2 and
+Danny Ramzy, MD, PhD1
+
+We present a case demonstrating the novel
+use of the da Vinci SP (single-port) robotic
+platform (Intuitive Surgical) in cardiac surgery.
+A 69-year-old man with ischemic cardiomyopathy and failed endovascular cardiac
+resynchronization therapy defibrillator lead
+placement underwent successful robotically
+assisted left ventricular epicardial lead implantation through a 4-cm minithoracotomy.
+The da Vinci SP system enhanced visualization
+and dexterity, thus allowing for precise lead
+placement with minimal invasiveness. The
+patient recovered uneventfully and remained
+stable at follow-up. This case highlights the
+feasibility and potential advantages of singleport robotic-assisted cardiac procedures in
+select patients.
+(Ann Thorac Surg Short Reports 2026;4:69-71)
+of The Society of Thoracic Surgeons. This is an open
+access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+R
+
+obotic-assisted cardiac surgery has seen
+significant growth and technical improvements since its advent in the 1980s and is
+transforming the field of cardiothoracic surgery.
+It provides several advantages, including
+improved 3-dimensional visualization, great dexterity with articulated instruments, tremor reduc-
+
+tion, and the ability to scale down hand
+movements, features that make it ideal for complex procedures. A nationwide study of roboticassisted cardiac cases demonstrated a shorter
+length of stay, lower mortality, and fewer complications for all operation types compared with
+nonrobotic surgery.1
+The da Vinci SP (single-port) system is the
+newest iteration of the commonly used surgical
+platform by Intuitive Surgical. It uses an articulating 3-dimensional endoscope and 3 wristed
+instruments through a single port. It has already
+been established in certain surgical fields such as
+urology, but its applicability in cardiac surgery
+has yet to be reported. The study participant
+provided informed consent before study
+enrollment.
+We report the case of a 69-year-old man with a
+history of remote coronary artery bypass grafting
+and symptomatic ischemic cardiomyopathy with
+interventricular delay who presented for consideration of cardiac resynchronization therapy
+(CRT). An initial attempt at endovascular placement was unsuccessful for anatomic reasons.
+Therefore, a surgical referral was made for
+epicardial lead placement. Given his previous
+coronary revascularization, older age, and relative frailty, a less invasive approach was advised.
+Left ventricular epicardial lead placement
+through a robotically assisted approach was recommended. We opted to use a single-port
+approach. The decision rationale was to minimize the risk of previous adhesion lysis and a
+patent left internal mammary artery. Given that a
+small minithoracotomy was going to be performed, we opted to use the new da Vinci SP
+platform.
+With the patient’s left lung deflated, a 4-cm left
+anterior thoracotomy was made in the fourth
+intercostal space, and the left pleura was entered.
+Adhesions were taken down, and a small Alexis
+soft tissue retractor (Applied Medical) was inserted, followed by further lysis of adhesions. The da
+Vinci SP robot was then brought into the surgical
+field and docked. With the assistance of the robot,
+the pericardium was entered. Two pericardial
+
+Department of Cardiothoracic and Vascular Surgery, University of Texas McGovern Medical School, Houston, Texas; and 2Division of Cardiothoracic
+Surgery, Corewell Health, Grand Rapids, Michigan
+Address correspondence to Dr Ramzy, Department of Cardiothoracic and Vascular Surgery, University of Texas McGovern Medical School, 6400
+Fannin St, Suite 2805, A3105, Houston, TX 77030; email: danny.ramzy@uth.tmc.edu.
+
+CASE REPORT
+
+PODGORSEK ET AL
+
+Ann Thorac Surg Short Reports
+
+SINGLE-PORT ROBOTIC EPICARDIAL LEAD
+
+2026;4:69-71
+
+COMMENT
+
+FIGURE Robotic-assisted single-port cardiac resynchronization therapy
+electrode placement.
+
+traction sutures were placed and tunneled
+through the superior and inferior intercostal
+spaces. We then proceeded with placement of
+epicardial Medtronic CapSure Epi MP bipolar
+steroid-eluting leads onto the basal anterior
+surface of the left ventricle (Figure). These
+leads were secured with 4-0 Cardionyl suture
+(Peters Surgical) by using 2 needle drivers
+(Video).
+We then reopened the CRT defibrillator
+generator pocket and removed the generator,
+with care taken not to damage the leads. The
+newly implanted epicardial lead was tunneled
+into this pocket and connected to the generator
+(Dynagen CRT-D, Boston Scientific). This maneuver was performed by entering the chest
+from the pocket incision and grasping the leads
+from within the chest cavity. The device was
+then interrogated and found to be functioning
+appropriately.
+The patient’s postoperative course was uneventful. He was extubated at the completion of
+the procedure and remained hemodynamically
+stable throughout his recovery. He was discharged home on postoperative day 3, after he
+had been medically optimized from a heart failure and hemodialysis perspective. He was seen
+in follow-up clinic 2 weeks after the epicardial
+lead insertion and continued to do well, with
+good wound healing and minimal incisional
+pain.
+
+Use of CRT to improve outcomes in patients with
+heart failure and interventricular delay is well
+established. In cases where endovascular implantation is not possible because of anatomic
+restrictions, an open surgical approach is
+possible, and it was demonstrated to make no
+difference in echocardiographic or clinical outcomes.2 With the potential benefit of less
+postoperative pain, better wound healing,
+improved cosmesis, shorter length of stay, and a
+decreased conversion rate when compared with
+thoracoscopic surgery, as well as increased
+dexterity and visualization, robotic-assisted surgery is a favorable surgical approach.3 Although
+thoracoscopic surgery is associated with a
+shorter learning curve and lower equipment
+costs, we opted to use the robotic platform
+given the limited need for lysis of adhesions and
+the platform’s single-port capability and
+concomitant dexterity.4 By leveraging existing
+resources and expertise, we were able to
+effectively address any potential concerns
+related to prolonged operative times and higher
+costs usually associated with robotic-assisted
+surgery.5
+Recent advancements in single-port roboticassisted technology demonstrate a new frontier
+in the surgical fields, with proven safety and efficacy. Therefore, we believe that cardiac surgery
+should participate in the development of this
+technology. This case highlights the potential of
+the da Vinci SP robotic platform in cardiac surgery, thereby suggesting a promising avenue for
+minimally invasive approaches in select patients
+and laying the groundwork for future applications
+and studies in more complex cases.
+The Video can be viewed in the online version of this article [https://doi.
+org/10.1016/j.atssr.2025.09.039] on https://www.annalsthoracicsurgery
+shortrep.org.
+
+FUNDING SOURCES
+The authors have no funding sources to disclose.
+
+DISCLOSURES
+Danny Ramzy reports a relationship with Abbott that includes speaking
+and lecture fees and with Medtronic Inc that includes speaking and
+lecture fees. The other authors have no conflicts of interest to disclose.
+
+PATIENT CONSENT
+Obtained.
+
+Ann Thorac Surg Short Reports
+2026;4:69-71
+
+CASE REPORT
+
+PODGORSEK ET AL
+
+SINGLE-PORT ROBOTIC EPICARDIAL LEAD

@@ -1,0 +1,824 @@
+Adult: Coronary
+
+He et al
+
+Osteophyte of the ﬁrst costochondral joint is a reliable
+landmark to facilitate standardized robotic left internal
+mammary artery harvesting
+Peiling He, MM, Yan Yang, MM, Yi Song, MM, Ye Yuan, MM, Wenjun Wu, MM, Chang Liu, MM, and
+Yijie Hu, MD
+ABSTRACT
+Objective: Robotic left internal mammary artery (LIMA) harvesting can present
+various challenges for novice surgeons. This study aimed to investigate whether
+the osteophyte of the ﬁrst costochondral joint (OFCCJ) could serve as an anatomical landmark for robotic LIMA harvesting and to explore the optimal standardized
+process.
+Methods: The concept of “LIMA isthmus” was described on the basis of relatively
+ﬁxed anatomical relationship between LIMA and OFCCJ, and the height of OFCCJ
+and its distance to LIMA were deﬁned. The presence and features of OFCCJ were
+analyzed in 514 hospitalized patients with or without coronary artery diseases (CAD
+or non-CAD). The value of “LIMA isthmus”-based robotic harvesting strategy was
+further assessed for beginners during the learning curve phase.
+Results: The OFCCJs were found to be very common in the adult population. The
+prevalence of OFCCJ in patients with CAD was signiﬁcantly greater than in patients
+without CAD (73.16% vs 60.33%, P< .01). However, there were no signiﬁcant difference between the CAD and the non-CAD group in the height of the OFCCJ or the
+distance between the OFCCJ and the LIMA (15.54  4.99 mm vs 16.55  4.70 mm,
+P ¼ .06; 12.66  4.19 mm vs 12.45  6.87 mm, P ¼ .72). During the learning curve
+phase, the time to identify LIMA and the time for LIMA harvesting using “LIMA
+isthmus”-based strategy were signiﬁcantly shorter than those with conventional
+approach (89.00  31.07 seconds vs 1087  436.1 seconds, P ¼ .035;
+86.80  4.74 minutes vs 110.5  11.72 minutes, P ¼ .013). The inadvertent bleeding
+events with “LIMA isthmus”-based graft harvesting were much fewer (1.00  0.19
+vs 3.44  0.34, P<.001), although there was no difference between 2 beginners in
+postoperative chest drainage, LIMA injury events, or conversion to a median
+sternotomy incision.
+Conclusions: OFCCJ could serve as a reliable anatomical landmark to guide robotic
+LIMA harvesting. “LIMA isthmus”-based standardized robotic LIMA harvesting
+could signiﬁcantly reduce the time to determine LIMA and the time for graft harvesting process, and minimize the risk of inadvertent bleeding events. This could
+be particularly beneﬁcial for novice surgeons during the initial learning curve phase
+of this procedure. (JTCVS Techniques 2025;29:56-64)
+
+The OFCCJ could serve as an anatomical landmark
+for locating LIMA.
+
+CENTRAL MESSAGE
+
+The OFCCJ could serve as an
+anatomical landmark to guide
+robotic LIMA harvesting. “LIMA
+isthmus”-based standardized
+robotic LIMA harvesting could
+reduce the learning curve for
+robotic LIMA harvesting.
+PERSPECTIVE
+The OFCCJ may be able to be used as a reliable
+anatomical landmark to guide robotic LIMA harvesting. We analyzed the learning curves of 2
+novice surgeons and found that the time to identify LIMA and the time for LIMA harvesting using
+an “LIMA isthmus”-based strategy was signiﬁcantly shorter than those with conventional
+approach.
+
+Minimally invasive coronary artery bypass grafting (MICS
+CABG), particularly robot-assisted MICS CABG, has regained significant attention in the community of cardiac
+
+surgery. As a complex procedure, robot-assisted MICS
+CABG likely require a stepwise approach to mastering specific components.1 Among them, robotic left internal
+
+From the Department of Cardiovascular Surgery, Daping Hospital, Army Medical
+University, Chongqing, China.
+The study was supported by in part by grants from Joint Program of Chongqing
+Health Commission and Science and Technology Bureau (2024MSXMO92).
+Drs Peiling He and Yan Yang contributed equally to this article.
+Received for publication July 31, 2024; revisions received Oct 15, 2024; accepted for
+publication Nov 9, 2024; available ahead of print Nov 17, 2024.
+
+Address for reprints: Yijie Hu, MD, Department of Cardiovascular Surgery, Daping
+Hospital, Army Medical University, No. 10 Changjiang Branch Rd, Yuzhong
+District, 400042 Chongqing, China (E-mail: yijie.hu@tmmu.edu.cn).
+2666-2507
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+JTCVS Techniques c February 2025
+
+He et al
+
+Abbreviations and Acronyms
+CAD
+¼ coronary artery disease
+CT
+¼ computed tomography
+LIMA
+¼ left internal mammary artery
+MICS CABG ¼ minimally invasive coronary artery
+bypass grafting
+OFCCJ
+¼ osteophyte of the first
+costochondral joint
+mammary artery (LIMA) harvesting is the initial but crucial
+step, which offers several advantages over traditional harvesting techniques. It enables precise dissection of the
+LIMA with minimal trauma to surrounding tissues,
+reducing the risk of complications such as infection and
+wound healing issues, while achieving comparable outcomes with traditional procedures. The use of a robotic system also enhances visualization and dexterity, resulting in
+more accurate and efficient harvesting of the LIMA.
+In addition, robotic LIMA harvesting has been shown
+to decrease postoperative pain and shorten recovery
+times for patients undergoing CABG.2-4 This advanced
+technique is revolutionizing the field of coronary
+revascularization.
+However, the process of robotic LIMA harvesting may
+present several challenges. Novice surgeons often
+encounter a steep learning curve in identifying the LIMA,
+primarily because of limited experience with robotic interfaces and the necessity of adapting traditional surgical skills
+to robotic systems. This challenge is exacerbated when the
+LIMA is completely obscured by mediastinal fat tissue.
+Extensive mobilization of mediastinal soft tissues increases
+the risk of accidental LIMA damage, which can lead to
+abandoning the conduit and potential early graft failure.
+In addition, there is a risk of inadvertently injuring the
+phrenic nerve. Therefore, establishing a reliable anatomical
+landmark for locating the LIMA and standardizing the harvesting process can help beginners overcome the learning
+curve more efficiently.
+In our previous practice of robotic MICS CABG, we
+observed that osteophyte of the first costochondral joint
+(OFCCJ) was prominent within the field of robotic vision,
+and LIMA was nearby. Consequently, we investigated
+whether OFCCJ could serve as an anatomical landmark
+for robotic LIMA harvesting and explored the optimal standardized process for this procure. To the best of our knowledge, this is the first study to propose the OFCCJ as an
+anatomical landmark for robotic LIMA harvesting.
+METHODS
+Concept of “LIMA Isthmus”
+The LIMA is typically located beneath the chest wall fascia, with its
+outline and pulsation vaguely visible in the upper third of its course.
+
+Adult: Coronary
+
+Surrounding anatomical structures, such as the pericardium, left pulmonary
+hilum, left phrenic nerve, and left subclavian artery, can be observed along
+its course. However, in a considerable number of patients, the presence of
+mediastinal fat or overdeveloped transversus thoracis muscle within the
+chest wall can completely obscure the LIMA and its surrounding structures, which makes the localization of the LIMA relatively challenging
+and potentially results in inadvertent damage to the LIMA during
+harvesting.
+In our previous practice of robotic LIMA harvesting, we noted that
+prominent bony protrusions often appear at the first costochondral joint,
+also called OFCCJ, regardless of the amount of mediastinal fat, and that
+the LIMA is always situated within the isthmus between this bony protrusion and the aortic arch, with the phrenic nerve crossing over the LIMA
+(Figure 1). This relatively fixed anatomical relationship seems to provide
+a stable reference point for locating LIMA. On the basis of this observation,
+we defined the confined regional structures as the “LIMA isthmus,” which
+is the narrow connection between the OFCCJ and the aortic arch, through
+which LIMA cross. This concept may facilitate locating LIMA quickly and
+protect LIMA and phrenic nerve from inadvertent injury.
+
+Patients
+The study population comprised 514 hospitalized patients who underwent contrast-enhanced computed tomography (CT) of the chest at the Cardiovascular Disease Center of Daping Hospital between July 2016 and June
+2024. Of these, 272 patients were diagnosed with coronary artery disease
+(CAD), and 242 individuals did not have CAD, both confirmed by coronary
+artery angiography or computed tomography screening. In addition, relevant clinical data, such as age, gender, height, weight, body mass index,
+and the presence of bone metabolism-affecting diseases (eg, diabetes mellitus, thyroid and parathyroid disorders, autoimmune diseases, renal insufficiency, and tumors), as well as the use of specific medications (eg,
+glucocorticoids), were collected for all participants.
+
+Evaluation and Characterization of OFCCJ
+Two independent researchers were tasked with analyzing and documenting the presence and features of OFCCJ: (1) determine the presence
+of OFCCJ; (2) measure the maximum height of the OFCCJ; and (3) identify
+the closest distance from the OFCCJ to the LIMA. The detailed methodology for this analysis is outlined as follows (Figure 2). The first step involved
+assessing the presence of OFCCJ on CT scans of the chest. Typically, on the
+transverse section of the CT scan of the chest at the anterior end of the first
+rib, there is a nonsmooth pleural line extending from posterior to anterior,
+with visible bony protrusions. The second step focused on identifying the
+optimal section for measuring the OFCCJ on CT scans of the chest. By
+locating the first costochondral joint (where the sternum, left clavicular
+head, and the anterior end of the first rib are simultaneously visible), multiple sections were examined to identify the section with the most prominent bone spur for subsequent determination and measurement. The third
+step was measuring the height of the bone spur. A line was drawn along
+the arcuate chest wall at the attachment point of the bone spur; the distance
+from this line to the highest point of the bone spur defined the height of the
+OFCCJ. In the fourth step, the distance between the OFCCJ and LIMA was
+measured, specifically the closest distance between the top of the bone spur
+identified in the third step and the LIMA.
+
+Application of “LIMA Isthmus”-Based Harvesting
+Technique During The Learning Curve Phase
+Traditionally, LIMA harvesting was typically initiated from the relatively superficial middle portion of the LIMA and gradually extended toward both ends, regardless of whether the procedure was performed
+through median sternotomy or with robot-assistance. By identifying the
+relatively fixed anatomy of the LIMA isthmus, we attempted to explore robotic LIMA harvesting on the basis of this concept and standardize the
+
+JTCVS Techniques c Volume 29, Number C
+
+Adult: Coronary
+
+He et al
+
+FIGURE 1. The concept of LIMA isthmus. A, The LIMA was faintly visible under the robot’s lens. B, The LIMA was obscured by thick fat, but the OFCCJ
+(arrow) and aortic arch (arrowhead) were clearly visible. C, After the dissection, the LIMA was revealed to be situated within the isthmus connecting the
+OFCCJ (arrow) and aortic arch (arrowhead), with the phrenic nerve crossing above. D, Illustration of the concept of the LIMA isthmus. LIMA, Left internal
+mammary artery; LSCA, left subclavian artery; OFCCJ, osteophyte of the first costochondral joint.
+
+process. This approach involved initially exposing the proximal segment of
+the LIMA directly in the isthmus area and then extending the dissection toward the distal end, enabling clear identification of the LIMA course and
+anatomical dissection.
+We presumed that this “LIMA isthmus”-based strategy could result in
+more efficient and accurate LIMA harvesting, especially for novice surgeon during the learning curve phase. To evaluate the impact of the technique, a further assessment was conducted comparing the outcomes of
+the first 10 cases of robotic LIMA harvesting performed by 2 novice surgeons, one using the traditional method (surgeon A) and the other using
+the “LIMA isthmus”-based method (surgeon B). The study examined the
+time required to identify the LIMA, the time required to harvest the
+LIMA, the occurrences of inadvertent bleeding, LIMA damage events,
+phrenic nerve injury, conversion to median sternotomy, and postoperative
+drainage. Postoperative coronary CT angiography was also performed to
+evaluate graft patency. “Time to identify the LIMA” refers to the duration
+from the robot instrument contacting the pleural wall to the exposure of the
+LIMA. “Time to harvest the LIMA” refers to the duration from the robot
+instrument contacting the pleural wall to the completion of LIMA harvesting. “Occurrences of inadvertent bleeding” refers to bleeding resulted from
+the damage to the LIMA, its branches, or the accompanying veins during
+the harvesting process, with each instance being individually counted.
+
+Statistics Analysis
+The analysis and calculations were conducted using the SPSS 22.0 statistical software package (IBM Corp). Continuous variables are presented
+as mean  standard deviation, whereas categorical variables are expressed
+as absolute frequencies and percentages. The Mann-Whitney U test was
+
+JTCVS Techniques c February 2025
+
+used to compare continuous variables, and the c2 test was employed for categorical variables. The study protocol and publication of data was reviewed
+and approved by the Ethics Committee of Daping Hospital of Army Medical University (#2024-228; July 30, 2024).
+
+RESULTS
+The Prevalence of OFCCJ in Patients With/Without
+CAD
+The study cohort consisted of 514 patients, with a mean
+age of 64.97  12.13 years (Table 1). Compared with the
+non-CAD group, the CAD group exhibited distinct baseline
+characteristics, including older age, a greater proportion of
+male patients, greater body mass index, history of smoking
+and alcohol consumption, lower left ventricular systolic
+function, as well as a greater prevalence of comorbidities,
+such as hypertension, diabetes, and renal impairment.
+The OFCCJ was found to be very common in the adult
+population, occupying 67.12% of the study participants.
+Notably, the prevalence of OFCCJ was significantly greater
+in the CAD group compared with the non-CAD group
+(73.16% vs 60.33%, P<.01). Although the correlation between the occurrence of OFCCJ and CAD has not been
+directly tested, the markedly high prevalence of the OFCCJ
+in the CAD population is a noteworthy finding, which
+
+He et al
+
+Adult: Coronary
+
+FIGURE 2. The determination and analysis of the features of the OFCCJ. A, The relationship between the LIMA and the thoracic wall. B, The course of the
+proximal portion of the LIMA running behind the first costochondral joint (viewed from below). C, On the cross-sectional view of most prominent OFCCJ,
+the anatomical structures of the LIMA isthmus can be seen, including the LIMA, the brachiocephalic vein, aortic arch and its branches. D, Schematic illustration of the features analysis of the OFCCJ. d, The closest distance between the top of the OFCCJ and the LIMA. h, The height of the OFCCJ. OFCCJ,
+Osteophyte of the first costochondral joint; LIMA, left internal mammary artery.
+
+means that the use of this anatomical landmark as a reference point for rapidly identifying the location of the
+LIMA appears to be a feasible approach, based on the
+concept of the LIMA isthmus.
+Anatomical Features of OFCCJ and Its Spatial
+Relationship With LIMA
+To assess the feasibility of using the OFCCJ as a landmark for robotic LIMA harvesting, the anatomical features
+of OFFCJ and its spatial relationship with LIMA were
+investigated. Analysis of CT images revealed no significant
+difference in the height of the OFCCJ between patients with
+CAD and those without. The average height of the OFCCJ
+in the CAD group was 15.54  4.99 mm (Table 2). This
+consistent and pronounced bony protrusion would facilitate
+the rapid identification of the surrounding structures under
+the high magnification of the robot’s field of view.
+Furthermore, the distance between the OFCCJ and the
+LIMA, which reflects the reliability and convenience of
+
+using the OFCCJ as a landmark for LIMA localization,
+did not differ significantly between the 2 groups. The
+average distance between the OFCCJ and LIMA in the
+patients with CAD was 12.66  4.19 mm. The fat tissues
+overlying the OFCCJ could be easily dissected and flipped,
+allowing for the expedient exposure of the proximal portion
+of the LIMA.
+Standardization of Robotic LIMA Harvesting on the
+Basis of the Concept of “LIMA Isthmus”
+Conventional harvesting typically begins at the uppermost
+point (usually the midpoint of the incision), freed around the
+LIMA, and then proceeded distally, toward the diaphragm,
+followed by a proximal progression.5 This conventional harvesting technique has also been used in minimally invasive
+direct LIMA harvesting or even robotic harvesting.6
+Leveraging the relatively fixed anatomical relationship
+between the OFCCJ and the LIMA, we attempted to standardize the LIMA harvesting process based on the concept
+JTCVS Techniques c Volume 29, Number C
+
+Adult: Coronary
+
+He et al
+
+TABLE 1. The prevalence of the OFCCJ in patients with/without CAD
+Variable
+Age, y
+
+Total
+(N ¼ 514)
+
+CAD
+(n ¼ 272)
+
+Non-CAD
+(n ¼ 242)
+
+t/c2
+
+64.97  12.13
+
+66.26  11.20
+
+65.51  12.96
+
+2.59
+
+.01
+
+11.61
+
+.02
+
+14.05
+
+<.01
+
+P value
+
+Age, %
+2044
+4559
+6074
+75
+
+5.45
+41.25
+50.39
+2.91
+
+32.14
+52.36
+55.98
+33.33
+
+67.86
+47.64
+44.02
+66.67
+
+Gender, %
+Male
+Female
+
+67.32
+32.68
+
+74.63
+25.37
+
+59.09
+40.91
+
+BMI, kg/m2
+
+24.07  3.89
+
+24.74  3.71
+
+23.03  3.93
+
+8.33
+
+<.01
+
+SBP, mm Hg
+
+128.90  1996
+
+131.15  20.77
+
+125.41  18.12
+
+4.49
+
+<.01
+
+DBP, mm Hg
+
+75.83  12.70
+
+76.26  13.72
+
+75.17  10.95
+
+8.85
+
+<.01
+
+LVEF, %
+
+65.54  7.73
+
+64.00  8.66
+
+68.24  4.69
+
+4.50
+
+<.01
+
+LVFS, %
+
+36.31  5.66
+
+35.45  6.34
+
+37.82  3.81
+
+Smoking, %
+Yes
+No
+
+33.46
+66.54
+
+43.01
+56.99
+
+22.73
+77.27
+
+Drinker, %
+Yes
+No
+
+22.57
+77.43
+
+30.88
+69.12
+
+13.22
+86.78
+
+Hypertension, %
+Yes
+No
+
+37.35
+62.64
+
+60.66
+39.34
+
+11.16
+88.84
+
+DM, %
+Yes
+No
+
+25.49
+74.51
+
+40.07
+59.93
+
+9.09
+90.91
+
+RI, %
+Yes
+No
+
+5.06
+94.94
+
+8.09
+91.91
+
+1.65
+98.35
+
+OFCCJ, %
+Yes
+No
+
+67.12
+32.88
+
+73.16
+26.84
+
+60.33
+39.67
+
+3.36
+
+<.01
+
+31.00
+
+<.01
+
+25.26
+
+<.01
+
+134.11
+
+<.01
+
+64.73
+
+<.01
+
+11.04
+
+<.01
+
+9.55
+
+<.01
+
+CAD, Coronary artery disease; BMI, body mass index; SBP, systolic blood pressure; DBP, diastolic blood pressure; LVEF, left ventricular ejection fraction; LVFS, left ventricular
+fractional shortening; DM, diabetes mellitus; RI, renal insufficiency; OFCCJ, osteophyte of the first costochondral joint.
+
+of “LIMA isthmus,” which involves the following 9 steps:
+(1) identifying the OFCCJ; (2) dissecting the fat pad adjacent to the OFCCJ; (3) locating the LIMA in the isthmus region; (4) unroofing distally along the LIMA until the
+superior epigastric artery and musculophrenic artery are
+reached; (5) dissecting the inferior side of the LIMA, starting from the isthmus; (6) dissecting the superior side of the
+
+LIMA, starting from the isthmus; (7) dividing the LIMA
+branches using titanium clips and electrocautery; (8)
+cautiously dissecting the proximal segment of the LIMA
+in the isthmus region, avoiding injury to the phrenic nerve;
+and (9) thoroughly inspecting the LIMA graft integrity
+and ensuring hemostasis along the entire conduit bed
+(Figure 3).
+
+TABLE 2. Anatomical features of osteophyte of the first costochondral joint
+Total
+
+CAD group
+
+Non-CAD group
+
+t
+
+Height of OFCCJ, mm
+
+15.96  4.89
+
+15.54  4.99
+
+16.55  4.70
+
+1.90
+
+.06
+
+Distance between OFCCJ and LIMA, mm
+
+12.57  5.48
+
+12.66  4.19
+
+12.45  6.87
+
+0.36
+
+.72
+
+OFCCJ features
+
+OFCCJ, Osteophyte of the first costochondral joint; CAD, coronary artery disease; LIMA, left internal mammary artery.
+
+JTCVS Techniques c February 2025
+
+P value
+
+He et al
+
+Navigating the Steep Learning Curve With “LIMA
+Isthmus”-Based Graft Harvesting
+The time to identify LIMA and the time for LIMA
+harvesting were significantly shorter using “LIMA
+isthmus”-based strategy compared with the conventional
+method (89.00  31.07 seconds vs 1087  436.1 seconds,
+P ¼ .035; 86.80  4.74 minutes vs 110.5  11.72 minutes,
+P ¼ .013, respectively). Moreover, the incidence of inadvertent bleeding events during “LIMA isthmus”-based graft harvesting was much lower (1.00  0.19 vs 3.44  0.34,
+P < .001), although there was no significant difference in
+postoperative chest drainage between the 2 approaches
+(Table 3). Importantly, there were no reported instances of
+LIMA injury or the need for conversion to a median sternotomy incision in either group, and all grafts were found to be
+patent upon postoperative evaluation.
+Closer examination of the learning curve revealed that for
+the surgeon using the traditional harvesting strategy, it took
+
+Adult: Coronary
+
+23 to 70 minutes to identify the LIMA in the initial 4 cases
+and 5 to 7 minutes in the later cases. In contrast, the “LIMA
+isthmus”-based strategy allowed the other surgeon to locate
+the LIMA in less than 2 minutes consistently. Furthermore,
+the “LIMA isthmus”-based graft harvesting approach appears to help beginners overcome the initial challenges
+associated with the steep learning curve typically observed
+with conventional robotic LIMA harvesting, potentially
+accelerating the proficiency acquisition process (Figure 4).
+DISCUSSION
+The use of LIMA to bypass the left anterior descending
+coronary artery is the standard of care for patients undergoing any CABG and is a Class I recommendation in the current European and North American guidelines on
+myocardial revascularization.7,8 LIMA harvesting represents the first and critical step in MICS CABG. In the study
+we proposed the novel concept of “LIMA isthmus,”
+
+FIGURE 3. The standardized 9 steps for robotic LIMA harvesting determined on the basis of the concept of “LIMA isthmus.” A, Identifying the OFCCJ. B,
+Dissecting the fat pad adjacent to the OFCCJ. C, Locating the LIMA in the isthmus region. D, Unroofing. E, Dissection of the inferior side of the LIMA. F,
+Dissection of the superior side of the LIMA. G, Dividing the LIMA branches. H, Dissection of proximal segment of the LIMA in the isthmus region. I,
+Inspection of the LIMA graft and the conduit bed. LIMA, Left internal mammary artery; OFCCJ, osteophyte of the first costochondral joint.
+
+JTCVS Techniques c Volume 29, Number C
+
+Adult: Coronary
+
+He et al
+
+TABLE 3. Comparison on efficiency and quality of robotic LIMA harvesting between 2 surgeons using different strategies
+Outcome
+
+Surgeon A
+
+Surgeon B
+
+t
+
+P value
+
+Time to identify the LIMA, s
+
+1087  436.1
+
+89.00  31.07
+
+2.28
+
+.035
+
+Time to harvesting the LIMA, min
+
+110.5  11.72
+
+86.80  4.74
+
+3.685
+
+.013
+
+Inadvertent bleeding events, n
+
+3.44  0.34
+
+1.00  0.19
+
+6.60
+
+<.001
+
+Postoperative chest drainage, mL
+
+460.0  488.8
+
+466.7  350.9
+
+0.034
+
+.973
+
+Surgeon A: using the traditional method; surgeon B: using the “LIMA isthmus”-based method. LIMA, Left internal mammary artery.
+
+standardized a 9-step approach to robotic LIMA harvesting
+on the basis of this concept, and found that this strategy
+could facilitate beginner surgeons in navigating the learning
+curve more expeditiously.
+The choice of harvesting technique for the LIMA during
+CABG surgery remains a subject of ongoing debate. Several
+approaches have been described, including pedicled, skeletonized, and semiskeletonized techniques. The benefits of
+LIMA skeletonization have been well-documented,
+
+including the potential for longer graft lengths (up to
+2.0-3.5 cm), increased flow capacity, larger anastomosis
+diameter, reduced sternal complications, and decreased
+post-CABG pain.2,9 However, recent studies have raised
+concerns that skeletonized IMAs may be associated with
+greater rates of graft occlusion, clinical events, and revascularization procedures compared with pedicled IMAs.10,11
+Interestingly, this difference was not observed when considering only patients operated on by surgeons who had
+
+Time to identify the LIMA(s)
+
+1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th
+Surgery patients
+
+A
+
+surgeon A
+
+surgeon B
+
+LIMA harvesting time (min)
+
+1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th
+Surgery patients
+
+B
+
+surgeon A
+
+surgeon B
+
+FIGURE 4. Learning curve of robotic LIMA harvesting. A, The time to identify the LIMA. B, The time for robotic LIMA harvesting. LIMA, Left internal
+mammary artery.
+
+JTCVS Techniques c February 2025
+
+He et al
+
+enrolled 51 or more patients in the trial, suggesting that surgeon experience may play a fundamental role in the quality
+of the harvested artery.3 As skeletonized harvesting is technically more demanding, it is reasonable to hypothesize that
+surgeons’ experience and the quality of their harvesting
+tools may have a significant impact on graft patency.
+The use of the da Vinci Xi robotic system has demonstrated significant advantages in MICS CABG. Because
+of its exceptional image stability, reduced unintentional
+smearing of the thoracoscope, and high flexibility and
+maneuverability, the da Vinci Xi robot can effectively access both the proximal and distal ends of the LIMA,
+enabling precise dissection. Therefore, the da Vinci Xi
+robot is exceptionally well-suited for skeletonized LIMA
+harvesting. However, the adoption of robotic CABG has
+been relatively low, with only approximately 1% of coronary bypass procedures in the United States being
+completed with robotic assistance.12 One of the primary
+reasons for the limited uptake of robotic CABG is the
+considerable challenges faced by novice surgeons. These
+difficulties include the inability to accurately identify the
+mediastinal anatomy under the surgical scope, as well as unfamiliarity with the manipulation of robotic instruments.
+Specifically, the rapid identification of the LIMA and the
+precise skeletonized harvesting of the graft are the most
+prominent problems, especially when the LIMA is obscured
+by thick fat or muscular tissue. In this study, surgeon A
+spent between 23 and 70 minutes to identify the LIMA in
+the initial 4 cases, and the overall time required for graft
+harvesting was significantly prolonged, highlighting the
+steep learning curve associated with this procedure. Consequently, there is a pressing need to develop a standardized
+method that can efficiently and reliably determine the location of the LIMA and facilitate its skeletonized harvesting.
+In the study, we found that OFCCJ was a common and
+prominent anatomical feature in most adult cases. Furthermore, the LIMA was observed to be about 10 mm away
+from the OFCCJ, situated within the narrow groove between the OFCCJ and the aortic arch, as viewed through
+the surgical perspective of a robotic scope. Consequently,
+we proposed the concept of the “LIMA isthmus” and the
+OFCCJ as reliable landmarks for locating the LIMA. On
+the basis of this concept, we further standardized the process of robotic skeletonized LIMA harvesting, which
+enhanced the precision and efficiency of the subsequent
+dissection steps. By carefully removing the soft tissue
+covering the LIMA, the entire course of the vessel was
+clearly delineated, and then the LIMA was unroofed. The
+inferior side of the LIMA could then be dissected rapidly,
+with minimal branch arteries encountered, thereby
+providing the LIMA with some mobility. The superior
+side of the LIMA was then dissected precisely, exposing
+the major LIMA branches, which were subsequently ligated
+with titanium clips or cauterized.
+
+Adult: Coronary
+
+Robotic LIMA harvesting has a reported learning curve of
+approximately 10-20 cases.13,14 To further evaluate the efficacy of this novel harvesting technique, we compared the
+LIMA harvesting outcomes of the initial 10 cases performed
+by 2 surgeons using different harvesting methods. The
+“LIMA isthmus”-based harvesting strategy demonstrated significant improvements in technical simplicity, LIMA harvesting time, graft quality, and reduced bleeding events during the
+learning curve phase. Oehlinger and colleagues13 reported
+their experiences with robotic LIMA harvesting in 100 cases,
+noting a decrease in median harvesting time from 140 minutes
+in the first 10 cases to 34 minutes in the last 10 cases. Similarly, Fujita and colleagues15 found no significant difference
+in harvesting time between pedicled (21 cases) and skeletonized (12 cases) techniques, with a mean time of
+68  13 minutes. However, they reported 3 cases requiring
+conversion to standard sternotomy as the result of severe adhesions between the LIMA and the second rib, a difficulty that
+appeared to be mitigated by the “LIMA isthmus”-based
+approach. Masroor and colleagues6 reported a mean LIMA
+harvesting time of 164.7  51.9 minutes, slightly longer
+than other studies and our own findings. Although there is
+no significant difference in postoperative chest drainage between the 2 groups, we observed a significant difference in
+bleeding events from the LIMA and its branches during the
+LIMA harvesting process. It is crucial to emphasize that
+bleeding events from the LIMA and its branches inevitably
+lead to additional hemostatic procedures and potential damage to the LIMA graft vessel, which may affect the longterm patency rates of the LIMA grafts. Interestingly, Fujita
+and colleagues15 initially used a pedicled harvesting technique and then transitioned to a skeletonized approach,
+whereas Masroor and colleagues6 shifted from a skeletonized
+to a pedicled technique. These contrasting technique shifts
+across different surgical teams suggest the potential value of
+the “LIMA isthmus”-based standardized harvesting strategy,
+particularly in the initial stage of the learning curve.
+Study Limitations
+The primary limitation of this study is that there were
+nearly 27% of patients with CAD lacking an OFCCJ. However, the concept of the “LIMA isthmus” could still be used
+to rapidly identify the LIMA between the aortic arch and the
+anterior aspect of the first rib, rather than relying on the
+OFCCJ. In addition, the study only evaluated the utility of
+the “LIMA isthmus”-based robotic harvesting approach
+during the learning curve phase, without addressing the
+long-term outcomes, as the postoperative interval at the
+time of writing was insufficient for such an analysis. The
+concept was primarily proposed to assess its feasibility in
+graft harvesting within the study. In the future, the “LIMA
+isthmus”-based graft harvesting approach will be evaluated
+in a larger cohort of patients, with a focus on long-term
+outcomes.
+JTCVS Techniques c Volume 29, Number C
+
+Adult: Coronary
+
+CONCLUSIONS
+The OFCCJ could serve as a reliable anatomical landmark
+to guide robotic LIMA harvesting. “LIMA isthmus”-based
+standardized robotic LIMA harvesting could significantly
+reduce the time to determine LIMA and the time for graft harvesting process, and minimize the risk of inadvertent bleeding
+events. This could be particularly beneficial for novice surgeons during the initial learning curve phase of this
+procedure.
+The authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling or reviewing manuscripts for which they may have a conflict
+of interest. The editors and reviewers of this article have
+no conflicts of interest.

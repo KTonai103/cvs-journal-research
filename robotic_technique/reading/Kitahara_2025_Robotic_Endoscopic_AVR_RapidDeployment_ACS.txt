@@ -1,0 +1,140 @@
+Masters of Cardiothoracic Surgery
+
+Robotic endoscopic aortic valve replacement with rapid
+deployment valve: technique and outcomes
+Hiroto Kitahara, Sarah Nisivaco, Yazan Al Jamal, Husam H. Balkhy
+Department of Surgery, Section of Cardiac and Thoracic Surgery, The University of Chicago, Chicago, IL, USA
+Maryland Avenue, MC5040, Chicago, IL 60637, USA. Email: hbalkhy@surgery.bsd.uchicago.edu.
+Keywords: Robotic aortic valve replacement (robotic AVR); rapid deployment valve; endoscopic aortic valve replacement (endoscopic AVR)
+
+Clinical vignette
+We present a case of a 71-year-old man with aortic valve
+insufficiency who underwent robotic endoscopic aortic
+valve replacement (AVR) using a rapid deployment valve.
+Transesophageal echocardiography showed preserved
+ejection fraction and severe aortic valve insufficiency. A
+computed tomography scan was performed, and the aortic
+valve size was estimated using three-dimensional imaging
+software.
+Surgical technique
+Preparation
+The patient was placed supine with a vertical roll under the
+right scapula. General anesthesia was induced with a singlelumen endotracheal tube. External defibrillator pads were
+placed on the chest and back.
+Operation
+With the lungs deflated, a Veress needle was inserted in
+the 3rd intercostal space to insufflate carbon dioxide. An
+8-mm camera port was placed in the 3rd intercostal space
+in the anterior axillary line. An 8-mm port for a dynamic
+atrial retractor was placed in the 5th intercostal space
+parasternally. All ports except for the first were placed under
+direct camera vision. An 8-mm right arm port was placed in
+the 6th intercostal space in the posterior axillary line, and an
+8-mm left arm port in the 2nd intercostal space in the midclavicular line. The original camera port was removed, and
+
+the incision was extended slightly to accommodate the rapid
+deployment valve sizer. An XXS-size soft tissue retractor
+was placed at the site and used as a working port. A new
+8-mm camera port was placed anterior to the working port
+in the 3rd intercostal space. The robot was docked from
+the patient’s left side. Cardiopulmonary bypass was initiated
+with percutaneous femoral arterial and venous cannulation.
+The pericardium was opened 2 cm above the phrenic
+nerve. An epicardial pacemaker lead was placed on the right
+ventricle. The aorta was gently retracted using the dynamic
+retractor, and careful dissection was carried out between the
+aorta and the pulmonary artery. The aorta was completely
+separated from the pulmonary artery. A trans-thoracic
+aortic clamp was inserted in the 2nd intercostal space and
+gently advanced into the space between the aorta and the
+pulmonary artery. An aortic cross-clamp was applied, and
+an antegrade needle was inserted in the aorta. Del Nido
+cardioplegia was delivered. The left atrium was opened
+using monopolar scissors, and a percutaneous drain was
+inserted. A transverse aortotomy was made at the antegrade
+needle site. The aortic valve was exposed using the dynamic
+retractor. Aortic valve leaflets were sharply excised with
+monopolar scissors under excellent visualization. The rapiddeployment valve sizer was inserted through the working
+port, and the annulus was sized. A size ‘medium’ valve
+was chosen. Three stay sutures were placed at the nadir
+of each cusp and brought out through the working port.
+The sutures were placed in the rapid deployment valve.
+The valve was introduced through the working port and
+deployed after its correct position was confirmed. The valve
+was balloon expanded for 30 seconds. The left atriotomy
+
+Ann Cardiothorac Surg 2025;14(3):244-246 | https://dx.doi.org/10.21037/acs-2025-ravr-10
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+was closed with a 4-0 Prolene running suture, leaving the
+drain for deairing. The aortotomy was closed with a 4-0
+Prolene double-layer running suture. The aortic crossclamp was released. After extensive de-airing the drain was
+removed, and the left atrium was closed. Cardiopulmonary
+bypass was discontinued. The femoral cannulas were
+removed using pre-closure devices.
+Completion
+Postoperative transesophageal echocardiography showed
+a well-seated rapid deployment valve with no paravalvular
+leakage. The mean pressure gradient was 6 mmHg. The
+patient was extubated within 24 hours and discharged home
+on postoperative day 2.
+Comments
+Clinical results
+We have progressively developed our robotic endoscopic
+AVR technique, transitioning from a right anterior minithoracotomy approach to a robotic totally endoscopic
+approach (1). Robotic assistance was increasingly utilized
+for key steps of the procedure, including antegrade
+needle insertion, aortotomy, valve excision, and valve
+suture placement. Since transitioning fully to the robotic
+endoscopic approach, we have performed a total of 61
+robotic AVR cases. Our first robotic endoscopic AVR
+using a rapid deployment valve was performed in 2019 (2).
+Since then, we have completed 33 cases (20 stenosis, 13
+insufficiency). The mean age was 71 years old. The mean
+STS score was 2.3. Four patients (12%) had previous
+cardiac surgery. The valve sizes included small [3],
+medium [9], large [11], and extra-large [10]. Concomitant
+procedures were performed in 11 patients, including five
+mitral valve repairs, two totally endoscopic coronary artery
+bypasses, and four atrial fibrillation ablations. There were
+no conversions to sternotomy. The mean length of hospital
+stay was 4.5 days. No perioperative mortality or stroke was
+observed.
+Advantages
+Rapid deployment valves have become one of the options in
+surgical AVR, offering equivalent outcomes to conventional
+surgical sutured or trans-catheter valves (3). The rapid
+deployment valve is primarily used in minimally invasive
+surgeries, benefiting from its small size and ability to reduce
+
+operative time compared to conventional sutured valves,
+especially in cases involving concomitant procedures (4,5).
+In our cases, the rapid deployment valve enables a truly
+totally endoscopic approach without mini-thoracotomy,
+taking full advantage of the benefits of robotic technology
+which minimizes surgical invasiveness. Moreover, both
+robotic technology and rapid-deployment valves allow
+variable concomitant procedures to be performed while
+maintaining an endoscopic approach, thereby broadening
+the patient population eligible for minimally invasive
+AVR options, such as those with aortic valve plus mitral or
+coronary disease.
+Caveats
+Several centers have initiated mini-thoracotomy or
+endoscopic robotic AVR programs (6). We believe that
+the use of rapid-deployment valves in endoscopic robotic
+AVR maximizes the advantages of robotic technology
+facilitating early functional recovery while achieving longterm outcomes comparable to those of the conventional
+approach.
+Acknowledgments
+None.
+Footnote
+other authors have no conflicts of interest to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

@@ -1,0 +1,857 @@
+ADULT: TRICUSPID VALVE
+
+Is concomitant tricuspid valve repair in patients
+undergoing robotic mitral valve repair safe and effective?
+Phillip G. Rowse, MD,a Yazan AlJamal, MBBS,a Richard C. Daly, MD,a Austin Todd, MS,b
+Arman Arghami, MD, MPH,a Juan A. Crestanello, MD,a and Joseph A. Dearani, MDa
+ABSTRACT
+Objectives: Robotic-assisted mitral valve repair (MVr) is a well-established procedure for management of degenerative mitral valve disease. Limited data regarding
+concomitant robotic-assisted tricuspid valve repair (TVr) is available. This review
+investigates prevalence and outcomes of concomitant robotic-assisted mitral and
+tricuspid valve repair.
+Methods: From 2014 to 2022, 839 patients underwent robotic-assisted MVr,
+including 76 patients with moderate or greater tricuspid regurgitation and/or
+tricuspid annular dilatation 40 mm. Among the 76 patients, 19 (25%) underwent
+isolated MVr and 57 (75%) had concomitant mitral and tricuspid valve repair.
+Outcome data between the 2 groups were analyzed.
+
+Robotic-assisted mitral and tricuspid valve repair.
+
+CENTRAL MESSAGE
+
+Robotic TVr at the time of MVr in
+patients with either moderate
+function TR and/or signiﬁcant
+Results: In the MVr/TVr group, tricuspid regurgitation grades were mild in 4 (7%) tricuspid annular dilatation can
+patients, moderate in 44 (77%) and severe in 9 (15.7%). Signiﬁcant tricuspid
+be performed safely and effecannular dilatation 40 mm was present in all patients. In the isolated MVr group,
+3 (15.7%) patients had mild tricuspid regurgitation and 16 (84.2%) had moderate tively with acceptable low
+tricuspid regurgitation with signiﬁcant tricuspid annular dilatation present in only morbidity.
+6 patients. Cardiopulmonary bypass and crossclamp time were 130.6 and 91 minutes
+versus 85 and 55.4 minutes for robotic MVr/TVr group versus MVr group, respectively (P < .05). The intensive care unit and hospital length of stay were similar:
+27.7 versus 27.7 hours and 4.4 versus 4.2 days for MVr/TVr versus MVr (P ¼ .24),
+respectively. There were no perioperative deaths or heart block in either group.
+Survival and freedom from reoperation with median follow-up of 16 and 46 months
+for MVr/TVr and MVr groups, respectively were 100%.
+
+Conclusions: Concomitant robotic-assisted tricuspid valve repair for functional
+regurgitation can be safely and effectively performed at the time of mitral valve
+repair with excellent short-term morbidity and mortality results. (JTCVS Open
+2024;22:214-21)
+
+Video clip is available online.
+
+From the Departments of aCardiovascular Surgery and bBiomedical Statistics and
+Informatics, Mayo Clinic Rochester, Minn.
+Read at the 104th Annual Meeting of The American Association for Thoracic Surgery, Toronto, Ontario, Canada, April 27-30, 2024.
+Received for publication April 26, 2024; revisions received Sept 4, 2024; accepted for
+publication Sept 18, 2024; available ahead of print Nov 1, 2024.
+Address for reprints: Phillip G. Rowse, MD, Department of Cardiovascular Surgery,
+Mayo Clinic, 200 First St, SW, Rochester, MN 55905 (E-mail: Rowse.Phillip@
+mayo.edu).
+2666-2736
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+JTCVS Open c December 2024
+
+PERSPECTIVE
+The signiﬁcance of the present study is to
+uniquely identify robotic-assisted surgery as a
+less invasive option that can similarly achieve a
+safe and durable mitral and tricuspid valve repair
+with acceptable low morbidity and mortality.
+See Discussion on page 222.
+
+To view the AATS Annual Meeting Webcast, see the
+URL next to the webcast thumbnail.
+
+At the time of mitral valve repair (MVr) for degenerative
+disease, varying degrees of functional tricuspid regurgitation (TR) are common.1,2 Although early reports following
+open mitral surgery suggest that functional TR may
+improve or resolve after the diseased MV is surgically corrected, subsequent data have shown late development of
+significant TR and right heart failure in a subset of patients.3,4 Additionally, reoperative tricuspid surgery for
+late TR has been shown to compromise long-term outcomes
+after MVr and is associated with increased early and
+midterm morbidity and mortality.5,6 Current consensus
+
+Rowse et al
+
+Adult: Tricuspid Valve
+
+TABLE 1. Preoperative patient demographic characteristics
+
+Abbreviations and Acronyms
+AF ¼ atrial fibrillation
+MR ¼ mitral regurgitation
+MVr ¼ mitral valve repair
+TR ¼ tricuspid regurgitation
+TVr ¼ tricuspid valve repair
+
+Demographics
+Age (y)
+
+.21
+
+Male sex
+
+11 (57)
+
+28 (49)
+
+.25
+
+White race
+
+17 (89)
+
+54 (94.7)
+
+.09
+
+1.9
+
+1.8
+
+.21
+
+Body surface area (m2)
+
+guideline recommendations advise concomitant tricuspid
+valve repair (TVr) at the time of degenerative mitral repair
+for moderate TR or significant tricuspid annular dilatation
+(40 mm) because this approach has shown improved
+long-term clinical and echocardiographic outcomes.7
+Whereas isolated robotic-assisted MVr has been shown to
+be a safe, effective, and durable surgical solution for treatment of simple and complex degenerative mitral pathologies
+with excellent early and midterm results, data regarding efficacy, safety, and durability of concomitant robotic-assisted
+MVr and TVr are lacking.8-11 The objective of this study
+was to analyze prevalence and clinical outcomes of
+patients with moderate TR and/or significant tricuspid
+annular dilatation (40 mm) that underwent combined
+robotic-assisted TVr and MVr compared with those who
+only received isolated robotic-assisted MVr.
+METHODS
+The study was approved by the Mayo Clinic Institutional Review Board
+(#22-013516; approved January 2023). Because the study had a minimalrisk retrospective designation, the requirement for individual patient
+consent was waived. From January 2014 to May 2022, we retrospectively
+identified 839 patients (aged 18 years and older) that underwent roboticassisted MVr, including 76 patients with moderate or greater TR and/or
+tricuspid annular dilatation 40 mm as confirmed on preoperative transesophageal echocardiogram at Mayo Clinic in Rochester, Minn. Among the
+cohort of 76 patients, 19 (25%) patients underwent isolated roboticassisted MVr, and 57 (75%) patients underwent concomitant roboticassisted MVr and TVr (MVr/TVr). Patient demographics, including New
+York Heart Association functional status, and risk factors for development
+of TR are summarized in Table 1.
+Amongst the 57 patients who underwent concomitant robotic-assisted
+MVr/TVr, preoperative transesophageal echocardiogram identified mild
+TR in 4 (7%) patients, moderate TR in 44 (77%) patients, and severe
+TR in 9 (15%) patients. All 57 patients had tricuspid annular dimension
+40 mm. Tricuspid annuloplasty was performed using either a 26- or
+28-mm partial ring in 5 patients (8.7%), a 63-mm Medtronic flexible
+band in 51 patients (89.4%), and a DeVega suture annuloplasty in 1 patient
+(1.7%). Tricuspid annular reduction was performed in all cases with an arrested heart. Details of robotic-assisted TVr technique are discussed in
+Video 1. Amongst the 19 patients who underwent isolated robotic MVr,
+mild TR with annular dilatation 40 mm was identified in 3 (15%) patients, moderate TR in 16 (85%) patients of whom 3 had annular dilatation
+40 mm, and 0 patients had severe TR. Preoperative echocardiographic
+data characteristics between the 2 groups are summarized in Table 2.
+All robotic-assisted MVrs and TVrs were performed using the da Vinci
+Surgical System (Intuitive Surgical Inc), both the Si and Xi models. Our
+program utilizes 2 surgeons during the cardiac ischemic period. Our technique for robotics includes a 2- to 4-cm working port in the fourth
+
+Concomitant
+Isolated
+MVr/TVr
+P
+MVr
+(n ¼ 19 [25%]) (n ¼ 57 [75%]) value
+
+Body mass index
+
+25.2
+
+24.1
+
+.1
+
+History of tobacco
+
+5 (26)
+
+16 (28)
+
+.1
+
+NYHA functional class
+
+5 (26)
+10 (52)
+1 (5)
+
+11 (19)
+32 (56)
+7 (12)
+1 (1.7)
+
+Unknown
+
+3 (15)
+
+6 (10)
+
+STS risk score
+
+0.813
+
+0.613
+
+.3
+
+Preoperative atrial
+fibrillation
+
+5 (26)
+
+18 (31)
+
+.2
+
+Diabetes mellitus
+
+N/A
+
+Baseline creatinine
+(mg/dL)
+
+0.9
+
+.12
+
+10 (52)
+
+26 (45)
+
+.32
+
+Hyperlipidemia
+
+26 (45)
+
+.44
+
+Chronic lung disease
+
+3 (5)
+
+N/A
+
+Hypertension
+
+.1
+
+Cardiovascular disease
+
+2 (3)
+
+N/A
+
+Peripheral vascular disease
+
+1 (1.7)
+
+N/A
+
+History of TIA
+
+1 (1.7)
+
+N/A
+
+Values are presented as n (%) unless otherwise noted. MVr, Mitral valve repair; TVr,
+tricuspid valve repair; NYHA, New York Heart Association; STS, Society of Thoracic
+Surgeons; N/A, not available; TIA, transient ischemic attack.
+
+intercostal space and 3 additional robotic 8-mm ports in the second, fourth,
+and sixth intercostal spaces for the left arm, left/right atrial retractor, and
+right arm, respectively. Our strategy for delivery of cardioplegia during
+the study included direct cannulation of the ascending aorta through a
+stab incision in the anterior chest wall (lateral to the right internal thoracic
+artery). Aortic occlusion is accomplished with a transthoracic clamp
+inserted through the lateral chest wall (third intercostal space, anterior
+axillary line). The patient is placed on peripheral cardiopulmonary bypass
+through the femoral vessels by using an open cutdown approach. The
+strategy for venous drainage during robotic MVr or TVr consists of a 16
+Fr cannula inserted into right internal jugular vein and directed into the
+superior vena cava with either a 23 or 25 Fr multistage cannula inserted
+into the right common femoral vein and directed to the right atrial/superior
+vena cava junction. Femoral arterial cannulation is performed with either a
+17 or 19 Fr cannula. Cox-maze IV lesions were performed using
+cryoablation and included isolation of the entirety of the posterior left
+atrium, including the pulmonary veins with connecting box lesions. A
+linear lesion connecting the box to the mitral annulus (ie, isthmus line)
+as well as connecting lesion from the box to the excluded left atrial
+appendage was performed. The coronary sinus was also cryoablated at
+the level of the isthmus line.
+
+JTCVS Open c Volume 22, Number C
+
+Adult: Tricuspid Valve
+
+VIDEO 1. Robotic-assisted tricuspid valve repair technique. Video available at: https://www.jtcvs.org/article/S2666-2736(24)00269-9/fulltext.
+
+Statistical Analysis
+Continuous variables were assessed for normality using the ShapiroWilk test. Those with normal distribution are expressed as mean  SD
+and those without as median (interquartile range [IQR]). Categorical
+and sequential variables are expressed as the number and percentage of
+patients. Wilcoxon signed-rank test with continuity correction and
+Friedman rank-sum test were applied to examine both groups’ serial
+echocardiography results over the follow-up period. The statistical analysis utilized BlueSky Statistics software version 10.3 (BlueSky Statistics
+LLC).
+
+RESULTS
+All surgical procedures were electively performed during
+the study period by 5 robotic surgeons. Median cardiopulmonary bypass and crossclamp times were 125 minutes
+(range, 93-206 minutes) and 89 minutes (range, 66-162 minutes) in the MVr/TVr group and 84 minutes (range, 56132 minutes) and 53 minutes (range 38-75 minutes) in the
+isolated MVr group, respectively (P < .05). Among the
+MVr/TVr group, tricuspid annular reduction was accomplished with either a C-shaped flexible ring or flexible
+band in 56 (98.3%) patients. A 26- or 28-mm C-shaped
+flexible ring was used in 5 (8.7%) patients and a
+standard-sized flexible 63-mm band was used in
+51 (89.4%) patients. A suture annuloplasty (De Vega)
+was performed in 1 (1.75%) patient.
+Successful robotic-assisted MVr was performed in all patients. In the MVr/TVr group, 48 (84.2%) patients had
+either trivial or no residual MR and 9 (15%) had mild
+MR on dismissal echocardiogram. In the isolated MVr
+group, 19 (100%) had trivial or no residual MR on
+dismissal echocardiogram. In the MVr/TVr group, 39
+(68.4%) patients had isolated posterior leaflet prolapse,
+6 (10.5%) had isolated anterior leaflet prolapse, and
+12 (21%) had bileaflet prolapse (Barlow’s valve). In the
+lone MVr group, 18 (94.7%) patients had isolated posterior
+leaflet prolapse, no patients had isolated anterior leaflet prolapse, and only 1 (5.3%) had bileaflet prolapse (Barlow’s
+valve). A flexible posterior annuloplasty band was used in
+all MVr procedures (Table 3). In the combined MVr/TVr
+
+JTCVS Open c December 2024
+
+Rowse et al
+
+group, 18 out of 57 patients had preoperative atrial fibrillation (AF) and of those patients, 17 out of 18 underwent
+concomitant Cox-maze IV, including suture closure of the
+left atrial appendage orifice. In the isolated MVr group,
+only 5 out of 19 patients had preoperative AF and of those
+patients, 1 out of 5 underwent Cox-maze IV with suture
+closure of the left atrial appendage at the time of valve
+repair.
+Postoperatively, the median intensive care unit stays were
+23 hours (IQR, 15.5-28.5 hours) in the MVr/TVr group
+versus 21.5 hours (IQR, 18, 31.75 hours) in the isolated
+MVr group (P ¼ .27). Length of total hospitalization in
+the MVr/TVr group was 4 days (IQR, 3-5 days) versus
+4 days (IQR, 3-5 days) in the MVr group, respectively
+(P ¼ .2). The most common early (as defined within the first
+30 days) postoperative complication was AF or atrial flutter,
+which occurred in 15 (26.3%) patients in the MVr/TVr
+group and 9 (47%) patients in the lone MVr group, respectively (P ¼ .04) (Table 4). There were no cases of complete
+heart block in either group. There were no early or late postoperative deaths.
+In the MVr/TVr group, there was 1 intraoperative
+conversion to open sternotomy at the conclusion of the
+operation to control bleeding from the aortic root vent
+that required bovine pericardial patch repair. The
+postoperative course was complicated by prolonged ileus,
+which was managed conservatively, and the patient was
+discharged on postoperative day 9. In a different patient,
+peripheral venoarterial extracorporeal membrane oxygenation was required postoperatively for severe global left
+ventricular dysfunction and concomitant moderate right
+ventricular systolic dysfunction. The extracorporeal
+membrane oxygenation circuit was discontinued on
+postoperative day 3 and the patient discharged on
+postoperative day 12.
+In the isolated MVr group, 1 patient was returned to the
+operating room on postoperative day 6 for right-sided hemothorax with a delayed right internal thoracic artery bleed.
+The thoracic artery was ligated and hemothorax evacuated
+through a median sternotomy incision. The patient otherwise had an uncomplicated hospital course and was discharged on postoperative day 10.
+The median duration of clinical follow-up was
+15.7 months (IQR, 1-26.9 months) in the MVr/TVr group
+and 45.8 months (IQR, 3.5-51 months) in the MVr group.
+During this time, there were no required late reoperations,
+defined as beyond 30 days postoperatively. All patients
+had postoperative echocardiograms before discharge.
+Follow-up echocardiography beyond 6 months was available in 35 (46%) patients (25 patients in MVr/TVr group
+and 10 patients in the MVr group) with a median duration
+of 20 months (IQR, 15.4-32.4 months). During this time,
+in the MVr/TVr group, 12 patients had stable trivial or
+mild TR, 6 patients had improvement from moderate,
+
+Rowse et al
+
+Adult: Tricuspid Valve
+
+TABLE 2. Preoperative echocardiography
+Echocardiogram data
+
+Isolated MVr (n ¼ 19 [25%])
+
+Concomitant MVr/TVr (n ¼ 57 [75%])
+
+P value
+
+Ejection fraction (%)
+
+63.3
+
+.19
+
+Severe mitral valve regurgitation (%)
+
+N/A
+
+3 (15.7)
+16 (84.2)
+
+4 (7)
+44 (77)
+
+TR
+Mild TR
+Moderate TR
+
+N/A
+
+Severe TR
+TV annular diameter 40 mm
+TV leaflet prolapse
+RV size
+RV systolic function
+
+9 (15.7)
+
+6 (31.5)
+
+57 (100)
+
+N/A
+
+8 (14)
+
+N/A
+
+2 - Mild enlargement
+
+4 - Mild enlargement
+1 - Moderate enlargement
+
+N/A
+
+Preserved – All
+
+6- Mild RV systolic dysfunction
+3- Moderate RV systolic dysfunction
+
+N/A
+
+Values are presented as n (%) unless otherwise noted. MVr, Mitral valve repair; TVr, tricuspid valve repair; N/A, not available; TR, tricuspid regurgitation; TV, tricuspid valve; RV,
+right ventricular.
+
+mild, or trivial residual TR on dismissal echocardiogram to
+no residual regurgitation; 5 patients had improvement from
+mild residual TR on dismissal echocardiogram to trivial and
+1 patient had improvement from moderate residual TR on
+dismissal to no residual at the end of the follow-up period.
+Conversely, in the isolated MVr group, 1 patient had
+progression of trivial residual TR on dismissal to severe,
+1 patient had progression of mild residual TR on dismissal
+echocardiogram to moderate TR and 6 patients had stable
+mild or moderate TR and 2 patients had improvement
+
+from of mild residual TR on dismissal to trivial at the end
+of the follow-up period (Figure 1). The immediate postoperative ejection fraction declined after repair of TR and
+MR but then gradually improved to near normal levels in
+both the MVr/TVr as well as the isolated MVr group over
+the follow-up period (Figure 2).
+DISCUSSION
+The present study reports a single-center experience with
+comparative outcomes of concomitant robotic-assisted
+
+TABLE 3. Operative characteristics
+Operative data
+
+Isolated MVr
+(n ¼ 19 [25%])
+
+Concomitant MVr/TVr
+(n ¼ 57 [75%])
+
+P value
+
+Median crossclamp time (min)
+
+55.4 (43.5, 66)
+
+91 (81, 99)
+
+<.0001
+
+Cardiopulmonary bypass time (min)
+
+85 (60.5, 98.5)
+
+130.6 (117, 143)
+
+<.0001
+
+18 (94.7)
+1 (5.3)
+
+39 (68.4)
+6 (10.5)
+12 (21)
+
+17 (89.47)
+
+40 (70.17)
+2 (3.5)
+3 (5.2)
+12 (21)
+
+Mechanism of mitral valve regurgitation
+Posterior leaflet prolapse
+Anterior leaflet prolapse
+Bileaflet prolapse (Barlow’s-type valve)
+Mitral valve repair technique
+Leaflet “partial” resection and posterior annuloplasty
+Artificial neochord and annuloplasty
+Leaflet “partial” resection, neochord, and posterior annuloplasty
+Posterior annuloplasty alone
+
+.19
+
+.4
+
+2 (3)
+
+Tricuspid valve repair technique
+Annuloplasty
+26- or 28-mm C-shaped partial ring
+63-mm flexible band
+DeVega suture annuloplasty
+Concomitant procedures
+Suture closure - left atrial appendage
+Cox maze IV
+Closure of patent foramen ovale
+
+N/A
+56 (98.3)
+5 (8.7)
+51 (89.4)
+1 (1.7)
+2 (3)
+1 (5.3)
+2 (3)
+
+20 (35)
+17 (29.8)
+9 (15.7)
+
+.02
+.01
+.28
+
+Values are presented as median (interquartile 1, 3) or n (%). MVr, Mitral valve repair; TVr, tricuspid valve repair; N/A, not available.
+
+JTCVS Open c Volume 22, Number C
+
+Adult: Tricuspid Valve
+
+Rowse et al
+
+TABLE 4. Postoperative outcomes
+Isolated MVr (n ¼ 19 [25%])
+
+Concomitant MVr/TVr (n ¼ 57 [75%])
+
+P value
+
+Intensive care unit (h)
+
+21.5 (18-31.75)
+
+22.3 (15.3-25.7)
+
+.27
+
+Hospitalization (d)
+
+4 (3-5)
+
+4 (3-5)
+
+.2
+
+Readmission to intensive care unit
+
+1 (5.3)
+
+3 (5.2)
+
+N/A
+
+Early complications
+New perioperative atrial fibrillation
+Atrial fibrillation beyond 30 d
+Complete heart block
+Postoperative dialysis
+Creatinine (mg/dL)
+Limb ischemia
+Reoperation
+Operative mortality
+
+9 (47)
+3 (15.8)
+0.973
+1 (5.3)
+
+11 (19.2)
+4 (7)
+1.0
+
+.04
+
+Clinical outcomes
+
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+
+Values are presented as median (interquartile range) or n (%). MVr, Mitral valve repair; TVr, tricuspid valve repair; N/A, not available.
+
+MVr and TVr versus isolated robotic-assisted MVr for patients with degenerative MR and known functional TR.
+We found that short-term clinical outcomes between the
+2 groups were similar with acceptable low morbidity, excellent survival, and early freedom from reoperation when
+performing concomitant TVr during planned robotic MVr
+among patients with moderate or greater TR and/or significant tricuspid annular dilatation (40 mm).
+Functional regurgitation of the TV commonly occurs as a
+result of left-sided heart valve disease and has historically
+been managed conservatively despite an association with
+significant morbidity and mortality.12,13 In general, the
+tricuspid leaflets in patients with functional TR are morphologically normal. Thus, significant annular dilatation (with
+or without leaflet tethering) is the usual mechanism that
+leads to inadequate leaflet coaptation resulting in varying
+degrees of central regurgitation. Like the MV, the TV has
+a complex anatomic structure that includes a saddleshaped annulus that changes shape in systole and diastole,
+3 leaflets, chordae and papillary muscles, and underlying
+
+crescent-shaped right ventricular myocardium. Competency of the TV depends on interplay of all components
+as well as loading conditions (preload/afterload). Thus,
+functional TR is highly dynamic and may vary widely in
+the same patient depending on volume loading and hemodynamic conditions. As such, TR may distinctively be
+downgraded in fasting patients under general anesthesia.
+Assessment of the degree of annular dilatation as an indicator for TVr was initially described by Carpentier and
+colleagues14 who compared valve leaflet surface area with
+the annular diameter. Dreyfus and colleagues15 later popularized an intraoperative measurement of 70 mm as a
+threshold for valve repair. The current consensus echocardiographic guideline threshold defines significant tricuspid
+annular dilatation as an end-diastolic diameter of 40 mm (or
+>21 mm/m2), and this has been supported by several
+retrospective series.7
+Growing evidence suggests that functional TR does not
+completely resolve after successful mitral repair.13 In fact,
+mild or moderate degrees of functional TR have been shown
+
+100%
+
+100%
+
+75%
+
+75%
+
+50%
+
+50%
+
+25%
+
+25%
+
+0%
+
+Pre-Op
+Severe
+
+Post-Op
+TR severity
+Moderate
+
+Mild
+
+A
+
+0%
+
+Follow-Up
+Trivial
+
+None
+
+Pre-Op
+Severe
+
+Post-Op
+TR severity
+Moderate
+
+Mild
+
+Follow-Up
+Trivial
+
+None
+
+B
+
+FIGURE 1. Severity of tricuspid regurgitation. A, Concomitant mitral valve repair/tricuspid valve repair group. B, Isolated mitral valve repair group. PreOp, Preoperative; Post-Op, postoperative.
+
+JTCVS Open c December 2024
+
+Rowse et al
+
+Adult: Tricuspid Valve
+
+Ejection Fraction
+
+Post-Op
+
+Pre-Op
+time
+
+Pre-Op
+
+Post-Op
+
+Follow-Up
+Follow-Up
+
+FIGURE 2. Ejection fraction of concomitant mitral valve repair/tricuspid valve repair group and isolated mitral valve repair group. Pre-Op, Preoperative;
+Post-Op, postoperative.
+
+to be progressive over time in approximately 25% of patients with corrected left-sided valve disease. Additionally,
+poor late survival and a declination in functional outcomes
+have been reported with this phenomenon.16 Independent
+risk factors for worsening late onset TR after successful
+left-sided valve surgery have been identified. These include
+significant tricuspid annular dilatation (end-diastolic diameter 40 mm or 21 mm/m2), right heart dilation/dysfunction,17 AF,18 pulmonary hypertension,19 longer time from
+onset of mitral valve disease to surgery,20 and prosthetic
+valve dysfunction.21 Results from a recent randomized
+controlled trial proposes a more aggressive stance toward
+combined TVr for moderate or less-than-moderate TR
+with associated significant tricuspid annular dilatation at
+the time of MVr for degenerative disease. In that study, patients who underwent combined TVr/MVr enjoyed
+improved short-term survival (2-year) and a lower incidence of TR progression or tricuspid reoperation compared
+with those who had only TVr alone.22 Nevertheless, despite
+these findings, as well as standard guideline recommendations, the frequency of combined TVr at the time of MVr
+is ambiguous and may range from 5% to 75%.1,23
+In many ways, TVr can be as challenging as MVr with
+more fragile leaflet/annular tissue and the severity of right
+heart dilatation can make successful leaflet coaptation and
+competency more difficult. Additionally, TV surgery
+carries intrinsic risk with coronary and/or conduction tissue
+injury. In general, banded annuloplasty, as opposed to suture annuloplasty, is the preferred approach for annular
+reduction in patients with functional TR given improved
+durability.24 We have previously reported our technique
+for open TVr.25 Exact replications of each step of conventional “open” TVr with the robotic platform was followed
+in the present study to replicate traditional repair techniques
+
+and outcomes. In open cases, we typically use a 26-mm partial ring routinely and a 28-mm partial ring in larger patients
+(>100 kg). However, in the present series, we primarily
+used a 63-mm band (89% of cases) given ease of band flexibility and implantation. The annuloplasty technique we
+follow begins at the anteroseptal junction and moves clockwise along the anterior and inferior annulus. The last stitch
+is pledgeted and anchored into the ostium of the coronary
+sinus thus avoiding extending the band across the septal
+annulus thereby minimizing potential injury to the conduction tissue. Additionally, we believe anchoring the band in
+the coronary sinus ensures that the band stays intact,
+whereas more superficial bites at or near the inferoseptal
+junction are susceptible to dehiscence.
+Since the introduction of robotic techniques for MVr in
+the late 1990s by Carpentier, Nifong, and Chitwood,
+robotic-assisted MVr has been established as safe, effective,
+comparable, and durable approach for degenerative disease.26-28 Unfortunately, safety, efficacy, and overall
+results of combined robotic-assisted MVr and TVr have
+not been rigorously evaluated and widespread adoption of
+such techniques are still forthcoming. Among the earliest
+reports of robotic MV and TV work was by Jones and colleagues.29 In that study of 32 patients with roboticassisted MVr, only 4 had concomitant TVr and 1 of those
+patients experienced early hospital mortality. Mori and colleagues30 found a 5.8% rate of concomitant TV repair in
+degenerative MR using the robotic platform, compared
+with a 16% rate during a sternotomy approach in a matched
+cohort. Critics of the robotic approach suggest that surgeons
+may not as frequently perform concomitant TVr due to the
+added complexity of the procedure. In our study, there was a
+significant increase in cardiopulmonary bypass and crossclamp time in the concomitant group. However, nearly all
+JTCVS Open c Volume 22, Number C
+
+Adult: Tricuspid Valve
+
+patients (17 out of 18) with preoperative AF in the combined MVr/TVr group underwent concomitant Cox-maze
+procedure, whereas only 1 out of 5 patients in the isolated
+MVr group had preoperative AF and received treatment.
+Additionally, more complex mitral pathologies, including
+bileaflet prolapse, were more prevalent in the concomitant
+MVr/TVr group. These factors contribute to the observed
+differences in cardiopulmonary bypass and ischemic times.
+In 2014, Lewis and colleagues31 reported 1 of the largest series of 50 patients with combined robotic-assisted MV and
+TV interventions. These were carefully selected patients
+with relatively straightforward valve pathology (functional
+MR and TR) amenable to simple repairs. They showed
+improvement in crossclamp and bypass times over a
+5-year period with acceptable surgical results and low mortality (2 early reoperations and 2 deaths in the cohort).
+In the present study, we show that concomitant roboticassisted TVr can be applied in settings of more complex
+MV disease: >30% of MVrs in the cohort were composed
+of either anterior leaflet or bileaflet (Barlow’s type) pathologies. We also add to the repertoire of additional concomitant procedures such as closure of patent foramen ovale, left
+atrial appendage closure, and maze procedures that were
+performed in up to one-third of patients with no added
+risk of morbidity. In comparison to isolated roboticassisted MVr, our findings affirm that robotic MVr and
+TVr do not adversely influence quality outcomes and excellent short-term survival and freedom from reoperation can
+be obtained and expected.
+There are several potential advantages of adopting
+robotic-assisted MVr and TVr versus sternotomy or even
+thoracoscopic approaches. First, surgical dexterity with
+the robot is significantly enhanced as compared with the
+fulcrum effect that limits more precise movements when
+utilizing endoscopic instruments with a long shaft. Highdefinition and 3-dimensional visualization allows robotic
+surgeons unparalleled visibility and maneuverability within
+the atrial chambers. Superior cosmesis and improved postsurgical outcomes have been reported, including shorter
+length of hospitalization/intensive care unit time, and fewer
+wound infections.32 Reduced surgical trauma from avoidance of sternotomy has translated into reduced requirements of heterologous blood products, fewer incidences
+of postoperative AGF, and improvement in postoperative
+pain.33 Experienced robotic MVr groups have reported
+collectively on several thousands of patients with hospital
+mortality rates <0.9%, stroke rate of 0.6% to 1.7%, and
+re-exploration for bleeding of 2.2% to 4.7%. Further, total
+hospital cost associated with robotic-assisted valve repair
+has been reported to be similar to that of conventional sternotomy ($30 606 vs $31 310), in high-volume centers.8,34
+The limitations of the present study include a retrospective study design within a single center with inherent selection bias of patients and procedures. Nearly all patients (17
+
+JTCVS Open c December 2024
+
+Rowse et al
+
+out of 18) with preoperative AF in the MVr/TVr group underwent the Cox-maze procedure, whereas only 1 out of 5
+patients in the isolated MVr group had preoperative AF
+and received treatment. Additionally, bileaflet prolapse
+was more common in the concomitant MVr/TVr group.
+These factors contribute to the observed differences in cardiopulmonary bypass and ischemic times. Echocardiographic findings were present in all patients at the time of
+hospital dismissal but were not present for all patients during the follow-up period. All robotic procedures were performed by experienced surgical teams and consequently,
+these findings may not be readily generalizable.
+CONCLUSIONS
+Our study demonstrates that concomitant roboticassisted TVr at the time of MVr in patients with moderate
+TR and/or significant annular dilatation can be performed
+safely and effectively with acceptable low morbidity and
+mortality. Longitudinal follow-up is warranted to validate
+these findings over an extended period of time.
+Webcast
+You can watch a Webcast of this AATS meeting presentation by going to: https://www.aats.org/resources/is-conco
+mitant-tricuspid-valve-7065.
+
+The authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling manuscripts for which they may have a conflict of interest. The
+editors and reviewers of this article have no conflicts of
+interest.

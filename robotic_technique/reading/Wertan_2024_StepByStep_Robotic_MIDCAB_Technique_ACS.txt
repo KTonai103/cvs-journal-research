@@ -1,0 +1,677 @@
+Art of Operative Technique
+
+Step-by-step technique of robotic-assisted minimally invasive
+direct coronary artery bypass
+MaryAnn C. Wertan1#, Serge Sicouri2#, Yoshiyuki Yamashita1,2, Massimo Baudo2, Trisha A. Senss1,
+Danielle Spragan1,2, Gianluca Torregrossa1,2, Francis P. Sutter1
+
+Department of Cardiac Surgery, Lankenau Medical Center, Main Line Health, Wynnewood, PA, USA; 2Department of Cardiac Surgery Research,
+
+Lankenau Institute for Medical Research, Main Line Health, Wynnewood, PA, USA
+#
+
+These authors contributed equally to this work as co-first authors.
+
+Health, 100 Lancaster Avenue, 356 Lankenau, MOB East, Wynnewood, PA 19096, USA. Email: WertanM@mlhs.org.
+
+Coronary artery bypass grafting (CABG) is the treatment of choice for coronary artery disease. The
+traditional method of performing CABG via a full sternotomy has its drawbacks, including increased
+postoperative morbidity, a higher incidence of complications, and extended hospitalizations. Although
+minimally invasive and robotic-assisted technology offer promising alternatives, they have not gained wide
+acceptance, largely because of the limited amount of literature supporting hybrid and robotic-assisted
+CABG. Since 2005, Lankenau Heart Institute’s cardiothoracic surgical team has been developing and
+refining for selected patients a method for coronary revascularization that involves robotic harvesting of the
+left internal mammary artery (LIMA) and beating heart surgery through a limited minithoracotomy. This
+technique precisely places the robotic endoscopic port over the target site of the left anterior descending
+(LAD) artery. The LIMA is harvested using the enhanced visualization and precision of the robotic platform.
+The robotic instruments are then removed, and the endoscopic port site is slightly enlarged to become the
+minithoracotomy, allowing for LIMA-to-LAD anastomosis. The other two robotic ports are used for drains,
+eliminating the need for additional incisions. The method has been used in over 2,850 patients. This article
+describes in detail our standardized technique for robotic-assisted minimally invasive direct coronary artery
+bypass (R-MIDCAB).
+Keywords: Robotic coronary artery bypass grafting (robotic CABG); minimally invasive direct coronary artery
+bypass (MIDCAB); thoracotomy; cardiac surgery; precision incision
+
+Introduction
+The benefit of grafting the left internal mammary artery
+(LIMA) to the left anterior descending artery (LAD) is
+thoroughly established (1). Several techniques, including
+minimally invasive and off-pump techniques, have emerged
+to accomplish LIMA to LAD (2-4). Cardiothoracic surgeons
+are advancing surgical techniques and driving technology
+to reduce patient suffering and improve patient quality of
+life (5-11). Recent studies over a 15-year period show that
+robotic-assisted minimally invasive direct coronary artery
+bypass (R-MIDCAB) and hybrid coronary revascularization
+
+(HCR) combined with percutaneous coronary intervention
+(PCI) provide good long-term outcomes in patients and
+provide an additional overall cost-benefit over traditional
+sternotomy coronary artery bypass grafting (CABG)
+secondary to decreased postoperative length of stay (12-16).
+Our technique entails the robotic harvest of one or
+both internal thoracic arteries using the da Vinci® Surgical
+System (Intuitive Surgical ® Inc., Sunnyvale, CA, USA)
+followed by direct LAD bypass through a minithoracotomy
+using the OCTOPUS® NUVO tissue stabilizer (Medtronic,
+Inc., Minneapolis, MN, USA). The ‘precision incision’
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+Figure 1 Three landmarks coordinate system for the precision
+incision. LIMA, left internal mammary artery.
+
+enables this procedure, which is mapped using three
+coordinates (5). The term is employed due to its reliable
+precision in identifying the optimal endoscopic port
+location, which allows for an unobstructed LIMA takedown
+and subsequent minithoracotomy site that provides clear
+and direct visualization for bypass grafting. This article
+describes in detail our standardized technique for robotassisted coronary revascularization via minithoracotomy.
+Methods
+Critical step—building the team
+The initial step is to assemble a dedicated team that will
+collaborate on all robotic cases (one team!). Achieving
+success in the operating room requires strong commitment,
+coordination, and communication from every member of the
+surgical team. It’s not just the surgeon who needs to master the
+use of the robot, but anesthesiologists and all surgical assistants
+must also become adept with new tasks, frequent instrument
+changes, the implications of CO2-induced alterations in the
+thoracic cavity, single right lung ventilation, and the crucial
+importance of anticipating or correcting the causes of robotic
+arm restrictions and movement limitations. Incremental
+learning is the key to success in all phases of this operation.
+
+Step 1: patient positioning
+Maintaining normothermia is a top priority and should
+be achieved before anesthesia induction and maintained
+throughout the entire operation. Additionally, external
+defibrillator pads should be applied to the patient, with
+one placed anteriorly over the right pectoralis major and
+the other posteriorly beneath the heart. The patient is
+positioned on the operative table with the left side aligned
+along the table’s edge, allowing the left shoulder to
+slightly overhang. This arrangement ensures unrestricted
+movement of the upper thoracic robotic arm. Occasionally,
+the upper robotic arm may encounter difficulty reaching
+the inferior part of the chest cavity due to the shoulder
+limiting its range of motion. However, advancing the trocar
+in the chest cavity or gently pressing on the left shoulder
+can enhance the arm’s maneuverability. Similarly, applying
+gentle pressure on the costal margin can improve the lower
+robotic arm’s movement as it extends superiorly into the
+chest. To safeguard the left arm, silicone padding is wrapped
+around the elbow, and a double-layered drawsheet is used as
+a sling to secure the limb alongside the patient. The right
+arm, also wrapped in silicone padding, is positioned securely
+on a slightly abducted arm board in the anatomical position.
+It has been observed that abducting the right arm, rather
+than adducting it, reduces postoperative numbness in the
+right upper extremity. This is because when the table tilts
+right-side down, the abdominal pannus tends to rest on the
+right arm. Each case is thoroughly prepared and draped to
+allow for seamless conversion to sternotomy, if necessary.
+Step 2: the precision minithoracotomy incision
+The precision minithoracotomy incision is located using a
+three-coordinate, standardized, step-by-step approach (5).
+The success of robotic-assisted LIMA to LAD bypass
+grafting via minithoracotomy depends on accurately placing
+the endoscopic port. The endoscopic port site for LIMA
+takedown will eventually serve as part of the thoracotomy
+site used for performing direct coronary anastomosis. To
+ensure a precise incision, mark the following landmarks on
+the applied Ioban 2 Antimicrobial Incise Steri-Drape (3M™,
+St. Paul, MN, USA) with a marking pen before making
+the incision: the sternal midline, the location of the LIMA,
+and the anterior edge of the diaphragm. The diaphragm is
+situated at the level where the lower edge of the sternum
+meets the xiphoid process. The final skin marking is critical
+and is determined by combining these three landmarks,
+resulting in an accurate incision (Figure 1). It is important to
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Wertan et al. Step-by-step robotic-assisted MIDCAB
+
+Figure 2 Coordinate 1 marking on the long thoracic axis.
+
+Figure 3 Precision incision adjustment according to coordinate 3.
+
+understand that this precise incision for the endoscopic port
+and subsequent thoracotomy site is typically based on these
+three coordinates rather than on a specific intercostal space
+or anatomic landmark, such as the midclavicular, or axillary
+lines. Although computed tomography scanning has been
+discussed in the literature as an alternative for mapping
+these three coordinates (5), we have found that it does not
+provide significant additional information compared to a
+
+standard antero-posterior and lateral chest X-ray (CXR).
+Coordinate 1
+For optimal camera placement and to ensure equal access
+and visibility to both the proximal and distal LIMA, align
+the endoscopic port along the chest’s longitudinal axis,
+(Figure 2), marking the midpoint between the suprasternal
+notch and the xiphoid process.
+Coordinate 2
+The endoscopic port should be aligned along the short
+(medial/lateral) axis. To orient the endoscopic port, begin
+by consulting the preoperative CXR to estimate the
+proportion of the hemithorax occupied by the cardiac
+silhouette. The distal portion of the LAD aligns to the
+heart’s apex, which in turn corresponds to the lateral edge
+of the cardiac silhouette on the CXR. Use this information
+to measure laterally from the mid-sternum and mark the
+skin. The cardiac silhouette can occupy anywhere from
+40% to 100% of the left hemithorax. It is crucial to mark
+the Ioban chest drape precisely, using the left lateral bony
+thorax (rather than the lateral skin or fat) and the midline
+sternum as the boundaries of the hemithorax. Once the
+first and second coordinates are aligned, the mark is often
+located at the level of the nipple. As a rule, in a lean male,
+at the level of the nipple, the LAD target is approximately
+70–80% down the distal LAD. In a heavier male, the breast
+mound is gently pulled toward the right shoulder with a
+3M™ Steri-Drape. Conversely, the female breast is gently
+pulled laterally and flattened superiorly with Steri-Drape.
+The incision on the female breast is ultimately in its left
+lower inner quadrant.
+Coordinate 3
+Ensure that the anastomotic target on the LAD is clearly
+defined as either proximal, mid, or distal LAD. Use only
+coordinates 1 and 2 to position the endoscopic port over
+the mid-distal LAD. If the bypass target is more proximal
+or distal, it may require going an intercostal space above
+or below, respectively (Figure 3). A helpful tip is that for
+grafting more proximal LADs or the first diagonal/ramus
+intermedius, the incision should be positioned more
+medially. When applying the coronary stabilizer, it is
+important to note that the heart can be displaced inferiorly
+and medially about one inch in each direction but does not
+shift superiorly or laterally. Generally, the incision is below
+the nipple in male patients.
+Step 3: endoscopic port placement
+When placing the endoscopic port (Figure 2), it is important
+to remember that the heart could be just beneath the port
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+Figure 4 Longitudinal alignment of the three robotic ports.
+
+Anesthesia should always be alerted before attaching the
+CO2 as it causes physiologic changes similar to a “tension
+pneumothorax”. Usually 8–10 cm of CO2 pressure, but up
+to 14 cm can be used without difficulty. The space created
+using CO 2 pressure is important for proper operative
+visualization, robotic arm mobility, and instrument changes.
+After placing the endoscope and instruments, another way
+to increase the anterior/posterior operative space is to
+release the medial and anterior pericardial fat attachments
+from the chest wall. This allows the CO2 to push the heart
+more posteriorly.
+
+placement site. To avoid undue injury, recheck lateral CXR
+or computed tomography (CT) scan views for the heart’s
+anterior position. It is crucial to take care and avoid injury
+to the heart.
+Discontinue ventilation and positive end-expiratory
+pressure (PEEP), place a Veress needle superiorly at the
+midclavicular line; this allows CO2 insufflation to retract the
+heart posteriorly and medially from chest wall. Also, during
+port insertion, pay close attention to the electrocardiogram
+for changes as the tip of the obturator is passed through the
+chest wall. If the obturator is touching the heart, ensure that
+anesthesia has turned off the ventilator and intrathoracic
+CO2 is present. If electrocardiogram (ECG) changes [e.g.,
+premature ventricular contractions (PVCs)] persist and
+heart is too close; consider another 8 mm port attempt
+more laterally. If there is concern that the heart is against
+the chest wall, it may be better to insert a finger first. Of
+note, it should be realized that one’s finger may increase the
+overall endoscopic port size which may cause subsequent
+increased loss of CO2.
+The placement of the two additional ports for robotic
+surgery should be done under endoscopic guidance,
+ensuring they are aligned longitudinally in a straight line
+(Figure 4). These ports should be positioned 8–10 cm
+(approximately four fingerbreadths) above and below the
+endoscopic port, as the bony thorax allows. The bony
+thorax near the costal margin may sometimes necessitate
+positioning the lower port further posteriorly, which, though
+less ideal, seldom leads to significant instrument collisions
+with the camera (Figure 4). The lower port is used to elevate
+the bony thorax, thereby expanding the space between the
+pericardium and the anterior chest wall for the procedure.
+However, the upper port can only gently “burped”,
+as too much pressure during a lift will tear through
+intercostal muscles inferiorly along the line of the rib.
+
+Step 4: opening the pericardium
+The pericardium is opened before LIMA harvest to prevent
+inadvertent damage caused by pressure on the internal
+mammary artery (IMA) from robotic instruments, while
+the surgeon is focusing on opening the pericardium with
+the heart beating. There is a protective barrier of fat and
+muscle over the IMA in situ, versus harvesting first and
+having the IMA loosely suspended during pericardial
+opening which risks injury. When opening the pericardium,
+we use monopolar scissors and bipolar cautery. Using
+monopolar cautery too close to the heart may cause
+ventricular arrhythmias. In fact, ventricular tachycardia/
+fibrillation can occur when opening the pericardium and
+working close to the heart. Should an arrhythmia occur, the
+bedside team should remove all robotic instruments. For
+the most efficient defibrillation, anesthesia always keeps
+lidocaine hydrochloride (HCL) 100 mg out of the package
+and ready to inject. Additionally, it is best to reinflate the
+left lung. The circulator nurse simultaneously turns on the
+defibrillator to max joules and shocks as soon as possible
+(note, this should be part of routine drill, as max joules are
+not the rule in open cases).
+By rotating the scope 90 degrees and directing it
+inferiorly, you can visualize the posterior pericardium.
+This area, located posterior to the phrenic nerve and free
+of fat, can be opened to facilitate the drainage of any blood
+that may accumulate during the anastomosis (Figure 5A).
+While this step is not essential, it helps manage potential
+bleeding from the chest wall, around the intracoronary
+shunt, or minor injuries to epicardial veins caused by the
+stabilizer. Next, the anterior pericardial fat is retracted
+laterally, and the anterior pericardium is opened just
+lateral to where the pulmonary artery is seen through the
+pericardium and over the left ventricle (Figure 5B). If any
+injury were to occur during opening the pericardium, injury
+to the left ventricle is better tolerated than injury to the
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Wertan et al. Step-by-step robotic-assisted MIDCAB
+
+A
+
+B
+
+Figure 5 Intraoperative pericardial incisions. (A) Posterior phrenic pericardiotomy to drain any blood that may accumulate during the
+anastomosis; (B) anterior pericardial incision to identify the LAD target. LAD, left anterior descending.
+
+right ventricle or injury to the pulmonary artery. Continue
+making the pericardial incision directly over the LAD to
+the diaphragm and proximally over the mid pulmonary
+artery to the aorta. Avoid making lateral incisions at the
+apex of the pericardium, as this can cause the heart to shift
+either laterally out of pericardium or upwards on its edge.
+Opening the pericardium widely serves three purposes:
+(I) A broad pericardial incision ensures that the
+pericardial fat and the pericardial edge do not
+obstruct the view, especially when working through
+a small incision. This focus on the target minimizes
+the need for a larger thoracotomy to improve
+exposure.
+(II) A wide pericardial opening enhances safety by
+reducing the risk of tamponade after the procedure.
+(III) Finally, it ensures adequate drainage from the right
+side of the pericardium, addressing issues such as
+delayed inflammatory right sided atrial tamponade
+early in our experience.
+When completed, the next step is to identify the target
+site of the LAD, hopefully beneath the endoscopic port.
+The optimal view of the target is achieved by aiming the
+endoscope slightly inferior and medial. This is because,
+upon removal of the robotic instruments with associated
+CO 2 loss, the target will move superiorly and laterally,
+potentially by an inch or more in both directions. Next,
+place three small titanium Weck ® Hemoclips (Teleflex
+Medical, Research Triangle Park, NC, USA) are placed
+in the epicardium using the small clip applier to mark
+the LAD target site. This will ensure that the target can
+be easily identified, and not confused with other vessels,
+when looking into the small thoracotomy. For reassurance,
+three hemoclips are placed, as it is difficult to obtain deep
+
+penetration into the epicardium without causing bleeding,
+and the superficial clip bites tend to fall off easily.
+Step 5: LIMA harvest
+It is important to constantly monitor the ‘pulsatility’ of
+the LIMA.
+To start the robotic-assisted mammary takedown, employ
+the micro-bipolar forceps and permanent cautery spatula,
+with Intuitive Surgical ® cautery at Classic 1 or Swift at
+1–2. These settings help minimize the risk of damaging the
+LIMA. Higher wattages could burn a through the LIMA,
+whereas the specified settings are designed to cause only
+superficial, non-penetrating injuries. If bleeding is noted
+from avulsing collateral arteries or directly from the ITA,
+the use of a 7/0 Pronova suture (Ethicon, J&J, Raritan,
+NJ, USA) is the best next step to attempt containing the
+bleeding. Start the dissection where the LIMA is most easily
+seen, usually proximally. Next, determine the course of the
+LIMA by removing parietal pleura, layers of fat and muscle
+over the posterior LIMA. Seeing the entirety of the LIMA
+course leads to safer dissection. If significant fat is seen,
+remove the fat layers first. Then, dissect the endothoracic
+fascia on the posterior LIMA wall. The area on the
+posterior wall of the LIMA has few if any branch vessels.
+After removal of multiple layers, any serpiginous
+coursing of the LIMA can be seen, further reducing the
+chance of LIMA injuries. Begin skeletonization distally, at
+the bifurcation, and proceed proximally. Circumferential
+dissection is best accomplished by incising the medial
+attachments first. Starting the LIMA dissection distally
+reduces the risk of bleeding from veins on either side of the
+LIMA. Our early experience showed that circumferential
+dissection proximal to distal led to increased venous
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+nerve allows visualization of its course beneath the layer
+of fat superiorly. There are few bifurcating branches off
+the LIMA, however, frequently it is found approximately
+2 cm short of the phrenic and IMA intersection. These
+bifurcating branches extend medially and posteriorly, which
+are difficult to see; thus, extra effort is needed to secure
+these branches.
+
+Figure 6 Left internal mammary robotic harvesting (clipping
+collaterals).
+
+bleeding. The principle of avoiding “dissecting into a
+hole” is a general surgical rule that also applies to roboticassisted IMA takedown. The dissection should proceed
+with a gradual ascent anteriorly along the distance of the
+IMA rather than complete circumferential dissection at
+one area. When skeletonizing the IMA, it’s beneficial to
+keep some anterior attachments of the LIMA to the chest
+wall. This approach helps suspend the artery and protect it
+from accidental injury from a robotic arm. Manipulation of
+the IMA can lead to spasticity and increase the risk of clot
+formation, so preserving some of the larger distal branches
+can maintain better blood flow through the IMA and
+mitigate the procoagulant effects of manipulation. Avoid
+excessive traction or force, as the absence of haptic feedback
+can inadvertently lead to dissection of the LIMA wall.
+Ensuring that the LIMA remains a functional, pulsatile
+conduit is essential for successful CABG surgery.
+Control any bleeding meticulously as blood can stain the
+tissue, making further dissection more difficult. Branches
+of the LIMA can be anywhere but expect them on both
+sides of each rib. Some surgeons primarily cauterize most
+branches and clipping only large branches. However,
+this surgeon prefers to clip the ‘branches’ proximally and
+cauterize distally (Figure 6). The dissection is complete
+proximally near the takeoff of the subclavian, but at a safe
+distance distal to the phrenic nerve which is intimately
+associated with the origin of the IMA.
+Importantly, avoid risking injury to the phrenic nerve.
+If the phrenic nerve is obscured by fat, applying gentle
+downward pressure over the expected site of the phrenic
+
+Step 5a: bilateral IMA harvest
+When harvesting both IMAs, start with the right IMA first.
+Position the upper port slightly more inferior and lateral
+than the usual to prevent injury to the LIMA. Use caution,
+as manipulating instruments upwards can exert substantial
+pressure on the LIMA while dissecting the proximal right
+IMA. During the initial dissection across the sternum
+towards the right IMA, ensure you maintain a dissection
+plane directly along the posterior sternal border.
+Step 6: preparing for LIMA to LAD
+The patient’s target heparinization should reach an
+activated clotting time of 300 seconds. A VG solution spray
+(2.5 mg verapamil, 1.25 mg nitroglycerin, 250 units heparin,
+0.1 mL sodium bicarbonate, 150 mL ringer’s solution) is
+introduced via a #8 pediatric feeding tube through the lower
+port, and further dilates the LIMA. With the majority of
+LIMA dissection completed, but with IMA still minimally
+attached to the chest wall, detach a small distal segment
+of the LIMA, and tack the LIMA to the LAD target site
+using the ends of the 7-0 suture approximated with four
+Weck® hemoclips. A skeletonized LIMA will always rotate
+in a clockwise direction if not tacked to the epicardium.
+Although a pedicle graft is less likely to rotate, you will not
+know if this rotation occurs due to limited visualization
+through the minithoracotomy; hence, the tacking stitch
+is critically important. Another option is to clip the distal
+LIMA to the edge of the pericardium at the level of the
+LAD target location. Free the remaining IMA from the
+chest wall, clip and transect at the IMA bifurcation. At this
+time heparinization is warranted before transecting the
+LITA.
+During port removal, carefully inspect all dissection areas
+and port sites for bleeding, as it is challenging to address
+any issues once the robotic ports are fully withdrawn. The
+final step with the robot involved inserting a clamped 19-F
+silastic flexible Blake drain (Ethicon) through the upper
+port, positioning it over the apex of the lung, and securing it
+in place (Figure 7). This drain will remove both air and fluid
+postoperatively. While the Blake drain can also be manually
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Wertan et al. Step-by-step robotic-assisted MIDCAB
+
+Figure 7 Minithoracotomy precision incision and upper chest
+drain placement.
+
+inserted at the end of the case, be mindful of the heart’s
+proximity.
+Step 7: creating the precision incision
+The incision can be any size, 4–12 cm, for surgeon
+comfort. The major benefit for patients is the less invasive
+robotic-assisted IMA harvest, not necessarily the size of
+the incision (Figure 7). TRS small ThruPort™ System
+soft tissue retractor (Edwards Lifesciences® Corp., Irvine,
+CA, USA), or the Alexis® Wound Protectors/Retractors
+(Applied Medical, Rancho Santa Margarta, CA, USA) is
+oriented within the converted endoscopic port/thoracotomy
+(Figure 8A). A width of at least two fingerbreadths is needed
+to introduce a TRS small ThruPort™ soft tissue retractor.
+Using a headlight and with a small appendectomy retractor,
+examine the markers/epicardial clips near the target site
+through the endoscopic port incision. Depending on the
+location of the target, adjust the endoscopic port/thoracotomy
+by extending it medially or laterally as needed. Keep in mind
+that it is always easier to move the heart medially.
+Make sure that the LIMA does not get caught in the soft
+tissue retractor by inspecting the chest before securing the
+adhesive ends. The OCTOPUS® NUVO tissue stabilizer
+has two components, which are visible separately in the field
+and subsequently connected within the minithoracotomy
+site. To stabilize the heart on the pericardium, place
+traction sutures on the lateral edge of the pericardium
+and pull them through the skin using a crochet hook via a
+14-gauge angiocatheter. These sutures can help move the
+
+heart medially and keep the lung clear of the surgical area.
+The previously placed 7-0 tacking stitch to IMA prevents
+the IMA from twisting. Because there is significant slack in
+the LIMA conduit, another 7-0 suture should be used to
+retack the LIMA to the epicardium to effectively reduce the
+redundancy.
+The positioning of the OCTOPUS ® NUVO tissue
+stabilizer requires careful forethought (Figure 8).
+(I) To ensure safe placement, insert your finger into
+the thoracotomy first and guide any instruments
+inserted through the lower port into your visual
+field. Use a long Kelly forceps clamp to gently
+pull the tubing of the tissue stabilizer retrograde
+through the precision incision and back out
+through the lower robotic port to attach to suction.
+Gently place the NUVO tissue stabilizer into the
+minithoracotomy (Figure 8A).
+(II) Similarly, again, place the long Kelly clamp to
+make for easier insertion of the large OCTOPUS®
+NUVO pole into the chest cavity. Guide the pole
+from the lower port site to the minithoracotomy
+site with your fingertip to prevent damaging
+the heart. Given the heart’s proximity to chest
+wall, this precaution cannot be overemphasized.
+Assemble the pole and stabilizer within the chest
+while looking through the minithoracotomy site
+(Figure 8B). Once everything is in place, secure the
+coronary artery.
+A helpful tip is to proactively fashion angled small
+Bulldog® clamps (Teleflex Medical, Research Triangle Park,
+NC, USA) with a string for ease of retrieval in the event of
+misplacement during anastomosis.
+Step 8: anastomosis on the beating heart
+Under direct visualization, position the suction stabilizer on
+the beating heart and secure the blunt-tip SaddleLoop 1541
+(Quest Medical, Inc., Allen, TX, USA) around the proximal
+LAD, trimming away any surplus tape (Figure 9). Proceed
+with the dissect of the LAD target. It is preferred to use an
+under-sized coronary shunt should ischemia suddenly be
+an issue and so not damage the intima of the LAD during
+placement. Most anastomoses are performed using a 7-0
+Prolene polypropylene suture (Ethicon, J&J). The suturing
+starts with three knots tied at the heel and ends midpoint
+on the medial side of the anastomosis. A nerve hook is used
+to tighten the suture before tying. Upon completion of
+the anastomosis, use of transit-time ultrasonic flow probe
+to perform an intraoperative functional assessment of flow
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+A
+
+B
+
+Figure 8 OCTOPUS® NUVO tissue stabilizer with suction tubing and pole (Medtronic, Inc., Minneapolis, MN, USA), are shown as two
+detachable components that are seen separately on the surgical field (A), and subsequently connected within the minithoracotomy site (B).
+
+Figure 9 SaddleLoop positioning for the LAD anastomosis. LAD,
+left anterior descending.
+
+measurements ensures graft patency. It would be ideal to
+have a hybrid operating room with cardiac catheterization
+capabilities as an alternative.
+Step 9: closing
+When the lung is inflated, position the pericardial fat
+over the LIMA anastomosis to shield it and prevent it
+from protruding into the minithoracotomy. Aim to ensure
+that the LIMA remains medial to lung as it inflates. The
+pericardium is left not reapproximated, as closing it could
+create excessive tension on the LIMA and significantly
+
+impede arterial flow. A 19-F Blake™ drain is inserted
+through the lower port site and positioned posteriorly over
+the diaphragm to facilitate effective drainage. Next, hold
+ventilation and suction the remaining blood from chest
+cavity. If the volume of blood is more than anticipated,
+re-examine the chest and reinsert the endoscope for
+visualization. If necessary, cover the enlarged thoracotomy
+with Vaseline™ (Covidien, Medtronic, Inc., Minneapolis,
+MN, USA) gauze to hold in the CO2.
+Using a ligature carrier, place 2-0 Ethibond™ (Ethicon,
+J&J) pericostal sutures around the rib above and through
+the rib below to create a scaffold that prevents the lung from
+bulging out of the minithoracotomy. Next, approximate
+the pectoralis major muscle with 2-0 Vicryl polyglactic
+synthetic absorbable sutures (Ethicon, J&J) in a “figure
+of 8”, as necessary. Aesthetics are augmented with a 1-cm
+circumferential sliding cutaneous release just below the skin
+level and at the superficial fascial layer. This is done because
+the chest tissue laterally is pulled severely from having
+the left arm in a sling. In our experience, closures without
+this sliding release do not present a favorable appearance.
+The “sliding plasty” might have 1–2 interrupted 3-0
+suture placed, to further approximate and close layers. Of
+note, generally women have no sutures placed above the
+pectoralis muscle regardless of the depth of breast tissue.
+Step 10: pain management facilitating intraoperative
+extubation
+The incisions mentioned above are injected with a mixture
+of 30 mL of lidocaine with epinephrine 0.5%—1:200,000,
+30 mL of bupivacaine 0.25%, and 60 mL of ropivacaine
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Wertan et al. Step-by-step robotic-assisted MIDCAB
+
+Figure 10 Postoperative R-MIDCAB incision in a LIMA to LAD
+and diagonal (sequential) double bypass. R-MIDCAB, roboticassisted minimally invasive direct coronary artery bypass; LIMA,
+left internal mammary artery; LAD, left anterior descending.
+
+with epinephrine 0.2%—1:600,000.
+Intraoperative extubation can be beneficial for beating
+heart surgery (3) and minimally invasive robotic surgery.
+Concluding remarks
+This procedure is embraced by all who can perform it
+correctly; operative complications or graft failures will not
+be well tolerated because this procedure will be heavily
+scrutinized. Start with incremental learning; that is, move
+forward mastering various parts of the operation separately,
+and slowly advance with additional aspects of this precision
+incision procedure. For instance:
+ If you are not a beating heart surgeon, perform
+LIMA to LAD anastomosis with the heart beating,
+while on pump.
+ Take the opportunity to gain experience with the
+robotic set-up and perform LIMA harvest on your
+sternotomy cases. Of course, this requires discussion
+with the department chairperson & patient. Discuss
+the procedure with your patient beforehand,
+ensuring they provide written, informed consent.
+Explain that there are two methods to harvest the
+LIMA: robotically via three 8 mm port incisions or
+by using the Rultract® Skyhook Retractor (Rultract
+
+Incorporated, Cleveland, OH, USA) via a sternotomy.
+Most patients will prefer the robot!
+ Initially, allocate an hour for setting up and harvesting
+the LIMA; gradually increase your robotic time
+before moving on with your operation via sternotomy.
+This approach allows you and your team to work at a
+comfortable pace, enhancing patient safety.
+ Finally, start with a larger incision rather than a small
+minithoracotomy for your initial robotic experiences.
+If you need to convert to a sternotomy, retuck the
+patient’s left arm at the side on the table rather than in a
+sling to avoid a curved chest incision. Conversion should be
+seen as a precaution for patient safety, not as a failure.
+Robotic-assisted CABG is a promising technique that
+can achieve excellent results with a dedicated surgical team.
+This procedure offers significant benefits to patients when
+performed with commitment and skill.
+Over the last 18 years (May 2005–June 30, 2024), almost
+half of all CABG interventions at Lankenau Medical Center,
+Wynnewood, PA were performed using the described
+technique for robotic-assisted beating heart surgery
+(n=2,852) (Figure 10) with a <2% sternotomy conversion
+rate. Overall results include, 88% extubated in the operating
+room, 17% transfusion rate, 17% incidence of postoperative
+atrial fibrillation, 0.44 % cerebral vascular accident, and
+a mortality rate of 1.2%. Our institution has experienced
+remarkable growth due to the collaborative efforts between
+cardiologists and cardiac surgeons. R-MIDCAB is not
+intended to compete with traditional sternotomy, but to
+provide a gold standard alternative to multivessel stenting,
+or offer an option to frail patients who otherwise would not
+tolerate sternotomy. HCR has increased volume for both
+cardiac surgery and interventional cardiology. Dedication
+to a multidisciplinary effort ensures that patients receive
+the best possible interventional option for myocardial
+revascularization in a totally unique and individualized
+patient-centered-model of care.
+Acknowledgments
+Footnote
+to declare.
+
+Ann Cardiothorac Surg 2024;13(5):442-451 | https://dx.doi.org/10.21037/acs-2024-rcabg-0034
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

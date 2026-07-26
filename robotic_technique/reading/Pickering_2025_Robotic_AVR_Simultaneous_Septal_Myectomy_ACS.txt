@@ -1,0 +1,175 @@
+Masters of Cardiothoracic Surgery
+
+Robotic aortic valve replacement with simultaneous ventricular
+septal myectomy: a minimally invasive solution
+Taylor Pickering1, Cody Dorton1, Ali Darehzereshki2, Robert L. Smith3, Lawrence Wei2
+
+Baylor Scott & White Research Institute, Plano, TX, USA; 2Department of Cardiovascular and Thoracic Surgery, West Virginia University,
+
+Morgantown, WV, USA; 3Department of Cardiothoracic Surgery, Baylor Scott & White The Heart Hospital, Plano, TX, USA
+Morgantown, WV 26506, USA. Email: lawrence.wei@wvumedicine.org.
+Keywords: Robotic cardiac surgery; robotic aortic valve replacement (RAVR); robotic valve surgery; robotic septal myectomy
+
+Clinical vignette
+A 67-year-old female with a history of hypertension (HTN),
+hyperlipidemia (HLD), chronic obstructive pulmonary
+disease (COPD), stage III chronic kidney disease (CKD),
+Sjögren’s syndrome, rheumatoid arthritis, and hypertrophic
+cardiomyopathy (HCM) presented with severe symptomatic
+left ventricular outflow tract (LVOT) obstruction, moderate
+aortic stenosis, moderate-to-severe aortic insufficiency,
+and a small aortic annulus (19 mm). She underwent
+robotic aortic valve replacement (RAVR) with a 21 mm
+bioprosthesis, modified Nicks root enlargement with a
+Dacron patch, and concomitant robotic-assisted septal
+myectomy. She was discharged home on postoperative day 4.
+At one month, she achieved New York Heart Association
+(NYHA) Class I status, with a mean LVOT gradient of
+5 mmHg. At one year, she remained asymptomatic with a
+normally functioning prosthetic aortic valve and an LVOT
+gradient of 4 mmHg.
+Surgical technique
+Preparation
+Patients eligible for RAVR undergo comprehensive
+computed tomography angiography (CTA) of the chest,
+abdomen, and pelvis to confirm favorable anatomy for the
+surgical approach and assess adequate peripheral vascular
+anatomy for cardiopulmonary bypass (CPB) cannulation.
+The patient is positioned supine under general anesthesia
+and preoperative monitoring lines, including arterial and
+
+central venous catheters, are established. A transesophageal
+echocardiography (TEE) probe is inserted to confirm the
+pathology and guide intraoperative management. Peripheral
+cannulation is established using the common femoral artery
+and vein with a superior vena caval cannula placed via the
+right internal jugular vein for bicaval drainage.
+Exposition
+A 3 to 4 cm lateral thoracotomy is performed in the
+fourth intercostal space at the anterior axillary line,
+through which the pericardial fat pad is mobilized and
+pericardiotomy is performed. Pericardial stay sutures
+as well as a diaphragmatic retraction suture are placed
+to improve visualization. Following initiation of CPB,
+the aorta is mobilized, and a transthoracic aortic crossclamp is introduced via the second intercostal space and
+positioned high on the distal ascending aorta. An aortic
+root vent is placed through the working incision followed
+by a left ventricular vent via a separate chest wall stab
+incision, through the right superior pulmonary vein under
+TEE guidance. The DaVinci Xi robot (Intuitive Surgical,
+Sunnyvale, CA, USA) ports are then placed with the camera
+via the working incision and three additional ports in the
+second, fifth, and sixth intercostal spaces.
+Operation
+Antegrade cardioplegia is administered via the aortic root
+or directly through the coronary ostia as needed, achieving
+
+Ann Cardiothorac Surg 2025;14(3):241-243 | https://dx.doi.org/10.21037/acs-2024-ravr-0186
+
+Pickering et al. Robotic AVR and septal myectomy
+
+cardiac arrest. An aortotomy is performed at or above the
+sinotubular junction and extended into the noncoronary
+sinus to provide adequate exposure of the aortic valve and
+subvalvular apparatus. The native valve leaflets are excised,
+and annular debridement is performed to remove calcific
+deposits. Beginning approximately 5–8 mm below the nadir
+of the right coronary cusp, the septal myectomy is then
+performed using the robotic Metzenbaum scissors and
+long-tip grasping forceps. Care is taken to avoid injuring
+the conduction system and membranous septum. The
+myectomy is carried apically to the level of the antero-septal
+papillary muscle with care to avoid injury to the papillary
+muscles or chordae. The base of the papillary muscles and
+ventricular apex should be easily visible following excision.
+Interrupted 2-0 braided polyester sutures are robotically
+placed circumferentially from the ventricular side, starting
+at the left non-coronary commissure and proceeding
+clockwise. In a case of aortic root enlargement, a pericardial
+or Dacron patch is used to augment the non-coronary sinus
+in a modified Nicks fashion, as previously described (1).
+Either a mechanical or bioprosthetic valve is sized and
+seated using robotic instrumentation, with suture knots
+secured using suture fasteners (Cor-Knot; LSI Solutions,
+Victor, NY, USA).
+
+refractory to medical therapy (2,3). Traditionally performed
+via median or hemisternotomy transaortic approaches, or
+rarely through mitral valve, the procedure presents technical
+challenges due to limited visualization and an associated
+risk of injury to surrounding structures. When performed
+via the mitral valve, detachment and reimplantation of the
+anterior mitral leaflet with or without patch reconstruction
+is often required. RAVR has emerged as a promising
+alternative with superior visualization to access LVOT,
+which allows for performing septal myectomy, either as a
+standalone procedure or in combination with valve repair or
+replacement.
+RAVR with concomitant septal myectomy is feasible and
+demonstrates favorable clinical outcomes in addressing both
+aortic valve disease and HCM (4). Initial multicenter studies
+of RAVR report low rates of morbidity, no conversions to
+sternotomy, and minimal paravalvular leak, even in complex
+cases involving concomitant procedures (4). Additionally,
+robotic septal myectomy aligns with contemporary best
+practices by offering precise resection of hypertrophic
+myocardium, effectively relieving LVOT obstruction and
+improving symptoms (3).
+
+Completion
+
+The robotic platform provides exceptional visualization,
+improved dexterity, and superior instrumentation—such
+as robotic Metzenbaum scissors with its strong, fine tips—
+enabling complex procedures like valve replacement and
+septal myectomy to be performed with precision through a
+minimally invasive approach. Additionally, RAVR preserves
+the advantages of using standard surgical prostheses while
+enabling concomitant procedures, including aortic or
+mitral valve repair or replacement, root enlargement, maze
+procedures, and, as in this case, septal myectomy, while
+avoiding a sternotomy (1,3-5). This approach also allows for
+a standalone septal myectomy in the absence of concomitant
+valvular disease.
+
+The aortotomy is closed with a double-layered 4-0
+polypropylene suture technique, employing a horizontal
+mattress stitch followed by a running whipstitch. Multiple
+de-airing maneuvers are performed, the cross-clamp
+is removed, and the patient is reperfused. Atrial and
+ventricular pacing wires are robotically placed, and chest
+drains are introduced through the inferior port site. After
+undocking the robotic system, the patient is weaned from
+CPB, decannulated, and fully rewarmed. The cannulation
+sites are secured, and all incisions are closed in layers.
+Intraoperative TEE is performed to confirm prosthetic
+valve function, ensure the absence of paravalvular leaks, and
+evaluate post-myectomy LVOT gradients. The patient is
+extubated in the OR and transferred to the intensive care
+unit.
+Comments
+Clinical results
+Surgical septal myectomy is considered the standard of care
+for patients with obstructive HCM with symptoms that are
+
+Advantages
+
+Caveats
+Robotic-assisted cardiac surgery requires significant
+technical expertise and institutional investment in
+specialized equipment and training. The learning curve
+for surgeons and operative teams can be steep, which may
+limit broader adoption (4,5). Additionally, patient selection
+is critical, as certain anatomical or comorbid factors may
+preclude the robotic approach.
+
+Ann Cardiothorac Surg 2025;14(3):241-243 | https://dx.doi.org/10.21037/acs-2024-ravr-0186
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Acknowledgments
+
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+None.

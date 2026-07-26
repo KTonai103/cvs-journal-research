@@ -1,0 +1,171 @@
+Masters of Cardiothoracic Surgery
+
+Different styles in trocar placement in robotic-assisted beating
+heart coronary artery bypass grafting
+Michiel Algoet1, Husam H. Balkhy2, Dries Dewulf1, Wouter Oosterlinck1
+
+Department of Cardiovascular Sciences, Research Unit of Cardiac Surgery, KU Leuven, Leuven, Belgium; 2Division of Cardiac Surgery,
+
+Department of Surgery, University of Chicago Medicine, Chicago, IL, USA
+3000 Leuven, Belgium. Email: michiel.algoet@kuleuven.be.
+
+Introduction
+
+Surgical technique
+
+Since the mid-nineties, minimally invasive direct coronary
+artery bypass grafting (MIDCAB) has evolved and, thanks
+to technological development of robotically assisted
+beating heart coronary surgery known as robot-assisted
+MIDCAB (RA-MIDCAB) and totally endoscopic coronary
+artery bypass (TECAB), the procedure has become
+even less invasive. Here we describe trocar placement
+for both techniques. Both techniques can be used for
+single or multiple vessel bypass using single or bilateral
+internal thoracic arteries as an in-situ graft. The presented
+techniques are used in an off-pump strategy.
+
+Preparation
+
+Clinical vignette
+The first case is a sixty-three-year-old male with a history of
+pacemaker implantation. Because of shortness of breath, he
+underwent coronary angiography. A significant stenosis of
+the right coronary artery was diagnosed which was treated
+by a drug eluted stent. Second, a significant stenosis on the
+bifurcation of the left anterior descending (LAD) artery and
+first diagonal branch was observed. The indication for RAMIDCAB was set.
+The second case is a sixty-eight-year-old male with stable
+angina. He underwent coronary angiography revealing an
+ostial stenosis of the LAD (70–90%) and proximal stenosis
+of the circumflex artery (50–70%). Cardiovascular risk
+factors are a body mass index (BMI) of 28.1 kg/m2, history
+of smoking, arterial hypertension, hypercholesterolemia.
+He was scheduled for a TECAB.
+
+Pre-operative evaluation
+A chest X-ray (and/or computed tomography scan) should
+be available for pre-operative assessment of the thoracic
+cavity. Anatomical references or landmarks should be
+marked before incision: sternal midline, intercostal space
+(ICS) 2-3-4, xiphoid process and the lower rib.
+Anaesthesia
+For both techniques, RA-MIDCAB and TECAB, we advise
+to administer intrathecal morphine to reduce post-operative
+pain and facilitate an enhanced recovery after cardiac
+surgery. Endotracheal intubation should be performed by
+a double lumen tube or endotracheal tube and bronchus
+blocker to allow single lung ventilation.
+Patient positioning
+The patient is installed in dorsal decubitus, the left side
+of the body is aligned with the table’s edge such that the
+left shoulder overhangs slightly and the left arm can be
+placed underneath the back. The operation table is slightly
+tilted towards the right. This positioning lessens impeded
+manipulations of the superior thoracic robotic arm.
+Trocar placement
+RA-MIDCAB
+Three trocars are needed for a RA-MIDCAB approach.
+The standard approach is placement in ICS 2, 4 and 6. The
+
+Ann Cardiothorac Surg 2024;13(5):458-460 | https://dx.doi.org/10.21037/acs-2023-rcabg-0209
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+first trocar is the video trocar and is usually placed in the
+fourth ICS. Before placement of the first trocar a Verres
+needle is placed in the fourth ICS just lateral of the nipple.
+The pleural cavity is insufflated to a pressure of 6 mmHg
+before the trocar is placed at the site of the Verres needle.
+The next trocar is placed in the second ICS on the anterior
+axillary line. The last trocar is placed in the sixth ICS on
+the mid axillary line. At the end of the robotic procedure, a
+mini-thoracotomy is performed at the fourth ICS.
+
+cardiovascular outcomes compared to open coronary
+revascularization with the additional advantages of shorter
+intensive care stay, shorter total hospital stay, less blood
+transfusion and faster revalidation (2,3). Nonetheless,
+TECAB allows more flexibility inside the chest and allows
+the surgeon to use all the robotic advantages for the most
+delicate work in the procedure: the anastomosis.
+
+TECAB
+When performing a TECAB procedure, four trocar and
+one working (assistant) port is needed. Insufflation of the
+pleural cavity using the Verres needle is performed first
+in the fourth ICS. The first three trocar are placed on
+the anterior axillary line in ICS 2, 4 and 6. The fourth
+trocar is usually placed lateral to the xiphoid process (left
+internal mammary-LAD) or subcostal between the mid
+clavicular line and midsternal line (posterolateral wall
+revascularization, e.g., obtuse marginal branches) depending
+on the coronary target that needs to be treated. At the end
+of the robotic harvesting phase, one additional working port
+is placed in the left ICS 2 parasternal.
+
+Since the chest remains closed by avoiding sternotomy,
+much-feared sternal dehiscence and infection are no longer
+a consideration (4,5). While generally minimizing surgical
+trauma, it also hastens the patient’s recovery and therefore,
+has a positive impact on the patient’s early return to work or
+normal daily activities (3).
+
+Important notes during trocar placement
+Keep hemodynamics in mind during every step of trocar
+placement, creating a pneumothorax can cause severe
+hypotension. Communication with the anesthesiologic
+team is key during robotic surgery. Put the pressure below
+6 mmHg to start and flow low to allow adaptation with
+minimal repercussions. If you have difficulties insufflating
+the pleural space, place your Verres needle at a different
+trocar site and repeat the insufflation or directly use the
+blunt introduction of the trocar. During TECAB, it can be
+useful to use an Airseal® (CONMED, Largo, FL, USA) to
+maintain a stable intrapleural pressure even when advancing
+sutures or snaring devices.
+
+Caveats
+As there is a general desire for many minimally invasive
+cardiac surgeons to perform TECAB, there are some
+technical caveats. The supply of the Endowrist stabilizer
+(Intuitive Surgical, Sunnyvale, CA, USA) has been stopped
+for several years, the absence of this stabilizer including the
+support of the robotic surgery industry has made it difficult
+to perform totally endoscopic cardiac surgery. On top of
+that, European legislation has ordered a medical device
+regulation in which many devices, including those from
+robotic cardiac surgery is considered as class III. This upclassification has led towards a more complex application
+process which also withholds the breakthrough of robotic
+cardiac surgery in Europe.
+Acknowledgments
+Footnote
+
+Comments
+Clinical results
+Since the first report (1) of robotic-assisted coronary
+artery bypass grafting at the turn of the millennium,
+several teams have adopted this technique. Many variants
+have been proposed, but RA-MIDCAB and TECAB have
+stood ground for the longest time and are described best
+in the literature. Both techniques have shown equivalent
+
+Advantages
+
+Intuitive Surgical. The other authors have no conflicts of
+interest to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the non-
+
+Ann Cardiothorac Surg 2024;13(5):458-460 | https://dx.doi.org/10.21037/acs-2023-rcabg-0209
+
+Algoet et al. Trocar placement in robotic CABG
+
+commercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+4.

@@ -1,0 +1,414 @@
+Surgical Technique | Cardiac Surgery
+
+Robotic multi-vessel off-pump totally endoscopic coronary artery
+bypass (TECAB) procedure: surgical technique
+Husam H. Balkhy1, Yazan AlJamal2^
+
+Section of Cardiac and Thoracic Surgery, Robotic and Minimally Invasive Cardiac Surgery, The University of Chicago Medicine & Biological
+
+Sciences, Chicago, IL, USA; 2The University of Chicago Medicine & Biological Sciences, Chicago, IL, USA
+Contributions: (I) Conception and design: Y AlJamal; (II) Administrative support: None; (III) Provision of study materials or patients: Y AlJamal;
+(IV) Collection and assembly of data: Y AlJamal; (V) Data analysis and interpretation: Y AlJamal; (VI) Manuscript writing: Both authors; (VII) Final
+approval of manuscript: Both authors.
+Minimally Invasive Cardiac Surgery, The University of Chicago Medicine & Biological Sciences, 5841 S. Maryland Ave., Rm. E-500, MC5040,
+Chicago, IL 60637, USA. Email: hbalkhy@bsd.uchicago.edu.
+
+Abstract: Robotic totally endoscopic coronary artery bypass (TECAB) is a highly advanced yet
+evolving surgical technique for coronary artery disease. While it is not yet a standard procedure, ongoing
+developments in robotic technology have positioned it as a promising option for the future. TECAB allows
+for multi-vessel coronary artery bypass using bilateral internal mammary artery (BIMA) grafts in a completely
+minimally invasive, off-pump approach. With over 15 years of experience performing TECAB, we have
+refined patient selection criteria and surgical techniques. Initially, pleural scarring or diffuse coronary artery
+disease were considered contraindications. However, the precision and magnification provided by robotic
+platforms have enabled us to expand indications, including for redo surgeries where internal mammary artery
+grafts are still viable. While the operation is typically limited to left coronary artery bypass, recent cases
+have demonstrated its feasibility for right coronary artery branches under specific conditions. We believe
+that the off-pump approach in this setting has significant advantages for early patient recovery and return
+to full function. While technically demanding we have demonstrated excellent graft patency and long-term
+outcomes with this procedure. In this video, we present our current technique for robotic multivessel offpump TECAB using the da Vinci Si surgical system. We will outline patient presentation, surgical steps, and
+key technical insights to demonstrate how this minimally invasive approach continues to evolve and expand
+its clinical utility.
+Keywords: Totally endoscopic coronary artery bypass (TECAB); robotic surgery; multivessel revascularization;
+off-pump coronary artery bypass grafting (off-pump CABG)
+Received: 01 March 2025; Accepted: 25 July 2025; Published online: 29 July 2025.
+
+Introduction
+Coronary artery disease remains a leading cause of
+mortality worldwide. Standard surgical approaches, such
+as open coronary artery bypass grafting (CABG), involve
+sternotomy, which leads to prolonged recovery times and
+
+higher morbidity. Totally endoscopic coronary artery bypass
+(TECAB) addresses these concerns by enabling off-pump,
+robotic grafting using bilateral internal mammary artery
+(BIMA) conduits in a totally endoscopic approach. This
+approach improves patient recovery and reduces hospital
+
+^ ORCID: 0000-0002-0056-2711.
+
+J Vis Surg 2025;11:21 | https://dx.doi.org/10.21037/jovs-25-15
+
+stay while maintaining long-term patency. This study aims
+to demonstrate a step-by-step surgical technique for robotic
+TECAB using the da Vinci Si surgical system (Intuitive
+Inc., Sunnyvale, CA, USA), highlight key intraoperative
+considerations, including conduit preparation, anastomosis
+techniques, and hemodynamic management, and describe
+postoperative recovery and patient outcomes associated
+with this technique. We present this article in accordance
+with the SUPER reporting checklist (available at https://
+jovs.amegroups.com/article/view/10.21037/jovs-25-15/rc).
+Preoperative preparations and requirements
+
+Journal of Visualized Surgery, 2025
+
+no intraoperative blood transfusions were required. All
+procedures performed in this study were in accordance with
+the ethical standards of the institutional and/or national
+research committee(s) and with the Declaration of Helsinki
+and its subsequent amendments. This study was approved
+by the University of Chicago Institutional Review Board
+(IRB #18-0742; approval date April 28, 2020). Given the
+retrospective nature of the case, the need for individual
+informed consent was waived.
+This technique reflects our institutional experience of
+nearly 1,000 robotic TECAB procedures, including more
+than 450 multivessel grafts utilizing bilateral internal thoracic
+arteries (BITAs), as recently reported by Nisivaco et al. (1).
+
+Setting
+This procedure was performed in November 2024 at
+a tertiary care hospital within a high-volume cardiac
+surgery program. The operation took place in a dedicated
+hybrid operating room equipped for both robotic and
+conventional cardiac procedures, allowing for immediate
+conversion to open CABG if needed. The total operative
+time was 6 hours. Estimated blood loss was minimal, and
+
+Highlight box
+Surgical highlights
+• This case presents a totally endoscopic, multivessel off-pump
+coronary artery bypass procedure using the da Vinci Si surgical
+system. The operation utilized in-situ bilateral internal mammary
+arteries (BIMAs) and highlights key aspects of port strategy,
+endoscopic conduit harvest, and robotic hand-sewn anastomosis—
+all performed without sternotomy.
+What is conventional and what is novel/modified?
+• BIMA grafting is a well-established technique in coronary artery
+bypass grafting, typically performed via median sternotomy and
+often with cardiopulmonary bypass.
+• This procedure represents a novel application of conventional
+principles by achieving complete arterial revascularization through
+five small incisions in a totally endoscopic, sternal-sparing, offpump approach. The use of robotic assistance to perform handsewn anastomoses entirely endoscopically—without sternotomy or
+cardiopulmonary bypass—is a major technical innovation.
+What is the implication, and what should change now?
+• This technique demonstrates that complete multivessel arterial
+revascularization can be accomplished using a minimally invasive,
+robotic, off-pump strategy—avoiding the morbidity of sternotomy
+while maintaining surgical quality. As robotic platforms evolve and
+new stabilizers become available, this approach may become more
+widely adopted in select centers committed to advanced minimally
+invasive cardiac surgery.
+
+Operators
+The surgical team consisted of the following members:
+ Primary surgeon: board-certified cardiac surgeon
+with extensive experience in robotic endoscopic
+coronary surgery. Responsible for robotic system
+docking, trocar placement, and execution of the
+case at the console.
+ Table-side assistant surgeon (physician assistant):
+responsible for instrument exchange throughout
+the procedure.
+ Anesthesiologist: specialized in advanced cardiac
+anesthesia and robotic-assisted surgical protocols.
+ Perfusionist (on standby): available in case
+emergent cardiopulmonary bypass was required.
+ Robotic surgical technician: ensured optimal setup
+and real-time system troubleshooting for the
+robotic platform.
+Patient presentation and preoperative assessment
+The patient is a 64-year-old male with a history of
+hypertension, non-insulin-dependent diabetes mellitus,
+chronic kidney disease stage III, and gout. He presented to
+our clinic with progressive fatigue and exertional dyspnea
+during moderate physical activity.
+Diagnostic coronary angiography revealed critical
+proximal left anterior descending (LAD) stenosis (90%)
+and significant mid-segment stenosis of the left circumflex
+artery (80%).
+Preoperative evaluation included a comprehensive history
+and physical examination, standard laboratory testing,
+chest CT, arterial blood gas analysis, pulmonary function
+tests (PFTs), and electrocardiogram (ECG). PFTs revealed
+
+J Vis Surg 2025;11:21 | https://dx.doi.org/10.21037/jovs-25-15
+
+Journal of Visualized Surgery, 2025
+
+Video 1 Robotic multi vessel off-pump TECAB procedure:
+surgical technique. TECAB, totally endoscopic coronary artery
+bypass.
+
+a mildly restrictive pattern, but no contraindications to
+single-lung ventilation or robotic access. Given the patient’s
+comorbidities and favorable coronary anatomy, a totally
+endoscopic, multivessel off-pump coronary artery bypass
+grafting (TECAB) procedure using BITAs was planned.
+Step-by-step description (Video 1)
+Patient presentation
+A 64-year-old male with hypertension, non-insulin
+dependent diabetes, chronic kidney disease, stage 3,
+and gout who presented to our clinic with fatigue and
+dyspnea on exertion on moderate activities. His left heart
+catheterization shows significant stenosis on his proximal
+(90%) LAD and mid (80%) left circumflex arteries. Given
+his comorbidities and anatomy, robotic multivessel TECAB
+was selected.
+Anesthesia, patient position, and port placement
+The patient was positioned supine with a right radial arterial
+line for monitoring, transesophageal echocardiography
+(TEE), and external defibrillator pads placed on the left
+scapular region and the right lateral chest. A single-lumen
+endotracheal tube with an endobronchial blocker was
+utilized to allow split-lung ventilation. CO 2 insufflation
+was employed to maintain space within the thoracic cavity
+during the procedure. If the patient could not tolerate
+right lung-only ventilation, partial left lung ventilation
+was achieved by releasing the blocker, with CO2 pressure
+maintaining thoracic working space.
+
+The patient was positioned with a small roll under the
+left shoulder, and port placements were made in the 2nd
+(right arm), 4th (camera), and 6th (left arm) intercostal spaces,
+medial to the anterior axillary line. CO2 insufflation at
+8–12 mmHg created working space within the thoracic
+cavity after docking the robotic patient cart on the patient’s
+right side.
+Two additional ports were inserted later:
+nd
+ A 12-mm service port in the 2 intercostal space at
+the midclavicular line after left internal mammary
+artery (LIMA) harvest to avoid injury;
+ A 12-mm subcostal port for the EndoWrist
+stabilizer was placed after dissecting the
+costodiaphragmatic tissue.
+Pericardiotomy and mediastinum fat dissection
+Using a Maryland bipolar forceps in the left arm and
+monopolar curved scissors in the right arm with a 30° upscope, the posterior pericardiotomy was made posterior to
+the phrenic nerve to access the obtuse marginal artery. The
+posterior pericardiotomy also aids postoperative drainage
+and is performed routinely in TECAB procedures. Then,
+the anterior mediastinal fat was dissected and reflected
+laterally for adequate exposure. An anterior pericardiotomy
+was performed to visualize the LAD artery.
+BIMA takedown
+Fat dissection extended under the sternum to the right
+pleural space, exposing the right internal mammary artery
+(RIMA). Using a permanent cautery spatula (right arm) and
+micro bipolar forceps (left arm), the RIMA was harvested
+first with a skeletonized approach. Small branches were
+divided with bipolar cautery, while larger branches were
+clipped. The EndoWrist stabilizer was introduced to
+enhance exposure during RIMA takedown.
+The LIMA was harvested similarly, from above the
+first intercostal artery to its distal bifurcation. Post-LIMA
+takedown, the surgeon placed the subcostal and service
+ports and used the EndoWrist stabilizer to facilitate
+proximal and distal RIMA dissection. Meticulous hemostasis
+of the IMA bed was ensured throughout.
+Preparation of target vessel
+Target vessel preparation was performed with a 30° downscope, a permanent cautery spatula (right arm), and
+
+J Vis Surg 2025;11:21 | https://dx.doi.org/10.21037/jovs-25-15
+
+micro bipolar forceps (left arm). Epicardial dissection was
+conducted with low-intensity cautery to minimize bleeding.
+The right arm was equipped with a large needle driver to
+place a SaddleLoop snare. The target vessel was inspected
+to ensure it was free of significant atherosclerosis or
+calcification at the anastomotic site.
+Preparation of internal mammary artery
+Intravenous heparin was administered to achieve an
+activated clotting time of 300–350 seconds. A bulldog
+clamp attached to a suture was used to occlude the LIMA,
+which was bisected distally with Potts scissors. Papaverine
+(60 mg in 20 mL saline) was injected into the LIMA using
+a 20-Ga Perifix epidural catheter to ensure vasodilation and
+prevent spasms. The catheter was introduced through the
+service port and advanced 15–20 cm into the LIMA before
+injection. The procedure was repeated for the RIMA,
+ensuring adequate preparation for anastomosis.
+Hand-sewn anastomosis
+The in-situ RIMA was directed to the LAD coronary
+artery. The LIMA was grafted to the first obtuse marginal
+(OM1).
+Anastomosis sites were stabilized with the EndoWrist
+stabilizer. Ischemic preconditioning was achieved by
+snaring the proximal coronary artery for 5–8 minutes while
+instruments were prepared. A coronary arteriotomy was
+created with a Snap-Fit endo-knife, extended with Potts
+scissors, and stabilized with a shunt. A running 7-0 Pronova
+suture was used for the anastomosis, and the shunt was
+removed just before tying.
+Transit time flowmetry (TTFM) was performed for each
+graft using a MediStim flow meter to confirm satisfactory
+flow and a low pulsatility index. Graft revision was
+considered for flow rates below 15 mL/min or pulsatility
+indices above 5, with careful evaluation of target quality.
+Covering IMA grafts and drain placement
+Protamine was administered after graft measurements.
+Reflected pericardial fat was sutured to the medial
+pericardium using 4-0 V-Loc suture to cover and protect
+the grafts. A 24-Fr Blake drain was placed in the right
+pleural cavity via the subcostal port, and another drain was
+positioned in the left pleural cavity through the left arm
+port. Suturing only the medial edge of the pericardium
+
+Journal of Visualized Surgery, 2025
+
+ensured grafts were not compressed or kinked.
+Postoperative considerations and tasks
+Postoperative course
+The patient’s recovery was uneventful, highlighting the
+benefits of minimally invasive robotic surgery. He was
+extubated on the day of surgery (postoperative day 0),
+had chest tubes removed on postoperative day 1, and was
+discharged home comfortably on postoperative day 2. He
+was started on aspirin and Plavix therapy for 2 months. The
+patient underwent follow-up at 1 month postoperatively
+with repeat chest X-ray and ECG. He was symptoms free
+and back to his normal activity.
+Tips and pearls
+Successful execution of robotic multivessel TECAB
+hinges on meticulous planning, team coordination, and
+familiarity with robotic instrumentation. Key pearls include
+harvesting both IMAs with a skeletonized technique to
+maximize conduit length, ensuring optimal port placement
+to avoid arm collision and facilitate exposure, and
+performing pericardiotomy early to improve visualization
+and drainage. Maintaining low CO2 insufflation pressures
+minimizes hemodynamic compromise. To support
+hemodynamics during cardiac manipulation, favor the use
+of vasoconstrictors such as phenylephrine and adequate
+volume resuscitation, while avoiding inotropes when
+possible. Finally, routinely using transit-time flowmetry
+helps confirm graft patency intraoperatively and provides
+immediate quality assurance.
+Discussion
+Robotic TECAB has emerged as a highly specialized
+yet promising approach for multivessel coronary
+revascularization. Compared to traditional sternotomybased CABG, TECAB offers distinct advantages, including
+avoidance of sternal complications, reduced postoperative
+pain, quicker recovery, and improved cosmetic outcomes—
+all without compromising graft patency or clinical
+effectiveness (2,3).
+In this case, robotic multivessel TECAB was selected
+for a patient with significant LAD and circumflex disease
+and multiple comorbidities, including diabetes and chronic
+kidney disease—factors often associated with elevated risk
+
+J Vis Surg 2025;11:21 | https://dx.doi.org/10.21037/jovs-25-15
+
+Journal of Visualized Surgery, 2025
+
+for sternal wound complications in open surgery. The use
+of BITAs in such patients would be traditionally limited
+due to the increased risk of deep sternal wound infection.
+However, by avoiding sternotomy, robotic TECAB allows
+for liberal use of BITA even in high-risk patients, a strategy
+shown to confer improved long-term survival and lower
+rates of MACCE and repeat revascularization (4,5).
+Our institutional experience of nearly 1,000 robotic
+TECAB cases, including more than 450 multivessel
+procedures with BITA, has demonstrated that with a
+dedicated team and standardized technique, outcomes can
+be excellent—even in complex patients. In published series,
+perioperative mortality in robotic CABG has been reported
+as low as 0.8%, with LITA-LAD patency exceeding 95%
+at 1 year (6,7). Similarly, multivessel TECAB using BITA
+has been shown to achieve patency rates and completeness
+of revascularization comparable to conventional CABG,
+especially when hybrid strategies [with adjunct percutaneous
+coronary intervention (PCI)] are employed where
+appropriate (8).
+Nevertheless, the procedure remains technically
+demanding and requires significant institutional experience
+and team consistency to achieve optimal results. Operative
+time is often longer than conventional CABG, particularly
+early in the learning curve, but tends to decrease with
+growing familiarity. Importantly, the robotic approach
+enables precise dissection and anastomosis under highdefinition three-dimensional (3D) visualization, which is
+especially advantageous in patients with difficult anatomy or
+heavy calcification (9).
+This case reflects not only the feasibility but also the
+expanding scope of robotic TECAB in coronary surgery.
+As experience accumulates, this approach is becoming a
+valuable alternative to conventional CABG, particularly in
+selected patients where minimally invasive, sternal-sparing
+surgery offers clinical benefit without compromising graft
+durability or completeness of revascularization.
+
+one of our remaining stabilizers. A new stabilizer for the da
+Vinci 5 is expected to return to the market in late 2025.
+Quality control measures:
+ Intraoperative verification of graft patency using
+transit-time flowmetry;
+ Minimization of electrocautery near coronary
+targets to avoid thermal injury.
+Safety considerations: the primary intraoperative risks
+included hemodynamic instability and graft injury. These
+were mitigated by:
+ Maintaining normotensive and euvolemia during
+graft anastomosis;
+ Avoiding excessive CO 2 insufflation pressures
+(>12 mmHg);
+ Having a perfusion team on standby for emergency
+conversion to on-pump CABG.
+Impact and cost:
+ While robotic systems have high initial costs, the
+reduced hospital stay and faster recovery offset
+expenses over time. Future advancements in
+robotic platforms will likely improve accessibility
+and further refine the technique.
+Conclusions
+For surgical teams adopting robotic TECAB, it is essential
+to understand that outcomes improve progressively with
+experience. The most critical factors for successfully
+performing off-pump TECAB are meticulous
+intraoperative management—particularly maintaining
+patient hemodynamics—effective hemostasis, and strong
+communication between the surgeon and the operative
+team. As robotic technology and techniques continue to
+advance, this procedure will likely become more widely
+adopted as a cornerstone of minimally invasive coronary
+artery surgery.
+Acknowledgments
+
+Strengths and limitations
+Robotic TECAB provides a minimally invasive alternative to
+sternotomy, with shorter recovery times and lower morbidity.
+However, it requires specialized training and a steep
+learning curve and is currently limited to tertiary academic
+centers with extensive robotic experience. The EndoWrist
+stabilizer, originally introduced over 15 years ago,
+was removed from the market in 2018 due to limited
+adoption. This case was performed in November 2024 using
+
+The authors thank their operating room (OR) team and
+clinical staff for their continued support of the robotic
+TECAB program.
+Footnote
+Provenance and Peer Review: This article was commissioned
+by the Guest Editor (Tommaso Hinna Danesi) for the
+series “Endoscopic Cardiac Surgery” published in Journal of
+
+J Vis Surg 2025;11:21 | https://dx.doi.org/10.21037/jovs-25-15
+
+Visualized Surgery. The article has undergone external peer
+review.
+com/article/view/10.21037/jovs-25-15/rc
+
+Journal of Visualized Surgery, 2025
+
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

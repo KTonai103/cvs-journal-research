@@ -1,0 +1,1863 @@
+medicina
+Review
+
+Circumflex Coronary Artery Injury during Modern Mitral Valve
+Surgery—A Review of Current Concepts and Perspectives
+Johan van der Merwe 1 and Filip Casselman 2, *
+
+*
+
+Citation: van der Merwe, J.;
+Casselman, F. Circumflex Coronary
+Artery Injury during Modern Mitral
+Valve Surgery—A Review of Current
+
+The Keyhole Heart Centre, Netcare Blaauwberg Hospital, Cape Town 7441, South Africa; drjohan@acvti.co.za
+Cardiovascular Surgery, Cardiovascular Centre, OLV Clinic, 9300 Aalst, Belgium
+Correspondence: filip.casselman@olvz-aalst.be; Tel.: +32-5372-4599; Fax: +32-5372-4552
+
+Abstract: The devastating impact of a circumflex coronary artery (CX) injury during mitral valve
+(MV) surgery is well reported. Despite significant improvements in preoperative risk assessment,
+intraoperative diagnosis and perioperative treatment strategies of CX injury during MV surgery,
+recent reports re-emphasize the variability in presentation, the unpredictable mechanisms of injury
+and the conflicting evidence regarding perioperative management. The progressive transition from
+conventional sternotomy access to minimally invasive surgical and transcatheter (TC) interventions
+for MV disease are associated with significant learning curves and require additional single-shaft
+and robotic console suture manipulation skills with special attentiveness to the potential risk of CX
+injury. The introduction of hybrid theatres that facilitate single stage surgical and TC interventions
+also provides new intraoperative diagnostic and therapeutic options without transporting unstable
+patients for percutaneous coronary intervention (PCI) assessment. By utilizing a MeSH terms-based
+PubMed search, a total of 89 patients with CX injury that occurred during MV surgery was identified
+from 49 reports between 1967 and 2022. MV surgery was performed by conventional sternotomy
+(n = 76, 85.4%), endoscopic (n = 12, 13.4%) and robotic access (n = 1, 1.1%), with 35 injuries (39.3%)
+resulting in total CX occlusion. Rescue PCI was utilized in 40 patients (44.9%). This manuscript
+provides a systematic overview of all available historic and contemporary reports on CX injury during
+MV surgery, outlines recent refinements in CX injury mechanisms, describes current MV surgery
+associated CX injury prevention and diagnosis and treatment strategies and highlights important MV
+procedural aspects that may minimize the risk and consequences of CX injury.
+Keywords: mitral valve surgery; coronary artery injury
+
+Concepts and Perspectives. Medicina
+2023, 59, 1470. https://doi.org/
+10.3390/medicina59081470
+Academic Editor: Aron-Frederik
+Popov
+Received: 25 May 2023
+Revised: 30 July 2023
+Accepted: 3 August 2023
+Published: 16 August 2023
+
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+4.0/).
+
+1. Introduction
+Myocardial infarction secondary to circumflex coronary artery (CX) distortion or occlusion during mitral valve (MV) surgery is associated with devastating postoperative
+morbidity and mortality outcomes [1–49]. Despite significant improvements in preoperative risk identification [50–60], surgical techniques [61–65] and surgical awareness, CX
+injury during MV surgery remains a dreaded complication with no current consensus on
+preventative and therapeutic strategies. This manuscript provides a systematic review of all
+available reports on CX injury during isolated MV surgery and describes current CX injury
+prevention and diagnosis and treatment strategies. Less invasive MV surgical approaches
+that utilize special single shafted instruments under direct, endoscopic or robotic vision [66]
+require additional instrument manipulation skills [67–69] and a thorough understanding of
+the CX, coronary sinus (CS) and MV surgical anatomy to avoid CX injury during the initial
+learning curves. Furthermore, reports on the potential incidence and risk of CX injury
+related to advances in innovative transcatheter MV repair [70,71] and replacement [72,73]
+technology are also emerging. By utilizing the MeSH terms “mitral valve surgery”, “mitral
+valve repair”, “mitral valve annuloplasty”, “mitral valve replacement”, “circumflex coronary artery injury”, “complications”, “myocardial infarction” in various combinations, a
+
+Medicina 2023, 59, 1470. https://doi.org/10.3390/medicina59081470
+
+Medicina 2023, 59, 1470
+
+2 of 16
+
+total of 89 patients who sustained CX injury secondary to MV surgery was identified from
+49 PubMed reports between 1967 and 2022 (Table 1). Between 2011 and 2022, a total of
+29 reports described 60 CX injury events during MV surgery. A flowchart that outlines the
+PubMed and PRISMA search methodology is presented in Figure 1.
+Table 1. Current reports that describe circumflex coronary artery injury during mitral valve surgery.
+Author
+
+Year
+
+Procedure
+
+Access
+
+Mechanism
+
+Time of
+Diagnosis
+
+30-Day
+Mortality
+
+Treatment
+Strategy
+
+Danielson [1]
+
+MVR (n = 3)
+
+Sterno
+
+Total
+
+PO
+
+Yes
+
+None
+
+Roberts [2]
+
+MVR
+
+Sterno
+
+Total
+
+PO
+
+Yes
+
+None
+
+Morin [3]
+
+MVR
+
+Sterno
+
+Total
+
+PO
+
+Yes
+
+None
+
+Virmani [4]
+
+MVR (n = 2)
+MVr (n = 1)
+
+Sterno
+
+Total
+
+PO
+
+Yes
+
+None
+
+Speziale [5]
+
+MVR
+
+Sterno
+
+Total
+
+PO
+
+None
+
+none
+
+Tavilla [6]
+
+MVr
+
+Sterno
+
+Total
+
+IntraO
+
+None
+
+Revision and
+CABG
+
+Mulpur [7]
+
+MVR
+
+Sterno
+
+Partial
+
+Del
+
+None
+
+MVR
+
+Mantilla [8]
+
+MVr
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+PCI
+
+Sangha [9]
+
+MVr
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+PCI
+
+Nakajima [10]
+
+MVr
+
+Sterno
+
+Total
+
+IntraO
+
+None
+
+CABG
+
+Meursing [11]
+
+MVr
+
+Sterno
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Wykrzykowska
+[12]
+
+MVr
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+PCI
+
+Raza [13]
+
+MVr
+
+MI-MVS
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Acar [14]
+
+MVr (n = 3)
+
+Sterno
+
+Total (n = 3)
+
+IntraO (n = 3)
+
+None
+
+CABG (n = 3)
+
+Zegdi [15]
+
+MVr
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+CABG
+
+Aubert [16]
+
+MVr
+
+Sterno
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Gomes [17]
+
+MVr (n = 2)
+
+Sterno
+
+Partial
+
+IntraO
+
+None
+
+Revision
+
+Grande [18]
+
+MVr
+
+MI-MVS
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Calafiore [19]
+
+MVr
+
+Sterno
+
+Total
+
+IntraO
+
+None
+
+CABG
+
+Ender [20]
+
+MVr (n = 3)
+
+MI-MVS
+
+Partial (n = 3)
+
+IntraO (n = 3)
+
+None
+
+Revision (n = 2)
+PCI (n = 1)
+
+Varela [21]
+
+MVr (n = 2)
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+PCI (n = 2)
+
+Murugesan [22]
+
+MVr
+
+Sterno
+
+Partial
+
+IntraO
+
+None
+
+Revision
+
+Postorino [23]
+
+MVr
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+PCI
+
+Sheth [24]
+
+MVR
+
+Sterno
+
+Laceration
+
+PO
+
+None
+
+PCI
+
+Schyma [25]
+
+MVR
+
+Sterno
+
+Partial
+
+PO
+
+yes
+
+None
+
+Somekh [26]
+
+MVr
+
+MI-MVS
+
+Total
+
+PO
+
+None
+
+PCI
+
+Ziadi [27]
+
+MVr
+
+Sterno
+
+Partial
+
+Del(5
+months)
+
+None
+
+CABG and
+aneurysmectomy
+
+Medicina 2023, 59, 1470
+
+3 of 16
+
+Table 1. Cont.
+Author
+
+Year
+
+Procedure
+
+Access
+
+Mechanism
+
+Time of
+Diagnosis
+
+30-Day
+Mortality
+
+Treatment
+Strategy
+
+Folkmann [28]
+
+MVR
+
+MI-MVS
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Pettinari [29]
+
+MVr
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+PCI
+
+Monteiro [30]
+
+MVr
+
+Sterno
+
+Partial
+
+Del
+
+None
+
+Revision
+
+MVr (n = 2)
+MVR (n = 2)
+
+MI-MVS
+(n = 2)
+Sterno
+(n = 2)
+
+Total (n = 1)
+Partial (n = 2)
+
+IntraO (n = 1)
+PO (n = 2)
+Del (n = 1)
+
+Yes (n = 1)
+
+PCI (n = 2)
+CABG (n = 2)
+
+PO (n = 6)
+
+None
+
+None (n = 1)
+Transplant (n = 1)
+Revision (n = 3)
+PCI (n = 1)
+
+Hiltrop [31]
+
+Coutinho [32]
+
+MVr (n = 6)
+
+Sterno
+
+Partial (n = 3)
+Total (n = 3)
+
+Busu [33]
+
+MVr
+
+Sterno
+
+Partial
+
+Del (2 years)
+
+None
+
+PCI
+
+Sunagawa [34]
+
+MVr
+
+Sterno
+
+Total
+
+Del (3 years)
+
+None
+
+PCI
+
+Ahmad [35]
+
+MVr
+
+Sterno
+
+Total
+
+IntraO
+
+Yes
+
+PCI
+
+Gentry [36]
+
+MVR
+
+Sterno
+
+Fistula
+
+Del (1 year)
+
+None
+
+Redo-MVR
+
+Husain [37]
+
+MVR (n = 9)
+
+Sterno
+
+Partial (n = 3)
+Total (n = 6)
+
+N/A
+
+Yes (n = 3)
+
+PCI (n = 3)
+CABG (n = 6)
+
+Fortunato [38]
+
+MVr (n = 4)
+MVR (n = 1)
+
+Sterno
+
+Total (n = 4)
+Partial (n = 1)
+
+PO (n = 2)
+IntraO (n =3)
+
+Yes (n = 2)
+
+None (n = 1)
+PCI (n = 2)
+CABG (n = 1)
+Revision (n = 1)
+
+Scarsini [39]
+
+MVr (n = 2)
+
+Sterno
+
+Partial (n = 2)
+
+IntraO (n = 2)
+
+None
+
+PCI (n = 2)
+
+Dello [40]
+
+MVR
+
+Sterno
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Felekos [41]
+
+MVr
+
+MI-MVS
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Caruso [42]
+
+MVr
+
+MI-MVS
+
+Partial
+
+IntraO
+
+None
+
+Revision
+
+Yavari [43]
+
+MVR
+
+Sterno
+
+Partial
+
+PO
+
+None
+
+PCI
+(unsuccessful)
+
+Arevalos [44]
+
+MVr
+
+MI-MVS
+
+Total
+
+PO
+
+None
+
+PCI
+
+Gaba [45]
+
+Redo-MVR
+
+Sterno
+
+Total
+
+IntraO
+
+None
+
+PCI
+
+Landa [46]
+
+MVr
+
+MI-MVS
+
+Partial
+
+IntraO
+
+None
+
+PCI
+
+Bulak [47]
+
+MVR
+
+Sterno
+
+Total
+
+PO
+
+None
+
+PCI
+
+Bargagna [48]
+
+MVr (n = 5)
+MVR (n = 5)
+
+Sterno
+
+Total (n = 4)
+Partial (n = 6)
+
+PO (n = 5)
+IntraO = 5
+
+Yes (n = 2)
+
+PCI (n = 4)
+CABG (n = 5)
+Revision (n = 1)
+
+Nassereddine [49]
+
+MVr
+
+Sterno
+
+Total
+
+Del (4 weeks)
+
+None
+
+PCI
+(unsuccessful)
+
+Abbreviations: MVR = Mitral valve replacement; MVr = Mitral valve repair; Sterno = Sternotomy access;
+MI-MVS = Minimally invasive mitral valve surgery; PO = Postoperative diagnosis; IntraO = Intraoperative
+diagnosis; Del = Delayed diagnosis; PCI = Percutaneous coronary intervention; CABG = Coronary artery
+bypass grafting.
+
+sereddine [49]
+
+Medicina 2023, 59, 1470
+
+MVr
+
+Sterno
+
+Total
+
+Del (4 weeks)
+
+None
+
+PCI (unsucces
+
+Abbreviations: MVR = Mitral valve replacement; MVr = Mitral valve repair; Sterno = Sterno
+access; MI-MVS = Minimally invasive mitral valve surgery; PO = Postoperative diagnosis; Intr
+Intraoperative diagnosis; Del = Delayed diagnosis; PCI = Percutaneous coronary intervention; C
+4 of 16
+= Coronary artery bypass grafting.
+
+Figure 1. Flowchart outlining the PubMed search methodology.
+
+Figure 1. Flowchart outlining the PubMed search methodology.
+2. Current Circumflex Coronary Artery Injury Prevention, Diagnosis and Treatment
+Strategies
+The documented incidence of CX injury secondary to MV surgery varies between
+0.15% and 4.0% [1–49], but various authors suggest that the true incidence is probably
+significantly higher due to underreporting. Danielson and colleagues [1] were the first to
+document 3 patients with CX injury in their series of 178 MV procedures in 1967, followed
+by Roberts [2], Morin [3], Virmani [4] and various other authors describing their experiences.
+The recent advances in minimally invasive and TC mitral valve technology and techniques
+are paralleled by renewed interest and awareness of CX injury during MV procedures, with
+contemporary reports outlining innovative strategies to prevent, timeously diagnose and
+optimally treat CX injury [31,48].
+A.
+
+Current strategies to identify circumflex coronary arteries at risk during mitral
+valve surgery
+
+Bennani and colleagues [60] recently described the surgical anatomy of the CX–CS–MV
+complex after dissecting and measuring the course and distances of the CX, CS and MV in
+25 explanted hearts. The CX usually courses between the base of the left atrial appendage
+and the anterior MV commissure, 3–4 mm from the MV leaflet–annular attachment and
+progressively courses further away from the posterior MV annulus (Figure 2). Table 2
+summarizes clinical and contemporary imaging criteria considered to be high risk for CX
+injury within the context of MV procedures.
+
+Medicina 2023, 59, 1470
+
+Bennani and colleagues [60] recently described the surgical anatomy of the CX–CS–
+MV complex after dissecting and measuring the course and distances of the CX, CS and
+MV in 25 explanted hearts. The CX usually courses between the base of the left atrial appendage and the anterior MV commissure, 3–4 mm from the MV leaflet–annular attachment and progressively courses further away from the posterior MV annulus (Figure
+2).
+5 of 16
+Table 2 summarizes clinical and contemporary imaging criteria considered to be high risk
+for CX injury within the context of MV procedures.
+
+Figure2.2.Expected
+Expectedcircumflex
+circumflex
+artery
+course
+relation
+to the
+posterior
+mitral
+valve
+annulus
+during
+Figure
+artery
+course
+in in
+relation
+to the
+posterior
+mitral
+valve
+annulus
+during
+endoscopic mitral valve repair.
+endoscopic mitral valve repair.
+Table 2. Potential imaging criteria considered to be high risk for CX injury within the context of
+mitral valve procedures.
+Echocardiographic/clinical criteria
+Repeat mitral valve surgery
+Severe posterior mitral annular calcification
+Destructive posterior leaflet infection
+Anomalous circumflex coronary artery course
+Circumflex artery distance to mitral valve annulus less than 3 mm
+Coronary angiographic criteria
+Anomalous circumflex coronary artery course
+Left dominant coronary system
+Codominant coronary system
+Computerised tomographic coronary angiographic criteria
+Circumflex artery distance to mitral valve annulus less than 3 mm
+
+•
+
+Coronary angiography;
+
+Preoperative coronary angiography is regarded as the gold standard for coronary
+artery evaluation within the context of valvular heart disease [74,75]. The identification of
+anomalous [2,5,76], large left dominant (Figure 3A) or codominant CX systems predispose
+to a higher risk for CX injury [48,59].
+
+Medicina 2023, 59, x FOR PEER REVIEW
+
+6 of 15
+
+Medicina 2023, 59, 1470
+
+6 of 16
+
+Figure
+coronary
+angiogram(A)
+(A)and
+andcomputerized
+computerized tomographic
+3D3D reFigure
+3. 3.
+AA
+coronary
+angiogram
+tomographiccoronary
+coronaryangiographic
+angiographic
+reconstruction
+(B)aof a
+large
+left
+dominantcircumflex
+circumflex system
+during
+mitral
+valve
+surgery.
+construction
+(B) of
+large
+left
+dominant
+systematatrisk
+risk
+during
+mitral
+valve
+surgery.
+
+•
+
+•
+
+Computerized tomography coronary angiography;
+
+Transthoracic and transesophageal echocardiography;
+
+Numerous reports describe the expanding role of computerized tomographic coroTransthoracic echocardiography (TTE) can identify posterior MV leaflet pathology
+nary angiography (CTA) in the evaluation of the CX–CS–MV complex. Mlynarski and
+that
+requires[58]
+extensive
+in closeinrelation
+the CX anatomical
+course. Secolleagues
+reportedreconstructions
+52 anatomical variations
+320 CTAto
+evaluations
+of the CX–CS–MV
+vere
+MV and
+annular
+calcification
+and
+destructive
+posterior
+or annular
+infective
+endocarcomplex
+reported
+that only
+1.6% of
+CX could
+not be MV
+visualized
+in their
+series. The
+ditis
+are amongst
+thethat the
+TTE-identifiable
+diseases that
+present
+increased
+CX injury
+risk durauthors
+concluded
+significant anatomical
+variation
+of the CX
+strengthens
+the role
+CTA in
+preoperative
+surgical
+andin relation
+transcatheter
+planning.
+Carusobe
+and
+colleagues [59]
+ingofMV
+surgery.
+The CX
+course
+toMV
+the MV
+can also
+appreciated
+by TTE.
+recently and
+concluded
+from their
+of 95 their
+examinations
+the to
+addition
+of 3D
+reconKrzanowski
+colleagues
+[56]series
+described
+TTE that
+technique
+visualize
+the
+proximal
+struction
+preoperative
+facilitates
+improved
+andmodified
+operator-independent
+and
+middletoCX
+course by CTA
+parasternal
+short
+axis and
+five-chamberdistance
+TTE views.
+measurement accuracy between the CX and MV annulus (Figure 3B) and regard CTA with
+The authors suggest that CX evaluation by TTE can be of value in evaluating the CX–CS–
+3D reconstruction superior to other imaging modalities in identifying CX potentially at
+MV complex, but acknowledge that advanced TTE skills are required and conclude that
+risk during MV surgery. The measured distance between the CX and MV annulus was
+additional,
+non-operator-dependent
+imaging
+modalities
+be used toCX
+guide
+CX anatsignificantly
+smaller in left (mean distances
+of 3.0
+± 2.1 mm)should
+and codominant
+systems
+omy
+preparation
+for MVto right
+surgery.
+Bevilacque
+[51] and
+Mak [53]
+independently
+reported
+(4.6in± 2.3
+mm) compared
+dominant
+CX systems
+(mean
+distances of 5.9
+± 3.2 mm).
+onHowever,
+the excellent
+CX
+and
+CX–CS–MV
+complex
+visualization
+by
+transesophageal
+echocarthe authors also describe that more than 20% of right dominant CX systems
+presented(TEE)
+with CX
+to 3D
+MVimaging
+annular distances
+than 3
+mm, which
+concur
+with earlier
+diography
+and
+software,of less
+which
+facilitates
+accurate
+distance
+measurereports
+from Virmani
+Cornuwell
+[76] and
+Kaklikkaya
+[77]. Only
+reports from
+Mulpur [7],
+ment
+capabilities
+that [4],
+correlate
+with current
+CTA
+technology.
+Ender and
+colleagues
+Grande
+[18] and
+Varelathe
+[21]proximal
+describe CX
+MV surgery
+a dominantdiameter
+right
+[57]
+routinely
+visualize
+andinjury
+distalduring
+CX course
+with itsinassociated
+in
+coronary artery system. CTA is now well established in the diagnosis of coronary artery
+relation to the CX–MV complex during MV surgery by using a combination of B-mode
+disease [55], and its role in evaluating coronary artery anatomy and disease as a primary
+imaging and color Doppler. The authors reported successful proximal, CX coronary sinus
+imaging modality in valvular art disease will continue to expand.
+
+intersection and distal CX visualization in 99%, 90% and 86% of patients, respectively. A
+•
+Transthoracic
+and transesophageal
+echocardiography;
+modified
+mid-esophageal
+long-axis view
+of the aortic valve at a 110 ± 20 degrees transTransthoracic
+echocardiography
+(TTE)
+identify
+posterior
+leaflet pathology
+ducer angle is regarded as the optimal TEE can
+view
+for accurate
+CXMV
+diameter
+measurements
+that
+requires
+extensive
+reconstructions
+in
+close
+relation
+to
+the
+CX
+anatomical
+course.optimal
+Severe MV
+along its course. The important role of TEE skilled anesthetists in ensuring
+MV
+annular
+calcification
+and
+destructive
+posterior
+MV
+or
+annular
+infective
+endocarditis
+surgery outcomes were recently re-emphasized by Landa and colleagues [46]. Man and
+are amongst the TTE-identifiable diseases that present increased CX injury risk during MV
+colleagues [54] described the application of CTA and TEE merger software to further resurgery. The CX course in relation to the MV can also be appreciated by TTE. Krzanowski
+fine
+thecolleagues
+CX–CS–MV
+complex their
+relationships
+in cases
+where the
+CTA-derived
+measurements
+and
+[56] described
+TTE technique
+to visualize
+proximal and
+middle
+identify
+anatomy
+at
+risk.
+Experts
+currently
+suggest
+that
+the
+combination
+of
+TEE and
+CX course by parasternal short axis and modified five-chamber TTE views. TheTTE,
+authors
+CTA
+provides
+exciting
+multi-modality
+imaging
+risk in
+preparation
+suggest
+that CX
+evaluation by
+TTE can be of
+valuetoindetermine
+evaluating CX
+the injury
+CX–CS–MV
+complex,
+forbut
+less invasive
+andthat
+TC mitral
+valve
+interventional
+planning
+[48,54,57,59].
+studies
+acknowledge
+advanced
+TTE skills
+are required
+and conclude
+that Further
+additional,
+non-operator-dependent
+imaging
+modalities
+should
+be
+used
+to
+guide
+CX
+anatomy
+in
+are required to define the role of each individual imaging modality in isolation and in
+preparationto
+for MV
+surgery.
+Bevilacqueand
+[51]to
+and Mak
+[53]
+independently
+reported
+the corocombination
+evaluate
+CX anatomy
+redefine
+the
+traditional role
+of on
+routine
+excellent
+CX
+and
+CX–CS–MV
+complex
+visualization
+by
+transesophageal
+echocardiography
+nary angiography at the expense of additional radiation exposure in preparation for contemporary MV surgery.
+B.
+
+Modern mitral valve surgical techniques and technology to minimize circumflex coronary artery injury risk
+
+Medicina 2023, 59, 1470
+
+7 of 16
+
+(TEE) and 3D imaging software, which facilitates accurate distance measurement capabilities that correlate well with current CTA technology. Ender and colleagues [57] routinely
+visualize the proximal and distal CX course with its associated diameter in relation to
+the CX–MV complex during MV surgery by using a combination of B-mode imaging and
+color Doppler. The authors reported successful proximal, CX coronary sinus intersection
+and distal CX visualization in 99%, 90% and 86% of patients, respectively. A modified
+mid-esophageal long-axis view of the aortic valve at a 110 ± 20 degrees transducer angle is
+regarded as the optimal TEE view for accurate CX diameter measurements along its course.
+The important role of TEE skilled anesthetists in ensuring optimal MV surgery outcomes
+were recently re-emphasized by Landa and colleagues [46]. Man and colleagues [54] described the application of CTA and TEE merger software to further refine the CX–CS–MV
+complex relationships in cases where CTA-derived measurements identify anatomy at risk.
+Experts currently suggest that the combination of TTE, TEE and CTA provides exciting
+multi-modality imaging to determine CX injury risk in preparation for less invasive and TC
+mitral valve interventional planning [48,54,57,59]. Further studies are required to define
+the role of each individual imaging modality in isolation and in combination to evaluate
+CX anatomy and to redefine the traditional role of routine coronary angiography at the
+expense of additional radiation exposure in preparation for contemporary MV surgery.
+B.
+
+Modern mitral valve surgical techniques and technology to minimize circumflex
+coronary artery injury risk
+
+The rapid development, favorable outcomes and simplification of durable MV repair techniques as described by Carpentier [62–64] redefined the modern role of MV
+replacement [61]. The reported decrease in MV replacement procedures performed in
+developed countries [78] parallels modern international guidelines [74,75] that strongly
+advocate MV repair whenever possible. Various reports describe CX injury during MV repair [6,8–23,26,27,29–35,38,39,41,42,44,46,48,49] and emphasize the importance of accurate
+and meticulous annuloplasty needle entry angle, direction, depth, instrument manipulation and exteriorization in areas where the CX–CS–MV complex is at risk. Wide posterior
+leaflet quadrangular resection, extensive posterior sliding plasty and the use of excessively small or large annuloplasty rings should be avoided to minimize the risk of tissue
+traction, distortion or external compression of the CX in high-risk areas [79–83]. Caruso
+and colleagues [59] utilized flexible annuloplasty rings in high-risk CX–CS–MV-complex
+patients, which accounted for 50% of their series. Annular sutures between the anterolateral
+commissure and P1 were omitted in 58% of these patients. Chauvette and colleagues [83]
+strongly advocate anterolateral trigone stabilization to prevent partial annuloplasty as
+a fundamental principle of safe and durable MV repair, emphasized that the fear of CX
+injury should not result in inadequate MV repair and reiterated the importance of rigid
+rings within the context of ischemic MV disease. In addition to mechanical CX injury,
+Obarski and colleagues [84] suggested that water-testing of valve competence following
+MV repair may potentially result in air embolism and transient CX ischemia, which may
+resolve or evolve to infarction. Minimally invasive and robotic approaches are becoming increasingly established as excellent surgical alternatives to conventional MV surgery
+by sternotomy access [66]. However, the learning curves associated with establishing
+less invasive surgical programs are well reported [67–69] and require additional skills in
+single-shaft and robotic console instrument manipulation. CX injury during less invasive
+MV procedures is described [13,18,20,26,28,31,41,42,44,46]. The technical aspects of endoscopic posterior annular suture placement are outlined in Figure 4 and can be mastered
+in innovative simulation environments [85]. Everting and non-everting annular sutures
+should not be placed more than 3 mm from the posterior annulus in MV replacement.
+Extensive posterior annular resections and reconstructions required in severe MV annular
+calcification [86] and destructive infective endocarditis [87] should be performed with CX
+injury awareness. Innovative TC–MV technology currently includes various annuloplasty
+devices that use anchors or sutures for annular implantation through the left atrium or
+CS [70,71] and replacement technology [72,73] that are implanted through peripheral or
+
+Medicina 2023, 59, 1470
+
+should not be placed more than 3 mm from the posterior annulus in MV replacement.
+Extensive posterior annular resections and reconstructions required in severe MV annular
+calcification [86] and destructive infective endocarditis [87] should be performed with CX
+injury awareness. Innovative TC–MV technology currently includes various annuloplasty
+devices that use anchors or sutures for annular implantation through the left atrium
+or CS
+8 of 16
+[70,71] and replacement technology [72,73] that are implanted through peripheral or
+trans-apical access. A meta-analysis by Kargoli and colleagues [72] recently reported that
+no CX
+injury secondary
+TC mitral valve
+devices
+described
+or observed
+to be
+up to
+trans-apical
+access. A to
+meta-analysis
+by Kargoli
+andwas
+colleagues
+[72] recently
+reported
+that
+date.no CX
+Eﬀectiveness
+durability
+are the
+main
+concerns
+TC
+approaches,
+and
+outcome
+injury and
+secondary to
+TC mitral
+valve
+devices
+was of
+described
+or
+observed
+to be up
+to date.
+durability
+are the
+main concerns
+TCfuture
+approaches,
+and of
+out-MV
+reports
+are Effectiveness
+progressivelyand
+emerging
+with
+exciting
+prospectsofor
+treatment
+come
+reports
+are
+progressively
+emerging
+with
+exciting
+prospects
+for
+future
+treatment
+of
+disease.
+MV disease.
+
+Figure
+4. The
+of posterior
+mitral
+valve
+annuloplasty
+include(A)
+(A)aa 90
+Figure
+4. principles
+The principles
+of posterior
+mitral
+valve
+annuloplastysuture
+suture placement
+placement include
+degree
+annular
+angle angle
+entrance
+(B) in
+with
+annulus.(C)
+(C)
+Careful
+driving
+90 degree
+annular
+entrance
+(B)parallel
+in parallel
+withthe
+themitral
+mitral valve
+valve annulus.
+Careful
+driving
+of of
+the needle
+through
+the
+appropriate
+depth
+and
+(D)
+careful
+needle
+extraction
+along
+its
+curve.
+the needle through the appropriate depth and (D) careful needle extraction along its curve.
+
+C.
+
+Intraoperative circumflex coronary artery injury diagnosis and treatment pathways
+
+Pessa and colleagues [50] emphasized that the clinical presentation of CX injury
+correlates with the impact on CX flow and the underlying myocardial reserve. The inability
+to wean from cardiopulmonary bypass, acute hemodynamic compromise, ST-segment
+elevation on electrocardiography, refractory ventricular arrhythmias, lateral left ventricular
+regional wall motion abnormalities and disproportionate cardiac enzyme leak can present
+during or after the separation from cardiopulmonary bypass or later in the postoperative
+period [31,48]. The reported physiological classification and anatomical mechanisms that
+result in iatrogenic CX injury are outlined in Table 3.
+Table 3. Potential mechanisms of circumflex coronary artery injury during mitral valve surgery.
+External compression
+Oversized prosthesis
+Hematoma
+Suture injury
+Vessel laceration with bleeding
+Vessel distortion with partial occlusion
+Vessel occlusion
+Thermal injury of endothelium
+Cryoablation injury
+Radiofrequency ablation injury
+Embolism
+Air
+Bone marrow
+Fat fragments
+Suture material
+Prosthetic material
+
+The intraoperative diagnosis of CX injury is currently documented in 20 reports of
+34 patients [6,10,11,13,14,16–20,22,28,31,35,39–42,45,46] and suggests that only 48.3% of
+all documented CX injuries during MV surgery are diagnosed intraoperatively. Once
+suspected, urgent confirmation of CX injury and the rapid identification of the responsible mechanism by TEE and/or coronary angiography are crucial to expedite the appropriate treatment strategy [10–49]. Flow-limiting CX injuries diagnosed intraoper-
+
+Medicina 2023, 59, 1470
+
+9 of 16
+
+atively require emergency revascularization and restoration of distal perfusion by either emergency empiric coronary artery bypass grafting (CABG) of the obtuse marginal
+branches utilizing saphenous vein [6,10,14,15,19,27,31,37,38,48], by revising the prosthesis
+sutures [6,7,17,20,22,30,32,36,38,42,48] or by PCI [8,9,11–13,16,18,20–24,26,28,29,31–35,37–49].
+CABG should strongly be considered in an unstable intraoperative setting, where transfer
+to the catheterization laboratory is prohibited or delayed and where TEE or angiography
+confirm total CX occlusion [48], especially if sternotomy access is utilized. Revision of
+annuloplasty sutures in isolation or in combination with either CABG or PCI is documented
+in 14 reports and can be considered in minimally invasive MV surgery where conversion
+to sternotomy is not possible or desirable, or where emergency CABG may be challenging [13,18,20,26,28,31,41,44]. Various authors elected to transfer confirmed CX injuries
+directly from the operating room (n = 21) or from a postoperative intensive care setting
+(n = 18) for coronary angiography and PCI after Mantilla and colleagues [8] reported the
+first PCI for a partially occluded CX injury in 2004. Revascularization by PCI is feasible and
+preferred in a stable intraoperative setting where CX injury is confirmed to be the result
+of a partial CX occlusion and where transfer and ischemic reperfusion times are minimal.
+The inability to cross totally occluded CX injuries with guidewires, stent under-expansion
+and potential CX rupture are amongst the immediate risks reported with PCI [43,48,49].
+The recent advances in hybrid theatre technology, which facilitate combined single-stage
+surgical MV and TC interventions [65], may decrease CX ischemic reperfusion time by
+providing the option of rapid on-table coronary angiography and attempts at PCI as an
+alternative to CABG once the clinical suspicion and mechanism of CX injury is confirmed
+by TEE (Figure 5).
+D.
+
+Postoperative and delayed circumflex coronary artery injury diagnosis and
+treatment strategies
+
+Available reports suggest that the majority of CX injuries secondary to MV surgery
+manifest during the postoperative period, with 47 of 89 currently documented patients
+(52.8%) reported to be diagnosed and treated postoperatively. The postoperative clinical
+presentation of CX injury includes acute or progressive hemodynamic compromise, increased exogenous inotropic support requirement, ST segment elevation or new refractory
+ventricular arrhythmias on electrocardiography, new lateral left ventricular regional wall
+motion abnormalities and cardiac enzyme levels suggestive of myocardial ischemia [31,48].
+Zegdi and colleagues [15] reported the only postoperative diagnosis of CX injury treated by
+emergency CABG in 2007, while revision of MV sutures was utilized in four patients with
+CX injury diagnosed in the postoperative period (8.5%). PCI was the preferred strategy
+in 46.8% (n = 22) of postoperative CX injury patients. Grande [18] and Pettinari [29] independently emphasized the technical difficulty of postoperative PCI in anomalous vessels
+and advocate careful preoperative MV planning in the event of postoperative CX injury.
+Reports of delayed complications following rescue PCI are emerging and include in-stent
+restenosis and a need for future repeat revascularization reinterventions [26,48]. Somekh
+and colleagues [26] described an iatrogenic CX to left atrial fistula following a PCI for CX
+injury secondary to MV surgery on the 15th postoperative day. The patient presented with
+progressive cardiac failure, partial annuloplasty ring dehiscence, severe left atrial enlargement and a fistula. The patient underwent subsequent MV replacement and suture closure
+of the fistula with a favorable short-term outcome. Gentry and colleagues [36] reported a
+CX to left atrial fistula 1 year postoperatively, with successful subsequent redo-MV replacement and a favorable outcome. Ziadi and colleagues [27] described the presentation of a
+large left ventricle pseudoaneurysm and severe MV regurgitation recurrence 5 months after
+initial MV repair and unrecognized CX injury. The authors postulate that the occlusion may
+have developed gradually, suggesting that this complication resulted from a combination
+of fixed mechanical suture occlusion, sub-intimal hematoma, formation, CX spasm and deformation of the vessel. The surgical repair included patch closure of the pseudoaneurysm,
+mitral valve replacement and tricuspid annuloplasty with a favorable prognostic outcome.
+Mulpur and colleagues [7] presented a CX injury identified by coronary angiography
+
+Medicina 2023, 59, x FOR PEER REVIEW
+
+Medicina 2023, 59, 1470
+
+9 of 15
+
+tential CX rupture are amongst the immediate risks reported with PCI [43,48,49].
+The re10 of 16
+cent advances in hybrid theatre technology, which facilitate combined single-stage surgical MV and TC interventions [65], may decrease CX ischemic reperfusion time by providing14the
+option
+coronary
+angiography
+at PCI as
+an alternayears
+after of
+therapid
+initialon-table
+MV surgery.
+The authors
+postulate and
+that attempts
+suture laceration
+resulted
+anCABG
+external
+hematoma
+around the
+CX origin
+right
+dominant
+coronary
+system
+tiveinto
+once
+the clinical
+suspicion
+and in a
+mechanism
+of
+CX injury
+is artery
+confirmed
+by TEE
+and 5).
+resulted in partial occlusion.
+(Figure
+
+Figure 5. Simultaneous minimally invasive valve surgery and percutaneous coronary interventions
+Figure 5. Simultaneous minimally invasive valve surgery and percutaneous coronary interventions
+in a modern hybrid cardiovascular theatre.
+in a modern hybrid cardiovascular theatre.
+
+D. E. The
+Postoperative
+delayed
+coronary
+artery
+injury diagnosis and treatment
+impact ofand
+CX injury
+oncircumflex
+contemporary
+in-hospital
+outcomes
+strategies
+Only seven reports on CX injury during MV surgery were present up to the year
+[1–7], which
+included
+ninethat
+MV the
+replacements
+andCX
+twoinjuries
+annuloplasty
+repairs.
+None of
+Available
+reports
+suggest
+majority of
+secondary
+to MV
+surgery
+these
+patients
+survived
+the
+incident
+prior
+to
+1982,
+with
+Tavilla
+and
+colleagues
+[6]
+being
+manifest during the postoperative period, with 47 of 89 currently documented patients
+the first
+to recognize
+injury after
+intraoperatively
+managing the
+(52.8%)
+reported
+to be CX
+diagnosed
+andannuloplasty
+treated postoperatively.
+Theand
+postoperative
+clinical
+event successfully by combining annuloplasty revision and CABG. Speziale [5] reported
+presentation of CX injury includes acute or progressive hemodynamic compromise, ina successful 30-day survival without any intervention, but acknowledge poor quality
+creased exogenous inotropic support requirement, ST segment elevation or new refractory
+life resulting from irreversible cardiac failure. The progressive awareness of CX injury
+
+ventricular arrhythmias on electrocardiography, new lateral left ventricular regional wall
+motion abnormalities and cardiac enzyme levels suggestive of myocardial ischemia
+
+Medicina 2023, 59, 1470
+
+11 of 16
+
+related to MV surgery, paralleled by improved diagnostic imaging and therapeutic options, resulted in 42 subsequent groups sharing their cumulative experiences that include
+89 patients up to date. In total, 30-day mortality occurred in 20.2% of documented patients
+who sustained CX injury during MV surgery from 1967, which improved to 16.7% from
+reports published between 2011 and 2022. The favorable in-hospital survival outcomes
+of conservative therapy in partial CX occlusions were recently independently reported by
+Yavari [43] and Nasseradine [49] after attempts at rescue PCI were unsuccessful. However, post-discharge reports on these patients were not available. Raza [13], Grande [18],
+Ender [20], Folkmann [28], Felekos [41], Caruso [42] and Landa [46] described CX injury
+after endoscopic MV surgery without any 30-day mortality after successful PCI or revision
+of the annuloplasty. Aravelo [44] described CX injury after robotic MV surgery, which
+was successfully managed by PCI. Bargagna and colleagues [48] reported 10 patients with
+CX injury in their series of 6501 MV procedures over a 13-year period. The diagnosis
+was confirmed intraoperatively and postoperatively in five patients respectively. PCI was
+performed in distorted or partially occluded CX injuries (n = 5) and in one patient with a
+totally occluded CX. Severe PCI complications occurred in three patients due to coronary
+artery rupture (n = 2) and balloon under-expansion (n = 1), which required emergency
+CABG in two patients. In contrast to PCI, no complications were observed in patients who
+were treated by immediate CABG (n = 3). One patient with CX distortion was treated by
+removing sutures from the anterolateral commissure to the middle of the posterior annulus
+with immediate restoration of flow. The authors demonstrated prolonged intensive care admission, blood transfusion requirements and risk of multi-organ dysfunction in all patients.
+Eight patients were eventually discharged to cardiac rehabilitation centers and two patients
+died of multi-organ failure and massive cerebral hemorrhage while awaiting heart transplantation, respectively. Severe MV regurgitation was diagnosed 1 year postoperatively
+and required MV replacement with subsequent mortality due to multi-organ failure.
+F.
+
+Proposal of a comprehensive algorithm to prevent, diagnose and treat circumflex
+artery injury during mitral valve surgery
+
+The detrimental impact of CX injury during MV surgery on mortality and subsequent quality of life in survivors is well described [1–49]. Bargagna and colleagues [48]
+re-emphasized that the true incidence of CX injury is most likely underreported due to
+unawareness of CX injury in clinically stable patients, publication bias and unrecognized
+clinical features. Logistical and infrastructure challenges may also contribute to delays
+in establishing a swift diagnosis. The pathophysiology of acute coronary occlusion and
+the devastating sequelae of myocardial infarction is extensive studied [88] and reconfirms the importance and urgency in recognizing, diagnosing and treating suspected CX
+injury during MV surgery as soon as possible. It is imperative that the MV surgeons
+examine the CX–CS–MV complex in detail as part of their routine valvular heart disease
+protocols [74,75] with special attention to TTE, TEE, CTA and coronary angiographicderived images. Anesthetic proficiency in perioperative TEE interpretations is strongly
+recommended and a thorough CX–CS–MV complex evaluation should be part of the routine. Surgical techniques should follow routine principles with special attention to needle
+manipulation angles and depth in higher risk zones, meticulous sizing of prosthesis and
+careful resection and reconstruction of posterior MV components. The operating team
+should be familiar with the clinical presentation of CX injury and be well prepared to implement a protocol of rapid decision making and treatment. Postoperative continuation of care
+should also be aware of signs and symptoms suggestive of CX injury and must be able to
+identify, diagnose and assist with rapid decision making and treatment. A comprehensive
+CX injury prevention, diagnosis and treatment algorithm is proposed in Figure 6.
+
+Medicina 2023, 59, 1470
+
+ful resection and reconstruction of posterior MV components. The operating team should
+be familiar with the clinical presentation of CX injury and be well prepared to implement
+a protocol of rapid decision making and treatment. Postoperative continuation of care
+should also be aware of signs and symptoms suggestive of CX injury and must be able to
+12 of 16
+identify, diagnose and assist with rapid decision making and treatment. A comprehensive
+CX injury prevention, diagnosis and treatment algorithm is proposed in Figure 6.
+
+Figure
+6. Comprehensive
+CXCX
+injury
+prevention,
+Figure
+6. Comprehensive
+injury
+prevention,diagnosis
+diagnosisand
+andtreatment
+treatment algorithm.
+algorithm. AbbreviaAbbrevia-
+
+tions:
+CX:
+coronary
+artery;
+valve; CPB:
+cardiopulmonary
+bypass;
+tions:
+CX:circumflex
+circumflex coronary
+artery;
+MV: MV:
+mitralmitral
+valve; CPB:
+cardiopulmonary
+bypass; TEE: transesophageal echocardiography; CL: catheterization laboratory; CABG: coronary artery bypass grafting;
+PCI: percutaneous coronary intervention. MI-MVS: minimally invasive mitral valve surgery.
+
+3. Conclusions
+MV interventions are associated with the infrequent risk of iatrogenic CX injury, which
+requires rapid recognition and appropriate therapy. The preoperative coronary angiography, CTA, TTE and TEE evaluation of coronary artery dominance, CX origin, CX course
+and the CX–CS–MV complex relationships should be routine. Potential intraoperative
+maneuvers that increase the risk of CX injury should be avoided where possible and intraoperative suspicions of CX injury should be rapidly confirmed by TEE and treated by either
+suture release, CABG or PCI. Postoperative CX injury identification must be confirmed by
+either TEE or coronary angiography with subsequent PCI suggested as being the preferred
+treatment strategy. Increasing awareness of CX injury during MV surgery is mandatory
+for the early detection and prompt treatment in an exciting era of increasing minimally
+invasive surgical and TC interventions.
+Institutional Review Board Statement: Ethical review and approval were not applicable for
+this study.
+Informed Consent Statement: Patient consent was not applicable.
+Data Availability Statement: The authors are accountable for all aspects of the work in ensuring that
+questions related to the accuracy or integrity of any part of the work are appropriately investigated
+and resolved.
+Acknowledgments: The authors wish to thank Gavin Jackson, Renier Verbeek and Ernest Horsley
+for their image contributions.
+
+Medicina 2023, 59, 1470
+
+13 of 16

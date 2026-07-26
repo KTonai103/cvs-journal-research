@@ -1,0 +1,759 @@
+Featured Article
+
+Outcomes of robotic and endoscopic combined aortic and
+mitral valve surgery: experience from National Taiwan University
+Hospital
+Ling-Yi Wei1, Jen-Wei Chen1, Nai-Kwan Chou1, Yi-Chia Wang2, Chi-Hsiang Huang2, His-Yu Yu1,
+Nai-Hsin Chi1
+
+Division of Cardiovascular Surgery, Department of Surgery, National Taiwan University Hospital, Taipei, Taiwan; 2Department of Anesthesiology,
+
+National Taiwan University Hospital, Taipei, Taiwan
+
+Background: Minimally invasive approaches in cardiac surgery have transformed the field by reducing
+surgical trauma and improving recovery outcomes. The lateral approach, using robotic and endoscopic
+technologies, offers superior visualization for complex procedures, such as combined aortic and mitral valve
+surgery. Addressing concurrent pathologies in the aortic and mitral valves increases procedural complexity,
+requiring precise techniques and optimal patient selection.
+Methods: This retrospective, single-center study evaluated adult patients who underwent robotic or
+endoscopic combined aortic and mitral valve surgery between January 2015 and November 2024. Data on
+patient demographics, perioperative details, and postoperative outcomes including complications, mortality
+rates, and improvements in New York Heart Association (NYHA) functional status were analyzed.
+Results: A total of 67 patients were included, with 8 undergoing robotic and 59 endoscopic procedures. No
+mortality or conversion to open surgery was observed. Postoperative complications were minimal, with a low
+infection rate of 1.5% and an atrial fibrillation rate of 26.8%. Over 85% of patients experienced significant
+improvement in NYHA functional status.
+Conclusions: Robotic and endoscopic combined aortic and mitral valve surgery using the lateral approach
+is safe and effective, yielding excellent outcomes in a well-selected patient population.
+Keywords: Robotic valve surgery; endoscopic cardiac surgery; combined aortic and mitral valve surgery;
+minimally invasive cardiac surgery; lateral approach
+
+Introduction
+Minimally invasive approaches in cardiac surgery have
+revolutionized the field by reducing surgical trauma,
+improving recovery times, and enhancing cosmetic
+outcomes compared to traditional sternotomy. Among these
+advancements, the lateral approach, facilitated by robotic
+and endoscopic technologies, has emerged as a leading
+technique. This approach offers superior visualization of
+the aortic and mitral valves, ensuring precision in surgical
+procedures. The use of high-definition endoscopic imaging
+allows for enhanced clarity, while the lateral thoracotomy
+
+provides direct access to the cardiac structures without the
+need for extensive disruption to surrounding tissues (1-3).
+While robotic and endoscopic techniques are well
+established for single-valve procedures, particularly for
+mitral or aortic valve surgeries (1-6), combined aortic and
+mitral valve surgery introduces additional complexity.
+The need to address pathologies in both the aortic and
+mitral valves during a single procedure requires meticulous
+planning, enhanced technical precision, and an optimal
+surgical approach. Double valve surgery demands precise
+synchronization of procedural steps to avoid prolonged
+
+Ann Cardiothorac Surg 2025;14(3):210-217 | https://dx.doi.org/10.21037/acs-2024-ravr-0185
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+cardiopulmonary bypass (CPB) times and minimize the
+risk of complications. Furthermore, the proximity of the
+valves and their interrelated functional dynamics necessitate
+exceptional visualization and surgical dexterity (6-8).
+Robotic systems are particularly advantageous in this
+setting, offering unmatched endoscopic visualization and
+the multidirectional wrist function of robotic instruments.
+These features enable surgeons to navigate complex
+anatomies and perform intricate repairs or replacements
+with exceptional accuracy (7-10). In double valve surgeries,
+where simultaneous interventions on the aortic and mitral
+valves are required, the robotic platform enhances dexterity
+and minimizes limitations traditionally associated with
+minimally invasive approaches (8,11).
+This study evaluates the outcomes of robotic and
+endoscopic combined aortic and mitral valve surgery at
+National Taiwan University Hospital (NTUH). Emphasis
+is placed on the benefits of the lateral approach, the
+critical role of patient selection, and the unique advantages
+provided by robotic systems in managing the increased
+complexity of double valve procedures.
+Methods
+Ethics statement and study design
+This observational, single-center, retrospective study was
+approved by the Institutional Review Board and adhered to
+the ethical principles of the 1964 Declaration of Helsinki
+and its subsequent amendments. The Institutional Review
+Board waived the need for informed consent owing
+to the retrospective nature of the study (IRB NTUH
+202012072RIND, 202401213RINC).
+Study population
+This study involved patients who underwent robotic or
+endoscopic combined aortic and mitral valve surgery
+at NTUH from January 2015 to November 2024. The
+inclusion criteria were adult patients (aged 18 years and
+older) diagnosed with concurrent aortic and mitral valve
+diseases requiring surgical intervention. The surgeries were
+performed using robotic or endoscopic equipment, adhering
+to the protocols established by the cardiovascular surgery
+department at NTUH. The surgical team comprised
+experienced surgeons, anesthesiologists, and perioperative
+nursing staff, all specialized in minimally invasive cardiac
+procedures. Data from the surgeries, including operative
+details, perioperative care, and postoperative outcomes,
+
+were collected from the hospital’s electronic health records
+system.
+Patient selection
+Adult patients aged 18 years and older who were diagnosed
+with concurrent aortic and mitral valve diseases requiring
+surgical intervention were included in this study. Exclusion
+criteria were strictly adhered to in order to mitigate
+surgical risks and complications. Patients with any evidence
+of thoracic adhesions were excluded to ensure unimpeded
+access for robotic or endoscopic instruments. Additionally,
+individuals with peripheral artery occlusive disease, which
+could complicate CPB, were not considered suitable for
+inclusion. The definition of an inoperable situation due
+to peripheral artery disease was based on preoperative
+imaging. If the screening computed tomography (CT) scan
+revealed heavy calcification of the aortoiliac vessels and
+vascular duplex ultrasound demonstrated a monophasic
+waveform in the femoral arteries, the patient was deemed
+unsuitable for peripheral cannulation and subsequently
+excluded from minimally invasive surgery. Severe aortic
+calcification necessitating aortic root enlargement
+procedures and severe heart failure [left ventricular
+ejection fraction (LVEF) <40%] were also grounds for
+exclusion. Moreover, patients requiring emergency
+surgery were excluded to maintain the study’s focus on
+elective procedures. The aim was to select patients who
+were ideal candidates for minimally invasive combined
+aortic and mitral valve surgery, devoid of complicating
+factors commonly encountered in our practice. Those
+excluded from the study were typically managed through
+conventional sternotomy.
+Robotic setting (Figure 1A)
+The setting for the robotic surgery was the same as that
+reported previously for mitral valve surgery. After general
+anesthesia was administered via a single-lumen endotracheal
+tube, the patient was positioned supine with the right chest
+elevated. A 3-cm working port, safeguarded by a softtissue protector, was created in the fourth intercostal space
+around the right anterior axillary line. The third and sixth
+intercostal spaces served as sites for insertion of the left and
+right robotic arm ports, respectively. The atrial retractor
+was positioned in the fourth intercostal space, while the
+camera port was situated just above the working port and
+the sub-working port to vent below it.
+
+Ann Cardiothorac Surg 2025;14(3):210-217 | https://dx.doi.org/10.21037/acs-2024-ravr-0185
+
+Wei et al. Robotic and endoscopic double valve surgery
+
+A
+
+B
+
+Figure 1 Surgery set-up. (A) The robotic setup demonstrates the placement of the working port, robotic arm ports, and camera port. The
+patient is positioned supine with the right chest elevated, and the ports are arranged to optimize access to the aortic and mitral valves via the
+lateral thoracic approach. (B) The endoscopic setup illustrates the arrangement of the working port and camera port in the right anterior
+thoracic space, with patient positioning and anesthesia protocols similar to the robotic setup. This configuration facilitates minimally
+invasive access for combined aortic and mitral valve surgeries.
+
+A
+
+B
+
+Figure 2 Aortic valve exposure using traction sutures. (A) The robotic approach. (B) Endoscopic approach. The three-suture traction
+technique optimizes exposure for aortic valve surgery. Upward traction: a suture placed at the left-right commissure is directed upward
+and secured to the upper pericardium. Rightward traction: a suture at the right-noncoronary commissure is pulled towards the diaphragm,
+improving lateral exposure. Downward traction: a suture at the left-noncoronary commissure is directed downward toward the working port.
+
+Endoscopic setting (Figure 1B)
+Patient positioning and anesthesia protocols for the
+endoscopic approach mirrored those used in the robotic
+platform. The incision was made over the fourth intercostal
+space around the right anterior axillary line. The camera
+port was positioned in the second or third intercostal space,
+employing a 5-mm, 30-degree endoscopic camera.
+
+Aortic valve exposure method (Figure 2)
+
+CPB setting
+Two suture-mediated closure system devices (ProGlide™;
+Abbott, North Chicago, IL, USA) were used for right
+common femoral arterial cannulation. Venous cannulations
+were performed in the right jugular and right femoral veins
+under transesophageal echocardiographic guidance. After
+heparin administration, CPB was initiated, and the patient’s
+
+cart was docked. After the pericardium was opened, a longshaft cardioplegic needle was used on the aortic root, and a
+detachable aortic clamper (Glauber clamp; Cardio Medical
+GmbH, Langenhagen, Germany) was inserted through the
+working port into the thoracic cage. Antegrade cardioplegia
+(St. Thomas Hospital No. 2, HTK, and adenosine) was
+administered.
+
+The aortic valve exposure is primarily achieved through the
+strategic placement of three traction sutures, each designed
+to optimize visibility and accessibility during surgery.
+(I) Upward traction: The suture at the left-right
+commissure is secured to the upper part of the
+pericardium and directed upward. This positioning
+elevates the valve, enhancing the surgeon’s view
+
+Ann Cardiothorac Surg 2025;14(3):210-217 | https://dx.doi.org/10.21037/acs-2024-ravr-0185
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Table 1 Patient’s characteristics
+Characteristics
+
+Total (n=67)
+
+Robotic double valve (n=8)
+
+Endoscopic double valve (n=59)
+
+Age (years)
+
+63.9±8.9
+
+63.2±6.8
+
+64.1±9.2
+
+Male
+
+36 (53.7)
+
+3 (37.5)
+
+33 (55.9)
+
+31 (46.3)
+
+5 (62.5)
+
+26 (44.1)
+
+1.72±0.20
+
+1.69±0.13
+
+2.1±0.16
+
+CAD
+
+4 (6.0)
+
+1 (12.5)
+
+3 (5.1)
+
+CKD
+
+7 (10.4)
+
+1 (12.5)
+
+6 (10.2)
+
+I–II
+
+49 (73.1)
+
+6 (75.0)
+
+43 (72.9)
+
+III–IV
+
+18 (26.9)
+
+2 (25.0)
+
+16 (27.1)
+
+Stroke history
+
+11 (16.4)
+
+2 (25.0)
+
+9 (15.3)
+
+Peripheral vascular disease (mild)
+
+8 (11.9)
+
+0 (0.0)
+
+8 (13.6)
+
+Chronic lung disease
+
+4 (6.0)
+
+0 (0.0)
+
+4 (6.8)
+
+Current smokers
+
+13 (19.4)
+
+2 (25.0)
+
+11 (18.6)
+
+Preoperative beta blockers
+
+32 (47.8)
+
+3 (37.5)
+
+29 (49.2)
+
+Preoperative anticoagulation
+
+30 (44.8)
+
+3 (37.5)
+
+27 (45.8)
+
+LVEF <50%
+
+9 (13.4)
+
+0 (0.0)
+
+9 (15.3)
+
+Euroscore II
+
+8.0±3.9
+
+8.2±4.8
+
+8.0±3.8
+
+Female
+
+BSA (m )
+
+NYHA class
+
+Data are expressed as mean ± standard deviation or number (%). BSA, body surface area; CAD, coronary artery disease; CKD, chronic
+kidney disease; LVEF, left ventricular ejection fraction; NYHA, New York Heart Association.
+
+of the superior aspects and facilitating precise
+interventions.
+(II) Rightward traction: Positioned at the rightnoncoronary commissure, this suture is pulled
+rightward toward the diaphragm. The lateral
+traction effectively aligns the valve horizontally,
+broadening the surgical field laterally and
+improving access to the lateral components of the
+valve structure.
+(III) Downward traction: The third suture, attached
+to the left-noncoronary commissure, is directed
+downward towards the working port. This
+downward force opens the lower part of the valve,
+ensuring the inferior aspects are well exposed.
+The careful arrangement of these sutures is crucial for
+fully opening the aortic root and valve, thereby presenting
+them prominently within the surgeon’s field of view and to
+the operating camera. This method not only enhances the
+visibility of the valve structures but also facilitates a safer
+
+and more effective surgical procedure by allowing precise
+manipulation of the valve components.
+Results
+Patient demographics and baseline characteristics
+(Table 1)
+A total of 67 patients underwent combined aortic and mitral
+valve surgery, with 8 receiving the robotic approach and 59
+undergoing the endoscopic approach. The average age of
+the participants was 63.9±8.9 years. Those in the robotic
+group were 63.2±6.8 years on average compared to those in
+the endoscopic group 64.1±9.2 years). The cohort consisted
+of 46.3% females and 53.7% males.
+The prevalence of coronary artery disease (CAD) was
+low across the cohort, affecting 6.0% of all patients, with
+all cases being non-significant in terms of surgical impact.
+Chronic kidney disease (CKD) was observed in 11.9% of
+
+Ann Cardiothorac Surg 2025;14(3):210-217 | https://dx.doi.org/10.21037/acs-2024-ravr-0185
+
+Wei et al. Robotic and endoscopic double valve surgery
+
+Table 2 Aortic valve and mitral procedures
+Procedures
+
+Biological valve
+
+Aortic valve procedures 52 (77.6%)
+Intuity Elite
+
+Perceval
+
+Others
+
+Mechanical valve
+15 (22.4%)
+
+Mitral valve interventions were equally divided between
+replacements and repairs. Mitral valve replacement
+predominantly utilized biological valves (50.7%), with
+mechanical valves used in 32.8% of patients undergoing
+mitral valve replacement. For mitral valve repairs, the
+majority (54.5%) involved the annuloplasty ring only, while
+24.2% included artificial chordae, and 21.2% involved
+commissure closure (Figure S1C).
+
+Size distribution
+19 mm
+
+21 mm
+
+23 mm
+
+25 mm
+
+Mitral valve procedures 34 (50.7%)
+
+Postoperative outcomes (Table 3)
+
+22 (32.8%)
+
+Size distribution
+27 mm
+
+29 mm
+
+31 mm
+
+Data are expressed as number (%) or number.
+
+the total patient population, with a similar incidence in
+the robotic group (12.5%). The majority of patients were
+classified as New York Heart Association (NYHA) class II
+(73.1%).
+A history of stroke was noted in 16.4% of total patients,
+and 25.0% in robotic group. Mild peripheral vascular
+disease was exclusively noted in 13.6% of the endoscopic
+patients. Mild chronic lung disease was present in 6.0%
+of the total cohort, with no cases reported in the robotic
+group. The average body surface area was consistently
+1.72±0.20 m2 across both groups.
+Preoperative use of beta blockers (47.8%) and
+anticoagulation (44.8%) was common. A low percentage
+(13.4%) of patients had a LVEF below 50%. The average
+Euroscore II was 8.0±3.9, categorizing the patient group as
+non-high risk for adverse cardiac events.
+Surgical valve details (Table 2, Figure S1A-S1C)
+For the aortic valve replacements, biological valves were
+predominantly used, accounting for 78% of the procedures,
+with specific models including Perceval (Corcym, Burnady,
+Canada) (11.9%) and Intuity Elite (Edwards Lifesciences,
+Irvine, USA) (14.9%) (Figure S1A,S1B).
+
+The outcomes were successful with a mortality rate of
+0% and no instances of conversion to open surgery. The
+operative time varied slightly between techniques; the
+average for all surgeries was 296±102 minutes, with robotic
+surgeries averaging slightly longer at 302±108 minutes
+compared to 288±100 minutes for endoscopic procedures.
+The CPB time was consistent across procedures, lasting
+an average of 199±28 minutes. The duration of aortic crossclamping averaged 151±22 minutes, with robotic procedures
+exhibiting marginally longer durations of 155±23 minutes.
+Postoperative ventilation was an average of 4.7±2.2 hours.
+Intensive care unit (ICU) stays were averaging 1.92±
+1.14 days, with robotic patients experiencing slightly longer
+stays at 2.14±1.05 days. The infection rate was notably low
+at 1.5%, and the incidence of postoperative atrial fibrillation
+was 26.8%. The average hospital stay was 10.0±2.7 days.
+Importantly, there was significant improvement in NYHA
+functional status post-surgery, with over 85% of patients
+showing improvement (Figure 3).
+Discussion
+Principal findings
+This study highlights the effectiveness and safety of robotic
+and endoscopic combined aortic and mitral valve surgeries,
+marked by zero mortality and conversion rates. Key to these
+outcomes was the rigorous patient selection process, which
+ensured that only candidates suitable for minimally invasive
+approaches were chosen. These findings align with those
+of Rao et al. (2022) (2), who reported similar outcomes
+in robotic mitral valve surgeries. The results also parallel
+the experiences documented by Chou et al. (2022) (4),
+highlighting the efficacy of robotic systems in achieving
+significant improvements in functional status.
+Average operative times were manageable at 296±
+102 minutes, with comparable CPB and aortic cross-clamp
+
+Ann Cardiothorac Surg 2025;14(3):210-217 | https://dx.doi.org/10.21037/acs-2024-ravr-0185
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Table 3 Perioperative outcomes
+Parameter
+
+Total patients
+
+Robotic procedures
+
+Endoscopic procedures
+
+Mortality
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+Conversion
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+Operative time (min)
+
+296±102
+
+302±108
+
+288±100
+
+Cardiopulmonary bypass time (min)
+
+199±28
+
+194±28
+
+199±28
+
+Cross clamp time (min)
+
+151±22
+
+155±23
+
+150±22
+
+Ventilation time (h)
+
+4.7±2.2
+
+5.6±2.3
+
+4.7±2.3
+
+Infection
+
+1 (1.5)
+
+0 (0.0)
+
+1 (1.7)
+
+Post-op atrial fibrillation
+
+18 (26.9)
+
+3 (37.5)
+
+15 (25.4)
+
+ICU stay (days)
+
+1.9±1.1
+
+2.1±1.0
+
+1.9±1.1
+
+Hospital stay (days)
+
+10.0±2.7
+
+12.3±1.9
+
+9.6±2.6
+
+Post-op NYHA
+
+1.5±0.7
+
+1.6±0.9
+
+1.5±0.7
+
+Data are expressed as mean ± standard deviation or number (%). ICU, intensive care unit; NYHA, New York Heart Association.
+
+Post-op NYHA 1
+
+Pre-op NYHA 2
+Post-op NYHA 2
+Post-op NYHA 3
+Pre-op NYHA 3
+Pre-op NYHA 4
+
+Figure 3 NYHA Sankey diagram. This diagram visually represents
+the transitions in NYHA functional class for patients following
+robotic and endoscopic double valve surgery. Each pathway’s width
+corresponds to the number of patients experiencing that transition,
+emphasizing the improvement or consistency in functional
+outcomes postoperatively. NYHA, New York Heart Association.
+
+durations across both surgical techniques. These stringent
+criteria contributed to excellent outcomes, including over
+85% of patients achieving significant improvements in
+NYHA functional status, reflecting enhanced mobility and
+quality of life post-surgery. The low complication rates,
+with an infection rate of just 1.5% and one minor bleeding
+incident, further underscore the procedural safety and
+efficacy (7,10).
+
+The longer hospital stay observed in this study compared
+to reports from Western countries can be attributed
+to differences in healthcare systems. In Taiwan, the
+government-funded medical insurance system provides
+comprehensive coverage for hospitalization costs. This
+allows patients to remain in the hospital until they feel
+fully recovered and comfortable returning home without
+incurring additional financial burdens. Consequently,
+patients tend to stay longer for continued observation and
+rehabilitation, ensuring satisfaction and confidence in their
+recovery before discharge.
+Among the 15% of patients who did not show
+improvement in NYHA functional class, the majority
+were in Class II preoperatively and remained in Class II
+after surgery. However, six patients experienced a
+decline from Class II to Class III. Notably, all of these
+patients were octogenarians with multiple pre-existing
+comorbidities, such as CKD, pulmonary hypertension, or
+impaired mobility. This subgroup may have had limited
+physiological reserve and reduced capacity for postoperative
+rehabilitation, contributing to their lack of improvement or
+functional deterioration. The combination of advanced age
+and baseline functional limitations likely played a significant
+role in their outcomes. These findings underscore the
+importance of careful patient selection and the need for
+tailored perioperative care strategies in elderly, comorbidityburdened individuals undergoing complex valve surgery.
+
+Ann Cardiothorac Surg 2025;14(3):210-217 | https://dx.doi.org/10.21037/acs-2024-ravr-0185
+
+Wei et al. Robotic and endoscopic double valve surgery
+
+Integration of robotic and endoscopic views with
+traction suture techniques
+The superior visualization provided by the lateral approach
+was critically enhanced by the use of both robotic and
+endoscopic scopes, which offered distinct visual advantages.
+The robotic scope’s high-definition, three-dimensional
+imaging capabilities were particularly beneficial for precise
+aortic valve exposure (3,6), while the endoscopic scope
+offered flexibility and efficient access in the constrained
+surgical field (1). Combined with the strategic placement
+of traction sutures to position the aortic valve—upward,
+rightward, and downward—this approach allowed
+unobstructed visualization and access, enabling accurate
+surgical repairs and replacements.
+Additionally, the matured positioning of the mitral valve
+in the lateral approach facilitated precise interventions,
+contributing to consistently positive outcomes. These
+findings support the conclusions of Wong et al. (2022) (3)
+and Hosoba et al. (2022) (1), who emphasized the
+importance of combining advanced imaging with refined
+surgical techniques.
+
+302.3±108.4 minutes, compared to 288.57±100.1 minutes
+for endoscopic procedures (6,8). In contrast, the simpler
+setup and shorter durations of endoscopic techniques made
+them more time-efficient (1,11).
+Both approaches resulted in low infection rates,
+similar incidences of postoperative atrial fibrillation, and
+significant improvements in NYHA class for the majority of
+patients, highlighting their effectiveness in suitable patient
+populations (2,6,7).
+Multidisciplinary team
+The success of these surgeries was heavily reliant on a
+skilled multidisciplinary team. Seamless collaboration
+among cardiac surgeons, anesthesiologists, perfusionists,
+and nursing staff was essential to ensure procedural
+efficiency, minimize complications, and stabilize outcomes.
+This teamwork was particularly crucial in managing the
+complexities inherent to robotic and endoscopic double
+valve surgeries.
+Challenges and limitations of the lateral approach
+
+Non-high risk patient selection
+The success of these surgeries was closely tied to rigorous
+patient selection. Patients with conditions that elevated
+surgical risks, such as thoracic adhesions, severe aortic
+calcification, poor lung function, or moderate-to-severe
+peripheral artery occlusive disease, were excluded. Similarly,
+those requiring aortic root enlargement, presenting with
+severe CAD, or undergoing emergency surgeries were not
+included. This approach ensured that the study cohort
+primarily comprised non-high-risk patients, reflected
+by an average Euroscore II of 8.0±3.9. These criteria
+directly contributed to the observed outcomes, including
+zero mortality, no conversions, and significant functional
+recovery in over 85% of patients.
+Robotic vs. endoscopic techniques
+Robotic and endoscopic techniques offered unique
+advantages while achieving comparable clinical outcomes.
+Robotic surgeries provided superior three-dimensional
+visualization and enhanced dexterity, which were particularly
+advantageous in anatomically complex cases (7,8,10).
+However, they required longer operative times, averaging
+
+Despite its advantages, the lateral approach has notable
+limitations. Anatomical challenges, such as heavily calcified
+aortic valves or very small aortic roots, can complicate
+exposure and manipulation, even with advanced tools (8).
+Furthermore, robotic systems demand substantial
+institutional investment and involve a significant learning
+curve, as emphasized by Badhwar et al. (2024) (12). These
+challenges highlight the importance of carefully selecting
+centers with adequate experience and resources to ensure
+successful implementation (13).
+Future directions
+Future studies should focus on expanding the sample size
+and exploring outcomes in patients with higher surgical
+risks or more complex conditions, such as those requiring
+emergency procedures. Multi-center collaborations will
+be critical to validate these findings and assess the broader
+applicability of robotic and endoscopic techniques.
+Additionally, the development of more accessible robotic
+systems and comprehensive training programs could
+facilitate wider adoption of these advanced surgical
+methods, ultimately improving patient outcomes
+
+Ann Cardiothorac Surg 2025;14(3):210-217 | https://dx.doi.org/10.21037/acs-2024-ravr-0185
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Acknowledgments
+The authors thank the staff at the Seventh Core Laboratory,
+Department of Medical Research, National Taiwan
+University Hospital. The manuscript editing fee was
+partially supported by the National Science and Technology
+Council (112-2314-B-002-262) and National Taiwan
+University Hospital (113-S0185).
+Footnote
+to declare.
+Ethical Statement: Informed consent was waived.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

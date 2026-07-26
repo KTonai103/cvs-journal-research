@@ -1,0 +1,150 @@
+Masters of Cardiothoracic Surgery
+
+Robotic posterior bar decalcification and mitral repair in mitral
+annular calcification
+Didier F. Loulmet, Ali Hage, Eugene A. Grossi
+Department of Cardiothoracic Surgery, NYU Langone Health, New York, NY, USA
+
+Clinical vignette
+A 78-year-old man was diagnosed with mitral valve (MV)
+regurgitation following new-onset atrial fibrillation. A
+transesophageal echocardiogram (TEE) revealed severe
+type II (P2) MV regurgitation with a left ventricular
+(LV) ejection fraction of 60%. A gated chest computed
+tomography angiography (CTA) with three-dimensional
+(3D) reconstruction identified two-segment mitral annular
+calcification (MAC) centered on P1 and extending to the A1
+and P2 hinges. The recommended treatment was robotic
+MV repair, including MAC excision, left atrial appendage
+closure, and cryoablation.
+
+was opened longitudinally above the right phrenic nerve. A
+flexible transthoracic aortic clamp was introduced through
+the working port to occlude the distal ascending aorta.
+Antegrade del Nido cardioplegia was administered to induce
+myocardial arrest and was re-dosed hourly. The left atrium
+(LA) was accessed via the Sondergaard groove. A dual-blade
+dynamic retractor was used to expose the MV, and a vent
+was placed into the left inferior pulmonary vein. The LA
+appendage was closed with a running, back-and-forth 4.0
+Gore-Tex suture, which was extended to plicate the LA wall
+between the lower pulmonary veins and the mitral annulus.
+Operation
+
+Surgical techniques
+Preparation
+The patient was placed in a supine position with the right
+chest elevated at a 30-degree angle. Following the creation
+of a 20-mm service port in the third intercostal space (ICS)
+at the mid-axillary line, four additional 8-mm ports were
+positioned: a left instrument port (2nd ICS, between the
+shoulder and nipple), a camera port (3rd ICS, anterior
+axillary line), a left atrial retractor port (4th ICS, midclavicular line), and a right instrument port (5th ICS, midaxillary line). Cardiopulmonary bypass was initiated via
+peripheral cannulation, and the patient was cooled to 30 ℃.
+Exposure
+
+The operation was performed entirely thoracoscopically
+using the da Vinci Xi surgical system. The pericardium
+
+MV analysis confirmed Barlow’s disease, revealing a flail
+medial P2 and MAC just below the anterior commissure,
+which involved the hinges of A1, P1, and P2, consistent
+with the preoperative CTA findings. To minimize smoke
+and prevent camera fogging, MAC excision was performed
+exclusively by sharp dissection rather than our preferred
+electrocautery technique. The hinges of P2, P1, and A1
+were successively detached from the annulus, extending past
+the left trigone. The MAC attached to the posterior leaflet
+(PL) was then excised en bloc, with care taken to preserve the
+leaflet tissue. The PL was subsequently tacked against the
+septum using the dual-blade retractor to maximize exposure
+of the atrioventricular (AV) groove.
+Annular assessment revealed dissociation of the AV
+groove along the hinge of P1 and the lateral half of
+P2, while the medial portion of the P2 hinge remained
+intact. The resulting 1-cm separation between the LA
+and LV edges met the institutional threshold for patch
+
+Ann Cardiothorac Surg 2025;14(6):514-516 | https://dx.doi.org/10.21037/acs-2025-mac-19
+
+Annals of Cardiothoracic Surgery, Vol 14, No 6 November 2025
+
+reconstruction. Patch ventriculoplasty was performed using
+a bovine pericardial patch (Edwards Lifesciences Corp.,
+Irvine, CA, USA). The patch was secured to the LV with a
+series of 2.0 Ethibond pledgeted horizontal mattress sutures,
+placed deeply to engage the compact myocardium while
+avoiding a transmural course or involvement of the AV
+groove epicardium. The bedside surgeon secured the knots
+using the Cor-Knot (LSI Solutions, Ltd.; Victor, NY, USA)
+system while the console surgeon applied firm pressure
+to maintain the patch against the LV edge. Each knot was
+individually visualized during tightening, and each suture
+was tied immediately after being placed in order to limit the
+number of strings in the operative field. We also proceeded
+from left to right, or from the easiest part to the most
+difficult in terms of exposure. The non-dissociated part of
+the annulus was repaired with pledgeted horizontal mattress
+sutures only. The patch was secured to the LA edge with a
+series of 2.0 Ethibond horizontal mattress sutures. These
+will be used later for attaching the annuloplasty device. Its
+upper edge was trimmed, leaving a 5–7 mm rim of tissue for
+PL reattachment and potential height augmentation.
+The PL was reattached to the patch with a 4.0 GoreTex interlocking suture technique to create a hemostatic
+suture line and prevent a purse-string effect. Where a patch
+was not needed, the PL was sutured directly to the native
+annulus. The repair concluded with an anterior commissure
+reconstruction and the placement of a pair of artificial
+chords to correct any residual prolapse. Annuloplasty was
+performed with a semi-rigid band. The lateral part of the
+band was attached with the same sutures used to anchor the
+patch to the LA, which effectively sealed the AV groove.
+The remainder of the band was secured with horizontal
+mattress sutures placed along the non-dissociated part of
+the annulus.
+
+or pacemaker implantations, and a 30-day mortality rate of
+3% (1).
+In a subsequent cohort of 1,441 patients, a specific
+analysis compared outcomes in those requiring LV patch
+ventriculoplasty versus those undergoing non-patch repairs.
+MV repair was achieved in over 80% of the pericardial
+patch group, compared to 98% in the non-patch group.
+There were no significant differences in postoperative
+stroke, 30-day mortality, or 3-year survival between the two
+groups (2). It is important to note that the extent of MAC
+does not determine a patient’s eligibility for this procedure;
+instead, eligibility depends on whether the patient has
+sufficient physiological reserve to tolerate this relatively
+prolonged operation.
+R o b o t i c a s s i s t a n c e p r o v i d e s n e a r- m i c r o s c o p i c
+visualization and superior instrument dexterity, making it
+an ideal platform for complex procedures like MV repair
+necessitating MAC excision and AV groove reconstruction.
+However, this approach should be reserved for highly
+specialized teams with advanced expertise in both robotics
+and MV surgery.
+
+Comments
+In the initial series of 500 consecutive patients undergoing
+isolated robotic MV repair, MAC was identified in
+approximately 13% of cases (1). The case presented here,
+while not representing the most extensive form of MAC,
+illustrates the most common pattern—typically localized
+to the P1–P2 hinge (1). In that series, MAC excision was
+achieved in 94% of patients, one-third of whom required
+annular reconstruction with a bovine pericardial patch (1).
+Short-term outcomes were excellent, with 100% freedom
+from more than mild mitral regurgitation (MR), no strokes
+
+Acknowledgments
+None.
+Footnote
+to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

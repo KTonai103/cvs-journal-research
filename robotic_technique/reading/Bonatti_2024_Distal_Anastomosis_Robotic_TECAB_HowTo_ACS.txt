@@ -1,0 +1,155 @@
+Masters of Cardiothoracic Surgery
+
+How to perform distal anastomosis using a robotic platform:
+totally endoscopic coronary artery bypass
+Johannes Bonatti1,2, Syed Faaz Ashraf1,2, Martin Winter1,2, Thomas E. Rubino1,2, Catalin Toma1,2,
+Ibrahim Sultan1,2
+
+Department of Cardiothoracic Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA; 2UPMC Heart and Vascular Institute,
+
+Pittsburgh, PA, USA
+School of Medicine, 200 Lothrop Street, Suite C-700, Pittsburgh, PA 15213, USA; UPMC Heart and Vascular Institute, Pittsburgh, PA, USA.
+
+Clinical vignette
+
+Exposition
+
+A 79-year-old male patient with a past medical history
+significant for non-ST-segment elevation myocardial
+infarction (NSTEMI) experienced worsening dyspnea
+on exertion and chest pain. A stress nuclear test showed
+ischemia in the apical area with coronary angiogram
+revealing an occlusion of the left anterior descending artery
+(LAD). He was referred for minimally invasive placement
+of a left internal mammary artery (LIMA) bypass to the
+LAD. Preoperative workup for robotic totally endoscopic
+coronary artery bypass (TECAB) grafting revealed a forced
+vital capacity (FVC) of 82% of the predicted value and a
+forced expiratory volume of 92% of the predicted value. A
+computed tomography (CT) angiogram of chest, abdomen
+and pelvis demonstrated only mild atherosclerotic plaques
+on the aorto-iliac level and the ascending aortic diameter
+was less than 35 mm. He was therefore regarded as a good
+candidate for TECAB using peripheral heart lung machine
+cannulation and use of endoaortic balloon occlusion for
+cardioplegia.
+
+The da Vinci Xi system (Intuitive, Sunnyvale, CA, USA)
+was used to perform the procedure. Ports were placed in the
+left third, fifth and seventh intercostal spaces and, the robot
+was docked.
+
+Surgical technique
+Preparation
+The patient received general anesthesia and a bronchial
+blocker for left lung isolation was placed. Two radial artery
+pressure lines were used to monitor the position of the
+aortic endoballoon. The patient was positioned with the left
+chest 30 degrees elevated.
+
+Operation
+With robotic camera view 30 degrees up, the LIMA was
+harvested in skeletonized technique using a robotic cautery
+level of 2. The vessel after harvesting was clipped distally
+and detached from the thoracic wall.
+Femoral cannulation was carried out in parallel to LIMA
+harvesting. A. distal leg perfusion line was installed into the
+ipsilateral superficial femoral artery. A 25-F venous cannula
+was brought up into the right atrium and superior vena
+cava under transesophageal echo (TEE) guidance. A 23-F
+Edwards Intraclude (Edwards, Irvine, CA, USA) cannula
+was inserted into the left femoral artery. The endoaortic
+occlusion balloon was brought up through the cannula into
+the ascending aorta. The catheter was connected to the
+cardioplegia and aortic root vent lines and to balloon and
+aortic root pressure measurements.
+An 8 mm assistance port was brought in parasternally
+and a 12 mm subcostal port was inserted and docked to the
+4th arm of the da Vinci system. With a robotic camera view
+30 degrees down the pericardial fat-pad was taken down and
+the pericardium was opened in L-shaped fashion.
+Cardiopulmonary bypass (CPB) was started. The aortic
+
+Ann Cardiothorac Surg 2024;13(4):382-384 | https://dx.doi.org/10.21037/acs-2023-rcabg-0211
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+
+endoballoon was inflated, 6 mg of adenosine were injected
+into the aortic root, and 1,200 mL of del Nido cardioplegia
+were given.
+The LAD was then exposed and incised using robotic
+Pott’s scissors. The LIMA was occluded with an endobulldog, incised distally, and checked for adequate freeflow. A robotic long-tip forceps was inserted through
+the subcostal port and used to optimize the exposure of
+the LAD.
+Robotic black diamond micro-forceps were used to
+carry out the anastomosis with a 7 cm 7/0 Pronova suture
+(Somerville, Ethicon, NJ, USA). The first stitch was placed
+inside out on the LAD close to the anastomotic toe on
+the anastomotic back wall. The needle was parked in the
+apical epicardium. Using the other needle, the back wall
+was sutured using all forehand stitches going inside out
+on the graft and outside in on the target vessel. Care was
+taken to pull frequently on the two suture ends in order to
+avoid sling formation on the back wall. The suture was then
+carried around the heel of the anastomosis and the needle
+was parked in the cranial epicardium. The other suture
+end was then used to continue the anastomosis. Stitches
+were placed outside in on the graft and inside out on the
+target vessel going around the toe and along the anterior
+wall of the anastomosis. Care was again taken to correct
+suture slings by intermittently pulling on the suture with
+the needle. After inspection of the back wall and heel with
+correction of lose slings, the needles were taken off and
+the suture was tied of using robotic instrument ties. A preemptive repair stitch was placed on the back wall.
+The endoaortic occlusion balloon was deflated and the
+heart started beating in sinus rhythm. During reperfusion,
+graft flow measurements were carried out which showed
+a transit time flow of 25 mL/min and a pulsatility index of
+2.5. The patient was weaned from CPB and decannulated.
+Protamine was given and an inspection of the chest cavity
+followed. The robot was undocked. A chest tube was
+inserted through the camera port hole and the ports and
+inguinal wound were closed in layers.
+Comments
+Clinical results
+Concerning results, we refer readers to papers which the
+first author has published (1-3).
+
+Advantages
+The main advantage of a totally endoscopic approach to
+coronary artery bypass grafting (CABG) is that the procedure
+is carried out only through robotic ports. The robotic
+device allows complex intrathoracic maneuvers, and all
+components of bypass grafting can be performed in a closed
+chest. Endoscopic suturing is ergonomically very appealing,
+and the robotic camera provides insights into suturing that
+are not available with standard loupe magnification in open
+CABG. The cardioplegia version of TECAB also lets the
+surgeon take full advantage of completely tremor free work
+as the robot filters out the latter.
+Caveats
+TECAB with use of the endoballoon for induction of
+cardioplegia requires additional training and it is highly
+recommended acquire the skills for endoballoon use in
+procedures other than TECAB. As the EndoWrist TM
+stabilizer (Intuitive Surgical, Sunnyvale, CA, USA)
+for beating heart TECAB is currently unavailable, the
+procedure described herein is one of the few ways to
+perform robotic TECAB. Proper patient selection for
+TECAB is extremely important and endoscopic suturing
+needs to be practiced intensely in simulation models before
+it can be carried out clinically.
+Acknowledgments
+Footnote
+to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+Ann Cardiothorac Surg 2024;13(4):382-384 | https://dx.doi.org/10.21037/acs-2023-rcabg-0211
+
+Bonatti et al. Robotic totally endoscopic distal anastomosis

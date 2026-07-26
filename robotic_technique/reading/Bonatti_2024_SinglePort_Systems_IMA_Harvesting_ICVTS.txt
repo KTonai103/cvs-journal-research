@@ -1,0 +1,107 @@
+Johannes Bonatti
+
+Robotically assisted internal mammary artery harvesting—will
+single-port systems be useful?
+
+Robotically assisted internal mammary artery harvesting—will
+single-port systems be useful?
+Johannes Bonatti
+
+�
+
+� Corresponding author. Department of Cardiothoracic Surgery, University of Pittsburgh School of Medicine and UPMC Heart and Vascular Institute, 200 Lothrop
+Street C-718, Pittsburgh, PA 15123, USA. Tel: þ1-412-648-6314; e-mail: bonattijo@upmc.edu, johannesbonatti@gmail.com (J. Bonatti).
+
+Keywords: Robotic surgery • Internal mammary artery harvesting • Multiport • Single port • Minimally invasive coronary artery
+bypass grafting
+
+robotic graft take down. The main advantage of robotic IMA
+harvesting is that the surgeon is fully immersed into the chest
+cavity and can harvest the internal mammary arteries in their full
+length. In the classic minimally invasive direct coronary artery
+bypass grafting (MIDCAB) [4] procedure or the corresponding
+minimally invasive cardiac surgery—coronary artery bypass graft­
+ing operation (MICS-CABG) [5] for multivessel disease the inter­
+nal mammary arteries are harvested through the
+minithoracotomy using special spreaders or lifting devices which
+are relatively traumatic and the view on the graft, specifically the
+left IMA, is tangential. For both the left and right internal mam­
+mary reaching the distal end can be an issue and too short a
+graft length is a potential complication.
+Concerning the single-port principle in general it needs to be
+discussed whether a 25-mm port incision is better than three 8mm port holes in classic robotic IMA harvesting. With three
+small incisions the trauma is dispersed, pain may be distributed
+across the chest, and the question remains whether herniation
+of underlying content is possible through the single-port inci­
+sion. At least proper port hole closure needs to be guaranteed.
+As can be read from the paper the next step is probably clini­
+cal application of the SP system for IMA harvesting in a MIDCAB
+operation. The authors mention that introduction of a coronary
+artery stabilizing device through the subcostal incision should be
+possible. I agree with this statement but would like to encourage
+the group to look beyond the MIDCAB procedure and to de­
+velop a totally endoscopic coronary artery bypass grafting oper­
+ation [6] in the models described. Totally endoscopic coronary
+artery bypass grafting is one of the few minimally invasive pro­
+cedures in heart surgery that only work using robotic technol­
+ogy. Attempts to perform these operations with standard
+thoracoscopic instrumentation have essentially failed [7]. The
+surgical robot, however, is a beautiful, sophisticated tool that
+allows for endoscopic suturing of vascular and micro-vascular
+anastomoses. The community of minimally invasive heart sur­
+geons should definitely set the goal at developing totally endo­
+scopic coronary artery bypass grafting and take advantage of
+current new developments in robotic technology to achieve
+this goal.
+
+# The Author(s) 2024. Published by Oxford University Press on behalf of the European Association for Cardio-Thoracic Surgery.
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+Department of Cardiothoracic Surgery, University of Pittsburgh School of Medicine and UPMC Heart and Vascular Institute, Pittsburgh, PA, USA
+
+I read with great interest the experimental work by Stein et al.
+which looked at bilateral internal mammary artery (IMA) har­
+vesting using the da Vinci SP single-port surgical robot [1]. The
+authors conducted this study in 2 human cadavers and in 2 live
+pigs. They used a left-sided subcostal incision for robot docking
+and managed to harvest the IMA bilaterally in all experiments.
+The docking process took between 14 and 21 min and bilateral
+IMA harvesting could be accomplished in a time frame between
+65 and 125 min. The authors conclude that they demonstrated
+feasibility of the robotic single-port approach and state that har­
+vesting was technically less demanding than through a minithoracotomy.
+The da Vinci SP system is one of the latest iterations of the
+first robot ever used for coronary bypass surgery. Whereas in
+the classic robotic IMA harvesting procedure [2] an 8- or 12-mm
+camera port and two 8-mm instrument ports were inserted into
+the chest the single-port version uses a 25-mm tube with 4
+channels that accommodate an articulating camera and up to 3
+channels for robotic instruments which are also flexible. This
+flexibility probably supported the successful conduct of the cur­
+rent IMA harvesting experiments. As expected the harvesting
+process was more difficult at the caudal end of the left-sided
+IMA as the single port was located parallel to the vessel course.
+Another challenge was adjustments of the SP system remote
+centre during the procedure and a software solution for this
+problem in the future is projected. The harvesting times
+achieved are encouraging and I am sure appropriate times can
+be achieved in the clinical setting.
+Exploring the utility of the da Vinci SP system for internal
+mammary artery harvesting was certainly a necessary step and it
+was good to see that a European group of researchers after
+many years of slow development in robotic cardiac surgery and
+recent renewed interest [3] took on this project. Concerning the
+conclusion that the robotic SP approach was easier than bilateral
+IMA harvesting through a mini-thoracotomy I would like to state
+that the latter is probably a technically too demanding endeav­
+our anyway, especially in obese patients. I would also like to ask
+the question why given the fact that robotic technology has
+existed for >25 years surgeons are so reluctant to even pursue
+
+CORONARY DISEASE
+
+INVITED COMMENTARY
+
+Interdisciplinary CardioVascular and Thoracic Surgery 2024, 38(6), ivae107
+
+J. Bonatti / Interdisciplinary CardioVascular and Thoracic Surgery

@@ -1,0 +1,143 @@
+Editorial
+
+How to start a robotic coronary bypass grafting program:
+suggestions from an experienced robotic-assisted coronary
+surgeon
+Amalia A. Jonsson, Michael E. Halkos
+Division of Cardiothoracic Surgery, Emory University School of Medicine, Atlanta, GA, USA
+Dunwoody Rd, Ste 200, Atlanta, GA, USA. Email: mhalkos@emory.edu.
+Keywords: Program development; robotic cardiac surgery; coronary bypass
+
+Robotic-assisted coronary artery bypass grafting (CABG) is
+a less-invasive option for patients with isolated left anterior
+descending (LAD) disease or selected, less-complex multivessel coronary disease providing the benefits of the left
+internal mammary artery (LIMA) to the LAD graft while
+avoiding the morbidity of a sternotomy. For patients with
+multivessel coronary artery disease (CAD), this technique
+can be combined with percutaneous coronary intervention
+(PCI) for a hybrid revascularization strategy (1). We have
+previously published our results from our first 1,000
+consecutive robotic-assisted CABG cases demonstrating
+the learning curve for this technique with a threshold for
+mastery, defined as no further improvement in outcomes,
+at approximately 250 cases (2). However, even early in our
+experience safety and efficacy were demonstrated.
+Our robotic-assisted CABG program evolved from other
+minimally-invasive techniques at Emory. In the 1990’s,
+several Emory surgeons adopted minimally invasive direct
+coronary artery bypass. Adoption and subsequently, growth,
+was slow and limited by post-thoracotomy pain and the
+challenges associated with this approach, which included
+exposure for LIMA harvesting and expertise with offpump coronary artery bypass (OPCAB). In the late 1990’s,
+Emory surgeons developed expertise in OPCAB (3). In
+the early 2000’s, endoscopic atraumatic coronary artery
+bypass (endoACAB) became the primary minimally-invasive
+CABG approach (4). With the first purchase of the da Vinci
+robotic system in 2008–2009, endoACAB was abandoned
+
+for robotic LIMA harvesting. Unlike shafted instruments
+and low fidelity visualization with the endoscopic LIMA
+harvest, robotic technology introduced magnified and highdefinition visualization and instrumentation with multiple
+degrees of motion which simplified the LIMA harvest. The
+transition from a small minimally invasive CABG program
+to a destination reference center required collaboration
+from multiple disciplines. The initiation and subsequent
+growth of our program was largely driven by our Emory
+interventional cardiology colleagues, who appreciated the
+superiority of the LIMA-LAD graft but also recognized
+the shortcomings of vein grafting the non-LAD territories,
+especially for patients with less complex CAD. In our earlier
+experience, a majority of these patients presented with acute
+coronary syndromes (ACS) and were inpatients at the time
+of consultation. We continue to perform these procedures
+on this patient population, but the majority of recent
+growth has been in patients seen first in the ambulatory
+setting. These are patients with stable CAD or those
+that are referred from outside our healthcare system that
+presented with an ACS due to a non-LAD culprit lesion
+that was treated percutaneously. Our hospital administration
+and nursing leadership committed to dedicated robotic
+operating room teams until expertise was obtained prior to
+educating other staff members with this procedure.
+Adopting any new procedure in cardiac surgery is
+often met with skepticism and quality concerns. One of
+the critical steps for the early success of our program, and
+
+Ann Cardiothorac Surg 2024;13(5):436-438 | https://dx.doi.org/10.21037/acs-2023-rcabg-10
+
+Annals of Cardiothoracic Surgery, Vol 13, No 5 September 2024
+
+to ensure quality with this approach, was our insistence
+to document LIMA-LAD patency after the procedure.
+This was either done with postoperative catheterization
+prior to discharge or when feasible, with completion
+angiography in a hybrid room. This was done routinely
+in the first 100–200 patients and is still done selectively in
+isolated LAD patients and routinely in all hybrid patients
+that have PCI after LIMA-LAD bypass. Today, CT
+angiography is widely available and acceptable and can be
+done postoperatively in the hospital or outpatient setting.
+Postoperative or completion angiography accomplished
+three goals for our program: (I) it ensured graft patency
+and quality; (II) it provided confirmation of the approach
+and instilled confidence with our referring cardiologists
+inside and outside the Emory system; (III) we learned a
+lot about our anastomotic techniques and were able to
+make subsequent modifications in our evolution to perfect
+anastomoses, from the length and tortuosity of our LIMA
+grafts to the heel and toe suture techniques to ensure a
+patulous anastomosis. The postoperative or completion
+angiograms, in our opinion, were the single quality control
+factor that led to the success of our program. The other
+critical factor was appropriate patient selection. In our early
+experience, we required that patients have an appropriate
+body habitus, adequate chest cavity size to facilitate robotic
+LIMA harvesting, hemodynamic stability without ongoing
+ischemia signs or symptoms, and a good LAD target for the
+anastomosis. Currently, we will offer this procedure if one
+of these criteria are not met but in general patients need to
+have either favorable body habitus or a good LAD target for
+anastomosis. We still routinely avoid this procedure for any
+patients that are unstable or with ongoing ischemia.
+A multidisciplinary endeavor like this requires
+engagement and commitment from all members of the
+team. An example of this is our fast-track protocol lead
+by cardiac anesthesiology, where selected robotic CABG
+patients bypass the intensive care unit. This protocol
+was developed to identify certain patients that could be
+recovered in a postoperative anesthesia care unit and if
+specific criteria were met, these patients could then be
+transferred directly to the telemetry unit avoiding an
+intensive care unit stay altogether. This protocol in addition
+to decreasing hospital length of stay resulted in a 15%
+net reduction in inpatient costs. Importantly, there were
+no deaths or strokes reported in this analysis, and rates of
+adverse events were unchanged among the groups (5).
+Capitalizing on the widely accepted advantages of
+
+LIMA-LAD grafting, robotic-assisted CABG procedures
+can be adopted by coronary surgeons, provide the benefits
+to patients with either isolated LAD disease or less complex
+multivessel disease that may have otherwise been treated
+with multivessel PCI, and lead to increase coronary surgical
+volumes for a cardiac program. The intent of this procedure
+is not to deny traditional sternotomy CABG for patients
+with complex CAD or even a multi-arterial grafting strategy
+for patients that may benefit from additional arterial grafts.
+Instead, the goal is to ensure that all patients with LAD
+disease get treated with the best option available, which
+in many, or even most cases, is the LIMA graft. Having
+this option available ensures that the best treatment will
+be provided to each individual patient in a collaborative
+approach with interventional cardiology.
+
+Acknowledgments
+Footnote
+to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

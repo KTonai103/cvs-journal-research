@@ -1,0 +1,485 @@
+=== pdf/Agnino_2024_Robotic_Epicardial_Hybrid_Ablation_LAA_Closure_JCM.pdf  (15 pages)
+  p1: [images=1 drawings=28]
+  p5: [images=4 drawings=4]
+      Figure 1. Working port assessment in robotic AF ablation.
+      Figure 2. Marshall ligament dissection.
+  p6: [images=6 drawings=4]
+      Figure 3. First ablation line on the left atrial roof, between the left and right superior pulmonary veins.
+      Figure 4. Second ablation line connecting the superior and inferior left pulmonary veins.
+  p7: [images=6 drawings=4]
+      Figure 5. Third ablation line on the left atrial floor.
+      Figure 6. Ablation lines on the entire atrial posterior wall.
+  p8: [images=6 drawings=4]
+      Figure 7. Ablation line at the base of the left atrial appendage (a) and between the base and apex of
+      Figure 8. Complete set of ablation lines.
+  p9: [images=1 drawings=33]
+      Figure 9. Robotic closure of the left atrial appendage.
+      Table 1. Preoperative characteristic.
+  p10:
+      Table 2. After surgical ablation, electrical cardioversion was performed in patients with
+      Table 2. Intraoperative and postoperative characteristics.
+=== pdf/AlJamal_2025_Robotic_Endoscopic_Cardiac_Surgery_Reoperative_JTCVSStructEndo.pdf  (9 pages)
+  p1: [images=4 drawings=103]
+  p3: [images=1 drawings=1]
+      VIDEO 1. Robotic endoscopic cardiac surgery in the reoperative patient.
+  p4: [images=0 drawings=93]
+      TABLE 2. Patient demographics and preoperative characteristics
+      TABLE 1. The distribution of procedures performed in the
+  p5: [images=0 drawings=77]
+      TABLE 3. Intraoperative outcomes
+      TABLE 4. Postoperative outcomes
+  p6:
+      TABLE 5. Midterm follow-up outcomes
+  p7:
+      FIGURE 1. Kaplan-Meier survival curves for freedom from cardiac mortality in the (A) intracardiac and (B) epicardial groups. The x
+  p8: [images=2 drawings=1]
+=== pdf/Algoet_2024_MIDCAB_to_TECAB_Europe_vs_USA_ACS.pdf  (12 pages)
+  p1: [images=1 drawings=21]
+  p3: [images=2 drawings=3]
+      Figure 1 Endoscopic surgery performed by a master-slave concept. (A) Two robotic da Vinci consoles in a training setting. (B) Robo
+  p4: [images=2 drawings=0]
+      Figure 2 Overview of the surgical setup for robotic coronary surgery.
+      Figure 3 Incisions (red lines) for different robot assisted coronary procedures. RA-MIDCAB, robotic-assisted-minimally invasive di
+  p5: [images=1 drawings=0]
+      Figure 4 Incisions (red lines) for mitral and aortic valve robot-
+  p6: [images=2 drawings=56]
+      Figure 5 Cited from Cerny et al. (5). Cumulative incidence curve of observed mortality vs. expected mortality according to EuroSCO
+      Figure 6 Cited from Göbölös et al. (17). Percentage representation
+=== pdf/Algoet_2024_Trocar_Placement_Styles_Robotic_BeatingHeart_CABG_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Atroshchenko_2024_WetLab_Simulation_LearningCurves_Robotic_ICVTS.pdf  (10 pages)
+  p2: [images=1 drawings=18]
+  p4: [images=1 drawings=6]
+      Figure 1: Wet lab simulation tasks. (A) Robotic-assisted closure of the left atrium. (B) Robotic-assisted harvesting of the intern
+  p5:
+      Table 1: Descriptive data on the study participants
+      Table 2: Comparison of the performance of novice cardiac and noncardiac surgeons at baseline
+  p6: [images=1 drawings=28]
+      Table 3: Time and number of attempts to reach mastery in the cardiac and noncardiac groups
+      Figure 2: Time spent on the task during consecutive attempts in both novice groups. Groups’ median time with 95% confidence interv
+  p7: [images=1 drawings=0]
+      Figure 3: Individual learning curves based on the TBS. The red dashed line refers to the mastery learning level. The thick black c
+  p8: [images=1 drawings=52]
+      Table 4: Comparison of the group-level performance of novice cardiac and noncardiac surgeons using the Thurstone learn­
+      Figure 4: Group-level Thurstone learning curves for the TBS and mGEARS scores. The black solid line is the maximum attainable scor
+=== pdf/Badhwar_2026_STS_Expert_Consensus_Robotic_Cardiac_Training_ATS.pdf  (11 pages)
+  p1: [images=0 drawings=89]
+  p3:
+      TABLE 1 Intracardiac vs Coronary Track: Key Differences
+  p4: [images=1 drawings=5]
+  p5:
+      TABLE 2 Recommended Minimum Surgeon Experience and Institutional Resources Before Initiation of a Robotic
+  p7: [images=0 drawings=364]
+  p8:
+      TABLE 3 Compartmentalized Steps Specific to Robotic Revascularization
+  p9:
+      TABLE 4 Economy of Motion Metrics in Robotic Cardiac Surgery
+=== pdf/Balkhy_2025_Robotic_MultiVessel_OffPump_TECAB_Technique_JVisSurg.pdf  (6 pages)
+  p3: [images=1 drawings=4]
+      Video 1 Robotic multi vessel off-pump TECAB procedure:
+=== pdf/Bejand_2026_CT_Preoperative_Planning_MICS_Valve_SystematicReview_EJCTS.pdf  (14 pages)
+  p2: [images=1 drawings=20]
+  p5:
+      Table 1. CT Imaging in Minimally Invasive Valvular Heart Surgery
+  p6: [images=1 drawings=6]
+      Figure 1. Three-dimensional reconstruction from a preoperative CT scan of the ascending aorta and aortic arch. It demonstrates: (A
+  p7:
+      Table 2. CT Imaging in Clamping and Cannulation Planning
+  p8: [images=1 drawings=6]
+      Figure 2. Three-dimensional Reconstruction Images of the Arterial System on Preoperative CT to Guide Cannulation Strategy. (A) Tor
+  p9: [images=1 drawings=0]
+      Figure 3. Three-dimensional Reconstructions from Preoperative CT Scans in Different Patients Demonstrating Anatomical Variations R
+  p10: [images=1 drawings=6]
+      Figure 4. Three-dimensional Reconstruction of a Preoperative CT Scan in the Supine Position, Viewed from the Right Anterior Obliqu
+  p11:
+      Table 3. CT Imaging in Valvular Surgery Planning and Intraoperative Guidance
+  p12: [images=1 drawings=6]
+      Figure 5. Preoperative CT Assessment of the Mitral Annulus for Minimally Invasive Mitral Surgery. (A) 3D reconstruction in the 2-c
+=== pdf/Bonatti_2024_Distal_Anastomosis_Robotic_TECAB_HowTo_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Bonatti_2024_SinglePort_Systems_IMA_Harvesting_ICVTS.pdf  (3 pages)
+=== pdf/Czesla_2013_Safeguards_and_Pitfalls_MICS_Mitral_ACS.pdf  (4 pages)
+  p1: [images=1 drawings=1]
+  p2: [images=2 drawings=0]
+      Figure 1 Cannulation of right femoral vessels.
+      Figure 2 Aortic cross-clamping (Chitwood clamp) in the transverse
+  p3: [images=2 drawings=0]
+      Figure 4 Anatomical study indicating correlation between circumflex
+      Figure 3 Distance of mitral annulus and coronary system: three dimensional CT-reconstruction provided by 3 mensio Structural Heart
+=== pdf/Daniel_2012_RoboticCABG_Conversion_to_Sternotomy_RiskFactors_Innovations.pdf  (5 pages)
+  p2: [images=1 drawings=1]
+      FIGURE 1. Rate of conversion to sternotomy for each surgeon by time quartiles.
+  p3: [images=1 drawings=1]
+      FIGURE 2. Overall rate of conversion to sternotomy by quartile.
+=== pdf/Darehzereshki_2025_Robotic_AVR_Aortic_Root_Enlargement_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/DeLay_2023_Robotic_Mitral_Redo_after_Failed_TEER_JTCVSTech.pdf  (2 pages)
+  p1: [images=1 drawings=34]
+  p2: [images=1 drawings=1]
+      VIDEO 1. Operative technique. Video available at: https://www.jtcvs.org/
+=== pdf/Dorsey_2023_Subvalvular_Techniques_Robotic_Mitral_Repair_JTCVSTech.pdf  (5 pages)
+  p1: [images=1 drawings=32]
+  p2: [images=0 drawings=82]
+      TABLE 1. Patient demographics, preoperative, intraoperative, and postoperative variables by early versus late experience
+  p3:
+      TABLE 2. Subvalvular techniques between early versus late experience
+=== pdf/Elsebaie_2026_Learning_Curve_MICS_SystematicReview_MetaAnalysis_ATS.pdf  (11 pages)
+  p1: [images=0 drawings=137]
+  p2: [images=1 drawings=6]
+      FIGURE 1 Example of an ideal learning curve for minimally invasive opera-
+  p3:
+      Table. 10-27,32-41 The risk of bias assessment was
+      Supplemental Table 3.
+  p4: [images=0 drawings=186]
+  p5: [images=0 drawings=137]
+  p6: [images=1 drawings=5]
+      Figure 3 further shows the mean N LC values for
+      Supplemental Table 6 shows that 47% (8 of
+      Figure 2), although not for studies featuring both
+      Supplemental Figure 3 shows a significant
+      FIGURE 2 Preferred Reporting Items for Systematic reviews and Meta-
+  p7: [images=2 drawings=10]
+      FIGURE 3 Box and whisker plot demonstrates the mean number of cases
+      FIGURE 4 Scatter plot with a nonlinear regression curve illustrating the
+=== pdf/Gillinov_2026_Patient_Selection_Robotic_Mitral_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Hage_2025_Robotic_Mitral_VeryThin_Patient_TipsTricks_JTCVSTech.pdf  (3 pages)
+  p1: [images=1 drawings=27]
+  p2: [images=2 drawings=1]
+      FIGURE 1. Ports placements and incision in a standard patient. MCL, Mid-clavicular line; AAL, anterior axillary line.
+      FIGURE 2. Ports placements and incision in a very thin and small patient. MCL, Mid-clavicular line; AAL, anterior axillary line.
+  p3:
+      TABLE 1. Comparison of ports placements and incisions between a standard patient and a very thin/small patient
+=== pdf/Halkos_2025_Developing_Proficiency_Robotic_Cardiac_Surgery_ATS.pdf  (12 pages)
+  p1: [images=0 drawings=64]
+  p2: [images=0 drawings=356]
+  p3: [images=1 drawings=5]
+      FIGURE 1 Prospective pathway for developing proﬁciency in robotic-assisted coronary artery bypass grafting (CABG)
+  p4: [images=1 drawings=5]
+      FIGURE 2 Cumulative sum (CUSUM) analysis curve for observed minus expected mortality for robotic-assisted coronary
+  p6:
+      Supplemental Table 1, along with methods to
+  p7: [images=1 drawings=5]
+      FIGURE 3 Prospective pathway for developing proﬁciency in robotic mitral valve and concomitant intracardiac
+  p9: [images=2 drawings=10]
+      FIGURE 5 Protocols and processes required for successful initiation of a robotic mitral program applied to robotic ap-
+      FIGURE 4 Examples of different robotic mitral annuloplasty techniques that can be achieved with a robotic platform. (A)
+  p10:
+      Table 2, along with methods for prevention.
+=== pdf/He_2025_Osteophyte_Landmark_Robotic_LIMA_Harvest_JTCVSTech.pdf  (9 pages)
+  p1: [images=1 drawings=32]
+  p3: [images=1 drawings=1]
+      FIGURE 1. The concept of LIMA isthmus. A, The LIMAwas faintly visible under the robot’s lens. B, The LIMAwas obscured by thick fat
+  p4: [images=1 drawings=1]
+      FIGURE 2. The determination and analysis of the features of the OFCCJ. A, The relationship between the LIMA and the thoracic wall.
+  p5: [images=0 drawings=234]
+      TABLE 1. The prevalence of the OFCCJ in patients with/without CAD
+      TABLE 2. Anatomical features of osteophyte of the ﬁrst costochondral joint
+  p6: [images=1 drawings=1]
+      FIGURE 3. The standardized 9 steps for robotic LIMA harvesting determined on the basis of the concept of “LIMA isthmus.” A, Identi
+  p7: [images=0 drawings=138]
+      TABLE 3. Comparison on efﬁciency and quality of robotic LIMA harvesting between 2 surgeons using different strategies
+      FIGURE 4. Learning curve of robotic LIMA harvesting. A, The time to identify the LIMA. B, The time for robotic LIMA harvesting. LI
+=== pdf/Hirayama_2026_Incomplete_LAA_Occlusion_Robotic_Mitral_ATSShortRep.pdf  (5 pages)
+  p1: [images=0 drawings=124]
+  p2:
+      Figure 1). Incomplete occlusion was defined as
+  p3: [images=0 drawings=207]
+      Figure 2; Video 2). Echocardiograms at the time
+      TABLE 1 Baseline Characteristics of the Patients
+      TABLE 2 Operative Data and Early Outcomes
+  p4: [images=2 drawings=10]
+      FIGURE 1 Relationship between the left atrial appendage (LAA) ostium
+      FIGURE 2 Rate of incomplete occlusion. (LAA, left atrial appendage.)
+=== pdf/Issa_2023_Robotic_Mitral_Repair_Tricks_and_Tips_JTCVSTech.pdf  (2 pages)
+  p1:
+      FIGURE 1. Transitioning from sternotomy to robotically assisted mitral surgery requires adaptation and training that involves pati
+  p2: [images=1 drawings=1]
+      VIDEO 1. Demonstration of a robotically assisted mitral valve repair for
+=== pdf/Jonsson_2024_How_to_Start_Robotic_CABG_Program_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Kim_2024_Robotic_ASD_Repair_PreGroove_Vertical_Atriotomy_JTCVSTech.pdf  (9 pages)
+  p1: [images=2 drawings=639]
+  p3: [images=2 drawings=1]
+      FIGURE 2. Surgical view with conventional oblique atriotomy (A) and vertical right atriotomy (B).
+      FIGURE 1. Comparison between the da Vinci 30 scope (Intuitive Surgical) (A) and 0 scope (B).
+  p4: [images=1 drawings=1]
+      FIGURE 3. Intraoperative image with conventional oblique atriotomy (A) and vertical right atriotomy (B). The white circle represen
+  p5: [images=0 drawings=331]
+      TABLE 1. Baseline characteristics of patients according to right atriotomy incision
+  p6: [images=0 drawings=705]
+      TABLE 2. Comparison of clinical outcomes according to right atriotomy incision in patients using inverse probability of treatment 
+      FIGURE 4. Violin plot comparing the cardiopulmonary bypass (CPB) and aortic crossclamp (ACC) times between the oblique right atrio
+  p7: [images=2 drawings=614]
+      FIGURE 5. Overview of the study on robotic repair of atrial septal defect: pre-groove vertical right-atriotomy approach.
+  p9: [images=1 drawings=1]
+      FIGURE E1. Intraoperative image with right atriotomy incision lines.
+=== pdf/Kitahara_2025_Robotic_Endoscopic_AVR_RapidDeployment_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Loulmet_2024_Two_Decades_Robotic_Mitral_Repair_Lessons_JTCVSTech.pdf  (6 pages)
+  p1: [images=1 drawings=34]
+  p2: [images=1 drawings=1]
+      VIDEO 1. Robotic mitral valve repair in a case with MAC and a high risk
+  p3: [images=1 drawings=1]
+      FIGURE 1. A normal P1-P2 commissure.
+  p4: [images=2 drawings=1]
+      FIGURE 2. A P1-P2 commissure with chordal fusion.
+      FIGURE 3. A P1-P2 commissure with a calciﬁed band.
+  p5: [images=1 drawings=1]
+      FIGURE 4. A P2-P3 commissure plastered to LV wall. R, Right; L, left; LV, left ventricle.
+=== pdf/Loulmet_2025_Robotic_Posterior_Bar_Decalcification_MAC_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Loulmet_2026_MAC_Complex_Mitral_Repair_Robotics_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Mick_2023_Robotic_Mitral_Repair_Steps_to_Success_JTCVSTech.pdf  (4 pages)
+  p1: [images=3 drawings=34]
+      VIDEO 1. Patient selection and dangerous traps. Video available at:
+      VIDEO 2. Intraoperative transesophageal echocardiogram assessment.
+  p2: [images=4 drawings=1]
+      VIDEO 3. Marking and positioning with diagram. Video available at:
+      VIDEO 4. Femoral exposure and chest incisions. Video available at:
+      VIDEO 5. Preparation for bypass. Video available at: https://www.jtcvs.
+      VIDEO 6. Atriotomy and valve examination. Video available at: https://
+  p3: [images=4 drawings=1]
+      VIDEO 8. Repair with chords. Video available at: https://www.jtcvs.org/
+      VIDEO 9. Robotic annuloplasty. Video available at: https://www.jtcvs.
+      VIDEO 10. Robotic repair valve testing with power injector. Video
+      VIDEO 7. Repair with triangular resection. Video available at: https://
+  p4: [images=1 drawings=1]
+      VIDEO 11. Final steps. Video available at: https://www.jtcvs.org/article/
+=== pdf/Murtaza_2025_Lateral_Access_Robotic_AVR_RAVR_ACS.pdf  (10 pages)
+  p1: [images=1 drawings=21]
+  p2: [images=1 drawings=0]
+      Figure 1 Yearly cases of isolated AVR from STS database (6,7).
+  p4:
+      Table 1 Purposes of preoperative screening
+  p5: [images=3 drawings=0]
+      Figure 2 Patient positioning.
+      Figure 3 Landmarks and incision planning. 4th intercostal space is
+      Figure 4 Robotic port placement in relation to access port.
+=== pdf/Nakamura_2025_Robotic_Myxoma_Resection_Ultrasonic_Aspirator_JTCVSTech.pdf  (3 pages)
+  p1: [images=1 drawings=34]
+  p2: [images=2 drawings=1]
+      FIGURE 1. A, Sonopet iQ Ultrasonic Aspirator System 205 mm soft tissue tip (Stryker). B, Intraoperative photograph, a patient-site
+      VIDEO 1. Intraoperative robotic endoscopic video. 23 speed. Video avail-
+  p3: [images=1 drawings=1]
+      FIGURE 2. A, Myxoma before aspiration with Sonopet iQ Ultrasonic Aspirator System (Stryker). B, Only the core of the myxoma remain
+=== pdf/Nakamura_2026_Endocardial_Obliterative_LAA_PurseString_JTCVSTech.pdf  (6 pages)
+  p1: [images=1 drawings=98]
+  p2: [images=1 drawings=5]
+      Video 1 and Figure 1:
+      VIDEO 1. Planning of the obliterative LAAC. Video available at: https://
+  p3: [images=1 drawings=1]
+      Figure 2). No pericardial effusion or periappendage hematoma
+      FIGURE 1. Steps of surgical technique for obliterative LAAC. A, Normal position; (B), inversion; (C), purse-string plication; (D),
+  p4: [images=0 drawings=150]
+      TABLE 2. Left atrial appendage anatomy by ECG-CT (n = 24)
+      TABLE 3. Concomitant procedures and operative details (n = 24)
+      TABLE 1. Baseline characteristics of the present series (n = 24)
+      TABLE 4. Early outcomes and ECG-CT assessment (n = 24)
+  p5: [images=1 drawings=1]
+      FIGURE 2. ECG-gated cardiac CT. Preoperative LAA axial view (A1) and coronal view (A2) and postoperative LAA. The LAA was complete
+=== pdf/Nakayama_2025_SpeechBubbleSign_Incomplete_LAA_Closure_CT_ICVTS.pdf  (10 pages)
+  p2: [images=1 drawings=19]
+  p5: [images=0 drawings=90]
+      Table 1. Baseline Patient Characteristics Stratified by LAA Closure Outcome
+  p6: [images=1 drawings=45]
+      Figure 1. Incomplete LAA Closure with Characteristic “Speech Bubble” Appearance.
+      Table 2. Procedural Characteristics and Outcomes
+  p7: [images=2 drawings=0]
+      Figure 2. (A) Preoperative ECG-gated CT showing LAA presence. (B and C) Postoperative 2D and EP planning CTs from case 44 show suc
+      Video 1. Da Vinci-assisted LAA closure procedure demonstrating complete
+  p8: [images=3 drawings=6]
+      Figure 3. (A) Preoperative ECG-gated CT. (B and C) Postoperative 2D and EP CTs. (3-1) Case 52: failed closure, communication at su
+      Video 2. Da Vinci-assisted LAA closure showing incomplete closure at the su­
+      Video 3. Da Vinci-assisted LAA closure showing incomplete closure at the su­
+  p9: [images=2 drawings=0]
+      Figure 4. LAA Orifice Location Patterns. (A) Case with no identifiable orifice.
+      Figure 5. Freedom from Stroke and Bleeding Events
+=== pdf/Nameghi_2026_Simulation_Training_VATS_Robotic_Cardiac_Review_JCDD.pdf  (16 pages)
+  p1: [images=0 drawings=93]
+  p2:
+      Table 1. The literature on simulation of video-assisted cardiac surgery.
+  p3:
+      Table 1. Cont.
+  p4:
+      Table 1. Cont.
+      Table 2. The literature on simulation of robot-assisted cardiac surgery.
+  p5:
+      Table 2. Cont.
+  p6:
+      Table 3. Prevalent assessment tools for minimal access cardiac surgery simulation.
+  p7:
+      Table 4. Studies with inclusion of simulator costs.
+  p8: [images=1 drawings=2]
+      Figure 1. Graph depicting the number of studies published in minimal access simulation training
+  p11: [images=2 drawings=2]
+      Figure 2. Concept map for simulation training in minimal access adult cardiac surgery. Our review
+=== pdf/Nisivaco_2024_BITA_Robotic_BeatingHeart_TECAB_10yr_ACS.pdf  (10 pages)
+  p1: [images=1 drawings=21]
+  p3: [images=1 drawings=16]
+      Figure 1 Demonstration of BITAs after robotic-assisted
+      Table 1 Preoperative characteristics
+      Table 2 Graft information
+  p4:
+      Table 3 Intraoperative data
+      Table 4 Early postoperative outcomes
+      Table 5 Early postoperative adverse events
+  p5: [images=3 drawings=65]
+      Figure 2 Kaplan-Meier survival curve: freedom from cardiac-
+      Figure 3 Kaplan-Meier survival curve: MACCE. MACCE, major
+      Figure 4 Kaplan-Meier survival curve: freedom from all-cause
+      Table 6 Mid-term follow-up
+  p6:
+      Table 7 Early graft patency (patients undergoing PCI after TECAB)
+=== pdf/Nisivaco_2026_CPB_Necessary_PosteriorWall_Targets_TECAB_JTCVSTech.pdf  (7 pages)
+  p1: [images=1 drawings=98]
+  p2: [images=1 drawings=5]
+      Video 1 shows a 3-vessel TECAB with 2 “dark-side” targets
+      VIDEO 1. Shown is a 3-vessel TECAB with use of bilateral internal
+  p3:
+      TABLE 1. Demographics (n = 137)
+  p4: [images=0 drawings=106]
+      TABLE 2. Intraoperative data (n = 137)
+      TABLE 3. Intraoperative graft information
+      TABLE 4. Early postoperative outcomes (n = 137)
+  p5: [images=0 drawings=74]
+      TABLE 6. Early graft patency (patients undergoing PCI after
+      TABLE 5. Midterm follow-up data
+  p6: [images=1 drawings=1]
+      FIGURE 1. Example of angiographic graft assessment at the time of hybrid PCI. Left, Patent sequential LITA to OM1 and OM2 targets,
+=== pdf/Noda_2025_Robotic_Mitral_Annuloplasty_ContinuousWrapping_ICVTS.pdf  (9 pages)
+  p2: [images=1 drawings=17]
+  p4: [images=2 drawings=6]
+      Figure 2A-D and Supplementary Video 1.
+      Figure 2. Schemas of the Mitral Annuloplasty with a Full Ring Using the
+      Figure 1. Flow Chart of Patient Selection.
+  p5: [images=0 drawings=62]
+      Table 3, there were no annuloplasty-related complications, in­
+      Table 1. Patient Characteristics
+  p6: [images=0 drawings=82]
+      Table 2. Perioperative Outcomes
+      Table 3. Intra- and Postoperative Complications
+  p7: [images=1 drawings=10]
+      Figure 3. Cumulative Event Rates for Mitral Valve re-Intervention (A) and Hospital Admission Due to Cardiac Failure (B). The Learn
+      Table 4. Univariate and Multivariate Regression Analysis on Outcomes in the Whole Patients Who Underwent Mitral Ring
+=== pdf/Palmen_2022_Robotic_Mitral_State_of_Art_Recommendations_ICVTS.pdf  (6 pages)
+  p5: [images=3 drawings=0]
+      Figure 1: Robotic system (Intuitive Da Vinci X) docked to the patient. It is im-
+      Video 1: Robot-assisted mitral valve repair of a patient suffering from severe
+      Video 2: Presentation of a case of a patient with severe mitral valve regurgita-
+=== pdf/Patel_2022_Robotic_Mitral_Complications_Assistant_Perspective_ACS.pdf  (15 pages)
+  p1: [images=1 drawings=21]
+  p2:
+      Table 1 Absolute and relative contraindications to robotic mitral valve repair and replacement
+  p3:
+      Figure 1 Phases of robotic surgery. CPB, cardiopulmonary bypass; LV, left ventricle.
+  p10:
+      Table 2 Echocardiographic risk factors for SAM
+  p13:
+      Table 3 Robotic mitral valve repair complications and management
+      Table 3 (continued)
+  p14:
+      Table 3 (continued)
+=== pdf/Pickering_2025_Robotic_AVR_Simultaneous_Septal_Myectomy_ACS.pdf  (3 pages)
+  p1: [images=1 drawings=21]
+=== pdf/Podgorsek_2026_SinglePort_Robotic_Epicardial_Lead_CRT_ATSShortRep.pdf  (3 pages)
+  p1: [images=1 drawings=23]
+  p2: [images=1 drawings=7]
+=== pdf/Sarantopoulos_2026_Augmented_Mixed_Reality_Cardiac_Surgery_Review_JCM.pdf  (14 pages)
+  p1: [images=0 drawings=66]
+  p3: [images=1 drawings=2]
+      Figure 1. Study selection flow for the narrative review. PubMed was queried from database inception
+  p4:
+      Table 1. Core studies evaluating augmented and mixed reality (AR/MR) in cardiac surgery across
+  p5:
+      Table 1. Cont.
+  p6: [images=0 drawings=84]
+      Figure 2. Timeline of augmented and mixed reality (AR/MR) studies in cardiac surgery (2004–2025).
+      Figure 3. Distribution of AR/MR studies across five operative domains (n = 14). Pie chart illustrating
+=== pdf/Sutter_2024_Robotic_CABG_How_I_Teach_It_ACS.pdf  (8 pages)
+  p1: [images=1 drawings=21]
+  p2: [images=1 drawings=3]
+      Figure 1 Minimal scars following robotic-assisted CABG procedures. CABG, coronary artery bypass grafting.
+  p5: [images=2 drawings=0]
+      Figure 3 shows the general set up of Robotic-assisted
+      Figure 2 Preparing for robotic-assisted surgery. Drawing
+      Figure 3 Robotic-assisted CABG set-up. CABG, coronary artery
+=== pdf/Takahashi_2024_3DCT_Mitral_Annulus_100_Robotic_Cases_FrontCVM.pdf  (10 pages)
+  p1: [images=1 drawings=55]
+  p3: [images=1 drawings=4]
+      FIGURE 1
+  p4: [images=1 drawings=4]
+      FIGURE 2
+  p5: [images=0 drawings=383]
+      Table 2. The PAL of most patients ranged from 91 to 130 mm.
+      TABLE 1 Patient proﬁle before surgery.
+      TABLE 2 Preoperative anatomical measurements by three-dimensional
+  p6: [images=0 drawings=264]
+      TABLE 3 Perioperative data.
+  p7: [images=1 drawings=187]
+      FIGURE 3
+      TABLE 4 Mean transmitral pressure gradient for each ring size and each plication rate.
+  p8: [images=1 drawings=4]
+      FIGURE 4
+=== pdf/Wei_2026_Robotic_Chordae_Shortening_Mitral_Repair_ACS.pdf  (9 pages)
+  p1: [images=1 drawings=21]
+  p3: [images=1 drawings=23]
+      Table 1 Baseline characteristics
+      Figure 1 Robotic cusp-level chordae-shortening technique. Selection of target chord: only elongated but intact primary chordae sup
+  p4:
+      Table 2 Post‑operative outcomes
+  p5:
+      Table 3 Operative data
+  p6: [images=1 drawings=0]
+      Figure 2 Kaplan-Meier freedom from ≥ moderate MR. Robotic
+  p7: [images=1 drawings=0]
+      Figure 3 Sankey diagram. Illustrating MR-grade transitions in the chordae-shortening cohort (n=68). Each flow represents the numbe
+=== pdf/Wertan_2024_StepByStep_Robotic_MIDCAB_Technique_ACS.pdf  (10 pages)
+  p1: [images=1 drawings=21]
+  p2: [images=1 drawings=0]
+      Figure 1 Three landmarks coordinate system for the precision
+  p3: [images=2 drawings=0]
+      Figure 2 Coordinate 1 marking on the long thoracic axis.
+      Figure 3 Precision incision adjustment according to coordinate 3.
+  p4: [images=1 drawings=0]
+      Figure 4 Longitudinal alignment of the three robotic ports.
+  p5: [images=2 drawings=2]
+      Figure 5 Intraoperative pericardial incisions. (A) Posterior phrenic pericardiotomy to drain any blood that may accumulate during 
+  p6: [images=1 drawings=0]
+      Figure 6 Left internal mammary robotic harvesting (clipping
+  p7: [images=1 drawings=0]
+      Figure 7 Minithoracotomy precision incision and upper chest
+  p8: [images=3 drawings=2]
+      Figure 8 OCTOPUS
+      Figure 9 SaddleLoop positioning for the LAD anastomosis. LAD,
+  p9: [images=1 drawings=0]
+      Figure 10 Postoperative R-MIDCAB incision in a LIMA to LAD
+=== pdf/Xue_2022_How_to_Implement_Robotic_Mitral_Program_ACS.pdf  (6 pages)
+  p1: [images=1 drawings=21]
+  p2: [images=1 drawings=1]
+      Figure 1 LifeLike BioTissue mitral valve model.
+  p3: [images=1 drawings=0]
+      Figure 2 Team members present for simulation sessions. APP, advanced practice providers; OR, operating room.
+  p4: [images=1 drawings=41]
+      Figure 3 Analysis of simulated key procedural steps (valvuloplasty and annuloplasty).
+=== pdf/vanderMerwe_2023_Circumflex_Injury_Mitral_Surgery_Review_Medicina.pdf  (16 pages)
+  p1: [images=5 drawings=12]
+  p2:
+      Table 1. Current reports that describe circumﬂex coronary artery injury during mitral valve surgery.
+  p3:
+      Table 1. Cont.
+  p4: [images=1 drawings=29]
+      Figure 1. Flowchart outlining the PubMed search methodology.
+  p5: [images=1 drawings=7]
+      Figure 2. Expected circumﬂex artery course in relation to the posterior mitral valve annulus during
+      Table 2. Potential imaging criteria considered to be high risk for CX injury within the context of
+  p6: [images=2 drawings=15]
+      Figure 3. A coronary angiogram (A) and computerized tomographic coronary angiographic 3D
+  p8: [images=1 drawings=7]
+      Figure 4. The principles of posterior mitral valve annuloplasty suture placement include (A) a
+      Table 3. Potential mechanisms of circumﬂex coronary artery injury during mitral valve surgery.
+  p10: [images=1 drawings=3]
+      Figure 5. Simultaneous minimally invasive valve surgery and percutaneous coronary interventions
+  p12: [images=1 drawings=3]
+      Figure 6. Comprehensive CX injury prevention, diagnosis and treatment algorithm. Abbrevia-

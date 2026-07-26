@@ -1,0 +1,155 @@
+Editorial
+
+Tackling MAC and other complex mitral valve repair scenarios
+through the lens of robotics
+Didier F. Loulmet, Ali Hage
+Department of Cardiothoracic Surgery, NYU Langone Health, New York, NY, USA
+Program, NYU Langone Health, 530 First Avenue, Suite 9V, New York, NY 10016, USA. Email: loulmetd@aol.com.
+Keywords: Robotic mitral valve repair; mitral annular calcification (MAC); mitral valve repair (MV repair)
+
+In the spectrum of degenerative mitral valve (MV) diseases,
+mitral annular calcification (MAC) can manifest as the
+primary and sole cause of MV stenosis, or as one of several
+lesions, such as those found in Barlow’s disease, leading to
+MV regurgitation. The first scenario offers bleak chances
+of repair due to insufficient pliable leaflet tissue. Moreover,
+MAC extending to the leaflets and left ventricular (LV)
+wall may reduce both the MV orifice and the LV cavity
+size. MV replacement often necessitates MAC removal
+to create adequate space for implanting a typically small
+prosthetic valve. The second scenario is significantly more
+favorable for achieving MV repair. The deciding factor for
+proceeding with MV repair is not the mere presence of
+MAC, but the quantity of pliable leaflet tissue remaining
+after the removal of the most dystrophic portion of
+the valve. The inherent increase in leaflet size found in
+Barlow’s valves usually allows enough tissue for MV repair.
+Complete MAC excision and proper atrioventricular (AV)
+groove reconstruction are essential for achieving a secure
+zone for annuloplasty device attachment, resolving MV
+orifice distortion, and terminating further calcification
+growth and extension. These are important considerations
+for the quality and durability of MV valve repair. Due to
+the increased complexity of MV surgery in the presence of
+MAC, we believe robotics is “the right tool for the right
+job” (1,2).
+While complete MAC resection and AV groove
+reconstruction have become our standard approach, a few
+MV repair or replacement techniques that involve leaving
+MAC in place and working around it have been developed
+
+in the past and used again recently (3). The understandable
+rationale behind these techniques is to keep surgery simple
+and avoid the risk of postoperative AV groove disruption.
+To perform proper MAC removal and AV groove
+reconstruction, we abide by ten technical principles:
+(I)
+Unobstructed visualization of the calcific bar,
+including its extension along the annulus, onto
+the leaflets, the LV wall, and the left atrium (LA),
+is required during valve analysis.
+(II)
+The calcium bar is typically surrounded by a
+reactive fibrous layer. The ideal dissection plane
+lies between the calcification and the fibrous layer.
+Electrocautery, as a dissection tool, allows for the
+preservation of as much fibrous tissue as possible
+on the myocardial side to reinforce the suturing
+zone and preserve the base of the posterior leaflet
+(PL). En bloc resection of the MAC is preferable
+to minimize the risk of debris dispersion.
+(III) The PL tertiary chordae are excised, and the
+papillary muscle attachments to the myocardium
+are divided. This facilitates repositioning the PL
+against the interventricular septum with a dualblade retractor, thereby enhancing visualization of
+the AV groove and the posterior wall of the LV.
+(IV) AV groove dissociation is diagnosed when the
+epicardium is visible between the LA and LV
+myocardial edges. For narrow defects with good
+myocardial edges, primary repair with horizontal
+mattress sutures on a pledget is appropriate.
+Otherwise, the use of a patch is recommended
+
+Ann Cardiothorac Surg 2026;15(1):10 | https://dx.doi.org/10.21037/acs-2025-dmv-0164
+
+Loulmet and Hage. Tackling MAC with robotics
+
+when the myocardial edges are separated by more
+than 10 mm, appear fragile, or when the LV cavity
+or MV orifice dimensions are small.
+(V)
+Precision is paramount when placing stitches on
+the LV edge for either primary or patch repair of
+the AV groove. We consistently use 2-0 Ethibond
+horizontal mattress sutures with pledget. These
+sutures should be placed deep enough to engage
+compact muscle without becoming transmural or
+including the AV groove epicardium. We do not
+rely on myocardial trabeculations.
+(VI) To ensure proper patch attachment to the LV edge
+using the Cor-Knot system, the bedside surgeon
+must individually visualize each knot as the
+console surgeon simultaneously holds the patch
+firmly against the LV edge during tightening.
+This process is essential to achieve sufficient
+compression of the patch on the myocardial edge
+without tearing it.
+(VII) When performing a direct closure of the AV
+groove, the mattress sutures placed at the LV edge
+are also passed through the LA edge and then
+reserved for anchoring the annuloplasty device.
+Thus, AV groove closure becomes effective
+when the annuloplasty stitches are tied. To avoid
+any tearing on the LV side when tightening the
+annuloplasty knots, the console surgeon holds and
+pushes the annuloplasty device deep towards the
+LV base to release tension on the LV edge.
+(VIII) When performing patch closure of the AV groove,
+a second line of mattress sutures (2-0 Ethibond
+without pledget) is needed to attach the patch to
+the LA edge. The distance between the LA and
+LV suture lines should be kept proportional to the
+AV dissociation; however, this distance should be
+kept as small as possible to avoid a postoperative
+drop in LV ejection fraction, since patches do
+not contract. The LA sutures will be reserved for
+anchoring the annuloplasty device.
+(IX) The rim of the patch left above the LA suture
+line is used to reattach the PL. This rim can be
+made higher in areas where the height of the PL
+is considered too small.
+(X)
+The successful conduct of this process depends
+on the presence of more than one experienced
+surgeon, each critically analyzing and approving
+the repair strategy and its execution.
+While complex MV surgical techniques, including MAC
+
+excision and AV groove reconstruction, are performable via
+a sternotomy approach, we believe that robotics facilitates
+their execution according to the principles stated above.
+The near-microscopic visualization and superior dexterity
+offered by robotics make it the ideal tool for effectively
+performing complex techniques. Based on comprehensive
+valve analysis, the surgical sequence is collaboratively
+planned and agreed upon by the console and patientside surgeons. The AV groove defect is visualized and
+assessed with unparalleled clarity, enabling collaborative
+reconstruction between both surgeons. Avoiding transmural
+stitches or LV edge tearing during AV groove repair is
+critical for successful outcomes. The ability of robotic
+instruments to achieve the balance between depth and
+careful tissue handling contributes to the overall safety and
+effectiveness of the procedure. This approach should be
+reserved for a dedicated team with advanced experience in
+robotics and MV surgery (1,2,4,5).
+Acknowledgments
+None.
+Footnote
+to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

@@ -1,0 +1,570 @@
+ADULT: ARRHYTHMIAS: ORIGINAL MANUSCRIPT
+
+Endocardial obliterative left atrial appendage closure by
+inverted purse-string plication
+Yoshitsugu Nakamura, MD, PhD, Taisuke Nakayama, MD, PhD, Miho Kuroda, MD, Yuto Yasumoto, MD,
+and Chihiro Shirai, ME
+ABSTRACT
+Objective: To describe an endocardial obliterative left atrial appendage closure
+(LAAC) technique using inverted appendage purse-string plication added to 2-layer
+orifice closure and to evaluate anatomic and clinical outcomes in minimally invasive
+and robotic mitral surgery.
+Methods: This retrospective study included consecutive patients who underwent
+robotic mitral valve surgery, or atrial septal defect repair with tricuspid intervention,
+with concomitant endocardial obliterative LAAC between April 2024 and June 2025.
+The technique inverts the distal half of the left atrial appendage (LAA), compacts it
+with a 3-0 barbed purse-string along an oblique line in the pectinate muscle, restores
+native orientation, then performs a 2-layer orifice closure with polypropylene sutures.
+Pre- and postoperative electrocardiogram-gated cardiac computed tomography
+(ECG-CT) was used to assess anatomy. The primary end point was complete closure,
+defined as absence of contrast filling within the LAA body in early and delayed phases.
+Analyses were descriptive.
+Results: Twenty-four patients (median age, 71.5 years) underwent endocardial
+obliterative LAAC with the da Vinci system without conversion or intraoperative
+bleeding requiring intervention. There were no perioperative deaths, strokes,
+myocardial ischemic events, re-explorations, or left circumflex artery injuries. At
+3 to 6 months, ECG-CT in all patients showed complete closure with no contrast
+inflow, residual lumen, pericardial effusion, and periappendage hematoma.
+Conclusions: Endocardial obliterative LAAC using inverted appendage pursestring plication followed by 2-layer orifice closure is a simple, inexpensive, and
+safe adjunct to minimally invasive mitral surgery, achieving ECG-CT–confirmed
+complete anatomic closure in this early series and potentially enhancing the effectiveness of surgical LAAC. (JTCVS Techniques 2026;36:102268)
+
+Video clip is available online.
+
+From the Department of Cardiovascular Surgery, Chibanishi General Hospital, Chiba,
+Japan.
+Received for publication Nov 26, 2025; revisions received Jan 9, 2026; accepted for
+publication Jan 10, 2026; available ahead of print Jan 30, 2026.
+Address for reprints: Yoshitsugu Nakamura, MD, PhD, Department of Cardiovascular
+Surgery, Chibanishi General Hospital, 107-1 Kanegasaku, Matsudo-city, Chiba
+270-2251, Japan (E-mail: ystgnkmr@gmail.com).
+2666-2507
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+Obliterative LAAC using inverted appendage
+purse-string plication yields complete closure.
+
+CENTRAL MESSAGE
+
+Orifice-only endocardial LAA
+closure can leave small residual
+cavities, whereas this obliterative
+LAAC technique using inverted
+appendage purse-string plication
+yields complete closure.
+PERSPECTIVE
+Surgical LAAC performed concomitantly with
+cardiac surgery reduces long-term stroke risk.
+However, standard endocardial orifice-only
+closure can leave a residual stump or small
+perfused cavity on ECG-CT. An endocardial obliterative technique using inverted appendage
+purse-string plication added to routine orifice
+closure targets this failure geometry without
+added invasiveness or device cost.
+
+Concomitant left atrial appendage closure (LAAC) during cardiac surgery lowers the risk of ischemic stroke compared with
+surgery alone.1 Endocardial LAAC with orifice closure from
+the left atrium is attractive because access is straightforward
+and the approach is economical. Its limitation is incomplete
+closure, which is detected by electrocardiogram-gated cardiac
+computed tomography (ECG-CT) in roughly one quarter of
+cases.2 In our robot-assisted mitral program, double-layer
+entrance suturing produced a similar ∼24% rate of late opacification on ECG-CT, typically as diffuse contrast filling of the
+appendage from minute suture-line leaks—the so-called
+“speech-bubble” sign.3
+These observations led to a simple principle: rather than
+merely closing the orifice, we should achieve luminal obliteration by inverting the distal half of the left atrial appendage
+(LAA) and securing it with purse-string plication. We report
+JTCVS Techniques c Volume 36, Number C
+
+Adult: Arrhythmias: Original Manuscript
+
+Abbreviations and Acronyms
+AF
+= atrial fibrillation
+ECG-CT = electrocardiogram-gated cardiac
+computed tomography
+LAA
+= left atrial appendage
+LAAC = left atrial appendage closure
+the steps of this endocardial obliterative LAAC and our early
+imaging and clinical outcomes.
+METHODS
+Study Design and Patient Population
+This was a single-center, retrospective observational study
+conducted at Chibanishi General Hospital. We identified all
+consecutive adult patients who underwent minimally invasive
+or robotic mitral valve surgery with concomitant endocardial
+LAAC using the inverted purse-string obliterative technique
+between April 2024 and June 2025. The study was approved
+by the institutional review board of Chibanishi General
+Hospital (TGE02656-025) on November 5, 2024, which
+waived the requirement for individual written informed
+consent for this retrospective analysis of anonymized data.
+Patient Selection and Exclusion Criteria
+Patients were eligible if (1) they had a preoperative diagnosis of paroxysmal or chronic atrial fibrillation (AF) and
+an indication for surgical mitral valve intervention or atrial
+septal defect repair and tricuspid valve intervention and (2)
+if they were scheduled to undergo concomitant obliterative
+LAAC using the inverted purse-string obliterative technique. Demographic, echocardiographic, and operative variables were obtained from institutional cardiac surgery and
+imaging databases.
+Imaging Protocol
+Preoperative ECG-CT was used to quantify left atrial/LAA
+volumes, ostial size, morphology, and coronary proximity (Philips IntelliSpace Portal; slice thickness 0.8 mm, increment
+0.4 mm; 75% cardiac phase). At 3 to 6 months, contrastenhanced ECG-synchronized CTwas obtained unless contraindicated. Both early and delayed phases were reviewed. The
+primary anatomical end point was complete closure of the
+LAA on postoperative ECG-CT, defined as the absence of
+any contrast filling within the LAA body in both early and
+delayed phases. The “speech-bubble” sign was defined as
+any focal or diffuse contrast pooling distal to an apparently
+closed LAA orifice on delayed-phase images.3
+Surgical Technique
+The procedure was performed concomitantly with mitral
+surgery through a right thoracic robotic approach in most
+cases. Cannulation and myocardial protection followed
+
+JTCVS Techniques c April 2026
+
+Nakamura et al
+
+institutional routine. A 3-0 barbed suture (V-Loc,
+Medtronic plc) was used for plication and 3-0 and 4-0 polypropylene (PROLENE; Ethicon) were used for orifice
+closure. The procedure for obliterative LAAC is shown in
+Video 1 and Figure 1:
+1. Inversion (Figure 1, B). Gently invert the LAA into the
+left atrium with atraumatic forceps, creating an intraluminal oblique cone that is shorter anteriorly and longer
+posteriorly.
+2. Purse-string plication (Figure 1, C). Identify the
+midpoint of the short anterior aspect of the inverted
+cone and plan an oblique line toward the base. Obliquity
+facilitates “tucking” the distal cone into the proximal
+portion. As a rule of thumb, choose the line so that tissue
+volumes distal and proximal to it are roughly balanced.
+(Skin marking is optional and used only for demonstration in the video.) Along this line, place a purse-string
+with 3-0 barbed suture, taking partial-thickness bites
+confined to the pectinate muscle to reduce bleeding
+risk. Avoid full-thickness passes. Tighten sequentially
+to compact the distal cone.
+3. Restore native orientation (Figure 1, D). Revert the LAA
+toward its anatomic position. The proximal half returns
+to native orientation, whereas the distal half remains inverted and secured by the purse-string, achieving
+luminal obliteration.
+4. Two-layer orifice closure (Figure 1, E). Close the orifice
+with a horizontal-mattress layer followed by an overand-over running layer using 4-0 polypropylene. At the
+ceiling of the orifice and at curvature changes, add a
+short reinforcing bite if in doubt. (In the video, we
+confirm from the epicardial side that the LAA shows a
+gentle concavity without distortion.)
+
+Knicks and Pitfalls
+Keep bites in the pectinate muscle to limit bleeding.
+Anticipate potential leak “hot spots” at the ceiling side of
+the start point and at bends in the suture line. In tall, slender
+
+VIDEO 1. Planning of the obliterative LAAC. Video available at: https://
+www.jtcvs.org/article/S2666-2507(26)00075-1/fulltext.
+
+Nakamura et al
+
+Adult: Arrhythmias: Original Manuscript
+
+FIGURE 1. Steps of surgical technique for obliterative LAAC. A, Normal position; (B), inversion; (C), purse-string plication; (D), restoration of native
+orientation; (E), 2-layer orifice closure. LAAC, Left atrial appendage closure.
+
+inverted cones, the plication line can be less oblique and
+nearly parallel to the base. Although no patients in this
+study cohort had LAA thrombus, in our subsequent experience we have encountered small thrombi that were carefully
+removed using suction and forceps before performing
+obliterative LAAC.
+RESULTS
+Between April 2024 and June 2025, 24 consecutive
+patients with AF associated with mitral valve disease or
+with atrial septal defect and tricuspid regurgitation underwent obliterative LAAC using the da Vinci surgical system
+(Intuitive Surgical, Inc). No adverse events—including
+bleeding, arrhythmia, myocardial ischemia, cardiac or
+noncardiac injury, stroke, or death—occurred. Notably, no
+left circumflex artery injury was observed during LAA
+closure.
+All patients underwent postoperative ECG-CT. Demographics are summarized in Table 1. Median age was
+71.5 years, 33% of patients were female, and the median
+body surface area was 1.58 m2. In total, 25% had mild
+chronic kidney disease, but no patients were on dialysis.
+AF type was paroxysmal in 17% and long-standing persistent in 83%. Median CHADS2 and CHA2DS2-VASc scores
+were 2 and 3, respectively. Median left ventricular ejection
+fraction was 61.5% and left atrial diameter 49.8 mm. In total, 92% had moderate-to-severe or severe mitral regurgitation and 46% had moderate-to-severe tricuspid
+regurgitation.
+LAA anatomy is summarized in Table 2: cactus, 17%;
+chicken-wing, 63%; windsock, 13%; and cauliflower,
+8.3%. Mean LAA width was 31.9 mm, and mean LAA
+volume 16.3 mL.
+
+Operative details are shown in Table 3. A concomitant
+maze procedure is generally performed when the F-wave
+amplitude in lead V1 is ≥0.1 mV; conversely, the maze is
+avoided when the F wave is nearly flat and/or the ventricular
+rate is<50 beats per minute. In this series, 19 patients (79%)
+underwent a concomitant maze procedure according to the
+aforementioned institutional criteria. Obliterative LAAC
+did not interfere with intracardiac procedures including
+mitral valve surgery or maze procedure. No intraoperative
+bleeding requiring intervention occurred. Intraoperative
+transesophageal echocardiogram confirmed complete
+closure of LAA at the end of the surgery. There was no mortality, no stroke, and no bleeding event during the follow-up
+period (Table 4).
+ECG-CT Assessment
+All patients demonstrated complete closure with no contrast
+inflow into the LAA on delayed ECG-CT (Table 4 and
+Figure 2). No pericardial effusion or periappendage hematoma
+was seen. No injuries to adjacent structures, including the left
+coronary system, were identified.
+DISCUSSION
+Orifice-only endocardial closure can fail when a minute
+defect permits delayed contrast entry, diffusely reexpanding
+a residual lumen. By eliminating the intraluminal potential
+space, the obliterative technique ensures that—even if
+microscopic porosity remains at the orifice—there is no
+cavity to opacify, thereby preventing suture-line leak. The
+added step—inversion with purse-string plication—is simple. A further strength of this study is the systematic use
+of ECG-CT to confirm anatomic completeness, providing
+objective imaging validation beyond intraoperative
+JTCVS Techniques c Volume 36, Number C
+
+Adult: Arrhythmias: Original Manuscript
+
+Nakamura et al
+
+TABLE 1. Baseline characteristics of the present series (n = 24)
+Variables
+
+TABLE 3. Concomitant procedures and operative details (n = 24)
+
+All patients (n = 24)
+
+Variables
+
+Age, y
+
+71.5 (65-76.8)
+
+Female
+
+8 (33%)
+
+Surgical procedure
+MV repair
+MV replacement
+Tricuspid valve annuloplasty
+ASD repair
+Maze surgery
+Left atrial plication
+Mitral valve, rigid or
+semi-rigid ring
+Mitral valve ring, flexible
+Ring or prosthetic
+valve size, mm
+
+Body surface area, m
+
+1.58 (1.46-1.73)
+
+Hypertension
+
+15 (63%)
+
+Diabetes mellitus
+
+4 (17%)
+
+Chronic obstructive pulmonary disease
+
+1 (4%)
+
+Chronic kidney disease
+
+6 (25%)
+
+Dialysis
+
+0 (0%)
+
+Congestive heart failure
+
+17 (71%)
+
+Cardiovascular implantable electronic device
+
+0 (0%)
+
+SSE (ischemic stroke/systemic embolization)
+
+4 (17%)
+
+Long-standing persistent AF
+
+20 (83%)
+
+Paroxysmal AF
+
+4 (17%)
+
+Low-voltage f wave (<0.2 mV)
+
+2 (9%)
+
+CHADS2 score
+≥2
+
+2 (1-2)
+17 (71%)
+
+CHA2DS2-VASc score
+≥3
+
+3 (2-3)
+15 (63%)
+
+Left ventricular ejection fraction, %
+
+61.5 (56.8-68.6)
+
+Left atrial diameter, mm
+
+49.8 (42.8-54.9)
+
+Mitral valve regurgitation
+(moderate-severe, or severe)
+
+22 (92%)
+
+Tricuspid valve regurgitation (moderate
+or greater than moderate)
+
+51 (46%)
+
+transesophageal echocardiography. In this series, no
+bleeding events occurred, and no CT-detectable hematoma
+or effusion was observed, supporting procedural safety.
+The methodologic strength of this approach is that it
+obliterates the LAA lumen using the appendage itself while
+imposing minimal tension on LAA tissue. Nagaoka and
+colleagues4 reported an inverted spiral plication that
+TABLE 2. Left atrial appendage anatomy by ECG-CT (n = 24)
+Variables
+
+All patients (n = 24)
+
+LAA morphology
+Cactus
+Chicken wing
+Windsock
+Cauliflower
+
+4 (17%)
+15 (63%)
+3 (13%)
+2 (8.3%)
+
+LAA volume
+Width, mm
+Volume, mL
+
+31.9 (28.8-39.4)
+16.3 (12-24)
+
+Morphology according to Di Biase classification. Data are presented as median
+(interquartile range) or n (%). ECG-CT, Electrocardiogram-gated cardiac computed
+tomography; LAA, left atrial appendage.
+
+JTCVS Techniques c April 2026
+
+17 (71%)
+6 (25%)
+14 (58%)
+2 (8.2%)
+19 (79%)
+1 (4.1%)
+1 (4.1%)
+19 (79%)
+30.5 (28.8-34)
+0 (0%)
+
+Data are presented as n (%) or median (interquartile range). Ring type and size refer
+to implanted annuloplasty ring or prosthetic valve as applicable. MV, Mitral valve;
+ASD, atrial septal defect; LAA, left atrial appendage.
+
+achieves vertical, spiral compaction of the LAA. However,
+it avoids linear orifice suturing, and the configuration may
+place sustained tension on the LAA tissue and at
+the entrance; postoperative surveillance—ideally with
+ECG-gated cardiac CT—is prudent. Intra-atrial complete
+TABLE 4. Early outcomes and ECG-CT assessment (n = 24)
+Variables
+
+Data are presented as median (interquartile range) or n (%). SSE, Ischemic stroke/
+systemic embolization; AF, atrial fibrillation.
+
+Intervention for intraoperative
+bleeding from LAA
+
+All patients (n = 24)
+
+All patients (n = 24)
+
+Mortality
+
+0 (0%)
+
+Postoperative complication
+Stroke
+Bleeding event
+
+0 (0%)
+0 (0%)
+
+ECG-CT evaluation
+Complete closure
+Incomplete closure
+Speech babble sign
+Pericardial effusion
+Hematoma
+
+24 (100%)
+0 (0%)
+0 (0%)
+0 (0%)
+0 (0%)
+
+Postoperative rhythm
+Sinus rhythm
+Persistent AF
+
+18 (75%)
+6 (25%)
+
+Postoperative pharmacologic therapy
+at 3-6 mo after surgery
+DOAC
+Coumadin
+Antiplatelet drug
+Antiarrhythmic drug
+Beta blocker
+Statin
+ACE-I/ARB
+
+6 (25%)
+4 (17%)
+1 (4%)
+6 (25%)
+15 (63%)
+3 (13%)
+5 (21%)
+
+Follow-up, mo
+
+5 (3-6)
+
+Data are presented as n (%) or median (IQR). “Complete closure” denotes no contrast
+inflow into the LAA on delayed ECG-CT. Follow-up indicates the imaging/clinical
+assessment window (months). ECG-CT, Electrocardiogram-gated cardiac computed
+tomography; AF, atrial fibrillation; DOAC, direct oral anticoagulant; ACE-I,
+angiotensin-converting enzyme inhibitor; ARB, angiotensin receptor blocker.
+
+Nakamura et al
+
+Adult: Arrhythmias: Original Manuscript
+
+FIGURE 2. ECG-gated cardiac CT. Preoperative LAA axial view (A1) and coronal view (A2) and postoperative LAA. The LAA was completely closed.
+Axial view (B1) and coronal view (B2). ECG-CT, Electrocardiogram-gated cardiac computed tomography; LAA, left atrial appendage.
+
+excision yields a stump-less result but carries a bleeding risk
+from a thin, variably trabeculated base,5 and in robotic cases
+hemostasis after crossclamp removal can be challenging if
+bleeding arises from the appendage bed. Epicardial clipping
+provides high complete-closure rates, yet in right-chest
+mitral approaches transverse-sinus access can be limited,
+device size may be mismatched to the available space,
+and cost is an additional constraint.
+In the present series, obliterative endocardial LAAC
+achieved complete closure irrespective of LAA morphology
+or size. Using the Di Biase categories—cactus, chickenwing, windsock, and cauliflower—the distribution of morphologies appeared comparable with previous reports, supporting
+the generalizability of the technique across typical anatomic
+variants.6 Mechanistically, inversion with purse-string plication
+obliterates the intraluminal potential space; completeness
+therefore does not depend on a perfectly linear orifice seal.
+Execution varies modestly with shape: when the inverted
+cone is tall and elongated, the plication line can be less obliquity—often nearly parallel to the base—simplifying compaction without compromising completeness. Size metrics in
+this series also fall within expected ranges, with reported
+LAA volumes of ∼3.4 ± 1.1 mL/m2 in healthy controls7 and
+∼22 ± 15 mL in AF cohorts8; our mean of 16.3 mL lies
+squarely within the AF distribution. Taken together,
+
+morphology and size chiefly inform where the oblique line is
+planned and how deep the bites are taken in the pectinate
+muscle, but they do not determine feasibility or the likelihood
+of complete closure.
+Large studies—most notably LAAOS III1—and several
+surgical series support concomitant LAAC9,10 for stroke
+prevention, but confirmation of anatomic completeness has
+been rare. Endocardial entrance-suture techniques show
+∼25% recanalization on ECG-CT.2,3 Because previous trials
+demonstrated benefit without confirmed completeness, some
+effect likely occurred despite unrecognized recanalization.
+Future studies that compare CT-confirmed complete closure
+versus no LAAC may therefore reveal a larger stroke reduction. Within surgical endocardial obliterative LAAC should
+raise complete-closure rates and plausibly improve clinical
+effectiveness in programs favoring endocardial techniques.
+Study Limitations
+This was a single-center early experience with modest
+sample size; durability and clinical outcomes require longer
+follow-up.
+CONCLUSIONS
+Obliterative LAAC—distal-half inversion with pursestring plication followed by 2-layer orifice closure—is
+JTCVS Techniques c Volume 36, Number C
+
+Adult: Arrhythmias: Original Manuscript
+
+simple, inexpensive, and safe. In this early series it achieved
+ECG-CT–confirmed complete closure without bleeding or
+adjacent-structure injury. The method suits robot-assisted
+or thoracoscopic mitral surgery, where additional ports
+and device costs are undesirable.
+The authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling or reviewing manuscripts for which they may have a conflict
+of interest. The editors and reviewers of this article have
+no conflicts of interest.
+Declaration of Generative AI and AI-Assisted
+Technologies in the Writing Process
+During the preparation of this work the authors used Chat
+GPT in order to translate from Japanese to English. After
+using this tool/service, the authors reviewed and edited
+the content as needed and take full responsibility for the
+content of the publication.
+
+Nakamura et al
+
+Heart Rhythm. 2015;12(7):1431-1437. https://doi.org/10.1016/j.hrthm.2015.
+03.028
+3. Nakayama T, Nakamura Y, Shukuya A, et al. Speech bubble sign—insights
+regarding incomplete left atrial appendage closure via electrocardiographysynchronized computed tomography in robotic surgery cases. Interact Cardiovasc Thorac Surg. 2025;40(10):ivaf172. https://doi.org/10.1093/icvts/ivaf172
+4. Nagaoka E, Arai H, Mizuno T, et al. Innovative surgical left atrial appendage
+closure technique: early experience of inverted spiral closure technique. Innovations (Phila). 2024;19(6):656-659. https://doi.org/10.1177/15569845241288564
+5. Ghinescu M, Franke UFW, Ortega M, H€uther F, Rufa MI, G€
+obel N. Concomitant
+intra-atrial excision of the left atrial appendage during robotic-assisted minimally
+invasive cardiac surgery. Front Cardiovasc Med. 2023;10:1074777. https://doi.
+org/10.3389/fcvm.2023.1074777
+6. Di Biase L, Santangeli P, Anselmino M, et al. Does the left atrial appendage
+morphology correlate with the risk of stroke in patients with atrial fibrillation?
+Results from a multicenter study. J Am Coll Cardiol. 2012;60(6):531-538.
+7. Taina M, Vanninen R, Hedman M, et al. Left atrial appendage volume increased
+in more than half of patients with cryptogenic stroke. PLoS One. 2013;
+8(11):e79519. https://doi.org/10.1371/journal.pone.0079519
+8. Lee HJ, Seo J, Shim CY, et al. Left atrial appendage characteristics assessed with
+cardiac computed tomography in atrial fibrillation with severe mitral valve disease. Yonsei Med J. 2025;66(7):529-556. https://doi.org/10.3349/ymj.2024.0455
+9. Chikwe J, Roach A, Emerson D, et al. Left atrial appendage closure during mitral
+repair in patients without atrial fibrillation. J Thorac Cardiovasc Surg. 2024;
+168(1):86-93. https://doi.org/10.1016/j.jtcvs.2023.02.030
+10. Elbadawi A, Ogunbayo GO, Elgendy IY, et al. Impact of left atrial appendage
+exclusion on cardiovascular outcomes in patients with atrial fibrillation undergoing coronary artery bypass grafting (from the National Inpatient Sample Database). Am J Cardiol. 2017;120(6):953-958. https://doi.org/10.1016/j.amjcard.
+2017.06.025

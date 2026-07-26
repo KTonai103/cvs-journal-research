@@ -1,0 +1,860 @@
+Featured Article
+
+Bilateral internal thoracic artery grafting in robotic beating-heart
+totally endoscopic coronary artery bypass: 10-year outcomes
+Sarah Nisivaco, Riya Bhasin, Hiroto Kitahara, Brooke Patel, Charocka Coleman, Kaitlyn Grady,
+Won Hee Oh, Husam H. Balkhy
+Department of Cardiothoracic Surgery, University of Chicago Medicine, Chicago, IL, USA
+Chicago, IL 60637, USA. Email: hbalkhy@bsd.uchicago.edu.
+
+Background: Multi-arterial grafting (MAG) with bilateral internal thoracic arteries (BITAs) is superior
+to single internal thoracic artery (ITA) and veins, however, sternal wound infection (SWI) is a deterrent to
+using BITA, especially in diabetic and obese patients. Sternal-sparing approaches, including robotic totally
+endoscopic coronary artery bypass (TECAB), may mitigate this risk. We reviewed outcomes of robotic
+TECAB with BITA grafting.
+Methods: A total of 871 patients underwent robotic TECAB at our institution from 7/2013 to 4/2024.
+Of these, 406 patients received BITA grafts and are the subject of this review. Early and mid-term clinical
+outcomes were reviewed and angiographic patency in those undergoing hybrid revascularization with
+percutaneous coronary intervention (PCI) after TECAB. All cases were performed via a beating-heart
+robotic approach, with standard TECAB port placement.
+Results: The mean age of the cohort was 67±9 years and 16% were female. The mean Society of Thoracic
+Surgeons (STS) risk was 1.47%±2.2%. Thirty-nine percent were diabetic (15% insulin-dependent) and 39%
+had a body mass index (BMI) ≥30 kg/m2. Twenty percent had an ejection fraction (EF) ≤40%. Ninety-eight
+percent of cases were completed off-pump and there were no conversions to sternotomy. The mean number
+of grafts per patient was 2.2±0.4. The mean intensive care unit (ICU) and hospital length of stay (LOS)
+were 1.22±0.62 and 2.44±0.83 days, respectively. Postoperative complications included atrial fibrillation in
+13%, acute kidney injury (AKI) in 3.4%, return to theatre for bleeding in 0.7%, postoperative myocardial
+infarction (MI) in 0.2%, and stroke in 0.2%. Thirty-day mortality was 1.2% [observed/expected (O/E):
+0.89]. Return to full activities and work occurred at mean of 14±8.6 and 17±13 days, respectively. Two
+hundred and two patients (50%) had ‘advanced’ hybrid revascularization (with at least two arterial grafts
+and stents). ITA early graft patency in this cohort of patients was 271/278 (98%) with 100% left ITA to left
+anterior descending artery (LITA-LAD) patency. Mid-term follow-up was complete in all patients at mean of
+51±36 months (longest follow-up at 10 years). All-cause mortality was 13% and cardiac-mortality was 2.5%.
+Freedom from angina was 96%, and freedom from repeat revascularization was 94%.
+Conclusions: Use of the beating-heart robotic TECAB approach facilitates BITA grafting to achieve
+multi-vessel arterial revascularization of the left coronary system, with excellent 10-year outcomes.
+Keywords: Robotic; totally endoscopic coronary artery bypass (TECAB); coronary artery bypass grafting (CABG);
+minimally invasive; coronary artery disease (CAD)
+
+Ann Cardiothorac Surg 2024;13(4):354-363 | https://dx.doi.org/10.21037/acs-2024-rcabg-0016
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+
+Introduction
+The use of bilateral internal thoracic artery (BITA) grafts in
+coronary artery bypass grafting (CABG) surgery has been
+associated with better outcomes than single ITA grafting
+in patients with multivessel coronary artery disease (CAD).
+Robotic off-pump totally endoscopic coronary artery bypass
+(TECAB) represents the least invasive form of surgical
+coronary revascularization. In specialized centers it can
+offer swift recovery and good long-term outcomes and graft
+patency. The sternal-sparing robotic-assisted approach
+allows for harvesting of both ITA grafts with no risk of
+sternal wound complications. In this study, we present the
+10-year follow-up on our series of patients undergoing
+robotic TECAB with bilateral ITA grafts at a single
+institution in the setting of a multi-spectrum robotic cardiac
+surgery practice. In addition to demonstrating the safety
+and feasibility of this approach, we present good mid-term
+clinical outcomes as well as early graft patency in patients
+undergoing hybrid revascularization.
+Methods
+Study population
+Eight hundred and seventy-one patients underwent roboticassisted, beating-heart TECAB between 7/2013 and 4/2024
+(single surgeon/institution). Of these, 406 underwent BITA
+grafting and are the subject of this review. Clinical outcomes
+were retrospectively reviewed from our prospectively
+collected database with Institutional Review Board approval
+(#18-0742; date of approval 4/28/2020). Angiographic
+data were reviewed in patients undergoing percutaneous
+coronary intervention (PCI) after TECAB in the setting of
+hybrid coronary revascularization (HCR). Mid-term clinical
+data were collected from annual patient contact (phone
+calls, email, or family/cardiologist contact). Major adverse
+cardiac and cerebrovascular events (MACCEs) included
+cardiac-related mortality, myocardial infarction (MI), repeat
+cardiac surgery, repeat revascularization to the surgical
+culprit vessel, and/or stroke.
+Selection and surgical technique
+We have previously described our robotic-assisted, beatingheart TECAB surgical technique in detail (1-3). See Figure 1
+for example of BITA after skeletonized harvesting. We
+detailed our technique for multi-vessel grafting with BITA,
+specifically, in two recent publications (4,5). Patients are
+
+considered for TECAB on an all-comer basis, according
+to the recommendations of the heart-team as previously
+reported. Patients are referred (either by cardiologist or
+self-referral) typically seeking a sternal-sparing option for
+coronary revascularization. All are discussed within the heart
+team, specifically with interventional cardiology in cases
+of multi-vessel disease to ensure hybrid revascularization
+can be achieved when needed. The only absolute exclusion
+criteria for TECAB are a fused left chest, or emergency
+surgery.
+Statistical analysis
+Continuous variables were tested for normality using the
+Shapiro-Wilk test. Those with normal distribution are
+expressed as mean ± standard deviation, and those without
+as median (interquartile range). Categorical and sequential
+variables are expressed as the number and percentage of
+patients. Kaplan-Meier analysis was applied for mid-term
+survival rate and freedom from major adverse cardiac events
+(MACEs). A P value <0.05 was considered statistically
+significant. The statistical analyses were conducted using
+IBM SPSS 25 (IBM, Inc., Chicago, IL, USA).
+Results
+Of a total of 871 patients undergoing TECAB during the
+study period, 470 patients (54%) had multi-vessel grafting
+and of these, 406 (86%) received BITA grafts. Demographics
+are shown in Table 1. The mean Society of Thoracic
+Surgeons (STS) predicted risk of mortality (PROM) score
+was 1.47%±2.2%. The mean age of the patient cohort was
+67±9 years, with 16% female. Comorbidities in the patient
+cohort included those 87% with hypertension, 26% with
+prior MI, and 22% with chronic kidney disease. Thirtynine percent had diabetes and 38% of these (15% overall)
+had insulin-dependent diabetes mellitus (IDDM). The
+mean body mass index (BMI) was 29±5 kg/m2. Thirty-nine
+percent of patients had a BMI ≥30 kg/m2, 11% had a BMI
+≥35 kg/m2, and 4% had BMI ≥40 kg/m2. Three patients
+had undergone prior heart surgery [one of these prior
+CABG with vein grafts to obtuse marginal (OM) and right
+coronary artery (RCA)].
+Three hundred and forty-two patients (84%) underwent
+TECAB grafting (two grafts), 15% had three grafts, and
+two patients had four grafts. The mean number of grafts
+per patient was 2.2±0.4 (see Table 2 regarding graft details).
+The most common grafting configuration (63%) was LITA-
+
+Ann Cardiothorac Surg 2024;13(4):354-363 | https://dx.doi.org/10.21037/acs-2024-rcabg-0016
+
+Nisivaco et al. Robotic TECAB with bilateral ITA grafts: 10-year outcomes
+
+Table 2 Graft information
+Variables
+
+Data (n=878)
+
+Grafts per patient
+
+2.2±0.4
+
+LITA flow (cc/min)
+
+84±42
+
+LITA PI
+
+1.4±0.4
+
+RITA flow (cc/min)
+
+74±35
+
+RITA PI
+
+1.6±0.5
+
+Anastomosis technique
+
+Figure 1 Demonstration of BITAs after robotic-assisted
+skeletonized harvesting. ITA, internal thoracic artery; BITA,
+bilateral internal thoracic artery.
+
+Anastomotic device (C-Port Flex A)
+
+397 [45]
+
+Sutured (7-0 Pronova)
+
+466 [53]
+
+U-clips
+
+15 [2]
+
+Redo anastomosis
+Table 1 Preoperative characteristics
+Variables
+
+Data (n=406)
+
+Age (years)
+
+67±9
+
+Female gender
+
+66 [16]
+
+STS score (%)
+
+1.47±2.2
+
+BMI >30 kg/m
+
+158 [39]
+
+Hypertension
+
+354 [87]
+
+Diabetes mellitus
+
+158 [39]
+
+IDDM
+
+60 [15]
+
+Chronic renal failure
+
+88 [22]
+
+Renal failure on dialysis
+
+10 [2.5]
+
+COPD
+
+20 [4.9]
+
+EF ≤40%
+
+79 [20]
+
+Atrial fibrillation
+
+39 [9.6]
+
+Prior cerebrovascular accident
+
+37 [9.1]
+
+Prior MI
+
+104 [26]
+
+Prior PCI
+
+147 [36]
+
+Previous cardiac surgery
+
+3† [0.7]
+
+Angina
+
+202 [50]
+
+Left main disease ≥70%
+
+73 [18]
+
+Data are presented as mean ± SD or n [%]. †, one previous
+coronary artery bypass. STS, Society of Thoracic Surgeons;
+BMI, body mass index; IDDM, insulin-dependent diabetes
+mellitus; COPD, chronic obstructive pulmonary disease; EF,
+ejection fraction; MI, myocardial infarction; PCI, percutaneous
+coronary intervention; SD, standard deviation.
+
+6 [0.7]
+
+Data are presented as mean ± SD or n [%]. LITA, left internal
+thoracic artery; PI, pulsatility index; RITA, right internal thoracic
+artery; SD, standard deviation.
+
+LAD, and right ITA (RITA) to an anterior non-LAD or
+lateral wall target. The LAD was grafted with LITA in 65%
+and RITA in 35%. In the first 5 years, the distal anastomosis
+was performed using the C-Port Flex A anastomotic device
+for a majority of the grafts (45% overall), and in the latter
+5 years, a robotic suture technique was used in the majority
+of patients due to the device being taken off the market. A
+total of seven patients required the use of cardiopulmonary
+bypass (CPB) via peripheral femoral cannulation, with five
+for hemodynamic support due to difficult target exposure
+and two for planned concomitant intra-cardiac procedures.
+The remaining cases were all completed off-pump, on
+a beating-heart. The intraoperative blood transfusion
+requirement was 6%. The mean operative time was 313 min.
+There were no conversions to sternotomy. See Table 3.
+The mean hospital and intensive care unit (ICU)
+length of stay (LOS) were 2.44±0.83 and 1.22±0.62 days,
+r e s p e c t i v e l y. E i g h t p e r c e n t o f p a t i e n t s r e q u i r e d
+postoperative blood transfusion. Thirteen percent had
+new-onset atrial fibrillation, 1.2% had pericarditis, and
+3.4% had postoperative acute kidney injury (AKI). There
+were no wound infections. There was one incidence
+of MI and one stroke, respectively (0.2% each). Three
+patients (0.7%) required return to theatre for bleeding
+which necessitated sternotomy in two cases. Mortality
+occurred in five patients with an observed/expected (O/E)
+ratio of 0.89 (O/E: postoperative mortality incidence/
+
+Ann Cardiothorac Surg 2024;13(4):354-363 | https://dx.doi.org/10.21037/acs-2024-rcabg-0016
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+Table 3 Intraoperative data
+
+Table 5 Early postoperative adverse events
+
+Variables
+
+Data (n=406)
+
+Postoperative variables
+
+Data (n=406)
+
+Operative time (min)
+
+313±58
+
+Reintubation
+
+6 [1.5]
+
+Prolonged ventilation (>24 hours)
+
+5 [1.2]
+
+TECAB graft
+Two grafts
+
+342 [84]
+
+Wound infection
+
+Three grafts
+
+62 [15]
+
+AKI
+
+14 [3.4]
+
+Four grafts
+
+2 [0.5]
+
+Pericarditis
+
+5 [1.2]
+
+CPB use
+
+7 [1.7]
+
+Pleural effusion
+
+12 [3.0]
+
+Inotrope requirement
+
+5 [1.2]
+
+Clinical MI
+
+1 [0.2]
+
+Intraoperative BTF use
+
+24 [5.9]
+
+New atrial fibrillation
+
+54 [13]
+
+Conversion
+
+Sepsis
+
+1 [0.2]
+
+OR extubation
+
+154 [38]
+
+Stroke or TIA
+
+1 [0.2]
+
+Re-exploration for bleeding
+
+3 [0.7]
+
+Data are presented as mean ± SD or n [%]. TECAB, totally
+endoscopic coronary artery bypass surgery; CPB, cardiopulmonary
+bypass; BTF, blood transfusion; OR, operating room; SD,
+standard deviation.
+
+Table 4 Early postoperative outcomes
+Postoperative variables
+
+Data (n=406)
+
+Extubation within 6 hours
+
+325 [80]
+
+Post-operative BTF use
+
+33 [8.1]
+
+Chest tube drainage total (mL)
+
+651±296
+
+Chest tube drainage 24 hours (mL)
+
+588±244
+
+ICU LOS (days)
+
+1.22±0.62
+
+Hospital LOS (days)
+
+2.44±0.83
+
+Mortality
+
+5 [1.2]
+
+Mortality, O/E
+
+0.89
+
+Readmission
+
+21 [5.2]
+
+Mean time to return to full activities (days)
+
+14±8.6
+
+Mean time to return to work (days)
+
+17±13
+
+Data are presented as n [%], mean ± SD, or ratio. BTF, blood
+transfusion; CU, intensive care unit; LOS, length of stay; O/E,
+observed/expected; SD, standard deviation.
+
+preoperative STS PROM). See Tables 4,5. At 30-day followup, the readmission rate was 5%, and 3% of patients had
+a pleural effusion requiring thoracentesis. The mean time
+to return to full activities and work was 14 and 17 days,
+respectively. All patients were reached for mid-term
+
+Data are presented as n [%]. AKI, acute kidney injury; MI,
+myocardial infarction; TIA, transient ischemic attack.
+
+clinical follow-up (mean follow-up 51±36 months).
+The longest follow-up was 10.4 years. All-cause mortality
+was 13%, and cardiac-related mortality was 2.5%. See
+Figures 2,3. Repeat cardiac surgery occurred in six patients.
+Two patients underwent redo-CABG, one occurred
+3.5 years after TECAB (despite having a patent LITALAD at the time of hybrid RCA stenting), and one
+3.5 years after TECAB due to high-grade left main disease.
+One patient required aortic valve replacement (AVR)
+2 years postoperatively. Three patients with pre-operative
+ischemic cardiomyopathy went on to advanced surgical
+therapy [two patients had a heart transplant, and one
+required left ventricular assist device (LVAD) placement].
+All had patent grafts. The incidence of MI and unplanned
+PCI was 1.7% and 5.9%, respectively. Of the 18 patients
+undergoing repeat percutaneous intervention, only one was
+for a failed surgical graft. Freedom from angina was 96%,
+and freedom from MACE was 92% (Table 6). See Figures 2-4
+for Kaplan-Meier survival curves demonstrating key midterm outcomes.
+Two hundred and two patients (50%) were selected for
+an advanced hybrid coronary revascularization (AHCR)
+strategy (BITA grafting plus PCI). Of these, 94% had
+surgery first, followed by staged PCI. The mean time to
+catheterization for these patients undergoing PCI after
+TECAB was 2.3±5.3 months. Overall, graft patency was
+98% (271/278 grafts). Overall, RITA patency was 96%
+
+Ann Cardiothorac Surg 2024;13(4):354-363 | https://dx.doi.org/10.21037/acs-2024-rcabg-0016
+
+Nisivaco et al. Robotic TECAB with bilateral ITA grafts: 10-year outcomes
+
+Freedom from cardiac-related mortality & repeat revascularization
+
+Probability, %
+
+10-year freedom from:
+• Cardiac-related mortality: 96.8%
+• Repeat revascularization: 85.2%
+
+5-year freedom from:
+• Cardiac-related mortality: 97.1%
+• Repeat revascularization: 93.5%
+
+Number at risk
+
+Years
+
+Figure 2 Kaplan-Meier survival curve: freedom from cardiacrelated mortality and repeat revascularization.
+
+Table 6 Mid-term follow-up
+Mid-term variables
+
+Data (n=406)
+
+Average time to follow-up (months)
+
+51±36
+
+All-cause mortality
+
+54 [13]
+
+Cardiac-related mortality
+
+10 [2.5]
+
+Repeat cardiac surgery
+
+5 [1.2]
+
+MI
+
+7 [1.7]
+
+Repeat angiography
+
+56 [14]
+
+Unplanned PCI
+
+24 [5.9]
+
+Unplanned PCI in culprit (surgical) vessel
+
+11 [2.7]
+
+Unplanned PCI in culprit (PCI) vessel
+
+4 [1.0]
+
+PCI for failed graft
+
+1 [0.2]
+
+Freedom from angina
+
+391 [96]
+
+Freedom from MACCEs
+
+375 [92]
+
+Data are presented as mean ± SD or n [%]. MI, myocardial
+infarction; PCI, percutaneous coronary intervention; MACCE,
+major adverse cardiac and cerebrovascular event; SD, standard
+deviation.
+
+Freedom from all-cause mortality
+
+Probability, %
+
+Probability, %
+
+Freedom from MACCE
+
+Freedom from MACCE
+• 5-year: 91.1%
+• 10-year: 89.8%
+
+Number at risk
+
+Years
+
+Freedom from all-cause mortality
+• 5-year: 83.7%
+• 10-year: 69.3%
+
+Number at risk
+
+Years
+
+Figure 3 Kaplan-Meier survival curve: MACCE. MACCE, major
+
+Figure 4 Kaplan-Meier survival curve: freedom from all-cause
+
+adverse cardiac and cerebrovascular event.
+
+mortality.
+
+Ann Cardiothorac Surg 2024;13(4):354-363 | https://dx.doi.org/10.21037/acs-2024-rcabg-0016
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+Table 7 Early graft patency (patients undergoing PCI after TECAB)
+Early graft patency
+
+Data (n=135)
+
+Time to catheterization (months)
+
+2.3±5.3
+
+Total IMA grafts imaged
+
+Graft patency (n=278)
+
+271 [98]
+
+LITA patency (n=142)
+
+141 [99]
+
+RITA patency (n=136)
+
+130 [96]
+
+LITA-LAD patency (n=85)
+
+85 [100]
+
+D a ta are present e d a s me a n ± S D, n, or n [% ] . PC I ,
+percutaneous coronary intervention; TECAB, totally endoscopic
+coronary artery bypass; IMA, internal mammary artery; LITA, left
+internal thoracic artery; RITA, right internal thoracic artery; LAD,
+left anterior descending; SD, standard deviation.
+
+(130/136 grafts). Overall, LITA patency was 99% (141/142
+grafts), with 100% LITA-LAD patency (Table 7).
+Discussion
+We present a series of 406 patients undergoing roboticassisted beating-heart TECAB with BITA grafting over a
+10-year period, with good early and mid-term outcomes.
+This is part of a multi-arterial grafting (MAG) strategy,
+where we employ an exclusive ITA conduit strategy in
+all patients undergoing multi-vessel TECAB. To our
+knowledge, this is the largest reported series of BITA
+grafting via a totally-endoscopic, off-pump robotic
+approach. The notable benefits of this sternal-sparing
+technique in coronary revascularization as it relates
+to BITA use are: maintaining an all-arterial grafting
+strategy, achieving complete revascularization (using a
+hybrid revascularization strategy in half the patients), and
+eliminating the risk of sternal wound infection (SWI).
+MAG and total arterial grafting (TAG) in surgical
+revascularization has been shown to have superior outcomes
+compared to single arterial grafting (SAG) (6). Multiple
+studies have demonstrated improved long-term survival
+and lower rates of repeat revascularization/other MACE
+with MAG compared to SAG (7-11). Rocha et al. in a
+multi-center, propensity-matched study comparing CABG
+patients who received TAG (~5% overall) to those who did
+not demonstrate better survival and lower MACCEs/MI
+at 8 years in the TAG group (12). In another recent metaanalysis of 44 studies comparing MAG to SAG, median
+survival (at 17.5 and 11.6 years, respectively), both overall
+
+and event-free, were higher in the MAG group (13).
+Specifically with regard to BITA grafting, several studies
+have demonstrated long-term survival benefits compared
+to single vessel ITA (SITA). This includes in overall CABG
+populations (14-17), elderly patients (18,19), low ejection
+fraction (EF) (20), reported “high-risk” patients (21), and
+importantly, those with diabetes (9,22,23). Despite this welldocumented evidence, the use of both TAG (5% overall in
+the aforementioned Rocha et al. study) and BITA remain
+remarkably low across the US (6,8,21). When considering
+conduit choice for a second arterial graft in addition to
+the LITA, several studies have demonstrated a long-term
+survival benefit with use of RITA as a 2nd arterial conduit,
+even when compared to the radial artery (RA) (13,24,25).
+As is known, the only randomized trial of BITA vs.
+SITA in CABG (ART trial) failed to show superiority of
+BITA over SITA grafting in the ‘intent-to-treat’ analysis,
+however, this can be attributed to multiple factors including
+a significant crossover rate, as well as the inclusion of RA
+grafts in the SITA group. In the as-treated analysis, BITA
+grafting was indeed shown to be superior to SITA in this
+trial (26). Because of this, the ROMA trial is currently
+underway. It is a prospective, randomized multicenter study
+evaluating MAG using RITA or RA as a second arterial
+conduit. The results of this trial, as well as the equivalent
+study with female participants only (ROMA women), will
+provide more information on best practices in total and
+MAG (7).
+Frequently cited reasons for hesitancy in using BITA
+grafting include concern for SWI and longer operative
+time required for BITA harvesting, in addition to those
+specifically related to the technical aspects of using the
+RITA such as: lack of familiarity, concern over the length
+of RITA, or grafting configuration (6,9,23). Sternal wound
+complications/infections remain the primary concern with
+BITA. Although several studies have shown no difference
+in SWI rates between SITA and BITA, including in
+diabetic patients (22,23,27), there have been studies with
+contradictory findings and therefore this debate is ongoing.
+Given these potential difficulties of RITA harvesting
+and use in traditional CABG surgery, utilization of this
+conduit received only a class IIB indication in both the
+European Society of Cardiology/European Association for
+Cardiothoracic Surgery (ESC/EACTS) as well as the STS
+current guidelines, whereas the use of a RA graft received a
+class I indication in targets with high-grade stenosis (28).
+However, we believe that the potential drawbacks of
+routine BITA harvesting are “easily” mitigated using
+
+Ann Cardiothorac Surg 2024;13(4):354-363 | https://dx.doi.org/10.21037/acs-2024-rcabg-0016
+
+Nisivaco et al. Robotic TECAB with bilateral ITA grafts: 10-year outcomes
+
+a robotic endoscopic surgical approach, or indeed any
+approach in which the sternum is left intact. Given this,
+the inclusion/exclusion criteria in this series were not
+limited by the concern for SWIs. In our practice, patients
+are considered on a nearly all-comer basis for TECAB,
+including those with obesity, diabetes (including insulindependent), women, elderly, etc. In this series, diabetics
+and patients with a BMI above 35 constituted 39% and
+11% of patients, respectively. The link between complete
+revascularization and improved long-term outcomes is welldocumented (29,30). Glineur et al. evaluated patients with
+>2-vessel CAD undergoing multivessel grafting with BITA
+plus either additional arterial Y grafts or vein grafts. In
+comparison, they found at 14 years the BITA + Y arterial
+grafting group had better survival compared to the BITA
++ vein group (31). Bakaeen et al. importantly found that
+in BITA grafting, placing a second ITA to another major
+left coronary target was associated with higher longterm survival, whereas use of vein grafts did not have this
+survival benefit (32). In our TECAB practice, we ensure
+complete revascularization in patients with multi-vessel
+disease through either a third (or rarely, fourth) arterial
+graft via a sequential or Y technique with BITA; and/
+or through an AHCR strategy. AHCR achieves sternalsparing complete revascularization in patients with multivessel CAD through the integration of two ITA grafts with
+PCI (the latter typically to right-sided targets). We recently
+described a series of 156 patients undergoing AHCR with
+good early and mid-term clinical outcomes, and an overall
+early graft patency of 98%. In that study, the mean residual
+SYNTAX score after AHCR was 2.6±3.0. In another
+previous report looking at our AHCR TECAB experience,
+we found that 86% of patients had complete/near-complete
+revascularization (defined by a residual SYNTAX score <8),
+which was associated with improved survival and lower
+MACCEs (5). In the present study, 202 patients (50%) were
+assigned to an AHCR strategy.
+Another cited reason for low use of BITA is lack of
+familiarity in harvesting RITA/BITA conduits. This
+potentially could be even more true in a minimally
+invasive/endoscopic setting if one is not comfortable with
+these techniques. We recommend mastering RITA/BITA
+harvesting in the open setting prior to transitioning to
+a robotic-assisted endoscopic approach. In addition, we
+believe that the use of the robot as frequently as possible for
+multiple different types of procedures can be important in
+the success of a robotic multi-vessel TECAB program (33).
+In our practice, this strategy has allowed the robot to
+
+become simply another instrument/tool that all theatre
+staff are very familiar and comfortable with. The learning
+curve for robotic BITA harvesting can differ based on the
+surgeon’s experience, however, once LITA harvesting is
+mastered it should not be difficult to cross the midline
+and harvest the RITA as the technique is near identical.
+The epicardial Endowrist StabilizerTM (Intuitive Surgical,
+Sunnyvale, CA, USA), which is an essential tool for
+robotic endoscopic grafting, is also useful for aiding in
+RITA harvesting by gently depressing anterior mediastinal
+structures when crossing the midline. While our ITA
+harvesting technique has not changed significantly over
+time, our anastomotic technique has. We transitioned
+from a coronary stapler device, which was available until
+about 2018, to a robotic-assisted sutured technique for all
+anastomoses once the stapler device was removed from the
+market. We use a 7-0 double-armed Pronova suture and
+routinely shunt all anastomoses (34). Again, the importance
+of the stabilizer in the overall performance of robotic
+beating-heart TECAB cannot be understated or overemphasized.
+In addition to robotic-assisted CABG, minimally invasive
+approaches are being increasingly used for multi-vessel
+grafting and include mini-thoracotomy BITA grafting
+with or without thoracoscopic assistance to increase
+visualization (35). BITA use in this realm has been reported
+with good outcomes, although its widespread use (like in
+traditional CABG) remains low (36-38). These approaches,
+similar to TECAB, offer the significant advantages of
+reduced recovery time while still being able to employ
+bilateral ITAs in the context of sternal-sparing complete
+revascularization (± AHCR). We believe, however, that
+the totally endoscopic off-pump approach described here
+with robotic assistance remains the least invasive form of
+surgical coronary revascularization. Some of the advantages
+of adding the robotic approach include the enhanced
+visualization and ergonomics for the surgeon as well as the
+potential for offering the procedure to patients with less
+than ideal anatomy (e.g., morbidly obese).
+We prefer to skeletonize ITA conduits. In the open
+setting, skeletonization has been shown to have equivalent
+or even lower rates of SWIs, increase length of the conduit,
+and increase anastomotic flow rate (39-41). There have also
+been studies comparing patency between skeletonized vs.
+pedicled ITA grafts, with some studies finding no difference
+in patency between the two techniques, and others finding
+higher patency in pedicled grafts. However, the advantage
+of the superior visualization from the robotic approach
+
+Ann Cardiothorac Surg 2024;13(4):354-363 | https://dx.doi.org/10.21037/acs-2024-rcabg-0016
+
+Annals of Cardiothoracic Surgery, Vol 13, No 4 July 2024
+
+cannot be understated in this regard, as it lends itself to
+high precision and careful maneuvering around the conduit,
+and thus facilitates skeletonization.
+Our approach to graft configuration when using BITA
+in robotic multi-vessel TECAB is that we aim to maintain
+a LITA-LAD configuration as much as possible and most
+commonly use the in-situ RITA for a second important
+left coronary target. If the lateral wall cannot be reached
+with in-situ RITA, then we use LITA for this and place the
+RITA on the LAD. If the in-situ RITA will reach neither,
+it is configured as a Y graft off of the LITA to a lateral wall
+target. There have been multiple studies comparing between
+RITA-LAD vs. LITA-LAD patency, revealing no difference
+in mid/long-term patency or clinical outcomes (42-45).
+We looked at this in our robotic TECAB population in
+a recent study comparing between these two groups and
+found no difference in early clinical outcomes or graft
+patency between RITA vs. LITA-LAD. In a propensitymatched sub-analysis of only patients with multi-vessel
+disease undergoing BITA grafting in each group, we found
+no differences in patency or midterm clinical outcomes (46).
+Finally, a word about the future. Robotics in cardiac
+surgery is growing overall as patients increasingly request
+sternal-sparing options and as surgeons are introduced
+to robotics early in their surgical training. Increased
+adoption and utilization of this technology by our specialty
+will not only allow us to respond to the desires of our
+patients, but also be competitive in this era of rapidly
+growing transcatheter options in the treatment of heart
+diseases. One potential and increasingly discussed direction
+forward is designating coronary revascularization as a subspecialty within cardiac surgery. In this realm, TAG with
+more common use of BITA and use of the least invasive
+approaches and technologies, i.e., off-pump bypass and
+robotics, could be offered on a routine basis. It would also
+allow for the re-engagement of our partners in the surgical
+device industry so that technology, such as the epicardial
+stabilizer (necessary for TECAB or any off-pump robotic
+procedure) or automated anastomotic devices (something
+we believe facilitates TECAB), can be available again, and
+new technologies in coronary revascularization can once
+more be developed.
+Conclusions
+
+approach: robotic beating-heart TECAB. In addition
+to excellent early clinical outcomes and swift recovery,
+we demonstrate good midterm outcomes at 10 years
+and good graft patency comparable to traditional CABG,
+with the added benefit of no sternal wound complications
+using this sternal-sparing approach.
+Acknowledgments
+Footnote
+The other authors have no conflicts of interest to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

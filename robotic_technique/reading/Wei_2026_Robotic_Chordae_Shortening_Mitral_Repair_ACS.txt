@@ -1,0 +1,965 @@
+Featured Article
+
+Robotic chordae shortening in mitral valve repair
+Ling-Yi Wei1, Jen-Wei Chen1, Nai-Kwan Chou1, Yi-Chia Wang2, Chi-Hsiang Huang2, Hsi-Yu Yu1,
+Nai-Hsin Chi1
+
+Division of Cardiovascular Surgery, Department of Surgery, National Taiwan University Hospital, Taipei, Taiwan; 2Department of Anesthesiology,
+
+National Taiwan University Hospital, Taipei, Taiwan
+Chung-Shan South Road, Zhongzheng District, Taipei 10002, Taiwan. Email: chinaihsin@gmail.com.
+
+Background: Cusp-level chordae shortening was largely abandoned after suboptimal durability in the
+sternotomy era. We postulated that the enhanced visualization and wristed instrumentation of totally
+endoscopic robotic mitral repair could enable precise shortening with durable hemodynamics and acceptable
+peri-operative risk.
+Methods: We retrospectively analyzed 523 consecutive degenerative mitral regurgitation (MR) repairs
+performed robotically at the National Taiwan University Hospital (January 2012–November 2024). Chordae
+shortening was used in 68 patients (13%; 46 primary, 22 adjunct) and compared with 455 contemporaneous
+repairs without shortening.
+Results: Baseline characteristics and operative times were similar [cross‑clamp 74±27 vs. 75±25 min;
+cardiopulmonary bypass (CPB) 120±30 vs. 120±25 min]. All shortening cases achieved successful repair
+without conversion or valve replacement. At discharge, none/trace MR was more frequent after shortening
+(95.6% vs. 93.4%); no patient in the shortening group had ≥ moderate MR. Early events were low: 30‑day
+mortality 0% vs. 0.2%, stroke 0% vs. 0.2%, renal failure 1.5% vs. 1.8%, and reoperation for bleeding 1.5%
+vs. 0%. Reintubation (2.9% vs. 0%) and new‑onset atrial fibrillation (33.8% vs. 13.6%) were more common
+with shortening, yet median ventilation time was comparable, and resource use favored shortening [intensive
+care unit (ICU) stay 19±28 vs. 27±25 h; hospital stay 7.0±2.9 vs. 9.5±2.7 days]. Follow‑up echocardiography
+(median, 3.6 years) showed sustained competence: 92% of shortening patients remained MR‑free. Ten‑year
+freedom from ≥ moderate MR was 95.6% with shortening vs. 94.5% without (log‑rank P=0.66).
+Conclusions: Robotic chordae shortening adds negligible operative time, shortens ICU and hospital stay,
+and delivers long‑term valve competence equivalent to contemporary robotic repairs relying on chordal
+transfer or neochordae. Although new‑onset atrial fibrillation was more frequent, other adverse events were
+rare. The robotic platform appears to overcome historical limitations of chordae shortening, restoring this
+tissue‑preserving option for anterior leaflet prolapse in degenerative mitral disease.
+Keywords: Robotic valve surgery; chordae tendineae shortening; mitral valve repair; minimally invasive cardiac
+surgery; surgical outcomes
+
+Introduction
+
+chordal transfer, and expanded-polytetrafluoroethylene
+
+Degenerative mitral regurgitation (MR) secondary
+to elongation or rupture of primary anterior leaflet
+chordae remains one of the most demanding lesions in
+reconstructive mitral surgery. Although leaflet resection,
+
+(ePTFE) neochordae have become today’s mainstays,
+each technique sacrifices either native tissue or operative
+simplicity. Cusp-level chordae shortening—first described
+more than three decades ago—preserves endogenous
+
+Ann Cardiothorac Surg 2026;15(1):7 | https://dx.doi.org/10.21037/acs-2025-dmv-0135
+
+Wei et al. Robotic chordae shortening
+
+anatomy and avoids foreign material, yet it fell out of
+favor after several series reported suboptimal long-term
+competence when performed through a median sternotomy
+under direct vision (1-3).
+Subsequent comparator studies reinforced that
+impression: Smedira et al. demonstrated superior 5-year
+freedom from reoperation with chordal transfer vs.
+shortening (96% vs. 74%) (4), and Phillips et al. likewise
+documented a higher re-repair rate after shortening
+than after neochordal replacement (3). These durability
+concerns, coupled with the technical challenge of titrating
+suture length deep within the ventricular cavity, effectively
+relegated shortening to historical footnote status—despite
+its conceptual attractiveness (5).
+The advent of totally endoscopic, robot-assisted
+mitral surgery has fundamentally altered the operative
+environment. Three-dimensional high-definition
+optics, tremor filtration, and wristed instruments enable
+centimeter-level manoeuvres to be executed with
+millimeter-level precision. National Taiwan University
+Hospital has leveraged this platform for a broad range of
+complex valve repairs, including combined robotic aortic
+and mitral procedures with excellent outcomes (6). We
+posited that the same technological advantages might
+overcome the historical limitations of cusp-level shortening,
+restoring it as a viable, tissue-preserving option for anterior
+leaflet prolapse.
+To test this hypothesis, we analyzed our consecutive
+experience with robotic chordae shortening performed
+between 2012 and 2024, comparing early morbidity,
+resource utilization, and mid-term hemodynamic durability
+with contemporary robotic repairs that relied exclusively
+on chordal transfer or neochordae. We aimed to determine
+whether robotic assistance could deliver reliable valve
+competence without incurring excess operative risk, thereby
+re-establishing chordae shortening in the modern mitralrepair armamentarium.
+Methods
+Ethics approval and study design
+This single-center, retrospective cohort study was conducted
+in accordance with the Declaration of Helsinki and was
+approved by the Institutional Review Board of National
+Taiwan University Hospital (IRB No. 202401213RINC);
+the requirement for individual informed consent was waived
+owing to the retrospective design.
+
+Patient population
+We reviewed all consecutive patients who underwent totally
+endoscopic robotic mitral valve repair for degenerative
+MR at National Taiwan University Hospital between 1
+January 2012 and 30 November 2024. Exclusion criteria
+were rheumatic disease, active endocarditis, or concomitant
+mitral replacement. The study cohort comprised 523
+repairs, divided a priori into those in which elongated
+primary chordae were shortened (n=68, 13%) and those
+repaired without shortening (n=455). Chordae-shortening
+cases were further stratified as primary (shortening was the
+principal leaflet intervention, n=46) or adjunct (performed
+in addition to leaflet resection or neochord implantation,
+n=22). Baseline demographics are summarized in Table 1.
+Operative set-up and myocardial protection
+Setting
+The setting for the robotic surgery was the same as that
+reported previously for mitral valve surgery (7,8). After
+general anesthesia was administered via a single-lumen
+endotracheal tube, the patient was positioned supine with
+the right chest elevated. A 3-cm working port safeguarded
+by a soft-tissue protector was created in the fourth
+intercostal space around the right anterior axillary line. The
+third and sixth intercostal spaces served as sites for insertion
+of the left and right robotic arm ports, respectively. The
+atrial retractor was positioned in the fourth intercostal
+space, while the camera port was situated just above the
+working port and the sub-working port to vent below it.
+Two suture-mediated closure system devices (ProGlideTM;
+Abbott, North Chicago, IL, USA) were used for right
+common femoral arterial cannulation. Venous cannulations
+were performed in the right jugular and right femoral veins
+under transesophageal echocardiographic guidance. After
+heparin administration, cardiopulmonary bypass (CPB)
+was initiated, and the robotic cart was docked. After the
+pericardium was opened, a long-shaft cardioplegic needle
+was used on the aortic root, and a detachable aortic clamper
+(Glauber clamp; Cardio Medical GmbH, Langenhagen,
+Germany) was inserted through the working port into
+the thoracic cage. Antegrade cardioplegia [St. Thomas
+Hospital No. 2, histidine-tryptophan-ketoglutarate (HTK),
+and adenosine] was administered. Typically, a left atrial
+approach was achieved, which involved an incision through
+Sondergaard’s plane, with the mitral valve exposed using an
+atrial retractor.
+
+Ann Cardiothorac Surg 2026;15(1):7 | https://dx.doi.org/10.21037/acs-2025-dmv-0135
+
+Annals of Cardiothoracic Surgery, Vol 15, No 1 January 2026
+
+Table 1 Baseline characteristics
+Variables
+
+Overall (n=523) Chordae shortening (n=68) Primary (n=46) Adjunct (n=22) No shortening (n=455) P value†
+
+Age (years)
+
+57.1±12.0
+
+54.6±12.3
+
+53.0±13.1
+
+58.2±9.9
+
+57.5±12.0
+
+0.07
+
+Male
+
+308 (58.9)
+
+40 (58.8)
+
+29 (63.0)
+
+11 (50.0)
+
+268 (58.9)
+
+0.99
+
+Hypertension
+
+177 (33.8)
+
+24 (35.3)
+
+19 (41.3)
+
+5 (22.7)
+
+153 (33.6)
+
+0.79
+
+Diabetes mellitus
+
+127 (24.3)
+
+20 (29.4)
+
+16 (34.8)
+
+4 (18.2)
+
+107 (23.5)
+
+0.29
+
+Coronary artery disease
+
+37 (7.1)
+
+5 (7.4)
+
+4 (8.7)
+
+1 (4.5)
+
+32 (7.0)
+
+0.81
+
+Chronic kidney disease
+
+48 (9.2)
+
+7 (10.3)
+
+5 (10.9)
+
+2 (9.1)
+
+41 (9.0)
+
+0.73
+
+Atrial fibrillation
+
+192 (36.7)
+
+25 (36.8)
+
+18 (39.1)
+
+7 (31.8)
+
+167 (36.7)
+
+0.99
+
+Stroke history
+
+54 (10.3)
+
+9 (13.2)
+
+7 (15.2)
+
+2 (9.1)
+
+45 (9.9)
+
+0.39
+
+NYHA III–IV
+
+112 (21.4)
+
+12 (17.6)
+
+9 (19.6)
+
+3 (13.6)
+
+100 (22.0)
+
+0.42
+
+LVEF <50%
+
+57 (10.9)
+
+6 (8.8)
+
+4 (8.7)
+
+2 (9.1)
+
+51 (11.2)
+
+0.56
+
+†
+
+Data are presented as mean ± standard deviation or n (%). , P value comparison is between the chordae shortening and the no
+shortening groups. LVEF, left ventricular ejection fraction; NYHA, New York Heart Association.
+
+Figure 1 Robotic cusp-level chordae-shortening technique. Selection of target chord: only elongated but intact primary chordae supplying
+the prolapsing anterior leaflet segment are addressed. Suture material: a double-armed 5-0 polypropylene suture, one needle is inserted
+through the target chorda about 2–3 mm from the leaflet free edge, perpendicular to its long axis to avoid longitudinal splitting. The needle
+then penetrates the corresponding leaflet margin, exiting on the atrial surface.
+
+Chordae-shortening technique
+
+beyond the annulus plane, is confirmed. The robotic system
+
+Primary lesions
+This technique is applied to cases of anterior leaflet prolapse
+without chordae rupture, identified through preoperative
+cardiac echocardiography (Figure 1). During surgery,
+the anterior leaflet prolapse, typically extending 2–5 mm
+
+provides enhanced visualization and precision.
+The surgeon locates the chordae near the margin of the
+prolapsed leaflet. A suture is placed approximately 3 mm
+from the edge of the leaflet. This suture is then tied back
+onto the leaflet itself, effectively shortening the chordae
+
+Ann Cardiothorac Surg 2026;15(1):7 | https://dx.doi.org/10.21037/acs-2025-dmv-0135
+
+Wei et al. Robotic chordae shortening
+
+Table 2 Post‑operative outcomes
+Variables
+
+Overall (n=523) Chordae shortening (n=68) Primary (n=46) Adjunct (n=22) No shortening (n=455) P value†
+
+Conversion
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0.99
+
+Reoperation (bleeding)
+
+1 (0.2)
+
+1 (1.5)
+
+1 (2.2)
+
+0 (0.0)
+
+0 (0.0)
+
+0.13
+
+Reintubation
+
+2 (0.4)
+
+2 (2.9)
+
+1 (2.2)
+
+1 (4.5)
+
+0 (0.0)
+
+0.01
+
+Post‑operative stroke
+
+1 (0.2)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+1 (0.2)
+
+0.99
+
+Post‑operative renal failure
+
+10 (1.9)
+
+1 (1.5)
+
+1 (2.2)
+
+0 (0.0)
+
+8 (1.8)
+
+0.88
+
+Post‑operative dialysis
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0.99
+
+New‑onset atrial fibrillation
+
+85 (16.3)
+
+23 (33.8)
+
+15 (32.6)
+
+8 (36.4)
+
+62 (13.6)
+
+0.01
+
+30‑day mortality
+
+1 (0.2)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+1 (0.2)
+
+0.97
+
+Mechanical ventilation time (h) 5.2±2.5
+
+6.8±15.4
+
+6.5±14.0
+
+7.2±17.0
+
+5.0±2.0
+
+0.18
+
+ICU stay time (h)
+
+26±25
+
+19±28
+
+18.5±27
+
+20±29
+
+27±25
+
+0.04
+
+Hospital stay (days)
+
+9.0±2.8
+
+7.0±2.9
+
+7.0±3.0
+
+7.0±2.8
+
+9.5±2.7
+
+0.01
+
+Follow‑up LVEF (%)
+
+62.0±11.5
+
+62.3±12.7
+
+63.0±12.0
+
+61.0±13.0
+
+62.0±11.2
+
+0.85
+
+None‑trace MR at discharge
+
+490 (93.7)
+
+65 (95.6)
+
+45 (97.8)
+
+20 (90.9)
+
+425 (93.4)
+
+0.53
+
+Mild MR at discharge
+
+31 (5.9)
+
+3 (4.4)
+
+1 (2.2)
+
+2 (9.1)
+
+28 (6.2)
+
+0.58
+
+Moderate MR at discharge
+
+2 (0.4)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+2 (0.4)
+
+0.99
+
+†
+
+Data are presented as mean ± standard deviation or n (%). , P value comparison is between the chordae shortening and the no
+shortening groups. ICU, intensive care unit; LVEF, left ventricular ejection fraction; MR, mitral regurgitation.
+
+by 3 mm. This shortening corrects the prolapse, restoring
+proper valve function and reducing MR.
+Adjuvant techniques
+This technique is also employed as an adjunctive procedure.
+During mitral valve repair, after addressing the primary
+lesion, if the morphology of the valve does not appear
+optimal under the saline test, this technique is applied to
+shorten the prolapsed area. This additional step ensures
+improved coaptation and enhances the overall appearance
+and function of the valve.
+Data collection and definitions
+Clinical variables were extracted from electronic medical
+records: age, sex, co-morbidities, New York Heart
+Association (NYHA) functional class, echocardiographic
+measurements, operative times, associated procedures,
+and early outcomes. Post-operative complications were
+defined according to the Society of Thoracic Surgeons
+
+criteria. Echocardiographic follow-up was scheduled at
+3 months, 1 year, and annually thereafter; MR was graded
+per the American Society of Echocardiography. The
+primary endpoint was freedom from ≥ moderate MR.
+Secondary endpoints included 30-day mortality, major
+morbidity, mechanical-ventilation time, intensive care unit
+(ICU) length of stay, and total hospital stay (Table 2).
+Statistical analysis
+Continuous data are presented as mean ± standard deviation
+and were compared with Student’s t-test or one-way analysis
+of variance (ANOVA) as appropriate. Categorical variables
+are expressed as counts (percentages) and were compared
+using χ 2 or Fisher’s exact test. Time-to-event outcomes
+(freedom from ≥ moderate MR) were estimated with the
+Kaplan-Meier method and compared with the log-rank test.
+Two-sided P<0.05 was considered statistically significant.
+Analyses were performed using SPSS version 26 (IBM
+Corp., Armonk, NY, USA).
+
+Ann Cardiothorac Surg 2026;15(1):7 | https://dx.doi.org/10.21037/acs-2025-dmv-0135
+
+Annals of Cardiothoracic Surgery, Vol 15, No 1 January 2026
+
+Table 3 Operative data
+Variables
+
+Overall (n=523) Chordae shortening (n=68) Primary (n=46) Adjunct (n=22) No shortening (n=455) P value†
+
+Operation time (min)
+
+188±60
+
+187±62
+
+191±72
+
+179±31
+
+188±60
+
+0.98
+
+Cross‑clamp time (min)
+
+75±24
+
+74±27
+
+76±29
+
+68± 19
+
+75±25
+
+0.74
+
+CPB time (min)
+
+120±25
+
+120±30
+
+122±33
+
+113± 19
+
+120±25
+
+0.89
+
+Ring implanted
+
+521 (99.6)
+
+68 (100.0)
+
+46 (100.0)
+
+22 (100.0)
+
+453 (99.6)
+
+0.54
+
+Neo‑chord used
+
+279 (53.3)
+
+33 (48.5)
+
+21 (45.7)
+
+12 (54.5)
+
+246 (54.1)
+
+0.39
+
+Chordae release (other)
+
+41 (7.8)
+
+2 (2.9)
+
+1 (2.2)
+
+1 (4.5)
+
+39 (8.6)
+
+0.12
+
+Mitral valve replaced
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0 (0.0)
+
+0.99
+
+TV repair
+
+82 (15.7)
+
+12 (17.6)
+
+7 (15.2)
+
+5 (22.7)
+
+70 (15.4)
+
+0.64
+
+Cryo‑ablation
+
+133 (25.4)
+
+18 (26.5)
+
+13 (28.3)
+
+5 (22.7)
+
+115 (25.3)
+
+0.83
+
+†
+
+Data are presented as mean ± standard deviation or n (%). , P value comparison is between the chordae shortening and the no
+shortening groups. CPB, cardiopulmonary bypass; TV, tricuspid valve.
+
+Results
+
+Operative details
+
+Patient characteristics
+
+Operative characteristics are summarized in Table 3. Total
+operative time was similar between patients undergoing
+chordae shortening and those repaired without shortening
+(187±62 vs. 188±60 min, P=0.98). Aortic cross-clamp time
+(74±27 vs. 75±25 min, P=0.74) and CPB time (120±30 vs.
+120±25 min, P=0.89) did not differ significantly between
+groups.
+Annuloplasty ring implantation was performed in nearly
+all patients in both cohorts (100.0% vs. 99.6%, P=0.54).
+The use of ePTFE neochordae was comparable between the
+shortening and non-shortening groups (48.5% vs. 54.1%,
+P=0.39). Other adjunctive chordal procedures were infrequent
+and did not differ significantly (2.9% vs. 8.6%, P=0.12).
+Concomitant procedures were similarly distributed
+between groups, including tricuspid valve repair (17.6%
+vs. 15.4%, P=0.64) and surgical cryoablation for atrial
+fibrillation (26.5% vs. 25.3%, P=0.83). No patient required
+conversion to sternotomy or mitral valve replacement.
+
+Between January 2012 and November 2024, a total of
+523 patients underwent totally endoscopic robotic mitral
+valve repair for degenerative MR at National Taiwan
+University Hospital. Chordae shortening was performed in
+68 patients (13%), including 46 cases in which shortening
+was the primary repair strategy and 22 in which it was used
+as an adjunct to other leaflet techniques. The remaining
+455 patients underwent repair without chordae shortening.
+Baseline demographic and clinical characteristics were
+comparable between the shortening and non-shortening
+groups (Table 1). Mean age was 54.6±12.3 years in the
+shortening group and 57.5±12.0 years in the non-shortening
+group (P=0.07). The proportion of male patients was similar
+between groups (58.8% vs. 58.9%, P=0.99).
+The prevalence of major comorbidities did not differ
+significantly, including hypertension (35.3% vs. 33.6%,
+P=0.79), diabetes mellitus (29.4% vs. 23.5%, P=0.29),
+coronary artery disease (7.4% vs. 7.0%, P=0.81), chronic
+kidney disease (10.3% vs. 9.0%, P=0.73), atrial fibrillation
+(36.8% vs. 36.7%, P=0.99), and prior stroke (13.2% vs. 9.9%,
+P=0.39). Advanced functional status (NYHA class III–IV)
+was present in 17.6% of patients in the shortening group
+and 22.0% in the non-shortening group (P=0.42). Reduced
+left ventricular ejection fraction (<50%) was observed in
+8.8% and 11.2% of patients, respectively (P=0.56).
+
+Early postoperative outcomes
+Early postoperative outcomes are detailed in Table 2.
+Thirty-day mortality was low in both groups, with no
+deaths in the chordae-shortening cohort and 1 death
+(0.2%) in the non-shortening group (P=0.97). No patient
+in the shortening group experienced postoperative stroke,
+compared with 1 event (0.2%) in the non-shortening group
+
+Ann Cardiothorac Surg 2026;15(1):7 | https://dx.doi.org/10.21037/acs-2025-dmv-0135
+
+Wei et al. Robotic chordae shortening
+
+Freedom from ≥ moderate MR, %
+
+Long-term outcomes
+
+Median follow-up was 3.6 years (range, 0.2–10 years).
+Ten-year freedom from ≥ moderate MR was 95.6% in the
+shortening group and 94.5% in the non-shortening group
+(log-rank P=0.66; Figure 2). Kaplan-Meier curves are shown
+in Figure 2.
+MR-grade transitions for the shortening cohort are
+illustrated in Figure 3; most patients with pre-operative
+grade 4 MR were grade 0–1 at long-term follow-up.
+
+Chordae shortening
+No shortening
+
+Log-rank P=0.66
+
+Number at risk
+
+Time, years
+
+Figure 2 Kaplan-Meier freedom from ≥ moderate MR. Robotic
+mitral repair with cusp-level chordae shortening (n=68) vs. no
+shortening (n=455). Ten-year freedom from ≥ moderate MR was
+95.6% in the chordae shortening cohort and 94.5% in the no
+shortening cohort (log-rank P=0.66). Shaded bands indicate 95%
+confidence intervals. MR, mitral regurgitation.
+
+(P=0.99). Postoperative renal failure occurred in 1.5% of
+patients undergoing chordae shortening and 1.8% of those
+without shortening (P=0.88), and no patient in either group
+required postoperative dialysis.
+Reoperation for bleeding was infrequent, occurring in
+1 patient (1.5%) in the shortening group and in none of
+the non-shortening group (P=0.13). Reintubation occurred
+more frequently among patients undergoing chordae
+shortening (2.9% vs. 0%, P=0.01).
+New-onset atrial fibrillation was significantly more
+common in the chordae-shortening group (33.8% vs.
+13.6%, P=0.01). Despite this difference, postoperative
+respiratory support and overall resource utilization were
+not adversely affected. Mechanical ventilation time was
+comparable between groups (6.8±15.4 vs. 5.0±2.0 h, P=0.18).
+Patients undergoing chordae shortening had a shorter ICU
+stay (19±28 vs. 27±25 h, P=0.04) and a reduced total hospital
+length of stay (7.0±2.9 vs. 9.5±2.7 days, P=0.01).
+At discharge, echocardiography demonstrated excellent
+valve competence in both cohorts. None or trace MR was
+observed in 95.6% of patients in the shortening group and
+93.4% of those in the non-shortening group (P=0.53). Mild
+MR was present in 4.4% and 6.2% of patients, respectively
+(P=0.58). No patient in the shortening cohort had moderate
+or greater MR at discharge, compared with 2 patients (0.4%)
+in the non-shortening group (P=0.99).
+
+Discussion
+Main findings
+Robotic chordae shortening is feasible, reproducible, and
+durably effective. Ten-year freedom from ≥ moderate MR
+exceeded 95%, 30-day mortality was 0%, and intensive-care
+and hospital stays were shortened. Robotic optics (10-fold
+three-dimensional magnification) and wristed instruments
+convert millimeter-scale adjustments at the cusp level into
+predictable leaflet coaptation, overcoming the technical
+imprecision that limited conventional shortening.
+Comparison with traditional chordae shortening
+Carpentier’s original technique shortens primary chordae
+at the papillary-muscle level, several centimeters from the
+leaflet edge (1). Determining the exact truncation length
+is indirect, knot-tying is restricted, and late elongation
+or slippage contributed to higher re-repair rates in early
+series (2-4). Cusp-level shortening under robotic vision is
+more intuitive: the operative field and the target chordae
+are viewed in the same plane, and the residual leaflet
+prolapse can be titrated in real time. Our cross-clamp and
+cardiopulmonary-bypass times were identical to repairs
+using neochordae, indicating that the robotic method adds
+no procedural burden.
+Focus on anterior leaflet prolapse without chordal rupture
+The cohort was restricted to elongated—but intact—
+primary chordae, a pattern typical of anterior leaflet
+involvement in Barlow’s disease. In this setting, shortening
+preserves native tissue and restores physiologic leaflet
+kinematics. For ruptured chordae, we favor ePTFE
+neochordae or chordal transfer, techniques better suited
+to replacing absent support. Future work should explore
+
+Ann Cardiothorac Surg 2026;15(1):7 | https://dx.doi.org/10.21037/acs-2025-dmv-0135
+
+Annals of Cardiothoracic Surgery, Vol 15, No 1 January 2026
+
+Figure 3 Sankey diagram. Illustrating MR-grade transitions in the chordae-shortening cohort (n=68). Each flow represents the number
+of patients progressing from pre-operative MR (grade 3 or 4) through discharge echocardiography (grade 0–1 or 2) to the latest followup (median 3.6 years). Line width is proportional to patient count; 92% of patients remained grade 0–1 at final follow-up. MR, mitral
+regurgitation.
+
+hybrid strategies—shortening intact secondary chordae
+while placing neochordae for ruptured primary cords—to
+optimize leaflet coaptation with minimal foreign material.
+Role as an adjuvant manoeuvre
+When intra-operative saline testing showed residual
+focal prolapse after the primary repair, a single cusp-level
+shortening suture effectively corrected the defect. Although
+the incremental benefit did not reach statistical significance
+because of small numbers, clinical improvement in valve
+morphology was obvious, and no additional morbidity
+was incurred. This versatility makes shortening a valuable
+adjunct, particularly in multi-segment disease where
+multiple mechanisms coexist.
+Atrial fibrillation and post-operative respiratory support
+An increased incidence of new-onset atrial fibrillation was
+observed in patients undergoing chordae shortening. Several
+considerations may explain this finding. First, chordae
+shortening was selectively applied to valves with elongated
+but intact primary chordae, a morphology frequently
+encountered in advanced degenerative disease and often
+
+associated with larger left atrial size and a longer pre-operative
+volume overload history—factors known to predispose to
+postoperative atrial arrhythmias. Second, shortening was
+occasionally used as an adjunctive manoeuvre to optimize
+leaflet coaptation after the primary repair, potentially
+reflecting a higher degree of leaflet manipulation rather than
+a direct arrhythmogenic effect of the technique itself.
+Importantly, the higher incidence of postoperative atrial
+fibrillation did not translate into increased early morbidity
+or resource utilization. Mechanical ventilation duration was
+comparable between groups, while ICU and total hospital
+stays were shorter in the shortening cohort. Moreover,
+atrial fibrillation was managed according to standard
+postoperative protocols and resolved in the majority of
+cases without long-term sequelae. These findings suggest
+that the observed difference represents a transient, clinically
+manageable postoperative phenomenon rather than a
+marker of procedural risk or repair failure.
+Benefit of robotic approach
+The robotic system confers several critical advantages
+specifically for cusp-level chordae shortening. Highdefinition, three-dimensional optics furnish roughly 10-fold
+
+Ann Cardiothorac Surg 2026;15(1):7 | https://dx.doi.org/10.21037/acs-2025-dmv-0135
+
+Wei et al. Robotic chordae shortening
+
+magnification, bringing 1- to 2-mm primary chordae into
+sharp focus and allowing the surgeon to visualize subtle
+differences in length along the leaflet edge. Motion-scaling
+and tremor-filtration translate millimeter hand movements at
+the console into sub-millimeter bites inside the heart, enabling
+suture placement through the chorda and leaflet margin with
+micrometric accuracy. Seven-degree-of-freedom, wristed
+instruments can approach the chorda perpendicularly—
+something nearly impossible with rigid thoracoscopic tools.
+A surgeon-controlled, stabilized camera maintains constant,
+centered visualization of the target chordae, eliminating
+assistant-dependent drift. Collectively, these features simplify
+measurement of the required truncation, reduce the risk of
+chorda fracture, and provide secure, reproducible fixation at
+the cusp level—advantages that directly address the technical
+limitations that undermined traditional shortening performed
+under direct open vision.
+Study limitations
+The analysis is retrospective, single-center, and involves a
+modest sample of shortening cases. Propensity matching
+was not performed; therefore, unmeasured confounders
+may persist. Echocardiographic follow-up was mid-term
+(median, 3.6 years). Multicenter registries and longer
+surveillance are warranted.
+
+to declare.
+Ethical Statement: This study was conducted in accordance
+with the Declaration of Helsinki and was approved by the
+Institutional Review Board of National Taiwan University
+Hospital (IRB No. 202401213RINC); the requirement
+for individual informed consent was waived owing to the
+retrospective design.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

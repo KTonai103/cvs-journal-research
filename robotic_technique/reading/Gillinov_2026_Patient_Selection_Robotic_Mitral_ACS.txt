@@ -1,0 +1,174 @@
+Editorial
+
+Patient selection in robotic mitral valve surgery
+Marc Gillinov1, Tarek Malas1, Daniel J. P. Burns2, Stephanie L. Mick3, Per Wierup1
+
+Department of Thoracic and Cardiovascular Surgery, Cleveland Clinic, Cleveland, OH, USA; 2Division of Cardiac Surgery, University of Toronto,
+
+Toronto, Canada; 3Weill Cornell Medicine, New York Presbyterian Hospital, New York, NY, USA
+Cleveland, OH 44195, USA. Email: gillinom@ccf.org.
+Keywords: Mitral valve; robotic; cardiac surgery
+
+In recent years there has been increased application of
+robotic mitral valve surgery (1). Advantages to robotic
+surgery include smaller incisions, quicker recovery, less
+blood loss and, perhaps, a reduced risk of infection (1-4).
+Patients prefer the shorter recovery and cosmetic result, and
+surgeons benefit from enhanced visualization and dexterity.
+However, the key factors governing the choice of a robotic
+approach are patient safety and procedural success. Both
+mitral valve repair and replacement can be completed with
+the surgical robot. Of note, in patients with degenerative
+mitral valve disease, expectations include exceedingly low
+mortality (<1%) and a high rate of valve repair (>95%).
+We have previously described a conservative screening
+algorithm based on patient history, computed tomography
+(CT) scanning and echocardiography that enabled us to
+achieve these goals; in our first 1,000 robotic mitral valve
+operations, we had no mortality and a repair rate of 99% (4).
+In our subsequent 1,600 cases, based upon increased
+experience and facility with the robotic platform, we have
+extended this approach to a wider group of patients. Herein
+we present our current screening algorithm—focusing on
+those factors that “alert” us to the possibility that we must
+alter our robotic approach or perform a sternal incision—
+and strategies to mitigate/safely work around factors in the
+patient history, CT scan or echocardiogram that would
+have previously led us to perform a sternotomy. While
+concomitant tricuspid valve surgery, patent foramen ovale
+(PFO)/atrial septal defect closure and ablation of atrial
+fibrillation are all feasible during robotic mitral valve
+surgery, we do not employ the robotic platform in patients
+
+who require concomitant coronary artery bypass grafting,
+aortic valve repair/replacement or aortic surgery.
+Patient history
+In our practice, a previous right thoracotomy represents a
+contraindication to robotic mitral valve surgery. If a patient
+has had a previous sternotomy, robotic surgery is feasible
+in experienced hands. When operating on the patient who
+has had a previous sternotomy, it is advantageous to employ
+balloon occlusion of the ascending aorta, and a combination
+of antegrade and/or retrograde cardioplegia delivered via
+the ascending aortic balloon catheter and a coronary sinus
+catheter placed via the internal jugular vein, respectively.
+Though fibrillatory arrest is a possible alternative, we do
+not favor this approach.
+Echocardiography
+Aortic regurgitation
+Aortic regurgitation that is greater than mild in degree often
+jeopardizes myocardial protection by rendering antegrade
+cardioplegia unpredictable and ultimately less effective. In
+this setting, a retrograde coronary sinus catheter placed via
+the internal jugular vein facilitates a safe procedure. Before
+removal of the aortic cross-clamp/deflation of the ascending
+aortic balloon, a vent should be placed across the mitral
+valve to prevent left ventricular distension and aid deairing
+in all robotic cases, and this maneuver is particularly
+important if there is aortic regurgitation.
+
+Ann Cardiothorac Surg 2026;15(1):13 | https://dx.doi.org/10.21037/acs-2025-dmv-0114
+
+Kar and Avedikian. Equipoise in DMR
+
+Severe mitral annular calcification
+
+Femoral arterial diameter <7 mm
+
+Severe mitral annular calcification substantially increases
+the complexity and risk of mitral valve surgery. While
+some have reported success addressing this challenge with
+the surgical robot (5), we prefer a full sternotomy in this
+setting.
+
+Small femoral arteries should not be cannulated directly.
+In the setting of an artery that is of borderline size (i.e.,
+6 mm), we prefer to sew an 8-mm graft to the femoral
+artery to enable adequate systemic flow and ensure distal
+limb perfusion. If the femoral vessels are less than 6 mm
+in diameter, we generally pursue a sternal approach.
+Alternatively, the surgeon may choose to cannulate both
+femoral arteries.
+
+Severe left ventricular dysfunction
+This is a relative contraindication to robotic mitral valve
+surgery, particularly early in the surgical team’s experience.
+In patients with severe left ventricular dysfunction, optimal
+myocardial protection and a short myocardial ischemic time
+are critically important. When approaching these patients
+with the robotic platform, we employ both antegrade and
+retrograde cardioplegia and ensure a short aortic crossclamp time.
+Pulmonary hypertension
+Many patients with mitral valve disease have pulmonary
+hypertension. While we still consider severe, fixed
+pulmonary hypertension (i.e., near systemic or greater
+pulmonary artery pressure) a contraindication to robotic
+surgery, lesser degrees of pulmonary hypertension are
+acceptable; in such cases, our standard routine of systemic
+cooling to 30 ℃ is important.
+CT scan
+
+All patients should undergo CT scanning of the chest,
+abdomen and pelvis, with and without contrast, before
+planned robotic surgery. Uncommon and unexpected
+findings, including type B aortic dissection, discontinuous
+inferior vena cava, and presence of an inferior vena cava
+filter have led us to pursue a sternal approach. Other CT
+findings require careful consideration before pursuing a
+robotic approach.
+
+In general, it is ideal to have a distance of at least 10 cm
+between the posterior sternal table and the anterior spine
+to facilitate exposure of the right pulmonary veins and left
+atrium. Simply put, there needs to be adequate space for
+left atrial retraction and mitral valve visualization. If this
+distance is 7–10 cm, we determine feasibility of the robotic
+approach by inserting a camera into the right chest and
+directly assessing the anatomy. If the distance is less than
+7 cm, we generally pursue a sternal incision.
+Comments
+Most patients with isolated mitral valve pathology are
+suitable for a robotic approach. As with all cardiac surgical
+procedures, patient selection is paramount to success. When
+considering use of the surgical robot, the surgeon must
+ask himself/herself a simple question: “Can I do exactly
+the same operation, with the same safety and effectiveness
+if I employ the robot?” If the answer is “Yes”, a robotic
+approach is appropriate.
+Acknowledgments
+None.
+Footnote
+
+Aortoiliac atherosclerosis
+Significant aortoiliac atherosclerosis contraindicates
+femoral arterial perfusion due to the increased risk of
+cerebrovascular events (6). The definition of “significant” is
+subjective; however, in the presence of soft plaque or diffuse
+hard/calcified plaque, we choose axillary artery cannulation
+for arterial inflow.
+
+Severe pectus excavatum
+
+with Edwards Lifesciences, Medtronic, Abbott, Artivion,
+ClearFlow, Johnson and Johnson, Baxter, AtriCure and
+Corcym. S.L.M. reports consulting relationships with
+Medtronic, Artivion and Johnson and Johnson. The other
+authors have no conflicts of interest to declare.
+
+Ann Cardiothorac Surg 2026;15(1):13 | https://dx.doi.org/10.21037/acs-2025-dmv-0114
+
+Annals of Cardiothoracic Surgery, Vol 15, No 1 January 2026
+
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+3.
+
+4.
+
+5.

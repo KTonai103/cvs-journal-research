@@ -1,0 +1,136 @@
+ADULT: CARDIAC TUMORS: SURGICAL TECHNIQUE
+
+Robotic myxoma resection using an ultrasonic
+aspirator system
+Yoshitsugu Nakamura, MD, PhD, Miho Kuroda, MD, Yuto Yasumoto, MD, and
+Taisuke Nakayama, MD, PhD, Chiba, Japan
+From the Department of Cardiovascular Surgery, Chibanishi General Hospital, Chiba, Japan.
+IRB No. 002482; August 22, 2024.
+The 3 patients provided informed written consent for publication of study data.
+Received for publication Sept 12, 2024; revisions received Sept 27, 2024; accepted for publication Oct 1, 2024;
+available ahead of print Oct 16, 2024.
+Address for reprints: Yoshitsugu Nakamura, MD, PhD, Department of Cardiovascular Surgery, Chibanishi
+General Hospital, 107-1 Kanegasaku, Matsudo, Chiba 270-2251, Japan (E-mail: ystgnkmr@gmail.com).
+JTCVS Techniques 2025;29:100-2
+2666-2507
+Surgery. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+
+The myxoma was debulked with an ultrasonic aspirator system in robotic myxoma resection.
+
+CENTRAL MESSAGE
+
+Video clip is available online.
+
+Performing myxoma resection through right minithoracotomy is reported to be less invasive and more efficient, with or without robot-assistance.1-3 Left atrial
+myxomas can be seen directly through right-side left atriotomy, but because myxomas are gelatinous and friable, they
+are easily damaged during surgical manipulation, potentially causing embolism or metastasis in the pulmonary
+veins or left ventricle. Therefore, resection of the tumor
+and its attachment to the endocardium as a single mass is
+recommended. However, this is difficult for large myxomas,
+especially when using robot assistance and small skin incisions. We report a novel technique in robot-assisted myxoma resection that uses the Sonopet iQ Ultrasonic
+Aspirator System (Stryker) (Figure 1, A) (institutional review board No. 002482; August 22, 2024). The 3 patients
+provided informed written consent for publication of study
+data.
+SURGICAL TECHNIQUE
+Under general anesthesia using single-lung ventilation, a
+3-cm working port also used for the robotic camera port was
+created in the fourth intercostal space on the left anterior
+axillary line. See Video 1. The left- and right-hand ports
+and robotic arms were placed in the third and sixth intercostal spaces, respectively. A retractor port was placed
+through an areola incision. Cardiopulmonary bypass was
+established through the right femoral artery and femoral
+and jugular vein cannulation. Vacuum assistance was used
+
+JTCVS Techniques c February 2025
+
+Using an ultrasonic aspirator
+system for robotic myxoma
+resection is simple, safe, and
+reliable.
+
+for venous drainage (40-60 mm Hg). The ascending aorta
+was crossclamped using a Cygnet flexible clamp (Vitalitec
+Inc) with antegrade crystalloid cardioplegia delivery.
+The myxoma was exposed with a robotic dynamic
+retractor through right side left atriotomy (Figure 2, A). A
+flexible sucker was inserted into the left atrium to achieve
+a bloodless field. A small sample of the myxoma was resected for immediate pathology confirmation. The patientsite surgeon inserted the Sonopet through the working
+port, positioning it against the myxoma with robotic assistance (Figure 1, B). The Sonopet’s outputs were set to
+50% ultrasound power, 70% suction pressure, and
+15 mL/minute irrigation rate. The myxoma was gradually
+fragmented and aspirated from the camera side. After
+most of the myxoma was debulked, a roughly 1-cm core
+of the elastic hard tumor core remained (Figure 2, B)
+attached to the left atrial endocardium. The entire thickness
+of the left atrial endocardium at the myxoma attachment site
+was excised with a 5-mm margin. If there was concern
+about the margin size, an additional circular excision was
+made around the resected area. When removing the excised
+myxoma, we used the EndoCatch specimen retrieval pouch
+(Medtronic) to prevent accidental dropping in the left
+atrium or the left pleural cavity. However, its use is based
+on surgeon’s preference and is not essential. If the atrial
+
+Adult: Cardiac Tumors: Surgical Technique
+
+FIGURE 1. A, Sonopet iQ Ultrasonic Aspirator System 205 mm soft tissue tip (Stryker). B, Intraoperative photograph, a patient-site surgeon applies Sonopet through a 3-cm working port.
+
+septum of the attachment area was thin or communication
+arose with the right atrium, the hole was closed with 40 monofilament sutures. Because vacuum-assisted venous
+drainage is being used, small communications are not an
+issue. However, if a large communication occurs, there is
+a risk of air block or hypercapnia. Therefore, it is advisable
+to snare the superior vena cava and inferior vena cava in
+advance when the atrial septum of the attachment site is
+large and thin like the foramen ovale. The atriotomy was
+closed with continuous sutures. The crossclamp was
+released, transesophageal echocardiography was performed, and cardiopulmonary bypass was terminated.
+We employed this method in 3 cases of cardiac myxomas,
+all of which had favorable outcomes. Average crossclamp
+time and cardiopulmonary bypass time were 58 and 109 minutes, respectively.
+DISCUSSION
+The advantages of the technique described are its
+simplicity; the tumor is not grasped, reducing the risk of
+leaving parts behind; the endocardial attachment site
+
+VIDEO 1. Intraoperative robotic endoscopic video. 23 speed. Video available at: https://www.jtcvs.org/article/S2666-2507(24)00437-1/fulltext.
+
+becomes visible after aspiration, leading to adequate resection; and the small skin incision sites remain small.
+Sonopet Mechanism and Application
+Sonopet generates ultrasonic vibrations creating longitudinal and torsional forces. The handpiece of the device provides simultaneous irrigation and suction. Sonopet has been
+used in neurosurgery, liver, and orthopedic surgery for aspirating and removing tumors safely for more than 20 years,4,5
+but in cardiac surgery it has been limited to removal of calcifications from the aortic valve during aortic valve replacement surgery. We know of no reports using Sonopet for
+cardiac tumors.
+Output levels can be matched to tumor density, allowing
+for efficient tumor fragmentation and aspiration while preserving surrounding tissues, which have higher density. We
+optimized our Sonopet output settings based on consultation with the manufacturer and intraoperative adjustments
+during our 3 cases. The large, soft outer portion of the myxoma was easily fragmented and aspirated at this setting,
+whereas the firm and elastic core was harder to fragment.
+Instead, it was excised robotically with the left atrial endocardium was attached. The mitral valve leaflet and left atrial
+endocardium are not damaged by brief contact with the Sonopet, but there is a risk of injury if contact is sustained for
+more than a few seconds. Therefore, it is necessary to apply
+the Sonopet while continuously monitoring its placement
+with the robotic camera.
+Considerations for Robot-Assisted Tumor Resection
+In robot-assisted left atrial tumor resections, the camera
+typically sees only the front of large tumors; its attachment
+site is hidden. As the myxoma is aspirated, the left atrial
+wall becomes visible. By the time only the core remains,
+the attachment site is clearly visible, allowing for safe and
+secure resection of the remaining tumor and endocardium.
+JTCVS Techniques c Volume 29, Number C
+
+Adult: Cardiac Tumors: Surgical Technique
+
+FIGURE 2. A, Myxoma before aspiration with Sonopet iQ Ultrasonic Aspirator System (Stryker). B, Only the core of the myxoma remains after aspiration.
+
+CONCLUSIONS
+Using Sonopet for robotic resection of cardiac myxomas
+is simple, safe, and reliable.
+The authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling or reviewing manuscripts for which they may have a conflict
+of interest. The editors and reviewers of this article have
+no conflicts of interest.
+
+JTCVS Techniques c February 2025

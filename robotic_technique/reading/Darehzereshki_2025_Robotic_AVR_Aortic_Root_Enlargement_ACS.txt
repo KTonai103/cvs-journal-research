@@ -1,0 +1,171 @@
+Masters of Cardiothoracic Surgery
+
+Robotic aortic valve replacement and aortic root enlargement for
+optimal prosthesis selection
+Ali Darehzereshki, Lawrence Wei, J. Hunter Mehaffey, Goya Raikar, Vinay Badhwar
+Department of Cardiovascular and Thoracic Surgery, West Virginia University, Morgantown, WV, USA
+Morgantown, WV 26506, USA. Email: ali.darehzereshki@wvumedicine.org.
+Keywords: Robotic aortic valve replacement (RAVR); aortic root enlargement (ARE); patient-prosthesis mismatch (PPM)
+
+Clinical vignette
+A 67-year-old female presented with severe aortic stenosis
+and New York Heart Association Class III symptoms. She
+had a body mass index (BMI) of 36 kg/m2 and a history of
+long-standing persistent atrial fibrillation and left atrial
+thrombus on oral anticoagulation, permanent pacemaker
+implantation for sick sinus syndrome with high grade
+atrioventricular (AV) block, stage 3 chronic kidney disease,
+insulin-dependent diabetes, hypertension, hyperlipidemia,
+obstructive sleep apnea and moderate right carotid
+stenosis with recurrent transient ischemic attack (TIA).
+Echocardiogram showed a left ventricular ejection fraction
+of 60%, severe aortic stenosis and a small aortic root with
+an annulus measuring 18 mm. Cardiac catheterization
+showed non-obstructive coronary artery disease. Her
+calculated Society of Thoracic Surgery (STS) predicted
+risk of mortality was 4%. Despite several comorbidities,
+she was still independent and cared for her grandchildren.
+Concomitant robotic aortic valve replacement (RAVR)
+with aortic root enlargement (ARE) and biatrial Cox-maze
+cryoablation with left atrial appendage obliteration was
+recommended.
+Surgical techniques
+Preparation
+Prior to induction of double lumen endotracheal anesthesia,
+patient received upper extremity arterial monitoring and
+intra-thecal injection of 0.1 mg morphine sulfate. The
+
+patient was positioned supine with a bumper under the right
+shoulder to facilitate a right lateral trans-axillary approach.
+Exposition
+The development, implementation and technical details
+of RAVR have been described previously (1). In summary,
+RAVR was approached through a 3 cm minimally invasive
+rib sparing right lateral thoracotomy at the level of the
+axillary line in the fourth intercostal space facilitated by
+the DaVinci Xi robot (Intuitive Surgical, Sunnyvale, CA,
+USA). Cardiopulmonary bypass (CPB) was initiated via
+peripheral cannulation established through right common
+femoral artery and vein and right internal jugular vein, as
+well as a 5-French distal perfusion catheter in the superficial
+femoral artery connected to the ipsilateral arterial cannula.
+An aortic root vent was then placed through the 3 cm
+working incision followed by a left ventricular vent through
+the right superior pulmonary vein via a separate chest wall
+stab incision. The DaVinci Xi robot was used with the
+camera port through the working incision (arm 2). Three
+additional ports included DeBakey forceps (arm 1), long-tip
+grasping forceps (arm 3) and scissors/needle driver (arm 4).
+A transthoracic aortic cross-clamp was then applied and
+antegrade cardioplegia solution was delivered via the aortic
+root.
+Under full robotic assistance, a slightly modified
+transverse aortotomy at the sinotubular junction was
+extended down to the midpoint of the non-coronary sinus
+to provide excellent visualization of the aortic valve. The
+
+Ann Cardiothorac Surg 2025;14(3):238-240 | https://dx.doi.org/10.21037/acs-2024-ravr-0183
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+aortic valve was then excised robotically. The steps for
+implantation of prosthetic valve include placement of
+circumferential interrupted 2-0 braided polyester sutures,
+valve sizing using conventional surgical aortic valve
+replacement (SAVR) sizers, passing the sutures through the
+sewing ring of the prosthesis, delivery of the valve through
+the working incision and securement using suture fasteners
+(Cor-Knot; LSI Solutions, Victor, NY, USA).
+Operation
+ARE was performed through a modified Nicks technique
+by extending the aortotomy through the mid-point of
+the non-coronary sinus to the aortic annulus. Following
+implantation of a 23 mm prosthesis, and similar to
+conventional open techniques, the ARE was commenced
+with a single pledgetted 4-0 polypropylene suture anchoring
+a Dacron patch in a horizontal mattress fashion (Video 1,
+case 3). The patch was then sewn to the aorta, proximally
+and distally, in a single running layer, to replace the noncoronary sinus and the entire anterior aorta as a gusset
+patch augmentation. Alternatively, a pericardial patch
+can be fashioned to facilitate this full augmentation. Less
+commonly, as shown in our initial series (2), a diamond
+shaped pericardial or Dacron patch is used to augment the
+non-coronary sinus with a transition suture at the mid-point
+of the aortotomy (Video 1, cases 1 and 2).
+
+(range, 18–43 kg/m2) and the mean prosthesis size was
+23 mm (range, 21–27 mm). There were no mortalities,
+readmissions or reoperations for bleeding. Transthoracic
+echocardiogram at one month showed normal hemodynamics
+with physiologic valve gradients in all patients.
+Advantages
+PPM after SAVR has been well documented to be
+associated with worse outcome (3-5). Furthermore, the
+growing application of valve-in-valve transcatheter aortic
+valve replacement (TAVR) after SAVR underlines the
+importance of avoiding a 19 mm prostheses. This highlights
+the potential increased role of ARE during SAVR,
+particularly for patients at risk for PPM. Robotic ARE
+follows the same open surgical principles and could serve
+as a valuable complement to the well-established RAVR
+technique. Our standard approach to ARE is a modified
+Nicks root enlargement with full gusset patch augmentation
+of the non-coronary sinus and entire anterior aorta using
+Dacron or pericardium. A diamond shaped pericardial or
+Dacron patch with a transition suture at the mid-point of
+the aortotomy was used in our initial experience to augment
+the non-coronary sinus (2). Our series demonstrate robotic
+ARE at the time of RAVR is feasible, safe and may mitigate
+PPM in patients with small or complex aortic root anatomy.
+Caveats
+
+Completion
+After completion of aortotomy closure, the repair and ARE
+patch were tested for hemostasis with antegrade cold-blood
+cardioplegia. In concomitant surgery for atrial fibrillation,
+a biatrial Cox-maze cryoablation and left atrial appendage
+obliteration is typically completed prior to RAVR ARE. The
+heart was then reanimated, the cross-clamp was released,
+the robot undocked and the patient was weaned from CPB,
+decannulated and closed.
+
+Robotic-assisted ARE requires technical proficiency in
+RAVR and careful patient selection. The modified Nicks
+technique applied in our series enlarges the aortic root,
+which allows for a one to two size larger valve to be
+inserted. An inverted Y-incision with rectangular patch may
+be performed to upsize the annulus by two to three sizes.
+Acknowledgments
+None.
+
+Comments
+Clinical results
+
+Footnote
+
+Since the initiation of RAVR in January 2020, approximately
+12.3% of patients underwent robotic ARE, which is similar
+in frequency to open SAVR ARE in our institution. Robotic
+ARE was performed due to a small or calcified aortic root,
+but most commonly to avoid patient-prosthesis mismatch
+(PPM) by valve upsizing. The average BMI was 30.9 kg/m2
+
+to declare.
+
+Ann Cardiothorac Surg 2025;14(3):238-240 | https://dx.doi.org/10.21037/acs-2024-ravr-0183
+
+Darehzereshki et al. ARE concomitant to RAVR
+
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+2.
+
+4.
+
+5.

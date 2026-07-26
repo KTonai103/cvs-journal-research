@@ -1,0 +1,1125 @@
+0003-4975
+
+REVIEW
+
+Defining the Learning Curve in Minimally
+Invasive Cardiac Surgery: A Systematic
+Review and Meta-Analysis
+Abdelrahman Elsebaie, BHSc(H),1 Christina S. Boutros, DO,2 Ahmed K. Awad, MD,2,3
+Mohammed Sanad, MD, PhD,4 Marc Pelletier, MD,2 Yasir Abu-Omar, MD, PhD,2 and
+Mohammad El-Diasty, MD, PhD2,5
+
+ABSTRACT
+
+BACKGROUND Minimally invasive cardiac surgery (MICS) has become a popular approach due to its
+potential benefits, such as improved cosmesis, faster recovery, shorter hospital stays, and costeffectiveness, compared with traditional median sternotomy. However, there have been some
+concerns regarding procedural efficiency and surgical outcomes, especially in the early phase of the
+learning curve of these procedures.
+METHODS In March 2025, a systematic review was conducted using MEDLINE, Embase, the Cochrane
+Library and Google Scholar databases to identify potential studies that quantitively assessed the
+learning curve in MICS using predefined metrics based on surgical times and/or clinical outcomes.
+RESULTS There were 28 studies involving 13,257 patients that met the inclusion criteria, most of
+which were retrospective, focusing on 3 types of MICS: minimally invasive mitral valve surgery, aortic
+valve replacement, and coronary artery bypass grafting. The learning curve was assessed using
+arbitrary (split-group) and nonarbitrary (cumulative sum) methods. Common perioperative metrics
+included operative, cardiopulmonary bypass, aortic cross-clamp times, and postoperative complications. The reported number of cases needed to overcome the learning curve varied widely, ranging
+from 23 to 125 cases (mean, 39 cases [for repair] and 78 [for replacement]) for minimally invasive
+valve surgery, 40 to 138 cases (mean, 93 cases) for minimally invasive aortic valve replacement, and
+16 to 100 cases (mean, 40 cases) for minimally invasive coronary artery bypass grafting.
+CONCLUSIONS Differences in surgical process and postoperative outcomes suggest a learning curve
+in MICS, although stable morbidity and mortality rates indicate the safe adoption of these procedures with appropriate training. Nonetheless, significant heterogeneity across studies prevents
+precise learning curve characterization, highlighting the need for standardized, multivariable
+assessment frameworks.
+(Ann Thorac Surg 2026;121:480-90)
+
+M
+
+inimally invasive cardiac surgery
+(MICS) may offer some benefits in
+smaller surgical incisions, better cosmesis, faster recovery, and better patient satisfaction.1,2 Despite the elevated initial capital, MICS
+
+The Supplemental Material can be viewed in the online version of
+this article [https://doi.org/10.1016/j.athoracsur.2025.08.013] on
+
+Faculty of Health Sciences, Department of Medicine, Queen’s University, Kingston, Ontario, Canada; 2Cardiac Surgery Department, Harrington Heart
+and Vascular Institute, University Hospitals Cleveland Medical Center, Cleveland, Ohio; 3Faculty of Medicine, Ain-Shams University, Cairo, Egypt;
+Cardiothoracic Surgery Department, Mansoura University, Mansoura, Egypt; and 5Department of Biomedical and Molecular Sciences, Queen’s
+University, Kingston, Ontario, Canada
+Address correspondence to Dr El-Diasty, Division of Cardiac Surgery, University Hospitals Cleveland Medical Center, 11100 Euclid Ave, Cleveland, OH
+44106; email: med7@queensu.ca.
+
+Ann Thorac Surg
+
+REVIEW
+
+2026;121:480-90
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+Abbreviations and Acronyms
+CPB � cardiopulmonary bypass time
+CUSUM � cumulative summative
+LOS � length of stay
+MIAVR � minimally invasive aortic valve replacement
+MICABG � minimally invasive coronary artery bypass grafting
+MICS � minimally invasive cardiac surgery
+MIMVP � minimally invasive mitral valvuloplasty
+MIMVR � minimally invasive mitral valve replacement
+MIMVS � minimally invasive mitral valve surgery
+NLC � number of procedures to overcome the learning curve
+SMD � standardized mean difference
+
+may be cost-effective in the long-term due to the
+reduced need for blood products and shorter hospital length of stay (LOS) compared with sternotomy.3-5
+Some concerns were raised regarding the
+learning curve phase of this technically demanding
+surgical approach, especially in longer operative
+and cardiopulmonary bypass (CPB) times,6 reduced
+surgical efficiency, and compromised surgical
+outcomes.7-9 A graphical representation of a surgical learning curve, which has been commonly
+depicted in 3 major stages, is shown in Figure 1.
+Multiple studies described surgical outcomes
+during the early phase of adopting an MICS
+program in different surgical techniques, such as
+mitral,10-14 aortic,15-19 and coronary procedures20-23
+by applying metrics such as surgical times, intraoperative events, and postoperative surgical outcomes or major complications.10,11,13-16,20,23-27
+Certain average numbers of procedures were proposed to overcome the impact of learning curve on
+surgical outcomes, referred to as the NLC.28
+Defining the learning curve in MICS is important to enhance the patient information and
+consenting process and to manage the team’s
+results and performance, in addition to providing
+policymakers and hospital managers with a realistic view of the performance and growth of the
+MICS program.29,30 In this review, we identified
+literature that assessed the learning curve in MICS,
+focusing on its characteristics and potential impact
+on surgical outcomes. We also identified the
+suggested number of procedures that operators
+needed to perform to mitigate the potential
+impact of the learning curve.
+
+MATERIAL AND METHODS
+
+This systematic review was performed in
+compliance with the Preferred Reporting Items
+for Systematic reviews and Meta-Analyses 2020
+
+ELSEBAIE ET AL
+
+guidelines,31 and was registered in the Open
+Science Framework, with the following identifier:
+STUDY DESIGN AND SEARCH STRATEGY. An electronic
+
+database search was initially conducted in April
+2024 and was updated in March 2025 using
+MEDLINE, Embase, Cochrane Library, and Google
+Scholar. A librarian from Queen’s University was
+consulted to ensure the comprehensiveness of
+the search strategy. The full search strategy is
+available in Supplemental Table 1. A publication
+year cutoff of 2000 onward was applied to
+capture pioneering studies while acknowledging
+advancements in MICS techniques and equipment
+over the past 2 decades.
+STUDY SELECTION AND OUTCOMES OF INTEREST. Three
+
+independent reviewers (A.E., M.H., and F.H.)
+evaluated identified papers using Covidence
+software (Veritas Health Innovation available at
+by the senior author (M.E.D.). Duplicates were
+removed, and titles and abstracts were screened
+using the inclusion and exclusion criteria. The
+remaining studies underwent full-text evaluation.
+Comparative studies, irrespective of the design,
+that reported the primary outcome of interest,
+learning curve in MICS in adult patients (>18
+years), were included. Included studies must
+have assessed the learning curve by comparing
+outcomes between early and late groups or by
+completing quantitative analysis to calculate the
+number of procedures required to overcome the
+
+FIGURE 1 Example of an ideal learning curve for minimally invasive operations. (I) Starting point. (II) The slope gradually rises, surpassing the acceptable
+standard threshold for the measured outcome/variable of interest as the
+surgeon can independently and competently perform the procedure. (III)
+Plateau phase where little improvement occurs, and mastery is achieved. (IV)
+A slight dip in performance may occur overtime.
+
+REVIEW
+
+ELSEBAIE ET AL
+
+Ann Thorac Surg
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+learning curve (NLC). Specifically, the NLC—primary
+outcome of interest—describes the number of
+cases needed to achieve technical competence
+or a satisfactory rate of specific surgical
+complications, as determined by the authors of
+included studies.
+Animal studies, studies on the learning curve of
+robotically assisted MICS, and noncomparative,
+nonprimary, non-English studies, case reports,
+editorials, other reviews, commentaries, and abstracts, were excluded. Extracted data regarding
+the primary outcome of interest and pertinent
+study characteristics are summarized in the
+Table.10-27,32-41 The risk of bias assessment was
+completed using the Newcastle-Ottawa Scale for
+nonrandomized cohort studies,42 with results fully
+presented in Supplemental Table 2.
+DATA EXTRACTION AND STATISTICAL ANALYSIS. A Poisson
+
+regression analysis was performed to evaluate the
+relationship between the number of operations
+performed by surgeons and predictor variables,
+including surgery type and study duration (in
+years). Study duration was used as an offset term
+for varying observation periods across surgeons.
+The model estimated log counts of operations,
+with coefficients (β) representing change in log
+count per unit increase in predictors. Model fit was
+assessed using deviance statistics (residual vs null
+deviance). The learning curve was quantified by
+modeling the nonlinear reduction in the NLC over
+time. The model showed a good fit to the data,
+with a significant reduction in deviance compared
+with the null model (residual deviance = 1428.2,
+df = 13; null deviance = 5731.8, df = 21). An
+expanded reasoning for the use of Poisson regression analysis can be found summarized in the
+Supplemental Methods.
+A meta-analysis was performed for operative
+variables and postoperative outcomes. The
+Mantel-Haenszel
+method
+and
+restricted
+maximum-likelihood estimator were used to pool
+study estimates and quantify between-study
+heterogeneity, respectively. Categorical variables
+were extracted as events and totals with odds
+ratio and 95% CIs calculated, whereas continuous
+variables were extracted as mean and standard
+deviation (SD) with the standardized mean difference (SMD) and 95% CI calculated. Heterogeneity was evaluated using the I2 statistic, with I2
+> 50% denoting substantial heterogeneity. A
+meta-analysis and subgroup analysis based on the
+minimally invasive approach was also performed
+using the metafor and meta software packages in
+R (R Foundation for Statistical Computing).
+
+2026;121:480-90
+
+RESULTS
+SEARCH RESULTS. Our search strategy retrieved 1510
+
+studies. After 854 duplicates were removed, 656
+papers underwent title and abstract screening, 54
+studies underwent full-text review, and ultimately,
+28 were included in the final review.10-27,32-41 The
+study selection process is presented in the
+Preferred Reporting Items for Systematic reviews
+and Meta-Analyses flowchart (Figure 2).
+STUDY CHARACTERISTICS. This review features 13,257
+
+patients. The design for 25 studies was retrospective,10-18,20-23,25-27,32,35-41 with the remaining 3
+having a prospective design.19,24,33 The mean age
+ranged from 32.4 to 76.0 years. The 3 types of
+MICS reported included minimally invasive mitral
+valve surgery (MIMVS),10-14,24-27,32-34 minimally
+invasive aortic valve replacement (MIAVR),15-19,35,39
+and minimally invasive coronary artery bypass
+grafting (MICABG).20-23,37-40 Within the studies
+focused on MIMVS, minimally invasive mitral
+valve repair/plasty (MIMVP) was reported by
+10,10,12-14,25-27,32,33,34 compared with the 8 where
+minimally invasive mitral valve replacement
+(MIMVR) was featured exclusively or alongside
+MIMVP.10-14,24,33,34 The learning curve of a single
+surgeon was evaluated in 18 studies,11-15,21,22,24-27,34-39
+whereas 8 papers focused on institution-wide
+learning curves, evaluating a range of 2 to 17
+surgeons at once.17-20,33,40,41 Background information
+on the surgeons’ expertise was reported in
+studies.10,12-14,16,19,21,24,26,27,34,38,40,41
+Study
+characteristics are presented in the Table and
+Supplemental Table 3.
+OF ASSESSING
+LEARNING
+CURVE. Two
+methods assessed the learning curve: arbitrary or
+nonarbitrary analysis. The former method uses
+arbitrary time-point cutoffs to split a series of
+consecutive cases into ≥2 groups, enabling the
+authors to test for significant differences in
+study outcomes. This method was used in 21
+studies (75%).11,14-19,21-27,32,34,36-39,41 The Table
+summarizes the arbitrary stratification methods,
+whereas Supplemental Table 4 demonstrates the
+distribution of studies by stratification method.
+As for the latter method, cumulative summative
+(CUSUM) analysis was the primary nonarbitrary
+statistical method used to attain the NLC in 5
+studies (17.9%).10,13,20,33,35 The complete list of
+measures associated with each study is
+described in Supplemental Table 3.
+
+METHODS
+
+LEARNING
+
+CURVE
+
+FINDINGS. For
+
+OUTCOMES
+
+AND
+
+META-ANALYSIS
+
+studies investigating MIMVS, the
+number of operations suggested to overcome the
+
+Mean Age (y)
+
+Method of Learning Curve Analysis
+
+2019-2020
+
+MIMVR
+
+Retrospective
+
+S1: 42.75
+S2: 42.93
+
+Wu et al (2019)24
+
+2011-2013
+
+RAMT-MIMVR
+
+Prospective
+
+Hayashi et al (2021)25
+
+2014-2019
+
+MIMVP
+
+Retrospective
+
+P1: 32.4
+P2: 35.5
+P3: 36.3
+P4: 36.7
+P5: 40.0
+63.3
+
+CUSUM
+Arbitrary split-group analysis (based on
+when surgeon’s operative skills became
+proficient; 2 groups of 40 and 60)
+CUSUM
+Arbitrary split group analysis (based on
+procedure order; 5 groups of 20)
+
+56-68
+
+Nakayama et al. (2021)32
+
+2014-2020
+
+MIMVP
+
+Retrospective
+
+63.9
+
+Gerber et al. (2019)26
+
+2012-2017
+
+MIMVP
+
+Retrospective
+
+Holzhey et al. (2013)10
+
+1994-2011
+
+Retrospective
+
+CUSUM
+
+75-125
+
+Dokollari et al.
+(2020)13
+Papadopoulos et al.
+(2024)12
+
+2010-2015
+
+Retrospective
+
+67.2
+
+CUSUM
+
+2013-2019
+
+MIMVP
+MIMVR
+MIMVP
+MIMVR
+MIMVP
+MIMVR
+
+G1: 61.3
+G2: 69.1
+G3: 68.6
+61.1
+
+CUSUM
+Non-arbitrary (cubic spline analysis)
+Arbitrary split-group analysis (based on
+procedure order; 3 groups of 50, 50, 41)
+Arbitrary split-group analysis (based on
+operation year; 3 groups of 29, 62, 82)
+
+Retrospective
+
+66.6
+
+Murzi et al. (2012)33
+
+2003-2011
+
+MIMVP
+MIMVR
+
+Prospective
+
+CUSUM
+Non-arbitrary (bar plot of distribution of
+complications over time)
+CUSUM
+
+De Praetere et al.
+(2015)34
+
+2004-2010
+
+MIMVP
+MIMVR
+
+Retrospective
+
+EG: 58.8
+LG: 58.1
+
+Vo et al. (2019)14
+
+2014-2019
+
+Retrospective
+
+48.5
+
+Shu et al. (2023)27
+
+2016-2022
+
+MIMVS
+MIMVR
+MIMVP
+MIMVP
+
+Retrospective
+
+48.15
+
+Masuda et al. (2020)15
+
+2014-2018
+
+RIMT-MIAVR
+
+Retrospective
+
+75.0
+
+Taylor et al. (2021)16
+
+2014-2019
+
+MIAVR
+
+Retrospective
+
+71.0
+
+Tkebuchava et al.
+(2020)18
+van Kampen et al.
+(2021)35
+Stoli �
+nski et al. (2016)17
+
+2014-2018
+
+MIAVR
+
+Retrospective
+
+2015-2020
+
+RALT-MIAVR
+
+Retrospective
+
+G1: 67
+G2: 69
+67.7
+
+2009-2013
+
+RAMT-MIAVR
+
+Retrospective
+
+69.9
+
+Study
+
+Type of MICS
+
+Arbitrary split-group analysis (based on
+operation year; 4 groups of 49, 45, 55, 45)
+
+NR
+NR
+
+65-100
+
+101 (institutional)
+23-48 (5 surgeons)
+116 (1 surgeon)
+
+75-100
+
+40-50
+
+NR
+NR
+NR
+
+ELSEBAIE ET AL
+
+Arbitrary (split-group analysis based on
+procedure order; early & late groups of 30
+and 108)
+Nonarbitrary (logarithmic curve-fit
+regression analysis)
+CUSUM
+Arbitrary split-group analysis (based on
+procedure order; 4 groups of 51)
+CUSUM
+Arbitrary split-group analysis (based on
+procedure order; 3 groups of 50)
+Arbitrary (split-group analysis based on
+procedure order; 2 groups of 50 and 76)
+Non-arbitrary (trend line analysis)
+Arbitrary split-group analysis (based on
+procedure order; 3 groups of 31)
+Arbitrary split-group analysis (based on
+procedure order; early & late groups of 96)
+CUSUM
+
+REVIEW
+
+Study Design
+
+Fang et al (2021)11
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+No. of
+Patients (n)
+
+Ann Thorac Surg
+
+No. of Operations To
+Overcome Learning
+Curve (NLC)
+
+Study
+Period
+
+2026;121:480-90
+
+TABLE Summary of Primary Study Characteristics and Findings
+
+(Continued)
+
+T A B L E Continued
+
+RAMT-MIAVR
+
+Prospective
+
+76.0
+
+CUSUM
+Arbitrary split-group analysis (based on
+procedure order; 3 groups of 100)
+
+Chia et al. (2024)36
+
+2015-2022
+
+RAMT-MIAVR
+
+Retrospective
+
+68.7
+
+Rodriguez et al.
+(2017)22
+Une et al. (2013)21
+
+2005-2015
+
+MICABG
+
+Retrospective
+
+2005-2012
+
+Retrospective
+
+61.2
+
+Arbitrary (split-group analysis based on
+procedure order; 11 groups of 10)
+Arbitrary split-group analysis (based on
+procedure order; early & late groups of 153)
+CUSUM
+Arbitrary split-group analysis (based on
+procedure order; 2 groups of 25 and 62)
+
+Retrospective
+
+EG: 62.5
+LG: 64.9
+
+Type of MICS
+
+Study Design
+
+Mean Age (y)
+
+Andrawes et al.
+(2018)37
+
+2005-2013
+
+Off-pump SVST
+MICABG
+CPB-MVST MICABG
+Off-pump MVST
+MICABG
+MICABG
+
+Davierwala et al.
+(2023)23
+
+1996-2018
+
+MICABG
+
+Retrospective
+
+64.5
+
+Kanber et al. (2023)38
+
+2019-2022
+
+MICABG
+
+Retrospective
+
+G1: 63.0
+G2: 66.0
+G3: 63.0
+
+Rajput et al. (2020)39
+
+2017-2019
+
+MICABG
+
+Retrospective
+
+59.33
+
+Sugimura et al.
+(2025)40
+
+2022-2024
+
+MICABG
+
+Retrospective
+
+67.4
+
+Verevkin et al. (2025)41
+
+2015-2023
+
+MICABG
+
+Retrospective
+
+65.9
+
+Holzhey et al. (2007)20
+
+1996-2006
+
+MICABG
+
+Retrospective
+
+NR
+
+Method of Learning Curve Analysis
+
+Arbitrary split-group analysis (based on if
+surgery was conducted when surgeon was
+modifying technique or using a definitive
+one; early & late groups of 200 and 500)
+Arbitrary (split-group analysis based on
+operation year; 3 groups of 1333, 627, 707)
+Nonarbitrary (risk-adjusted SPRT)
+Arbitrary split-group analysis (based on
+procedure order; 3 groups of 25)
+
+Arbitrary split-group analysis (based on
+procedure order; early & late group of 20
+and 35)
+Non-arbitrary (correlation analysis between
+variable of interest and number of patients
+in consecutive series)
+Arbitrary (split-group analysis based on
+operation year; 2 groups of 137 and 142)
+CUSUM
+
+71 (based on
+device success
+end pointa)
+138 (based on
+combined safety
+endpointb)
+NR
+NR
+
+2026;121:480-90
+
+Ann Thorac Surg
+
+2011-2015
+
+ELSEBAIE ET AL
+
+Murzi et al. (2016)19
+
+No. of Operations To
+Overcome Learning
+Curve (NLC)
+
+REVIEW
+
+No. of
+Patients (n)
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+Study
+
+Study
+Period
+
+NR
+
+Beyond ∼1500
+
+25 (if based on
+blood loss &
+complication
+rate)
+50 (if based on
+operative time,
+hospital LOS and
+transfusion rate)
+NR
+
+34 (based on
+incidence of
+MACCE)
+NR
+
+a
+Device success end point: the absence of 1 or more of valve dysfunction with the need to remove and reimplant Perceval S valve (LivaNova), paravalvular leak, mean aortic valve gradient ≥ 20 mm Hg or peak velocity 3 m/s or conversion to sutured valve
+implantation; bCombined safety end point: the absence of mortality, conversion to sternotomy, stroke, acute kidney injury, myocardial infarction, reoperation for bleeding, or repeat procedure for valve-related dysfunction. CUSUM, cumulative sum
+analysis; EG, early group; G1, G2…, Group 1, 2…; LG, late group; LOS, length of stay; MACCE, major adverse cardiovascular and cerebrovascular events; MIAVR, minimally invasive aortic valve replacement; MICABG, minimally invasive coronary artery bypass
+grafting; MICS, minimally invasive cardiac surgery; MIMVP, minimally invasive mitral valvuloplasty; MIMVR, minimally invasive mitral valve replacement; MVST, multivessel small thoracotomy; NR, not reported; P1, P2…, phase 1, 2…; RAMT, right
+anterolateral minithoracotomy; RALT, right anterolateral thoracotomy; RIMT, right infra-axillary mini-thoracotomy; S1, S2, stage 1, stage 2; SPRT, sequential probability ratio test; SVST, single-vessel small thoracotomy.
+
+Ann Thorac Surg
+
+REVIEW
+
+2026;121:480-90
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+learning curve ranged between 23 and 125, with 75
+and 100 cases being the most frequently reported
+thresholds.10-14,24,25,27,33 Regarding MIAVR and
+MICABG, the NLC ranged between 40 and 138
+cases, and 16 and 100 cases, respectively.15,19-21,23,35
+Figure 3 further shows the mean NLC values for
+each procedure. Results for the Poisson
+regression showed that MICABG and MIMVP had
+significantly higher procedure numbers than
+MIAVR, with rate ratios of 4.76- and 7.24-times
+higher, respectively (log coefficients: 1.56 and
+1.98). Conversely, operation counts increased
+proportionally with study duration, as expected
+and as summarized in Supplemental Table 5.
+When the number of cases needed to surpass the
+learning curve was analyzed, there was a
+nonlinear trend in NLC, which had been decreasing
+at a rate of − 20.0% (95% CI, − 38.6% to − 4.0%)
+year-on-year (Figure 4), suggesting an annual
+reduction of 20% in the number of operations
+overall.
+Supplemental Table 6 shows that 47% (8 of
+17),11,15,17,21,24,32,38,39 47% (8 of 17),11,14-18,27,32 and
+53% (9 of 17)11,14-17,24,26,27,32 papers reported a
+significant improvement in intraoperative variables
+as the number of performed cases increased. The
+meta-analysis showed that although operative
+time failed to significantly decrease in the late
+phase for MIAVR and MICABG studies, it did,
+however, significantly reduce in MIMVR and
+MIMVP studies, with SMDs of − 1.94 (95% CI − 2.35
+to − 1.53) and − 1.18 (95% CI, − 1.56 to − 0.81),
+respectively (Supplemental Figure 1). Additionally,
+a significant reduction in CPB time in the late
+phase was observed in MIAVR (SMD, − 0.54; 95%
+CI, − 0.99 to − 0.09) and MIMVP (SMD, − 1.11;
+95% CI, − 1.76 to − 0.46) papers (Supplemental
+Figure 2), although not for studies featuring both
+types of mitral valve surgery (MIMVR and
+MIMVP). Regarding aortic cross-clamp time,
+Supplemental Figure 3 shows a significant
+decrease was also seen in the late phase of
+studies on MIMVR (SMD, − 1.77; 95% CI, − 2.17
+to − 1.37), MIMVP (SMD, − 0.86; 95% CI, − 1.19
+to − 0.54), and the pair together (SMD, − 1.13;
+95% CI, − 2.14 to − 0.12), yet no significant
+improvement was seen in those exploring
+MIAVR. Lastly, the odds of a conversion to
+median sternotomy were significantly lower in
+the late phase of MICABG patients (odds ratio,
+0.17; 95% CI, 0.08-0.38), but not in their MIMVR
+or MIAVR counterparts (Supplemental Figure 4).
+Concerning postoperative outcomes, hospital
+LOS and blood loss/chest drainage exhibited a
+statistically significant reduced incidence rate
+
+ELSEBAIE ET AL
+
+FIGURE 2 Preferred Reporting Items for Systematic reviews and MetaAnalyses flowchart of the study identification and selection process. (CUSUM,
+cumulative sum; LC, learning curve.)
+
+across split groups in a greater proportion of
+included studies compared with other outcomes
+(Supplemental Table 6).11,14,23,24,26,27,37,38 A
+significant reduction in hospital LOS was
+observed for cases completed during the late
+phase in MIMVP studies (SMD, − 0.90; 95%
+CI, − 1.20 to − 0.60), with no such difference
+observed in papers exploring MICABG, as
+illustrated in Supplemental Figure 5. As for the
+odds of patients requiring a reexploration for
+bleeding, there was no significant difference
+between early and late phase cases in MIAVR or
+MICABG studies (Supplemental Figure 6).
+Similarly, mortality rates remained statistically
+comparable across both phases of training in all
+forms of surgery (MIAVR, MICABG, and MIMVP)
+(Supplemental Figure 7), stressing the lack of
+influence that increased surgical experience and
+case volume have on this prominent postoperative
+end point.
+COMMENT
+
+This meta-analysis describes the characteristics
+of the learning curve in nonrobotic MICS and
+examines the number of cases required to overcome the initial learning phase. One concern we
+identified is the wide variability in the number of
+procedures required to overcome the learning
+curve, as reported NLC figures ranged from as low
+as 23 to as high as 138 in some types of MICS. The
+
+REVIEW
+
+ELSEBAIE ET AL
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+FIGURE 3 Box and whisker plot demonstrates the mean number of cases
+required to overcome the learning curve (NLC) across the various types of
+minimally invasive cardiac operations. The boxes indicate the 25th percentile
+(bottom border), median (horizontal line), and 75th percentile (top border),
+and the whiskers show the maximum and minimum ranges. (MIAVR, minimally invasive aortic valve replacement; MICABG, minimally invasive coronary
+artery bypass grafting; MIMVP, minimally invasive mitral valvuloplasty;
+MIMVR, minimally invasive mitral valve replacement.)
+
+different learning curve modeling approaches,
+retrospective vs prospective designs, and discrepancies in metrics used to assess proficiency,
+
+FIGURE 4 Scatter plot with a nonlinear regression curve illustrating the
+decreasing number of cases needed to overcome the learning curve (NLC)
+across the various forms of minimally invasive cardiac surgery over time, with
+each point representing a study. (MIAVR, minimally invasive aortic valve
+replacement; MICABG, minimally invasive coronary artery bypass grafting,
+MIMVP, minimally invasive mitral valvuloplasty; MIMVR, minimally invasive
+mitral valve replacement; MIMVS, minimally invasive mitral valve surgery.)
+
+Ann Thorac Surg
+2026;121:480-90
+
+all may have contributed to the observed wide
+and inconsistent NLC ranges for different types of
+MICS. Likewise, patient selection bias, anatomical
+complexities, comorbidities, surgeon’s experience, and institutional volume can further add
+more confounding variables.43,44
+For example, early-career surgeons or those in
+lower-volume centers may require significantly
+more operative exposure to reach proficiency,
+adding another factor that must be accounted
+for when interpreting the learning curve.43,44
+Another factor to consider is interprocedural
+differences, because certain types of MICS are
+more technically challenging for the surgical
+team than others,45 which manifests as a higher
+NLC range. This reflects the importance of
+procedure-specific learning curve assessments.
+The study by Davierwala and colleagues23 reported
+that their outcomes statistically decreased after
+1330 MICABG cases; however, this number
+represents their experience during the first 7-year
+period of the study rather than focusing on outcomes during the initial learning curve phase.
+Of note, postoperative complications, such as
+mortality and reoperation for bleeding, did not
+significantly improve in the later phase of any
+type of MICS featured in our meta-analysis. We
+hypothesize this is due to the buffering effect of
+institutional safeguards. Specifically, institutionwide postoperative protocols, patient monitoring efforts, or the implementation of perioperative care teams may have helped to reduce
+complications in the early learning phase. Existing literature also urges clinicians to use extensive training series when dealing with
+dichotomous rare events to model the learning
+curve more accurately.46 It was also argued that
+the use of intraoperative metrics may be
+unreliable for assessment of surgical competency
+and may poorly represent surgical skill.8 It was
+proposed that instead, a multivariable approach
+should be used to cover for the weaknesses of
+other metrics and provide a holistic measure of
+competency.8
+The use of CUSUM and its variations has
+remained the most robust strategy for assessing
+and tangibly quantifying the learning curve in
+MICS. Arbitrary-based approaches have been
+shown numerous times in literature to have
+noteworthy limitations, because consecutive
+cases are often stratified with no consistent
+rationale for splitting points.8,47 Besides, this
+method is only effective with larger sample
+sizes,8,47 and even then, the exact NLC range
+becomes tricky to ascertain, as seen in the
+
+Ann Thorac Surg
+
+REVIEW
+
+2026;121:480-90
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+numerous papers featured in our study that failed
+to report a value (Table). A similar conclusion was
+noted in a decade-old systematic review of 48
+studies investigating learning curves in cardiothoracic and vascular operations.47 The study by
+Lin and colleagues48 showed that the peak of the
+CUSUM curve (often regarded as the point when
+the learning curve has been conquered) is
+susceptible to regular bias and impacted by the
+total number of cases analyzed.48
+These findings highlight the need for standardization in how learning curves are measured
+and reported. The systematic review by Harrysson and colleagues49 reported a framework for
+learning curves in minimally invasive abdominal
+surgery and can be summarized into 4 elements:
+(1) using multiple clearly defined outcome
+variables, (2) featuring various institutions and
+surgeons, (3) performing a multivariate analysis
+that accounts for different surgeons, teams, and
+patients, and lastly (4) including a graphical
+display of data. Similarly, Kuemmerli and
+colleagues50 proposed a standardized 3-phase
+reporting of learning phases (competency, proficiency, and mastery), stressing the need to
+report surgeon/institutional case volumes and
+prior experience.
+In addition, evidence-based educational strategies are essential for optimizing learning and
+minimizing complications during early MICS
+adoption. Notably, practice-based training regimens have gained popularity recently for being a
+viable solution to the ethical conundrum of surgical teams learning new technically complex
+procedures on actual patients.51 They do not
+directly substitute real-time learning but are
+rather integrated into the training curriculum for
+those interested in practicing MICS for a holistic
+experience.51,52 This allows motor skills to be
+developed in a controlled, safe setting that will
+not compromise patient safety.8,51 Previous
+literature has also demonstrated that the
+incorporated extrinsic performance-based feedback by an expert, in a limited fashion and
+particularly after a motor task, promotes faster
+technical skill acquisition and overall safer transition to clinical work.51
+A preliminary high-fidelity MIMVS simulator has
+already been designed and tested by 99 surgeons.53
+The consensus was that the simulator is a
+promising method for training MIMVS techniques
+that accurately mimic patient-specific anatomy.53
+Since then, numerous studies corroborated that
+surgical residents trained with high-fidelity simulators experienced a noticeable decrease in
+
+ELSEBAIE ET AL
+
+intraoperative inaccuracies.54,55 The incorporation
+of artificial intelligence and virtual reality may
+revolutionize the landscape of MICS training and
+may become the center of development in the
+future.
+Understanding the learning curve for MICS can
+have significant clinical implications at multiple
+levels. From the patient’s perspective, knowing
+the team’s performance metrics and comfort with
+MICS can improve the informed consent process.
+Also, understanding the learning curve can help
+optimize patient selection and ensure a tailored
+surgical approach.44 From a hospital’s managerial
+perspective, understanding the anticipated
+learning process associated with a new MICS
+program can provide realistic data on program
+progress and growth expectations.56 Finally, it
+is important to mention the cumulative effort
+from all members of the surgical team, including
+anesthesiologists, intensivists, perfusionists, and
+nursing staff. Therefore, investing in departmentwide training and education is key to achieving
+exceptional standards of care.
+Of note, robotically assisted MICS has gained
+popularity among different cardiac surgical units
+worldwide. Studies assessing the learning for robotic procedures similarly showed heterogeneity
+and lack of standardization in learning curve
+methods and measures used. In the case of
+robotically assisted MICABG, literature shows NLC
+figures ranging between 10 cases to attain competency57 up to 200 to 500 for complete mastery,58
+with 50 cases as the point when complication rates
+decline significantly.59 Additionally, robotically
+assisted MICS is associated with a steep initial
+learning curve due to technical and logistical
+complexity of the procedure.59,60 For instance,
+some of the challenges during initial training
+may include mastering robotic internal mammary
+artery harvesting, performing anastomoses deep
+within the chest through a small incision, safe
+port placement, management of peripheral CPB,
+and myocardial protection.59,61
+Literature comparing the learning curve of robotic vs nonrobotic MICS head-to-head is scarce
+and not possible due to inherent differences between the 2 techniques. Nonetheless, several
+studies using propensity score matching have
+demonstrated that robotic and nonrobotic MICS
+yield broadly comparable safety profiles, with
+consistent and statistically significant differences
+in key intraoperative variables and postoperative
+outcomes. For example, robotic-assisted MICS
+procedures are often associated with longer
+operative times62 but tend to offer shorter
+
+REVIEW
+
+ELSEBAIE ET AL
+
+Ann Thorac Surg
+
+LC IN MINIMALLY INVASIVE CARDIAC SURGERY
+
+hospital LOS, reduced postoperative blood loss,
+and faster rehabilitation.63-65 These subtle yet
+measurable differences in surgical metrics between these 2 techniques underscore the importance of being cautious when combining both
+under a single learning curve analysis.
+LIMITATIONS. First, the included studies exhibited
+
+significant heterogeneity in study design, criteria
+used to describe the point of overcoming the
+learning curve, patient populations, variations in
+the definitions of key terms, such as “technical
+proficiency/competence” or “surgical failure,”
+and surgical techniques (across and within the
+same surgical subtypes). Our meta-analysis was
+limited to intraoperative and postoperative
+metrics and only a limited fraction of variables
+could be analyzed across a limited number of
+studies, and oftentimes, not all MICS subtypes
+were represented.
+Another limitation can be attributed to the
+retrospective design of included papers and the
+fact that they were single-center investigations.
+This reduces the clinical reproducibility and
+generalizability of any finding because of
+inherent biases and unaccounted confounding
+factors, including previous surgical experience.
+
+2026;121:480-90
+
+Finally, although efforts were made to assess the
+risk of bias, the quality of evidence across studies
+was variable, leading to further heterogeneity.
+CONCLUSION. Differences in metrics based on sur-
+
+gical times and operative outcomes demonstrate
+the presence of a learning curve in MICS. However, the lack of statistical differences in morbidity
+and mortality rates during the initial phases of the
+learning process may indicate that these procedures can be performed safely with proper training
+and mentoring. Owing to the significant heterogeneity among the included studies, it remains
+difficult to accurately characterize and quantify
+this learning curve. Therefore, future studies
+should implement a multivariable and standardized approach for the assessment and reporting of
+learning curve metrics to mitigate its potential
+impact on early outcomes after MICS.
+The authors wish to acknowledge the valuable contribution of Maaz
+Haq, MD, and Fahad Mohamed, MD, during the very initial phase of the
+paper.
+
+FUNDING SOURCES
+The authors have no funding sources to disclose.
+
+DISCLOSURES
+The authors have no conflicts of interest to disclose.

@@ -1,0 +1,125 @@
+Special Issue: Mitral Valve Repair: Invited Case Videos
+
+Complex robotic mitral valve redo repair after failed
+transcatheter edge-to-edge repair
+Kurt DeLay, MD,a Clifton Lewis, MD,b Richard Stephens, PA,b and Panos N. Vardas, MD,b Ann Arbor,
+Mich, and Birmingham, Ala
+From the aDepartment of Cardiac Surgery, University of Michigan, Ann Arbor, Mich; and bDivision of Cardiothoracic Surgery, University of Alabama, Birmingham, Ala.
+Received for publication July 12, 2023; revisions received Aug 29, 2023; accepted for publication Sept 16, 2023;
+available ahead of print Sept 21, 2023.
+Address for reprints: Kurt DeLay, MD, Department of Cardiac Surgery, University of Michigan, 1500 E Medical
+Center Dr, Ann Arbor, MI 48104 (E-mail: thde@med.umich.edu).
+JTCVS Techniques 2023;22:99-100
+2666-2507
+Surgery. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+
+Echocardiography of ﬂail leaﬂet with clip; intraoperative view of leaﬂet and clip.
+
+CENTRAL MESSAGE
+
+Video clip is available online.
+
+Robotic technology has become increasingly widespread in
+cardiac surgery for procedures such as coronary artery
+bypass grafting, valve procedures, and septal defect closure
+among others. Mitral valve repair is a mainstay of minimally invasive robotic cardiac surgery. Robotic-assisted
+repair has become a preferred method of mitral valve repair
+due to exceptional outcomes.1
+Transcatheter edge-to-edge repair (TEER) is another
+increasingly popular minimally invasive intervention for
+mitral regurgitation in those not eligible for surgical intervention. The American College of Cardiology/American
+Heart Association 2022 guidelines assigned a class 2A
+recommendation for mitral TEER (M-TEER) for patients
+with “persistent symptoms despite guideline-directed medical therapy, appropriate anatomy on transesophageal echocardiography and with left ventricular ejection fraction
+between 20% and 50%, left ventricular end-systolic diameter 70 mm, and pulmonary artery systolic pressure
+70 mm Hg” not undergoing concomitant coronary artery
+bypass grafting.2
+Single-leaflet device attachment (SLDA) is an infrequent but serious complication of M-TEER. Multiple
+clinical trials have shown a progressive decrease in the
+incidence of SLDA since TEER’s inception, from
+the
+Endovascular
+Valve
+Edge-to-Edge
+REpair
+STudy (EVEREST) (11.0%) to the MitraClip Experience
+of Performance and Safety for the Next Generation of
+MitraClipÒ Devices (EXPAND) study (1.9%) and
+EXPAND Fourth Generation (G4) study (1.7%).3 The
+
+Robotic mitral valve surgery is a
+feasible option in the setting of
+failure of recent TEER, both in
+retrieval of the clip and repair of
+the valve.
+
+majority of SLDAs occur within 30 days, and many are
+noted during the procedure and are corrected with repeat
+M-TEER.3,4 Most of those not corrected acutely require
+surgical intervention. Chikwe and colleagues5 noted in
+a review of the Society of Thoracic Surgeons database,
+that 15,000 patients received M-TEER between 2014
+and 2020, and 524 patients underwent first-time mitral
+surgery after TEER in that timeframe.5 Ninety-five
+percent of these patients received mitral valve replacement over repair. Only a small fraction of mitral valve
+surgeries are performed robotically. This case provides
+valuable insight into the technical nuance of a complex
+and infrequent procedure.
+PRESENTATION OF CASE
+An 83-year-old woman presented with heart failure
+symptoms 6 weeks post-TEER. Transesophageal echocardiography showed mitral regurgitation with flail posterior
+leaflet and a mitral clip attached only to the anterior leaflet.
+The decision was made to pursue mitral clip removal and
+mitral valve repair and mitral valvuloplasty via minimally
+invasive robotic surgery. This report was waived from institutional review board approval; consent was obtained at the
+time of this case on the condition that it contain no personal
+health identifiers and be used for educational purposes.
+JTCVS Techniques c Volume 22, Number C
+
+Special Issue: Mitral Valve Repair: Invited Case Videos
+
+running GoreTex suture and with strong suction on both
+vents the crossclamp was removed. See Video 1.
+
+VIDEO 1. Operative technique. Video available at: https://www.jtcvs.org/
+article/S2666-2507(23)00364-4/fulltext.
+
+OPERATIVE TECHNIQUE
+Three 8-mm retractor ports were placed in the second,
+sixth and fifth intercostal spaces. The patient was heparinized and cannulated with a 25 Edwards through the left
+femoral vein and side-arm Edwards cannula through the
+right femoral artery. Through the side-arm, a balloon occlusion device was prepositioned in the ascending thoracic
+aorta. After pericardiotomy, diaphragmatic pericardial stays
+were placed. Working through the transverse sinus, a
+35-mm AtriClip (AtriCure) was deployed at the base of the
+left atrial appendage. The crossclamp balloon then occluded
+the aorta with echocardiography confirmation. The heart was
+arrested with cold blood cardioplegia. Vertical left atriotomy
+was made, and the remnant atrial septal defect was oversewn
+with 2-layer running Ethibond. The clip was removed from
+the anterior mitral leaflet, leaving the leaflet intact. We resected a triangular section of P2 and repaired at the base
+with 4-0 GoreTex (W. L. Gore & Associates). A 34-mm
+ATS annuloplasty band was then secured to the posterior
+annulus, trigone to trigone, with interrupted horizontal nonpledgeted sutures of Ethibond seated and secured with a CorKnot (LSI Solutions). Saline check was performed and found
+to be satisfactory. After completion of the mitral valve repair,
+the left atriotomy was closed over a left ventricle vent with
+
+JTCVS Techniques c December 2023
+
+DISCUSSION
+The patient was successfully extubed on the day of surgery without complication. The patient was discharged uneventfully on postoperative day 4. At a single institution, we
+identified 5 similar cases of SLAD in a 3-year period that
+were treated with robotic surgical replacement (3 out of
+5) and repair (2 out of 5). Many factors may influence which
+patients are eligible for repair versus replacement, including
+amenability of native valve pathology to repair, extent of
+post-TEER fibrosis and sclerosis of the valve, and technical
+familiarity of the surgeon with advanced mitral reconstructive techniques. This case illustrates that mitral valve repair
+after failed percutaneous mitral valve clip can be performed
+safely and effectively by those with relevant expertise in
+eligible patients.
+The authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling manuscripts for which they may have a conflict of interest. The
+editors and reviewers of this article have no conflicts of
+interest.

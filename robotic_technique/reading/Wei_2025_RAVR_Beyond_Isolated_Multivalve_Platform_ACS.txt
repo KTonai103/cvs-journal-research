@@ -1,0 +1,359 @@
+Art of Operative Techniques
+
+Advancing robotic aortic valve replacement beyond isolated
+therapy: a platform for multivalve therapy
+Lawrence M. Wei, Vinay Badhwar
+Department of Cardiovascular and Thoracic Surgery, West Virginia University, Morgantown, WV, USA
+Morgantown, WV 26506, USA. Email: vinay.badhwar@wvumedicine.org.
+
+The application of robotic cardiac surgery has long been considered the pinnacle of surgical care for an
+isolated procedure. This has been for good reason, as the quality and reproducibility of isolated procedures
+like mitral valve (MV) repair and robotic-assisted, minimally invasive, direct coronary artery bypass have
+grown steadily across the globe with shrinking learning curves. Once a robotic team’s learning curve has
+crested, however, additional opportunities may be explored that may include concomitant procedures.
+Following the core surgical principles of safety and procedural homogeneity with open operations, robotic
+cardiac surgery may be extended in a stepwise fashion to multi-valve operations, concomitant maze
+procedures, aortic root enlargement, septal myectomy, and even valve and coronary bypass operations, all
+via the same transaxillary working incision. We will review the development and operative techniques of
+concomitant procedures that may be utilized in conjunction with robotic aortic valve replacement (RAVR).
+Keywords: Robotic valve surgery; mitral repair; tricuspid repair; aortic valve replacement (AVR); root
+enlargement
+
+Introduction
+
+Operative techniques
+
+The right transaxillary 3 cm working incision used for
+robotic aortic valve replacement (RAVR) is nearly identical
+to the platform used for robotic mitral operations. The
+familiarity of this platform has helped to facilitate the
+addition of concomitant procedures following initial cases
+of RAVR as an isolated operative procedure starting in
+January 2020 (1). While some concomitant procedures
+were novel and required careful planning, the majority were
+readily adaptable to maintain procedural consistency with
+commonly applied robotic operations. Following RAVR
+initiation, concomitant procedures were incorporated
+within the first 50 cases at West Virginia University, to
+include mitral valve (MV) repair and biatrial Cox-Maze
+operations (2). Upwards of 17% of the first 300 global cases
+of RAVR have safely included concomitant operations with
+excellent outcomes up to one year (3).
+
+Preparation
+
+Following preoperative assessment of coronary and vascular
+anatomy with contrast computed tomography (CT),
+and angiography when deemed necessary, transthoracic,
+or transesophageal assessment of valvular function is
+performed on all patients. Following induction with
+double lumen endotracheal anesthesia, central line and left
+brachial arterial line placement, an 18–20 French cannula
+is percutaneously inserted via the right internal jugular
+vein under echocardiographic guidance and positioned in
+the superior vena cava (SVC) to facilitate future bicaval
+drainage. All patients are positioned supine with a shoulder
+roll under the tip of the right scapula and the right arm is
+tucked posteriorly with the humerus as vertical as possible
+to expose the right axilla (Figure 1). Following skin prep
+and draping, a 3 cm transaxillary working incision is
+
+Ann Cardiothorac Surg 2025;14(3):228-234 | https://dx.doi.org/10.21037/acs-2025-ravr-12
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+Figure 1 Patient positioning.
+
+Figure 3 Aortotomy.
+
+Figure 2 Port placement and docking.
+
+performed at the level of the anterior axillary line in the
+fourth intercostal space and a soft tissue retractor is placed.
+The pericardium is entered 3–4 cm anterior to the phrenic
+nerve and brought laterally by way of retraction sutures
+brought out at the level of the posterior axillary line to
+create a shelf-like exposure of the cardiac structures. The
+DaVinci Xi robot (Intuitive Surgical, Sunnyvale, CA, USA)
+is prepared. Port placement preparation is made in relation
+to the working incision as follows: arm 1 at 10 o’clock in
+the third intercostal space, arm 3 at 1 o’clock in the fifth
+intercostal space, arm 4 at 4 o’clock in the sixth intercostal
+space, with arm 2 placed via the working incision when the
+time comes.
+A 1 cm skin incision is placed slightly above the right
+inguinal crease to access the anterior surface of the right
+common femoral artery and vein; 5-0 polypropylene purse
+
+strings are placed, and systemic heparin is given. A 25
+French multi-stage venous cannula is delivered into the
+right atrium, and a 17–19 French arterial cannula is placed.
+Bicaval cardiopulmonary bypass is commenced. An aortic
+root vent is placed on the distal lateral aorta (at the level of
+the SVC) and brought through the working incision. A left
+ventricular vent is placed via the right superior pulmonary
+vein and brought out through a separate stab incision
+posterior to the working incision. A transthoracic crossclamp is introduced through a stab incision in the second
+or third intercostal space at the anterior or mid axillary line
+and positioned distal to the aortic root vent. The robot
+is docked with the port configuration noted above with
+instruments introduced as follows: arm 1—DeBakey, arm
+2—30 degree up camera, arm 3—long tip forcep grasper,
+arm 4—curved scissors (Figure 2).
+Exposition
+The table-side surgeon or associate applies the cross-clamp
+and cardioplegia is delivered directly into the aortic root to
+achieve hypothermic diastolic arrest in the setting of less
+than moderate aortic regurgitation (AR). Should AR be
+moderate or greater, it is recommended to proceed with
+aortotomy and deliver cardioplegia via direct coronary
+ostial catheters. The aortotomy, when performed, is most
+commonly done in a modified “hockey stick” fashion
+(Figure 3), commencing approximately 2 cm distal to the
+sinotubular junction and extending medially and cephalad
+and laterally and caudad to the mid non-coronary sinus to
+facilitate excellent exposure of the aortic valve.
+
+Ann Cardiothorac Surg 2025;14(3):228-234 | https://dx.doi.org/10.21037/acs-2025-ravr-12
+
+Wei and Badhwar. RAVR and concomitant operations
+
+Operation
+
+Figure 4 Robotic valvectomy.
+
+Figure 5 Annular decalcification and debridement.
+
+In the setting of aortic stenosis without significant
+AR and the need to perform concomitant intracardiac
+operations, it would be advised to commence with the left
+atriotomy first. This would be the case of a RAVR and
+concomitant MV repair or replacement, and/or concomitant
+Cox-Maze with cryoablation. A vertical right atriotomy
+provides access for the right-sided Cox-Maze cryoablation
+lesions as well as to provide exposure for concomitant
+tricuspid valve (TV) repair or replacement. In the setting
+of significant AR, it is advised to open the aorta and deliver
+ostial cardioplegia before embarking upon intracardiac
+operations. We have not used retrograde cardioplegia in
+these settings due to several factors that include logistical
+considerations, but also anatomic as in the case of the CoxMaze III lesion set and importance of performing the
+epicardial coronary sinus lesion.
+
+All operations should be performed in alignment with
+open or previously established robotic procedures to
+ensure standardization and patient safety. In the case of
+concomitant left atrial operations performed first, the
+initial instrument in arm 3 is the dual blade atrial retractor
+and is retained until such time that aortotomy is necessary.
+Once the left atrium is opened, the left ventricular vent
+is positioned into the left inferior pulmonary vein. If a
+concomitant mitral repair or replacement is the only
+additional procedure, this should proceed as per institutional
+routine, with placement of the left ventricular vent across
+the completed MV prior to left atrial closure facilitated by
+4-0 polytetrafluoroethylene. If a concomitant biatrial CoxMaze procedure is the only additional procedure, the leftsided lesion set should proceed first, followed by the rightsided lesion set, followed by left atrial appendage ligation (4).
+If mitral or tricuspid procedures are needed in addition to
+the Cox-Maze, the Cox-Maze is performed first in the order
+noted above, followed by either the MV and then the TV
+to allow for adequate tissue thawing. Following closure of
+the left and right atriotomies, the RAVR is then performed.
+These steps can facilitate double valve and even triple valve
+operations, with or without concomitant surgical ablation in
+an efficient and safe manner (5).
+Following completion of the aortotomy, aortic
+valvectomy is performed with the robotic curved scissors
+commencing at the right-non commissure and then
+extending either along the right or non-coronary annulus
+per the surgeon preference (Figure 4). It should be noted
+that in all of our cases, the robotic curved scissors provide
+the precision and dexterity needed to perform complete
+and accurate debridement, flush to the annulus and without
+the need for a rongeur. Tableside suction aspiration and
+meticulous irrigation is essential to ensure complete
+evacuation of any and all particulate matter (Figure 5).
+Circumferential interrupted braided sutures are placed from
+the ventricular side starting at the left-non commissure and
+moving clockwise. Left-handed placement, often just using
+the DeBakey, may assist with seamless delivery of sutures
+along the non-coronary annulus by avoiding any inadvertent
+interaction with the non-coronary sinus. The annulus is
+then sized, and the valve sutures are then systematically
+placed through the prepared prosthesis extracorporeally
+and then the prosthesis is delivered through the working
+incision, often off the holder to fit through the incision,
+
+Ann Cardiothorac Surg 2025;14(3):228-234 | https://dx.doi.org/10.21037/acs-2025-ravr-12
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+A
+
+Figure 6 Prosthetic implantation and suture securement.
+
+B
+and then lowered into position carefully with robotic
+assistance. The valve is then secured with suture fasteners to
+complete the replacement (Figure 6), and the aorta is closed
+robotically with 4-0 polypropylene suture in two layers or
+per institutional routine (Figure 7A). Antegrade cold blood
+or cardioplegia is then administered to not only provide
+additional myocardial protection if required, but to test the
+suture line prior to removal of the cross-clamp (Figure 7B).
+A guiding principle of Should be denoted at (SAVR) as
+per standard nomenclature, and thus of RAVR as well, is to
+always implant the largest size prosthesis possible, matched
+to the patient’s body surface area to avoid mismatch.
+Shortly after the launch of RAVR, we performed our first
+aortic root enlargement on May 12, 2020 (6). Since that
+time, root enlargement has been performed in 10% of all
+cases worldwide (3). The technique utilized commences by
+extending the aortotomy to the annulus at the midpoint of
+the non-coronary sinus in a modified Nick’s fashion, with
+optional extension along a portion or the entirety of the
+annulus of the non-, then completing the aortic prosthetic
+implantation (Figure 8). While not an annular enlargement
+per se, enlargement of the aortic root often affords upsizing
+by 1–2 sizes. Reconstruction is then performed with either
+autologous or bovine pericardium, or synthetic polyester,
+often determined by the size of the augmentation required.
+Our preference is to utilize synthetic polyester for larger
+enlargements. The patch is fashioned to size and lowered
+through the working incision where it undergoes additional
+refinement of size (Figure 9). The first suture is placed
+outside-in at the base of the aortic tissue, at the level of
+the annulus, and then up through the patch (Figure 10).
+
+Figure 7 Aortic closure. (A) Aortotomy closure. (B) Final
+aortotomy closure and antegrade integrity testing.
+
+Each limb of the 4-0 polypropylene is then sutured
+rightward, then leftward, and tied together to complete
+the augmentation, often of the entire aortotomy to provide
+maximum advantage (Figure 11). The integrity of the
+augmentation is then tested with antegrade cold blood or
+cardioplegic delivery.
+Additional options for concomitant procedures include
+extended transaortic septal myectomy for the management
+of hypertrophic cardiomyopathy. Following valvectomy, the
+visualization and access to the entirety of the left ventricular
+outflow tract is both clear and coaxial. This enables a
+complete myectomy extending well towards the ventricular
+apex and beyond the mitral leaflet and papillary muscle
+continuity in order to provide a thorough resection using
+only the robotic curved scissors.
+
+Ann Cardiothorac Surg 2025;14(3):228-234 | https://dx.doi.org/10.21037/acs-2025-ravr-12
+
+Wei and Badhwar. RAVR and concomitant operations
+
+Figure 8 Extension of aortotomy along the non-coronary
+annulus to facilitate prosthesis upsizing and preparation for root
+enlargement.
+
+Figure 9 Synthetic polyester (Dacron) tailored for patch
+augmentation.
+
+Figure 10 Commencement of root enlargement with anchoring to
+residual aortic tissue at non coronary annulus.
+
+Figure 11 Completion of aortic root enlargement with patch
+augmentation.
+
+Finally, a single-incision, single-platform via the
+right transaxillary approach may be possible to perform
+concomitant RAVR and coronary artery bypass grafting.
+The left internal thoracic artery can be harvested via the
+right approach. Following myocardial arrest, the left
+pericardium is marsupialized to facilitate cardiac rotation
+and exposure of the left anterior descending to permit
+totally endoscopic coronary artery bypass (7).
+
+cross-clamp removal. The pericardium is closed, and chest
+drains are placed. The patient is fully ventilated on both
+lungs while on full cardiopulmonary bypass, then weaned
+from support and closed. Operating room extubation is then
+performed per institutional protocols or exchanged to single
+lumen intubation and transferred to the intensive care unit.
+Postoperative management is continued per institutional
+routine.
+
+Completion
+U p o n c o m p l e t i o n o f t h e R AV R a n d c o n c o m i t a n t
+intracardiac operations, epicardial temporary pacer wires
+are placed, and the heart is re-animated in conjunction with
+
+Comments
+Robotic cardiac surgeries and the institutions performing
+them will continue to evolve through the expansion of their
+
+Ann Cardiothorac Surg 2025;14(3):228-234 | https://dx.doi.org/10.21037/acs-2025-ravr-12
+
+Annals of Cardiothoracic Surgery, Vol 14, No 3 May 2025
+
+armamentarium, the safe addition of cases of increased
+complexity, and the addition of concomitant procedures.
+The establishment of RAVR in January 2020 was done
+intentionally using the same transaxillary working incision
+as robotic mitral operations (1). The aim was to be able to
+add concomitant operations as experience grew. This added
+flexibility permits RAVR to be applied to an increased
+cohort of patients who may benefit from more than isolated
+aortic valve surgery. The addition of concomitant procedures
+to RAVR became feasible within the first 6 months,
+with the first biatrial Cox-Maze on May 1, 2020 (4). To
+avoid patient-prosthesis mismatch, the first concomitant
+root enlargement with patch augmentation was performed
+on May 12, 2020 (6). The first concomitant RAVR with
+MV repair and biatrial Cox-Maze was performed on July
+24, 2020 (8). MV replacement for aortic and mitral stenosis
+was performed on March 16, 2021, and the first transaortic
+septal myectomy for hypertrophic cardiomyopathy was
+performed on December 8, 2022 (9). Many of these
+concomitant procedures, or combinations thereof, have
+become routine with growing RAVR team experience with
+multicenter reproducibility (3,9).
+Operative experience and team building is essential for
+the safe introduction of these added procedures. Robotic
+cardiac surgery, starting predominantly with MV repair,
+has been well-established in our program, with over 1,000
+cases performed by our team before developing RAVR.
+Excellence in preoperative imaging, anesthesia, perfusion,
+and seamless coordination between console and tableside
+surgery has been instrumental to permit the relatively
+standardized additions of concomitant procedures. The
+same platform is used for all robotic valve cases and the
+vast majority of our patients are extubated in the operating
+room, thus enhancing our ability to perform these
+operations timely, often with two operations by the same
+team in a day, and in a cost-neutral manner to conventional
+sternotomy (10). After overcoming the learning curve for
+robotic mitral surgery, additional concomitant procedures
+such as AVR, root enlargement, complex bileaflet mitral
+repair, endocarditis repair, biatrial Cox-Maze, and TV
+repair are all possible with the same platform. As long as a
+patient is suitable for peripheral cardiopulmonary bypass,
+a relative all-comer strategy is employed at our institution.
+Every patient is evaluated by the heart team, which now
+considers RAVR as the preferred approach for low-risk
+and even intermediate-risk patients with isolated aortic
+valve disease as well as when concomitant procedures are
+required.
+
+Conclusions
+In conclusion, as experience grows with RAVR, the addition
+of concomitant procedures and multi-valve operations
+is both feasible and safe. Utilizing the same 3 cm right
+transaxillary approach, robotic surgery is no longer limited
+to a single-procedure modality.
+Acknowledgments
+None.
+Footnote
+to declare.
+distributed in accordance with the Creative Commons
+Attribution-NonCommercial-NoDerivs 4.0 International
+License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with
+the strict proviso that no changes or edits are made and the
+original work is properly cited (including links to both the
+formal publication through the relevant DOI and the license).
+See: https://creativecommons.org/licenses/by-nc-nd/4.0/.

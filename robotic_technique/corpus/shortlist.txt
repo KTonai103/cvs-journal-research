@@ -1,0 +1,1600 @@
+[ 41] PMID 41665799 (2026) ROBO --- mitral/tecab/asd_tumor/training/port_setup/future
+      Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - systematic narrative review.
+      J Robot Surg  ptypes=Journal Article,Systematic Review
+
+[ 39] PMID 33841983 (2021) ROBO PMC mitral/training
+      Robotic mitral valve surgery: a review and tips for safely negotiating the learning curve.
+      J Thorac Dis  ptypes=Journal Article,Review
+
+[ 34] PMID 34942674 (2022) ENDO --- mitral/training/port_setup
+      Micro-Invasive 3D Endoscopic Mitral Valve Surgery.
+      Surg Technol Int  ptypes=Journal Article
+
+[ 31] PMID 34325594 (2021) ROBO --- mitral/training/port_setup/future
+      The role of robotic technology in minimally invasive surgery for mitral valve disease.
+      Expert Rev Med Devices  ptypes=Journal Article,Review
+
+[ 30] PMID 33061184 (2020) ENDO PMC mitral/asd_tumor/arrhythmia/tricuspid_redo/training/future
+      Minimally invasive mitral valve repair.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 30] PMID 39797207 (2024) ROBO PMC asd_tumor/port_setup
+      The Therapeutic Potential of Different Surgical Approaches in the Management of Cardiac Myxoma: A Systematic Review.
+      J Clin Med  ptypes=Journal Article,Review
+
+[ 29] PMID 41619927 (2026) ROBO --- training
+      The Society of Thoracic Surgeons Expert Consensus Pathway for Robotic Cardiac Surgical Training.
+      Ann Thorac Surg  ptypes=Journal Article,Consensus Statement,Practice Guideline
+
+[ 28] PMID 37753828 (2023) ROBO --- tecab/training/port_setup
+      Inexpensive and Easy to Set Up Robotic Cardiac Simulator Offers "Unlimited" Endoscopic Coronary Artery Bypass Grafting Experience: Proof of Concept.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 28] PMID 37754828 (2023) ROBO PMC mitral/tecab/training/port_setup
+      Robotic-Assisted Solutions for Invasive Cardiology, Cardiac Surgery and Routine On-Ward Tasks: A Narrative Review.
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 28] PMID 40459585 (2025) ROBO --- tecab/training/port_setup
+      Robotic-assisted, minimally invasive direct coronary artery bypass-preparation, conduit harvest and execution.
+      Multimed Man Cardiothorac Surg  ptypes=Journal Article,Video-Audio Media
+
+[ 28] PMID 41563306 (2026) ROBO --- mitral/tecab/tricuspid_redo/training/port_setup
+      Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient outcomes.
+      Int J Surg  ptypes=Journal Article
+
+[ 28] PMID 41892711 (2026) ROBO PMC training/future
+      Twin Transformation in Cardiothoracic Surgery: The Convergence of Digital Innovation and Sustainability.
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 28] PMID 42188066 (2026) ROBO PMC mitral/training
+      Simulation Training in Video-Assisted and Robotic-Assisted Cardiac Surgery: A Narrative Review.
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 27] PMID 27942486 (2016) ROBO PMC mitral/tricuspid_redo/future
+      Robotic mitral valve surgery: overview, methodology, results, and perspective.
+      Ann Cardiothorac Surg  ptypes=Review,Journal Article
+
+[ 27] PMID 41669172 (2026) ROBO PMC mitral/arrhythmia/tricuspid_redo/training
+      Robotic degenerative mitral valve repair: an evolution.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 27] PMID 41682905 (2026) ROBO PMC tecab/tricuspid_redo/port_setup/future
+      Augmented and Mixed Reality in Cardiac Surgery: A Narrative Review.
+      J Clin Med  ptypes=Journal Article,Review
+
+[ 27] PMID 41904670 (2026) ROBO --- mitral/avr/tricuspid_redo/port_setup
+      Computed Tomography in Preoperative Planning of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Clinical Application.
+      Eur J Cardiothorac Surg  ptypes=Journal Article,Systematic Review
+
+[ 27] PMID 42029588 (2026) ROBO PMC mitral/tecab/training/future
+      The Role of the Cardiothoracic Surgeon in the Age of AI-Are the Robots Going to Take Our Jobs?
+      Med Sci (Basel)  ptypes=Journal Article,Systematic Review,Review
+
+[ 26] PMID 36237594 (2022) ROBO PMC mitral
+      Complications and their management in robotic mitral valve surgery from the surgical assistant's perspective.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 26] PMID 36294310 (2022) ENDO PMC mitral/training
+      Decision Making during the Learning Curve of Minimally Invasive Mitral Valve Surgery: A Focused Review for the Starting Minimally Invasive Surgeon.
+      J Clin Med  ptypes=Journal Article,Review
+
+[ 26] PMID 36604696 (2023) ENDO PMC mitral/training
+      Attaining competency and proficiency in minimally invasive mitral valve repair: a learning curve assessment using cumulative sum analysis.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 26] PMID 39209092 (2025) ROBO --- mitral/avr/tecab/tricuspid_redo/training
+      Developing Proficiency in Robotic Cardiac Surgery.
+      Ann Thorac Surg  ptypes=Journal Article,Review,Research Support, Non-U.S. Gov't
+
+[ 26] PMID 39786456 (2024) ROBO PMC mitral/tecab/training
+      Examining the learning curves in robotic cardiac surgery wet lab simulation training.
+      Interdiscip Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 26] PMID 40535486 (2025) ROBO PMC general
+      Cardiac transplantation: A review of current status and emerging innovations.
+      World J Transplant  ptypes=Journal Article,Review
+
+[ 26] PMID 40886757 (2026) ENDO --- mitral/avr/tecab/training
+      Defining the Learning Curve in Minimally Invasive Cardiac Surgery: A Systematic Review and Meta-Analysis.
+      Ann Thorac Surg  ptypes=Journal Article,Systematic Review,Meta-Analysis
+
+[ 26] PMID 40900091 (2025) ROBO --- mitral/port_setup
+      Robotic mitral valve repair: patient positioning and port placement in female patients.
+      Multimed Man Cardiothorac Surg  ptypes=Journal Article,Video-Audio Media
+
+[ 25] PMID 24349995 (2013) ENDO PMC mitral
+      Safeguards and pitfalls in minimally invasive mitral valve surgery.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 25] PMID 24350001 (2013) ENDO PMC mitral/training
+      Minimally invasive mitral valve repair: the Liverpool Heart and Chest Hospital Technique—tips for safely negotiating the learning curve.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 25] PMID 31812012 (2020) ENDO --- mitral/tricuspid_redo/training/port_setup
+      Patient-specific access planning in minimally invasive mitral valve surgery.
+      Med Hypotheses  ptypes=Journal Article
+
+[ 25] PMID 32740992 (2020) ROBO --- mitral/tecab
+      Robotic trans-mitral septal myectomy and papillary muscle reorientation for HOCM combined with or without mitral valve repair: Technical aspects - How we do it.
+      J Card Surg  ptypes=Journal Article
+
+[ 25] PMID 39741621 (2024) ROBO PMC mitral/tecab/asd_tumor/training/future
+      The Role of Robotics in Cardiac Surgery: Innovations, Outcomes, and Future Prospects.
+      Cureus  ptypes=Journal Article,Review
+
+[ 25] PMID 40653582 (2025) ROBO PMC mitral/tecab/training/future
+      The robotic revolution in cardiac surgery.
+      J Robot Surg  ptypes=Journal Article,Review
+
+[ 25] PMID 40788514 (2025) ROBO PMC mitral/tecab/training
+      The learning curve of robotic cardiac surgery: a scoping review.
+      J Robot Surg  ptypes=Journal Article,Scoping Review
+
+[ 24] PMID 31829047 (2020) ROBO --- tecab/training/future
+      Robotic totally endoscopic coronary artery bypass grafting: current status and future prospects.
+      Expert Rev Med Devices  ptypes=Journal Article,Review
+
+[ 24] PMID 36331815 (2022) ROBO --- tecab/training
+      Robotic-assisted MIDCAB procedure through a minithoracotomy: Step-by-step instructions.
+      Multimed Man Cardiothorac Surg  ptypes=Case Reports,Video-Audio Media,Journal Article
+
+[ 24] PMID 37868772 (2023) ROBO PMC mitral/tricuspid_redo/port_setup
+      Closed-chest robotic repair of mitral prolapse. Surgical technique and early results.
+      Front Cardiovasc Med  ptypes=Journal Article
+
+[ 24] PMID 38263168 (2024) ENDO PMC mitral/tricuspid_redo/training
+      Navigating the challenges of minimally invasive mitral valve surgery: a risk analysis and learning curve evaluation.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 24] PMID 39157180 (2024) ROBO PMC tecab/arrhythmia/training/port_setup
+      Robotic-assisted coronary artery bypass grafting: how I teach it.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 24] PMID 39434975 (2024) ROBO PMC tecab/training/port_setup
+      How to advance from minimally invasive coronary artery bypass grafting to totally endoscopic coronary bypass grafting: challenges in Europe versus United States of America.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 24] PMID 40900082 (2025) ROBO --- mitral/port_setup
+      Robotic mitral valve repair: patient positioning and port placement in male patients.
+      Multimed Man Cardiothorac Surg  ptypes=Journal Article,Video-Audio Media
+
+[ 24] PMID 41597388 (2026) ROBO PMC mitral/avr/tecab/arrhythmia/training/future
+      Mini- and Micro-Invasive Approaches in Cardiac Surgery: Current Techniques, Outcomes, and Future Perspectives.
+      Medicina (Kaunas)  ptypes=Journal Article,Review
+
+[ 23] PMID 25840800 (2015) ENDO --- mitral/tricuspid_redo/port_setup
+      Minimally invasive mitral valve surgery through right mini-thoracotomy: recommendations for good exposure, stable cardiopulmonary bypass, and secure myocardial protection.
+      Gen Thorac Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 23] PMID 28203538 (2017) ROBO PMC mitral/avr/tecab/arrhythmia/port_setup
+      Robotic mitral valve repair for degenerative posterior leaflet prolapse.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 23] PMID 31253547 (2020) ROBO --- mitral/tecab/asd_tumor/arrhythmia/future
+      The Future of Open Heart Surgery in the Era of Robotic and Minimal Surgical Interventions.
+      Heart Lung Circ  ptypes=Journal Article,Review
+
+[ 23] PMID 37009910 (2023) ENDO --- mitral/avr/tricuspid_redo/port_setup
+      Different valve types: tips and tricks for a totally endoscopic aortic valve replacement.
+      Multimed Man Cardiothorac Surg  ptypes=Video-Audio Media,Journal Article
+
+[ 23] PMID 37424908 (2023) ENDO PMC mitral/training
+      Mastering the learning curve of endoscopic mitral valve surgery.
+      Front Cardiovasc Med  ptypes=Journal Article,Review
+
+[ 23] PMID 37713462 (2023) ROBO PMC mitral/training
+      An international survey-based assessment of minimally invasive mitral valve surgery.
+      Interdiscip Cardiovasc Thorac Surg  ptypes=Journal Article,Multicenter Study
+
+[ 23] PMID 39851800 (2025) ROBO PMC future
+      Artificial Intelligence in Cardiac Surgery: Transforming Outcomes and Shaping the Future.
+      Clin Pract  ptypes=Journal Article,Review
+
+[ 23] PMID 41209145 (2025) ENDO PMC mitral/asd_tumor/port_setup
+      Do Complex Pathologies Remain a Challenge in Minimally Invasive Mitral Valve Surgery?
+      Rev Cardiovasc Med  ptypes=Journal Article,Review
+
+[ 23] PMID 41725889 (2026) ROBO PMC mitral/arrhythmia/training
+      A Discrete-Event Simulation Model to Configure Operating Rooms for Robotic Cardiac Surgery.
+      MDM Policy Pract  ptypes=Journal Article
+
+[ 23] PMID 41821107 (2026) ROBO PMC future
+      Robotic-assisted cardiothoracic surgery: a comprehensive bibliometric analysis of trends, innovations, and future directions.
+      J Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 22] PMID 27677879 (2017) ENDO --- mitral/tricuspid_redo/training
+      Preoperative planning with three-dimensional reconstruction of patient's anatomy, rapid prototyping and simulation for endoscopic mitral valve repair.
+      Interact Cardiovasc Thorac Surg  ptypes=Case Reports,Journal Article
+
+[ 22] PMID 34830720 (2021) ROBO PMC mitral
+      Starting A New Robotic Surgery Program for Mitral Valve Repair. Lessons Learned from The First Nine Months.
+      J Clin Med  ptypes=Journal Article
+
+[ 22] PMID 35467092 (2022) ENDO --- mitral/training
+      Endoaortic balloon occlusion in minimally invasive mitral valve surgery.
+      Multimed Man Cardiothorac Surg  ptypes=Video-Audio Media,Journal Article
+
+[ 22] PMID 35969291 (2023) ROBO --- mitral/tecab/training
+      Safe launch of a robotically assisted mitral valve repair program in a single center: experience of initial 20 cases under the Center for Minimally Invasive Surgery.
+      J Artif Organs  ptypes=Journal Article
+
+[ 22] PMID 36237591 (2022) ROBO PMC mitral/training
+      How to implement a clinical robotic mitral valve surgery program.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 22] PMID 37997659 (2023) ENDO --- asd_tumor/training/port_setup
+      Totally Endoscopic Atrial Septal Defect Repair on Beating Heart: Clinical Outcome and Single-Surgeon Learning Curve Experience.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 22] PMID 39434973 (2024) ROBO PMC tecab
+      Step-by-step technique of robotic-assisted minimally invasive direct coronary artery bypass.
+      Ann Cardiothorac Surg  ptypes=Editorial
+
+[ 22] PMID 40137082 (2025) ROBO PMC avr/training/future
+      Not All SAVR Are Created Equal: All the Approaches Available for Surgical Aortic Valve Replacement.
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 22] PMID 41658870 (2026) ENDO PMC mitral/arrhythmia/tricuspid_redo/training/port_setup
+      Totally endoscopic port access for rheumatic mitral valve replacement: Clinical outcomes and a single surgeon's learning curve experience.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 22] PMID 42216681 (2026) ENDO --- mitral/tricuspid_redo/training
+      Safety and Learning Curve of Totally Endoscopic Mitral Valve Plasty: Initial 125 Cases Evaluated by Operative Time and RA-CUSUM Method.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 22] PMID 42301235 (2026) ROBO --- tecab/training/future
+      Minimally invasive approaches to coronary artery bypass grafting: techniques, current evidence, and future directions.
+      Curr Opin Cardiol  ptypes=Journal Article
+
+[ 22] PMID 42442887 (2026) ROBO --- avr/tecab/tricuspid_redo/future
+      Procedural Strategies for Optimal Transcatheter Aortic Valve Replacement: An International Position Statement.
+      JACC Cardiovasc Interv  ptypes=Journal Article,Review,Consensus Statement
+
+[ 21] PMID 24455172 (2014) ROBO PMC mitral/tecab/asd_tumor/arrhythmia/tricuspid_redo/training/port_setup
+      Videoscope-assisted cardiac surgery.
+      J Thorac Dis  ptypes=Journal Article,Review
+
+[ 21] PMID 31570244 (2019) ROBO --- tecab
+      Hybrid Coronary Revascularization - Current State of the Art.
+      J Cardiothorac Vasc Anesth  ptypes=Journal Article,Review
+
+[ 21] PMID 33020254 (2020) ENDO PMC mitral/training
+      BISMICS consensus statement: implementing a safe minimally invasive mitral programme in the UK healthcare setting.
+      Open Heart  ptypes=Journal Article,Research Support, Non-U.S. Gov't,Review
+
+[ 21] PMID 33155975 (2020) ROBO PMC tecab/tricuspid_redo
+      Robot-assisted coronary artery bypass surgery: a systematic review and meta-analysis of comparative studies.
+      Can J Surg  ptypes=Comparative Study,Journal Article,Meta-Analysis
+
+[ 21] PMID 33894935 (2021) ENDO --- mitral/tricuspid_redo
+      Minimally Invasive Mitral Surgery: Patient Selection and Technique.
+      Cardiol Clin  ptypes=Journal Article,Review
+
+[ 21] PMID 34623253 (2021) ENDO --- mitral/training
+      Learning Curve from 100 Cases of Totally Thoracoscopic Mitral Valve Replacement.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 21] PMID 34852340 (2022) ENDO --- mitral/tricuspid_redo/training/port_setup
+      Pass On What You Have Learned: A Structured Mentor-Mentee Concept for the Implementation of a Minimally Invasive Mitral Valve Surgery Program.
+      Eur Surg Res  ptypes=Journal Article
+
+[ 21] PMID 35294716 (2022) ENDO PMC mitral/training/port_setup/future
+      A system for real-time multivariate feature combination of endoscopic mitral valve simulator training data.
+      Int J Comput Assist Radiol Surg  ptypes=Journal Article
+
+[ 21] PMID 35582466 (2022) ROBO PMC mitral/tecab/asd_tumor/tricuspid_redo/training
+      Cardiac myxomas: A narrative review.
+      World J Cardiol  ptypes=Journal Article,Review
+
+[ 21] PMID 35799484 (2022) ROBO --- mitral/training
+      [Tips for Successful Robot-assisted Mitral Valve Repair].
+      Kyobu Geka  ptypes=Journal Article
+
+[ 21] PMID 35799494 (2022) ROBO --- mitral/tecab/future
+      [Various Considerations on Robot-assisted Cardiac Surgery].
+      Kyobu Geka  ptypes=Journal Article
+
+[ 21] PMID 36529985 (2022) ROBO PMC mitral/tecab/arrhythmia/tricuspid_redo/future
+      A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair.
+      Innovations (Phila)  ptypes=Meta-Analysis,Systematic Review,Journal Article
+
+[ 21] PMID 39589894 (2024) ROBO --- mitral/tecab/training
+      Learning curve of robotic mitral repair: prospective two-centre study of proficiency and clinical outcomes.
+      Eur J Cardiothorac Surg  ptypes=Journal Article,Multicenter Study
+
+[ 21] PMID 39757215 (2025) ROBO PMC tricuspid_redo/training
+      Defining the cardiac surgical learning curve: a longitudinal cumulative analysis of a surgeon's experience and performance monitoring in the first decade of practice.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 21] PMID 40142306 (2025) ROBO PMC tecab/training
+      Enhanced Recovery After Cardiac Surgery for Minimally Invasive Valve Surgery: A Systematic Review of Key Elements and Advancements.
+      Medicina (Kaunas)  ptypes=Journal Article,Systematic Review
+
+[ 21] PMID 40401414 (2025) ENDO PMC mitral/tecab/training
+      Learning Curve Analysis of Minimally Invasive Mitral Valve Repair.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 21] PMID 40652436 (2025) ROBO PMC mitral/training/future
+      Artificial intelligence-based action recognition and skill assessment in robotic cardiac surgery simulation: a feasibility study.
+      J Robot Surg  ptypes=Clinical Trial,Journal Article
+
+[ 21] PMID 40964525 (2025) ENDO PMC mitral/tecab/arrhythmia/tricuspid_redo
+      The impact of comorbidities on surgical outcome and mortality in minimally invasive mitral valve surgery: a systematic review.
+      Front Cardiovasc Med  ptypes=Journal Article,Systematic Review
+
+[ 21] PMID 41134183 (2025) ROBO PMC mitral/arrhythmia/tricuspid_redo/port_setup
+      Speech bubble sign - insights regarding incomplete left atrial appendage closure via electrocardiography-synchronized computed tomography in robotic surgery cases.
+      Interdiscip Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 21] PMID 41315104 (2025) ROBO PMC mitral/tecab/future
+      Exploring the future of robotic approaches in neonatal cardiac surgery: opportunities, barriers, and innovation pathways.
+      J Robot Surg  ptypes=Journal Article,Review
+
+[ 21] PMID 41506893 (2026) ROBO PMC mitral/training
+      Initial Experience With Robotic Mitral Valve Replacement: Results From a Single Centre.
+      Interdiscip Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 21] PMID 41592916 (2026) ROBO PMC mitral/tecab/tricuspid_redo
+      Minimally invasive versus conventional mitral valve surgery: a systematic review and meta-analysis of randomised clinical trials.
+      Open Heart  ptypes=Journal Article,Systematic Review,Meta-Analysis
+
+[ 21] PMID 41694814 (2026) ROBO PMC tecab/arrhythmia
+      Ultra-Fast-Track Extubation Within Four Hours Versus Conventional Ventilation After Robotic Coronary Artery Bypass Grafting: A Systematic Review of Intensive Care Unit Stay and Postoperative Atrial Fibrillation Outcomes.
+      Cureus  ptypes=Journal Article,Review
+
+[ 21] PMID 41752740 (2026) ENDO PMC avr/arrhythmia/future
+      Totally Endoscopic Approach for Aortic Valve Replacement: A Systematic Review and Single-Arm Meta-Analysis.
+      Medicina (Kaunas)  ptypes=Journal Article,Meta-Analysis,Systematic Review
+
+[ 21] PMID 41764530 (2026) ENDO PMC mitral/training
+      Minimally invasive mitral valve surgery in a middle-income country: feasibility and learning curve in a low-volume center.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 21] PMID 42152840 (2026) ROBO PMC tecab/training
+      Robotic-assisted coronary artery bypass grafting: comparative analysis of surgical outcomes and learning curve.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 21] PMID 42232264 (2025) ROBO PMC mitral/tecab/tricuspid_redo/training/future
+      Endoscopic mitral valve repair-one hundred and one ways to use neochords: a narrative review.
+      J Vis Surg  ptypes=Journal Article,Review
+
+[ 20] PMID 24944107 (2015) ROBO --- tecab/training/future
+      Challenges facing totally endoscopic robotic coronary artery bypass grafting.
+      Int J Med Robot  ptypes=Journal Article,Review
+
+[ 20] PMID 26309847 (2015) ENDO PMC mitral/training/port_setup
+      Designing innovative retractors and devices to facilitate mitral valve repair surgery.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 20] PMID 27440020 (2016) ENDO --- mitral/port_setup
+      [Totally Endoscopic Mitral Valve Surgery;Theory and Techniques].
+      Kyobu Geka  ptypes=Journal Article
+
+[ 20] PMID 27942491 (2016) ROBO PMC mitral
+      Technical aspects of robotic posterior mitral valve leaflet repair.
+      Ann Cardiothorac Surg  ptypes=Review,Journal Article
+
+[ 20] PMID 33394708 (2021) ROBO --- mitral/training
+      Review of transapical off-pump mitral valve intervention with NeoChord implantation.
+      Curr Opin Cardiol  ptypes=Journal Article,Review
+
+[ 20] PMID 33403721 (2021) ROBO --- mitral/training
+      An analysis of the learning curve for robotic-assisted mitral valve repair.
+      J Card Surg  ptypes=Journal Article
+
+[ 20] PMID 33841982 (2021) ENDO PMC mitral/tricuspid_redo
+      Minimally invasive mitral valve surgery.
+      J Thorac Dis  ptypes=Journal Article,Review
+
+[ 20] PMID 34422354 (2021) ROBO PMC tecab/training
+      Safe implementation of robotic-assisted minimally invasive direct coronary artery bypass: application of learning curves and cumulative sum analysis.
+      J Thorac Dis  ptypes=Journal Article
+
+[ 20] PMID 35748726 (2022) ROBO PMC mitral
+      Current state of the art and recommendations in robotic mitral valve surgery.
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 20] PMID 35799490 (2022) ROBO --- training/future
+      [Current Status and Prospective of Robot-assisted Cardiac Surgery in Japan].
+      Kyobu Geka  ptypes=Journal Article
+
+[ 20] PMID 36422071 (2022) ROBO PMC tecab
+      A Single Center Initial Experience with Robotic-Assisted Minimally Invasive Coronary Artery Bypass Surgery (RA-MIDCAB).
+      J Pers Med  ptypes=Journal Article
+
+[ 20] PMID 37868547 (2023) ROBO PMC tecab/future
+      Recent Advances in Coronary Artery Bypass Grafting Techniques and Outcomes: A Narrative Review.
+      Cureus  ptypes=Journal Article,Review
+
+[ 20] PMID 40364171 (2025) ROBO PMC tecab/tricuspid_redo
+      New Clinical Advances in Minimally Invasive Coronary Surgery.
+      J Clin Med  ptypes=Journal Article,Review
+
+[ 20] PMID 40490988 (2025) ENDO PMC avr/port_setup
+      Totally Endoscopic Aortic Valve Replacement With Triangulated Suturing: How to Do It.
+      Innovations (Phila)  ptypes=Journal Article,Case Reports
+
+[ 20] PMID 40900647 (2026) ROBO PMC mitral
+      Patient selection in robotic mitral valve surgery.
+      Curr Opin Cardiol  ptypes=Journal Article,Review
+
+[ 19] PMID 36937917 (2023) ROBO PMC mitral/arrhythmia
+      Concomitant intra-atrial excision of the left atrial appendage during robotic-assisted minimally invasive cardiac surgery.
+      Front Cardiovasc Med  ptypes=Journal Article
+
+[ 19] PMID 37754809 (2023) ROBO PMC training/future
+      Is There a Future for Minimal Access and Robots in Cardiac Surgery?
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 19] PMID 37988128 (2024) ROBO --- mitral/training/future
+      Surgical training of minimally invasive mitral valve repair on a patient-specific simulator improves surgical skills.
+      Eur J Cardiothorac Surg  ptypes=Journal Article
+
+[ 19] PMID 38312504 (2024) ROBO PMC mitral/training
+      Biorobotic hybrid heart as a benchtop cardiac mitral valve simulator.
+      Device  ptypes=Journal Article
+
+[ 19] PMID 38505666 (2023) ROBO PMC mitral/port_setup
+      Robotic mitral valve surgery.
+      Front Cardiovasc Med  ptypes=Journal Article,Review
+
+[ 19] PMID 39301877 (2024) ROBO PMC mitral/training
+      Endoscopic Robotic Mitral Operating Room as a Microsystem for Safety and Sustainability.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 19] PMID 39785856 (2025) ROBO --- mitral/training/future
+      Robotic mitral valve surgery: evolving history, techniques, and training paths.
+      Curr Opin Cardiol  ptypes=Journal Article,Review
+
+[ 19] PMID 39822860 (2025) ENDO PMC mitral/training
+      Roving pen: minimally invasive mitral surgery.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 19] PMID 40517112 (2025) ROBO --- tecab/asd_tumor
+      A Systematic Review of Minimally Invasive Approaches to Surgical Atrial Septal Defect Repair.
+      Heart Lung Circ  ptypes=Journal Article,Systematic Review
+
+[ 19] PMID 40547427 (2025) ROBO PMC mitral/avr/training/future
+      Lateral access fully robotic aortic valve replacement "RAVR": from novel to normal.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 19] PMID 41590537 (2026) ENDO PMC mitral/training
+      Outcomes of Minimally Invasive Mitral Valve Surgery Using a Multidisciplinary Team Approach: A Single-Center Experience.
+      J Pers Med  ptypes=Journal Article
+
+[ 19] PMID 41821094 (2026) ENDO PMC avr/asd_tumor/tricuspid_redo/training/port_setup
+      Totally endoscopic resection of right atrial myxoma on beating heart: a case serries.
+      J Cardiothorac Surg  ptypes=Journal Article,Case Reports
+
+[ 19] PMID 41996087 (2026) ROBO --- future
+      Soft robotic cardiac sleeves: materials, actuation mechanisms and translational pathways.
+      Mater Horiz  ptypes=Journal Article,Review
+
+[ 19] PMID 42232254 (2025) ENDO PMC mitral/tecab/tricuspid_redo/training/future
+      Endoscopic mitral valve surgery: picture from the real world-sub-analysis from the Mini-Mitral International Registry.
+      J Vis Surg  ptypes=Journal Article
+
+[ 19] PMID 42232265 (2025) ROBO PMC tecab/tricuspid_redo/future
+      Robotic multi-vessel off-pump totally endoscopic coronary artery bypass (TECAB) procedure: surgical technique.
+      J Vis Surg  ptypes=Journal Article
+
+[ 18] PMID 15931491 (2004) ROBO --- tecab/port_setup
+      Totally endoscopic coronary artery bypass graft: initial experience with an additional instrument arm and an advanced camera system.
+      Surg Endosc  ptypes=Journal Article
+
+[ 18] PMID 18948238 (2008) ROBO --- mitral/port_setup
+      How to do it: importance of left atrial side retraction in robotic and minimally invasive mitral valve surgery.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 18] PMID 21335887 (2011) ROBO --- avr/tricuspid_redo/training
+      A novel virtual reality environment for preoperative planning and simulation of image guided intracardiac surgeries with robotic manipulators.
+      Stud Health Technol Inform  ptypes=Journal Article,Research Support, U.S. Gov't, Non-P.H.S.
+
+[ 18] PMID 22885467 (2012) ROBO --- tecab
+      Precision incision: robotic coronary revascularization via 3.9-cm minithoracotomy.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 18] PMID 22976997 (2012) ROBO PMC tecab/training
+      Is totally endoscopic coronary artery bypass safe, feasible and effective?
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article,Review
+
+[ 18] PMID 27942485 (2016) ROBO PMC tecab/future
+      A systematic review on robotic coronary artery bypass graft surgery.
+      Ann Cardiothorac Surg  ptypes=Review,Journal Article
+
+[ 18] PMID 27942490 (2016) ROBO PMC mitral/future
+      Robotic mitral valve surgery: current limitations and future directions.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 18] PMID 30192451 (2018) ENDO --- mitral/training/port_setup
+      Suturing map for endoscopic mitral valve repair developed on high-fidelity endoscopic simulator.
+      Multimed Man Cardiothorac Surg  ptypes=Technical Report,Video-Audio Media,Journal Article
+
+[ 18] PMID 33060955 (2018) ROBO PMC tecab/future
+      A review of hybrid coronary revascularization.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 18] PMID 33829928 (2021) ENDO --- mitral/tricuspid_redo
+      Systematic Review of Minimally Invasive Surgery for Mitral Valve Infective Endocarditis.
+      Innovations (Phila)  ptypes=Journal Article,Systematic Review
+
+[ 18] PMID 34295373 (2021) ROBO PMC tecab
+      Minimally Invasive Coronary Revascularisation Surgery: A Focused Review of the Available Literature.
+      Interv Cardiol  ptypes=Journal Article,Review
+
+[ 18] PMID 37629762 (2023) ROBO PMC mitral/tecab/tricuspid_redo/training
+      Circumflex Coronary Artery Injury during Modern Mitral Valve Surgery-A Review of Current Concepts and Perspectives.
+      Medicina (Kaunas)  ptypes=Journal Article,Review
+
+[ 18] PMID 38064021 (2024) ENDO PMC mitral/training
+      An ex-vivo and in-vitro dynamic simulator for surgical and transcatheter mitral valve interventions.
+      Int J Comput Assist Radiol Surg  ptypes=Journal Article
+
+[ 18] PMID 38576087 (2024) ENDO PMC mitral/training/future
+      Telesimulation Training for Endoscopic Mitral Valve Surgery: An Air-Pilot Training Concept for Distance Training.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 18] PMID 38673708 (2024) ROBO PMC mitral/tecab/tricuspid_redo/training
+      Robotic-Assisted Minimally Invasive Direct Coronary Artery Bypass Grafting: A Surgical Technique.
+      J Clin Med  ptypes=Journal Article
+
+[ 18] PMID 39499089 (2024) ROBO --- mitral/arrhythmia
+      Robotic Versus Thoracoscopic Minimally Invasive Mitral Valve Surgery: A Systematic Review and Meta-Analysis of Matched Studies.
+      Cardiol Rev  ptypes=Journal Article
+
+[ 18] PMID 40434502 (2025) ROBO PMC tecab/arrhythmia/training
+      Patient complexity does not affect surgical learning curve and clinical outcomes during early experience in robotic assisted coronary surgery.
+      J Robot Surg  ptypes=Journal Article
+
+[ 18] PMID 41355285 (2026) ROBO --- training/future
+      Current and future use of artificial intelligence in valvular heart disease imaging.
+      Eur Heart J Cardiovasc Imaging  ptypes=Journal Article,Review
+
+[ 18] PMID 41438522 (2026) ENDO PMC mitral
+      Sex-related differences in minimally invasive mitral valve surgery: a review of the evidence.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 18] PMID 41511586 (2026) ROBO PMC tecab/training
+      Clipless robotic LIMA harvesting: monitoring performance and safety through CUSUM and RA-CUSUM analyses.
+      J Robot Surg  ptypes=Journal Article
+
+[ 18] PMID 41613366 (2025) ROBO PMC training/port_setup
+      Design and Validation of a Recirculating Cooling System for Robotic Cardiac Injection Therapy to Improve Patient Safety and Surgeon Workflow.
+      J Med Device  ptypes=Journal Article
+
+[ 18] PMID 42157221 (2026) ROBO PMC tecab/training/future
+      Into the future: first robotic totally endoscopic coronary artery bypass in Southeast Asia.
+      J Cardiothorac Surg  ptypes=Journal Article,Case Reports
+
+[ 18] PMID 42396784 (2026) ROBO --- mitral
+      Diagnostic and Prognostic Utility of Mitral Annular Plane Systolic Excursion: A Systematic Review and Meta-Analysis.
+      J Am Heart Assoc  ptypes=Journal Article,Systematic Review,Meta-Analysis
+
+[ 17] PMID 14712874 (2003) ROBO --- mitral/arrhythmia/training/port_setup/future
+      Robotic mitral valve surgery.
+      Surg Clin North Am  ptypes=Journal Article,Review
+
+[ 17] PMID 17599894 (2007) ROBO --- mitral/port_setup
+      How I do it: self-retaining atrial retractors for robotic and minimally invasive mitral valve surgery.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 17] PMID 23977616 (2013) ROBO PMC tecab/arrhythmia/training/future
+      Systematic review of robotic-assisted, totally endoscopic coronary artery bypass grafting.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 17] PMID 24322208 (2014) ROBO --- tecab/training
+      Totally endoscopic robotic coronary artery bypass surgery.
+      Curr Opin Anaesthesiol  ptypes=Journal Article,Review
+
+[ 17] PMID 28085690 (2017) ROBO --- tecab/port_setup
+      A Novel Robotic Bilateral Internal Mammary Artery Harvest Using Double Docking Technique for Coronary Artery Bypass Grafting.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 17] PMID 28757798 (2017) ROBO PMC mitral/future
+      Mitral Valve Replacement-Current and Future Perspectives.
+      Open J Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 17] PMID 29593831 (2018) ENDO PMC mitral/tricuspid_redo
+      Minimally Invasive Surgical Mitral Valve Repair: State of the Art Review.
+      Interv Cardiol  ptypes=Journal Article
+
+[ 17] PMID 30336384 (2018) ROBO PMC asd_tumor/port_setup
+      Totally endoscopic atrial septal defect repair using transthoracic aortic cannulation in a 10.5-kg-boy.
+      Int J Surg Case Rep  ptypes=Journal Article
+
+[ 17] PMID 30783681 (2019) ROBO --- mitral/tricuspid_redo/training/future
+      Replicated mitral valve models from real patients offer training opportunities for minimally invasive mitral valve repair.
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article,Research Support, Non-U.S. Gov't,Video-Audio Media
+
+[ 17] PMID 34276979 (2021) ROBO PMC tecab
+      Coronary computed tomography angiography following robotic coronary artery bypass grafting surgery: Systematic approach to image analysis and practical considerations.
+      Ann Med Surg (Lond)  ptypes=Journal Article,Review
+
+[ 17] PMID 36218306 (2022) ROBO --- general
+      Technical aspects of a totally endoscopic, robotic-assisted pericardial cyst resection.
+      Multimed Man Cardiothorac Surg  ptypes=Video-Audio Media,Journal Article
+
+[ 17] PMID 36483614 (2022) ROBO PMC mitral/port_setup
+      Robotic mitral repair: maintaining quality at all levels of complexity.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 17] PMID 39267396 (2024) ROBO --- tecab/port_setup
+      Robot-Assisted Minimally Invasive Coronary Artery Bypass Grafting: Total Arterial Revascularization Using the Double-Docking Technique.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 17] PMID 39444550 (2024) ENDO PMC avr/tecab/tricuspid_redo/port_setup
+      Totally 3D endoscopic aortic valve replacement: initial results and experience from a single center.
+      Front Cardiovasc Med  ptypes=Journal Article
+
+[ 17] PMID 39473044 (2024) ROBO --- tecab/training
+      Development and Validation of a Low-Cost, High-Fidelity Simulation Model for Robotic Internal Mammary Artery Harvest Using the da Vinci Xi Robot.
+      Innovations (Phila)  ptypes=Journal Article,Validation Study
+
+[ 17] PMID 40913323 (2025) ROBO --- mitral/tricuspid_redo
+      Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 17] PMID 41156121 (2025) ROBO PMC mitral/future
+      Mitral Valve Repair in the Modern Era: Insights into Techniques and Technologies with a Glimpse of the Future.
+      J Clin Med  ptypes=Journal Article,Review
+
+[ 17] PMID 41629762 (2026) ROBO --- tecab/training/future
+      The Future of Coronary Bypass? A Novel Simulator for Robotic Beating-Heart TECAB Training.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 17] PMID 42312103 (2026) ROBO PMC mitral/training
+      Using Robotics to Improve Transcatheter Edge-to-Edge Repair of the Mitral Valve.
+      IEEE Robot Autom Lett  ptypes=Journal Article
+
+[ 17] PMID 42494922 (2026) ROBO PMC avr/tecab/tricuspid_redo/port_setup
+      Robotic Aortic Valve Replacement in Severe Scoliosis with Markedly Narrow Chest.
+      Surg Case Rep  ptypes=Case Reports,Journal Article
+
+[ 16] PMID 12607651 (2003) ROBO --- mitral/future
+      Robotic mitral valve repair: experience with the da Vinci system.
+      Ann Thorac Surg  ptypes=Journal Article,Research Support, Non-U.S. Gov't
+
+[ 16] PMID 16112940 (2005) ROBO --- tecab/training/port_setup
+      Total endoscopic CABG using robotics on beating heart.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 16] PMID 21627475 (2011) ROBO PMC port_setup/future
+      The golden age of minimally invasive cardiothoracic surgery: current and future perspectives.
+      Future Cardiol  ptypes=Journal Article,Research Support, N.I.H., Extramural,Review
+
+[ 16] PMID 23274864 (2012) ROBO --- tecab/training
+      Lessons learned from robotic-assisted coronary artery bypass surgery: risk factors for conversion to median sternotomy.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 16] PMID 24199760 (2014) ROBO --- mitral/tricuspid_redo/training/port_setup
+      Three hundred robotic-assisted mitral valve repairs: the Cedars-Sinai experience.
+      J Thorac Cardiovasc Surg  ptypes=Comparative Study,Journal Article
+
+[ 16] PMID 25087930 (2014) ENDO --- mitral/arrhythmia/tricuspid_redo/training
+      Training surgeons in minimally invasive mitral valve repair: a single institution experience.
+      Ann Thorac Surg  ptypes=Journal Article,Observational Study
+
+[ 16] PMID 26309839 (2015) ROBO PMC mitral/tecab/tricuspid_redo
+      A meta-analysis of robotic vs. conventional mitral valve surgery.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 16] PMID 26590391 (2016) ROBO --- tecab/future
+      A systematic review of the safety and efficacy of distal coronary artery anastomotic devices in MIDCAB and TECAB surgery.
+      Perfusion  ptypes=Journal Article,Systematic Review
+
+[ 16] PMID 27072837 (2016) ROBO PMC avr/future
+      Catheter manipulation analysis for objective performance and technical skills assessment in transcatheter aortic valve implantation.
+      Int J Comput Assist Radiol Surg  ptypes=Journal Article
+
+[ 16] PMID 27662478 (2016) ROBO PMC mitral/training
+      Minimally Invasive Mitral Valve Surgery III: Training and Robotic-Assisted Approaches.
+      Innovations (Phila)  ptypes=Consensus Statement,Journal Article
+
+[ 16] PMID 30019253 (2018) ENDO --- mitral/avr/tecab/asd_tumor/training
+      Minimally invasive cardiac surgery in Japan: history and current status.
+      Gen Thorac Cardiovasc Surg  ptypes=Historical Article,Journal Article,Review
+
+[ 16] PMID 32950947 (2020) ROBO PMC mitral/port_setup
+      Totally endoscopic mitral valve repair without robotic assistance: A case report.
+      Int J Surg Case Rep  ptypes=Case Reports,Journal Article
+
+[ 16] PMID 33400202 (2021) ENDO PMC mitral/arrhythmia/tricuspid_redo/training
+      Early and mid-term outcomes of minimally invasive mitral valve repair via right mini-thoracotomy: 5-year experience with 129 consecutive patients.
+      Gen Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 16] PMID 33403151 (2020) ROBO PMC general
+      Minimal access in cardiac surgery.
+      Turk Gogus Kalp Damar Cerrahisi Derg  ptypes=Journal Article,Review
+
+[ 16] PMID 33841980 (2021) ROBO PMC tecab
+      Minimally invasive and robotic coronary artery bypass grafting-a 25-year review.
+      J Thorac Dis  ptypes=Journal Article,Review
+
+[ 16] PMID 34397469 (2021) ROBO --- port_setup/future
+      The cardiac surgeon's guide to artificial intelligence.
+      Curr Opin Cardiol  ptypes=Journal Article,Review
+
+[ 16] PMID 34961523 (2021) ROBO PMC tecab
+      All we need to know about internal thoracic artery harvesting and preparation for myocardial revascularization: a systematic review.
+      J Cardiothorac Surg  ptypes=Journal Article,Systematic Review
+
+[ 16] PMID 35509175 (2022) ROBO --- mitral/port_setup
+      Technical tips in non-robotic endoscopic mitral valve surgery: How to approach and expose the mitral valve.
+      Asian Cardiovasc Thorac Ann  ptypes=Journal Article
+
+[ 16] PMID 36002863 (2022) ROBO PMC tecab/training
+      Minimally invasive left internal mammary artery harvesting techniques during the learning curve are safe and achieve similar results as conventional LIMA harvesting techniques.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 16] PMID 36975882 (2023) ROBO PMC tricuspid_redo
+      Minimal Access Tricuspid Valve Surgery.
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 16] PMID 38054555 (2023) ROBO PMC avr/tecab
+      Limited versus full sternotomy for aortic valve replacement.
+      Cochrane Database Syst Rev  ptypes=Systematic Review,Journal Article,Research Support, Non-U.S. Gov't
+
+[ 16] PMID 38204726 (2023) ROBO PMC mitral/tecab/training
+      Simulation-based assessment of robotic cardiac surgery skills: An international multicenter, cross-specialty trial.
+      JTCVS Open  ptypes=Journal Article
+
+[ 16] PMID 38218724 (2024) ENDO PMC mitral/training
+      Simulation-based training for endoscopic mitral valve repair: the impact on basic surgical skills for placement of sutures at mitral valve annulus during 2-h training workshop.
+      Interdiscip Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 16] PMID 38345873 (2024) ROBO --- mitral/arrhythmia/port_setup/future
+      Minimally Invasive Mitral Valve Repair: From Total Endoscopic To Closed-Chest Robotic.
+      Port J Card Thorac Vasc Surg  ptypes=Journal Article
+
+[ 16] PMID 38535104 (2024) ROBO PMC mitral/tecab/arrhythmia/tricuspid_redo/training
+      Transferring Surgical Expertise: Analyzing the Learning Curve of Robotic Cardiac Surgery Operative Time Reduction When Surgeon Moves from One Experienced Center to Another.
+      J Cardiovasc Dev Dis  ptypes=Journal Article
+
+[ 16] PMID 38576096 (2024) ENDO PMC mitral/tricuspid_redo/training
+      Implementation of Endoscopic Minimally Invasive Mitral Valve Replacement Surgery With Automated Suturing Technology.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 16] PMID 39157183 (2024) ROBO PMC tecab/arrhythmia/port_setup
+      Bilateral internal thoracic artery grafting in robotic beating-heart totally endoscopic coronary artery bypass: 10-year outcomes.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 16] PMID 39157187 (2024) ROBO PMC tecab/training
+      Systematic review and meta-analysis of two decades of reported outcomes for robotic coronary artery bypass grafting.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 16] PMID 39244646 (2025) ROBO --- general
+      The emerging role of minimally invasive extracorporeal circulation in totally endoscopic and robotic-assisted cardiac surgery procedures.
+      Perfusion  ptypes=Journal Article,Review
+
+[ 16] PMID 39434970 (2024) ROBO PMC tecab
+      Small incisions still require great anesthesia: anesthesiology techniques to enhance recovery in robotic coronary bypass grafting.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 16] PMID 39434977 (2024) ROBO PMC mitral/tecab/training
+      Embracing industry in the development of robotic coronary bypass grafting-the sun rises in the East.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 16] PMID 39567250 (2024) ROBO PMC tecab
+      Totally Endoscopic Coronary Artery Bypass Graft: Systematic Review and Meta-Analysis of Reconstructed Patient-Level Data.
+      Innovations (Phila)  ptypes=Journal Article,Systematic Review,Meta-Analysis
+
+[ 16] PMID 39757229 (2025) ENDO PMC mitral/tecab/tricuspid_redo/port_setup
+      Totally endoscopic mitral valve repair with novel technique of left atrial exposure: five years experience from a single center.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 16] PMID 39891213 (2025) ROBO PMC tecab/training
+      Experience in setting up non-robotic minimally invasive direct coronary artery bypass grafting in a non-routine off-pump coronary artery bypass center.
+      Eur J Med Res  ptypes=Journal Article
+
+[ 16] PMID 39991302 (2025) ROBO PMC mitral
+      Robotic mitral valve surgery in the very thin patient: Tips and tricks.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 16] PMID 40082903 (2025) ROBO PMC mitral/tecab/asd_tumor
+      Cardiac myxoma: a comprehensive review.
+      J Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 16] PMID 40150749 (2025) ROBO PMC tecab/training/future
+      Dynamic Virtual Simulation with Real-Time Haptic Feedback for Robotic Internal Mammary Artery Harvesting.
+      Bioengineering (Basel)  ptypes=Journal Article
+
+[ 16] PMID 40937267 (2025) ENDO PMC mitral/tricuspid_redo/port_setup
+      Minimally Invasive Mitral Valve Repair in a Patient With Severe Scoliosis: Overcoming Anatomical Challenges.
+      Cureus  ptypes=Case Reports,Journal Article
+
+[ 16] PMID 41721571 (2026) ROBO PMC training
+      A Soft Robotic Model for Simulating Heart Valve Disease and Cardiac Interventions.
+      Adv Sci (Weinh)  ptypes=Journal Article
+
+[ 16] PMID 41767130 (2026) ROBO PMC future
+      Rethinking Cardiopulmonary Bypass Management in The Digital Health Era.
+      Mayo Clin Proc Digit Health  ptypes=Journal Article,Review
+
+[ 16] PMID 42232274 (2025) ROBO PMC mitral/arrhythmia
+      Robotic versus non-robotic endoscopic invasive mitral valve repair: a narrative review of current evidence and evolving practice.
+      J Vis Surg  ptypes=Journal Article,Review
+
+[ 16] PMID 42267049 (2026) ROBO PMC tecab/arrhythmia
+      Single-Center Initial Experience with Robotic Assisted Minimally Invasive Coronary Artery Bypass Surgery.
+      Ann Thorac Surg Short Rep  ptypes=Journal Article
+
+[ 16] PMID 42305172 (2025) ROBO PMC mitral/avr/tecab/asd_tumor/arrhythmia/tricuspid_redo
+      Robotic endoscopic cardiac surgery in the reoperative patient: Is it feasible?
+      JTCVS Struct Endovasc  ptypes=Journal Article
+
+[ 15] PMID 11074977 (2000) ROBO --- tecab/tricuspid_redo/training/port_setup/future
+      3-D image guidance for minimally invasive robotic coronary artery bypass.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 15] PMID 11980428 (2001) ENDO --- tecab/port_setup
+      [Computer-assisted coronary surgery].
+      Bull Acad Natl Med  ptypes=English Abstract,Journal Article,Research Support, Non-U.S. Gov't
+
+[ 15] PMID 17180279 (2007) ROBO --- tricuspid_redo/port_setup/future
+      Optimal port placement and enhanced guidance in robotically assisted cardiac surgery.
+      Surg Endosc  ptypes=Journal Article,Research Support, Non-U.S. Gov't
+
+[ 15] PMID 17525047 (2007) ROBO --- tecab/training
+      Training models for coronary surgery.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 15] PMID 19546065 (2009) ROBO PMC tecab/training
+      Establishing the case for minimally invasive, robotic-assisted CABG in the treatment of multivessel coronary artery disease.
+      Heart Surg Forum  ptypes=Journal Article,Review
+
+[ 15] PMID 24349989 (2013) ENDO PMC mitral
+      Video-atlas on minimally invasive mitral valve surgery-the Mohr technique.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 15] PMID 24349990 (2013) ENDO PMC mitral
+      Video-atlas on minimally invasive mitral valve surgery-The David Adams technique.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 15] PMID 24349994 (2013) ROBO PMC mitral
+      Video-atlas on robotically assisted mitral valve surgery.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 15] PMID 26577232 (2015) ENDO --- mitral/tricuspid_redo
+      Open vs. Minimally Invasive Mitral Valve Surgery: Surgical Technique, Indications and Results.
+      Cardiovasc Eng Technol  ptypes=Comparative Study,Journal Article,Meta-Analysis
+
+[ 15] PMID 26778373 (2016) ROBO PMC avr/port_setup
+      Robot-assisted real-time magnetic resonance image-guided transcatheter aortic valve replacement.
+      J Thorac Cardiovasc Surg  ptypes=Journal Article,Research Support, N.I.H., Intramural
+
+[ 15] PMID 28893396 (2018) ROBO --- mitral/tecab
+      Early results of robotically assisted mitral valve surgery: Analysis of the first 1000 cases.
+      J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 15] PMID 31065673 (2019) ENDO --- mitral/training
+      Design and training effects of a physical reality simulator for minimally invasive mitral valve surgery.
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 15] PMID 32072433 (2020) ROBO --- mitral/tecab/training
+      Early results of robotically assisted mitral valve repair in a single institution: report of the first 100 cases.
+      Gen Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 15] PMID 32641671 (2020) ENDO --- mitral
+      [Tips for Use of Chordal Guide System for Easy Adjustment of Appropriate Artificial Chordae Length in Patients Undergoing Minimally Invasive Mitral Valve Repair].
+      Kyobu Geka  ptypes=Journal Article
+
+[ 15] PMID 34560044 (2022) ROBO --- mitral/avr/asd_tumor/arrhythmia
+      Robotic Aortic Valve Replacement: First 50 Cases.
+      Ann Thorac Surg  ptypes=Journal Article
+
+[ 15] PMID 36265121 (2022) ROBO --- mitral/tricuspid_redo/training
+      Robotic Mitral Valve Surgery.
+      Surg Technol Int  ptypes=Journal Article
+
+[ 15] PMID 36294365 (2022) ROBO PMC mitral/future
+      Mitral Valve Systolic Anterior Motion in Robotic Thoracic Surgery as the Cause of Unexplained Hemodynamic Shock: From a Case Report to Recommendations.
+      J Clin Med  ptypes=Case Reports,Journal Article
+
+[ 15] PMID 36423256 (2022) ROBO --- mitral/tecab/asd_tumor/arrhythmia/tricuspid_redo/training/port_setup
+      Routine endoscopic robotic cardiac tumor resection using an 8-mm working port and percutaneous cannulation.
+      J Card Surg  ptypes=Journal Article
+
+[ 15] PMID 36639122 (2023) ROBO --- mitral
+      Robotic vs other surgery techniques for mitral valve repair and/or replacement: A systematic review and meta-analysis.
+      Hellenic J Cardiol  ptypes=Systematic Review,Journal Article,Network Meta-Analysis
+
+[ 15] PMID 38552791 (2024) ROBO --- mitral/arrhythmia
+      Minimally Invasive Approaches to Mitral Valve Surgery: Where Are We Now? A Narrative Review.
+      Can J Cardiol  ptypes=Journal Article,Review
+
+[ 15] PMID 39286648 (2024) ENDO PMC mitral/tricuspid_redo/port_setup
+      Totally three-dimensional endoscopic mitral valve replacement in a patient with situs inversus totalis.
+      J Surg Case Rep  ptypes=Case Reports,Journal Article
+
+[ 15] PMID 39904993 (2025) ROBO --- mitral/asd_tumor
+      Periareolar Cardiac Surgery in Patients With Breast Implants: How to Do It.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 15] PMID 40198923 (2025) ROBO --- avr/tecab
+      Noteworthy in Cardiothoracic Surgery 2024.
+      Semin Cardiothorac Vasc Anesth  ptypes=Journal Article,Review
+
+[ 15] PMID 40434908 (2025) ENDO --- tecab/tricuspid_redo/future
+      Review of minimally invasive coronary artery bypass grafting.
+      Eur J Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 15] PMID 40547423 (2025) ROBO PMC mitral/arrhythmia
+      Outcomes of robotic and endoscopic combined aortic and mitral valve surgery: experience from National Taiwan University Hospital.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 15] PMID 41105544 (2026) ROBO --- tecab/training/future
+      Adaptive Cardiac Dynamics in Surgical Simulation: A Human-AI Interaction Framework for Robotic Internal Mammary Artery Harvesting.
+      IEEE Comput Graph Appl  ptypes=Journal Article,Research Support, Non-U.S. Gov't
+
+[ 15] PMID 41669176 (2026) ROBO PMC mitral/tecab/arrhythmia/tricuspid_redo
+      Robotic chordae shortening in mitral valve repair.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 15] PMID 41735593 (2026) ROBO --- avr/training/future
+      The cyber-physical paradigm for lifetime aortic valve management: a synthesis of robotics, artificial intelligence, and augmented reality.
+      J Robot Surg  ptypes=Journal Article,Review
+
+[ 15] PMID 41910457 (2026) ROBO --- avr/future
+      Outcomes of robotically-assisted aortic valve surgery: A systematic review.
+      Perfusion  ptypes=Journal Article,Review
+
+[ 14] PMID 12491544 (2002) ROBO --- tecab/port_setup
+      Anaesthesia for minimally invasive cardiac surgery.
+      Best Pract Res Clin Anaesthesiol  ptypes=Journal Article,Review
+
+[ 14] PMID 14502457 (2003) ROBO --- tecab/tricuspid_redo/port_setup
+      Cardiac MR in robotic heart surgery for preoperative identification of the target vessel and precise port placement--a theoretical model.
+      Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 14] PMID 17520629 (2006) ROBO --- tecab/asd_tumor/training
+      Robotics in cardiac surgery: the Istanbul experience.
+      Int J Med Robot  ptypes=Journal Article,Review
+
+[ 14] PMID 19632405 (2009) ROBO --- tecab/training
+      Training surgeons to perform robotically assisted totally endoscopic coronary surgery.
+      Ann Thorac Surg  ptypes=Journal Article
+
+[ 14] PMID 22287831 (2003) ROBO PMC tecab/tricuspid_redo/port_setup
+      Port Placement Planning in Robot-Assisted Coronary Artery Bypass.
+      IEEE Trans Rob Autom  ptypes=Journal Article
+
+[ 14] PMID 22528181 (2011) ROBO --- arrhythmia
+      [Three-dimensional reconstruction and remote navigation for catheter-guided atrial fibrillation ablation. Does it influence procedural outcomes?].
+      Clin Res Cardiol Suppl  ptypes=Journal Article,Review
+
+[ 14] PMID 24763355 (2015) ROBO --- mitral/tecab/training
+      Robotic mitral valve repair.
+      J Cardiovasc Nurs  ptypes=Journal Article,Review
+
+[ 14] PMID 25566713 (2015) ROBO PMC general
+      Anesthetic issues for robotic cardiac surgery.
+      Ann Card Anaesth  ptypes=Journal Article,Review
+
+[ 14] PMID 26282961 (2016) ROBO --- avr/port_setup/future
+      Robotic total endoscopic sutureless aortic valve replacement: proof of concept for a future surgical setting.
+      Int J Med Robot  ptypes=Journal Article
+
+[ 14] PMID 26826714 (2016) ENDO PMC mitral/avr/tricuspid_redo
+      Preoperative planning of left-sided valve surgery with 3D computed tomography reconstruction models: sternotomy or a minimally invasive approach?
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 14] PMID 27942488 (2016) ROBO PMC mitral/future
+      Robotic surgery is the optimal approach for mitral surgery.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 14] PMID 28394022 (2017) ROBO PMC avr/arrhythmia
+      Limited versus full sternotomy for aortic valve replacement.
+      Cochrane Database Syst Rev  ptypes=Journal Article,Meta-Analysis,Systematic Review
+
+[ 14] PMID 28991057 (2017) ENDO --- mitral
+      Minimally Invasive Mitral Valve Annuloplasty With Realignment of Both Papillary Muscles for Correction of Type IIIb Functional Mitral Regurgitation.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 14] PMID 29049538 (2018) ROBO PMC mitral/tricuspid_redo/training
+      3D printed mitral valve models: affordable simulation for robotic mitral valve repair.
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 14] PMID 29232300 (2017) ROBO PMC mitral/training
+      Three-Dimensional Printing of Life-Like Models for Simulation and Training of Minimally Invasive Cardiac Surgery.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 14] PMID 31043972 (2019) ENDO PMC mitral/tecab/tricuspid_redo/training
+      Six-year single-centre experience in minimally invasive mitral valve repair - impact of the team learning curve on in-hospital clinical outcome.
+      Kardiochir Torakochirurgia Pol  ptypes=Journal Article
+
+[ 14] PMID 31233237 (2019) ROBO --- asd_tumor/tricuspid_redo/port_setup
+      Redo robotic cardiac surgery and concomitant cesarean section in a pregnant patient with dextrocardia and situs inversus totalis.
+      J Card Surg  ptypes=Case Reports,Journal Article
+
+[ 14] PMID 31806039 (2019) ENDO PMC mitral/training
+      Learning curve in minimally invasive mitral valve surgery: a single-center experience.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 14] PMID 31893953 (2020) ROBO --- avr/arrhythmia/port_setup
+      Early Clinical Experiences of Robotic Assisted Aortic Valve Replacement for Aortic Valve Stenosis with Sutureless Aortic Valve.
+      Innovations (Phila)  ptypes=Case Reports,Journal Article
+
+[ 14] PMID 32082913 (2019) ROBO PMC mitral/asd_tumor/arrhythmia/tricuspid_redo/port_setup
+      The feasibility of robotic-assisted concomitant procedures during mitral valve operations.
+      Turk Gogus Kalp Damar Cerrahisi Derg  ptypes=Journal Article
+
+[ 14] PMID 32353922 (2020) ROBO --- asd_tumor/port_setup
+      Robotic-assisted cardiac surgery without lung isolation utilizing single-lumen endotracheal tube intubation.
+      J Card Surg  ptypes=Journal Article
+
+[ 14] PMID 32864937 (2020) ROBO PMC mitral/future
+      The Evolution of Mitral Valve Surgery: the Future in the Hand of Robots.
+      Braz J Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 14] PMID 33061182 (2020) ROBO PMC mitral
+      Contemporary techniques for mitral valve repair-the Mayo Clinic experience.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 14] PMID 34618626 (2021) ROBO --- arrhythmia/future
+      Laser balloon in pulmonary vein isolation for atrial fibrillation: current status and future prospects.
+      Expert Rev Med Devices  ptypes=Journal Article,Review
+
+[ 14] PMID 35497995 (2022) ENDO PMC mitral
+      State-of-the-Art Review: Technical and Imaging Considerations in Novel Transapical and Port-Access Mitral Valve Chordal Repair for Degenerative Mitral Regurgitation.
+      Front Cardiovasc Med  ptypes=Journal Article,Review
+
+[ 14] PMID 35510407 (2022) ROBO --- mitral/tricuspid_redo/training
+      Robotic mitral valve repair: A single center experience over a 7-year period.
+      J Card Surg  ptypes=Journal Article
+
+[ 14] PMID 36483620 (2022) ROBO PMC mitral/tecab/asd_tumor/arrhythmia/tricuspid_redo/training/future
+      Robotically assisted mitral valve surgery-experience during the restart of a robotic program in Germany.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 14] PMID 37024952 (2023) ROBO PMC mitral/tecab/arrhythmia/tricuspid_redo
+      Minithoracotomy versus sternotomy in mitral valve surgery: meta-analysis from recent matched and randomized studies.
+      J Cardiothorac Surg  ptypes=Meta-Analysis,Journal Article,Review
+
+[ 14] PMID 37025683 (2023) ROBO PMC mitral/training
+      Building a successful minimally invasive mitral valve repair program before introducing the robotic approach: The Massachusetts General Hospital experience.
+      Front Cardiovasc Med  ptypes=Journal Article
+
+[ 14] PMID 37293277 (2023) ROBO PMC mitral
+      Robotic mitral valve repair surgery: where do we go from here?
+      Front Cardiovasc Med  ptypes=Journal Article,Review
+
+[ 14] PMID 37763687 (2023) ROBO PMC mitral/tricuspid_redo/training
+      Learning Curve Analysis of Robotic-Assisted Mitral Valve Repair with COVID-19 Exogenous Factor: A Single Center Experience.
+      Medicina (Kaunas)  ptypes=Journal Article
+
+[ 14] PMID 38112423 (2025) ROBO --- tecab
+      Coronary Artery Bypass Surgery: Evidence-Based Practice.
+      Cardiol Rev  ptypes=Journal Article,Review
+
+[ 14] PMID 39157182 (2024) ROBO PMC tecab
+      Historical landmarks in the development of robotic coronary bypass grafting.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 14] PMID 39518514 (2024) ROBO PMC mitral
+      A Historical Perspective and Update on Robotic Mitral Valve Surgery.
+      J Clin Med  ptypes=Journal Article
+
+[ 14] PMID 39534331 (2024) ROBO PMC tecab
+      Robotic-assisted coronary artery bypass grafting simplified: Lessons learned after 20 years.
+      JTCVS Open  ptypes=Journal Article
+
+[ 14] PMID 39852226 (2025) ROBO PMC port_setup
+      Robotic Versus Sternotomy, Thoracotomy and Video-Thoracoscopy Approaches for Thymoma Resection: A Comparative Analysis of Short-Term Results.
+      J Pers Med  ptypes=Journal Article
+
+[ 14] PMID 39997502 (2025) ROBO PMC tecab
+      Non-Robotic Endoscopic-Assisted Internal Mammary Artery Harvest-A Historical Review and Recent Advancements.
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 14] PMID 40058842 (2025) ENDO PMC tecab/port_setup
+      Totally Endoscopic Internal Thoracic Artery Harvesting with Efficient Setup Modifications for Minimally Invasive Direct Coronary Artery Bypass Grafting.
+      Ann Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 14] PMID 40272612 (2025) ROBO PMC mitral/tecab
+      Robotic transmitral resection of floating left ventricular thrombus.
+      J Robot Surg  ptypes=Journal Article
+
+[ 14] PMID 40547421 (2025) ROBO PMC mitral/avr/arrhythmia/future
+      Surgical versus transcatheter aortic valve replacement: the future role of robotic aortic valve replacement.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 14] PMID 40923060 (2025) ROBO PMC mitral/tricuspid_redo
+      Posterior leaflet reconstruction in mitral valve repair: Does resect versus respect strategy matter?
+      JTCVS Open  ptypes=Journal Article
+
+[ 14] PMID 40998343 (2025) ROBO --- future
+      [Recent Advances in Surgical Instrumentation for Minimally Invasive Cardiac Surgery].
+      Kyobu Geka  ptypes=Journal Article,Review,English Abstract
+
+[ 14] PMID 41163875 (2025) ROBO PMC arrhythmia
+      Robotic-Assisted Left Ventricular Epicardial Lead Placement in Patients With Prior Sternotomy.
+      Ann Thorac Surg Short Rep  ptypes=Journal Article
+
+[ 14] PMID 41163903 (2025) ROBO PMC tecab/training
+      Association of Robotic Assistance With Short-term Outcomes After Coronary Artery Bypass Grafting.
+      Ann Thorac Surg Short Rep  ptypes=Journal Article
+
+[ 14] PMID 41590855 (2026) ROBO PMC tecab
+      The TCRAT Technique (Total Coronary Revascularization via Left Anterior Thoracotomy): Renaissance in Minimally Invasive On-Pump Multivessel Coronary Artery Bypass Grafting?
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 13] PMID 18391325 (2008) ROBO --- tricuspid_redo/training/port_setup
+      Interactive finite element simulation of the beating heart for image-guided robotic cardiac surgery.
+      Stud Health Technol Inform  ptypes=Journal Article
+
+[ 13] PMID 21168859 (2011) ROBO --- mitral/arrhythmia/training
+      Learning curve analysis of mitral valve repair using telemanipulative technology.
+      J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 13] PMID 22361820 (2012) ENDO --- mitral/arrhythmia/training
+      Anesthetic considerations during minimally invasive mitral valve surgery.
+      Semin Cardiothorac Vasc Anesth  ptypes=Journal Article,Review
+
+[ 13] PMID 22730874 (2012) ENDO PMC mitral/training
+      Minimally invasive mitral surgery: dangerous to dabble.
+      J Extra Corpor Technol  ptypes=Journal Article
+
+[ 13] PMID 23634811 (2013) ROBO PMC asd_tumor/tricuspid_redo
+      Totally thoracoscopic surgery for the treatment of atrial septal defect without of the robotic Da Vinci surgical system.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 13] PMID 23711646 (2013) ROBO --- mitral/training
+      Robotic and minimally invasive cardiac surgery.
+      Anesthesiol Clin  ptypes=Journal Article,Review
+
+[ 13] PMID 23804253 (2013) ENDO --- mitral/arrhythmia/tricuspid_redo/training/future
+      Learning minimally invasive mitral valve surgery: a cumulative sum sequential probability analysis of 3895 operations from a single high-volume center.
+      Circulation  ptypes=Journal Article
+
+[ 13] PMID 24346584 (2013) ROBO --- tecab/training
+      Defining the learning curve for robotic-assisted endoscopic harvesting of the left internal mammary artery.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 13] PMID 24349971 (2013) ROBO PMC mitral/tricuspid_redo
+      Systematic review of robotic minimally invasive mitral valve surgery.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 13] PMID 24562290 (2014) ROBO --- mitral/arrhythmia/tricuspid_redo/training
+      Can the learning curve of totally endoscopic robotic mitral valve repair be short-circuited?
+      Innovations (Phila)  ptypes=Journal Article,Research Support, Non-U.S. Gov't
+
+[ 13] PMID 25362732 (2014) ROBO --- mitral/avr/asd_tumor/tricuspid_redo
+      Robotic-assisted mitral valve repair: surgical technique.
+      Multimed Man Cardiothorac Surg  ptypes=Journal Article,Video-Audio Media
+
+[ 13] PMID 25998717 (2015) ROBO --- tecab/training
+      Robot-Assisted Training Early After Cardiac Surgery.
+      J Card Surg  ptypes=Journal Article
+
+[ 13] PMID 27127558 (2016) ROBO PMC mitral/avr/arrhythmia
+      Mitral Valve Surgery: Current Minimally Invasive and Transcatheter Options.
+      Methodist Debakey Cardiovasc J  ptypes=Journal Article,Review
+
+[ 13] PMID 27295770 (2016) ROBO --- training/future
+      [EVOLUTION OF MINIMALLY INVASIVE CARDIAC SURGERY].
+      Nihon Geka Gakkai Zasshi  ptypes=English Abstract,Journal Article
+
+[ 13] PMID 27588226 (2016) ROBO PMC arrhythmia
+      Treatment Planning Considerations for Robotic Guided Cardiac Radiosurgery for Atrial Fibrillation.
+      Cureus  ptypes=Journal Article
+
+[ 13] PMID 27638268 (2016) ENDO --- mitral/training/future
+      Minimally invasive mitral valve surgery through a right mini-thoracotomy.
+      Gen Thorac Cardiovasc Surg  ptypes=Journal Article,Review
+
+[ 13] PMID 28203537 (2017) ROBO PMC mitral/tecab/asd_tumor/arrhythmia/training
+      Robotic cardiac surgery in Brazil.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 13] PMID 29103230 (2016) ENDO --- mitral
+      Minimally invasive mitral valve surgery: How we do it.
+      Rev Port Cir Cardiotorac Vasc  ptypes=Journal Article
+
+[ 13] PMID 29700926 (2018) ROBO --- mitral/avr/future
+      Robot-assisted aortic valve surgery: State of the art and challenges for the future.
+      Int J Med Robot  ptypes=Journal Article,Review
+
+[ 13] PMID 30385017 (2019) ROBO --- mitral/training/future
+      Development of a high-fidelity minimally invasive mitral valve surgery simulator.
+      J Thorac Cardiovasc Surg  ptypes=Journal Article,Video-Audio Media
+
+[ 13] PMID 31653417 (2020) ROBO --- tecab
+      Robotic totally endoscopic coronary artery bypass: Tips and tricks for using an anastomotic device.
+      J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 13] PMID 31968097 (2020) ENDO --- mitral/training
+      The EACTS simulation-based training course for endoscopic mitral valve repair: an air-pilot training concept in action.
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article,Research Support, Non-U.S. Gov't,Video-Audio Media
+
+[ 13] PMID 31990160 (2020) ROBO --- tecab
+      Robotic off-pump totally endoscopic hand-sewn coronary artery bypass using in-situ bilateral internal mammary artery.
+      Multimed Man Cardiothorac Surg  ptypes=Case Reports,Journal Article,Video-Audio Media
+
+[ 13] PMID 32274136 (2020) ROBO PMC mitral/arrhythmia/tricuspid_redo
+      Totally endoscopic mitral valve repair using a three-dimensional endoscope system: initial clinical experience in Korea.
+      J Thorac Dis  ptypes=Journal Article
+
+[ 13] PMID 33060932 (2018) ROBO PMC training/port_setup
+      First nationwide survey on the experience of Indian cardiac surgeons about international fellowship programmes.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 13] PMID 33772625 (2021) ENDO --- mitral/tricuspid_redo/training
+      Cumulative sum analysis for the learning curve of minimally invasive mitral valve repair.
+      Heart Vessels  ptypes=Journal Article
+
+[ 13] PMID 33840614 (2022) ROBO --- mitral
+      Optimal Management of Patients Treated With Minimally Invasive Cardiac Surgery in the Era of Enhanced Recovery After Surgery and Fast-Track Protocols: A Narrative Review.
+      J Cardiothorac Vasc Anesth  ptypes=Journal Article,Review
+
+[ 13] PMID 34662452 (2022) ROBO --- mitral
+      Comparative efficacy of five surgical methods in the treatment of mitral regurgitation: A systematic review and network meta-analysis.
+      J Card Surg  ptypes=Journal Article,Systematic Review,Network Meta-Analysis
+
+[ 13] PMID 34800487 (2022) ROBO --- mitral/tricuspid_redo
+      Robotic Mitral Valve Repair: A Decade of Experience With Echocardiographic Follow-up.
+      Ann Thorac Surg  ptypes=Review,Journal Article
+
+[ 13] PMID 34890572 (2022) ROBO --- tecab/tricuspid_redo/training
+      Robotic Total Endoscopic Coronary Bypass in 570 Patients: Impact of Anastomotic Technique in Two Eras.
+      Ann Thorac Surg  ptypes=Journal Article,Review
+
+[ 13] PMID 34909575 (2021) ROBO PMC tecab/port_setup
+      A very rare complication of subacute pericarditis: a case report of spontaneous coronary artery rupture.
+      Eur Heart J Case Rep  ptypes=Case Reports,Journal Article
+
+[ 13] PMID 35645031 (2022) ROBO --- mitral
+      Evaluation of robotic-assisted mitral surgery in a contemporary experience.
+      J Cardiovasc Med (Hagerstown)  ptypes=Journal Article
+
+[ 13] PMID 35699726 (2022) ENDO --- avr/asd_tumor/port_setup
+      Intermediate-Term Outcomes of Totally Endoscopic Atrial Septal Defect Repair on Beating Heart in Small Children.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 13] PMID 36317917 (2022) ENDO --- mitral/training/future
+      Early Clinical Outcomes of Thoracoscopic Mitral Valvuloplasty: The First 90 Cases.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 13] PMID 36848999 (2023) ROBO --- tecab/training
+      Mastering the Learning Curve for Robotic-Assisted Coronary Artery Bypass Surgery.
+      Ann Thorac Surg  ptypes=Journal Article
+
+[ 13] PMID 37469321 (2023) ROBO --- mitral/training/port_setup
+      [Reducing the Incidence of Postoperative Hypothermia in Patients Undergoing Robotic-Assisted Mitral Valve Surgery].
+      Hu Li Za Zhi  ptypes=English Abstract,Journal Article
+
+[ 13] PMID 37915686 (2023) ENDO PMC mitral/training
+      Adoption of minimally invasive mitral valve surgery: single-centre implementation experience in Vietnam.
+      Ann Med Surg (Lond)  ptypes=Journal Article
+
+[ 13] PMID 38152165 (2023) ROBO PMC mitral/training
+      Subvalvular techniques enhanced with endoscopic robotic mitral valve repair.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 13] PMID 38152209 (2023) ROBO PMC mitral
+      Tricks and tips to facilitate robotic approach for mitral valve repair.
+      JTCVS Tech  ptypes=Case Reports,Journal Article
+
+[ 13] PMID 38899102 (2024) ROBO PMC arrhythmia/tricuspid_redo/port_setup
+      Robotic-enhanced hybrid ablation for persistent and long-standing atrial fibrillation: Early assessment of feasibility, safety, and efficacy.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 13] PMID 39434974 (2024) ROBO PMC tecab/port_setup
+      Different styles in trocar placement in robotic-assisted beating heart coronary artery bypass grafting.
+      Ann Cardiothorac Surg  ptypes=Editorial
+
+[ 13] PMID 39473063 (2024) ROBO PMC tecab/training
+      Coronary Connector Facilitated Total Endoscopic Coronary Artery Bypass: An Ex Vivo Feasibility Study.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 13] PMID 40386419 (2025) ROBO PMC arrhythmia/training
+      Integrating soft robotics and computational models to study left atrial hemodynamics and device testing in sinus rhythm and atrial fibrillation.
+      Res Sq  ptypes=Journal Article,Preprint
+
+[ 13] PMID 41000116 (2026) ROBO PMC mitral/training
+      Compact Design and Image-Space Pose Control of a Robot for Tendon-Driven Concentric Catheters in Mitral Repair Interventions.
+      IEEE ASME Trans Mechatron  ptypes=Journal Article
+
+[ 13] PMID 41177574 (2025) ROBO --- mitral/tecab/tricuspid_redo/training
+      Eliminating the learning curve in robotic mitral valve repair: Results from 1400 patients.
+      J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 13] PMID 41212734 (2026) ROBO --- mitral
+      Operative outcomes following robotic-assisted and conventional minimally invasive mitral valve surgery: A meta-analysis of propensity-matched studies.
+      Asian Cardiovasc Thorac Ann  ptypes=Journal Article,Meta-Analysis,Systematic Review
+
+[ 13] PMID 41271218 (2026) ROBO --- tecab/future
+      Coronary revascularization: a long-term perspective.
+      Eur Heart J  ptypes=Journal Article,Review
+
+[ 13] PMID 42200234 (2026) ROBO --- mitral/avr/tecab/arrhythmia/tricuspid_redo/future
+      [The evolution of robotic cardiac surgery: state of the art and future perspectives].
+      G Ital Cardiol (Rome)  ptypes=Journal Article,Review,English Abstract
+
+[ 13] PMID 42249473 (2026) ROBO --- asd_tumor
+      Safety and efficacy of Da Vinci robot-assisted atrial septal defect repair in patients with different body mass index levels: a single-center retrospective analysis.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 13] PMID 42273302 (2026) ROBO PMC mitral/tricuspid_redo/future
+      Robotic Mitral Valve Repair in Patients With Thoracic Deformity.
+      Circ Rep  ptypes=Journal Article
+
+[ 12] PMID 16928484 (2006) ROBO --- tecab/arrhythmia/tricuspid_redo/future
+      Robotic-assisted coronary artery bypass on a beating heart: initial experience and implications for the future.
+      Ann Thorac Surg  ptypes=Clinical Trial,Journal Article
+
+[ 12] PMID 19542085 (2009) ROBO --- mitral/tecab
+      Robot-assisted cardiac surgery.
+      Interact Cardiovasc Thorac Surg  ptypes=Journal Article,Review
+
+[ 12] PMID 19799049 (2009) ROBO --- mitral
+      Robotics in cardiac surgery.
+      Scand J Surg  ptypes=Journal Article,Review
+
+[ 12] PMID 19853866 (2010) ROBO --- mitral/asd_tumor/port_setup
+      Excision of atrial myxoma using robotic technology.
+      J Thorac Cardiovasc Surg  ptypes=Journal Article,Research Support, Non-U.S. Gov't
+
+[ 12] PMID 21169153 (2010) ROBO --- tecab/tricuspid_redo
+      Is an intraaortic balloon pump a contraindication to robotic totally endoscopic coronary artery bypass?
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 12] PMID 22200951 (2012) ROBO PMC asd_tumor/port_setup
+      Total endoscopic robotic atrial septal defect repair in a patient with dextrocardia and situs inversus totalis.
+      Interact Cardiovasc Thorac Surg  ptypes=Case Reports,Journal Article
+
+[ 12] PMID 22380390 (2012) ROBO --- tecab/training/port_setup
+      Predicting target vessel location on robot-assisted coronary artery bypass graft using CT to ultrasound registration.
+      Med Phys  ptypes=Journal Article
+
+[ 12] PMID 22734359 (2011) ROBO --- mitral/asd_tumor
+      Asymptomatic chronic severe organic mitral regurgitation: contemporary management strategies.
+      Indian Heart J  ptypes=Journal Article,Review
+
+[ 12] PMID 23312792 (2013) ROBO --- tecab/training
+      Five hundred cases of robotic totally endoscopic coronary artery bypass grafting: predictors of success and safety.
+      Ann Thorac Surg  ptypes=Comparative Study,Journal Article,Multicenter Study
+
+[ 12] PMID 24077608 (2013) ROBO --- tecab/training/future
+      Minimally invasive coronary artery bypass grafting: is it time for the robot?
+      Curr Opin Cardiol  ptypes=Journal Article,Research Support, Non-U.S. Gov't,Review
+
+[ 12] PMID 24144629 (2014) ROBO --- mitral/tricuspid_redo
+      Robotic mitral valve repair: a review of anesthetic management of the first 200 patients.
+      J Cardiothorac Vasc Anesth  ptypes=Journal Article
+
+[ 12] PMID 24349974 (2013) ENDO PMC mitral/training
+      Cross-sectional survey on minimally invasive mitral valve surgery.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 24364014 (2013) ENDO PMC mitral/tecab/tricuspid_redo
+      Current concepts for minimally invasive mitral valve repair.
+      Heart Lung Vessel  ptypes=Journal Article,Review
+
+[ 12] PMID 25084245 (2014) ROBO --- mitral/tricuspid_redo
+      Robotic mitral valve replacement for severe rheumatic mitral disease: perioperative technique, outcomes, and early results.
+      Innovations (Phila)  ptypes=Evaluation Study,Journal Article
+
+[ 12] PMID 27654406 (2016) ROBO PMC mitral
+      Minimally Invasive Mitral Valve Surgery II: Surgical Technique and Postoperative Management.
+      Innovations (Phila)  ptypes=Consensus Statement,Journal Article
+
+[ 12] PMID 28203542 (2017) ROBO PMC mitral/asd_tumor
+      Robotic trans-atrial and trans-mitral ventricular septal resection.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 12] PMID 28329330 (2017) ROBO --- mitral/asd_tumor/arrhythmia/tricuspid_redo/port_setup
+      Three-port (one incision plus two-port) endoscopic mitral valve surgery without robotic assistance.
+      Eur J Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 28496870 (2013) ROBO PMC arrhythmia/port_setup
+      Differences In Tissue Injury and Ablation Outcomes In Atrial Fibrillation Patients - Manual versus Robotic Catheters.
+      J Atr Fibrillation  ptypes=Journal Article,Review
+
+[ 12] PMID 29232303 (2017) ROBO PMC asd_tumor/tricuspid_redo/port_setup
+      Totally Endoscopic Cardiac Surgery for Atrial Septal Defect Repair on Beating Heart Without Robotic Assistance in 25 Patients.
+      Innovations (Phila)  ptypes=Journal Article,Video-Audio Media
+
+[ 12] PMID 29387434 (2018) ENDO PMC mitral/tricuspid_redo
+      Beating heart minimally invasive mitral valve surgery in patients with previous sternotomy: the operative technique and early outcomes.
+      Open Heart  ptypes=Journal Article
+
+[ 12] PMID 30563771 (2019) ROBO --- mitral/tricuspid_redo
+      Systematic preoperative CT scan is associated with reduced risk of stroke in minimally invasive mitral valve surgery: A meta-analysis.
+      Int J Cardiol  ptypes=Journal Article,Meta-Analysis
+
+[ 12] PMID 30990582 (2019) ROBO --- tecab/port_setup
+      Robotic-assisted minimally invasive direct coronary artery bypass grafting in single vessel disease.
+      Multimed Man Cardiothorac Surg  ptypes=Case Reports,Journal Article,Review
+
+[ 12] PMID 31445088 (2020) ENDO --- mitral/training
+      Propensity-Matched Comparison of Two Different Access Modes for Minimally Invasive Mitral Valve Surgery.
+      Semin Thorac Cardiovasc Surg  ptypes=Comparative Study,Journal Article
+
+[ 12] PMID 31635830 (2019) ROBO --- mitral/tecab/tricuspid_redo
+      Robotic Mitral Valve Repair: Indication for Surgery Does Not Influence Early Outcomes.
+      Mayo Clin Proc  ptypes=Journal Article,Research Support, Non-U.S. Gov't
+
+[ 12] PMID 31784825 (2020) ENDO --- mitral/port_setup
+      A novel 'two-window' technique to facilitate totally 3D-endoscopic mitral valve repair.
+      Surg Today  ptypes=Journal Article
+
+[ 12] PMID 32968639 (2020) ENDO PMC mitral/training
+      Early clinical outcomes of thoracoscopic mitral valvuloplasty: a clinical experience of 100 consecutive cases.
+      Cardiovasc Diagn Ther  ptypes=Journal Article
+
+[ 12] PMID 33306326 (2020) ROBO PMC future
+      Robotic Cardiac Surgery in Colombia: Overcoming the Challenges of a Middle-income Setting.
+      Braz J Cardiovasc Surg  ptypes=Journal Article
+
+[ 12] PMID 33932160 (2021) ROBO PMC asd_tumor
+      Safety of perioperative period in robot-assisted atrial septal defect repair under hyperkalemic arrest.
+      JA Clin Rep  ptypes=Journal Article
+
+[ 12] PMID 34197045 (2021) ROBO --- asd_tumor/port_setup
+      Robot-assisted beating-heart surgery for atrial septal defect repair in a case of situs inversus totalis with dextrocardia.
+      Int J Med Robot  ptypes=Case Reports,Journal Article
+
+[ 12] PMID 34862051 (2023) ROBO --- training
+      Contemporary robotic cardiac surgical training.
+      J Thorac Cardiovasc Surg  ptypes=Editorial
+
+[ 12] PMID 35711214 (2022) ROBO PMC mitral/avr/tecab/asd_tumor/arrhythmia/tricuspid_redo
+      Multi-spectrum robotic cardiac surgery: Early outcomes.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 12] PMID 35711230 (2022) ROBO PMC mitral
+      Robotic mitral valve surgery after prior sternotomy.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 12] PMID 35799487 (2022) ROBO --- tricuspid_redo/training
+      [The Initial Learning Curve of Robot-assisted Cardiac Surgery].
+      Kyobu Geka  ptypes=Journal Article
+
+[ 12] PMID 36237586 (2022) ROBO PMC mitral/tecab/arrhythmia
+      Robotic versus conventional sternotomy mitral valve surgery: a systematic review and meta-analysis.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 36483611 (2022) ROBO PMC mitral/tecab/tricuspid_redo
+      Systematic review and meta-analysis of mid-term survival, reoperation, and recurrent mitral regurgitation for robotic-assisted mitral valve repair.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 36483615 (2022) ROBO PMC mitral/tricuspid_redo/training
+      Robotic mitral valve repair-the Bruxelles experience.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 36744731 (2023) ROBO --- tecab/training
+      Surgeon-Guided Robotic Arm Facilitates LIMA Takedown in MIDCAB Surgery.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 12] PMID 37233173 (2023) ROBO PMC asd_tumor
+      Minimal-Access Atrial Septal Defect (ASD) Closure.
+      J Cardiovasc Dev Dis  ptypes=Journal Article,Review
+
+[ 12] PMID 38420651 (2024) ENDO PMC mitral/tricuspid_redo/port_setup
+      Prediction of poor exposure in endoscopic mitral valve surgery using computed tomography.
+      Eur J Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 38541788 (2024) ROBO PMC arrhythmia
+      Robotic-Assisted Epicardial Hybrid Ablation and Left Appendage Closure in Persistent Atrial Fibrillation: First European Experience.
+      J Clin Med  ptypes=Journal Article
+
+[ 12] PMID 38590987 (2024) ROBO PMC mitral/tecab/arrhythmia
+      Atrial fibrillation ablation during robotic mitral valve surgery: a systematic review and meta-analysis.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 38627244 (2024) ROBO PMC tecab/port_setup
+      Subcostal bilateral internal thoracic artery harvesting with the da Vinci Single Port system: an experimental feasibility study.
+      Interdiscip Cardiovasc Thorac Surg  ptypes=Journal Article
+
+[ 12] PMID 38781502 (2024) ENDO PMC mitral/tecab/tricuspid_redo
+      Five-year outcomes of different techniques for minimally invasive mitral valve repair in Barlow's disease.
+      Eur J Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 39027000 (2024) ROBO PMC mitral/tricuspid_redo/port_setup
+      Possible role of QRS duration in the right ventricle as a perioperative monitoring parameter for right ventricular function: a prospective cohort analysis in robotic mitral valve surgery.
+      Front Cardiovasc Med  ptypes=Journal Article
+
+[ 12] PMID 39028800 (2024) ROBO PMC mitral/tecab/tricuspid_redo
+      Minimally Invasive Mitral Valve Surgery Using a Cold Fibrillatory Cardiac Arrest Technique in Patients With Prior Cardiac Surgery.
+      Tex Heart Inst J  ptypes=Journal Article
+
+[ 12] PMID 39064309 (2024) ENDO PMC mitral/tecab/tricuspid_redo
+      Hypothermic Ventricular Fibrillation in Redo Minimally Invasive Mitral Valve Surgery: A Promising Solution for a Surgical Challenge.
+      J Clin Med  ptypes=Journal Article
+
+[ 12] PMID 39267356 (2024) ROBO --- tecab/tricuspid_redo
+      Safety and Outcomes of Reoperative Robotic Tricuspid Valve Surgery.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 12] PMID 39359101 (2024) ROBO --- tecab
+      Robot-Assisted Multivessel Coronary Artery Bypass Grafting: Step by Step.
+      Innovations (Phila)  ptypes=Journal Article
+
+[ 12] PMID 39365729 (2024) ROBO --- mitral/port_setup
+      Closed-chest robotic mitral repair using a semi-rigid ring inserted through a trocar.
+      Eur J Cardiothorac Surg  ptypes=Journal Article,Case Reports
+
+[ 12] PMID 39434980 (2024) ROBO PMC tecab/future
+      The outcomes of robotic-assisted coronary artery bypass grafting surgery in the Atlantic demographic-a systematic review and meta-analysis of the literature.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 39515991 (2024) ROBO --- mitral/arrhythmia/future
+      Asymptomatic severe degenerative mitral regurgitation.
+      Heart  ptypes=Journal Article,Review
+
+[ 12] PMID 39991316 (2025) ROBO PMC tecab/training
+      Osteophyte of the first costochondral joint is a reliable landmark to facilitate standardized robotic left internal mammary artery harvesting.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 12] PMID 40535209 (2025) ROBO PMC asd_tumor/port_setup
+      Total endoscopic resection of left atrial myxoma.
+      Indian J Thorac Cardiovasc Surg  ptypes=Journal Article
+
+[ 12] PMID 40547424 (2025) ROBO PMC mitral/avr/tecab/arrhythmia/training
+      Advancing robotic aortic valve replacement beyond isolated therapy: a platform for multivalve therapy.
+      Ann Cardiothorac Surg  ptypes=Editorial
+
+[ 12] PMID 40671980 (2025) ENDO PMC mitral/avr/arrhythmia/tricuspid_redo/port_setup
+      Dual-Camera Port Setup Strategies for Totally Endoscopic Aortic and Mitral Valve Surgery.
+      Cureus  ptypes=Case Reports,Journal Article
+
+[ 12] PMID 41178916 (2025) ROBO PMC tecab/port_setup
+      Robotic approach for lymphadenectomy of internal mammary lymph nodes in breast cancer: Five case reports.
+      World J Clin Oncol  ptypes=Case Reports,Journal Article
+
+[ 12] PMID 41669167 (2026) ROBO PMC mitral
+      Intraoperative transesophageal echocardiography: the roadmap for successful mitral valve repair.
+      Ann Cardiothorac Surg  ptypes=Journal Article,Review
+
+[ 12] PMID 41669175 (2026) ROBO PMC mitral/tecab/tricuspid_redo
+      Outcomes of robotic repair for the degenerative mitral valve: a systematic review and meta-analysis.
+      Ann Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 41971857 (2026) ROBO PMC mitral/tecab/asd_tumor/arrhythmia/tricuspid_redo/port_setup
+      Endocardial obliterative left atrial appendage closure by inverted purse-string plication.
+      JTCVS Tech  ptypes=Journal Article
+
+[ 12] PMID 42045935 (2026) ENDO PMC mitral/tricuspid_redo
+      Mid-term outcomes after totally video guided thoracoscopic mitral valve surgery.
+      J Cardiothorac Surg  ptypes=Journal Article
+
+[ 12] PMID 42071073 (2026) ROBO --- tecab/training
+      Impact of surgical assistance by Japanese nurse practitioners in robotic-assisted coronary artery bypass graft surgery.
+      J Robot Surg  ptypes=Journal Article,Observational Study
+
+[ 12] PMID 42101408 (2026) ROBO PMC mitral/port_setup
+      Robotic Mitral Valve Repair With Severe Pectus Excavatum.
+      JACC Case Rep  ptypes=Case Reports,Journal Article
+
+[ 12] PMID 42292120 (2026) ROBO PMC tecab/arrhythmia
+      Dark sides and warm rides: Is cardiopulmonary bypass necessary for grafting posterior wall targets in robotic totally endoscopic coronary bypass?
+      JTCVS Tech  ptypes=Journal Article
+
+[ 12] PMID 42306679 (2026) ROBO PMC mitral/arrhythmia/tricuspid_redo
+      Robotic mitral valve repair in octogenarians: safety and clinical outcomes compared with younger patients.
+      J Thorac Dis  ptypes=Journal Article
+
+[ 12] PMID 42386682 (2026) ENDO PMC mitral
+      Comparison of Cannulation Strategies for Minimally Invasive Mitral Valve Surgery.
+      Interdiscip Cardiovasc Thorac Surg  ptypes=Journal Article,Comparative Study,Multicenter Study
+
+[ 11] PMID 12759212 (2002) ROBO --- tecab/port_setup
+      Echocardiographic findings in minimally invasive coronary artery bypass grafting: The role of intrathoracic CO2 - insufflation and single lung ventilation.
+      Heart Surg Forum  ptypes=Journal Article
+
+[ 11] PMID 12970205 (2003) ROBO --- tecab/port_setup
+      Endoscopic exposure and stabilization of posterior and inferior branches using the endo-starfish cardiac positioner and the endo-octopus stabilizer for closed-chest beating heart multivessel CABG: hemodynamic changes in the pig.
+      Circulation  ptypes=Evaluation Study,Journal Article
+
+[ 11] PMID 14729813 (2004) ROBO PMC asd_tumor/tricuspid_redo/training
+      Computed tomographic virtual cardioscopy in a case of left atrial myxoma.
+      Heart  ptypes=Case Reports,Journal Article
+
+[ 11] PMID 16863775 (2006) ROBO --- tecab/training/future
+      Prospective angiographic comparison of direct, endoscopic, and telesurgical approaches to harvesting the internal thoracic artery.
+      Ann Thorac Surg  ptypes=Comparative Study,Journal Article
+
+[ 11] PMID 18000946 (2007) ROBO --- port_setup
+      Optimizing port placement for robot-assisted minimally invasive cardiac surgery.
+      Int J Med Robot  ptypes=Journal Article,Research Support, Non-U.S. Gov't
+

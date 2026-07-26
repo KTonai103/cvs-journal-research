@@ -1,0 +1,785 @@
+Kazuki Noda, Yosuke Takahashi, Akimasa Morisaki, Kenta Nishiya, Goki Inno, Takumi Kawase,
+Yukihiro Nishimoto, Munehide Nagao, Ryo Nangoya, Toshihiko Shibata
+
+Feasibility of Robotic-Assisted Mitral Ring Annuloplasty Using the
+Continuous Wrapping Suture Technique: A Single-Centre
+Experience
+
+ORIGINAL ARTICLE
+
+Wrapping Suture Technique: A Single-Centre Experience. Interdiscip CardioVasc Thorac Surg 2025; doi:10.1093/icvts/ivaf223.
+
+Feasibility of Robotic-Assisted Mitral Ring Annuloplasty Using the
+Continuous Wrapping Suture Technique: A Single-Centre Experience
+
+Department of Cardiovascular Surgery, Osaka Metropolitan University, Osaka 545-8585, Japan
+�Corresponding author. Department of Cardiovascular Surgery, Osaka Metropolitan University, 1-4-3, Asahi-chou, Abeno-ku, Osaka 545-8585, Japan
+(takahashi.yosuke@omu.ac.jp).
+Received: July 29, 2025; Revised: August 14, 2025; Accepted: September 6, 2025
+
+Graphical abstract
+
+Abstract
+Objectives: Robotic-assisted mitral ring annuloplasty is safe and effective; however, the use of conventional interrupted suture may pro­
+long operative time. This study retrospectively evaluated the safety and feasibility of continuous wrapping suture for annuloplasty in
+robotic-assisted mitral valve (MV) repair.
+Methods: This study included 581 patients who underwent MV repair with annuloplasty ring replacement at our institution between
+2010 and 2023. Among the 581 patients, 168 who underwent MV repair with the continuous wrapping suture technique were included
+in the main analysis. In the continuous wrapping suture technique, the ring was fixed at both the fibrous trigones of the anterior leaflet
+
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+Kazuki Noda; Yosuke Takahashi �; Akimasa Morisaki ; Kenta Nishiya; Goki Inno; Takumi Kawase ;
+Yukihiro Nishimoto; Munehide Nagao; Ryo Nangoya; Toshihiko Shibata
+
+VALVULAR
+HEART DISEASE
+
+Interdisciplinary CardioVascular and Thoracic Surgery 2025, 40(10), ivaf223
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+and was continuously sutured to wrap it circumferentially. The primary outcomes were perioperative procedure-related complications
+and ring dehiscence during the observation period.
+Results: The median follow-up duration was 2.7 years. There were no annuloplasty-related complications, including left circumflex artery
+(LCX) injury and prosthetic ring dehiscence. The 1-year and 3-year postoperative recurrence rates of moderate or severe mitral regurgita­
+tion were 1.8% and 2.2%, respectively. Moreover, in the whole 581 patients who underwent mitral ring annuloplasty, multivariable analy­
+sis confirmed that the wrapping suture technique was significantly associated with a reduction in the 1-year postoperative mean MV
+pressure gradient (mean ratio 0.802; 95% CI, 0.728-0.884; P < .001).
+Conclusions: The wrapping suture technique for robotic-assisted MV repair with ring annuloplasty is safe and effective, with no ob­
+served cases of LCX injury or ring dehiscence, and may serve as a reasonable alternative in anatomically challenging cases.
+
+INTRODUCTION
+Robotic-assisted mitral valve (MV) repair has emerged as a safe
+and effective method for treating MV pathology.1–3 Several studies
+have also reported its feasibility and safety for more complex mitral
+lesions, and concomitant procedures have been reported in several
+studies.4,5 To achieve complex valve repair, we have modified our
+ring annuloplasty technique by utilizing the advantages of roboticassisted surgery, rendering the procedure more streamlined and
+reproducible.
+Rings are typically secured with multiple interrupted sutures,
+each anchored with individual mattress sutures. This process
+prolongs the operative time in robotic-assisted MV repair owing
+to the need for suture material exchange, time-consuming knot
+tying, and reliance on assistance from bedside surgeon.6
+In 2018, we initiated robotic-assisted MV repair with annulo­
+plasty using the continuous wrapping suture technique2,7 as an
+alternative for the conventional interrupted suture technique
+owing to the latter’s technical complexity under limited visibility.
+The conventional technique involves passing the suture from the
+left atrium to the left ventricle and then back to the left atrium.
+Meanwhile, the wrapping suture technique follows a perpendic­
+ular approach to the annulus, in which the suture passes from
+the annulus to the left atrium. However, the technical advan­
+tages and complications of continuous wrapping suture for
+annuloplasty have not yet been fully elucidated.
+This study aimed to retrospectively investigate the early and
+mid-term outcomes of robotic-assisted MV repair with annulo­
+plasty using the continuous wrapping suture and assess the
+safety and feasibility of this technique.
+
+PATIENTS AND METHODS
+Ethics statement
+This study did not involve the collection or storage of patient data
+or biological materials for multiple or indefinite use, and no thirdparty managed databases or biobanks were utilized. Before surgery,
+written informed consent for the procedure and the use of data
+were obtained from the patients. Data collection, analysis, and
+reporting were approved by the Osaka Metropolitan University
+Institutional Review Board (Reference number 2024-015).
+
+Study cohort and data collection
+The institutional surgical database included 598 patients who
+underwent MV repair in Osaka Metropolitan University Hospital
+
+between 2010 and 2023. Of them, 14 who underwent MV repair
+without annuloplasty for primary mitral regurgitation (MR) due
+to infective endocarditis or cardiac tumour, 2 who underwent
+MV re-repair without removal of the previous ring, and 1 who
+underwent intraoperative conversion of MV replacement follow­
+ing annuloplasty were excluded from the study. Among the 581
+patients, 168 who underwent MV repair with the continuous
+wrapping suture technique were included in the main analysis.
+The continuous wrapping suture technique was consistently per­
+formed by a single surgeon throughout the study period, ensur­
+ing procedural uniformity. The remaining 413 patients who
+underwent the conventional interrupted suture technique by
+multiple surgeons were not included in the primary analysis but
+were analysed separately in subgroup analysis and described in
+the baseline characteristics table (Figure 1).
+
+Echocardiography and surgical indication
+Transthoracic echocardiography was routinely performed within
+1 week preoperatively, 1 week postoperatively, and annually
+thereafter. The regurgitation severity was classified as none, triv­
+ial, mild, mild to moderate, moderate, and severe using colour
+flow Doppler data. The MR type was determined according to
+the Carpentier classification.8 A minimally invasive approach or
+robotic-assisted MV repair was indicated for clinically relevant
+MR, except for cases with severe lung disease, moderate aortic
+regurgitation, severe left ventricular dysfunction, and a previous
+history of cardiac surgery. As part of the preoperative assess­
+ment, three-dimensional cardiac computed tomography (3DCT) was routinely performed to evaluate the anatomical
+relationship between the left circumflex artery (LCX) and the
+posterior mitral annulus. The surgical robot used in this study
+was the da Vinci Surgical System Si and Xi (Intuitive Surgical Inc.,
+Sunnyvale, CA, United States). The institutional heart team,
+which consisted of cardiologists, radiologists, and surgeons,
+made the final decision with primary reference to published
+guidelines.9,10
+
+Procedure
+The MV was observed via a right-sided left atrial approach
+through a right mini-thoracotomy in all cases. All the patients in
+this study underwent MV repair with annuloplasty. Chordal re­
+construction with or without the use of the loop technique11
+was performed if leaflet prolapse occurred. Furthermore, autolo­
+gous pericardial patch augmentation of the posterior leaflet was
+performed if a large gap between the anterior and posterior
+
+Keywords: mitral valve annuloplasty; ring annuloplasty; continuous wrapping suture.
+
+VALVULAR
+HEART DISEASE
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+leaflets due to severe posterior leaflet tethering was observed.
+Conversely, simple height reduction was performed at the sur­
+geon’s discretion12 if there was a high risk of systolic anterior
+motion with the redundant posterior leaflet. After intercommis­
+sural distance and anterior MV sizing, a prosthetic ring
+was implanted.
+
+Ring annuloplasty
+In the continuous wrapping suture technique, a prosthetic ring
+was attached to the mitral annulus with two CV4 polytetra­
+fluoroethylene sutures (GORE-TEX; W.L. Gore and Associates
+Inc., Newark, DE, United States). The sutures were placed starting
+at both the fibrous trigones of the anterior leaflet. They were ini­
+tially applied clockwise from the medial fibrous trigone to the
+midportion of the posterior leaflet while adjusting the placement
+of the ring to ensure uniform annular reduction. For a full ring,
+the sutures were continued along the anterior leaflet. Finally, the
+sutures were applied counterclockwise from the lateral fibrous
+trigone back to the midportion of the posterior leaflet. The pro­
+cedure for continuous wrapping suturing is shown in
+Figure 2A-D and Supplementary Video 1.
+In the conventional interrupted suture technique, individual
+sutures were placed circumferentially around the mitral annulus
+with 2-0 polyester sutures. Hand-tying was performed using a
+knot pusher in most cases to ensure secure fixation of the annu­
+loplasty ring. In more recent cases, however, the COR-KNOT de­
+vice (LSI Solutions Inc., Victor, NY, United States) has also been
+used as an alternative for suture fastening.
+
+Definitions and clinical follow-up
+The primary outcome was intra- or postoperative procedurerelated complications, including LCX injury and prosthesis ring
+dehiscence. Other outcomes of interest were mortality, major
+complications, an unscheduled heart failure admission, MV
+
+Figure 2. Schemas of the Mitral Annuloplasty with a Full Ring Using the
+Continuous Wrapping Suture. First, a Prosthesis Ring Is Attached with CV4
+Polytetrafluoroethylene Sutures at Both Fibrous Trigones of the Anterior
+Leaflet (A). Next, the Ring Is Attached Clockwise from the Medial Fibrous
+Trigone to the Midportion of the Posterior Leaflet (B). The Sutures Are Then
+Continued along the Anterior Leaflet (C). Finally, the Ring Is Attached
+Counterclockwise from the Lateral Fibrous Trigone Back to the Midportion of
+the Posterior Leaflet (D).
+
+reintervention, change in MR severity following surgery, and su­
+ture time required for only ring annuloplasty using the wrapping
+suture technique. The diagnosis of postoperative recurrent heart
+failure was based on clinical symptoms, physical signs, or radio­
+logical evidence of pulmonary congestion. Suture time was de­
+fined as the duration from suture placement at the fibrous
+trigone to knot tying. Postoperative follow-up was conducted in
+outpatient clinics and via telephone survey and was completed
+by all patients with a median duration of 2.7 (interquartile range
+[IQR], 1.5-3.9) years. Postoperative follow-up with echocardiog­
+raphy at 1 year was conducted in 97% of the patients.
+
+Figure 1. Flow Chart of Patient Selection.
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Statistical analysis
+
+RESULTS
+Patient background
+The patients’ background characteristics are presented in Table 1.
+The median age was 62 (IQR, 53-71) years. Preoperative
+
+Procedural data
+Details of the surgery and concomitant procedures are summa­
+rized in Table 2. The robotic-assisted approach was applied in
+all patients with the wrapping suture technique. Most of all were
+performed with the additional MV procedure, not only mitral
+ring annuloplasty.
+
+Postoperative outcomes
+No patient experienced in-hospital death. Notably, as shown in
+Table 3, there were no annuloplasty-related complications, in­
+cluding LCX injury and prosthetic ring dehiscence.
+The 1- and 3-year cumulative probability of MV reintervention
+were 0.7% (95% CI, 0%-2%) and 0.7% (95% CI, 0%-2%), respectively
+(Figure 3A). Moreover, the respective 1- and 3-year cumulative
+probability of admission for cardiac failure were 2.0% (95% CI,
+0%-4.2%) and 3.7% (95% CI, 0%-7.7%), respectively (Figure 3B).
+The 1-year and 3-year postoperative recurrence rates of moderate
+or severe MR were 1.8% and 2.2%, respectively.
+
+Table 1. Patient Characteristics
+Preoperative variables
+
+Interrupted suture (n = 413)
+
+Wrapping suture (n = 168)
+
+SMD
+
+Age (years)
+BSA (m2)
+Male
+NYHA class 3 or 4
+Atrial fibrillation
+Hypertension
+Dyslipidaemia
+Diabetes mellitus
+Old cerebral infarction
+Coronary artery disease
+Low-EF (EF <30%)
+Obstructive ventilatory defect (FEV1.0% <70%)
+Renal dysfunction (Cre >1.5 mg/dl)
+Liver cirrhosis
+Previous open-heart surgery
+Previous mitral valve procedure
+Previous pacemaker implantation
+Preoperative echocardiography findings
+MR grade moderate or severe
+Carpentier classification of MR
+Type 1
+Type 2
+Type 3a
+Type 3b
+Ring type
+Full ring
+Rigid or semi-rigid ring
+Ring size (mm)
+
+70 (60, 76)
+1.59 (1.44, 1.72)
+232 (56.0%)
+71 (17.2%)
+164 (39.7%)
+234 (56.7%)
+121 (29.3%)
+60 (14.5%)
+38 (9.2%)
+80 (19.4%)
+13 (3.2%)
+77 (18.6%)
+53 (12.8%)
+5 (1.2%)
+16 (3.9%)
+1 (0.2%)
+7 (1.7%)
+
+62 (53, 71)
+1.65 (1.52, 1.81)
+104 (61.9%)
+3 (1.8%)
+37 (22%)
+84 (50.0%)
+38 (22.6%)
+12 (7.1%)
+9 (5.4%)
+16 (9.5%)
+0 (0%)
+31 (18.5%)
+7 (4.2%)
+1 (0.6%)
+0 (0%)
+0 (0%)
+0 (0%)
+
+0.452
+0.059
+0.117
+0.545
+0.390
+0.134
+0.153
+0.239
+0.148
+0.283
+0.256
+0.005
+0.315
+0.065
+0.284
+0.070
+0.186
+
+337 (81.6%)
+
+165 (98.2%)
+
+0.574
+0.848
+
+143 (34.6%)
+247 (59.8%)
+1 (0.2%)
+22 (5.3%)
+
+12 (7.1%)
+155 (92.3%)
+1 (0.6%)
+0 (0%)
+
+380 (92%)
+401 (97.1%)
+28 (28, 30)
+
+121 (72%)
+119 (70.8%)
+30 (29, 32)
+
+0.539
+0.766
+0.868
+
+Continuous variables are presented as median (IQR), whereas categorical variables are presented as number (%).
+Abbreviations: BSA, body surface area; Cre, serum creatinine level; EF, ejection fraction; FEV, forced expiratory volume; MR, mitral regurgitation; NYHA, New
+York Heart Association; SMS, standardized mean difference.
+
+Categorical data were expressed as frequencies and proportions
+and compared using the chi-squared test or Fisher’s exact test as
+appropriate. Meanwhile, continuous data were expressed as me­
+dian with IQRs; unpaired data were compared using the MannWhitney U test, whereas paired data were compared using the
+Wilcoxon signed-rank test. Statistical significance was defined as
+2-tailed P < .05 and standardized mean difference (SMD) > 0.10.
+No adjustments were made for multiple comparisons. Missing
+data were limited to a few postoperative echocardiographic
+findings. These data were treated as “not available” and excluded
+from the relevant analyses. The outcomes were assessed using
+linear, logistic, or Cox proportional-hazards regression to adjust
+for confounding factors. Robust standard errors, including the
+sandwich estimator, were applied to account for potential viola­
+tions of model assumptions. All P-values may not be interpreted
+as confirmatory but descriptive. The R software version 4.3.1
+(The R Foundation for Statistical Computing, Vienna, Austria)
+was used to conduct statistical analyses.
+
+echocardiography revealed that the MR severity was moderate or
+severe in 165 (98.2%) patients. Furthermore, a high proportion of
+patients had Carpentier type 2 MR (92.3%). A total of 121 (72%)
+patients underwent annuloplasty using a full ring, whereas 119
+(70.8%) underwent annuloplasty using a rigid or semi-rigid type
+of ring.
+
+Table 2. Perioperative Outcomes
+Variables
+
+Wrapping suture (n = 168)
+
+SMD
+
+346 (83.8%)
+10 (2.4%)
+57 (13.8%)
+314 (76.0%)
+231 (55.9%)
+20 (4.8%)
+207 (50.1%)
+18 (4.4%)
+19 (4.6%)
+
+0 (0%)
+168 (100%)
+0 (0%)
+159 (94.6%)
+158 (94.0%)
+1 (0.6%)
+71 (42.3%)
+23 (13.7%)
+1 (0.6%)
+
+3.214
+8.978
+0.566
+0.545
+0.980
+0.263
+0.158
+0.330
+0.254
+
+72 (17.4%)
+172 (41.6%)
+58 (14.0%)
+100 (24.2%)
+27 (6.5%)
+328 (272, 418)
+159 (130, 188)
+48 (11.6%)
+366 (88.6%)
+
+29 (17.3%)
+33 (19.6%)
+0 (0%)
+0 (0%)
+0 (0%)
+296 (261, 344)
+134 (107, 165)
+6 (3.6%)
+85 (50.6%)
+
+0.005
+0.491
+0.572
+0.799
+0.374
+0.450
+0.576
+0.307
+0.908
+
+Continuous variables are presented as median (IQR), whereas categorical variables are presented as number (%).
+Abbreviations: CABG, coronary artery bypass grafting; MICS, minimally invasive cardiac surgery; SMS, standardized mean difference.
+
+Table 3. Intra- and Postoperative Complications
+Variables
+
+Wrapping
+suture
+(n = 168)
+
+In-hospital death
+ICU and HCU day (days)
+Hospital day (days)
+Inoperative LCX injury
+Other coronary events
+Re-sternotomy or conversion
+Mediastinitis
+Aortic dissection
+Pacemaker implantation
+Cerebrovascular accident
+Acute renal failure requiring dialysis
+The 1-year postoperative echocardiography findings
+MR grade moderate or severe
+Mean MV pressure gradient (mmHg)
+Long-term outcomes
+Long-term mortality
+Admission for cardiac failure
+Ring dehiscence
+Mitral valve reintervention
+
+0 (0%)
+2 (2, 2)
+10 (9, 12)
+0 (0%)
+0 (0%)
+2 (1.2%)
+0 (0%)
+0 (0%)
+0 (0%)
+1 (0.6%)
+0 (0%)
+3 (1.8%)
+2 (2, 3)
+2 (1.2%)
+4 (2.4%)
+0 (0%)
+1 (0.6%)
+
+Continuous variables are presented as median (IQR), whereas categorical
+variables are presented as number (%).
+Abbreviations: HCU, high care unit; ICU, intensive care unit; LCX, left cir­
+cumflex artery; MR, mitral regurgitation; MV, mitral valve.
+
+Minimal learning curve in the wrapping
+suture technique
+The median suture time required for only the ring annuloplasty
+procedure using the wrapping suture technique was 23 (IQR, 2127) min. The learning curve and scatter plot of the procedural time
+are presented in Figure 3C. The procedural time significantly
+
+decreased with each successive case (P < .001), particularly after
+surpassing 50 cases. The learning curve of the procedural time,
+stratified by ring type (full or partial), is illustrated in Figure 3D.
+Similarly, the procedural time significantly decreased, particularly
+for the partial ring group, whereas the interaction between the full
+or partial ring groups was not statistically significant (P ¼ .226).
+
+Factors affecting the 1-year postoperative MV
+function in the subgroup analysis
+In the whole 581 patients who underwent mitral ring annulo­
+plasty, multivariable logistic regression analysis, with adjustment
+for MV repair procedures and the ring type, revealed that the
+use of the wrapping suture technique was not a significant factor
+for predicting the 1-year recurrence of moderate or severe MR
+(OR 0.528; 95% CI, 0.146-1.90; P ¼ .328) (Table 4). In contrast,
+the posterior leaflet extension or patch reconstruction was iden­
+tified as an independent risk factor for MR recurrence (OR 6.41;
+95% CI, 1.62-25.3; P ¼ .008) (Supplementary Table S1).
+Moreover, the wrapping suture technique was confirmed to be
+significantly associated with a reduction in the 1-year postopera­
+tive mean MV pressure gradient in the same model (mean ratio
+0.802; 95% CI, 0.728-0.884; P < .001) (Table 4). In addition, the
+pressure gradient decreased with increasing ring size (mean ratio
+0.948; 95% CI, 0.933-0.964; P < .001), suggesting a sizedependent reduction effect (Supplementary Table S2).
+
+DISCUSSION
+This study evaluated the early and mid-term outcomes of
+robotic-assisted MV repair with annuloplasty using the continu­
+ous wrapping suture technique. The patients who underwent
+this procedure did not develop related complications or pros­
+thetic ring dehiscence.
+
+Operative details
+Operative approach
+Median sternotomy
+Robotic
+MICS
+Additional mitral valve procedure
+Loop technique or chordal reconstruction
+Resection and suture
+Leaflet plication
+Height reduction
+Posterior leaflet extension or patch reconstruction
+Concomitant procedures
+Maze procedure
+Tricuspid valve repair or replacement
+CABG
+Aortic valve repair or replacement
+Graft replacement
+Operation time (min)
+Cardiac arrest time (min)
+Second arrest
+Transfusion
+
+Interrupted suture (n = 413)
+
+VALVULAR
+HEART DISEASE
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Table 4. Univariate and Multivariate Regression Analysis on Outcomes in the Whole Patients Who Underwent Mitral Ring
+Annuloplasty
+Outcomes
+
+1-year postoperative MR grade moderate or severe
+Odds ratio (95% CI)
+P-value
+1-year postoperative mean MV pressure gradient
+Mean ratio (95% CI)
+P-value
+
+Wrapping suture
+Univariate
+
+Multivariatea
+
+0.449 (0.127-1.58)
+.213
+
+0.528 (0.146-1.90)
+.328
+
+0.709 (0.654-0.770)
+<.001
+
+0.802 (0.728-0.884)
+<.001
+
+a
+
+See adjusted models shown in Supplementary Tables S1 and S2.
+Abbreviations: MR, mitral regurgitation; MV, mitral valve.
+
+We suggested that robotic-assisted mitral ring annuloplasty using
+the wrapping suture offers several advantages, particularly in ro­
+botic surgery. First, this procedure may improve the efficiency of
+ring annuloplasty by reducing the procedural workload. In particu­
+lar, the continuous suture technique minimizes the need for fre­
+quent suture exchanges and simplifies intraoperative suture
+handling, which can be particularly advantageous in the limited op­
+erative field of robotic surgery. In addition, the wrapping suture
+
+technique has cost-saving implications. Interrupted suture often
+requires time-consuming knot tying, thereby prolonging the aortic
+cross-clamp time. Although the COR-KNOT device (LSI Solutions
+Inc., Victor, NY, United States), an automated suture fastening sys­
+tem, can reduce the procedural time and improve efficiency in the
+interrupted sutures,13 its high cost cannot be overlooked. To re­
+duce the knot-tying time, we used a pre-knotted CV4 suture,14
+which was tied over a nerve hook, and modified it so that only one
+
+Figure 3. Cumulative Event Rates for Mitral Valve re-Intervention (A) and Hospital Admission Due to Cardiac Failure (B). The Learning Curve and Scatter Plot of the
+Wrapping Suture Times (C) and the Learning Curve of the Procedural Times, Stratified by Full or Partial Ring Usage (D).
+
+tolerated without resulting in ring dehiscence. Further investigation
+with long-term follow-up is warranted to evaluate the relationship
+between the prosthetic ring size and the preoperative 3D-CT meas­
+urements of the mitral annular diameter, with the aim of identify­
+ing patients at higher risk of ring dehiscence.
+
+Limitations
+The present study was a retrospective study conducted in a sin­
+gle centre and included a limited number of patients.
+Furthermore, there were a few patients in this study who had
+ischaemic MR, which is a potential risk factor for ring dehis­
+cence24 due to aggressive annular downsizing. Moreover, while
+many patients underwent ring annuloplasty with rigid and full
+rings, the choice of the prosthetic ring and surgical technique for
+MV repair was based on each surgeon’s judgement. Finally, not
+all patients underwent 1-year follow-up, including echocardiog­
+raphy, which is mandatory to confirm the benefits of MV repair.
+
+CONCLUSIONS
+This study demonstrates that the wrapping suture technique for
+robotic-assisted MV repair with ring annuloplasty is a safe and
+effective method, as no LCX injury or ring dehiscence was ob­
+served during the early- to mid-term follow-up. These findings
+suggest that the technique may be a reasonable alternative in
+selected cases. However, a long-term follow-up is required to
+evaluate the durability of this technique.
+
+ACKNOWLEDGEMENTS
+We would like to thank Nickson Phillips from Enago (www.enago.
+jp) for the English language review.
+
+AUTHOR CONTRIBUTIONS
+Kazuki Noda (Conceptualization, Data curation, Investigation,
+Methodology, Project administration, Visualization, Writing—
+original draft, Writing—review & editing). Yosuke Takahashi
+(Conceptualization, Data curation, Supervision, Writing—review
+& editing). Akimasa Morisaki (Writing—review & editing). Kenta
+Nishiya (Writing—review & editing). Goki Inno (Writing—review
+& editing). Takumi Kawase (Writing—review & editing). Yukihiro
+Nishimoto (Writing—review & editing). Munehide Nagao
+(Writing—review & editing). Ryo Nangoya (Writing—review &
+editing). Toshihiko Shibata (Conceptualization, Methodology,
+Supervision, Writing—review & editing).
+
+SUPPLEMENTARY MATERIAL
+Supplementary material is available at ICVTS online.
+
+FUNDING
+There was no funding provided.
+
+final knot was required. Therefore, the wrapping suture technique
+is more cost-effective, making it a reasonable alternative.
+There have been reports on the safety and effectiveness of the
+use of barbed sutures for running sutures, specifically for partial
+annuloplasty.3,15 As the suturing alternates between the annulus
+and the ring in the running suture, the suture time is much
+shorter compared to the wrapping sutures. However, the por­
+tion of the suture attached to the ring could not effectively en­
+gage the annulus, which may result in suboptimal mitral annulus
+plication. Furthermore, the application of the same running
+sutures to a full ring may be challenging. In contrast, although
+the wrapping suture technique requires adjustment of the suture
+position where the suture is placed on the prosthetic ring with
+each stitch, it allows for a more accurate and uniform annulo­
+plasty. In addition, securing the centre of the P2 segment with a
+temporary suture before plication may facilitate a more uniform
+plication. The approximately 20% reduction in the postoperative
+mean MV pressure gradient compared to the interrupted suture
+is potential evidence of more uniform annuloplasty.
+LCX stenosis or occlusion during mitral annuloplasty can oc­
+cur due to stitching of the mitral annulus, including direct injury
+and distortion of the artery caused by excessive tissue retraction,
+particularly from large or deep suture bites.16 Therefore, we
+needed to take care to avoid taking large and deep bites, espe­
+cially when suturing the lateral side of the mitral annulus.
+Additionally, approximately 5 shallow stitches are typically
+placed from the anterolateral commissure to the P1 segment in
+our cases, which may help reduce the risk of ring dehiscence. To
+prevent these complications, preoperative 3D-CT is employed to
+recognize the anatomical relationship between the LCX and the
+mitral annulus.17 By identifying factors such as the close proxim­
+ity of the LCX and the left coronary artery dominance, which are
+potential risk factors for LCX injury,18 we ensured the safe appli­
+cation of the wrapping suture technique.
+In cases with close anatomical coronary annular distance, as il­
+lustrated in the central image, passing the suture from the left
+atrium to the left ventricle and exiting again on the atrial side,
+which essentially represents parallel needle insertion to the annu­
+lus, may increase the risk of LCX injury. The wrapping suture tech­
+nique, which involves a perpendicular insertion to the annulus,
+may be advantageous in such anatomically constrained settings.
+No LCX injury was observed in our cohort, suggesting that this
+technique may be a viable alternative to conventional approaches.
+Mitral prosthetic ring dehiscence is a rare but challenging proce­
+dural failure.19 Although numerous factors are known to increase
+the risk of ring dehiscence, this multifactorial complication can gen­
+erally be categorized into 4 domains: ring characteristics, valve pa­
+thology, patient characteristics, and technical factors.20 Notably,
+despite the use of a rigid ring in the majority of cases, ring dehis­
+cence did not occur, highlighting the clinical utility of the wrapping
+suture technique. However, the annular reduction rate could not
+be included as a covariate owing to insufficient data on the rela­
+tionship between the prosthetic ring size and the precise mitral an­
+nulus size. A previous laboratory study reported that undersized
+rings had higher contractile forces on the sutures as they con­
+stricted the annulus, potentially increasing the risk of ring dehis­
+cence.21 Clinically, we previously showed that the posterior annular
+plication rate, which was quantified as the ratio of the posterior
+ring length to the posterior annular length, may serve as an impor­
+tant parameter for ring size selection,22 particularly given that an­
+nular dilatation may affect the posterior annular side.23 These
+findings suggested that a certain degree of overplication may be
+
+VALVULAR
+HEART DISEASE
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, Volume 40, Issue 10
+
+CONFLICTS OF INTEREST
+None declared.
+
+DATA AVAILABILITY
+According to applicable data protection laws, the data that served
+as the basis for this article cannot be disclosed to the general pub­
+lic. Nonetheless, with the ethics committee’s approval, the data will
+be made available to the relevant author upon reasonable request.
+
+0[1] Suri RM, Dearani JA, Mihaljevic T, et al. Mitral valve repair using robotic
+technology: safe, effective, and durable. J Thorac Cardiovasc Surg. 2016;
+151:1450-1454.
+0[2] Murphy DA, Moss E, Binongo J, et al. The expanding role of endoscopic
+robotics in mitral valve surgery: 1,257 consecutive procedures. Ann
+Thorac Surg. 2015;100:1675-1681; discussion 81–2.
+0[3] Tarui T, Ishikawa N, Horikawa T, et al. First major clinical outcomes of
+totally endoscopic robotic mitral valve repair in Japan—a single-center
+experience. Circ J. 2019;83:1668-1673.
+0[4] Kobayashi K, Guo Y, Rubino TE, et al. Feasibility, safety and quality of
+complex mitral valve repair in the early phase of a robotic surgery pro­
+gramme. Interdiscip CardioVasc Thorac Surg. 2024;39:ivae182.
+0[5] Fujita T, Kakuta T, Kawamoto N, et al. Benefits of robotically-assisted
+surgery for complex mitral valve repair. Interact CardioVasc Thorac Surg.
+2021;32:417-425.
+0[6] Mihaljevic T, Jarrett CM, Gillinov AM, Blackstone EH. A novel running
+annuloplasty suture technique for robotically assisted mitral valve re­
+pair. J Thorac Cardiovasc Surg. 2010;139:1343-1344.
+0[7] Lawrie GM, Earle EA, Earle NR. Nonresectional repair of the Barlow mi­
+tral valve: importance of dynamic annular evaluation. Ann Thorac Surg.
+2009;88:1191-1196.
+0[8] Carpentier A. Cardiac valve surgery—the French correction. J Thorac
+Cardiovasc Surg. 1983;86:323-337.
+0[9] Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA guideline for
+the management of patients with valvular heart disease: executive sum­
+mary: a report of the American College of Cardiology/American Heart
+Association Joint Committee on clinical practice guidelines. Circulation.
+2021;143:e35-e71.
+
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits
+unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+Interdisciplinary CardioVascular and Thoracic Surgery, 2025, 40, ivaf223
+Original article

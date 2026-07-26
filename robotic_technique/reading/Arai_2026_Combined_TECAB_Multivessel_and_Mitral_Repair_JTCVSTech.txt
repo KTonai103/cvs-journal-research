@@ -1,0 +1,222 @@
+ADULT: CORONARY: CASE REPORT
+
+Combined robotic totally endoscopic multivessel
+coronary artery bypass and mitral valve repair
+Akihito Arai, MD, Hiroto Kitahara, MD, and Husam H. Balkhy, MD, Chicago, Ill
+From the Department of Cardiothoracic Surgery, University of Chicago, Chicago, Ill.
+Read at the 105th Annual Meeting of the American Association for Thoracic Surgery, Seattle, Washington,
+May 2-5, 2025.
+IRB/Consent: This single-patient case report does not constitute research; thus, Institutional Review Board
+approval was not required. Written informed consent for publication of clinical details and images was obtained
+from the patient.
+Received for publication Aug 24, 2025; revisions received Nov 18, 2025; accepted for publication Nov 24, 2025;
+available ahead of print Dec 1, 2025.
+Address for reprints: Husam H. Balkhy, MD, Department Cardiothoracic Surgery, University of Chicago, 5841 S
+Maryland Ave, E-500, Chicago, IL 60637 (E-mail: hbalkhy@bsd.uchicago.edu).
+JTCVS Techniques 2026;35:102169
+2666-2507
+Surgery. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/bync-nd/4.0/).
+
+Video clip is available online.
+
+Robotic totally endoscopic coronary artery bypass (TECAB)
+or mitral valve repair (MVR) are established,1 but combined
+surgery remains technically challenging. We report an
+80-year-old man undergoing combined robotic TECAB and
+MVR, detailing steps and early outcomes.
+CASE PRESENTATION
+An 80-year-old man with severe mitral regurgitation
+presented. Transesophageal echocardiography showed left
+ventricular ejection fraction 57% and moderate-to-severe
+A2–P2/A3-P3 regurgitation. Coronary angiography revealed
+90% proximal left anterior descending artery (LAD) and
+70% mid-first diagonal branch stenoses. Computed tomography demonstrated diffuse aortic calcifications and scattered
+atheromatous plaques (Video 1). After informed discussion
+and at the patient’s request, combined robotic TECAB and
+MVR were planned.
+This single-patient case report does not constitute
+research; thus, institutional review board approval was not
+required. Written informed consent for publication of clinical details and images was obtained from the patient.
+SURGICAL TECHNIQUE
+TECAB
+The patient was positioned supine with bilateral chest
+compression bags for flexible adjustment. Chest, abdomen,
+
+Da Vinci Si left for TECAB; da Vinci Xi right for
+mitral valve repair.
+
+CENTRAL MESSAGE
+
+Combined robotic totally endoscopic coronary artery bypass
+and mitral valve repair is a safe
+and practical minimally invasive
+strategy for carefully selected
+patients.
+
+and groins were prepped. General anesthesia used a singlelumen endotracheal tube and left bronchial blocker.
+Carbon dioxide insufflated into the left pleural via a
+Veress needle. Ports: 12-mm camera (fourth intercostal
+space [ICS]) and 8-mm arms (second and sixth ICS)
+(Figure 1). The da Vinci Si robot (Intuitive Surgical) was
+docked to the left chest for the off-pump TECAB. Anterior
+pericardiotomy exposed the target arteries. Mediastinal fat
+was dissected and the right pleural space opened for future
+clamping of the left internal thoracic artery (LITA) from the
+right chest. The LITA was skeletonized.
+
+VIDEO 1. Case video. Video available at: https://www.jtcvs.org/article/
+S2666-2507(25)00550-4/fulltext.
+
+JTCVS Techniques c Volume 35, Number C
+
+Adult: Coronary: Case Report
+
+FIGURE 1. Port placement for totally endoscopic coronary artery bypass. ICS, Intercostal space.
+
+A 12-mm stabilizer port was placed lateral to the xiphoid.
+After heparinization (ACT 300s), papaverine was infused
+into the LITA using a 20-G epidural catheter. LAD arteriotomy and 1.5-mm shunt (Chase Medical) insertion were
+performed. The LITA anastomosed end-to-side to the
+LAD with a running double-armed 7-0 Pronova suture
+(Ethicon). Transit-time flowmetry (Medistim) confirmed
+graft flow (85 mL/minute; pulsatility index, 1.3). After
+exposing the first diagonal branch, arteriotomy and
+1.75-mm shunt insertion were performed. A sequential
+side-to-side anastomosis was completed using a similar
+sutured technique (50 mL/min; pulsatility index, 1.7).
+Heparin was fully reversed with protamine. A 24Fr pleural
+drain was placed via the left arm port. The pericardium was
+partially closed, left lung reinflated, and robot undocked.
+MVR
+With lungs deflated, an 8-mm camera port was placed in
+the right fourth ICS. Under thoracoscopy with carbon dioxide insufflation, a fifth ICS atrial retractor port was added
+and the camera repositioned there. Arm ports were placed
+in the second and sixth ICSs. The initial camera port was
+
+JTCVS Techniques c February 2026
+
+replaced with an Alexis XXS wound protector (Applied
+Medical) as an 8-mm working port, and a new 8-mm robotic
+camera port was inserted medially in the same interspace
+(Figure 2). The da Vinci Xi robot (Intuitive Surgical) was
+docked to the right chest. Cardiopulmonary bypass was
+initiated through the right femoral artery and vein cutdown
+and cooled to 30◦ .
+Under carbon dioxide insufflation, a diaphragmatic
+retraction suture was placed on the central tendon. A longitudinal pericardiotomy was made anterior to the phrenic
+nerve, with 2 traction stay sutures. An epicardial temporary
+bipolar pacing wire placed on the right ventricle. Rapid pacing at 800 beats/minute induced fibrillatory arrest. The
+mitral valve was approached via Sondergaard’s groove
+and exposed using a dynamic atrial retractor. Percutaneous
+drains were placed into the left ventricle and left pulmonary
+veins to exposure.
+The valve showed P1 and P2 prolapse with annular dilatation. CV-4 Gore-Tex neochordae (Gore Medical) were
+placed from the posterior papillary muscle to P1 and P2
+in figure-of-8 fashion. A 34-mm semirigid partial annuloplasty ring (Simulus; Medtronic) was introduced via the
+
+Adult: Coronary: Case Report
+
+FIGURE 2. Port placement for mitral valve repair. ICS, Intercostal space.
+
+working port and implanted from trigone to trigone using a
+continuous 3-0 Prolene (Ethicon) mattress suture. Saline
+test revealed localized P1-P2 regurgitation, closed with
+4-0 Prolene. A 24Fr Blake drain was placed into the pericardium traversing the right pleural space. Weaned from
+bypass without inotropes, echocardiography showed no
+significant regurgitation and 2 mm Hg gradient.
+The postoperative course was uneventful, and the patient
+was discharged on postoperative day 3. At 4-week followup, he had returned to full activity. Chest radiograph was
+normal and transthoracic echocardiography showed trace
+residual mitral regurgitation and normal ventricular
+function.
+DISCUSSION
+Although combined TECAB and MVR was reported by
+our team via a right thoracic approach,2 we have recently
+
+adopted a bilateral approach, allowing initial off-pump
+TECAB and reducing cardiopulmonary bypass time.
+Notably, the left thoracic access facilitates target artery
+exposure and multivessel TECAB, which we routinely
+perform. We have reserved this approach for patients
+requiring LAD or LAD + diagonal branch grafting with 1
+ITA graft. For right coronary artery grafting, we perform
+the procedure entirely from the right side using the right
+ITA.
+In 8 patients, the bilateral approach yielded no mortality
+and a median stay of 2.8 days (Table 1). Ventricular fibrillatory arrest was used in three cases, avoiding aortic and ITA
+clamping, simplifying the procedure and minimizing neurologic complications. We favor a ventricular fibrillatory
+approach for patients with small, diseased, or tortuous iliofemoral vessels unsuitable for the endoballoon, provided
+there is no aortic regurgitation and left ventricle function
+
+JTCVS Techniques c Volume 35, Number C
+
+Adult: Coronary: Case Report
+
+TABLE 1. Preoperative characteristics, intraoperative details, and
+postoperative outcomes (N = 8)
+Variable
+Preoperative data
+Age (y)
+Male
+STS score
+Degenerative mitral valve
+Multivessel CAD
+Intraoperative data
+Cardiopulmonary bypass time, min
+Crossclamp time, min
+Arrest method
+Endoballoon
+Fibrillating
+Crossclamp
+LITA-LAD grafting
+Multivessel grafting
+BITA use
+Leaflet repair
+Resection
+Neochordae
+Median annuloplasty ring size (mm)
+Conversion to sternotomy
+Postoperative outcome
+30-d mortality
+Stroke
+Reoperation
+Renal failure
+Acute kidney injury
+Postoperative atrial fibrillation
+Early extubation (<6 h)
+ICU stay (d)
+Hospital stay (d)
+
+Result
+68 ± 5.7
+4.0 ± 2.2
+218 ± 108
+115 ± 33
+37.5
+37.5
+12.5
+12.5
+87.5
+12.5
+12.5
+87.5
+1.6 ± 0.5
+2.8 ± 0.7
+
+Values are presented as mean ± SD or %, unless otherwise noted. STS, Society of
+Thoracic Surgeons; CAD, coronary artery disease; LITA, left internal thoracic artery;
+LAD, left anterior descending artery; BITA, bilateral internal thoracic artery; ICU,
+intensive care unit.
+
+JTCVS Techniques c February 2026
+
+is normal. We previously reported our ventricular fibrillatory arrest technique, indications, and outcomes.3
+Combined robotic TECAB and MVR appears to be a safe
+and feasible option for selected patients.
+Dr Balkhy is a proctor for Intuitive Surgical, maker of the
+Da Vinci robot. All other authors reported no conflicts of
+interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling or reviewing manuscripts for which they may have a conflict
+of interest. The editors and reviewers of this article have
+no conflicts of interest.

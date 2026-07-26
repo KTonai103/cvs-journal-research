@@ -1,0 +1,284 @@
+ORIGINAL ARTICLE
+
+Lessons Learned From Robotic-Assisted Coronary
+Artery Bypass Surgery
+Risk Factors For Conversion to Median Sternotomy
+William T. Daniel, BS, John D. Puskas, MD, Kim T. Baio, MSN, Henry A. Liberman, MD,
+Chandan Devireddy, MD, Aloke Finn, MD, and Michael E. Halkos, MD
+
+Objective: Robotic-assisted coronary artery bypass is a minimally
+invasive alternative to traditional coronary artery bypass surgery via
+median sternotomy with an associated learning curve. The purpose of
+this study was to investigate the reasons for conversion to sternotomy.
+Methods: From October 2009 to June 2012, two surgeons at one US
+academic institution performed 271 consecutive robotic-assisted coronary artery bypass procedures. For all cases, isolated, off-pump left
+internal mammary artery (LIMA) to left anterior descending coronary
+artery grafting was planned via a 3- to 4-cm sternal-sparing thoracotomy
+after robotic internal mammary artery harvest and pericardiotomy.
+Results: Conversion to sternotomy occurred in 15 of 271 (5.5%)
+patients. The most common reason was technical difﬁculty with the
+anastomosis, which occurred in 6 (40.0%) patients. Others included
+LIMA dissection, 2 (13.3%); wrong vessel grafted, 2 (13.3%); ventricular ﬁbrillation and cardiac arrest, 1 (6.7%); equipment malfunction, 1 (6.7%); adhesions, 1 (6.7%); and other. Two underwent
+emergent conversion. Six underwent multivessel bypass after conversion instead of hybrid coronary revascularization. No mortality
+occurred among converted patients. Two patients had postoperative
+myocardial infarction and one had a superﬁcial sternal wound infection. Conversion rate was relatively stable among the four different
+time quartiles (range, 3.0%Y7.4%), although the reasons for conversion were different.
+Conclusions: Conversion to sternotomy is an infrequent complication of robotic-assisted coronary artery bypass, most commonly
+
+because of technical difﬁculties during the LIMA harvest and the
+LIMA to left anterior descending anastomosis. Anatomic and patient
+variables as well as inherent technical problems with minimally invasive procedures make conversion unavoidable in some patients.
+Key Words: Robotic-assisted CABG, Minimally invasive cardiac
+surgery, CABG, Technical difﬁculties.
+(Innovations 2012;7: 323Y327)
+
+M
+
+Address correspondence and reprint requests to Michael E. Halkos, MD, Division of Cardiothoracic Surgery, Emory University School of Medicine, 550
+Peachtree Street, NE, Medical Ofﬁce Tower, 6th Floor, Emory University
+Hospital-Midtown, Atlanta, GA 30308 USA. E-mail: mhalkos@emory.edu.
+ISSN: 1556-9845/12/0705-0323
+
+inimally invasive robotic-assisted coronary artery bypass
+graft (CABG) surgery is an alternative approach to traditional CABG via sternotomy. Multiple variations of minimally invasive CABG procedures exist. Minimally invasive
+direct coronary artery bypass (MIDCAB) is a sternal sparing
+procedure that involves anterolateral thoracotomy to allow for
+direct harvesting of the left internal mammary artery (LIMA).
+Once the LIMA is harvested, the heart is stabilized to allow
+for anastomosis of the LIMA to the left anterior descending
+(LAD). This technique has been modiﬁed further to include the
+use of robotic technology to facilitate harvesting of the LIMA
+via a closed-chest approach. Robotic technology may allow
+for a more complete LIMA harvest and minimize chest wall
+retraction necessary for harvest. In addition, it allows for the
+LIMA-LAD bypass to be performed through a small incision
+because the incision can be tailored directly over the site of
+the planned anastomosis. The preferred approach at our institution is an off-pump robotic-assisted CABG. After robotic
+LIMA harvest and pericardiotomy, a hand-sewn, off-pump
+LIMA-LAD anastomosis is then performed via a 3-cm anterolateral thoracotomy. Totally endoscopic coronary artery bypass (TECAB) takes minimally invasive CABG a step further
+by performing the entire procedure endoscopically by using
+the robotic technology for harvesting the LIMA and grafting the LIMA to the diseased vessel. Potential beneﬁts of all
+minimally invasive CABG procedures include improved cosmetics, less disability, quicker recovery, and the potential avoidance of the morbidity associated with sternotomy. Since the
+initial use of thoroscopic instruments in a minimally invasive
+nature for heart surgery in the mid 1990s,1Y3 many advances
+have been achieved using the da Vinci Surgical System
+(Intuitive Surgical, Inc, Sunnyvale, CA USA) for minimally
+invasive CABG. As with any new technology, there is a
+
+Innovations & Volume 7, Number 5, September/October 2012
+
+From the Clinical Research Unit, Division of Cardiothoracic Surgery, Emory
+University School of Medicine, Atlanta, GA USA.
+Presented at the Annual Scientiﬁc Meeting of the International Society for
+Minimally Invasive Cardiothoracic Surgery, May 30YJune 2, 2012, Los
+Angeles, CA USA.
+Disclosures: Michael E. Halkos, MD, is a consultant to Intuitive Surgical,
+Inc, Sunnyvale, CA USA. William T. Daniel, BS, John D. Puskas, MD, Kim
+T. Baio, MSN, Henry A. Liberman, MD, Chandan Devireddy, MD, Aloke
+Finn, MD, declare no conﬂict of interest.
+
+Daniel et al
+
+Innovations & Volume 7, Number 5, September/October 2012
+
+learning curve associated with its implementation. The purpose of this study was to examine the reasons for conversion to
+sternotomy and to evaluate the learning curve associated with
+the number of cases performed by comparing conversion rates
+over time.
+
+dissection in the LIMA; in another 13.3% (2/15), the LIMA
+was grafted to the wrong vessel (diagonal). In the other ﬁve
+patients, conversion to sternotomy was required because of
+LIMA bleeding during harvest, ventricular ﬁbrillation, right
+ventricular injury during port placement, technical problems
+with the robot, and left chest adhesions in 1 (6.7%) patient
+each, respectively.
+Emergent conversion was required in two of these patients, one because of right ventricular injury during port
+placement and the other because of ventricular ﬁbrillatory arrest that developed after minimal manipulation of the heart
+during pericardiotomy with electrocautery. The ﬁrst patient
+did not require cardioversion or cardiopulmonary resuscitation
+but did require emergent sternotomy because of hypotension
+caused by pericardial tamponade identiﬁed by transesophageal
+echocardiography. The second required cardiopulmonary resuscitation and cardioversion before being stabilized and then
+underwent conversion to sternotomy.
+After intraoperative completion angiogram, three patients
+underwent conversion. One showed LIMA anastomosed incorrectly to the diagonal and the other two showed poor distal ﬂows in the LAD (described above). For the other patient
+who had inadvertent diagonal grafting, this error was identiﬁed after completion of the anastomosis. She underwent
+conversion to sternotomy for graft revision because of the
+technical difﬁculties associated with grafting an intramyocardial LAD.
+There was no mortality among the patients who were
+converted to sternotomy. However, two had postoperative myocardial infarctions (the two patients with poor distal ﬂows on
+completion angiography) and one patient had a superﬁcial
+sternal wound infection. In the cohort of patients that did
+not undergo conversion, 30-day mortality occurred in 4 of
+256 (1.6%) patients and perioperative myocardial infarction
+
+METHODS
+From October 2009 to June 2012, a total of 271 consecutive robotic-assisted CABG procedures were performed at
+Emory University by two surgeons. In all cases, isolated, offpump LIMA to LAD grafting was planned via a 3- to 4-cm
+sternal-sparing thoracotomy after robotic LIMA harvest and
+pericardiotomy. Operative notes were reviewed retrospectively
+and data on the indications for conversion to sternotomy were
+collected. Each surgeon’s total case number was divided into
+four quartiles and organized based on the date the procedure
+was performed. Both surgeons’ conversion rate was compared for each time quartile. The total case number overall and
+per quartile was also compared. This study was reviewed
+and approved by the institutional review board at our university and was performed in compliance with government
+privacy regulations.
+
+RESULTS
+Conversion to sternotomy occurred in 15 of 271 (5.5%)
+patients undergoing robotic-assisted CABG. In 6 of 15 patients
+(40.0%), the reason for conversion was technical difﬁculty
+with LIMA-LAD anastomosis. This included two patients
+with poor distal LAD ﬂow on completion angiography, two
+patients with small target vessels, one patient who required
+LAD endarterectomy, and one with an intramyocardial LAD.
+In 2 of 15 (13.3%) patients, conversion occurred because of
+
+FIGURE 1. Rate of conversion to sternotomy for each surgeon by time quartiles.
+
+Innovations & Volume 7, Number 5, September/October 2012
+
+Conversions During Robotic-Assisted CABG
+
+occurred in 3 of 256 (1.2%) patients. For the entire cohort,
+there were no postoperative myocardial infarctions, and renal
+failure requiring dialysis occurred in 3 (1.1%) patients.
+Rates of conversion were compared by dividing the total
+number of cases performed by each surgeon into time quartiles and comparing the two surgeons. Surgeon 1 performed 207
+cases with conversion rates of 7.7% (4/52), 1.9% (1/52), 7.7%
+(4/52), and 2.0% (1/51) for the ﬁrst through fourth quartiles,
+respectively. Surgeon 2 performed 64 cases with conversion
+rates of 0.0% (0/16), 18.8% (3/16), 6.3% (1/16), and 6.3% (1/16)
+for the ﬁrst through fourth quartiles, respectively (Fig. 1). At
+the time this article was written, only one conversion occurred
+in 2012 for the 58 cases that had been performed between the
+two surgeons. The lowest combined conversion rate, 3.0%, occurred in the fourth quartile, with each surgeon having one
+conversion (Fig. 2).
+For the ﬁrst 136 cases (both surgeons), technical difﬁculty with the anastomosis was the reason for conversion in
+only two of eight patients. During this early period, the two
+LIMA dissections and the two inadvertent LIMA diagonal
+grafts occurred. Ventricular ﬁbrillation and technical problems
+with the robot also occurred in the initial 136 patients. For the
+second half of the study, or 137 patients, four of seven conversions occurred because of technical difﬁculty with the
+LIMA-LAD anastomosis. In one patient, bleeding occurred
+from a branch off the LIMA, which could not be controlled or
+repaired robotically. One patient had left chest adhesions precluding safe entry into the left chest, and one patient had a right
+ventricle injury as described above.
+
+minimally invasive cardiac surgery have always been obtaining
+adequate visualization and achieving a level of dexterity that
+open procedures afford. Advances in endoscopic equipment
+and robotic devices have overcome much of the limitations
+encountered early in the evolution of less invasive cardiac
+surgery. The largest remaining difﬁculty associated with minimally invasive cardiac surgery is the learning curve associated
+with integrating this new technology. Starting with traditional,
+on-pump CABG, coronary surgery has progressed to offpump, beating heart surgery, to minimally invasive approaches,
+and ﬁnally to TECAB.
+Several reports have examined the time required to attain
+proﬁcient technical skills, the technical challenges, and the
+outcomes associated with endoscopic robotic techniques.5Y7
+The purpose of our study was to examine the outcomes, learning curve, and technical difﬁculties associated with roboticassisted CABG by two surgeons at one institution over 2 years
+with the principal outcome measure being conversion to
+sternotomy.
+There are many difﬁculties and obstacles to overcome
+when learning a new surgical technique or incorporating new
+technology. From the beginning, with off-pump CABG to the
+incorporation of TECAB, surgeons have had to adapt and
+modify their techniques. Another option for patients is hybrid
+coronary revascularization, which involves surgical grafting
+with the LIMA to the LAD and percutaneous coronary intervention for non-LAD vessels. Off-pump CABG may be beneﬁcial to patients because it avoids the risks associated with
+cardiopulmonary bypass and minimizes the risk associated
+with aortic manipulation. The ﬁrst minimally invasive surgical option available to patients with coronary disease was
+MIDCAB, which involves the use of an anterolateral thoracotomy for LIMA takedown and anastomosis of the LIMA
+to LAD under direct vision. With the incorporation of the da
+Vinci robotic telemanipulation system, robotic-assisted CABG
+is another option that facilitates exposure during LIMA
+
+DISCUSSION
+Since Loulmet et al4 ﬁrst attempted a robotic-assisted
+MIDCAB in 1998, robotic-assisted CABG has continued to
+evolve both with regard to improvements in clinical outcomes
+and incorporation of new technology. The major obstacles to
+
+FIGURE 2. Overall rate of conversion to sternotomy by quartile.
+
+Daniel et al
+
+Innovations & Volume 7, Number 5, September/October 2012
+
+harvest. In this procedure, the da Vinci robot is used to harvest
+the LIMA and open the pericardium as well as identify the
+LAD. Robotic-assisted CABG has been shown to be safe and
+effective with minimal morbidity when compared with MIDCAB, which may be associated with greater postoperative pain
+due to chest retraction.8
+Complications associated with the minimally invasive
+CABG procedures are caused mainly by technical difﬁculties that occur during mobilization of the LIMA or during the
+anastomosis of the LIMA to the LAD. Bonatti et al6 found
+that during the early part of their study, damage to the LIMA
+and bleeding occurred more frequently. Two studies showed
+a conversion rate of 13% and 15%, respectively.5,6 Both of
+these studies analyzed TECAB, whereas our study included
+only patients undergoing a robotic-assisted CABG or robotic
+MIDCAB. In a similar study, Mishra et al9 examined 268
+patients who underwent robotic-assisted CABG, including 12
+TECAB cases, and found that 7 underwent conversion, 5 because of dense pleural adhesions and two for hemodynamic
+instability.
+Surgeon experience has often been cited as a reason for
+conversion to sternotomy. ‘‘Stages of experience’’ have been
+identiﬁed in a previous study looking at the cumulative experience of eight surgeons, with the ‘‘learning phase’’ corresponding to fewer than 50 operations, the ‘‘intermediate phase’’
+corresponding to between 50 and 100 cases, and the ‘‘expert
+phase’’ corresponding to more than 100 cases.10 Perioperative
+mortality was shown to drop from 1.1% to 0.4% after the
+learning phase and complication/reintervention rate dropped
+from 12.7% to 7.1% after the intermediate phase.10 Conversion to sternotomy dropped from 2.7% to 0.2% after performing 150 cases.10
+With regard to the learning curve associated with this
+new technology, Bonatti et al5 showed a decrease in the time
+required for ITA takedown from 90 minutes to approximately
+50 minutes after performing the procedure on 35 patients.
+This is similar to the previously reported idea of the learning
+phase and indicates an improvement in technical skill as
+the experience is gained and supports the idea of a learning
+curve. Wiedemann et al11 found that over an 8-year period,
+they were able to improve operative time in complex TECAB
+cases by starting out with low-risk patients and then slowly
+attempting more complex cases over time. They also concluded
+that longer procedures had a greater incidence of technical
+difﬁculties and conversion to sternotomy.11 Earlier cases had
+longer operative times in part because of lack of surgical
+experience.
+Based on current literature and our own experience, conversion to sternotomy is to be expected in a certain number
+of patients undergoing robotic-assisted CABG. Although the
+learning curve associated with these procedures is crucial to
+be aware of, it was not a clear factor in our study. Surgeon 1
+had performed more operations at each quartile than surgeon 2 had and showed a conversion incidence between 2.0%
+and 7.7%. Surgeon 2 showed no conversions during the ﬁrst
+quartile and then had a decreasing rate of conversions from
+the second to fourth quartiles (Fig. 1). Overall, the conversion
+rate was relatively stable (Fig. 2). Not only did the surgeons
+become more proﬁcient over time, but also the entire team
+
+became more experienced, which has been crucial for our
+robotic CABG program. Possible explanations for the fourth
+quartile conversion rate include certain intangibles such as
+patient-speciﬁc variables and coronary anatomy. This is evident in the breakdown of reasons for conversion. Technical
+errors such as LIMA dissection and inadvertent diagonal grafting occurred exclusively in the ﬁrst half of the study, whereas
+problems with the LIMA-LAD anastomosis occurred more
+frequently in the second half. This may also reﬂect greater
+experience among the surgeons, understanding that it may be
+safer to proceed with LIMA-LAD grafting via sternotomy in
+patients with small, calciﬁed, intramyocardial, or poor distal
+LAD targets. Nonetheless, these results also highlight that
+unanticipated technical problems will continue to occur, albeit
+more infrequently, in patients undergoing robotic-assisted
+CABG. The lower incidence of conversions in the fourth quartile of this study suggests that greater technical expertise is
+obtained with experience. However, it is also likely that this
+experience carries over into better patient selection, with
+patients having difﬁcult coronary anatomy or unfavorable
+patient-related variables for minimally invasive CABG more
+likely to undergo CABG via sternotomy. It is our current practice that conversion to sternotomy should not be viewed as a
+failure but as a safety and quality measure. Patients who display hemodynamic instability or arrhythmia during any portion of the procedure, as well as those with difﬁcult LAD
+anatomy that is identiﬁed at the time of minithoracotomy, are
+quickly converted to sternotomy to avoid complications related to hemodynamic compromise or technically inferior anastomoses. Maintaining these criteria for conversion will ensure
+excellent clinical and angiographic outcomes for patients undergoing robotic-assisted CABG.

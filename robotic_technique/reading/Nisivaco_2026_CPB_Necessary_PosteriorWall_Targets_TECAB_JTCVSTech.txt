@@ -1,0 +1,749 @@
+ADULT: CORONARY
+
+Dark sides and warm rides: Is cardiopulmonary bypass
+necessary for grafting posterior wall targets in robotic
+totally endoscopic coronary bypass?
+Sarah Nisivaco, MD, Hiroto Kitahara, MD, Sandeep Nathan, MD, and Husam H. Balkhy, MD
+ABSTRACT
+Objective: Robotic off-pump totally-endoscopic coronary artery bypass (TECAB) is
+the least-invasive form of surgical coronary revascularization. It allows for sternalsparing, multivessel, total-arterial revascularization. Although most published series
+focus on anterior-wall targets, little is known about the feasibility and outcomes of
+posterior wall grafting. We sought to evaluate this in a robotic beating-heart TECAB
+series with grafting of posterior-wall, “dark side,” targets.
+Methods: We retrospectively reviewed 137 (of a total 983) patients undergoing
+robotic beating-heart TECAB between July 2013 and August 2025 who underwent
+grafting to at least 1 posterior-wall target—defined as distal obtuse marginal (OM2/
+OM3), posterior descending, or posterolateral branch (of the RCA). Peripheral CPB
+was instituted selectively for hemodynamic intolerance.
+Results: Mean age was 66 ± 9.8 years; 16.8% were female; and ejection
+fraction ≤40% occurred in 15.3%. Multivessel TECAB was performed in 102 patients
+(74.5%); bilateral internal thoracic arteries were used in 98 of 102 (96.1%). Cardiopulmonary bypass was required in 5 patients (3.6%); there were no conversions to
+sternotomy. Operative time was 317 ± 72 minutes. Early outcomes included atrial
+fibrillation 10%, acute kidney injury 1.5%, stroke 0.7%, and in-hospital mortality
+0.7%; hospital stay was 2.2 ± 0.8 days; and 97% were discharged home. Follow-up
+was 100% complete (47 ± 34 months); overall mortality was 15%, cardiac mortality
+2.9%, myocardial infarction 2.2%, and repeat revascularization 5.1% (all unplanned
+percutaneous coronary intervention). Freedom from major adverse cardiac and
+cerebrovascular events was 92%.
+Conclusions: In an experienced program, posterior-wall targets are not a contraindication to robotic beating-heart TECAB. These grafts can be performed safely
+with infrequent need for bypass, excellent early recovery, and durable midterm
+outcomes, expanding TECAB beyond anterior-wall–only revascularization. (JTCVS
+Techniques 2026;37:102310)
+
+From the Department of Cardiothoracic Surgery, University of Chicago Medicine,
+Chicago, Ill.
+Received for publication Nov 15, 2025; revisions received Feb 14, 2026; accepted for
+publication Feb 26, 2026; available ahead of print March 16, 2026.
+Address for reprints: Husam H. Balkhy, MD, Section of Cardiac Surgery, University
+of Chicago, 5841 S. Maryland Ave E-500, Chicago, IL 60637 (E-mail: hbalkhy@
+bsd.uchicago.edu).
+2666-2507
+Association for Thoracic Surgery. This is an open access article under the CC BY-NCND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+OM2 target vessel stabilization for end-to-side
+grafting with LITA.
+
+CENTRAL MESSAGE
+
+Robotic beating-heart TECAB
+with a robotic stabilizer enables
+grafting of posterior targets
+without routine cardiopulmonary bypass in experienced
+hands, expanding the scope of
+robotic revascularization
+PERSPECTIVE
+Posterior wall grafting in robotic endoscopic
+CABG has traditionally been considered not
+feasible due to limited exposure and hemodynamic concerns. In an experienced robotic
+beating-heart TECAB program using a robotic
+stabilizer, these “dark side” targets can be safely
+reached. This study demonstrates low need for
+CPB and favorable outcomes, thus expanding
+the applicability of robotic coronary surgery.
+
+Video clip is available online.
+
+Minimally invasive coronary artery bypass grafting (CABG)
+has been increasingly adopted over the past 2 decades,1
+most commonly in the form of minimally invasive direct
+coronary artery bypass for single-vessel revascularization of
+the left anterior descending (LAD)2,3 and MICS (minimally
+JTCVS Techniques c Volume 37, Number C
+
+Adult: Coronary
+
+Abbreviations and Acronyms
+AF
+= atrial fibrillation
+BITA
+= bilateral internal thoracic arteries
+CABG = coronary artery bypass grafting
+CPB
+= cardiopulmonary bypass
+EF
+= ejection fraction
+ITA
+= internal thoracic artery
+LAD
+= left anterior descending artery
+LITA
+= left internal thoracic artery
+LOS
+= length of stay
+MACCE = major adverse cardiac and
+cerebrovascular events
+MI
+= myocardial infarction
+RCA
+= right coronary artery
+RITA
+= right internal thoracic artery
+TECAB = totally endoscopic coronary artery
+bypass
+invasive cardiac surgery) CABG for multivessel grafting via
+lateral thoracotomy.4,5 Robotic off-pump totally endoscopic
+coronary artery bypass (TECAB) is the least-invasive form
+of minimally invasive CABG and allows both single-vessel
+and multivessel grafting. It achieves coronary bypass grafting
+via small ports without rib spreading, thereby reducing surgical trauma and facilitating early recovery.6-8
+Despite these advantages, one of the perceived limitations
+of robotic off-pump TECAB has been the ability to achieve
+multivessel grafting. Most published series of robotic
+CABG have focused on anterior wall targets, whereas grafting
+to the distal circumflex or right coronary artery (RCA)
+branches is rare. The technical challenge of exposing and
+stabilizing these posterior wall vessels, combined with concerns about hemodynamic tolerance during exposure, has
+led to the notion that these targets were not feasible to graft
+using a robotic totally endoscopic approach off-pump.
+We have had extensive experience with robotic multivessel
+beating-heart TECAB, including the routine use of multiarterial grafting with bilateral internal thoracic artery (BITA) use
+with the aid of the EndoWrist stabilizer on the Da Vinci Si
+(third-generation) robot (Intuitive Surgical).9 Within this practice, we have developed the experience of grafting posterior
+wall targets—what we term the “dark side” of the heart—in
+an endoscopic setting using a beating-heart approach with
+standard off-pump coronary bypass principles.
+In this study, we sought to evaluate outcomes in patients
+undergoing robotic beating-heart TECAB with grafting of at
+least 1 “dark-side” posterior wall target with a left or right
+internal thoracic artery (LITA or RITA) conduit. We hypothesized that with adequate stabilization, posterior wall grafting
+can be safely performed on the beating-heart with infrequent
+need for cardiopulmonary bypass (CPB) support—a “warm
+
+JTCVS Techniques c June 2026
+
+Nisivaco et al
+
+ride,” and that early and midterm results would be consistent
+with our broader TECAB experience.
+METHODS
+Ethical Statement
+This deidentified study was approved by our institutional
+review board (#18-0742, April 29, 2025). Individual patient
+consent was waived.
+Data Availability Statement
+The data underlying this article are available in the article
+and in its online supplementary material.
+Study Design and Patient Population
+We performed a retrospective review of all patients undergoing robotic beating-heart TECAB at our institution between
+July 2013 and August 2025. A total of 983 consecutive cases
+were identified from a prospectively maintained database. Of
+these, 137 patients underwent grafting to at least 1 posterior
+wall coronary target and formed the study cohort for this
+report. Posterior wall targets were defined as distal obtuse
+marginal branches (obtuse marginal branch 2 or 3), posterior
+descending artery, or posterolateral branches of the right
+coronary artery. Conduit for bypass was either the LITA or
+RITA as part of a single or multivessel grafting strategy.
+Baseline demographics, perioperative data, and follow-up
+outcomes were collected.
+Surgical Technique
+Video 1 shows a 3-vessel TECAB with 2 “dark-side” targets
+on the posterior wall. TECAB is considered for all patients
+referred to our robotic coronary program on an all-comer
+basis, with the only true exclusion criteria being emergency
+
+VIDEO 1. Shown is a 3-vessel TECAB with use of bilateral internal
+thoracic artery conduit. Sequential grafting of 2 posterior-wall (“darkside”) targets performed with LITA including end-to-side anastomosis of
+the posterior descending artery branch, and subsequent side-to-side
+sequential grafting of OM2. RITA to LAD anastomosis was also performed
+(not shown here). Video available at: https://www.jtcvs.org/article/S26662507(26)00117-3/fulltext.
+
+Nisivaco et al
+
+Adult: Coronary
+
+surgery and fused left chest. In patients with disease in
+posterior wall (“dark-side”) branches, the decision for
+revascularization is made on the basis of discussions with
+the Heart Team and referring cardiologists to ensure both complete revascularization and a treatment course tailored to each
+individual patient. Often, small nondominant “dark-side”
+branches are selected for percutaneous coronary intervention
+(PCI) as part of a hybrid revascularization strategy. In cases
+of large or dominant dark-side branches that feed a large
+territory of myocardium, these may be felt to be better served
+with an arterial graft as discussed by the Heart Team.
+The majority of procedures were performed through
+standard left-sided port placement using the da Vinci Si
+robotic system (Intuitive Surgical) and the EndoWrist stabilizer system—a technique we have previously described.6,9,10
+In cases of isolated RCA disease (n = 26 patients) mirrorimage right sided ports were placed. ITA conduits were
+harvested in a skeletonized fashion. All anastomoses were performed on the beating-heart (with use of an intracoronary
+shunt) via a robotic-assisted running sutured technique (or
+an anastomotic device—the C-Port Flex A distal anastomotic
+stapler [Aesculap]—in the first half of the cohort). Peripheral
+CPB was instituted in cases of significant hemodynamic
+intolerance during target exposure, with the most common
+criteria prompting CPB being hypotension or ventricular
+arrhythmias.
+Our sequence of grafting strategy follows standard
+off-pump techniques. The easiest targets with the least
+potential for hemodynamic insult and the largest revascularized territory are grafted first. This usually means the LAD
+is grafted first, followed by posterior wall targets.
+
+RESULTS
+Preoperative Characteristics
+Preoperative characteristics are included in Table 1. The
+mean age was 66 ± 9.8 years; 23 patients (16.8%) were
+female. In total, 47 (34%) had diabetes, including
+18 (13%) who were insulin-dependent. Preoperative atrial
+fibrillation (AF) was present in 13 patients (9.5%), previous
+stroke in 10 (7.3%), and previous MI in 38 (28%). Mean
+body mass index was 29.2 ± 4.1 kg/m2 (42% with body
+mass index >30). Mean ejection fraction (EF) was 53 ±
+10%, with 21 patients (15%) having EF <40%. Six
+patients (4.4%) had undergone previous cardiac surgery,
+all which involved CABG. Mean Society of Thoracic Surgeons predicted risk of mortality score was 1.2 ± 1.9%.
+
+Follow-Up
+Clinical follow-up was obtained annually through direct patient contact or electronic medical record review. Outcomes
+assessed included all-cause mortality, cardiac-related mortality, major adverse cardiac and cerebrovascular events
+(MACCE), and repeat revascularization including unplanned
+PCI or any repeat cardiac surgery. MACCE is defined as
+myocardial infarction (MI), stroke, cardiovascular mortality,
+and any repeat revascularization. MI was classified per Fourth
+Universal Definition; stroke per symptoms with confirmed imaging; AKI per KDIGO (Kidney Disease Improving Global
+Outcomes) guidelines. Early graft patency was assessed in
+hybrid revascularization patients who underwent PCI after
+TECAB.
+
+Age, y
+
+Statistical Analysis
+Continuous variables are presented as mean ± standard
+deviation or median with interquartile range as appropriate.
+Categorical variables are expressed as counts and percentages. Analyses were performed using SPSS (IBM Corp).
+
+Intraoperative Outcomes
+Intraoperative outcomes are included in Table 2. Peripheral
+CPB was required in 5 cases (3.6%) for hemodynamic instability during target exposure (mean CPB time
+117.4 ± 15.6 minutes). No conversions to sternotomy
+occurred. Mean number of grafts per patient was 2.1 ± 0.6,
+with multivessel grafting performed in 75%. Of these, 98 patients (96%) had BITA grafting. Average (posterior) target
+vessel size was 1.79 ± 0.43 mm. Mean operative time was
+317 ± 72 minutes. Intraoperative blood transfusion requirement was 4.4%. Graft distributions are listed in Table 3.
+
+TABLE 1. Demographics (n = 137)
+Variable
+
+n or mean ± SD
+
+%
+
+66 ± 9.8
+
+–
+
+Female sex
+
+16.8
+
+Hypertension
+
+86.1
+
+Diabetes mellitus
+
+34.3
+
+Insulin-dependent diabetes
+
+13.1
+
+Peripheral vascular disease
+
+6.6
+
+Previous stroke
+
+7.3
+
+Previous myocardial infarction
+
+27.7
+
+Previous PCI
+
+40.1
+
+Chronic renal insufficiency
+
+14.6
+
+Hemodialysis
+
+1.5
+
+BMI >30
+
+42.3
+
+EF <40%
+
+15.3
+
+Left main disease (≥70%)
+
+5.8
+
+Previous cardiac surgery
+
+4.4
+
+STS-PROM risk score
+
+1.2 ± 1.9
+
+–
+
+SD, Standard deviation; PCI, percutaneous coronary intervention; BMI, body mass
+index; EF, ejection fraction; STS-PROM, Society of Thoracic Surgeons predicted
+risk of mortality.
+
+JTCVS Techniques c Volume 37, Number C
+
+Adult: Coronary
+
+Nisivaco et al
+
+TABLE 2. Intraoperative data (n = 137)
+
+TABLE 4. Early postoperative outcomes (n = 137)
+
+Variable
+
+n or mean ± SD
+
+%
+
+Variable
+
+Single-vessel TECAB
+Isolated RCA (right-side ports)
+
+25.5
+
+Extubation within 6 h
+
+Multivessel TECAB
+
+74.5
+
+BITA use/102
+
+96.1
+
+CPB requirement
+
+3.6
+
+317 ± 72
+
+Conversion to sternotomy
+Operative time, min
+
+n or mean ± SD
+
+%
+
+84.6
+
+5.1
+
+ICU length of stay, d
+
+1.1 ± 0.3
+
+–
+
+Hospital length of stay, d
+
+2.2 ± 0.8
+
+–
+
+Postoperative atrial fibrillation
+
+Postoperative AKI
+
+1.5
+
+–
+
+Postoperative stroke
+
+0.7
+
+Postoperative blood transfusion
+
+Intraoperative inotropes
+
+Postoperative MI
+
+Extubation in OR
+
+39.4
+
+Return to OR for bleeding
+
+0.0
+
+30 d mortality
+
+0.7
+
+Intraoperative transfusion
+
+4.4
+
+SD, Standard deviation; TECAB, totally endoscopic coronary artery bypass; RCA,
+right coronary artery; BITA, bilateral internal thoracic artery; CPB, cardiopulmonary
+bypass; OR, operating room.
+
+Early Postoperative Outcomes
+Early postoperative outcomes are shown in Table 4. Postoperative AF occurred in 14 patients (10%), AKI in 2 patients
+(1.5%), and 1 patient (0.7%) had a postoperative stroke.
+There were no postoperative MIs or take-backs for bleeding.
+The mean intensive care unit length of stay (LOS) was
+1.1±0.3 days, and mean hospital stay was 2.2±0.8 days.
+One 30-day mortality occurred (0.7%), with an observed/
+expected of 0.61 using preoperative Society of Thoracic
+Surgeons predicted risk of mortality score. 97% were discharged directly home; 30-day readmission occurred in 5 patients (3.6%).
+For comparison, in the whole TECAB cohort the mean age
+was 66.2 ± 10 years and mean EF 53 ± 12%. The average
+number of grafts per patient was 1.62 ± 0.64. Multivessel
+grafting occurred in 54% with 87% BITA use in this group.
+Mean hospital LOS was 2.2 ± 0.87 days. Thirty-day mortality
+was 0.69%.
+Midterm Outcomes
+Midterm outcomes are included in Table 5. Mean followup was 47±34 months and was complete for all patients.
+The longest follow-up was 11 years. During follow-up,
+overall mortality was 15% (n = 20), and cardiac-related
+mortality was 2.9% (n = 4). MI occurred in 3 patients
+TABLE 3. Intraoperative graft information
+Variable
+
+n or mean ± SD
+
+%
+
+LITA-OM2/OM3
+
+LITA-PDA/PLB
+
+RITA-OM2/OM3
+
+RITA-RCA/PDA/PLB
+
+SD, Standard deviation; LITA, left internal thoracic artery; OM, obtuse marginal
+branch; PDA, posterior descending artery; PLB, posterolateral branch; RITA, right
+internal thoracic artery; RCA, right coronary artery.
+
+JTCVS Techniques c June 2026
+
+Mortality O/E
+Discharge home
+Readmission within 30 d
+
+0.61
+
+3.6
+
+SD, Standard deviation; ICU, intensive care unit; AKI, acute kidney injury; MI,
+myocardial infarction; OR, operating room; O/E, observed/expected.
+
+(2.2%). Repeat revascularization occurred in 7 patients
+(5.1%), all of which were unplanned PCI. No patients
+underwent PCI to a failed graft. Three patients (2.2%)
+underwent repeat cardiac surgery, none of which were
+CABG. Freedom from MACCE at last follow-up was 92%.
+Hybrid/Early Graft Patency
+In total, 41% of the cohort (n = 56) were selected for hybrid
+revascularization (Table 6). In patients who underwent PCI
+after TECAB with available graft patency assessment, overall
+patency was 97% (65/67 grafts). Overall LITA patency was
+100% and RITA patency was 94%. In this imaged hybrid
+subset, grafts going to posterior wall targets had 100%
+patency (32/32 grafts), including for both LITA and RITA conduits. See Figure 1 for examples of angiographic assessment
+of patent grafts after TECAB to posterior wall targets.
+DISCUSSION
+In this study, we report outcomes of 137 patients who underwent robotic beating-heart TECAB with grafting to at least
+one “dark-side” posterior wall target. To our knowledge, this
+represents the largest reported series of grafting distal
+posterior wall targets with this surgical technique. In this
+group, CPB was required in only 3.6% of cases, and no
+conversions to sternotomy were necessary. Our findings
+demonstrate that these targets can be safely and effectively
+addressed with a sternal-sparing robotic endoscopic
+off-pump approach in experienced hands, provided an
+adequate stabilization solution is available. Perioperative
+and midterm outcomes were consistent with our general
+TECAB experience. Although grafting these posterior vessels
+relies on a high degree of experience with the robotic endoscopic approach, the ability to do so expands the reach of
+
+Nisivaco et al
+
+Adult: Coronary
+
+TABLE 5. Midterm follow-up data
+Variable
+Follow-up complete
+
+n or mean ± SD
+
+%
+
+47 ± 34
+
+–
+
+Overall mortality
+
+Cardiac mortality
+
+2.9
+
+Repeat cardiac surgery
+
+2.2
+
+Mean follow-up duration, mo
+
+Myocardial infarction
+
+2.2
+
+Freedom from angina
+
+Repeat revascularization
+
+5.1
+
+Unplanned PCI
+
+5.1
+
+Repeat CABG
+
+Freedom from MACCE
+
+SD, Standard deviation; PCI, percutaneous coronary intervention; CABG, coronary
+artery bypass grafting; MACCE, major adverse cardiac and cerebrovascular events.
+
+robotic CABG beyond single-vessel disease and challenges
+the notion that robotic revascularization cannot routinely
+achieve multivessel grafting.
+Posterior wall vessels have traditionally been viewed as
+unsuitable for grafting using an endoscopic beating heart
+approach. Their location on the posterior wall, perceived
+limited exposure via a port-only approach, and the potential
+for hemodynamic compromise during stabilization has led
+to this view. For this reason, most robotic CABG reports
+are focused on LAD or other anterior wall targets only,2,11
+and similarly for large minimally invasive direct coronary
+artery bypass series in the literature.12,13
+In our overall TECAB cohort (n = 983), multivessel
+grafting was performed in 54% of the whole TECAB
+group, with 87% BITA usage. The findings in this study
+are an extension of our previous publications demonstrating
+the feasibility and success of multivessel robotic TECAB
+with BITA conduits.9,14 Multivessel disease, including
+
+TABLE 6. Early graft patency (patients undergoing PCI after
+TECAB)
+Variable
+
+n or mean ± SD
+
+%
+
+Hybrid revascularization
+Advanced hybrid (multivessel
+TECAB + PCI)
+
+36.5
+
+Time to catheterization, mo
+
+2.6 ± 3.9
+
+–
+
+Total IMA grafts imaged
+
+–
+
+total graft patency
+
+65/67 grafts
+
+LITA patency
+
+35/35 grafts
+
+RITA patency
+
+30/32 grafts
+
+Posterior wall targets patency
+
+32/32 grafts
+
+SD, Standard deviation; TECAB, totally endoscopic coronary artery bypass; PCI,
+percutaneous coronary intervention; IMA, internal mammary artery; LITA, left internal thoracic artery; RITA, right internal thoracic artery.
+
+critical stenosis in large and/or significant posterior wall
+targets, is frequently encountered in patients with coronary
+artery disease. A frequently used approach for these patients
+in our practice is a hybrid or “advanced” hybrid strategy
+(advanced describing a hybrid PCI with more than 1 internal thoracic artery graft) in order to achieve complete
+revascularization.15,16 Our most common hybrid strategy
+is to perform PCI after TECAB, primarily when the LAD
+or other dominant coronary target is the primary diseased
+vessel, allowing this to be surgically addressed first.
+Occasionally we prefer a “reverse hybrid” strategy, in which
+the PCI is performed before TECAB.17 One example of this
+approach is in ACS, in which the culprit vessel is revascularized by PCI first. Another example in which we prefer
+a reverse hybrid approach is when the feasibility of PCI is
+not straightforward, allowing for subsequent adjustment
+of the surgical plan if necessary.
+Because we are a referral center for robotic coronary
+surgery, we evaluate many patients with multivessel coronary
+artery disease and discuss them within our weekly multidisciplinary coronary revascularization meeting. We attempt to
+tailor the therapy not only to the individual patient but also
+to the individual diseased vessel, particularly in patients with
+multivessel disease. Careful scrutiny of each vessel and the
+overall disease pattern, as well as a close working partnership
+with interventional cardiologists, allows us to ensure that both
+the sternal-sparing nature of the procedure and complete or
+near complete revascularization are achieved. In this cohort,
+the majority of patients were believed to be better served
+with an arterial graft to their large, dominant circumflex or
+RCA diseased branches and therefore underwent posterior
+wall ITA grafting (as opposed to hybrid PCI). In some patients
+however, and as mentioned above, PCI was felt not to be technically feasible, and thus we considered a robotic beating-heart
+grafting approach for these vessels.
+Early-term and midterm outcomes in this cohort were
+favorable. Rates of AF, stroke, and renal dysfunction were
+low, and nearly all patients were discharged directly to
+home with a mean hospital LOS of 2.2 days. Midterm
+follow-up was complete for all patients, with overall
+survival of 85%, cardiac survival of 97%, and freedom
+from MACCE of 92% at a mean of almost 4 years. These
+results are comparable with those reported in our larger
+series of robotic multivessel TECAB6 and are consistent
+with contemporary traditional CABG results, including
+those reported in large national datasets.18,19
+We view avoiding CPB as an important aspect of this
+approach. In our series, CPB was used only for the rare case
+of hemodynamic instability during target exposure, allowing
+the majority of patients to undergo an entirely off-pump procedure. This strategy not only avoids bypass-related morbidity
+but also preserves the advantages of a “warm” beating-heart
+technique including uninterrupted coronary perfusion when
+CPB support is required. For the small subset of patients
+JTCVS Techniques c Volume 37, Number C
+
+Adult: Coronary
+
+Nisivaco et al
+
+FIGURE 1. Example of angiographic graft assessment at the time of hybrid PCI. Left, Patent sequential LITA to OM1 and OM2 targets, 33 days after
+TECAB. Right, Patent LITA to PLB, 41 days after TECAB. PCI, Percutaneous coronary intervention; LITA, left internal thoracic artery; OM, obtuse
+marginal branch; TECAB, totally endoscopic coronary artery bypass; PLB, posterolateral branch.
+
+who do require support during target exposure, peripheral
+CPB remains a valuable adjunct to complete the operation
+without conversion to a larger incision or sternotomy.
+It is important to note that the cornerstone of our surgical
+approach is use of the robotic EndoWrist stabilizer, which is
+inserted through a fourth robotic port placed in the left subcostal area and controlled by the surgeon at the console.20 In 137
+patients receiving TECAB who underwent grafting to “darkside” targets of the heart in this study, CPB was required in
+only 3.6%, and there were no conversions to sternotomy.
+This experience suggests that, with appropriate exposure techniques and the stabilization afforded by the robotic platform,
+posterior wall grafting can be achieved safely on the
+beating-heart. Of note, anastomoses were primarily performed
+with a robotic running-sutured technique; however, an anastomotic stapler device was used in the early stages. We have
+previously compared our experience with these anastomotic
+methods with no difference in outcomes found, aside from
+operative time (shorter with the anastomotic device).21
+The importance of the EndoWrist stabilizer and its versatility cannot be overstated in any robotic beating-heart cases,
+but it has proven critical in the exposure of posterior wall targets as described here. Three important technical points
+should be mentioned. The first is the position of the subcostal
+stabilizer port relative to the midclavicular line. Although it is
+routinely placed medial to the midclavicular line in cases of
+anterior wall grafting, it should be positioned more laterally
+when the posterior wall is intended for grafting in order to
+avoid compressing the left ventricular apex which can lead
+
+JTCVS Techniques c June 2026
+
+to hypotension. Second, as opposed to visualizing posterior
+targets in traditional OPCAB (which requires significant
+manipulation and elevation of the heart), exposing the posterior wall during TECAB requires only gentle manipulation
+upwards with the stabilizer—because of to the lateral position
+of the robotic ports and thus lateral visualization. Finally, in
+cases of TECAB for isolated RCA disease using right-sided
+ports, the stabilizer should be brought in via a port placed
+as medial as possible to provide reach to the distal RCA or
+posterior descending artery.22 The absence of the EndoWrist
+stabilizer from newer robotic platforms, namely the fourthgeneration Da Vinci Xi, has forced us to continue performing
+TECAB with the Si (third-generation) system. The recent
+announcement from the DaVinci manufacturer of their intention to support cardiac surgery with an EndoWrist stabilizer
+on the fifth-generation system, coupled with the introduction
+of other robotic platforms to the market, is encouraging for the
+continued progress and widespread adoption of these
+procedures.
+This study has limitations. It represents a retrospective,
+single-center experience performed by a surgeon and team
+with extensive robotic experience, with the surgeon well
+past the robotic cardiac surgery learning curve. The applicability of these findings to lower-volume programs may be
+limited. Routine angiographic surveillance was not performed
+so graft patency data was limited to only those undergoing
+hybrid revascularization after TECAB. Finally, the relatively
+small sample size limits the ability to draw larger conclusions
+regarding outcomes.
+
+Nisivaco et al
+
+Despite these limitations, our data add to the growing
+body of evidence that robotic beating-heart TECAB can
+be safely extended to targets beyond the anterior wall. As
+robotic platforms evolve with improved reach, visualization, and instrument dexterity, the technical barriers to these
+grafts may be further reduced. Broader dissemination of
+these techniques will also depend on structured training,
+team familiarity, and institutional support.
+CONCLUSIONS
+In experienced centers, posterior wall targets are not a
+contraindication to robotic beating-heart TECAB. Our
+experience demonstrated that grafting these vessels can be
+performed safely by an experienced team using adequate
+epicardial stabilization with low need for CPB, no conversion
+to sternotomy, and favorable early/midterm outcomes. This
+capability expands the scope of robotic beating-heart TECAB
+beyond just single-vessel grafting and supports its role as a
+comprehensive revascularization strategy in appropriately
+selected patients.
+Dr Balkhy reported proctor for Intuitive Surgical. All
+other authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling or reviewing manuscripts for which they may have a conflict
+of interest. The editors and reviewers of this article have
+no conflicts of interest.

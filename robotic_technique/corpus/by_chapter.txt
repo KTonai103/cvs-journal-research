@@ -1,0 +1,2039 @@
+
+==============================================================================
+== MITRAL  (n=904)
+==============================================================================
+
+[ 41] PMID 41665799 (2026) ROBO --- | J Robot Surg
+      Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - systematic narrative review.
+
+[ 39] PMID 33841983 (2021) ROBO PMC | J Thorac Dis
+      Robotic mitral valve surgery: a review and tips for safely negotiating the learning curve.
+
+[ 34] PMID 34942674 (2022) ENDO --- | Surg Technol Int
+      Micro-Invasive 3D Endoscopic Mitral Valve Surgery.
+
+[ 31] PMID 34325594 (2021) ROBO --- | Expert Rev Med Devices
+      The role of robotic technology in minimally invasive surgery for mitral valve disease.
+
+[ 30] PMID 33061184 (2020) ENDO PMC | Indian J Thorac Cardiovasc Surg
+      Minimally invasive mitral valve repair.
+
+[ 28] PMID 37754828 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Robotic-Assisted Solutions for Invasive Cardiology, Cardiac Surgery and Routine On-Ward Tasks: A Narrative Review.
+
+[ 28] PMID 41563306 (2026) ROBO --- | Int J Surg
+      Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient outcomes.
+
+[ 28] PMID 42188066 (2026) ROBO PMC | J Cardiovasc Dev Dis
+      Simulation Training in Video-Assisted and Robotic-Assisted Cardiac Surgery: A Narrative Review.
+
+[ 27] PMID 27942486 (2016) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve surgery: overview, methodology, results, and perspective.
+
+[ 27] PMID 41669172 (2026) ROBO PMC | Ann Cardiothorac Surg
+      Robotic degenerative mitral valve repair: an evolution.
+
+[ 27] PMID 41904670 (2026) ROBO --- | Eur J Cardiothorac Surg
+      Computed Tomography in Preoperative Planning of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Clinical Application.
+
+[ 27] PMID 42029588 (2026) ROBO PMC | Med Sci (Basel)
+      The Role of the Cardiothoracic Surgeon in the Age of AI-Are the Robots Going to Take Our Jobs?
+
+[ 26] PMID 36237594 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Complications and their management in robotic mitral valve surgery from the surgical assistant's perspective.
+
+[ 26] PMID 36294310 (2022) ENDO PMC | J Clin Med
+      Decision Making during the Learning Curve of Minimally Invasive Mitral Valve Surgery: A Focused Review for the Starting Minimally Invasive Surgeon.
+
+[ 26] PMID 36604696 (2023) ENDO PMC | J Cardiothorac Surg
+      Attaining competency and proficiency in minimally invasive mitral valve repair: a learning curve assessment using cumulative sum analysis.
+
+[ 26] PMID 39209092 (2025) ROBO --- | Ann Thorac Surg
+      Developing Proficiency in Robotic Cardiac Surgery.
+
+[ 26] PMID 39786456 (2024) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Examining the learning curves in robotic cardiac surgery wet lab simulation training.
+
+[ 26] PMID 40886757 (2026) ENDO --- | Ann Thorac Surg
+      Defining the Learning Curve in Minimally Invasive Cardiac Surgery: A Systematic Review and Meta-Analysis.
+
+[ 26] PMID 40900091 (2025) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic mitral valve repair: patient positioning and port placement in female patients.
+
+[ 25] PMID 24349995 (2013) ENDO PMC | Ann Cardiothorac Surg
+      Safeguards and pitfalls in minimally invasive mitral valve surgery.
+
+[ 25] PMID 24350001 (2013) ENDO PMC | Ann Cardiothorac Surg
+      Minimally invasive mitral valve repair: the Liverpool Heart and Chest Hospital Technique—tips for safely negotiating the learning curve.
+
+[ 25] PMID 31812012 (2020) ENDO --- | Med Hypotheses
+      Patient-specific access planning in minimally invasive mitral valve surgery.
+
+[ 25] PMID 32740992 (2020) ROBO --- | J Card Surg
+      Robotic trans-mitral septal myectomy and papillary muscle reorientation for HOCM combined with or without mitral valve repair: Technical aspects - How we do it.
+
+[ 25] PMID 39741621 (2024) ROBO PMC | Cureus
+      The Role of Robotics in Cardiac Surgery: Innovations, Outcomes, and Future Prospects.
+
+[ 25] PMID 40653582 (2025) ROBO PMC | J Robot Surg
+      The robotic revolution in cardiac surgery.
+
+[ 25] PMID 40788514 (2025) ROBO PMC | J Robot Surg
+      The learning curve of robotic cardiac surgery: a scoping review.
+
+[ 24] PMID 37868772 (2023) ROBO PMC | Front Cardiovasc Med
+      Closed-chest robotic repair of mitral prolapse. Surgical technique and early results.
+
+[ 24] PMID 38263168 (2024) ENDO PMC | J Cardiothorac Surg
+      Navigating the challenges of minimally invasive mitral valve surgery: a risk analysis and learning curve evaluation.
+
+[ 24] PMID 40900082 (2025) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic mitral valve repair: patient positioning and port placement in male patients.
+
+[ 24] PMID 41597388 (2026) ROBO PMC | Medicina (Kaunas)
+      Mini- and Micro-Invasive Approaches in Cardiac Surgery: Current Techniques, Outcomes, and Future Perspectives.
+
+[ 23] PMID 25840800 (2015) ENDO --- | Gen Thorac Cardiovasc Surg
+      Minimally invasive mitral valve surgery through right mini-thoracotomy: recommendations for good exposure, stable cardiopulmonary bypass, and secure myocardial protection.
+
+[ 23] PMID 28203538 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve repair for degenerative posterior leaflet prolapse.
+
+[ 23] PMID 31253547 (2020) ROBO --- | Heart Lung Circ
+      The Future of Open Heart Surgery in the Era of Robotic and Minimal Surgical Interventions.
+
+[ 23] PMID 37009910 (2023) ENDO --- | Multimed Man Cardiothorac Surg
+      Different valve types: tips and tricks for a totally endoscopic aortic valve replacement.
+
+[ 23] PMID 37424908 (2023) ENDO PMC | Front Cardiovasc Med
+      Mastering the learning curve of endoscopic mitral valve surgery.
+
+[ 23] PMID 37713462 (2023) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      An international survey-based assessment of minimally invasive mitral valve surgery.
+
+[ 23] PMID 41209145 (2025) ENDO PMC | Rev Cardiovasc Med
+      Do Complex Pathologies Remain a Challenge in Minimally Invasive Mitral Valve Surgery?
+
+[ 23] PMID 41725889 (2026) ROBO PMC | MDM Policy Pract
+      A Discrete-Event Simulation Model to Configure Operating Rooms for Robotic Cardiac Surgery.
+
+[ 22] PMID 27677879 (2017) ENDO --- | Interact Cardiovasc Thorac Surg
+      Preoperative planning with three-dimensional reconstruction of patient's anatomy, rapid prototyping and simulation for endoscopic mitral valve repair.
+
+[ 22] PMID 34830720 (2021) ROBO PMC | J Clin Med
+      Starting A New Robotic Surgery Program for Mitral Valve Repair. Lessons Learned from The First Nine Months.
+
+[ 22] PMID 35467092 (2022) ENDO --- | Multimed Man Cardiothorac Surg
+      Endoaortic balloon occlusion in minimally invasive mitral valve surgery.
+
+[ 22] PMID 35969291 (2023) ROBO --- | J Artif Organs
+      Safe launch of a robotically assisted mitral valve repair program in a single center: experience of initial 20 cases under the Center for Minimally Invasive Surgery.
+
+[ 22] PMID 36237591 (2022) ROBO PMC | Ann Cardiothorac Surg
+      How to implement a clinical robotic mitral valve surgery program.
+
+[ 22] PMID 41658870 (2026) ENDO PMC | JTCVS Tech
+      Totally endoscopic port access for rheumatic mitral valve replacement: Clinical outcomes and a single surgeon's learning curve experience.
+
+[ 22] PMID 42216681 (2026) ENDO --- | Innovations (Phila)
+      Safety and Learning Curve of Totally Endoscopic Mitral Valve Plasty: Initial 125 Cases Evaluated by Operative Time and RA-CUSUM Method.
+
+[ 21] PMID 24455172 (2014) ROBO PMC | J Thorac Dis
+      Videoscope-assisted cardiac surgery.
+
+[ 21] PMID 33020254 (2020) ENDO PMC | Open Heart
+      BISMICS consensus statement: implementing a safe minimally invasive mitral programme in the UK healthcare setting.
+
+[ 21] PMID 33894935 (2021) ENDO --- | Cardiol Clin
+      Minimally Invasive Mitral Surgery: Patient Selection and Technique.
+
+[ 21] PMID 34623253 (2021) ENDO --- | Heart Surg Forum
+      Learning Curve from 100 Cases of Totally Thoracoscopic Mitral Valve Replacement.
+
+[ 21] PMID 34852340 (2022) ENDO --- | Eur Surg Res
+      Pass On What You Have Learned: A Structured Mentor-Mentee Concept for the Implementation of a Minimally Invasive Mitral Valve Surgery Program.
+
+[ 21] PMID 35294716 (2022) ENDO PMC | Int J Comput Assist Radiol Surg
+      A system for real-time multivariate feature combination of endoscopic mitral valve simulator training data.
+
+[ 21] PMID 35582466 (2022) ROBO PMC | World J Cardiol
+      Cardiac myxomas: A narrative review.
+
+[ 21] PMID 35799484 (2022) ROBO --- | Kyobu Geka
+      [Tips for Successful Robot-assisted Mitral Valve Repair].
+
+[ 21] PMID 35799494 (2022) ROBO --- | Kyobu Geka
+      [Various Considerations on Robot-assisted Cardiac Surgery].
+
+[ 21] PMID 36529985 (2022) ROBO PMC | Innovations (Phila)
+      A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair.
+
+[ 21] PMID 39589894 (2024) ROBO --- | Eur J Cardiothorac Surg
+      Learning curve of robotic mitral repair: prospective two-centre study of proficiency and clinical outcomes.
+
+[ 21] PMID 40401414 (2025) ENDO PMC | Innovations (Phila)
+      Learning Curve Analysis of Minimally Invasive Mitral Valve Repair.
+
+[ 21] PMID 40652436 (2025) ROBO PMC | J Robot Surg
+      Artificial intelligence-based action recognition and skill assessment in robotic cardiac surgery simulation: a feasibility study.
+
+[ 21] PMID 40964525 (2025) ENDO PMC | Front Cardiovasc Med
+      The impact of comorbidities on surgical outcome and mortality in minimally invasive mitral valve surgery: a systematic review.
+
+[ 21] PMID 41134183 (2025) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Speech bubble sign - insights regarding incomplete left atrial appendage closure via electrocardiography-synchronized computed tomography in robotic surgery cases.
+
+[ 21] PMID 41315104 (2025) ROBO PMC | J Robot Surg
+      Exploring the future of robotic approaches in neonatal cardiac surgery: opportunities, barriers, and innovation pathways.
+
+[ 21] PMID 41506893 (2026) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Initial Experience With Robotic Mitral Valve Replacement: Results From a Single Centre.
+
+[ 21] PMID 41592916 (2026) ROBO PMC | Open Heart
+      Minimally invasive versus conventional mitral valve surgery: a systematic review and meta-analysis of randomised clinical trials.
+
+[ 21] PMID 41764530 (2026) ENDO PMC | J Cardiothorac Surg
+      Minimally invasive mitral valve surgery in a middle-income country: feasibility and learning curve in a low-volume center.
+
+[ 21] PMID 42232264 (2025) ROBO PMC | J Vis Surg
+      Endoscopic mitral valve repair-one hundred and one ways to use neochords: a narrative review.
+
+[ 20] PMID 26309847 (2015) ENDO PMC | Ann Cardiothorac Surg
+      Designing innovative retractors and devices to facilitate mitral valve repair surgery.
+
+[ 20] PMID 27440020 (2016) ENDO --- | Kyobu Geka
+      [Totally Endoscopic Mitral Valve Surgery;Theory and Techniques].
+
+[ 20] PMID 27942491 (2016) ROBO PMC | Ann Cardiothorac Surg
+      Technical aspects of robotic posterior mitral valve leaflet repair.
+
+[ 20] PMID 33394708 (2021) ROBO --- | Curr Opin Cardiol
+      Review of transapical off-pump mitral valve intervention with NeoChord implantation.
+
+[ 20] PMID 33403721 (2021) ROBO --- | J Card Surg
+      An analysis of the learning curve for robotic-assisted mitral valve repair.
+
+
+==============================================================================
+== AVR  (n=156)
+==============================================================================
+
+[ 27] PMID 41904670 (2026) ROBO --- | Eur J Cardiothorac Surg
+      Computed Tomography in Preoperative Planning of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Clinical Application.
+
+[ 26] PMID 39209092 (2025) ROBO --- | Ann Thorac Surg
+      Developing Proficiency in Robotic Cardiac Surgery.
+
+[ 26] PMID 40886757 (2026) ENDO --- | Ann Thorac Surg
+      Defining the Learning Curve in Minimally Invasive Cardiac Surgery: A Systematic Review and Meta-Analysis.
+
+[ 24] PMID 41597388 (2026) ROBO PMC | Medicina (Kaunas)
+      Mini- and Micro-Invasive Approaches in Cardiac Surgery: Current Techniques, Outcomes, and Future Perspectives.
+
+[ 23] PMID 28203538 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve repair for degenerative posterior leaflet prolapse.
+
+[ 23] PMID 37009910 (2023) ENDO --- | Multimed Man Cardiothorac Surg
+      Different valve types: tips and tricks for a totally endoscopic aortic valve replacement.
+
+[ 22] PMID 40137082 (2025) ROBO PMC | J Cardiovasc Dev Dis
+      Not All SAVR Are Created Equal: All the Approaches Available for Surgical Aortic Valve Replacement.
+
+[ 22] PMID 42442887 (2026) ROBO --- | JACC Cardiovasc Interv
+      Procedural Strategies for Optimal Transcatheter Aortic Valve Replacement: An International Position Statement.
+
+[ 21] PMID 41752740 (2026) ENDO PMC | Medicina (Kaunas)
+      Totally Endoscopic Approach for Aortic Valve Replacement: A Systematic Review and Single-Arm Meta-Analysis.
+
+[ 20] PMID 40490988 (2025) ENDO PMC | Innovations (Phila)
+      Totally Endoscopic Aortic Valve Replacement With Triangulated Suturing: How to Do It.
+
+[ 19] PMID 40547427 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Lateral access fully robotic aortic valve replacement "RAVR": from novel to normal.
+
+[ 19] PMID 41821094 (2026) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic resection of right atrial myxoma on beating heart: a case serries.
+
+[ 18] PMID 21335887 (2011) ROBO --- | Stud Health Technol Inform
+      A novel virtual reality environment for preoperative planning and simulation of image guided intracardiac surgeries with robotic manipulators.
+
+[ 17] PMID 39444550 (2024) ENDO PMC | Front Cardiovasc Med
+      Totally 3D endoscopic aortic valve replacement: initial results and experience from a single center.
+
+[ 17] PMID 42494922 (2026) ROBO PMC | Surg Case Rep
+      Robotic Aortic Valve Replacement in Severe Scoliosis with Markedly Narrow Chest.
+
+[ 16] PMID 27072837 (2016) ROBO PMC | Int J Comput Assist Radiol Surg
+      Catheter manipulation analysis for objective performance and technical skills assessment in transcatheter aortic valve implantation.
+
+[ 16] PMID 30019253 (2018) ENDO --- | Gen Thorac Cardiovasc Surg
+      Minimally invasive cardiac surgery in Japan: history and current status.
+
+[ 16] PMID 38054555 (2023) ROBO PMC | Cochrane Database Syst Rev
+      Limited versus full sternotomy for aortic valve replacement.
+
+[ 16] PMID 42305172 (2025) ROBO PMC | JTCVS Struct Endovasc
+      Robotic endoscopic cardiac surgery in the reoperative patient: Is it feasible?
+
+[ 15] PMID 26778373 (2016) ROBO PMC | J Thorac Cardiovasc Surg
+      Robot-assisted real-time magnetic resonance image-guided transcatheter aortic valve replacement.
+
+[ 15] PMID 34560044 (2022) ROBO --- | Ann Thorac Surg
+      Robotic Aortic Valve Replacement: First 50 Cases.
+
+[ 15] PMID 40198923 (2025) ROBO --- | Semin Cardiothorac Vasc Anesth
+      Noteworthy in Cardiothoracic Surgery 2024.
+
+[ 15] PMID 41735593 (2026) ROBO --- | J Robot Surg
+      The cyber-physical paradigm for lifetime aortic valve management: a synthesis of robotics, artificial intelligence, and augmented reality.
+
+[ 15] PMID 41910457 (2026) ROBO --- | Perfusion
+      Outcomes of robotically-assisted aortic valve surgery: A systematic review.
+
+[ 14] PMID 26282961 (2016) ROBO --- | Int J Med Robot
+      Robotic total endoscopic sutureless aortic valve replacement: proof of concept for a future surgical setting.
+
+[ 14] PMID 26826714 (2016) ENDO PMC | Interact Cardiovasc Thorac Surg
+      Preoperative planning of left-sided valve surgery with 3D computed tomography reconstruction models: sternotomy or a minimally invasive approach?
+
+[ 14] PMID 28394022 (2017) ROBO PMC | Cochrane Database Syst Rev
+      Limited versus full sternotomy for aortic valve replacement.
+
+[ 14] PMID 31893953 (2020) ROBO --- | Innovations (Phila)
+      Early Clinical Experiences of Robotic Assisted Aortic Valve Replacement for Aortic Valve Stenosis with Sutureless Aortic Valve.
+
+[ 14] PMID 40547421 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Surgical versus transcatheter aortic valve replacement: the future role of robotic aortic valve replacement.
+
+[ 13] PMID 25362732 (2014) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic-assisted mitral valve repair: surgical technique.
+
+[ 13] PMID 27127558 (2016) ROBO PMC | Methodist Debakey Cardiovasc J
+      Mitral Valve Surgery: Current Minimally Invasive and Transcatheter Options.
+
+[ 13] PMID 29700926 (2018) ROBO --- | Int J Med Robot
+      Robot-assisted aortic valve surgery: State of the art and challenges for the future.
+
+[ 13] PMID 35699726 (2022) ENDO --- | Innovations (Phila)
+      Intermediate-Term Outcomes of Totally Endoscopic Atrial Septal Defect Repair on Beating Heart in Small Children.
+
+[ 13] PMID 42200234 (2026) ROBO --- | G Ital Cardiol (Rome)
+      [The evolution of robotic cardiac surgery: state of the art and future perspectives].
+
+[ 12] PMID 35711214 (2022) ROBO PMC | JTCVS Tech
+      Multi-spectrum robotic cardiac surgery: Early outcomes.
+
+[ 12] PMID 40547424 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Advancing robotic aortic valve replacement beyond isolated therapy: a platform for multivalve therapy.
+
+[ 12] PMID 40671980 (2025) ENDO PMC | Cureus
+      Dual-Camera Port Setup Strategies for Totally Endoscopic Aortic and Mitral Valve Surgery.
+
+[ 11] PMID 31800039 (2020) ENDO --- | Interact Cardiovasc Thorac Surg
+      Totally endoscopic aortic valve replacement via an anterolateral approach using a standard prosthesis.
+
+[ 11] PMID 36539048 (2023) ROBO --- | Ann Thorac Surg
+      Ventricular Fibrillatory Arrest: A Safe Option in Robotic Totally Endoscopic Intracardiac Surgery.
+
+[ 11] PMID 38731177 (2024) ENDO PMC | J Clin Med
+      Totally Endoscopic Replacement of the Ascending Aorta and the Aortic Root including the Aortic Valve via Right Mini-Thoracotomy: A Multicenter Study.
+
+[ 11] PMID 40547431 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Establishing a robotic aortic valve replacement program in Spain: growing opportunities for Europe.
+
+[ 10] PMID 34717719 (2021) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic aortic valve replacement with concomitant trans-aortic mitral valve repair for mitral regurgitation.
+
+[ 10] PMID 36203314 (2022) ROBO --- | Innovations (Phila)
+      Robotic Aortic Valve Replacement Using the Intuity Bioprosthesis Through a Right Lateral Approach.
+
+[ 10] PMID 38392263 (2024) ROBO PMC | J Cardiovasc Dev Dis
+      Aortic Valve Embryology, Mechanobiology, and Second Messenger Pathways: Implications for Clinical Practice.
+
+[ 10] PMID 41417160 (2026) ROBO PMC | Gen Thorac Cardiovasc Surg
+      Minimally invasive cardiac surgeries in 2022: annual report by Japanese Society of Minimally Invasive Cardiac Surgery.
+
+[ 10] PMID 41819246 (2026) ROBO --- | Ann Thorac Surg
+      Transcervical Robotic Aortic Valve Replacement: A Possible New Frontier in Cardiac Surgery?
+
+[  9] PMID 16894251 (2006) ROBO --- | Am Heart Hosp J
+      Future directions in cardiac surgery.
+
+[  9] PMID 32641670 (2020) ENDO --- | Kyobu Geka
+      [Totally Endoscopic Aortic Valve Replacement Using the Three-dimensional Endoscope].
+
+[  9] PMID 36028363 (2023) ROBO --- | J Thorac Cardiovasc Surg
+      Robotic-assisted cryothermic Cox maze for persistent atrial fibrillation: Longitudinal follow-up.
+
+[  9] PMID 40131409 (2025) ROBO --- | Eur J Cardiothorac Surg
+      Longitudinal outcomes following international multicentre experience with robotic aortic valve replacement†.
+
+[  9] PMID 41107875 (2025) ENDO PMC | J Cardiothorac Surg
+      The TATEGIRI technique: adaptation of a longitudinal aortotomy for totally endoscopic aortic valve replacement.
+
+[  9] PMID 41461016 (2026) ROBO --- | Curr Opin Cardiol
+      Innovations in robotic aortic valve surgery.
+
+[  8] PMID 17594968 (2007) ROBO PMC | Philos Trans R Soc Lond B Biol Sci
+      Aortic root dynamics and surgery: from craft to science.
+
+[  8] PMID 29697598 (2018) ENDO PMC | Innovations (Phila)
+      A Phase 1 Study of a Novel Bidirectional Perfusion Cannula in Patients Undergoing Femoral Cannulation for Cardiac Surgery.
+
+[  8] PMID 32931426 (2021) ROBO --- | IEEE Trans Biomed Eng
+      ValveTech: A Novel Robotic Approach for Minimally Invasive Aortic Valve Replacement.
+
+[  8] PMID 34189768 (2021) ROBO --- | J Card Surg
+      Robotic resection of an aortic valve fibroelastoma using a right lateral approach.
+
+[  8] PMID 34802439 (2021) ROBO PMC | J Cardiothorac Surg
+      Massive hemorrhage from the posterior intercostal artery following lower partial sternotomy.
+
+[  8] PMID 36172589 (2022) ROBO PMC | Front Cardiovasc Med
+      Transcatheter aortic valve replacement in patients undergoing robotic totally endoscopic coronary artery bypass: A case series.
+
+[  8] PMID 36324406 (2022) ROBO PMC | Cereb Circ Cogn Behav
+      Quantifying neurological function in patients undergoing transcatheter aortic valve implantation.
+
+[  8] PMID 37062718 (2023) ROBO --- | Circ J
+      Robot-Assisted Aortic Valve Replacement　- First Clinical Report in Japan.
+
+[  8] PMID 37306439 (2023) ENDO --- | J Vis Exp
+      Fully Endoscopic Mitral Valve Repair with Percutaneous Cannulation of Groin Vessels.
+
+[  8] PMID 37729442 (2023) ENDO --- | Minim Invasive Ther Allied Technol
+      Totally endoscopic pulmonary valve replacement.
+
+[  8] PMID 38197112 (2023) ROBO PMC | Transl Pediatr
+      Aortic valve leaflets are asymmetric and correlated with the origin of coronary arteries.
+
+[  8] PMID 39947309 (2025) ROBO --- | Ann Thorac Surg
+      Minimally Invasive Valve Surgery for Patients With Infective Endocarditis: A Comparative Study.
+
+[  8] PMID 40322183 (2024) ROBO PMC | Turk Gogus Kalp Damar Cerrahisi Derg
+      [MSB-12] Our Clinical Experience with Septal Myectomy in Hypertrophic Cardiomyopathy Patients.
+
+[  8] PMID 40547422 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Robotic aortic valve replacement in the Middle East: reproducibility into practice with evolving complexity.
+
+[  8] PMID 40958171 (2025) ROBO PMC | Innovations (Phila)
+      Application of Augmented Reality in Robot-Assisted Mitral Valve Repair Surgery: A Feasibility Study.
+
+[  7] PMID 15500429 (2004) ROBO --- | Expert Rev Cardiovasc Ther
+      Minimally invasive heart valve surgery: already established in clinical routine?
+
+[  7] PMID 23125924 (2012) ROBO PMC | Minim Invasive Surg
+      Minimally invasive cardiac surgery: transapical aortic valve replacement.
+
+[  7] PMID 25224550 (2014) ENDO --- | J Thorac Cardiovasc Surg
+      Minimally invasive right thoracotomy approach for mitral valve surgery in patients with previous sternotomy: a single institution experience with 173 patients.
+
+
+==============================================================================
+== TECAB  (n=651)
+==============================================================================
+
+[ 41] PMID 41665799 (2026) ROBO --- | J Robot Surg
+      Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - systematic narrative review.
+
+[ 28] PMID 37753828 (2023) ROBO --- | Innovations (Phila)
+      Inexpensive and Easy to Set Up Robotic Cardiac Simulator Offers "Unlimited" Endoscopic Coronary Artery Bypass Grafting Experience: Proof of Concept.
+
+[ 28] PMID 37754828 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Robotic-Assisted Solutions for Invasive Cardiology, Cardiac Surgery and Routine On-Ward Tasks: A Narrative Review.
+
+[ 28] PMID 40459585 (2025) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic-assisted, minimally invasive direct coronary artery bypass-preparation, conduit harvest and execution.
+
+[ 28] PMID 41563306 (2026) ROBO --- | Int J Surg
+      Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient outcomes.
+
+[ 27] PMID 41682905 (2026) ROBO PMC | J Clin Med
+      Augmented and Mixed Reality in Cardiac Surgery: A Narrative Review.
+
+[ 27] PMID 42029588 (2026) ROBO PMC | Med Sci (Basel)
+      The Role of the Cardiothoracic Surgeon in the Age of AI-Are the Robots Going to Take Our Jobs?
+
+[ 26] PMID 39209092 (2025) ROBO --- | Ann Thorac Surg
+      Developing Proficiency in Robotic Cardiac Surgery.
+
+[ 26] PMID 39786456 (2024) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Examining the learning curves in robotic cardiac surgery wet lab simulation training.
+
+[ 26] PMID 40886757 (2026) ENDO --- | Ann Thorac Surg
+      Defining the Learning Curve in Minimally Invasive Cardiac Surgery: A Systematic Review and Meta-Analysis.
+
+[ 25] PMID 32740992 (2020) ROBO --- | J Card Surg
+      Robotic trans-mitral septal myectomy and papillary muscle reorientation for HOCM combined with or without mitral valve repair: Technical aspects - How we do it.
+
+[ 25] PMID 39741621 (2024) ROBO PMC | Cureus
+      The Role of Robotics in Cardiac Surgery: Innovations, Outcomes, and Future Prospects.
+
+[ 25] PMID 40653582 (2025) ROBO PMC | J Robot Surg
+      The robotic revolution in cardiac surgery.
+
+[ 25] PMID 40788514 (2025) ROBO PMC | J Robot Surg
+      The learning curve of robotic cardiac surgery: a scoping review.
+
+[ 24] PMID 31829047 (2020) ROBO --- | Expert Rev Med Devices
+      Robotic totally endoscopic coronary artery bypass grafting: current status and future prospects.
+
+[ 24] PMID 36331815 (2022) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic-assisted MIDCAB procedure through a minithoracotomy: Step-by-step instructions.
+
+[ 24] PMID 39157180 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Robotic-assisted coronary artery bypass grafting: how I teach it.
+
+[ 24] PMID 39434975 (2024) ROBO PMC | Ann Cardiothorac Surg
+      How to advance from minimally invasive coronary artery bypass grafting to totally endoscopic coronary bypass grafting: challenges in Europe versus United States of America.
+
+[ 24] PMID 41597388 (2026) ROBO PMC | Medicina (Kaunas)
+      Mini- and Micro-Invasive Approaches in Cardiac Surgery: Current Techniques, Outcomes, and Future Perspectives.
+
+[ 23] PMID 28203538 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve repair for degenerative posterior leaflet prolapse.
+
+[ 23] PMID 31253547 (2020) ROBO --- | Heart Lung Circ
+      The Future of Open Heart Surgery in the Era of Robotic and Minimal Surgical Interventions.
+
+[ 22] PMID 35969291 (2023) ROBO --- | J Artif Organs
+      Safe launch of a robotically assisted mitral valve repair program in a single center: experience of initial 20 cases under the Center for Minimally Invasive Surgery.
+
+[ 22] PMID 39434973 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Step-by-step technique of robotic-assisted minimally invasive direct coronary artery bypass.
+
+[ 22] PMID 42301235 (2026) ROBO --- | Curr Opin Cardiol
+      Minimally invasive approaches to coronary artery bypass grafting: techniques, current evidence, and future directions.
+
+[ 22] PMID 42442887 (2026) ROBO --- | JACC Cardiovasc Interv
+      Procedural Strategies for Optimal Transcatheter Aortic Valve Replacement: An International Position Statement.
+
+[ 21] PMID 24455172 (2014) ROBO PMC | J Thorac Dis
+      Videoscope-assisted cardiac surgery.
+
+[ 21] PMID 31570244 (2019) ROBO --- | J Cardiothorac Vasc Anesth
+      Hybrid Coronary Revascularization - Current State of the Art.
+
+[ 21] PMID 33155975 (2020) ROBO PMC | Can J Surg
+      Robot-assisted coronary artery bypass surgery: a systematic review and meta-analysis of comparative studies.
+
+[ 21] PMID 35582466 (2022) ROBO PMC | World J Cardiol
+      Cardiac myxomas: A narrative review.
+
+[ 21] PMID 35799494 (2022) ROBO --- | Kyobu Geka
+      [Various Considerations on Robot-assisted Cardiac Surgery].
+
+[ 21] PMID 36529985 (2022) ROBO PMC | Innovations (Phila)
+      A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair.
+
+[ 21] PMID 39589894 (2024) ROBO --- | Eur J Cardiothorac Surg
+      Learning curve of robotic mitral repair: prospective two-centre study of proficiency and clinical outcomes.
+
+[ 21] PMID 40142306 (2025) ROBO PMC | Medicina (Kaunas)
+      Enhanced Recovery After Cardiac Surgery for Minimally Invasive Valve Surgery: A Systematic Review of Key Elements and Advancements.
+
+[ 21] PMID 40401414 (2025) ENDO PMC | Innovations (Phila)
+      Learning Curve Analysis of Minimally Invasive Mitral Valve Repair.
+
+[ 21] PMID 40964525 (2025) ENDO PMC | Front Cardiovasc Med
+      The impact of comorbidities on surgical outcome and mortality in minimally invasive mitral valve surgery: a systematic review.
+
+[ 21] PMID 41315104 (2025) ROBO PMC | J Robot Surg
+      Exploring the future of robotic approaches in neonatal cardiac surgery: opportunities, barriers, and innovation pathways.
+
+[ 21] PMID 41592916 (2026) ROBO PMC | Open Heart
+      Minimally invasive versus conventional mitral valve surgery: a systematic review and meta-analysis of randomised clinical trials.
+
+[ 21] PMID 41694814 (2026) ROBO PMC | Cureus
+      Ultra-Fast-Track Extubation Within Four Hours Versus Conventional Ventilation After Robotic Coronary Artery Bypass Grafting: A Systematic Review of Intensive Care Unit Stay and Postoperative Atrial Fibrillation Outcomes.
+
+[ 21] PMID 42152840 (2026) ROBO PMC | Indian J Thorac Cardiovasc Surg
+      Robotic-assisted coronary artery bypass grafting: comparative analysis of surgical outcomes and learning curve.
+
+[ 21] PMID 42232264 (2025) ROBO PMC | J Vis Surg
+      Endoscopic mitral valve repair-one hundred and one ways to use neochords: a narrative review.
+
+[ 20] PMID 24944107 (2015) ROBO --- | Int J Med Robot
+      Challenges facing totally endoscopic robotic coronary artery bypass grafting.
+
+[ 20] PMID 34422354 (2021) ROBO PMC | J Thorac Dis
+      Safe implementation of robotic-assisted minimally invasive direct coronary artery bypass: application of learning curves and cumulative sum analysis.
+
+[ 20] PMID 36422071 (2022) ROBO PMC | J Pers Med
+      A Single Center Initial Experience with Robotic-Assisted Minimally Invasive Coronary Artery Bypass Surgery (RA-MIDCAB).
+
+[ 20] PMID 37868547 (2023) ROBO PMC | Cureus
+      Recent Advances in Coronary Artery Bypass Grafting Techniques and Outcomes: A Narrative Review.
+
+[ 20] PMID 40364171 (2025) ROBO PMC | J Clin Med
+      New Clinical Advances in Minimally Invasive Coronary Surgery.
+
+[ 19] PMID 40517112 (2025) ROBO --- | Heart Lung Circ
+      A Systematic Review of Minimally Invasive Approaches to Surgical Atrial Septal Defect Repair.
+
+[ 19] PMID 42232254 (2025) ENDO PMC | J Vis Surg
+      Endoscopic mitral valve surgery: picture from the real world-sub-analysis from the Mini-Mitral International Registry.
+
+[ 19] PMID 42232265 (2025) ROBO PMC | J Vis Surg
+      Robotic multi-vessel off-pump totally endoscopic coronary artery bypass (TECAB) procedure: surgical technique.
+
+[ 18] PMID 15931491 (2004) ROBO --- | Surg Endosc
+      Totally endoscopic coronary artery bypass graft: initial experience with an additional instrument arm and an advanced camera system.
+
+[ 18] PMID 22885467 (2012) ROBO --- | Innovations (Phila)
+      Precision incision: robotic coronary revascularization via 3.9-cm minithoracotomy.
+
+[ 18] PMID 22976997 (2012) ROBO PMC | Interact Cardiovasc Thorac Surg
+      Is totally endoscopic coronary artery bypass safe, feasible and effective?
+
+[ 18] PMID 27942485 (2016) ROBO PMC | Ann Cardiothorac Surg
+      A systematic review on robotic coronary artery bypass graft surgery.
+
+[ 18] PMID 33060955 (2018) ROBO PMC | Indian J Thorac Cardiovasc Surg
+      A review of hybrid coronary revascularization.
+
+[ 18] PMID 34295373 (2021) ROBO PMC | Interv Cardiol
+      Minimally Invasive Coronary Revascularisation Surgery: A Focused Review of the Available Literature.
+
+[ 18] PMID 37629762 (2023) ROBO PMC | Medicina (Kaunas)
+      Circumflex Coronary Artery Injury during Modern Mitral Valve Surgery-A Review of Current Concepts and Perspectives.
+
+[ 18] PMID 38673708 (2024) ROBO PMC | J Clin Med
+      Robotic-Assisted Minimally Invasive Direct Coronary Artery Bypass Grafting: A Surgical Technique.
+
+[ 18] PMID 40434502 (2025) ROBO PMC | J Robot Surg
+      Patient complexity does not affect surgical learning curve and clinical outcomes during early experience in robotic assisted coronary surgery.
+
+[ 18] PMID 41511586 (2026) ROBO PMC | J Robot Surg
+      Clipless robotic LIMA harvesting: monitoring performance and safety through CUSUM and RA-CUSUM analyses.
+
+[ 18] PMID 42157221 (2026) ROBO PMC | J Cardiothorac Surg
+      Into the future: first robotic totally endoscopic coronary artery bypass in Southeast Asia.
+
+[ 17] PMID 23977616 (2013) ROBO PMC | Ann Cardiothorac Surg
+      Systematic review of robotic-assisted, totally endoscopic coronary artery bypass grafting.
+
+[ 17] PMID 24322208 (2014) ROBO --- | Curr Opin Anaesthesiol
+      Totally endoscopic robotic coronary artery bypass surgery.
+
+[ 17] PMID 28085690 (2017) ROBO --- | Innovations (Phila)
+      A Novel Robotic Bilateral Internal Mammary Artery Harvest Using Double Docking Technique for Coronary Artery Bypass Grafting.
+
+[ 17] PMID 34276979 (2021) ROBO PMC | Ann Med Surg (Lond)
+      Coronary computed tomography angiography following robotic coronary artery bypass grafting surgery: Systematic approach to image analysis and practical considerations.
+
+[ 17] PMID 39267396 (2024) ROBO --- | Innovations (Phila)
+      Robot-Assisted Minimally Invasive Coronary Artery Bypass Grafting: Total Arterial Revascularization Using the Double-Docking Technique.
+
+[ 17] PMID 39444550 (2024) ENDO PMC | Front Cardiovasc Med
+      Totally 3D endoscopic aortic valve replacement: initial results and experience from a single center.
+
+[ 17] PMID 39473044 (2024) ROBO --- | Innovations (Phila)
+      Development and Validation of a Low-Cost, High-Fidelity Simulation Model for Robotic Internal Mammary Artery Harvest Using the da Vinci Xi Robot.
+
+[ 17] PMID 41629762 (2026) ROBO --- | Innovations (Phila)
+      The Future of Coronary Bypass? A Novel Simulator for Robotic Beating-Heart TECAB Training.
+
+[ 17] PMID 42494922 (2026) ROBO PMC | Surg Case Rep
+      Robotic Aortic Valve Replacement in Severe Scoliosis with Markedly Narrow Chest.
+
+[ 16] PMID 16112940 (2005) ROBO --- | Heart Surg Forum
+      Total endoscopic CABG using robotics on beating heart.
+
+[ 16] PMID 23274864 (2012) ROBO --- | Innovations (Phila)
+      Lessons learned from robotic-assisted coronary artery bypass surgery: risk factors for conversion to median sternotomy.
+
+
+==============================================================================
+== ASD_TUMOR  (n=234)
+==============================================================================
+
+[ 41] PMID 41665799 (2026) ROBO --- | J Robot Surg
+      Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - systematic narrative review.
+
+[ 30] PMID 33061184 (2020) ENDO PMC | Indian J Thorac Cardiovasc Surg
+      Minimally invasive mitral valve repair.
+
+[ 30] PMID 39797207 (2024) ROBO PMC | J Clin Med
+      The Therapeutic Potential of Different Surgical Approaches in the Management of Cardiac Myxoma: A Systematic Review.
+
+[ 25] PMID 39741621 (2024) ROBO PMC | Cureus
+      The Role of Robotics in Cardiac Surgery: Innovations, Outcomes, and Future Prospects.
+
+[ 23] PMID 31253547 (2020) ROBO --- | Heart Lung Circ
+      The Future of Open Heart Surgery in the Era of Robotic and Minimal Surgical Interventions.
+
+[ 23] PMID 41209145 (2025) ENDO PMC | Rev Cardiovasc Med
+      Do Complex Pathologies Remain a Challenge in Minimally Invasive Mitral Valve Surgery?
+
+[ 22] PMID 37997659 (2023) ENDO --- | Innovations (Phila)
+      Totally Endoscopic Atrial Septal Defect Repair on Beating Heart: Clinical Outcome and Single-Surgeon Learning Curve Experience.
+
+[ 21] PMID 24455172 (2014) ROBO PMC | J Thorac Dis
+      Videoscope-assisted cardiac surgery.
+
+[ 21] PMID 35582466 (2022) ROBO PMC | World J Cardiol
+      Cardiac myxomas: A narrative review.
+
+[ 19] PMID 40517112 (2025) ROBO --- | Heart Lung Circ
+      A Systematic Review of Minimally Invasive Approaches to Surgical Atrial Septal Defect Repair.
+
+[ 19] PMID 41821094 (2026) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic resection of right atrial myxoma on beating heart: a case serries.
+
+[ 17] PMID 30336384 (2018) ROBO PMC | Int J Surg Case Rep
+      Totally endoscopic atrial septal defect repair using transthoracic aortic cannulation in a 10.5-kg-boy.
+
+[ 16] PMID 30019253 (2018) ENDO --- | Gen Thorac Cardiovasc Surg
+      Minimally invasive cardiac surgery in Japan: history and current status.
+
+[ 16] PMID 40082903 (2025) ROBO PMC | J Cardiothorac Surg
+      Cardiac myxoma: a comprehensive review.
+
+[ 16] PMID 42305172 (2025) ROBO PMC | JTCVS Struct Endovasc
+      Robotic endoscopic cardiac surgery in the reoperative patient: Is it feasible?
+
+[ 15] PMID 34560044 (2022) ROBO --- | Ann Thorac Surg
+      Robotic Aortic Valve Replacement: First 50 Cases.
+
+[ 15] PMID 36423256 (2022) ROBO --- | J Card Surg
+      Routine endoscopic robotic cardiac tumor resection using an 8-mm working port and percutaneous cannulation.
+
+[ 15] PMID 39904993 (2025) ROBO --- | Innovations (Phila)
+      Periareolar Cardiac Surgery in Patients With Breast Implants: How to Do It.
+
+[ 14] PMID 17520629 (2006) ROBO --- | Int J Med Robot
+      Robotics in cardiac surgery: the Istanbul experience.
+
+[ 14] PMID 31233237 (2019) ROBO --- | J Card Surg
+      Redo robotic cardiac surgery and concomitant cesarean section in a pregnant patient with dextrocardia and situs inversus totalis.
+
+[ 14] PMID 32082913 (2019) ROBO PMC | Turk Gogus Kalp Damar Cerrahisi Derg
+      The feasibility of robotic-assisted concomitant procedures during mitral valve operations.
+
+[ 14] PMID 32353922 (2020) ROBO --- | J Card Surg
+      Robotic-assisted cardiac surgery without lung isolation utilizing single-lumen endotracheal tube intubation.
+
+[ 14] PMID 36483620 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Robotically assisted mitral valve surgery-experience during the restart of a robotic program in Germany.
+
+[ 13] PMID 23634811 (2013) ROBO PMC | J Cardiothorac Surg
+      Totally thoracoscopic surgery for the treatment of atrial septal defect without of the robotic Da Vinci surgical system.
+
+[ 13] PMID 25362732 (2014) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic-assisted mitral valve repair: surgical technique.
+
+[ 13] PMID 28203537 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic cardiac surgery in Brazil.
+
+[ 13] PMID 35699726 (2022) ENDO --- | Innovations (Phila)
+      Intermediate-Term Outcomes of Totally Endoscopic Atrial Septal Defect Repair on Beating Heart in Small Children.
+
+[ 13] PMID 42249473 (2026) ROBO --- | J Cardiothorac Surg
+      Safety and efficacy of Da Vinci robot-assisted atrial septal defect repair in patients with different body mass index levels: a single-center retrospective analysis.
+
+[ 12] PMID 19853866 (2010) ROBO --- | J Thorac Cardiovasc Surg
+      Excision of atrial myxoma using robotic technology.
+
+[ 12] PMID 22200951 (2012) ROBO PMC | Interact Cardiovasc Thorac Surg
+      Total endoscopic robotic atrial septal defect repair in a patient with dextrocardia and situs inversus totalis.
+
+[ 12] PMID 22734359 (2011) ROBO --- | Indian Heart J
+      Asymptomatic chronic severe organic mitral regurgitation: contemporary management strategies.
+
+[ 12] PMID 28203542 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic trans-atrial and trans-mitral ventricular septal resection.
+
+[ 12] PMID 28329330 (2017) ROBO --- | Eur J Cardiothorac Surg
+      Three-port (one incision plus two-port) endoscopic mitral valve surgery without robotic assistance.
+
+[ 12] PMID 29232303 (2017) ROBO PMC | Innovations (Phila)
+      Totally Endoscopic Cardiac Surgery for Atrial Septal Defect Repair on Beating Heart Without Robotic Assistance in 25 Patients.
+
+[ 12] PMID 33932160 (2021) ROBO PMC | JA Clin Rep
+      Safety of perioperative period in robot-assisted atrial septal defect repair under hyperkalemic arrest.
+
+[ 12] PMID 34197045 (2021) ROBO --- | Int J Med Robot
+      Robot-assisted beating-heart surgery for atrial septal defect repair in a case of situs inversus totalis with dextrocardia.
+
+[ 12] PMID 35711214 (2022) ROBO PMC | JTCVS Tech
+      Multi-spectrum robotic cardiac surgery: Early outcomes.
+
+[ 12] PMID 37233173 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Minimal-Access Atrial Septal Defect (ASD) Closure.
+
+[ 12] PMID 40535209 (2025) ROBO PMC | Indian J Thorac Cardiovasc Surg
+      Total endoscopic resection of left atrial myxoma.
+
+[ 12] PMID 41971857 (2026) ROBO PMC | JTCVS Tech
+      Endocardial obliterative left atrial appendage closure by inverted purse-string plication.
+
+[ 11] PMID 14729813 (2004) ROBO PMC | Heart
+      Computed tomographic virtual cardioscopy in a case of left atrial myxoma.
+
+[ 11] PMID 29460874 (2018) ROBO --- | Khirurgiia (Mosk)
+      [Robot-assisted atrial septal defect closure in adults: first experience in Russia].
+
+[ 11] PMID 30641324 (2019) ROBO PMC | Int J Surg Case Rep
+      Totally endoscopic ventricular septal defect repair using bilateral femoral arterial cannulation in an 8-year-old girl.
+
+[ 11] PMID 37737916 (2024) ROBO --- | Ir J Med Sci
+      Cardiac myxomas: causes, presentations, diagnosis, and management.
+
+[ 11] PMID 39669348 (2024) ROBO PMC | JTCVS Tech
+      Robotic repair of atrial septal defect: Pre-groove vertical right atriotomy approach.
+
+[ 11] PMID 41805275 (2026) ROBO PMC | JACC Case Rep
+      Diagnostic Challenges of Left Atrial Myxoma Presenting With Systemic Inflammatory Symptoms, Thrombocytopenia, and Diffuse Lymphadenopathy.
+
+[ 11] PMID 42008425 (2026) ROBO --- | Cardiol Rev
+      Clinical Presentations, Comorbidities, and Diagnostic Approaches in Sinus Venosus Atrial Septal Defect: A Literature Review.
+
+[ 10] PMID 14680342 (2003) ROBO --- | J Cardiovasc Nurs
+      Robotically assisted cardiac surgery: minimally invasive techniques to totally endoscopic heart surgery.
+
+[ 10] PMID 23357095 (2013) ROBO --- | Heart Lung Circ
+      Totally endoscopic atrial septal repair with or without robotic assistance: a systematic review and meta-analysis of case series.
+
+[ 10] PMID 23908867 (2013) ROBO PMC | Rambam Maimonides Med J
+      Robotics in cardiac surgery: past, present, and future.
+
+[ 10] PMID 25883892 (2015) ROBO PMC | Korean J Thorac Cardiovasc Surg
+      Robot-assisted cardiac surgery using the da vinci surgical system: a single center experience.
+
+[ 10] PMID 26134073 (2015) ROBO PMC | Ann Thorac Cardiovasc Surg
+      Robot-assisted cardiac surgery.
+
+[ 10] PMID 27344445 (2017) ROBO --- | J Robot Surg
+      Robotic atrial septal defect closure and tricuspid annuloplasty in a case of situs inversus totalis with dextrocardia.
+
+[ 10] PMID 33865420 (2021) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic mitral valve surgery: early experience in 188 patients.
+
+[ 10] PMID 34294106 (2021) ENDO PMC | J Cardiothorac Surg
+      Open Seldinger-guided peripheral femoro-femoral cannulation technique for totally endoscopic cardiac surgery.
+
+[ 10] PMID 37197544 (2023) ROBO PMC | J Thorac Dis
+      Efficacy and safety of robotic-assisted versus median sternotomy for cardiac surgery: results from a university affiliated hospital.
+
+[ 10] PMID 39548009 (2025) ROBO PMC | Surg Endosc
+      Thoracoscopic closure of atrial septal defect in perfused beating hearts.
+
+[ 10] PMID 40949929 (2025) ROBO PMC | World J Cardiol
+      Comparative outcomes of robotic surgery vs conventional sternotomy for cardiac myxoma excision: A meta-analysis.
+
+[ 10] PMID 41417160 (2026) ROBO PMC | Gen Thorac Cardiovasc Surg
+      Minimally invasive cardiac surgeries in 2022: annual report by Japanese Society of Minimally Invasive Cardiac Surgery.
+
+[ 10] PMID 41425978 (2025) ROBO PMC | Front Cardiovasc Med
+      An approach of total endoscopic atrial myxoma resection without robotic assistance.
+
+[  9] PMID 15565905 (2004) ROBO --- | Nihon Geka Gakkai Zasshi
+      [Use of the Zeus robotic surgical system for cardiac surgery].
+
+[  9] PMID 16863785 (2006) ROBO --- | Ann Thorac Surg
+      Robotically assisted totally endoscopic atrial septal defect repair: insights from operative times, learning curves, and clinical outcome.
+
+[  9] PMID 17723830 (2007) ROBO --- | J Thorac Cardiovasc Surg
+      Evolution of surgical techniques for atrial septal defect repair in adults: a 10-year single-institution experience.
+
+[  9] PMID 30207600 (2019) ROBO --- | Artif Organs
+      Totally Endoscopic Robotic-Assisted Cardiac Surgery in Children.
+
+[  9] PMID 30255360 (2019) ROBO --- | J Robot Surg
+      The role of robotics in cardiac surgery: a systematic review.
+
+[  9] PMID 32058626 (2020) ROBO --- | J Card Surg
+      Transcatheter closure vs totally endoscopic robotic surgery for atrial septal defect closure: A single-center experience.
+
+[  9] PMID 32169177 (2020) ROBO --- | Surg Clin North Am
+      Robotic Cardiac Surgery.
+
+[  9] PMID 36237588 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Technical aspects of robotically assisted left atrial myxoma resection.
+
+[  9] PMID 37222446 (2023) ENDO --- | Innovations (Phila)
+      Totally Endoscopic Surgery for Repairing Sinus Venosus Atrial Septal Defect Using Double-Patch Technique on Beating Heart.
+
+[  8] PMID 11167104 (2001) ROBO --- | Eur J Cardiothorac Surg
+      Cardiopulmonary endoscopy: an effective and low risk method of examining the cardiopulmonary system during cardiac surgery.
+
+
+==============================================================================
+== ARRHYTHMIA  (n=231)
+==============================================================================
+
+[ 30] PMID 33061184 (2020) ENDO PMC | Indian J Thorac Cardiovasc Surg
+      Minimally invasive mitral valve repair.
+
+[ 27] PMID 41669172 (2026) ROBO PMC | Ann Cardiothorac Surg
+      Robotic degenerative mitral valve repair: an evolution.
+
+[ 24] PMID 39157180 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Robotic-assisted coronary artery bypass grafting: how I teach it.
+
+[ 24] PMID 41597388 (2026) ROBO PMC | Medicina (Kaunas)
+      Mini- and Micro-Invasive Approaches in Cardiac Surgery: Current Techniques, Outcomes, and Future Perspectives.
+
+[ 23] PMID 28203538 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve repair for degenerative posterior leaflet prolapse.
+
+[ 23] PMID 31253547 (2020) ROBO --- | Heart Lung Circ
+      The Future of Open Heart Surgery in the Era of Robotic and Minimal Surgical Interventions.
+
+[ 23] PMID 41725889 (2026) ROBO PMC | MDM Policy Pract
+      A Discrete-Event Simulation Model to Configure Operating Rooms for Robotic Cardiac Surgery.
+
+[ 22] PMID 41658870 (2026) ENDO PMC | JTCVS Tech
+      Totally endoscopic port access for rheumatic mitral valve replacement: Clinical outcomes and a single surgeon's learning curve experience.
+
+[ 21] PMID 24455172 (2014) ROBO PMC | J Thorac Dis
+      Videoscope-assisted cardiac surgery.
+
+[ 21] PMID 36529985 (2022) ROBO PMC | Innovations (Phila)
+      A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair.
+
+[ 21] PMID 40964525 (2025) ENDO PMC | Front Cardiovasc Med
+      The impact of comorbidities on surgical outcome and mortality in minimally invasive mitral valve surgery: a systematic review.
+
+[ 21] PMID 41134183 (2025) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Speech bubble sign - insights regarding incomplete left atrial appendage closure via electrocardiography-synchronized computed tomography in robotic surgery cases.
+
+[ 21] PMID 41694814 (2026) ROBO PMC | Cureus
+      Ultra-Fast-Track Extubation Within Four Hours Versus Conventional Ventilation After Robotic Coronary Artery Bypass Grafting: A Systematic Review of Intensive Care Unit Stay and Postoperative Atrial Fibrillation Outcomes.
+
+[ 21] PMID 41752740 (2026) ENDO PMC | Medicina (Kaunas)
+      Totally Endoscopic Approach for Aortic Valve Replacement: A Systematic Review and Single-Arm Meta-Analysis.
+
+[ 19] PMID 36937917 (2023) ROBO PMC | Front Cardiovasc Med
+      Concomitant intra-atrial excision of the left atrial appendage during robotic-assisted minimally invasive cardiac surgery.
+
+[ 18] PMID 39499089 (2024) ROBO --- | Cardiol Rev
+      Robotic Versus Thoracoscopic Minimally Invasive Mitral Valve Surgery: A Systematic Review and Meta-Analysis of Matched Studies.
+
+[ 18] PMID 40434502 (2025) ROBO PMC | J Robot Surg
+      Patient complexity does not affect surgical learning curve and clinical outcomes during early experience in robotic assisted coronary surgery.
+
+[ 17] PMID 14712874 (2003) ROBO --- | Surg Clin North Am
+      Robotic mitral valve surgery.
+
+[ 17] PMID 23977616 (2013) ROBO PMC | Ann Cardiothorac Surg
+      Systematic review of robotic-assisted, totally endoscopic coronary artery bypass grafting.
+
+[ 16] PMID 25087930 (2014) ENDO --- | Ann Thorac Surg
+      Training surgeons in minimally invasive mitral valve repair: a single institution experience.
+
+[ 16] PMID 33400202 (2021) ENDO PMC | Gen Thorac Cardiovasc Surg
+      Early and mid-term outcomes of minimally invasive mitral valve repair via right mini-thoracotomy: 5-year experience with 129 consecutive patients.
+
+[ 16] PMID 38345873 (2024) ROBO --- | Port J Card Thorac Vasc Surg
+      Minimally Invasive Mitral Valve Repair: From Total Endoscopic To Closed-Chest Robotic.
+
+[ 16] PMID 38535104 (2024) ROBO PMC | J Cardiovasc Dev Dis
+      Transferring Surgical Expertise: Analyzing the Learning Curve of Robotic Cardiac Surgery Operative Time Reduction When Surgeon Moves from One Experienced Center to Another.
+
+[ 16] PMID 39157183 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Bilateral internal thoracic artery grafting in robotic beating-heart totally endoscopic coronary artery bypass: 10-year outcomes.
+
+[ 16] PMID 42232274 (2025) ROBO PMC | J Vis Surg
+      Robotic versus non-robotic endoscopic invasive mitral valve repair: a narrative review of current evidence and evolving practice.
+
+[ 16] PMID 42267049 (2026) ROBO PMC | Ann Thorac Surg Short Rep
+      Single-Center Initial Experience with Robotic Assisted Minimally Invasive Coronary Artery Bypass Surgery.
+
+[ 16] PMID 42305172 (2025) ROBO PMC | JTCVS Struct Endovasc
+      Robotic endoscopic cardiac surgery in the reoperative patient: Is it feasible?
+
+[ 15] PMID 34560044 (2022) ROBO --- | Ann Thorac Surg
+      Robotic Aortic Valve Replacement: First 50 Cases.
+
+[ 15] PMID 36423256 (2022) ROBO --- | J Card Surg
+      Routine endoscopic robotic cardiac tumor resection using an 8-mm working port and percutaneous cannulation.
+
+[ 15] PMID 38552791 (2024) ROBO --- | Can J Cardiol
+      Minimally Invasive Approaches to Mitral Valve Surgery: Where Are We Now? A Narrative Review.
+
+[ 15] PMID 40547423 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Outcomes of robotic and endoscopic combined aortic and mitral valve surgery: experience from National Taiwan University Hospital.
+
+[ 15] PMID 41669176 (2026) ROBO PMC | Ann Cardiothorac Surg
+      Robotic chordae shortening in mitral valve repair.
+
+[ 14] PMID 22528181 (2011) ROBO --- | Clin Res Cardiol Suppl
+      [Three-dimensional reconstruction and remote navigation for catheter-guided atrial fibrillation ablation. Does it influence procedural outcomes?].
+
+[ 14] PMID 28394022 (2017) ROBO PMC | Cochrane Database Syst Rev
+      Limited versus full sternotomy for aortic valve replacement.
+
+[ 14] PMID 31893953 (2020) ROBO --- | Innovations (Phila)
+      Early Clinical Experiences of Robotic Assisted Aortic Valve Replacement for Aortic Valve Stenosis with Sutureless Aortic Valve.
+
+[ 14] PMID 32082913 (2019) ROBO PMC | Turk Gogus Kalp Damar Cerrahisi Derg
+      The feasibility of robotic-assisted concomitant procedures during mitral valve operations.
+
+[ 14] PMID 34618626 (2021) ROBO --- | Expert Rev Med Devices
+      Laser balloon in pulmonary vein isolation for atrial fibrillation: current status and future prospects.
+
+[ 14] PMID 36483620 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Robotically assisted mitral valve surgery-experience during the restart of a robotic program in Germany.
+
+[ 14] PMID 37024952 (2023) ROBO PMC | J Cardiothorac Surg
+      Minithoracotomy versus sternotomy in mitral valve surgery: meta-analysis from recent matched and randomized studies.
+
+[ 14] PMID 40547421 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Surgical versus transcatheter aortic valve replacement: the future role of robotic aortic valve replacement.
+
+[ 14] PMID 41163875 (2025) ROBO PMC | Ann Thorac Surg Short Rep
+      Robotic-Assisted Left Ventricular Epicardial Lead Placement in Patients With Prior Sternotomy.
+
+[ 13] PMID 21168859 (2011) ROBO --- | J Thorac Cardiovasc Surg
+      Learning curve analysis of mitral valve repair using telemanipulative technology.
+
+[ 13] PMID 22361820 (2012) ENDO --- | Semin Cardiothorac Vasc Anesth
+      Anesthetic considerations during minimally invasive mitral valve surgery.
+
+[ 13] PMID 23804253 (2013) ENDO --- | Circulation
+      Learning minimally invasive mitral valve surgery: a cumulative sum sequential probability analysis of 3895 operations from a single high-volume center.
+
+[ 13] PMID 24562290 (2014) ROBO --- | Innovations (Phila)
+      Can the learning curve of totally endoscopic robotic mitral valve repair be short-circuited?
+
+[ 13] PMID 27127558 (2016) ROBO PMC | Methodist Debakey Cardiovasc J
+      Mitral Valve Surgery: Current Minimally Invasive and Transcatheter Options.
+
+[ 13] PMID 27588226 (2016) ROBO PMC | Cureus
+      Treatment Planning Considerations for Robotic Guided Cardiac Radiosurgery for Atrial Fibrillation.
+
+[ 13] PMID 28203537 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic cardiac surgery in Brazil.
+
+[ 13] PMID 32274136 (2020) ROBO PMC | J Thorac Dis
+      Totally endoscopic mitral valve repair using a three-dimensional endoscope system: initial clinical experience in Korea.
+
+[ 13] PMID 38899102 (2024) ROBO PMC | JTCVS Tech
+      Robotic-enhanced hybrid ablation for persistent and long-standing atrial fibrillation: Early assessment of feasibility, safety, and efficacy.
+
+[ 13] PMID 40386419 (2025) ROBO PMC | Res Sq
+      Integrating soft robotics and computational models to study left atrial hemodynamics and device testing in sinus rhythm and atrial fibrillation.
+
+[ 13] PMID 42200234 (2026) ROBO --- | G Ital Cardiol (Rome)
+      [The evolution of robotic cardiac surgery: state of the art and future perspectives].
+
+[ 12] PMID 16928484 (2006) ROBO --- | Ann Thorac Surg
+      Robotic-assisted coronary artery bypass on a beating heart: initial experience and implications for the future.
+
+[ 12] PMID 28329330 (2017) ROBO --- | Eur J Cardiothorac Surg
+      Three-port (one incision plus two-port) endoscopic mitral valve surgery without robotic assistance.
+
+[ 12] PMID 28496870 (2013) ROBO PMC | J Atr Fibrillation
+      Differences In Tissue Injury and Ablation Outcomes In Atrial Fibrillation Patients - Manual versus Robotic Catheters.
+
+[ 12] PMID 35711214 (2022) ROBO PMC | JTCVS Tech
+      Multi-spectrum robotic cardiac surgery: Early outcomes.
+
+[ 12] PMID 36237586 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Robotic versus conventional sternotomy mitral valve surgery: a systematic review and meta-analysis.
+
+[ 12] PMID 38541788 (2024) ROBO PMC | J Clin Med
+      Robotic-Assisted Epicardial Hybrid Ablation and Left Appendage Closure in Persistent Atrial Fibrillation: First European Experience.
+
+[ 12] PMID 38590987 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Atrial fibrillation ablation during robotic mitral valve surgery: a systematic review and meta-analysis.
+
+[ 12] PMID 39515991 (2024) ROBO --- | Heart
+      Asymptomatic severe degenerative mitral regurgitation.
+
+[ 12] PMID 40547424 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Advancing robotic aortic valve replacement beyond isolated therapy: a platform for multivalve therapy.
+
+[ 12] PMID 40671980 (2025) ENDO PMC | Cureus
+      Dual-Camera Port Setup Strategies for Totally Endoscopic Aortic and Mitral Valve Surgery.
+
+[ 12] PMID 41971857 (2026) ROBO PMC | JTCVS Tech
+      Endocardial obliterative left atrial appendage closure by inverted purse-string plication.
+
+[ 12] PMID 42292120 (2026) ROBO PMC | JTCVS Tech
+      Dark sides and warm rides: Is cardiopulmonary bypass necessary for grafting posterior wall targets in robotic totally endoscopic coronary bypass?
+
+[ 12] PMID 42306679 (2026) ROBO PMC | J Thorac Dis
+      Robotic mitral valve repair in octogenarians: safety and clinical outcomes compared with younger patients.
+
+[ 11] PMID 30848708 (2019) ROBO --- | Innovations (Phila)
+      Robotic Totally Endoscopic Coronary Artery Bypass Grafting: Systematic Review of Clinical Outcomes from the Past two Decades.
+
+[ 11] PMID 32348806 (2020) ROBO --- | Urology
+      Pure Robotic-assisted Level IV Inferior Vena Cava Thrombectomy for Angiomyolipoma Without Cardiopulmonary Bypass: A First Report.
+
+[ 11] PMID 34148263 (2021) ROBO --- | J Card Surg
+      Robotic mitral valve operations can be safely performed in obese patients.
+
+[ 11] PMID 35973484 (2023) ROBO --- | Ann Thorac Surg
+      Apixaban for Anticoagulation After Robotic Mitral Valve Repair.
+
+[ 11] PMID 36237593 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Two hundred robotic mitral valve repair procedures for degenerative mitral regurgitation: the Yale experience.
+
+
+==============================================================================
+== TRICUSPID_REDO  (n=456)
+==============================================================================
+
+[ 30] PMID 33061184 (2020) ENDO PMC | Indian J Thorac Cardiovasc Surg
+      Minimally invasive mitral valve repair.
+
+[ 28] PMID 41563306 (2026) ROBO --- | Int J Surg
+      Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient outcomes.
+
+[ 27] PMID 27942486 (2016) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve surgery: overview, methodology, results, and perspective.
+
+[ 27] PMID 41669172 (2026) ROBO PMC | Ann Cardiothorac Surg
+      Robotic degenerative mitral valve repair: an evolution.
+
+[ 27] PMID 41682905 (2026) ROBO PMC | J Clin Med
+      Augmented and Mixed Reality in Cardiac Surgery: A Narrative Review.
+
+[ 27] PMID 41904670 (2026) ROBO --- | Eur J Cardiothorac Surg
+      Computed Tomography in Preoperative Planning of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Clinical Application.
+
+[ 26] PMID 39209092 (2025) ROBO --- | Ann Thorac Surg
+      Developing Proficiency in Robotic Cardiac Surgery.
+
+[ 25] PMID 31812012 (2020) ENDO --- | Med Hypotheses
+      Patient-specific access planning in minimally invasive mitral valve surgery.
+
+[ 24] PMID 37868772 (2023) ROBO PMC | Front Cardiovasc Med
+      Closed-chest robotic repair of mitral prolapse. Surgical technique and early results.
+
+[ 24] PMID 38263168 (2024) ENDO PMC | J Cardiothorac Surg
+      Navigating the challenges of minimally invasive mitral valve surgery: a risk analysis and learning curve evaluation.
+
+[ 23] PMID 25840800 (2015) ENDO --- | Gen Thorac Cardiovasc Surg
+      Minimally invasive mitral valve surgery through right mini-thoracotomy: recommendations for good exposure, stable cardiopulmonary bypass, and secure myocardial protection.
+
+[ 23] PMID 37009910 (2023) ENDO --- | Multimed Man Cardiothorac Surg
+      Different valve types: tips and tricks for a totally endoscopic aortic valve replacement.
+
+[ 22] PMID 27677879 (2017) ENDO --- | Interact Cardiovasc Thorac Surg
+      Preoperative planning with three-dimensional reconstruction of patient's anatomy, rapid prototyping and simulation for endoscopic mitral valve repair.
+
+[ 22] PMID 41658870 (2026) ENDO PMC | JTCVS Tech
+      Totally endoscopic port access for rheumatic mitral valve replacement: Clinical outcomes and a single surgeon's learning curve experience.
+
+[ 22] PMID 42216681 (2026) ENDO --- | Innovations (Phila)
+      Safety and Learning Curve of Totally Endoscopic Mitral Valve Plasty: Initial 125 Cases Evaluated by Operative Time and RA-CUSUM Method.
+
+[ 22] PMID 42442887 (2026) ROBO --- | JACC Cardiovasc Interv
+      Procedural Strategies for Optimal Transcatheter Aortic Valve Replacement: An International Position Statement.
+
+[ 21] PMID 24455172 (2014) ROBO PMC | J Thorac Dis
+      Videoscope-assisted cardiac surgery.
+
+[ 21] PMID 33155975 (2020) ROBO PMC | Can J Surg
+      Robot-assisted coronary artery bypass surgery: a systematic review and meta-analysis of comparative studies.
+
+[ 21] PMID 33894935 (2021) ENDO --- | Cardiol Clin
+      Minimally Invasive Mitral Surgery: Patient Selection and Technique.
+
+[ 21] PMID 34852340 (2022) ENDO --- | Eur Surg Res
+      Pass On What You Have Learned: A Structured Mentor-Mentee Concept for the Implementation of a Minimally Invasive Mitral Valve Surgery Program.
+
+[ 21] PMID 35582466 (2022) ROBO PMC | World J Cardiol
+      Cardiac myxomas: A narrative review.
+
+[ 21] PMID 36529985 (2022) ROBO PMC | Innovations (Phila)
+      A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair.
+
+[ 21] PMID 39757215 (2025) ROBO PMC | J Cardiothorac Surg
+      Defining the cardiac surgical learning curve: a longitudinal cumulative analysis of a surgeon's experience and performance monitoring in the first decade of practice.
+
+[ 21] PMID 40964525 (2025) ENDO PMC | Front Cardiovasc Med
+      The impact of comorbidities on surgical outcome and mortality in minimally invasive mitral valve surgery: a systematic review.
+
+[ 21] PMID 41134183 (2025) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Speech bubble sign - insights regarding incomplete left atrial appendage closure via electrocardiography-synchronized computed tomography in robotic surgery cases.
+
+[ 21] PMID 41592916 (2026) ROBO PMC | Open Heart
+      Minimally invasive versus conventional mitral valve surgery: a systematic review and meta-analysis of randomised clinical trials.
+
+[ 21] PMID 42232264 (2025) ROBO PMC | J Vis Surg
+      Endoscopic mitral valve repair-one hundred and one ways to use neochords: a narrative review.
+
+[ 20] PMID 33841982 (2021) ENDO PMC | J Thorac Dis
+      Minimally invasive mitral valve surgery.
+
+[ 20] PMID 40364171 (2025) ROBO PMC | J Clin Med
+      New Clinical Advances in Minimally Invasive Coronary Surgery.
+
+[ 19] PMID 41821094 (2026) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic resection of right atrial myxoma on beating heart: a case serries.
+
+[ 19] PMID 42232254 (2025) ENDO PMC | J Vis Surg
+      Endoscopic mitral valve surgery: picture from the real world-sub-analysis from the Mini-Mitral International Registry.
+
+[ 19] PMID 42232265 (2025) ROBO PMC | J Vis Surg
+      Robotic multi-vessel off-pump totally endoscopic coronary artery bypass (TECAB) procedure: surgical technique.
+
+[ 18] PMID 21335887 (2011) ROBO --- | Stud Health Technol Inform
+      A novel virtual reality environment for preoperative planning and simulation of image guided intracardiac surgeries with robotic manipulators.
+
+[ 18] PMID 33829928 (2021) ENDO --- | Innovations (Phila)
+      Systematic Review of Minimally Invasive Surgery for Mitral Valve Infective Endocarditis.
+
+[ 18] PMID 37629762 (2023) ROBO PMC | Medicina (Kaunas)
+      Circumflex Coronary Artery Injury during Modern Mitral Valve Surgery-A Review of Current Concepts and Perspectives.
+
+[ 18] PMID 38673708 (2024) ROBO PMC | J Clin Med
+      Robotic-Assisted Minimally Invasive Direct Coronary Artery Bypass Grafting: A Surgical Technique.
+
+[ 17] PMID 29593831 (2018) ENDO PMC | Interv Cardiol
+      Minimally Invasive Surgical Mitral Valve Repair: State of the Art Review.
+
+[ 17] PMID 30783681 (2019) ROBO --- | Interact Cardiovasc Thorac Surg
+      Replicated mitral valve models from real patients offer training opportunities for minimally invasive mitral valve repair.
+
+[ 17] PMID 39444550 (2024) ENDO PMC | Front Cardiovasc Med
+      Totally 3D endoscopic aortic valve replacement: initial results and experience from a single center.
+
+[ 17] PMID 40913323 (2025) ROBO --- | Innovations (Phila)
+      Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery.
+
+[ 17] PMID 42494922 (2026) ROBO PMC | Surg Case Rep
+      Robotic Aortic Valve Replacement in Severe Scoliosis with Markedly Narrow Chest.
+
+[ 16] PMID 24199760 (2014) ROBO --- | J Thorac Cardiovasc Surg
+      Three hundred robotic-assisted mitral valve repairs: the Cedars-Sinai experience.
+
+[ 16] PMID 25087930 (2014) ENDO --- | Ann Thorac Surg
+      Training surgeons in minimally invasive mitral valve repair: a single institution experience.
+
+[ 16] PMID 26309839 (2015) ROBO PMC | Ann Cardiothorac Surg
+      A meta-analysis of robotic vs. conventional mitral valve surgery.
+
+[ 16] PMID 33400202 (2021) ENDO PMC | Gen Thorac Cardiovasc Surg
+      Early and mid-term outcomes of minimally invasive mitral valve repair via right mini-thoracotomy: 5-year experience with 129 consecutive patients.
+
+[ 16] PMID 36975882 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Minimal Access Tricuspid Valve Surgery.
+
+[ 16] PMID 38535104 (2024) ROBO PMC | J Cardiovasc Dev Dis
+      Transferring Surgical Expertise: Analyzing the Learning Curve of Robotic Cardiac Surgery Operative Time Reduction When Surgeon Moves from One Experienced Center to Another.
+
+[ 16] PMID 38576096 (2024) ENDO PMC | Innovations (Phila)
+      Implementation of Endoscopic Minimally Invasive Mitral Valve Replacement Surgery With Automated Suturing Technology.
+
+[ 16] PMID 39757229 (2025) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic mitral valve repair with novel technique of left atrial exposure: five years experience from a single center.
+
+[ 16] PMID 40937267 (2025) ENDO PMC | Cureus
+      Minimally Invasive Mitral Valve Repair in a Patient With Severe Scoliosis: Overcoming Anatomical Challenges.
+
+[ 16] PMID 42305172 (2025) ROBO PMC | JTCVS Struct Endovasc
+      Robotic endoscopic cardiac surgery in the reoperative patient: Is it feasible?
+
+[ 15] PMID 11074977 (2000) ROBO --- | Heart Surg Forum
+      3-D image guidance for minimally invasive robotic coronary artery bypass.
+
+[ 15] PMID 17180279 (2007) ROBO --- | Surg Endosc
+      Optimal port placement and enhanced guidance in robotically assisted cardiac surgery.
+
+[ 15] PMID 26577232 (2015) ENDO --- | Cardiovasc Eng Technol
+      Open vs. Minimally Invasive Mitral Valve Surgery: Surgical Technique, Indications and Results.
+
+[ 15] PMID 36265121 (2022) ROBO --- | Surg Technol Int
+      Robotic Mitral Valve Surgery.
+
+[ 15] PMID 36423256 (2022) ROBO --- | J Card Surg
+      Routine endoscopic robotic cardiac tumor resection using an 8-mm working port and percutaneous cannulation.
+
+[ 15] PMID 39286648 (2024) ENDO PMC | J Surg Case Rep
+      Totally three-dimensional endoscopic mitral valve replacement in a patient with situs inversus totalis.
+
+[ 15] PMID 40434908 (2025) ENDO --- | Eur J Cardiothorac Surg
+      Review of minimally invasive coronary artery bypass grafting.
+
+[ 15] PMID 41669176 (2026) ROBO PMC | Ann Cardiothorac Surg
+      Robotic chordae shortening in mitral valve repair.
+
+[ 14] PMID 14502457 (2003) ROBO --- | Thorac Cardiovasc Surg
+      Cardiac MR in robotic heart surgery for preoperative identification of the target vessel and precise port placement--a theoretical model.
+
+[ 14] PMID 22287831 (2003) ROBO PMC | IEEE Trans Rob Autom
+      Port Placement Planning in Robot-Assisted Coronary Artery Bypass.
+
+[ 14] PMID 26826714 (2016) ENDO PMC | Interact Cardiovasc Thorac Surg
+      Preoperative planning of left-sided valve surgery with 3D computed tomography reconstruction models: sternotomy or a minimally invasive approach?
+
+[ 14] PMID 29049538 (2018) ROBO PMC | Interact Cardiovasc Thorac Surg
+      3D printed mitral valve models: affordable simulation for robotic mitral valve repair.
+
+[ 14] PMID 31043972 (2019) ENDO PMC | Kardiochir Torakochirurgia Pol
+      Six-year single-centre experience in minimally invasive mitral valve repair - impact of the team learning curve on in-hospital clinical outcome.
+
+[ 14] PMID 31233237 (2019) ROBO --- | J Card Surg
+      Redo robotic cardiac surgery and concomitant cesarean section in a pregnant patient with dextrocardia and situs inversus totalis.
+
+[ 14] PMID 32082913 (2019) ROBO PMC | Turk Gogus Kalp Damar Cerrahisi Derg
+      The feasibility of robotic-assisted concomitant procedures during mitral valve operations.
+
+[ 14] PMID 35510407 (2022) ROBO --- | J Card Surg
+      Robotic mitral valve repair: A single center experience over a 7-year period.
+
+[ 14] PMID 36483620 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Robotically assisted mitral valve surgery-experience during the restart of a robotic program in Germany.
+
+[ 14] PMID 37024952 (2023) ROBO PMC | J Cardiothorac Surg
+      Minithoracotomy versus sternotomy in mitral valve surgery: meta-analysis from recent matched and randomized studies.
+
+[ 14] PMID 37763687 (2023) ROBO PMC | Medicina (Kaunas)
+      Learning Curve Analysis of Robotic-Assisted Mitral Valve Repair with COVID-19 Exogenous Factor: A Single Center Experience.
+
+
+==============================================================================
+== PORT_SETUP  (n=211)
+==============================================================================
+
+[ 41] PMID 41665799 (2026) ROBO --- | J Robot Surg
+      Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - systematic narrative review.
+
+[ 34] PMID 34942674 (2022) ENDO --- | Surg Technol Int
+      Micro-Invasive 3D Endoscopic Mitral Valve Surgery.
+
+[ 31] PMID 34325594 (2021) ROBO --- | Expert Rev Med Devices
+      The role of robotic technology in minimally invasive surgery for mitral valve disease.
+
+[ 30] PMID 39797207 (2024) ROBO PMC | J Clin Med
+      The Therapeutic Potential of Different Surgical Approaches in the Management of Cardiac Myxoma: A Systematic Review.
+
+[ 28] PMID 37753828 (2023) ROBO --- | Innovations (Phila)
+      Inexpensive and Easy to Set Up Robotic Cardiac Simulator Offers "Unlimited" Endoscopic Coronary Artery Bypass Grafting Experience: Proof of Concept.
+
+[ 28] PMID 37754828 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Robotic-Assisted Solutions for Invasive Cardiology, Cardiac Surgery and Routine On-Ward Tasks: A Narrative Review.
+
+[ 28] PMID 40459585 (2025) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic-assisted, minimally invasive direct coronary artery bypass-preparation, conduit harvest and execution.
+
+[ 28] PMID 41563306 (2026) ROBO --- | Int J Surg
+      Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient outcomes.
+
+[ 27] PMID 41682905 (2026) ROBO PMC | J Clin Med
+      Augmented and Mixed Reality in Cardiac Surgery: A Narrative Review.
+
+[ 27] PMID 41904670 (2026) ROBO --- | Eur J Cardiothorac Surg
+      Computed Tomography in Preoperative Planning of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Clinical Application.
+
+[ 26] PMID 40900091 (2025) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic mitral valve repair: patient positioning and port placement in female patients.
+
+[ 25] PMID 31812012 (2020) ENDO --- | Med Hypotheses
+      Patient-specific access planning in minimally invasive mitral valve surgery.
+
+[ 24] PMID 37868772 (2023) ROBO PMC | Front Cardiovasc Med
+      Closed-chest robotic repair of mitral prolapse. Surgical technique and early results.
+
+[ 24] PMID 39157180 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Robotic-assisted coronary artery bypass grafting: how I teach it.
+
+[ 24] PMID 39434975 (2024) ROBO PMC | Ann Cardiothorac Surg
+      How to advance from minimally invasive coronary artery bypass grafting to totally endoscopic coronary bypass grafting: challenges in Europe versus United States of America.
+
+[ 24] PMID 40900082 (2025) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic mitral valve repair: patient positioning and port placement in male patients.
+
+[ 23] PMID 25840800 (2015) ENDO --- | Gen Thorac Cardiovasc Surg
+      Minimally invasive mitral valve surgery through right mini-thoracotomy: recommendations for good exposure, stable cardiopulmonary bypass, and secure myocardial protection.
+
+[ 23] PMID 28203538 (2017) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve repair for degenerative posterior leaflet prolapse.
+
+[ 23] PMID 37009910 (2023) ENDO --- | Multimed Man Cardiothorac Surg
+      Different valve types: tips and tricks for a totally endoscopic aortic valve replacement.
+
+[ 23] PMID 41209145 (2025) ENDO PMC | Rev Cardiovasc Med
+      Do Complex Pathologies Remain a Challenge in Minimally Invasive Mitral Valve Surgery?
+
+[ 22] PMID 37997659 (2023) ENDO --- | Innovations (Phila)
+      Totally Endoscopic Atrial Septal Defect Repair on Beating Heart: Clinical Outcome and Single-Surgeon Learning Curve Experience.
+
+[ 22] PMID 41658870 (2026) ENDO PMC | JTCVS Tech
+      Totally endoscopic port access for rheumatic mitral valve replacement: Clinical outcomes and a single surgeon's learning curve experience.
+
+[ 21] PMID 24455172 (2014) ROBO PMC | J Thorac Dis
+      Videoscope-assisted cardiac surgery.
+
+[ 21] PMID 34852340 (2022) ENDO --- | Eur Surg Res
+      Pass On What You Have Learned: A Structured Mentor-Mentee Concept for the Implementation of a Minimally Invasive Mitral Valve Surgery Program.
+
+[ 21] PMID 35294716 (2022) ENDO PMC | Int J Comput Assist Radiol Surg
+      A system for real-time multivariate feature combination of endoscopic mitral valve simulator training data.
+
+[ 21] PMID 41134183 (2025) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Speech bubble sign - insights regarding incomplete left atrial appendage closure via electrocardiography-synchronized computed tomography in robotic surgery cases.
+
+[ 20] PMID 26309847 (2015) ENDO PMC | Ann Cardiothorac Surg
+      Designing innovative retractors and devices to facilitate mitral valve repair surgery.
+
+[ 20] PMID 27440020 (2016) ENDO --- | Kyobu Geka
+      [Totally Endoscopic Mitral Valve Surgery;Theory and Techniques].
+
+[ 20] PMID 40490988 (2025) ENDO PMC | Innovations (Phila)
+      Totally Endoscopic Aortic Valve Replacement With Triangulated Suturing: How to Do It.
+
+[ 19] PMID 38505666 (2023) ROBO PMC | Front Cardiovasc Med
+      Robotic mitral valve surgery.
+
+[ 19] PMID 41821094 (2026) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic resection of right atrial myxoma on beating heart: a case serries.
+
+[ 18] PMID 15931491 (2004) ROBO --- | Surg Endosc
+      Totally endoscopic coronary artery bypass graft: initial experience with an additional instrument arm and an advanced camera system.
+
+[ 18] PMID 18948238 (2008) ROBO --- | Heart Surg Forum
+      How to do it: importance of left atrial side retraction in robotic and minimally invasive mitral valve surgery.
+
+[ 18] PMID 30192451 (2018) ENDO --- | Multimed Man Cardiothorac Surg
+      Suturing map for endoscopic mitral valve repair developed on high-fidelity endoscopic simulator.
+
+[ 18] PMID 41613366 (2025) ROBO PMC | J Med Device
+      Design and Validation of a Recirculating Cooling System for Robotic Cardiac Injection Therapy to Improve Patient Safety and Surgeon Workflow.
+
+[ 17] PMID 14712874 (2003) ROBO --- | Surg Clin North Am
+      Robotic mitral valve surgery.
+
+[ 17] PMID 17599894 (2007) ROBO --- | Heart Surg Forum
+      How I do it: self-retaining atrial retractors for robotic and minimally invasive mitral valve surgery.
+
+[ 17] PMID 28085690 (2017) ROBO --- | Innovations (Phila)
+      A Novel Robotic Bilateral Internal Mammary Artery Harvest Using Double Docking Technique for Coronary Artery Bypass Grafting.
+
+[ 17] PMID 30336384 (2018) ROBO PMC | Int J Surg Case Rep
+      Totally endoscopic atrial septal defect repair using transthoracic aortic cannulation in a 10.5-kg-boy.
+
+[ 17] PMID 36483614 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral repair: maintaining quality at all levels of complexity.
+
+[ 17] PMID 39267396 (2024) ROBO --- | Innovations (Phila)
+      Robot-Assisted Minimally Invasive Coronary Artery Bypass Grafting: Total Arterial Revascularization Using the Double-Docking Technique.
+
+[ 17] PMID 39444550 (2024) ENDO PMC | Front Cardiovasc Med
+      Totally 3D endoscopic aortic valve replacement: initial results and experience from a single center.
+
+[ 17] PMID 42494922 (2026) ROBO PMC | Surg Case Rep
+      Robotic Aortic Valve Replacement in Severe Scoliosis with Markedly Narrow Chest.
+
+[ 16] PMID 16112940 (2005) ROBO --- | Heart Surg Forum
+      Total endoscopic CABG using robotics on beating heart.
+
+[ 16] PMID 21627475 (2011) ROBO PMC | Future Cardiol
+      The golden age of minimally invasive cardiothoracic surgery: current and future perspectives.
+
+[ 16] PMID 24199760 (2014) ROBO --- | J Thorac Cardiovasc Surg
+      Three hundred robotic-assisted mitral valve repairs: the Cedars-Sinai experience.
+
+[ 16] PMID 32950947 (2020) ROBO PMC | Int J Surg Case Rep
+      Totally endoscopic mitral valve repair without robotic assistance: A case report.
+
+[ 16] PMID 34397469 (2021) ROBO --- | Curr Opin Cardiol
+      The cardiac surgeon's guide to artificial intelligence.
+
+[ 16] PMID 35509175 (2022) ROBO --- | Asian Cardiovasc Thorac Ann
+      Technical tips in non-robotic endoscopic mitral valve surgery: How to approach and expose the mitral valve.
+
+[ 16] PMID 38345873 (2024) ROBO --- | Port J Card Thorac Vasc Surg
+      Minimally Invasive Mitral Valve Repair: From Total Endoscopic To Closed-Chest Robotic.
+
+[ 16] PMID 39157183 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Bilateral internal thoracic artery grafting in robotic beating-heart totally endoscopic coronary artery bypass: 10-year outcomes.
+
+[ 16] PMID 39757229 (2025) ENDO PMC | J Cardiothorac Surg
+      Totally endoscopic mitral valve repair with novel technique of left atrial exposure: five years experience from a single center.
+
+[ 16] PMID 40937267 (2025) ENDO PMC | Cureus
+      Minimally Invasive Mitral Valve Repair in a Patient With Severe Scoliosis: Overcoming Anatomical Challenges.
+
+[ 15] PMID 11074977 (2000) ROBO --- | Heart Surg Forum
+      3-D image guidance for minimally invasive robotic coronary artery bypass.
+
+[ 15] PMID 11980428 (2001) ENDO --- | Bull Acad Natl Med
+      [Computer-assisted coronary surgery].
+
+[ 15] PMID 17180279 (2007) ROBO --- | Surg Endosc
+      Optimal port placement and enhanced guidance in robotically assisted cardiac surgery.
+
+[ 15] PMID 26778373 (2016) ROBO PMC | J Thorac Cardiovasc Surg
+      Robot-assisted real-time magnetic resonance image-guided transcatheter aortic valve replacement.
+
+[ 15] PMID 36423256 (2022) ROBO --- | J Card Surg
+      Routine endoscopic robotic cardiac tumor resection using an 8-mm working port and percutaneous cannulation.
+
+[ 15] PMID 39286648 (2024) ENDO PMC | J Surg Case Rep
+      Totally three-dimensional endoscopic mitral valve replacement in a patient with situs inversus totalis.
+
+[ 14] PMID 12491544 (2002) ROBO --- | Best Pract Res Clin Anaesthesiol
+      Anaesthesia for minimally invasive cardiac surgery.
+
+[ 14] PMID 14502457 (2003) ROBO --- | Thorac Cardiovasc Surg
+      Cardiac MR in robotic heart surgery for preoperative identification of the target vessel and precise port placement--a theoretical model.
+
+[ 14] PMID 22287831 (2003) ROBO PMC | IEEE Trans Rob Autom
+      Port Placement Planning in Robot-Assisted Coronary Artery Bypass.
+
+[ 14] PMID 26282961 (2016) ROBO --- | Int J Med Robot
+      Robotic total endoscopic sutureless aortic valve replacement: proof of concept for a future surgical setting.
+
+[ 14] PMID 31233237 (2019) ROBO --- | J Card Surg
+      Redo robotic cardiac surgery and concomitant cesarean section in a pregnant patient with dextrocardia and situs inversus totalis.
+
+[ 14] PMID 31893953 (2020) ROBO --- | Innovations (Phila)
+      Early Clinical Experiences of Robotic Assisted Aortic Valve Replacement for Aortic Valve Stenosis with Sutureless Aortic Valve.
+
+[ 14] PMID 32082913 (2019) ROBO PMC | Turk Gogus Kalp Damar Cerrahisi Derg
+      The feasibility of robotic-assisted concomitant procedures during mitral valve operations.
+
+[ 14] PMID 32353922 (2020) ROBO --- | J Card Surg
+      Robotic-assisted cardiac surgery without lung isolation utilizing single-lumen endotracheal tube intubation.
+
+[ 14] PMID 39852226 (2025) ROBO PMC | J Pers Med
+      Robotic Versus Sternotomy, Thoracotomy and Video-Thoracoscopy Approaches for Thymoma Resection: A Comparative Analysis of Short-Term Results.
+
+[ 14] PMID 40058842 (2025) ENDO PMC | Ann Thorac Cardiovasc Surg
+      Totally Endoscopic Internal Thoracic Artery Harvesting with Efficient Setup Modifications for Minimally Invasive Direct Coronary Artery Bypass Grafting.
+
+[ 13] PMID 18391325 (2008) ROBO --- | Stud Health Technol Inform
+      Interactive finite element simulation of the beating heart for image-guided robotic cardiac surgery.
+
+
+==============================================================================
+== TRAINING  (n=264)
+==============================================================================
+
+[ 41] PMID 41665799 (2026) ROBO --- | J Robot Surg
+      Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - systematic narrative review.
+
+[ 39] PMID 33841983 (2021) ROBO PMC | J Thorac Dis
+      Robotic mitral valve surgery: a review and tips for safely negotiating the learning curve.
+
+[ 34] PMID 34942674 (2022) ENDO --- | Surg Technol Int
+      Micro-Invasive 3D Endoscopic Mitral Valve Surgery.
+
+[ 31] PMID 34325594 (2021) ROBO --- | Expert Rev Med Devices
+      The role of robotic technology in minimally invasive surgery for mitral valve disease.
+
+[ 30] PMID 33061184 (2020) ENDO PMC | Indian J Thorac Cardiovasc Surg
+      Minimally invasive mitral valve repair.
+
+[ 29] PMID 41619927 (2026) ROBO --- | Ann Thorac Surg
+      The Society of Thoracic Surgeons Expert Consensus Pathway for Robotic Cardiac Surgical Training.
+
+[ 28] PMID 37753828 (2023) ROBO --- | Innovations (Phila)
+      Inexpensive and Easy to Set Up Robotic Cardiac Simulator Offers "Unlimited" Endoscopic Coronary Artery Bypass Grafting Experience: Proof of Concept.
+
+[ 28] PMID 37754828 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Robotic-Assisted Solutions for Invasive Cardiology, Cardiac Surgery and Routine On-Ward Tasks: A Narrative Review.
+
+[ 28] PMID 40459585 (2025) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic-assisted, minimally invasive direct coronary artery bypass-preparation, conduit harvest and execution.
+
+[ 28] PMID 41563306 (2026) ROBO --- | Int J Surg
+      Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient outcomes.
+
+[ 28] PMID 41892711 (2026) ROBO PMC | J Cardiovasc Dev Dis
+      Twin Transformation in Cardiothoracic Surgery: The Convergence of Digital Innovation and Sustainability.
+
+[ 28] PMID 42188066 (2026) ROBO PMC | J Cardiovasc Dev Dis
+      Simulation Training in Video-Assisted and Robotic-Assisted Cardiac Surgery: A Narrative Review.
+
+[ 27] PMID 41669172 (2026) ROBO PMC | Ann Cardiothorac Surg
+      Robotic degenerative mitral valve repair: an evolution.
+
+[ 27] PMID 42029588 (2026) ROBO PMC | Med Sci (Basel)
+      The Role of the Cardiothoracic Surgeon in the Age of AI-Are the Robots Going to Take Our Jobs?
+
+[ 26] PMID 36294310 (2022) ENDO PMC | J Clin Med
+      Decision Making during the Learning Curve of Minimally Invasive Mitral Valve Surgery: A Focused Review for the Starting Minimally Invasive Surgeon.
+
+[ 26] PMID 36604696 (2023) ENDO PMC | J Cardiothorac Surg
+      Attaining competency and proficiency in minimally invasive mitral valve repair: a learning curve assessment using cumulative sum analysis.
+
+[ 26] PMID 39209092 (2025) ROBO --- | Ann Thorac Surg
+      Developing Proficiency in Robotic Cardiac Surgery.
+
+[ 26] PMID 39786456 (2024) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Examining the learning curves in robotic cardiac surgery wet lab simulation training.
+
+[ 26] PMID 40886757 (2026) ENDO --- | Ann Thorac Surg
+      Defining the Learning Curve in Minimally Invasive Cardiac Surgery: A Systematic Review and Meta-Analysis.
+
+[ 25] PMID 24350001 (2013) ENDO PMC | Ann Cardiothorac Surg
+      Minimally invasive mitral valve repair: the Liverpool Heart and Chest Hospital Technique—tips for safely negotiating the learning curve.
+
+[ 25] PMID 31812012 (2020) ENDO --- | Med Hypotheses
+      Patient-specific access planning in minimally invasive mitral valve surgery.
+
+[ 25] PMID 39741621 (2024) ROBO PMC | Cureus
+      The Role of Robotics in Cardiac Surgery: Innovations, Outcomes, and Future Prospects.
+
+[ 25] PMID 40653582 (2025) ROBO PMC | J Robot Surg
+      The robotic revolution in cardiac surgery.
+
+[ 25] PMID 40788514 (2025) ROBO PMC | J Robot Surg
+      The learning curve of robotic cardiac surgery: a scoping review.
+
+[ 24] PMID 31829047 (2020) ROBO --- | Expert Rev Med Devices
+      Robotic totally endoscopic coronary artery bypass grafting: current status and future prospects.
+
+[ 24] PMID 36331815 (2022) ROBO --- | Multimed Man Cardiothorac Surg
+      Robotic-assisted MIDCAB procedure through a minithoracotomy: Step-by-step instructions.
+
+[ 24] PMID 38263168 (2024) ENDO PMC | J Cardiothorac Surg
+      Navigating the challenges of minimally invasive mitral valve surgery: a risk analysis and learning curve evaluation.
+
+[ 24] PMID 39157180 (2024) ROBO PMC | Ann Cardiothorac Surg
+      Robotic-assisted coronary artery bypass grafting: how I teach it.
+
+[ 24] PMID 39434975 (2024) ROBO PMC | Ann Cardiothorac Surg
+      How to advance from minimally invasive coronary artery bypass grafting to totally endoscopic coronary bypass grafting: challenges in Europe versus United States of America.
+
+[ 24] PMID 41597388 (2026) ROBO PMC | Medicina (Kaunas)
+      Mini- and Micro-Invasive Approaches in Cardiac Surgery: Current Techniques, Outcomes, and Future Perspectives.
+
+[ 23] PMID 37424908 (2023) ENDO PMC | Front Cardiovasc Med
+      Mastering the learning curve of endoscopic mitral valve surgery.
+
+[ 23] PMID 37713462 (2023) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      An international survey-based assessment of minimally invasive mitral valve surgery.
+
+[ 23] PMID 41725889 (2026) ROBO PMC | MDM Policy Pract
+      A Discrete-Event Simulation Model to Configure Operating Rooms for Robotic Cardiac Surgery.
+
+[ 22] PMID 27677879 (2017) ENDO --- | Interact Cardiovasc Thorac Surg
+      Preoperative planning with three-dimensional reconstruction of patient's anatomy, rapid prototyping and simulation for endoscopic mitral valve repair.
+
+[ 22] PMID 35467092 (2022) ENDO --- | Multimed Man Cardiothorac Surg
+      Endoaortic balloon occlusion in minimally invasive mitral valve surgery.
+
+[ 22] PMID 35969291 (2023) ROBO --- | J Artif Organs
+      Safe launch of a robotically assisted mitral valve repair program in a single center: experience of initial 20 cases under the Center for Minimally Invasive Surgery.
+
+[ 22] PMID 36237591 (2022) ROBO PMC | Ann Cardiothorac Surg
+      How to implement a clinical robotic mitral valve surgery program.
+
+[ 22] PMID 37997659 (2023) ENDO --- | Innovations (Phila)
+      Totally Endoscopic Atrial Septal Defect Repair on Beating Heart: Clinical Outcome and Single-Surgeon Learning Curve Experience.
+
+[ 22] PMID 40137082 (2025) ROBO PMC | J Cardiovasc Dev Dis
+      Not All SAVR Are Created Equal: All the Approaches Available for Surgical Aortic Valve Replacement.
+
+[ 22] PMID 41658870 (2026) ENDO PMC | JTCVS Tech
+      Totally endoscopic port access for rheumatic mitral valve replacement: Clinical outcomes and a single surgeon's learning curve experience.
+
+[ 22] PMID 42216681 (2026) ENDO --- | Innovations (Phila)
+      Safety and Learning Curve of Totally Endoscopic Mitral Valve Plasty: Initial 125 Cases Evaluated by Operative Time and RA-CUSUM Method.
+
+[ 22] PMID 42301235 (2026) ROBO --- | Curr Opin Cardiol
+      Minimally invasive approaches to coronary artery bypass grafting: techniques, current evidence, and future directions.
+
+[ 21] PMID 24455172 (2014) ROBO PMC | J Thorac Dis
+      Videoscope-assisted cardiac surgery.
+
+[ 21] PMID 33020254 (2020) ENDO PMC | Open Heart
+      BISMICS consensus statement: implementing a safe minimally invasive mitral programme in the UK healthcare setting.
+
+[ 21] PMID 34623253 (2021) ENDO --- | Heart Surg Forum
+      Learning Curve from 100 Cases of Totally Thoracoscopic Mitral Valve Replacement.
+
+[ 21] PMID 34852340 (2022) ENDO --- | Eur Surg Res
+      Pass On What You Have Learned: A Structured Mentor-Mentee Concept for the Implementation of a Minimally Invasive Mitral Valve Surgery Program.
+
+[ 21] PMID 35294716 (2022) ENDO PMC | Int J Comput Assist Radiol Surg
+      A system for real-time multivariate feature combination of endoscopic mitral valve simulator training data.
+
+[ 21] PMID 35582466 (2022) ROBO PMC | World J Cardiol
+      Cardiac myxomas: A narrative review.
+
+[ 21] PMID 35799484 (2022) ROBO --- | Kyobu Geka
+      [Tips for Successful Robot-assisted Mitral Valve Repair].
+
+[ 21] PMID 39589894 (2024) ROBO --- | Eur J Cardiothorac Surg
+      Learning curve of robotic mitral repair: prospective two-centre study of proficiency and clinical outcomes.
+
+[ 21] PMID 39757215 (2025) ROBO PMC | J Cardiothorac Surg
+      Defining the cardiac surgical learning curve: a longitudinal cumulative analysis of a surgeon's experience and performance monitoring in the first decade of practice.
+
+[ 21] PMID 40142306 (2025) ROBO PMC | Medicina (Kaunas)
+      Enhanced Recovery After Cardiac Surgery for Minimally Invasive Valve Surgery: A Systematic Review of Key Elements and Advancements.
+
+[ 21] PMID 40401414 (2025) ENDO PMC | Innovations (Phila)
+      Learning Curve Analysis of Minimally Invasive Mitral Valve Repair.
+
+[ 21] PMID 40652436 (2025) ROBO PMC | J Robot Surg
+      Artificial intelligence-based action recognition and skill assessment in robotic cardiac surgery simulation: a feasibility study.
+
+[ 21] PMID 41506893 (2026) ROBO PMC | Interdiscip Cardiovasc Thorac Surg
+      Initial Experience With Robotic Mitral Valve Replacement: Results From a Single Centre.
+
+[ 21] PMID 41764530 (2026) ENDO PMC | J Cardiothorac Surg
+      Minimally invasive mitral valve surgery in a middle-income country: feasibility and learning curve in a low-volume center.
+
+[ 21] PMID 42152840 (2026) ROBO PMC | Indian J Thorac Cardiovasc Surg
+      Robotic-assisted coronary artery bypass grafting: comparative analysis of surgical outcomes and learning curve.
+
+[ 21] PMID 42232264 (2025) ROBO PMC | J Vis Surg
+      Endoscopic mitral valve repair-one hundred and one ways to use neochords: a narrative review.
+
+[ 20] PMID 24944107 (2015) ROBO --- | Int J Med Robot
+      Challenges facing totally endoscopic robotic coronary artery bypass grafting.
+
+[ 20] PMID 26309847 (2015) ENDO PMC | Ann Cardiothorac Surg
+      Designing innovative retractors and devices to facilitate mitral valve repair surgery.
+
+[ 20] PMID 33394708 (2021) ROBO --- | Curr Opin Cardiol
+      Review of transapical off-pump mitral valve intervention with NeoChord implantation.
+
+[ 20] PMID 33403721 (2021) ROBO --- | J Card Surg
+      An analysis of the learning curve for robotic-assisted mitral valve repair.
+
+[ 20] PMID 34422354 (2021) ROBO PMC | J Thorac Dis
+      Safe implementation of robotic-assisted minimally invasive direct coronary artery bypass: application of learning curves and cumulative sum analysis.
+
+[ 20] PMID 35799490 (2022) ROBO --- | Kyobu Geka
+      [Current Status and Prospective of Robot-assisted Cardiac Surgery in Japan].
+
+[ 19] PMID 37754809 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Is There a Future for Minimal Access and Robots in Cardiac Surgery?
+
+[ 19] PMID 37988128 (2024) ROBO --- | Eur J Cardiothorac Surg
+      Surgical training of minimally invasive mitral valve repair on a patient-specific simulator improves surgical skills.
+
+[ 19] PMID 38312504 (2024) ROBO PMC | Device
+      Biorobotic hybrid heart as a benchtop cardiac mitral valve simulator.
+
+[ 19] PMID 39301877 (2024) ROBO PMC | Innovations (Phila)
+      Endoscopic Robotic Mitral Operating Room as a Microsystem for Safety and Sustainability.
+
+[ 19] PMID 39785856 (2025) ROBO --- | Curr Opin Cardiol
+      Robotic mitral valve surgery: evolving history, techniques, and training paths.
+
+[ 19] PMID 39822860 (2025) ENDO PMC | Indian J Thorac Cardiovasc Surg
+      Roving pen: minimally invasive mitral surgery.
+
+
+==============================================================================
+== FUTURE  (n=180)
+==============================================================================
+
+[ 41] PMID 41665799 (2026) ROBO --- | J Robot Surg
+      Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - systematic narrative review.
+
+[ 31] PMID 34325594 (2021) ROBO --- | Expert Rev Med Devices
+      The role of robotic technology in minimally invasive surgery for mitral valve disease.
+
+[ 30] PMID 33061184 (2020) ENDO PMC | Indian J Thorac Cardiovasc Surg
+      Minimally invasive mitral valve repair.
+
+[ 28] PMID 41892711 (2026) ROBO PMC | J Cardiovasc Dev Dis
+      Twin Transformation in Cardiothoracic Surgery: The Convergence of Digital Innovation and Sustainability.
+
+[ 27] PMID 27942486 (2016) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve surgery: overview, methodology, results, and perspective.
+
+[ 27] PMID 41682905 (2026) ROBO PMC | J Clin Med
+      Augmented and Mixed Reality in Cardiac Surgery: A Narrative Review.
+
+[ 27] PMID 42029588 (2026) ROBO PMC | Med Sci (Basel)
+      The Role of the Cardiothoracic Surgeon in the Age of AI-Are the Robots Going to Take Our Jobs?
+
+[ 25] PMID 39741621 (2024) ROBO PMC | Cureus
+      The Role of Robotics in Cardiac Surgery: Innovations, Outcomes, and Future Prospects.
+
+[ 25] PMID 40653582 (2025) ROBO PMC | J Robot Surg
+      The robotic revolution in cardiac surgery.
+
+[ 24] PMID 31829047 (2020) ROBO --- | Expert Rev Med Devices
+      Robotic totally endoscopic coronary artery bypass grafting: current status and future prospects.
+
+[ 24] PMID 41597388 (2026) ROBO PMC | Medicina (Kaunas)
+      Mini- and Micro-Invasive Approaches in Cardiac Surgery: Current Techniques, Outcomes, and Future Perspectives.
+
+[ 23] PMID 31253547 (2020) ROBO --- | Heart Lung Circ
+      The Future of Open Heart Surgery in the Era of Robotic and Minimal Surgical Interventions.
+
+[ 23] PMID 39851800 (2025) ROBO PMC | Clin Pract
+      Artificial Intelligence in Cardiac Surgery: Transforming Outcomes and Shaping the Future.
+
+[ 23] PMID 41821107 (2026) ROBO PMC | J Cardiothorac Surg
+      Robotic-assisted cardiothoracic surgery: a comprehensive bibliometric analysis of trends, innovations, and future directions.
+
+[ 22] PMID 40137082 (2025) ROBO PMC | J Cardiovasc Dev Dis
+      Not All SAVR Are Created Equal: All the Approaches Available for Surgical Aortic Valve Replacement.
+
+[ 22] PMID 42301235 (2026) ROBO --- | Curr Opin Cardiol
+      Minimally invasive approaches to coronary artery bypass grafting: techniques, current evidence, and future directions.
+
+[ 22] PMID 42442887 (2026) ROBO --- | JACC Cardiovasc Interv
+      Procedural Strategies for Optimal Transcatheter Aortic Valve Replacement: An International Position Statement.
+
+[ 21] PMID 35294716 (2022) ENDO PMC | Int J Comput Assist Radiol Surg
+      A system for real-time multivariate feature combination of endoscopic mitral valve simulator training data.
+
+[ 21] PMID 35799494 (2022) ROBO --- | Kyobu Geka
+      [Various Considerations on Robot-assisted Cardiac Surgery].
+
+[ 21] PMID 36529985 (2022) ROBO PMC | Innovations (Phila)
+      A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair.
+
+[ 21] PMID 40652436 (2025) ROBO PMC | J Robot Surg
+      Artificial intelligence-based action recognition and skill assessment in robotic cardiac surgery simulation: a feasibility study.
+
+[ 21] PMID 41315104 (2025) ROBO PMC | J Robot Surg
+      Exploring the future of robotic approaches in neonatal cardiac surgery: opportunities, barriers, and innovation pathways.
+
+[ 21] PMID 41752740 (2026) ENDO PMC | Medicina (Kaunas)
+      Totally Endoscopic Approach for Aortic Valve Replacement: A Systematic Review and Single-Arm Meta-Analysis.
+
+[ 21] PMID 42232264 (2025) ROBO PMC | J Vis Surg
+      Endoscopic mitral valve repair-one hundred and one ways to use neochords: a narrative review.
+
+[ 20] PMID 24944107 (2015) ROBO --- | Int J Med Robot
+      Challenges facing totally endoscopic robotic coronary artery bypass grafting.
+
+[ 20] PMID 35799490 (2022) ROBO --- | Kyobu Geka
+      [Current Status and Prospective of Robot-assisted Cardiac Surgery in Japan].
+
+[ 20] PMID 37868547 (2023) ROBO PMC | Cureus
+      Recent Advances in Coronary Artery Bypass Grafting Techniques and Outcomes: A Narrative Review.
+
+[ 19] PMID 37754809 (2023) ROBO PMC | J Cardiovasc Dev Dis
+      Is There a Future for Minimal Access and Robots in Cardiac Surgery?
+
+[ 19] PMID 37988128 (2024) ROBO --- | Eur J Cardiothorac Surg
+      Surgical training of minimally invasive mitral valve repair on a patient-specific simulator improves surgical skills.
+
+[ 19] PMID 39785856 (2025) ROBO --- | Curr Opin Cardiol
+      Robotic mitral valve surgery: evolving history, techniques, and training paths.
+
+[ 19] PMID 40547427 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Lateral access fully robotic aortic valve replacement "RAVR": from novel to normal.
+
+[ 19] PMID 41996087 (2026) ROBO --- | Mater Horiz
+      Soft robotic cardiac sleeves: materials, actuation mechanisms and translational pathways.
+
+[ 19] PMID 42232254 (2025) ENDO PMC | J Vis Surg
+      Endoscopic mitral valve surgery: picture from the real world-sub-analysis from the Mini-Mitral International Registry.
+
+[ 19] PMID 42232265 (2025) ROBO PMC | J Vis Surg
+      Robotic multi-vessel off-pump totally endoscopic coronary artery bypass (TECAB) procedure: surgical technique.
+
+[ 18] PMID 27942485 (2016) ROBO PMC | Ann Cardiothorac Surg
+      A systematic review on robotic coronary artery bypass graft surgery.
+
+[ 18] PMID 27942490 (2016) ROBO PMC | Ann Cardiothorac Surg
+      Robotic mitral valve surgery: current limitations and future directions.
+
+[ 18] PMID 33060955 (2018) ROBO PMC | Indian J Thorac Cardiovasc Surg
+      A review of hybrid coronary revascularization.
+
+[ 18] PMID 38576087 (2024) ENDO PMC | Innovations (Phila)
+      Telesimulation Training for Endoscopic Mitral Valve Surgery: An Air-Pilot Training Concept for Distance Training.
+
+[ 18] PMID 41355285 (2026) ROBO --- | Eur Heart J Cardiovasc Imaging
+      Current and future use of artificial intelligence in valvular heart disease imaging.
+
+[ 18] PMID 42157221 (2026) ROBO PMC | J Cardiothorac Surg
+      Into the future: first robotic totally endoscopic coronary artery bypass in Southeast Asia.
+
+[ 17] PMID 14712874 (2003) ROBO --- | Surg Clin North Am
+      Robotic mitral valve surgery.
+
+[ 17] PMID 23977616 (2013) ROBO PMC | Ann Cardiothorac Surg
+      Systematic review of robotic-assisted, totally endoscopic coronary artery bypass grafting.
+
+[ 17] PMID 28757798 (2017) ROBO PMC | Open J Cardiovasc Surg
+      Mitral Valve Replacement-Current and Future Perspectives.
+
+[ 17] PMID 30783681 (2019) ROBO --- | Interact Cardiovasc Thorac Surg
+      Replicated mitral valve models from real patients offer training opportunities for minimally invasive mitral valve repair.
+
+[ 17] PMID 41156121 (2025) ROBO PMC | J Clin Med
+      Mitral Valve Repair in the Modern Era: Insights into Techniques and Technologies with a Glimpse of the Future.
+
+[ 17] PMID 41629762 (2026) ROBO --- | Innovations (Phila)
+      The Future of Coronary Bypass? A Novel Simulator for Robotic Beating-Heart TECAB Training.
+
+[ 16] PMID 12607651 (2003) ROBO --- | Ann Thorac Surg
+      Robotic mitral valve repair: experience with the da Vinci system.
+
+[ 16] PMID 21627475 (2011) ROBO PMC | Future Cardiol
+      The golden age of minimally invasive cardiothoracic surgery: current and future perspectives.
+
+[ 16] PMID 26590391 (2016) ROBO --- | Perfusion
+      A systematic review of the safety and efficacy of distal coronary artery anastomotic devices in MIDCAB and TECAB surgery.
+
+[ 16] PMID 27072837 (2016) ROBO PMC | Int J Comput Assist Radiol Surg
+      Catheter manipulation analysis for objective performance and technical skills assessment in transcatheter aortic valve implantation.
+
+[ 16] PMID 34397469 (2021) ROBO --- | Curr Opin Cardiol
+      The cardiac surgeon's guide to artificial intelligence.
+
+[ 16] PMID 38345873 (2024) ROBO --- | Port J Card Thorac Vasc Surg
+      Minimally Invasive Mitral Valve Repair: From Total Endoscopic To Closed-Chest Robotic.
+
+[ 16] PMID 40150749 (2025) ROBO PMC | Bioengineering (Basel)
+      Dynamic Virtual Simulation with Real-Time Haptic Feedback for Robotic Internal Mammary Artery Harvesting.
+
+[ 16] PMID 41767130 (2026) ROBO PMC | Mayo Clin Proc Digit Health
+      Rethinking Cardiopulmonary Bypass Management in The Digital Health Era.
+
+[ 15] PMID 11074977 (2000) ROBO --- | Heart Surg Forum
+      3-D image guidance for minimally invasive robotic coronary artery bypass.
+
+[ 15] PMID 17180279 (2007) ROBO --- | Surg Endosc
+      Optimal port placement and enhanced guidance in robotically assisted cardiac surgery.
+
+[ 15] PMID 36294365 (2022) ROBO PMC | J Clin Med
+      Mitral Valve Systolic Anterior Motion in Robotic Thoracic Surgery as the Cause of Unexplained Hemodynamic Shock: From a Case Report to Recommendations.
+
+[ 15] PMID 40434908 (2025) ENDO --- | Eur J Cardiothorac Surg
+      Review of minimally invasive coronary artery bypass grafting.
+
+[ 15] PMID 41105544 (2026) ROBO --- | IEEE Comput Graph Appl
+      Adaptive Cardiac Dynamics in Surgical Simulation: A Human-AI Interaction Framework for Robotic Internal Mammary Artery Harvesting.
+
+[ 15] PMID 41735593 (2026) ROBO --- | J Robot Surg
+      The cyber-physical paradigm for lifetime aortic valve management: a synthesis of robotics, artificial intelligence, and augmented reality.
+
+[ 15] PMID 41910457 (2026) ROBO --- | Perfusion
+      Outcomes of robotically-assisted aortic valve surgery: A systematic review.
+
+[ 14] PMID 26282961 (2016) ROBO --- | Int J Med Robot
+      Robotic total endoscopic sutureless aortic valve replacement: proof of concept for a future surgical setting.
+
+[ 14] PMID 27942488 (2016) ROBO PMC | Ann Cardiothorac Surg
+      Robotic surgery is the optimal approach for mitral surgery.
+
+[ 14] PMID 32864937 (2020) ROBO PMC | Braz J Cardiovasc Surg
+      The Evolution of Mitral Valve Surgery: the Future in the Hand of Robots.
+
+[ 14] PMID 34618626 (2021) ROBO --- | Expert Rev Med Devices
+      Laser balloon in pulmonary vein isolation for atrial fibrillation: current status and future prospects.
+
+[ 14] PMID 36483620 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Robotically assisted mitral valve surgery-experience during the restart of a robotic program in Germany.
+
+[ 14] PMID 40547421 (2025) ROBO PMC | Ann Cardiothorac Surg
+      Surgical versus transcatheter aortic valve replacement: the future role of robotic aortic valve replacement.
+
+[ 14] PMID 40998343 (2025) ROBO --- | Kyobu Geka
+      [Recent Advances in Surgical Instrumentation for Minimally Invasive Cardiac Surgery].
+
+[ 13] PMID 23804253 (2013) ENDO --- | Circulation
+      Learning minimally invasive mitral valve surgery: a cumulative sum sequential probability analysis of 3895 operations from a single high-volume center.
+
+[ 13] PMID 27295770 (2016) ROBO --- | Nihon Geka Gakkai Zasshi
+      [EVOLUTION OF MINIMALLY INVASIVE CARDIAC SURGERY].
+
+
+==============================================================================
+== GENERAL  (n=33)
+==============================================================================
+
+[ 26] PMID 40535486 (2025) ROBO PMC | World J Transplant
+      Cardiac transplantation: A review of current status and emerging innovations.
+
+[ 17] PMID 36218306 (2022) ROBO --- | Multimed Man Cardiothorac Surg
+      Technical aspects of a totally endoscopic, robotic-assisted pericardial cyst resection.
+
+[ 16] PMID 33403151 (2020) ROBO PMC | Turk Gogus Kalp Damar Cerrahisi Derg
+      Minimal access in cardiac surgery.
+
+[ 16] PMID 39244646 (2025) ROBO --- | Perfusion
+      The emerging role of minimally invasive extracorporeal circulation in totally endoscopic and robotic-assisted cardiac surgery procedures.
+
+[ 14] PMID 25566713 (2015) ROBO PMC | Ann Card Anaesth
+      Anesthetic issues for robotic cardiac surgery.
+
+[ 10] PMID 36483613 (2022) ROBO PMC | Ann Cardiothorac Surg
+      Historical evolution of robot-assisted cardiac surgery: a 25-year journey.
+
+[  8] PMID 25484934 (2007) ROBO PMC | J Robot Surg
+      Outcomes in robotic cardiac surgery.
+
+[  8] PMID 31796491 (2019) ROBO PMC | BMJ Open
+      Road to recovery: a study protocol quantifying neurological outcome in cardiac surgery patients and the role of cerebral oximetry.
+
+[  7] PMID 30930139 (2020) ROBO --- | J Cardiothorac Vasc Anesth
+      Robotic Cardiac Surgery Part I: Anesthetic Considerations in Totally Endoscopic Robotic Cardiac Surgery (TERCS).
+
+[  6] PMID 35932640 (2022) ROBO PMC | EBioMedicine
+      Quantitative stiffness assessment of cardiac grafts using ultrasound in a porcine model: A tissue biomarker for heart transplantation.
+
+[  6] PMID 41163860 (2025) ROBO PMC | Ann Thorac Surg Short Rep
+      Fast-Track Hemostasis by an Automated Fastener for Decannulation of an Antegrade Cardioplegia Cannula in Robotic Cardiac Surgery.
+
+[  6] PMID 41886766 (2026) ROBO --- | Perfusion
+      Evolution of myocardial protection strategies: The rise of del Nido cardioplegia in adult cardiac surgery.
+
+[  6] PMID 42146870 (2026) ROBO PMC | Case Rep Surg
+      Heartburn Takes a Whole New Meaning: Multidisciplinary Management of a Gastropericardial Fistula.
+
+[  5] PMID 18019670 (2007) ROBO --- | Vnitr Lek
+      [Current applications of robotic heart surgery].
+
+[  5] PMID 27343505 (2016) ROBO --- | Ann Thorac Surg
+      Pathway for Surgeons and Programs to Establish and Maintain a Successful Robot-Assisted Adult Cardiac Surgery Program.
+
+[  5] PMID 30899148 (2019) ROBO PMC | J Saudi Heart Assoc
+      An unexpected complication of robotic cardiac surgery: Pneumomediastinum.
+
+[  5] PMID 35620230 (2022) ROBO PMC | J Surg Case Rep
+      Chronic unrelenting cough secondary to pericardial cyst impingement of right phrenic nerve.
+
+[  5] PMID 35799488 (2022) ROBO --- | Kyobu Geka
+      [The Trend of Minimally Invasive Cardiac Surgery:Where Robot-assisted Cardiac Surgery in Japan is Now].
+
+[  5] PMID 38606852 (2024) ROBO --- | Innovations (Phila)
+      Routine External Iliac Artery Cannulation in Robotic Cardiac Surgery: Role of the Corona "Vitae" in Distal Limb Perfusion.
+
+[  5] PMID 40816854 (2025) ROBO PMC | JACC Case Rep
+      Pericardial Mass as a Rare Cause of Unstable Angina in a Young Veteran.
+
+[  4] PMID 31309385 (2019) ROBO PMC | Int J Comput Assist Radiol Surg
+      Moving object tracking in clinical scenarios: application to cardiac surgery and cerebral aneurysm clipping.
+
+[  3] PMID 27130494 (2016) ENDO --- | Asian Cardiovasc Thorac Ann
+      Temporary epicardial pacing wire placement in totally endoscopic cardiac surgery.
+
+[  3] PMID 34879315 (2022) ROBO --- | J Surg Res
+      Vision-Based Tracking of Surgical Motion During Live Open-Heart Surgery.
+
+[  3] PMID 39905945 (2025) ROBO --- | Soft Robot
+      Soft Robotic Heart Formed with a Myocardial Band for Cardiac Functions.
+
+[  1] PMID 24216533 (2013) ROBO --- | Semin Thorac Cardiovasc Surg
+      Current readings: Status of robotic cardiac surgery.
+
+[  0] PMID 17520607 (2006) ROBO --- | Int J Med Robot
+      Robotics in cardiac surgery.
+
+[  0] PMID 20425968 (2009) ROBO --- | Med Image Comput Comput Assist Interv
+      Non-rigid reconstruction of the beating heart surface for minimally invasive cardiac surgery.
+
+[  0] PMID 31337250 (2019) ROBO --- | Innovations (Phila)
+      Robotic-Assisted Total Pericardiectomy for Acute Relapsing Pericarditis: A Case Report.
+
+[  0] PMID 39157188 (2024) ROBO PMC | Ann Cardiothorac Surg
+      The way forward in research on robotic cardiac surgery: the need for transatlantic robotic cardiac surgery registry.
+
+[  0] PMID 41173617 (2025) ROBO PMC | JACC Case Rep
+      Robotic Cardiac Surgery in High-Risk Patients: Are We Ready for Prime Time?
+
+[ -1] PMID 12451759 (2002) ROBO --- | Biomed Tech (Berl)
+      [Miniature assistance module for robot-assisted heart surgery].
+
+[ -2] PMID 34351025 (2021) ROBO --- | J Card Surg
+      The epicenter of change: Robotic cardiac surgery as a career choice.
+
+[ -6] PMID 34318039 (2020) ROBO PMC | JTCVS Tech
+      Commentary: A synergy of two is better than one: Modern-day heart team approach to robotic congenital heart surgery.
+

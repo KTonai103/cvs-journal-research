@@ -1,0 +1,267 @@
+ADULT: MITRAL VALVE: INVITED EXPERT OPINION
+
+Two decades of experience with robotic mitral valve
+repair: What have we learned?
+Didier F. Loulmet, MD,a,b and Eugene A. Grossi, MDa,b
+
+Video clip is available online.
+
+What challenges come with repairing the degenerative
+mitral valve (MV)? What insight into this condition have
+we gained from our dedicated robotic practice? When performing robotic MV repair, optimal visualization of the
+entire MV apparatus allows for a more precise and comprehensive valve analysis compared with any other surgical approaches or imaging modalities. Enhanced visualization has
+made us aware of some pathologic features that we find
+important to address for perfecting MV repair strategies
+and outcomes. The purpose of this editorial is to discuss
+the most common ones.
+SAM (systolic anterior motion) was the first serious
+adverse effect of MV repair to be recognized.1,2 A ratio of
+[posterior leaflet height] to [anteroposterior orifice diameter] greater than 1 to 3 after annuloplasty was found to
+be the main risk factor. Therefore, it was advised to decrease
+the height of the posterior leaflet (PL) and avoid excessive
+reduction annuloplasty to maintain the normal 1:4 ratio.3
+This has been one of the core principles in MV repair. In
+the last 2 decades, earlier indications for MV repair have
+given rise to operating on patients with smaller and hyperdynamic LVs (left ventricles), which has been recognized
+as a new risk factor for postoperative SAM.4,5 This led us
+to think more globally and 3 dimensionally about LV topology. We have become more attentive to preserving the balance between the LV inflow and outflow spaces. Inflow and
+outflow must be understood as 2 virtual spaces obtained by
+dividing the LV cavity according to a plane passing through
+the 2 trigones and the LV apex point. On the arrested heart,
+the dividing plane corresponds to the anatomic continuity
+From the aNYU Grossman School of Medicine and bDepartment of Cardiothoracic
+Surgery, NYU Langone Health, New York, NY.
+Received for publication Oct 24, 2023; revisions received Jan 5, 2024; accepted for
+publication Jan 18, 2024; available ahead of print Jan 23, 2024.
+Address for reprints: Didier F. Loulmet, MD, Department of Cardiothoracic Surgery,
+NYU Langone Health, 530 First Ave, Suite 9V, New York, NY 10016 (E-mail:
+didier.loulmet@nyulangone.org or loulmetd@aol.com).
+JTCVS Techniques 2024;24:76-81
+2666-2507
+BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+JTCVS Techniques c April 2024
+
+Robotic mitral valve repair is the less-invasive and
+most-precise surgical approach.
+
+CENTRAL MESSAGE
+
+Robotics-enhanced vision allows
+for precise and comprehensive
+mitral valve analysis. Better understanding of the pathologic
+details enables performing individualized/tailored repairs.
+
+formed by the anterior leaflet (AL), its marginal chordae,
+and the PMs (papillary muscle). Via conventional sternotomy, the LV inflow is visualized through the MV orifice
+and the outflow through the aortic orifice. Alternatively, robotics allows for complete access and exploration of both
+the inflow and outflow through the mitral orifice just by lifting the AL margin with dynamic retraction. A septal myomectomy can be done through the mitral orifice without
+detaching the AL (Video 1 @14min 35sec). We are performing septal myomectomy routinely in case of prominent
+sigmoid septum, particularly when the angle between the
+aortic and mitral orifice plane nears 90 .6 Likewise, we
+commonly remove all structural anomalies present in the
+LV outflow that predispose to SAM. These include muscle
+bands originating from the LV apex that attach directly to
+the AL without chordal intermediary, large accessory PM
+supporting a short AL secondary chorda, large trabeculations located between the septal knuckle and LV apex, and
+anteriorly displaced PM bases obliterating the LV apex.
+These different configurations tend to restrict AL motion
+into the outflow during early systole and initiate SAM.7 Robotics makes all these contributory anatomic features accessible to complete or partial excision through the mitral
+orifice. We have found these outflow enlargement techniques very efficient in preventing the occurrence of
+
+Loulmet and Grossi
+
+Adult: Mitral Valve: Invited Expert Opinion
+
+entirely and reconstructing the MV annulus whenever
+possible (Video 1 @3min).
+
+VIDEO 1. Robotic mitral valve repair in a case with MAC and a high risk
+of postoperative SAM. Video available at: https://www.jtcvs.org/article/
+S2666-2507(24)00043-9/fulltext.
+
+postoperative SAM in the setting of smaller and hyperdynamic LVs.
+MAC (mitral annular calcification) is a common degenerative finding evolving along PL hinge; it will become more
+frequent with our aging population. MV repair complexity
+rises significantly when MAC involves more than one
+annular segment. MAC recognition on preoperative imaging is inconsistent. There are no imaging modalities that
+can precisely and unfailingly render MAC location, shape,
+and extension. Ultrasound scans have low sensitivity and
+specificity in detecting annular calcifications. Ultrasound
+scans are only useful for evaluating MAC extension to the
+PL—the length of residual leaflet determines the possibility
+of MV repair. Radiographs are more sensitive in detecting
+calcifications. MAC can be seen on regular radiographs of
+the chest, cardiac catheterization, or computed tomography.
+Gated computed tomography angiography with 3dimensional reconstruction gives the most informative
+MAC representation; it is used more commonly as part of
+our preoperative robotic MV repair workup. However, no
+preoperative imaging technique will reach the precision of
+valve analysis obtained with robotic vision. MAC is intuitively misconceived as a bent cylinder with regular edges
+evolving along the mitral annulus. It seems innately
+possible to safely cast needle bites around it as it were a
+solid anchor to fix annuloplasty devices or artificial valves.
+Some authors still recommend leaving it in place and working around it, although this approach has shown substandard
+results in past reports.8 Monobloc excision with enhanced
+visualization has made us more knowledgeable about
+MAC frequency, location, shape, and extension.9 Experience has shown us that MAC can develop haphazardly
+into wildly diverging configurations like a rhizome. Its parts
+have different consistency owing to variable degree in
+mineralization or core liquefaction. Overall, MAC is an unpredictable heterogeneous structure upon which we cannot
+rely as a tissue for suturing either around or through it.
+Therefore, our practice has evolved towards removing it
+
+SEMANTICS
+Let’s examine another important finding consequent to
+enhanced visualization. The anatomic region separating
+the PL scallops is commonly called the “cleft” (eg, the
+P1-P2 or P2-P3 cleft). Originally, the word “cleft” was
+used in valve pathology to describe the AL slit found in
+AV canal malformations. In AV canal, an AL cleft can be
+complete (from the margin to the hinge) or partial and
+does not have any specific chordal system other than
+some secondary chordae. “Cleft,” a pathologic connotation,
+makes it an erroneous term to name the normal segmentation area between the PL scallops. Robotic visualization
+of a normal PL shows a continuity between PL scallops consisting of a leaflet pleat supported by an organized chordal
+system, whose configuration recapitulates those of the anterior or posterior commissure (Figure 1). A commissure is a
+complex and highly differentiated structure, therefore prone
+to developmental defects. Failure to differentiate into a
+proper commissural configuration generates a spectrum of
+various anomalies: (1) partial or complete chordal fusion
+(Figure 2); (2) calcified band linking the MV annulus to a
+PM head and supporting some commissural chordae
+(Figure 3); and (3) complete failure of commissural delamination resulting in a fibrous or calcified band plastered to
+the LV wall (Figure 4). Such conditions most often cause
+leaflet tethering by restricting commissural motion. Occasionally, a prolapse can result from a laterally bound PM
+slewing towards the mitral orifice. In our experience with
+degenerative MV diseases, the commissures (either between the AL and PL or between the PL scallops) are often
+subject to these malformations. A triangular or quadrangular excision of the pathologic commissure followed by
+suturing the corresponding segments together is our
+preferred approach to restore normal leaflet motion and prevent calcification in these cases.
+PLASTY OR PLASTIC?
+There are radically different ways of performing a MV
+repair today. Differences are reflected in sharp divides between the adherents and defectors of the classic excision
+techniques.10,11 The long-term results of MV repair were
+established with the classic excision and reconstruction
+techniques.12 Excisions are justified by Barlow’s most
+distinctive macroscopic features, namely, excessive leaflet
+tissue. Excision concerns the most prolapsed and dystrophic
+leaflets segments, which may include leaflet ulcerations,
+fibrotic and myxoid thickening, cartilaginous and calcific
+transformations, calcification liquefaction. Reconstruction
+consists in detaching, relocating, and suturing some of the
+remaining segments with the aim of obtaining a configuration that conforms to the native MV structure and function.
+JTCVS Techniques c Volume 24, Number C
+
+Adult: Mitral Valve: Invited Expert Opinion
+
+Loulmet and Grossi
+
+FIGURE 1. A normal P1-P2 commissure.
+
+From an execution standpoint, the classic excisionreconstruction techniques present special challenges. A
+need for simplification was fostered by the emergence of
+the less invasive approaches in the mid-1990s. Reduced access and visualization led some surgeons to avoid excising.
+The use of artificial chordae became an alternative technique accepted by less invasive as well as conventional surgeons. Nevertheless, the classic excisional techniques have
+remained our preferred way for repairing the MV notably in
+younger patients for following reasons. First, as opposed to
+the less-invasive approaches, robotics allows for complete
+thoracoscopic MV repair without any compromise in access
+or visualization. Robotics facilitates MV repair execution
+whether using excisional or nonexcisional techniques. Second, we believe excising advance degenerative lesions stabilizes the degenerative process as shown by the low
+incidence of long-term failure caused by disease progression after excisional repair.13 Third, as a reminder, artificial
+chordae are made of Gore-Tex sutures (W. L. Gore & Associates, Inc), a material mainly composed of air (70%).
+Gore-Tex material is porous, stretchable, and vulnerable
+to calcification as observed during reoperations by their
+transformation into rigid twigs. Gore-Tex sutures were not
+engineered or tested for flexing every second and staying
+pliable for a lifetime. Last, the use of artificial chordae requires the proper selection of stable implantation sites to
+provide durable leaflet coaptation. The frequency of subvalvar anatomic variations makes this difficult. “The MV
+
+JTCVS Techniques c April 2024
+
+apparatus, including the PMs, is as unique to each individual as one’s own fingerprints” as stated by the late great MV
+anatomist Dr Solomon Victor.14 Robotic vision has shown
+us that PMs are inconsistent in length, texture, elasticity,
+trunklets arrangement, and quality of attachment to the
+LV wall. At the end of the spectrum, PM noncompaction
+can result into multiple small myocardial stems instead of
+well-structured PM trunks. If not fully appreciated, these
+common anatomic variants may derail an apparently standardized and deceptively simple technique.
+VISUALIZATION, FOCUS, AND TECHNICAL
+POSSIBILITIES
+The figure-ground principle of Gestalt theory states that
+people instinctively perceive objects as either being in the
+foreground or the background. Visual objects stand out
+prominently in the front (the figure) or recede into the
+back (the ground). Figure-ground lets us know what we
+should be focusing on and what we can safely ignore in a
+representation. The focal point principle states that whatever stands out visually will capture and hold the viewer’s
+attention first. In traditional surgery, surgeons’ eyes are
+distant from the MV. The MV orifice and leaflets become
+the foreground while the subvalvar region the background.
+Surgeons focus on the most visible part missing some
+important aspects of the sub-valvar apparatus. Valve analysis is often reduced to hydrostatic testing. Valve reconstruction turns into a simple dichotomy: what is found
+
+Loulmet and Grossi
+
+Adult: Mitral Valve: Invited Expert Opinion
+
+FIGURE 2. A P1-P2 commissure with chordal fusion.
+
+prolapsing above the MVorifice plane is either removed using some basic excision-suture technique or tethered into
+the LV with artificial chordae. Conversely, in robotic
+
+surgery the visual sensor can be moved near the MV orifice
+and further into the LV. Remote sensing permits the delocalization of the point of view of the observer at the center of
+
+FIGURE 3. A P1-P2 commissure with a calcified band.
+
+JTCVS Techniques c Volume 24, Number C
+
+Adult: Mitral Valve: Invited Expert Opinion
+
+Loulmet and Grossi
+
+FIGURE 4. A P2-P3 commissure plastered to LV wall. R, Right; L, left; LV, left ventricle.
+
+the heart cavities. The MV structure can be comprehended
+in its entireness and more 3-dimensional reality. A deeper
+sense of perception and immersion helps repair accuracy
+by allowing recognition of a variety of pathologic conditions that would have otherwise been deemed uniform. It inspires specific correction of each lesion with a
+corresponding technique without any limitation.15
+SYNERGISM
+“There is no greater solitude than that of the samurai unless it is that of the tiger in the jungle... Perhaps...” (from the
+Code of Bushido and quoted in Jean-Pierre Melville’s
+movie “The Samurai”). The comparison could be extended
+to the present-day cardiac surgeon. It is sometimes dispiriting to experience the solitude of a MV repair surgeon while
+hybrid rooms are not large enough to accommodate the
+crowds required to replace a valve. MV reconstruction is
+unique, as it demands conceptualizing the potential effect
+of a combination of techniques on a complex structure
+with the aim of restoring functional normality. It requires
+judgment and experience. More than traditional surgery, robotics requires the cooperative efforts of several people
+working closely together. The surgical field has become
+visible and accessible by more than one experienced surgeon enabling collaborative decision-making and techniques execution. A surgical team approach provides
+balance in the operating room. We have found the resulting
+synergy a great antidote to the otherwise increasing cardiac
+surgeon lonesomeness.
+
+JTCVS Techniques c April 2024
+
+ENLIGHTENMENT
+It has been commented before that the median sternotomy approach for MV repair has the mindset of being the
+“gold standard” status, as well as its tolerated complications
+such as bleeding, transfusions, rib fractures, or sternal
+infections and dehiscence. Centers with expertise in robotic
+MV repair have obtained equal results (quality) with
+less morbidity (cost), and therefore more value
+(value ¼ quality/cost) for their patients.16-22 However, as
+illuminated by the aforementioned points, there are more
+subtle benefits from robotics fostering a more enlightened
+approach to MV reconstruction.23
+The authors reported no conflicts of interest.
+The Journal policy requires editors and reviewers to
+disclose conflicts of interest and to decline handling or reviewing manuscripts for which they may have a conflict
+of interest. The editors and reviewers of this article have
+no conflicts of interest.
