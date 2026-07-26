@@ -1,6 +1,6 @@
 # robotic_technique — 引き継ぎ
 
-最終更新 2026-07-27
+最終更新 2026-07-27（第2版：手技動画103点を追加）
 
 ## 状態：**完成**
 
@@ -11,10 +11,14 @@
 - [x] 設計 → `docs/superpowers/specs/2026-07-26-robotic-cardiac-technique-review-design.md`
 - [x] **本文 全9章＋付録A/B/C 執筆完了** → `md/robotic_technique_review.md`（約107,000字）
 - [x] **原典 Figure 46点**を抽出・挿入（`figures/` → `output/figures/rt_*.png`）
-- [x] HTML化 → `output/robotic_technique_review.html`（351 KB）
+- [x] **手技動画 103点**を本文26箇所に挿入（`inject_videos.py`）。
+      うち**16点は ACS のポスター画像付きサムネイル**（CC BY-NC-ND 4.0、`output/figures/rtv_*.jpg`）
+- [x] HTML化 → `output/robotic_technique_review.html`（428 KB）
 - [x] `index.html` の「体外循環・周術期」sectionにカード追加（3件→4件、ヘッダ統計12→13）
-- [x] 検証：図46/46・404ゼロ・デッドアンカーゼロ・横スクロールゼロ（PC/モバイル）
-- [x] 数値照合 stage1 **0件**・DOI/PubMed/MMCTS **159リンク**すべて到達確認
+- [x] 検証：図62/62（原図46＋動画サムネ16）・404ゼロ・デッドアンカーゼロ・
+      **動画アンカー103本すべて着地**・横スクロールゼロ（PC/モバイル）
+- [x] 数値照合 stage1 **0件**・外部リンク **237本**すべて到達確認
+      （403は OUP/SAGE/MDPI 等の bot 遮断15件のみ。CrossRef で実在確認済み）
 
 残っているのは **git push のみ**。
 
@@ -28,6 +32,8 @@
 | `figures/*.png` | 抽出した原図（`output/figures/` へのコピー元） |
 | `inject_figs.py` | 図の配置・キャプション・出典・図表一覧の生成。**冪等**（再実行で置換） |
 | `build_refs.py` | PubMed から引用文献表を生成 → `corpus/references.md` |
+| `inject_videos.py` | 動画リンクの配置・付録Aの生成。**冪等**。MMCTS のid/種別/長さ/年は全件カタログ照合済み |
+| `figures/video/*.jpg` | ACS の動画ポスター画像16点（CC BY-NC-ND 4.0 のもののみ） |
 | `mmcts_fetch.py` | **MMCTS を curl だけで取得**（下記参照） |
 | `verify_numbers.py` | 数値の2段照合 |
 | `reading/*.txt` | 精読用コーパス（参考文献・所属を落として圧縮、約1.4MB） |
@@ -36,9 +42,13 @@
 
 ```bash
 python3 robotic_technique/inject_figs.py            # 図と図表一覧を再注入
+python3 robotic_technique/inject_videos.py          # 動画リンクと付録Aを再注入
 python3 convert_to_html.py robotic_technique/md/robotic_technique_review.md
 cd robotic_technique && python3 verify_numbers.py   # 数値照合
 ```
+
+`.videolist` / `figure.vfig` の CSS は **`convert_to_html.py` 本体**に入れた
+（他レポートは同クラスを使っていないので影響なし。既存HTMLはCSSを埋め込み済みで再生成まで不変）。
 
 ## 今回の技術的発見（次に効くもの）
 
@@ -47,6 +57,25 @@ mmcts.org は Laravel/Inertia の SPA で、curl では殻しか返らないよ�
 **記事本文（step-by-step の `video_sections` を含む）は `<div id="app">` の
 `data-page` 属性に JSON で埋まっている**。`mmcts_fetch.py` がこれを展開する。
 DOI からも引ける（`python3 mmcts_fetch.py 10.1510/mmcts.2025.065 out.md`）。
+
+### MMCTS には全文カタログのエンドポイントがある
+`https://mmcts.org/search?query=&page=N`（1〜65ページ、15件/頁、計 **965件**）の Inertia payload
+`props.posts.data` に、**id・type（Tutorial / CaseReport）・doi・authors・video_data.duration** を
+含む完全なレコードが入っている。**ロボット/内視鏡の心臓症例は125件**。
+これが動画を探すときの唯一の正確な索引になる。
+
+### MMCTS の DOI リダイレクトは信用してはいけない
+`10.1510/mmcts.2025.098`（Cullen「pericardiotomy and aortic cross-clamp application」）は
+**tutorial/2069（＝別記事「男性のポート配置」）に飛ぶ**。正しくは tutorial/2067。
+DOI で引いたページは**必ずタイトルを PubMed と突き合わせる**こと。
+`inject_videos.py` の全 MMCTS エントリは上記カタログと id/種別/長さ/年を照合済み。
+
+### Ann Cardiothorac Surg の動画サムネイルは PMC OA に入っているが、年で扱いが違う
+記事HTML内の `acs-VV-II-PPP-vid.jpg`（`cdn.ncbi.../pmc/blobs/`）が動画のポスター画像。
+**2019年以降は CC BY-NC-ND 4.0 で転載可**。ところが **2018年以前（PMC5xxx/6xxx台）は
+CC ライセンスが付いていない**（PMC free access のみ、"PMC Copyright Notice"）。
+`oa.fcgi` の `license=` も空になるので、それが判定に使える。→ 2018年以前はテキストリンクのみ。
+今回、CC確認できた16点だけをサムネイルにし、残り11点は取得後に破棄した。
 
 ### NCBI ID converter は移転済み
 `ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/` は **301**。
@@ -92,5 +121,8 @@ OUP（EJCTS/ICVTS）は**桁区切りが空白**（`13 731`）。
 ## 設計判断（再議不要）
 
 - **ポート配置は独立章にせず術式別**（第2.4節に比較表、各術式章の冒頭に専用節）
-- **図は原典 Figure のみ／自作SVG禁止／動画のコマ取り禁止／動画は▶リンクのみ**
+- **図は原典 Figure のみ／自作SVG禁止／動画のコマ取り禁止**。
+  動画は ross_technique と同じ2形式 —
+  出版社がCCで配布している**ポスター画像がある場合だけサムネイル（`figure.vfig`）**、
+  それ以外（MMCTS・2018年以前のACS）は**テキストリンク（`div.videolist`）**
 - **既存 robotic_cpb レビューと分担** — 送脱血・endoballoon・灌流・麻酔は既存に委ね相互リンク

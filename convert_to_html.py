@@ -107,6 +107,28 @@ aside#sidebar {
   color: var(--fg);
 }
 
+#sidebar-nav a.nav-chapter {
+  font-weight: 800;
+  color: #fff;
+  background: var(--accent);
+  padding: 9px 10px;
+  font-size: 0.88rem;
+  margin-top: 22px;
+  border-radius: 4px;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-chapter:first-child { margin-top: 0; }
+#sidebar-nav a.nav-chapter:hover { filter: brightness(1.12); }
+#sidebar-nav a.nav-chapter.active { box-shadow: inset 0 0 0 2px rgba(255,255,255,0.55); }
+/* when chapters (h1) are present, h2 becomes a sub-level */
+#sidebar-nav.has-chapters a.nav-journal {
+  margin-top: 8px;
+  font-size: 0.82rem;
+  background: transparent;
+  padding-left: 12px;
+}
+#sidebar-nav.has-chapters a.nav-journal:hover { background: var(--sidebar-active); }
+
 #sidebar-nav a.nav-journal {
   font-weight: 700;
   color: var(--accent);
@@ -286,6 +308,38 @@ mark {
 .callout ul, .callout ol { margin: 4px 0 4px 18px; }
 .callout table { font-size: 0.8rem; }
 
+/* Video figures — the thumbnail links out to the original video, with a ▶ badge */
+figure.vfig { margin: 20px 0; background: #eef1f5; padding: 10px; border-radius: 5px; }
+figure.vfig a { position: relative; display: block; text-decoration: none; }
+figure.vfig a img { cursor: pointer; margin: 0 auto; }
+figure.vfig .play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 56px; height: 56px; border-radius: 50%;
+  background: rgba(20,20,20,0.62); color: #fff;
+  font-size: 1.45rem; line-height: 56px; text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+  transition: background 0.15s, transform 0.15s;
+}
+figure.vfig a:hover .play {
+  background: rgba(21,101,192,0.92); transform: translate(-50%, -50%) scale(1.08);
+}
+figure.vfig figcaption {
+  text-align: left; font-size: 0.79rem; color: var(--fg);
+  line-height: 1.6; margin: 9px 2px 2px;
+}
+figure.vfig figcaption a { font-weight: 600; }
+figure.vfig .src { display: block; margin-top: 4px; font-size: 0.72rem; color: var(--muted); }
+
+/* Video link lists — for videos with no reusable thumbnail (subscription journals) */
+.videolist {
+  border-left: 4px solid var(--accent); background: #eef4fc;
+  padding: 10px 16px; margin: 14px 0 20px; border-radius: 0 4px 4px 0;
+}
+.videolist p { margin: 6px 0; font-size: 0.83rem; line-height: 1.65; }
+.videolist p.vl-head {
+  margin: 0 0 6px; font-size: 0.8rem; font-weight: 600; color: var(--accent);
+}
+
 /* Sidebar toggle (mobile only) */
 #sidebar-toggle {
   display: none;
@@ -349,6 +403,8 @@ mark {
   li, p { font-size: 0.88rem; }
   .callout { padding: 10px 12px !important; }
   blockquote { padding: 8px 12px; }
+  .videolist { padding: 9px 12px; }
+  figure.vfig .play { width: 44px; height: 44px; line-height: 44px; font-size: 1.15rem; }
 }
 
 @media (max-width: 380px) {
@@ -369,15 +425,25 @@ TOC_SCRIPT = """
   if (!sidebar || !nav) return;
 
   var content = document.querySelector('main.content');
-  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var all = Array.prototype.slice.call(
+    (content || document).querySelectorAll('h1, h2, h3, h4'));
+  // The leading H1 is the document title (already shown in the page header).
+  if (all.length && all[0].tagName === 'H1') all.shift();
+  var headings = all;
   var navLinks = [];
+  if (headings.some(function(h) { return h.tagName === 'H1'; })) {
+    nav.classList.add('has-chapters');
+    var sbHead = document.getElementById('sidebar-header');
+    if (sbHead) sbHead.textContent = '目次 — 章・節';
+  }
 
   headings.forEach(function(h, idx) {
     if (!h.id) h.id = 'heading-' + idx;
     var a = document.createElement('a');
     a.href = '#' + h.id;
     a.textContent = h.textContent.replace(/\\s+/g, ' ').trim();
-    if (h.tagName === 'H2') a.className = 'nav-journal';
+    if (h.tagName === 'H1') a.className = 'nav-chapter';
+    else if (h.tagName === 'H2') a.className = 'nav-journal';
     else if (h.tagName === 'H3') a.className = 'nav-category';
     else a.className = 'nav-paper';
     a.dataset.target = h.id;
@@ -461,13 +527,30 @@ def convert_highlights(text):
     return re.sub(r'==(.*?)==', r'<mark>\1</mark>', text)
 
 
+def fix_cjk_emphasis(html):
+    """Bold **…** that CommonMark's flanking rules reject between CJK characters.
+
+    GFM requires a closing ** to be "right-flanking"; when it sits between a CJK
+    punctuation mark and a CJK letter (…（Table 46）**のみ) it is not, so pandoc
+    emits the asterisks verbatim. Japanese text hits this constantly. Rescue the
+    leftovers here, skipping pre/code so literal asterisks in samples survive.
+    """
+    def rescue(segment):
+        return re.sub(r'\*\*(?=\S)([^*<>\n]+?)(?<=\S)\*\*',
+                      r'<strong>\1</strong>', segment)
+
+    parts = re.split(r'(<pre\b.*?</pre>|<code\b.*?</code>)', html, flags=re.DOTALL)
+    return ''.join(p if p.startswith(('<pre', '<code')) else rescue(p)
+                   for p in parts)
+
+
 def pandoc_convert(md_text):
     try:
         proc = subprocess.run(
             ['pandoc', '-f', 'gfm', '-t', 'html5', '--wrap=none'],
             input=md_text, capture_output=True, text=True, check=True
         )
-        return proc.stdout
+        return fix_cjk_emphasis(proc.stdout)
     except (subprocess.CalledProcessError, FileNotFoundError) as e:
         print(f"pandoc error: {e}", file=sys.stderr)
         return md_text
@@ -492,17 +575,22 @@ def convert_callouts(text):
             style = CALLOUT_STYLES.get(ctype, CALLOUT_STYLES["note"])
             border_color, bg_color, default_label = style
 
+            # A blank line inside a callout is a bare ">", not "> ", so both forms
+            # must continue the block or multi-paragraph callouts get truncated.
+            def _is_quote(line):
+                return line.startswith('> ') or line.rstrip() == '>'
+
             body_lines = []
             if title_text:
-                if i + 1 < len(lines) and lines[i+1].startswith('> '):
+                if i + 1 < len(lines) and _is_quote(lines[i+1]):
                     pass
                 else:
                     body_lines.append(title_text)
                     title_text = ""
 
             i += 1
-            while i < len(lines) and lines[i].startswith('> '):
-                body_lines.append(lines[i][2:])
+            while i < len(lines) and _is_quote(lines[i]):
+                body_lines.append(lines[i][2:] if lines[i].startswith('> ') else '')
                 i += 1
 
             display_title = title_text if title_text else default_label

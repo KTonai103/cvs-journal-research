@@ -58,8 +58,17 @@ def main():
     corp_lines = corp.splitlines()
 
     unmatched, mixed = [], []
+    in_video = False
     for i, line in enumerate(body.splitlines(), 1):
-        if SKIP_LINE.search(line):
+        # injected video blocks carry MMCTS metadata (durations, step counts),
+        # not claims from the reading corpus — inject_videos.py checks those
+        # against the site catalogue instead.
+        if line.startswith("<!-- VID:"):
+            in_video = True
+        elif line.startswith("<!-- /VID:"):
+            in_video = False
+            continue
+        if in_video or SKIP_LINE.search(line):
             continue
         nums = [n for n in NUM.findall(line)]
         keep = [n for n in nums if normalise(n) not in ALLOW and len(n) > 1]

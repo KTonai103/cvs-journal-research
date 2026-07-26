@@ -288,6 +288,38 @@ mark {
 .callout ul, .callout ol { margin: 4px 0 4px 18px; }
 .callout table { font-size: 0.8rem; }
 
+/* Video figures — the thumbnail links out to the original video, with a ▶ badge */
+figure.vfig { margin: 20px 0; background: #eef1f5; padding: 10px; border-radius: 5px; }
+figure.vfig a { position: relative; display: block; text-decoration: none; }
+figure.vfig a img { cursor: pointer; margin: 0 auto; }
+figure.vfig .play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 56px; height: 56px; border-radius: 50%;
+  background: rgba(20,20,20,0.62); color: #fff;
+  font-size: 1.45rem; line-height: 56px; text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+  transition: background 0.15s, transform 0.15s;
+}
+figure.vfig a:hover .play {
+  background: rgba(21,101,192,0.92); transform: translate(-50%, -50%) scale(1.08);
+}
+figure.vfig figcaption {
+  text-align: left; font-size: 0.79rem; color: var(--fg);
+  line-height: 1.6; margin: 9px 2px 2px;
+}
+figure.vfig figcaption a { font-weight: 600; }
+figure.vfig .src { display: block; margin-top: 4px; font-size: 0.72rem; color: var(--muted); }
+
+/* Video link lists — for videos with no reusable thumbnail (subscription journals) */
+.videolist {
+  border-left: 4px solid var(--accent); background: #eef4fc;
+  padding: 10px 16px; margin: 14px 0 20px; border-radius: 0 4px 4px 0;
+}
+.videolist p { margin: 6px 0; font-size: 0.83rem; line-height: 1.65; }
+.videolist p.vl-head {
+  margin: 0 0 6px; font-size: 0.8rem; font-weight: 600; color: var(--accent);
+}
+
 /* Sidebar toggle (mobile only) */
 #sidebar-toggle {
   display: none;
@@ -351,6 +383,8 @@ mark {
   li, p { font-size: 0.88rem; }
   .callout { padding: 10px 12px !important; }
   blockquote { padding: 8px 12px; }
+  .videolist { padding: 9px 12px; }
+  figure.vfig .play { width: 44px; height: 44px; line-height: 44px; font-size: 1.15rem; }
 }
 
 @media (max-width: 380px) {
@@ -369,7 +403,7 @@ mark {
   <main class="content">
 <h1 id="ロボット心臓手術--手技pitfalltips-統合レビュー">ロボット心臓手術 — 手技・Pitfall・Tips 統合レビュー</h1>
 <p><strong>術式別のポート配置／訓練とプログラム構築／各術式の落とし穴と対処</strong></p>
-<p>作成 2026-07-27 ｜ 文献 <strong>75本</strong>・原典図 <strong>46点</strong>（<a href="#引用文献">引用文献</a> / <a href="#付録c-図表一覧原典出典">図表一覧</a> / <a href="#付録a-動画一覧術式別">動画一覧</a>）</p>
+<p>作成 2026-07-27 ｜ 文献 <strong>75本</strong>・原典図 <strong>46点</strong>・手技動画 <strong>103点</strong>（<a href="#引用文献">引用文献</a> / <a href="#付録c-図表一覧原典出典">図表一覧</a> / <a href="#付録a-動画一覧術式別">動画一覧</a>）</p>
 <blockquote>
 <p><strong>本レビューの立ち位置</strong> 送脱血・endoaortic balloon・灌流・麻酔管理は姉妹レビュー <a href="robotic_cpb_pitfalls_review.html">ロボット支援下CPB Pitfall集</a>（31文献・283 Pitfall）に委ね、 本編は<strong>術式手技</strong>に集中する。両者を併せて読むことを想定している。</p>
 </blockquote>
@@ -379,6 +413,14 @@ mark {
 <p>臨床第1例は 1998年初頭、Carpentier によるロボット僧帽弁形成（MVr）で、 その後 Chitwood が普及を主導した。冠動脈側はやや遅れて Loulmet らが ロボット支援冠動脈手術の第1例を行い、robotic-assisted MIDCAB を経て、 数十年かけて完全内視鏡下冠動脈バイパス（TECAB）に到達している。</p>
 <p>この25年で対象は僧帽弁を超えて広がった — 三尖弁、大動脈弁、両心房 Cox maze、 心筋切除、先天性、そして多彩な同時手術である。</p>
 <p>普及の到達点を1つの数字で示すなら、<strong>米国では一次性僧帽弁閉鎖不全に対する 弁形成術の5分の1がロボットで行われている</strong>（STS 2026 コンセンサス）。 経験のある施設では、ロボットMVrは胸骨正中切開MVrと<strong>コストも耐久性も同等</strong>で、 複雑な形成や高齢者ではむしろ利点があると報告されている。</p>
+<!-- VID:1.1 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v1-1"><b>動画1-1　Closed-chest, robotically assisted CABG</b>（Falk V, Jacobs S, Mohr FW, MMCTS 2006、12分07秒）　現在の TECAB の原型。31ステップに刻まれており、LITA の筋膜切開・pedicle 作成から silastic tape による標的血管の一時遮断、安定化器の挿入、吻合と結紮までを通して見られる。2004年の映像で、器械も画質も現在とは違うが、<b>工程そのものは今と変わっていない</b>ことが確認できる。　→ <a href="https://mmcts.org/tutorial/621" target="_blank" rel="noopener">mmcts.org/tutorial/621</a>（購読制）</p>
+</div>
+<!-- /VID:1.1 -->
+
 <h3 id="12-エビデンスの成熟度は術式で全く違う">1.2 エビデンスの成熟度は術式で全く違う</h3>
 <p>「ロボット心臓手術」を一括りに語れないのは、<strong>術式ごとに成熟度が3段階に分かれている</strong> からである。この差を意識しないまま導入計画を立てると失敗する。</p>
 <div class="table-wrap"><table>
@@ -525,6 +567,16 @@ mark {
 </ol>
 <p>マーキングすべき解剖学的ランドマークは、胸骨正中線・肋間（2・3・4）・ 剣状突起・下位肋骨。皮膚切開の前に印をつける。</p>
 <p>体位は術式で反転する。僧帽弁・RAVR・ASD は<strong>右胸</strong>を挙上、 TECAB/MIDCAB は<strong>左肩</strong>にロール、心表面AFアブレーションは<strong>左肩甲骨下</strong>にパッドを置く。</p>
+<!-- VID:2.3 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v2-1"><b>動画2-1　体位・マーキング・ポート配置（男性）</b>（Cullen P, Malas T, Gillinov M, MMCTS 2025、10分05秒）　マーキングと体位 → 大腿露出 → working port → angiocath 留置と横隔膜牽引 → 完成したセットアップ、の5工程。　→ <a href="https://mmcts.org/tutorial/2069" target="_blank" rel="noopener">mmcts.org/tutorial/2069</a>（購読制）</p>
+<p id="v2-2"><b>動画2-2　体位・マーキング・ポート配置（女性）</b>（Cullen P, Malas T, Gillinov M, MMCTS 2025、7分29秒）　乳房下縁の扱いが男性版と違う。同じ術者・同じ構成で撮られているので差分が分かりやすい。　→ <a href="https://mmcts.org/tutorial/2068" target="_blank" rel="noopener">mmcts.org/tutorial/2068</a>（購読制）</p>
+<p id="v2-3"><b>動画2-3　心膜切開と大動脈遮断鉗子の当て方</b>（Cullen P, Malas T, Gillinov M, MMCTS 2025、4分04秒）　体位・ポートの次の工程。　→ <a href="https://mmcts.org/tutorial/2067" target="_blank" rel="noopener">mmcts.org/tutorial/2067</a>（購読制）</p>
+</div>
+<!-- /VID:2.3 -->
+
 <h3 id="24-ポート配置は術式別--共通の図は作れない">2.4 ポート配置は術式別 — 共通の図は作れない</h3>
 <p>実データを術式別に並べると、共通化できない理由が明確になる。</p>
 <div class="table-wrap"><table>
@@ -599,6 +651,17 @@ mark {
 </table></div>
 <p>同じ「右胸 4th ICS 作業孔」でも、<strong>僧帽弁はロボットを患者右から、 RAVR は患者左からドッキングする</strong>。ASD では器械ポートが前腋窩線の 前方と後方に分かれ、僧帽弁とは逆の配置になる。</p>
 <p>したがって以降の各術式章の冒頭に、その術式専用のポート節を置く。</p>
+<!-- VID:2.4 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v2-4"><b>動画2-4　僧帽弁のポート配置</b>（Cullen P ら, MMCTS 2025、10分05秒）　→ <a href="https://mmcts.org/tutorial/2069" target="_blank" rel="noopener">mmcts.org/tutorial/2069</a>（購読制）</p>
+<p id="v2-5"><b>動画2-5　RAVR のポート配置</b>（Arai A, Kitahara H, Balkhy HH, MMCTS 2024、5分28秒）　「operation set-up and port placement」が第2章に立っている。　→ <a href="https://mmcts.org/case-report/1915" target="_blank" rel="noopener">mmcts.org/case-report/1915</a>（購読制）</p>
+<p id="v2-6"><b>動画2-6　TECAB のポート配置と EndoWrist stabilizer の入れ方</b>（Kitahara H, Grady K, Balkhy HH, MMCTS 2023、8分02秒）　第4章が stabilizer と working port の位置決めに充てられている。　→ <a href="https://mmcts.org/case-report/1834" target="_blank" rel="noopener">mmcts.org/case-report/1834</a>（購読制）</p>
+<p id="v2-7"><b>動画2-7　RA-MIDCAB のポート配置</b>（Catalano M, Kelly J ら, MMCTS 2025、12分08秒）　第2章がポート配置。　→ <a href="https://mmcts.org/tutorial/2030" target="_blank" rel="noopener">mmcts.org/tutorial/2030</a>（購読制）</p>
+</div>
+<!-- /VID:2.4 -->
+
 <h3 id="25-意見が分かれる点">2.5 意見が分かれる点</h3>
 <p>導入を計画する際に把握しておくべき、施設間で結論が違う争点が3つある。</p>
 <div class="table-wrap"><table>
@@ -633,6 +696,16 @@ mark {
 </tbody>
 </table></div>
 <p>いずれも「どちらが正しい」という決着はついていない。導入期には <strong>保守的な側（正中切開・硬性クランプ）を選ぶのが STS の推奨方向</strong>であり、 拡大は Phase III–IV 以降とされている。</p>
+<!-- VID:2.5 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v2-8"><b>動画2-8　ロボット心臓手術における片側経皮送脱血と endoaortic balloon の管理</b>（Amabile A, Hameed I ら, MMCTS 2022、9分14秒）　Perclose Proglide を動静脈それぞれに先行留置してから穿刺送脱血する手順と、バルーン閉塞・脱血の全工程。本レビューが扱わない CPB 側は <a href="robotic_cpb_pitfalls_review.html">ロボット支援下CPB Pitfallレビュー</a>を参照。　→ <a href="https://mmcts.org/tutorial/1717" target="_blank" rel="noopener">mmcts.org/tutorial/1717</a>（購読制）</p>
+<p id="v2-9"><b>動画2-9　低侵襲僧帽弁手術における endoaortic balloon occlusion</b>（Van Praet KM, Kempfert J ら, MMCTS 2022、17分18秒）　バルーン単体を17分かけて扱った長編。移動・破裂・解離という争点の背景が分かる。　→ <a href="https://mmcts.org/tutorial/1724" target="_blank" rel="noopener">mmcts.org/tutorial/1724</a>（購読制）</p>
+<p id="v2-10"><b>動画2-10　Robotic posterior bar decalcification and mitral repair in mitral annular calcification</b>（Loulmet DF, Hage A ら）　上表「重症MACはロボットでやるか」の NYU 側の実演。　→ <a href="https://doi.org/10.21037/acs-2025-mac-19" target="_blank" rel="noopener">Ann Cardiothorac Surg 2025;14(6) の動画</a></p>
+</div>
+<!-- /VID:2.5 -->
+
 <hr />
 <h2 id="3-訓練とプログラム構築">3. 訓練とプログラム構築</h2>
 <h3 id="31-2つのトラックは別物--まず選ぶ">3.1 2つのトラックは別物 — まず選ぶ</h3>
@@ -719,6 +792,17 @@ mark {
 <p>wet lab の学習曲線は実測されている。Atroshchenko らは <strong>左房閉鎖</strong>と<strong>内胸動脈採取</strong>の2課題で、心臓外科の初学者と非心臓外科の初学者を比較した。 シミュレーションは「回数をこなせば必ず上手くなる」ものではなく、 課題ごとに到達までの時間と試行回数が違う。</p>
 <p>低コストで自作できるモデルも報告されている。 AlJamal / Balkhy らは<strong>安価で組み立てが容易なロボット心臓シミュレータ</strong>で 内視鏡下CABGの「無制限の」練習環境を作った（proof of concept）。 Ashraf らは <strong>da Vinci Xi 用の低コスト・高忠実度の内胸動脈採取モデル</strong>を開発・検証している。</p>
 <p>内視鏡下僧帽弁については、高忠実度シミュレータ上で開発された <strong>「運針マップ（suturing map）」</strong>が MMCTS に公開されており、 弁輪への運針順序を標準化する教材として使える。</p>
+<!-- VID:3.3 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v3-1"><b>動画3-1　内視鏡下僧帽弁形成のための suturing map</b>（Sardari Nia P, Olsthoorn J, MMCTS 2018、3分34秒）　high-fidelity シミュレータ上で、<b>弁輪のどの位置に針をどの向きで入れるか</b>を map として示す。訓練の初期に見るべき1本。　→ <a href="https://mmcts.org/tutorial/1041" target="_blank" rel="noopener">mmcts.org/tutorial/1041</a>（購読制）</p>
+<p id="v3-2"><b>動画3-2　内視鏡下僧帽弁置換の suture map</b>（Hamid UI, Sardari Nia P, MMCTS 2022、6分10秒）　弁輪サイジングから人工弁の運針まで9工程。　→ <a href="https://mmcts.org/tutorial/1742" target="_blank" rel="noopener">mmcts.org/tutorial/1742</a>（購読制）</p>
+<p id="v3-3"><b>動画3-3　内視鏡下三尖弁形成の suture map</b>（Hamid UI, Aksoy R, MMCTS 2022、9分17秒）　右房切開から弁輪縫縮まで。　→ <a href="https://mmcts.org/tutorial/1741" target="_blank" rel="noopener">mmcts.org/tutorial/1741</a>（購読制）</p>
+<p id="v3-4"><b>動画3-4　低忠実度シミュレータの作り方</b>（Moscarelli M ら, MMCTS 2019、5分50秒）　低侵襲僧帽弁手術用の簡易シミュレータを自作する手順。<a href="#33-phase-i--チーム作りとシミュレーション">3.3節</a>の「安価な箱から始める」の実物。　→ <a href="https://mmcts.org/tutorial/1267" target="_blank" rel="noopener">mmcts.org/tutorial/1267</a>（購読制）</p>
+</div>
+<!-- /VID:3.3 -->
+
 <h3 id="34-phase-ii--他施設研修と-proctoringそして最初の10例">3.4 Phase II — 他施設研修と proctoring、そして最初の10例</h3>
 <p>Phase II は<strong>peer-to-peer の臨床研修と proctoring 下の初期症例</strong>である。 Phase III–IV に到達した施設への見学が推奨され、 コンソール術者だけでなく<strong>テーブルサイド術者・臨床工学・麻酔・器械出し・外回り</strong>まで 含めた研修が望ましいとされる。</p>
 <p>見学時の観察項目はトラックで異なる。</p>
@@ -1145,6 +1229,18 @@ mark {
 </figure>
 <!-- /FIG:4.1 -->
 
+<!-- VID:4.1 -->
+
+<figure class="vfig" id="v4-1">
+<a href="https://doi.org/10.21037/acs-2022-rmvs-12" target="_blank" rel="noopener"><img src="figures/rtv_36237587_acs-11-05-548-vid.jpg" alt="経乳輪（periareolar）アプローチの手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画4-1　経乳輪（periareolar）アプローチ</b>　Musumeci らの乳輪切開。ポート配置の項で扱った「創をどこに置くか」の美容面での解の一つ。<a href="https://doi.org/10.21037/acs-2022-rmvs-12" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Musumeci F, Ranocchi F, et al. <i>Ann Cardiothorac Surg</i> 2022;11(5):548-549（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v4-2"><b>動画4-2　ロボット経乳輪僧帽弁形成</b>（Musumeci F, Lio A, MMCTS 2021、6分52秒）　皮膚マーキング → 切開 → トロッカー挿入 → ロボット接続まで10工程。上の ACS 動画の詳細版。　→ <a href="https://mmcts.org/tutorial/1644" target="_blank" rel="noopener">mmcts.org/tutorial/1644</a>（購読制）</p>
+</div>
+<!-- /VID:4.1 -->
+
 <h3 id="42-展開--左房切開と-retractor">4.2 展開 — 左房切開と retractor</h3>
 <p>心房切開は <strong>Waterston（Sondergaard）溝</strong>から入る。Patel らは実務的な注意を挙げる。</p>
 <ul>
@@ -1278,6 +1374,33 @@ mark {
 <p>なお Loulmet らは人工腱索そのものに懐疑的な立場を明示している — Gore-Tex は<strong>7割が空気の多孔質素材</strong>で、伸展性があり石灰化しうる（再手術時に 硬い小枝状に変化しているのを観察している）、そして <strong>乳頭筋の解剖学的変異が大きすぎて安定した固定部位の選択が難しい</strong>。 「僧帽弁装置は指紋のように個体ごとに固有である」（Solomon Victor）を引いている。</p>
 <h4 id="d-用語の訂正--cleftではない">(d) 用語の訂正 — 「cleft」ではない</h4>
 <p>Loulmet らの指摘は臨床的にも意味がある。後尖 scallop 間の切れ込みを慣習的に 「cleft（P1-P2 cleft など）」と呼ぶが、robotic の視野で見ると 正常のそれは<strong>組織化された腱索系に支えられた弁尖のひだ</strong>であり、 前後交連と同じ構造を反復している。したがってこれは<strong>交連（commissure）<strong>であり、 房室中隔欠損における真の cleft とは別物である。 交連は複雑で高度に分化した構造ゆえに発生異常を起こしやすく、 (1) 腱索の部分的/完全癒合、(2) 弁輪と乳頭筋頭を結ぶ石灰化バンド、 (3) 交連の層形成不全による左室壁への線維性/石灰化バンドの癒着 — という スペクトラムを呈する。多くは交連の可動性制限による</strong>tethering</strong>を起こす。 対処は<strong>病的交連の三角/四角切除と対応部分の縫合</strong>である。</p>
+<!-- VID:4.3 -->
+
+<figure class="vfig" id="v4-3">
+<a href="https://doi.org/10.21037/acs-2022-rmvs-16" target="_blank" rel="noopener"><img src="figures/rtv_36483616_acs-11-06-629-vid.jpg" alt="完全内視鏡下ロボット僧帽弁形成の全工程の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画4-3　完全内視鏡下ロボット僧帽弁形成の全工程</b>　Thomas Jefferson の Yost / Guy による 「How I perform totally endoscopic robotic mitral valve repair」。1本で一連の流れが通して見られる標準的な症例。<a href="https://doi.org/10.21037/acs-2022-rmvs-16" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Yost CC, Rosen JL, et al. <i>Ann Cardiothorac Surg</i> 2022;11(6):629-631（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<figure class="vfig" id="v4-4">
+<a href="https://doi.org/10.21037/acs-2022-rmvs-27" target="_blank" rel="noopener"><img src="figures/rtv_36483614_acs-11-06-583-vid.jpg" alt="難易度が上がっても質を落とさない形成の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画4-4　難易度が上がっても質を落とさない形成</b>　WVU の Darehzereshki / Mehaffey による 「maintaining quality at all levels of complexity」。<a href="#43-弁形成手技--術式を変えないことが原則">4.3節</a>の「術式を変えない」という原則の実演。<a href="https://doi.org/10.21037/acs-2022-rmvs-27" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Darehzereshki A, Mehaffey JH, et al. <i>Ann Cardiothorac Surg</i> 2022;11(6):583-588（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v4-5"><b>動画4-5　三角切除</b>（Cullen P, Malas T, Gillinov M, MMCTS 2025、5分46秒）　TOE 所見 → 左房切開 → 弁の評価 → 三角切除と縫合 → 弁輪縫縮と saline test → 左房閉鎖 → 修復後TOE。　→ <a href="https://mmcts.org/tutorial/2070" target="_blank" rel="noopener">mmcts.org/tutorial/2070</a>（購読制）</p>
+<p id="v4-6"><b>動画4-6　folding plasty（折り込み形成）</b>（Cullen P ら, MMCTS 2025、6分47秒）　三角切除に folding plasty を足す8工程。cleft 閉鎖と再テストまで含む。　→ <a href="https://mmcts.org/tutorial/2112" target="_blank" rel="noopener">mmcts.org/tutorial/2112</a>（購読制）</p>
+<p id="v4-7"><b>動画4-7　annular plication（弁輪縫縮を併せた後尖形成）</b>（Cullen P ら, MMCTS 2025、5分57秒）　P2 三角切除 → 弁輪縫縮 → 弁尖閉鎖 → 弁輪形成と passive test。　→ <a href="https://mmcts.org/tutorial/2116" target="_blank" rel="noopener">mmcts.org/tutorial/2116</a>（購読制）</p>
+<p id="v4-8"><b>動画4-8　commissuroplasty（交連形成）</b>（Cullen P ら, MMCTS 2025、3分20秒）　同シリーズで最も短い3工程。　→ <a href="https://mmcts.org/tutorial/2107" target="_blank" rel="noopener">mmcts.org/tutorial/2107</a>（購読制）</p>
+<p id="v4-9"><b>動画4-9　四角切除＋双方向 sliding valvuloplasty</b>（Cullen P ら, MMCTS 2025、9分57秒）　同シリーズで最も大きな弁尖処理。　→ <a href="https://mmcts.org/tutorial/2109" target="_blank" rel="noopener">mmcts.org/tutorial/2109</a>（購読制）</p>
+<p id="v4-10"><b>動画4-10　sliding plasty＋人工腱索＋弁輪縫縮（複雑形成）</b>（Amabile A, LaLonde MR ら, MMCTS 2023、5分43秒）　Yale の症例。後尖切除→人工腱索→弁輪縫縮を1本で。　→ <a href="https://mmcts.org/case-report/1787" target="_blank" rel="noopener">mmcts.org/case-report/1787</a>（購読制）</p>
+<p id="v4-11"><b>動画4-11　anomalous mitral arcade に対する3D完全内視鏡下形成</b>（Kitamura H, Fukumoto Y, MMCTS 2025、5分28秒）　乳頭筋剥離 → 人工腱索長の決定 → loop 固定 → 交連形成まで10工程。稀な病態の形成戦略。　→ <a href="https://mmcts.org/case-report/1985" target="_blank" rel="noopener">mmcts.org/case-report/1985</a>（購読制）</p>
+<p id="v4-12"><b>動画4-12　sliding leaflet valvuloplasty と remodelling partial annuloplasty</b>（Murashita T, Raffa G, MMCTS 2016、5分13秒）　びまん性粘液腫様変性の2症例を対比。　→ <a href="https://mmcts.org/tutorial/530" target="_blank" rel="noopener">mmcts.org/tutorial/530</a>（購読制）</p>
+<p id="v4-13"><b>動画4-13　ロボット僧帽弁形成の手技・成績・展望</b>（Algarni KD, Suri RM, MMCTS 2014、10分06秒）　Mayo の Suri による9工程。後尖・交連・前尖（人工腱索）の順に扱う古典。　→ <a href="https://mmcts.org/tutorial/60" target="_blank" rel="noopener">mmcts.org/tutorial/60</a>（購読制）</p>
+<p id="v4-14"><b>動画4-14　Optimizing outcomes of robotic mitral valve repair for all prolapse anatomy: the Suri-Burkhart technique</b>（Suri RM, Burkhart HM）　→ <a href="https://doi.org/10.3978/j.issn.2225-319X.2013.10.05" target="_blank" rel="noopener">Ann Cardiothorac Surg 2013;2(6):841-845 の動画</a></p>
+<p id="v4-15"><b>動画4-15　Robotic mitral valve repair: algorithmic approach in degenerative mitral valve disease</b>（Javadikasgari H, Suri RM）　→ <a href="https://doi.org/10.21037/acs.2016.11.07" target="_blank" rel="noopener">Ann Cardiothorac Surg 2016;5(6):586-588 の動画</a></p>
+<p id="v4-16"><b>動画4-16　Robotic mitral valve repair: standardized repair strategy ensures consistent results</b>（Ishii H, Ting M）　→ <a href="https://doi.org/10.21037/acs.2018.10.11" target="_blank" rel="noopener">Ann Cardiothorac Surg 2018;7(6):837-838 の動画</a></p>
+</div>
+<!-- /VID:4.3 -->
+
 <h3 id="44-弁輪縫縮--robotic-特有の工夫が最も進んだ領域">4.4 弁輪縫縮 — robotic 特有の工夫が最も進んだ領域</h3>
 <p>弁輪縫縮はロボット僧帽弁の中で<strong>最も時間を食う工程</strong>であり、 だからこそ各施設が独自の縫合法を開発した。共通する動機は 「<strong>結節縫合＋個別結紮は、糸の交換・結紮・ベッドサイド術者への依存で時間がかかる</strong>」である。</p>
 <h4 id="3つの流派">3つの流派</h4>
@@ -1333,6 +1456,16 @@ mark {
 <li><strong>plication が少ない方が遠隔期のEF回復が良い</strong>（P=0.0268）</li>
 </ul>
 <p>実務的な読み方はこうなる。<strong>リングサイズだけ、あるいは縫縮率だけを見ても足りない</strong>。 「小さいリング × 強い縫縮」の組み合わせが機能的狭窄を作る。 後方弁輪が前方に比して著しく拡大している症例で、無理に <strong>&lt;0.6 まで縫縮する必要はない</strong>。</p>
+<!-- VID:4.4 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v4-17"><b>動画4-17　semi-continuous 3本縫合による弁輪縫縮</b>（Cullen P, Malas T, Gillinov M, MMCTS 2025、9分12秒）　<a href="#44-弁輪縫縮--robotic-特有の工夫が最も進んだ領域">4.4節</a>で扱った手技の原典動画。　→ <a href="https://mmcts.org/tutorial/2077" target="_blank" rel="noopener">mmcts.org/tutorial/2077</a>（購読制）</p>
+<p id="v4-18"><b>動画4-18　人工弁の運針（内視鏡下MVR の suture map）</b>（Hamid UI, Sardari Nia P, MMCTS 2022、6分10秒）　弁輪サイジングと運針順序。　→ <a href="https://mmcts.org/tutorial/1742" target="_blank" rel="noopener">mmcts.org/tutorial/1742</a>（購読制）</p>
+<p id="v4-19"><b>動画4-19　Cor-Knot による結紮を含むロボットMVR</b>（Senay S, Gullu AU, MMCTS 2014、5分32秒）　第6工程が Cor-Knot での締結。自動ファスナーの合併症は<a href="cor_knot_pitfalls_review.html">Cor-Knot Pitfallレビュー</a>を参照。　→ <a href="https://mmcts.org/tutorial/54" target="_blank" rel="noopener">mmcts.org/tutorial/54</a>（購読制）</p>
+</div>
+<!-- /VID:4.4 -->
+
 <h3 id="45-難症例">4.5 難症例</h3>
 <h4 id="a-重症mac--最大の争点">(a) 重症MAC — 最大の争点</h4>
 <p><a href="#25-意見が分かれる点">2.5節</a>で触れたとおり、ここは施設間で結論が正反対である。</p>
@@ -1463,6 +1596,31 @@ mark {
 <li>再TECAB 31例のうち <strong>20例（65%）で未使用の RITA を新規グラフト</strong>として使用</li>
 </ul>
 <p>Cleveland Clinic も「<strong>前回正中切開は経験ある術者なら可</strong>、 前回右開胸は禁忌」という立場は共通で、 前回正中切開例では<strong>上行大動脈のバルーン遮断＋内頸静脈からの冠静脈洞カテーテルによる 順行性/逆行性心筋保護</strong>を有利としている。</p>
+<!-- VID:4.5 -->
+
+<figure class="vfig" id="v4-20">
+<a href="https://doi.org/10.21037/acs-2025-mac-0127" target="_blank" rel="noopener"><img src="figures/rtv_41383200_acs-14-06-511-vid1.jpg" alt="MAC 症例のロボット僧帽弁形成の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画4-20　MAC 症例のロボット僧帽弁形成</b>　石灰化弁輪でどこまで踏み込むかを示した2025年の動画。<a href="https://doi.org/10.21037/acs-2025-mac-0127" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Pickering T, Dorton CW, et al. <i>Ann Cardiothorac Surg</i> 2025;14(6):511-513（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<figure class="vfig" id="v4-21">
+<a href="https://doi.org/10.21037/acs-2025-mac-10" target="_blank" rel="noopener"><img src="figures/rtv_41383187_acs-14-06-504-vid.jpg" alt="posterior bar の広範囲脱灰と calcific emulsificationの手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画4-21　posterior bar の広範囲脱灰と calcific emulsification</b>　Western Ontario の Chu ら。<b>石灰を乳化させて除去する</b>新法で、内視鏡下でも posterior bar を処理できるとする。<a href="#25-意見が分かれる点">2.5節</a>の「重症MACをロボットでやるか」の争点に直結する。<a href="https://doi.org/10.21037/acs-2025-mac-10" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Rheault-Henry M, Chu MWA, et al. <i>Ann Cardiothorac Surg</i> 2025;14(6):504-507（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<figure class="vfig" id="v4-22">
+<a href="https://doi.org/10.21037/acs-2022-rmvs-64" target="_blank" rel="noopener"><img src="figures/rtv_36237590_acs-11-05-545-vid.jpg" alt="弁輪石灰化の完全切除を伴うロボット形成の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画4-22　弁輪石灰化の完全切除を伴うロボット形成</b>　NYU の Naito / Grossi。石灰を残さず取り切る側の立場。<a href="https://doi.org/10.21037/acs-2022-rmvs-64" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Naito N, Grossi EA, et al. <i>Ann Cardiothorac Surg</i> 2022;11(5):545-547（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v4-23"><b>動画4-23　内視鏡下手術中の SAM への対処</b>（Buttiglione G, Gollmann-Tepeköylü C, MMCTS 2024、5分32秒）　2症例を並べて、弁の所見 → 到達法 → SAM の処理、をそれぞれ示す。　→ <a href="https://mmcts.org/tutorial/1934" target="_blank" rel="noopener">mmcts.org/tutorial/1934</a>（購読制）</p>
+<p id="v4-24"><b>動画4-24　両側乳頭筋移動（double papillary muscle relocation）</b>（Amabile A, LaLonde MR ら, MMCTS 2022、6分58秒）　乳頭筋頭の再固定から移動、弁輪縫縮での位置決めまで7工程。　→ <a href="https://mmcts.org/case-report/1757" target="_blank" rel="noopener">mmcts.org/case-report/1757</a>（購読制）</p>
+<p id="v4-25"><b>動画4-25　前回の乳頭筋接合が破綻した症例の再手術</b>（Amabile A, Antonios J ら, MMCTS 2024、5分30秒）　完全内視鏡下での再手術。乳頭筋位置の再建 → 弁輪縫縮 → 交連縫縮。　→ <a href="https://mmcts.org/case-report/1943" target="_blank" rel="noopener">mmcts.org/case-report/1943</a>（購読制）</p>
+<p id="v4-26"><b>動画4-26　TEER クリップ抜去を伴うロボット僧帽弁再形成</b>（Kaneyuki D, Yost CC, MMCTS 2023、6分39秒）　endoballoon 遮断・PFO 閉鎖・左房 CryoMAZE・左心耳閉鎖まで併施した1本。　→ <a href="https://mmcts.org/case-report/1837" target="_blank" rel="noopener">mmcts.org/case-report/1837</a>（購読制）</p>
+<p id="v4-27"><b>動画4-27　部分型房室中隔欠損修復後の再手術（内視鏡下僧帽弁形成）</b>（Arimura S, Chu MWA, MMCTS 2025、6分26秒）　cleft を 4-0 Gore-Tex で閉じ直す工程が独立章になっている。　→ <a href="https://mmcts.org/case-report/2058" target="_blank" rel="noopener">mmcts.org/case-report/2058</a>（購読制）</p>
+<p id="v4-28"><b>動画4-28　再手術：癒着剥離（前回正中×2・前回ロボット×1）＋複雑再形成</b>（Amabile A, LaLonde MR ら, MMCTS 2022、9分34秒）　→ <a href="https://mmcts.org/case-report/1766" target="_blank" rel="noopener">mmcts.org/case-report/1766</a>（購読制）</p>
+</div>
+<!-- /VID:4.5 -->
+
 <h3 id="46-pitfall--どこで壊れるか">4.6 Pitfall — どこで壊れるか</h3>
 <p>Northwell の Patel らは<strong>術者ではなくベッドサイド助手の視点</strong>から 全工程の合併症を整理している。基本原則は1つ、<strong>「予測によって合併症を避ける」</strong>。</p>
 <h4 id="a-左回旋枝cx損傷--最も恐れられる">(a) 左回旋枝（Cx）損傷 — 最も恐れられる</h4>
@@ -1636,6 +1794,14 @@ mark {
 </figure>
 <!-- /FIG:4.6 -->
 
+<!-- VID:4.6 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v4-29"><b>動画4-29　Complications and their management in robotic mitral valve surgery from the surgical assistant's perspective</b>（Patel NC, Macoskey AR ら）　助手の視点から合併症とその対処を網羅した15ページの総説（動画なし・本文のみ）。本節の Pitfall と対応させて読むとよい。　→ <a href="https://doi.org/10.21037/acs-2022-rmvs-15" target="_blank" rel="noopener">Ann Cardiothorac Surg 2022;11(5):510-524</a></p>
+</div>
+<!-- /VID:4.6 -->
+
 <hr />
 <h2 id="5-大動脈弁ravr">5. 大動脈弁（RAVR）</h2>
 <p>僧帽弁が「確立」なら、大動脈弁は<strong>「新興だが最も速く動いている領域」</strong>である。 そして本レビューの中で唯一、<strong>術式の設計思想そのものが主題になる</strong>章でもある。</p>
@@ -1742,6 +1908,16 @@ mark {
 </figure>
 <!-- /FIG:5.2 -->
 
+<!-- VID:5.2 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v5-1"><b>動画5-1　縫着型生体弁によるロボット完全内視鏡下AVR</b>（Arai A, Kitahara H, Balkhy HH, MMCTS 2024、5分28秒）　セットアップとポート配置 → 遮断・大動脈切開 → 弁切除 → 人工弁植込み → 終了まで6工程。<b>rapid deployment 弁ではなく通常の縫着弁</b>で行った版。　→ <a href="https://mmcts.org/case-report/1915" target="_blank" rel="noopener">mmcts.org/case-report/1915</a>（購読制）</p>
+<p id="v5-2"><b>動画5-2　rapid deployment 弁による完全内視鏡下AVR＋僧帽弁形成</b>（Kitahara H, Grady K, Balkhy HH, MMCTS 2025、6分59秒）　→ <a href="https://mmcts.org/tutorial/2059" target="_blank" rel="noopener">mmcts.org/tutorial/2059</a>（購読制）</p>
+<p id="v5-3"><b>動画5-3　機械弁によるロボットAVR</b>（Morales-Rey I, Sandoval E, MMCTS 2026、12分58秒）　Barcelona。小切開＋トロッカー＋大腿送脱血、経胸壁遮断＋順行性晶質液心筋保護、大動脈切開の<b>2層閉鎖</b>まで8工程。　→ <a href="https://mmcts.org/tutorial/2132" target="_blank" rel="noopener">mmcts.org/tutorial/2132</a>（購読制）</p>
+</div>
+<!-- /VID:5.2 -->
+
 <h3 id="53-大動脈切開弁の出し方視野最適化">5.3 大動脈切開・弁の出し方・視野最適化</h3>
 <h4 id="心筋保護の分岐が最初に来る">心筋保護の分岐が最初に来る</h4>
 <p><strong>中等度未満のAR</strong> → 経胸壁遮断のうえ<strong>大動脈基部から順行性</strong>（冷血あるいは micro cardioplegia）。左室ベントを吸引にし、<strong>心エコーで左室の膨隆を、 近位大動脈で圧上昇を監視</strong>する。 <strong>中等度以上のAR</strong> → <strong>先に大動脈を切開し、冠動脈口から直接（ostial）投与</strong>する。</p>
@@ -1793,6 +1969,16 @@ mark {
 <figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 5-7B. 閉鎖の完成と順行性テスト（Fig 7B）</b> — <b>遮断解除の前に</b>順行性冷血/心筋保護液を流して縫合線の健全性を確認する。<br><i>出典: Wei LM, Badhwar V. <i>Ann Cardiothorac Surg</i> 2025;14(3):228-234. <a href="https://doi.org/10.21037/acs-2025-ravr-12">doi:10.21037/acs-2025-ravr-12</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
 </figure>
 <!-- /FIG:5.3 -->
+
+<!-- VID:5.3 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v5-4"><b>動画5-4　弁の種類ごとの tips and tricks（完全内視鏡下AVR）</b>（Danesi TH, MMCTS 2023、15分47秒）　内視鏡下AVRの難所を整理したうえで、<b>sutureless / rapid deployment / stented / 機械弁</b>の4通りを弁種別に扱う。遮断と大動脈切開の tips が独立章にある。　→ <a href="https://mmcts.org/tutorial/1800" target="_blank" rel="noopener">mmcts.org/tutorial/1800</a>（購読制）</p>
+<p id="v5-5"><b>動画5-5　完全内視鏡下 micro-invasive AVR</b>（Bakhtiary F, Salamate S, MMCTS 2024、10分57秒）　右前小開胸と中腋窩到達の2通りを示し、<b>RAM デバイスを使う版と使わない版</b>を並べる11工程。　→ <a href="https://mmcts.org/tutorial/1876" target="_blank" rel="noopener">mmcts.org/tutorial/1876</a>（購読制）</p>
+<p id="v5-6"><b>動画5-6　SAVR 後さらに TAVR を受けた症例の完全内視鏡下AVR（TAVR explant）</b>（Van Genechten S, Hillen W, MMCTS 2025、10分12秒）　癒着剥離 → LITA の一時遮断 → 大動脈切開 → <b>TAVR 抜去 → 旧SAVR弁抜去 → 基部デブリードマン</b> → Perceval 植込み、の12工程。<a href="#58-まだ埋まっていない穴">5.8節</a>で抄録のみ引用した領域の実映像。　→ <a href="https://mmcts.org/case-report/2021" target="_blank" rel="noopener">mmcts.org/case-report/2021</a>（購読制）</p>
+</div>
+<!-- /VID:5.3 -->
 
 <h3 id="54-併施手技--根部拡大と心筋切除">5.4 併施手技 — 根部拡大と心筋切除</h3>
 <h4 id="大動脈基部拡大are">大動脈基部拡大（ARE）</h4>
@@ -1860,6 +2046,18 @@ mark {
 <figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 5-11. 基部拡大の完成（Fig 11）</b> — 4-0 ポリプロピレンの各脚を右方向・左方向へ縫い進めて結紮し、しばしば<b>大動脈切開全体</b>をパッチで補強して最大の効果を得る。完成後は順行性冷血/心筋保護液で健全性を確認する。<br><i>出典: Wei LM, Badhwar V. <i>Ann Cardiothorac Surg</i> 2025;14(3):228-234. <a href="https://doi.org/10.21037/acs-2025-ravr-12">doi:10.21037/acs-2025-ravr-12</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
 </figure>
 <!-- /FIG:5.4 -->
+
+<!-- VID:5.4 -->
+
+<figure class="vfig" id="v5-7">
+<a href="https://doi.org/10.21037/acs-2024-ravr-0183" target="_blank" rel="noopener"><img src="figures/rtv_40547430_acs-14-03-238-vid1.jpg" alt="RAVR＋大動脈基部拡大（modified Nicks）の手術動画" loading="lazy" decoding="async" width="640" height="360"><span class="play">▶</span></a>
+<figcaption><b>動画5-7　RAVR＋大動脈基部拡大（modified Nicks）</b>　WVU の Darehzereshki / Wei。至適な人工弁サイズを得るための基部拡大をロボットで行った3症例。<a href="https://doi.org/10.21037/acs-2024-ravr-0183" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Darehzereshki A, Wei L, et al. <i>Ann Cardiothorac Surg</i> 2025;14(3):238-240（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<figure class="vfig" id="v5-8">
+<a href="https://doi.org/10.21037/acs-2024-ravr-0186" target="_blank" rel="noopener"><img src="figures/rtv_40547425_acs-14-03-241-vid.jpg" alt="RAVR＋中隔心筋切除の同時手術の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画5-8　RAVR＋中隔心筋切除の同時手術</b>　大動脈弁側から心室中隔筋切除を併施する。<a href="#84-中隔心筋切除--2つの到達路">8.4節</a>の経大動脈路の RAVR 版にあたる。<a href="https://doi.org/10.21037/acs-2024-ravr-0186" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Pickering T, Dorton C, et al. <i>Ann Cardiothorac Surg</i> 2025;14(3):241-243（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<!-- /VID:5.4 -->
 
 <h3 id="55-プラットフォーム論--本章の核心">5.5 プラットフォーム論 — 本章の核心</h3>
 <p>Wei / Badhwar の主張は、術式論というよりプラットフォーム論である。</p>
@@ -2207,6 +2405,18 @@ mark {
 </figure>
 <!-- /FIG:6.2 -->
 
+<!-- VID:6.2 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v6-1"><b>動画6-1　RA-MIDCAB — 準備・グラフト採取・吻合</b>（Catalano M, Kelly J ら, MMCTS 2025、12分08秒）　体位とポート → <b>第3〜6肋間の cryoablation とリポソーム型局所麻酔薬</b> → 後方心膜切開 → LIMA 採取 → 小開胸 → LIMA-LAD 吻合、の9工程。鎮痛まで含めて工程化されている点が有用。　→ <a href="https://mmcts.org/tutorial/2030" target="_blank" rel="noopener">mmcts.org/tutorial/2030</a>（購読制）</p>
+<p id="v6-2"><b>動画6-2　小開胸によるロボット支援MIDCAB — step-by-step</b>（Aerden A, Marynissen M, MMCTS 2022、20分49秒）　同シリーズで最も長い。<b>shunt を用いた off-pump LIMA-LAD 吻合</b>と、肺門越しにグラフトが緊張しないかの確認まで示す。　→ <a href="https://mmcts.org/case-report/1762" target="_blank" rel="noopener">mmcts.org/case-report/1762</a>（購読制）</p>
+<p id="v6-3"><b>動画6-3　1枝病変に対するRA-MIDCAB</b>（Boulemden A, Pettinari M, MMCTS 2019、6分39秒）　体位 → ポートとロボットアーム → LIMA 採取 → off-pump MIDCAB の4工程。　→ <a href="https://mmcts.org/tutorial/1230" target="_blank" rel="noopener">mmcts.org/tutorial/1230</a>（購読制）</p>
+<p id="v6-4"><b>動画6-4　ロボット支援 低侵襲多枝バイパス</b>（Arslanhan G, Özcan ZS, MMCTS 2024、10分55秒）　<b>術前CTによる計画</b>を第2章に置く。ドッキング → LIMA 採取 → 送脱血・小開胸・グラフト採取 → 遮断 → 標的血管展開 → 中枢・末梢吻合 → 流量測定。　→ <a href="https://mmcts.org/tutorial/1871" target="_blank" rel="noopener">mmcts.org/tutorial/1871</a>（購読制）</p>
+<p id="v6-5"><b>動画6-5　Different styles in trocar placement in robotic-assisted beating heart coronary artery bypass grafting</b>（Algoet M, Balkhy HH ら）　<a href="#62-ポート配置--ra-midcab-と-tecab-の違い">6.2節</a>の流派の対比の原典。　→ <a href="https://doi.org/10.21037/acs-2023-rcabg-0209" target="_blank" rel="noopener">Ann Cardiothorac Surg 2024;13(5):458-460</a></p>
+</div>
+<!-- /VID:6.2 -->
+
 <h3 id="63-ima-採取">6.3 IMA 採取</h3>
 <h4 id="標準の型">標準の型</h4>
 <ul>
@@ -2295,6 +2505,21 @@ mark {
 <li>ポート抜去の際に<strong>全ての剥離部位とポート部位の出血を確認</strong>する。 完全に抜いてからでは対処が難しい</li>
 <li>最後に<strong>19Fr Blake ドレーン</strong>を上方ポートから肺尖上に留置</li>
 </ul>
+<!-- VID:6.3 -->
+
+<figure class="vfig" id="v6-6">
+<a href="https://doi.org/10.21037/acs-2023-rcabg-0189" target="_blank" rel="noopener"><img src="figures/rtv_39434976_acs-13-05-455-vid.jpg" alt="内胸動脈の採取の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画6-6　内胸動脈の採取</b>　「How to robotically take down a mammary artery」。採取のみを1本にした動画で、初期学習の中心になる工程。<a href="https://doi.org/10.21037/acs-2023-rcabg-0189" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Newman JS, Lambert D, et al. <i>Ann Cardiothorac Surg</i> 2024;13(5):455-457（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v6-7"><b>動画6-7　bipolar micro forceps による skeletonize・クリップレス採取</b>（Arslan T, Heuts S, MMCTS 2025、8分40秒）　到達 → ドッキングとターゲティング → <b>吻合予定部（landing zone）の評価</b> → 内胸筋膜の切開 → 内側の剥離 → 側枝の処理 → 切離、の7工程。クリップを使わない側枝処理が主題。　→ <a href="https://mmcts.org/tutorial/2062" target="_blank" rel="noopener">mmcts.org/tutorial/2062</a>（購読制）</p>
+<p id="v6-8"><b>動画6-8　in-situ 両側内胸動脈を用いた off-pump 完全内視鏡下 hand-sewn CABG</b>（Hashimoto M, Ota T, MMCTS 2020、27分41秒）　RIMA・LIMA の採取をそれぞれ独立章で示す。両側採取の順序が分かる。　→ <a href="https://mmcts.org/tutorial/1393" target="_blank" rel="noopener">mmcts.org/tutorial/1393</a>（購読制）</p>
+<p id="v6-9"><b>動画6-9　胸腔鏡（非ロボット）による両側内胸動脈採取</b>（Akca F, MMCTS 2023、7分37秒）　ロボットを使わない場合の比較対象。　→ <a href="https://mmcts.org/tutorial/1849" target="_blank" rel="noopener">mmcts.org/tutorial/1849</a>（購読制）</p>
+<p id="v6-10"><b>動画6-10　Robotic-assisted bilateral internal thoracic artery harvest</b>（Sutter FP, Wertan MC）　Lankenau の両側採取。　→ <a href="https://doi.org/10.21037/acs.2018.06.12" target="_blank" rel="noopener">Ann Cardiothorac Surg 2018;7(5):704-706 の動画</a></p>
+</div>
+<!-- /VID:6.3 -->
+
 <h3 id="64-標的血管の展開">6.4 標的血管の展開</h3>
 <h4 id="a-lad前壁">(a) LAD（前壁）</h4>
 <p>Lankenau は<strong>LIMA採取の前に心膜を開ける</strong>。理由は 「採取後は IMA が緩く吊られた状態になり、心膜切開中の器械の圧で損傷しうる。 未採取なら IMA の上に脂肪と筋の保護層がある」。</p>
@@ -2410,6 +2635,23 @@ mark {
 </figure>
 <!-- /FIG:6.4 -->
 
+<!-- VID:6.4 -->
+
+<figure class="vfig" id="v6-11">
+<a href="https://doi.org/10.21037/acs-2023-rcabg-12" target="_blank" rel="noopener"><img src="figures/rtv_39434978_acs-13-05-452-vid.jpg" alt="Cx 領域の展開の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画6-11　Cx 領域の展開</b>　pledget 付き Gore-Tex で下側壁を吊り上げて回旋枝領域を出す手技。<a href="#64-標的血管の展開">6.4節</a>で扱った、後壁側にどう到達するかの原典動画。<a href="https://doi.org/10.21037/acs-2023-rcabg-12" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Bonatti J, Ashraf SF, et al. <i>Ann Cardiothorac Surg</i> 2024;13(5):452-454（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<figure class="vfig" id="v6-12">
+<a href="https://doi.org/10.21037/acs-2023-rcabg-0193" target="_blank" rel="noopener"><img src="figures/rtv_39157179_acs-13-04-385-vid.jpg" alt="心拍動下での LAD myocardial bridge unroofingの手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画6-12　心拍動下での LAD myocardial bridge unroofing</b>　冠動脈そのものではなく<b>心筋架橋の解除</b>をロボットで行った動画。標的血管の展開と剥離の難易度が伝わる。<a href="https://doi.org/10.21037/acs-2023-rcabg-0193" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Nisivaco S, Kitahara H, et al. <i>Ann Cardiothorac Surg</i> 2024;13(4):385-387（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v6-13"><b>動画6-13　多枝完全内視鏡下バイパス（RITA-LAD／LITA-PDA／LITA-OM sequential）</b>（Kitahara H, Grady K, Balkhy HH, MMCTS 2023、8分02秒）　両側内胸動脈採取 → stabilizer と working port → <b>標的血管の展開</b> → 3本の吻合、の9工程。後壁側の到達がまとめて見られる。　→ <a href="https://mmcts.org/case-report/1834" target="_blank" rel="noopener">mmcts.org/case-report/1834</a>（購読制）</p>
+<p id="v6-14"><b>動画6-14　前回CABG後の右冠動脈への redo TECAB</b>（Kitahara H, Grady K, Balkhy HH, MMCTS 2023、5分16秒）　癒着剥離と RITA 採取からの再手術。　→ <a href="https://mmcts.org/case-report/1803" target="_blank" rel="noopener">mmcts.org/case-report/1803</a>（購読制）</p>
+</div>
+<!-- /VID:6.4 -->
+
 <h3 id="65-吻合">6.5 吻合</h3>
 <h4 id="心拍動下ra-midcab小開胸から">心拍動下（RA-MIDCAB・小開胸から）</h4>
 <ul>
@@ -2437,6 +2679,20 @@ mark {
 <p>心筋保護は <strong>エンドバルーン膨張 → 大動脈基部にアデノシン 6 mg → del Nido 1,200 mL</strong>。 再灌流中に流量測定（提示例では <strong>25 mL/分、PI 2.5</strong>）。</p>
 <h4 id="吻合デバイス">吻合デバイス</h4>
 <p>Chicago の BITA-TECAB 406例（878吻合）では、 <strong>C-Port Flex A 397本（45%）／7-0 Pronova 縫合 466本（53%）／U-clips 15本（2%）</strong>。 両者の比較では<strong>手術時間以外に差はなく、デバイスの方が短時間</strong>だった。 現在は縫合が主体である。</p>
+<!-- VID:6.5 -->
+
+<figure class="vfig" id="v6-15">
+<a href="https://doi.org/10.21037/acs-2023-rcabg-0211" target="_blank" rel="noopener"><img src="figures/rtv_39157189_acs-13-04-382-vid.jpg" alt="ロボットによる末梢吻合の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画6-15　ロボットによる末梢吻合</b>　「How to perform distal anastomosis using a robotic platform」。本レビューで扱った吻合の要点（針の持ち替え・運針方向・結紮）が実際の映像で確認できる。<a href="https://doi.org/10.21037/acs-2023-rcabg-0211" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Bonatti J, Ashraf SF, et al. <i>Ann Cardiothorac Surg</i> 2024;13(4):382-384（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v6-16"><b>動画6-16　心拍動下 完全内視鏡下CABG</b>（Jansens JL, MMCTS 2011、5分15秒）　silastic loop の掛け方 → 冠動脈切開 → <b>coronary shunt 挿入</b> → 吻合 → shunt 抜去、の順が明示された10工程。　→ <a href="https://mmcts.org/tutorial/740" target="_blank" rel="noopener">mmcts.org/tutorial/740</a>（購読制）</p>
+<p id="v6-17"><b>動画6-17　Robotic beating-heart totally endoscopic coronary artery bypass</b>（Melly L, Douglas D ら）　→ <a href="https://doi.org/10.21037/acs.2018.06.13" target="_blank" rel="noopener">Ann Cardiothorac Surg 2018;7(5):707-709 の動画</a></p>
+<p id="v6-18"><b>動画6-18　Robotic TECAB of the LAD and RCA system using an arterial Y-graft technique</b>（Bonatti J, Göbölös L ら）　Y グラフトで2系統を賄う構成。　→ <a href="https://doi.org/10.21037/acs.2018.06.10" target="_blank" rel="noopener">Ann Cardiothorac Surg 2018;7(5):700-703 の動画</a></p>
+</div>
+<!-- /VID:6.5 -->
+
 <h3 id="66-成績--tecab-は何を達成したか">6.6 成績 — TECAB は何を達成したか</h3>
 <p>Chicago の <strong>BITA-TECAB 10年成績</strong>（871例中 406例、2013年7月–2024年4月）が 現時点で最も長い追跡である。</p>
 <div class="table-wrap"><table>
@@ -2506,6 +2762,14 @@ mark {
 </ul>
 <p>Algoet らはこの状況を<strong>「規制と市場のダイナミクスの変化が、 心臓手術用の唯一のロボットプラットフォームが必須付属品の販売を中止する事態を招いた」</strong>と 記述している。</p>
 <p>一方、明るい材料もある。Chicago の Nisivaco らは <strong>「da Vinci のメーカーが第5世代システムで EndoWrist stabilizer により 心臓外科を支援する意向を表明したこと、および他のロボットプラットフォームの 市場参入が、これらの手技の継続的な進歩と普及にとって励みになる」</strong>と記している。</p>
+<!-- VID:6.7 -->
+
+<figure class="vfig" id="v6-19">
+<a href="https://doi.org/10.21037/acs-2024-rcabg-0112" target="_blank" rel="noopener"><img src="figures/rtv_39434971_acs-13-05-461-vid.jpg" alt="EndoWrist stabilizer を使わない TECABの手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画6-19　EndoWrist stabilizer を使わない TECAB</b>　GelPOINT Mini・AirSeal・Octopus Nuvo を組み合わせて <b>da Vinci Xi で EndoWrist stabilizer なしに</b>完全内視鏡下バイパスを成立させる。本節で述べた「安定化器が手に入らない」という外的制約への実際の回答。<a href="https://doi.org/10.21037/acs-2024-rcabg-0112" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Torregrossa G, Yakobitis A, et al. <i>Ann Cardiothorac Surg</i> 2024;13(5):461-463（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<!-- /VID:6.7 -->
+
 <h3 id="68-pitfall--転換のリスク因子は-38節へ">6.8 Pitfall — 転換のリスク因子は <a href="#38-いつ胸骨正中切開に転換するか">3.8節</a>へ</h3>
 <p>冠動脈トラックの正中転換については、Emory の271例の内訳と Halkos らの guardrail を <a href="#38-いつ胸骨正中切開に転換するか">3.8節</a>にまとめた。 本章の文脈で改めて強調しておくべき点は3つである。</p>
 <ol type="1">
@@ -2790,6 +3054,20 @@ mark {
 <p>改善しなかった 15% の大半は術前 NYHA II のまま。 <strong>6例が II → III に悪化したが、全員が80代で CKD・肺高血圧・可動性低下を伴っていた</strong>。</p>
 <h4 id="遮断時間という代償">遮断時間という代償</h4>
 <p>複合弁で最も注意すべき数字は<strong>遮断時間</strong>である。 NTUH で <strong>151±22分</strong>、Kitahara らの MMCTS 症例は単一症例だが、 Goto らの内視鏡二弁で <strong>98分</strong>、Arai らの TECAB＋僧帽弁で <strong>115±33分</strong>。 <a href="#35-phase-iii--手術を工程に分解して計測する">3.5節</a>で STS が示した心内トラックの目標 （皮切→ヘパリン &lt;90分、遮断まで &lt;30分、弁輪運針→リング release &lt;45分、 心房閉鎖 &lt;30分）は<strong>単弁を前提にした値</strong>であり、複合弁ではこれが積み上がる。 だからこそ Phase IV の術式なのである。</p>
+<!-- VID:7.2 -->
+
+<figure class="vfig" id="v7-1">
+<a href="https://doi.org/10.21037/acs-2022-rmvs-79" target="_blank" rel="noopener"><img src="figures/rtv_36237589_acs-11-05-543-vid1.jpg" alt="ロボット支援 二弁手術の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画7-1　ロボット支援 二弁手術</b>　WVU の Comas / Wei による double valve surgery。1つの胸腔から2つの弁に到達する順序が確認できる。<a href="https://doi.org/10.21037/acs-2022-rmvs-79" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Comas GM, Wei LM, et al. <i>Ann Cardiothorac Surg</i> 2022;11(5):543-544（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v7-2"><b>動画7-2　rapid deployment 弁による完全内視鏡下AVR＋僧帽弁形成</b>（Kitahara H, Grady K, Balkhy HH, MMCTS 2025、6分59秒）　本節で扱った AVR＋MV の原典動画。　→ <a href="https://mmcts.org/tutorial/2059" target="_blank" rel="noopener">mmcts.org/tutorial/2059</a>（購読制）</p>
+<p id="v7-3"><b>動画7-3　RAM デバイスによる僧帽弁置換＋三尖弁形成（完全内視鏡）</b>（Baysal F, Poschner T, MMCTS 2025、9分54秒）　器材の紹介と手術戦略を先に置き、RAM/SEW-EASY による MVR → 三尖弁輪縫縮の順。　→ <a href="https://mmcts.org/case-report/2006" target="_blank" rel="noopener">mmcts.org/case-report/2006</a>（購読制）</p>
+<p id="v7-4"><b>動画7-4　経乳輪切開による3D完全内視鏡下 VSD 閉鎖＋AVR</b>（Watanabe S, Ito T, MMCTS 2025、6分59秒）　大動脈弁を外して VSD を同定し、<b>パッチの下縁を縫ってから人工弁を入れ、最後に上縁を縫う</b>という順序が要点。　→ <a href="https://mmcts.org/case-report/1998" target="_blank" rel="noopener">mmcts.org/case-report/1998</a>（購読制）</p>
+</div>
+<!-- /VID:7.2 -->
+
 <h3 id="73-僧帽弁--三尖弁">7.3 僧帽弁 + 三尖弁</h3>
 <p><strong>エビデンスが最も揃っている併施</strong>である。ガイドラインは <strong>中等度以上のTR、または三尖弁輪径 ≥40 mm</strong>なら変性僧帽弁形成時に 三尖弁形成を併施することを推奨している（長期の臨床・心エコー成績が改善するため）。 問題は<strong>「ロボットでも同じことが言えるか」</strong>だった。</p>
 <p>Mayo Clinic の答え（2014年1月–2022年5月、ロボット僧帽弁形成 839例のうち、 中等度以上のTRまたは弁輪径 ≥40 mm を満たした <strong>76例</strong>）：</p>
@@ -2850,6 +3128,18 @@ mark {
 <p><strong>三尖弁を足すコストは、CPB +46分・遮断 +36分だけ</strong>で、 <strong>ICU・入院日数には全く現れず、死亡もブロックもゼロ</strong>だった。</p>
 <p>弁輪縫縮の内訳は <strong>63 mm の Medtronic 柔軟バンドが 51例（89.4%）</strong>、 26/28 mm の部分リング 5例（8.7%）、DeVega 縫合 1例（1.7%）。 <strong>全例で心停止下に弁輪縮小を行っている</strong>。 虚血期には<strong>2名の術者</strong>が入る体制で、作業孔は第4肋間 2〜4 cm。</p>
 <p>なお非ロボットの内視鏡下 MICS でも同様の結論が出ている。 Vienna の 153例（2008–2022、僧帽弁＋1つ以上の併施）では、 三尖弁形成 52例（34%）、PFO/ASD閉鎖 34例（22.2%）、 左心耳閉鎖 25例（16.3%）、電気生理学的手技 101例（66.0%）。 <strong>2手技併施 98例（64.1%）・3手技 49例（32%）・4手技 6例（3.9%）</strong>。 <strong>手術成功 99.3%、僧帽弁形成率 88.9%、30日死亡 0.7%、神経学的合併症 4.6%、 再手術回避 5年 98% / 10年 96.5%</strong>。</p>
+<!-- VID:7.3 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v7-5"><b>動画7-5　三尖弁形成＋両心房 CryoMAZE（完全内視鏡）</b>（Amabile A, LaLonde M ら, MMCTS 2024、7分14秒）　→ <a href="https://mmcts.org/case-report/1861" target="_blank" rel="noopener">mmcts.org/case-report/1861</a>（購読制）</p>
+<p id="v7-6"><b>動画7-6　人工腱索を用いた完全内視鏡下三尖弁形成</b>（Amabile A, LaLonde MR ら, MMCTS 2022、6分42秒）　上下大静脈の遮断・右房切開・弁の観察から形成まで。　→ <a href="https://mmcts.org/case-report/1758" target="_blank" rel="noopener">mmcts.org/case-report/1758</a>（購読制）</p>
+<p id="v7-7"><b>動画7-7　内視鏡下三尖弁形成の suture map</b>（Hamid UI, Aksoy R, MMCTS 2022、9分17秒）　→ <a href="https://mmcts.org/tutorial/1741" target="_blank" rel="noopener">mmcts.org/tutorial/1741</a>（購読制）</p>
+<p id="v7-8"><b>動画7-8　心拍動下 re-redo 三尖弁形成（smartcanula 使用）</b>（Hecker F, Montagner M, MMCTS 2026、8分30秒）　2回の開心術後という最も難しい条件での三尖弁再手術。　→ <a href="https://mmcts.org/tutorial/2144" target="_blank" rel="noopener">mmcts.org/tutorial/2144</a>（購読制）</p>
+<p id="v7-9"><b>動画7-9　成人 Ebstein 病に対する3D完全内視鏡下三尖弁形成</b>（Kitamura H, Tamaki M, MMCTS 2026、10分40秒）　<b>心房化右室の縫縮</b>を含む7工程。　→ <a href="https://mmcts.org/case-report/2209" target="_blank" rel="noopener">mmcts.org/case-report/2209</a>（購読制）</p>
+</div>
+<!-- /VID:7.3 -->
+
 <h3 id="74-弁--冠動脈">7.4 弁 + 冠動脈</h3>
 <p><strong>最も意見が割れる併施</strong>である（<a href="#25-意見が分かれる点">2.5節</a>）。 Cleveland Clinic は<strong>CABG併施にロボットを使わない</strong>と明言し、 WVU / Chicago はプラットフォームの一部として扱う。 現時点で<strong>症例報告と小シリーズしかない</strong>ことは押さえておくべきである。</p>
 <h4 id="a-単一切開右側方からwvu--murtaza-ら">(a) 単一切開・右側方から（WVU / Murtaza ら）</h4>
@@ -3007,6 +3297,16 @@ mark {
 <li><strong>追跡時の洞調律維持率 76%</strong>（追跡中央値2年、追跡率100%）</li>
 </ul>
 <p>結論は率直で、<strong>「僧帽弁または二弁の形成＋cryoablation は、 MIMVS でもロボットでも安全に行え、いずれも優れた早期・中期成績を示す」</strong>。 つまり<strong>この併施に関してはロボットの優位性は示されていない</strong>。</p>
+<!-- VID:7.5 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v7-10"><b>動画7-10　心室細動下でのロボット完全内視鏡下 Cryo-Maze</b>（Kitahara H, Grady K, Balkhy HH, MMCTS 2024、5分24秒）　中等度低体温＋<b>心室細動下</b>（大動脈遮断なし）で左房・右房それぞれの Cryo-Maze を行う。本節の「不整脈手術をどう足すか」の一つの解。　→ <a href="https://mmcts.org/tutorial/1957" target="_blank" rel="noopener">mmcts.org/tutorial/1957</a>（購読制）</p>
+<p id="v7-11"><b>動画7-11　AtriClip Pro2 による心表面左心耳閉鎖</b>（Baudo M, Yakobitis A, MMCTS 2024、8分08秒）　→ <a href="https://mmcts.org/tutorial/1913" target="_blank" rel="noopener">mmcts.org/tutorial/1913</a>（購読制）</p>
+<p id="v7-12"><b>動画7-12　高齢・出血既往例に対するロボット左心耳結紮</b>（Poffo R, Toma HE, MMCTS 2026、4分57秒）　体位とマーキング → 左心耳の展開 → デバイス選択と展開。　→ <a href="https://mmcts.org/case-report/2139" target="_blank" rel="noopener">mmcts.org/case-report/2139</a>（購読制）</p>
+</div>
+<!-- /VID:7.5 -->
+
 <h3 id="76-どこまで足せるか--線引き">7.6 どこまで足せるか — 線引き</h3>
 <p><strong>足せる側</strong>（実際に報告があり、成績が示されているもの）：</p>
 <div class="table-wrap"><table>
@@ -3110,6 +3410,16 @@ mark {
 </figure>
 <!-- /FIG:8.1 -->
 
+<!-- VID:8.1 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v8-1"><b>動画8-1　ロボット完全内視鏡下 心房中隔欠損閉鎖</b>（Amabile A, Degife E, MMCTS 2021、6分27秒）　右房切開 → 欠損の観察 → 閉鎖 → <b>右房切開の2度縫い（second run）</b>まで。　→ <a href="https://mmcts.org/case-report/1698" target="_blank" rel="noopener">mmcts.org/case-report/1698</a>（購読制）</p>
+<p id="v8-2"><b>動画8-2　ロボット心房中隔欠損閉鎖</b>（Senay S, Gullu AU, MMCTS 2014、9分40秒）　心膜支持糸と外固定・遮断・両大静脈の bulldog 遮断・パッチ閉鎖・脱気、の8工程。　→ <a href="https://mmcts.org/tutorial/53" target="_blank" rel="noopener">mmcts.org/tutorial/53</a>（購読制）</p>
+<p id="v8-3"><b>動画8-3　AVR に伴う心室中隔瘤のロボットパッチ閉鎖</b>（Parkash J, Ehtesham A, MMCTS 2025、7分39秒）　大動脈弁を外したうえで中隔欠損を確認し、心膜パッチを縫着してから人工弁を入れる。　→ <a href="https://mmcts.org/case-report/2108" target="_blank" rel="noopener">mmcts.org/case-report/2108</a>（購読制）</p>
+</div>
+<!-- /VID:8.1 -->
+
 <h3 id="82-心臓腫瘍--掴まないための工夫">8.2 心臓腫瘍 — 「掴まない」ための工夫</h3>
 <p>左房粘液腫は右側からの左房切開で直視できるが、 <strong>ゼラチン様で脆いため操作で容易に損傷し、肺静脈や左室への塞栓・播種を起こしうる</strong>。 だから<strong>腫瘍と心内膜の付着部を一塊として切除する</strong>のが原則である。 しかし<strong>大きい粘液腫では、特にロボットの小切開では一塊切除が難しい</strong>。</p>
 <p>千葉西総合病院の Nakamura らは、この矛盾を<strong>超音波吸引器</strong>で解いた。</p>
@@ -3139,6 +3449,21 @@ mark {
 <figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 8-5. 吸引前後の粘液腫（Fig 2）</b> — A＝吸引前。<b>カメラは腫瘍の手前しか見えず付着部が隠れている</b>。B＝吸引後、<b>1 cm 程度の弾性硬な核だけ</b>が残り、左房心内膜の付着部が明瞭になる。この時点で心内膜を <b>5 mm のマージン</b>をつけて全層切除する。<br><i>出典: Nakamura Y, et al. <i>JTCVS Tech</i> 2025;29:100-102. <a href="https://doi.org/10.1016/j.xjtc.2024.10.005">doi:10.1016/j.xjtc.2024.10.005</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
 </figure>
 <!-- /FIG:8.2 -->
+
+<!-- VID:8.2 -->
+
+<figure class="vfig" id="v8-4">
+<a href="https://doi.org/10.21037/acs-2022-rmvs-162" target="_blank" rel="noopener"><img src="figures/rtv_36483609_acs-11-06-634-vid.jpg" alt="心房粘液腫の切除（papillary subtype）の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画8-4　心房粘液腫の切除（papillary subtype）</b>　脆い乳頭状粘液腫を<b>掴まずに</b>取り出す工程。本節の主題そのもの。<a href="https://doi.org/10.21037/acs-2022-rmvs-162" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Rizkalla AJ, Yan TD, et al. <i>Ann Cardiothorac Surg</i> 2022;11(6):634-636（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v8-5"><b>動画8-5　僧帽弁 乳頭状線維弾性腫の完全内視鏡下切除</b>（Amabile A, Morrison A, MMCTS 2021、3分24秒）　腫瘍切除そのものは短いが、弁を傷つけずに切除する視野の作り方が見える。　→ <a href="https://mmcts.org/tutorial/1668" target="_blank" rel="noopener">mmcts.org/tutorial/1668</a>（購読制）</p>
+<p id="v8-6"><b>動画8-6　心室中隔に転移した神経内分泌腫瘍のロボット切除</b>（Henkens A, Navarra E, MMCTS 2020、8分19秒）　左房を開けて中隔の転移巣を切除する8工程。　→ <a href="https://mmcts.org/tutorial/1497" target="_blank" rel="noopener">mmcts.org/tutorial/1497</a>（購読制）</p>
+<p id="v8-7"><b>動画8-7　port-access による左房粘液腫切除</b>（Olsthoorn J, Sardari Nia P ら, MMCTS 2019、3分19秒）　本レビューが挙げた動画で最も短い。　→ <a href="https://mmcts.org/tutorial/1194" target="_blank" rel="noopener">mmcts.org/tutorial/1194</a>（購読制）</p>
+<p id="v8-8"><b>動画8-8　完全内視鏡下ロボット心膜嚢胞切除</b>（Poffo R, Toma HE, MMCTS 2022、5分49秒）　心腔を開けない腫瘤性病変の例。　→ <a href="https://mmcts.org/tutorial/1740" target="_blank" rel="noopener">mmcts.org/tutorial/1740</a>（購読制）</p>
+</div>
+<!-- /VID:8.2 -->
 
 <h3 id="83-不整脈左心耳--閉じたつもりが閉じていない">8.3 不整脈・左心耳 — 「閉じたつもり」が閉じていない</h3>
 <h4 id="a-単独の心表面ハイブリッドアブレーション">(a) 単独の心表面ハイブリッドアブレーション</h4>
@@ -3293,11 +3618,47 @@ mark {
 </ul>
 <p>結果：<strong>MRなし・LVOT閉塞なし、平均圧較差 55 → 5 mmHg</strong>、術後4日で退院、 3ヶ月後に症状完全消失。</p>
 <p>なお NYU（Loulmet ら）は<strong>前尖を離断せずに僧帽弁口から中隔心筋切除</strong>を行っており （<a href="#43-弁形成手技--術式を変えないことが原則">4.3節</a>）、これは <strong>SAM 予防のための小規模な切除</strong>という位置づけで、 上記の HOCM に対する大きな切除とは目的が異なる。</p>
+<!-- VID:8.4 -->
+
+<figure class="vfig" id="v8-9">
+<a href="https://doi.org/10.21037/acs-2022-rmvs-24" target="_blank" rel="noopener"><img src="figures/rtv_36483619_acs-11-06-632-vid.jpg" alt="ロボット中隔心筋切除の手術動画" loading="lazy" decoding="async" width="569" height="320"><span class="play">▶</span></a>
+<figcaption><b>動画8-9　ロボット中隔心筋切除</b>　台大（NTUH）の Cheng / Chi による HOCM への心筋切除。本節の2つの到達路のうち、経僧帽弁路の実演。<a href="https://doi.org/10.21037/acs-2022-rmvs-24" target="_blank" rel="noopener">▶ 原典で動画を見る</a><span class="src">サムネイル出典: Cheng BC, Chi NH, et al. <i>Ann Cardiothorac Surg</i> 2022;11(6):632-633（CC BY-NC-ND 4.0）。ライセンス表示のある出版社公式のポスター画像であり、動画のコマ取りではない。</span></figcaption>
+</figure>
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v8-10"><b>動画8-10　経僧帽弁中隔心筋切除＋僧帽弁形成（HOCM）</b>（AlJamal YN, Kitahara H, Balkhy HH, MMCTS 2023、7分17秒）　→ <a href="https://mmcts.org/case-report/1812" target="_blank" rel="noopener">mmcts.org/case-report/1812</a>（購読制）</p>
+<p id="v8-11"><b>動画8-11　前尖の縦切開を用いた内視鏡下経僧帽弁心筋切除</b>（Ito T, Sawaki S, MMCTS 2024、7分58秒）　<b>前尖を縦に切って中隔に到達し、切除後に前尖を再建して弁輪縫縮する</b>という手順。経僧帽弁路で視野が足りない場合の解。　→ <a href="https://mmcts.org/tutorial/1916" target="_blank" rel="noopener">mmcts.org/tutorial/1916</a>（購読制）</p>
+<p id="v8-12"><b>動画8-12　右小開胸・経僧帽弁到達による HOCM の内視鏡下治療</b>（Paivin A, Denisyuk D, MMCTS 2025、5分27秒）　心筋切除に加えて<b>僧帽弁下組織の再建</b>を行う。　→ <a href="https://mmcts.org/tutorial/2061" target="_blank" rel="noopener">mmcts.org/tutorial/2061</a>（購読制）</p>
+<p id="v8-13"><b>動画8-13　Robotic trans-atrial and trans-mitral ventricular septal resection</b>（Chitwood WR Jr）　経心房・経僧帽弁路の原典にあたる2017年の動画。　→ <a href="https://doi.org/10.21037/acs.2017.01.06" target="_blank" rel="noopener">Ann Cardiothorac Surg 2017;6(1):54-59 の動画</a></p>
+</div>
+<!-- /VID:8.4 -->
+
 <h3 id="85-心表面リードcrt">8.5 心表面リード（CRT）</h3>
 <p>心内膜側リードの留置が解剖学的理由で失敗した症例の<strong>左室心表面リード留置</strong>は、 robotic の実用的な適応の1つである。</p>
 <p>University of Chicago の再手術シリーズでは、心表面群45例のうち <strong>左室リード留置/交換が7例</strong>を占めていた。 また Podgorsek らは <strong>da Vinci SP（単孔式）を心臓外科で初めて用いた</strong>症例として、 69歳男性（CABG既往、虚血性心筋症、心内膜リード留置が解剖学的理由で失敗）に対する <strong>4 cm 左前方小開胸からの左室心表面リード留置</strong>を報告している （詳細は <a href="#91-単孔式da-vinci-sp">9.1節</a>）。</p>
+<!-- VID:8.5 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v8-14"><b>動画8-14　胸腔鏡下 心臓再同期療法（心表面リード留置）</b>（Droghetti A ら, MMCTS 2015、3分52秒）　経静脈リードが留置できない場合の心表面リード。ロボットではなく胸腔鏡。　→ <a href="https://mmcts.org/tutorial/72" target="_blank" rel="noopener">mmcts.org/tutorial/72</a>（購読制）</p>
+<p id="v8-15"><b>動画8-15　拡張型心筋症に対する経心尖アプローチでの左室再同期最適化</b>（Kassai I, Alfieri O ら, MMCTS 2017、4分09秒）　留置部位の最適化という論点の参照先。　→ <a href="https://mmcts.org/tutorial/544" target="_blank" rel="noopener">mmcts.org/tutorial/544</a>（購読制）</p>
+</div>
+<!-- /VID:8.5 -->
+
 <h3 id="86-再手術その他">8.6 再手術・その他</h3>
 <p>再手術（<a href="#45-難症例">4.5節</a>）に加えて、University of Chicago の 105例には <strong>心膜切除 4例、ロボットVT アブレーション、右室生検、心筋 bridge の unroofing</strong> が 含まれている。robotic のレパートリーは、 <strong>心内 → 心表面 → 電気生理</strong>へと横に広がりつつある。</p>
+<!-- VID:8.6 -->
+
+<div class="videolist">
+<p class="vl-head">▶ 実際の手技を動画で見る</p>
+<p id="v8-16"><b>動画8-16　再手術：癒着剥離（前回正中×2・前回ロボット×1）＋複雑再形成</b>（Amabile A, LaLonde MR ら, MMCTS 2022、9分34秒）　再手術での癒着剥離を最も詳しく見せる1本。　→ <a href="https://mmcts.org/case-report/1766" target="_blank" rel="noopener">mmcts.org/case-report/1766</a>（購読制）</p>
+<p id="v8-17"><b>動画8-17　前回CABG後の右冠動脈への redo TECAB</b>（Kitahara H, Grady K, Balkhy HH, MMCTS 2023、5分16秒）　→ <a href="https://mmcts.org/case-report/1803" target="_blank" rel="noopener">mmcts.org/case-report/1803</a>（購読制）</p>
+<p id="v8-18"><b>動画8-18　SAVR→TAVR 後の完全内視鏡下AVR（TAVR explant）</b>（Van Genechten S, Hillen W, MMCTS 2025、10分12秒）　→ <a href="https://mmcts.org/case-report/2021" target="_blank" rel="noopener">mmcts.org/case-report/2021</a>（購読制）</p>
+<p id="v8-19"><b>動画8-19　心拍動下 re-redo 三尖弁形成</b>（Hecker F, Montagner M, MMCTS 2026、8分30秒）　→ <a href="https://mmcts.org/tutorial/2144" target="_blank" rel="noopener">mmcts.org/tutorial/2144</a>（購読制）</p>
+<p id="v8-20"><b>動画8-20　TEER クリップ抜去を伴う僧帽弁再形成</b>（Kaneyuki D, Yost CC, MMCTS 2023、6分39秒）　→ <a href="https://mmcts.org/case-report/1837" target="_blank" rel="noopener">mmcts.org/case-report/1837</a>（購読制）</p>
+</div>
+<!-- /VID:8.6 -->
+
 <hr />
 <h2 id="9-展望">9. 展望</h2>
 <h3 id="91-単孔式da-vinci-sp">9.1 単孔式（da Vinci SP）</h3>
@@ -3449,191 +3810,633 @@ mark {
 </ul>
 <p>STS の Phase 0–IV（<a href="#32-phase-0--始める前に満たすべき数値">3.2節</a>〜<a href="#36-phase-iv--拡大して良い段階">3.6節</a>）は、 この観察を制度化したものと読める。 <strong>技術は移転できるが、順序は飛ばせない。</strong></p>
 <hr />
+<!-- VIDINDEX -->
+
 <h2 id="付録a-動画一覧術式別">付録A 動画一覧（術式別）</h2>
-<p>本レビューで参照した手技動画。<strong>MMCTS は tutorial ページ、それ以外は論文ページ（DOI）</strong>に 動画が埋め込まれている。</p>
-<h3 id="導入訓練">導入・訓練</h3>
+<p>本レビューが参照した手技動画は <strong>103点</strong>（うち16点はサムネイル付きで本文に掲載）。 動画番号をクリックすると本文の該当箇所へ移動する。</p>
+<ul>
+<li><strong>MMCTS</strong>（<em>Multimedia Manual of Cardiothoracic Surgery</em>, EACTS）はtutorial / case-report ページに動画が埋まっている。<strong>購読制</strong>。</li>
+<li><strong>Ann Cardiothorac Surg</strong>（AME, <em>Masters of Cardiothoracic Surgery</em> シリーズ）は論文ページに動画が埋まっており、2019年以降の号は CC BY-NC-ND 4.0。</li>
+<li>その他（JTCVS Tech / JTCVS Open / Ann Thorac Surg / ICVTS / Cureus ほか）は論文ページ（DOI）に動画がある。</li>
+</ul>
+<p>これらは<strong>本文の記述の典拠ではなく、記述した手技を映像で確認するための参照先</strong>である（典拠は<a href="#引用文献">引用文献</a>）。</p>
+<h3 id="1-総論-1">1. 総論</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
+<th style="text-align: left;">動画</th>
 <th style="text-align: left;">内容</th>
-<th style="text-align: left;">リンク</th>
+<th style="text-align: left;">出典</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">ロボットLIMA採取（Video 1）／off-pump TECAB（Video 2）／ロボット僧帽弁形成（Video 3）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.athoracsur.2024.07.049">Halkos ら, Ann Thorac Surg 2025</a></td>
+<td style="text-align: left;"><a href="#v1-1">動画1-1</a></td>
+<td style="text-align: left;">Closed-chest, robotically assisted CABG</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/621">Falk V, Jacobs S, Mohr FW, MMCTS 2006／12分07秒</a></td>
 </tr>
 </tbody>
 </table></div>
-<h3 id="僧帽弁">僧帽弁</h3>
+<h3 id="2-共通の土台-1">2. 共通の土台</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
+<th style="text-align: left;">動画</th>
 <th style="text-align: left;">内容</th>
-<th style="text-align: left;">リンク</th>
+<th style="text-align: left;">出典</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>全11段階の映像アトラス</strong>（患者選択と危険な落とし穴／術中TEE／マーキングと体位／大腿露出と胸壁切開／CPBの準備／心房切開と弁の評価／三角切除／人工腱索／弁輪縫縮／power injector による弁のテスト／最終手順）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2023.08.023">Mick ら, JTCVS Tech 2023</a></td>
+<td style="text-align: left;"><a href="#v2-1">動画2-1</a></td>
+<td style="text-align: left;">体位・マーキング・ポート配置（男性）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2069">Cullen P, Malas T, Gillinov M, MMCTS 2025／10分05秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">Barlow病に対する複雑形成（前尖人工腱索＋P2切除＋sliding＋交連形成）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2023.09.020">Issa ら, JTCVS Tech 2023</a></td>
+<td style="text-align: left;"><a href="#v2-2">動画2-2</a></td>
+<td style="text-align: left;">体位・マーキング・ポート配置（女性）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2068">Cullen P, Malas T, Gillinov M, MMCTS 2025／7分29秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">MAC＋SAM高リスク例（@3min＝MAC切除、@14min35sec＝経僧帽弁中隔心筋切除）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2024.01.014">Loulmet ら, JTCVS Tech 2024</a></td>
+<td style="text-align: left;"><a href="#v2-3">動画2-3</a></td>
+<td style="text-align: left;">心膜切開と大動脈遮断鉗子の当て方</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2067">Cullen P, Malas T, Gillinov M, MMCTS 2025／4分04秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>体位・マーキング・ポート配置（男性）</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2069">Cullen ら, MMCTS 2069</a></td>
+<td style="text-align: left;"><a href="#v2-4">動画2-4</a></td>
+<td style="text-align: left;">僧帽弁のポート配置</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2069">Cullen P ら, MMCTS 2025／10分05秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>体位・マーキング・ポート配置（女性）</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2068">Cullen ら, MMCTS 2068</a></td>
+<td style="text-align: left;"><a href="#v2-5">動画2-5</a></td>
+<td style="text-align: left;">RAVR のポート配置</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1915">Arai A, Kitahara H, Balkhy HH, MMCTS 2024／5分28秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>semi-continuous 3本縫合による弁輪縫縮</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2077">Cullen ら, MMCTS 2077</a></td>
+<td style="text-align: left;"><a href="#v2-6">動画2-6</a></td>
+<td style="text-align: left;">TECAB のポート配置と EndoWrist stabilizer の入れ方</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1834">Kitahara H, Grady K, Balkhy HH, MMCTS 2023／8分02秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>四角切除＋双方向 sliding valvuloplasty</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2109">Cullen ら, MMCTS 2109</a></td>
+<td style="text-align: left;"><a href="#v2-7">動画2-7</a></td>
+<td style="text-align: left;">RA-MIDCAB のポート配置</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2030">Catalano M, Kelly J ら, MMCTS 2025／12分08秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">弁下手技（乳頭筋移動・二次腱索切離ほか）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2023.08.019">Dorsey ら, JTCVS Tech 2023</a></td>
+<td style="text-align: left;"><a href="#v2-8">動画2-8</a></td>
+<td style="text-align: left;">ロボット心臓手術における片側経皮送脱血と endoaortic balloon の管理</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1717">Amabile A, Hameed I ら, MMCTS 2022／9分14秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">TEER失敗後のクリップ抜去＋再形成</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2023.09.018">DeLay ら, JTCVS Tech 2023</a></td>
+<td style="text-align: left;"><a href="#v2-9">動画2-9</a></td>
+<td style="text-align: left;">低侵襲僧帽弁手術における endoaortic balloon occlusion</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1724">Van Praet KM, Kempfert J ら, MMCTS 2022／17分18秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>再手術：癒着剥離（前回正中×2・前回ロボット×1）＋複雑再形成</strong></td>
-<td style="text-align: left;"><a href="https://www.mmcts.org/case-report/1766">Amabile ら, MMCTS 1766</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">再手術（心内・心表面）の全体像</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjse.2025.100079">AlJamal ら, JTCVS Struct Endovasc 2025</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">連続 wrapping 縫合による弁輪縫縮</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1093/icvts/ivaf223">Noda ら, ICVTS 2025</a></td>
+<td style="text-align: left;"><a href="#v2-10">動画2-10</a></td>
+<td style="text-align: left;">Robotic posterior bar decalcification and mitral repair in mitral annular calcification</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2025-mac-19">Loulmet DF, Hage A ら／Ann Cardiothorac Surg 2025;14(6) の動画</a></td>
 </tr>
 </tbody>
 </table></div>
-<h3 id="大動脈弁ravr">大動脈弁（RAVR）</h3>
+<h3 id="3-訓練とプログラム構築-1">3. 訓練とプログラム構築</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
+<th style="text-align: left;">動画</th>
 <th style="text-align: left;">内容</th>
-<th style="text-align: left;">リンク</th>
+<th style="text-align: left;">出典</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">RAVR＋大動脈基部拡大（modified Nicks、3症例）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2024-ravr-0183">Darehzereshki ら, Ann Cardiothorac Surg 2025</a></td>
+<td style="text-align: left;"><a href="#v3-1">動画3-1</a></td>
+<td style="text-align: left;">内視鏡下僧帽弁形成のための suturing map</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1041">Sardari Nia P, Olsthoorn J, MMCTS 2018／3分34秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>rapid deployment 弁による完全内視鏡下AVR＋僧帽弁形成</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2059">Kitahara ら, MMCTS 2059</a></td>
+<td style="text-align: left;"><a href="#v3-2">動画3-2</a></td>
+<td style="text-align: left;">内視鏡下僧帽弁置換の suture map</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1742">Hamid UI, Sardari Nia P, MMCTS 2022／6分10秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v3-3">動画3-3</a></td>
+<td style="text-align: left;">内視鏡下三尖弁形成の suture map</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1741">Hamid UI, Aksoy R, MMCTS 2022／9分17秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v3-4">動画3-4</a></td>
+<td style="text-align: left;">低忠実度シミュレータの作り方</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1267">Moscarelli M ら, MMCTS 2019／5分50秒</a></td>
 </tr>
 </tbody>
 </table></div>
-<h3 id="冠動脈tecab--midcab">冠動脈（TECAB / MIDCAB）</h3>
+<h3 id="4-僧帽弁形成-1">4. 僧帽弁形成</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
+<th style="text-align: left;">動画</th>
 <th style="text-align: left;">内容</th>
-<th style="text-align: left;">リンク</th>
+<th style="text-align: left;">出典</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>心拍動下 3枝TECAB（BITA、後壁 "dark side" 標的2本の sequential 吻合）</strong></td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2026.102310">Nisivaco ら, JTCVS Tech 2026</a></td>
+<td style="text-align: left;"><a href="#v4-1">動画4-1</a></td>
+<td style="text-align: left;">経乳輪（periareolar）アプローチ</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-12">Musumeci F, Ranocchi F, et al. Ann Cardiothorac Surg 2022;11(5):548-549</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">多枝 off-pump TECAB の手技</td>
-<td style="text-align: left;"><a href="https://doi.org/10.21037/jovs-25-15">Balkhy, J Vis Surg 2025</a></td>
+<td style="text-align: left;"><a href="#v4-2">動画4-2</a></td>
+<td style="text-align: left;">ロボット経乳輪僧帽弁形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1644">Musumeci F, Lio A, MMCTS 2021／6分52秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Cx領域の展開（pledget付きGore-Texで下側壁を吊り上げる）</strong></td>
-<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2023-rcabg-12">Bonatti ら, Ann Cardiothorac Surg 2024</a></td>
+<td style="text-align: left;"><a href="#v4-3">動画4-3</a></td>
+<td style="text-align: left;">完全内視鏡下ロボット僧帽弁形成の全工程</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-16">Yost CC, Rosen JL, et al. Ann Cardiothorac Surg 2022;11(6):629-631</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">完全内視鏡下の末梢吻合（心停止・エンドバルーン）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2023-rcabg-0211">Bonatti ら, Ann Cardiothorac Surg 2024</a></td>
+<td style="text-align: left;"><a href="#v4-4">動画4-4</a></td>
+<td style="text-align: left;">難易度が上がっても質を落とさない形成</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-27">Darehzereshki A, Mehaffey JH, et al. Ann Cardiothorac Surg 2022;11(6):583-588</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-5">動画4-5</a></td>
+<td style="text-align: left;">三角切除</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2070">Cullen P, Malas T, Gillinov M, MMCTS 2025／5分46秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-6">動画4-6</a></td>
+<td style="text-align: left;">folding plasty（折り込み形成）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2112">Cullen P ら, MMCTS 2025／6分47秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-7">動画4-7</a></td>
+<td style="text-align: left;">annular plication（弁輪縫縮を併せた後尖形成）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2116">Cullen P ら, MMCTS 2025／5分57秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-8">動画4-8</a></td>
+<td style="text-align: left;">commissuroplasty（交連形成）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2107">Cullen P ら, MMCTS 2025／3分20秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-9">動画4-9</a></td>
+<td style="text-align: left;">四角切除＋双方向 sliding valvuloplasty</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2109">Cullen P ら, MMCTS 2025／9分57秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-10">動画4-10</a></td>
+<td style="text-align: left;">sliding plasty＋人工腱索＋弁輪縫縮（複雑形成）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1787">Amabile A, LaLonde MR ら, MMCTS 2023／5分43秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-11">動画4-11</a></td>
+<td style="text-align: left;">anomalous mitral arcade に対する3D完全内視鏡下形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1985">Kitamura H, Fukumoto Y, MMCTS 2025／5分28秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-12">動画4-12</a></td>
+<td style="text-align: left;">sliding leaflet valvuloplasty と remodelling partial annuloplasty</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/530">Murashita T, Raffa G, MMCTS 2016／5分13秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-13">動画4-13</a></td>
+<td style="text-align: left;">ロボット僧帽弁形成の手技・成績・展望</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/60">Algarni KD, Suri RM, MMCTS 2014／10分06秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-14">動画4-14</a></td>
+<td style="text-align: left;">Optimizing outcomes of robotic mitral valve repair for all prolapse anatomy: the Suri-Burkhart technique</td>
+<td style="text-align: left;"><a href="https://doi.org/10.3978/j.issn.2225-319X.2013.10.05">Suri RM, Burkhart HM／Ann Cardiothorac Surg 2013;2(6):841-845 の動画</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-15">動画4-15</a></td>
+<td style="text-align: left;">Robotic mitral valve repair: algorithmic approach in degenerative mitral valve disease</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs.2016.11.07">Javadikasgari H, Suri RM／Ann Cardiothorac Surg 2016;5(6):586-588 の動画</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-16">動画4-16</a></td>
+<td style="text-align: left;">Robotic mitral valve repair: standardized repair strategy ensures consistent results</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs.2018.10.11">Ishii H, Ting M／Ann Cardiothorac Surg 2018;7(6):837-838 の動画</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-17">動画4-17</a></td>
+<td style="text-align: left;">semi-continuous 3本縫合による弁輪縫縮</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2077">Cullen P, Malas T, Gillinov M, MMCTS 2025／9分12秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-18">動画4-18</a></td>
+<td style="text-align: left;">人工弁の運針（内視鏡下MVR の suture map）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1742">Hamid UI, Sardari Nia P, MMCTS 2022／6分10秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-19">動画4-19</a></td>
+<td style="text-align: left;">Cor-Knot による結紮を含むロボットMVR</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/54">Senay S, Gullu AU, MMCTS 2014／5分32秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-20">動画4-20</a></td>
+<td style="text-align: left;">MAC 症例のロボット僧帽弁形成</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2025-mac-0127">Pickering T, Dorton CW, et al. Ann Cardiothorac Surg 2025;14(6):511-513</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-21">動画4-21</a></td>
+<td style="text-align: left;">posterior bar の広範囲脱灰と calcific emulsification</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2025-mac-10">Rheault-Henry M, Chu MWA, et al. Ann Cardiothorac Surg 2025;14(6):504-507</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-22">動画4-22</a></td>
+<td style="text-align: left;">弁輪石灰化の完全切除を伴うロボット形成</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-64">Naito N, Grossi EA, et al. Ann Cardiothorac Surg 2022;11(5):545-547</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-23">動画4-23</a></td>
+<td style="text-align: left;">内視鏡下手術中の SAM への対処</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1934">Buttiglione G, Gollmann-Tepeköylü C, MMCTS 2024／5分32秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-24">動画4-24</a></td>
+<td style="text-align: left;">両側乳頭筋移動（double papillary muscle relocation）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1757">Amabile A, LaLonde MR ら, MMCTS 2022／6分58秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-25">動画4-25</a></td>
+<td style="text-align: left;">前回の乳頭筋接合が破綻した症例の再手術</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1943">Amabile A, Antonios J ら, MMCTS 2024／5分30秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-26">動画4-26</a></td>
+<td style="text-align: left;">TEER クリップ抜去を伴うロボット僧帽弁再形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1837">Kaneyuki D, Yost CC, MMCTS 2023／6分39秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-27">動画4-27</a></td>
+<td style="text-align: left;">部分型房室中隔欠損修復後の再手術（内視鏡下僧帽弁形成）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/2058">Arimura S, Chu MWA, MMCTS 2025／6分26秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-28">動画4-28</a></td>
+<td style="text-align: left;">再手術：癒着剥離（前回正中×2・前回ロボット×1）＋複雑再形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1766">Amabile A, LaLonde MR ら, MMCTS 2022／9分34秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v4-29">動画4-29</a></td>
+<td style="text-align: left;">Complications and their management in robotic mitral valve surgery from the surgical assistant's perspective</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-15">Patel NC, Macoskey AR ら／Ann Cardiothorac Surg 2022;11(5):510-524</a></td>
 </tr>
 </tbody>
 </table></div>
-<h3 id="複合弁同時手術">複合弁・同時手術</h3>
+<h3 id="5-大動脈弁ravr-1">5. 大動脈弁（RAVR）</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
+<th style="text-align: left;">動画</th>
 <th style="text-align: left;">内容</th>
-<th style="text-align: left;">リンク</th>
+<th style="text-align: left;">出典</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>bilateral アプローチ：左胸TECAB（Si）→ 右胸僧帽弁形成（Xi）</strong></td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2025.102169">Arai ら, JTCVS Tech 2026</a></td>
+<td style="text-align: left;"><a href="#v5-1">動画5-1</a></td>
+<td style="text-align: left;">縫着型生体弁によるロボット完全内視鏡下AVR</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1915">Arai A, Kitahara H, Balkhy HH, MMCTS 2024／5分28秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">ロボット僧帽弁＋三尖弁形成の手技</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjon.2024.09.014">Rowse ら, JTCVS Open 2024</a></td>
+<td style="text-align: left;"><a href="#v5-2">動画5-2</a></td>
+<td style="text-align: left;">rapid deployment 弁による完全内視鏡下AVR＋僧帽弁形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2059">Kitahara H, Grady K, Balkhy HH, MMCTS 2025／6分59秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>dual-camera による完全内視鏡下二弁手術</strong>（僧帽弁置換・左心耳血栓摘出・乳頭状線維弾性腫切除）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.7759/cureus.86081">Goto ら, Cureus 2025</a></td>
+<td style="text-align: left;"><a href="#v5-3">動画5-3</a></td>
+<td style="text-align: left;">機械弁によるロボットAVR</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2132">Morales-Rey I, Sandoval E, MMCTS 2026／12分58秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>三尖弁形成＋両心房 CryoMAZE（完全内視鏡）</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/case-report/1861">Amabile ら, MMCTS 1861</a></td>
+<td style="text-align: left;"><a href="#v5-4">動画5-4</a></td>
+<td style="text-align: left;">弁の種類ごとの tips and tricks（完全内視鏡下AVR）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1800">Danesi TH, MMCTS 2023／15分47秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v5-5">動画5-5</a></td>
+<td style="text-align: left;">完全内視鏡下 micro-invasive AVR</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1876">Bakhtiary F, Salamate S, MMCTS 2024／10分57秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v5-6">動画5-6</a></td>
+<td style="text-align: left;">SAVR 後さらに TAVR を受けた症例の完全内視鏡下AVR（TAVR explant）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/2021">Van Genechten S, Hillen W, MMCTS 2025／10分12秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v5-7">動画5-7</a></td>
+<td style="text-align: left;">RAVR＋大動脈基部拡大（modified Nicks）</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2024-ravr-0183">Darehzereshki A, Wei L, et al. Ann Cardiothorac Surg 2025;14(3):238-240</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v5-8">動画5-8</a></td>
+<td style="text-align: left;">RAVR＋中隔心筋切除の同時手術</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2024-ravr-0186">Pickering T, Dorton C, et al. Ann Cardiothorac Surg 2025;14(3):241-243</a></td>
 </tr>
 </tbody>
 </table></div>
-<h3 id="others">Others</h3>
+<h3 id="6-冠動脈tecab--midcab-1">6. 冠動脈（TECAB / MIDCAB）</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
+<th style="text-align: left;">動画</th>
 <th style="text-align: left;">内容</th>
-<th style="text-align: left;">リンク</th>
+<th style="text-align: left;">出典</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>超音波吸引器（Sonopet）による粘液腫切除</strong></td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2024.10.005">Nakamura ら, JTCVS Tech 2025</a></td>
+<td style="text-align: left;"><a href="#v6-1">動画6-1</a></td>
+<td style="text-align: left;">RA-MIDCAB — 準備・グラフト採取・吻合</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2030">Catalano M, Kelly J ら, MMCTS 2025／12分08秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>閉塞的左心耳閉鎖（反転＋巾着縫合＋2層閉鎖）</strong></td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.xjtc.2026.102268">Nakamura ら, JTCVS Tech 2026</a></td>
+<td style="text-align: left;"><a href="#v6-2">動画6-2</a></td>
+<td style="text-align: left;">小開胸によるロボット支援MIDCAB — step-by-step</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1762">Aerden A, Marynissen M, MMCTS 2022／20分49秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>AtriClip Pro2 による心表面左心耳閉鎖</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1913">Baudo ら, MMCTS 1913</a></td>
+<td style="text-align: left;"><a href="#v6-3">動画6-3</a></td>
+<td style="text-align: left;">1枝病変に対するRA-MIDCAB</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1230">Boulemden A, Pettinari M, MMCTS 2019／6分39秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">心表面クリップの不完全閉鎖（CT評価）</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1016/j.atssr.2025.09.023">Hirayama ら, Ann Thorac Surg Short Rep 2026</a></td>
+<td style="text-align: left;"><a href="#v6-4">動画6-4</a></td>
+<td style="text-align: left;">ロボット支援 低侵襲多枝バイパス</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1871">Arslanhan G, Özcan ZS, MMCTS 2024／10分55秒</a></td>
 </tr>
 <tr>
-<td style="text-align: left;">心内膜縫合閉鎖の "speech bubble" サイン</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1093/icvts/ivaf172">Nakayama ら, ICVTS 2025</a></td>
+<td style="text-align: left;"><a href="#v6-5">動画6-5</a></td>
+<td style="text-align: left;">Different styles in trocar placement in robotic-assisted beating heart coronary artery bypass grafting</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2023-rcabg-0209">Algoet M, Balkhy HH ら／Ann Cardiothorac Surg 2024;13(5):458-460</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>経僧帽弁中隔心筋切除＋僧帽弁形成（HOCM）</strong></td>
-<td style="text-align: left;"><a href="https://mmcts.org/case-report/1812">AlJamal ら, MMCTS 1812</a></td>
+<td style="text-align: left;"><a href="#v6-6">動画6-6</a></td>
+<td style="text-align: left;">内胸動脈の採取</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2023-rcabg-0189">Newman JS, Lambert D, et al. Ann Cardiothorac Surg 2024;13(5):455-457</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-7">動画6-7</a></td>
+<td style="text-align: left;">bipolar micro forceps による skeletonize・クリップレス採取</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2062">Arslan T, Heuts S, MMCTS 2025／8分40秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-8">動画6-8</a></td>
+<td style="text-align: left;">in-situ 両側内胸動脈を用いた off-pump 完全内視鏡下 hand-sewn CABG</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1393">Hashimoto M, Ota T, MMCTS 2020／27分41秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-9">動画6-9</a></td>
+<td style="text-align: left;">胸腔鏡（非ロボット）による両側内胸動脈採取</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1849">Akca F, MMCTS 2023／7分37秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-10">動画6-10</a></td>
+<td style="text-align: left;">Robotic-assisted bilateral internal thoracic artery harvest</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs.2018.06.12">Sutter FP, Wertan MC／Ann Cardiothorac Surg 2018;7(5):704-706 の動画</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-11">動画6-11</a></td>
+<td style="text-align: left;">Cx 領域の展開</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2023-rcabg-12">Bonatti J, Ashraf SF, et al. Ann Cardiothorac Surg 2024;13(5):452-454</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-12">動画6-12</a></td>
+<td style="text-align: left;">心拍動下での LAD myocardial bridge unroofing</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2023-rcabg-0193">Nisivaco S, Kitahara H, et al. Ann Cardiothorac Surg 2024;13(4):385-387</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-13">動画6-13</a></td>
+<td style="text-align: left;">多枝完全内視鏡下バイパス（RITA-LAD／LITA-PDA／LITA-OM sequential）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1834">Kitahara H, Grady K, Balkhy HH, MMCTS 2023／8分02秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-14">動画6-14</a></td>
+<td style="text-align: left;">前回CABG後の右冠動脈への redo TECAB</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1803">Kitahara H, Grady K, Balkhy HH, MMCTS 2023／5分16秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-15">動画6-15</a></td>
+<td style="text-align: left;">ロボットによる末梢吻合</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2023-rcabg-0211">Bonatti J, Ashraf SF, et al. Ann Cardiothorac Surg 2024;13(4):382-384</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-16">動画6-16</a></td>
+<td style="text-align: left;">心拍動下 完全内視鏡下CABG</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/740">Jansens JL, MMCTS 2011／5分15秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-17">動画6-17</a></td>
+<td style="text-align: left;">Robotic beating-heart totally endoscopic coronary artery bypass</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs.2018.06.13">Melly L, Douglas D ら／Ann Cardiothorac Surg 2018;7(5):707-709 の動画</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-18">動画6-18</a></td>
+<td style="text-align: left;">Robotic TECAB of the LAD and RCA system using an arterial Y-graft technique</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs.2018.06.10">Bonatti J, Göbölös L ら／Ann Cardiothorac Surg 2018;7(5):700-703 の動画</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v6-19">動画6-19</a></td>
+<td style="text-align: left;">EndoWrist stabilizer を使わない TECAB</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2024-rcabg-0112">Torregrossa G, Yakobitis A, et al. Ann Cardiothorac Surg 2024;13(5):461-463</a></td>
 </tr>
 </tbody>
 </table></div>
+<h3 id="7-複合弁同時手術-1">7. 複合弁・同時手術</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th style="text-align: left;">動画</th>
+<th style="text-align: left;">内容</th>
+<th style="text-align: left;">出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#v7-1">動画7-1</a></td>
+<td style="text-align: left;">ロボット支援 二弁手術</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-79">Comas GM, Wei LM, et al. Ann Cardiothorac Surg 2022;11(5):543-544</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-2">動画7-2</a></td>
+<td style="text-align: left;">rapid deployment 弁による完全内視鏡下AVR＋僧帽弁形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2059">Kitahara H, Grady K, Balkhy HH, MMCTS 2025／6分59秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-3">動画7-3</a></td>
+<td style="text-align: left;">RAM デバイスによる僧帽弁置換＋三尖弁形成（完全内視鏡）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/2006">Baysal F, Poschner T, MMCTS 2025／9分54秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-4">動画7-4</a></td>
+<td style="text-align: left;">経乳輪切開による3D完全内視鏡下 VSD 閉鎖＋AVR</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1998">Watanabe S, Ito T, MMCTS 2025／6分59秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-5">動画7-5</a></td>
+<td style="text-align: left;">三尖弁形成＋両心房 CryoMAZE（完全内視鏡）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1861">Amabile A, LaLonde M ら, MMCTS 2024／7分14秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-6">動画7-6</a></td>
+<td style="text-align: left;">人工腱索を用いた完全内視鏡下三尖弁形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1758">Amabile A, LaLonde MR ら, MMCTS 2022／6分42秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-7">動画7-7</a></td>
+<td style="text-align: left;">内視鏡下三尖弁形成の suture map</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1741">Hamid UI, Aksoy R, MMCTS 2022／9分17秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-8">動画7-8</a></td>
+<td style="text-align: left;">心拍動下 re-redo 三尖弁形成（smartcanula 使用）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2144">Hecker F, Montagner M, MMCTS 2026／8分30秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-9">動画7-9</a></td>
+<td style="text-align: left;">成人 Ebstein 病に対する3D完全内視鏡下三尖弁形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/2209">Kitamura H, Tamaki M, MMCTS 2026／10分40秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-10">動画7-10</a></td>
+<td style="text-align: left;">心室細動下でのロボット完全内視鏡下 Cryo-Maze</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1957">Kitahara H, Grady K, Balkhy HH, MMCTS 2024／5分24秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-11">動画7-11</a></td>
+<td style="text-align: left;">AtriClip Pro2 による心表面左心耳閉鎖</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1913">Baudo M, Yakobitis A, MMCTS 2024／8分08秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v7-12">動画7-12</a></td>
+<td style="text-align: left;">高齢・出血既往例に対するロボット左心耳結紮</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/2139">Poffo R, Toma HE, MMCTS 2026／4分57秒</a></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="8-others-1">8. Others</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th style="text-align: left;">動画</th>
+<th style="text-align: left;">内容</th>
+<th style="text-align: left;">出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#v8-1">動画8-1</a></td>
+<td style="text-align: left;">ロボット完全内視鏡下 心房中隔欠損閉鎖</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1698">Amabile A, Degife E, MMCTS 2021／6分27秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-2">動画8-2</a></td>
+<td style="text-align: left;">ロボット心房中隔欠損閉鎖</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/53">Senay S, Gullu AU, MMCTS 2014／9分40秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-3">動画8-3</a></td>
+<td style="text-align: left;">AVR に伴う心室中隔瘤のロボットパッチ閉鎖</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/2108">Parkash J, Ehtesham A, MMCTS 2025／7分39秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-4">動画8-4</a></td>
+<td style="text-align: left;">心房粘液腫の切除（papillary subtype）</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-162">Rizkalla AJ, Yan TD, et al. Ann Cardiothorac Surg 2022;11(6):634-636</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-5">動画8-5</a></td>
+<td style="text-align: left;">僧帽弁 乳頭状線維弾性腫の完全内視鏡下切除</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1668">Amabile A, Morrison A, MMCTS 2021／3分24秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-6">動画8-6</a></td>
+<td style="text-align: left;">心室中隔に転移した神経内分泌腫瘍のロボット切除</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1497">Henkens A, Navarra E, MMCTS 2020／8分19秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-7">動画8-7</a></td>
+<td style="text-align: left;">port-access による左房粘液腫切除</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1194">Olsthoorn J, Sardari Nia P ら, MMCTS 2019／3分19秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-8">動画8-8</a></td>
+<td style="text-align: left;">完全内視鏡下ロボット心膜嚢胞切除</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1740">Poffo R, Toma HE, MMCTS 2022／5分49秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-9">動画8-9</a></td>
+<td style="text-align: left;">ロボット中隔心筋切除</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs-2022-rmvs-24">Cheng BC, Chi NH, et al. Ann Cardiothorac Surg 2022;11(6):632-633</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-10">動画8-10</a></td>
+<td style="text-align: left;">経僧帽弁中隔心筋切除＋僧帽弁形成（HOCM）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1812">AlJamal YN, Kitahara H, Balkhy HH, MMCTS 2023／7分17秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-11">動画8-11</a></td>
+<td style="text-align: left;">前尖の縦切開を用いた内視鏡下経僧帽弁心筋切除</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/1916">Ito T, Sawaki S, MMCTS 2024／7分58秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-12">動画8-12</a></td>
+<td style="text-align: left;">右小開胸・経僧帽弁到達による HOCM の内視鏡下治療</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2061">Paivin A, Denisyuk D, MMCTS 2025／5分27秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-13">動画8-13</a></td>
+<td style="text-align: left;">Robotic trans-atrial and trans-mitral ventricular septal resection</td>
+<td style="text-align: left;"><a href="https://doi.org/10.21037/acs.2017.01.06">Chitwood WR Jr／Ann Cardiothorac Surg 2017;6(1):54-59 の動画</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-14">動画8-14</a></td>
+<td style="text-align: left;">胸腔鏡下 心臓再同期療法（心表面リード留置）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/72">Droghetti A ら, MMCTS 2015／3分52秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-15">動画8-15</a></td>
+<td style="text-align: left;">拡張型心筋症に対する経心尖アプローチでの左室再同期最適化</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/544">Kassai I, Alfieri O ら, MMCTS 2017／4分09秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-16">動画8-16</a></td>
+<td style="text-align: left;">再手術：癒着剥離（前回正中×2・前回ロボット×1）＋複雑再形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1766">Amabile A, LaLonde MR ら, MMCTS 2022／9分34秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-17">動画8-17</a></td>
+<td style="text-align: left;">前回CABG後の右冠動脈への redo TECAB</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1803">Kitahara H, Grady K, Balkhy HH, MMCTS 2023／5分16秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-18">動画8-18</a></td>
+<td style="text-align: left;">SAVR→TAVR 後の完全内視鏡下AVR（TAVR explant）</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/2021">Van Genechten S, Hillen W, MMCTS 2025／10分12秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-19">動画8-19</a></td>
+<td style="text-align: left;">心拍動下 re-redo 三尖弁形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/tutorial/2144">Hecker F, Montagner M, MMCTS 2026／8分30秒</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#v8-20">動画8-20</a></td>
+<td style="text-align: left;">TEER クリップ抜去を伴う僧帽弁再形成</td>
+<td style="text-align: left;"><a href="https://mmcts.org/case-report/1837">Kaneyuki D, Yost CC, MMCTS 2023／6分39秒</a></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>著作権について</strong> 掲載したサムネイルは、いずれも出版社が OA パッケージで配布している動画ポスター画像（CC BY-NC-ND 4.0）をそのまま用いたものであり、 <strong>動画からのコマ取りは一切行っていない</strong>。動画本体は各出版社のページで視聴すること（MMCTS は購読が必要）。</p>
+</blockquote>
 <hr />
+<!-- /VIDINDEX -->
+
 <h2 id="付録b-略語集">付録B 略語集</h2>
 <div class="table-wrap"><table>
 <thead>
