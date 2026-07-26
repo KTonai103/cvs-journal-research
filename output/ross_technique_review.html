@@ -288,6 +288,38 @@ mark {
 .callout ul, .callout ol { margin: 4px 0 4px 18px; }
 .callout table { font-size: 0.8rem; }
 
+/* Video figures — the thumbnail links out to the original video, with a ▶ badge */
+figure.vfig { margin: 20px 0; background: #eef1f5; padding: 10px; border-radius: 5px; }
+figure.vfig a { position: relative; display: block; text-decoration: none; }
+figure.vfig a img { cursor: pointer; margin: 0 auto; }
+figure.vfig .play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 56px; height: 56px; border-radius: 50%;
+  background: rgba(20,20,20,0.62); color: #fff;
+  font-size: 1.45rem; line-height: 56px; text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+  transition: background 0.15s, transform 0.15s;
+}
+figure.vfig a:hover .play {
+  background: rgba(21,101,192,0.92); transform: translate(-50%, -50%) scale(1.08);
+}
+figure.vfig figcaption {
+  text-align: left; font-size: 0.79rem; color: var(--fg);
+  line-height: 1.6; margin: 9px 2px 2px;
+}
+figure.vfig figcaption a { font-weight: 600; }
+figure.vfig .src { display: block; margin-top: 4px; font-size: 0.72rem; color: var(--muted); }
+
+/* Video link lists — for videos with no reusable thumbnail (subscription journals) */
+.videolist {
+  border-left: 4px solid var(--accent); background: #eef4fc;
+  padding: 10px 16px; margin: 14px 0 20px; border-radius: 0 4px 4px 0;
+}
+.videolist p { margin: 6px 0; font-size: 0.83rem; line-height: 1.65; }
+.videolist p.vl-head {
+  margin: 0 0 6px; font-size: 0.8rem; font-weight: 600; color: var(--accent);
+}
+
 /* Sidebar toggle (mobile only) */
 #sidebar-toggle {
   display: none;
@@ -351,6 +383,8 @@ mark {
   li, p { font-size: 0.88rem; }
   .callout { padding: 10px 12px !important; }
   blockquote { padding: 8px 12px; }
+  .videolist { padding: 9px 12px; }
+  figure.vfig .play { width: 44px; height: 44px; line-height: 44px; font-size: 1.15rem; }
 }
 
 @media (max-width: 380px) {
@@ -746,6 +780,7 @@ figure.vfig figcaption a { font-weight: 600; }
 </tr>
 </tbody>
 </table></div>
+<p><strong>6施設目：Lübeck（Sievers, subcoronary）</strong> — 表に収まらないので別記する。<strong>肺動脈幹の切開は前交連の5mm遠位</strong>、<strong>RVOT切開線は右角鉗子を弁を通して入れ「肺動脈弁輪の2mm下」を示させて</strong>決める。<strong>残す筋は1〜2mmのみ</strong>で、同時に<strong>interleaflet triangleの中点に浅いscallop状の切開を入れて印にする</strong>。つまり <strong>RVOT切開の高さは Lübeck 2mm ／ Boston 3〜4mm ／ Mount Sinai・Melbourne 5mm ／ Dallas 6〜8mm と3倍以上の開きがある</strong>。subcoronary（弁だけを移す）ほど筋を要さず、Dacronに固定する術式ほど縫い代として筋を要する — <strong>この数字は術式から逆算されている</strong>（第11章 対立点#10）。</p>
 
 <div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Schneiderの「筋線維の走行の違いを見て層を選ぶ」</div>
 <p>「第1中隔枝を避けよ」はどの論文にも書いてあるが、<strong>どうやって避けるか</strong>まで書いているのはSchneiderだけである。右室壁と左室壁では筋線維の走行方向が違うので、心室中隔レベルではその境界が必ず見える。<strong>その層間が正しい剥離面であり、そこを辿れば中隔枝は自然に温存側に残る。</strong> 「白い線が見えたら避ける」（見えなければ避けられない）よりも一段確実な指示になっている。</p>
@@ -865,28 +900,64 @@ figure.vfig figcaption a { font-weight: 600; }
 
 <hr />
 <h1 id="第2章-術式①-subcoronary原法-なぜ生き残っているのか">第2章　術式① Subcoronary（原法）— なぜ生き残っているのか</h1>
-<h2 id="2-1-手技の核心misfeld--sievers-leipziglübeck">2-1. 手技の核心（Misfeld / Sievers, Leipzig–Lübeck）</h2>
-<p>原法は「弁だけを移す」術式である。手技の細部は Misfeld のACS 2021論文と Sievers の2010/2018年のJTCVS論文に散っているので、ここで一本に繋ぐ。</p>
-<p><strong>露出とサイジング</strong></p>
-<ol type="1">
-<li>大動脈を<strong>hockey-stick様に非冠尖中央まで斜切開</strong>する</li>
-<li><strong>弁輪径26〜28mmなら、左-無冠trigoneを心膜補強3-0モノフィラメントで狭める</strong>（この手技で<strong>3〜4mm縮小</strong>できる）</li>
-<li><strong>弁輪径が31〜32mmを超えるならRossを行わない</strong>（同一論文内で「&gt;32mm」「&gt;31mm」の両方の記載があり、実務上は「31mm台からは慎重に」と読むのが妥当）</li>
-</ol>
-<p><strong>近位縫合線 — 平面性がすべて</strong></p>
-<ol start="4" type="1">
-<li><strong>単結節4-0 polyfiber</strong>で、<strong>「U字1針＋単結節3針」の反復パターン</strong>。左-無冠trigoneから時計回りに進め、次いで同じ点から反時計回りに右-無冠trigoneへ向かう</li>
-<li><strong>平面的な（planar）近位縫合線を目指す</strong>。針はcusp attachment lineの極近傍を通す</li>
-<li><strong>心膜ストリップを近位縫合線に織り込む</strong>。止血・弁輪狭小化・補強を同時に果たす。<strong>結紮時にストリップを軽く引くことで縮小の程度を調整できる</strong></li>
-<li>autograftの交連はnative交連より<strong>十分高く</strong>留置する（ただし幾何学的歪みを作らない範囲で）</li>
-</ol>
-<p><strong>洞の処理 — 原法の要点はここ</strong></p>
-<ol start="8" type="1">
-<li><strong>最大の肺動脈洞を、無冠洞に置く</strong>（肺動脈洞のうち最大のものは前尖側に多く、Sievers type I L/R BAVでは特に有効）</li>
-<li>左右洞は切除し、subcoronaryで5-0で縫着する</li>
-<li><strong>無冠洞のみautograft側の壁を温存</strong>し、native無冠洞を直接閉鎖・部分切除・心膜パッチのいずれかで<strong>autograft無冠洞のサイズに合わせる</strong>。5-0 U字縫合で両無冠洞を固定する</li>
-<li>洞の縫合は5-0連続、さらに<strong>5-0 U字縫合で交連を患者の大動脈壁に固定</strong>する</li>
-</ol>
+<h2 id="2-1-手技の核心sievers-lübeck--misfeld-leipzig">2-1. 手技の核心（Sievers, Lübeck ／ Misfeld, Leipzig）</h2>
+<p>原法は「弁だけを移す」術式である。手技の一次資料は <strong>Sievers 2010 JTCVS の online E-Appendix</strong>（誌面 822.e1–e5、Figure E1–E9 と動画）であり、ここに全4工程が最も細かく書かれている。Misfeld のACS 2021論文はその後継版で、材料と閾値が一部変わっている。<strong>以下は E-Appendix を骨格にし、Misfeld 2021 で更新された点を併記する。</strong></p>
+<h3 id="①-大動脈切開と弁の検分">① 大動脈切開と弁の検分</h3>
+<ul>
+<li>切開は <strong>S字状に無冠洞まで入れる</strong>（Misfeld 2021 は「oblique または hockey-stick様に無冠尖中央まで」）。<strong>とくにBAVでは無冠洞が拡大していることが多く、後の閉鎖でautograftのサイズに合わせて調整できる</strong>ため、この洞に入れることに意味がある</li>
+<li>石灰化の除去は徹底的に行う</li>
+<li><strong>Hegar dilatorで基部を実測する</strong></li>
+<li><strong>STJは少なくとも「仕上げた弁輪」と同じ径であること。数mm大きいのは差し支えない</strong>（autograftはSTJ拡大に伴う逆流に対する抵抗性がよく保たれるため）</li>
+<li>⚠️ <strong>逆に、STJが肺動脈位にあったときのautograft径より小さくなると、cusp prolapse由来のAIのリスク因子になる</strong>。対策は<strong>幅1cm程度の心膜パッチを大動脈切開の閉鎖線に入れる</strong>か、<strong>そもそも無冠洞を切開しない</strong>か</li>
+<li><strong>STJまたは上行大動脈が&gt;50mmなら、上行を supracommissural tube graft で置換する</strong></li>
+<li>三尖弁の基部は理想的。<strong>BAVはtype I・IIなら基部形態は良好、type 0 は困難であり、代替の弁があることを考えれば適応そのものが疑わしい</strong></li>
+<li><strong>弁輪径が31〜32mmを超えるならRossを行わない</strong>（Misfeld 2021 の同一論文内に「&gt;32mm」「&gt;31mm」両方の記載。実務上は「31mm台からは慎重に」）</li>
+</ul>
+<h3 id="②-autograftの採取">② autograftの採取</h3>
+<ul>
+<li><strong>肺動脈幹を前方から半周、前交連の5mm遠位で切開して弁を検分する</strong>。<strong>大きなfenestration、肥厚・退縮した弁尖、四尖弁は禁忌</strong>。<strong>弁尖と洞のわずかな不均等までは許容</strong>し、基部内での置き方で調整する</li>
+<li>肺動脈幹を完全に離断して前方に倒し、後方で外膜と肺動脈幹の間の層を剥離する。<strong>autograftの近くを保つこと</strong></li>
+<li><strong>Overholt鉗子を肺動脈弁を通してRVOTに入れ、肺動脈弁輪の2mm下のレベルを示させて</strong>右室の横断切開線を決める（＝Lübeckの数字は<strong>2mm</strong>。Melbourne 5mm・Dallas 6〜8mmとの差は第1章の表を参照）</li>
+<li>切開は弁尖の半月状付着に沿って進め、<strong>後方では弁と右室筋の間の剥離層を探す</strong></li>
+<li>⚠️ <strong>左側方</strong>に注意する。<strong>典型的なRVOT筋束が第1中隔枝の位置を示す</strong>（図E1）。<strong>この領域では肺動脈弁輪の極近傍を保ち、autograft側に残す筋を最小限にする</strong>。ここで剥離層が深くなりすぎると中隔枝を損傷する</li>
+<li>採取後、<strong>左冠動脈から心筋保護液を流して出血点を同定・処理する</strong></li>
+<li><strong>autograftは筋組織を1〜2mmだけ残してトリムし、interleaflet triangleの中点に浅いscallop状の切開を入れて印にする</strong>（図E2）</li>
+</ul>
+<h3 id="③-autograftの植込み--平面性とu字1針単結節3針">③ autograftの植込み — 平面性と「U字1針＋単結節3針」</h3>
+<ul>
+<li><strong>近位縫合線は、切除した大動脈弁尖の半月状付着に沿い、交連までの高さの半分まで</strong>をたどる。<strong>通常は左冠洞から開始</strong>（図E3）</li>
+<li>autograft側の針（<strong>4-0 polyfilament</strong>）は<strong>肺動脈弁尖の付着部そのもの、またはそこを貫いて</strong>置き、大動脈側の線と合同になるようにする（図E4）</li>
+<li>⚠️ <strong>autograftは基部と side by side に置く（図E5）。反転（inversion）法は弁尖の歪みを起こしうる</strong></li>
+<li><strong>U字1針 → 単結節3針 → 再びU字1針、の反復</strong>（図E6）。<strong>U字糸は後でautograftを基部内へ牽引・位置決めするのに極めて実用的</strong></li>
+<li><strong>平面的な（planar）近位縫合線を目指す</strong>。針はcusp attachment lineの極近傍を通す（Misfeld 2021）</li>
+<li><strong>弁輪径がおよそ25mmを超えるなら、結紮しながら 2-0 ePTFE（Gore-Tex）糸または Dacronストリップを縫合線に織り込む</strong>。<strong>各セグメント（U字1本＋単結節3本）ごとにストリップを張ることで、弁輪径を固定あるいは縮小できる</strong>（図E7）
+<ul>
+<li>2-0 ePTFE糸を使う場合、<strong>両端を無冠尖nadirの外側に出してTeflonパッチ上で固定</strong>する</li>
+<li><strong>代替案：無冠洞と左冠洞の間のinterleaflet trigoneを、外側からのU字縫合でplicateして弁輪を縮小する</strong></li>
+<li>※ <strong>Misfeld 2021 では材料が心膜ストリップに変わっている</strong>（止血・弁輪狭小化・補強を兼ねる。結紮時にストリップを軽く引いて縮小量を調整する）。発動基準も「弁輪径26〜28mmで左-無冠trigoneを心膜補強3-0モノフィラメントで狭める（3〜4mm縮小）」と具体化された。<strong>同じ流派でも10年で材料と閾値が動いている</strong></li>
+</ul></li>
+<li><strong>交連は 5-0 Prolene U字縫合</strong>で、<strong>内側に自家心膜pledget・外側にTeflonパッチを当てて</strong>、<strong>元の大動脈弁交連の真上に、通常およそ1cm持ち上げて固定する</strong>（図E8）</li>
+</ul>
+<h3 id="④-洞の処理--原法の要点はここ">④ 洞の処理 — 原法の要点はここ</h3>
+<ul>
+<li><strong>autograftの左右冠洞は「ごく一部だけ」切除</strong>してからsubcoronaryに縫着する</li>
+<li>縫着は<strong>5-0 Prolene連続</strong>、<strong>左冠洞から、しかも術者から最も遠い点から開始して手前に向かって</strong>進める。次いで糸のもう一端を<strong>内→外に大動脈壁を貫いて</strong>、左右冠動脈口の間の交連まで進める（図E9）</li>
+<li><strong>最大の肺動脈洞を無冠洞に置く</strong>（Sievers type I L/R BAVで特に有効）</li>
+<li><strong>無冠洞のみautograft側の壁を温存</strong>し、native無冠洞を直接閉鎖・部分切除・心膜パッチのいずれかで<strong>autograft無冠洞のサイズに合わせる</strong>。5-0 U字縫合で両無冠洞を固定する（Misfeld 2021）</li>
+<li>大動脈は最終的に4-0モノフィラメントで閉鎖する</li>
+</ul>
+<h3 id="⑤-肺動脈homograftの植込みlübeck式">⑤ 肺動脈homograftの植込み（Lübeck式）</h3>
+<ul>
+<li><strong>ほぼ全例で「長い」（分岐部まで届く）肺動脈homograft</strong>を使う。<strong>径は25mm以上</strong>を選ぶ</li>
+<li><strong>allograftの筋組織は可能な限り切除し、2〜3mmだけ残す</strong>。あるいは<strong>筋のrimを心膜またはePTFEストリップで丸ごと置き換える</strong>。心膜パッチの優位性はわずかなので、<strong>現在は小径homograftにのみ</strong>適用している</li>
+<li><strong>遠位吻合は5-0 Prolene。針目を細かく置いて縫合線による絞扼を軽減する</strong></li>
+<li>近位吻合は5-0または4-0。<strong>中隔枝の領域では糸を浅くかける</strong></li>
+</ul>
+
+<div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">「E-Appendixにしか書かれていない」4点</div>
+<p>① <strong>STJがautograft径より小さいとcusp prolapse由来のAIになる</strong>（＝ subcoronaryでもSTJは独立した失敗レベルである）／② <strong>inversion法は弁尖を歪めうるので side-by-side に置く</strong>（第4章のeversion／反転系の流儀と真っ向から対立する）／③ <strong>U字糸は牽引・位置決めの道具である</strong>（縫合パターンの理由が書かれているのはここだけ）／④ <strong>交連は約1cm持ち上げる</strong>（他論文の「十分高く」に唯一数字が付く）。</p>
+</div>
+
 <p><strong>type 0 BAV への対応（Sievers 2018）</strong></p>
 <p>180°に位置する冠動脈口の<strong>間に、通常は大動脈基部の左外側に、autograftのための新しい交連を作る</strong>。他の交連は基部の右側と冠動脈口に固定し、autograftの幾何学を可能な限り保つ。</p>
 
@@ -985,8 +1056,8 @@ figure.vfig figcaption a { font-weight: 600; }
 </ul>
 <p>要するに <strong>「幾何が合っていれば最良、合っていなければ使えない」</strong> 術式である。適応が狭いのは欠点だが、適応内での成績は20年データで担保されている。</p>
 
-<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">未入手の中核資料</div>
-<p><strong>Sievers HH, JTCVS 2010;140:816-22 の online E-Appendix（Figure E1–E9 の9図＋動画）</strong> は、subcoronaryの全工程を9枚で図解した唯一の資料である。supplementのため未入手。本章の図が薄いのはこの1点に起因する。</p>
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">本章に図がない理由</div>
+<p>subcoronaryの全工程を図解した唯一の資料は <strong>Sievers HH, JTCVS 2010;140:816-822 の E-Appendix（誌面 822.e1–e5、Figure E1–E9 ＋ 動画）</strong> である。<strong>本文（2-1）はこのE-Appendixを一次資料として全面的に反映している</strong>が、図そのものは<strong>非オープンアクセス（© Elsevier / AATS）</strong>のため本レビューには掲載していない。原典は下記から参照できる。 ・記事（全文・supplementary material）: <a href="https://www.jtcvs.org/article/S0022-5223(09)01540-2/fulltext" target="_blank" rel="noopener">jtcvs.org（PII S0022-5223(09)01540-2）</a> ・ScienceDirect: <a href="https://www.sciencedirect.com/science/article/pii/S0022522309015402" target="_blank" rel="noopener">sciencedirect.com/science/article/pii/S0022522309015402</a> ・<strong>E-Appendixは別ファイルではなく、記事PDFの誌面 822.e1–e5（PDFの最終5ページ）にそのまま綴じ込まれている。</strong> 手元のPDFを最後まで開けば Figure E1–E9 がある</p>
 </div>
 
 <h2 id="2-6-subcoronary特有の術後管理">2-6. subcoronary特有の術後管理</h2>
@@ -2707,9 +2778,9 @@ figure.vfig figcaption a { font-weight: 600; }
 <tr>
 <td>10</td>
 <td><strong>筋skirtをどれだけ残すか</strong></td>
-<td><strong>autograft側</strong>：Mazine 3–5mm／Dafflisio 2–3mm／Leiden「過剰筋は全切除」 vs <strong>Urganci 5mm以上</strong>（Valsalva graftへの縫い代のため）</td>
-<td><strong>homograft側</strong>：Skillington <strong>3–4mm</strong>（免疫反応を減らし圧較差を下げる） vs Réa <strong>0.5–1cm</strong></td>
-<td><strong>コンセンサスなし。補強法から逆算される変数</strong></td>
+<td><strong>autograft側</strong>：<strong>Sievers（subcoronary）1–2mm</strong> ／ Dafflisio 2–3mm ／ Mazine 3–5mm ／ Leiden「過剰筋は全切除」 vs <strong>Urganci 5mm以上</strong>（Valsalva graftへの縫い代のため）。RVOT切開の高さも <strong>Lübeck 2mm 〜 Dallas 6–8mm</strong> と3倍以上開く</td>
+<td><strong>homograft側</strong>：Skillington <strong>3–4mm</strong>（免疫反応を減らし圧較差を下げる） vs Réa <strong>0.5–1cm</strong> vs <strong>Sievers 2–3mm、あるいは筋rimを心膜/ePTFEストリップで丸ごと置換</strong></td>
+<td><strong>コンセンサスなし。補強法から逆算される変数</strong>（弁だけ移すsubcoronaryは最少、Dacron固定は最多）</td>
 </tr>
 <tr>
 <td>11</td>
@@ -3359,8 +3430,8 @@ figure.vfig figcaption a { font-weight: 600; }
 <td>非オープンアクセス。<strong>図1-4（Said）と図1-3（Dafflisio）で内容を代替した</strong></td>
 </tr>
 <tr>
-<td>Sievers HH, JTCVS 2010;140:816-822 の online E-Appendix（Figure E1–E9）</td>
-<td>supplementのため未入手。<strong>第2章の図が薄いのはこの1点に起因する</strong></td>
+<td>Sievers HH, JTCVS 2010;140:816-822 の E-Appendix（誌面 822.e1–e5、Figure E1–E9）</td>
+<td>非オープンアクセス。<strong>図は掲載できないが、記載内容は第2章 2-1 に全面反映した</strong>（E-Appendixは記事PDFの最終5ページに綴じ込まれている）</td>
 </tr>
 <tr>
 <td>Matsushima S, Ann Thorac Surg 2019;107:e361-e363, Fig 1–3</td>

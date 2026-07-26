@@ -53,7 +53,7 @@ Ross手術は動画資料が例外的に充実している領域である。本�
 | Zhu Y, JTCVS 2023;165(3):e103-e116, Figure 1（A–L: ACP付きinclusionの12コマ） | PMC版がNIH author manuscriptでCCライセンスの付与がない |
 | Skillington PD, JTCVS 2015;149:S46-52, Figure 1–3（大動脈基部の作り替え3パターン） | 非オープンアクセス |
 | Mazine A, Ann Thorac Surg 2018;105:1294-1298, Figure 1–2（第1中隔枝の位置／針の通し方） | 非オープンアクセス。**図1-4（Said）と図1-3（Dafflisio）で内容を代替した** |
-| Sievers HH, JTCVS 2010;140:816-822 の online E-Appendix（Figure E1–E9） | supplementのため未入手。**第2章の図が薄いのはこの1点に起因する** |
+| Sievers HH, JTCVS 2010;140:816-822 の E-Appendix（誌面 822.e1–e5、Figure E1–E9） | 非オープンアクセス。**図は掲載できないが、記載内容は第2章 2-1 に全面反映した**（E-Appendixは記事PDFの最終5ページに綴じ込まれている） |
 | Matsushima S, Ann Thorac Surg 2019;107:e361-e363, Fig 1–3 | 非オープンアクセス |
 | Myjavec A, EJCTS 2024;65:ezae118, Figure 1–2（リングサイジング） | 非オープンアクセス |
 | Basmadjian L, JTCVS 2016;151:1280-1285 | 非オープンアクセス |
