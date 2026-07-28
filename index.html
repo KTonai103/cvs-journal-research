@@ -22,6 +22,7 @@
   /* Category accents (one hue per clinical field) */
   --c-aortic:  oklch(0.55 0.14 255);
   --c-mitral:  oklch(0.56 0.15 350);
+  --c-multivalve: oklch(0.52 0.14 320);
   --c-arrhythmia: oklch(0.54 0.12 200);
   --c-hocm:    oklch(0.62 0.13 58);
   --c-coronary: oklch(0.53 0.14 25);
@@ -257,7 +258,7 @@ footer a:hover { color: var(--navy); }
   <h1>CVS Journal Research</h1>
   <p>心臓外科・MCS・LVAD 関連ジャーナル 注目論文＆トピックレビュー</p>
   <div class="header-stats">
-    <span><b>13</b>トピックレビュー</span>
+    <span><b>20</b>トピックレビュー</span>
     <span><b>5</b>月次レポート</span>
     <span><b>3</b>対象誌</span>
   </div>
@@ -265,13 +266,14 @@ footer a:hover { color: var(--navy); }
 
 <nav class="catnav" aria-label="カテゴリ">
   <div class="catnav-inner">
-    <a href="#aortic"  style="--accent:var(--c-aortic)"><span class="dot"></span>大動脈弁<span class="n">8</span></a>
+    <a href="#aortic"  style="--accent:var(--c-aortic)"><span class="dot"></span>大動脈弁<span class="n">9</span></a>
     <a href="#mitral"  style="--accent:var(--c-mitral)"><span class="dot"></span>僧帽弁<span class="n">1</span></a>
+    <a href="#multivalve" style="--accent:var(--c-multivalve)"><span class="dot"></span>複合弁<span class="n">1</span></a>
     <a href="#arrhythmia" style="--accent:var(--c-arrhythmia)"><span class="dot"></span>不整脈外科<span class="n">1</span></a>
-    <a href="#hocm"    style="--accent:var(--c-hocm)"><span class="dot"></span>HOCM・心筋切除<span class="n">2</span></a>
+    <a href="#hocm"    style="--accent:var(--c-hocm)"><span class="dot"></span>HOCM・心筋切除<span class="n">1</span></a>
     <a href="#coronary" style="--accent:var(--c-coronary)"><span class="dot"></span>冠動脈外科<span class="n">1</span></a>
-    <a href="#perf"    style="--accent:var(--c-perf)"><span class="dot"></span>体外循環・周術期<span class="n">2</span></a>
-    <a href="#mcs"     style="--accent:var(--c-mcs)"><span class="dot"></span>MCS・LVAD<span class="n">1</span></a>
+    <a href="#perf"    style="--accent:var(--c-perf)"><span class="dot"></span>体外循環・周術期<span class="n">4</span></a>
+    <a href="#mcs"     style="--accent:var(--c-mcs)"><span class="dot"></span>MCS・LVAD<span class="n">2</span></a>
     <a href="#reports" style="--accent:var(--c-report)"><span class="dot"></span>月次レポート<span class="n">5</span></a>
   </div>
 </nav>
@@ -284,7 +286,7 @@ footer a:hover { color: var(--navy); }
       <span class="marker"></span>
       <h2>大動脈弁</h2>
       <span class="en">Aortic Valve</span>
-      <span class="count">8件</span>
+      <span class="count">9件</span>
     </div>
     <div class="card-list">
 
@@ -380,6 +382,20 @@ footer a:hover { color: var(--navy); }
         </div>
       </a>
 
+      <a class="card" href="mics_avr/output/MICS_AVR_figure_atlas.html">
+        <div class="card-top"><span class="card-kind">Atlas</span><span class="card-date">2026-07-26</span></div>
+        <div class="card-title">MICS AVR（大動脈弁閉鎖不全症）— オペレコ作図用 図譜</div>
+        <div class="card-meta">AR に対する低侵襲AVR の術野・切開・展開を、34編のオープンアクセス論文から集めた<b>原典図73点</b>で図譜化 ｜ 核心は <b>AR では順行性の基部心筋保護が効かない</b>（弁が閉じないため）→ 冠動脈口への selective 注入または逆行性が必須 ｜ 各図に出典・ライセンスを明記</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">図譜 / Atlas</span>
+          <span class="badge badge-soft">34編・原典図73点</span>
+          <span class="badge badge-ejcts">MICS / 心筋保護</span>
+        </div>
+      </a>
+
+
+
+
     </div>
   </section>
 
@@ -401,6 +417,31 @@ footer a:hover { color: var(--navy); }
           <span class="badge badge-topic">Topic Review</span>
           <span class="badge badge-soft">弁別 最長フォロー</span>
           <span class="badge badge-list">DLリスト</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ 複合弁 ============ -->
+  <section id="multivalve" style="--accent:var(--c-multivalve)">
+    <div class="sec-head">
+      <span class="marker"></span>
+      <h2>複合弁</h2>
+      <span class="en">Multiple / Combined Valve</span>
+      <span class="count">1件</span>
+    </div>
+    <div class="card-list">
+
+      <a class="card" href="output/commando_procedure_review.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-28</span></div>
+        <div class="card-title">Commando Procedure — 大動脈弁・僧帽弁間線維体（IVF / aortomitral curtain）再建の統合レビュー</div>
+        <div class="card-meta">浸潤性感染性心内膜炎で弁輪間線維体が破壊された症例に対する Commando / hemi-Commando / Root-Commando を全32論文から統合 ｜ 適応・解剖・手技8ステップ・Pitfalls 12項目・施設別ベンチマーク・TAVR-IE や MAC など非IE適応まで ｜ <b>原典PDFの術中写真・手技図・推奨表54点</b>を該当節に挿入（Cleveland Clinic の術中6分割図／パッチ実寸／AATS 2016 推奨表）｜ AATS 推奨クラスの読み違い3件を原典表と照合して訂正 ｜ 全文検索窓つき</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">32編 統合・原典図54点</span>
+          <span class="badge badge-jtcvs">IVF / AMC 再建</span>
+          <span class="badge badge-ejcts">hemi- / Root-Commando</span>
         </div>
       </a>
 
@@ -439,19 +480,9 @@ footer a:hover { color: var(--navy); }
       <span class="marker"></span>
       <h2>肥大型心筋症・中隔心筋切除</h2>
       <span class="en">HOCM / Septal Myectomy</span>
-      <span class="count">2件</span>
+      <span class="count">1件</span>
     </div>
     <div class="card-list">
-
-      <a class="card" href="output/HOCM_myectomy_consensus_review.html">
-        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-05-27</span></div>
-        <div class="card-title">HOCM Septal Myectomy — 現在のコンセンサス・標準術式・推奨</div>
-        <div class="card-meta">25本の文献からコンセンサスと標準術式・推奨を整理（Mayo transapical 併用 vs Cleveland transaortic 単独 の対立点）</div>
-        <div class="card-badges">
-          <span class="badge badge-topic">Topic Review</span>
-          <span class="badge badge-soft">コンセンサス・標準術式</span>
-        </div>
-      </a>
 
       <a class="card" href="hocm_myectomy/output/HOCM_myectomy_integrated_review.html">
         <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-05-27</span></div>
@@ -466,7 +497,6 @@ footer a:hover { color: var(--navy); }
     </div>
   </section>
 
-  <!-- ============ 体外循環・周術期 ============ -->
   <!-- ============ 冠動脈外科 ============ -->
   <section id="coronary" style="--accent:var(--c-coronary)">
     <div class="sec-head">
@@ -555,7 +585,7 @@ footer a:hover { color: var(--navy); }
       <span class="marker"></span>
       <h2>MCS・LVAD</h2>
       <span class="en">Mechanical Circulatory Support</span>
-      <span class="count">1件</span>
+      <span class="count">2件</span>
     </div>
     <div class="card-list">
 
@@ -567,6 +597,17 @@ footer a:hover { color: var(--navy); }
           <span class="badge badge-topic">Topic Review</span>
           <span class="badge badge-soft">ガイドライン反映状況</span>
           <span class="badge badge-list">文献リスト・調査履歴</span>
+        </div>
+      </a>
+
+      <a class="card" href="output/topic_lvad_driveline_care_2026_07.html">
+        <div class="card-top"><span class="card-kind">Topic</span><span class="card-date">2026-07-15</span></div>
+        <div class="card-title">【LVAD】ドライブライン貫通部ケア 体系的レビュー — 消毒頻度・消毒薬・ドレッシング・固定</div>
+        <div class="card-meta">急性期→慢性期のケアを、各推奨の<b>エビデンス規模つき</b>で整理 ｜ 結論は <b>統一プロトコルは未確立</b>・CHG＋銀含有ドレッシング＋固定バンドルで感染 6–7.5%・<b>消毒頻度に優劣なし</b>（治癒後は週2–3回で足りる）・本質は<b>固定（アンカリング）</b> ｜ 未入手文献の依頼リストを §9 に明示</div>
+        <div class="card-badges">
+          <span class="badge badge-topic">Topic Review</span>
+          <span class="badge badge-soft">推奨別エビデンス規模</span>
+          <span class="badge badge-list">DL依頼リスト</span>
         </div>
       </a>
 

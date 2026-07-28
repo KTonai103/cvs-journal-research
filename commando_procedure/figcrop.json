@@ -1,0 +1,54 @@
+{
+  "dpi": 220,
+  "gap": 14,
+  "sources": {
+    "aats": "pdfs/Pettersson_AATSGuidelinesIESurgery_AnnCardiothoracSurg_2019.pdf"
+  },
+  "figures": [
+    {
+      "name": "aats_f02_indications.png",
+      "parts": [
+        {
+          "src": "aats",
+          "page": 5,
+          "rect": [
+            0.065,
+            0.105,
+            0.925,
+            0.662
+          ]
+        }
+      ]
+    },
+    {
+      "name": "aats_f03_workup.png",
+      "parts": [
+        {
+          "src": "aats",
+          "page": 6,
+          "rect": [
+            0.065,
+            0.105,
+            0.925,
+            0.62
+          ]
+        }
+      ]
+    },
+    {
+      "name": "aats_f06_intraop.png",
+      "parts": [
+        {
+          "src": "aats",
+          "page": 10,
+          "rect": [
+            0.065,
+            0.105,
+            0.925,
+            0.902
+          ]
+        }
+      ]
+    }
+  ]
+}
