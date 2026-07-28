@@ -31,7 +31,7 @@ follow-up: "n/a"
 ---
 
 > [!NOTE] Key Message
-> 2021 ESC/EACTS VHD Guideline は SAVR vs TAVI の **age cutoff を 75 歳** に設定 (ACC/AHA の 65/80 より明確に上)。**<75 y + low risk → SAVR (Class I C)**, **≥75 y or high risk → TAVI (Class I)**。Table 6 で **"High likelihood of severe PPM (AVA <0.65 cm²/m² BSA) → favors SAVR (rated 1)"** を anatomical factor として明記。本文 11.3 (Section 11 Prosthetic Valves) で **"Strategies for patients with small aortic annulus include root enlargement and use of stentless valves"** と AAE を明文記載 (Class/LOE なし、narrative)。**SURD valves に対し慎重姿勢**: "lack of a large-scale randomized comparison ... conventional AVR remains gold standard"。弁種: <60 y mechanical (Class IIa B), >65 y bioprosthetic (Class IIa C)。
+> 2021 ESC/EACTS VHD Guideline は SAVR vs TAVI の **age cutoff を 75 歳** に設定 (ACC/AHA の 65/80 より明確に上)。**<75 y + low risk → SAVR (Class I B)**, **≥75 y or high risk → TAVI (Class I A)**。Table 6 では **"High likelihood of severe PPM (AVA <0.65 cm²/m² BSA)" を ＋TAVI ／ −SAVR、すなわち TAVI 支持因子**として挙げる一方、**"Aortic annular dimensions unsuitable for available TAVI devices" は SAVR 支持**とし、両者を区別している。本文 11.3 (Section 11 Prosthetic Valves) で **"Strategies for patients with small aortic annulus include root enlargement and use of stentless valves"** と AAE を明文記載 (Class/LOE なし、narrative)。**SURD valves に対し慎重姿勢**: "lack of a large-scale randomized comparison ... conventional AVR remains gold standard"。弁種: <60 y mechanical (Class IIa B), >65 y bioprosthetic (Class IIa C)。
 
 ---
 
@@ -77,22 +77,36 @@ follow-up: "n/a"
 
 ### 4.3 Table 6: Factors that Favor TAVI vs SAVR (★ 狭小弁輪・PPM 直接言及)
 
-| Factor | TAVI | SAVR |
+> **⚠ 2026-07-25 訂正**: 本表は当初 1/2 を rating として転記していたが、原典は
+> **Favours TAVI / Favours SAVR の 2 列に ＋/− を置く形式**である（`pdftotext` が ＋/− を 1/2 として出力する）。
+> 転記した 14 行のうち **13 行は方向が正しかったが、"High likelihood of severe PPM" の 1 行だけが反転**していた。
+> この 1 行が統合レビュー §8 と SAKURA-AVR プロトコル §1.1 に伝播し、
+> 「ESC は PPM → SAVR」という誤った結論を生んだ。以下は原典画像で確認した正しい表。
+
+| Factor | Favours TAVI | Favours SAVR |
 |---|---|---|
-| Lower surgical risk | 2 | **1** |
-| Higher surgical risk | **1** | 2 |
-| Younger age | 2 | **1** |
-| Older age | **1** | 2 |
-| Severe frailty | **1** | 2 |
-| TAVI feasible via TF | **1** | 2 |
-| Sequelae of chest radiation | **1** | 2 |
-| Porcelain aorta | **1** | 2 |
-| **High likelihood of severe PPM (AVA <0.65 cm²/m² BSA)** | 2 | **1** |
-| Severe chest deformation / scoliosis | **1** | 2 |
-| Aortic annulus dimensions unsuitable for TAVI devices | 2 | **1** |
-| Bicuspid aortic valve | 2 | **1** |
-| Valve morphology unfavourable for TAVI | 2 | **1** |
-| Thrombus in aorta or LV | 2 | **1** |
+| Lower surgical risk | − | ＋ |
+| Higher surgical risk | ＋ | − |
+| Younger age | − | ＋ |
+| Older age | ＋ | − |
+| Previous cardiac surgery (intact CABG at risk) | ＋ | − |
+| Severe frailty | ＋ | − |
+| Active or suspected endocarditis | − | ＋ |
+| TAVI feasible via transfemoral approach | ＋ | − |
+| TF access challenging/impossible and SAVR feasible | − | ＋ |
+| TF access challenging/impossible and SAVR inadvisable | ＋ | − |
+| Sequelae of chest radiation | ＋ | − |
+| Porcelain aorta | ＋ | − |
+| **High likelihood of severe PPM (AVA <0.65 cm²/m² BSA)** | **＋** | **−** |
+| Severe chest deformation / scoliosis | ＋ | − |
+| Aortic annular dimensions unsuitable for available TAVI devices | − | ＋ |
+| Bicuspid aortic valve | − | ＋ |
+| Valve morphology unfavourable for TAVI | − | ＋ |
+| Thrombus in aorta or LV | − | ＋ |
+
+**要点**: ESC/EACTS は「**PPM が予想される**」（→ TAVI）と「**TAVI デバイスが入らない弁輪**」（→ SAVR）を
+明確に別項目として扱っている。狭小弁輪であること自体ではなく、
+「デバイスが物理的に入らないか」が SAVR を支持する条件である。
 | Significant multi-vessel CAD requiring surgical revasc | 2 | **1** |
 | Severe primary mitral disease | 2 | **1** |
 | Septal hypertrophy requiring myectomy | 2 | **1** |
@@ -106,7 +120,7 @@ follow-up: "n/a"
 
 - **AAE と stentless** を狭小弁輪戦略として narrative 推奨 (Class/LOE なし)。
 - **Sutureless/RDV に慎重姿勢**: RCT 不足を理由に conventional AVR を gold standard と明言 — ACC/AHA より保守的。
-- これは paper_list.md の note "**Class IIb / LOE C for AAE; emphasis on PPM prevention**" と整合 (Table 6 で PPM → SAVR を明示する点が "PPM prevention emphasis")。
+- paper_list.md の note "**Class IIb / LOE C for AAE; emphasis on PPM prevention**" については、AAE の narrative 支持（本文 11.3）は事実だが、**Table 6 の PPM 行は TAVI 支持である**点に注意（訂正済み・§4.3）。
 
 ### 4.5 Prosthetic Valve Selection (Section 11.3)
 
@@ -134,7 +148,7 @@ follow-up: "n/a"
   - ACC/AHA: <65 SAVR / 65–80 共有 / >80 TAVI
   - ESC/EACTS: **<75 SAVR / ≥75 TAVI**
   - ESC/EACTS の方が **若年-中年に SAVR をより強く推奨** = AAE-SAVR の臨床応用範囲が広い。
-- **PPM への姿勢**: Table 6 で AVA <0.65 cm²/m² (= severe PPM cutoff per Pibarot) を SAVR favoring factor として明示 → "PPM 予測 → SAVR" の論理を強く支持。
+- **PPM への姿勢**: Table 6 で AVA <0.65 cm²/m² (= severe PPM cutoff per Pibarot) を **TAVI favoring factor** として明示。本文 11.3 では狭小弁輪に root enlargement を narrative 支持しており、**同一ガイドライン内で narrative と意思決定表の方向が割れている**。
 - **AAE の位置付け**: Section 11.3 で narrative 推奨だが **Class/LOE 付与なし**。ACC/AHA も同じく Class/LOE なしだが、ESC/EACTS は **stentless と並列** で記載する点が特徴。
 - **SURD への慎重姿勢**: "RCT 不足 → conventional AVR が gold standard" は ACC/AHA より明示的に保守的。日本人の SURD 採用にも影響する scientific stance。
 - **若年 mechanical 推奨 (<60 y, Class IIa B)** が ACC/AHA より積極的 → 狭小弁輪+若年で mechanical + AAE の選択肢を強める。
@@ -144,7 +158,7 @@ follow-up: "n/a"
 - **Primary RQ (AAE-SAVR vs no-AAE vs TAVI)**:
   - **AAE-SAVR の position は ESC/EACTS で最も強い**: <75 y + low risk + 狭小弁輪 (PPM 予測) なら "SAVR + AAE" が triple recommend (age, risk, PPM すべて SAVR を favor)。
   - ≥75 y は TAVI 優先で AAE は議論にならないが、狭小 annulus が TAVI 不適なら SAVR + AAE がなお選択肢。
-  - **TAVI vs no-AAE SAVR の比較**: Table 6 で AVA <0.65 cm²/m² → SAVR favor、つまり **PPM 予測時に no-AAE SAVR を選ぶのは不適切** と暗黙に言っている。
+  - **TAVI vs no-AAE SAVR の比較**: Table 6 で AVA <0.65 cm²/m² → **TAVI favor**。すなわち ESC は「PPM が出そうなら TAVI へ」と言っており、AAE を加えて SAVR で対応せよとは意思決定表では述べていない。
 - **Secondary RQ (PPM/regression/予後)**:
   - Severe PPM cutoff AVA <0.65 cm²/m² を Table 6 で採用 (Pibarot と一致)。
   - ViV TAVI が小弁輪で困難 → 初回 SAVR で大きい弁を入れる (= AAE) ことが長期戦略上重要。

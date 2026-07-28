@@ -6,7 +6,8 @@ authors: "CVS_Journal_Research project (small_annulus_avr collection, 84 papers)
 category: 弁膜症外科
 paper-type: integrated-review
 language: ja
-version: "v2 (2026-06, 84-paper corpus; supersedes 2026-05 v1)"
+version: "v2.1 (2026-07-25 訂正版; 84-paper corpus; supersedes 2026-05 v1)"
+revised: 2026-07-25
 related:
   - "[[_index]]"
   - "[[protocol/2026-06-11_SAKURA-AVR_protocol]]"
@@ -14,14 +15,27 @@ related:
 
 # 狭小弁輪 SAVR と弁輪拡大術の正当性 — アジア人小体格を起点とした統合レビュー（2026-06 改訂版）
 
+> [!warning] v2.1 訂正記録（2026-07-25）— 原典 PDF の画像確認による
+> **① ESC/EACTS 2021 Table 6 の PPM 行の方向を訂正した（§0 要旨・§8 本文・§8 対比表・§10）。**
+> 従来「Table 6 は severe PPM を SAVR strongly favor する factor (rated 1) として明示」と記述していたが、
+> 原典は **＋TAVI ／ −SAVR、すなわち TAVI 支持因子**である。誤りの原因は `pdftotext` が ＋/− を
+> 「1」「2」として出力し、これを rating と誤読したことによる（[[Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022]] §4.3 に詳細）。
+> **正しくは、狭小弁輪＋予想 PPM に弁輪拡大を指すのは ACC/AHA 2020 のみで、ESC/EACTS・JCS は TAVI 側である。**
+>
+> **② Makkinejad 2025 の HR 0.19 に BSA 交絡の留保を追記した（§0 要旨・§9.1）。**
+> 同研究の傾向スコアマッチングには BSA が含まれず、著者自身の感度解析で BSA をマッチすると P=.067 と
+> 有意差が消える。**AAE 生存優位は体格交絡と未分離**であり、これは SAKURA-AVR の最重要の存在理由となる。
+>
+> **③ 記号を含む表はテキスト抽出を信用せず、必ず `pdftoppm` でページ画像を作って目視確認すること。**
+
 > [!abstract] 要旨
-> 大動脈弁置換 (AVR) を要する狭小弁輪 (≤21–23 mm)・小体格 (BSA <1.6 m²) 患者に対し、Yang らの **Y-incision** を契機に「3–5 弁サイズ拡大する弁輪拡大術 (AAE) で大型弁を入れ、prosthesis-patient mismatch (PPM) を回避し将来の valve-in-valve (ViV) margin を確保する」という "bigger is better" パラダイムが欧米で急速に標準化している。本レビューは **84 本**の取得文献（2026-06 に 15 本を追加）を統合し、特に**アジア人小体格患者に routine AAE が本当に正当化されるか**を批判的に検証する。要点は次の通り。**(1)** severe PPM (measured iEOA ≤0.65) が長期死亡・心臓死を増やすことは頑健に確立されるが（Head 2012 全死亡 HR 1.84／Sá 2024 n=122,989 で 20年 HR 1.29・心臓死 HR 2.04）[[Head_PPMLongTermSurvivalMeta_EHJ_2012]][[Sa_PPMimpactAfterSAVRMetaAnalysis_JAHA_2024]]、その「測り方」（measured vs predicted iEOA）が結論を左右する脆弱点であり、予測チャートは PPM を系統的に過小評価する [[Abushouk_MeasuredVsPredictedPPM_JACCCardiovascInterv_2023]][[Pibarot_FallacyIEOAChartPPMPrediction_EHJCardiovascImag_2020]]。**(2)** AAE は PPM を確実に減らす（メタ解析で severe PPM RR 0.61；Y-incision PSM で 23%→5.5%）が、**死亡で利益が出る確証はない**（Tanaka メタで中期死亡 HR 1.03, n.s.）[[Tanaka_AorticAnnularEnlargementOutcomesMetaAnalysis_AnnCardiothoracSurg_2024]][[Makkinejad_YIncisionVsTraditionalAAE_AnnCardiothoracSurg_2024]]。本テーマに最も近い既発表研究 Makkinejad（matched ≤23 mm 弁輪で AAE vs isolated AVR を PSM、6年生存 98% vs 74%・HR 0.19）は AAE 生存優位の最強シグナルだが、米国・大 BSA・TAVI 対照欠如・術後エコー不足という限界をもつ [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。**(3)** アジア人小体格には interrupted suturing（PPM 56%→29%）[[Tabata_InterruptedSuturingSmallSupraAnnular_JTCVS_2014]]、17 mm 高性能機械弁 [[Okamura_17mmStJudeRegentMidterm_CircJ_2012]]、supra-annular self-expanding TAVI [[Hase_EvolutRvsSAPIEN3JapaneseSmallAnnulus_CCI_2021]]、20 mm THV（5年死亡同等）[[Okuno_ExtremelySmall20mmTHV_JACCAsia_2025]] という複数の **"AAE 回避ルート"** が成立し、aorto-mitral continuity 8 mm という解剖学的天井 [[Maekawa_OptimalProsthesisSizeManouguian_ArtifOrgans_2002]] と Y-AAE 後 severe central MR の合併症シグナル [[Ozcelik_SevereMRAfterYIncisionCaseReport_JCardiothoracSurg_2026]] は過拡大の代償を示す。**(4)** RCT は依然 **TAVI vs Y-incision-SAVR を直接比較していない**（RHEIA の外科群は AAE ゼロ＝実質 no-AAE 対照）[[Tchetche_RHEIAtrialTAVIvsSAVRWomen_EHJ_2025]]。結論として、**「狭小弁輪＋小体格に一律 AAE」という規範はエビデンス的に正当化されない**。この空白を、当コンソーシアムが日韓多施設で **AAE-SAVR vs no-AAE SAVR を傾向スコアで直接比較し（self-expanding TAVI 参照、co-primary = measured iEOA による severe PPM・1 年平均圧較差、安全性 = AAE 後 MR）** 検証する研究が **SAKURA-AVR** である（[[protocol/2026-06-11_SAKURA-AVR_protocol]]）。本レビューはその科学的背景・エンドポイント・方法論の根拠を 9 章で提示する。
+> 大動脈弁置換 (AVR) を要する狭小弁輪 (≤21–23 mm)・小体格 (BSA <1.6 m²) 患者に対し、Yang らの **Y-incision** を契機に「3–5 弁サイズ拡大する弁輪拡大術 (AAE) で大型弁を入れ、prosthesis-patient mismatch (PPM) を回避し将来の valve-in-valve (ViV) margin を確保する」という "bigger is better" パラダイムが欧米で急速に標準化している。本レビューは **84 本**の取得文献（2026-06 に 15 本を追加）を統合し、特に**アジア人小体格患者に routine AAE が本当に正当化されるか**を批判的に検証する。要点は次の通り。**(1)** severe PPM (measured iEOA ≤0.65) が長期死亡・心臓死を増やすことは頑健に確立されるが（Head 2012 全死亡 HR 1.84／Sá 2024 n=122,989 で 20年 HR 1.29・心臓死 HR 2.04）[[Head_PPMLongTermSurvivalMeta_EHJ_2012]][[Sa_PPMimpactAfterSAVRMetaAnalysis_JAHA_2024]]、その「測り方」（measured vs predicted iEOA）が結論を左右する脆弱点であり、予測チャートは PPM を系統的に過小評価する [[Abushouk_MeasuredVsPredictedPPM_JACCCardiovascInterv_2023]][[Pibarot_FallacyIEOAChartPPMPrediction_EHJCardiovascImag_2020]]。**(2)** AAE は PPM を確実に減らす（メタ解析で severe PPM RR 0.61；Y-incision PSM で 23%→5.5%）が、**死亡で利益が出る確証はない**（Tanaka メタで中期死亡 HR 1.03, n.s.）[[Tanaka_AorticAnnularEnlargementOutcomesMetaAnalysis_AnnCardiothoracSurg_2024]][[Makkinejad_YIncisionVsTraditionalAAE_AnnCardiothoracSurg_2024]]。本テーマに最も近い既発表研究 Makkinejad（matched ≤23 mm 弁輪で AAE vs isolated AVR を PSM、6年生存 98% vs 74%・HR 0.19, 0.06–0.62）は AAE 生存優位の最強シグナルだが、**傾向スコアマッチングに BSA が含まれておらず、著者自身の感度解析で BSA をマッチに加えると 98% vs 73%・P=.067 と有意差が消失する**。すなわち **AAE の生存優位は体格交絡と分離できていない**（§9.1）。加えて米国単施設・TAVI 対照欠如・術後エコー不足という限界をもつ [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。**(3)** アジア人小体格には interrupted suturing（PPM 56%→29%）[[Tabata_InterruptedSuturingSmallSupraAnnular_JTCVS_2014]]、17 mm 高性能機械弁 [[Okamura_17mmStJudeRegentMidterm_CircJ_2012]]、supra-annular self-expanding TAVI [[Hase_EvolutRvsSAPIEN3JapaneseSmallAnnulus_CCI_2021]]、20 mm THV（5年死亡同等）[[Okuno_ExtremelySmall20mmTHV_JACCAsia_2025]] という複数の **"AAE 回避ルート"** が成立し、aorto-mitral continuity 8 mm という解剖学的天井 [[Maekawa_OptimalProsthesisSizeManouguian_ArtifOrgans_2002]] と Y-AAE 後 severe central MR の合併症シグナル [[Ozcelik_SevereMRAfterYIncisionCaseReport_JCardiothoracSurg_2026]] は過拡大の代償を示す。**(4)** RCT は依然 **TAVI vs Y-incision-SAVR を直接比較していない**（RHEIA の外科群は AAE ゼロ＝実質 no-AAE 対照）[[Tchetche_RHEIAtrialTAVIvsSAVRWomen_EHJ_2025]]。結論として、**「狭小弁輪＋小体格に一律 AAE」という規範はエビデンス的に正当化されない**。この空白を、当コンソーシアムが日韓多施設で **AAE-SAVR vs no-AAE SAVR を傾向スコアで直接比較し（self-expanding TAVI 参照、co-primary = measured iEOA による severe PPM・1 年平均圧較差、安全性 = AAE 後 MR）** 検証する研究が **SAKURA-AVR** である（[[protocol/2026-06-11_SAKURA-AVR_protocol]]）。本レビューはその科学的背景・エンドポイント・方法論の根拠を 9 章で提示する。
 
 ---
 
 ## 0. はじめに — 問いと本レビューの構成
 
-成人重症大動脈弁狭窄症に対する surgical AVR (SAVR) は操作死亡 1–2% に達し、関心は「いかに死なせないか」から「いかに最良の血行動態と長期予後を残すか」へ移った。その中心に PPM 回避があり、さらに将来の ViV-TAVR を見据えた **"先回りの大型化"** 戦略として、Yang ら (Univ Michigan) の Y-incision AAE が 2021 年以降に欧米で急速に普及した。一方、同じ「狭小弁輪＋予想 PPM」に対し **JCS 2020（日本）は TAVI を推奨**し、ACC/AHA・ESC/EACTS の root enlargement 志向とは方向が逆転している。この乖離は単なる学派の差ではなく、欧米コホート（BSA ≥1.8 m²、annulus 21 mm）と**アジア人小体格**（BSA 1.3–1.5 m²、annulus 17–20 mm、aorto-mitral continuity 8 mm）の解剖学的前提の差に根ざす。
+成人重症大動脈弁狭窄症に対する surgical AVR (SAVR) は操作死亡 1–2% に達し、関心は「いかに死なせないか」から「いかに最良の血行動態と長期予後を残すか」へ移った。その中心に PPM 回避があり、さらに将来の ViV-TAVR を見据えた **"先回りの大型化"** 戦略として、Yang ら (Univ Michigan) の Y-incision AAE が 2021 年以降に欧米で急速に普及した。一方、同じ「狭小弁輪＋予想 PPM」に対し **ESC/EACTS 2021 (Table 6) と JCS 2020 (Table 33) はいずれも TAVI を支持因子として挙げ**、弁輪拡大を明示するのは **ACC/AHA 2020 (Table 14) のみ**である（2026-07 に原典で再確認、§8）。すなわち外科的拡大の急速な普及は、主要3ガイドラインのうち2つとは逆方向を向いている。この乖離は単なる学派の差ではなく、欧米コホート（BSA ≥1.8 m²、annulus 21 mm）と**アジア人小体格**（BSA 1.3–1.5 m²、annulus 17–20 mm、aorto-mitral continuity 8 mm）の解剖学的前提の差に根ざす。
 
 本レビューの問いは一貫して **「Yang の魅力的な technical paper を契機に欧米で進む routine AAE の標準化は、アジア人小体格にもそのまま転用できるのか」** である。これは、(Primary) 狭小弁輪＋小体格で AAE 付き SAVR は AAE なし SAVR / TAVI よりアウトカムを改善するか、(Secondary) 将来の ViV を見据えた初回弁径は何 mm 必要で 19 mm は許容か、(Tertiary) アジア人特有の解剖を反映した手術戦略はどうあるべきか、の 3 つの research question (RQ) に分解される。
 
@@ -289,9 +303,9 @@ SURD が AAE の代替として高リスク症例まで使えるか、を裏づ�
 
 以上を総合すると、sutureless/rapid-deployment は **狭小弁輪に対し AAE を回避しつつ大型 EOA を確保する低侵襲代替** として、特に高齢・高リスク・併施手術例で合理的である。Beckmann の直接比較で severe PPM が ARE と有意差なく [[Beckmann_SuturelessVsRootEnlargement_ICVTS_2016]]、Santarpino で very-high risk まで mortality が低位安定し [[Santarpino_SURDIROperativeOutcomes_EJCTS_2019]]、DiBacco で小体格集団でも TAVI より中期成績が良好である [[DiBacco_SuturelessVsTAVISmallAnnulusMultiInstitutional_BrazJCardiovascSurg_2024]] ことは、SAKURA-AVR が問う「Asian 小体格でルーチン AAE は正当化されるか」に対し、**AAE のための CPB 延長を避けたい高齢層では sutureless が第一の対抗戦略となる** ことを示す。一方で本戦略には明確な留保がある。(1) PMI は ARE/conventional SAVR より高く (Beckmann 15%, BAV 7.9%) [[Beckmann_SuturelessVsRootEnlargement_ICVTS_2016]] [[Berretta_SuturelessBicuspidSURDIR_AnnCardiothoracSurg_2020]]、これが独立死亡因子 (HR 3.05) であることから [[DiBacco_SuturelessVsTAVISmallAnnulusMultiInstitutional_BrazJCardiovascSurg_2024]]、若年で耐久性が要る症例では AAE+conventional 弁がなお安全である。(2) 機種選択では gradient 重視で Intuity、時間短縮で Perceval という棲み分けが妥当である [[Berretta_SuturelessVsRapidDeployment_AnnThoracSurg_2022]]。(3) いずれの registry も iEOA に基づく PPM 直接解析を欠き、追跡が in-hospital に限られるため、SAKURA-AVR が co-primary とする「測定 indexed EOA による severe PPM ≤0.65」「1年 mean gradient」を真に評価しうるデータは現状不足している。したがって sutureless は AAE のルーチン化を不要とする有力な代替であるものの、severe PPM の測定値ベース評価と中長期 LV remodeling データを伴う前向き検証が、SAKURA-AVR を含め今後の課題として残る。
 
-## 8. 機械弁 vs 生体弁 と ガイドラインの方向性の差 (ACC/AHA・ESC/EACTS vs JCS)
+## 8. 機械弁 vs 生体弁 と ガイドラインの方向性の差 (ACC/AHA vs ESC/EACTS・JCS)
 
-狭小弁輪症例の治療戦略は、(1) 機械弁か生体弁かという prosthesis type の選択、(2) PPM 回避のために aortic annular enlargement (AAE) を加える SAVR を選ぶか、それとも TAVI を選ぶかという mode of intervention の選択、という二つの軸で決まる。本節では弁種選択の長期エビデンス (Goldstone) を踏まえたうえで、欧米ガイドライン (ACC/AHA・ESC/EACTS) が狭小弁輪に対し AAE/root enlargement を narrative に支持するのに対し、JCS 2020 が逆に TAVI を支持するという方向性の乖離を、日本人の体格と解剖学的余地という観点から批判的に検討する。
+狭小弁輪症例の治療戦略は、(1) 機械弁か生体弁かという prosthesis type の選択、(2) PPM 回避のために aortic annular enlargement (AAE) を加える SAVR を選ぶか、それとも TAVI を選ぶかという mode of intervention の選択、という二つの軸で決まる。本節では弁種選択の長期エビデンス (Goldstone) を踏まえたうえで、狭小弁輪＋予想 PPM に対する介入様式の推奨が **ACC/AHA 2020 のみ弁輪拡大 (SAVR) を指し、ESC/EACTS 2021 と JCS 2020 はいずれも TAVI を支持する**という乖離を、日本人の体格と解剖学的余地という観点から批判的に検討する。
 
 ### 8.1 機械弁 vs 生体弁: 若年小体格での long-term mortality 優位
 
@@ -314,14 +328,14 @@ ACC/AHA は <50 歳で機械弁を Class I (B-NR)、>65 歳で生体弁を Class
 
 **ACC/AHA 2020** は Figure 3 の注釈で「small aortic annulus or aorta では、より大きな prosthesis を留置し PPM を回避するために surgical annulus-enlarging procedure が必要となりうる」と明記し、AAE を SAVR の adjunct として位置付ける [[Otto_2020ACCAHAVHDGuideline_Circulation_2021]]。Executive summary の decision table はさらに踏み込み、「Concern for patient–prosthesis mismatch (annular enlargement might be considered)」を SAVR を支持する factor として明示する [[Otto_2020ACCAHAVHDExecSummary_JACC_2021]]。SAVR vs TAVI の age cutoff は <65 歳 SAVR (Class I A)、65–80 歳 shared decision、>80 歳 TF-TAVI 優先 (Class I A) である [[Otto_2020ACCAHAVHDExecSummary_JACC_2021]]。ただし AAE には Class/LOE は付与されず、narrative consensus にとどまる [[Otto_2020ACCAHAVHDGuideline_Circulation_2021]]。
 
-**ESC/EACTS 2021** は Section 11.3 で「狭小弁輪患者の戦略には root enlargement と stentless valve の使用が含まれる」と明記し、AAE を最も明示的に narrative 支持する一方、sutureless/RDV については「大規模 RCT が欠如し conventional AVR が gold standard である」と最も保守的な姿勢をとる [[Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022]]。Table 6 では「High likelihood of severe PPM (AVA <0.65 cm²/m² BSA)」を SAVR を strongly favor する factor (rated 1) として明示する [[Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022]]。SAVR vs TAVI cutoff は <75 歳 low risk で SAVR (Class I B)、≥75 歳または high risk で TAVI (Class I A) と、ACC/AHA より SAVR 領域が広い [[Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022]]。したがって <75 歳・low risk・PPM 予測の狭小弁輪では、年齢・リスク・PPM の三要素すべてが SAVR を favor し、「SAVR + AAE」が triple recommend となる。
+**ESC/EACTS 2021** は Section 11.3 で「狭小弁輪患者の戦略には root enlargement と stentless valve の使用が含まれる」と明記し、AAE を最も明示的に narrative 支持する一方、sutureless/RDV については「大規模 RCT が欠如し conventional AVR が gold standard である」と最も保守的な姿勢をとる [[Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022]]。**ただし Table 6 では「High likelihood of severe PPM (AVA <0.65 cm²/m² BSA)」を ＋TAVI ／ −SAVR、すなわち TAVI を支持する factor として挙げている** [[Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022]]。narrative では root enlargement に触れながら、意思決定表では PPM 予想例を TAVI へ送るという内部的な捻れがある。なお Table 6 は「PPM が予想される」と「TAVI デバイスが入らない弁輪 (aortic annular dimensions unsuitable for available TAVI devices)」を別項目として区別し、後者のみを SAVR 支持としている。SAVR vs TAVI cutoff は <75 歳 low risk で SAVR (Class I B)、≥75 歳または high risk で TAVI (Class I A) と、ACC/AHA より SAVR 領域が広い [[Vahanian_2021ESCEACTSVHDGuideline_EHJ_2022]]。したがって <75 歳・low risk の狭小弁輪では、**年齢とリスクは SAVR を favor する一方、PPM 予測は TAVI を favor する**という、同一ガイドライン内で方向の割れた状態が生じる。「年齢・リスク・PPM の三要素すべてが SAVR を favor し、SAVR + AAE が triple recommend となる」とは言えない。
 
-**JCS 2020** はこれと真っ向から対立する。Table 33 (SAVR vs TAVI 選択因子) は「Small annulus highly expected patient-prosthesis mismatch」を **TAVI を支持する factor** として位置付ける [[Izumi_JCS2020VHDGuideline_CircJ_2020]]。これは ESC/EACTS Table 6 の「PPM → SAVR」、ACC/AHA exec summary の「PPM → annular enlargement (SAVR)」と論理が逆転している。下表に方向性の対比を示す。
+**JCS 2020** も同じ側に立つ。Table 33 (SAVR vs TAVI 選択因子) は「Small annulus highly expected patient-prosthesis mismatch」を **TAVI を支持する factor** として位置付ける [[Izumi_JCS2020VHDGuideline_CircJ_2020]]。すなわち ESC/EACTS Table 6 と同方向であり、逆を向いているのは **ACC/AHA exec summary の「PPM → annular enlargement (SAVR)」だけ**である。なお JCS には SAVR vs TAVI を年齢で振り分ける Class/Level 付きの推奨表は存在せず、本文で「明確な cutoff は設けず ≥80 歳 TAVI・<75 歳 SAVR を優先順位の目安とする」と述べるにとどまる（3ガイドライン中で最も断定を避けている）。下表に方向性の対比を示す。
 
 | ガイドライン | 狭小弁輪 + PPM 予測の方向性 | AAE の扱い | SAVR vs TAVI age cutoff |
 |---|---|---|---|
 | ACC/AHA 2020 | annular enlargement → SAVR | narrative (Class/LOE なし) | <65 SAVR / 65–80 共有 / >80 TAVI |
-| ESC/EACTS 2021 | PPM (AVA <0.65) → SAVR (rated 1) | narrative (Class/LOE なし) | <75 SAVR / ≥75 TAVI |
+| ESC/EACTS 2021 | **PPM (AVA <0.65) → TAVI (＋TAVI/−SAVR)** | narrative (Class/LOE なし) | <75 SAVR / ≥75 TAVI |
 | JCS 2020 | Small annulus + PPM → **TAVI** | 明文記載なし (初回弁拡大は narrative) | <75 SAVR / ≥80 TAVI (明確な cutoff は設けず) |
 
 ### 8.3 乖離の根: 体格と解剖学的余地、そして批判的検討
@@ -350,11 +364,23 @@ ACC/AHA は <50 歳で機械弁を Class I (B-NR)、>65 歳で生体弁を Class
 | Moderate/severe PPM | 31% | 19% | .16 |
 | 6yr KM 生存率 | 74% | 98% | .016 |
 
-周術期成績 (operative mortality 3.6% vs 1.8%、pacemaker・stroke・再開胸いずれも同等) に差はないが、6 年 Kaplan-Meier 生存率は 74% vs 98% (P=.016) と AAE 群が優り、AAE は midterm 死亡の独立保護因子であった (HR 0.19, 95% CI 0.06-0.62, P=.006) [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。重要なのは、AAE 群が BSA 2.1 vs 1.9 m² (P<.001) という不利 (BSA 自体は HR 5.77 のリスク因子) を抱えながら生存優位を示した点である [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。さらに、術後 MR の増悪は認めず、AAE 自体は合併症リスクを増やさないと結論された [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。
+周術期成績 (operative mortality 3.6% vs 1.8%、pacemaker・stroke・再開胸いずれも同等) に差はないが、6 年 Kaplan-Meier 生存率は 74% vs 98% (P=.016) と AAE 群が優り、AAE は midterm 死亡の独立保護因子であった (HR 0.19, 95% CI 0.06-0.62, P=.006) [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。さらに、術後 MR の増悪は認めず、AAE 自体は合併症リスクを増やさないと結論された [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。
+
+> [!warning] BSA の扱いについて（2026-07-25 訂正）
+> 本レビュー v2 は当初、この結果を「**AAE 群は BSA 2.1 vs 1.9 m² という不利 (BSA 自体が HR 5.77 のリスク因子) を抱えながら生存優位を示した**」と評価していた。原典を精読した結果、この読みは**一面的であり撤回する**。事実関係は次のとおり。
+>
+> 1. **BSA は傾向スコアマッチングの変数に含まれていない。** マッチ変数は弁輪径・年齢・性別・糖尿病・慢性肺疾患・透析・EF・再手術歴・適応・高血圧・脂質異常症・弁種・脳卒中既往・心筋梗塞既往・緊急度であり、BSA は入っていない。結果として両群の BSA は P<.001 で有意に異なる。
+> 2. **著者自身の感度解析で、BSA をマッチ変数に加えると 6 年生存 98% vs 73%、P=.067 となり有意差が消失する** (Supplemental Figure)。著者は "due to decreased sample size" と説明している。
+> 3. **BSA の共変量推定値自体がきわめて不安定である** (HR 5.77, 95% CI 1.02–32.8)。CI が 30 倍の幅を持ち、「BSA が大きいほど不利」という解釈を強く支持する精度はない。
+> 4. 6 年時点の at-risk は **35 例と 14 例**まで減少しており、生存曲線の右端は少数例に依存する。
+>
+> したがって正確に言えるのは、「**AAE 群は BSA の不利を克服した**」ではなく、「**この生存優位は解析仕様の変更に対して頑健でなく、体格を揃えたコホートでは示されていない**」である。BSA 不均衡の向き (AAE 群のほうが大きい) は素朴には交絡が有利に働いた可能性を否定するように見えるが、著者自身の BSA マッチ解析が非有意に転じている以上、**BSA を含む適応バイアスの影響を否定も肯定もできない**というのが到達可能な結論である。
+>
+> この不確実性こそが SAKURA-AVR の存在理由である。**体格を設計段階で揃え、かつ十分な検出力を確保したコホートでなければ、AAE の生存への寄与は判定できない。**
 
 ### 9.2 Makkinejad の限界 — SAKURA が埋めるべき4つの穴
 
-設計の優秀さにもかかわらず、本研究には SAKURA-AVR が補完すべき決定的な限界がある。第一に、**米国・大 BSA 集団**であり asian-cohort ではない。むしろ AAE 群の BSA が大きく、小体格アジア集団 (SAKURA の対象) とは構図が真逆で、外的妥当性が未検証である [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。第二に、**TAVI 参照アームを欠く**。第三に、co-primary が survival 中心で、hemodynamic 指標 (1yr mean gradient P=.08、iEOA P=.53、moderate/severe PPM P=.16) はいずれも非有意にとどまった [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。第四に、**postop echo の follow-up 率が低く**、EOA 算出可能なエコーが不足したことがこの非有意の主因と明示されている [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。すなわち「AAE が PPM を減らす」という主機序を、本研究は hemodynamics として有意に証明しきれていない。
+設計の優秀さにもかかわらず、本研究には SAKURA-AVR が補完すべき決定的な限界がある。第一に、**米国・大 BSA 集団**であり asian-cohort ではない (両群とも BSA 1.9–2.1 m² で、SAKURA が対象とする 1.3–1.5 m² とは分布が重ならない)。加えて **BSA がマッチ変数に含まれず、著者自身の BSA マッチ感度解析では生存差が非有意 (P=.067) に転じる** ため、体格を揃えた条件下での AAE の効果は本研究からは判定できない。小体格アジア集団における外的妥当性は未検証である [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。第二に、**TAVI 参照アームを欠く**。第三に、co-primary が survival 中心で、hemodynamic 指標 (1yr mean gradient P=.08、iEOA P=.53、moderate/severe PPM P=.16) はいずれも非有意にとどまった [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。第四に、**postop echo の follow-up 率が低く**、EOA 算出可能なエコーが不足したことがこの非有意の主因と明示されている [[Makkinejad_AAEvsIsolatedAVRMatchedAnnulus_AnnThoracSurg_2025]]。すなわち「AAE が PPM を減らす」という主機序を、本研究は hemodynamics として有意に証明しきれていない。
 
 この限界はメタ解析の知見とも整合する。Tanaka ら (15 study, n=216,654) は、PS マッチ/調整後では AAE 群の周術期死亡差が消失し (RR 1.06, 95% CI 0.69-1.61)、中期死亡 (HR 1.03)・AV 再介入 (HR 0.98)・心不全 (HR 1.06) のいずれも有意差を示さなかった一方、**重症 PPM (iEOA ≤0.65) RR 0.61 (0.40-0.93)・中等度以上 PPM (iEOA ≤0.85) RR 0.70 (0.58-0.84)** と PPM 低減を明確に示した [[Tanaka_AorticAnnularEnlargementOutcomesMetaAnalysis_AnnCardiothoracSurg_2024]]。つまり文献全体として「AAE は PPM を減らすが、それが midterm survival に必ず翻訳されるとは限らない」という null 寄りの構図が見える。Tanaka らはさらに、mean follow-up 10 年超の比較研究が皆無であること、多くの研究が native 弁輪径を報告せず弁輪径でマッチした比較がほぼ存在しないこと、GRADE 品質が low〜very low であることを重大な限界として挙げ、**a priori の技術成功ベンチマークを備えた多施設前向き協同研究**を提言している [[Tanaka_AorticAnnularEnlargementOutcomesMetaAnalysis_AnnCardiothoracSurg_2024]]。SAKURA-AVR はこの提言に直接応答する設計である。
 
@@ -388,7 +414,7 @@ Makkinejad は「弁輪サイズを揃えれば AAE は midterm survival を改�
 
 ### Tertiary RQ：アジア人特有の解剖を反映した戦略は
 
-**第 3 のパラダイム — "Asian refinement"。** アジア人小体格には、interrupted suturing で AAE なしに PPM を半減（56%→29%）[[Tabata_InterruptedSuturingSmallSupraAnnular_JTCVS_2014]]、17/19 mm 高性能機械弁の中期妥当性 [[Okamura_17mmStJudeRegentMidterm_CircJ_2012]][[Zhao_RegentMechValveSmallAnnulus3yr_JCardiothoracSurg_2012]]、supra-annular self-expanding TAVI による実効的アップサイジング [[Hase_EvolutRvsSAPIEN3JapaneseSmallAnnulus_CCI_2021]][[Lee_SelfvsBalloonExpandableTAVRSmallAnnulus_KoreanCircJ_2021]]、20 mm THV [[Okuno_ExtremelySmall20mmTHV_JACCAsia_2025]] という複数の AAE 回避ルートがある。AAE を選ぶ場合も、aorto-mitral continuity 8 mm という解剖学的天井 [[Maekawa_OptimalProsthesisSizeManouguian_ArtifOrgans_2002]] を尊重し、Y-AAE 後 severe central MR のリスク [[Ozcelik_SevereMRAfterYIncisionCaseReport_JCardiothoracSurg_2026]] に留意して、Kitamura の "Y and I" のような refined approach を選ぶべきである [[Kitamura_YandIIncisionTechnique_AnnThoracSurgShortRep_2025]]。ただし低 LVEF 例 [[Hu_17mmRegentPPMMatter_JCardiothoracSurg_2014]] や AAE 非施行で severe PPM 22% が露呈する高齢 SAVR [[Kamioka_TAVRvsSAVRSmallAnnulus_IntHeartJ_2019]] では AAE の意義が残る。JCS 2020 の「小弁輪 → TAVI」推奨は、ACC/AHA・ESC/EACTS と方向は逆だが、日本人体格・施設状況に整合的であり独立に正当化される [[Izumi_JCS2020VHDGuideline_CircJ_2020]]。
+**第 3 のパラダイム — "Asian refinement"。** アジア人小体格には、interrupted suturing で AAE なしに PPM を半減（56%→29%）[[Tabata_InterruptedSuturingSmallSupraAnnular_JTCVS_2014]]、17/19 mm 高性能機械弁の中期妥当性 [[Okamura_17mmStJudeRegentMidterm_CircJ_2012]][[Zhao_RegentMechValveSmallAnnulus3yr_JCardiothoracSurg_2012]]、supra-annular self-expanding TAVI による実効的アップサイジング [[Hase_EvolutRvsSAPIEN3JapaneseSmallAnnulus_CCI_2021]][[Lee_SelfvsBalloonExpandableTAVRSmallAnnulus_KoreanCircJ_2021]]、20 mm THV [[Okuno_ExtremelySmall20mmTHV_JACCAsia_2025]] という複数の AAE 回避ルートがある。AAE を選ぶ場合も、aorto-mitral continuity 8 mm という解剖学的天井 [[Maekawa_OptimalProsthesisSizeManouguian_ArtifOrgans_2002]] を尊重し、Y-AAE 後 severe central MR のリスク [[Ozcelik_SevereMRAfterYIncisionCaseReport_JCardiothoracSurg_2026]] に留意して、Kitamura の "Y and I" のような refined approach を選ぶべきである [[Kitamura_YandIIncisionTechnique_AnnThoracSurgShortRep_2025]]。ただし低 LVEF 例 [[Hu_17mmRegentPPMMatter_JCardiothoracSurg_2014]] や AAE 非施行で severe PPM 22% が露呈する高齢 SAVR [[Kamioka_TAVRvsSAVRSmallAnnulus_IntHeartJ_2019]] では AAE の意義が残る。JCS 2020 の「小弁輪 → TAVI」推奨は **ESC/EACTS Table 6 と同方向**であり（逆を向くのは ACC/AHA のみ）、日本人体格・施設状況にも整合的であって独立に正当化される [[Izumi_JCS2020VHDGuideline_CircJ_2020]]。
 
 ### 総括
 
