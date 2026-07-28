@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>【LVAD抗血栓療法】ARIES-HM3「アスピリン削除可」のガイドライン反映状況 — 関連文献リスト＋調査履歴</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="lvad抗血栓療法aries-hm3アスピリン削除可のガイドライン反映状況--関連文献リスト調査履歴">【LVAD抗血栓療法】ARIES-HM3「アスピリン削除可」のガイドライン反映状況 — 関連文献リスト＋調査履歴</h1>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Info</div>
+<p><strong>調査主題</strong>：LVAD（HeartMate 3）の抗血栓療法で、ARIES-HM3トライアル（＝アスピリン削除可のエビデンス）は <strong>ガイドラインに反映されているか／まだ更新未か</strong>。 全引用は並列ワークフロー（14エージェント・research→adversarial DOI/PMID/原文verbatim verify）で個別検証済み。検証で判明した要注意点は §5 に記録。</p>
+</div>
+
+<hr />
+<h2 id="0-結論先に要点">§0. 結論（先に要点）</h2>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**正式ガイドライン本体は未更新／ARIESは「コンセンサス＋規制ラベル」で先行反映**</div>
+<ul>
+<li><strong>正式な臨床ガイドライン本体（2023 ISHLT MCS 10-Year Update）には ARIES は入っていない。</strong> 時系列上、物理的に反映不可能（ガイドライン公開がARIES発表より先）。本体は依然 <strong>アスピリン＋ワルファリン併用</strong>のまま。2026年6月時点で改訂版・focused updateは未発行。</li>
+<li><strong>ARIESの「アスピリン削除可」は別系統の2文書に既に反映済み</strong>：
+<ol type="1">
+<li><strong>2024 ISHLTコンセンサスステートメント</strong>（Hollis 2024）── ただし <em>guideline ではなく expert opinion</em> と自ら明記</li>
+<li><strong>FDA/EU/カナダの HeartMate 3 ラベル変更</strong>（2024年8月）── ルーチンのアスピリン削除</li>
+</ol></li>
+<li>つまり「<strong>ガイドラインは未更新だが、コンセンサス文書と添付文書が実装を先行</strong>」という状態。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="1-タイムラインaries反映の時系列">§1. タイムライン（ARIES反映の時系列）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>日付</th>
+<th>出来事</th>
+<th>文書クラス</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021</td>
+<td>ARIES-HM3 試験デザイン論文（rationale）公表</td>
+<td>試験プロトコル</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>旧 ISHLT MCS ガイドライン（→2023版が更新・代替）</td>
+<td>ガイドライン（旧）</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>EACTS Expert Consensus on Long-Term MCS（アスピリン＋抗凝固）</td>
+<td>コンセンサス</td>
+</tr>
+<tr>
+<td>2023-02</td>
+<td>HFSA Expert Consensus on Durable MCS</td>
+<td>コンセンサス</td>
+</tr>
+<tr>
+<td><strong>2023-05〜07</strong></td>
+<td><strong>2023 ISHLT MCS Guidelines（10-Year Update）公開</strong> ＝ <strong>現行の統括ガイドライン</strong>。アスピリン＋VKA（ARIES前）</td>
+<td><strong>ガイドライン（現行）</strong></td>
+</tr>
+<tr>
+<td><strong>2023-11-11</strong></td>
+<td><strong>ARIES-HM3 主要結果</strong>：AHA発表＋JAMA同時掲載（アスピリン削除＝非劣性・出血減）</td>
+<td>RCT</td>
+</tr>
+<tr>
+<td>2024-06-14</td>
+<td><strong>2024 ISHLTコンセンサスステートメント</strong>（HRAE）公表 ＝ ARIESを取込む最初のISHLT文書</td>
+<td><strong>コンセンサス</strong></td>
+</tr>
+<tr>
+<td>2024-08-21</td>
+<td><strong>FDA が HeartMate 3 ラベル変更を承認</strong>＝アスピリン削除（EU・カナダも）</td>
+<td><strong>規制ラベル</strong></td>
+</tr>
+<tr>
+<td>2025〜2026</td>
+<td>ARIES事前規定サブ解析（ASVD／併施手術／薬物療法）・TTR解析が継続</td>
+<td>サブ解析</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**時系列が決定的**</div>
+<p>2023 ISHLTガイドラインは<strong>オンライン公開 2023-05-25／印刷 7月号（採択 2022-12）</strong>。一方 <strong>ARIES-HM3 は 2023-11-11</strong>。<strong>約5〜6か月遅れ</strong>で結果が出たため、本ガイドラインは原理的にARIESを反映できなかった。</p>
+</div>
+
+<hr />
+<h2 id="2-文書クラス別--aries反映マトリクス">§2. 文書クラス別 — ARIES反映マトリクス</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>文書</th>
+<th>種別</th>
+<th>アスピリンの扱い</th>
+<th>ARIES反映</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>2023 ISHLT MCS Guidelines（10-Year Update）</strong></td>
+<td>正式ガイドライン</td>
+<td>アスピリン 81–325 mg ＋ ワルファリン（INR 2–3）※</td>
+<td>❌ 未反映（ARIES前）</td>
+</tr>
+<tr>
+<td><strong>2024 ISHLT Consensus Statement（HRAE）</strong></td>
+<td>コンセンサス声明</td>
+<td>HM3では実質 <strong>VKA単独</strong>を支持／アスピリン「無益・出血増」</td>
+<td>✅ 反映（ただし<em>guidelineではない</em>）</td>
+</tr>
+<tr>
+<td><strong>FDA / EU / Canada — HM3 ラベル</strong></td>
+<td>規制（添付文書/IFU）</td>
+<td>ルーチンの<strong>アスピリン削除</strong>（ワルファリン単独で可）</td>
+<td>✅ 反映（2024-08）</td>
+</tr>
+<tr>
+<td>HFSA Durable MCS Consensus（2023）</td>
+<td>コンセンサス</td>
+<td>旧パラダイム（アスピリン併用）</td>
+<td>❌ ARIES前</td>
+</tr>
+<tr>
+<td>2019 EACTS Long-Term MCS Consensus</td>
+<td>コンセンサス</td>
+<td>アスピリン併用（Level of Evidence C）</td>
+<td>❌ ARIES前</td>
+</tr>
+<tr>
+<td>ESC HF（2021 / 2023 focused update）</td>
+<td>ガイドライン</td>
+<td>LVAD候補管理のみ／抗血栓の更新推奨なし</td>
+<td>❌ 未反映</td>
+</tr>
+<tr>
+<td>AHA/ACC</td>
+<td>—</td>
+<td>LVAD抗血栓に特化した文書は<strong>存在せず</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>※「Class I」表記は二次レビュー依拠（一次原文の推奨グレード表は未確認）。詳細 §5。</p>
+</blockquote>
+<hr />
+<h2 id="3-関連文献リスト">§3. 関連文献リスト</h2>
+<blockquote>
+<p>🔓=Open Access ／ 🔒=機関アクセス要 ／ ✅=一次ソース検証済 ／ ⚠️=検証で要注意点あり（§5参照）</p>
+</blockquote>
+<h3 id="a-aries-hm3-本体と追試一次エビデンス">A. ARIES-HM3 本体と追試（一次エビデンス）</h3>
+<h4 id="a1-aries-hm3-主要論文-white_check_mark">A1. ARIES-HM3 主要論文 ✅</h4>
+<ul>
+<li>Mehra MR, Netuka I, Uriel N, et al. <strong>Aspirin and Hemocompatibility Events With a Left Ventricular Assist Device in Advanced Heart Failure: The ARIES-HM3 Randomized Clinical Trial.</strong> <em>JAMA</em> 2023;330(22):2171-2181.</li>
+<li>DOI: 10.1001/jama.2023.23204 ／ PMID: 37950897 ／ PMC10640705 ／ NCT04069156</li>
+<li><strong>要点</strong>：628例（314/群）、HM3、VKA（INR 2–3）下で <strong>アスピリン100 mg vs プラセボ</strong>。主要評価＝12か月 非外科的major HRAE回避生存（脳卒中・ポンプ血栓・非外科的大出血・動脈血栓塞栓）。プラセボ <strong>74.2% vs アスピリン 68.1% → 非劣性達成（P&lt;.001）</strong>。非外科的出血 <strong>RR 0.66（95%CI 0.51–0.85, P=.002）＝約1/3減</strong>、出血関連入院日数 <strong>47%減</strong>、血栓増加なし・<strong>ポンプ血栓ゼロ</strong>（両群）。</li>
+</ul>
+<h4 id="a2-試験デザイン論文">A2. 試験デザイン論文</h4>
+<ul>
+<li>Mehra MR, et al. <strong>ARIES-HM3 trial rationale and design.</strong> <em>Eur J Heart Fail</em> 2021. DOI: 10.1002/ejhf.2275</li>
+<li>※結果ではなくプロトコル。これが先行公開されていたため「結果が早く出ていたのでは」との反証仮説を検証 → <strong>結果の公開は2023-11が初出</strong>で確定（§5）。</li>
+</ul>
+<h4 id="a3-asvd動脈硬化性血管疾患サブ解析-white_check_mark">A3. ASVD（動脈硬化性血管疾患）サブ解析 ✅</h4>
+<ul>
+<li>Gustafsson F, et al. <strong>Aspirin and Hemocompatibility After LVAD Implantation in Patients With Atherosclerotic Vascular Disease: A Secondary Analysis From the ARIES-HM3 Randomized Clinical Trial.</strong> <em>JAMA Cardiol</em> 2025;10(3):235-242.</li>
+<li>DOI: 10.1001/jamacardio.2024.5547（参考）／ PMID: 39774588 ／ PMC11904737</li>
+<li><strong>要点</strong>：血管疾患既往群でも出血増の主因はアスピリン割付 ── プラセボ vs アスピリン <strong>RR 0.52（95%CI 0.35–0.79）</strong>。</li>
+</ul>
+<h4 id="a4-併施手術サブ解析-white_check_mark">A4. 併施手術サブ解析 ✅</h4>
+<ul>
+<li><strong>Concomitant Surgical Procedures and Aspirin Avoidance With Left Ventricular Assist Device Therapy.</strong> <em>JACC: Heart Failure</em> 2025;13(7).</li>
+<li>DOI: 10.1016/j.jchf.2025.01.017 ／ ARIES-HM3 事前規定解析。</li>
+</ul>
+<h4 id="a5-薬物療法raas阻害薬サブ解析-white_check_mark">A5. 薬物療法（RAAS阻害薬）サブ解析 ✅</h4>
+<ul>
+<li><strong>Hemocompatibility Outcomes With Pharmacological Therapy Following LVAD Implantation: Insights From the ARIES-HM3 Trial.</strong> <em>JACC: Heart Failure</em> 2025.</li>
+<li>DOI: 10.1016/j.jchf.2025.102769 ／ <strong>RAAS阻害薬使用がHRAE減少と独立に関連</strong>（headline所見）。</li>
+</ul>
+<h4 id="a6-長期アスピリン中止の実地データ-white_check_mark">A6. 長期アスピリン中止の実地データ ✅</h4>
+<ul>
+<li>Arnreiter P, et al. <strong>Hemocompatibility Outcomes After Aspirin Withdrawal in Long-Term HeartMate 3 LVAD Patients on Vitamin K Antagonists.</strong> <em>Artificial Organs</em> 2026;50(5):714-720.（Med Univ Vienna）</li>
+<li>DOI: 10.1111/aor.70059 ／ PMID: 41263447</li>
+<li><strong>要点</strong>：44例。HRAE 中止前9.1% → 後6.8%（増加なし）、出血 7.0%→2.3%。<strong>VKA下のアスピリン中止は長期例でも安全</strong>。</li>
+</ul>
+<h4 id="a7-抗凝固の質ttr解析">A7. 抗凝固の質（TTR）解析</h4>
+<ul>
+<li>Connors JM, et al. <strong>（ARIES-HM3 anticoagulation quality / TTR analysis）</strong> <em>Eur Heart J</em> 2026;47(8).</li>
+<li>DOI: 10.1093/eurheartj/ehaf745（オンライン 2025-11-07）。</li>
+</ul>
+<h3 id="b-ガイドラインコンセンサス文書">B. ガイドライン・コンセンサス文書</h3>
+<h4 id="b1-現行の統括ガイドラインdurable-mcswhite_check_markwarning">B1. 現行の統括ガイドライン（durable MCS）✅⚠️</h4>
+<ul>
+<li>Saeed D, Feldman D, El Banayosy A, et al. <strong>The 2023 International Society for Heart and Lung Transplantation Guidelines for Mechanical Circulatory Support: A 10-Year Update.</strong> <em>J Heart Lung Transplant</em> 2023;42(7):e1-e222.</li>
+<li>DOI: 10.1016/j.healun.2022.12.004 ／ PMID: 37245143 ／ オンライン 2023-05-25</li>
+<li><strong>位置づけ</strong>：2013年版を更新（"update/augment"）する<strong>現行ガイドライン</strong>。HeartMate 3承認・HVAD新規植込み中止を反映。<strong>抗血栓＝アスピリン 81–325 mg ＋ ワルファリン INR 2–3</strong>。<strong>ARIESは未反映</strong>。⚠️「Class I」「全デバイス共通」は二次レビュー依拠（§5）。</li>
+</ul>
+<h4 id="b2-ariesを取込む最初のishlt文書コンセンサスwhite_check_mark">B2. ARIESを取込む最初のISHLT文書（コンセンサス）✅</h4>
+<ul>
+<li>Hollis IB, Jennings DL, Krim S, et al. <strong>An ISHLT Consensus Statement on Strategies to Prevent and Manage Hemocompatibility Related Adverse Events in Patients with a Durable, Continuous-Flow Ventricular Assist Device.</strong> <em>J Heart Lung Transplant</em> 2024;43(8):1199-1234.</li>
+<li>DOI: 10.1016/j.healun.2024.04.065 ／ ISHLT公表 2024-06-14</li>
+<li><strong>原文verbatim（検証済）</strong>：
+<ul>
+<li>「<em>The use of aspirin after HM3 LVAD has not been proven to be beneficial in preventing thrombotic events and is associated with increased risk of bleeding.</em>」（Key points）</li>
+<li>「<em>This study challenges current guideline recommendations favoring the use of ASA in patients with a HM3 LVAD; as such, the use of ASA in this setting will likely decrease significantly moving forward.</em>」</li>
+</ul></li>
+<li><strong>重要</strong>：自ら「<em>a summative assessment of the current literature with accompanying expert opinion, <strong>rather than guidelines</strong> written with specific levels of evidence</em>」と明記＝<strong>Class/Level付き正式ガイドラインとは別カテゴリ</strong>。</li>
+</ul>
+<h4 id="b3-急性mcsガイドライン別スコープ">B3. 急性MCSガイドライン（別スコープ）</h4>
+<ul>
+<li><strong>The ISHLT/HFSA Guideline on Acute Mechanical Circulatory Support.</strong> <em>J Heart Lung Transplant</em> 2023.（HFSA/ISHLT合同、2023-02公表）</li>
+<li>※acute MCS（心原性ショック等）が対象で、durable LVADとは別スコープ。混同注意。</li>
+</ul>
+<h4 id="b4-hfsa-durable-mcs-コンセンサスaries前white_check_mark">B4. HFSA durable MCS コンセンサス（ARIES前）✅</h4>
+<ul>
+<li>Saeed D, et al. <strong>HFSA Expert Consensus Statement on the Medical Management of Patients on Durable Mechanical Circulatory Support.</strong> <em>J Card Fail</em> 2023.</li>
+<li>DOI: 10.1016/j.cardfail.2023.01.009 ／ 旧パラダイム（VKA＋アスピリン）。</li>
+</ul>
+<h4 id="b5-eacts-long-term-mcs-コンセンサスaries前white_check_mark">B5. EACTS long-term MCS コンセンサス（ARIES前）✅</h4>
+<ul>
+<li>Potapov EV, et al. <strong>2019 EACTS Expert Consensus on Long-Term Mechanical Circulatory Support.</strong> <em>Eur J Cardiothorac Surg</em> 2019;56(2):230-270.</li>
+<li>PMID: 31100109 ／ アスピリン＋抗凝固（Level of Evidence C）。ARIES後の更新なし。</li>
+</ul>
+<h4 id="b6-旧-ishlt-mcsガイドライン被代替">B6. 旧 ISHLT MCSガイドライン（被代替）</h4>
+<ul>
+<li>Feldman D, et al. <strong>The 2013 International Society for Heart and Lung Transplantation Guidelines for Mechanical Circulatory Support.</strong> <em>J Heart Lung Transplant</em> 2013.</li>
+<li>※2023版が更新。⚠️ ISHLT公式表現は "update/augment" で「explicitly replaced」は言い過ぎ（§5）。</li>
+</ul>
+<h3 id="c-規制ラベル変更">C. 規制・ラベル変更</h3>
+<h4 id="c1-fda-heartmate-3-ラベル変更アスピリン削除white_check_mark">C1. FDA HeartMate 3 ラベル変更（アスピリン削除）✅</h4>
+<ul>
+<li>Abbott press release. <strong>Abbott Advances Heart Failure Management with Aspirin Free Regimen for Patients Receiving the HeartMate 3 Heart Pump.</strong> 2024-08-21.</li>
+<li><strong>要点</strong>：FDAが<strong>ルーチンのアスピリンを削除</strong>するHM3ラベル変更を承認（ワルファリン単独で可）。<strong>EU・カナダの規制当局でも同変更を承認</strong>。ARIES-HM3が根拠。</li>
+</ul>
+<h4 id="c2-規制コメンタリ二次報道">C2. 規制コメンタリ（二次報道）</h4>
+<ul>
+<li>TCTMD. <strong>FDA Approves Dropping Aspirin for HeartMate 3 LVAD Patients.</strong> 2024-08-21.（tctmd.com）／ Healio・Cardiovascular Business 等も同日報道。</li>
+</ul>
+<h3 id="d-論説レビュー実地はガイドラインに先行の言説">D. 論説・レビュー（実地はガイドラインに先行、の言説）</h3>
+<h4 id="d1-circ-heart-fail-論説-white_check_mark">D1. Circ Heart Fail 論説 ✅</h4>
+<ul>
+<li><strong>Antithrombotic Therapy for Mechanical Circulatory Support: Time to Throw the Baby (Warfarin) Out With the Bathwater (Aspirin)?</strong> <em>Circulation: Heart Failure</em> 2024（2024-07-25）.</li>
+<li>DOI: 10.1161/CIRCHEARTFAILURE.124.011568 ／ PMID: 39051102 ／ 2023 ISHLTガイドラインの推奨を引用しつつ、ARIES後はワルファリン単独/DOACの検討へ、と論じる。</li>
+</ul>
+<h4 id="d2-curr-cardiol-rev-論説-white_check_mark">D2. Curr Cardiol Rev 論説 ✅</h4>
+<ul>
+<li>Brown MT, Wenger NK. <strong>Less is More in Antithrombotic Therapy for Durable Left Ventricular Assist Devices.</strong> <em>Curr Cardiol Rev</em> 2024. PMC11440322</li>
+<li>ARIESの出血約34%減・血栓非増加を踏まえde-escalationを支持（ただしガイドライン更新済とは述べない）。</li>
+</ul>
+<h4 id="d3-nat-rev-cardiol-コメンタリ">D3. Nat Rev Cardiol コメンタリ</h4>
+<ul>
+<li><strong>Aspirin exclusion in patients with an LVAD.</strong> <em>Nat Rev Cardiol</em> 2023. DOI: 10.1038/s41569-023-00965-0</li>
+</ul>
+<h4 id="d4-2023-ishltガイドライン解説レビュー">D4. 2023 ISHLTガイドライン解説レビュー</h4>
+<ul>
+<li><strong>（2023 ISHLT MCSガイドラインのレビュー）</strong> <em>Curr Treat Options Cardiovasc Med</em> 2024. DOI: 10.1007/s11936-024-01050-6</li>
+<li>※「Class I：アスピリン81–325 mg＋ワルファリン、全デバイス共通」と記載する二次ソース（=B1のグレード表記の出所、§5）。</li>
+</ul>
+<hr />
+<h2 id="4-調査履歴メソッド">§4. 調査履歴（メソッド）</h2>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**調査方法**</div>
+<p>2026-06-10、並列ワークフロー（<strong>14エージェント</strong>）で実施。構成＝<strong>Research（4スレッド並列）→ Verify（主要主張を敵対的検証）</strong>。</p>
+</div>
+
+<h3 id="4-1-リサーチ4スレッド並列">§4-1. リサーチ4スレッド（並列）</h3>
+<ol type="1">
+<li><strong>ARIES-HM3 試験</strong>：citation・デザイン・主要結果・結論・追試（2024–2026）の特定。</li>
+<li><strong>ISHLT durable MCSガイドライン</strong>：現行版と発行日／アスピリン推奨の有無／ARIES反映の有無。</li>
+<li><strong>ラベル・コンセンサスの変化</strong>：FDA/Abbottのラベル変更、ISHLT等の声明（2023–2026）。</li>
+<li><strong>広域動向</strong>：ESC/EACTS/AHA/ACC/HFSA、および「ガイドラインがエビデンスに遅れている」と明言する論説。</li>
+</ol>
+<h3 id="4-2-検証adversarial-verify">§4-2. 検証（adversarial verify）</h3>
+<ul>
+<li>各スレッドの主要主張を抽出し、「<strong>反証を試みる</strong>」プロンプトで個別検証（PubMed PMID／CrossRef DOI／原文PDF verbatim照合）。</li>
+<li>主要10主張を検証 → <strong>confirmed 8／uncertain 2</strong>（uncertainの中身は§5）。</li>
+</ul>
+<h3 id="4-3-データソース">§4-3. データソース</h3>
+<ul>
+<li><strong>一次</strong>：PubMed・CrossRef API・JAMA Network・JHLT(jhltonline.org)・ISHLT.org（コンセンサスPDF原文抽出）・FDA/Abbott press。</li>
+<li><strong>二次（裏取り用）</strong>：TCTMD・Healio・Springer review・ACC.org。</li>
+</ul>
+<hr />
+<h2 id="5-検証で判明した要注意点まとめ転記時の注意">§5. 検証で判明した要注意点（まとめ転記時の注意）</h2>
+
+<div class="callout" style="background:#ffebee;border-left:4px solid #ff5252;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff5252;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**① 出血指標の数値**</div>
+<p>巷で引用される「出血 <strong>HR 0.67（95%CI 0.50–0.92, p=0.01）</strong>」は <strong>JAMA一次論文に記載なし</strong>。 一次の正規値は <strong>RR 0.66（95%CI 0.51–0.85, P=.002）</strong>（累積出血）と、24か月KM確率 <strong>42.4%(ASA) vs 30.0%(placebo), P=.01</strong>。 → <strong>まとめにはRR値を採用すること</strong>。</p>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**② 2023ガイドラインの「Class I」表記**</div>
+<p>「antiplatelet＝<strong>Class I</strong>／全デバイス共通」は <strong>二次レビュー（D4等）依拠</strong>。一次の推奨グレード表は原文アクセス不可（HTTP 403）で<strong>未確認</strong>。 アスピリン＋VKAを推奨している事実は確実だが、<strong>グレード表記は二次情報</strong>として扱う。 ※なお2024 ISHLTコンセンサスはデバイス別ガイダンス（HM2/HVAD/HM3で異なる）を示しており、「全デバイス共通」の一般化はHM3で揺らいでいる。</p>
+</div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**③ 「2013版を explicitly replaced」は言い過ぎ**</div>
+<p>ISHLT公式表現は一貫して "<strong>update / augment</strong>"。2013版が臨床的に旧くなったのは事実だが、「明示的に置換（supersede）」という一次表現は確認できず（二次パラフレーズのみ）。</p>
+</div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**④ 文書クラスの区別が本質**</div>
+<p>「<strong>ガイドライン</strong>（Class/Level付き臨床診療指針）」と「<strong>コンセンサスステートメント</strong>（expert opinion）」は別物。ARIESを反映したのは後者＋規制ラベルであり、<strong>前者（2023 ISHLT本体）は未改訂</strong>。ご質問の「Consensus」は B2（2024 ISHLTコンセンサス）に相当。</p>
+</div>
+
+<hr />
+<h2 id="6-まとめ文書-追記用ドラフトコピペ可">§6. まとめ文書 追記用ドラフト（コピペ可）</h2>
+
+<div class="callout" style="background:#ede7f6;border-left:4px solid #7c4dff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#7c4dff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">**LVAD抗血栓まとめへの追記文（そのまま貼れる短文）**</div>
+<p><strong>抗血栓療法（HeartMate 3）｜ARIES-HM3とガイドライン反映状況（2026-06時点）</strong></p>
+<ul>
+<li>現行の正式ガイドライン <strong>2023 ISHLT MCS（10-Year Update）</strong> は <strong>アスピリン＋ワルファリン併用</strong>のままで、<strong>ARIESは未反映</strong>（ガイドライン公開がARIES発表より先のため）。本体の改訂版は未発行。</li>
+<li>ARIESの「<strong>アスピリン削除可</strong>」は、<strong>2024 ISHLTコンセンサスステートメント</strong>（Hollis 2024、ただしexpert opinionでありguidelineではない）と、<strong>FDA/EU/カナダのHeartMate 3ラベル変更</strong>（2024-08、ルーチンのアスピリン削除）で<strong>実装が先行</strong>。</li>
+<li>エビデンス本体：ARIES-HM3（Mehra, <em>JAMA</em> 2023;330:2171）── VKA下でアスピリン省略は<strong>非劣性</strong>、非外科的出血 <strong>RR 0.66（0.51–0.85）</strong>、出血関連入院 <strong>47%減</strong>、血栓非増加。</li>
+<li>要約：<strong>「ガイドラインは未更新／コンセンサス＋添付文書で反映済み」</strong>。</li>
+</ul>
+</div>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

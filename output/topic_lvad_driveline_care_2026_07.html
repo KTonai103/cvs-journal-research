@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="LVADドライブライン貫通部ケア 体系的レビュー — 急性期〜慢性期の推奨・消毒頻度・消毒薬・ドレッシング・エビデンス規模">
+<title>【LVAD】ドライブライン貫通部ケア 体系的レビュー — 急性期〜慢性期の推奨・消毒頻度・消毒薬・ドレッシングとエビデンスの規模</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — セクション</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="title">【LVAD】ドライブライン貫通部ケア 体系的レビュー<br>— 急性期〜慢性期の推奨・消毒頻度・消毒薬・ドレッシングとエビデンスの規模</h1>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">本レビューの目的</div>
+<p>植込み型連続流補助人工心臓（LVAD／VAD）の<strong>ドライブライン貫通部（driveline exit site, DLES）</strong>のケアについて、<strong>急性期（周術期・創治癒前）から慢性期（治癒後・在宅）まで</strong>の推奨を時間軸で整理する。<strong>①消毒の頻度（週何回か）、②消毒薬の種類、③ドレッシング材、④固定・免荷、⑤シャワー</strong>の各論点について、<strong>推奨内容とその根拠論文・エビデンスの規模（何施設・何症例・研究デザイン）</strong>を併記した。データソースは ISHLT コンセンサス文書・2023 ISHLT ガイドライン・系統的レビュー2本・多施設研究・単施設コホートで、各主張の症例数と研究デザインを本文に明記している。<strong>2026-07-15 更新：主要一次文献6本（Kusne 2017 コンセンサス／Saeed 2023 ガイドライン／RESIST／Wus 2015／DESTINE／Cagliostro 2016）のフルテキストを入手・精読し、2023 ISHLT ガイドラインの Class/Level 推奨を verbatim 確認して §2.5 に反映した。</strong>（2026-07 作成）</p>
+</div>
+
+<hr />
+<h2 id="s0">§0. 結論（先に要点）</h2>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">全体像 — 「ゴールドスタンダードは無いが、束（バンドル）で収束しつつある」</div>
+<ul>
+<li><strong>国際的な統一プロトコルは未確立</strong>。ドライブライン感染（DLI）は依然 LVAD の最多合併症の一つで、INTERMACS 登録で<strong>植込み12か月で約19%</strong>、系統的レビューの中央値でも<strong>13.8%（範囲 0〜52.6%）</strong>と施設間差が極端に大きい。この「ばらつきそのもの」が、標準化不足を示す最大の証拠。</li>
+<li><strong>推奨の方向性は一致</strong>している：<strong>①無菌操作、②クロルヘキシジン（CHG）による消毒、③銀含有ドレッシング、④確実な固定・免荷（アンカリング）、⑤治癒までシャワー制限、⑥標準化キット＋患者教育</strong>。この「バンドル」を採る施設で DLI が <strong>6〜7.5%</strong> と低い。</li>
+<li><strong>消毒／交換頻度そのものに優劣のエビデンスは無い</strong>。系統的レビューで「daily／週2〜3回／週1回のいずれも他より有効とは言えない」。近年は<strong>治癒後は週2〜3回まで減らす</strong>方向（daily は不要）で、交換頻度よりも<strong>「無菌・固定・機械的トラウマ回避」の徹底</strong>が本質と理解されている。</li>
+<li><strong>2023 ISHLT ガイドラインは DLES ケアを Class I で推奨</strong>している（標準化プロトコル・CHG 第一選択・毎日→治癒後 週1〜3回・固定）。ただし<strong>全て Level of evidence C</strong>＝根拠は専門家意見／観察研究レベル。銀／CHG 含浸パッチは Class IIb（§2.5に一次確認）。</li>
+<li>エビデンスの質は<strong>全体に低〜中</strong>（RCT はほぼ無く、後ろ向きコホート＋専門家コンセンサスが主体）。したがって推奨は<strong>「強い推奨だが弱い根拠（Class I / Level C）」</strong>として読むべき。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="s1">§1. 時間軸で見るケア — 急性期から慢性期まで</h2>
+
+<p>DLES ケアは、創が閉じるまでの<strong>急性期（免荷と無菌が最優先）</strong>と、上皮化・肉芽固定が完成した<strong>慢性期（在宅自己管理・頻度漸減）</strong>で目的が変わる。コンセンサス文書と主要施設プロトコルを統合すると、標準的な時間軸は以下の通り。</p>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>時期</th>
+<th>主目的</th>
+<th>消毒／ドレッシング交換頻度</th>
+<th>消毒薬・ドレッシング</th>
+<th>固定・その他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>術直後〜数日<br>（入院・ICU）</strong></td>
+<td>止血・免荷・<strong>ドライブラインの完全固定</strong>。創部を動かさない</td>
+<td>初回交換は施設方針（多くは滲出が続く間は毎日〜隔日）。無菌操作（手袋・マスク・キャップ・滅菌手技）</td>
+<td>CHG 消毒＋滅菌ガーゼ。滲出が多ければ吸収性ドレッシング。銀含有材を初期から使う施設も</td>
+<td><strong>免荷が最重要</strong>：貫通部にテンション／牽引がかからないよう腹壁でしっかり固定。牽引外傷が後の DLI の起点</td>
+</tr>
+<tr>
+<td><strong>創治癒期<br>（〜術後2〜6週）</strong></td>
+<td>上皮化・肉芽形成の促進。感染徴候の早期発見</td>
+<td>滲出減少に応じ毎日→週2〜3回へ漸減。<strong>この時期は無菌操作を厳守</strong></td>
+<td>CHG（0.5〜2%）＋滅菌ガーゼ or 透明フィルム。<strong>銀含有ドレッシングは初期6か月に費用対効果が高い</strong>との示唆</td>
+<td>アンカリング装置で固定継続。シャワーは<strong>完全治癒まで不可</strong>（防水被覆下でも慎重）</td>
+</tr>
+<tr>
+<td><strong>慢性・在宅期<br>（治癒後〜長期）</strong></td>
+<td>DLI 予防・患者／家族による自己管理の確立</td>
+<td><strong>週2〜3回が最多（daily は不要）</strong>。滲出・発赤があれば頻度を戻す。系統的レビューで頻度の優劣なし</td>
+<td>CHG が最も選好。滅菌ガーゼ＋透明フィルム被覆。銀含有／dressing kit 併用で低 DLI</td>
+<td>固定装置の継続使用が肝。治癒後は防水被覆でシャワー可とする施設が多いが、<strong>「従来型シャワー中止」で緑膿菌感染が減る</strong>との報告あり</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">時間軸の本質 — 「頻度」より「免荷と無菌の一貫性」</div>
+<p>急性期に貫通部を確実に固定し（機械的トラウマ＝DLI の最大の引き金）、創が治るまで無菌を貫くこと。慢性期は頻度を落としてよいが、<strong>手技の質（無菌・固定）を落とさない</strong>ことが全プロトコルに共通する原則。DLI の唯一の一貫した独立危険因子は多変量解析で<strong>「若年」</strong>＝活動量が多く貫通部外傷を起こしやすい、という点も「免荷が本質」を裏づける。</p>
+</div>
+
+<hr />
+<h2 id="s2">§2. 推奨の出典 — コンセンサス／ガイドラインの地図とエビデンスの位置づけ</h2>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>文書</th>
+<th>種別・年</th>
+<th>DLES ケアに関する内容</th>
+<th>エビデンスの重み</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ISHLT MCS 感染 コンセンサス文書<br>(Kusne 2017)</strong></td>
+<td>国際コンセンサス／2017</td>
+<td><strong>DLES ケアの現行の礎</strong>。無菌操作、貫通部の<strong>immobilization（固定）</strong>、標準化プロトコル、患者・介護者教育、周術期抗菌薬予防を包括的に提示。全植込み型・体外設置型 MCS を対象</td>
+<td>専門家コンセンサス（多国籍・学際）。<strong>広く採用</strong>されるが Class/Level 付きの臨床指針ではなく expert opinion 主体</td>
+</tr>
+<tr>
+<td><strong>2023 ISHLT MCS ガイドライン<br>(10-Year Update)</strong></td>
+<td>正式ガイドライン／2023</td>
+<td>周術期〜外来管理の task force で DLES 管理・感染予防を扱う。標準化ケア・CHG・固定・教育を <strong>Class I（Level C）</strong>で推奨。銀/CHG 含浸パッチは Class IIb（§2.5に verbatim）</td>
+<td><strong>現行の統括ガイドライン</strong>。DLES 個別推奨の Class/Level を一次原文で確認済（✅）</td>
+</tr>
+<tr>
+<td><strong>DESTINE 提案<br>（Bernhardt, J Crit Care 2020）</strong></td>
+<td>多施設研究グループ／2020</td>
+<td>DLI の<strong>病期ステージング（DESTINE 分類）</strong>と、予防・早期治療のための<strong>初の「standard of care」プロトコル</strong>を提案。欧州多施設 VAD DLI study group</td>
+<td>標準化の枠組みとして参照される。ドイツ/オーストリア主導</td>
+</tr>
+<tr>
+<td><strong>系統的レビュー①<br>(EJCTS 2021)</strong></td>
+<td>系統的レビュー／2021</td>
+<td><strong>11研究・1,602例</strong>を統合。CHG＋銀＋固定＋キットのバンドルが最低 DLI（6〜7.5%）と結論</td>
+<td><strong>本領域で最大規模の統合</strong>。ただしメタ解析は異質性のため不可</td>
+</tr>
+<tr>
+<td><strong>系統的レビュー②<br>(創傷ケア視点)</strong></td>
+<td>系統的レビュー／2020</td>
+<td><strong>7研究・657例</strong>。CHG が最選好、銀含有ガーゼで感染リスク約11%低下。「ゴールドスタンダードは存在しない」</td>
+<td>中規模統合。方法の異質性が大きい</td>
+</tr>
+<tr>
+<td><strong>SimVAD 調査</strong></td>
+<td>多施設アンケート／2019</td>
+<td><strong>78施設</strong>（回答率50%）。<strong>全施設が無菌操作＋CHG</strong>使用も、頻度・材料は非統一。「標準化が急務」</td>
+<td>実地のばらつきを定量化した現状評価</td>
+</tr>
+</tbody>
+</table></div>
+
+<blockquote>
+<p><strong>読み方</strong>：LVAD ドライブラインケアには <strong>RCT がほぼ存在しない</strong>。したがって最上位の根拠は「専門家コンセンサス（ISHLT 2017／2023ガイドライン）」＋「系統的レビュー2本（計 ~2,260例）」＋「多数の後ろ向き単施設コホート」。以下 §3〜§7 の各推奨は、この土台の上で「どの程度の規模のデータに支持されているか」を明示する。</p>
+</blockquote>
+
+<hr />
+<h2 id="s25">§2.5. 2023 ISHLT ガイドライン — DLES ケアの公式推奨（Class/Level 一次確認済）</h2>
+
+<p>最も権威ある推奨は <strong>2023 ISHLT MCS ガイドライン（Saeed 2023, <em>J Heart Lung Transplant</em> 42:e1-e222）</strong>の感染予防・植込み技術の項にある。原著を精読し、以下に Class/Level を verbatim で確認した。<strong>要点：DLES ケアの中核は Class I 推奨だが、根拠レベルは全て C（＝観察研究・専門家意見）</strong>。</p>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>推奨（2023 ISHLT）</th>
+<th>Class</th>
+<th>Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>標準化された術後 DL 管理戦略</strong>（医療者・患者/介護者向け）を策定：①抗菌洗浄液＋無菌／清潔手技、②DL の癒合度に応じた閉鎖性ドレッシング、③確実な DL 固定</td>
+<td><strong>I</strong></td>
+<td>C</td>
+</tr>
+<tr>
+<td><strong>ドレッシング交換は当初「毎日」。DL が癒合・上皮化したら週1〜3回に減らす</strong>。洗浄は<strong>クロルヘキシジン系を第一選択</strong></td>
+<td><strong>I</strong></td>
+<td>C</td>
+</tr>
+<tr>
+<td><strong>DL 固定は必須</strong>（可動を減らし治癒を助ける）：腹壁 DL アンカーまたは fabric binder を用いる</td>
+<td><strong>I</strong></td>
+<td>C</td>
+</tr>
+<tr>
+<td>植込み技術：DL は腹直筋鞘内に、velour 部を皮下に収め<strong>silicone-skin interface（SSI）を貫通部に</strong>。<strong>初期治癒期の外固定</strong>は外傷性出血と将来の DLI を減らしうる</td>
+<td><strong>I</strong></td>
+<td>C</td>
+</tr>
+<tr>
+<td>DL 所見の<strong>写真＋記述の記録</strong>（発赤・硬結・圧痛・排液・皮膚癒合の有無）は経時的評価に有益</td>
+<td>IIa</td>
+<td>C</td>
+</tr>
+<tr>
+<td>CHG 過敏症例では<strong>ベタジン（ポビドンヨード）を代替</strong>とするのは妥当（ただし感染リスクは高い）</td>
+<td>IIa</td>
+<td>C</td>
+</tr>
+<tr>
+<td><strong>銀 or CHG 含浸パッチ／ガーゼの追加は有益かもしれない</strong>（銀 vs CHG の直接比較は欠如）</td>
+<td>IIb</td>
+<td>C</td>
+</tr>
+<tr>
+<td>48時間を超える抗菌薬予防は SSI を減らさず<strong>推奨しない</strong></td>
+<td>III</td>
+<td>B</td>
+</tr>
+<tr>
+<td>患者・介護者は<strong>安全な DL 管理（洗浄・固定・監視）を実演でき</strong>、外来で<strong>年1回の再教育</strong>を受けるべき</td>
+<td>I 相当*</td>
+<td>C</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>*教育推奨は Task Force のリスト番号推奨（Level C）。「Class I 相当」は本文の記載位置に基づく整理。</p>
+</blockquote>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">2023 ISHLT の骨子（一次 verbatim）</div>
+<p>「<em>DL dressing changes are initially performed daily. Once the DL is incorporated/healed, frequency can be reduced to 1 to 3 times weekly. Local chlorhexidine-based cleansing agent is recommended as first-line agent.</em>」（Class I, Level C）／「<em>DL stabilization is essential ... using an abdominal wall DL anchor or fabric binder.</em>」（Class I, Level C）／「<em>External fixation during the initial healing period may decrease traumatic bleeding and prevent future driveline infection.</em>」（Class I, Level C）</p>
+</div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">ISHLT 2017 コンセンサス（Kusne）の対応記述（一次 verbatim）</div>
+<p>固定：「<em>The drive-line should be stabilized using a binder or anchoring device <strong>immediately after surgery</strong> and, thereafter, with the aim to minimize line movement ... prevention of subsequent trauma to the DLES, a risk factor for infection.</em>」／ドレッシング：「<em>Dressings should be changed using <strong>aseptic technique</strong> ... some consider <strong>sterile gloves and a mask the minimum</strong> required. ... Most commonly, <strong>chlorhexidine-based solutions</strong> are used.</em>」／銀：「<em>The use of <strong>silver-impregnated gauze may reduce DLIs in the first 6 months post-implant</strong>.</em>」（新規ドレッシングは事前にメーカーへ適合確認を、とも明記）。</p>
+</div>
+
+<hr />
+<h2 id="s3">§3. 消毒薬 — 何を使うか（種類別エビデンス）</h2>
+
+<p>系統的レビュー①（11研究・1,602例）が消毒薬別の DLI 率を整理している。結論は明快で、<strong>クロルヘキシジングルコン酸（CHG）が最も広く使われ、単剤ポビドンヨードより成績が良い</strong>。</p>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>消毒薬</th>
+<th>採用研究数</th>
+<th>報告 DLI 率</th>
+<th>評価・注意点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>クロルヘキシジン（CHG）</strong></td>
+<td>7研究（最多）</td>
+<td>5.4〜21.3%</td>
+<td><strong>第一選択</strong>。多くのコンセンサス・施設が採用。手術部位でもポビドンヨードに優越。0.5〜2%濃度で使用</td>
+</tr>
+<tr>
+<td>ポビドンヨード（単剤）</td>
+<td>2研究（代替）</td>
+<td>最大 42.9%</td>
+<td>単剤使用では高率。CHG より劣る傾向</td>
+</tr>
+<tr>
+<td>オクテニジン</td>
+<td>3研究</td>
+<td>11.8〜27.3%</td>
+<td>皮膚・粘膜に吸収されず忍容性良好で予防的消毒に適するとされるが、成績はばらつく</td>
+</tr>
+<tr>
+<td>メルブロミン（マーキュロ）</td>
+<td>1研究（n=17）</td>
+<td>0%（少数）</td>
+<td>水銀含有で<strong>多くの国で使用禁止</strong>。少数例のため一般化不可</td>
+</tr>
+<tr>
+<td>ポリミキシン-トリメトプリム（局所）</td>
+<td>1研究</td>
+<td>13.8%（対照 52.6%）</td>
+<td>緑膿菌を有意に抑制。特殊状況での局所抗菌</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">消毒薬の推奨（支持規模つき）</div>
+<ul>
+<li><strong>CHG（クロルヘキシジン）を第一選択</strong> — 系統的レビュー2本（計~2,260例）で最選好かつ低 DLI。SimVAD 調査でも<strong>78施設全てが CHG を使用</strong>。実地の合意はほぼ確立。</li>
+<li>単剤ポビドンヨードは相対的に劣る。オクテニジンは代替候補（皮膚吸収なし）だが成績は一定せず。</li>
+<li>メルブロミンは水銀毒性で不採用。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="s4">§4. ドレッシング材 — 銀含有・ガーゼ・フォーム・キット</h2>
+
+<p>ドレッシング材については、<strong>銀含有ドレッシングを支持する方向のデータが複数の独立施設から蓄積</strong>している（ただし規模は中小）。</p>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>ドレッシング</th>
+<th>報告 DLI 率</th>
+<th>根拠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>銀含有（silver-based）</strong></td>
+<td>7.5%（対 ガーゼ単独 15.8%）</td>
+<td>系統的レビュー①：銀含有3研究。「植込み後<strong>初期6か月の銀ドレッシングは費用対効果</strong>が高い可能性」</td>
+</tr>
+<tr>
+<td>銀含有ガーゼ</td>
+<td>感染リスク約 <strong>11%低下</strong></td>
+<td>系統的レビュー②：標準ガーゼ比で減少</td>
+</tr>
+<tr>
+<td>滅菌ガーゼ（最多）</td>
+<td>—（基準）</td>
+<td>最も一般的。CHG＋滅菌ガーゼ＋透明フィルム被覆が「最選好」の組合せ</td>
+</tr>
+<tr>
+<td>フォーム系</td>
+<td>7.6〜19%</td>
+<td>系統的レビュー①：2研究。成績はばらつく</td>
+</tr>
+<tr>
+<td>透明フィルム</td>
+<td>—</td>
+<td>被覆（closure）として広く併用</td>
+</tr>
+</tbody>
+</table></div>
+
+<h3 id="s4-silver">近年の銀ドレッシング実地データ（施設 QI）</h3>
+<ul>
+<li><strong>University of Kansas（Richards & Giuliano）</strong>：CHG ドレッシング期（2016–2018）→ 銀メッキ（silver-plated）ドレッシング期（2018–2023）の後ろ向き比較。他の変更なし・<strong>交換は3日毎</strong>で統一。晩期 DLI 率が<strong>四半期あたり40.1%減少</strong>（100患者・月あたりの平均感染率が低下）。</li>
+<li><strong>単施設 2023 プロトコル（JHLT 2025）</strong>：2023年1月から「<strong>銀メッキドレッシング＋二重ストラップ固定（Cathgrip）＋tug protocol＋看護師・患者・介護者教育</strong>」を導入。2019–2022（旧プロトコル）比で<strong>導入初年度に DLI 率が大幅低下</strong>。</li>
+<li><strong>「A silver lining in the VAD sky」（JHLT Open 2026）</strong>：銀ドレッシング導入の DLI への影響を検討した最新報告（UCSF, NCT05163392 に関連）。</li>
+<li><strong>Cagliostro ら（JHLT 2016）</strong>：標準化キット（銀ドレッシング＋固定装置）群 <strong>7.5%</strong> vs 過去対照 15.8%。</li>
+</ul>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">ドレッシングの推奨（支持規模つき）</div>
+<ul>
+<li><strong>銀含有ドレッシング（特に植込み初期〜6か月）を推奨</strong> — 系統的レビュー2本＋複数の単施設 QI（Kansas 40.1%減、Cagliostro 7.5% vs 15.8% など）で一貫して DLI 低下方向。ただし各研究は中小規模・後ろ向きで、RCT による確証は今後（進行中の前向き試験あり）。</li>
+<li>基本被覆は<strong>滅菌ガーゼ＋透明フィルム</strong>が最選好。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="s5">§5. 消毒・ドレッシング交換の頻度 — 週何回か</h2>
+
+<p>おそらく本レビューで最も明快な結論が出ているのがこの論点で、<strong>「頻度そのものに優劣のエビデンスは無い」</strong>。</p>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>交換頻度</th>
+<th>採用研究数（SR①）</th>
+<th>DLI 率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>毎日（daily）</td>
+<td>2研究</td>
+<td>12〜13%</td>
+</tr>
+<tr>
+<td>週2〜3回</td>
+<td>3研究</td>
+<td>5.4〜19%</td>
+</tr>
+<tr>
+<td>週2回</td>
+<td>1研究</td>
+<td>27.3%</td>
+</tr>
+<tr>
+<td>週1回（weekly）</td>
+<td>4研究</td>
+<td>6〜21.3%</td>
+</tr>
+</tbody>
+</table></div>
+
+<ul>
+<li>系統的レビュー①の結論：<strong>「いずれの交換頻度も他より DLI 予防に有効とは言えない」</strong>。</li>
+<li>入院患者を対象にした前向き研究（Heart&amp;Lung 2015）：<strong>交換頻度と DLI に関連なし</strong>。「daily 交換はもはや不要で、週1回まで減らすことを各施設は検討すべき」。ただし30日追跡と限界あり。</li>
+<li>実地の最頻値は<strong>週3回</strong>だが、daily 〜 weekly まで分布が広い（SimVAD 調査）。</li>
+</ul>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">頻度の推奨（支持規模つき）</div>
+<ul>
+<li><strong>治癒後・滲出なしなら週2〜3回で十分</strong>（daily は不要）。多施設調査・系統的レビュー・前向き研究が一致して「頻度は DLI を規定しない」と示す。</li>
+<li>ただし<strong>滲出・発赤・浸軟があれば頻度を上げる</strong>のが原則。頻度は固定値ではなく創の状態で調整する。</li>
+<li>頻度を落としても<strong>無菌操作と固定の質は落とさない</strong>。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="s6">§6. 固定・免荷（アンカリング）— 実は最重要因子</h2>
+
+<p>コンセンサスと多くの単施設研究が口を揃えるのが、<strong>「機械的トラウマの回避＝確実な固定」</strong>こそ DLI 予防の核心という点。DLI の唯一の一貫した独立危険因子が「若年（＝活動量）」であることが、これを裏づける。</p>
+
+<h3 id="s6-resist">RESIST 研究（多施設・前向き）</h3>
+<ul>
+<li><strong>Stahovich ら（ASAIO 2016）</strong>：HeartMate II 用 percutaneous lead management kit（PLMK）＝固定装置の多施設前向き feasibility 研究。<strong>5施設・50例</strong>。</li>
+<li>結果：PLMK は各施設の標準ケアより<strong>「非常に快適」80% vs 37%、「固定に非常に有効」82% vs 40%</strong>（いずれも p&lt;0.001）。<strong>85%が交換を6〜7日毎以上</strong>に延長でき、DLI は<strong>6%（0.15件/患者年）</strong>。</li>
+</ul>
+
+<h3 id="s6-osaka">大阪大学 変法固定（単施設・大規模コホート）</h3>
+<ul>
+<li><strong>Osaka University（J Artif Organs 2024）</strong>：ドライブラインを<strong>皮膚に垂直に貫通させ、腹壁前面の離れた部位で固定</strong>する変法。皮膚虚血・可動を防ぐ狙い。<strong>262例（変法38例 vs 従来224例、2005–2023）</strong>。</li>
+<li>感染回避率：<strong>変法は1/2/3年で一貫して91%</strong>、従来法は86%/75%/63%（<strong>p=0.04</strong>）。傾向スコアマッチング後も変法90% vs 従来87%/71%/57%（p=0.04）。</li>
+<li>ケア：<strong>0.5% CHG または生理食塩水で毎日清拭＋清潔ガーゼ</strong>、シャワー時は防水、月1回外来評価。日本の代表的な運用例。</li>
+</ul>
+
+<h3 id="s6-anchor">アンカリング装置の比較（系統的レビュー①）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>固定装置</th>
+<th>DLI 率</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Centurion（Foley 型ホルダー）</td>
+<td>6〜7.5%</td>
+<td>CHG＋銀ドレッシングと併用（4研究）で最低率</td>
+</tr>
+<tr>
+<td>Hollister プレート固定</td>
+<td>0〜11.8%</td>
+<td>1研究</td>
+</tr>
+<tr>
+<td>腹帯（abdominal binder）</td>
+<td>12%</td>
+<td>1研究</td>
+</tr>
+<tr>
+<td>Secutape/Nanoplast 固定</td>
+<td>27.3%</td>
+<td>1研究</td>
+</tr>
+</tbody>
+</table></div>
+<p>系統的レビューの結論は<strong>「どの固定装置が優れるかを示す明確なデータは無い」</strong>——ただし「固定装置を使うこと」自体（＝バンドルの一部）は一貫して低 DLI と関連。</p>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">固定の推奨（支持規模つき）</div>
+<ul>
+<li><strong>アンカリング装置による確実な固定・免荷を全期間で行う</strong> — RESIST（多施設50例）、大阪大変法（262例, p=0.04）、系統的レビュー（バンドル 6〜7.5%）が支持。<strong>特定製品の優劣は未確立</strong>だが「固定する／貫通部にテンションをかけない」原則は確立。</li>
+<li>tug protocol（牽引テスト）で不用意な牽引を防ぐ施設プロトコルも近年普及。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="s7">§7. シャワー・入浴と患者教育</h2>
+<ul>
+<li><strong>シャワーは完全治癒まで不可</strong>が原則（系統的レビュー：治癒後のみ許可）。</li>
+<li>系統的レビュー①：<strong>従来型シャワーの回避で DLI 14% vs 対照 42%</strong>。<strong>「従来型シャワー中止で緑膿菌感染が減る」</strong>との報告。閉塞性被覆下シャワーでも 5.4〜42.9% と幅がある。</li>
+<li>治癒後は<strong>防水被覆下でシャワー可</strong>とする施設が多い（大阪大の運用も同様）。</li>
+<li><strong>患者・介護者教育が全コンセンサスで必須要素</strong>。退院後は本人／家族が無菌手技で自己管理するため、手技の標準化教育が DLI 率を左右する（2023プロトコルでも「看護師・患者・介護者教育」を明記）。</li>
+</ul>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">エビデンスの限界（読む際の注意）</div>
+<ul>
+<li><strong>RCT がほぼ無い</strong>。推奨のほとんどが後ろ向き単施設コホート＋専門家コンセンサス由来で、<strong>質は低〜中</strong>。系統的レビューも<strong>異質性が大きくメタ解析不可</strong>。</li>
+<li>DLI 率の定義・追跡期間・デバイス世代（HM II / HVAD / HM3）が研究間で不統一。数値の直接比較には注意。</li>
+<li>2023 ISHLT ガイドラインの DLES 推奨は一次原文で <strong>Class/Level 確認済</strong>（§2.5）。ただし<strong>全て Level of evidence C</strong>＝「強い推奨・弱い根拠」。銀 vs CHG の直接比較は「lacking」とガイドライン自身が明記（Class IIb）。</li>
+<li>銀ドレッシングの多くは<strong>QI／後ろ向き</strong>で、前向き RCT（例：UCSF「silver lining」関連）が結論を更新しうる。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="s8">§8. 実務用サマリー — 標準的バンドルプロトコル（コピペ可）</h2>
+
+<div class="callout" style="background:#ede7f6;border-left:4px solid #7c4dff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#7c4dff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">ドライブライン貫通部ケア 標準バンドル（推奨の総合）</div>
+<ul>
+<li><strong>消毒薬</strong>：クロルヘキシジン（CHG, 0.5〜2%）を第一選択。〔SR2本・SimVAD 78施設全採用〕</li>
+<li><strong>ドレッシング</strong>：銀含有ドレッシング（特に初期6か月）＋滅菌ガーゼ／透明フィルム被覆。〔SR2本・複数施設QI〕</li>
+<li><strong>頻度</strong>：急性期は滲出に応じ毎日〜隔日／無菌操作。治癒後は<strong>週2〜3回</strong>（daily 不要、滲出時は増）。〔SR・前向き研究で頻度に優劣なし〕</li>
+<li><strong>手技</strong>：手袋・マスク・キャップ・滅菌手技（無菌操作）。〔ISHLT 2017 コンセンサス〕</li>
+<li><strong>固定・免荷</strong>：アンカリング装置で確実に固定し貫通部にテンションをかけない＋tug 対策。〔RESIST 50例／大阪大262例 p=0.04〕</li>
+<li><strong>シャワー</strong>：完全治癒まで不可。治癒後は防水被覆下で可（従来型シャワー中止で緑膿菌減）。〔SR①〕</li>
+<li><strong>教育</strong>：患者・家族への標準化手技教育＋標準化キットの使用。〔全コンセンサス・2023プロトコル〕</li>
+<li><strong>共通原則</strong>：頻度より「無菌・固定・機械的トラウマ回避」の一貫性。DLI 危険因子は若年（活動量）。</li>
+</ul>
+</div>
+
+<hr />
+<h2 id="s9">§9. 主要文献リスト（DL が必要なもの＝タイトル・PMID を明示）</h2>
+<blockquote>
+<p>🔓=Open Access（本文取得済） ／ 🔒=機関アクセス要（<strong>フルテキスト DL 希望</strong>） ／ 数値は本文で引用済み。ご依頼の「DL が必要な代表論文」は 🔒 を参照。</p>
+</blockquote>
+
+<h3 id="s9-sr">A. 系統的レビュー（土台）</h3>
+<ul>
+<li>🔓 <strong>Driveline exit-site care protocols in patients with left ventricular assist devices: a systematic review.</strong> <em>Eur J Cardiothorac Surg</em> 2021;60(3):506-516. <strong>PMID: 33963835</strong>／PMC8434872. ＝11研究1,602例、バンドルで DLI 6〜7.5%。本レビューの主軸。</li>
+<li>🔓 <strong>Wound care of the driveline exit site in patients with a ventricular assist device: A systematic review.</strong> <em>（PMC7024132）</em> 2020. ＝7研究657例、CHG 最選好・銀ガーゼ11%減。</li>
+</ul>
+
+<h3 id="s9-consensus">B. コンセンサス・ガイドライン 🔓（フルテキスト入手・精読済）</h3>
+<ul>
+<li>🔓✅ <strong>Kusne S, Mooney M, Danziger-Isakov L, et al. An ISHLT Consensus Document for Prevention and Management Strategies for Mechanical Circulatory Support Infection.</strong> <em>J Heart Lung Transplant</em> 2017;36(10):1137-1153. <strong>PMID: 28781010</strong>. ＝DLES ケアの礎。固定「immediately after surgery」・aseptic technique（滅菌手袋＋マスク最低限）・CHG 系・銀ガーゼは初期6か月で DLI 減、を verbatim 確認（§2.5）。<br><span style="color:#5c5c5c;font-size:0.82rem;">保存先: All Papers/Clinical/VAD/Kusne_2017_ISHLT_Consensus_MCS_Infection.pdf</span></li>
+<li>🔓✅ <strong>Saeed D, Feldman D, El Banayosy A, et al. The 2023 ISHLT Guidelines for Mechanical Circulatory Support: A 10-Year Update.</strong> <em>J Heart Lung Transplant</em> 2023;42(7):e1-e222. <strong>PMID: 37245143</strong>. ＝DLES ケアの Class I/IIa/IIb/III・Level C を verbatim 確認（§2.5）。<br><span style="color:#5c5c5c;font-size:0.82rem;">保存先: All Papers/Clinical/VAD/Saeed_2023_ISHLT_Guidelines_MCS_10YearUpdate.pdf</span></li>
+</ul>
+
+<h3 id="s9-key">C. 固定・頻度・銀ドレッシングの原著（🔓入手済／🔒未取得）</h3>
+<ul>
+<li>🔓✅ <strong>Stahovich M, Sundareswaran KS, Fox S, et al. Reduce Driveline Trauma Through Stabilization and Exit Site Management: 30 Days Feasibility Results from the Multicenter RESIST Study.</strong> <em>ASAIO J</em> 2016. <strong>PMID: 27111738</strong>. ＝多施設5施設50例、固定装置 PLMK。DLI 6%（0.15/患者年）、快適性 80% vs 37%・固定有効性 82% vs 40%（p&lt;0.001）を精読確認。<br><span style="color:#5c5c5c;font-size:0.82rem;">保存先: All Papers/Clinical/VAD/Stahovich_2016_LVAD_DrivelineTrauma_ExitSite_RESIST.pdf</span></li>
+<li>🔓✅ <strong>Wus L, Manning ML, Entwistle JWC III. Left ventricular assist device driveline infection and the frequency of dressing change in hospitalized patients.</strong> <em>Heart Lung</em> 2015;44(3):225-229. <strong>PMID: 25746483</strong>. ＝頻度と DLI 無関係（第一著者は Wus。当初 Barber と誤記→訂正）。<br><span style="color:#5c5c5c;font-size:0.82rem;">保存先: All Papers/Clinical/VAD/Wus_2015_LVAD_DLI_DressingChangeFrequency.pdf</span></li>
+<li>🔓✅ <strong>Cagliostro B, Levin AP, Fried J, et al. Continuous-flow left ventricular assist devices and usefulness of a standardized strategy to reduce drive-line infections.</strong> <em>J Heart Lung Transplant</em> 2016（S1053-2498(15)01309-1）. ＝標準化キット（銀ドレッシング＋固定）群 7.5% vs 過去対照 15.8%。<br><span style="color:#5c5c5c;font-size:0.82rem;">保存先: All Papers/Clinical/VAD/Cagliostro_2016_CFLVAD_DLI_Reduction_SilverDressing_Kit.pdf</span></li>
+<li>🔓✅ <strong>Bernhardt AM, Schlöglhofer T, Lauenroth V, et al. Prevention and early treatment of driveline infections in ventricular assist device patients — The DESTINE staging proposal and the first standard of care protocol.</strong> <em>J Crit Care</em> 2020;56:106-112（S0883944119313711）. ＝DLI 病期分類＋標準ケア。<strong>掲載誌は Journal of Critical Care（当初 Heart Lung と誤記→訂正）</strong>。<br><span style="color:#5c5c5c;font-size:0.82rem;">保存先: All Papers/Clinical/VAD/Bernhardt_2020_DLI_Prevention_Staging_DESTINE.pdf</span></li>
+<li>🔒 <strong>Ventricular Assist Device Driveline Dressing-Change Protocols: A Need for Standardization. A Report from the SimVAD Investigators.</strong> <em>J Card Fail</em> 2019. <strong>PMID: 31247286</strong>. ＝78施設アンケート。<strong>未取得＝DL 希望</strong>。</li>
+</ul>
+
+<h3 id="s9-recent">D. 近年の実地・銀ドレッシングデータ</h3>
+<ul>
+<li>🔒 <strong>LVAD Driveline Infection Prevention: Data to Support the Use of Antimicrobial Silver-Plated Dressings and Standard Securement.</strong> <em>J Heart Lung Transplant</em> 2025（S1053-2498(25)00760-0）. ＝2023プロトコル（銀＋Cathgrip＋tug＋教育）で大幅減。<strong>DL 希望</strong>。</li>
+<li>🔒 <strong>A silver lining in the VAD sky? Impact of a silver dressing on LVAD-associated driveline infections.</strong> <em>JHLT Open</em> 2026（S2950-1334(26)00077-7；NCT05163392関連, UCSF）. ＝最新の銀ドレッシング検討。<strong>DL 希望</strong>。</li>
+<li>🔓 <strong>Richards NM, Giuliano KK. The Use of Antimicrobial Silver-Plated Dressings for LVAD Driveline Infection Prevention（AVA poster）.</strong> University of Kansas. ＝CHG→銀メッキで四半期 DLI 40.1%減、3日毎交換（本文取得済）。</li>
+<li>🔓 <strong>Clinical outcomes of modified left ventricular assist device driveline management.</strong> <em>J Artif Organs</em> 2024（PMC12078345, 大阪大学）. ＝変法固定262例、感染回避率 p=0.04（本文取得済）。</li>
+<li>🔒 <strong>Schlöglhofer T, et al. Left ventricular assist device driveline infections in three contemporary devices.</strong> <em>Artif Organs</em> 2021（doi:10.1111/aor.13843）. ＝デバイス世代別 DLI。<strong>DL 希望</strong>。</li>
+<li>🔒 <strong>Heterogeneity in HeartMate 3 implanting center infection management...</strong> <em>J Heart Lung Transplant</em> 2025（S1053-2498(25)02147-3）. ＝HM3 施設間ばらつき・QI 機会。<strong>DL 希望</strong>。</li>
+</ul>
+
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:16px 0 8px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">入手済（6本・精読反映済） — 2026-07-15 更新</div>
+<p><strong>Kusne 2017 コンセンサス／Saeed 2023 ガイドライン／Stahovich RESIST／Wus 2015 頻度研究／Bernhardt DESTINE／Cagliostro 2016</strong> の6本を <code>All Papers/Clinical/VAD/</code> に格納し、フルテキストを精読して本 HTML（特に §2.5 の Class/Level）に反映済み。誤記2点（DESTINE 掲載誌＝J Crit Care、頻度研究の第一著者＝Wus）も訂正した。</p>
+</div>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 8px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">追加で DL いただけると確定版に近づく論文</div>
+<ol>
+<li><strong>SimVAD 標準化調査</strong>（PMID 31247286, J Card Fail 2019）— 78施設の実地ばらつきの一次数値</li>
+<li><strong>2025 銀メッキ＋Cathgrip JHLT</strong>（S1053-2498(25)00760-0）／<strong>2026 silver lining JHLT Open</strong>（S2950-1334(26)00077-7）— 銀ドレッシングの最新前向き/QI データ</li>
+<li><strong>Schlöglhofer 2021（3デバイス別 DLI, Artif Organs）</strong>／<strong>系統的レビュー①原著（EJCTS 2021, PMID 33963835）</strong>— 消毒薬・頻度・固定の元表を verbatim 化するため</li>
+</ol>
+</div>
+
+<hr />
+<h2 id="s10">§10. データソースと作成方法</h2>
+<ul>
+<li><strong>一次／二次ソース</strong>：PubMed／PMC（系統的レビュー2本・大阪大学論文＝本文取得済）、ISHLT.org、JHLT（jhltonline.org / jhltopen.org）、ASAIO Journal、J Card Fail、Heart&amp;Lung、AVA poster（pdftotext 抽出）、MyLVAD、INTERMACS 登録データ。</li>
+<li><strong>方法</strong>：論点（①消毒頻度／②消毒薬／③ドレッシング／④固定／⑤シャワー／⑥時間軸）ごとに Web 検索→開放全文を精読し、各推奨に「症例数・研究デザイン・DLI 率」を対応づけて<strong>エビデンスの規模を明示</strong>。機関アクセス要の論文は §9 で PMID を明示し DL 依頼リスト化。</li>
+<li><strong>数値の扱い</strong>：DLI 率は研究間で定義・追跡・デバイス世代が不統一。本文の数値は<strong>各原著／系統的レビューの報告値</strong>であり、直接比較は慎重に。</li>
+</ul>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var headings = (content || document).querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>
