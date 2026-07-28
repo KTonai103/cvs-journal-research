@@ -1,0 +1,28 @@
+[
+ {
+  "doi": "10.1177/155698450500100103",
+  "alt_dois": [
+   "10.1097/01243895-200500110-00003"
+  ],
+  "pmid": null,
+  "title": "Routine Off-Pump Coronary Artery Bypass: Reasons for On-Pump Conversion",
+  "authors": "Hirose H, Amano A",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "vol": "1",
+  "issue": "1",
+  "page": "28-31",
+  "media": "standard",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "ルーチンOPCABにおけるon-pumpへのコンバージョン理由を分析し、回避・対応に関わる手技上の要因を論じる安全性関連報告。",
+  "key_features": [
+   "on-pump conversion",
+   "routine OPCAB",
+   "safety",
+   "conversion reasons"
+  ],
+  "abstract": ""
+ }
+]

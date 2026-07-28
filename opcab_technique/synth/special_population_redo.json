@@ -1,0 +1,104 @@
+[
+ {
+  "doi": "10.1016/j.xjtc.2023.02.011",
+  "alt_dois": [],
+  "pmid": "37324322",
+  "title": "Right single lung transplant with off-pump coronary artery bypass grafting using in situ right internal thoracic artery via thoracotomy",
+  "authors": "Toyoda Y, Kehara H, Kashem M, Leotta E et al",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "vol": "19",
+  "issue": null,
+  "page": "157-159",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "片肺移植と同時に開胸アプローチで右内胸動脈を用いたオフポンプCABGを施行した特殊症例の手術手技を提示。",
+  "key_features": [
+   "off-pump CABG",
+   "in situ RITA",
+   "thoracotomy",
+   "concomitant lung transplant"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1177/155698450700200207",
+  "alt_dois": [
+   "10.1097/imi.0b013e318054e6f0"
+  ],
+  "pmid": null,
+  "title": "Simultaneous Off-Pump Coronary Artery Bypass Grafting and Ascending Aortobifemoral Bypass Graft via Ventral Abdominal Route",
+  "authors": "Rajendran S, Prabhu AD, Thazhakuni I, Vellachamy KA et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "vol": "2",
+  "issue": "2",
+  "page": "84-85",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "OPCABと上行大動脈起始の腹側経路アオルトバイフェモラルバイパスを同時施行する手技を提示し、心筋と下肢の同時血行再建の操作手順と利点を解説。",
+  "key_features": [
+   "OPCAB",
+   "aortobifemoral bypass",
+   "ventral abdominal route",
+   "concomitant procedure",
+   "limb revascularization"
+  ],
+  "abstract": "Aortoiliac disease often coexists with coronary artery disease. It is not uncommon to subject a patient to two separate interventions. We report two cases in which in simultaneous off-pump coronary artery bypass grafting was done with an ascending aortobifemoral bypass graft through the ventral abdominal route without any additional morbidity. Combining a technically simple method of limb bypass with an off-pump cardiac surgery is a promising procedure for revascularization of myocardium and lower limbs. We discuss the merits of combining an off-pump coronary artery bypass grafting procedure with a limb bypass."
+ },
+ {
+  "doi": "10.1177/15569845221137898",
+  "alt_dois": [],
+  "pmid": "36571255",
+  "title": "Minimally Invasive Coronary Artery Bypass Grafting in a Patient With Chronic Tracheostoma: Alternative to Reduce Sternal Wound Complication Risk",
+  "authors": "Nantsios A, Elmistekawy E, Ponnambalam M, Lambert AS et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2022,
+  "vol": "17",
+  "issue": "6",
+  "page": "574-576",
+  "media": "figure_rich",
+  "importance": 2,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "慢性気管切開孔を持つ胸骨創感染高リスク症例に対し胸骨正中切開を回避するMICS-CABGを適用した手技症例報告。",
+  "key_features": [
+   "MICS-CABG",
+   "tracheostoma",
+   "sternal-sparing",
+   "high SWI risk",
+   "case report"
+  ],
+  "abstract": "Patients with chronic tracheostoma present a challenge when they require coronary bypass surgery due to an elevated risk of sternal wound infections (SWI). Minimally invasive coronary artery bypass grafting (MICS CABG) is a robust technique that allows complete surgical revascularization while mitigating the risks of sternal complications and functional decline associated with sternotomy. In such patients at elevated risk for SWI, MICS CABG may represent a viable revascularization strategy to avoid sternotomy. Here, we present a case of a frail, comorbid patient with a chronic tracheostomy and symptomatic multivessel coronary artery disease not amenable to percutaneous therapy referred for MICS CABG."
+ },
+ {
+  "doi": "10.1177/155698450600100404",
+  "alt_dois": [
+   "10.1097/01.imi.0000218578.04748.9c"
+  ],
+  "pmid": null,
+  "title": "Concomitant Beating-Heart Mitral Valve Surgery and Coronary Artery Bypass in Patients with Compromised Ventricular Function",
+  "authors": "Di Luozzo G, Lombardi P, Maldonado A, Ricci M et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "vol": "1",
+  "issue": "4",
+  "page": "151-154",
+  "media": "figure_rich",
+  "importance": 2,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "左室機能低下例で大動脈遮断せず拍動下に僧帽弁手術とOPCABを併施する手技（潅流圧80-90mmHg・体温35-36℃維持）を解説。OPCABの拍動下併施手技を含む。",
+  "key_features": [
+   "beating heart",
+   "concomitant MV + CABG",
+   "no aortic cross-clamp",
+   "low EF"
+  ],
+  "abstract": "<h4>Background</h4>: Surgical repair of mitral valve disease and concomitant coronary artery occlusive disease has high operative risk. Myocardial protection for protracted, complicated procedures is seminal to the overall operative outcome; specifically, preservation of left ventricular function.<h4>Methods</h4>The authors conducted a retrospective review of 25 patients undergoing combined mitral valve repair/replacement (MVR) and coronary artery bypass surgery (CABG) using the beating-heart technique at the Miller/University of Miami School of Medicine. The CABG was performed without cardiopulmonary bypass support. During the mitral valve surgery the perfusion pressure was maintained at 80-90 mm Hg and the systemic temperature at 35-36ºC. The aorta was not cross-clamped.<h4>Results</h4>: Twenty-five patients underwent MVR/CABG, including 7 patients with acute myocardial infarction. Preoperative echocardiograms revealed a mean ejection fraction (EF) of 41 ± 4.5%. One patient required a preoperative intraarterial balloon pump. An average of 2.12 ± 0.9 grafts and a total of 10 mitral valve repairs were performed. The average length of stay in the intensive care unit was 14 ± 1.8 days, and average hospitalization time was 23 ± 3. The mean postoperative EF was 41 ± 4.5%. The mortality in this patient group was 12 % (3/25) with a morbidity rate of 52% (13/25).<h4>Conclusions</h4>: "
+ }
+]

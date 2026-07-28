@@ -1,0 +1,334 @@
+[
+ {
+  "doi": "10.1016/j.xjtc.2024.06.002",
+  "alt_dois": [],
+  "pmid": "39156549",
+  "title": "Standardized exposure of the lateral and posterior wall in off-pump minimally invasive cardiac surgical coronary artery bypass grafting",
+  "authors": "Albert A, Petrov G, Smiris K, Angleitner P",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "vol": "26",
+  "issue": null,
+  "page": "61-63",
+  "media": "figure_rich",
+  "importance": 5,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "オフポンプMICS-CABGにおける側壁・後壁ターゲットの標準化された展開法を詳述。心臓脱転・展開のための定型化された手技で、最も難しい後壁吻合を可能にする教育的リファレンス。",
+  "key_features": [
+   "heart exposure",
+   "lateral wall",
+   "posterior wall",
+   "standardized positioning",
+   "off-pump MICS"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1510/mmcts.2004.000539",
+  "alt_dois": [],
+  "pmid": "24413385",
+  "title": "Off-pump myocardial revascularization",
+  "authors": "DeSimone J, Sergeant P",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2006,
+  "vol": "2006",
+  "issue": "1009",
+  "page": "mmcts.2004.000539",
+  "media": "standard",
+  "importance": 5,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "Leuven標準化off-pump冠動脈血行再建手技を詳説。心膜スリング(吊り上げcradle)による側壁・下壁の段階的展開、心尖吸引スタビライザー、ルーチンシャント、no-touch aorta下のin-situ動脈グラフトへのfree graft吻合を提示。",
+  "key_features": [
+   "off-pump",
+   "pericardial sling exposure",
+   "apical suction stabilizer",
+   "no-touch aorta",
+   "intracoronary shunt"
+  ],
+  "abstract": "Since 1998, a large body of literature regarding off-pump coronary bypass surgery has been published, although varying techniques and outcomes likely have led to its inconsistent application. One approach has been developed and standardized at the University Hospitals Leuven, Campus Gasthuisberg, Leuven, Belgium. This approach is straightforward and can be replicated without need for conversion toward cardiopulmonary bypass. The patient is 'conditioned' before and during the procedure. Both mammary arteries are harvested through a standard median sternotomy. The anterior surface of the heart is exposed with a horizontal line of left-sided pericardial stitches, just above the level of the heart. The anterior coronary vessels are anastomosed after routine shunting. The lateral and inferior aspects of the heart are exposed without deforming the atrio-ventricular axis. This is performed in a stepwise manner. The first step is anchoring a sling into the posterior pericardium under the roof of the left atrium. Second, this sling is gradually pulled upwards, supporting the heart as a cradle. Once the heart is exposed towards the zenith, an apical suction device stabilizes, reformats and exposes the ventricle. The lateral and inferior walls are then revascularized. As a strict no-touch aorta technique is used, free grafts are anastomosed to in-situ arterial grafts."
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-12",
+  "alt_dois": [],
+  "pmid": "39434978",
+  "title": "Exposure technique for the circumflex artery territory in robotic totally endoscopic coronary artery bypass grafting",
+  "authors": "Bonatti J, Ashraf SF, Seese L, Toma C et al",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "vol": "13",
+  "issue": "5",
+  "page": "452-454",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "ロボットTECABにおける回旋枝（circumflex）領域の心臓展開手技を示した記事で、側壁・下壁ターゲットへのexposure手技が主題。",
+  "key_features": [
+   "exposure",
+   "circumflex territory",
+   "TECAB",
+   "heart positioning"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1510/mmcts.2024.012",
+  "alt_dois": [],
+  "pmid": "39041591",
+  "title": "Minimally invasive off-pump bypass grafting—positioning the right posterior descending coronary artery",
+  "authors": "",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2024,
+  "vol": "2024",
+  "issue": null,
+  "page": null,
+  "media": "video",
+  "importance": 4,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "小開胸off-pumpで右後下行枝(PDA)を含む側壁・下壁にアプローチする際の心臓ポジショニングと安定化手技をビデオで詳説。胸腔鏡的冠動脈同定も併用。",
+  "key_features": [
+   "off-pump",
+   "minimally invasive",
+   "heart positioning",
+   "PDA grafting",
+   "thoracoscopic identification"
+  ],
+  "abstract": "Minimally invasive coronary surgery offers benefits to the patient. Besides the anterior wall, the lateral and inferior walls can be reached through a small thoracotomy with off-pump techniques. Thoracoscopic coronary identification can be very useful in these multivessel procedures. Positioning the heart without cardiopulmonary bypass can be challenging. We describe our technique for off-pump positioning and for grafting the right posterior descending coronary artery."
+ },
+ {
+  "doi": "10.1177/155698451501000307",
+  "alt_dois": [
+   "10.1097/imi.0000000000000167"
+  ],
+  "pmid": null,
+  "title": "Off-Pump Minimally Invasive Coronary Artery Bypass Grafting with a Heart Positioner Direct Retraction for a Better Exposure",
+  "authors": "Kikuchi K, Une D, Suzuki K, Endo Y et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "vol": "10",
+  "issue": "3",
+  "page": "183-187",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "多枝MICS-CABGで側壁・下壁の標的血管露出のため心臓ポジショナーを小開胸創から直接牽引する手技を解説し、心膜牽引とエピカルディアルスタビライザー併用でオフポンプ完遂を可能にする。",
+  "key_features": [
+   "MICS CABG",
+   "heart positioner",
+   "direct retraction",
+   "lateral/inferior exposure"
+  ],
+  "abstract": "<h4>Objective</h4>Lateral and inferior territories are difficult to expose during off-pump minimally invasive coronary artery bypass grafting (MICS CABG). The use of cardiopulmonary bypass is required at times. We initiated a direct retraction method by using a cardiac positioner for a better exposure, in order to complete off-pump, multivessel MICS CABG safely.<h4>Methods</h4>We recently initiated multivessel MICS CABG, performed via a 6- to 9-cm left thoracotomy. For distal anastomoses, the lateral pericardial edge was pulled to the chest wall to optimize exposure of the lateral and inferior area. Next, a single- or multisuction cardiac positioner was put on the sides of the target vessel through the small thoracotomy and pulled directly toward the incision. Finally, a distal anastomosis was made with an epicardial stabilizer via the thoracotomy, as in standard off-pump CABG.<h4>Results</h4>There was no mortality or conversion to sternotomy. A total of 10 cases were targeted for off-pump multivessel MICS CABG with this approach. Nine were completed, while 1 still required pump assist. The average number of distal anastomoses was 2.8 ± 0.8. Two were successful off-pump quadruple bypass grafting with sequential anastomoses. All patients were discharged and remain well to this day.<h4>Conclusions</h4>Most multivessel MICS CABG was feasible without pump assist even at the initiat"
+ },
+ {
+  "doi": "10.1177/155698451501000114",
+  "alt_dois": [
+   "10.1097/imi.0000000000000116"
+  ],
+  "pmid": null,
+  "title": "Exposures of Lateral and Inferior Cardiac Surface for Coronary Anastomosis during Minimally Invasive Coronary Artery Bypass Grafting",
+  "authors": "Pande S, Gupta D, Siddartha C, Bansal A et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "vol": "10",
+  "issue": "1",
+  "page": "73-75",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "MICS-CABGで側壁・下壁の心表面を露出するための深部心膜牽引縫合の手技バリエーションを24例で解説し、追加切開なく多枝吻合の操作空間を確保する方法を提示。",
+  "key_features": [
+   "MICABG",
+   "deep pericardial suture",
+   "lateral/inferior exposure",
+   "multivessel"
+  ],
+  "abstract": "Exposure of the lateral and inferior surface of the heart during off-pump coronary artery bypass grafting is associated with some degree of cardiac instability during recovery with completion of grafting. Exposure of lateral and posterior surfaces by currently available equipment is difficult in minimally invasive coronary artery bypass grafting (MICABG) owing to limited exposure. We describe an effective variation of often-used technique of pericardial stitch in exposure of cardiac surfaces during MICABG. This technique was used in 24 patients undergoing multivessel MICABG. Deep pericardial sutures were used to manipulate the exposure of cardiac surfaces. Left anterior descending artery was grafted in all 24 cases. Obtuse marginal artery was grafted in 20 cases and posterior descending artery in 12 cases. Average grafts were 2.3 per patient. There was no conversion to median sternotomy. Use of deep pericardial suture is simple technique for exposure of lateral and inferior surface during multivessel MICABG. This offers adequate exposure and operating space for easy maneuverability."
+ },
+ {
+  "doi": "10.1177/155698450700200103",
+  "alt_dois": [
+   "10.1097/01.imi.0000244106.79590.bd"
+  ],
+  "pmid": null,
+  "title": "Displacement of the Beating Heart with a Low-Profile Suction-Based Apical Positioning Device in a Closed Chest",
+  "authors": "Mykytenko J, Vassiliades TA, Vinten-Johansen J",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "vol": "2",
+  "issue": "1",
+  "page": "14-19",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "閉胸下での多枝内視鏡的CABGに向け、低プロファイル心尖部吸引ポジショニングデバイスでポート経由に拍動心を脱転し心後面を露出する手技を、右室機能・血行動態とともにブタモデルで評価。",
+  "key_features": [
+   "apical suction positioner",
+   "closed chest",
+   "endoscopic exposure",
+   "heart displacement",
+   "RV function",
+   "Trendelenburg"
+  ],
+  "abstract": "<h4>Background</h4>: Off-pump, multivessel, endoscopic coronary artery bypass requires cardiac displacement within an intact chest. The current study evaluated right ventricular performance and systemic hemodynamics while exposing the posterior surface of the heart using a novel, low-profile, apical suction-based cardiac positioner in a closed-chest, beating-heart model.<h4>Methods</h4>: Six pigs underwent instrumentation with continuous monitoring of arterial pressure by fluid-filled transducer and cardiac output and coronary blood flow by ultrasound transit time flow probe. Right ventricular (RV) pressure-volume loops were generated by an impedance catheter. Heart rate was maintained between 80 and 100 beats per minute pharmacologically. The cardiac positioner displaced the heart endoscopically through a port. Data were obtained in 5 sequential phases: (1) baseline/free-beating, (2) positioner coaptation, (3) addition of Trendelenburg, (4) cardiac displacement with Trendelenburg, and (5) cardiac displacement without Trendelenburg.<h4>Results</h4>: Cardiac displacement without Trendelenburg (Phase 5) resulted in a significant (P < 0.05) decrease in cardiac output, coronary blood flow, RV systolic pressure (RVSP), mean arterial pressure, RV end-diastolic volume (RVEDV), and RV end-systolic volume (RVESV) compared with baseline (Phase 1). With Trendelenburg added to cardiac disp"
+ },
+ {
+  "doi": "10.1097/imi.0b013e3182a75e95",
+  "alt_dois": [
+   "10.1177/155698451300800401"
+  ],
+  "pmid": "24081214",
+  "title": "Target Vessel Detection by Epicardial Ultrasound in Off-Pump Coronary Bypass Surgery",
+  "authors": "Hayakawa M, Asai T, Kinoshita T, Suzuki T et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "vol": "8",
+  "issue": "4",
+  "page": "249-252",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "89例のOPCABで埋没冠動脈(4.0%)を同定するため高周波心外膜エコー(VeriQ/MediStim)を導入し、視診・触診で同定不能な標的血管を描出する術中手技を提示。",
+  "key_features": [
+   "epicardial ultrasound",
+   "intramyocardial coronary",
+   "target vessel localization",
+   "OPCAB technique"
+  ],
+  "abstract": "<h4>Objective</h4>The detection of embedded coronary arteries is difficult especially in off-pump coronary bypass surgery. From June 2010, we introduced high-frequency epicardial ultrasound (ECUS) to assess and evaluate embedded arteries during off-pump coronary bypass surgery.<h4>Methods</h4>Between June 2010 and June 2011, a total of 89 consecutive patients underwent isolated coronary bypass surgery at our institution. The patients consisted of 72 men and 17 women with a mean age of 67.9 years. We routinely use the VeriQC system (MediStim, Oslo, Norway) to detect the target vessels in the operation. The patients were assigned to one of two groups, depending on whether ECUS was used in the operation (n = 10, ECUS group) or not (n = 79, non-ECUS group). We analyzed the impact of introducing the ECUS in terms of operative outcome.<h4>Results</h4>All patients underwent revascularization using the off-pump technique without emergent conversion to cardiopulmonary bypass during surgery. The total number of distal anastomoses was 299, and 12 target vessels could not be identified either visually or on palpation. Thus, the frequency of the embedded coronary arteries was 4.01% (12/299 cases). The preoperative profiles of the two groups were not significantly different. Operation time was significantly longer in the ECUS group (P = 0.02). There were no significant differences in postope"
+ },
+ {
+  "doi": "10.1177/155698450900400211",
+  "alt_dois": [
+   "10.1097/imi.0b013e3181a34740"
+  ],
+  "pmid": null,
+  "title": "Tissue Stabilizer Reverse Mounting in Minimally Invasive Direct Coronary Artery Bypass, a Simple Tool in Difficult Times",
+  "authors": "Mourad F, Duncan AJ",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "vol": "4",
+  "issue": "2",
+  "page": "117-117",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "MIDCABにおいて組織スタビライザを逆向きに装着（reverse mounting）することで困難な露出・固定を簡便に得る技術的工夫（tip）を紹介する手技論文。",
+  "key_features": [
+   "tissue stabilizer",
+   "reverse mounting",
+   "MIDCAB",
+   "technical tip"
+  ],
+  "abstract": "The simple reverse mounting of an Octopus arm over a rib retractor can give more arm length by up to 5 cm inside the chest cavity which could prove to be very useful in patients with huge chest cavities, i.e. chronic obstructive pulmonary disease, high body mass index, allowing more flexibility and better maneuverability of the stabilizer arm during MIDCAB."
+ },
+ {
+  "doi": "10.1177/155698450800300303",
+  "alt_dois": [
+   "10.1097/imi.0b013e31818180ba"
+  ],
+  "pmid": null,
+  "title": "Hemodynamic Assessment Using Apical Suction versus Pericardial Retraction in Beating Heart Surgery",
+  "authors": "Gummert JF, Raumanns J, Opfermann UT, Bossert T et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2008,
+  "vol": "3",
+  "issue": "3",
+  "page": "125-130",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "拍動心手術での側壁・下壁露出を心尖部吸引デバイス（Xpose）対心膜牽引糸で行った場合の血行動態を各患者内対照で比較し、心臓脱転・露出手技の選択を検討。",
+  "key_features": [
+   "apical suction",
+   "Xpose",
+   "pericardial retraction",
+   "heart displacement",
+   "exposure"
+  ],
+  "abstract": "<h4>Objective</h4>: Aim of this study was to evaluate the perioperative hemodynamic function using an apical suction device (Xpose = XS) versus standard pericardial retraction sutures (PS) during off-pump myocardial revascularization.<h4>Methods</h4>: Twenty-seven consecutive patients (four female) with three-vessel disease receiving off-pump myocardial revascularization were prospectively evaluated. Mean age was 70 ± 8 years and mean ejection fraction was 55 ± 18%. Pulscontour continuous cardiac output, Swan Ganz catheter, and transesophageal echo measurements were performed. All patients received left internal mammary artery (LIMA)-left anterior descending grafting first. The XS or PS technique for marginal or right coronary artery branch exposure was used and after hemodynamic recovery the same measurements were performed using the other technique, thus each patient served as an intraindividual control. Finally, the anastomosis was performed in the respective territory.<h4>Results</h4>: All procedures were completed as off-pump coronary artery bypass without perioperative complications. The mean confidence interval (L/min/m)/mean arterial pressure (mm Hg) was 2.8 ± 0.5/87 ± 11 after opening the pericardium and 2.4 ± 0.4/75 ± 12 during left anterior descending exposure. During lateral wall exposure, it was 1.8 ± 0.6/67 ± 12 using XS and 1.9 ± 0.6/68 ± 12 using PS (P = ns). Du"
+ },
+ {
+  "doi": null,
+  "alt_dois": [],
+  "pmid": "18536293",
+  "title": "Stabilizing technique of intra-fat coronary artery in off-pump coronary artery bypass grafting.",
+  "authors": "Ito T, Nakayama M, Abe T, Hagiwara H, Nakayama T, Yoshizumi T.",
+  "journal": "Kyobu geka. The Japanese journal of thoracic surgery",
+  "year": 2008,
+  "vol": "61",
+  "issue": "6",
+  "page": "460-1",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "no-doi",
+  "ja_summary": "脂肪組織内に深く走行する冠動脈をOPCABで安定化させる工夫として、冠動脈両側の脂肪に5-0プロリンの連続縫合を置き側方に牽引してスタビライザー脚下に固定し、可視化と固定を両立させる手技を解説。",
+  "key_features": [
+   "epicardial fat",
+   "suction stabilizer",
+   "traction suture",
+   "visualization"
+  ],
+  "abstract": "Suction type stabilizers are popular for off-pump coronary artery bypass. However, arteries running deeply underneath fatty tissue are not stabilized well because the soft tissues act as cushions between the coronary artery and the stabilizer. We propose a simple method to stabilize and visualize intra fat coronary arteries. After dissection of target arteries, 5-0 polypropylene continuous over-and-over sutures are placed on the fat tissues along both sides of the coronary artery. These sutures are pulled laterally, and a suction stabilizer is placed so that the sutures lie under the legs of the stabilizer. Sutures fixed to the stabilizer legs with suction force reduce motion of the target vessel. Visualization of the coronary arteries is also improved because the banks of fat tissue become flat by pulling the sutures laterally."
+ },
+ {
+  "doi": "10.1177/155698450600100307",
+  "alt_dois": [
+   "10.1097/01243895-200600130-00007"
+  ],
+  "pmid": null,
+  "title": "A New Multisuction Cardiac Positioner for Multivessel Off-Pump Coronary Artery Bypass Grafting",
+  "authors": "Arai H, Mizuno T, Yoshizaki T, Itoh F et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "vol": "1",
+  "issue": "3",
+  "page": "126-130",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "アームを持たず3つの独立したシリコン吸引カップで心室の側壁・下壁・右室壁を-300mmHgで把持する新規多吸引式心臓ポジショナーを用いた多枝OPCABの展開手技を紹介。",
+  "key_features": [
+   "multisuction positioner",
+   "heart exposure",
+   "multivessel OPCAB",
+   "device"
+  ],
+  "abstract": "<h4>Objective</h4>: To accomplish successful multivessel off-pump coronary artery bypass grafting, safe, reproducible, and effective exposure of all coronary territories is essential. For this purpose, we developed a new, simple, multisuction cardiac positioner.<h4>Methods</h4>: This new cardiac positioner consists of 3 small independent suction cups and suction tubes made of silicone. Unlike an apical suction cardiac positioner, this positioner has no arm. The suction cups can be applied with negative pressure of 300 mm Hg to various surfaces of the ventricle, including not only the apex but also the lateral, inferior, and right ventricular walls, according to surgeon preference. We applied this positioner in 15 clinical multivessel off-pump coronary artery bypass procedures.<h4>Results</h4>: In all cases, all target vessels including those on the lateral or inferior wall were successfully exposed and grafted without hemodynamic compromise. Surgical exposure, especially on the lateral and inferior walls, was quite similar to that of conventional coronary artery bypass graft procedures performed during cardiopulmonary bypass.<h4>Conclusions</h4>: The multisuction cardiac positioner provided reproducible and easy access in multivessel off-pump coronary artery bypass surgery. This simple, variable, and inexpensive cardiac positioner may be used as a new tool to aid in the perform"
+ },
+ {
+  "doi": "10.1016/s1010-7940(00)00604-7",
+  "alt_dois": [],
+  "pmid": "11163574",
+  "title": "A simple method for heart stabilization during off-pump multi-vessel coronary artery bypass grafting: surgical technique and short term results",
+  "authors": "Rama A, Mohammadi S, Leprince P, Gandjbakhch I",
+  "journal": "European Journal of Cardio-Thoracic Surgery",
+  "year": 2001,
+  "vol": "19",
+  "issue": "1",
+  "page": "105-107",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "オフポンプ多枝CABGにおける心臓固定法として、有窓PTFEパッチを吻合部周囲の心筋に4本の糸で固定し牽引することで固定・展開を得る簡便な手技を解説する。",
+  "key_features": [
+   "heart stabilization",
+   "fenestrated PTFE patch",
+   "deep myocardial sutures",
+   "off-pump multivessel"
+  ],
+  "abstract": "Minimally invasive cardiac surgery regroups several technical options including small incision, video-assisted surgery and beating heart surgery but mechanical stabilization for off-pump multi-vessel coronary artery bypass grafting (CABG), remains a problem. We developed a simple method of stabilization with a fenestrated polytetrafluroethylene patch. Four sutures were passed deeply into the myocardium surrounding the anastomotic site. The sutures were then passed through the patch. Gentle traction on tied sutures, allowed immobilization and exposure in the selected area. This method which was carried in 95 patients, provides good stabilization for performing off-pump multi-vessel CABG in all cardiac territories."
+ }
+]

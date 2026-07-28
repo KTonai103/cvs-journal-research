@@ -1,0 +1,13 @@
+## 特殊症例・再手術・高リスク
+
+通常の正中切開・人工心肺下CABGが適さない高リスク病態（porcelain aorta、左室機能低下、胸骨創感染ハイリスク、他臓器同時手術を要する併存疾患）では、無心停止・無遮断のOPCABがもたらす大動脈操作回避・心筋保護温存・低侵襲性が決定的な利点となる。本テーマの収録論文は、片肺移植やアオルトバイフェモラルバイパスとの同時手術、慢性気管切開孔症例での胸骨温存MICS-CABG、低EF例での拍動下僧帽弁手術併施といった、いずれもOPCABを「逃げ道」として活用した特殊症例の手技を扱う。デバイス選択よりも、いかに大動脈・胸骨・心筋への侵襲を避けつつ完全血行再建を成立させるかという術式設計のコツが中心となる。
+
+- ★3 🖼️🔓 **片肺移植同時のin situ RITA OPCAB（開胸アプローチ）** — 片肺移植と同時に、胸骨正中切開ではなく開胸アプローチを用い、in situの右内胸動脈（RITA）をグラフトとしたオフポンプCABGを施行した特殊症例。人工心肺・大動脈遮断を回避しつつ、移植側の開胸創を活用してRITAを温存・吻合する手技が図示されており、肺移植と冠動脈血行再建を一期的に両立させる工夫を示す。〔Toyoda Y, Kehara H, Kashem M, Leotta E et al. *Right single lung transplant with off-pump coronary artery bypass grafting using in situ right internal thoracic artery via thoracotomy.* JTCVS Techniques. 2023;19:157-159.〕 [DOI](https://doi.org/10.1016/j.xjtc.2023.02.011)
+
+- ★3 🖼️ **OPCAB＋上行大動脈起始アオルトバイフェモラルバイパス同時手術** — 冠動脈疾患にしばしば併存する大動脈腸骨動脈閉塞性疾患に対し、OPCABと同時に上行大動脈を起始部とする腹側経路（ventral abdominal route）のアオルトバイフェモラルバイパスを一期的に施行した2例。別々の2回介入を避け、技術的に簡便な下肢バイパスをオフポンプ心臓手術と組み合わせることで、追加の合併症を増やさず心筋と両下肢を同時に血行再建できる手順と利点を解説する。〔Rajendran S, Prabhu AD, Thazhakuni I, Vellachamy KA et al. *Simultaneous Off-Pump Coronary Artery Bypass Grafting and Ascending Aortobifemoral Bypass Graft via Ventral Abdominal Route.* Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery. 2007;2(2):84-85.〕 [DOI](https://doi.org/10.1177/155698450700200207)
+
+- ★2 🖼️🔓 **慢性気管切開孔症例での胸骨温存MICS-CABG** — 慢性気管切開孔を有し胸骨創感染（SWI）リスクが著しく高い、frailで多併存疾患かつPCI不適の多枝病変症例に対し、胸骨正中切開を回避する低侵襲CABG（MICS-CABG）を適用した症例報告。胸骨を温存することでSWIや胸骨切開後の機能低下リスクを軽減しつつ完全血行再建を達成する代替戦略として、本術式の適応と手技を提示する。〔Nantsios A, Elmistekawy E, Ponnambalam M, Lambert AS et al. *Minimally Invasive Coronary Artery Bypass Grafting in a Patient With Chronic Tracheostoma: Alternative to Reduce Sternal Wound Complication Risk.* Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery. 2022;17(6):574-576.〕 [DOI](https://doi.org/10.1177/15569845221137898)
+
+- ★2 🖼️ **低EF例での拍動下僧帽弁手術＋OPCAB併施** — 平均EF 41±4.5%の左室機能低下例25例（うち急性心筋梗塞7例）に対し、大動脈遮断を行わず拍動下に僧帽弁形成・置換とCABGを併施した手技。CABGは人工心肺非使用で行い、僧帽弁手術中は灌流圧80-90mmHg・体温35-36℃を維持して心筋保護を図る。平均2.12±0.9枝のグラフトを施行し、術後EFは保持されたが、死亡率12%（3/25）・合併症率52%と高リスク病態を反映した成績を報告する。〔Di Luozzo G, Lombardi P, Maldonado A, Ricci M et al. *Concomitant Beating-Heart Mitral Valve Surgery and Coronary Artery Bypass in Patients with Compromised Ventricular Function.* Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery. 2006;1(4):151-154.〕 [DOI](https://doi.org/10.1177/155698450600100404)
+
+**📌 この領域の必読:** 図解の充実した手技アトラスとして、片肺移植と同時に行う「片肺移植同時のin situ RITA OPCAB（開胸アプローチ）」（🖼️、open access）と、胸骨温存戦略を示す「慢性気管切開孔症例での胸骨温存MICS-CABG」（🖼️、open access）がまず参照すべき2編。低EF併施手術の実務指標としては「低EF例での拍動下僧帽弁手術＋OPCAB併施」が灌流圧・体温管理の具体値とともに有用。なお本サブトピックには動画チュートリアル（📹）は含まれない。

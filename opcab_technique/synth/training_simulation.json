@@ -1,0 +1,178 @@
+[
+ {
+  "doi": "10.21037/acs-2024-rcabg-0033",
+  "alt_dois": [],
+  "pmid": "39157180",
+  "title": "Robotic-assisted coronary artery bypass grafting: how I teach it",
+  "authors": "Sutter FP, Wertan MC, Spragan D, Yamashita Y et al",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "vol": "13",
+  "issue": "4",
+  "page": "346-353",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "R-MIDCABを教えるための段階的構成要素、ロボットセットアップ、トラブルシューティングを示した「how I teach it」記事で、IMA採取と前側方小開胸吻合の教育的手技を含む。",
+  "key_features": [
+   "R-MIDCAB",
+   "teaching",
+   "robotic setup",
+   "IMA harvest",
+   "minithoracotomy",
+   "troubleshooting"
+  ],
+  "abstract": "The first robotic cardiac operation was performed more than two decades ago. This paper describes the distinct steps and components necessary for teaching robotic-assisted minimally invasive direct coronary artery bypass (R-MIDCAB). It also provides a general overview of the surgical robotic setup and ways to troubleshoot potential complications. The focus of robotic training is not only on the surgeon but includes an entire dedicated cardiac team and administrative institutional support. This team approach ensures that R-MIDCAB can be performed safely and reproducibly. Meticulous planning, incremental learning, and teamwork are the main factors leading to program success and optimal patient outcomes. Robotic-assisted internal mammary artery (IMA) harvesting and coronary revascularization via a small, anterior mini-thoracotomy has provided an alternative to sternotomy in selected patients with coronary artery disease (CAD). Benefits include less postoperative atrial fibrillation, fewer blood transfusion, less time in the operating room (OR), less ventilatory support, fewer strokes, decreased intensive care unit stay and shortened postoperative length of stay all of which manifests as a decrease in institutional resource utilization. Recent data show that R-MIDCAB and hybrid coronary revascularization provides good long-term outcomes. In addition to patient satisfaction, there i"
+ },
+ {
+  "doi": "10.1177/15569845251408006",
+  "alt_dois": [],
+  "pmid": "41629762",
+  "title": "The Future of Coronary Bypass? A Novel Simulator for Robotic Beating-Heart TECAB Training",
+  "authors": "AlJamal YN, Crestanello J, Dearani J, Balkhy HH",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2026,
+  "vol": "21",
+  "issue": "1",
+  "page": "94-95",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "ロボット拍動下TECABの訓練用に開発された新規シミュレータを紹介し、心拍動環境での冠動脈吻合トレーニング手技を提示する。",
+  "key_features": [
+   "robotic TECAB",
+   "beating-heart",
+   "simulator",
+   "training"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1177/15569845241238999",
+  "alt_dois": [],
+  "pmid": "38577864",
+  "title": "Self-Practice Program for Beating-Heart Minimally Invasive Coronary Anastomosis Using a Homemade Low-Fidelity Simulator: A Proof of Concept",
+  "authors": "Azmi MI, Nair AK, Hashim SA",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "vol": "19",
+  "issue": "2",
+  "page": "175-183",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "自作の低忠実度拍動心シミュレータを用いたMICS/OPCAB冠動脈吻合の自己練習プログラムを提示し、拍動下吻合手技の習得方法を示す。",
+  "key_features": [
+   "beating-heart simulator",
+   "coronary anastomosis",
+   "self-practice",
+   "MICS/OPCAB training"
+  ],
+  "abstract": "<h4>Objective</h4>We evaluated the effectiveness of a consistent and structured self-practice coronary anastomosis program using a homemade low-fidelity beating-heart simulator.<h4>Methods</h4>An intermediary trainee was subjected to an 8-week structured self-practice program. The program was divided into 2 parts of nonbeating and beating practices with a minimum number of timed anastomoses. Each part was followed by an assessment using an objective skills assessment tool score. The beating-heart simulator was built using motorized toy blocks connected wirelessly to a smartphone application. This was coded to enable rate selection. A junior consultant was compared to the subject at the end of the program. Both were tasked to perform 1 coronary anastomosis for both off-pump coronary artery bypass (OPCAB) and minimally invasive CAB (MICS) setup. The primary outcomes were anastomotic time and score compared with the junior consultant. Secondary outcomes were progression of anastomotic time and score throughout the program.<h4>Results</h4>Overall performance of the studied subject approached the performance of the junior consultant in terms of time (OPCAB, 489 vs 605 s; MICS, 712 vs 652 s) and scores (OPCAB, 21 vs 20.7; MICS, 19 vs 20.6). There were inverse correlations between anastomosis time and number of practices for both nonbeating and beating anastomoses. Overall improvement"
+ },
+ {
+  "doi": "10.1177/15569845241290240",
+  "alt_dois": [],
+  "pmid": "39473117",
+  "title": "Safe Training Method for ITA Harvesting via Median Sternotomy in Minimally Invasive Coronary Artery Bypass Surgery Using Harmonic Scalpel",
+  "authors": "Kikuchi K, Yoshino K, Sakai H, Sai Y et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "vol": "20",
+  "issue": "1",
+  "page": "111-113",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "Harmonic scalpelを用い胸骨正中切開を介して内胸動脈を採取する安全なトレーニング手技を解説し、MICS CABGへの移行手技を示す。",
+  "key_features": [
+   "ITA harvesting",
+   "Harmonic scalpel",
+   "median sternotomy",
+   "training method"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1177/15569845221129212",
+  "alt_dois": [],
+  "pmid": "36331023",
+  "title": "Virtual Reality Simulation for Minimally Invasive Coronary Artery Bypass Grafting With Aortic No-Touch Total Arterial Grafting Technique",
+  "authors": "Tachibana K, Kikuchi K, Sugimoto M, Osuda K et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2022,
+  "vol": "17",
+  "issue": "5",
+  "page": "430-437",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "CTから3D-VRを構築し、in-situ動脈グラフト(LITA/RITA/胃大網動脈)の必要長と走行を術前に確認してaortic no-touch totalarterial MICS-CABGの設計を行うシミュレーション手技を提示。",
+  "key_features": [
+   "virtual reality",
+   "aortic no-touch",
+   "total arterial",
+   "in-situ grafts",
+   "graft planning"
+  ],
+  "abstract": "<h4>Objective</h4>Virtual reality can be applied preoperatively by surgeons to gain precise insights into a patient's anatomy for planning minimally invasive coronary artery bypass grafting (CABG) with in situ arterial grafts. This study aimed to examine virtual reality simulation for minimally invasive CABG with in situ arterial grafts.<h4>Methods</h4>Preoperative stereolithographic files in 35 in situ arterial grafts were converted using 320-slice computed tomography and workstation. The accurate length and direction of each graft were confirmed through virtual reality glasses. The simulation of graft designs was performed by using an immersive virtual reality platform.<h4>Results</h4>The mean harvested lengths of in situ left internal thoracic artery (<i>n</i> = 17), right internal thoracic artery (<i>n</i> = 12), and gastroepiploic artery (<i>n</i> = 6) grafts predicted by virtual reality simulation were 21.4 ± 3.4 cm, 21.2 ± 3.6 cm, and 22.8 ± 4.8 cm. The required lengths of these grafts predicted by virtual reality simulation were 15.8 ± 2.3 cm, 16.4 ± 2.1 cm, and 14.5 ± 4.4 cm. Minimally invasive CABG using virtual reality simulation was completed in 17 patients, of whom 16 patients underwent aortic no-touch total arterial CABG. The surgical strategy was adjusted in 11.8% of the cases due to the 3-dimensional virtual reality-based anatomy evaluation. The early mortality "
+ },
+ {
+  "doi": "10.1177/155698451701200509",
+  "alt_dois": [
+   "10.1097/imi.0000000000000406"
+  ],
+  "pmid": null,
+  "title": "Novel Dry-Lab Training Method for Totally Endoscopic Coronary Anastomosis",
+  "authors": "Ujihira K, Yamada A",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "vol": "12",
+  "issue": "5",
+  "page": "363-369",
+  "media": "standard",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "非ロボット・拍動心内視鏡下冠動脈吻合のための4段階ドライラボ・トレーニングシステムを構築し、吻合手技習得の学習曲線を解説。",
+  "key_features": [
+   "dry-lab training",
+   "endoscopic coronary anastomosis",
+   "beating heart simulation",
+   "learning curve"
+  ],
+  "abstract": "<h4>Objective</h4>We describe our original dry-lab training system for nonrobotic and beating heart endoscopic coronary artery anastomosis.<h4>Methods</h4>All the materials used for this training were commercially available. We selected a boxed machine, which can produce pulsatile movements of artificial vessels, and on its roof, we installed a two-dimensional home video camera and a monitor. A multiple-holed plate was placed in front of the machine, and through these holes, a trainee inserted endoscopic surgical instruments and anastomosed the artificial vessels by running fashion while watching the monitor. This training program has four stages. During the first stage, a trainee has to demonstrate mastery in conducting a conventional off-pump coronary artery anastomosis without assistance. The second stage is the \"nonbeating\" version, and the third stage is the \"beating\" version with the model mentioned previously. After a trainee gets accustomed to the third stage, the original artificial vessel is replaced with an extremely fragile one, and this is the fourth stage. Our trainee conducted one hundred fourth-stage anastomoses and each procedure was recorded with the video camera. We analyzed several factors from the videos and evaluated the efficacy of the training method. We compared the outcomes of the first 50 consecutive anastomoses with the following 50 ones and describe"
+ },
+ {
+  "doi": "10.1177/155698451200700509",
+  "alt_dois": [
+   "10.1097/imi.0b013e31827cd52b"
+  ],
+  "pmid": null,
+  "title": "A Step toward Nonrobotic Total Endoscopic Coronary Bypass Grafting: 40 Coronary Anastomoses in a Biomechanical Beating Heart Model",
+  "authors": "Gorki H, Patel NC, Liewald C, Wildhirt S et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "vol": "7",
+  "issue": "5",
+  "page": "359-367",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "拍動心モデルを用い非ロボット完全内視鏡下冠動脈バイパスの吻合手技（2D内視鏡視野・市販内視鏡器具でProlene 7-0またはU-clipによる40吻合）を訓練・評価しており、内視鏡下吻合手技の習得方法を示す。",
+  "key_features": [
+   "nonrobotic TECAB",
+   "endoscopic anastomosis",
+   "beating heart model",
+   "U-clip",
+   "simulation training"
+  ],
+  "abstract": "<h4>Objective</h4>Nonrobotic total endoscopic coronary bypass grafting is commonly considered as technically too difficult. After endoscopic practicing in a simple box model, we questioned this statement in a more sophisticated training model.<h4>Methods</h4>In a handmade chest model containing a mechanically actuated porcine heart, anastomoses between homologous vein and shunted anterior coronary artery were performed using Prolene 7-0 sutures or U-clips in 20 anastomoses each. Commercially available endoscopic instruments and exclusive two-dimensional endoscopic vision were used. As quality control, the procedures were recorded, flow was measured, indocyanine green dye angiograms were performed, vinylpolysiloxane endocasts were produced, and finally the anastomoses were assessed from the endothelial side. Three-dimensional computed tomographic reconstruction was explored for cast measuring.<h4>Results</h4>All anastomoses were completed successfully in a time of 51 ± 14 minutes (Prolene) and 48 ± 10 minutes (U-clips). Despite suboptimal equipment, a reproducible sequence of the procedure was established and documented. Improving surgical performance was reflected in a reduction in anastomotic leakage and time requirement. The quality assessment protocol showed a learning curve and problems itself, which are briefly discussed.<h4>Conclusions</h4>A beating heart model is an adam"
+ }
+]

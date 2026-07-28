@@ -1,0 +1,102 @@
+[
+ {
+  "doi": "10.1016/j.xjtc.2022.08.012",
+  "alt_dois": [],
+  "pmid": "36510526",
+  "title": "Robotic advanced hybrid coronary revascularization: Outcomes with two internal thoracic artery grafts and stents",
+  "authors": "Balkhy HH, Nisivaco S, Kitahara H, AbuTaleb A et al",
+  "journal": "JTCVS Techniques",
+  "year": 2022,
+  "vol": "16",
+  "issue": null,
+  "page": "76-88",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "ロボット支援全内視鏡的CABG（両側ITA, TECAB）とPCIを組み合わせたadvanced hybrid血行再建の戦略・術式を8.5年の経験から提示。",
+  "key_features": [
+   "robotic TECAB",
+   "hybrid revascularization",
+   "BITA",
+   "PCI/DES"
+  ],
+  "abstract": "<h4>Objective</h4>Advanced hybrid coronary revascularization is the integration of sternal-sparing multivessel coronary artery bypass grafting and percutaneous coronary intervention in patients with multivessel coronary artery disease. We sought to review our advanced hybrid coronary revascularization experience over an 8.5-year period using robotic totally endoscopic coronary artery bypass with bilateral internal thoracic artery grafts and percutaneous coronary intervention.<h4>Methods</h4>From August 2013 to February 2022, 664 patients underwent robotic totally endoscopic coronary artery bypass at our institution. Of the 293 patients who underwent totally endoscopic coronary artery bypass assigned to a hybrid revascularization strategy, 156 patients received bilateral internal thoracic artery grafts and are the subject of this review. Patients underwent percutaneous coronary intervention with drug-eluting stents before or after totally endoscopic coronary artery bypass. We reviewed early and midterm outcomes (up to 8 years) in this cohort of patients with intent-to-treat advanced hybrid coronary revascularization.<h4>Results</h4>The mean age of patients was 65 ± 10 years. The mean Society of Thoracic Surgeons predicted risk of mortality was 1.26 ± 1.56. Triple-vessel disease occurred in 94% of patients, and 17% of patients had 70% or more left-main disease. The mean operative"
+ },
+ {
+  "doi": "10.21037/acs.2016.11.06",
+  "alt_dois": [],
+  "pmid": "27942492",
+  "title": "Hybrid robotic coronary artery bypass grafting: how do we do it",
+  "authors": "Torregrossa G, Kanei Y, Puskas J",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2016,
+  "vol": "5",
+  "issue": "6",
+  "page": "582-585",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "ロボット支援によるハイブリッド冠動脈血行再建(robotic MIDCAB/TECAB+PCI)の具体的手技を示すACSの『how do we do it』手技論文。",
+  "key_features": [
+   "hybrid",
+   "robotic",
+   "how-to",
+   "MIDCAB+PCI"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1177/155698450600100503",
+  "alt_dois": [
+   "10.1097/01.imi.0000235470.96825.c9"
+  ],
+  "pmid": null,
+  "title": "Planned Simultaneous Beating-Heart Totally Endoscopic Coronary Artery Bypass (TECAB) and Percutaneous Intervention in a Single Operative Setting",
+  "authors": "Srivastava S, Gadasalli S, Tijerina O, Barrera R et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "vol": "1",
+  "issue": "5",
+  "page": "239-242",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "da Vinciロボットで4ポートから拍動下LITA-LAD完全内視鏡的バイパス(TECAB)を行い、同一手術室でRCAへの経皮的PCIを同時施行する計画的ハイブリッド冠動脈血行再建の手技を提示。",
+  "key_features": [
+   "hybrid revascularization",
+   "TECAB",
+   "robotic",
+   "simultaneous PCI"
+  ],
+  "abstract": "<h4>Background</h4>: Staged hybrid revascularization integrated with minimally invasive coronary artery bypass grafting (CABG) and arrested heart totally endoscopic CABG has been reported. We report the first case of planned simultaneous hybrid coronary revascularization, integrating beating-heart TECAB, and percutaneous intervention (PCI) in the same operative setting.<h4>Methods</h4>: A 73-year-old woman with symptoms of angina and a history of diabetes was found to have 2-vessel coronary artery disease involving the left anterior descending (LAD) and the right coronary artery (RCA). Left internal thoracic artery (LITA) to the LAD grafting was done on a beating heart in a totally endoscopic manner using the da Vinci robotic system through 4 ports. Immediately after LITA to LAD TECAB, percutaneous angioplasty and stent placement was done through the right femoral artery using the OEC 9800 mobile C-arm in the operating room.<h4>Results</h4>: There was no stenosis noted in the RCA after the intervention. LITA angiography showed a completely patent anastomosis. The total operative time for both procedures was 165 minutes. Occlusion and anastomotic times were 14 and 8 minutes, respectively. Total PCI and fluoroscopy times were 10 and 3 minutes, respectively. The patient received clopidogrel (Plavix) and aspirin in the immediate postoperative period and was discharged home on the s"
+ },
+ {
+  "doi": "10.1177/155698451100600609",
+  "alt_dois": [
+   "10.1097/imi.0b013e318245bdc6"
+  ],
+  "pmid": null,
+  "title": "Concomitant Transapical Transcatheter Aortic Valve Implantation and Minimally Invasive Direct Coronary Artery Bypass",
+  "authors": "Baumbach H, Adili S, Ursulescu A, Franke UFW",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "vol": "6",
+  "issue": "6",
+  "page": "389-390",
+  "media": "figure_rich",
+  "importance": 2,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "経心尖TAVIとMIDCABを同時に行うハイブリッド低侵襲オフポンプ手技の症例報告で、TAVI中の冠血流維持のため先に冠動脈バイパスを行う手順を示す。",
+  "key_features": [
+   "transapical TAVI",
+   "MIDCAB",
+   "hybrid off-pump",
+   "concomitant procedure"
+  ],
+  "abstract": "We represent a successful minimally invasive combined off-pump procedure consisting of a transapical aortic valve implantation and a direct coronary artery bypass grafting in a woman with a severe aortic stenosis and a critical coronary artery disease. Due to her comorbidities, she was classified as a high-risk patient qualifying for a transcatheter procedure. We performed this combined procedure in a hybrid operation room, starting with the coronary bypass to maintain a coronary blood flow during the transapical valve implantation. The operation processed without any complications and she was discharged at the seventh postoperative day into the allocating hospital."
+ }
+]

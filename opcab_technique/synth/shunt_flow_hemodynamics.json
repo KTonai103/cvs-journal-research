@@ -1,0 +1,124 @@
+[
+ {
+  "doi": "10.1016/j.xjtc.2025.08.028",
+  "alt_dois": [],
+  "pmid": "41368395",
+  "title": "Microaxial flow pump-assisted off-pump coronary artery bypass for low ejection fraction with relative contraindication to cardiopulmonary bypass",
+  "authors": "Sun E, Stone M, Adams DH, Anyanwu A",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "vol": "34",
+  "issue": null,
+  "page": "126-128",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "人工心肺が相対的禁忌の低心機能例に対し微小軸流ポンプで循環補助しながらOPCABを行う手技を提示。術中血行動態維持のためのポンプ支援OPCABテクニック。",
+  "key_features": [
+   "microaxial flow pump",
+   "off-pump CABG",
+   "low EF",
+   "hemodynamic support"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1177/155698451000500210",
+  "alt_dois": [
+   "10.1097/imi.0b013e3181d844df"
+  ],
+  "pmid": null,
+  "title": "Thermosensitive Polymer Use for Shunt Sealing in Off-Pump Coronary Artery Bypass",
+  "authors": "Agostini M, Lemut F, Di Gregorio V, Grossi C",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "vol": "5",
+  "issue": "2",
+  "page": "122-124",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "OPCABで冠動脈内シャント周囲の残存出血を止めるため逆熱感受性ゲル(poloxamer P407)をシャント腔に注入し、結紮前に氷で溶解する止血手技を示す。",
+  "key_features": [
+   "intracoronary shunt",
+   "thermosensitive gel",
+   "poloxamer P407",
+   "blower-free hemostasis"
+  ],
+  "abstract": "<h4>Objective</h4>: To check the efficacy of a reverse thermosensitive gel (poloxamer P407) for intracoronary shunt sealing in off-pump coronary artery bypass surgery to stop residual bleeding from the shunt and avoid the use of blowers.<h4>Methods</h4>: Nineteen coronary anastomoses were performed on five patients who underwent off-pump coronary artery bypass surgery. Intracoronary shunting was adopted in all procedures. All the shunts were sealed into the coronary lumen with the injection of a reverse thermosensitive gel. Before tying the sutures, a piece of ice was applied on the anastomotic sites to dissolve the gel. Bleeding from the coronary lumen was always checked after shunt removal.<h4>Results</h4>: Bleeding was stopped or reduced and anastomoses performed without blower use. In one case, bleeding started again after shunt manipulation, and the shunt sealing procedure needed to be repeated. No intraoperative surface electrocardiogram and regional motion changes were detected. All patients showed normal creatine kinase-MB (CK-MB) levels in the postoperative period. All patients were free from adverse cardiovascular events at 4 months from operation.<h4>Conclusions</h4>: The use of a thermosensitive polymer for intracoronary shunt sealing was effective in controlling bleeding, eliminated the necessity for blower use, and was not associated to operative complications."
+ },
+ {
+  "doi": "10.1510/mmcts.2004.000943",
+  "alt_dois": [],
+  "pmid": "24413881",
+  "title": "Pump-assisted beating heart surgery",
+  "authors": "Glauber M, Farneti A, Bevilacqua S, Karimov J",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2007,
+  "vol": "2007",
+  "issue": "0219",
+  "page": null,
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "ポンプ補助下beating-heart冠動脈血行再建(on-pump beating)の手技解説。ミニ体外循環装置とbeating-heartデバイスを併用した心筋血行再建の主要手技と生理学的側面を提示。",
+  "key_features": [
+   "pump-assisted",
+   "beating heart",
+   "mini-ECC",
+   "myocardial revascularization"
+  ],
+  "abstract": "Presentation of the revascularization of ischemized myocardium: beating heart technique using pump-assisted extracorporeal circulation. Main technique of revascularization is presented with highlights of modern mini extracorporeal circulation and beating heart surgery devices. Clinical physiological aspects of the method are described and bibliographical data provided."
+ },
+ {
+  "doi": "10.1016/s0003-4975(03)01156-1",
+  "alt_dois": [],
+  "pmid": "15223470",
+  "title": "A simple technique of introducing intracoronary shunts for off-pump coronary artery bypass surgery.",
+  "authors": "Yokoyama H, Takase S, Misawa Y, Takahashi K et al",
+  "journal": "The Annals of Thoracic Surgery",
+  "year": 2004,
+  "vol": "78",
+  "issue": "1",
+  "page": "352-354",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "マイクロブルドッグ鉗子を補助に用いて冠動脈内シャントを簡便に挿入する手技で、虚血プレコンディショニング効果を伴うテストクランプと、明瞭な吻合部視野・遠位灌流を同時に得る方法を解説。",
+  "key_features": [
+   "intracoronary shunt",
+   "micro-bulldog clamp",
+   "ischemic preconditioning",
+   "test clamp"
+  ],
+  "abstract": "We describe a simple technique of introducing intracoronary shunts for off-pump coronary artery bypass. This technique, with an aid of micro-bulldog clamp, provides both a test clamp with ischemic preconditioning effect, and a quick and easy introduction of intracoronary shunt, giving a clear visualization of coronary anastomosis site and distal coronary artery perfusion. We recommend this technique as another effective modality in off-pump coronary artery bypass surgery."
+ },
+ {
+  "doi": "10.1016/s1010-7940(02)00120-3",
+  "alt_dois": [],
+  "pmid": "12048097",
+  "title": "'Shunt shuffle' - a simple technique of introducing intracoronary shunts for off-pump coronary artery bypass",
+  "authors": "Patel NC, Pullan D, Fabri BM",
+  "journal": "European Journal of Cardio-Thoracic Surgery",
+  "year": 2002,
+  "vol": "21",
+  "issue": "6",
+  "page": "1121-1122",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "オフポンプCABGで冠動脈内シャントを限られた切開孔から迅速・無外傷に挿入する「shunt shuffle」という簡便な手技的工夫を解説する。",
+  "key_features": [
+   "intracoronary shunt",
+   "shunt insertion tip",
+   "off-pump",
+   "bloodless field"
+  ],
+  "abstract": "Intracoronary shunting is a useful method for maintaining distal perfusion as well as providing a bloodless field during off-pump coronary revascularization. Intracoronary shunts require insertion of both ends through a limited arteriotomy, which sometimes can be troublesome. We describe the 'shunt shuffle' as a simple technique, which allows rapid, atraumatic and easy insertion of intracoronary shunts."
+ }
+]

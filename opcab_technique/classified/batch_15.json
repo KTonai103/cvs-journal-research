@@ -1,0 +1,167 @@
+[
+ {
+  "doi": "10.1093/icvts/ivu451",
+  "pmid": "25583646",
+  "en_title": "Off-pump or on-pump beating heart: which technique offers better outcomes following coronary revascularization?",
+  "is_technique": false,
+  "subtopic": "conversion_safety",
+  "media": "standard",
+  "importance": 2,
+  "ja_summary": "BH-ONCABとOPCABのアウトカムを比較したbest evidence topicレビューであり、手技の操作手順を解説するものではないため除外。",
+  "key_features": ["best evidence topic", "on-pump beating heart vs OPCAB", "outcomes review"]
+ },
+ {
+  "doi": "10.1186/s13019-017-0572-x",
+  "pmid": "28231841",
+  "en_title": "Early clinical outcomes of on-pump beating-heart versus off-pump technique for surgical revascularization in patients with severe left ventricular dysfunction: the experience of a single center.",
+  "is_technique": false,
+  "subtopic": "special_population_redo",
+  "media": "standard",
+  "importance": 2,
+  "ja_summary": "LVEF35%以下の重症左室機能不全例でon-pump beating heart vs OPCABの早期成績を比較した単施設アウトカム研究で、手技解説ではないため除外。",
+  "key_features": ["low EF", "on-pump beating heart vs OPCAB", "outcomes"]
+ },
+ {
+  "doi": null,
+  "pmid": "17530560",
+  "en_title": "Minimally invasive off-pump video-assisted endoscopic surgical pulmonary vein isolation using bipolar radiofrequency ablation - preliminary report.",
+  "is_technique": false,
+  "subtopic": "other",
+  "media": "standard",
+  "importance": 1,
+  "ja_summary": "拍動下・内視鏡下の心房細動アブレーション（肺静脈隔離）に関する報告で、冠動脈バイパス手技ではない非冠動脈手術のため除外。",
+  "key_features": ["pulmonary vein isolation", "atrial fibrillation", "non-coronary"]
+ },
+ {
+  "doi": null,
+  "pmid": "18536293",
+  "en_title": "Stabilizing technique of intra-fat coronary artery in off-pump coronary artery bypass grafting.",
+  "is_technique": true,
+  "subtopic": "exposure_stabilization",
+  "media": "standard",
+  "importance": 3,
+  "ja_summary": "脂肪組織内に深く走行する冠動脈をOPCABで安定化させる工夫として、冠動脈両側の脂肪に5-0プロリンの連続縫合を置き側方に牽引してスタビライザー脚下に固定し、可視化と固定を両立させる手技を解説。",
+  "key_features": ["epicardial fat", "suction stabilizer", "traction suture", "visualization"]
+ },
+ {
+  "doi": "10.1038/srep46143",
+  "pmid": "28397830",
+  "en_title": "Cardiac kinematic parameters computed from video of in situ beating heart.",
+  "is_technique": false,
+  "subtopic": "other",
+  "media": "standard",
+  "importance": 1,
+  "ja_summary": "拍動下心臓のビデオから局所運動学的パラメータを抽出する画像解析モダリティの研究で、手術手技そのものの解説ではないため除外。",
+  "key_features": ["video kinematics", "imaging modality", "non-technique"]
+ },
+ {
+  "doi": "10.1007/s00595-017-1623-6",
+  "pmid": "29318373",
+  "en_title": "Segmental clamp and distal perfusion technique for reducing myocardial ischemia during coronary onlay grafting on a beating heart.",
+  "is_technique": true,
+  "subtopic": "anastomosis_grafts",
+  "media": "standard",
+  "importance": 3,
+  "ja_summary": "拍動下オンレイ吻合中の心筋虚血を軽減する目的で、冠動脈をセグメンタルにスネアクランプしカニューレで遠位を大腿動脈血で灌流（外シャント）し、踵側から段階的にオンレイ吻合を進めクランプを移動させて早期再灌流を得る手技を解説。",
+  "key_features": ["onlay anastomosis", "distal perfusion", "external shunt", "segmental snare clamp"]
+ },
+ {
+  "doi": "10.52198/21.sti.38.cv1400",
+  "pmid": "33755939",
+  "en_title": "MINI OPCAB Operation: Surgical Technique.",
+  "is_technique": true,
+  "subtopic": "midcab_mics",
+  "media": "standard",
+  "importance": 4,
+  "ja_summary": "胸骨を第3-4肋間まで部分的に開く小開胸（MINI OPCAB）でLIMA-LAD吻合を行う手技を、LIMA剥離（屈曲回避の角度<20度）、心膜開放、LAD遮断、機械的スタビライザー設置、吻合・結紮の手順まで詳説。",
+  "key_features": ["MINI OPCAB", "LIMA-LAD", "partial sternotomy", "mechanical stabilizer", "hybrid"]
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2010.02.089",
+  "pmid": "20868864",
+  "en_title": "Aortic No-Touch Off-Pump Coronary Artery Bypass Grafting: A State-of-the-Art Surgical Technique",
+  "is_technique": false,
+  "subtopic": "anaortic_total_arterial",
+  "media": "standard",
+  "importance": 2,
+  "ja_summary": "no-touch off-pump CABGに関するLetter/Commentであり、独立した手技解説論文ではないため除外（pubtypesがLetter, Comment）。",
+  "key_features": ["letter", "no-touch aorta", "comment"]
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2009.07.045",
+  "pmid": "19766780",
+  "en_title": "A New No-Touch Aorta Technique for Arterial-Source, Off-Pump Coronary Surgery",
+  "is_technique": true,
+  "subtopic": "anaortic_total_arterial",
+  "media": "standard",
+  "importance": 4,
+  "ja_summary": "上行大動脈操作を回避するため、右内胸動脈の近位断端を胸腔内の動脈血流源として用い、必要長の伏在静脈の近位吻合を行うno-touch aorta手技を解説（より良いconduitマッチと低ピーク圧を得る）。",
+  "key_features": ["no-touch aorta", "RITA proximal stump inflow", "saphenous vein", "anaortic"]
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2016.05.102",
+  "pmid": "27847090",
+  "en_title": "A Safe Technique for Using an Enclose II Anastomosis Assist Device During Off-Pump Coronary Bypass.",
+  "is_technique": true,
+  "subtopic": "anaortic_total_arterial",
+  "media": "standard",
+  "importance": 3,
+  "ja_summary": "OPCABでクランプレスの近位手縫い吻合を補助するEnclose II装置使用時に、大動脈壁の切開とパンチ孔作成を安全・容易に行う新手技を解説。",
+  "key_features": ["Enclose II", "clampless proximal", "aortic punch", "anastomosis assist device"]
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2012.03.097",
+  "pmid": "22916770",
+  "en_title": "OPCAB technique for high-risk patients.",
+  "is_technique": false,
+  "subtopic": "special_population_redo",
+  "media": "standard",
+  "importance": 1,
+  "ja_summary": "高リスク患者のOPCAB手技に関するLetter/Commentであり、独立した手技解説論文ではないため除外（pubtypesがLetter, Comment、抄録なし）。",
+  "key_features": ["letter", "comment", "high-risk"]
+ },
+ {
+  "doi": "10.1016/s0003-4975(03)01156-1",
+  "pmid": "15223470",
+  "en_title": "A simple technique of introducing intracoronary shunts for off-pump coronary artery bypass surgery.",
+  "is_technique": true,
+  "subtopic": "shunt_flow_hemodynamics",
+  "media": "standard",
+  "importance": 3,
+  "ja_summary": "マイクロブルドッグ鉗子を補助に用いて冠動脈内シャントを簡便に挿入する手技で、虚血プレコンディショニング効果を伴うテストクランプと、明瞭な吻合部視野・遠位灌流を同時に得る方法を解説。",
+  "key_features": ["intracoronary shunt", "micro-bulldog clamp", "ischemic preconditioning", "test clamp"]
+ },
+ {
+  "doi": "10.1067/mtc.2002.124798",
+  "pmid": "12324731",
+  "en_title": "Intrapulmonary shunt after cardiopulmonary bypass: The use of vital capacity maneuvers versus off-pump coronary artery bypass grafting",
+  "is_technique": false,
+  "subtopic": "shunt_flow_hemodynamics",
+  "media": "standard",
+  "importance": 1,
+  "ja_summary": "CPB後の肺内シャントに対するvital capacity maneuver vs OPCABを比較したRCT（呼吸生理アウトカム研究）で、外科手技解説ではないため除外。",
+  "key_features": ["intrapulmonary shunt", "vital capacity maneuver", "RCT", "respiratory"]
+ },
+ {
+  "doi": null,
+  "pmid": "22774542",
+  "en_title": "Specific features of the technique of performing coronary bypass operations on the beating heart.",
+  "is_technique": true,
+  "subtopic": "general_overview_review",
+  "media": "standard",
+  "importance": 3,
+  "ja_summary": "847例の拍動下CABG経験に基づき、高位胸部硬膜外麻酔、近位吻合の先行作成、遠位吻合の作成順序、局所安定化（バキュームスタビライザー）と側・後壁へのアクセス、ブロワー・冠内シャント使用といった手技の特徴を解説。",
+  "key_features": ["beating heart CABG", "vacuum stabilizer", "proximal-first", "thoracic epidural", "intracoronary shunt"]
+ },
+ {
+  "doi": "10.3760/cma.j.issn.0376-2491.2018.20.015",
+  "pmid": "29886653",
+  "en_title": "Short-term clinical safety and efficacy of No-touch great saphenous vein harvesting technique for off-pump coronary artery bypass grafting.",
+  "is_technique": true,
+  "subtopic": "anastomosis_grafts",
+  "media": "standard",
+  "importance": 3,
+  "ja_summary": "OPCABGにおけるNo-touch大伏在静脈採取手技の早期成績を後方視的に評価し、各種シーケンシャル/単独静脈グラフト構成（NTSVG-OM-PDA等）とNo-touchグラフトの平均血流量を報告した手技関連研究。",
+  "key_features": ["No-touch saphenous vein", "vein harvesting", "sequential graft", "graft flow"]
+ }
+]

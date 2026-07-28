@@ -1,0 +1,6916 @@
+[
+ {
+  "doi": "10.21037/acs-2025-ravr-0050",
+  "pmid": "40547429",
+  "title": "Single incision right transaxillary robotic valve and coronary artery bypass grafting: a future therapy",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Murtaza",
+  "volume": "14",
+  "issue": "3",
+  "page": "235-237",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2025-evet-18",
+  "pmid": null,
+  "title": "Total aortic arch replacement using frozen elephant trunk: the beating-heart technique",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Mosbahi",
+  "volume": "14",
+  "issue": "5",
+  "page": "389-391",
+  "src": [
+   "cr:annCTS_anast",
+   "cr:annCTS_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0210",
+  "pmid": "39434975",
+  "title": "How to advance from minimally invasive coronary artery bypass grafting to totally endoscopic coronary bypass grafting: challenges in Europe versus United States of America",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Algoet",
+  "volume": "13",
+  "issue": "5",
+  "page": "397-408",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-rcabg-0034",
+  "pmid": "39434973",
+  "title": "Step-by-step technique of robotic-assisted minimally invasive direct coronary artery bypass",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Wertan",
+  "volume": "13",
+  "issue": "5",
+  "page": "442-451",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-10",
+  "pmid": null,
+  "title": "How to start a robotic coronary bypass grafting program: suggestions from an experienced robotic-assisted coronary surgeon",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Jonsson",
+  "volume": "13",
+  "issue": "5",
+  "page": "436-438",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0186",
+  "pmid": null,
+  "title": "Historical landmarks in the development of robotic coronary bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Bonatti",
+  "volume": "13",
+  "issue": "4",
+  "page": "332-338",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0203",
+  "pmid": null,
+  "title": "Issues and considerations in perioperative management of robotic coronary bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Anderson",
+  "volume": "13",
+  "issue": "4",
+  "page": "326-331",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-rcabg-0033",
+  "pmid": "39157180",
+  "title": "Robotic-assisted coronary artery bypass grafting: how I teach it",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Sutter",
+  "volume": "13",
+  "issue": "4",
+  "page": "346-353",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:hybrid",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-rcabg-0048",
+  "pmid": null,
+  "title": "Small incisions still require great anesthesia: anesthesiology techniques to enhance recovery in robotic coronary bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Hoogma",
+  "volume": "13",
+  "issue": "5",
+  "page": "409-416",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0209",
+  "pmid": null,
+  "title": "Different styles in trocar placement in robotic-assisted beating heart coronary artery bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Algoet",
+  "volume": "13",
+  "issue": "5",
+  "page": "458-460",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-rcabg-14",
+  "pmid": null,
+  "title": "Embracing industry in the development of robotic coronary bypass grafting—the sun rises in the East",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "De Groote",
+  "volume": "13",
+  "issue": "5",
+  "page": "417-424",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0198",
+  "pmid": "39434969",
+  "title": "The role of robotic coronary artery bypass grafting in the current practice of surgical myocardial revascularization",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Van Puyvelde",
+  "volume": "13",
+  "issue": "5",
+  "page": "439-441",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:hybrid",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-12",
+  "pmid": null,
+  "title": "Exposure technique for the circumflex artery territory in robotic totally endoscopic coronary artery bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Bonatti",
+  "volume": "13",
+  "issue": "5",
+  "page": "452-454",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0211",
+  "pmid": null,
+  "title": "How to perform distal anastomosis using a robotic platform: totally endoscopic coronary artery bypass",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Bonatti",
+  "volume": "13",
+  "issue": "4",
+  "page": "382-384",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0191",
+  "pmid": "39157187",
+  "title": "Systematic review and meta-analysis of two decades of reported outcomes for robotic coronary artery bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Hwang",
+  "volume": "13",
+  "issue": "4",
+  "page": "311-325",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-afm-23",
+  "pmid": "38590990",
+  "title": "Surgical implant of Medtronic Penditure left atrial appendage exclusion clip during off-pump bilateral internal thoracic artery coronary artery bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Torregrossa",
+  "volume": "13",
+  "issue": "2",
+  "page": "182-183",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:bita"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-rcabg-0112",
+  "pmid": null,
+  "title": "Total endoscopic coronary artery bypass on a DaVinci Xi platform without an EndoWrist stabilizer combining the technology of GelPOINT Mini, AirSeal, and Octopus Nuvo",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Torregrossa",
+  "volume": "13",
+  "issue": "5",
+  "page": "461-463",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-rcabg-0016",
+  "pmid": "39157183",
+  "title": "Bilateral internal thoracic artery grafting in robotic beating-heart totally endoscopic coronary artery bypass: 10-year outcomes",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Nisivaco",
+  "volume": "13",
+  "issue": "4",
+  "page": "354-363",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:bita",
+   "pm:flow",
+   "pm:multivessel"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2024-rcabg-15",
+  "pmid": null,
+  "title": "The outcomes of robotic-assisted coronary artery bypass grafting surgery in the Atlantic demographic—a systematic review and meta-analysis of the literature",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Wilson-Smith",
+  "volume": "13",
+  "issue": "5",
+  "page": "388-396",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0188",
+  "pmid": "39434979",
+  "title": "Ten-year outcomes of hybrid coronary revascularization at a single center",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Newman",
+  "volume": "13",
+  "issue": "5",
+  "page": "425-435",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:hybrid",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2023-rcabg-0193",
+  "pmid": null,
+  "title": "Robotic totally endoscopic beating-heart unroofing of a left anterior descending artery myocardial bridge",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Nisivaco",
+  "volume": "13",
+  "issue": "4",
+  "page": "385-387",
+  "src": [
+   "cr:annCTS_beating",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2020-cfmcs-25",
+  "pmid": null,
+  "title": "Off-pump left ventricular assist device implantation via bilateral mini-thoracotomy in cardiac reoperations: the extrapericardial subxiphoid route",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Attisani",
+  "volume": "10",
+  "issue": "2",
+  "page": "298-300",
+  "src": [
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs-2020-mv-86",
+  "pmid": null,
+  "title": "Transapical off-pump echo-guided mitral valve repair with neochordae implantation mid-term outcomes",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Gerosa",
+  "volume": "10",
+  "issue": "1",
+  "page": "131-140",
+  "src": [
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2018.06.14",
+  "pmid": null,
+  "title": "Short-term clinical outcomes and long-term survival of minimally invasive direct coronary artery bypass grafting",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Raja",
+  "volume": "7",
+  "issue": "5",
+  "page": "621-627",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2018.06.16",
+  "pmid": null,
+  "title": "Comparison of minimally invasive direct coronary artery bypass and drug-eluting stents for management of isolated left anterior descending artery disease: a systematic review and meta-analysis of 7,710 patients",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Raja",
+  "volume": "7",
+  "issue": "5",
+  "page": "567-576",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2018.06.03",
+  "pmid": null,
+  "title": "Multiple arterial, minimally invasive coronary surgery (MA-MICS)",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Hobson",
+  "volume": "7",
+  "issue": "4",
+  "page": "564-566",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2018.06.10",
+  "pmid": null,
+  "title": "Robotic totally endoscopic coronary artery bypass grafting (TECAB) of the left anterior descending and right coronary artery system using an arterial Y-graft technique",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Bonatti",
+  "volume": "7",
+  "issue": "5",
+  "page": "700-703",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2018.06.13",
+  "pmid": null,
+  "title": "Robotic beating-heart totally endoscopic coronary artery bypass",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Melly",
+  "volume": "7",
+  "issue": "5",
+  "page": "707-709",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2018.06.15",
+  "pmid": "30094212",
+  "title": "Off-pump coronary artery bypass surgery with bilateral internal thoracic arteries: the Leipzig experience",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Davierwala",
+  "volume": "7",
+  "issue": "4",
+  "page": "483-491",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:bita"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2018.06.17",
+  "pmid": "30094221",
+  "title": "Dual inflow, total-arterial, anaortic, off-pump coronary artery bypass grafting: how to do it",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Ramponi",
+  "volume": "7",
+  "issue": "4",
+  "page": "552-560",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab",
+   "pm:anaortic",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.21037/acs.2018.06.09",
+  "pmid": null,
+  "title": "Hybrid coronary revascularization for the treatment of multivessel coronary artery disease",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Kayatta",
+  "volume": "7",
+  "issue": "4",
+  "page": "500-505",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2017.05.10",
+  "pmid": null,
+  "title": "Minimally invasive, beating heart tricuspid valve surgery in a redo case",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Misfeld",
+  "volume": "6",
+  "issue": "3",
+  "page": "290-293",
+  "src": [
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2016.11.01",
+  "pmid": null,
+  "title": "Robotic coronary artery bypass graft surgery",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Cao",
+  "volume": "5",
+  "issue": "6",
+  "page": "594-594",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2016.11.06",
+  "pmid": null,
+  "title": "Hybrid robotic coronary artery bypass grafting: how do we do it",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Torregrossa",
+  "volume": "5",
+  "issue": "6",
+  "page": "582-585",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2016.11.04",
+  "pmid": null,
+  "title": "Long-term results after robotically assisted coronary bypass surgery",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Bonatti",
+  "volume": "5",
+  "issue": "6",
+  "page": "556-562",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2016.11.08",
+  "pmid": null,
+  "title": "A systematic review on robotic coronary artery bypass graft surgery",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Cao",
+  "volume": "5",
+  "issue": "6",
+  "page": "530-543",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.21037/acs.2016.11.05",
+  "pmid": null,
+  "title": "Robotic totally endoscopic coronary artery bypass grafting (TECAB)—placement of bilateral internal mammary arteries to the left ventricle",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Bonatti",
+  "volume": "5",
+  "issue": "6",
+  "page": "589-592",
+  "src": [
+   "cr:annCTS_anaortic",
+   "cr:annCTS_anast",
+   "cr:annCTS_beating",
+   "cr:annCTS_midcab",
+   "cr:annCTS_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.3978/j.issn.2225-319x.2014.02.09",
+  "pmid": "24790855",
+  "title": "Off-pump bilateral internal thoracic artery grafting.",
+  "journal": "Annals of cardiothoracic surgery",
+  "year": 2014,
+  "type": "Journal Article",
+  "first_author": "Saha",
+  "volume": "3",
+  "issue": "2",
+  "page": "E1",
+  "src": [
+   "pm:bita"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845261441274",
+  "pmid": "42053075",
+  "title": "Does Robot-Assisted Hybrid Coronary Revascularization Matter? Insights From a Single-Center Experience in Patient Quality of Life.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2026,
+  "type": "Journal Article",
+  "first_author": "Bafageeh",
+  "volume": "",
+  "issue": "",
+  "page": "15569845261441274",
+  "src": [
+   "pm:hybrid",
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845261425652",
+  "pmid": "42026909",
+  "title": "Comparison of Surgical Outcomes and Long-Term Follow-Up in One-Stage Versus Two-Stage Hybrid Coronary Revascularization With DES.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2026,
+  "type": "Journal Article",
+  "first_author": "Synak",
+  "volume": "",
+  "issue": "",
+  "page": "15569845261425652",
+  "src": [
+   "pm:hybrid",
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251324200",
+  "pmid": "40317116",
+  "title": "Outcomes of Robotic MIDCAB With Hybrid PCI for Multivessel Coronary Disease Involving the Left Main: Results of 62 Cases.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2025,
+  "type": "Journal Article",
+  "first_author": "Naito",
+  "volume": "20",
+  "issue": "2",
+  "page": "158-166",
+  "src": [
+   "pm:hybrid",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251377059",
+  "pmid": "41039981",
+  "title": "Y-Graft Versus In Situ Bilateral Internal Mammary Arteries in Endoscopic Coronary Artery Bypass Grafting.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2025,
+  "type": "Journal Article,Comparative Study",
+  "first_author": "Husen",
+  "volume": "20",
+  "issue": "6",
+  "page": "547-554",
+  "src": [
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251334117",
+  "pmid": "40359074",
+  "title": "Robotic Totally Endoscopic Reverse Hybrid Coronary Revascularization: Early and Midterm Outcomes.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2025,
+  "type": "Journal Article",
+  "first_author": "AlJamal",
+  "volume": "20",
+  "issue": "3",
+  "page": "276-282",
+  "src": [
+   "pm:hybrid"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251325849",
+  "pmid": "40162604",
+  "title": "Unlocking the Potential: Overcoming Barriers to the Adoption of Robotics in Coronary Artery Bypass Surgery.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2025,
+  "type": "Journal Article",
+  "first_author": "AlJamal",
+  "volume": "20",
+  "issue": "2",
+  "page": "175-179",
+  "src": [
+   "pm:hybrid"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241245422",
+  "pmid": "38952215",
+  "title": "Robot-Assisted MIDCAB Using Bilateral Internal Thoracic Artery: A Propensity Score-Matched Study With OPCAB Patients.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2024,
+  "type": "Journal Article,Comparative Study",
+  "first_author": "Algoet",
+  "volume": "19",
+  "issue": "2",
+  "page": "184-191",
+  "src": [
+   "pm:bita",
+   "pm:midcab",
+   "pm:multivessel"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845221091515",
+  "pmid": "35499921",
+  "title": "Transit Time Flow Measurement in Robotic Totally Endoscopic Coronary Artery Bypass: What Do the Numbers Mean?",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2022,
+  "type": "Journal Article",
+  "first_author": "Yang",
+  "volume": "17",
+  "issue": "2",
+  "page": "136-141",
+  "src": [
+   "pm:flow",
+   "pm:grafts"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845221137349",
+  "pmid": "36529976",
+  "title": "Hybrid Coronary Revascularization: Early Outcomes and Midterm Follow-Up in Patients Undergoing Single or Multivessel Robotic TECAB and PCI.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2022,
+  "type": "Journal Article",
+  "first_author": "Nisivaco",
+  "volume": "17",
+  "issue": "6",
+  "page": "513-520",
+  "src": [
+   "pm:flow",
+   "pm:hybrid"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000258",
+  "pmid": "27100164",
+  "title": "Robotic Endoscopic Off-Pump Total Pericardiectomy in Constrictive Pericarditis.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2016,
+  "type": "Case Reports,Journal Article",
+  "first_author": "Maciolek",
+  "volume": "11",
+  "issue": "2",
+  "page": "134-7",
+  "src": [
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000185",
+  "pmid": "26368036",
+  "title": "Early and Midterm Results of No-Touch Aorta Multivessel Small Thoracotomy Coronary Artery Bypass Grafting: A Propensity Score-Matched Study.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2015,
+  "type": "Comparative Study,Journal Article,Research Support, Non-U.S. Gov't",
+  "first_author": "Ziankou",
+  "volume": "10",
+  "issue": "4",
+  "page": "258-67; discussion 267",
+  "src": [
+   "pm:anaortic"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318095a9e0",
+  "pmid": "22437061",
+  "title": "Use of the Purified Poloxamer 407 for Temporary Coronary Occlusion in Off-Pump CABG Does Not Cause Myocardial Injury.",
+  "journal": "Innovations (Philadelphia, Pa.)",
+  "year": 2007,
+  "type": "Journal Article",
+  "first_author": "Mommerot",
+  "volume": "2",
+  "issue": "4",
+  "page": "201-4",
+  "src": [
+   "pm:shunt"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845261437076",
+  "pmid": "42026919",
+  "title": "Nationwide Short-Term and Midterm Clinical Outcome Comparison of Hybrid Coronary Revascularization Versus Off-Pump Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Gianoli",
+  "volume": null,
+  "issue": null,
+  "page": "15569845261437076",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab",
+   "pm:hybrid",
+   "pm:midcab",
+   "pm:multivessel",
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251408006",
+  "pmid": null,
+  "title": "The Future of Coronary Bypass? A Novel Simulator for Robotic Beating-Heart TECAB Training",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "AlJamal",
+  "volume": "21",
+  "issue": "1",
+  "page": "94-95",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251407558",
+  "pmid": null,
+  "title": "Evaluating the Efficacy of Automated Suturing Technology for Bentall Procedures in a Passive Beating Heart Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Tymoshenko",
+  "volume": "21",
+  "issue": "1",
+  "page": "73-79",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251339158",
+  "pmid": "40417876",
+  "title": "Robotic Totally Endoscopic Beating Heart Off-Pump Coronary Bypass: Improvising Coronary Artery Stabilization Without the EndoWrist Stabilizer",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Murtaza",
+  "volume": "20",
+  "issue": "3",
+  "page": "316-317",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab",
+   "pm:exposure",
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251388992",
+  "pmid": "41305869",
+  "title": "Robotic Totally Endoscopic Coronary Artery Bypass: Coronary Artery Stabilization Without the EndoWrist Stabilizer for a Second Arterial Graft",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Murtaza",
+  "volume": "20",
+  "issue": "6",
+  "page": "594-595",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab",
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251375959",
+  "pmid": null,
+  "title": "Beating Heart Versus Arrested Heart for Isolated Tricuspid Valve Surgery: A Kaplan–Meier–Derived Meta-Analysis",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Baudo",
+  "volume": "20",
+  "issue": "5",
+  "page": "442-451",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845251326591",
+  "pmid": null,
+  "title": "Robotic Beating-Heart Tricuspid Valve Repair",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Zapata",
+  "volume": "20",
+  "issue": "2",
+  "page": "207-207",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241311292",
+  "pmid": "39894999",
+  "title": "Advancing the Treatment Paradigm for Multivessel Coronary Artery Disease: Hybrid Coronary Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Patel",
+  "volume": "20",
+  "issue": "1",
+  "page": "57-64",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "pm:hybrid",
+   "pm:multivessel"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241269312",
+  "pmid": "39267423",
+  "title": "Cost Analysis of Robot-Assisted Versus On-Pump and Off-Pump Coronary Artery Bypass Grafting: A Single-Center Surgical and 30-Day Outcomes Comparison",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Gianoli",
+  "volume": "19",
+  "issue": "4",
+  "page": "416-424",
+  "src": [
+   "cr:innov_opcab",
+   "pm:hybrid",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241265867",
+  "pmid": null,
+  "title": "Minimally Invasive Coronary Artery Bypass Grafting for Multivessel Coronary Artery Disease: A Systematic Review",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Sef",
+  "volume": "19",
+  "issue": "4",
+  "page": "351-359",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241238999",
+  "pmid": null,
+  "title": "Self-Practice Program for Beating-Heart Minimally Invasive Coronary Anastomosis Using a Homemade Low-Fidelity Simulator: A Proof of Concept",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Azmi",
+  "volume": "19",
+  "issue": "2",
+  "page": "175-183",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241252170",
+  "pmid": "38835206",
+  "title": "Robotic Beating-Heart Totally Endoscopic Coronary Artery Bypass: Impact of Chest Wall Dimensions in Single and Multivessel Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Watanabe",
+  "volume": "19",
+  "issue": "3",
+  "page": "290-297",
+  "src": [
+   "cr:innov_beating",
+   "pm:multivessel"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845231220678",
+  "pmid": null,
+  "title": "Beating Heart Transplantation: How to Do It",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Krishnan",
+  "volume": "19",
+  "issue": "1",
+  "page": "88-91",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1177/15569845241288540",
+  "pmid": "39473063",
+  "title": "Coronary Connector Facilitated Total Endoscopic Coronary Artery Bypass: An Ex Vivo Feasibility Study",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Gianoli",
+  "volume": "19",
+  "issue": "6",
+  "page": "640-647",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "pm:grafts"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241237803",
+  "pmid": null,
+  "title": "Totally Endoscopic Coronary Artery Aneurysm Repair",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Kato",
+  "volume": "19",
+  "issue": "2",
+  "page": "121-121",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241258488",
+  "pmid": null,
+  "title": "Response to: Facilitating Proximal Anastomosis in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Sakai",
+  "volume": "19",
+  "issue": "3",
+  "page": "331-331",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241237541",
+  "pmid": null,
+  "title": "Adjunctive Technique for Proximal Anastomosis via Right Anterior Small Thoracotomy in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Sakai",
+  "volume": "19",
+  "issue": "2",
+  "page": "210-212",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1177/15569845241258486",
+  "pmid": null,
+  "title": "Letter to the Editor: Facilitating Proximal Anastomosis in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Özcan",
+  "volume": "19",
+  "issue": "3",
+  "page": "330-330",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241266250",
+  "pmid": null,
+  "title": "Robot-Assisted Minimally Invasive Coronary Artery Bypass Grafting: Total Arterial Revascularization Using the Double-Docking Technique",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Yusuf",
+  "volume": "19",
+  "issue": "4",
+  "page": "402-408",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241237482",
+  "pmid": null,
+  "title": "Evolution of Surgical Expertise in Endoscopic Assisted Minimally Invasive Coronary Artery Bypass: Experience With 70 Consecutive Patients",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Marinakis",
+  "volume": "19",
+  "issue": "2",
+  "page": "207-209",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845241290240",
+  "pmid": null,
+  "title": "Safe Training Method for ITA Harvesting via Median Sternotomy in Minimally Invasive Coronary Artery Bypass Surgery Using Harmonic Scalpel",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Kikuchi",
+  "volume": "20",
+  "issue": "1",
+  "page": "111-113",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845231185333",
+  "pmid": "37464774",
+  "title": "Minimally Invasive Off-Pump Anaortic Complete Arterial Coronary Artery Bypass: How to Do It?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Mavioglu",
+  "volume": "18",
+  "issue": "4",
+  "page": "376-379",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab",
+   "cr:innov_opcab",
+   "pm:anaortic",
+   "pm:techn"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1177/15569845231178012",
+  "pmid": null,
+  "title": "Learning Curve of Thoracoscopic Nonrobotic Harvest of the Left Internal Mammary Artery in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Akca",
+  "volume": "18",
+  "issue": "3",
+  "page": "262-265",
+  "src": [
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845231208457",
+  "pmid": null,
+  "title": "Totally Endoscopic Atrial Septal Defect Repair on Beating Heart: Clinical Outcome and Single-Surgeon Learning Curve Experience",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Dang",
+  "volume": "18",
+  "issue": "6",
+  "page": "574-582",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845231173910",
+  "pmid": null,
+  "title": "Totally Endoscopic Surgery for Repairing Sinus Venosus Atrial Septal Defect Using Double-Patch Technique on Beating Heart",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Dang",
+  "volume": "18",
+  "issue": "3",
+  "page": "247-253",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845231168616",
+  "pmid": "37078615",
+  "title": "Anaortic With No Touch to the Aorta Is a Central Technique to Decrease Invasiveness of CABG",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Mavioglu",
+  "volume": "18",
+  "issue": "3",
+  "page": "295-295",
+  "src": [
+   "cr:innov_anaortic",
+   "pm:anaortic"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845231168615",
+  "pmid": "37078616",
+  "title": "Reply to: Anaortic With No Touch to the Aorta Is a Central Technique to Decrease Invasiveness of CABG",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Algoet",
+  "volume": "18",
+  "issue": "3",
+  "page": "296-296",
+  "src": [
+   "cr:innov_anaortic",
+   "pm:anaortic"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845231153366",
+  "pmid": null,
+  "title": "Minimally Invasive Coronary Surgery: How Should It Be Defined?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Oosterlinck",
+  "volume": "18",
+  "issue": "1",
+  "page": "22-27",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845211073929",
+  "pmid": "35225062",
+  "title": "Robotic Off-Pump Totally Endoscopic Coronary Artery Bypass in Patients  With Low Ejection Fraction",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Peev",
+  "volume": "17",
+  "issue": "1",
+  "page": "50-55",
+  "src": [
+   "cr:innov_opcab",
+   "pm:flow"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845221102179",
+  "pmid": null,
+  "title": "Intermediate-Term Outcomes of Totally Endoscopic Atrial Septal Defect Repair on Beating Heart in Small Children",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Nguyen",
+  "volume": "17",
+  "issue": "3",
+  "page": "223-230",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845221129212",
+  "pmid": null,
+  "title": "Virtual Reality Simulation for Minimally Invasive Coronary Artery Bypass Grafting With Aortic No-Touch Total Arterial Grafting Technique",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Tachibana",
+  "volume": "17",
+  "issue": "5",
+  "page": "430-437",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845221137898",
+  "pmid": null,
+  "title": "Minimally Invasive Coronary Artery Bypass Grafting in a Patient With Chronic Tracheostoma: Alternative to Reduce Sternal Wound Complication Risk",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Nantsios",
+  "volume": "17",
+  "issue": "6",
+  "page": "574-576",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845221137616",
+  "pmid": null,
+  "title": "Minimally Invasive Direct Coronary Artery Bypass: An Evolving Paradigm Over the Past 25 Years",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Varrone",
+  "volume": "17",
+  "issue": "6",
+  "page": "521-527",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845211007835",
+  "pmid": null,
+  "title": "The 7 Pillars of Multivessel Minimally Invasive Coronary Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Qureshi",
+  "volume": "16",
+  "issue": "3",
+  "page": "216-217",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/15569845211010767",
+  "pmid": null,
+  "title": "Review of Contemporary Techniques for Minimally Invasive Coronary Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Fatehi Hassanabad",
+  "volume": "16",
+  "issue": "3",
+  "page": "231-243",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984520940462",
+  "pmid": "32776814",
+  "title": "Does Intolerance of Single-Lung Ventilation Preclude Robotic Off-Pump Totally Endoscopic Coronary Bypass Surgery?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2020,
+  "type": "journal-article",
+  "first_author": "Balkhy",
+  "volume": "15",
+  "issue": "5",
+  "page": "456-462",
+  "src": [
+   "cr:innov_opcab",
+   "pm:convert"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984520932021",
+  "pmid": null,
+  "title": "Corrigendum to Lung Retraction for Exposure of Lateral Wall Vessels in Off-Pump Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2020,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": "15",
+  "issue": "3",
+  "page": "292-292",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984519899638",
+  "pmid": null,
+  "title": "Finding the Future: The 10 Commandments of Beating Heart Mitral Valve Repair",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2020,
+  "type": "journal-article",
+  "first_author": "Cohn",
+  "volume": "15",
+  "issue": "1",
+  "page": "17-21",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984520922931",
+  "pmid": null,
+  "title": "Robotic Coronary Artery Bypass Grafting: The Whole 9 Yards",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2020,
+  "type": "journal-article",
+  "first_author": "Guenther",
+  "volume": "15",
+  "issue": "3",
+  "page": "204-210",
+  "src": [
+   "cr:innov_anaortic"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984520920724",
+  "pmid": null,
+  "title": "Reasons for Conversion and Adverse Intraoperative Events in Robotically Enhanced Minimally Invasive Coronary Artery Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2020,
+  "type": "journal-article",
+  "first_author": "van der Merwe",
+  "volume": "15",
+  "issue": "3",
+  "page": "251-260",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984519876901",
+  "pmid": null,
+  "title": "Benefit of Robotic Beating-Heart Totally Endoscopic Coronary Artery Bypass in Octogenarians",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2019,
+  "type": "journal-article",
+  "first_author": "Kitahara",
+  "volume": "14",
+  "issue": "6",
+  "page": "531-536",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984519836896",
+  "pmid": null,
+  "title": "Graft Patency after Robotically Assisted Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2019,
+  "type": "journal-article",
+  "first_author": "Kitahara",
+  "volume": "14",
+  "issue": "2",
+  "page": "117-123",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984519837391",
+  "pmid": "31203737",
+  "title": "Outcomes of Bilateral Internal Thoracic Arteries in Minimally Invasive Coronary Artery Bypass Grafting With Analogy to the SYNTAX Trial",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2019,
+  "type": "journal-article",
+  "first_author": "Nambiar",
+  "volume": "14",
+  "issue": "3",
+  "page": "227-235",
+  "src": [
+   "cr:innov_midcab",
+   "pm:bita"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/1556984519836810",
+  "pmid": null,
+  "title": "Left Internal Thoracic Artery Graft Assessment by Firefly Fluorescence Imaging for Robot-Assisted Minimally Invasive Direct Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2019,
+  "type": "journal-article",
+  "first_author": "Nakamura",
+  "volume": "14",
+  "issue": "2",
+  "page": "144-150",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451801300106",
+  "pmid": null,
+  "title": "Does Robotic Beating Heart Connector Totally Endoscopic Coronary Artery Bypass Bridge the Gender Gap in Coronary Bypass Surgery?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Kitahara",
+  "volume": "13",
+  "issue": "1",
+  "page": "35-39",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000465",
+  "pmid": null,
+  "title": "Does Robotic Beating Heart Connector Totally Endoscopic Coronary Artery Bypass Bridge the Gender Gap in Coronary Bypass Surgery?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Kitahara",
+  "volume": "13",
+  "issue": "1",
+  "page": "35-39",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451801300206",
+  "pmid": null,
+  "title": "Robotic Beating Heart Totally Endoscopic Coronary Artery Bypass in Higher-Risk Patients",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Balkhy",
+  "volume": "13",
+  "issue": "2",
+  "page": "108-113",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000481",
+  "pmid": null,
+  "title": "Robotic Beating Heart Totally Endoscopic Coronary Artery Bypass in Higher-Risk Patients",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Balkhy",
+  "volume": "13",
+  "issue": "2",
+  "page": "108-113",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451801300307",
+  "pmid": null,
+  "title": "Preoperative Planning of Transapical Beating Heart Mitral Valve Repair for Safe Adaptation in Clinical Practice",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Heuts",
+  "volume": "13",
+  "issue": "3",
+  "page": "200-206",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000506",
+  "pmid": null,
+  "title": "Preoperative Planning of Transapical Beating Heart Mitral Valve Repair for Safe Adaptation in Clinical Practice",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Heuts",
+  "volume": "13",
+  "issue": "3",
+  "page": "200-206",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451801300308",
+  "pmid": null,
+  "title": "A Novel Approach Using Computed Tomography Angiograms to Predict Sternotomy Or Complicated Anastomosis in Patients Undergoing Robotically Assisted Minimally Invasive Direct Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Cook",
+  "volume": "13",
+  "issue": "3",
+  "page": "207-210",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000499",
+  "pmid": null,
+  "title": "A Novel Approach Using Computed Tomography Angiograms to Predict Sternotomy Or Complicated Anastomosis in Patients Undergoing Robotically Assisted Minimally Invasive Direct Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Cook",
+  "volume": "13",
+  "issue": "3",
+  "page": "207-210",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451801300104",
+  "pmid": null,
+  "title": "Long-Term Outcome of Patients Undergoing Minimally Invasive Direct Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Farid",
+  "volume": "13",
+  "issue": "1",
+  "page": "23-28",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000466",
+  "pmid": null,
+  "title": "Long-Term Outcome of Patients Undergoing Minimally Invasive Direct Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Farid",
+  "volume": "13",
+  "issue": "1",
+  "page": "23-28",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451801300202",
+  "pmid": null,
+  "title": "Evolution of Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Andrawes",
+  "volume": "13",
+  "issue": "2",
+  "page": "81-90",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000483",
+  "pmid": null,
+  "title": "Evolution of Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2018,
+  "type": "journal-article",
+  "first_author": "Andrawes",
+  "volume": "13",
+  "issue": "2",
+  "page": "81-90",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451701200115",
+  "pmid": null,
+  "title": "A Novel Robotic Bilateral Internal Mammary Artery Harvest Using Double Docking Technique for Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Tarui",
+  "volume": "12",
+  "issue": "1",
+  "page": "74-76",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1097/imi.0000000000000331",
+  "pmid": null,
+  "title": "A Novel Robotic Bilateral Internal Mammary Artery Harvest Using Double Docking Technique for Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Tarui",
+  "volume": "12",
+  "issue": "1",
+  "page": "74-76",
+  "src": [
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1177/155698451701200613",
+  "pmid": null,
+  "title": "Totally Endoscopic Cardiac Surgery for Atrial Septal Defect Repair on Beating Heart without Robotic Assistance in 25 Patients",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Dang",
+  "volume": "12",
+  "issue": "6",
+  "page": "446-452",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000436",
+  "pmid": null,
+  "title": "Totally Endoscopic Cardiac Surgery for Atrial Septal Defect Repair on Beating Heart without Robotic Assistance in 25 Patients",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Dang",
+  "volume": "12",
+  "issue": "6",
+  "page": "446-452",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451701200101",
+  "pmid": null,
+  "title": "Consideration of Native Coronary Disease Progression in the Decision to Perform Hybrid Coronary Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Rodriguez",
+  "volume": "12",
+  "issue": "1",
+  "page": "1-3",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000332",
+  "pmid": null,
+  "title": "Consideration of Native Coronary Disease Progression in the Decision to Perform Hybrid Coronary Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Rodriguez",
+  "volume": "12",
+  "issue": "1",
+  "page": "1-3",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451701200312",
+  "pmid": null,
+  "title": "Assistive Techniques for Proximal Anastomosis in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Kikuchi",
+  "volume": "12",
+  "issue": "3",
+  "page": "224-226",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451701200509",
+  "pmid": null,
+  "title": "Novel Dry-Lab Training Method for Totally Endoscopic Coronary Anastomosis",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Ujihira",
+  "volume": "12",
+  "issue": "5",
+  "page": "363-369",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000366",
+  "pmid": "28562467",
+  "title": "Assistive Techniques for Proximal Anastomosis in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Kikuchi",
+  "volume": "12",
+  "issue": "3",
+  "page": "224-226",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000406",
+  "pmid": null,
+  "title": "Novel Dry-Lab Training Method for Totally Endoscopic Coronary Anastomosis",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Ujihira",
+  "volume": "12",
+  "issue": "5",
+  "page": "363-369",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451701200407",
+  "pmid": null,
+  "title": "Repeat Revascularization after Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Rodriguez",
+  "volume": "12",
+  "issue": "4",
+  "page": "269-274",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451701200208",
+  "pmid": null,
+  "title": "Eligibility for Minimally Invasive Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Dillon",
+  "volume": "12",
+  "issue": "2",
+  "page": "121-126",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000381",
+  "pmid": null,
+  "title": "Repeat Revascularization after Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Rodriguez",
+  "volume": "12",
+  "issue": "4",
+  "page": "269-274",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000356",
+  "pmid": null,
+  "title": "Eligibility for Minimally Invasive Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Dillon",
+  "volume": "12",
+  "issue": "2",
+  "page": "121-126",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000401",
+  "pmid": null,
+  "title": "Ultrafast Track Robotic-Assisted Minimally Invasive Coronary Artery Surgical Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Tarola",
+  "volume": "12",
+  "issue": "5",
+  "page": "346-350",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451701200506",
+  "pmid": null,
+  "title": "Ultrafast Track Robotic-Assisted Minimally Invasive Coronary Artery Surgical Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Tarola",
+  "volume": "12",
+  "issue": "5",
+  "page": "346-350",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451601100208",
+  "pmid": null,
+  "title": "Nicorandil Infusion during Off-Pump Coronary Artery Bypass Grafting Reduces Incidence of Intra-aortic Balloon Pump Insertion",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Saha",
+  "volume": "11",
+  "issue": "2",
+  "page": "123-127",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000242",
+  "pmid": null,
+  "title": "Nicorandil Infusion during Off-Pump Coronary Artery Bypass Grafting Reduces Incidence of Intra-aortic Balloon Pump Insertion",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Saha",
+  "volume": "11",
+  "issue": "2",
+  "page": "123-127",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451601100109",
+  "pmid": null,
+  "title": "Long-term Effects of Off-Pump Coronary Bypass versus Conventional Coronary Bypass Grafting on Renal Function",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Hynes",
+  "volume": "11",
+  "issue": "1",
+  "page": "54-58",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000224",
+  "pmid": null,
+  "title": "Long-term Effects of Off-Pump Coronary Bypass versus Conventional                     Coronary Bypass Grafting on Renal Function",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Hynes",
+  "volume": "11",
+  "issue": "1",
+  "page": "54-58",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451601100608",
+  "pmid": null,
+  "title": "Strategies to Improve the Efficacy of Epicardial Linear Ablation on the Beating Heart",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Watanabe",
+  "volume": "11",
+  "issue": "6",
+  "page": "414-419",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000319",
+  "pmid": null,
+  "title": "Strategies to Improve the Efficacy of Epicardial Linear Ablation on the Beating Heart",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Watanabe",
+  "volume": "11",
+  "issue": "6",
+  "page": "414-419",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451601100502",
+  "pmid": null,
+  "title": "Predictors and Outcomes of Sternotomy Conversion and Cardiopulmonary Bypass Assistance in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Rodriguez",
+  "volume": "11",
+  "issue": "5",
+  "page": "315-320",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000309",
+  "pmid": null,
+  "title": "Predictors and Outcomes of Sternotomy Conversion and Cardiopulmonary Bypass Assistance in Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Rodriguez",
+  "volume": "11",
+  "issue": "5",
+  "page": "315-320",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451501000302",
+  "pmid": null,
+  "title": "Coronary Artery Bypass Grafting during Acute Coronary Syndrome: Outcomes and Comparison of Off-Pump to Conventional Coronary Artery Bypass Grafting at a Veteran Affairs Hospital",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Emerson",
+  "volume": "10",
+  "issue": "3",
+  "page": "157-162",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000159",
+  "pmid": null,
+  "title": "Coronary Artery Bypass Grafting during Acute Coronary Syndrome: Outcomes and Comparison of Off-Pump to Conventional Coronary Artery Bypass Grafting at a Veteran Affairs Hospital",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Emerson",
+  "volume": "10",
+  "issue": "3",
+  "page": "157-162",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451501000210",
+  "pmid": null,
+  "title": "Long-term Outcomes after Off-Pump or Conventional Coronary Artery Bypass Grafting within a Veteran Population",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Emerson",
+  "volume": "10",
+  "issue": "2",
+  "page": "133-137",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000131",
+  "pmid": null,
+  "title": "Long-term Outcomes after Off-Pump or Conventional Coronary Artery Bypass Grafting within a Veteran Population",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Emerson",
+  "volume": "10",
+  "issue": "2",
+  "page": "133-137",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451501000307",
+  "pmid": null,
+  "title": "Off-Pump Minimally Invasive Coronary Artery Bypass Grafting with a Heart Positioner Direct Retraction for a Better Exposure",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Kikuchi",
+  "volume": "10",
+  "issue": "3",
+  "page": "183-187",
+  "src": [
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000167",
+  "pmid": "26172978",
+  "title": "Off-Pump Minimally Invasive Coronary Artery Bypass Grafting with a Heart Positioner Direct Retraction for a Better Exposure",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Kikuchi",
+  "volume": "10",
+  "issue": "3",
+  "page": "183-187",
+  "src": [
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451501000401",
+  "pmid": null,
+  "title": "ISMICS Consensus Conference and Statements of Randomized Controlled Trials of Off-Pump versus Conventional Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Puskas",
+  "volume": "10",
+  "issue": "4",
+  "page": "219-229",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000184",
+  "pmid": null,
+  "title": "ISMICS Consensus Conference and Statements of Randomized Controlled Trials of Off-Pump versus Conventional Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Puskas",
+  "volume": "10",
+  "issue": "4",
+  "page": "219-229",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451501000616",
+  "pmid": null,
+  "title": "Beating-Heart Sliding Arch Aortoplasty for Arch Hypoplasia beyond Infancy",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Carlson",
+  "volume": "10",
+  "issue": "6",
+  "page": "441-443",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000211",
+  "pmid": null,
+  "title": "Beating-Heart Sliding Arch Aortoplasty for Arch Hypoplasia beyond Infancy",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Carlson",
+  "volume": "10",
+  "issue": "6",
+  "page": "441-443",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451501000114",
+  "pmid": null,
+  "title": "Exposures of Lateral and Inferior Cardiac Surface for Coronary Anastomosis during Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Pande",
+  "volume": "10",
+  "issue": "1",
+  "page": "73-75",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000116",
+  "pmid": "25621877",
+  "title": "Exposures of Lateral and Inferior Cardiac Surface for Coronary Anastomosis during Minimally Invasive Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Pande",
+  "volume": "10",
+  "issue": "1",
+  "page": "73-75",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451501000604",
+  "pmid": null,
+  "title": "Total Arterial Minimally Invasive Direct Coronary Artery Bypass Surgery Facilitated by the Trinity Clip Connector",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Stecher",
+  "volume": "10",
+  "issue": "6",
+  "page": "389-393",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000219",
+  "pmid": null,
+  "title": "Total Arterial Minimally Invasive Direct Coronary Artery Bypass Surgery Facilitated by the Trinity Clip Connector",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Stecher",
+  "volume": "10",
+  "issue": "6",
+  "page": "389-393",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451400900208",
+  "pmid": null,
+  "title": "Long-Term Follow-up of Off-Pump and On-Pump Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Raja",
+  "volume": "9",
+  "issue": "2",
+  "page": "122-129",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000042",
+  "pmid": null,
+  "title": "Long-Term Follow-up of Off-Pump and On-Pump Coronary Artery Bypass                     Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Raja",
+  "volume": "9",
+  "issue": "2",
+  "page": "122-129",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451400900109",
+  "pmid": null,
+  "title": "Improved Short-Term Outcomes with Off-Pump Reoperative Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Ramlawi",
+  "volume": "9",
+  "issue": "1",
+  "page": "49-53",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000031",
+  "pmid": null,
+  "title": "Improved Short-Term Outcomes with Off-Pump Reoperative Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Ramlawi",
+  "volume": "9",
+  "issue": "1",
+  "page": "49-53",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451400900411",
+  "pmid": null,
+  "title": "Presentation of a Quality Management Program in Off-Pump Coronary Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Bougioukakis",
+  "volume": "9",
+  "issue": "4",
+  "page": "317-321",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000059",
+  "pmid": "25084244",
+  "title": "Presentation of a Quality Management Program in Off-Pump Coronary                     Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Bougioukakis",
+  "volume": "9",
+  "issue": "4",
+  "page": "317-321",
+  "src": [
+   "cr:innov_opcab",
+   "pm:techn"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451400900209",
+  "pmid": null,
+  "title": "Six-Month Healing of the Nonocclusive Coronary Anastomotic Connector in an Off-Pump Porcine Bypass Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Stecher",
+  "volume": "9",
+  "issue": "2",
+  "page": "130-136",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000055",
+  "pmid": null,
+  "title": "Six-Month Healing of the Nonocclusive Coronary Anastomotic Connector in an Off-Pump Porcine Bypass Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Stecher",
+  "volume": "9",
+  "issue": "2",
+  "page": "130-136",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451400900605",
+  "pmid": null,
+  "title": "Minimally Invasive Coronary Artery Bypass Grafting is Associated with Improved Clinical Outcomes",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "type": "journal-article",
+  "first_author": "Rabindranauth",
+  "volume": "9",
+  "issue": "6",
+  "page": "421-426",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451300800405",
+  "pmid": null,
+  "title": "Outcomes and Predictors of Mortality and Stroke after On-Pump and Off-Pump Coronary Artery Bypass Surgery in Octogenarians",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Raja",
+  "volume": "8",
+  "issue": "4",
+  "page": "269-275",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000000",
+  "pmid": null,
+  "title": "Outcomes and Predictors of Mortality and Stroke after On-Pump and Off-Pump Coronary Artery Bypass Surgery in Octogenarians",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Raja",
+  "volume": "8",
+  "issue": "4",
+  "page": "269-275",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451300800401",
+  "pmid": null,
+  "title": "Target Vessel Detection by Epicardial Ultrasound in Off-Pump Coronary Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Hayakawa",
+  "volume": "8",
+  "issue": "4",
+  "page": "249-252",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451300800513",
+  "pmid": null,
+  "title": "Off-Pump Total Arterial Revascularization in the Absence of the Left Main Coronary Artery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Tavilla",
+  "volume": "8",
+  "issue": "5",
+  "page": "389-390",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3182a75e95",
+  "pmid": null,
+  "title": "Target Vessel Detection by Epicardial Ultrasound in Off-Pump Coronary Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Hayakawa",
+  "volume": "8",
+  "issue": "4",
+  "page": "249-252",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000023",
+  "pmid": null,
+  "title": "Off-Pump Total Arterial Revascularization in the Absence of the Left Main Coronary Artery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Tavilla",
+  "volume": "8",
+  "issue": "5",
+  "page": "389-390",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451300800406",
+  "pmid": null,
+  "title": "Performance of a Novel Bipolar/Monopolar Radiofrequency Ablation Device on the Beating Heart in an Acute Porcine Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Saint",
+  "volume": "8",
+  "issue": "4",
+  "page": "276-283",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451300800413",
+  "pmid": null,
+  "title": "Normothermic Cardiopulmonary Bypass with Beating Heart for Management of Renal Cell Carcinoma with Atrial Tumor Thrombus",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Calcaterra",
+  "volume": "8",
+  "issue": "4",
+  "page": "316-319",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3182a77f2b",
+  "pmid": null,
+  "title": "Performance of a Novel Bipolar/Monopolar Radiofrequency Ablation Device on the Beating Heart in an Acute Porcine Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Saint",
+  "volume": "8",
+  "issue": "4",
+  "page": "276-283",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000008",
+  "pmid": null,
+  "title": "Normothermic Cardiopulmonary Bypass with Beating Heart for Management of Renal Cell Carcinoma with Atrial Tumor Thrombus",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Calcaterra",
+  "volume": "8",
+  "issue": "4",
+  "page": "316-319",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451300800607",
+  "pmid": null,
+  "title": "Minimally Invasive Coronary Bypass Using Internal Thoracic Arteries via a Left Minithoracotomy",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Nambiar",
+  "volume": "8",
+  "issue": "6",
+  "page": "420-426",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000035",
+  "pmid": null,
+  "title": "Minimally Invasive Coronary Bypass Using Internal Thoracic Arteries via a Left Minithoracotomy",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Nambiar",
+  "volume": "8",
+  "issue": "6",
+  "page": "420-426",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451300800604",
+  "pmid": null,
+  "title": "Can Minimally Invasive Coronary Artery Bypass Grafting be Initiated and Practiced Safely?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Une",
+  "volume": "8",
+  "issue": "6",
+  "page": "403-409",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0000000000000019",
+  "pmid": null,
+  "title": "Can Minimally Invasive Coronary Artery Bypass Grafting be Initiated and Practiced Safely?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Une",
+  "volume": "8",
+  "issue": "6",
+  "page": "403-409",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451200700402",
+  "pmid": null,
+  "title": "The Results of the Enclose II Proximal Anastomotic Device in 178 Off-Pump Coronary Artery Bypass Surgeries",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Seto",
+  "volume": "7",
+  "issue": "4",
+  "page": "242-246",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31826efd74",
+  "pmid": null,
+  "title": "The Results of the Enclose II Proximal Anastomotic Device in 178 Off-Pump Coronary Artery Bypass Surgeries",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Seto",
+  "volume": "7",
+  "issue": "4",
+  "page": "242-246",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451200700405",
+  "pmid": null,
+  "title": "Increasing Surgical Experience with Off-Pump Coronary Surgery Does Not Mitigate the Morbidity of Emergency Conversion to Cardiopulmonary Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Hemli",
+  "volume": "7",
+  "issue": "4",
+  "page": "259-265",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31826f0d7a",
+  "pmid": null,
+  "title": "Increasing Surgical Experience with Off-Pump Coronary Surgery Does Not Mitigate the Morbidity of Emergency Conversion to Cardiopulmonary Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Hemli",
+  "volume": "7",
+  "issue": "4",
+  "page": "259-265",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451200700509",
+  "pmid": null,
+  "title": "A Step toward Nonrobotic Total Endoscopic Coronary Bypass Grafting: 40 Coronary Anastomoses in a Biomechanical Beating Heart Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Gorki",
+  "volume": "7",
+  "issue": "5",
+  "page": "359-367",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31827cd52b",
+  "pmid": null,
+  "title": "A Step toward Nonrobotic Total Endoscopic Coronary Bypass Grafting: 40 Coronary Anastomoses in a Biomechanical Beating Heart Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Gorki",
+  "volume": "7",
+  "issue": "5",
+  "page": "359-367",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451200700408",
+  "pmid": null,
+  "title": "Augmented Reality Image Guidance Improves Navigation for Beating Heart Mitral Valve Repair",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Chu",
+  "volume": "7",
+  "issue": "4",
+  "page": "274-281",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31827439ea",
+  "pmid": null,
+  "title": "Augmented Reality Image Guidance Improves Navigation for Beating Heart Mitral Valve Repair",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2012,
+  "type": "journal-article",
+  "first_author": "Chu",
+  "volume": "7",
+  "issue": "4",
+  "page": "274-281",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451100600206",
+  "pmid": null,
+  "title": "Short- and Long-Term Outcomes in Octogenarian Patients Undergoing Off-Pump Coronary Artery Bypass Grafting Compared with On-Pump Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Sarin",
+  "volume": "6",
+  "issue": "2",
+  "page": "110-115",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31821692b1",
+  "pmid": null,
+  "title": "Short- and Long-Term Outcomes in Octogenarian Patients Undergoing Off-Pump Coronary Artery Bypass Grafting Compared with On-Pump Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Sarin",
+  "volume": "6",
+  "issue": "2",
+  "page": "110-115",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451100600105",
+  "pmid": null,
+  "title": "Multivessel Awake Off-Pump Coronary Bypass Grafting Using Median Approach Technical Considerations",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Watanabe",
+  "volume": "6",
+  "issue": "1",
+  "page": "23-27",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1097/imi.0b013e31820bfc9b",
+  "pmid": "22437798",
+  "title": "Multivessel Awake Off-Pump Coronary Bypass Grafting Using Median Approach Technical Considerations",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Watanabe",
+  "volume": "6",
+  "issue": "1",
+  "page": "23-27",
+  "src": [
+   "cr:innov_opcab",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1177/155698451100600208",
+  "pmid": null,
+  "title": "Direct Endoscopy-Guided Mitral Valve Repair in the Beating Heart An Acute Animal Study",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Horai",
+  "volume": "6",
+  "issue": "2",
+  "page": "122-125",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3182168f6f",
+  "pmid": null,
+  "title": "Direct Endoscopy-Guided Mitral Valve Repair in the Beating Heart An Acute Animal Study",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Horai",
+  "volume": "6",
+  "issue": "2",
+  "page": "122-125",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451100600609",
+  "pmid": null,
+  "title": "Concomitant Transapical Transcatheter Aortic Valve Implantation and Minimally Invasive Direct Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Baumbach",
+  "volume": "6",
+  "issue": "6",
+  "page": "389-390",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318245bdc6",
+  "pmid": null,
+  "title": "Concomitant Transapical Transcatheter Aortic Valve Implantation and Minimally Invasive Direct Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Baumbach",
+  "volume": "6",
+  "issue": "6",
+  "page": "389-390",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318216be5c",
+  "pmid": null,
+  "title": "Minimally Invasive versus Open Mitral Valve Surgery a Consensus Statement of the International Society of Minimally Invasive Coronary Surgery (ISMICS) 2010",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Falk",
+  "volume": "6",
+  "issue": "2",
+  "page": "66-76",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451100600202",
+  "pmid": null,
+  "title": "Minimally Invasive versus Open Mitral Valve Surgery a Consensus Statement of the International Society of Minimally Invasive Coronary Surgery (ISMICS) 2010",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Falk",
+  "volume": "6",
+  "issue": "2",
+  "page": "66-76",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500101",
+  "pmid": null,
+  "title": "Off Pump Coronary Artery Bypass a Valuable Technique but Not for Everyone",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Lawton",
+  "volume": "5",
+  "issue": "1",
+  "page": "1-2",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181d05568",
+  "pmid": null,
+  "title": "Off Pump Coronary Artery Bypass a Valuable Technique but Not for Everyone",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Lawton",
+  "volume": "5",
+  "issue": "1",
+  "page": "1-2",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500210",
+  "pmid": null,
+  "title": "Thermosensitive Polymer Use for Shunt Sealing in Off-Pump Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Agostini",
+  "volume": "5",
+  "issue": "2",
+  "page": "122-124",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181d844df",
+  "pmid": "22437360",
+  "title": "Thermosensitive Polymer Use for Shunt Sealing in Off-Pump Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Agostini",
+  "volume": "5",
+  "issue": "2",
+  "page": "122-124",
+  "src": [
+   "cr:innov_opcab",
+   "pm:shunt"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500611",
+  "pmid": null,
+  "title": "Activation of Coagulation and Fibrinolysis after Off-Pump Coronary Artery Bypass Grafting with or without Endotracheal General Anesthesia",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Yachi",
+  "volume": "5",
+  "issue": "6",
+  "page": "444-449",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500103",
+  "pmid": null,
+  "title": "Cerebral Emboli Generation during Off-Pump Coronary Artery Bypass Grafting with a Clampless Device versus Partial Clamping of the Ascending Aorta",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Eldaif",
+  "volume": "5",
+  "issue": "1",
+  "page": "7-11",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181cf897d",
+  "pmid": "22437269",
+  "title": "Cerebral Emboli Generation during Off-Pump Coronary Artery Bypass Grafting with a Clampless Device versus Partial Clamping of the Ascending Aorta",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Eldaif",
+  "volume": "5",
+  "issue": "1",
+  "page": "7-11",
+  "src": [
+   "cr:innov_opcab",
+   "pm:shunt"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181cf8228",
+  "pmid": null,
+  "title": "Off-pump Coronary Bypass Surgery in Patients with Low Ejection Fraction",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Gorki",
+  "volume": "5",
+  "issue": "1",
+  "page": "33-41",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500108",
+  "pmid": null,
+  "title": "Off-pump Coronary Bypass Surgery in Patients with Low Ejection Fraction",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Gorki",
+  "volume": "5",
+  "issue": "1",
+  "page": "33-41",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500409",
+  "pmid": null,
+  "title": "Anesthesia Management for Robotically Assisted Endoscopic Coronary Artery Bypass Grafting on Beating Heart",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Wang",
+  "volume": "5",
+  "issue": "4",
+  "page": "291-294",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181ed20ca",
+  "pmid": null,
+  "title": "Anesthesia Management for Robotically Assisted Endoscopic Coronary Artery Bypass Grafting on Beating Heart",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Wang",
+  "volume": "5",
+  "issue": "4",
+  "page": "291-294",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500508",
+  "pmid": null,
+  "title": "Selective Beta-1 Receptor Blockade Further Reduces the Mechanically Stabilized Target Coronary Artery Motion during Beating Heart Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Wakamatsu",
+  "volume": "5",
+  "issue": "5",
+  "page": "349-354",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181f6536b",
+  "pmid": "22437520",
+  "title": "Selective Beta-1 Receptor Blockade Further Reduces the Mechanically Stabilized Target Coronary Artery Motion during Beating Heart Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Wakamatsu",
+  "volume": "5",
+  "issue": "5",
+  "page": "349-354",
+  "src": [
+   "cr:innov_beating",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500209",
+  "pmid": null,
+  "title": "“Beyond Beating Heart Surgery” Heartstring Device Protects against Perioperative Neurological Events",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Sakopoulos",
+  "volume": "5",
+  "issue": "2",
+  "page": "118-121",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181d8548f",
+  "pmid": null,
+  "title": "“Beyond Beating Heart Surgery” Heartstring Device Protects against Perioperative Neurological Events",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Sakopoulos",
+  "volume": "5",
+  "issue": "2",
+  "page": "118-121",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500106",
+  "pmid": null,
+  "title": "Minimally Invasive Direct Coronary Artery Bypass as a Primary Strategy for Reoperative Myocardial Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Balacumaraswami",
+  "volume": "5",
+  "issue": "1",
+  "page": "22-27",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181cef8a6",
+  "pmid": null,
+  "title": "Minimally Invasive Direct Coronary Artery Bypass as a Primary Strategy for Reoperative Myocardial Revascularization",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Balacumaraswami",
+  "volume": "5",
+  "issue": "1",
+  "page": "22-27",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698451000500604",
+  "pmid": null,
+  "title": "Long-Term Survival after Minimal Invasive Direct Coronary Artery Bypass (MIDCAB) Surgery in Patients with Low Ejection Fraction",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Gorki",
+  "volume": "5",
+  "issue": "6",
+  "page": "400-406",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450900400205",
+  "pmid": null,
+  "title": "Off-Pump Coronary Artery Bypass Grafting is Associated with Reduced Operative Mortality and In-Hospital Adverse Events in Patients with Left Main Coronary Artery Disease",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Sarin",
+  "volume": "4",
+  "issue": "2",
+  "page": "80-85",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181a20da6",
+  "pmid": null,
+  "title": "Off-Pump Coronary Artery Bypass Grafting is Associated with Reduced Operative Mortality and In-Hospital Adverse Events in Patients with Left Main Coronary Artery Disease",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Sarin",
+  "volume": "4",
+  "issue": "2",
+  "page": "80-85",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450900400602",
+  "pmid": null,
+  "title": "Clinical Outcomes after Hybrid Coronary Revascularization versus Off-Pump Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Vassiliades",
+  "volume": "4",
+  "issue": "6",
+  "page": "299-306",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181bbfa96",
+  "pmid": null,
+  "title": "Clinical Outcomes after Hybrid Coronary Revascularization versus                     Off-Pump Coronary Artery Bypass",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Vassiliades",
+  "volume": "4",
+  "issue": "6",
+  "page": "299-306",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181c47194",
+  "pmid": null,
+  "title": "Impact of Previous PCI on Hospital Mortality after Off-Pump Coronary Artery Bypass Grafting in Diabetic Patients with Multivessel Disease",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Kinoshita",
+  "volume": "4",
+  "issue": "6",
+  "page": "334-339",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450900400608",
+  "pmid": null,
+  "title": "Impact of Previous PCI on Hospital Mortality after Off-Pump Coronary Artery Bypass Grafting in Diabetic Patients with Multivessel Disease",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Kinoshita",
+  "volume": "4",
+  "issue": "6",
+  "page": "334-339",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450900400206",
+  "pmid": null,
+  "title": "Epicardial Ablation on the Beating Heart",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Lee",
+  "volume": "4",
+  "issue": "2",
+  "page": "86-92",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450900400209",
+  "pmid": null,
+  "title": "Complex Aortic Valve Surgery for Endocarditis Using the Beating-Heart Technique",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Ricci",
+  "volume": "4",
+  "issue": "2",
+  "page": "106-112",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181a348a2",
+  "pmid": null,
+  "title": "Epicardial Ablation on the Beating Heart",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Lee",
+  "volume": "4",
+  "issue": "2",
+  "page": "86-92",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181a20e52",
+  "pmid": null,
+  "title": "Complex Aortic Valve Surgery for Endocarditis Using the Beating-Heart Technique",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Ricci",
+  "volume": "4",
+  "issue": "2",
+  "page": "106-112",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450900400609",
+  "pmid": null,
+  "title": "Comparison of Minimally Invasive Direct Coronary Artery Bypass Surgery with Implantation of Drug-Eluting Stents in Patients with Left Anterior Descending Coronary Artery Disease",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Etienne",
+  "volume": "4",
+  "issue": "6",
+  "page": "340-344",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181c49e8b",
+  "pmid": null,
+  "title": "Comparison of Minimally Invasive Direct Coronary Artery Bypass Surgery with Implantation of Drug-Eluting Stents in Patients with Left Anterior Descending Coronary Artery Disease",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Etienne",
+  "volume": "4",
+  "issue": "6",
+  "page": "340-344",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450900400211",
+  "pmid": null,
+  "title": "Tissue Stabilizer Reverse Mounting in Minimally Invasive Direct Coronary Artery Bypass, a Simple Tool in Difficult Times",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Mourad",
+  "volume": "4",
+  "issue": "2",
+  "page": "117-117",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3181a34740",
+  "pmid": null,
+  "title": "Tissue Stabilizer Reverse Mounting in Minimally Invasive Direct Coronary Artery Bypass, a Simple Tool in Difficult Times",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Mourad",
+  "volume": "4",
+  "issue": "2",
+  "page": "117-117",
+  "src": [
+   "cr:innov_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450800300309",
+  "pmid": null,
+  "title": "SPY Imaging Assessment Correlates with Transesophageal Echocardiogram Assessment of Ventricular Function during Off-Pump Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2008,
+  "type": "journal-article",
+  "first_author": "Anderson",
+  "volume": "3",
+  "issue": "3",
+  "page": "155-157",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31817c482f",
+  "pmid": null,
+  "title": "SPY Imaging Assessment Correlates with Transesophageal Echocardiogram Assessment of Ventricular Function during Off-Pump Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2008,
+  "type": "journal-article",
+  "first_author": "Anderson",
+  "volume": "3",
+  "issue": "3",
+  "page": "155-157",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450800300202",
+  "pmid": null,
+  "title": "Robotically Assisted Beating Heart Totally Endoscopic Coronary Artery Bypass (TECAB). is There a Future?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2008,
+  "type": "journal-article",
+  "first_author": "Srivastava",
+  "volume": "3",
+  "issue": "2",
+  "page": "52-58",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318176778a",
+  "pmid": null,
+  "title": "Robotically Assisted Beating Heart Totally Endoscopic Coronary Artery Bypass (TECAB). is There a Future?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2008,
+  "type": "journal-article",
+  "first_author": "Srivastava",
+  "volume": "3",
+  "issue": "2",
+  "page": "52-58",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450800300303",
+  "pmid": null,
+  "title": "Hemodynamic Assessment Using Apical Suction versus Pericardial Retraction in Beating Heart Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2008,
+  "type": "journal-article",
+  "first_author": "Gummert",
+  "volume": "3",
+  "issue": "3",
+  "page": "125-130",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31818180ba",
+  "pmid": "22436853",
+  "title": "Hemodynamic Assessment Using Apical Suction versus Pericardial Retraction in Beating Heart Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2008,
+  "type": "journal-article",
+  "first_author": "Gummert",
+  "volume": "3",
+  "issue": "3",
+  "page": "125-130",
+  "src": [
+   "cr:innov_beating",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200207",
+  "pmid": null,
+  "title": "Simultaneous Off-Pump Coronary Artery Bypass Grafting and Ascending Aortobifemoral Bypass Graft via Ventral Abdominal Route",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Rajendran",
+  "volume": "2",
+  "issue": "2",
+  "page": "84-85",
+  "src": [
+   "cr:innov_midcab",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200304",
+  "pmid": null,
+  "title": "Management of a Catheter-Induced Pulmonary Artery Rupture: Early Presentation after Off-Pump Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Nwaejike",
+  "volume": "2",
+  "issue": "3",
+  "page": "121-121",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318061660c",
+  "pmid": null,
+  "title": "Management of a Catheter-Induced Pulmonary Artery Rupture: Early Presentation after Off-Pump Coronary Artery Bypass Surgery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Nwaejike",
+  "volume": "2",
+  "issue": "3",
+  "page": "121-121",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318054e6f0",
+  "pmid": null,
+  "title": "Simultaneous Off-Pump Coronary Artery Bypass Grafting and Ascending Aortobifemoral Bypass Graft via Ventral Abdominal Route",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Rajendran",
+  "volume": "2",
+  "issue": "2",
+  "page": "84-85",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200108",
+  "pmid": null,
+  "title": "Hemostatic Control of Coronary Arteries with Poloxamer 407 Reverse-Thermal Polymer during Off-Pump Coronary Artery Bypass Surgery in a Pig Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Cohn",
+  "volume": "2",
+  "issue": "1",
+  "page": "36-39",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e3180313a32",
+  "pmid": null,
+  "title": "Hemostatic Control of Coronary Arteries with Poloxamer 407 Reverse-Thermal Polymer during Off-Pump Coronary Artery Bypass Surgery in a Pig Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Cohn",
+  "volume": "2",
+  "issue": "1",
+  "page": "36-39",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_beating",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200405",
+  "pmid": null,
+  "title": "Renal Outcome in Off-Pump Coronary Artery Bypass Grafting: Predictors for Renal Impairment with Multivariate Analysis",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Ogawa",
+  "volume": "2",
+  "issue": "4",
+  "page": "192-197",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200406",
+  "pmid": null,
+  "title": "Hand-Sewn Proximal Anastomoses in Off-Pump Coronary Artery Bypass without the Need for Partial Occlusion Clamping: Experience with the Heartstring II Proximal Seal System",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Schoettle",
+  "volume": "2",
+  "issue": "4",
+  "page": "198-200",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31811f4644",
+  "pmid": null,
+  "title": "Renal Outcome in Off-Pump Coronary Artery Bypass Grafting: Predictors for Renal Impairment with Multivariate Analysis",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Ogawa",
+  "volume": "2",
+  "issue": "4",
+  "page": "192-197",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318148c71b",
+  "pmid": null,
+  "title": "Hand-Sewn Proximal Anastomoses in Off-Pump Coronary Artery Bypass without the Need for Partial Occlusion Clamping: Experience with the Heartstring II Proximal Seal System",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Schoettle",
+  "volume": "2",
+  "issue": "4",
+  "page": "198-200",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200106",
+  "pmid": null,
+  "title": "Outcomes after Off-Pump Reoperative Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Morris",
+  "volume": "2",
+  "issue": "1",
+  "page": "29-32",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000250499.99341.97",
+  "pmid": null,
+  "title": "Outcomes after Off-Pump Reoperative Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Morris",
+  "volume": "2",
+  "issue": "1",
+  "page": "29-32",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200103",
+  "pmid": null,
+  "title": "Displacement of the Beating Heart with a Low-Profile Suction-Based Apical Positioning Device in a Closed Chest",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Mykytenko",
+  "volume": "2",
+  "issue": "1",
+  "page": "14-19",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000244106.79590.bd",
+  "pmid": "22436871",
+  "title": "Displacement of the Beating Heart with a Low-Profile Suction-Based Apical Positioning Device in a Closed Chest",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Mykytenko",
+  "volume": "2",
+  "issue": "1",
+  "page": "14-19",
+  "src": [
+   "cr:innov_beating",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200201",
+  "pmid": null,
+  "title": "Beating Heart Aortic Valve Replacement Using Real-Time MRI Guidance",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Horvath",
+  "volume": "2",
+  "issue": "2",
+  "page": "51-55",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e31805b8280",
+  "pmid": null,
+  "title": "Beating Heart Aortic Valve Replacement using Real-Time MRI Guidance",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Horvath",
+  "volume": "2",
+  "issue": "2",
+  "page": "51-55",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450700200404",
+  "pmid": null,
+  "title": "Beating Heart Direct Left Atrial Access Balloon Cryoablation: Safety and Efficacy of Pulmonary Vein Isolation in an Ovine Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Gammie",
+  "volume": "2",
+  "issue": "4",
+  "page": "188-191",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/imi.0b013e318159375d",
+  "pmid": null,
+  "title": "Beating Heart Direct Left Atrial Access Balloon Cryoablation: Safety and Efficacy of Pulmonary Vein Isolation in an Ovine Model",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Gammie",
+  "volume": "2",
+  "issue": "4",
+  "page": "188-191",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450600100515",
+  "pmid": null,
+  "title": "Off-pump Coronary Artery Bypass Leads to a Regional Hypercoagulable State Not Detectable Using Systemic Markers",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Bidstrup",
+  "volume": "1",
+  "issue": "5",
+  "page": "283-284",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450600100403",
+  "pmid": null,
+  "title": "Adjunctive Atrial Fibrillation Therapy with Off-Pump Coronary Artery Bypass Grafting: Standard of Care?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Wudel",
+  "volume": "1",
+  "issue": "4",
+  "page": "146-150",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000248459.30534.b8",
+  "pmid": null,
+  "title": "Off-pump Coronary Artery Bypass Leads to a Regional Hypercoagulable State Not Detectable Using Systemic Markers",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Bidstrup",
+  "volume": "1",
+  "issue": "5",
+  "page": "283-284",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01243895-200600140-00003",
+  "pmid": null,
+  "title": "Adjunctive Atrial Fibrillation Therapy with Off-Pump Coronary Artery Bypass Grafting: Standard of Care?",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Wudel",
+  "volume": "1",
+  "issue": "4",
+  "page": "146-150",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450600100307",
+  "pmid": null,
+  "title": "A New Multisuction Cardiac Positioner for Multivessel Off-Pump Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Arai",
+  "volume": "1",
+  "issue": "3",
+  "page": "126-130",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01243895-200600130-00007",
+  "pmid": "22436648",
+  "title": "A New Multisuction Cardiac Positioner for Multivessel Off-Pump Coronary Artery Bypass Grafting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Arai",
+  "volume": "1",
+  "issue": "3",
+  "page": "126-130",
+  "src": [
+   "cr:innov_opcab",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450600100502",
+  "pmid": null,
+  "title": "Off-Pump Coronary Artery Bypass Leads to a Regional Hypercoagulable State Not Detectable Using Systemic Markers",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Kon",
+  "volume": "1",
+  "issue": "5",
+  "page": "232-238",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000242160.21278.b7",
+  "pmid": null,
+  "title": "Off-Pump Coronary Artery Bypass Leads to a Regional Hypercoagulable State Not Detectable Using Systemic Markers",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Kon",
+  "volume": "1",
+  "issue": "5",
+  "page": "232-238",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450600100504",
+  "pmid": null,
+  "title": "Total Endoscopic Beating-Heart Coronary Artery Bypass Grafting using a New 3D Imaging System",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Tomita",
+  "volume": "1",
+  "issue": "5",
+  "page": "243-246",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000229902.12835.ea",
+  "pmid": null,
+  "title": "Total Endoscopic Beating-Heart Coronary Artery Bypass Grafting using a New 3D Imaging System",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Tomita",
+  "volume": "1",
+  "issue": "5",
+  "page": "243-246",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450600100404",
+  "pmid": null,
+  "title": "Concomitant Beating-Heart Mitral Valve Surgery and Coronary Artery Bypass in Patients with Compromised Ventricular Function",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Di Luozzo",
+  "volume": "1",
+  "issue": "4",
+  "page": "151-154",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000218578.04748.9c",
+  "pmid": null,
+  "title": "Concomitant Beating-Heart Mitral Valve Surgery and Coronary Artery Bypass in Patients with Compromised Ventricular Function",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Di Luozzo",
+  "volume": "1",
+  "issue": "4",
+  "page": "151-154",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450600100503",
+  "pmid": null,
+  "title": "Planned Simultaneous Beating-heart Totally Endoscopic Coronary Artery Bypass (TECAB) and Percutaneous Intervention in a Single Operative Setting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Srivastava",
+  "volume": "1",
+  "issue": "5",
+  "page": "239-242",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000235470.96825.c9",
+  "pmid": null,
+  "title": "Planned Simultaneous Beating-heart Totally Endoscopic Coronary Artery Bypass (TECAB) and Percutaneous Intervention in a Single Operative Setting",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Srivastava",
+  "volume": "1",
+  "issue": "5",
+  "page": "239-242",
+  "src": [
+   "cr:innov_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450500100104",
+  "pmid": null,
+  "title": "Transabdominal Off-Pump Coronary Artery Bypass Grafting Using the Right Gastroepiploic Artery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Tavilla",
+  "volume": "1",
+  "issue": "1",
+  "page": "32-34",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450500100103",
+  "pmid": null,
+  "title": "Routine Off-Pump Coronary Artery Bypass: Reasons for On-Pump Conversion",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Hirose",
+  "volume": "1",
+  "issue": "1",
+  "page": "28-31",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01243895-200500110-00003",
+  "pmid": null,
+  "title": "Routine Off-Pump Coronary Artery Bypass: Reasons for On-Pump Conversion",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Hirose",
+  "volume": "1",
+  "issue": "1",
+  "page": "28-31",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01243895-200500110-00004",
+  "pmid": null,
+  "title": "Transabdominal Off-Pump Coronary Artery Bypass Grafting Using the Right Gastroepiploic Artery",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Tavilla",
+  "volume": "1",
+  "issue": "1",
+  "page": "32-34",
+  "src": [
+   "cr:innov_anaortic",
+   "cr:innov_anast",
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450500100206",
+  "pmid": null,
+  "title": "Evolution of Off-Pump Coronary Artery Bypass Grafting over 15 Years",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Mishra",
+  "volume": "1",
+  "issue": "2",
+  "page": "88-91",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01.imi.0000189937.33748.19",
+  "pmid": null,
+  "title": "Evolution of Off-Pump Coronary Artery Bypass Grafting over 15 Years",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Mishra",
+  "volume": "1",
+  "issue": "2",
+  "page": "88-91",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1177/155698450500100102",
+  "pmid": null,
+  "title": "Off-Pump versus Conventional Coronary Artery Bypass Grafting: A Meta-Analysis and Consensus Statement from the 2004 ISMICS Consensus Conference",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Puskas",
+  "volume": "1",
+  "issue": "1",
+  "page": "3-27",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1097/01243895-200500110-00002",
+  "pmid": null,
+  "title": "Off-Pump versus Conventional Coronary Artery Bypass Grafting: A Meta-Analysis and Consensus Statement from the 2004 ISMICS Consensus Conference",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "type": "journal-article",
+  "first_author": "Puskas",
+  "volume": "1",
+  "issue": "1",
+  "page": "3-27",
+  "src": [
+   "cr:innov_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.09.016",
+  "pmid": null,
+  "title": "Beating heart technique for orthotopic heart transplantation after ex vivo heart perfusion: Clinical application and experience",
+  "journal": "JTCVS Techniques",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Cangut",
+  "volume": "35",
+  "issue": null,
+  "page": "102102",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.09.020",
+  "pmid": null,
+  "title": "Reintervention for recurrence of mitral valve regurgitation: Transventricular beating heart neochordae implantation versus on-pump surgery",
+  "journal": "JTCVS Techniques",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Barbero",
+  "volume": "35",
+  "issue": null,
+  "page": "102106",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2026.102269",
+  "pmid": "41971856",
+  "title": "Complex composite conduits for anaortic off-pump coronary artery bypass grafting: Lambda and pi grafts",
+  "journal": "JTCVS Techniques",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Hynes",
+  "volume": "36",
+  "issue": null,
+  "page": "102269",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab",
+   "pm:anaortic",
+   "pm:grafts",
+   "pm:multivessel"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.102169",
+  "pmid": "41658920",
+  "title": "Combined robotic totally endoscopic multivessel coronary artery bypass and mitral valve repair",
+  "journal": "JTCVS Techniques",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Arai",
+  "volume": "35",
+  "issue": null,
+  "page": "102169",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab",
+   "pm:roboendo"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.102182",
+  "pmid": null,
+  "title": "Aortic arch approach using clampless anastomosis for high-flow microaxial pump: An alternative in challenging anatomy",
+  "journal": "JTCVS Techniques",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Nakahara",
+  "volume": "35",
+  "issue": null,
+  "page": "102182",
+  "src": [
+   "cr:jtcvsTech_anast"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2026.102310",
+  "pmid": null,
+  "title": "Dark sides and warm rides: Is cardiopulmonary bypass necessary for grafting posterior wall targets in robotic totally endoscopic coronary bypass?",
+  "journal": "JTCVS Techniques",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Nisivaco",
+  "volume": null,
+  "issue": null,
+  "page": "102310",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.03.013",
+  "pmid": null,
+  "title": "Controlled donation after circulatory death total beating heart transplant: First-in-human experience",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Gerosa",
+  "volume": "31",
+  "issue": null,
+  "page": "91-93",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.03.019",
+  "pmid": null,
+  "title": "First-in-human zero-ischemia-time beating-heart transplant",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Wei",
+  "volume": "31",
+  "issue": null,
+  "page": "87-90",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.11.015",
+  "pmid": null,
+  "title": "Resequenced Ross pulmonary autograft procedure: Novel approach with beating heart predominance to minimize cross-clamp and cardiopulmonary bypass times",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Farag",
+  "volume": "30",
+  "issue": null,
+  "page": "43-45",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.01.018",
+  "pmid": null,
+  "title": "Indocyanine green fluorescence imaging for accurate detection of an intramural coronary artery during robotic coronary artery bypass grafting",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Khalpey",
+  "volume": "30",
+  "issue": null,
+  "page": "94-97",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.11.011",
+  "pmid": null,
+  "title": "Commentator Discussion: Minimally invasive coronary artery bypass grafting via left anterior mini-thoracotomy: Setup, results, and evolution of a new surgical procedure",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": "29",
+  "issue": null,
+  "page": "40-42",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.08.023",
+  "pmid": null,
+  "title": "Bailout reconstruction of injured right internal thoracic artery in minimally invasive coronary artery bypass grafting",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Moriuchi",
+  "volume": "34",
+  "issue": null,
+  "page": "123-125",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.08.028",
+  "pmid": null,
+  "title": "Microaxial flow pump–assisted off-pump coronary artery bypass for low ejection fraction with relative contraindication to cardiopulmonary bypass",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Sun",
+  "volume": "34",
+  "issue": null,
+  "page": "126-128",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2025.03.018",
+  "pmid": null,
+  "title": "Aortoaxillary bypass for revascularization of the left subclavian artery during thoracic endovascular aortic repair and minimally invasive coronary artery bypass grafting",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Ling",
+  "volume": "31",
+  "issue": null,
+  "page": "39-44",
+  "src": [
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.10.022",
+  "pmid": "39991281",
+  "title": "Minimally invasive coronary artery bypass grafting via left anterior minithoracotomy: Setup, results, and evolution of a new surgical procedure",
+  "journal": "JTCVS Techniques",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Verevkin",
+  "volume": "29",
+  "issue": null,
+  "page": "28-39",
+  "src": [
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab",
+   "pm:multivessel",
+   "pm:special"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.02.015",
+  "pmid": "38899107",
+  "title": "Right-sided minimally invasive direct coronary artery bypass: Preoperative planning and surgical technique",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Hecker",
+  "volume": "25",
+  "issue": null,
+  "page": "94-96",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab",
+   "pm:midcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.01.010",
+  "pmid": "38835575",
+  "title": "Off-pump coronary artery bypass grafting with clampless aortic anastomosis devices: Aortic sealing devices versus automated anastomosis punching",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Gerçek",
+  "volume": "24",
+  "issue": null,
+  "page": "92-104",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab",
+   "pm:anaortic",
+   "pm:grafts"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.06.002",
+  "pmid": null,
+  "title": "Standardized exposure of the lateral and posterior wall in off-pump minimally invasive cardiac surgical coronary artery bypass grafting",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Albert",
+  "volume": "26",
+  "issue": null,
+  "page": "61-63",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.09.016",
+  "pmid": "39669358",
+  "title": "Minimally invasive coronary artery bypass grafting using the skeletonized right gastroepiploic artery",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Sakai",
+  "volume": "28",
+  "issue": null,
+  "page": "82-90",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab",
+   "pm:multivessel"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.01.020",
+  "pmid": null,
+  "title": "Discussion to: Hybrid stage 1 palliation with simultaneous off-pump ventricular assist device placement in neonates with high-risk single ventricle anatomy: Initial experience",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": "24",
+  "issue": null,
+  "page": "169-170",
+  "src": [
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2023.10.022",
+  "pmid": "38835568",
+  "title": "Hybrid stage 1 palliation with simultaneous off-pump ventricular assist device placement in neonates with high-risk single ventricle anatomy: Initial experience",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Mavroudis",
+  "volume": "24",
+  "issue": null,
+  "page": "164-168",
+  "src": [
+   "cr:jtcvsTech_opcab",
+   "pm:special"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2023.06.016",
+  "pmid": null,
+  "title": "Pediatric and adult beating heart simulator",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Limonjiani",
+  "volume": "21",
+  "issue": null,
+  "page": "207-212",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2023.02.015",
+  "pmid": null,
+  "title": "First-in-human beating-heart transplant",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Krishnan",
+  "volume": "19",
+  "issue": null,
+  "page": "80-85",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2022.10.009",
+  "pmid": null,
+  "title": "Beating heart pulmonary autograft harvest and modified inclusion technique with anti-commissural plication for the Ross procedure",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Zhu",
+  "volume": "17",
+  "issue": null,
+  "page": "52-55",
+  "src": [
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2023.05.024",
+  "pmid": null,
+  "title": "Totally endoscopic minimally invasive mitral valvuloplasty with a beating heart for treatment of papillary muscle rupture",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Huang",
+  "volume": "21",
+  "issue": null,
+  "page": "98-101",
+  "src": [
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2023.05.008",
+  "pmid": null,
+  "title": "Technique of bilateral internal thoracic artery minimally invasive coronary artery bypass grafting with double-lung ventilation",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Assmann",
+  "volume": "20",
+  "issue": null,
+  "page": "87-91",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.xjtc.2023.02.011",
+  "pmid": null,
+  "title": "Right single lung transplant with off-pump coronary artery bypass grafting using in situ right internal thoracic artery via thoracotomy",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Toyoda",
+  "volume": "19",
+  "issue": null,
+  "page": "157-159",
+  "src": [
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2022.10.015",
+  "pmid": null,
+  "title": "A technique for a single-stage off-pump repair of Kommerell diverticulum with antegrade branch vessel reconstruction",
+  "journal": "JTCVS Techniques",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "Bedeir",
+  "volume": "17",
+  "issue": null,
+  "page": "14-17",
+  "src": [
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.xjtc.2022.05.010",
+  "pmid": "35967226",
+  "title": "Minimally invasive coronary artery bypass grafting with ultrasonically skeletonized internal thoracic artery",
+  "journal": "JTCVS Techniques",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Tachibana",
+  "volume": "14",
+  "issue": null,
+  "page": "107-113",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab",
+   "pm:bita",
+   "pm:convert"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2022.08.012",
+  "pmid": "36510526",
+  "title": "Robotic advanced hybrid coronary revascularization: Outcomes with two internal thoracic artery grafts and stents",
+  "journal": "JTCVS Techniques",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Balkhy",
+  "volume": "16",
+  "issue": null,
+  "page": "76-88",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_opcab",
+   "pm:bita",
+   "pm:flow",
+   "pm:hybrid"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2022.05.002",
+  "pmid": "36276694",
+  "title": "Graft flow evaluation with intraoperative transit-time flow measurement in off-pump versus on-pump coronary artery bypass grafting",
+  "journal": "JTCVS Techniques",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "Leviner",
+  "volume": "15",
+  "issue": null,
+  "page": "95-106",
+  "src": [
+   "cr:jtcvsTech_opcab",
+   "pm:flow",
+   "pm:grafts"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2021.10.008",
+  "pmid": null,
+  "title": "Minimally invasive coronary artery surgery: Robotic and nonrobotic minimally invasive direct coronary artery bypass techniques",
+  "journal": "JTCVS Techniques",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Marin-Cuartas",
+  "volume": "10",
+  "issue": null,
+  "page": "170-177",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2021.03.037",
+  "pmid": null,
+  "title": "Robotic totally endoscopic coronary artery bypass grafting: It's now or never!",
+  "journal": "JTCVS Techniques",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Balkhy",
+  "volume": "10",
+  "issue": null,
+  "page": "153-157",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2021.10.013",
+  "pmid": null,
+  "title": "Commentary: Total-arterial, anaortic revascularization, and the boutique practice of coronary surgery",
+  "journal": "JTCVS Techniques",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Bakaeen",
+  "volume": "10",
+  "issue": null,
+  "page": "151-152",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2021.04.031",
+  "pmid": null,
+  "title": "Commentary: Robotic totally endoscopic coronary artery bypass: State of an art",
+  "journal": "JTCVS Techniques",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Qureshi",
+  "volume": "10",
+  "issue": null,
+  "page": "158-159",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2021.09.050",
+  "pmid": "34977717",
+  "title": "Total-arterial, anaortic, off-pump coronary artery surgery: Why, when, and how",
+  "journal": "JTCVS Techniques",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Vallely",
+  "volume": "10",
+  "issue": null,
+  "page": "140-148",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_opcab",
+   "pm:anaortic"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2021.04.022",
+  "pmid": null,
+  "title": "Commentary: Beyond the horizon of evidence in robotic totally endoscopic coronary artery bypass grafting",
+  "journal": "JTCVS Techniques",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Weiss",
+  "volume": "10",
+  "issue": null,
+  "page": "160-161",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2021.09.047",
+  "pmid": null,
+  "title": "Rescue transventricular off-pump mitral valve repair with artificial neochords for acute mitral regurgitation due to postinfarction papillary muscle rupture",
+  "journal": "JTCVS Techniques",
+  "year": 2021,
+  "type": "journal-article",
+  "first_author": "Budra",
+  "volume": "10",
+  "issue": null,
+  "page": "231-242",
+  "src": [
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/j.xjtc.2020.05.018",
+  "pmid": null,
+  "title": "Totally robotic sutured coronary artery bypass grafting: How we do it",
+  "journal": "JTCVS Techniques",
+  "year": 2020,
+  "type": "journal-article",
+  "first_author": "Torregrossa",
+  "volume": "3",
+  "issue": null,
+  "page": "170-172",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_anast",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.xjtc.2020.04.007",
+  "pmid": null,
+  "title": "To intervene or not to intervene: Lessons learned from completion angiography after robotic-assisted coronary bypass surgery",
+  "journal": "JTCVS Techniques",
+  "year": 2020,
+  "type": "journal-article",
+  "first_author": "Winters",
+  "volume": "3",
+  "issue": null,
+  "page": "190-193",
+  "src": [
+   "cr:jtcvsTech_anaortic",
+   "cr:jtcvsTech_beating",
+   "cr:jtcvsTech_midcab",
+   "cr:jtcvsTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2025.148",
+  "pmid": null,
+  "title": "Totally endoscopic beating-heart re-redo tricuspid valve repair using smartcanula",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2026.004",
+  "pmid": null,
+  "title": "A totally beating heart transplant from donation after circulatory death and thoracoabdominal normothermic regional perfusion",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2026.016",
+  "pmid": null,
+  "title": "Aortic arch repair with a beating heart in a neonate with complex transposition of the great arteries",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2026.009",
+  "pmid": "42053181",
+  "title": "Off-pump debranching with hybrid aortic arch repair",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Boldyrev",
+  "volume": "2026",
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_opcab",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2025.001",
+  "pmid": "39912255",
+  "title": "Anaortic total arterial minimally invasive coronary artery bypass grafting: The Leipzig technique",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Dietze",
+  "volume": "2025",
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab",
+   "pm:anaortic",
+   "pm:midcab",
+   "pm:multivessel",
+   "pm:techn",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2025.048",
+  "pmid": "40583699",
+  "title": "Total arterial, anaortic, off-pump coronary artery bypass grafting",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Sperry",
+  "volume": "2025",
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab",
+   "pm:anaortic",
+   "pm:grafts",
+   "pm:multivessel",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2025.045",
+  "pmid": "40459585",
+  "title": "Robotic-assisted, minimally invasive direct coronary artery bypass—preparation, conduit harvest and execution",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Catalano",
+  "volume": "2025",
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab",
+   "pm:midcab",
+   "pm:roboendo",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2025.026",
+  "pmid": null,
+  "title": "Valve-sparing aortic root replacement using the on-pump beating heart technique",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2025.005",
+  "pmid": null,
+  "title": "Beating heart arch replacement without circulatory arrest: a standardized surgical strategy",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2024.123",
+  "pmid": null,
+  "title": "Off-pump Laks-type central shunt for tricuspid atresia with small branch pulmonary arteries",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2025.047",
+  "pmid": null,
+  "title": "Video-assisted thoracoscopic excision of a bronchogenic cyst with a pericardial defect and an aortic feeding artery",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1510/mmcts.2023.105",
+  "pmid": "38372275",
+  "title": "Robotic-assisted minimally invasive multivessel coronary bypass surgery",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Arslanhan",
+  "volume": "2024",
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2024.012",
+  "pmid": "39041591",
+  "title": "Minimally invasive off-pump bypass grafting—positioning the right posterior descending coronary artery",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Akca",
+  "volume": "2024",
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab",
+   "pm:multivessel"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2024.040",
+  "pmid": "39283297",
+  "title": "Off-pump ascending aorta–abdominal aorta bypass in patient with endoleak",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Boldyrev",
+  "volume": "2024",
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2023.012",
+  "pmid": null,
+  "title": "Robotic redo totally endoscopic coronary artery bypass to the right coronary artery in a patient with prior coronary bypass surgery",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2023.026",
+  "pmid": null,
+  "title": "Re-operation for a detached left coronary button from an aortic root conduit causing a large retro-sternal pseudoaneurysm",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2023.004",
+  "pmid": null,
+  "title": "Single-incision, off-pump repair of a right aortic arch with an aberrant left subclavian artery and diverticulum of Kommerell in an adult",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2023,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2022.082",
+  "pmid": null,
+  "title": "Off-label transapical beating-heart transcatheter mitral valve replacement in severe mitral annular calcification",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2022,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_beating",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1093/mmcts/mmv022",
+  "pmid": null,
+  "title": "Left anterior small thoracotomy for minimally invasive coronary\n                    artery bypass grafting",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1093/mmcts/mmv020",
+  "pmid": null,
+  "title": "Minimally invasive surgical Jarvik 2000 off-pump implantation",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2015,
+  "type": "journal-article",
+  "first_author": "Bejko",
+  "volume": "2015",
+  "issue": null,
+  "page": "mmv020",
+  "src": [
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1093/mmcts/mmt007",
+  "pmid": "24413006",
+  "title": "Minimally invasive cardiac surgery-coronary artery bypass graft",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Lemma",
+  "volume": "2013",
+  "issue": "0",
+  "page": "mmt007-mmt007",
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1093/mmcts/mmt006",
+  "pmid": null,
+  "title": "Tricuspid valve replacement on a beating heart via a right minithoracotomy",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Salinas",
+  "volume": "2013",
+  "issue": "0",
+  "page": "mmt006-mmt006",
+  "src": [
+   "cr:mmcts_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1093/mmcts/mms021",
+  "pmid": null,
+  "title": "Right thoracotomy approach for repair of recurrent or complex coarctation of the aorta using an extra-anatomic ascending aorta to descending aorta bypass graft off-pump",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2013,
+  "type": "journal-article",
+  "first_author": "Tabry",
+  "volume": "2013",
+  "issue": "0",
+  "page": "mms021-mms021",
+  "src": [
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2010.004663",
+  "pmid": null,
+  "title": "Beating heart totally endoscopic coronary artery bypass",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2011,
+  "type": "journal-article",
+  "first_author": "Jansens",
+  "volume": "2011",
+  "issue": "0914",
+  "page": null,
+  "src": [
+   "cr:mmcts_anaortic",
+   "cr:mmcts_anast",
+   "cr:mmcts_beating",
+   "cr:mmcts_midcab",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2009.003939",
+  "pmid": null,
+  "title": "Transapical transcatheter off-pump aortic valve implantation",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Kempfert",
+  "volume": "2010",
+  "issue": "0602",
+  "page": null,
+  "src": [
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2007.003061",
+  "pmid": null,
+  "title": "Off-pump epicardial high intensity focused ultrasound ablation of atrial fibrillation in patients undergoing structural heart repair",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Groh",
+  "volume": "2009",
+  "issue": "0618",
+  "page": null,
+  "src": [
+   "cr:mmcts_beating",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2004.000943",
+  "pmid": null,
+  "title": "Pump-assisted beating heart surgery",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Glauber",
+  "volume": "2007",
+  "issue": "0219",
+  "page": null,
+  "src": [
+   "cr:mmcts_beating",
+   "cr:mmcts_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2004.000539",
+  "pmid": "24413385",
+  "title": "Off-pump myocardial revascularization",
+  "journal": "Multimedia Manual of Cardio-Thoracic Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "DeSimone",
+  "volume": "2006",
+  "issue": "1009",
+  "page": "mmcts.2004.000539",
+  "src": [
+   "cr:mmcts_opcab",
+   "pm:exposure"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2022.045",
+  "pmid": "36331815",
+  "title": "Robotic-assisted MIDCAB procedure through a minithoracotomy: Step-by-step instructions.",
+  "journal": "Multimedia manual of cardiothoracic surgery : MMCTS",
+  "year": 2022,
+  "type": "Case Reports,Video-Audio Media,Journal Article",
+  "first_author": "Aerden",
+  "volume": "2022",
+  "issue": "",
+  "page": "",
+  "src": [
+   "pm:hybrid"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1510/mmcts.2020.047",
+  "pmid": "33155774",
+  "title": "Off-pump bilateral internal thoracic artery grafting - surgical technique.",
+  "journal": "Multimedia manual of cardiothoracic surgery : MMCTS",
+  "year": 2020,
+  "type": "Video-Audio Media,Journal Article",
+  "first_author": "Camporrotondo",
+  "volume": "2020",
+  "issue": "",
+  "page": "",
+  "src": [
+   "pm:bita",
+   "pm:techn",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1510/mmcts.2020.022",
+  "pmid": "32459077",
+  "title": "Application of a clampless hemostatic device (HeartString®) for outflow graft anastomosis.",
+  "journal": "Multimedia manual of cardiothoracic surgery : MMCTS",
+  "year": 2020,
+  "type": "Case Reports,Video-Audio Media,Journal Article",
+  "first_author": "Nozdrzykowski",
+  "volume": "2020",
+  "issue": "",
+  "page": "",
+  "src": [
+   "pm:anaortic",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2020.021",
+  "pmid": "32459073",
+  "title": "MIDCAB Tips and tricks for a successful procedure.",
+  "journal": "Multimedia manual of cardiothoracic surgery : MMCTS",
+  "year": 2020,
+  "type": "Case Reports,Video-Audio Media,Journal Article",
+  "first_author": "Repossini",
+  "volume": "2020",
+  "issue": "",
+  "page": "",
+  "src": [
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1510/mmcts.2020.001",
+  "pmid": "31990160",
+  "title": "Robotic off-pump totally endoscopic hand-sewn coronary artery bypass using in-situ bilateral internal mammary artery.",
+  "journal": "Multimedia manual of cardiothoracic surgery : MMCTS",
+  "year": 2020,
+  "type": "Case Reports,Journal Article,Video-Audio Media",
+  "first_author": "Hashimoto",
+  "volume": "2020",
+  "issue": "",
+  "page": "",
+  "src": [
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1510/mmcts.2020.003",
+  "pmid": "31990154",
+  "title": "Mastering Off-Pump, Total Arterial Coronary Artery Bypass Grafting: A step-by-step approach.",
+  "journal": "Multimedia manual of cardiothoracic surgery : MMCTS",
+  "year": 2020,
+  "type": "Journal Article,Video-Audio Media",
+  "first_author": "Amabile",
+  "volume": "2020",
+  "issue": "",
+  "page": "",
+  "src": [
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1510/mmcts.2019.011",
+  "pmid": "30990582",
+  "title": "Robotic-assisted minimally invasive direct coronary artery bypass grafting in single vessel disease.",
+  "journal": "Multimedia manual of cardiothoracic surgery : MMCTS",
+  "year": 2019,
+  "type": "Case Reports,Journal Article,Review,Video-Audio Media",
+  "first_author": "Boulemden",
+  "volume": "2019",
+  "issue": "",
+  "page": "",
+  "src": [
+   "pm:review",
+   "pm:video"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2026.05.001",
+  "pmid": null,
+  "title": "All-arterial anaortic off-pump coronary bypass technique",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2026,
+  "type": "journal-article",
+  "first_author": "Hynes",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:operTech_anaortic",
+   "cr:operTech_anast",
+   "cr:operTech_beating",
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2025.07.003",
+  "pmid": null,
+  "title": "Beating Heart Implantation: A Comprehensive Technical Perspective",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Elde",
+  "volume": null,
+  "issue": null,
+  "page": null,
+  "src": [
+   "cr:operTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2024.07.002",
+  "pmid": null,
+  "title": "Beating Heart Pulmonary Valve Replacement: Technique of Pulmonary Valve Replacement with a Biological Valve",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2025,
+  "type": "journal-article",
+  "first_author": "Bitton",
+  "volume": "30",
+  "issue": "1",
+  "page": "13-25",
+  "src": [
+   "cr:operTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2023.11.002",
+  "pmid": null,
+  "title": "Norwood-Sano Procedure With Neo-aortic Valve Repair on the Beating Heart",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2024,
+  "type": "journal-article",
+  "first_author": "Konstantinov",
+  "volume": "29",
+  "issue": "1",
+  "page": "55-61",
+  "src": [
+   "cr:operTech_beating"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2017.04.002",
+  "pmid": null,
+  "title": "Off Pump Robotic-Assisted LVAD (HeartWare, HVAD) Placement via Left Mini Thoracotomy",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2017,
+  "type": "journal-article",
+  "first_author": "Pantino",
+  "volume": "22",
+  "issue": "1",
+  "page": "68-77",
+  "src": [
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2016.10.003",
+  "pmid": null,
+  "title": "Off-Pump Coronary Artery Bypass Grafting",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2016,
+  "type": "journal-article",
+  "first_author": "Yanagawa",
+  "volume": "21",
+  "issue": "1",
+  "page": "2-19",
+  "src": [
+   "cr:operTech_anaortic",
+   "cr:operTech_anast",
+   "cr:operTech_beating",
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2010.08.005",
+  "pmid": null,
+  "title": "Less Invasive Approaches to Coronary Artery Bypass Grafting: Off-Pump Coronary Artery Bypass",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Myung",
+  "volume": "15",
+  "issue": "3",
+  "page": "186-193",
+  "src": [
+   "cr:operTech_anaortic",
+   "cr:operTech_anast",
+   "cr:operTech_beating",
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2010.08.002",
+  "pmid": null,
+  "title": "Robotic Coronary Artery Bypass Grafting",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Liao",
+  "volume": "15",
+  "issue": "3",
+  "page": "194-205",
+  "src": [
+   "cr:operTech_anaortic",
+   "cr:operTech_anast",
+   "cr:operTech_beating",
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2007.05.003",
+  "pmid": null,
+  "title": "Off-Pump Aortic Valve Bypass Using a Valved Apical–Aortic Conduit",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2007,
+  "type": "journal-article",
+  "first_author": "Brown",
+  "volume": "12",
+  "issue": "2",
+  "page": "85-94",
+  "src": [
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2006.06.002",
+  "pmid": null,
+  "title": "Off-Pump Coronary Revascularization: Operative Technique",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Sabik",
+  "volume": "11",
+  "issue": "2",
+  "page": "90-104",
+  "src": [
+   "cr:operTech_anaortic",
+   "cr:operTech_anast",
+   "cr:operTech_beating",
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2004.02.001",
+  "pmid": null,
+  "title": "Off pump microwave ablation of atrial fibrillation during mitral valve surgery",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2004,
+  "type": "journal-article",
+  "first_author": "Kress",
+  "volume": "9",
+  "issue": "1",
+  "page": "43-58",
+  "src": [
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1016/s1522-2942(01)80029-5",
+  "pmid": null,
+  "title": "Computer-assisted or robotic totally endoscopic coronary artery bypass grafting",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2001,
+  "type": "journal-article",
+  "first_author": "WOLF",
+  "volume": "6",
+  "issue": "3",
+  "page": "177-188",
+  "src": [
+   "cr:operTech_anaortic",
+   "cr:operTech_anast",
+   "cr:operTech_beating",
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1053/otct.2001.26963",
+  "pmid": null,
+  "title": "Computer-Assisted or Robotic Totally Endoscopic Coronary Artery Bypass Grafting",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2001,
+  "type": "journal-article",
+  "first_author": "Wolf",
+  "volume": "6",
+  "issue": "3",
+  "page": "177-188",
+  "src": [
+   "cr:operTech_anaortic",
+   "cr:operTech_anast",
+   "cr:operTech_beating",
+   "cr:operTech_midcab",
+   "cr:operTech_opcab"
+  ],
+  "core_journal": true,
+  "tech_title": false
+ },
+ {
+  "doi": "10.1186/s12871-025-03578-x",
+  "pmid": "41449363",
+  "title": "A randomised controlled trial comparing of the efficacy and safety of left lung isolation for minimally invasive direct coronary artery surgery using video-imaging double-lumen endobronchial tube with a bronchial blocker paced through a video-imaging single-lumen tracheal tube.",
+  "journal": "BMC anesthesiology",
+  "year": 2025,
+  "type": "Journal Article,Randomized Controlled Trial,Comparative Study",
+  "first_author": "Fang",
+  "volume": "26",
+  "issue": "1",
+  "page": "83",
+  "src": [
+   "pm:midcab",
+   "pm:video"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.21470/1678-9741-2024-0193",
+  "pmid": "40445183",
+  "title": "Triple Arterial Minimally Invasive Direct Coronary Artery Bypass Grafting: Step-By-Step Technique Report.",
+  "journal": "Brazilian journal of cardiovascular surgery",
+  "year": 2025,
+  "type": "Case Reports,Journal Article",
+  "first_author": "Grujic",
+  "volume": "40",
+  "issue": "5",
+  "page": "e20240193",
+  "src": [
+   "pm:midcab"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.21470/1678-9741-2022-0146",
+  "pmid": "36692049",
+  "title": "Novel Technique for Box-Lesion Ablation of Atrial Fibrillation Combined with Off-Pump Coronary Surgery.",
+  "journal": "Brazilian journal of cardiovascular surgery",
+  "year": 2023,
+  "type": "Journal Article",
+  "first_author": "Zotov",
+  "volume": "38",
+  "issue": "3",
+  "page": "326-330",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/s1010-7940(02)00120-3",
+  "pmid": null,
+  "title": "‘Shunt shuffle’—a simple technique of introducing intracoronary shunts for off-pump coronary artery bypass",
+  "journal": "European Journal of Cardio-Thoracic Surgery",
+  "year": 2002,
+  "type": "journal-article",
+  "first_author": "Patel",
+  "volume": "21",
+  "issue": "6",
+  "page": "1121-1122",
+  "src": [
+   "cr:ejcts_opcab"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/s1010-7940(00)00604-7",
+  "pmid": null,
+  "title": "A simple method for heart stabilization during off-pump multi-vessel coronary artery bypass grafting: surgical technique and short term results",
+  "journal": "European Journal of Cardio-Thoracic Surgery",
+  "year": 2001,
+  "type": "journal-article",
+  "first_author": "Rama",
+  "volume": "19",
+  "issue": "1",
+  "page": "105-107",
+  "src": [
+   "cr:ejcts_opcab"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1093/ejcts/ezx287",
+  "pmid": "29029008",
+  "title": "Complete arterial revascularization using bilateral internal mammary artery in T-graft technique for multivessel coronary artery disease in on- or off-pump approach: does gender lose its historical impact on clinical outcome?",
+  "journal": "European journal of cardio-thoracic surgery : official journal of the European Association for Cardio-thoracic Surgery",
+  "year": 2017,
+  "type": "Journal Article",
+  "first_author": "Rieß",
+  "volume": "52",
+  "issue": "5",
+  "page": "917-923",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.3389/fsurg.2025.1665139",
+  "pmid": "41113126",
+  "title": "Study on the application of prone and supine lung recruitment maneuvers in the treatment of atelectasis after minimally invasive direct coronary artery bypass surgery.",
+  "journal": "Frontiers in surgery",
+  "year": 2025,
+  "type": "Journal Article",
+  "first_author": "Xin",
+  "volume": "12",
+  "issue": "",
+  "page": "1665139",
+  "src": [
+   "pm:midcab"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1007/s11748-009-0441-1",
+  "pmid": "19908117",
+  "title": "Minimally invasive cardiac surgery for atrial fibrillation complicated by coronary artery disease: combination of video-assisted pulmonary vein isolation and minimally invasive direct coronary artery bypass.",
+  "journal": "General thoracic and cardiovascular surgery",
+  "year": 2009,
+  "type": "Case Reports,Journal Article",
+  "first_author": "Totsugawa",
+  "volume": "57",
+  "issue": "11",
+  "page": "612-5",
+  "src": [
+   "pm:video"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1510/icvts.2005.123125",
+  "pmid": null,
+  "title": "A new exposure technique for the circumflex coronary artery system in robotic totally endoscopic coronary artery bypass grafting",
+  "journal": "Interactive CardioVascular and Thoracic Surgery",
+  "year": 2006,
+  "type": "journal-article",
+  "first_author": "Bonatti",
+  "volume": "5",
+  "issue": "3",
+  "page": "279-281",
+  "src": [
+   "cr:icvts_anaortic"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1093/icvts/ivu451",
+  "pmid": "25583646",
+  "title": "Off-pump or on-pump beating heart: which technique offers better outcomes following coronary revascularization?",
+  "journal": "Interactive cardiovascular and thoracic surgery",
+  "year": 2015,
+  "type": "Journal Article,Review",
+  "first_author": "Sepehripour",
+  "volume": "20",
+  "issue": "4",
+  "page": "546-9",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1186/s13019-017-0572-x",
+  "pmid": "28231841",
+  "title": "Early clinical outcomes of on-pump beating-heart versus off-pump technique for surgical revascularization in patients with severe left ventricular dysfunction: the experience of a single center.",
+  "journal": "Journal of cardiothoracic surgery",
+  "year": 2017,
+  "type": "Journal Article",
+  "first_author": "Xia",
+  "volume": "12",
+  "issue": "1",
+  "page": "11",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": null,
+  "pmid": "17530560",
+  "title": "Minimally invasive off-pump video-assisted endoscopic surgical pulmonary vein isolation using bipolar radiofrequency ablation - preliminary report.",
+  "journal": "Kardiologia polska",
+  "year": 2007,
+  "type": "Clinical Trial,Journal Article",
+  "first_author": "Suwalski",
+  "volume": "65",
+  "issue": "4",
+  "page": "370-4; discussion 375-6",
+  "src": [
+   "pm:video"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": null,
+  "pmid": "18536293",
+  "title": "[Stabilizing technique of intra-fat coronary artery in off-pump coronary artery bypass grafting].",
+  "journal": "Kyobu geka. The Japanese journal of thoracic surgery",
+  "year": 2008,
+  "type": "English Abstract,Journal Article",
+  "first_author": "Ito",
+  "volume": "61",
+  "issue": "6",
+  "page": "460-1",
+  "src": [
+   "pm:exposure"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1038/srep46143",
+  "pmid": "28397830",
+  "title": "Cardiac kinematic parameters computed from video of in situ beating heart.",
+  "journal": "Scientific reports",
+  "year": 2017,
+  "type": "Journal Article,Research Support, Non-U.S. Gov't",
+  "first_author": "Fassina",
+  "volume": "7",
+  "issue": "",
+  "page": "46143",
+  "src": [
+   "pm:video"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1007/s00595-017-1623-6",
+  "pmid": "29318373",
+  "title": "Segmental clamp and distal perfusion technique for reducing myocardial ischemia during coronary onlay grafting on a beating heart.",
+  "journal": "Surgery today",
+  "year": 2018,
+  "type": "Journal Article",
+  "first_author": "Minato",
+  "volume": "48",
+  "issue": "5",
+  "page": "566-570",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.52198/21.sti.38.cv1400",
+  "pmid": "33755939",
+  "title": "MINI OPCAB Operation: Surgical Technique.",
+  "journal": "Surgical technology international",
+  "year": 2021,
+  "type": "Journal Article",
+  "first_author": "Benetti",
+  "volume": "38",
+  "issue": "",
+  "page": "290-293",
+  "src": [
+   "pm:exposure"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2010.02.089",
+  "pmid": null,
+  "title": "Aortic No-Touch Off-Pump Coronary Artery Bypass Grafting: A State-of-the-Art Surgical Technique",
+  "journal": "The Annals of Thoracic Surgery",
+  "year": 2010,
+  "type": "journal-article",
+  "first_author": "Yan",
+  "volume": "90",
+  "issue": "4",
+  "page": "1392-1393",
+  "src": [
+   "cr:ats_anaortic",
+   "cr:ats_opcab"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2009.07.045",
+  "pmid": null,
+  "title": "A New No-Touch Aorta Technique for Arterial-Source, Off-Pump Coronary Surgery",
+  "journal": "The Annals of Thoracic Surgery",
+  "year": 2009,
+  "type": "journal-article",
+  "first_author": "Cirillo",
+  "volume": "88",
+  "issue": "4",
+  "page": "e46-e47",
+  "src": [
+   "cr:ats_anaortic"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2016.05.102",
+  "pmid": "27847090",
+  "title": "A Safe Technique for Using an Enclose II Anastomosis Assist Device During Off-Pump Coronary Bypass.",
+  "journal": "The Annals of thoracic surgery",
+  "year": 2016,
+  "type": "Journal Article",
+  "first_author": "Matsushita",
+  "volume": "102",
+  "issue": "6",
+  "page": "e581-e582",
+  "src": [
+   "pm:anaortic",
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/j.athoracsur.2012.03.097",
+  "pmid": "22916770",
+  "title": "OPCAB technique for high-risk patients.",
+  "journal": "The Annals of thoracic surgery",
+  "year": 2012,
+  "type": "Letter,Comment",
+  "first_author": "Sharma",
+  "volume": "94",
+  "issue": "3",
+  "page": "1036; author reply 1036-7",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1016/s0003-4975(03)01156-1",
+  "pmid": "15223470",
+  "title": "A simple technique of introducing intracoronary shunts for off-pump coronary artery bypass surgery.",
+  "journal": "The Annals of thoracic surgery",
+  "year": 2004,
+  "type": "Journal Article",
+  "first_author": "Yokoyama",
+  "volume": "78",
+  "issue": "1",
+  "page": "352-4",
+  "src": [
+   "pm:shunt"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.1067/mtc.2002.124798",
+  "pmid": null,
+  "title": "Intrapulmonary shunt after cardiopulmonary bypass: The use of vital capacity maneuvers versus off-pump coronary artery bypass grafting",
+  "journal": "The Journal of Thoracic and Cardiovascular Surgery",
+  "year": 2002,
+  "type": "journal-article",
+  "first_author": "Tschernko",
+  "volume": "124",
+  "issue": "4",
+  "page": "732-738",
+  "src": [
+   "cr:jtcvs_opcab"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": null,
+  "pmid": "22774542",
+  "title": "[Specific features of the technique of performing coronary bypass operations on the beating heart].",
+  "journal": "Vestnik khirurgii imeni I. I. Grekova",
+  "year": 2012,
+  "type": "Journal Article",
+  "first_author": "Volkov",
+  "volume": "171",
+  "issue": "2",
+  "page": "11-6",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": "10.3760/cma.j.issn.0376-2491.2018.20.015",
+  "pmid": "29886653",
+  "title": "[Short-term clinical safety and efficacy of No-touch great saphenous vein harvesting technique for off-pump coronary artery bypass grafting].",
+  "journal": "Zhonghua yi xue za zhi",
+  "year": 2018,
+  "type": "Journal Article",
+  "first_author": "Hua",
+  "volume": "98",
+  "issue": "20",
+  "page": "1601-1604",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ },
+ {
+  "doi": null,
+  "pmid": "22781571",
+  "title": "[Comparison of sternotomy off-pump coronary artery bypass and minimally invasive technique for isolated single vessel grafting].",
+  "journal": "Zhonghua yi xue za zhi",
+  "year": 2012,
+  "type": "Comparative Study,Controlled Clinical Trial,English Abstract,Journal Article",
+  "first_author": "Wu",
+  "volume": "92",
+  "issue": "14",
+  "page": "974-6",
+  "src": [
+   "pm:techn"
+  ],
+  "core_journal": false,
+  "tech_title": true
+ }
+]

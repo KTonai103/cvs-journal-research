@@ -1,0 +1,148 @@
+[
+ {
+  "doi": "10.1053/j.optechstcvs.2016.10.003",
+  "alt_dois": [],
+  "pmid": null,
+  "title": "Off-Pump Coronary Artery Bypass Grafting",
+  "authors": "Yanagawa B, Puskas JD",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2016,
+  "vol": "21",
+  "issue": "1",
+  "page": "2-19",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "オフポンプCABGの操作手技を解説する図解豊富なオペレーティブ・テクニック論文。心臓の脱転・固定から吻合作成までの標準的手順を提示する。",
+  "key_features": [
+   "off-pump CABG",
+   "exposure",
+   "stabilization",
+   "anastomosis"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2010.08.005",
+  "alt_dois": [],
+  "pmid": null,
+  "title": "Less Invasive Approaches to Coronary Artery Bypass Grafting: Off-Pump Coronary Artery Bypass",
+  "authors": "Myung RJ, Halkos ME, Puskas JD",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2010,
+  "vol": "15",
+  "issue": "3",
+  "page": "186-193",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "低侵襲アプローチとしてのオフポンプCABGの操作手技を図解で解説する論文。低侵襲の文脈でのオフポンプ血行再建の手技的ポイントを示す。",
+  "key_features": [
+   "off-pump CABG",
+   "less invasive",
+   "operative technique"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1053/j.optechstcvs.2006.06.002",
+  "alt_dois": [],
+  "pmid": null,
+  "title": "Off-Pump Coronary Revascularization: Operative Technique",
+  "authors": "Sabik JF",
+  "journal": "Operative Techniques in Thoracic and Cardiovascular Surgery",
+  "year": 2006,
+  "vol": "11",
+  "issue": "2",
+  "page": "90-104",
+  "media": "figure_rich",
+  "importance": 4,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "オフポンプ冠動脈血行再建の手術手技を解説する図解豊富なオペレーティブ・テクニック論文。脱転・固定・吻合構築の標準手順を提示する。",
+  "key_features": [
+   "off-pump CABG",
+   "operative technique",
+   "exposure",
+   "stabilization"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1177/15569845211010767",
+  "alt_dois": [],
+  "pmid": "34081874",
+  "title": "Review of Contemporary Techniques for Minimally Invasive Coronary Revascularization",
+  "authors": "Fatehi Hassanabad A, Kang J, Maitland A, Adams C et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2021,
+  "vol": "16",
+  "issue": "3",
+  "page": "231-243",
+  "media": "standard",
+  "importance": 3,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "MICS-CABG・TECAB・ハイブリッド冠血行再建という主要3手技を網羅的に解説したレビュー。各手技の現状・適応・障壁を整理した技術的概説。",
+  "key_features": [
+   "MICS-CABG",
+   "TECAB",
+   "hybrid revascularization",
+   "review"
+  ],
+  "abstract": "Minimally invasive coronary revascularization techniques aim to avoid median sternotomy with its associated complications, while facilitating recovery and maintaining the benefits of surgical revascularization. The 3 most common procedures are minimally invasive coronary artery bypass grafting, totally endoscopic coronary artery bypass, and hybrid coronary revascularization. For a variety of reasons, including cost and technical difficulty, not many centers are routinely performing minimally invasive coronary revascularization. Nevertheless, many studies have assessed the safety and efficacy of each of these procedures in different clinical contexts. Thus far results have been promising, and with the evolution of procedural techniques, these approaches have the potential to redefine coronary revascularization in the future. This review highlights the current state of minimally invasive coronary revascularization techniques by exploring their benefits, identifying barriers to their adoption, and discussing future potential paradigms."
+ },
+ {
+  "doi": null,
+  "alt_dois": [],
+  "pmid": "22774542",
+  "title": "Specific features of the technique of performing coronary bypass operations on the beating heart.",
+  "authors": "Volkov AM, Khubulava GG, Paĭvin AA, Iurchenko DL, Kravchuk VN, Liubimov AI.",
+  "journal": "Vestnik khirurgii imeni I. I. Grekova",
+  "year": 2012,
+  "vol": "171",
+  "issue": "2",
+  "page": "11-6",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "no-doi",
+  "ja_summary": "847例の拍動下CABG経験に基づき、高位胸部硬膜外麻酔、近位吻合の先行作成、遠位吻合の作成順序、局所安定化（バキュームスタビライザー）と側・後壁へのアクセス、ブロワー・冠内シャント使用といった手技の特徴を解説。",
+  "key_features": [
+   "beating heart CABG",
+   "vacuum stabilizer",
+   "proximal-first",
+   "thoracic epidural",
+   "intracoronary shunt"
+  ],
+  "abstract": "The article presents a technique of performing coronary bypass operations on the beating heart used by the authors in 847 patients which is based on high thoracic epidural anesthesia, primary formation of proximal anastomoses of the aorto-coronary bypasses and specified succession of the formation of distal, stabilization of the local part of the heart in the field of placing distal anastomosis and access to the lateral and posterior surface of the heart with vacuum stabilizers, using blower-humidifier and intracoronary shunts."
+ },
+ {
+  "doi": "10.1177/155698450500100206",
+  "alt_dois": [
+   "10.1097/01.imi.0000189937.33748.19"
+  ],
+  "pmid": null,
+  "title": "Evolution of Off-Pump Coronary Artery Bypass Grafting over 15 Years",
+  "authors": "Mishra YK, Mishra M, Malhotra R, Meharwal ZS et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "vol": "1",
+  "issue": "2",
+  "page": "88-91",
+  "media": "standard",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "15年28,216例の経験からOPCABの展開・スタビライゼーション手技の発展、学習曲線、落とし穴を概観した手技進化レビュー。",
+  "key_features": [
+   "OPCAB evolution",
+   "exposure and stabilization",
+   "learning curve",
+   "multivessel"
+  ],
+  "abstract": "<h4>Background</h4>: Off-pump coronary artery bypass grafting for multivessel disease is an important alternative to conventional myocardial revascularization using cardiopulmonary bypass. The development of exposure and stabilization techniques has made this surgery simple, safe, and routine. Experience with the technique, its evolution, the learning curve, and the pitfalls is presented.<h4>Methods</h4>: A retrospective analysis was made of 28,216 patients who underwent elective coronary artery bypass grafting over a 15-year period from January 1990 through December 2004. Isolated off-pump coronary artery bypass grafting was performed in 14,030 patients and on-pump coronary artery bypass grafting in 14,186 patients. The overall period was divided into 3 groups of 5 years each: group I (1990-1994), group II (1995-1999), and group III (2000-2004). Initially, off-pump coronary artery bypass grafting was performed selectively in high-risk patients (eg, atheromatous aorta, severe systemic impairment, chronic obstructive pulmonary disease, octogenarian). Recently (2000-2004), multivessel off-pump coronary artery bypass grafting has been performed electively in 96% to 98% of patients undergoing coronary artery bypass grafting. Patients' medical charts were reviewed for age, preoperative risk factors, operative findings, intraoperative conversion rate to cardiopulmonary bypass, postop"
+ }
+]

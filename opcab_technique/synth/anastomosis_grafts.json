@@ -1,0 +1,304 @@
+[
+ {
+  "doi": "10.21037/acs-2023-rcabg-0211",
+  "alt_dois": [],
+  "pmid": "39157189",
+  "title": "How to perform distal anastomosis using a robotic platform: totally endoscopic coronary artery bypass",
+  "authors": "Bonatti J, Ashraf SF, Winter M, Rubino TE et al",
+  "journal": "Annals of Cardiothoracic Surgery",
+  "year": 2024,
+  "vol": "13",
+  "issue": "4",
+  "page": "382-384",
+  "media": "figure_rich",
+  "importance": 5,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "ロボットプラットフォームを用いたTECABでの遠位吻合（distal anastomosis）の作成手技を段階的に解説した記事。",
+  "key_features": [
+   "distal anastomosis",
+   "TECAB",
+   "robotic",
+   "suturing technique"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1016/j.xjtc.2024.09.016",
+  "alt_dois": [],
+  "pmid": "39669358",
+  "title": "Minimally invasive coronary artery bypass grafting using the skeletonized right gastroepiploic artery",
+  "authors": "Sakai H, Yamauchi A, Tachibana K, Masuda K et al",
+  "journal": "JTCVS Techniques",
+  "year": 2024,
+  "vol": "28",
+  "issue": null,
+  "page": "82-90",
+  "media": "standard",
+  "importance": 4,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "上行大動脈に触れずに完全動脈性血行再建を達成するため、骨格化右胃大網動脈をMICS-CABGの導管として用いる手技と成績を提示。no-touch aortaを実現する追加導管の活用法。",
+  "key_features": [
+   "skeletonized RGEA",
+   "total arterial",
+   "no-touch aorta",
+   "MICS-CABG",
+   "conduit"
+  ],
+  "abstract": "<h4>Objective</h4>To evaluate the clinical outcomes of right gastroepiploic artery use in minimally invasive coronary artery bypass grafting.<h4>Methods</h4>A total of 428 patients who underwent minimally invasive coronary artery bypass grafting from February 2012 to February 2024 were included into this retrospective cohort study. The selection criteria for right gastroepiploic artery use included satisfactory artery size and length, significant stenosis (99% to 100%) of the right coronary artery, and unsuitable ascending aorta for partial clamping.<h4>Results</h4>The study cohort comprised 70 men and 8 women, with an average age of 63.6 ± 10.5 years. The right gastroepiploic artery was used in 18.2% (78 out of 428) of cases, without the aorta being touched in all these cases. Total arterial revascularization was achieved in 93.6% of cases and complete revascularization was achieved in 98.7%. Notable postoperative outcomes included zero in-hospital mortality, an incidence of new-onset atrial fibrillation of 9.0%, and a median intensive care unit stay of 2 days. Surgical site infections occurred in 7.5% of patients.<h4>Conclusions</h4>The use of the right gastroepiploic artery in minimally invasive coronary artery bypass grafting is a viable option for achieving total arterial revascularization without touching the ascending aorta, enhancing the rate of optimal clinical outcome"
+ },
+ {
+  "doi": "10.1177/155698451701200312",
+  "alt_dois": [
+   "10.1097/imi.0000000000000366"
+  ],
+  "pmid": null,
+  "title": "Assistive Techniques for Proximal Anastomosis in Minimally Invasive Coronary Artery Bypass Grafting",
+  "authors": "Kikuchi K, Endo Y",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2017,
+  "vol": "12",
+  "issue": "3",
+  "page": "224-226",
+  "media": "standard",
+  "importance": 4,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "MICS CABGで困難な上行大動脈アクセスを克服するための中枢吻合補助手技（ThoraTrak開創器・屈曲Octopusスタビライザーによる肺動脈牽引・側方鉗子）を示す。",
+  "key_features": [
+   "MICS CABG",
+   "proximal anastomosis",
+   "side-biting clamp",
+   "Octopus stabilizer",
+   "aortic access"
+  ],
+  "abstract": "We introduce assistive techniques for proximal anastomosis in off-pump minimally invasive coronary artery bypass grafting (MICS CABG) to overcome difficult access to the ascending aorta in MICS CABG. An 8-cm left thoracotomy is made in the fifth intercostal space. ThoraTrak retractor (Medtronic Inc, Minneapolis, MN USA) is used to open the thoracotomy and is pulled to the cephalad and rightward direction toward to the ascending aorta. The pericardium is opened from the ascending aorta to the left ventricular apex and to the inferior vena cava. Two retraction sutures on the pericardial edge are used to laterally displace the heart. After dissecting between the ascending aorta and main pulmonary artery, the Octopus tissue stabilizer (Medtronic Inc, Minneapolis, MN USA), of which the suction tip is bent 60 degrees, is used to retract the pulmonary artery caudally. A flexible side-biting clamp (Vitalitec Inc.) is placed on the ascending aorta, and proximal anastomoses are handsewn on the ascending aorta. A total of 31 proximal anastomoses were completed with this technique between November 2013 and June 2015. All proximal anastomosis was completed without any difficulty. In MICS CABG, the technical challenges in proximal anastomosis due to difficult access to the aorta can be overcome safely by using this technique."
+ },
+ {
+  "doi": "10.1177/15569845241288540",
+  "alt_dois": [],
+  "pmid": "39473063",
+  "title": "Coronary Connector Facilitated Total Endoscopic Coronary Artery Bypass: An Ex Vivo Feasibility Study",
+  "authors": "Gianoli M, de Jong AR, Wassink HM, Gründeman PF et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "vol": "19",
+  "issue": "6",
+  "page": "640-647",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "自動マイクロステープル式コネクタ(Octocon)を用いたロボットTECABでの冠動脈吻合手技を示し、single/jump/Y-graft構成の作成手順をex vivoで実証する。",
+  "key_features": [
+   "Octocon connector",
+   "automated anastomosis",
+   "TECAB",
+   "jump/Y-graft"
+  ],
+  "abstract": "<h4>Objective</h4>Totally endoscopic coronary artery bypass (TECAB) procedures pose significant challenges, motivating the development of Octocon, an automated endoscopic connector designed for coronary anastomoses in off-pump and endoscopic settings. This feasibility study aimed to assess Octocon's functionality and maneuverability in closed-chest conditions during robot-assisted TECAB simulations.<h4>Methods</h4>The Octocon deployment comprises a 3-step procedure. Initially, delicate self-aligning microstapling technology is used to attach connector halves to individual blood vessels. Subsequently, the connector halves are joined to accomplish the anastomosis process. TECAB conditions were simulated using a dedicated box housing ex vivo porcine hearts. The study, conducted by 3 experienced surgeons, investigated the feasibility and standardization potential of a robot-assisted procedure employing Octocon. It evaluated maneuverability in closed-chest conditions and assessed the effectiveness of grafting internal mammary artery segments to different heart regions using single graft, jump graft, and Y-graft constructions.<h4>Results</h4>The robot-assisted procedure, using 4 standard instruments, successfully completed all 3 steps in 18 anastomotic procedures. In 96% of cases, the procedural steps were accomplished on the first attempt. The feasibility of constructing jump graft "
+ },
+ {
+  "doi": "10.1177/15569845241237541",
+  "alt_dois": [],
+  "pmid": "38504143",
+  "title": "Adjunctive Technique for Proximal Anastomosis via Right Anterior Small Thoracotomy in Minimally Invasive Coronary Artery Bypass Grafting",
+  "authors": "Sakai H, Kikuchi K, Masuda K, Sai Y et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2024,
+  "vol": "19",
+  "issue": "2",
+  "page": "210-212",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "MICS CABGにおいて右前小開胸を介して近位吻合を行うための補助手技を解説する技術論文。",
+  "key_features": [
+   "proximal anastomosis",
+   "right anterior small thoracotomy",
+   "MICS CABG",
+   "adjunctive technique"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.1007/s00595-017-1623-6",
+  "alt_dois": [],
+  "pmid": "29318373",
+  "title": "Segmental clamp and distal perfusion technique for reducing myocardial ischemia during coronary onlay grafting on a beating heart.",
+  "authors": "Minato N, Okada T, Kanemoto S, Zempo N",
+  "journal": "Surgery Today",
+  "year": 2018,
+  "vol": "48",
+  "issue": "5",
+  "page": "566-570",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "拍動下オンレイ吻合中の心筋虚血を軽減する目的で、冠動脈をセグメンタルにスネアクランプしカニューレで遠位を大腿動脈血で灌流（外シャント）し、踵側から段階的にオンレイ吻合を進めクランプを移動させて早期再灌流を得る手技を解説。",
+  "key_features": [
+   "onlay anastomosis",
+   "distal perfusion",
+   "external shunt",
+   "segmental snare clamp"
+  ],
+  "abstract": "We present a segmental clamp with distal perfusion technique to reduce myocardial ischemia during onlay grafting, on a beating heart. After a proximal coronary arteriotomy for 2-3 cm, the distal artery is perfused through a cannula, with femoral arterial blood (distal perfusion with external shunt). During proximal and distal coronary snare clamping with distal perfusion, onlay anastomosis is performed, from the heel toward the point of cannula insertion. We then move the proximal clamp to the onlay area and open the graft, to get early proximal coronary reperfusion. The arteriotomy is extended, and this procedure is repeated to achieve complete beating heart onlay anastomosis. We safely performed this procedure on the beating heart off-pump or on-pump in 95 patients with no perioperative myocardial infarction, no intraoperative hemodynamic deterioration, no 30-day mortality. This technique reduces regional myocardial ischemic and secures the safety for onlay grafting on the beating heart."
+ },
+ {
+  "doi": "10.3760/cma.j.issn.0376-2491.2018.20.015",
+  "alt_dois": [],
+  "pmid": "29886653",
+  "title": "Short-term clinical safety and efficacy of No-touch great saphenous vein harvesting technique for off-pump coronary artery bypass grafting.",
+  "authors": "Hua K, Liu TS, Li Y, Zhao Y, Zheng JB, Zhou N, Zhou SY, Dong R.",
+  "journal": "Zhonghua yi xue za zhi",
+  "year": 2018,
+  "vol": "98",
+  "issue": "20",
+  "page": "1601-1604",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "resolves(doi.org→Wanfang; not in CrossRef API)",
+  "ja_summary": "OPCABGにおけるNo-touch大伏在静脈採取手技の早期成績を後方視的に評価し、各種シーケンシャル/単独静脈グラフト構成（NTSVG-OM-PDA等）とNo-touchグラフトの平均血流量を報告した手技関連研究。",
+  "key_features": [
+   "No-touch saphenous vein",
+   "vein harvesting",
+   "sequential graft",
+   "graft flow"
+  ],
+  "abstract": "<b>Objective:</b> To evaluated early clinical outcomes of saphenous vein grafts harvested with a No-touch technique in off-pump coronary artery bypass graft (OPCABG) surgery. <b>Methods:</b> A total of 124 patients with three-vessel disease undergoing OPCABG by No-touch technique between June and November 2017 in Beijing An Zhen Hospital were respectively reviewed. <b>Results:</b> The average age of patients was (60.7±10.3) years, and 80 cases (64.5%) were male, with the average body mass index (BMI)of (25.4±2.5) kg/m(2,) the mean preoperative left ventricular ejection fraction (LVEF) of (58.0±7.0%). The operative time was (4.0±0.4) hours, and 16 cases (12.9%) were harvested for whole vein grafts. The number of vein grafts and venous anastomoses was 144 and 284, respectively. There were 16 cases of single bridge NTSVG-LAD, 4 cases of single bridge NTSVG-D, 99 cases of sequential bridge NTSVG-OM-PDA, 5 cases of sequential bridge NTSVG-OM-PLV, 4 cases of sequential bridge NTSVG-OM-RCA, 16 cases of sequential bridge NTSVG-D-OM-PDA. The mean flow volume of No-touch vein grafts was (51.9±2.4) ml/min. There was no death case in hospital. Postoperative re-exploration for hemorrhage of anastomosis happened in 1 case (0.8%), which was caused by pericardial tamponade due to insufficiency of hemostasis in internal mammary bed. There were 1 case of bad wound healing of lower extremity inci"
+ },
+ {
+  "doi": "10.1177/155698451501000604",
+  "alt_dois": [
+   "10.1097/imi.0000000000000219"
+  ],
+  "pmid": null,
+  "title": "Total Arterial Minimally Invasive Direct Coronary Artery Bypass Surgery Facilitated by the Trinity Clip Connector",
+  "authors": "Stecher D, Bronkers G, Hoefer IE, Pasterkamp G et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2015,
+  "vol": "10",
+  "issue": "6",
+  "page": "389-393",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "両側内胸動脈を用いた完全動脈性MIDCABで、Trinity Clip吻合コネクターを使ってRITA-LITA Y字グラフトを構成し標的血管へ装着する吻合手技を提示。",
+  "key_features": [
+   "total arterial MIDCAB",
+   "Trinity Clip connector",
+   "RITA-LITA Y-graft",
+   "anastomotic device"
+  ],
+  "abstract": "<h4>Objective</h4>This pilot study evaluated the feasibility of total arterial minimally invasive direct coronary artery bypass surgery by using the Trinity Clip anastomotic connector in an acute porcine model.<h4>Methods</h4>In 3 pigs, the left and right internal thoracic arteries (LITA and RITA) were harvested conventionally and the chest closed subsequently. After a left lateral thoracotomy, the coronary target was positioned and stabilized by an endo-starfish and octopus. A free RITA-to-LITA y-graft, with a LITA-to-left anterior descending coronary artery (LAD) and a free RITA-to-obtuse marginal or posterolateral or posterior descending artery, was constructed using the Trinity Clip. Patency was assessed with angiography (n = 3 anastomoses).<h4>Results</h4>The anastomotic procedure was feasible via a small lateral thoracotomy, with a fast construction of the y-graft, and successful application of the mounted complex (ie, graft, connector, and laser, temporarily fixated by a fixation clip) onto the LAD. Access to the obtuse marginal artery, posterolateral artery, and posterior descending artery was possible, with successful construction, resulting in patent anastomoses.<h4>Conclusions</h4>This experimental pilot study demonstrates the feasibility of the anastomotic technique in a total arterial minimally invasive direct coronary artery bypass approach. Revascularization of t"
+ },
+ {
+  "doi": "10.1097/imi.0000000000000055",
+  "alt_dois": [
+   "10.1177/155698451400900209"
+  ],
+  "pmid": "24758949",
+  "title": "Six-Month Healing of the Nonocclusive Coronary Anastomotic Connector in an Off-Pump Porcine Bypass Model",
+  "authors": "Stecher D, Agostoni P, Pasterkamp G, Hoefer IE et al",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2014,
+  "vol": "9",
+  "issue": "2",
+  "page": "130-136",
+  "media": "standard",
+  "importance": 3,
+  "oa": "N",
+  "verify": "match",
+  "ja_summary": "Excimer Laser Assisted Nonocclusive Anastomosis (ELANA) 冠動脈コネクターを用いたITA-LAD/RCA吻合をブタOPCABで作成し、6ヶ月で全例開存・良好な内皮化を確認。手縫いに代わる吻合デバイス手技として有用。",
+  "key_features": [
+   "ELANA connector",
+   "sutureless anastomosis",
+   "ITA-LAD",
+   "device technique"
+  ],
+  "abstract": "<h4>Objective</h4>This pilot study evaluates the anastomotic healing of the Excimer Laser Assisted Nonocclusive Anastomosis coronary connector at 6 months in a porcine off-pump coronary artery bypass (OPCAB) model.<h4>Methods</h4>Left internal thoracic artery to left anterior descending coronary artery bypass in two animals and left internal thoracic artery to left anterior descending coronary artery and right internal thoracic artery to right coronary artery bypasses in one animal were evaluated intraoperatively and at 6 months. The anastomoses (n = 4) were examined by angiography, intravascular ultrasound, optical coherence tomography, scanning electron microscopy, and histology.<h4>Results</h4>At follow-up, all anastomoses (n = 4) were fully patent (FitzGibbon grade A). Scanning electron microscopy demonstrated complete endothelial coverage of the anastomotic surface, and histology showed minimal streamlining intimal hyperplasia. The in vivo intravascular ultrasound and optical coherence tomography acquisitions confirmed histologic findings. Optical coherence tomography demonstrated 0.06-mm intimal coverage of the intraluminal part of the connector along the full circumference of the anastomosis.<h4>Conclusions</h4>In this pilot study, the Excimer Laser Assisted Nonocclusive Anastomosis coronary connector showed an excellent healing response on the long-term in the porcine O"
+ },
+ {
+  "doi": "10.1177/155698450700200108",
+  "alt_dois": [
+   "10.1097/imi.0b013e3180313a32"
+  ],
+  "pmid": null,
+  "title": "Hemostatic Control of Coronary Arteries with Poloxamer 407 Reverse-Thermal Polymer during Off-Pump Coronary Artery Bypass Surgery in a Pig Model",
+  "authors": "Cohn WE, Tuzun E, Simonak R, Baimbridge F",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2007,
+  "vol": "2",
+  "issue": "1",
+  "page": "36-39",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "ブタモデルで冠動脈切開部の出血制御に体温でゲル化するポロキサマー407逆熱応答ポリマーを冠動脈内注入する新手技を評価し、無血視野での吻合補助の有用性を検証。",
+  "key_features": [
+   "poloxamer 407",
+   "intracoronary occlusion",
+   "bloodless field",
+   "anastomosis aid",
+   "hemostasis",
+   "pig model"
+  ],
+  "abstract": "<h4>Objective</h4>: To evaluate a new material, poloxamer 407 reverse-thermal polymer, which may be of value in controlling bleeding during off-pump coronary anastomoses.<h4>Methods</h4>: Poloxamer 407 reverse-thermal polymer is a clear, nontoxic compound that is a viscous liquid at room temperature but instantly changes to a firm, water-soluble gel when warmed to body temperature. Six pigs underwent off-pump coronary artery bypass with the left internal mammary artery to the left anterior descending coronary artery. Blood loss from the arteriotomy was measured over a 15-minute period before and after injection of 500 μL intracoronary polymer. After completion of the anastomosis, 10 mL of cold saline was poured along the left anterior descending artery to facilitate dissolution of the polymer. The heart was allowed to beat 2 additional hours with blood flowing through the left internal mammary to left anterior descending graft, after which a completion angiogram was obtained to evaluate graft patency and to look for gross angiographic evidence of coronary branch occlusion or intraluminal filling defects. The animals were then humanely euthanized, and myocardium from the area subtended by the left anterior descending was harvested for histologic evaluation.<h4>Results</h4>: All animals successfully underwent the surgical procedure and survived until study termination without any"
+ },
+ {
+  "doi": "10.1177/155698450500100104",
+  "alt_dois": [
+   "10.1097/01243895-200500110-00004"
+  ],
+  "pmid": null,
+  "title": "Transabdominal Off-Pump Coronary Artery Bypass Grafting Using the Right Gastroepiploic Artery",
+  "authors": "Tavilla G",
+  "journal": "Innovations: Technology and Techniques in Cardiothoracic and Vascular Surgery",
+  "year": 2005,
+  "vol": "1",
+  "issue": "1",
+  "page": "32-34",
+  "media": "figure_rich",
+  "importance": 3,
+  "oa": null,
+  "verify": "match",
+  "ja_summary": "右胃大網動脈を用いた経腹的アプローチによるOPCABの手技で、グラフト採取・配置と吻合構成を提示する非典型的導管利用法。",
+  "key_features": [
+   "right gastroepiploic artery",
+   "transabdominal approach",
+   "conduit",
+   "OPCAB grafting"
+  ],
+  "abstract": ""
+ },
+ {
+  "doi": "10.21470/1678-9741-2022-0146",
+  "alt_dois": [],
+  "pmid": "36692049",
+  "title": "Novel Technique for Box-Lesion Ablation of Atrial Fibrillation Combined with Off-Pump Coronary Surgery",
+  "authors": "Zotov A, Borisov D, Troitskiy A, Khabazov R",
+  "journal": "Brazilian Journal of Cardiovascular Surgery",
+  "year": 2023,
+  "vol": "38",
+  "issue": "3",
+  "page": "326-330",
+  "media": "standard",
+  "importance": 2,
+  "oa": "Y",
+  "verify": "match",
+  "ja_summary": "オフポンプCABGに併施するbox-lesion心房細動アブレーションの新手技。両極性屈曲クランプ式デバイスを用いて拍動心下で完全血行再建と心房細動アブレーションを併施する手順を示す。",
+  "key_features": [
+   "off-pump CABG",
+   "box-lesion ablation",
+   "concomitant AF surgery",
+   "bipolar clamp"
+  ],
+  "abstract": "<h4>Introduction</h4>We propose a new technique for box-lesion ablation combined with off-pump coronary artery bypass grafting for the treatment of patients with coronary artery disease and paroxysmal or persistent atrial fibrillation.<h4>Methods</h4>Eight male patients with paroxysmal (n=2) or persistent atrial fibrillation (n=6) and coronary artery disease underwent box-lesion ablation combined with off-pump coronary artery bypass grafting. Box-lesion ablation was performed using a bipolar flexible clamping device with irrigated electrodes which was originally designed for thoracoscopic epicardial ablation.<h4>Results</h4>Complete revascularization was performed in all patients. There were no deaths or major complications. At a median follow-up of 14 months, seven patients (87.5%) were in sinus rhythm.<h4>Conclusion</h4>Box-lesion ablation can be easily and effectively combined with coronary artery surgery in an off-pump setting."
+ }
+]
