@@ -1,0 +1,22 @@
+fig_no,file,chapter,title,source,doi,pmid,license,public_ok,note
+1,fv_jp_mics_volume_dist_PMC13139202.jpg,2,日本のMICS僧帽弁手術は「年5例未満の施設」が最も多い,"Shimokawa T, Kumamaru H, Motomura N, et al. Gen Thorac Cardiovasc Surg 2026;74(5):510-517.",10.1007/s11748-025-02225-z,41417160,CC BY 4.0,yes,
+2,fv_aviator_survival_PMC9942544.jpg,3,AVIATOR：生存差はつくが、at risk が急速に減る,"Arabkhani B, Klautz RJM, de Heer F, et al. Eur J Cardiothorac Surg 2023;63(2):ezac514.",10.1093/ejcts/ezac514,36308450,CC BY-NC 4.0,yes,
+3,fv_aviator_reint_PMC9942544.jpg,3,AVIATOR：再介入回避には差がない（P=0.98）,"Arabkhani B, Klautz RJM, de Heer F, et al. Eur J Cardiothorac Surg 2023;63(2):ezac514.",10.1093/ejcts/ezac514,36308450,CC BY-NC 4.0,yes,
+4,fv_govers_vo_longterm_PMC13282078.jpg,3,年12例で折れる — 長期のAV再介入回避生存,"Govers PJ, et al. Eur J Cardiothorac Surg 2026;68(6):ezag177.",10.1093/ejcts/ezag177,42178209,CC BY 4.0,yes,
+5,fv_govers_vo_early_PMC13282078.jpg,3,早期成績は症例数に鈍感（P=.8003）,"Govers PJ, et al. Eur J Cardiothorac Surg 2026;68(6):ezag177.",10.1093/ejcts/ezag177,42178209,CC BY 4.0,yes,
+6,fv_avp_device_view_PMC10903180.jpg,3,術中加圧可視化device の実像（n=24・単群）,"Arabkhani B, Sandker SC, Braun J, et al. Eur J Cardiothorac Surg 2023;64(5):ezad291.",10.1093/ejcts/ezad291,37610333,CC BY 4.0,yes,
+7,fv_ross_vs_mavr_surv_PMC10897596.jpg,5,18歳モデルの60年：Ross と機械弁の生存曲線,"Sarnaik KS, et al. JTCVS Open 2024;17:185-214.",10.1016/j.xjon.2023.10.033,38420529,CC BY-NC-ND 4.0,yes,
+8,fv_dph20_freedom_PMC13017825.jpg,6,脱細胞化肺homograft 20年：上段は良好、下段が落ちる,"Sarikouch S, Boethig D, Avsar M, et al. Eur J Cardiothorac Surg 2026;68(2):ezag087.",10.1093/ejcts/ezag087,41652890,CC BY-NC 4.0,yes,
+9,fv_dph20_function_PMC13017825.jpg,6,「壊れていないが機能していない弁」が20年で全部になる,"Sarikouch S, Boethig D, Avsar M, et al. Eur J Cardiothorac Surg 2026;68(2):ezag087.",10.1093/ejcts/ezag087,41652890,CC BY-NC 4.0,yes,
+10,fv_arise_explant_PMC11009017.jpg,6,ARISE：144例（上）と全DAH 358例（下）の explant 回避,"Horke A, Tudorache I, Laufer G, et al. Eur J Cardiothorac Surg 2024;65(4):ezae121.",10.1093/ejcts/ezae121,38532304,CC BY 4.0,yes,
+11,fv_decell10_vs_ch_bjv_PMC4951634.jpg,6,10年時点では脱細胞化が明確に勝っていた（2016年の比較）,"Sarikouch S, Horke A, Tudorache I, et al. Eur J Cardiothorac Surg 2016;50(2):281-290.",10.1093/ejcts/ezw050,27013071,CC BY 4.0,yes,
+12,fv_shf_structure_PMC11708634.jpg,7,シンフォリウム：構造と、36か月までの組織置換,"Kasahara S, Yoshimura Y, Ichikawa H, et al. Ann Thorac Surg Short Rep 2024;2(4):804-809.",10.1016/j.atssr.2024.04.020,39790580,CC BY-NC-ND 4.0,yes,
+13,fv_shf_sites_PMC11708634.jpg,7,34例41部位の内訳（弁ではなくパッチである）,"Kasahara S, Yoshimura Y, Ichikawa H, et al. Ann Thorac Surg Short Rep 2024;2(4):804-809.",10.1016/j.atssr.2024.04.020,39790580,CC BY-NC-ND 4.0,yes,
+14,fv_xeltis_pi_histogram_PMC7969645.jpg,7,Xeltis XPV：第1世代で重度PIが積み上がる,"Morales DL, Herrington C, Bacha EA, et al. Front Cardiovasc Med 2020;7:583360.",10.3389/fcvm.2020.583360,33748192,CC BY 4.0,yes,
+15,fv_xeltis_explant_PMC7969645.jpg,7,摘出された XPV conduit の実物,"Morales DL, Herrington C, Bacha EA, et al. Front Cardiovasc Med 2020;7:583360.",10.3389/fcvm.2020.583360,33748192,CC BY 4.0,yes,
+16,fv_avneo_gradients_PMC11184442.jpg,8,AVNeo の血行動態は5年まで安定している,"Prinzing A, Boehm J, Burri M, et al. JTCVS Tech 2024;25:35-42.",10.1016/j.xjtc.2024.02.011,38899113,CC BY-NC-ND 4.0,yes,
+17,fv_avneo_svd_cuminc_PMC11184442.jpg,8,AVNeo の5年：SVD と bioprosthetic valve failure,"Prinzing A, Boehm J, Burri M, et al. JTCVS Tech 2024;25:35-42.",10.1016/j.xjtc.2024.02.011,38899113,CC BY-NC-ND 4.0,yes,
+local-1,figures_local/ezag185_fig1_valve-types-A-K.jpg,—,人工弁の歴史的/現行タイプ A〜K,"Arabkhani B, et al. Eur J Cardiothorac Surg 2026;68(6):ezag185",10.1093/ejcts/ezag185,,非OA（OUP standard reuse rights）,NO,公開HTMLには入れない。figures_local/ でローカル閲覧のみ（.gitignore済）
+local-2,figures_local/ezag185_fig2_approaches-sternotomy-MICS-robotic.jpg,—,胸骨正中切開/低侵襲/ロボット支援の3アプローチ,"Arabkhani B, et al. Eur J Cardiothorac Surg 2026;68(6):ezag185",10.1093/ejcts/ezag185,,非OA（OUP standard reuse rights）,NO,公開HTMLには入れない。figures_local/ でローカル閲覧のみ（.gitignore済）
+local-3,figures_local/ezag185_fig3_VSARR-reimplantation-vs-remodelling.jpg,—,VSARR：reimplantation と remodelling,"Arabkhani B, et al. Eur J Cardiothorac Surg 2026;68(6):ezag185",10.1093/ejcts/ezag185,,非OA（OUP standard reuse rights）,NO,公開HTMLには入れない。figures_local/ でローカル閲覧のみ（.gitignore済）
+local-4,figures_local/ezag185_fig4_tissue-engineered-valve-evolution.jpg,—,組織工学弁の進化,"Arabkhani B, et al. Eur J Cardiothorac Surg 2026;68(6):ezag185",10.1093/ejcts/ezag185,,非OA（OUP standard reuse rights）,NO,公開HTMLには入れない。figures_local/ でローカル閲覧のみ（.gitignore済）

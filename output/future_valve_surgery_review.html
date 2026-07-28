@@ -1,0 +1,3060 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="心臓外科・MCS・LVAD関連ジャーナル最新号 注目論文まとめ">
+<title>心臓弁膜症外科の未来 — EACTS Innovation Committee の主張を一次文献で格付けし直す</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-chapter {
+  font-weight: 800;
+  color: #fff;
+  background: var(--accent);
+  padding: 9px 10px;
+  font-size: 0.88rem;
+  margin-top: 22px;
+  border-radius: 4px;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-chapter:first-child { margin-top: 0; }
+#sidebar-nav a.nav-chapter:hover { filter: brightness(1.12); }
+#sidebar-nav a.nav-chapter.active { box-shadow: inset 0 0 0 2px rgba(255,255,255,0.55); }
+/* when chapters (h1) are present, h2 becomes a sub-level */
+#sidebar-nav.has-chapters a.nav-journal {
+  margin-top: 8px;
+  font-size: 0.82rem;
+  background: transparent;
+  padding-left: 12px;
+}
+#sidebar-nav.has-chapters a.nav-journal:hover { background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次">
+    <div id="sidebar-header">目次 — 雑誌・論文</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="心臓弁膜症外科の未来">心臓弁膜症外科の未来</h1>
+<h2 id="eacts-innovation-committee-の主張を一次文献で格付けし直す">EACTS Innovation Committee の主張を、一次文献で格付けし直す</h2>
+<blockquote>
+<p>作成 2026-07-26 ｜ シード論文: Arabkhani B, Nemoto S, De Kerchove L, et al; De Paulis R. <em>The EACTS Innovation Committee's Perspective on the "Heart Valve of the Future".</em> EJCTS 2026;68(6):ezag185. DOI: <a href="https://doi.org/10.1093/ejcts/ezag185">10.1093/ejcts/ezag185</a></p>
+</blockquote>
+<hr />
+<h2 id="このページの読み方">このページの読み方</h2>
+<p>EACTS Innovation Committee が2026年6月に出した Editorial「Heart Valve of the Future」は、 心臓弁の未来を <strong>(1) 低侵襲・ロボット化、(2) 自己弁温存/形成の洗練、(3) bioengineered "living tissue" 弁</strong> の3潮流として整理した、13名の専門家による公式見解である。</p>
+<p>ただしこれは <strong>原著でも系統的レビューでもなく、意見表明（Editorial）</strong> であり、 主張の大半は引用1本で支えられ、数値はほぼ提示されていない。 そこで本ページは、Editorial を <strong>「仮説の一覧」</strong> として扱い、 その15項目の主張すべてを一次文献に当たって定量的に検証し、<strong>エビデンス段階を格付けし直した</strong>。</p>
+<h3 id="エビデンス段階e0e5">エビデンス段階（E0〜E5）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>段階</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>E0</strong></td>
+<td>概念・in vitro・動物のみ</td>
+</tr>
+<tr>
+<td><strong>E1</strong></td>
+<td>First-in-human / 症例集積（n&lt;50、短期）</td>
+</tr>
+<tr>
+<td><strong>E2</strong></td>
+<td>単施設の中期成績（n≧100 or 5年）</td>
+</tr>
+<tr>
+<td><strong>E3</strong></td>
+<td>多施設前向き試験 or 大規模レジストリ</td>
+</tr>
+<tr>
+<td><strong>E4</strong></td>
+<td>RCT または ガイドライン収載</td>
+</tr>
+<tr>
+<td><strong>E5</strong></td>
+<td>標準治療として定着</td>
+</tr>
+</tbody>
+</table></div>
+<p>各章末に <strong>エビデンス格付け表</strong>（E段階／普及の壁／日本での可用性／<strong>反証の有無</strong>）と、 引用と視覚的に分離した <strong>🔮 私の見立て</strong> を置いた。 「反証を探した形跡」を残すことを品質基準としたので、<strong>見つからなかった場合も「見つからなかった」と記録</strong>している。</p>
+<h3 id="図について">図について</h3>
+<p>掲載した <strong>17点の図はすべてオープンアクセス論文（CC BY / CC BY-NC / CC BY-NC-ND）の原図を改変せず</strong>引用し、 各図の直下に出典・DOI・PubMed・ライセンスを記した。一覧は末尾の<a href="#図版の出典とライセンス全17点">図版の出典とライセンス</a>。</p>
+<p>掲載できなかった図が3系統ある。<strong>シード論文 ezag185 は非OA</strong>（OUP standard reuse rights）なので、 抽出した4図（人工弁A〜K・アプローチ3種・VSARRの2術式・組織工学弁の進化）は手元の <code>figures_local/</code> に留め、 公開HTMLには入れていない。同じ理由で <strong>JACC系・BMJ系の図は本リポジトリの方針で使用しない</strong>ため、 <strong>Ozaki 手術の原典コホート（JACC Advances 2025）の図と、組織工学弁の石灰化メタ解析（JACC Basic Transl Sci 2023）の Central Illustration は掲載していない</strong>。また、OA論文の中に<strong>第三者から許諾を得て転載された図</strong>が含まれる場合、 その図は論文のCCライセンスの対象外なので採用していない。</p>
+<h3 id="3行で言うと">3行で言うと</h3>
+<ol type="1">
+<li><strong>Editorial の15主張のうち、無条件に支持できたのは5項目</strong>。7項目が条件付き支持、 2項目に重要な反証があり、1項目（AIによる耐久性予測）は<strong>一次文献が1本も存在しなかった</strong>。</li>
+<li>最大の論点は <strong>内側幾何学的リング（HAART）</strong>。同じ著者群が2025年の <em>Eur Heart J</em> 総説では 「早期失敗は cusp 組織の摩耗またはリング dehiscence に関連」と書いているのに、 本 Editorial では推奨側に置いている。そこへ2026年7月の <em>JTCVS</em> から <strong>「44%が再介入」</strong> が出た。</li>
+<li>日本では、Editorial が最も推す <strong>脱細胞化 homograft が国内未承認</strong>であり、原料となる <strong>ホモグラフトの国内提供数も年間約10例</strong>しかない（凍結保存ホモグラフト自体は2016年4月に保険収載済み）。 一方 <strong>ロボット弁置換は2024年度改定で保険適用</strong>され、<strong>Ozaki 手術は保険適用で指定70施設超</strong>。 「未来」の順序は欧州と日本で違う。</li>
+</ol>
+<h3 id="既存レビューとの関係重複を作らない">既存レビューとの関係（重複を作らない）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>既存資産</th>
+<th>本ページでの扱い</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="small_annulus_avr_integrated_review_2026-06.html">小径弁輪AVR統合レビュー</a></td>
+<td>適応論・PPM・AAE適応は委譲。本ページは lifetime management の中の位置づけだけ扱う</td>
+</tr>
+<tr>
+<td><a href="aae_technique_atlas.html">AAE術式アトラス</a></td>
+<td>Nicks/Manouguian/Konno/Y-incision の how-to は委譲</td>
+</tr>
+<tr>
+<td><a href="topic_valve_durability_by_valve_2026_06.html">弁別の最長フォロー</a></td>
+<td><strong>第9章「失敗した未来」の一次資料</strong>として再利用</td>
+</tr>
+<tr>
+<td><a href="robotic_cpb_pitfalls_review.html">ロボット支援下CPB Pitfall</a></td>
+<td>第2章「低侵襲の現実の落とし穴」</td>
+</tr>
+<tr>
+<td><a href="cor_knot_pitfalls_review.html">Cor-Knot Pitfall</a></td>
+<td>第2章「低侵襲を支える器具」の実例と反例</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h1 id="第1章-弁手術の60年と破壊的変化の不在">第1章 弁手術の60年と「破壊的変化の不在」</h1>
+<blockquote>
+<ul>
+<li>Editorial の出発点は「1960年代初頭の弁置換成功以来、人工弁は<strong>反復的改良にとどまり、初期の機械弁以後に真に破壊的な変化は起きていない</strong>」という歴史認識である。</li>
+<li>これは概ね正しい。<strong>bileaflet 機械弁と stented 生体弁はいずれも E5</strong>（標準治療として定着）で、この2つを置き換えたものは60年間ひとつも出ていない。</li>
+<li>ただし「破壊的変化がなかった」ことの中身は2つに分かれる。<strong>材料は進歩しなかったが、送達方法（TAVI）は破壊的に変わった</strong>。Editorial はこの非対称を扱っていない。</li>
+</ul>
+</blockquote>
+<h2 id="11-何が定着し何が定着しなかったのか">1.1 何が定着し、何が定着しなかったのか</h2>
+<p>Editorial の Fig.1 は人工弁を A〜K の11種で並べている（caged-ball → tilting disc → bileaflet → stented porcine → stented pericardial → Freestyle full root → TAVI balloon-expandable → TAVI self-expanding → cryopreserved homograft → 組織工学弁の概念 → 脱細胞化心膜パッチ）。 この並びは「進歩の系列」に見えるが、<strong>60年後に生き残って標準治療になったのは A〜K のうち C（bileaflet）と D/E（stented 生体弁）、 そして G/H（TAVI）だけ</strong>である。</p>
+<p>定着の度合いは日本のデータでも確認できる。日本胸部外科学会の2020年集計では、 大動脈位で <strong>生体弁の使用率が87.9%</strong>（僧帽弁位72.6%）に達しており、2000年代初頭の約30%から一変した （<a href="https://doi.org/10.1007/s11748-023-01979-8">10.1007/s11748-023-01979-8</a>）。 つまりこの60年で起きた最大の実務的変化は「新しい弁の登場」ではなく、 <strong>既存の2種のあいだで比率が動いたこと</strong>である。これは「反復的改良」というEditorialの評価と一致する。</p>
+<h2 id="12-破壊的変化を最後に阻んだのは何か--抗凝固">1.2 「破壊的変化」を最後に阻んだのは何か — 抗凝固</h2>
+<p>機械弁が bileaflet で止まった理由は、耐久性ではなく<strong>抗凝固</strong>である。 そして「抗凝固を軽くする」試みは2020年代に入って<strong>2つの大規模試験で明確に失敗した</strong>。 この2試験は Editorial には登場しないが、「破壊的変化の不在」を説明する最も強い証拠である。</p>
+<ul>
+<li><strong>PROACT Xa</strong>（On-X 大動脈弁、863例、無作為化）: アピキサバン群で血栓塞栓イベントが過多となり <strong>試験そのものが中止</strong>された。主要エンドポイント率はアピキサバン 4.2%/患者年 vs ワルファリン 1.3%/患者年、 差 2.9（95%CI 0.8–5.0）で、非劣性も objective performance criterion も達成できなかった （<a href="https://doi.org/10.1056/EVIDoa2300067">10.1056/EVIDoa2300067</a>）。</li>
+<li><strong>PROACT Mitral</strong>（On-X 僧帽弁、401例、無作為化非劣性）: 低用量ワルファリン（目標INR 2.0–2.5）は 標準用量（2.5–3.5）に対する<strong>非劣性を達成できなかった</strong>（主要エンドポイント 11.9 vs 12.0%/患者年、 差 −0.07%、95%CI −3.40〜3.26 で非劣性マージン1.5%を超過） （<a href="https://doi.org/10.1016/j.athoracsur.2022.12.031">10.1016/j.athoracsur.2022.12.031</a>）。</li>
+<li>さらに、On-X が唯一低INR（1.5–2.0）を承認されている根拠自体が、 スウェーデン全国 <strong>SWEDEHEART 3,047例</strong>（On-X 656 vs 他機械弁 2,391）の target trial emulation で揺らいだ。 8年の大出血累積 7.2% vs 7.0%、血栓塞栓 7.3% vs 6.4% で、 「On-X が他の機械弁より優れるという臨床的に意味のある差は見出せなかった」 （<a href="https://doi.org/10.1093/icvts/ivaf182">10.1093/icvts/ivaf182</a>）。</li>
+</ul>
+<p>一方、<strong>低強度抗凝固そのものは日本では30年の実績がある</strong>。東京女子医大の519例（SJM bileaflet・洞調律・ 総追跡9,793患者年、平均INR 2.03）では、目標INR 1.6–2.5 で心臓死回避が20年93.6%・30年85.2%、 INR&lt;2.0 は MACCE のリスク因子ではなかった（<a href="https://doi.org/10.1007/s00380-024-02365-x">10.1007/s00380-024-02365-x</a>）。 <strong>「日本の低強度INRは観察研究では成立し、欧米の無作為化試験では成立しなかった」</strong>という食い違いは、 人種・体格・食事・INR測定体制のどこに帰属するのかが未解決のまま残っている。</p>
+<h2 id="13-editorial-が完全に沈黙している領域機械弁の未来">1.3 Editorial が完全に沈黙している領域：機械弁の未来</h2>
+<p>Editorial の著者13名の構成は、自己弁温存（De Kerchove, De Paulis, Schäfers系）・ 弁形成（Perier）・生体材料（Sarikouch, Hjortnaes）・低侵襲（Wilbring, Casselman）・小児（Nemoto, Hazekamp, Heinisch）で、 <strong>機械弁とTAVIの未来を論じる著者が一人もいない</strong>。結果として、次の2つが本文から抜け落ちている。</p>
+<ol type="1">
+<li><strong>抗凝固不要を狙う機械弁</strong>: Novostia の TRIFLO は、チタン合金ハウジングと3枚の剛性PEEK弁尖からなる 三葉中央流機械弁で、「閉鎖の減速と高剪断ヒンジ流の排除」により抗凝固なしを狙う設計思想を公表している （<a href="https://doi.org/10.3389/fcvm.2023.1220633">10.3389/fcvm.2023.1220633</a>）。 FIH（NCT06119607, n=10）は2023年11月開始で ACTIVE_NOT_RECRUITING。<strong>ヒト成績は未公表</strong>＝E1。</li>
+<li><strong>TAVI が外科に返してくる問題</strong>: 米国 Medicare の2012–2024年データでは、 TAVI 410,720例に対し redo TAVI 2,374例・TAVR explant 1,346例。 TAVI 再介入の年間発生率は2019年0.17%→2023年0.28%へ上昇し、 <strong>index TAVI から5年を超えると再介入の88.5%が redo TAVI</strong>になる （<a href="https://doi.org/10.1001/jamacardio.2025.3224">10.1001/jamacardio.2025.3224</a>）。 外科側の負荷は explant に集中し、EXPLANT-TAVR 199例では<strong>同時手術を伴う explant の3年生存が56.8%（単独 81.1%, P=0.020）</strong> （<a href="https://doi.org/10.1016/j.athoracsur.2023.05.036">10.1016/j.athoracsur.2023.05.036</a>）。 Michigan 1,487例の TAVI では8年の AV 再介入累積4.6%、そのうち <strong>71%が repeat TAVI 不適</strong>で、 explant 群の院内死亡は15%だった（<a href="https://doi.org/10.1016/j.jtcvs.2021.03.130">10.1016/j.jtcvs.2021.03.130</a>）。</li>
+</ol>
+<h2 id="エビデンス格付け第1章">エビデンス格付け（第1章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bileaflet 機械弁</td>
+<td><strong>E5</strong></td>
+<td>なし</td>
+<td>○ 保険適用</td>
+<td>低INR化・DOAC化は<strong>2試験で失敗</strong>（PROACT Xa 中止／PROACT Mitral 非劣性未達）</td>
+</tr>
+<tr>
+<td>stented 生体弁</td>
+<td><strong>E5</strong></td>
+<td>なし</td>
+<td>○ 保険適用（大動脈位87.9%）</td>
+<td>個別製品でSVD多発（第9章）</td>
+</tr>
+<tr>
+<td>抗凝固不要機械弁（TRIFLO）</td>
+<td><strong>E1</strong></td>
+<td>設計検証・長期血栓性</td>
+<td>× 未承認</td>
+<td>ヒト成績が未公表。過去に同じ約束を果たした機械弁はない</td>
+</tr>
+<tr>
+<td>TAVI（外科への影響）</td>
+<td>E5（本体）</td>
+<td>—</td>
+<td>○</td>
+<td>再介入は増加中。explant の同時手術で3年生存56.8%</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て">🔮 私の見立て</h3>
+<p>「破壊的変化の不在」というEACTSの歴史認識は、<strong>弁の材料については正しく、弁の届け方については誤り</strong>である。 TAVI は材料をひとつも新しくしないまま、患者の流れ・施設の構造・専門医の役割を破壊的に変えた。 だから次の破壊的変化も、材料からではなく <strong>「送達・評価・意思決定」の側から来る可能性が高い</strong>と私は考える。</p>
+<p>もうひとつ。機械弁の抗凝固問題が2つの無作為化試験で連敗した事実は、 実は <strong>living valve 陣営にとって最大の追い風</strong>である。 「機械弁の弱点は薬で解けなかった」からこそ、生物学で解く方向に資源が向かう。 本 Editorial がその論理を書いていないのは、機械弁側の著者が一人もいないからだと思われる。</p>
+</blockquote>
+<hr />
+<h1 id="第2章-低侵襲とロボットもう未来ではない領域">第2章 低侵襲とロボット：もう「未来」ではない領域</h1>
+<blockquote>
+<ul>
+<li>Editorial は MIMVS を2008年のメタ解析、ロボット僧帽弁を2011年の論文で支えている。<strong>どちらも現代データで更新できる</strong>し、更新すると結論は「同等成績」から「<strong>在院日数と再開胸は改善、死亡率は改善しない</strong>」に精密化する。</li>
+<li>経腋窩AVR（1,000例）とロボットAVR（212例）は、Editorial が最も新しく打ち出した2つ。しかし<strong>経腋窩は新規ペースメーカ率を報告しておらず</strong>、<strong>ロボットAVRは212例中180例（85%）が単施設</strong>である。</li>
+<li>日本では制度が先に整った。<strong>ロボット支援下弁置換術は2024年度診療報酬改定で保険適用</strong>され、JCVSD 2022 の MICS は僧帽弁修復2,525例（30日死亡0.3%）に達している。</li>
+</ul>
+</blockquote>
+<h2 id="21-mimvs2008年のメタ解析を2026年のrctメタに置き換える">2.1 MIMVS：2008年のメタ解析を2026年のRCTメタに置き換える</h2>
+<p>Editorial が引く Modi 2008（<a href="https://doi.org/10.1016/j.ejcts.2008.07.057">10.1016/j.ejcts.2008.07.057</a>）は 症例対照研究を主体とした18年前のメタ解析で、周術期死亡のオッズ比0.46（95%CI 0.15–1.42, p=0.18）＝有意差なし、 再開胸止血 OR 0.56（0.35–0.90）を示していた。</p>
+<p>2026年、<strong>RCTのみを集めたメタ解析</strong>が出た（8 RCT・9報告・1,248例：従来法686 vs MIMVS 562、ロボット・redo は除外）。 結果は Modi と方向性は同じだが、<strong>利益の所在がはっきりした</strong> （<a href="https://doi.org/10.1136/openhrt-2025-003612">10.1136/openhrt-2025-003612</a>）。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アウトカム</th>
+<th>結果</th>
+<th>解釈</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>死亡</td>
+<td>有意差なし</td>
+<td>低侵襲は救命しない</td>
+</tr>
+<tr>
+<td>急性腎障害</td>
+<td>有意差なし</td>
+<td>—</td>
+</tr>
+<tr>
+<td>再開胸止血</td>
+<td><strong>RR 0.24（0.06–0.92）</strong></td>
+<td>明確な利益</td>
+</tr>
+<tr>
+<td>在院日数</td>
+<td><strong>−1.83日（−3.03〜−0.64）</strong></td>
+<td>明確な利益</td>
+</tr>
+<tr>
+<td>創感染</td>
+<td>RR 0.47（0.22–1.00）</td>
+<td>傾向のみ</td>
+</tr>
+<tr>
+<td>ICU滞在</td>
+<td>−0.71日（−1.47〜0.04）</td>
+<td>傾向のみ</td>
+</tr>
+<tr>
+<td>手術時間</td>
+<td>延長</td>
+<td>「臨床的影響なし」と著者は評価</td>
+</tr>
+</tbody>
+</table></div>
+<p>一方で、<strong>「手術時間の延長には臨床的影響がない」という評価は、より大きなレジストリでは支持されない</strong>。 mini-mitral international registry（MMIR）の17施設 7,513例（解析6,878例）では、 大動脈遮断時間が <strong>死亡・低心拍出量症候群・急性腎障害のいずれとも有意に関連</strong>した（すべてP&lt;0.001）。 しかも「複雑さ」の指標（redo・心内膜炎・同時手術）はリスク因子にならず、 <strong>時間そのものが独立したリスクだった</strong>（<a href="https://doi.org/10.1093/ejcts/ezad147">10.1093/ejcts/ezad147</a>）。 中央値は CPB 135分・遮断85分である。</p>
+<p>→ つまり <strong>MIMVS の正しい主張は「同等の安全性で回復が速い、ただし遮断時間を伸ばさない範囲で」</strong> となる。 これは <a href="robotic_cpb_pitfalls_review.html">ロボット支援下CPB Pitfall レビュー</a> の283項目が扱う世界そのものである。</p>
+<h2 id="22-avrの低侵襲cochraneが出した渋い答え">2.2 AVRの低侵襲：Cochraneが出した渋い答え</h2>
+<p>大動脈弁側は、より厳しい評価が出ている。<strong>Cochrane 2023</strong>（限定的胸骨切開 vs 完全胸骨切開、14 RCT・1,395例）は、 上部部分胸骨切開について次のように結論した（<a href="https://doi.org/10.1002/14651858.CD011793.pub3">10.1002/14651858.CD011793.pub3</a>）。</p>
+<ul>
+<li>死亡：RR 0.93（0.45–1.94）、<strong>確実性 low</strong></li>
+<li>CPB時間：+10.63分（3.39–17.88）、確実性 <strong>very low</strong></li>
+<li>遮断時間：+6.07分（0.79–11.35）、確実性 <strong>very low</strong></li>
+<li>術後出血：<strong>−153 mL（−246〜−60）、確実性 moderate</strong>（唯一の中等度確実性）</li>
+<li>疼痛スコア：SMD −0.19（−0.43〜0.04）＝<strong>差なし</strong></li>
+<li>QOL：+0.03（0〜0.06）＝<strong>差なし</strong></li>
+<li>英NHSでの初回入院費：<strong>+£1,190（420–1,970）</strong></li>
+</ul>
+<p>そして著者らは「<strong>広範な採用を推奨する前に、適切に設計され十分な検出力を持つ前向きRCTが必要</strong>」と明記した。 Editorial が「低侵襲は患者満足度が高い」と述べるとき、その満足度は <strong>Cochrane が測った疼痛とQOLでは差が出ていない</strong>ことを併記すべきである。</p>
+<h2 id="23-経腋窩avr-1000例何が示され何が示されなかったか">2.3 経腋窩AVR 1,000例：何が示され、何が示されなかったか</h2>
+<p>Dresden の経腋窩 MICS-AVR 1,000例（2019–2023）は、Editorial が「low-tech・胸骨温存・カメラ不要」と評価した術式の 最大の症例集積である（<a href="https://doi.org/10.1093/ejcts/ezae427">10.1093/ejcts/ezae427</a>）。</p>
+<p><strong>示されたこと</strong>：平均年齢67.9±8.3歳・STS-PROM 1.39±2.89%。手術時間127±31分、<strong>遮断43±14分</strong>（rapid deployment弁81.1%）。 術中死亡0、30日 MACCE 1.9%（死亡0.9%・脳卒中0.8%・心筋梗塞0.6%）、conversion 1.9%。 経腋窩の使用率は18.7%（2019）→<strong>97.8%（2023）</strong>、MICS率は32.0%→99.2%に上昇し、<strong>SAVRへの紹介が20%増加</strong>した。 PSM 454 vs 454 の別報告では、輸血が少なく（0.57 vs 0.82単位）、創異常が少なく（1.5% vs 3.7%）、 在院が短い（7.0 vs 11.1日）が、脳卒中・院内死亡に差はなかった （<a href="https://doi.org/10.3390/medicina59010160">10.3390/medicina59010160</a>）。</p>
+<p><strong>示されなかったこと</strong>（ここが重要）：</p>
+<ol type="1">
+<li><strong>新規ペースメーカ植込み率が報告されていない。</strong> 全文を通じて記載があるのは「術前からのペースメーカ保有 3.8%」だけである。 rapid deployment 弁を81.1%に使っている以上、伝導障害は最も知りたい指標であり、この欠落は解釈上の制約になる。</li>
+<li><strong>比較の妥当性を著者自身が限定している。</strong> Phan らの MINISTER/RAT 12,786例との比較を提示しつつ、 「非マッチ集団であり統計検定を行っていない」と明記している。</li>
+<li><strong>リスクスコアが機能しない集団である。</strong> STS と EuroSCORE II はいずれも本コホートの院内死亡を予測できなかった。</li>
+<li><strong>合併症の所在が移動している。</strong> OR再搬入7.5%、創治癒不良4.2%で、そのうち<strong>71.4%が大腿カニュレーション部</strong>だった。 胸骨を守った代わりに大腿が問題になる、という trade-off である。</li>
+<li>2026年の systematic review（42研究15,328例）では、経腋窩の<strong>脳卒中率が2.0–6.3%</strong>と報告され、 「技術的要求が高く高volume施設に限られる」と位置づけられている （<a href="https://doi.org/10.3390/life16050777">10.3390/life16050777</a>）。Dresden の0.8%は最良値である。</li>
+</ol>
+<h2 id="24-ロボットavreditorial-が無引用で書いた主張の実データ">2.4 ロボットAVR：Editorial が無引用で書いた主張の実データ</h2>
+<p>Editorial は「ロボット大動脈弁手術が視野と人間工学で伸長している」と<strong>引用なしで</strong>述べている。 一次文献を探すと、多施設データは1本だけ存在した （<a href="https://doi.org/10.1016/j.jtcvs.2024.01.020">10.1016/j.jtcvs.2024.01.020</a>、誌面区分は <em>Invited Expert Opinion</em>）。</p>
+<p>4施設212例（2020-01–2023-09）。年齢中央値67歳、STS-PROM 1.7%、重症AS 86.8%、二尖弁48.3%。 CPB中央値166分・<strong>遮断117分</strong>、機械弁28.8%、<strong>弁輪拡大10.8%</strong>、同時手術16.5%（Cox Maze+LAAO 8.8%など）。 <strong>sternotomy への conversion 0%</strong>、<strong>新規ペースメーカ2.8%</strong>、脳卒中0.9%、手術死亡0.9%（2例）、 30日再手術7.5%（<strong>全例が血胸で、弁関連は0</strong>）、在院中央値5日、PVL は 1+ が1.9%で 2+ 以上なし。 1年追跡109例で平均圧較差 10.0mmHg。</p>
+<p>批判的に読むと：</p>
+<ul>
+<li><strong>212例中180例（85%）が West Virginia University 単施設</strong>。Barcelona 15例、Riyadh 11例、São Paulo 6例。 「4施設」という表現は実態を反映していない。</li>
+<li><strong>遮断117分</strong>は通常のSAVR（おおむね50–70分）の約2倍で、2.1節のMMIRの知見（遮断時間は独立したリスク）と正面から衝突する。 ただし本コホートでは死亡0.9%に収まっている。</li>
+<li><strong>対照群がない。</strong> 著者自身が「SAVRとの直接比較を目的とした研究ではない」と明記している。</li>
+<li>訓練経路の前提が重い：pathway A は<strong>ロボット僧帽弁50例以上＋僧帽弁置換5例</strong>、 pathway B は<strong>開心/低侵襲AVRまたは基部手術250例以上＋ロボット僧帽弁置換10例</strong>。 そのうえで「最初の10例（pathway A）／25例（pathway B）は isolated RAVR のみ」。</li>
+</ul>
+<p>一方で <strong>PPM 2.8%</strong> は特筆に値する。弁サイズ中央値23mmでこの値は、 sutureless/rapid deployment を用いた低侵襲AVRの一般的なPPM率（Perceval のメタ解析で<strong>7.9%</strong>、 <a href="https://doi.org/10.1186/s13019-023-02273-7">10.1186/s13019-023-02273-7</a>）より明確に低い。 著者らは「膜性中隔を含む弁輪下解剖が明瞭に見えるため縫合位置を精密に選べる」と説明している。 <strong>視野の質が伝導障害を減らす</strong>という仮説は、検証可能で、かつ臨床的に意味が大きい。</p>
+<h2 id="25-学習曲線と費用低侵襲の本当の壁">2.5 学習曲線と費用：低侵襲の「本当の壁」</h2>
+<ul>
+<li><strong>学習曲線</strong>（28研究13,257例のsystematic review）: 低侵襲弁手術で<strong>修復は平均39例・置換は平均78例</strong>、 低侵襲AVRは平均93例（範囲40–138）、MICS-CABGは平均40例。 ただし「症例数の報告は23–125例と大きく散らばり、標準化された多変量評価枠組みが必要」 （<a href="https://doi.org/10.1016/j.athoracsur.2025.08.013">10.1016/j.athoracsur.2025.08.013</a>）。</li>
+<li><strong>ただし成熟プログラムでは学習曲線が消える</strong>: Cedars-Sinai のロボット僧帽弁1,410例（4術者、2005–2023）では、 <strong>プログラム全体の学習曲線の頂点は94例目</strong>で、それ以降は risk-adjusted の合併症・死亡が一貫して予測を下回った。 そして<strong>2人目以降の術者は最初から予測を上回る成績</strong>で、学習曲線が観測されなかった （<a href="https://doi.org/10.1016/j.jtcvs.2025.01.021">10.1016/j.jtcvs.2025.01.021</a>）。 変性性僧帽弁の修復率99.5%、5年の中等度以上MR回避95%、手術死亡0.3%。</li>
+<li><strong>費用</strong>: 全米 Nationwide Readmissions Database 40,738例（2016–2020）でロボットは9.8%。 risk-adjusted 費用は**+<span class="math inline">10, 500（95<em>た</em><em>だ</em><em>し</em> * *<em>最</em><em>高</em><em>v</em><em>o</em><em>l</em><em>u</em><em>m</em><em>e</em><em>三</em><em>分</em><em>位</em><em>の</em><em>施</em><em>設</em><em>で</em><em>は</em><em>費</em><em>用</em><em>差</em><em>が</em><em>消</em><em>え</em><em>る</em> * *（+</span>5,900, 95%CI −1,200〜12,200, P&gt;0.05） （<a href="https://doi.org/10.1016/j.athoracsur.2024.11.005">10.1016/j.athoracsur.2024.11.005</a>）。 著者らはこれを「米国におけるロボット僧帽弁修復の centers of excellence 化を支持する」と結論した。</li>
+<li><strong>修復の限界は病変で決まる</strong>: 同じ Cedars-Sinai の1,036例では、10年の &gt;2+MR/再介入回避が <strong>後尖単独 92% に対し前尖/両尖 83%（HR 3.0, 95%CI 1.3–7.0）</strong>。 「後尖単独なら99%以上修復できる」ことと「どの病変でも修復できる」ことは別である （<a href="https://doi.org/10.1016/j.athoracsur.2021.07.060">10.1016/j.athoracsur.2021.07.060</a>）。</li>
+</ul>
+<h2 id="26-日本の現状制度が先に整った">2.6 日本の現状：制度が先に整った</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>日本の状況</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ロボット支援下弁形成術</td>
+<td>K554-2 胸腔鏡下弁形成術としてロボット支援が保険適用済</td>
+</tr>
+<tr>
+<td><strong>ロボット支援下弁置換術</strong></td>
+<td><strong>2024年度診療報酬改定で新規保険適用（1弁・2弁）</strong>、2024年6月から施設要件下で実施可</td>
+</tr>
+<tr>
+<td>MICS の実数（JCVSD 2022）</td>
+<td>僧帽弁修復2,525例・僧帽弁置換279例・<strong>AVR 1,114例</strong>・CABG 450例・ASD 212例・心臓腫瘍113例</td>
+</tr>
+<tr>
+<td>MICS の成績（同）</td>
+<td>単独MV修復（n=1,461）30日死亡<strong>0.3%</strong>・院内死亡0.2%／単独AVR（n=981）0.6%・1.0%／MVR単独 2.5%・4.2%。sternotomyへのconversion 0–1.8%</td>
+</tr>
+</tbody>
+</table></div>
+<p>出典：<a href="https://doi.org/10.1007/s11748-025-02225-z">10.1007/s11748-025-02225-z</a>（日本低侵襲心臓手術学会 2022年年次報告）。</p>
+<p>つまり <strong>日本ではロボットAVRが「保険で実施できる」段階に入っている</strong>。 Editorial が「未来」として書いた項目のうち、これは日本で最も早く現実になった項目である。</p>
+<figure style="margin:18px 0;max-width:680px;">
+<img src="figures/fv_jp_mics_volume_dist_PMC13139202.jpg" alt="日本のMICS僧帽弁手術の年間症例数の施設分布ヒストグラム" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 1. 日本のMICS僧帽弁手術は「年5例未満の施設」が最も多い</b> — JCVSD に登録された <b>242施設</b>の年間MICS-MV症例数分布。<b>中央値5.5例/年</b>、下位四分位2例、上位四分位14例、95パーセンタイル38例。0–5例/年の階級だけで<b>111施設</b>を占める。第10章で論じる「日本で volume 閾値を適用すると何が起きるか」を、そのまま数えた図。<br><i>出典: Shimokawa T, Kumamaru H, Motomura N, et al. <i>Gen Thorac Cardiovasc Surg</i> 2026;74(5):510-517. <a href="https://doi.org/10.1007/s11748-025-02225-z">doi:10.1007/s11748-025-02225-z</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41417160/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+
+<h2 id="エビデンス格付け第2章">エビデンス格付け（第2章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>上部部分胸骨切開AVR</td>
+<td><strong>E4</strong></td>
+<td>20–30例</td>
+<td>○ 保険適用</td>
+<td><strong>あり</strong>：Cochrane で死亡・疼痛・QOLに差なし、確実性 low〜very low、費用+£1,190</td>
+</tr>
+<tr>
+<td>MIMVS（右小開胸）</td>
+<td><strong>E4</strong></td>
+<td>修復39例・置換78例</td>
+<td>○ 保険適用</td>
+<td><strong>あり</strong>：MMIR 6,878例で遮断時間が死亡と有意相関（P&lt;0.001）</td>
+</tr>
+<tr>
+<td>ロボット僧帽弁形成</td>
+<td><strong>E4</strong></td>
+<td><strong>94例</strong>・費用+$10,500</td>
+<td>○ 保険適用（2,525例/年）</td>
+<td><strong>あり</strong>：前尖/両尖病変では10年耐久性83%（後尖92%）</td>
+</tr>
+<tr>
+<td>経腋窩AVR</td>
+<td><strong>E2</strong></td>
+<td>単施設由来・rapid deployment依存</td>
+<td>△ 術式選択の問題</td>
+<td><strong>あり</strong>：新規PPM率が未報告、他系統的レビューでは脳卒中2.0–6.3%</td>
+</tr>
+<tr>
+<td>ロボットAVR</td>
+<td><strong>E2</strong></td>
+<td>85%が単施設・遮断117分・訓練経路が重い</td>
+<td>○ <strong>2024年度から保険適用</strong></td>
+<td><strong>あり</strong>：対照群なし、著者自身が比較を目的としていないと明記</td>
+</tr>
+<tr>
+<td>小児の低侵襲開胸</td>
+<td><strong>E3</strong></td>
+<td>病変が限定</td>
+<td>△ 実施施設限定</td>
+<td><strong>探したが見つからなかった</strong>（ECHSA 3,007例は選択施設のpooled data という限界のみ）</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て-1">🔮 私の見立て</h3>
+<p>この章は Editorial のなかで<strong>唯一「未来ではなく現在」の章</strong>である。そして日本にとっての実務的な結論は明快だ。</p>
+<p><strong>経腋窩AVRは、日本では急がなくてよい。</strong> 理由は3つ。①Cochraneが示したように低侵襲AVRの利益は出血量に集中し、 疼痛とQOLでは差が出ない。②Dresdenの成績は「rapid deployment弁81%＋遮断43分」という組み合わせで達成されており、 日本の弁選択（生体弁87.9%だがrapid deploymentは限定的）では再現条件が揃わない。 ③そして合併症が大腿へ移動する（創治癒不良の71.4%）。</p>
+<p><strong>逆に、ロボットAVRは日本で意味を持ちうる。</strong> ただし理由はEditorialが書いた「視野・人間工学」ではない。 私が注目するのは <strong>PPM 2.8%</strong> と <strong>弁輪拡大を10.8%で併施できたこと</strong> である。 日本人小体格でのPPM回避は当院の中心課題であり、<a href="aae_technique_atlas.html">AAE術式アトラス</a>と <a href="small_annulus_avr_integrated_review_2026-06.html">小径弁輪AVRレビュー</a>で扱ってきた 「弁輪拡大を安全にどう足すか」という問題に、ロボットは<strong>視野という別解</strong>を出している。 保険が2024年に通ったことで、この検証は日本でこそ可能になった。</p>
+<p>ただし前提条件は厳しい。<strong>Cedars-Sinaiの94例、Badhwarの訓練経路（僧帽弁50例＋250例）を満たせない施設が始めるべきではない。</strong> 「学習曲線は成熟プログラムの中でだけ消える」というChikweの知見は、 裏返せば<strong>未成熟プログラムでは消えない</strong>という意味である。</p>
+</blockquote>
+<hr />
+<h1 id="第3章-自己弁温存とvsarr技術は完成し問題は普及になった">第3章 自己弁温存とVSARR：技術は完成し、問題は普及になった</h1>
+<blockquote>
+<ul>
+<li><strong>2025 ESC/EACTS ガイドラインで VSARR は Class I Level B に格上げ</strong>された（大動脈弁形成は IIa B）。技術としては議論が終わっている。</li>
+<li>しかし <strong>AVr/VSARR と弁置換を比較した無作為化試験は存在しない</strong>。これは <em>Eur Heart J</em> 2025 総説が明記している事実である。</li>
+<li>残った問題は普及と集約。<strong>Govers の「年12例」閾値</strong>が2026年に出たが、これは<strong>ガイドラインが意図的に数値を出さなかった空白</strong>を埋めるものであり、しかも De Paulis 総説の「低volume施設でも10年87%」という記述と緊張関係にある。</li>
+</ul>
+</blockquote>
+<h2 id="31-ガイドラインの位置づけ一次確認">3.1 ガイドラインの位置づけ（一次確認）</h2>
+<p>2025 ESC/EACTS 弁膜症ガイドライン Recommendation Table 3 の該当行を原文で確認した （<a href="https://doi.org/10.1093/ejcts/ezaf276">10.1093/ejcts/ezaf276</a>）。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>推奨</th>
+<th>Class</th>
+<th>Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Valve-sparing aortic root replacement is recommended in young patients with aortic root dilatation at experienced centres, when durable results are expected</strong></td>
+<td><strong>I</strong></td>
+<td><strong>B</strong></td>
+</tr>
+<tr>
+<td>AV repair should be considered in selected patients with severe AR at experienced centres, when durable results are expected</td>
+<td>IIa</td>
+<td>B</td>
+</tr>
+<tr>
+<td>AV surgery is recommended in symptomatic patients with severe AR regardless of LV function</td>
+<td>I</td>
+<td>B</td>
+</tr>
+<tr>
+<td>AV surgery is recommended in asymptomatic patients with severe AR and LVESD &gt;50 mm or LVESDi &gt;25 mm/m²（とくに BSA &lt;1.68 m² の小体格）or resting LVEF &lt;50%</td>
+<td>I</td>
+<td>B</td>
+</tr>
+<tr>
+<td>TAVI may be considered for severe AR in symptomatic patients ineligible for surgery</td>
+<td>IIb</td>
+<td>B</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>小体格（BSA &lt;1.68 m²）への言及が Class I 行に入った</strong>のは日本にとって重要である。 LVESDi &gt;25 mm/m² が明示されたことで、日本人の「絶対径では基準に届かないが指数化すると超えている」症例が拾いやすくなった。</p>
+<h2 id="32-長期成績数字を並べる">3.2 長期成績：数字を並べる</h2>
+<p><em>Eur Heart J</em> 2025 の総説（De Kerchove・El Khoury・Schäfers・Michelena らが共著）から （<a href="https://doi.org/10.1093/eurheartj/ehaf038">10.1093/eurheartj/ehaf038</a>）：</p>
+<ul>
+<li>経験ある術者の手で<strong>院内死亡は約1%</strong></li>
+<li><strong>10年生存 85–92%</strong></li>
+<li>AR に対する<strong>再手術回避：20年 88%／12年 90%／15年 96%</strong>（各々別施設の報告）</li>
+<li>reimplantation 単独に絞った<strong>最大のメタ解析（44研究7,878例）で10年 再手術回避 91%</strong></li>
+<li>大動脈拡大のない TAV の cusp prolapse 修復（2つの大規模専門施設）：<strong>10年生存80%、AV再介入回避 10年79–80%・15年72–73%</strong></li>
+<li>BAV に絞った大規模シリーズ：<strong>再手術回避 10年 最大91%・15年 88%</strong>。ただし <strong>TAV と BAV の比較では BAV の方が長期の AR 再発リスクが高い</strong></li>
+</ul>
+<p>比較研究（すべて後ろ向きまたは前向きコホート）：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>研究</th>
+<th>デザイン</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Toronto</td>
+<td>単施設</td>
+<td>心臓関連死 10年 <strong>自己弁温存 2.3% vs 機械弁Bentall 7.4% vs 生体弁Bentall 9.2%</strong></td>
+</tr>
+<tr>
+<td>Gaudino</td>
+<td>PSM</td>
+<td><strong>機械弁Bentall が再介入で優位</strong></td>
+</tr>
+<tr>
+<td><strong>AVIATOR</strong>（Arabkhani 2023, シードref[12]）</td>
+<td>多施設PSM 3:1</td>
+<td>654 vs 218。5年生存 <strong>95.4% vs 85.4%（P=0.002）</strong>、5年 再介入回避 <strong>96.8% vs 95.4%（P=0.98）</strong>、血栓塞栓・心内膜炎・出血は CVG-ARR に多い（P=0.02）</td>
+</tr>
+<tr>
+<td><strong>CAVIAAR</strong>（Lansac 2022）</td>
+<td>多施設前向きコホート261例</td>
+<td>4年 主要複合 <strong>HR 0.66（0.39–1.12）＝有意差なし</strong>。弁関連死 <strong>HR 0.09（0.02–0.34）</strong>、大出血 <strong>HR 0.37（0.16–0.85）</strong>、弁関連再手術 HR 2.10（0.64–6.96）</td>
+</tr>
+<tr>
+<td>メタ解析（26研究&gt;6,200例）</td>
+<td>メタ</td>
+<td>VSARR は composite valve grafting より晩期死亡・血栓塞栓・出血が有意に少ない（平均追跡約6年）。ただし総説著者は「<strong>こうしたメタ解析のバイアスリスクの評価が今後必要</strong>」と付記</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>AVIATOR を批判的に読む。</strong> VSRR 2,005例 vs CVG-ARR 218例から3:1でPSMしたが、 <strong>追跡中央値は両群4年（IQR 1–5年）しかない</strong>。その4年で5年生存に<strong>10ポイント差</strong>（95.4% vs 85.4%）がつく一方、 <strong>再介入には差がない（P=0.98）</strong>。自己弁温存の機序で生存が10%変わるなら、それは弁関連イベント経由であるべきだが、 再介入は同等である。したがって<strong>残余交絡（CVG-ARR群に選ばれた理由＝より悪い解剖・より高い併存疾患）を強く疑うべき</strong>で、 この生存差をそのまま「自己弁温存の効果」と読むのは危険である。</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/fv_aviator_survival_PMC9942544.jpg" alt="AVIATORのVSRRとCVG-ARRの全生存Kaplan-Meier曲線とat risk例数表" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 2. AVIATOR：生存差はつくが、at risk が急速に減る</b> — PSM 3:1 後の 654 vs 218例。5年生存 <b>95.4% vs 85.4%</b>。下の at risk 表を見ると <b>8年時点で VSRR 57例・CVG 21例</b>まで落ちており、曲線の後半は少数例に依存している。なお本論文は同じ比較の p 値を<b>抄録・本文で P=0.002、この Figure 2A で p=0.01</b> と表記しており（本文の5年生存も 85.4%/84.4% と2通り）、点推定の扱いには注意が必要である。<br><i>出典: Arabkhani B, Klautz RJM, de Heer F, et al. <i>Eur J Cardiothorac Surg</i> 2023;63(2):ezac514. <a href="https://doi.org/10.1093/ejcts/ezac514">doi:10.1093/ejcts/ezac514</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/36308450/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/fv_aviator_reint_PMC9942544.jpg" alt="AVIATORの大動脈基部再介入回避のKaplan-Meier曲線、P=0.98" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 3. AVIATOR：再介入回避には差がない（P=0.98）</b> — 同じコホートの<b>基部再介入回避</b>。5年で <b>96.8% vs 95.4%、P=0.98</b>。生存に10ポイントの差がつくのに再介入が同等であるという組み合わせは、<b>生存差が弁関連機序では説明しづらい</b>ことを意味する。本文で残余交絡を疑うべきと述べた根拠がこの2枚の対比である。<br><i>出典: Arabkhani B, Klautz RJM, de Heer F, et al. <i>Eur J Cardiothorac Surg</i> 2023;63(2):ezac514. <a href="https://doi.org/10.1093/ejcts/ezac514">doi:10.1093/ejcts/ezac514</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/36308450/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
+<p><strong>Reimplantation vs remodelling。</strong> Sá らのKaplan-Meier再構築メタ解析（15研究3,044例： reimplantation 1,991 vs remodelling 2,018）では、remodelling は全死亡 <strong>HR 1.54（1.16–2.03）</strong>、 AV/基部再介入 <strong>HR 1.49（1.07–2.07）</strong>。ただし<strong>生存差は landmark 4年以内に限局</strong>し、 4年以降は HR 1.04（0.72–1.50, P=0.822）（<a href="https://doi.org/10.1016/j.athoracsur.2023.08.018">10.1016/j.athoracsur.2023.08.018</a>）。 一方 Schäfers 群の remodelling 1,156例（1995–2021、追跡6.7±5.5年・7,746患者年）では <strong>15年生存74.7%、15年 弁関連合併症回避66.8%</strong> と良好で、 <strong>唯一の有意な調整済み予測因子は年齢（ROC最適カットオフ61歳）</strong>だった。 61歳未満の15年生存87.1% に対し61歳超は55.3%（P&lt;0.0001） （<a href="https://doi.org/10.1016/j.jtcvs.2023.08.055">10.1016/j.jtcvs.2023.08.055</a>）。 → <strong>術式差（reimplantation vs remodelling）よりも術者効果と年齢の方が大きい</strong>、と読むのが妥当である。</p>
+<p><strong>Marfan/Loeys-Dietz。</strong> 大西洋横断レジストリ188例（MFS 158/LDS 30）では、 AV再手術回避 10年 MFS 94%・LDS 87%、AR≥2 は11%。 そして <strong>Valsalva graft 使用群は大動脈再介入が有意に少なかった（HR 0.04, P&lt;0.001）</strong> （<a href="https://doi.org/10.1016/j.athoracsur.2025.07.025">10.1016/j.athoracsur.2025.07.025</a>）。 Editorial が器具[13]として挙げた Valsalva graft は、20年後にこういう形で裏取りされた。</p>
+<h2 id="33-年12例問題--ガイドラインが空けた穴を誰が埋めるか">3.3 「年12例」問題 — ガイドラインが空けた穴を誰が埋めるか</h2>
+<p>2026年7月号 EJCTS の Govers ら（Heart Valve Society AV データベース、<strong>待機的VSARR 2,668例・37施設</strong>）は、 EuroSCORE II 調整・制限付き三次スプライン＋elbow法で volume-outcome 関係を解析した （<a href="https://doi.org/10.1093/ejcts/ezag177">10.1093/ejcts/ezag177</a>）。</p>
+<ul>
+<li><strong>早期複合アウトカム</strong>（30日死亡・血栓塞栓・再介入・術中conversion・AR≥2度）は <strong>年間症例数と関連しない（P=.8003）</strong></li>
+<li><strong>長期の AV 再介入回避生存には有意な非線形関係</strong>があり、<strong>年12例以上（95%CI 10–12）の施設で良好</strong>（P=.0023、感度分析でP&lt;.0001）</li>
+</ul>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/fv_govers_vo_longterm_PMC13282078.jpg" alt="VSARRの年間症例数と長期AV再介入回避生存のハザード比を結ぶ制限付き三次スプライン" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 4. 年12例で折れる — 長期のAV再介入回避生存</b> — VSARR 2,668例/37施設。縦軸は AV 再介入回避生存の <b>ハザード比</b>、横軸は年間症例数。円の大きさが施設規模。曲線は<b>年11–12例付近で HR 1.0 に達して以降は平坦</b>になり、elbow 法で導かれた閾値<b>年12例（95%CI 10–12）</b>がこの折れ点に対応する（P=.0023）。<br><i>出典: Govers PJ, et al. <i>Eur J Cardiothorac Surg</i> 2026;68(6):ezag177. <a href="https://doi.org/10.1093/ejcts/ezag177">doi:10.1093/ejcts/ezag177</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/42178209/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/fv_govers_vo_early_PMC13282078.jpg" alt="VSARRの年間症例数と早期複合エンドポイントの関係を示す平坦な回帰直線" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 5. 早期成績は症例数に鈍感（P=.8003）</b> — 同じコホートの<b>早期複合エンドポイント</b>（30日死亡・血栓塞栓・再介入・術中conversion・AR≥2度）。直線はほぼ水平で信頼区間も広い。<b>イベント率が2–5%と低すぎて症例数の差を検出できない</b>という構造が見える。「早期成績が良いから集約は不要」という主張が成立しないのは、この図が示す通り<b>早期成績では差が測れない</b>からである。<br><i>出典: Govers PJ, et al. <i>Eur J Cardiothorac Surg</i> 2026;68(6):ezag177. <a href="https://doi.org/10.1093/ejcts/ezag177">doi:10.1093/ejcts/ezag177</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/42178209/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
+<p>この論文の意義は、<strong>2025 ESC/EACTS ガイドラインが意図的に数値を出さなかった空白を埋めている</strong>点にある。 ガイドライン§3.1.2 を原文で確認すると、僧帽弁手術（術者年25例）・TAVI（術者50例・施設100例）・ M-TEER（累積50例）・T-TEER（施設年20例超）には具体的数値を挙げているが、 <strong>「institutional または operator の正確な必要件数について推奨を出すことは困難」</strong>として AVR・基部手術には数値を与えず、「国や地域ごとの四分位に基づくネットワーク型アプローチ」を提案している。 つまり <strong>Govers の12例は、ガイドラインが空けた唯一の穴に入った数字</strong>である。</p>
+<p>ただし緊張がある。De Paulis 総説は <strong>「低い年間volumeの施設からの報告でも、成績はわずかに劣るだけ（例：10年 再手術回避生存 87%）であり、 慎重な患者選択があれば教育施設でも良好な長期成績が得られる」</strong> と書いている。 Govers（長期耐久性に差が出る）と De Paulis（低volumeでも87%）は、 <strong>同じ現象の「差の大きさをどう評価するか」で分かれている</strong>。</p>
+<p>私の読み方は次の通り。Govers の設計は <strong>早期成績が「イベント率が低すぎて症例数に鈍感」</strong> であることを示した点が本質で、 これは低侵襲・ロボットの学習曲線論（第2章）と構造が同じである。 <strong>安全性で差が出ないから安心してよい、のではなく、安全性では差が検出できないから耐久性で見るしかない。</strong></p>
+<h2 id="34-器具と補助手段editorial-の1319を1本ずつ検証する">3.4 器具と補助手段：Editorial の[13]〜[19]を1本ずつ検証する</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Editorial の器具</th>
+<th>原典</th>
+<th>2025–2026年時点の評価</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Valsalva graft</strong>（[13] De Paulis 2005）</td>
+<td>MMCTS 2005;2005:mmcts.2004.000992</td>
+<td><strong>支持</strong>。Marfan/LDS 188例で大動脈再介入 HR 0.04（P&lt;0.001）。De Paulis 総説 Table 1 でも「根部の解剖と機能を再現する tube graft」として2000年の起点に置かれている</td>
+</tr>
+<tr>
+<td><strong>geometric calliper</strong>（[14] Schäfers 2006）</td>
+<td><a href="https://doi.org/10.1016/j.jtcvs.2006.04.032">10.1016/j.jtcvs.2006.04.032</a></td>
+<td><strong>支持</strong>。effective height を測る道具として定着。De Paulis 総説 Table 4 は<strong>術後 eH &gt;9mm・coaptation length &gt;4mm・術前 gH &gt;17mm（TAV）/&gt;20mm（BAV）・BAV commissural orientation &gt;140°（≥160°ならより良い）</strong> を修復成功の予測因子として明示した</td>
+</tr>
+<tr>
+<td><strong>外部リング</strong>（[15] Lansac 2010）</td>
+<td><a href="https://doi.org/10.1016/j.jtcvs.2010.08.004">10.1016/j.jtcvs.2010.08.004</a></td>
+<td><strong>条件付き支持</strong>。CAVIAAR で弁関連死・大出血は有意に減ったが<strong>主要複合は有意差なし</strong>。De Paulis 総説は「最も頻用される手技」としつつ「十分な根部外周の剥離が必要」</td>
+</tr>
+<tr>
+<td><strong>El Khoury 機能分類</strong>（[16] 2005）</td>
+<td><a href="https://doi.org/10.1097/01.hco.0000153951.31887.a6">10.1097/01.hco.0000153951.31887.a6</a></td>
+<td><strong>支持</strong>。De Paulis 総説の骨格そのもの（Carpentier の僧帽弁分類に相当）</td>
+</tr>
+<tr>
+<td><strong>術中加圧可視化device</strong>（[17] Arabkhani 2023）</td>
+<td><a href="https://doi.org/10.1093/ejcts/ezad291">10.1093/ejcts/ezad291</a></td>
+<td><strong>E1</strong>。24例中22例で術後AI ≤grade 1、漏れ中央値90 mL/分（IQR 60–120）。3例で追加調整、2例で弁置換（残存AI 330・260 mL/分）。<strong>単群・n=24・対照なし</strong>。かつ<strong>シードEditorialの責任著者自身の開発品が同Editorialの推奨に含まれている</strong>点はCOIとして読者に開示されるべき</td>
+</tr>
+<tr>
+<td><strong>HAART</strong>（[18] Rankin 2010）</td>
+<td>—</td>
+<td><strong>第4章で単独に扱う</strong></td>
+</tr>
+<tr>
+<td><strong>De Paulis 総説</strong>（[19] 2025）</td>
+<td><a href="https://doi.org/10.1093/eurheartj/ehaf038">10.1093/eurheartj/ehaf038</a></td>
+<td>本章の一次資料。<strong>「AVr/VSARRと弁置換を比較したRCTは存在しない」と明記</strong></td>
+</tr>
+</tbody>
+</table></div>
+<figure style="margin:18px 0;max-width:680px;">
+<img src="figures/fv_avp_device_view_PMC10903180.jpg" alt="術中加圧可視化deviceで大動脈弁を内視鏡で直視しているモニタ画像と術野写真" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 6. 術中加圧可視化device の実像（n=24・単群）</b> — 左：加圧下（60–80 mmHg）に内視鏡で見た大動脈弁の閉鎖。右：術野での device 装着。24例中22例で術後AI ≤grade 1、漏れ中央値 <b>90 mL/分</b>（IQR 60–120）、3例で追加調整・2例で弁置換（残存AI 330・260 mL/分）。<b>対照群がないため「安全そう」までしか言えない</b>段階の技術である（かつシードEditorialの責任著者自身の開発品）。<br><i>出典: Arabkhani B, Sandker SC, Braun J, et al. <i>Eur J Cardiothorac Surg</i> 2023;64(5):ezad291. <a href="https://doi.org/10.1093/ejcts/ezad291">doi:10.1093/ejcts/ezad291</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/37610333/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+
+<p>さらに De Paulis 総説からは、Editorial に書かれていない<strong>2つの重要な実務情報</strong>が得られた。</p>
+<ol type="1">
+<li><strong>subcommissural 縫合は「術後の進行性弁輪拡大とそれに伴う修復失敗のため、ほぼ完全に放棄された」</strong>。 弁輪径 &gt;25mm を拡大と定義し、弁輪の安定化/縮小が耐久性を有意に改善する。</li>
+<li><strong>AVr/VSARR 後の抗血栓療法について ESC/EACTS ガイドラインには記載がなく、 「国際的な慣行（common international standard）は生涯低用量アスピリン」</strong> である。 これはガイドラインの明示的な空白であり、施設プロトコルを書く側にとって重要な情報である。</li>
+</ol>
+<h2 id="エビデンス格付け第3章">エビデンス格付け（第3章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VSARR（reimplantation）</td>
+<td><strong>E4</strong>（2025 GL <strong>Class I B</strong>）</td>
+<td><strong>年12例/年</strong>（Govers）・学習曲線</td>
+<td>○ 保険適用。ただし日本の大動脈弁形成は<strong>年173例＝全AV手術の1.6%</strong></td>
+<td><strong>あり</strong>：①AVIATOR の生存差10%は追跡4年での残余交絡を疑うべき（再介入は同等）②61歳超では15年生存55.3% ③<strong>弁置換との RCT が存在しない</strong></td>
+</tr>
+<tr>
+<td>VSARR（remodelling）</td>
+<td><strong>E4</strong></td>
+<td>同上</td>
+<td>○</td>
+<td><strong>あり</strong>：メタで死亡HR 1.54・再介入HR 1.49（ただし差は4年以内に限局し、Schäfers群では15年66.8%と良好＝術者効果が交絡）</td>
+</tr>
+<tr>
+<td>外部リング弁輪形成</td>
+<td><strong>E3</strong></td>
+<td>根部外周の剥離が必要</td>
+<td>△ リング製品は国内未承認（Teflon felt等で代替）</td>
+<td><strong>あり</strong>：CAVIAAR の主要複合は有意差なし（HR 0.66, 0.39–1.12）、再手術は数値上2.10倍</td>
+</tr>
+<tr>
+<td>Valsalva graft</td>
+<td><strong>E3</strong></td>
+<td>なし</td>
+<td>○ 使用可</td>
+<td><strong>探したが見つからなかった</strong>（Marfan/LDSでHR 0.04と強い支持）</td>
+</tr>
+<tr>
+<td>geometric calliper / El Khoury分類</td>
+<td><strong>E4</strong>（総説・GLの骨格）</td>
+<td>教育</td>
+<td>○</td>
+<td><strong>探したが見つからなかった</strong></td>
+</tr>
+<tr>
+<td>術中加圧可視化device</td>
+<td><strong>E1</strong></td>
+<td>未承認・n=24</td>
+<td>× 国内未承認</td>
+<td><strong>探したが見つからなかった</strong>（対照なしのため反証も存在しない。COIあり）</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て-2">🔮 私の見立て</h3>
+<p><strong>技術論はもう終わっている。</strong> VSARR が Class I になり、20年の再手術回避が88%あり、 reimplantation のメタ解析が7,878例に達した以上、「David をやるべきか」はもはや問いではない。</p>
+<p>私が本当の論点だと考えるのは <strong>「年12例」を日本地図に重ねたときに何が起きるか</strong> である。 日本の大動脈弁形成は <strong>2020年に全国で173例（全大動脈弁手術の1.6%）</strong> しかない （<a href="https://doi.org/10.1007/s11748-023-01979-8">10.1007/s11748-023-01979-8</a>）。 VSARR はこれとは別カウントだが、桁の感覚は同じである。 <strong>年12例を満たせる施設は、日本には数施設しかない可能性が高い。</strong> つまり Govers の閾値を真面目に適用すると、日本における結論は 「各施設が頑張って12例に到達する」ではなく <strong>「12例を出せる施設に送る」</strong> になる。</p>
+<p>これは当院にとって不都合な結論だが、そのまま受け取るべきだと考える。 ただし条件が1つある。De Paulis 総説の「低volumeでも10年87%」という記述は、 <strong>「慎重な患者選択があれば」</strong> という前置き付きである。 逆に言えば、低volume施設が取るべき戦略は「症例数を追う」ことではなく <strong>「送る症例と自分でやる症例を明示的に分ける基準を持つ」</strong> ことになる。 その基準として De Paulis Table 4 は使える：<strong>術前 gH &gt;17mm（TAV）/&gt;20mm（BAV）、 BAV commissural orientation ≥160°、術後 eH &gt;9mm・coaptation &gt;4mm を満たせない解剖は送る</strong>。 これは第10章の実行計画に落とす。</p>
+</blockquote>
+<hr />
+<h1 id="第4章-大動脈弁形成のデバイスhaartは何を教えたか">第4章 大動脈弁形成のデバイス：HAARTは何を教えたか</h1>
+<blockquote>
+<ul>
+<li>本 Editorial の最大の弱点はここである。HAART（内側幾何学的弁輪リング）を推奨側に置いているが、<strong>同一著者群が同時期の <em>Eur Heart J</em> 総説では失敗機序を明示している</strong>。</li>
+<li>そこへ <strong>2026年7月号 JTCVS：18例中7例（44%）が再介入、5年推定再介入率 40.8%</strong> が出た。摘出時、弁輪径は植込み前サイズに戻っていた。</li>
+<li>ただし「HAARTは失敗した」と結論するのは早い。規制試験65例では3年で10.8%、単施設43例では平均2.7年で4.7%であり、<strong>症例数が二桁の報告が散らばっているだけ</strong>である。決着は <strong>CONTOUR trial（HAART 200 vs 二重外部リングのRCT, NCT06869954）</strong> が付ける。</li>
+</ul>
+</blockquote>
+<h2 id="41-haart-の規制上の根拠は実は約106例しかない">4.1 HAART の規制上の根拠は、実は約106例しかない</h2>
+<p>ClinicalTrials.gov を洗うと、HAART の規制試験は3つだった。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>試験</th>
+<th>対象</th>
+<th>n</th>
+<th>期間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NCT01400841</td>
+<td>HAART Model 300 Annuloplasty Ring</td>
+<td><strong>18</strong></td>
+<td>2012-01–2013-04</td>
+</tr>
+<tr>
+<td>NCT01732835</td>
+<td>HAART 300 Extended Safety and Performance</td>
+<td><strong>68</strong></td>
+<td>2012-12–2014-06</td>
+</tr>
+<tr>
+<td>NCT02071849</td>
+<td>HAART 200 Aortic Valve Annuloplasty Trial（二尖弁用）</td>
+<td><strong>20</strong></td>
+<td>2013-09–2015-04</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>合計約106例</strong>。これで市販化されている。 公表された成績は次の通り。</p>
+<ul>
+<li><strong>Mazzitelli 2016（EJCTS、NCT01400841ベース、65例）</strong>: 平均年齢63±13歳、 三尖弁の中等度〜重症AI。弁輪径 術前26.5±2.3mm→リング平均21.5±1.6mm。 院内死亡・重大合併症なし。AI grade 2.9±0.8→0.6±0.7（P&lt;0.0001）、平均圧較差8.6±4.3mmHg、 3年生存95%。<strong>しかし3年間で7例（10.8%）が大動脈弁置換を要した</strong>。 著者は「失敗はほとんどが早期で、6か月以降は安定」「失敗は主に手技的要因」と述べた （<a href="https://doi.org/10.1093/ejcts/ezv234">10.1093/ejcts/ezv234</a>）。</li>
+<li><strong>Rankin 2018（Innovations、47例、大動脈瘤手術に併施）</strong>: 弁輪径26.5±2.6mm→リング21.7±1.7mm、 平均追跡27か月。手術死亡・弁関連合併症なし、修復失敗による弁置換1例、 2年の合併症/弁置換なし生存94%（<a href="https://doi.org/10.1097/IMI.0000000000000539">10.1097/IMI.0000000000000539</a>）。</li>
+<li><strong>Lancaster 2023（JTCVS、小児/成人先天性36例、Michigan）</strong>: 年齢中央値17.4歳、 手術死亡0%、主要合併症6%、追跡中央値1.9年で再手術回避97%、≥3+ AI 回避94% （<a href="https://doi.org/10.1016/j.jtcvs.2022.10.017">10.1016/j.jtcvs.2022.10.017</a>）。</li>
+<li><strong>Papakonstantinou 2025（Hellenic J Cardiol、単施設43例）</strong>: 平均追跡2.7年（最長6.3年）、 死亡2.3%、<strong>リング関連の有害事象で再手術2例（4.7%）</strong>、中期で軽度以下のAI。 ただし<strong>中等度ASが16%に存在</strong>（<a href="https://doi.org/10.1016/j.hjc.2025.01.007">10.1016/j.hjc.2025.01.007</a>）。</li>
+</ul>
+<h2 id="42-yokoyamafukuhara-202644が再介入">4.2 Yokoyama/Fukuhara 2026：44%が再介入</h2>
+<p>2026年7月号 <em>JTCVS</em>、University of Michigan（<a href="https://doi.org/10.1016/j.jtcvs.2026.03.573">10.1016/j.jtcvs.2026.03.573</a>）。</p>
+<ul>
+<li>対象：2017-01–2025-05 に内側幾何学的弁輪リングで大動脈弁形成を行った<strong>成人17例・18手術</strong> （平均54±15歳、男性16、三尖弁14/二尖弁2/単尖弁1、redo repair 1）</li>
+<li><strong>10手術（56%）で基部 remodeling を併施</strong>、<strong>21mm 三尖弁用リングが61%</strong></li>
+<li>平均追跡3.7±1.7年で <strong>7例（44%）に8回の再介入</strong>（重症AI 7、心内膜炎＋中等度AI 1）</li>
+<li><strong>5年推定再介入率 40.8%（95%CI 20.0–70.5）</strong></li>
+<li>再介入の内容：SAVR 5、redo内側リング1、基部置換1、<strong>valve-in-ring TAVR 1</strong></li>
+<li><strong>外科的に摘出した症例では、弁輪径がリング植込み前のサイズに一致して戻っていた</strong></li>
+<li>結論：「弁輪縮小には有効だが、<strong>リングの剛性のある intra-annular 設計と過度の弁輪 downsizing が AI 再発を招き、将来のカテーテル治療の選択肢を制限しうる</strong>。広範な適用には慎重な検討を要する」</li>
+</ul>
+<p><strong>この論文をどう位置づけるか。</strong> n=17 は小さく、95%CI は20.0–70.5%と広い。 単一施設・単一術者群のバイアスも当然ある。 しかし <strong>「摘出時に弁輪径が元に戻っていた」</strong> という観察は症例数に依存しない機序の証拠であり、 「剛性リングで弁輪を縮めても、縮んだ状態が維持されない」ことを示している。 これは Mazzitelli の「失敗はほとんど早期」という説明とも実は整合する （早期に戻ってしまうなら、失敗は早期に出る）。</p>
+<h2 id="43-決定的な指摘同じ著者群が同じ年に反対のことを書いている">4.3 決定的な指摘：同じ著者群が、同じ年に、反対のことを書いている</h2>
+<p>ここが本プロジェクトで最も重要な発見である。</p>
+<p><strong>シード Editorial（EJCTS 2026;68(6):ezag185）<strong>は、器具のリストの中に 「非拡大基部への HAART annuloplasty」を</strong>推奨の文脈で</strong>置いている。 著者には <strong>De Kerchove（Saint-Luc）と De Paulis（Rome）</strong> が含まれる。</p>
+<p>一方、<strong>De Paulis らの <em>Eur Heart J</em> 2025 総説</strong>（第一著者 De Paulis、共著に de Kerchove、El Khoury、Schäfers）は、 弁輪形成の4つの概念を列挙した中で内側リングをこう記述している （<a href="https://doi.org/10.1093/eurheartj/ehaf038">10.1093/eurheartj/ehaf038</a>）。</p>
+<blockquote>
+<p><em>(3) Some Authors proposed an internal annuloplasty, with a rigid ring implanted below the cusp insertion. Results have been published with limited numbers and follow-up; <strong>early failures have been related to abrasion of cusp tissue or ring dehiscence</strong>.</em></p>
+</blockquote>
+<p>つまり <strong>「限られた症例数と追跡でしか報告がなく、早期の失敗は cusp 組織の摩耗またはリングの dehiscence に関連する」</strong>。 これは Yokoyama の報告より1年早く、同じ著者群が公表していた評価である。</p>
+<p>さらに Augsburg の Girdauskas らは2024年に、 <strong>「原法の実装で一般的な合併症を避けるため」<strong>として HAART 200 のループ縫合を</strong>外部固定する改変法</strong>を発表している （<a href="https://doi.org/10.1093/ejcts/ezae350">10.1093/ejcts/ezae350</a>）。 「一般的な合併症（common complications associated with the original implantation technique）」という表現は、 臨床現場が既に問題を認識していたことを示す。</p>
+<h2 id="44-決着は-rct-が付けるcontour-trial">4.4 決着は RCT が付ける：CONTOUR trial</h2>
+<p>同じ Girdauskas らが2025年に公表した <strong>CONTOUR trial</strong> のプロトコルは、 この論争を直接の比較試験にした（<a href="https://doi.org/10.1093/ejcts/ezaf360">10.1093/ejcts/ezaf360</a>、NCT06869954）。</p>
+<ul>
+<li><strong>多施設RCT、非対称配置の二尖弁AR患者100例を1:1に無作為化</strong></li>
+<li><strong>INTERNAL群：HAART 200 内側リング</strong> vs <strong>EXTERNAL群：Extra Aortic ring による二重外部弁輪形成</strong></li>
+<li>4D-flow MRI を術前・退院時・1年で撮り、<strong>core lab の評価者盲検</strong>で flow eccentricity と逆流率を判定</li>
+<li>階層的な2つの主要エンドポイント：①退院時の flow eccentricity の減少 ②1年の逆流率(%)</li>
+<li>2025-05 開始、2027-06 primary completion</li>
+<li><strong>共著者に Lansac（外部リングの創始者）</strong>が入っている</li>
+</ul>
+<p><strong>内側派と外部派が同じプロトコルの上で直接対決する</strong>という構図で、 弁輪形成のRCTとしては史上初である。<strong>本レビューの結論も、2027年にはここで更新される。</strong></p>
+<h2 id="45-デバイスで再現性を上げる戦略の限界">4.5 「デバイスで再現性を上げる」戦略の限界</h2>
+<p>HAART の設計思想は明快だった。「大動脈弁形成は術者依存で再現性が低い。 弁輪の三次元形状を規定するリングを入れれば、誰でも同じ形が作れる」。 僧帽弁における Carpentier リングの成功を、大動脈弁に移そうとした発想である。</p>
+<p>なぜそれが僧帽弁のようにいかなかったのか。少なくとも3つの理由が挙がる。</p>
+<ol type="1">
+<li><strong>大動脈弁輪は「輪」ではない。</strong> De Paulis 総説が Figure 1 で示すように、 大動脈弁装置は「2つの輪（上のSTJと下のvirtual basal ring）を3本の commissural post が繋いだ円筒」である。 下の輪だけを剛性リングで固定しても、上の輪と post の関係は規定されない。</li>
+<li><strong>cusp が動く場所にリングがある。</strong> 内側（intra-annular）配置は cusp 挿入部の直下であり、 Yokoyama も De Paulis 総説も <strong>cusp 組織の摩耗（abrasion）</strong> を失敗機序に挙げている。 僧帽弁リングは血流に晒される面が少ないが、大動脈内側リングは違う。</li>
+<li><strong>過度の downsizing。</strong> Yokoyama コホートでは 21mm リングが61%だった。 弁輪を小さくすれば coaptation は取れるが、<strong>将来の ViV の余地を失う</strong>。 これは <a href="small_annulus_avr_integrated_review_2026-06.html">小径弁輪AVRレビュー</a> で扱った 「PPMと lifetime management のトレードオフ」がそのまま形成手術に現れた形である。</li>
+</ol>
+<h2 id="エビデンス格付け第4章">エビデンス格付け（第4章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内側幾何学的リング（HAART）</td>
+<td><strong>E2</strong>（規制根拠は約106例）</td>
+<td>剛性設計・downsizing・ViVの制限</td>
+<td>× <strong>国内未承認</strong></td>
+<td><strong>あり（最重要）</strong>：①Michigan 18例で<strong>44%再介入・5年40.8%</strong>、摘出時に弁輪径が元に戻る ②<strong>De Paulis 2025 EHJ（同一著者群）が「早期失敗は cusp摩耗またはリングdehiscence」と記述</strong> ③Girdauskas が原法の「一般的な合併症」回避のための外部固定法を発表 ④<strong>CONTOUR trial で外部リングとRCT比較中</strong></td>
+</tr>
+<tr>
+<td>外部リング（二重/Extra Aortic）</td>
+<td><strong>E3</strong></td>
+<td>剥離量</td>
+<td>△ 国内未承認</td>
+<td><strong>あり</strong>：CAVIAAR 主要複合は有意差なし</td>
+</tr>
+<tr>
+<td>subcommissural 縫合</td>
+<td><strong>E5→放棄</strong></td>
+<td>—</td>
+<td>○（技術のみ）</td>
+<td><strong>あり</strong>：De Paulis 総説「術後の進行性弁輪拡大により<strong>ほぼ完全に放棄された</strong>」</td>
+</tr>
+<tr>
+<td>基部 remodeling ＋ cusp effective height 再懸垂</td>
+<td><strong>E3</strong></td>
+<td>教育</td>
+<td>○</td>
+<td>Lansac 2010 の3群比較で group 3（自由縁整列＋eH再懸垂）は1年イベント0% vs group 1 28.1%（P&lt;.001）</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て-3">🔮 私の見立て</h3>
+<p><strong>HAART は「デバイスで再現性を買う」という戦略が、大動脈弁では成立しなかった事例として記録されるべき</strong>だと考える。 ただしそれは「HAARTが悪い製品だった」という話ではなく、<strong>弁輪という構造の理解が足りないまま剛性体を入れた</strong>という話である。</p>
+<p>実務的には、当院の判断は次のようになる。</p>
+<ol type="1">
+<li><strong>国内未承認なので、今すぐの意思決定は不要。</strong>これは幸運である。</li>
+<li><strong>仮に将来承認されても、CONTOUR trial（2027年primary completion）の結果を待つ。</strong> n=100 のRCTで4D-flow MRI を core lab 盲検判定する設計は、この分野で最も信頼できるデータになる。</li>
+<li><strong>より一般的な教訓を先に取る。</strong> すなわち <strong>「約100例の規制試験で市販された弁輪デバイスは、 市販後に二桁の単施設報告が散らばる段階を経て、10年目に評価が固まる」</strong> というタイムラインである。 第9章の「新技術評価チェックリスト」にこれを組み込む。</li>
+</ol>
+<p>そして最も重要な観察を繰り返しておく。 <strong>同じ著者群が、同じ年に、Editorial では推奨し、総説では失敗機序を書いている。</strong> これは誰かの不誠実ではなく、<strong>「Editorial という文書形式が、留保を落とす」</strong> ということだと思う。 学会委員会の意見表明を読むときの実務的な教訓として、これは HAART そのものより価値がある。</p>
+</blockquote>
+<hr />
+<h1 id="第5章-ross手術の復権--エビデンスは強く推奨は弱い">第5章 Ross手術の復権 — エビデンスは強く、推奨は弱い</h1>
+<blockquote>
+<ul>
+<li>Ross のエビデンスは Editorial が示唆するより強い。<strong>RCT post hoc で25年生存83.0%＝相対生存99.1%</strong>、<strong>PSM 1:1:1 で15年生存93.1%＝一般人口同等</strong>。</li>
+<li>しかし <strong>2025 ESC/EACTS ガイドラインは Ross に独立した推奨行（Class/Level）を与えていない</strong>。本文で「15年で15%が再介入」と述べるだけである。</li>
+<li>2026年に <strong>EACTS Expert Consensus Statement on the Ross Procedure in Adult Patients</strong> が出て、この乖離を正面から指摘した：<strong>「アクセスの乏しさが、ガイドライン文書が Ross をより強く推奨してこなかった理由として挙げられてきた」</strong>。</li>
+</ul>
+</blockquote>
+<h2 id="51-エビデンスの現在地">5.1 エビデンスの現在地</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>研究</th>
+<th>デザイン</th>
+<th>主要結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>El-Hamamsy 2022 JACC</strong>（<a href="https://doi.org/10.1016/j.jacc.2021.11.057">10.1016/j.jacc.2021.11.057</a>）</td>
+<td>California/NY 州データ、18–50歳、<strong>PSM 1:1:1（各434例）</strong>、追跡中央値12.5年</td>
+<td><strong>15年 actuarial生存 Ross 93.1%（89.1–95.7）＝年齢・性・人種一致の米国一般人口と同等</strong>。生体弁 HR 0.42（0.23–0.75, P=0.003）、機械弁 HR 0.45（0.26–0.79, P=0.006）。生体弁より再介入・心内膜炎が少なく（P=0.008/0.01）、機械弁より再手術は多いが（P&lt;0.001）脳卒中（P=0.03）・大出血（P=0.016）は少ない</td>
+</tr>
+<tr>
+<td><strong>Notenboom 2024 JAMA Cardiol</strong>（<a href="https://doi.org/10.1001/jamacardio.2023.4090">10.1001/jamacardio.2023.4090</a>）</td>
+<td><strong>RCT（Ross vs homograft, 1994–2001）の post hoc</strong>、108例、追跡中央値<strong>24.1年</strong>（98%完全）</td>
+<td><strong>25年生存 83.0%（75.5–91.2）＝相対生存99.1%</strong>。25年 再介入回避 71.1%、自家弁再介入回避 80.3%、homograft再介入回避 86.3%。周術期死亡0.9%（1例）。<strong>初回Ross関連再介入後の30日死亡0%</strong>、全再介入で3.8%、再手術後10年生存96.2%</td>
+</tr>
+<tr>
+<td><strong>Yokoyama 2023 JAHA</strong>（<a href="https://doi.org/10.1161/JAHA.122.027715">10.1161/JAHA.122.027715</a>）</td>
+<td>ネットワークメタ解析（2 RCT＋8 PSM、4,812例）</td>
+<td>全死亡 Ross vs 機械弁 <strong>HR 0.58（0.35–0.97）</strong>、vs 生体弁 <strong>HR 0.32（0.18–0.59）</strong>。再介入は機械弁より多く生体弁より少ない。大出血・脳卒中は機械弁より少ない</td>
+</tr>
+<tr>
+<td><strong>Shetty 2026 ATS</strong>（<a href="https://doi.org/10.1016/j.athoracsur.2025.08.045">10.1016/j.athoracsur.2025.08.045</a>）</td>
+<td>インド単施設252例（平均19.6歳）、2001–2023</td>
+<td>早期死亡1.6%、10年 全死亡回避94.3%・Ross関連再介入回避89%。<strong>手製Dacron valved conduit（n=75）は肺homograft（n=176）と同等</strong>（RVOT平均圧較差17.5 vs 16.5mmHg, P=.75）</td>
+</tr>
+<tr>
+<td><strong>Sarnaik 2024 JTCVS Open</strong>（<a href="https://doi.org/10.1016/j.xjon.2023.10.033">10.1016/j.xjon.2023.10.033</a>）</td>
+<td>18歳を想定した Markov 決定木・20,000回 Monte Carlo</td>
+<td>20年死亡 Ross 16.3% vs 機械弁23.2%。生涯（術後60年）QALY <strong>28.3 vs 23.5</strong>、費用 **$54,233 vs <span class="math inline">507, 240 * *。<em>機</em><em>械</em><em>弁</em><em>は</em>1<em>Q</em><em>A</em><em>L</em><em>Y</em><em>あ</em><em>た</em><em>り</em></span>95,345 高い</td>
+</tr>
+<tr>
+<td><strong>Notenboom 2023 EHJ</strong>（<a href="https://doi.org/10.1093/eurheartj/ehad370">10.1093/eurheartj/ehad370</a>）</td>
+<td>小児AVR のメタ解析＋microsimulation（68研究5,259例）</td>
+<td>早期死亡 Ross 3.7% vs 機械弁7.0% vs homograft 10.6%。20年内の平均余命 Ross 18.9年（相対94.8%）vs 機械弁17.0年（86.3%）。<strong>20年 AV再介入リスクは Ross 42.0% vs 機械弁17.8%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<figure style="margin:18px 0;max-width:680px;">
+<img src="figures/fv_ross_vs_mavr_surv_PMC10897596.jpg" alt="18歳患者を想定したRossと機械弁AVRのmicrosimulation生存曲線" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 7. 18歳モデルの60年：Ross と機械弁の生存曲線</b> — Markov 決定木＋20,000回 Monte Carlo。10,000人の仮想コホートで、60年後に生存しているのは Ross 約5,900人 vs 機械弁約4,600人。20年死亡は <b>16.3% vs 23.2%</b>、生涯 QALY <b>28.3 vs 23.5</b>、費用 <b>$54,233 vs $507,240</b>。<b>これはモデルであって観察データではない</b>——入力した遷移確率がそのまま結論を決める点に注意。<br><i>出典: Sarnaik KS, et al. <i>JTCVS Open</i> 2024;17:185-214. <a href="https://doi.org/10.1016/j.xjon.2023.10.033">doi:10.1016/j.xjon.2023.10.033</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38420529/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+
+<h2 id="52-ガイドラインとの乖離を原文で確認する">5.2 ガイドラインとの乖離を原文で確認する</h2>
+<p>2025 ESC/EACTS ガイドラインを全文検索した結果、<strong>Ross に独立した Recommendation 行は存在しない</strong>。 記述は3か所の本文のみである（<a href="https://doi.org/10.1093/ejcts/ezaf276">10.1093/ejcts/ezaf276</a>）。</p>
+<ol type="1">
+<li>§8（大動脈弁）: 「Ross 手術は、<strong>選択された患者に高い専門性を持つ施設で行われた場合</strong>、 優れた長期生存と関連する。抗凝固が望ましくない/禁忌である予後の長い若年患者では価値ある外科的選択肢だが、 <strong>手技の複雑さと、15年以内に15%の患者で再介入が必要になることを伴う</strong>」</li>
+<li>§14（人工弁選択）: 「自家弁を用いた大動脈弁置換（Ross手術）は若年患者において<strong>機械弁の代替</strong>であり、 専門施設で専任の専門性を持つ術者により行われるべきである」</li>
+<li>§16（妊娠）: 「Ross 手術は、専門性を持つ施設において考慮されうる（may be considered）」</li>
+</ol>
+<p><strong>Class も Level も付与されていない。</strong> これに対して VSARR は Class I Level B である（第3章）。 つまり <strong>2025年のガイドラインは、自己弁温存には最高格を与え、自家弁（Ross）には推奨行すら与えなかった。</strong></p>
+<h2 id="53-eacts-expert-consensus-2026-は何を言ったか">5.3 EACTS Expert Consensus 2026 は何を言ったか</h2>
+<p>Vojacek らの EACTS Expert Consensus Statement（EJCTS 2026;68(2):ezaf295、 共著に El-Hamamsy、Bavaria、de Kerchove、Ouzounian、Takkenberg、Skillington ら）は、 systematic review に基づく6つの Consensus Statement Table を出した （<a href="https://doi.org/10.1093/ejcts/ezaf295">10.1093/ejcts/ezaf295</a>）。要点を抽出する。</p>
+<p><strong>Table 1 根拠</strong>：長期の平均余命を年齢・性一致の一般人口レベルに回復させる／ すべての人工弁選択肢より優れた血行動態／心内膜炎・PPM（patient-prosthesis mismatch）の回避、 生体弁より再手術回避、機械弁より血栓塞栓・出血回避が良好。</p>
+<p><strong>Table 2 患者選択</strong>：</p>
+<ul>
+<li><strong>60歳未満・併存疾患が少ない</strong>成人で shared decision-making を経て考慮する</li>
+<li><strong>妊娠可能年齢の女性でAVRが必要な場合は Ross が第一選択</strong></li>
+<li>冠動脈起始異常は慎重に</li>
+<li>最適適応は <strong>AS または狭窄優位の混合病変、とくに弁輪非拡大例</strong></li>
+<li>純AR で AVr 不適なら、適切な手技を用いれば良い候補</li>
+<li>リウマチ性・感染性心内膜炎でも選択例では考慮可</li>
+<li><strong>Marfan など遺伝学的に確定した症候性大動脈症では避ける</strong></li>
+<li><strong>自己免疫疾患では避ける</strong>（ただし絶対禁忌ではなく、PET-CTで活動性を除外し休止期なら可）</li>
+</ul>
+<p><strong>Table 3 手技</strong>：tailored free-standing root replacement／native inclusion／prosthetic inclusion が最適。 <strong>純/優位ARまたは弁輪≥27mm、あるいは大動脈−肺動脈弁輪径のミスマッチがある全例で annuloplasty を行う</strong>。 右心系再建は<strong>凍結保存肺homograftがgold standard</strong>、xenograft は代替だが耐久性は劣る。 <strong>脱細胞化（新鮮または凍結保存）homograft は標準homograftより耐久性が良い可能性がある</strong>。</p>
+<p><strong>Table 5 術後管理</strong>：術後1年間の厳密な血圧管理／<strong>術後3–6か月の経口抗炎症薬が肺homograft失敗リスクを減らしうる</strong>／ 生涯の臨床・心エコー追跡は必須。homograft失敗リスクは二相性で<strong>初年度3.5%→以後1%/年</strong>。</p>
+<p><strong>Table 6 集約化</strong>：術者・施設レベルで強い正の volume-outcome 関係がある。 <strong>Ross Centres of Excellence</strong>（症例数・手術死亡・早期の臨床/心エコー成績・縦断追跡で定義）で提供すべき。 本文では <strong>「低volume施設で行われた場合、Ross の周術期死亡は AVR の3倍」</strong>、 <strong>学習曲線は約75例で合併症リスクが最小化</strong>と明記されている。</p>
+<p>そして最も重要な一文：</p>
+<blockquote>
+<p><em>Lack of easy access to the Ross procedure has been cited as a reason why international guideline documents have not more strongly recommended the Ross procedure despite the overwhelming evidence supporting it.</em></p>
+</blockquote>
+<p><strong>「アクセスの乏しさが、圧倒的なエビデンスがあるにもかかわらずガイドラインが Ross をより強く推奨してこなかった理由として挙げられてきた」</strong>。 これは技術の問題ではなく<strong>供給体制の問題</strong>であるという自己診断である。</p>
+<h2 id="54-反証を探すross-に不利なデータ">5.4 反証を探す：Ross に不利なデータ</h2>
+<ul>
+<li><strong>補強法を間違えると害になる。</strong> Toronto（SickKids/UHN）の12歳以上131例では、 autograft support 別に3群比較して、<strong>full support（自家弁をストレートDacron graft内に留置）群は 10年で中等度以上の自家弁AR が32.3%</strong>（annular support 13.3%、no support 11.1%、<strong>P=0.03</strong>）。 再手術累積は3群で差なし（5.6/0/10.1%, P=.80）、10年生存99% （<a href="https://doi.org/10.1093/ejcts/ezag019">10.1093/ejcts/ezag019</a>）。 一方で16研究（補強Ross 2,514例 vs 非補強595例）のpatient-levelメタ解析では<strong>補強Rossの方が生存も自家弁再手術回避も良好</strong> （15年 98.8% vs 82.6%、HR 11.9, P=.016／86.6% vs 77.7%, HR 2.06, P&lt;.001） （<a href="https://doi.org/10.1016/j.jtcvs.2025.08.049">10.1016/j.jtcvs.2025.08.049</a>）。 <strong>「補強すべきか」ではなく「どう補強するか」で結果が反転する。</strong></li>
+<li><strong>右心系は解決していない。</strong> Canadian Ross Registry 466例（平均47±12歳、 脱細胞化凍結保存肺homograft = SynerGraft使用）では、6年で<strong>肺homograft dysfunction 累積 11±2%</strong>、 93%が狭窄で59%が conduit 部。再介入は6年で3±1%だが、 <strong>リスクは術後1年目が最大（3.5%/年）</strong>、45歳未満が唯一の独立危険因子（HR 3.1） （<a href="https://doi.org/10.1016/j.jtcvs.2020.06.139">10.1016/j.jtcvs.2020.06.139</a>）。</li>
+<li><strong>小児では再介入が多い。</strong> 前掲 microsimulation で <strong>20年 AV再介入リスクは Ross 42.0% vs 機械弁17.8%</strong>。</li>
+<li><strong>RCT は n=43 のパイロットしかない。</strong> ROVAL（NCT03798782, Population Health Research Institute）は <strong>43例で COMPLETED</strong>、併走レジストリ（NCT03894787）が62例。 「overwhelming evidence」の中核はRCTではなくPSMと単一RCTのpost hocである。</li>
+</ul>
+<h2 id="エビデンス格付け第5章">エビデンス格付け（第5章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ross手術（成人）</td>
+<td><strong>E4</strong>（RCT post hoc＋PSM＋NMA＋<strong>EACTS consensus 2026</strong>）</td>
+<td><strong>低volumeで死亡3倍</strong>・学習曲線約75例・<strong>homograft入手性</strong></td>
+<td><strong>△ 制度は整っている・供給が律速</strong>（ホモグラフトは<strong>2016年4月に保険収載</strong>＝K939-6 凍結保存同種組織加算 <strong>81,610点</strong>。認定組織バンクとの契約で施設基準を満たせば実施可。ただし<strong>国内の組織提供数は年間約10例</strong>）。JATS 2020の先天性Rossは16例</td>
+<td><strong>あり</strong>：①full support で10年 自家弁AR 32.3% ②脱細胞化homograft使用でも6年 dysfunction 11% ③小児20年 再介入42.0% ④<strong>RCTはn=43のパイロットのみ</strong> ⑤<strong>2025 GLは推奨行を与えていない</strong></td>
+</tr>
+<tr>
+<td>Ross の右心系再建（凍結保存肺homograft）</td>
+<td><strong>E4</strong>（consensus で gold standard）</td>
+<td>homograft供給</td>
+<td><strong>△ 保険収載済（K939-6, 2016年4月）・供給が律速</strong></td>
+<td><strong>あり</strong>：初年度3.5%の失敗率、45歳未満でHR 3.1</td>
+</tr>
+<tr>
+<td>Ross の autograft 補強</td>
+<td><strong>E3</strong></td>
+<td>手技選択</td>
+<td>—</td>
+<td><strong>あり</strong>：メタでは補強有利だが、Toronto では full support が10年AR 32.3%＝<strong>補強の種類で反転</strong></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て-4">🔮 私の見立て</h3>
+<p><strong>Ross は「エビデンスが強いのに実施されない技術」の教科書的事例</strong>であり、 その理由は技術でも規制でもなく <strong>homograft のサプライチェーン</strong>である。</p>
+<p>日本の制約は、<strong>償還ではなく供給</strong>である。ここは当初、私が制度を誤って把握していた点なので明示する。 ホモグラフト移植は <strong>2016年4月の診療報酬改定で保険収載済み</strong>（K939-6 凍結保存同種組織加算 81,610点）であり、 患者の自己負担は生じない。実施施設も東大・国循に限られない ——施設基準は「日本組織移植学会の認定する組織バンクを有していること。当該バンクを有していない場合は、 当該バンクを有する保険医療機関とあらかじめ…契約を有していること」であり、<strong>契約すれば届出できる</strong>。 算定対象手術には K555（弁置換術）に加え K570、K580〜K587（ファロー四徴症・大血管転位症・ラステリ手術等）が 明記されており、<strong>Ross の右心系再建に使う肺動脈弁ホモグラフトはまさに算定対象</strong>である。</p>
+<p>残る障壁は一つだけで、それが決定的である。<strong>国内のホモグラフト提供数が年間約10例しかない。</strong> 東大組織バンクの提供実績は1998年から2024年末までで264例＝年平均約10例であり、 国循も2026年6月に「提供数が年間約10例と不足しており、治療機会の制約となっている」と明言している。 EACTS consensus の言う「Ross Centres of Excellence」を日本に作るとき、 解くべきは償還交渉ではなく<strong>臓器移植コーディネーターとの連携と提供施設の拡大</strong>である。 手術手技の議論より2段手前の問題であることは変わらないが、手前にあるものの正体が違う。</p>
+<p>ただし2つ、実務的に取れる行動がある。</p>
+<ol type="1">
+<li><strong>Shetty 2026 の手製 Dacron valved conduit（n=75）が homograft と同等だった</strong>という報告は、 homograft 供給が制約になる国での回避路として重要である。インドの単施設報告であり E2 だが、 「homograft がないから Ross ができない」という前提を崩しうる唯一のデータとして追跡すべきである。</li>
+<li><strong>妊娠可能年齢の女性で AVR が必要な症例は、Ross を提示できる施設に紹介する経路を持つ。</strong> EACTS consensus が「第一選択」と書いた唯一の集団であり、 ここで機械弁を入れることの生涯コスト（Sarnaik の $507,240 と 4.8 QALY の差）は無視できない。</li>
+</ol>
+<p>なお <strong>2025年ガイドラインが Ross に推奨行を与えなかったこと自体は、私は妥当だと考える。</strong> 「圧倒的なエビデンス」の中核が PSM と単一RCTの post hoc であり、 かつ低volume施設で死亡が3倍になる技術に Class I を与えれば、 準備のない施設が始めて害が出る。<strong>アクセスの問題を推奨の格上げで解こうとするのは順序が逆</strong>である。</p>
+</blockquote>
+<hr />
+<h1 id="第6章-脱細胞化homograft最も臨床に近いliving-valveが20年目に見せたもの">第6章 脱細胞化homograft：最も臨床に近い「living valve」が、20年目に見せたもの</h1>
+<blockquote>
+<ul>
+<li>Editorial の「脱細胞化homograftが in situ 組織再生で最も先行している」は<strong>位置づけとしては正しい</strong>。20年追跡・多施設前向き試験・大規模レジストリが揃う唯一の living valve であり <strong>E3</strong>。</li>
+<li>しかし20年データが示したのは再生ではなく劣化である。肺位310例で <strong>圧較差≥50mmHg 回避は15年68.3%→20年0%、≥中等度PR回避は15年65.1%→20年0%</strong>。大動脈位レジストリでは <strong>再手術回避が5年92.4%→10年69.5%</strong>。</li>
+<li>最も重い証拠は著者自身の言葉である。<strong>「現行の DAH の成績は当初の期待に達しておらず、完全な統合はこれまで確実には達成されていない」</strong>。そして機械弁 vs Ross vs DAH のRCT申請は欧州委員会で不採択となった。</li>
+</ul>
+</blockquote>
+<h2 id="61-用語の整理--ホモグラフトは4種類ある">6.1 用語の整理 — 「ホモグラフト」は4種類ある</h2>
+<p>この章に入る前に、片づけておかなければならない混乱がある。 <strong>「脱細胞化ホモグラフト」という語が指すものは1つではない。</strong> 文献を並べると、<strong>4つの別物が同じ名前で語られている</strong>。区別しないまま読むと、 6.2以降の20年データと、それに反する報告が、同じ技術の話に見えてしまう。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>細胞</th>
+<th>保存法</th>
+<th>由来</th>
+<th>代表</th>
+<th>成績の要点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>① 標準凍結保存ホモグラフト</strong></td>
+<td><strong>ドナー細胞が残る</strong></td>
+<td>液体窒素 <strong>−196°C</strong></td>
+<td>ヒト</td>
+<td>CH / SCA。<strong>日本の組織バンク供給品はこれ</strong></td>
+<td>肺位10年 explant回避 <strong>82±6%</strong>／大動脈位210例で再手術 <strong>32.8%</strong></td>
+</tr>
+<tr>
+<td><strong>② 脱細胞化＋凍結保存の同種弁</strong></td>
+<td>除去</td>
+<td>凍結</td>
+<td>ヒト</td>
+<td>CryoValve SG（CryoLife SynerGraft、2000年臨床導入）</td>
+<td>中期は①より良好：dysfunction回避 <strong>74% vs 52%</strong>（P=.05）</td>
+</tr>
+<tr>
+<td><strong>③ 脱細胞化のブタ弁</strong></td>
+<td>除去</td>
+<td>凍結</td>
+<td><strong>ブタ</strong></td>
+<td>SynerGraft Model 500/700</td>
+<td><strong>小児で早期破綻し市場撤退</strong>。4例中3例死亡</td>
+</tr>
+<tr>
+<td><strong>④ 脱細胞化＋非凍結（新鮮）同種弁</strong></td>
+<td>除去</td>
+<td><strong>4°C・採取後180日以内</strong></td>
+<td>ヒト</td>
+<td>DPH / DAH（corlife oHG・Hannover）</td>
+<td><strong>本章6.2以降の主題</strong>。20年 explant回避85.2%だが機能は0%へ</td>
+</tr>
+</tbody>
+</table></div>
+<p>EACTS Editorial が「in situ 組織再生で最も先行している」と書いたのは④である。 しかし②と③も文献上は「decellularized homograft/valve」と呼ばれる。 <strong>③は死亡例を出して撤退した技術</strong>であり、②は④と同じ「脱細胞化」でありながら凍結保存を併用する。 「脱細胞化」という語だけで良否は判断できない。</p>
+<h3 id="611-処理工程--何をして何が残るのか">6.1.1 処理工程 — 何をして、何が残るのか</h3>
+<p><strong>① 凍結保存</strong>（日本の国循・東大バンクの手順、福嶌ら 2017）: 採取 → 抗生剤添加液 → 凍害保護剤 → <strong>プログラムフリーザーで制御速度冷却</strong> → <strong>液体窒素 −196°C</strong>。 ——この工程に<strong>細胞を除去するステップは存在しない</strong>。</p>
+<p><strong>④ 脱細胞化（Hannover / corlife oHG）</strong>（ARISE および Sarikouch 2026 の Methods）: <strong>新鮮な（＝凍結していない）<strong>ホモグラフトを</strong>界面活性剤</strong>で処理する。 処理は <strong>約30工程</strong>からなり、全ての脱細胞化・洗浄工程を<strong>室温・連続振盪</strong>下で行う。 無菌性確認のため最終洗浄液と組織片を<strong>14日間培養</strong>し、処理後に<strong>組織学的評価</strong>と <strong>残存 dsDNA 量の定量</strong>（処理前後で測定）を行って出荷判定する。 <strong>処理後は4°Cで保存し、組織採取から180日後までが植込み可能期限</strong>である。</p>
+<p>歴史的な変遷も押さえておく価値がある。<strong>2002年の最初の臨床応用は Trypsin/EDTA 法＋自家内皮前駆細胞の バイオリアクター内 pre-seeding</strong> だった。しかし複数のグループが<strong>自然再細胞化</strong>を観察したため、 <strong>2005年以降は pre-seeding をやめ、界面活性剤ベースの non-seeded 法</strong>になっている。 つまり「幹細胞を播く」構想は、Hannover 自身が20年前に降りている。</p>
+<h3 id="612-最大の違い--凍結保存はドナー細胞を殺しきれていない">6.1.2 最大の違い — 凍結保存はドナー細胞を殺しきれていない</h3>
+<p>ここが4分類の根っこである。<strong>Hawkins ら（JTCVS 2000）</strong> が小児24例で前向きに測った （<a href="https://doi.org/10.1016/S0022-5223(00)70188-7">10.1016/S0022-5223(00)70188-7</a>）。 16例が右室–肺動脈間の valved conduit（肺11・大動脈5）、6例が凍結保存肺動脈によるパッチ血管形成、2例が monocusp patch。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>panel reactive antibody（PRA）</th>
+<th>術前</th>
+<th>約1か月</th>
+<th>約3か月</th>
+<th>約1年</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>凍結保存allograft 24例（class I）</strong></td>
+<td>1.9±5%</td>
+<td><strong>62±33%</strong></td>
+<td><strong>92±15%</strong></td>
+<td><strong>85±18%</strong></td>
+</tr>
+<tr>
+<td>対照11例</td>
+<td>1.6±1%</td>
+<td>3.2±1%</td>
+<td>1.7±1%（2.7か月）</td>
+<td>—</td>
+</tr>
+<tr>
+<td>同 class II（HLA-DR/DQ）</td>
+<td>—</td>
+<td>49±35%</td>
+<td><strong>70±26%</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p>著者の結論はこうである。<strong>「凍結保存同種組織は、小児において術後3か月以内に class I・class II 両方の 抗HLA抗体を伴う顕著な反応を誘導する。この同種抗体反応は『拒絶』の一形態を表しうるもので、 後に心移植を要する患者に影響を及ぼす可能性があり、早期のallograft失敗に関与している可能性がある」</strong>。</p>
+<p>そして機序が同論文の考察に書かれている。<strong>凍結保存はある程度の細胞死をもたらすが、 生存した内皮細胞・線維芽細胞・樹状細胞が、術後9年に至るまで凍結保存allograftに存在することが示されている</strong>。 <strong>樹状細胞はプロの抗原提示細胞である。</strong> つまり凍結保存ホモグラフトは、制度上「非生体組織」と呼ばれながら、 <strong>免疫学的には生きたドナー細胞を運ぶ</strong>。「凍結してあるから免疫は問題にならない」は成り立たない。</p>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p>ここには<strong>移植医療との衝突</strong>がある。凍結保存ホモグラフトを1つ入れると PRA が3か月で90%台に上がる。 将来の心移植が視野に入る小児で、<strong>弁を1つ入れることが後の移植の障害になりうる</strong>。 Ross・RVOT再建の対象は、まさにその年齢層である。日本ではホモグラフト供給と心移植が 同じ施設（国循・東大）に集まっているだけに、この論点は制度の話としても実際的である。</p>
+</div>
+
+<h3 id="613-脱細胞化が消したもの消せなかったもの">6.1.3 脱細胞化が消したもの・消せなかったもの</h3>
+<p><strong>消したもの</strong>：ドナー細胞。細胞性免疫の活性化は起きない（Sarikouch 2016 が小児で確認）。</p>
+<p><strong>消せなかったもの</strong>：<strong>細胞外マトリックスに残る免疫原性</strong>。これは脱細胞化を推進した当人たちが示した。</p>
+<ul>
+<li><strong>Ebken ら 2021</strong>（<a href="https://doi.org/10.1093/ejcts/ezaa393">10.1093/ejcts/ezaa393</a>）: 脱細胞化弁15検体（大動脈7・肺8）を可溶化し、健常者20名の血清と dot blot で反応させた。 <strong>18–25歳の血清は48–73歳より有意に強く既存抗体が結合</strong>（arbitrary unit の平均差 <strong>15.1±6.5、P=0.0315</strong>）。 さらに<strong>個人差が大きく、健常者の中に2種類の弁に対して10倍以上強く結合する者がいた</strong>。 大動脈 &gt; 肺動脈（17.2±4.5 vs 14.5±4.7、P=0.27）。 著者の仮説はタイトルそのままで、<strong>「残存免疫応答はきわめて個人差が大きい」</strong>。</li>
+<li><strong>Oripov ら 2022</strong>（<a href="https://doi.org/10.3389/fcvm.2022.895943">10.3389/fcvm.2022.895943</a>）: 植込み20例（年齢中央値18歳、IQR 12–30／DAH 14・DPH 6）で術後0・1・7・28日に測定。 抗体結合は<strong>術翌日と7日目に低下し、28日で術前値近くに復した</strong> （16.8±2.5 → 3.7±1.9 → 2.3±2.7 → <strong>13.2±3.7</strong>）。DAH &gt; DPH（18.4±3.1 vs 12.9±4.5、P=0.140）。</li>
+</ul>
+<p><strong>Sarikouch らが20年データの機能低下を「残存免疫原性」に帰した仮説の実験的裏付けは、ここにある。</strong> そして重要なのは方向である。<strong>若年ほど反応が強い</strong>——つまり <strong>脱細胞化を最も必要とする集団で、脱細胞化が最も効きにくい。</strong> 大動脈位のほうが反応が強いことも、大動脈位（ARISE の10年69.5%）が肺位より早く崩れることと整合する。</p>
+<h3 id="614-脱細胞化すればよくなるではない--③と②が示したこと">6.1.4 「脱細胞化すればよくなる」ではない — ③と②が示したこと</h3>
+<p><strong>③ 脱細胞化ブタ弁の帰結（Simon ら 2003、ウィーン、小児4例）</strong> （<a href="https://doi.org/10.1016/s1010-7940(03)00094-0">10.1016/s1010-7940(03)00094-0</a>）: 植込み時の外観は問題なく、術直後の弁機能も良好だった。しかし——</p>
+<ul>
+<li><strong>3例死亡</strong>。2例は術後6週と1年に重度に劣化した弁で突然死、1例は<strong>術後7日目に弁の破裂</strong>。</li>
+<li>4例目は<strong>術後2日で予防的に摘出</strong>。</li>
+<li>摘出標本は全例、<strong>外側から始まる重度の炎症</strong>。組織学的には早期は<strong>好中球とマクロファージ優位の異物型反応</strong>、 1年後の標本ではリンパ球反応。<strong>全時期に有意な石灰沈着</strong>。</li>
+</ul>
+<p><strong>② 脱細胞化＋凍結保存の同種弁（Ruzmetov ら 2012、単一施設）</strong> （<a href="https://doi.org/10.1016/j.jtcvs.2011.12.032">10.1016/j.jtcvs.2011.12.032</a>）: 2000–2005年に RVOT 再建を受けた100例。<strong>SG（脱細胞化）39例 vs SCA（標準凍結保存）61例</strong>、 年齢・性別・体重・適応・体外循環時間・conduit径がそろい、追跡も同等（5.7±2.5 vs 5.8±2.8年）。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>5–6年時点</th>
+<th>SG（脱細胞化＋凍結）</th>
+<th>SCA（標準凍結保存）</th>
+<th>P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dysfunction 回避</td>
+<td><strong>74%</strong></td>
+<td>52%</td>
+<td>.05</td>
+</tr>
+<tr>
+<td>failure 回避</td>
+<td><strong>87%</strong></td>
+<td>68%</td>
+<td>.05</td>
+</tr>
+<tr>
+<td>explantation 回避</td>
+<td><strong>92%</strong></td>
+<td>78%</td>
+<td>.02</td>
+</tr>
+<tr>
+<td>中等度超のPR 回避</td>
+<td><strong>90%</strong></td>
+<td>68%</td>
+<td>.02</td>
+</tr>
+<tr>
+<td>死亡（早期＋late）</td>
+<td>13%</td>
+<td>10%</td>
+<td>.75（graft関連死なし）</td>
+</tr>
+</tbody>
+</table></div>
+<p>後ろ向き・非ランダム化で、2名の術者が使用弁を選んでいる点は著者自身が限界に挙げている。 それでも読み取れることは明確である。<strong>脱細胞化それ自体には効果がある。</strong> そして<strong>同じ「脱細胞化」でも、ブタ由来（③）は小児で致死的、ヒト由来（②）は標準凍結保存より良い。</strong> 決めているのは脱細胞化の有無ではなく、<strong>由来（ヒトかブタか）</strong>である。</p>
+<p>ここから④の評価に効く論点が1つ出る。<strong>④が主張する「非凍結であること」の追加寄与は、 ②との直接比較が存在しないため分離できていない。</strong> ④ vs ①の比較はある（6.5）が、<strong>④ vs ② はない</strong>。<strong>これも本章の格付けを E3 に留める理由である。</strong></p>
+<h3 id="615-成長するという主張の中身">6.1.5 「成長する」という主張の中身</h3>
+<p><strong>Cebotari ら 2011</strong>（<a href="https://doi.org/10.1161/CIRCULATIONAHA.110.012161">10.1161/CIRCULATIONAHA.110.012161</a>）が ④の根拠となった中期比較である。DPH 38例を、<strong>年齢と病態でマッチさせた</strong> BJV（グルタルアルデヒド固定ウシ頸静脈）38例、 CH（凍結保存ホモグラフト）38例と比較した（追跡5年まで、心エコー＋MRI）。</p>
+<ul>
+<li>BJV・CH群と違い、<strong>DPH群では圧較差の上昇・弁尖肥厚・瘤状拡大がいずれも見られなかった</strong>。</li>
+<li><strong>DPHの弁輪径は経時的に正常のzスコアへ収束した</strong>——これが「adaptive growth」と呼ばれているものの実体である。</li>
+<li><strong>5年 explant回避：DPH 100%／BJV 86±8%／CH 88±7%</strong>。</li>
+<li>MRI（DPH 17例 vs BJV 20例、年齢12.7±6.1 vs 13.0±3.0歳）で<strong>平均圧較差 11 vs 23.2 mmHg（P=0.001）</strong>。</li>
+</ul>
+<p>前臨床では、植込み後に<strong>自家細胞による再細胞化と広範なリモデリング</strong>が起き、ヒツジで劣化しなかったことが示されていた。 つまり④の理屈は「細胞を抜いた足場が、宿主の細胞で埋め直され、体とともに成長する」である。 <strong>5年時点ではこの通りに見えた。</strong>6.2で見るのは、その同じ路線が20年でどうなったかである。</p>
+<h3 id="616-①の実力を過小評価しない--比較の土台">6.1.6 ①の実力を過小評価しない — 比較の土台</h3>
+<p>④を評価するには①の実力を正確に置く必要がある。①は「古い技術」ではなく、<strong>現に日本で保険診療として動いている選択肢</strong>である。</p>
+<ul>
+<li><strong>肺位（Dekens ら 2019、Gent＋European Homograft Bank、追跡中央値8.5年）</strong> （<a href="https://doi.org/10.1093/icvts/ivy316">10.1093/icvts/ivy316</a>）: <strong>10年の PHG 置換回避 82±6%</strong>。47例（21%）が平均9.5±5.3年で摘出。 単変量のリスク因子は<strong>主に患者側</strong>——若年（P=0.003）、extra-anatomic 植込み（P=0.006）、 bicuspidalization（P=0.002）、そして<strong>ドナー年齢が若いこと</strong>（P=0.032）。 ただし<strong>多変量で独立因子として残ったのは PHG のサイズのみ</strong>（HR 0.80、95%CI 0.73–0.88、P&lt;0.001）。 → <strong>「良いドナーを選べば長持ちする」という期待は、多変量では支持されなかった。</strong></li>
+<li><strong>大動脈位（Nappi ら 2018、210例、1993–2010、追跡2016年4月まで）</strong> （<a href="https://doi.org/10.1016/j.jtcvs.2018.04.040">10.1016/j.jtcvs.2018.04.040</a>）: free-hand subcoronary 55例／root replacement 155例。<strong>再手術32.8%（69例）、うちSVDによる再手術27.1%（57例）</strong>。 破裂の位置は allograft の基部または交連近傍が主で、術式による差はなかった（P=0.264）。 <strong>石灰化は若年患者で観察された。</strong>再手術関連死亡は初回・複数回とも15%。</li>
+</ul>
+<p><strong>この2つが④の比較対象である。</strong>「④は①より良い」と言うとき、①の側は <strong>肺位10年で8割強、大動脈位で3割が再手術</strong>という水準にある。 6.2以降の数字は、この土台の上で読む必要がある。</p>
+<blockquote>
+<h3 id="crystal_ball-私の見立て">🔮 私の見立て</h3>
+<p><strong>4分類を作って並べた結果、私の見方は1つ変わった。</strong> 「脱細胞化＝living valve への道」という物語は、実は<strong>2つの独立した主張を束ねている</strong>。</p>
+<ol type="1">
+<li><strong>細胞を抜くと免疫応答が減る</strong> — これは支持される。②が①に勝ち（Ruzmetov）、 細胞性免疫の活性化が消え（Sarikouch 2016）、機序も一貫している（Hawkins の樹状細胞9年残存の裏返し）。</li>
+<li><strong>抜いた足場が宿主細胞で埋まり、成長し、永続する</strong> — これは<strong>5年では支持され、20年では否定された</strong>（6.2）。</li>
+</ol>
+<p>束ねられているせいで、2が崩れたときに1まで疑われるか、逆に1の成功が2の証拠として語られる。 <strong>分けて評価すべきである。</strong>私の格付けは、1が <strong>E3〜E4 相当</strong>、2が <strong>E1（概念の実証にとどまる）</strong> である。</p>
+<p>そして日本の実務では、この分解が具体的な結論を出す。 <strong>①は保険収載済みで −196°C で在庫できる。④は4°Cで採取後180日が期限で、処理は独国送りである。</strong> 国内の組織提供が年間約10例（6.6）という条件下で、 ドナー発生 → 採取 → 独国輸送 → 約30工程の処理 → 返送 → 植込みを<strong>180日以内に完結させる体制</strong>を 組む価値があるかと問えば、答えは現時点では「ない」である。 <strong>④の成績上の優位（5年 explant回避100% vs 88%）より、①が在庫できることの実務的価値が大きい。</strong> サイズ待ちができるかどうかは、小児では成績そのものだからだ（Dekens の多変量で残った唯一の因子が<strong>サイズ</strong>である）。</p>
+<p>逆に言えば、<strong>日本で④に賭けるべき条件も明確になる</strong>。国内で脱細胞化処理ができるようになり、 かつ提供数が年間数十例規模になったときである。</p>
+<p>最後に1つ、自分のチェックリストの穴を記録しておく。<strong>第9章の10項目には「供給・物流が成績と独立に 実行可能性を決めていないか」という問いが入っていない。</strong> ホモグラフトはまさにそこで決まる技術であり、 Xeltis の項目#10（企業のパイプライン）に近い性質を持つ。次にチェックリストを使うときの11項目目にする。</p>
+</blockquote>
+<h2 id="62-肺位20年sarikouch-2026シードref5">6.2 肺位20年（Sarikouch 2026、シードref[5]）</h2>
+<p>Hannover Medical School と Chișinău の2施設、2005-01–2025-08 の <strong>脱細胞化肺homograft（DPH）310例</strong> （男性188）。年齢中央値14.8歳（IQR 12.7–16.6、最小0.1・最大72.8歳）、DPH径中央値22mm（IQR 19–23）、 追跡中央値8.3年（IQR 4.5–12.1、最長20.5年） （<a href="https://doi.org/10.1093/ejcts/ezag087">10.1093/ejcts/ezag087</a>）。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アウトカム（20年 Kaplan-Meier）</th>
+<th>値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>死亡回避</td>
+<td><strong>96.9%（95%CI 93.1–98.6）</strong> — 7/310例死亡</td>
+</tr>
+<tr>
+<td>DPH explantation 回避</td>
+<td><strong>85.2%（75.1–91.4）</strong></td>
+</tr>
+<tr>
+<td>心内膜炎回避</td>
+<td><strong>91.0%（77.1–96.6）</strong></td>
+</tr>
+<tr>
+<td>狭窄回避（最大圧較差 ≥50mmHg を狭窄と定義）</td>
+<td>15年 <strong>68.3%（52.4–79.8）</strong> → <strong>20年 0</strong></td>
+</tr>
+<tr>
+<td>≥中等度 肺動脈弁逆流 回避</td>
+<td>15年 <strong>65.1%（48.1–77.7）</strong> → <strong>20年 0</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>著者は「15年を超える at risk 例数は限られている」と注記しつつ、 結論でこう述べた：「explantation 回避は公表されている凍結保存homograftの長期成績と比べて良好に見える。 <strong>しかし我々のデータは20年にわたる弁機能の低下も示している。残存する免疫原性が原因であると仮説を立てており、 脱細胞化法にはさらなる改良の余地がある</strong>」。</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/fv_dph20_freedom_PMC13017825.jpg" alt="脱細胞化肺homograft 310例の死亡・explant・心内膜炎・狭窄・逆流回避のKaplan-Meier曲線6枚" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 8. 脱細胞化肺homograft 20年：上段は良好、下段が落ちる</b> — 310例。上段（死亡・explantation・心内膜炎）の回避は20年で<b>96.9% / 85.2% / 91.0%</b>と良好。しかし下段の<b>狭窄回避・逆流回避・その複合</b>は下がり続け、15年で狭窄回避 <b>68.3%</b>・≥中等度逆流回避 <b>65.1%</b>、そして<b>20年で 0</b> に達する。各パネル下の at risk（310→210→101→31→4）が示す通り、20年時点の症例は少数である。<br><i>出典: Sarikouch S, Boethig D, Avsar M, et al. <i>Eur J Cardiothorac Surg</i> 2026;68(2):ezag087. <a href="https://doi.org/10.1093/ejcts/ezag087">doi:10.1093/ejcts/ezag087</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41652890/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/fv_dph20_function_PMC13017825.jpg" alt="explant回避曲線に年次ごとのconduit機能状態を色分けした棒を重ねた図" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 9. 「壊れていないが機能していない弁」が20年で全部になる</b> — 同じ310例。黒い曲線が explantation 回避（20年 85.2%）、棒は各年の<b>conduit の機能状態</b>——白=intact、緑=≥中等度逆流、黄=圧較差50 mmHg（狭窄）、赤=狭窄＋逆流、灰=intervention後。<b>16年以降で白（intact）が消え、18–20年は緑と赤だけになる</b>。「再手術率で耐久性を測ると壊れている弁が見えなくなる」（第9章）の実例がこの1枚である。<br><i>出典: Sarikouch S, Boethig D, Avsar M, et al. <i>Eur J Cardiothorac Surg</i> 2026;68(2):ezag087. <a href="https://doi.org/10.1093/ejcts/ezag087">doi:10.1093/ejcts/ezag087</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/41652890/">PubMed</a>. CC BY-NC 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
+<h2 id="63-大動脈位ariseシードref6とその論評">6.3 大動脈位（ARISE、シードref[6]）と、その論評</h2>
+<p><strong>ARISE Study</strong>：EU助成・<strong>前向き単一群・8施設</strong>、2015-10–2018-10 に144例（男性99）を登録。 年齢中央値30.4歳（IQR 15.9–55.1）、<strong>45%が心臓手術既往、19%が2回以上</strong>。 DAH径 平均22.6±2.4mm。手術時間中央値312分・CPB 154分・遮断121分。 早期死亡2例（day 3のLCA血栓、術後5時間の心室性不整脈）、晩期死亡3例（心内膜炎1、癌1、Wegener 1）＝総死亡3.47%。 追跡中央値5.9年で、ピーク圧較差中央値11.0mmHg（IQR 7.8–17.6）、逆流中央値0.5（0–0.5, grade 0–3）。 <strong>5年 死亡/再手術/心内膜炎/出血/血栓塞栓 回避 = 97.9%/93.5%/96.4%/99.2%/99.3%</strong> （<a href="https://doi.org/10.1093/ejcts/ezae121">10.1093/ejcts/ezae121</a>）。</p>
+<p>そして本文 Table 2 の <strong>ARISE Registry（全DAH 358例、小児40%を含む）</strong> の10年値がこうである。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Freedom from</th>
+<th>5年</th>
+<th><strong>10年</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>死亡</td>
+<td>98.3%</td>
+<td><strong>95.7%</strong></td>
+</tr>
+<tr>
+<td>心内膜炎</td>
+<td>97.8%</td>
+<td><strong>92.6%</strong></td>
+</tr>
+<tr>
+<td><strong>Explantation/再手術</strong></td>
+<td><strong>92.4%</strong></td>
+<td><strong>69.5%</strong></td>
+</tr>
+<tr>
+<td>大出血</td>
+<td>99.4%</td>
+<td>98.8%</td>
+</tr>
+<tr>
+<td>血栓/脳卒中</td>
+<td>99.7%</td>
+<td>94.4%</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Squiers と Brinkman の論評</strong>（EJCTS 2024;65(6):ezae197、Baylor Scott &amp; White）は、 この数字を正確に突いた（<a href="https://doi.org/10.1093/ejcts/ezae197">10.1093/ejcts/ezae197</a>）。</p>
+<ol type="1">
+<li><strong>比較のバイアス</strong>：ARISE の成績を機械弁・生体弁・Ross のメタ解析と比べているが、 「これらの比較は潜在的バイアスに満ちており、慎重に扱わなければならない」。</li>
+<li><strong>CryoLife 比較の交絡</strong>：著者らは10年生存95.7%を CryoLife 社の脱細胞化(76%)/凍結保存(57%)homograft より良いとするが、 <strong>ARISE Registry は小児が最大30%を占め、CryoLife の比較群は全員成人で約4人に1人が心内膜炎</strong>（予後不良のマーカー）だった。</li>
+<li><strong>決定的な指摘</strong>：「凍結保存を避けることで耐久性が改善することを我々も期待しているが、 <strong>ARISE Registry で再手術回避が5年92.4%から10年69.5%へ低下したことは、 CryoLife（凍結保存）homograft の耐久性に関する過去の報告ときわめて整合的である</strong>」。</li>
+<li>結語：「ARISE Registry のデータは、<strong>我々が同じ歌の別の節を聞いているのかもしれないことを示唆している</strong>」。</li>
+</ol>
+<p>なお Squiers らが引く「過去の報告」は Mayo Clinic の Helder ら <em>Late durability of decellularized allografts for aortic valve replacement: A word of caution</em> （JTCVS 2016;152:1197-9、<a href="https://doi.org/10.1016/j.jtcvs.2016.03.050">10.1016/j.jtcvs.2016.03.050</a>）である。 <strong>10年前に同じ警告が出ていた。</strong></p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/fv_arise_explant_PMC11009017.jpg" alt="ARISE 144例と全DAH 358例のexplant回避曲線と弁機能状態" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 10. ARISE：144例（上）と全DAH 358例（下）の explant 回避</b> — 上＝前向き試験の144例（追跡は7年で尽きる）。下＝<b>登録全体の358例</b>で、曲線は<b>9–10年で約70%まで落ちる</b>（本文の 5年92.4%→10年<b>69.5%</b>）。at risk は 358→131（5年）→58（7年）→27（10年）→5（11年）。Squiers/Brinkman が「凍結保存homograftの過去成績ときわめて整合的」と評したのはこの下段の曲線である。<br><i>出典: Horke A, Tudorache I, Laufer G, et al. <i>Eur J Cardiothorac Surg</i> 2024;65(4):ezae121. <a href="https://doi.org/10.1093/ejcts/ezae121">doi:10.1093/ejcts/ezae121</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38532304/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/fv_decell10_vs_ch_bjv_PMC4951634.jpg" alt="脱細胞化肺homograft・凍結保存homograft・bovine jugular veinのexplant回避と機能状態の比較" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 11. 10年時点では脱細胞化が明確に勝っていた（2016年の比較）</b> — 年齢・病型・手術歴でマッチした各93例。左列＝explantation 回避、右列＝explantation＋intervention 回避。10年で <b>DPH 100% / 凍結保存 84.2% / BJV 84.3%</b>（右列は 85.3% / 79.1% / 65.2%）。灰色の帯（dysfunctional）が DPH で小さいことも読み取れる。<b>この2016年の図と、20年後の図8–9を並べると、「10年では勝ち、20年では機能が尽きる」</b>という本章の結論がそのまま見える。<br><i>出典: Sarikouch S, Horke A, Tudorache I, et al. <i>Eur J Cardiothorac Surg</i> 2016;50(2):281-290. <a href="https://doi.org/10.1093/ejcts/ezw050">doi:10.1093/ejcts/ezw050</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/27013071/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
+<h2 id="64-著者自身が書いた限界これが最も重い">6.4 著者自身が書いた限界（これが最も重い）</h2>
+<p>ARISE 論文の Discussion には、推奨側の文献では珍しいほど率直な記述がある。</p>
+<ul>
+<li><strong>「現行の DAH の成績は当初の期待に達していない。完全な統合（full integration）はこれまで確実には達成されておらず、 それは患者にとって予見可能な再手術を意味する」</strong></li>
+<li>「DAH は、解剖や手術既往のために Ross の良い候補でない患者にとって有効な選択肢だと我々は考える」 ＝<strong>第一選択とは主張していない</strong></li>
+<li>「DAH が機械弁による intra-annular 手技より優れているかという問いは未解決のまま（remains open）」</li>
+<li><strong>「唯一の真に妥当な比較は、機械弁AVR・Ross・DAH を比較する前向き無作為化試験だろう。 我々は最近この種の試験を欧州委員会に申請したが、残念ながら採択されなかった」</strong></li>
+<li>機序仮説：<strong>matrikines</strong>（脱細胞化過程で生じる細胞外マトリックス由来ペプチド）が免疫標的の候補。 摘出DAHのサイトカイン/ケモカイン解析では<strong>線維性修復機構の不規則な活性化</strong>が示唆され、 古典的なT細胞介在性免疫応答ではなかった（組織学的にT細胞浸潤なし）。</li>
+</ul>
+<p><strong>残存免疫原性の直接証拠</strong>も出ている。Ebken らは15検体のDHV（大動脈7・肺8）を可溶化して 健常者20名の血清と反応させ、既存抗体の結合を半定量した。 <strong>18–25歳群（n=10）の血清は48–73歳群（n=10）より有意に強く結合</strong>（差 15.1±6.5 arbitrary units、P=0.0315）。 個人差が大きく、<strong>同一の健常者が2つの異なるDHVに対して10倍以上の抗体結合を示す</strong>例もあった。 結合は肺よりも大動脈DHVで高く、男性で高かった（<a href="https://doi.org/10.1093/ejcts/ezaa393">10.1093/ejcts/ezaa393</a>）。 → <strong>「若年者ほど強く反応する」というのは、living valve を最も必要とする集団で最も不利という意味</strong>である。</p>
+<h2 id="65-有利なデータも公平に置く">6.5 有利なデータも公平に置く</h2>
+<ul>
+<li><strong>凍結保存homograftとの中期比較（Sarikouch 2016、シードref[20]）</strong>: DPH 93例を年齢・病型・手術回数で 凍結保存homograft(CH) 93例・bovine jugular vein conduit(BJV) 93例にマッチ。 10年 explantation 回避は <strong>DPH 100% vs CH 84.2%（P=0.01）vs BJV 84.3%（P=0.01）</strong>。 explantation ＋圧較差≥50mmHg 回避は DPH 86% vs CH 64%（n.s.）vs BJV 49%（P&lt;0.001）。 DPH の弁輪径Zスコアは正常方向に収束した（<a href="https://doi.org/10.1093/ejcts/ezw050">10.1093/ejcts/ezw050</a>）。</li>
+<li><strong>小児大動脈位（Horke 2024）</strong>: 8施設143 DAH／137児（年齢中央値10.8歳、59%が心臓手術既往、17%がAVR既往）。 5年 死亡/explant/心内膜炎/出血/血栓塞栓 回避 = 97.8/<strong>88.7</strong>/99.1/100/99.2%、 <strong>10年 = 96.3/67.1/93.6/98.6/86.9%</strong>。21例をexplantしたが<strong>redo死亡0</strong>、13例に再度DAHを植込み （<a href="https://doi.org/10.1093/ejcts/ezae112">10.1093/ejcts/ezae112</a>）。</li>
+<li><strong>機械弁複合graftとの単施設比較（Andreeva 2024, Vienna）</strong>: 基部置換 289例（機械弁複合graft 216 vs DAH 73、 平均48.5±12歳、2000–2022）。3年生存 DAH 99% vs MCVG 94%（P=0.15）。 <strong>出血14例(6.5%)・血栓塞栓14例(6.5%)はすべてMCVG群</strong>、 <strong>中等度SVD 4例(5%)はすべてDAH群（P≤0.001）</strong>。弁関連有害事象の複合はMCVG群で有意に高い（P=0.0295） （<a href="https://doi.org/10.1093/ejcts/ezae314">10.1093/ejcts/ezae314</a>）。</li>
+<li><strong>Ross の右心系での比較（Matsubara 2026, Munich）</strong>: 8歳以上のRoss 59例（脱細胞化26 vs 凍結保存33）。 5年以内に<strong>脱細胞化群では心内膜炎・explant・カテーテル治療がいずれも0</strong>、 凍結保存群では心内膜炎2・explant 2・Melody 1。graft dysfunction 回避は5年 90.9% vs 79.0%（<strong>P=0.155</strong>） （<a href="https://doi.org/10.1007/s00246-026-04312-1">10.1007/s00246-026-04312-1</a>）。</li>
+</ul>
+<h2 id="66-日本での可用性--ここが最大の障壁">6.6 日本での可用性 — ここが最大の障壁</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>状況</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ホモグラフト（凍結保存）そのもの</td>
+<td><strong>2016年4月に保険収載</strong>（<a href="https://shirobon.net/medicalfee/latest/ika/r08_ika/r08i_ch2/r08i2_pa10/r08i2a_sec3/r08i2a3_K939_6.html">K939-6 凍結保存同種組織加算 <strong>81,610点</strong></a>＝令和8年現行）。通知(3)で「組織適合性試験及び同種組織を採取及び保存するために要する全ての費用は、所定点数に含まれ<strong>別に算定できない</strong>」ため、<strong>患者の自己負担は生じない</strong>。これに伴い先進医療「凍結保存同種組織を用いた外科治療」は終了した</td>
+</tr>
+<tr>
+<td>組織バンク</td>
+<td>東京大学組織バンク（東日本）と国立循環器病研究センター組織保存バンク（西日本）。1990年代初期に凍結保存技術が導入され、1990年代に奈良医科大学・国循へバンクが設立された経緯。<strong>施設基準(8)により、自前のバンクを持たない施設も認定バンク保有医療機関と契約すれば届出できる</strong></td>
+</tr>
+<tr>
+<td><strong>真の律速＝供給</strong></td>
+<td><strong>国内の組織提供数は年間約10例</strong>（国循 2026-06-23）。東大バンクの提供実績は1998年〜2024年末で264例。移植施設は組織1件あたり約80万円をバンクに支払う（福嶌ら 2017）ため、加算81,610点はほぼその実費に対応する</td>
+</tr>
+<tr>
+<td>直近の動き</td>
+<td>NCVCの「<strong>心臓移植レシピエント由来</strong>凍結保存同種組織を用いた外科治療」が2026-06-23に先進医療として承認（日本初・唯一）。移植時に摘出するレシピエント心から弁を採取する<strong>ドナー源拡大</strong>の取り組みで、保険収載と他施設展開が今後の課題</td>
+</tr>
+<tr>
+<td><strong>脱細胞化homograft</strong></td>
+<td><strong>国内未承認</strong>。corlife oHG（Hannover Medical School のスピンオフ）が処理を担う欧州の枠組みに依存</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>※ この節の制度情報は<strong>一次資料で確認済み</strong>である（令和8年医科診療報酬点数表 K939-6 の告示・通知本文、 東京大学組織バンクの2016-04-08告知、および福嶌ら <a href="https://doi.org/10.11378/organbio.24.29">Organ Biology 2017;24(1):29-36</a>）。 未確認の点を1つだけ残す：制度創設時（2016年4月）の点数を福嶌らは<strong>9,960点</strong>と記しており、 私が点数表で確認できた最古の平成30年では既に81,610点であった。<strong>引き上げの時期が特定できていない</strong>。 なお当初この節は「保険未収載・先進医療・自費約60万円」と記載していたが、これは <a href="https://www.jhf.or.jp/check/opinion/5-7/post_31.html">日本心臓財団のQ&amp;A（質問日2012年2月2日）</a>に基づく誤りで、 2014年3月以前の制度を現状として記述していた。訂正済み。</p>
+</blockquote>
+<h2 id="エビデンス格付け第6章">エビデンス格付け（第6章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>脱細胞化肺homograft（RVOT）</td>
+<td><strong>E3</strong></td>
+<td>corlife依存・homograft供給</td>
+<td>× 国内未承認（凍結保存homograft自体は保険収載済）</td>
+<td><strong>あり</strong>：15年→20年で狭窄回避68.3%→0%、≥中等度PR回避65.1%→0%。著者自身が残存免疫原性を仮説</td>
+</tr>
+<tr>
+<td>脱細胞化大動脈homograft（AVR）</td>
+<td><strong>E3</strong></td>
+<td>同上・小児で劣化が速い</td>
+<td>× 国内未承認</td>
+<td><strong>あり（強い）</strong>：①registry 再手術回避 5年92.4%→<strong>10年69.5%</strong> ②Squiers/Brinkman「同じ歌の別の節」 ③Helder 2016（Mayo）が10年前に同じ警告 ④<strong>著者自身「当初の期待に達していない」</strong> ⑤Ebken：若年者で既存抗体が有意に高い</td>
+</tr>
+<tr>
+<td>脱細胞化homograft（Ross の右心系）</td>
+<td><strong>E2</strong></td>
+<td>同上</td>
+<td>×</td>
+<td><strong>あり</strong>：Matsubara の5年 graft dysfunction 差は <strong>P=0.155＝有意差なし</strong>（n=59）。Canadian Ross Registry では脱細胞化使用でも6年 dysfunction 11%</td>
+</tr>
+<tr>
+<td>凍結保存homograft</td>
+<td><strong>E5</strong>（歴史的標準）</td>
+<td><strong>供給（国内年間約10例）</strong>・耐久性</td>
+<td><strong>○ 保険収載済（K939-6, 81,610点）</strong></td>
+<td><strong>あり</strong>：10年 explantation 回避84.2%（脱細胞化との比較）</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て-1">🔮 私の見立て</h3>
+<p><strong>「living valve」という言葉が、この10年で最も期待を歪めた語だと思う。</strong> 脱細胞化homograftは、<strong>免疫反応を減らして再手術を遅らせる</strong>ことには成功した。 しかし <strong>生きて成長し永続する弁</strong>にはなっていない。20年で機能回避が0%になり、 10年で再手術回避が69.5%まで落ちる。これは「凍結保存homograftより少しよい homograft」である。</p>
+<p>私が最も評価するのは、Sarikouch/Horke らが<strong>自分たちのデータでそう書いた</strong>ことである。 「当初の期待に達していない」「完全な統合は確実には達成されていない」と書き、 なおかつ「唯一妥当な比較は機械弁 vs Ross vs DAH のRCTだ」と申請して落ちたことまで報告している。 <strong>推奨する側がこれを書いている以上、Editorial の「最も先行している」という表現は、 「最も先行しているが、目的地には着いていない」と読むのが正しい。</strong></p>
+<p>日本での実務的な結論は単純である。<strong>脱細胞化homograft は当院の5年計画に入らない。</strong> ただし理由は当初私が書いた「保険未収載」ではない。<strong>凍結保存ホモグラフト自体は2016年4月に保険収載済み</strong>であり、 止まっているのは別の2点だ——<strong>脱細胞化グラフトが国内未承認</strong>であること、そして <strong>原料となるホモグラフトの国内提供数が年間約10例</strong>しかないことである。 脱細胞化は corlife oHG での処理を前提とするため、国内で回すには供給と薬事の両方を解く必要がある。 EACTS が6提言の1つに「脱細胞化homograftの拡大」を挙げても、日本ではその手前で止まる。</p>
+<p>ただし1つだけ、日本から出せる貢献がある。<strong>Ebken らが示した「若年者ほど既存抗体が高い」という所見と、 Sarikouch らの matrikine 仮説は、免疫学的マッチングの可能性を示している。</strong> 「術前に homograft を選ぶ（matching する）」という発想は、 供給が乏しい国でこそ価値が高い（少ない弁を最も反応しない患者に当てる）。 これは基礎研究側との共同テーマになりうる。</p>
+</blockquote>
+<hr />
+<h1 id="第7章-組織工学弁とポリマー弁本当はどこまで来ているのか">第7章 組織工学弁とポリマー弁：本当はどこまで来ているのか</h1>
+<blockquote>
+<ul>
+<li>2つの戦略がある。<strong>ex vivo（細胞を播種してバイオリアクターで育てる）</strong>と <strong>in situ（scaffold を入れて体内で組織化させる）</strong>。臨床に届いているのは後者だけで、<strong>弁としては E1、パッチとしては E2（日本で薬事承認済）</strong> である。</li>
+<li>ポリマー弁（Foldax Tria）の1年成績は Editorial が「良好」と評したが、<strong>ワルファリンが必要（目標INR 2.0–2.5）で、1年死亡9.1%、血栓・脳卒中は全例INR低値時</strong>。機械弁の欠点を残したまま耐久性の証拠は1年しかない。</li>
+<li>最も雄弁なのは企業の行動である。<strong>Xeltis は弁の pivotal study を2017年に開始して2026年時点で結果未公表、別の弁試験は WITHDRAWN、一方で透析シャント・CABG・PAD の試験を次々に走らせている</strong>。</li>
+</ul>
+</blockquote>
+<h2 id="71-in-situ-型の唯一の成功例は弁ではなくパッチでそれは日本製である">7.1 in situ 型の唯一の成功例は「弁ではなくパッチ」で、それは日本製である</h2>
+<p>Editorial ref[22] の Kasahara らの報告（<a href="https://doi.org/10.1016/j.atssr.2024.04.020">10.1016/j.atssr.2024.04.020</a>）は、 生体内吸収性糸と非吸収性糸からなる編物に架橋ゼラチン膜を一体化した<strong>ハイブリッド経編生地</strong>の多施設単一群3年試験である。</p>
+<ul>
+<li><strong>34例に41部位</strong>へ植込み（肺動脈18・RVOT 12・心房中隔7・心室中隔4）</li>
+<li>年齢中央値 <strong>1歳11か月</strong>（範囲4か月–58歳）</li>
+<li>主要エンドポイント（1年時点の生地不全に起因する死亡・再介入のない手術成功率）＝<strong>100%</strong></li>
+<li>追跡中央値40か月（36–55か月）で、心エコー上の異常なし・重篤有害事象なし。 <strong>手技に起因する狭窄病変が3件</strong></li>
+<li>「これらの結果により、<strong>日本での本生地の使用が薬事承認された</strong>」</li>
+</ul>
+<p>制度側を確認すると、この材料は <strong>心・血管修復パッチ「シンフォリウム」（開発コード OFT-G1）</strong> で、 <strong>大阪医科薬科大学（根本慎太郎）・福井経編興業・帝人</strong>の共同開発、 <strong>2023年7月11日に製造販売承認、2024年6月12日に販売開始</strong>である。 生体内吸収性糸（PLLA）と非吸収性糸（PET）の編物に架橋ゼラチン膜を一体化し、 ゼラチン膜が自己組織に置換されながら分解 → 吸収性糸が分解して非吸収性糸がほどけ伸展性を持つ構造に変化 → 自己組織が編物を包む、という設計である。</p>
+<p><strong>これは重要な事実である。</strong> 「in situ 組織再生を狙った心血管材料が薬事承認まで到達した」例は 世界でこれが唯一に近い。しかも<strong>シードEditorialの唯一の非欧州著者である根本慎太郎の開発品</strong>である。 記述の重みづけとしてこの利益相反は読者に開示されるべきだが、 <strong>成果そのものは日本発の到達点として正当に評価すべき</strong>である。</p>
+<p>ただし限界も明確である。<strong>これは弁ではなくパッチである。</strong> n=34、単群、追跡40か月。E2 に留まる。</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/fv_shf_structure_PMC11708634.jpg" alt="合成ハイブリッド生地の構造図と、イヌ大動脈における1・6・36か月の組織像" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 12. シンフォリウム：構造と、36か月までの組織置換</b> — (A) 生分解性の<b>PLLA</b>糸と非分解性の<b>PET</b>糸の経編に<b>架橋ゼラチン</b>膜を一体化した構造。(B) イヌ大動脈での前臨床：1か月ではゼラチンとPLLA/PETが見え、6か月で bridging tissue、<b>36か月では内膜に内皮細胞層ができ、PET束の残存のみになる</b>。(C) 引張試験で patch 植込み部が native と同等域の伸展性を示す。in situ 組織再生を狙った心血管材料で<b>薬事承認まで到達した唯一に近い例</b>（2023-07承認/2024-06発売）。<br><i>出典: Kasahara S, Yoshimura Y, Ichikawa H, et al. <i>Ann Thorac Surg Short Rep</i> 2024;2(4):804-809. <a href="https://doi.org/10.1016/j.atssr.2024.04.020">doi:10.1016/j.atssr.2024.04.020</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/39790580/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/fv_shf_sites_PMC11708634.jpg" alt="34例41部位のシンフォリウム植込み部位の解剖図と術野写真" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 13. 34例41部位の内訳（弁ではなくパッチである）</b> — (A) 植込み部位：<b>主肺動脈14・分枝肺動脈4（＝肺動脈計18）・RVOT 12・心房中隔7・心室中隔4＝41部位</b>。(B) 実際の術野。年齢中央値1歳11か月、追跡中央値40か月で手術成功率100%・重篤有害事象なし。<b>この図が示す通り対象はパッチ適用部位であり、弁尖ではない</b>——本文で E2 に留めた理由がここにある。<br><i>出典: Kasahara S, Yoshimura Y, Ichikawa H, et al. <i>Ann Thorac Surg Short Rep</i> 2024;2(4):804-809. <a href="https://doi.org/10.1016/j.atssr.2024.04.020">doi:10.1016/j.atssr.2024.04.020</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/39790580/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
+<h2 id="72-in-situ-型の弁xeltis-の10年">7.2 in situ 型の「弁」：Xeltis の10年</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>報告</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Morales 2020（シードref[21]、<a href="https://doi.org/10.3389/fcvm.2020.583360">10.3389/fcvm.2020.583360</a>）</td>
+<td><strong>XPV-1 12例</strong>（年齢中央値5歳・体重17kg、16mm 5例/18mm 7例、全例手術既往）＋<strong>設計変更後の XPV-2 6例</strong>（18mm）。12か月で18本中17本が進行性狭窄・拡大・仮性動脈瘤なし。&gt;40mmHg の残存圧較差 3例（conduit kinking 1・末梢肺動脈狭窄2）。<strong>XPV-1 の5例が弁尖prolapseによる重度PR</strong>。XPV-2 では &gt;mild PR が1例のみ（prolapse 由来ではない）、1例が近位吻合部の急速狭窄で conduit 交換</td>
+</tr>
+<tr>
+<td>Prodan 2022（<a href="https://doi.org/10.1053/j.semtcvs.2021.03.036">10.1053/j.semtcvs.2021.03.036</a>）</td>
+<td>同じ12例の24か月：外科的再介入0、NYHA I が9/12。「XPV conduit は有望な革新だが、<strong>進行性のPIには弁尖の設計（形状・厚み）の改良が必要</strong>」</td>
+</tr>
+</tbody>
+</table></div>
+<p>そして ClinicalTrials.gov で企業のパイプラインを追うと、次の構図になる。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>NCT</th>
+<th>対象</th>
+<th>n</th>
+<th>開始</th>
+<th>状態</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NCT02700100</td>
+<td>肺動脈弁付きconduit PV-001</td>
+<td>12</td>
+<td>2016-06</td>
+<td>UNKNOWN</td>
+</tr>
+<tr>
+<td><strong>NCT03022708</strong></td>
+<td><strong>肺動脈弁付きconduit pivotal</strong></td>
+<td><strong>56</strong></td>
+<td><strong>2017-05</strong></td>
+<td><strong>ACTIVE_NOT_RECRUITING</strong>（primary completion 2022-12、結果未公表）</td>
+</tr>
+<tr>
+<td><strong>NCT03405636</strong></td>
+<td>肺動脈弁付きconduit safety/performance</td>
+<td>0</td>
+<td>2020-09</td>
+<td><strong>WITHDRAWN</strong></td>
+</tr>
+<tr>
+<td>NCT04898153 → NCT05473299 → NCT06494631</td>
+<td><strong>透析シャント（aXess）</strong> FIH→pivotal→US</td>
+<td>20→120→140</td>
+<td>2021–2024</td>
+<td>進行中</td>
+</tr>
+<tr>
+<td>NCT04545112</td>
+<td><strong>CABG（XABG）FIH</strong></td>
+<td>20</td>
+<td>2020-10</td>
+<td>ENROLLING_BY_INVITATION</td>
+</tr>
+<tr>
+<td>NCT06951685 / NCT07716020</td>
+<td><strong>PAD（XPAD）</strong></td>
+<td>6 / 15</td>
+<td>2025 / 2026</td>
+<td>RECRUITING / NOT_YET_RECRUITING</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>弁のpivotalは2017年に始まり2026年時点で結果が出ておらず、別の弁試験は取り下げられ、 血管グラフト（透析シャント・CABG・PAD）は次々に前進している。</strong> これは「in situ 型の技術そのものは動いているが、<strong>弁尖という最も力学的に厳しい部位では動いていない</strong>」 という読みを強く支持する。</p>
+<figure style="margin:18px 0;max-width:100%;">
+<img src="figures/fv_xeltis_pi_histogram_PMC7969645.jpg" alt="Xeltis XPVの肺動脈弁逆流グレードの頻度分布（7日・6か月・12か月）" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 14. Xeltis XPV：第1世代で重度PIが積み上がる</b> — group 1＝XPV-1（12例）、group 2＝設計変更後のXPV-2（6例）。7日目は両群とも None/Trace/Mild に収まるが、<b>12か月で group 1 は Moderate 6例・Severe 5例に移動し、group 2 は Moderate 1例のみ</b>。「弁尖 prolapse による逆流」が設計の問題であったことを、この3枚の推移が示している。<br><i>出典: Morales DL, Herrington C, Bacha EA, et al. <i>Front Cardiovasc Med</i> 2020;7:583360. <a href="https://doi.org/10.3389/fcvm.2020.583360">doi:10.3389/fcvm.2020.583360</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/33748192/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:18px 0;max-width:560px;">
+<img src="figures/fv_xeltis_explant_PMC7969645.jpg" alt="摘出されたXeltis XPV conduitの下流側・上流側の実物写真" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 15. 摘出された XPV conduit の実物</b> — 左＝肺動脈側から、右＝右室側から見た摘出 conduit。弁尖は保たれているが commissure に軽度の変化がある。スケール（cm定規）が入っており、<b>「生分解して自己組織に置き換わる」という設計意図と、実際に取り出された物体を突き合わせられる</b>数少ない画像である。<br><i>出典: Morales DL, Herrington C, Bacha EA, et al. <i>Front Cardiovasc Med</i> 2020;7:583360. <a href="https://doi.org/10.3389/fcvm.2020.583360">doi:10.3389/fcvm.2020.583360</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/33748192/">PubMed</a>. CC BY 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+
+<h2 id="73-ex-vivo-型石灰化という共通の壁">7.3 ex vivo 型：石灰化という共通の壁</h2>
+<p>Editorial Fig.4 は「細胞→scaffold播種/バイオリアクター→機能する生きた弁」という進化図を示すが、 <strong>ヒト臨床データは存在しない（E0）</strong>。 そして大動物研究を系統的に集計すると、共通の壁が見える。</p>
+<p>van der Valk らの systematic review &amp; meta-analysis（肺位TEHVの大動物研究、 基礎解析80研究／メタ解析41研究108群、<a href="https://doi.org/10.1016/j.jacbts.2022.09.009">10.1016/j.jacbts.2022.09.009</a>）：</p>
+<ul>
+<li><strong>石灰化イベント率 全体35%（95%CI 28–43）</strong></li>
+<li><strong>conduit部 34%（26–43） &gt; 弁尖部 21%（17–27）（P=0.023）</strong></li>
+<li>多くは軽度（弁尖42%・conduit 60%が軽度）</li>
+<li>時間推移：<strong>植込み1か月以内に急増 → 1–3か月で減少 → その後は経時的に進行</strong></li>
+<li><strong>scaffold材料・細胞前播種の有無・動物種・年齢で有意差なし</strong></li>
+<li>そして最大の問題：<strong>80研究のうち石灰化を報告していたのは55%のみ</strong>。 「研究間で石灰化の程度も解析の質も報告も大きくばらつき、適切な比較を妨げている」</li>
+</ul>
+<p>Nat Rev Cardiol の総説（Fioretta ら、<a href="https://doi.org/10.1038/s41569-020-0422-8">10.1038/s41569-020-0422-8</a>）は 「off-the-shelf 技術」に焦点を当てつつ、<strong>科学的・規制的・臨床的課題</strong>を並列に挙げている。 つまりこの分野の律速は材料科学ではなく、<strong>製造の再現性と規制の道筋</strong>である。</p>
+<h2 id="74-ポリマー弁tria-の1年をどう読むか">7.4 ポリマー弁：Tria の1年をどう読むか</h2>
+<p><strong>India Mitral Surgical Trial</strong>（<a href="https://doi.org/10.1016/j.jacc.2025.06.017">10.1016/j.jacc.2025.06.017</a>）。 インド8施設、2023年4–11月に67例。女性64%（うち妊娠可能年齢48%）、平均42歳（19–67）、 BMI 22.7、BSA 1.6 m²。NYHA III/IV 54%、STS 1.4%。病因は狭窄27%・逆流30%・混合43%で<strong>主にリウマチ性</strong>。 <strong>術後1日目からVKA、目標INR 2.5</strong>。アスピリン75–100mg併用。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アウトカム</th>
+<th>30日</th>
+<th>1年</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>全死亡</td>
+<td>1.5%</td>
+<td><strong>9.1%</strong></td>
+</tr>
+<tr>
+<td>弁/心血管関連死</td>
+<td>0</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>血栓塞栓</td>
+<td>1.5%</td>
+<td><strong>7.5%</strong></td>
+</tr>
+<tr>
+<td>脳卒中</td>
+<td>—</td>
+<td><strong>4.9%（虚血性3例）</strong></td>
+</tr>
+<tr>
+<td>弁血栓</td>
+<td>0</td>
+<td><strong>4.3%（2例）</strong></td>
+</tr>
+<tr>
+<td>構造的弁劣化(SVD)</td>
+<td>0</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>弁再介入</td>
+<td>0</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>新規ペースメーカ</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>平均圧較差</td>
+<td>4.2±1.5 mmHg</td>
+<td>4.6±1.7 mmHg（術前9.0±4.9）</td>
+</tr>
+<tr>
+<td>EOA</td>
+<td>1.7±0.6 cm²</td>
+<td>1.4±0.4 cm²（術前0.9±0.5）</td>
+</tr>
+<tr>
+<td>CTA</td>
+<td>—</td>
+<td><strong>石灰化なし・弁血栓なし</strong></td>
+</tr>
+<tr>
+<td>NYHA I</td>
+<td>—</td>
+<td>81.4%（術前は全例 ≥II）</td>
+</tr>
+<tr>
+<td>6分間歩行</td>
+<td>—</td>
+<td>298.1±127.5 → <strong>494.8±151.6 m</strong>（P&lt;0.001）</td>
+</tr>
+<tr>
+<td>KCCQ</td>
+<td>—</td>
+<td>57.5±19.4 → <strong>81.9±14.7</strong>（P&lt;0.001）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>批判的評価。</strong></p>
+<ol type="1">
+<li><strong>抗凝固は不要になっていない。</strong> 目標INR 2.0–2.5 のVKAが必須である。 つまりこの弁は「機械弁の抗凝固」を残したまま、「機械弁の耐久性の証拠」を持たない。 Editorial が living valve の潮流の中にこれを置いているのは分類として無理がある。</li>
+<li><strong>INR達成率が低く、それが有害事象を説明している。</strong> 目標INR達成は<strong>30日61.5%→180日79%→1年95%</strong>。 そして<strong>血栓事象2件と虚血性脳卒中3件はすべてINR低値時に発生</strong>した。 これは「弁が安全」なのではなく「INRを維持できれば安全そう」という所見である。</li>
+<li><strong>SVD 0% は1年では自明。</strong> 生体弁のSVDは通常5年以降に立ち上がる。 1年でのSVD 0%を耐久性の証拠として読むことはできない。</li>
+<li><strong>死亡率の文脈。</strong> 著者らは自群の9.1%を「西欧の6.2%より高いがインドのMVRの13%より低い」と位置づけている。 すなわち<strong>この成績はインドのリウマチ性MVR集団の中での相対評価</strong>であり、 日本や欧州の集団に外挿できる数字ではない。</li>
+</ol>
+<p>前臨床側は Kiser 2025（<a href="https://doi.org/10.1177/15569845251375566">10.1177/15569845251375566</a>）が公表しており、 LifePolymer（シロキサンポリウレタン系）が非溶血・非変異原性・補体活性化軽微で、 <strong>羊の大動脈位6か月摘出で弁尖石灰化なし</strong>、ヒト僧帽弁例で6か月に弁尖血栓なし・12か月の平均圧較差3mmHg。 米国では大動脈位EFS（NCT03851068, n=40）と僧帽弁位EFS（NCT04717570, n=15）が走っている。</p>
+<p><strong>なお、この領域には2024–2026年に中国勢が複数参入した</strong>（Suzhou Hearthill の PoliaValve： NCT07123766 n=50・NCT06737757 n=198・NCT06518681 n=10、Shanghai HeartEpoch：NCT07243184 n=10、 Mitrassist：NCT07097740 n=10）。<strong>5年後の勢力図は現在と違う可能性が高い。</strong></p>
+<h2 id="75-日本発の別ルートin-body-tissue-architecturebiosheet">7.5 日本発の別ルート：in-body tissue architecture（Biosheet）</h2>
+<p>Ozaki 手術の自己心膜の耐久性を補う発想として、 <strong>体内で自己コラーゲン膜を作らせる（in-body tissue architecture）</strong>という日本発の技術がある。 大分大学＋Biotube社のヤギ長期モデルでは、皮下に鋳型を埋めて2か月で Biosheet を形成し、 厚さ0.20–0.35mmのシートでAVNeoを実施した（<a href="https://doi.org/10.1093/icvts/ivab015">10.1093/icvts/ivab015</a>）。</p>
+<ul>
+<li>6か月：弁機能維持、弁輪への融合・弁尖への細胞浸潤・心室側の弾性線維出現＝<strong>再生反応</strong></li>
+<li>12か月：再生構造は退縮せず維持。<strong>石灰化は9弁尖中1弁尖でごくわずか</strong></li>
+<li><strong>しかし全例で1弁尖が裂け、中等度〜重度のARに至った</strong></li>
+<li>対照のグルタルアルデヒド処理自己心膜群（4頭）は12か月で3/4が中等度〜重度AR、 <strong>石灰化は12弁尖中9弁尖</strong></li>
+<li>結論：「Biosheet は自己心膜に対して再生能と抗石灰化特性を持つ可能性があるが、 <strong>信頼できる成績のためには厚み・密度・均質性の厳密な制御と最適化がさらに必要</strong>」</li>
+</ul>
+<p><strong>大動物で全例が弁尖裂断</strong>という結果は、この技術が弁尖としてはまだ E0 であることを示す。 ただし「自己心膜より石灰化しない」という比較データは、第8章のOzaki論と直結する。</p>
+<h2 id="エビデンス格付け第7章">エビデンス格付け（第7章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>自己組織化ハイブリッド生地（シンフォリウム）</td>
+<td><strong>E2</strong></td>
+<td><strong>パッチであって弁ではない</strong></td>
+<td>○ <strong>2023-07承認／2024-06発売</strong></td>
+<td><strong>探したが見つからなかった</strong>（n=34・単群という限界のみ）</td>
+</tr>
+<tr>
+<td>生分解性ポリマーconduit（Xeltis XPV）</td>
+<td><strong>E1</strong></td>
+<td>弁尖設計の反復が必要</td>
+<td>× 未承認</td>
+<td><strong>あり</strong>：第1世代12例中5例（42%）が prolapse 由来の重度PR。<strong>pivotal（n=56）が2017年開始で結果未公表、別試験はWITHDRAWN、企業は血管グラフトへ軸足を移した</strong></td>
+</tr>
+<tr>
+<td>ポリマー弁（Foldax Tria 僧帽弁位）</td>
+<td><strong>E1</strong></td>
+<td><strong>VKA必須</strong>・耐久性の証拠が1年</td>
+<td>× 未承認（米国EFS進行中）</td>
+<td><strong>あり</strong>：①<strong>抗凝固不要にならない</strong> ②1年死亡9.1%・脳卒中4.9%・弁血栓4.3%で全例INR低値時 ③SVD 0%は1年では自明 ④インドのリウマチ性集団内の相対評価</td>
+</tr>
+<tr>
+<td>組織工学弁（ex vivo / in situ）</td>
+<td><strong>E0</strong></td>
+<td><strong>ヒト臨床データなし</strong>・製造・規制</td>
+<td>× 研究段階</td>
+<td><strong>あり</strong>：大動物メタで石灰化35%（conduit 34% &gt; 弁尖21%）。<strong>80研究の55%しか石灰化を報告していない</strong>＝報告バイアス</td>
+</tr>
+<tr>
+<td>Biosheet（in-body tissue architecture, 日本）</td>
+<td><strong>E0</strong></td>
+<td>厚み・密度の制御</td>
+<td>× 研究段階</td>
+<td><strong>あり</strong>：ヤギ12か月で<strong>全例1弁尖が裂断</strong>（ただし石灰化は自己心膜9/12弁尖に対し1/9弁尖）</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て-2">🔮 私の見立て</h3>
+<p><strong>この章は「未来っぽさ」と「成熟度」の乖離が最大の章である。</strong> そして乖離の方向は一貫している。 <strong>図が美しいものほど臨床から遠い。</strong> Editorial Fig.4（細胞→バイオリアクター→生きた弁）は E0、 ポリマー弁は E1、そして実際に薬事承認まで届いたのは<strong>弁ではなくパッチ</strong>だった。</p>
+<p>私が最も重視する所見は、<strong>Xeltis の企業行動</strong>である。 弁の pivotal を2017年に始めて2026年に結果が出ず、別の弁試験を取り下げ、 透析シャント・CABG・PAD へ資源を移した。これは失敗の告白ではないが、 <strong>「in situ 型は血管では動き、弁尖では動かない」</strong> という技術的判断が企業内で下されたことを強く示唆する。 弁尖は年3,000万回開閉する。血管は開閉しない。この差は材料工学的に本質的である。</p>
+<p>ポリマー弁については、Editorial の扱いに明確に反対する。 <strong>VKAが必要な弁は「living valve の潮流」に属さない。</strong> Tria は 「石灰化しない生体弁様の血行動態を持つが抗凝固が必要な弁」であり、 位置づけとしては <strong>機械弁と生体弁の中間に新しい選択肢を作る試み</strong>である。 それは価値があるが、Editorial の3潮流の枠組みからは外れている。 そして<strong>耐久性は1年では何も言えない</strong>。この弁の評価は2030年頃に決まる。</p>
+<p>日本にとっての実務的な結論。<strong>シンフォリウムを持っていることの意味を、もっと自覚してよい。</strong> 世界の in situ 組織再生で唯一薬事承認に到達した材料が日本発である。 次の一手は「これを弁にできるか」ではなく（弁尖の力学は別問題である）、 <strong>「パッチとして使える範囲を広げ、長期データを出す」</strong>ことだと考える。 Biosheet も同様で、ヤギで全例裂断した現状では弁尖への適用を急ぐべきではないが、 <strong>「自己心膜より石灰化しない材料」という比較データは Ozaki 手術の弱点を突いており、 パッチ材料としての価値が先に立つ。</strong></p>
+</blockquote>
+<hr />
+<h1 id="第8章-ozaki手術と日本発術式の国際的評価--そして-lifetime-management">第8章 Ozaki手術と「日本発術式」の国際的評価 — そして lifetime management</h1>
+<blockquote>
+<ul>
+<li>Editorial は Ozaki を<strong>小児2報（Baird 2021 と Karamlou 論評）だけ</strong>で扱い、<strong>尾崎の原典コホートを引用していない</strong>。これは Editorial 最大の書誌的欠落である。</li>
+<li>2025年、その原典が <strong>1,196例の中期成績</strong> として <em>JACC Advances</em> に出た。しかも <strong>Toho University と Cleveland Clinic の共同解析</strong>（Pettersson・Blackstone・Svensson が共著）である。2021年に懐疑的な論評を書いた側が、2025年には定量解析の共著者になっている。</li>
+<li>数字は良好だが単調ではない。<strong>10年 生存78%・再手術回避92%</strong>、平均圧較差は10年で8.2mmHgと安定。しかし <strong>≥2+ AR は 6か月0.30% → 5年2.9% → 10年6.6%</strong> と着実に増える。</li>
+</ul>
+</blockquote>
+<h2 id="81-editorial-の欠落とそれが埋まった経緯">8.1 Editorial の欠落と、それが埋まった経緯</h2>
+<p>Editorial ref[24][25] は Boston Children's の Baird 2021（57例、追跡中央値8.1か月）と、 Cleveland Clinic の Karamlou らの論評である。 Baird らの結論は「AVRec は許容できる短期成績で、小児の先天性大動脈弁・truncal valve に考慮されるべき。 <strong>最適なパッチ材料と晩期の弁機能・弁輪成長の継続を判断するには、より長期の追跡が必要</strong>」 （<a href="https://doi.org/10.1016/j.jtcvs.2020.01.087">10.1016/j.jtcvs.2020.01.087</a>）。</p>
+<p>Editorial はこれを「小児で普及、新生児での耐久性は課題、Rossへのbridgeという見方もある」とまとめた。 <strong>しかし成人の原典は引用していない。</strong></p>
+<p>2025年11月、<em>JACC: Advances</em> に <strong>Ozaki S ら「Mid-Term Experience With 1,196 Ozaki Procedures」</strong> （<a href="https://doi.org/10.1016/j.jacadv.2025.102156">10.1016/j.jacadv.2025.102156</a>）が出た。 著者列は Ozaki S, Hoshino Y, <strong>Unai S</strong>, Harb SC, Frankel WC, Hayama H, …, <strong>Svensson LG, Rajeswaran J, Blackstone EH, Pettersson GB</strong>。 すなわち <strong>東邦大学大橋病院の原典コホートを、Cleveland Clinic の統計部門（Blackstone・Rajeswaran）が解析した共同論文</strong>である。</p>
+<p><strong>2021年に「小児の視点から」慎重な論評を書いた Pettersson が、2025年には定量解析の共著者になっている。</strong> 日本発術式が国際的に評価される過程として、これは典型的かつ良好な経路である （懐疑 → 共同での定量化 → 位置づけの確定）。</p>
+<h2 id="82-原典1196例の中身">8.2 原典1,196例の中身</h2>
+<p>2007-04–2021-05、東邦大学大橋病院。1,196例（男性60%、年齢11–90歳）。 感染性心内膜炎2.4%、二尖弁27%、AS 54%・AR 24%・混合7.3%、<strong>同時手術46%</strong>。 追跡は50%が3.2年超、10%が9年超。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>単独Ozakiの CPB / 遮断</td>
+<td>151±37分 / <strong>105±29分</strong></td>
+</tr>
+<tr>
+<td>30日死亡</td>
+<td><strong>1.7%</strong></td>
+</tr>
+<tr>
+<td>新規脳卒中</td>
+<td>2.6%</td>
+</tr>
+<tr>
+<td>新規透析</td>
+<td>4.0%</td>
+</tr>
+<tr>
+<td><strong>恒久ペースメーカ</strong></td>
+<td><strong>1.5%</strong></td>
+</tr>
+<tr>
+<td>平均大動脈弁圧較差</td>
+<td>6か月 <strong>7.4</strong> → 5年 <strong>8.0</strong> → 10年 <strong>8.2</strong> mmHg</td>
+</tr>
+<tr>
+<td><strong>≥2+ 逆流</strong></td>
+<td>6か月 <strong>0.30%</strong> → 5年 <strong>2.9%</strong> → 10年 <strong>6.6%</strong></td>
+</tr>
+<tr>
+<td>LV mass index</td>
+<td>術前 141±52 → 10年 <strong>90±51 g/m²</strong></td>
+</tr>
+<tr>
+<td><strong>10年 生存 / 再手術回避</strong></td>
+<td><strong>78% / 92%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>結論：「Ozaki 手術は、低く安定した圧較差と左室の逆リモデリングを伴う良好な大動脈弁を作る。 <strong>逆流の率は低いが経時的に増加する</strong>。再手術リスクは低く、継続使用を支持する」。</p>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">この節に原典コホートの図がない理由</div>
+<p>尾崎らの1,196例（<em>JACC Advances</em> 2025）は本章の中核だが、<strong>JACC系の図は本リポジトリの方針で使用しない</strong>ため、 圧較差の推移図・AR gradeの推移図・再手術のhazard図はいずれも掲載していない。 代わりに、同じ術式を独立に評価した German Heart Center Munich の162例（<em>JTCVS Tech</em>、CC BY-NC-ND）の図を §8.3 の末尾に置いた（図16・図17）。数値は本文に転記してある。</p>
+</div>
+
+<h2 id="83-他施設メタ解析での検証">8.3 他施設・メタ解析での検証</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>研究</th>
+<th>n</th>
+<th>主要結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mylonas 2023 Am Heart J</strong>（<a href="https://doi.org/10.1016/j.ahj.2022.09.003">10.1016/j.ahj.2022.09.003</a>）</td>
+<td>22研究<strong>1,891例</strong>（患者レベル再構築）</td>
+<td>平均年齢43.2±24.5歳（成人65±12.3・小児12.3±3.8）。院内死亡0.7%、<strong>恒久ペースメーカ0.7%</strong>、退院時EOA 2.1±0.5 cm²/m²。最終追跡でピーク圧較差15.7±7.4mmHg、中等度AI 0.25%。<strong>再手術回避 1年98.0%・3年97.0%・5年96.5%</strong>。<strong>しかし再手術の半数以上（51.5%）が感染性心内膜炎</strong>で、心内膜炎リスクは<strong>0.5%/患者年</strong></td>
+</tr>
+<tr>
+<td><strong>Prinzing 2024 JTCVS Tech</strong>（<a href="https://doi.org/10.1016/j.xjtc.2024.02.011">10.1016/j.xjtc.2024.02.011</a>、German Heart Center Munich）</td>
+<td>162例（平均52.6±16.6歳、二尖弁81.5%）</td>
+<td>退院時ピーク/平均 15.6/8.4mmHg・EOA 2.4±0.8cm²、5年でも14.5/7.5mmHg・2.3±0.8cm² と安定。<strong>5年 中等度以上SVD 9.82%±3.87、重度SVD 6.96%±3.71、bioprosthetic valve failure 12.1%±4.12</strong>。5年生存97.3%、再手術回避91.3%。「<strong>再手術の主因は心内膜炎</strong>、SVDの率は低い」</td>
+</tr>
+<tr>
+<td><strong>Benedetto 2021 EJCTS</strong>（<a href="https://doi.org/10.1093/ejcts/ezaa472">10.1093/ejcts/ezaa472</a>、UK 2施設55例＋メタ解析）</td>
+<td>AVNeo 7研究1,205例 vs Trifecta/Magna Ease/Freedom Solo/Freestyle/Mitroflow/autograft</td>
+<td>平均12.5か月で心内膜炎3例・再介入1例、ピーク/平均 16±3.7 / 9±2.2mmHg。メタでは <strong>AVNeo は Magna Ease 以外のすべての生体弁と SVD・再介入・心内膜炎で有意差なし。Magna Ease と比べると AVNeo（と他の弁）は弁関連イベントが過剰</strong></td>
+</tr>
+<tr>
+<td><strong>Boehm 2022 J Card Surg</strong>（<a href="https://doi.org/10.1111/jocs.16800">10.1111/jocs.16800</a>）</td>
+<td>AVNeo 105 vs SAVR（Trifecta）458</td>
+<td>EOA <strong>2.4±0.8 vs 2.1±0.6 cm²（P&lt;.001）</strong>、EOAI <strong>1.23±0.4 vs 1.02±0.3（P&lt;.001）</strong>。平均圧較差 8.0 vs 8.3mmHg（P=.091）</td>
+</tr>
+</tbody>
+</table></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin:18px 0;">
+<figure style="margin:0;">
+<img src="figures/fv_avneo_gradients_PMC11184442.jpg" alt="AVNeo 162例のピーク圧較差・平均圧較差・EOAの経時変化" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 16. AVNeo の血行動態は5年まで安定している</b> — 162例（平均52.6±16.6歳、二尖弁81.5%）。退院時 ピーク/平均 <b>15.6 / 8.4 mmHg</b>・EOA 2.4±0.8 cm²、5年でも <b>14.5 / 7.5 mmHg</b>・EOA 2.3±0.8 cm²。Ozaki 手術の最大の強みが<b>圧較差の低さとその安定性</b>であることは、この3枚で確認できる。<br><i>出典: Prinzing A, Boehm J, Burri M, et al. <i>JTCVS Tech</i> 2024;25:35-42. <a href="https://doi.org/10.1016/j.xjtc.2024.02.011">doi:10.1016/j.xjtc.2024.02.011</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38899113/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+<figure style="margin:0;">
+<img src="figures/fv_avneo_svd_cuminc_PMC11184442.jpg" alt="AVNeo 162例の中等度SVD・重度SVD・心内膜炎・bioprosthetic valve failureの累積発生率" style="width:100%;border-radius:8px;border:1px solid #e3e3e3;">
+<figcaption style="font-size:12px;color:#5b6673;margin:6px auto 0;line-height:1.7;text-align:left;"><b>図 17. AVNeo の5年：SVD と bioprosthetic valve failure</b> — 競合リスクによる累積発生率。5年で <b>中等度SVD 9.82%±3.87・重度SVD 6.96%±3.71・bioprosthetic valve failure 12.1%±4.12</b>、心内膜炎も立ち上がる。各パネル下の at risk が <b>162→24（5年）→1（5.5年）</b>と落ちるため、5年時点の信頼区間（陰影）が急に広がっていることも読み取れる——<b>点推定ではなく区間を見るべき</b>典型例（第9章）。<br><i>出典: Prinzing A, Boehm J, Burri M, et al. <i>JTCVS Tech</i> 2024;25:35-42. <a href="https://doi.org/10.1016/j.xjtc.2024.02.011">doi:10.1016/j.xjtc.2024.02.011</a> / <a href="https://pubmed.ncbi.nlm.nih.gov/38899113/">PubMed</a>. CC BY-NC-ND 4.0（原図を改変せず掲載）。</i></figcaption>
+</figure>
+</div>
+
+<h2 id="84-ozaki-への最も鋭い反証はde-paulis-総説の一文である">8.4 Ozaki への最も鋭い反証は、De Paulis 総説の一文である</h2>
+<p>第3章で引いた <em>Eur Heart J</em> 2025 総説には、こう書かれている （<a href="https://doi.org/10.1093/eurheartj/ehaf038">10.1093/eurheartj/ehaf038</a>）。</p>
+<blockquote>
+<p><em>lack of tissue (e.g. inadequate gH), would require the addition of patch tissue (i.e. pericardium), <strong>which has repeatedly resulted in a high proportion of failures requiring reoperation</strong></em></p>
+</blockquote>
+<p>そして結論部でさらに踏み込む：</p>
+<blockquote>
+<p><em>The use and the amount of autologous or heterologous pericardium to compensate for cusp tissue deficit <strong>is correlated with the worst outcome especially when sutured in valve areas of high mechanical stress</strong>. Techniques are less standardized, and results are less satisfactory.</em></p>
+</blockquote>
+<p><strong>「心膜による cusp 補填は最悪の転帰と相関し、とくに力学的ストレスの高い部位に縫合された場合はそうである」</strong>。</p>
+<p>これは Ozaki 手術への直接的な批判ではない（総説が論じているのは<strong>部分的なパッチ補填</strong>であり、 Ozaki は3弁尖すべてをテンプレートで作り直す<strong>全置換</strong>である）。 しかし <strong>「自己心膜は力学的ストレスに弱い」という一般命題は共有される</strong>。 実際、Prinzing の162例では5年で bioprosthetic valve failure 12.1% が出ている。 そして第7章で見た Biosheet のヤギ実験では、 <strong>グルタルアルデヒド処理自己心膜群で12弁尖中9弁尖が石灰化</strong>した。</p>
+<p>→ <strong>Ozaki 手術の中期成績が良好であることと、自己心膜が長期には弱いことは、両立する。</strong> 1,196例の10年 ≥2+AR 6.6% という数字は「まだ低い」と読むことも「10年で6.6%まで来た」と読むこともできる。 20年データが出るまで判断は保留すべきである。</p>
+<h2 id="85-lifetime-managementozakiaaevivexplant-をどう並べるか">8.5 lifetime management：Ozaki／AAE／ViV／explant をどう並べるか</h2>
+<p>Editorial は lifetime management をほぼ扱っていない。当リポジトリの資産で埋める。</p>
+<p><strong>TAVI 後の外科は「増えている」が「うまくいっていない」。</strong></p>
+<ul>
+<li>米国 Medicare 2012–2024：TAVI 410,720例に対し <strong>redo TAVI 2,374例・TAVR explant 1,346例</strong>。 SAVR 299,780例に対し ViV-TAVR 5,044例・redo SAVR 4,202例。 TAVI 再介入の年間発生率は2019年0.17%→2023年0.28%。 redo TAVI は index TAVI から3か月以内が最多（17.3%）、explant は1–2年が最多（19.2%）だが、 <strong>5年を超えると再介入の88.5%が redo TAVI</strong>（<a href="https://doi.org/10.1001/jamacardio.2025.3224">10.1001/jamacardio.2025.3224</a>）。</li>
+<li><strong>EXPLANT-TAVR 199例</strong>：同時手術47.2%（僧帽弁45・CABG 23）。 同時手術群は index TAVI 時の STS-PROM が高く（5.9% vs 3.7%, P=.001）、 CPB（166 vs 114分）・遮断（123 vs 81分）が長く、 30日死亡16.7% vs 9.9%・1年死亡36.1% vs 22.1%（いずれもP&gt;.05）だが、 <strong>3年累積生存は 56.8% vs 81.1%（P=.020）</strong> （<a href="https://doi.org/10.1016/j.athoracsur.2023.05.036">10.1016/j.athoracsur.2023.05.036</a>）。</li>
+<li><strong>Michigan 1,487 TAVI</strong>：8年 AV再介入累積4.6%（28例）。 適応はSVD 39%・PVL 36%。<strong>71%が repeat TAVI 不適</strong>で、理由は同時手術の必要（50%）・ 不利な解剖（45%）・心内膜炎（10%）。explant では大動脈修復35%・僧帽弁35%・三尖弁25%・CABG 20%が併施され、 <strong>そのうち71%は予定外（device の周囲組織への強固な癒着による）</strong>。explant群の院内死亡15% （<a href="https://doi.org/10.1016/j.jtcvs.2021.03.130">10.1016/j.jtcvs.2021.03.130</a>）。</li>
+</ul>
+<p><strong>日本の文脈に翻訳する。</strong> 日本では2020年に <strong>isolated AVR/repair ± CABG が 8,592例、TAVI が 9,774例</strong>で、 <strong>すでにTAVIが外科AVRを追い越している</strong>（<a href="https://doi.org/10.1007/s11748-023-01979-8">10.1007/s11748-023-01979-8</a>）。 したがって「10年後に explant を引き受ける」問題は日本でも確実に来る。 そのとき効くのは、初回手術で<strong>弁輪を小さくしなかったこと</strong>である。</p>
+<p>ここで第4章の HAART の教訓が効いてくる。Yokoyama らは <strong>「剛性 intra-annular 設計と過度の downsizing が将来のカテーテル治療の選択肢を制限しうる」</strong> と明記した。同じ論理は Ozaki にも、AAE にも適用される。</p>
+<ul>
+<li><strong>Ozaki</strong>：弁輪を拡げも縮めもせず自己組織で弁を作るため、<strong>ViV の余地を最も残す術式</strong>である。 1,196例の10年平均圧較差8.2mmHg・EOAI 1.23（Boehm）は、 将来 ViV を入れる際の「元の内径」として有利である。</li>
+<li><strong>AAE（Nicks/Manouguian/Konno/Y-incision）</strong>：内径を積極的に拡げる戦略で、 詳細は<a href="aae_technique_atlas.html">AAE術式アトラス</a>に委譲する。 Badhwar の RAVR 212例で<strong>弁輪拡大が10.8%に併施できた</strong>ことは、 「低侵襲でも拡大を諦めない」という第2章の論点に接続する。</li>
+<li><strong>HAART のような弁輪縮小デバイス</strong>：ViV の余地を削る方向であり、 lifetime management の観点からは最も慎重に扱うべきである。</li>
+</ul>
+<h2 id="エビデンス格付け第8章">エビデンス格付け（第8章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>普及の壁</th>
+<th>日本での可用性</th>
+<th>反証の有無</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ozaki手術（AVNeo）</td>
+<td><strong>E2→E3</strong>（原典1,196例＋メタ1,891例＋独162例）</td>
+<td>自己心膜の採取・テンプレート技術の標準化</td>
+<td>○ <strong>保険適用（弁形成術）・指定施設70超</strong></td>
+<td><strong>あり</strong>：①Prinzing 5年 BVF 12.1%・中等度以上SVD 9.82% ②<strong>再手術原因の51.5%が心内膜炎</strong>（0.5%/患者年） ③Benedetto メタで Magna Ease に対し弁関連イベント過剰 ④De Paulis 総説「心膜による cusp 補填は最悪の転帰と相関」 ⑤無作為化比較なし</td>
+</tr>
+<tr>
+<td>TAVI explant（外科的救済）</td>
+<td><strong>E3</strong>（EXPLANT-TAVR 199例、Medicare 1,346例）</td>
+<td>癒着・同時手術</td>
+<td>○</td>
+<td><strong>あり</strong>：同時手術併施で3年生存56.8%。<strong>71%が予定外の同時手術</strong></td>
+</tr>
+<tr>
+<td>ViV-TAVR</td>
+<td><strong>E3</strong></td>
+<td>元の内径・冠動脈閉塞リスク</td>
+<td>○</td>
+<td>5年超では再介入の88.5%が redo TAVI ＝ ViV が既定路線化</td>
+</tr>
+<tr>
+<td>弁輪拡大（AAE）</td>
+<td><strong>E3</strong></td>
+<td>手技難度</td>
+<td>○</td>
+<td>詳細は<a href="aae_technique_atlas.html">AAE術式アトラス</a>へ委譲</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て">🔮 私の見立て</h3>
+<p><strong>Editorial が尾崎の原典を引用しなかったことは、単なる書誌ミスではなく構造の反映だと思う。</strong> 引用されたのは Boston Children's（欧米）と Cleveland Clinic の論評（欧米）であり、 <strong>日本発術式は「欧米で追試されたときに初めて引用可能になる」</strong> という経路が透けて見える。 2025年の JACC Adv 論文が Toho × Cleveland の共著になったのは、 その経路を尾崎グループが正面から通したということである。<strong>これは日本発術式の輸出の型として学ぶ価値がある。</strong> （同型の例として、当リポジトリの<a href="journal_report_2026_06.html">須磨のRGEA</a>がある： 着想 → 3段階の自前検証 → 国際的採用。）</p>
+<p>Ozaki 手術そのものについての私の見立ては <strong>「10年までは強い、20年は未知」</strong> である。 10年で生存78%・再手術回避92%・平均圧較差8.2mmHgは、生体弁と比べて明確に良い。 しかし ≥2+AR が 0.30 → 2.9 → 6.6% と<strong>加速はしていないが単調に増えている</strong>曲線の先を、 私は楽観できない。自己心膜が力学的ストレスに弱いという証拠は De Paulis 総説と Biosheet のヤギ実験の両方から出ている。</p>
+<p><strong>したがって当院の位置づけは「若年の中間層に対する第一選択ではなく、 lifetime management の中の一手」</strong> とする。具体的には：</p>
+<ul>
+<li><strong>50–70歳で、弁輪が小さく、生涯で1回の再介入をViVで済ませたい患者</strong>：Ozaki は有利（内径を残す）</li>
+<li><strong>40歳未満</strong>：Ross の方がエビデンスが強い（第5章）が日本では homograft がない。 → 現実的には Ozaki か機械弁の二択になる。<strong>ここが日本固有の空白</strong>である</li>
+<li><strong>心内膜炎の既往・活動性</strong>：Ozaki の再手術原因の半数が心内膜炎である以上、避ける</li>
+</ul>
+</blockquote>
+<hr />
+<h1 id="第9章-失敗した未来から学ぶ--新技術評価チェックリスト">第9章 失敗した未来から学ぶ — 新技術評価チェックリスト</h1>
+<blockquote>
+<ul>
+<li>かつて「未来」と呼ばれて淘汰された弁は多い。共通するのは <strong>①早期の単施設中期成績が良好だった ②小サイズと若年で先に壊れた ③警告が出てから市場が動くまでに5〜10年かかった</strong> という3点である。</li>
+<li>最も再現性のある落とし穴は <strong>actuarial（Kaplan-Meier）と actual（competing risk）の混同</strong> と、<strong>「未検出のSVDは手術されたSVDと同数いる」</strong> という事実である。</li>
+<li>この章の成果物は、第4章〜第7章の技術を評価するために使える <strong>10項目のチェックリスト</strong>である。</li>
+</ul>
+</blockquote>
+<h2 id="91-事例1trifecta--最良の血行動態が7年で崩れた">9.1 事例1：Trifecta — 「最良の血行動態」が7年で崩れた</h2>
+<p>Michigan の1,058例（2011–2015、Trifecta 508 vs 非Trifecta 550） （<a href="https://doi.org/10.1016/j.athoracsur.2019.06.032">10.1016/j.athoracsur.2019.06.032</a>）。</p>
+<ul>
+<li>7年以内のSVDは28例（Trifecta 22 / 非Trifecta 6）</li>
+<li><strong>累積SVD：全体で 13.3% vs 4.6%（P=.010）、65歳以下では 27.9% vs 6.9%（P=.004）</strong></li>
+<li><strong>5年から7年の間に顕著に増加</strong></li>
+<li><strong>Trifecta群の破綻様式は50%以上がAR または混合狭窄/逆流。非Trifecta群にはゼロ</strong></li>
+<li>多変量競合リスク回帰で、<strong>唯一の寄与因子は若年</strong>（HR 0.56/10歳低下、95%CI 0.44–0.72、P&lt;.001）</li>
+</ul>
+<p>Trifecta は「externally mounted pericardium による最大のEOA」を売りにした弁だった。 血行動態は実際に優れていた。しかし外付け構造は cusp tear を生み、 <strong>若年で先に壊れた</strong>。第7章のポリマー弁が「1年でSVD 0%」を示していることを、 この曲線と重ねて読む必要がある。</p>
+<h2 id="92-事例2mitroflow--未検出のsvdの発見">9.2 事例2：Mitroflow — 「未検出のSVD」の発見</h2>
+<p>デンマーク全国研究：2000年以降に Mitroflow を植込まれ生存中の患者を横断的に呼び戻した （<a href="https://doi.org/10.1093/ejcts/ezx321">10.1093/ejcts/ezx321</a>）。</p>
+<ul>
+<li>1,552例のうち861例が死亡、47例が再手術（うち40例がSVDによる）</li>
+<li>残る644例に案内を出し、<strong>574例が心エコー評価を受けた</strong></li>
+<li><strong>173例にSVDが診断された：重度64例（11%）・中等度109例（19%）</strong></li>
+<li>重度SVDは人工弁の使用年数と小サイズに関連：<strong>サイズ19 HR 6.26（1.63–24.06, P=0.008）</strong>、サイズ21 HR 2.72（0.97–8.56, P=0.06）</li>
+<li>9年の再手術または重度SVDの累積発生率：<strong>19mm 12.5%・21mm 7.6%・23mm 3.1%</strong></li>
+<li>そして結論の一文：<strong>「未検出の重度SVDの発生率は、手術されたSVDの発生率と同じくらい高かった」</strong></li>
+</ul>
+<p><strong>この一文が本章の中核である。</strong> 再手術率で耐久性を測ると、 <strong>「壊れているが手術に至っていない弁」が丸ごと消える</strong>。 当リポジトリの<a href="topic_valve_durability_by_valve_2026_06.html">弁別耐久性レビュー</a>でも、 Mitroflow は「9年SVD回避67.9%（全体）／若年・19mmで早期劣化」、 Sorin Soprano は「重度SVD 19.5%＠平均8.6年」として<strong>反面教師枠</strong>に分類されている。</p>
+<h2 id="93-事例3抗凝固の軽量化-2つの無作為化試験の連敗">9.3 事例3：抗凝固の「軽量化」— 2つの無作為化試験の連敗</h2>
+<p>第1章で詳述した PROACT Xa（アピキサバンで<strong>試験中止</strong>）と PROACT Mitral（低用量ワルファリンで<strong>非劣性未達</strong>）は、 「デバイス設計で薬を減らす」という約束が<strong>無作為化のレベルで2回失敗した</strong>事例である。 そして SWEDEHEART は、<strong>低INRを承認された唯一の弁（On-X）が他の機械弁と差がない</strong>ことを示した。</p>
+<p><strong>評価の教訓</strong>：「この弁なら抗凝固を減らせる」という主張は、 <strong>単群の観察研究ではいくらでも作れる</strong>（日本の30年519例がまさにそれで、そちらは成功している）。 無作為化に耐えるかどうかは別問題である。</p>
+<h2 id="94-事例4sutureless弁のペースメーカ--時間短縮の代償">9.4 事例4：sutureless弁のペースメーカ — 時間短縮の代償</h2>
+<p>Perceval のメタ解析（7観察研究3,196例、<a href="https://doi.org/10.1186/s13019-023-02273-7">10.1186/s13019-023-02273-7</a>）： 30日死亡2.5%、生存 1/2/3/4/5年 = 93.4/89.4/84.9/82.0/79.5%、 CPB 78分・遮断52分（短い）、平均圧較差9–13.6mmHg・EOA 1.5–1.8cm²。 しかし <strong>恒久ペースメーカ植込み7.9%</strong>、重度PVL 1.6%、SVD 1.5%、脳卒中4.4%、弁explant 2.3%。</p>
+<p><strong>遮断52分</strong>という数字は魅力的で、これが経腋窩AVR（遮断43分）を成立させた基盤でもある（第2章）。 だが <strong>PPM 7.9%</strong> は、Badhwar の RAVR の 2.8% や Ozaki の 1.5%（1,196例）と比べて明確に高い。 <strong>「速さ」と「伝導系」はトレードオフになっている。</strong></p>
+<h2 id="95-actuarial-と-actual-を混同しない">9.5 actuarial と actual を混同しない</h2>
+<p>耐久性の議論で最も頻繁に起きる誤読を、明示的に書いておく。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>指標</th>
+<th>何を測るか</th>
+<th>いつ過大/過小になるか</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>actuarial（Kaplan-Meier）</strong></td>
+<td>「死亡を打ち切りとして、生きていればSVDが起きる確率」</td>
+<td>高齢者では<strong>過大評価</strong>（実際にはSVD前に亡くなる）</td>
+</tr>
+<tr>
+<td><strong>actual（competing risk / cumulative incidence）</strong></td>
+<td>「死亡を競合イベントとして、実際にSVDが起きた割合」</td>
+<td>若年者・長期追跡では両者が近づく</td>
+</tr>
+</tbody>
+</table></div>
+<p>本レビューで引いた数値の型を確認しておくと：</p>
+<ul>
+<li>Sarikouch の20年（狭窄回避68.3%→0%）は <strong>Kaplan-Meier</strong>であり、 著者自身が「15年を超える at risk 例数は限られている」と注記している</li>
+<li>Fukuhara の Trifecta SVD は <strong>competing risk regression</strong>（より保守的）</li>
+<li>Yokoyama の HAART 5年再介入率 40.8%（95%CI 20.0–70.5）は n=17 の推定で、<strong>信頼区間が極端に広い</strong></li>
+<li>Ozaki 1,196例の「10年 生存78%・再手術回避92%」は追跡の10%が9年超という分布であり、 <strong>10年時点の at risk 例数は限られる</strong></li>
+</ul>
+<p><strong>単施設中期成績を読むときの原則</strong>：n が二桁なら点推定を信じず区間を見る。 追跡分布（中央値だけでなく「何%が何年超か」）を必ず確認する。</p>
+<h2 id="96-成果物新技術評価チェックリスト10項目">9.6 成果物：新技術評価チェックリスト（10項目）</h2>
+<p>第4章〜第7章の技術を評価するために使う。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>問い</th>
+<th>落ちた例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>規制承認の根拠は何例か。</strong> 100例未満なら市販後に評価が反転する前提で扱う</td>
+<td>HAART：3試験計約106例で市販</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>単施設の比率はどれくらいか。</strong> 「多施設」と書かれていても内訳を見る</td>
+<td>RAVR 212例の85%がWVU単施設</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>対照群があるか。</strong> ないなら「安全そう」までしか言えない</td>
+<td>術中加圧device（n=24単群）、Tria（単一群）</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>若年・小サイズでの成績が別に示されているか。</strong> 壊れるのは常にそこから</td>
+<td>Trifecta 65歳以下27.9%、Mitroflow 19mm 12.5%</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>actuarial か actual か。</strong> 追跡分布（何%が何年超か）まで確認する</td>
+<td>Sarikouch 20年（at risk 少数）</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>「未検出の破綻」を探した研究があるか。</strong> 再手術率だけでは半分しか見えない</td>
+<td>Mitroflow：未検出の重度SVDが手術例と同数</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>薬を減らす主張が無作為化で検証されているか</strong></td>
+<td>PROACT Xa 中止、PROACT Mitral 非劣性未達</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>速さ・簡便さの代償が計上されているか</strong>（PPM率・遮断時間・conversion率）</td>
+<td>Perceval PPM 7.9%、経腋窩は<strong>新規PPM率を報告していない</strong></td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>次の治療を妨げないか</strong>（ViV の余地・explant の困難さ）</td>
+<td>HAART：downsizing が ViV を制限。TAVI explant：71%が予定外の同時手術</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>企業のパイプラインはその技術に向いているか。</strong> 論文より雄弁なことがある</td>
+<td>Xeltis：弁 pivotal 未公表・別試験 WITHDRAWN・血管グラフトへ移動</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="エビデンス格付け第9章">エビデンス格付け（第9章）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>事例</th>
+<th>何が確立したか</th>
+<th>反証を探した結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trifecta 早期SVD</td>
+<td><strong>確立</strong>（Michigan competing risk、65歳以下27.9%）</td>
+<td>Cohen らの反論論評（<em>Early trifecta valve failure: Warning shot or unfair scrutiny?</em>）が同時期に出ており、当初は論争があった</td>
+</tr>
+<tr>
+<td>Mitroflow 早期SVD</td>
+<td><strong>確立</strong>（デンマーク全国1,552例＋Sénage <em>Circulation</em> 2014）</td>
+<td>Yankah 2008 は「21年まで耐久」と報告したが<strong>≥70歳限定</strong>だった</td>
+</tr>
+<tr>
+<td>Sorin Soprano</td>
+<td><strong>確立</strong>（スウェーデン全国、重度SVD 19.5%＠8.6年）</td>
+<td>—</td>
+</tr>
+<tr>
+<td>抗凝固の軽量化</td>
+<td><strong>反証確立</strong>（RCT 2本）</td>
+<td>日本の低強度INR 30年519例は良好＝観察研究では成立する</td>
+</tr>
+<tr>
+<td>sutureless の PPM</td>
+<td><strong>確立</strong>（メタ 3,196例で7.9%）</td>
+<td>経腋窩AVRの1,000例報告は新規PPM率を記載していない</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<h3 id="crystal_ball-私の見立て-1">🔮 私の見立て</h3>
+<p><strong>「失敗した未来」に共通するのは、技術の欠陥ではなく評価設計の欠陥である。</strong> Trifecta も Mitroflow も、最初の5年のデータは良かった。 壊れたのは6年目以降で、しかも若年と小サイズから壊れた。 つまり <strong>「5年の全体成績」は、若年小サイズの10年成績について何も教えない。</strong></p>
+<p>このチェックリストを本レビューの技術に当てると、警報が鳴るのは次の順になる。</p>
+<ol type="1">
+<li><strong>HAART</strong>（#1 約106例／#2 単施設報告の散在／#4 downsizingで小さく作る／#9 ViVを制限） — 4項目該当</li>
+<li><strong>ポリマー弁 Tria</strong>（#3 単一群／#5 1年でSVD 0%は無情報／#7 抗凝固は減っていない） — 3項目該当</li>
+<li><strong>経腋窩AVR</strong>（#2 単施設／#8 新規PPM率を報告していない） — 2項目該当</li>
+<li><strong>ロボットAVR</strong>（#2 85%単施設／#3 対照なし） — 2項目該当。ただし #8 は PPM 2.8% を報告済みで良好</li>
+<li><strong>脱細胞化homograft</strong>（#5 20年は at risk 少数／#6 は満たしている＝機能低下を自ら報告） — 1.5項目該当</li>
+</ol>
+<p>逆に、<strong>チェックリストをほぼ通過するのは Ozaki 手術と VSARR である。</strong> Ozaki は n=1,196・10年・追跡分布を明示・PPM 1.5%を報告・ViVの余地を残す・ そして再手術原因（心内膜炎51.5%）まで開示している。 VSARR は7,878例のメタと Class I があり、低volume施設の成績まで報告されている。 <strong>「未来っぽさ」の順序と「評価設計の健全さ」の順序は、ほぼ逆である。</strong></p>
+</blockquote>
+<hr />
+<h1 id="第10章-次の5年格付け一覧と日本での実行戦略">第10章 次の5年：格付け一覧と、日本での実行戦略</h1>
+<blockquote>
+<ul>
+<li>Editorial の6提言のうち、<strong>エビデンス的に支持できるのは3つ、条件付きが2つ、そして1つ（AIによる耐久性予測）は一次文献が存在しない</strong>。</li>
+<li>日本での実行可能性で並べ替えると、<strong>順序は欧州と逆になる</strong>。ロボット弁置換は保険適用済み（2024年度改定）、Ozaki は保険適用・指定70施設超。Ross は<strong>制度上は2016年から保険適用済み</strong>（K939-6）だが<strong>ホモグラフトの国内提供が年間約10例</strong>で律速され、脱細胞化homograftは<strong>国内未承認</strong>でその手前にある。</li>
+<li>日本の最大の数字はこれである。<strong>大動脈弁形成は2020年に全国173例＝全大動脈弁手術の1.6%</strong>。EACTSが「弁形成を最優先せよ」と言う世界と、日本の実務の距離はここに集約される。</li>
+</ul>
+</blockquote>
+<h2 id="101-全技術のe段階マトリクス一覧">10.1 全技術のE段階マトリクス（一覧）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>技術</th>
+<th>E段階</th>
+<th>反証</th>
+<th>日本での可用性</th>
+<th>章</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bileaflet機械弁</td>
+<td><strong>E5</strong></td>
+<td>抗凝固軽量化は2 RCTで失敗</td>
+<td>○</td>
+<td>1</td>
+</tr>
+<tr>
+<td>stented生体弁</td>
+<td><strong>E5</strong></td>
+<td>個別製品で早期SVD</td>
+<td>○（大動脈位87.9%）</td>
+<td>1・9</td>
+</tr>
+<tr>
+<td>上部部分胸骨切開AVR</td>
+<td><strong>E4</strong></td>
+<td>Cochrane：死亡/疼痛/QOLに差なし</td>
+<td>○</td>
+<td>2</td>
+</tr>
+<tr>
+<td>MIMVS</td>
+<td><strong>E4</strong></td>
+<td>遮断時間が死亡と相関（MMIR）</td>
+<td>○</td>
+<td>2</td>
+</tr>
+<tr>
+<td>ロボット僧帽弁形成</td>
+<td><strong>E4</strong></td>
+<td>94例の壁・前尖病変で耐久性83%</td>
+<td>○（年2,525例）</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>VSARR（reimplantation）</strong></td>
+<td><strong>E4（GL Class I B）</strong></td>
+<td>弁置換とのRCTなし・61歳超で不利</td>
+<td>○（ただしAV形成は年173例）</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>Ross手術</strong></td>
+<td><strong>E4</strong></td>
+<td>低volumeで死亡3倍・RCTはn=43</td>
+<td><strong>×（homograft未収載）</strong></td>
+<td>5</td>
+</tr>
+<tr>
+<td>脱細胞化homograft（肺/大動脈）</td>
+<td><strong>E3</strong></td>
+<td><strong>10年で再手術回避69.5%</strong>・著者自ら「期待に達していない」</td>
+<td><strong>×（未承認）</strong></td>
+<td>6</td>
+</tr>
+<tr>
+<td>外部リング弁輪形成</td>
+<td><strong>E3</strong></td>
+<td>CAVIAAR主要複合は有意差なし</td>
+<td>△（未承認）</td>
+<td>3・4</td>
+</tr>
+<tr>
+<td>小児の低侵襲開胸</td>
+<td><strong>E3</strong></td>
+<td>見つからなかった</td>
+<td>△</td>
+<td>2</td>
+</tr>
+<tr>
+<td>TAVI explant / ViV</td>
+<td><strong>E3</strong></td>
+<td>同時手術で3年生存56.8%</td>
+<td>○</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Ozaki手術</strong></td>
+<td><strong>E2→E3</strong></td>
+<td>5年BVF 12.1%・再手術の51.5%が心内膜炎</td>
+<td><strong>○（保険適用・70施設超）</strong></td>
+<td>8</td>
+</tr>
+<tr>
+<td>経腋窩AVR</td>
+<td><strong>E2</strong></td>
+<td>新規PPM率未報告・他報告で脳卒中2.0–6.3%</td>
+<td>△</td>
+<td>2</td>
+</tr>
+<tr>
+<td><strong>ロボットAVR</strong></td>
+<td><strong>E2</strong></td>
+<td>85%単施設・対照なし・遮断117分</td>
+<td><strong>○（2024年度から保険適用）</strong></td>
+<td>2</td>
+</tr>
+<tr>
+<td>内側リング（HAART）</td>
+<td><strong>E2</strong></td>
+<td><strong>44%再介入・同一著者群が失敗機序を記述・RCT進行中</strong></td>
+<td>×</td>
+<td>4</td>
+</tr>
+<tr>
+<td>シンフォリウム</td>
+<td><strong>E2</strong></td>
+<td>見つからなかった（n=34）</td>
+<td><strong>○（2023承認/2024発売）</strong></td>
+<td>7</td>
+</tr>
+<tr>
+<td>術中加圧可視化device</td>
+<td><strong>E1</strong></td>
+<td>n=24単群・COIあり</td>
+<td>×</td>
+<td>3</td>
+</tr>
+<tr>
+<td>ポリマー弁（Tria）</td>
+<td><strong>E1</strong></td>
+<td>VKA必須・1年死亡9.1%</td>
+<td>×</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Xeltis XPV</td>
+<td><strong>E1</strong></td>
+<td>42%に重度PR・企業は血管へ移動</td>
+<td>×</td>
+<td>7</td>
+</tr>
+<tr>
+<td>抗凝固不要機械弁（TRIFLO）</td>
+<td><strong>E1</strong></td>
+<td>ヒト成績未公表</td>
+<td>×</td>
+<td>1</td>
+</tr>
+<tr>
+<td>組織工学弁（ex vivo/in situ）</td>
+<td><strong>E0</strong></td>
+<td>大動物で石灰化35%</td>
+<td>×</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Biosheet</td>
+<td><strong>E0</strong></td>
+<td>ヤギ12か月で全例弁尖裂断</td>
+<td>×</td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>AIによる耐久性予測</strong></td>
+<td><strong>E0</strong></td>
+<td><strong>一次文献が0件</strong></td>
+<td>—</td>
+<td>10</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="102-eacts-6提言への賛否">10.2 EACTS 6提言への賛否</h2>
+<p>Editorial の結論部は「今後5年が分水嶺」として6つを提言している。一つずつ判定する。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>提言</th>
+<th>判定</th>
+<th>根拠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>弁形成を最優先せよ</strong></td>
+<td><strong>賛成</strong></td>
+<td>2025 GLでVSARRがClass I B・AVrがIIa B。reimplantationメタ7,878例で10年再手術回避91%。CAVIAARで弁関連死HR 0.09</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>術中評価ツールを早期に市場投入せよ</strong></td>
+<td><strong>反対（条件付き）</strong></td>
+<td>提言の根拠となる device は n=24 の単群で、しかも<strong>責任著者自身の製品</strong>。第9章チェックリストの#1#3に該当する。「早期の市場投入」は HAART が実際にやったことであり、その結果が第4章である</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>計算モデル/AIで耐久性を予測せよ</strong></td>
+<td><strong>判定不能</strong></td>
+<td><strong>該当する臨床エビデンスが1本も存在しない</strong>。方向として否定はしないが、6提言の中でこれだけがE0</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>低侵襲/ロボットを推進せよ</strong></td>
+<td><strong>賛成（日本ではすでに進行中）</strong></td>
+<td>日本はロボット弁形成・<strong>弁置換ともに保険適用</strong>、JCVSD 2022でMICS-MV修復2,525例・30日死亡0.3%</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Rossを普及させよ</strong></td>
+<td><strong>賛成。日本の障壁は償還ではなく供給</strong></td>
+<td>EACTS consensus 2026がTable 1-6を提示。ホモグラフトは<strong>2016年4月に保険収載済み</strong>（K939-6, 81,610点・患者負担なし・契約により届出可）だが、<strong>国内提供数が年間約10例</strong>。「普及」の前に解くべきは組織提供体制である</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>脱細胞化homograftを拡大せよ</strong></td>
+<td><strong>反対（時期尚早）</strong></td>
+<td>10年で再手術回避69.5%。<strong>推奨側の著者自身が「当初の期待に達していない」「完全な統合は達成されていない」と明記</strong>。拡大より先に、10年成績の更新と免疫機序の解明</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="103-日本の制度症例数の現実">10.3 日本の制度・症例数の現実</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>数値・状況</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>弁膜症手術（2020）</td>
+<td><strong>18,366例</strong>（2019年23,340例から−21.3%＝COVID影響、2010年比−1.9%）</td>
+<td>JATS annual report</td>
+</tr>
+<tr>
+<td><strong>isolated AVR/repair ± CABG（2020）</strong></td>
+<td><strong>8,592例</strong>（前年10,268例から−16.3%）</td>
+<td>同</td>
+</tr>
+<tr>
+<td><strong>TAVI（2020）</strong></td>
+<td><strong>9,774例</strong> → <strong>すでに外科AVRを追い越している</strong></td>
+<td>同</td>
+</tr>
+<tr>
+<td><strong>大動脈弁形成</strong></td>
+<td><strong>173例＝全大動脈弁手術の1.6%</strong></td>
+<td>同</td>
+</tr>
+<tr>
+<td>僧帽弁形成</td>
+<td>5,803例＝全僧帽弁手術の63.7%</td>
+<td>同</td>
+</tr>
+<tr>
+<td>三尖弁形成</td>
+<td>4,033例</td>
+<td>同</td>
+</tr>
+<tr>
+<td>生体弁使用率</td>
+<td><strong>大動脈位87.9%・僧帽弁位72.6%</strong>（2000年代初頭は約30%）</td>
+<td>同</td>
+</tr>
+<tr>
+<td>院内死亡（2020）</td>
+<td>単独AVR 3.2%・単独MVR 7.7%・<strong>僧帽弁形成1.1%</strong>／redo AVR 7.3%・redo MVR 6.3%</td>
+<td>同</td>
+</tr>
+<tr>
+<td>全体の院内死亡の推移</td>
+<td><strong>3.4%（2010）→ 4.0%（2015）→ 3.6%（2020）＝10年間で改善していない</strong></td>
+<td>同</td>
+</tr>
+<tr>
+<td>MICS（2022, JCVSD）</td>
+<td>MV修復2,525・MVR 279・<strong>AVR 1,114</strong>・CABG 450・ASD 212</td>
+<td>JSMICS annual report</td>
+</tr>
+<tr>
+<td>MICS成績（2022）</td>
+<td>単独MV修復 30日死亡<strong>0.3%</strong>／単独AVR <strong>0.6%</strong>／conversion 0–1.8%</td>
+<td>同</td>
+</tr>
+<tr>
+<td><strong>MICS-MVの施設分布（2022）</strong></td>
+<td><strong>242施設・中央値5.5例/年</strong>（下位四分位2・上位四分位14・95%tile 38）。<strong>0–5例/年の階級だけで111施設</strong>（図1）</td>
+<td>同</td>
+</tr>
+<tr>
+<td><strong>ロボット支援下弁置換術</strong></td>
+<td><strong>2024年度診療報酬改定で新規保険適用（1弁・2弁）</strong>、2024年6月から施設要件下で実施可</td>
+<td>中医協・厚労省資料</td>
+</tr>
+<tr>
+<td>ロボット支援下弁形成術</td>
+<td>K554-2 胸腔鏡下弁形成術としてすでに保険適用</td>
+<td>同</td>
+</tr>
+<tr>
+<td><strong>Ozaki手術</strong></td>
+<td><strong>保険適用（弁形成術）</strong>。尾崎医師から直接指導を受けた術者がいる<strong>指定施設は全国70超</strong></td>
+<td>公開情報</td>
+</tr>
+<tr>
+<td><strong>ホモグラフト</strong></td>
+<td><strong>2016年4月保険収載＝K939-6 凍結保存同種組織加算 81,610点</strong>（令和8年現行）。患者の自己負担なし（通知(3)）。認定組織バンクとの契約で届出可（施設基準(8)）。算定対象に K555・K570・K580〜K587 等</td>
+<td>令和8年医科点数表</td>
+</tr>
+<tr>
+<td><strong>ホモグラフトの供給</strong></td>
+<td><strong>国内提供数は年間約10例</strong>（＝真の律速）。東大バンク提供実績 264例（1998〜2024年末）。移植施設はバンクへ1組織約80万円を支払う</td>
+<td>NCVC 2026-06-23／福嶌ら 2017</td>
+</tr>
+<tr>
+<td>ホモグラフト関連の現行先進医療</td>
+<td>「<strong>心臓移植レシピエント由来</strong>凍結保存同種組織を用いた外科治療」（2026-06-23承認・国循・日本初唯一）＝ドナー源拡大</td>
+<td>NCVC</td>
+</tr>
+<tr>
+<td><strong>脱細胞化homograft</strong></td>
+<td><strong>国内未承認</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>シンフォリウム（心・血管修復パッチ）</strong></td>
+<td><strong>2023-07-11 製造販売承認／2024-06-12 販売開始</strong>（大阪医科薬科大学＋福井経編興業＋帝人）</td>
+<td>大学・企業公表</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>※ ホモグラフトの制度情報は<strong>令和8年医科診療報酬点数表 K939-6 の告示・通知本文で一次確認済み</strong>。 その他の制度情報（ロボット・Ozaki・シンフォリウム）は公開ウェブ情報に基づく整理であり、 実務判断の前に点数表・添付文書での一次確認を要する。</p>
+</blockquote>
+<h2 id="104-日本発術式の系譜--着想自前検証国際化の型">10.4 日本発術式の系譜 — 「着想→自前検証→国際化」の型</h2>
+<p>日本発の心臓外科的貢献には共通の型がある。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>例</th>
+<th>着想</th>
+<th>自前検証</th>
+<th>国際化の経路</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RGEA を CABG に使う</strong>（須磨久善, 1985–）</td>
+<td>虎の門病院時代に食道外科（秋山洋）から学んだ胃切除の知見</td>
+<td>①腹腔動脈造影100例でRGEAの走行/口径/長さを調査 ②解剖実習室で幽門〜各冠動脈の距離を実測 ③病理に切除胃標本のRGEA動脈硬化度を評価</td>
+<td>世界的に第2の動脈グラフトとして採用。2026年に EJCTS "Surgical Heritage" で本人証言が掲載</td>
+</tr>
+<tr>
+<td><strong>Ozaki 手術</strong>（尾崎重之, 2007–）</td>
+<td>自己心膜をテンプレートで規格化して3弁尖を作る</td>
+<td>単施設で1,196例を前向きに追跡（2007–2021）</td>
+<td>小児で Boston Children's が追試（2021）→ Cleveland Clinic の統計部門と共同で原典コホートを解析（<strong>JACC Adv 2025</strong>）</td>
+</tr>
+<tr>
+<td><strong>シンフォリウム</strong>（根本慎太郎, 2010年代–）</td>
+<td>生体内吸収糸＋非吸収糸の経編＋架橋ゼラチン膜で in situ 組織化を誘導</td>
+<td>前臨床で抗劣化性・伸展性 → 多施設単一群34例3年試験</td>
+<td><strong>2023年に日本で薬事承認</strong>。EACTS Innovation Committee の Editorial に ref[22] として収載（本人が共著者）</td>
+</tr>
+<tr>
+<td><strong>低強度抗凝固</strong>（複数施設, 1980年代–）</td>
+<td>日本人ではINR 1.6–2.5 で足りるという臨床観察</td>
+<td>東京女子医大519例・9,793患者年・30年追跡</td>
+<td><strong>国際化していない</strong>。欧米のRCT（PROACT）は別の設計で失敗しており、日本のデータは日本のガイドラインに留まる</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>4例目が示すことが重要である。</strong>「日本で成立している実務」は、 <strong>国際的な検証設計に載らないと世界の標準にならない</strong>。 低強度抗凝固は30年の一次データがあるのに、EACTS の Editorial には登場しない。</p>
+<h2 id="105-当院での実行戦略次の5年">10.5 当院での実行戦略（次の5年）</h2>
+<p>以上を、実行可能な形に落とす。</p>
+<h3 id="すぐやる012か月追加投資ほぼ不要">すぐやる（0–12か月・追加投資ほぼ不要）</h3>
+<ol type="1">
+<li><strong>De Paulis Table 4 を大動脈弁形成の「送るか自分でやるか」基準として導入する。</strong> 術前 gH &gt;17mm（TAV）/&gt;20mm（BAV）、BAV commissural orientation &gt;140°（≥160°が望ましい）、 術後 eH &gt;9mm・coaptation length &gt;4mm。<strong>これを満たさない解剖は高volume施設へ紹介する。</strong> 根拠：Govers の年12例閾値（<a href="https://doi.org/10.1093/ejcts/ezag177">10.1093/ejcts/ezag177</a>）と、 De Paulis の「慎重な患者選択があれば低volumeでも10年87%」を両立させる唯一の運用である。</li>
+<li><strong>AVr/VSARR 後の抗血栓プロトコルを明文化する。</strong> 2025 ESC/EACTS ガイドラインには記載がなく、国際的慣行は<strong>生涯低用量アスピリン</strong>である （<a href="https://doi.org/10.1093/eurheartj/ehaf038">10.1093/eurheartj/ehaf038</a>）。 ガイドラインの空白を各施設が埋めるしかない領域なので、明示的に決めておく。</li>
+<li><strong>MICS/ロボットの遮断時間を症例単位で記録し、閾値を持つ。</strong> MMIR 6,878例で遮断時間は死亡・LCOS・AKIの独立危険因子である （<a href="https://doi.org/10.1093/ejcts/ezad147">10.1093/ejcts/ezad147</a>）。 Badhwar の推奨（aortotomy・valvectomy・縫合留置・結紮・aortotomy閉鎖を区分して計時）を 低侵襲AVRにも適用する。</li>
+<li><strong>妊娠可能年齢女性のAVR症例に対する紹介経路を作る。</strong> EACTS consensus 2026 が Ross を<strong>第一選択</strong>とした唯一の集団である。 日本では homograft の制約があるため、東大/NCVC への相談経路を事前に確立しておく。</li>
+</ol>
+<h3 id="5年で決める要判断">5年で決める（要判断）</h3>
+<ol start="5" type="1">
+<li><strong>ロボットAVRをやるか。</strong> 保険は2024年に通った。判断基準は次の3つを<strong>すべて</strong>満たすかどうか。
+<ul>
+<li>ロボット僧帽弁の症例数が Badhwar pathway A（50例＋MVR 5例）または pathway B（開心/低侵襲AVR・基部手術250例）を満たす</li>
+<li>Cedars-Sinai の知見（<strong>プログラム学習曲線の頂点94例</strong>）を踏まえ、 年間で意味のある症例数（≥20例/年）を確保できる見込みがある</li>
+<li>目的が明確である。<strong>「低侵襲」ではなく「PPM 2.8% と弁輪拡大10.8%併施」を狙う</strong> ＝<a href="small_annulus_avr_integrated_review_2026-06.html">小径弁輪AVR</a>・ <a href="aae_technique_atlas.html">AAE</a>戦略の延長として位置づける</li>
+</ul></li>
+<li><strong>Ozaki を導入/拡大するか。</strong> 保険適用・指定70施設超で制度的障壁はない。 適応は <strong>50–70歳・小弁輪・生涯1回の再介入をViVで済ませたい患者</strong>に限定し、 <strong>心内膜炎既往例は避ける</strong>（再手術原因の51.5%が心内膜炎）。 20年データが出るまで「若年の第一選択」には置かない。</li>
+<li><strong>HAART は判断しない（国内未承認）。</strong> 承認された場合も <strong>CONTOUR trial（2027年）</strong> を待つ。</li>
+</ol>
+<h3 id="やらない明示的に見送る">やらない（明示的に見送る）</h3>
+<ol start="8" type="1">
+<li><strong>脱細胞化homograft</strong> — 国内未承認であり、原料のホモグラフト供給が年間約10例、かつ10年で再手術回避69.5%。 推奨側の著者が「期待に達していない」と書いている技術に、この3つを越えて投資する理由がない。</li>
+<li><strong>ポリマー弁</strong> — 国内未承認。かつ VKA が必要で耐久性の証拠が1年。 評価が固まるのは2030年頃。</li>
+<li><strong>AI による耐久性予測</strong> — 一次文献が0件。 ただし<strong>否定はしない</strong>。当院で可能な貢献は「予測モデルを作ること」ではなく <strong>「予測に使えるデータを構造化して蓄積すること」</strong>である。 具体的には Ozaki／AAE／VSARR 症例の術前後 gH・eH・coaptation length・弁輪径を 定型項目として前向きに記録する。これは項目1の運用と同じデータで済む。</li>
+</ol>
+<h2 id="106-残された問い本レビューで答えられなかったこと">10.6 残された問い（本レビューで答えられなかったこと）</h2>
+<p>正直に列挙する。</p>
+<ol type="1">
+<li><strong>経腋窩AVRの新規ペースメーカ率</strong>。1,000例の原著に記載がなく、著者への照会が必要。</li>
+<li><strong>日本の VSARR 実施数</strong>。JATS の集計は「大動脈弁形成173例」と「基部置換」を分けているが、 VSARR 単独の全国症例数を特定できなかった。JCVSD の詳細集計が必要。</li>
+<li><strong>凍結保存同種組織加算の点数引き上げ時期</strong>。制度創設時（2016年4月）を福嶌らは9,960点と記すが、 平成30年点数表では既に81,610点であった。どの改定で8.2倍になったのかを平成28年点数表原典で確認できていない。 移植施設の収支が赤字から均衡へ転じた時点がここにある。</li>
+<li><strong>低強度抗凝固の日欧差の原因</strong>。日本の30年観察研究が良好で欧米のRCTが失敗した理由が 人種・体格・食事・INR測定体制のどれに帰属するのか、決着していない。</li>
+<li><strong>Ozaki の20年成績</strong>。原典コホートの追跡は10%が9年超であり、20年の曲線は存在しない。</li>
+<li><strong>CONTOUR trial の結果</strong>（2027年）。第4章の結論はここで更新される。</li>
+</ol>
+<blockquote>
+<h3 id="crystal_ball-私の見立て総括">🔮 私の見立て（総括）</h3>
+<p><strong>EACTSの3潮流のうち、日本で次の5年に本当に動くのは「低侵襲/ロボット」だけである。</strong> それは技術の優劣ではなく、<strong>そこだけ償還と供給の両方が揃っているから</strong>だ （ホモグラフトは償還は2016年に解決したが、年間約10例という供給で止まっている）。 自己弁温存は技術としては Class I になったが、日本の大動脈弁形成は年173例（1.6%）で、 そもそも母数が小さすぎて「普及」の議論ができない。 living valve は、償還ではなく <strong>homograft の供給（年間約10例）と脱細胞化グラフトの国内未承認</strong>で入口に立てない。</p>
+<p>だから私の結論は、<strong>Editorialの6提言を並べ替えることになる</strong>。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>順位</th>
+<th>日本での優先度</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>低侵襲/ロボットの推進</strong></td>
+<td>保険が通っており、成績（JCVSD 30日死亡0.3%）も出ている。<strong>ただし目的をPPM回避と弁輪拡大に定義し直す</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>弁形成の優先</strong></td>
+<td>Class I だが日本の実数が1.6%。<strong>「症例数を増やす」ではなく「送る基準を持つ」ことから始める</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>術中評価ツール</strong></td>
+<td>現行の device は n=24 で推せない。ただし<strong>測定項目（gH/eH/coaptation）の標準化は今日から無料でできる</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Ross の普及</strong></td>
+<td>エビデンスは最強クラス。しかし<strong>homograft の供給と償還が解けるまで動かない</strong>。制度側への働きかけが唯一の手</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>脱細胞化homograftの拡大</strong></td>
+<td>10年69.5%。<strong>推奨側が期待未達と認めている段階で、制度の壁を越える理由がない</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>AIによる耐久性予測</strong></td>
+<td>一次文献0件。<strong>データを溜める段階</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>そして本プロジェクトを通じて最も強く残った教訓を1つ書いておく。</p>
+<p><strong>「未来」を名乗る文書は、留保を落とす。</strong> 同じ著者群が、同じ年に、<em>Eur Heart J</em> の総説では内側リングの失敗機序（cusp摩耗・リングdehiscence）を書き、 EACTS の Editorial ではそれを推奨側に置いた。 ARISE の著者は原著の Discussion で「期待に達していない」と書いたが、 Editorial では「最も先行している」と要約された。 どちらも嘘ではない。<strong>文書の形式が、書ける内容を決めている。</strong></p>
+<p>したがって実務的な読み方はこうなる。<strong>学会委員会の Editorial は「何が話題か」を知るために読み、 「何を採用するか」は原著の Discussion と Limitations で決める。</strong> 本レビューが Editorial の15主張のうち5つしか無条件に支持できなかったのは、 Editorial の質が低いからではなく、<strong>Editorial がそういう文書だから</strong>である。</p>
+</blockquote>
+<hr />
+<h2 id="図版の出典とライセンス全17点">図版の出典とライセンス（全17点）</h2>
+<p>本レビューに掲載した図は<strong>すべて査読誌のオープンアクセス論文に掲載された原図</strong>であり、<strong>改変せず</strong>、各ライセンスの表示条件（出典・著者・ライセンスの明示）に従って引用している。図番号・パネル記号は原著のものである。</p>
+
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">掲載しなかった図</div>
+<ul>
+<li><strong>シード論文 ezag185（非OA）の4図</strong>は <code>figures_local/</code> に留め、公開HTMLに入れていない。</li>
+<li><strong>JACC系・BMJ系の図</strong>は本リポジトリの方針で使用しない（→ Ozaki原典 <em>JACC Adv</em> 2025、TEHV石灰化メタ <em>JACC Basic Transl Sci</em> 2023 の図は不掲載）。</li>
+<li>OA論文の中で<strong>第三者から許諾を得て転載された図</strong>（<code>Reproduced with permission…</code>）は論文のCCライセンスの対象外なので採用していない。</li>
+</ul>
+</div>
+
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>図</th>
+<th>内容</th>
+<th>掲載章</th>
+<th>出典</th>
+<th>ライセンス</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>図 1</td>
+<td>日本のMICS僧帽弁手術は「年5例未満の施設」が最も多い</td>
+<td>第2章</td>
+<td>Shimokawa T, Kumamaru H, Motomura N, et al. Gen Thorac Cardiovasc Surg 2026;74(5):510-517. <a href="https://doi.org/10.1007/s11748-025-02225-z">doi:10.1007/s11748-025-02225-z</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 2</td>
+<td>AVIATOR：生存差はつくが、at risk が急速に減る</td>
+<td>第3章</td>
+<td>Arabkhani B, Klautz RJM, de Heer F, et al. Eur J Cardiothorac Surg 2023;63(2):ezac514. <a href="https://doi.org/10.1093/ejcts/ezac514">doi:10.1093/ejcts/ezac514</a></td>
+<td>CC BY-NC 4.0</td>
+</tr>
+<tr>
+<td>図 3</td>
+<td>AVIATOR：再介入回避には差がない（P=0.98）</td>
+<td>第3章</td>
+<td>Arabkhani B, Klautz RJM, de Heer F, et al. Eur J Cardiothorac Surg 2023;63(2):ezac514. <a href="https://doi.org/10.1093/ejcts/ezac514">doi:10.1093/ejcts/ezac514</a></td>
+<td>CC BY-NC 4.0</td>
+</tr>
+<tr>
+<td>図 4</td>
+<td>年12例で折れる — 長期のAV再介入回避生存</td>
+<td>第3章</td>
+<td>Govers PJ, et al. Eur J Cardiothorac Surg 2026;68(6):ezag177. <a href="https://doi.org/10.1093/ejcts/ezag177">doi:10.1093/ejcts/ezag177</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 5</td>
+<td>早期成績は症例数に鈍感（P=.8003）</td>
+<td>第3章</td>
+<td>Govers PJ, et al. Eur J Cardiothorac Surg 2026;68(6):ezag177. <a href="https://doi.org/10.1093/ejcts/ezag177">doi:10.1093/ejcts/ezag177</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 6</td>
+<td>術中加圧可視化device の実像（n=24・単群）</td>
+<td>第3章</td>
+<td>Arabkhani B, Sandker SC, Braun J, et al. Eur J Cardiothorac Surg 2023;64(5):ezad291. <a href="https://doi.org/10.1093/ejcts/ezad291">doi:10.1093/ejcts/ezad291</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 7</td>
+<td>18歳モデルの60年：Ross と機械弁の生存曲線</td>
+<td>第5章</td>
+<td>Sarnaik KS, et al. JTCVS Open 2024;17:185-214. <a href="https://doi.org/10.1016/j.xjon.2023.10.033">doi:10.1016/j.xjon.2023.10.033</a></td>
+<td>CC BY-NC-ND 4.0</td>
+</tr>
+<tr>
+<td>図 8</td>
+<td>脱細胞化肺homograft 20年：上段は良好、下段が落ちる</td>
+<td>第6章</td>
+<td>Sarikouch S, Boethig D, Avsar M, et al. Eur J Cardiothorac Surg 2026;68(2):ezag087. <a href="https://doi.org/10.1093/ejcts/ezag087">doi:10.1093/ejcts/ezag087</a></td>
+<td>CC BY-NC 4.0</td>
+</tr>
+<tr>
+<td>図 9</td>
+<td>「壊れていないが機能していない弁」が20年で全部になる</td>
+<td>第6章</td>
+<td>Sarikouch S, Boethig D, Avsar M, et al. Eur J Cardiothorac Surg 2026;68(2):ezag087. <a href="https://doi.org/10.1093/ejcts/ezag087">doi:10.1093/ejcts/ezag087</a></td>
+<td>CC BY-NC 4.0</td>
+</tr>
+<tr>
+<td>図 10</td>
+<td>ARISE：144例（上）と全DAH 358例（下）の explant 回避</td>
+<td>第6章</td>
+<td>Horke A, Tudorache I, Laufer G, et al. Eur J Cardiothorac Surg 2024;65(4):ezae121. <a href="https://doi.org/10.1093/ejcts/ezae121">doi:10.1093/ejcts/ezae121</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 11</td>
+<td>10年時点では脱細胞化が明確に勝っていた（2016年の比較）</td>
+<td>第6章</td>
+<td>Sarikouch S, Horke A, Tudorache I, et al. Eur J Cardiothorac Surg 2016;50(2):281-290. <a href="https://doi.org/10.1093/ejcts/ezw050">doi:10.1093/ejcts/ezw050</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 12</td>
+<td>シンフォリウム：構造と、36か月までの組織置換</td>
+<td>第7章</td>
+<td>Kasahara S, Yoshimura Y, Ichikawa H, et al. Ann Thorac Surg Short Rep 2024;2(4):804-809. <a href="https://doi.org/10.1016/j.atssr.2024.04.020">doi:10.1016/j.atssr.2024.04.020</a></td>
+<td>CC BY-NC-ND 4.0</td>
+</tr>
+<tr>
+<td>図 13</td>
+<td>34例41部位の内訳（弁ではなくパッチである）</td>
+<td>第7章</td>
+<td>Kasahara S, Yoshimura Y, Ichikawa H, et al. Ann Thorac Surg Short Rep 2024;2(4):804-809. <a href="https://doi.org/10.1016/j.atssr.2024.04.020">doi:10.1016/j.atssr.2024.04.020</a></td>
+<td>CC BY-NC-ND 4.0</td>
+</tr>
+<tr>
+<td>図 14</td>
+<td>Xeltis XPV：第1世代で重度PIが積み上がる</td>
+<td>第7章</td>
+<td>Morales DL, Herrington C, Bacha EA, et al. Front Cardiovasc Med 2020;7:583360. <a href="https://doi.org/10.3389/fcvm.2020.583360">doi:10.3389/fcvm.2020.583360</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 15</td>
+<td>摘出された XPV conduit の実物</td>
+<td>第7章</td>
+<td>Morales DL, Herrington C, Bacha EA, et al. Front Cardiovasc Med 2020;7:583360. <a href="https://doi.org/10.3389/fcvm.2020.583360">doi:10.3389/fcvm.2020.583360</a></td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>図 16</td>
+<td>AVNeo の血行動態は5年まで安定している</td>
+<td>第8章</td>
+<td>Prinzing A, Boehm J, Burri M, et al. JTCVS Tech 2024;25:35-42. <a href="https://doi.org/10.1016/j.xjtc.2024.02.011">doi:10.1016/j.xjtc.2024.02.011</a></td>
+<td>CC BY-NC-ND 4.0</td>
+</tr>
+<tr>
+<td>図 17</td>
+<td>AVNeo の5年：SVD と bioprosthetic valve failure</td>
+<td>第8章</td>
+<td>Prinzing A, Boehm J, Burri M, et al. JTCVS Tech 2024;25:35-42. <a href="https://doi.org/10.1016/j.xjtc.2024.02.011">doi:10.1016/j.xjtc.2024.02.011</a></td>
+<td>CC BY-NC-ND 4.0</td>
+</tr>
+</tbody>
+</table></div>
+<p>図ファイルは <code>future_cardiac_surgery/figures/</code>、機械可読な一覧は <code>tables/figure_credits.csv</code> にある。</p>
+<hr />
+<h2 id="付録本レビューの成果物">付録：本レビューの成果物</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>ファイル</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>tables/seed_refs.csv</code></td>
+<td>シード引用25本のDOI/PMID/OA状況/入手状況</td>
+</tr>
+<tr>
+<td><code>tables/seed_claims_verification.csv</code></td>
+<td><strong>Editorial の主張15項目 × 裏取り結果 × 判定</strong></td>
+</tr>
+<tr>
+<td><code>tables/technology_evidence_matrix.csv</code></td>
+<td><strong>技術 × E段階 × 反証 × 日本での可用性 × 出典DOI</strong></td>
+</tr>
+<tr>
+<td><code>tables/ongoing_trials.csv</code></td>
+<td>進行中/完了の関連試験21件（CONTOUR・ROVAL・Xeltis・Foldax・TRIFLO・HAART規制試験など）</td>
+</tr>
+<tr>
+<td><code>md/seed_ezag185_notes.md</code></td>
+<td>シード論文の分解（主張15項目・引用25本・空白8項目）</td>
+</tr>
+<tr>
+<td><code>md/refs/_ACQUISITION_STATUS.md</code></td>
+<td>文献入手状況の記録</td>
+</tr>
+<tr>
+<td><code>output/doi_verification_future_valve.md</code></td>
+<td>全DOIのCrossRef個別検証ログ</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>作成: 2026-07-26 ／ シード: <a href="https://doi.org/10.1093/ejcts/ezag185">10.1093/ejcts/ezag185</a> ／ 関連: small_annulus_avr aae_technique_atlas project_valve_durability_by_valve robotic_cpb cor_knot</em></p>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function() {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !nav) return;
+
+  var content = document.querySelector('main.content');
+  var all = Array.prototype.slice.call(
+    (content || document).querySelectorAll('h1, h2, h3, h4'));
+  // The leading H1 is the document title (already shown in the page header).
+  if (all.length && all[0].tagName === 'H1') all.shift();
+  var headings = all;
+  var navLinks = [];
+  if (headings.some(function(h) { return h.tagName === 'H1'; })) {
+    nav.classList.add('has-chapters');
+    var sbHead = document.getElementById('sidebar-header');
+    if (sbHead) sbHead.textContent = '目次 — 章・節';
+  }
+
+  headings.forEach(function(h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H1') a.className = 'nav-chapter';
+    else if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    if (!sidebar) return;
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+
+  if (btn) btn.addEventListener('click', function() {
+    setOpen(!sidebar.classList.contains('open'));
+  });
+  if (backdrop) backdrop.addEventListener('click', function() { setOpen(false); });
+
+  nav.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) {
+      setOpen(false);
+    }
+  });
+
+  // Scroll spy via IntersectionObserver
+  if ('IntersectionObserver' in window) {
+    var current = null;
+    var visibleIds = new Set();
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) visibleIds.add(entry.target.id);
+        else visibleIds.delete(entry.target.id);
+      });
+      // Pick the first heading still in the viewport, in document order
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visibleIds.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function(l) {
+          l.classList.toggle('active', l.dataset.target === firstId);
+        });
+        var active = nav.querySelector('a.active');
+        if (active && typeof active.scrollIntoView === 'function') {
+          var rect = active.getBoundingClientRect();
+          var sbRect = sidebar.getBoundingClientRect();
+          if (rect.top < sbRect.top || rect.bottom > sbRect.bottom) {
+            active.scrollIntoView({ block: 'nearest' });
+          }
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function(h) { observer.observe(h); });
+  }
+})();
+</script>
+
+</body>
+</html>

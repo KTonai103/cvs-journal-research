@@ -1,0 +1,22 @@
+nct_id,title_short,technology,chapter,study_type,phase_or_design,n,sponsor,start,primary_completion,status,why_it_matters
+NCT06869954,CONTOUR trial,大動脈弁形成の弁輪安定化（内側HAART 200 vs 二重外部リング）,4,Interventional,多施設RCT 1:1,100,University Hospital Augsburg（Girdauskas）,2025-05-21,2027-06,RECRUITING,**HAART論争を決着させうる唯一のRCT**。一次エンドポイントは①退院時のflow eccentricity減少 ②1年の逆流率（4D-flow MRI, core lab盲検）。Lansacが共著＝内側派と外部派の直接対決
+NCT03798782,ROVAL（Ross for Valve Replacement in AduLts）,Ross手術,5,Interventional,RCT,43,Population Health Research Institute,2019-04-29,2022-10-01,COMPLETED,"Ross のRCTは**n=43のパイロットのみ**。『overwhelming evidence』の中核にRCTは無いことを示す"
+NCT03894787,ROVAL Registry,Ross手術,5,Observational,registry,62,Population Health Research Institute,2019-06-03,2022-10-01,COMPLETED,同上のレジストリ枠
+NCT02527629,ARISE,脱細胞化大動脈homograft(DAH),6,Observational,前向き単一群,144,corlife,2015-09,2019-01,COMPLETED,"5年成績が ezae121 として2024年に公表済。10年成績が次の分水嶺（Squiersが『10年成績の更新を待つ』と明記）"
+NCT03022708,Xeltis Bioabsorbable Pulmonary Valved Conduit Pivotal Study,生分解性ポリマーconduit,7,Interventional,pivotal 単一群,56,Xeltis,2017-05-08,2022-12-15,ACTIVE_NOT_RECRUITING,"2017年開始のpivotalが2026年時点で結果未公表。**同社の別の弁試験 NCT03405636 はWITHDRAWN**"
+NCT04545112,Xeltis CABG（XABG）FIH,生分解性グラフト（弁ではない）,7,Interventional,FIH,20,Xeltis,2020-10-22,2026-03-15,ENROLLING_BY_INVITATION,企業の主戦場が弁→血管に移動した証拠
+NCT05473299,aXess Pivotal（透析シャント）,生分解性グラフト,7,Interventional,pivotal,120,Xeltis,2022-11-04,2025-06-23,ACTIVE_NOT_RECRUITING,同上
+NCT06494631,aXess US Study,生分解性グラフト,7,Interventional,pivotal,140,Xeltis,2024-11-11,2028-01,ENROLLING_BY_INVITATION,同上
+NCT03851068,Foldax Tria Aortic EFS,ポリマー弁（大動脈位）,7,Interventional,early feasibility,40,Foldax,2019-06-18,2024-12,ACTIVE_NOT_RECRUITING,大動脈位ポリマー弁の米国EFS。結果未公表
+NCT04717570,Foldax Tria Mitral EFS,ポリマー弁（僧帽弁位）,7,Interventional,early feasibility,15,Foldax,2021-02-01,2025-12,UNKNOWN,米国での僧帽弁位EFS
+NCT06191718,Foldax Tria Mitral India,ポリマー弁（僧帽弁位）,7,Interventional,単一群多施設,70,Foldax,2023-03-01,2024-12-01,UNKNOWN,"JACC 2025（67例）の元試験。**米国EFSより先にインドで多施設試験が完了**という開発経路"
+NCT06192706,Foldax Tria Aortic India,ポリマー弁（大動脈位）,7,Interventional,単一群多施設,50,Foldax,2022-01-01,2024-07-01,UNKNOWN,大動脈位のインド試験
+NCT06119607,PILot Aortic Triflo Valve Study,抗凝固不要を狙う三葉機械弁（Novostia TRIFLO）,1（補遺）,Interventional,FIH,10,Novostia SA,2023-11-30,2025-12,ACTIVE_NOT_RECRUITING,"シードが完全に無視した『機械弁の未来』。FIH n=10 が進行中"
+NCT04467671,Second-Generation Tissue Engineered Vascular Graft,組織工学（血管グラフト）,7,Interventional,Phase 2,24,Nationwide Children's Hospital,2020-07-15,2026-08,RECRUITING,小児先天性領域での組織工学の数少ない前向き臨床試験
+NCT07123766,PoliaValve Aortic Heart Valve - India,ポリマー弁,7,Interventional,単一群,50,Suzhou Hearthill Medical Technology,2025-11-15,2027-12-30,NOT_YET_RECRUITING,"中国発ポリマー弁が2024-2026に複数参入（他にNCT06737757 n=198, NCT06518681）"
+NCT07243184,Polymer Artificial Heart Valve Feasibility,ポリマー弁,7,Interventional,feasibility,10,Shanghai HeartEpoch Medical,2025-11-19,2027-11,RECRUITING,同上
+NCT07097740,Polymer Prosthetic Mitral Valve EFS,ポリマー弁（僧帽弁位）,7,Interventional,early feasibility,10,Mitrassist Lifesciences,2025-06-27,2026-06,RECRUITING,同上
+NCT05411055,AVNeo with glutaraldehyde-treated autologous pericardium,Ozaki手術,8,Observational,前向き観察,60,Maria Cecilia Hospital,2021-06-06,2026-06-06,ACTIVE_NOT_RECRUITING,欧州でのAVNeo前向き観察
+NCT01400841,HAART Model 300 Annuloplasty Ring,内側幾何学的リング,4,Interventional,規制試験,18,Biostable Science & Engineering,2012-01,2013-04,COMPLETED,"HAARTの規制上の根拠は3試験（18+20+68例）＝計約106例。この規模で市販化された"
+NCT02071849,HAART 200 Aortic Valve Annuloplasty Trial,内側幾何学的リング（二尖弁用）,4,Interventional,規制試験,20,Biostable Science & Engineering,2013-09,2015-04,COMPLETED,同上
+NCT01732835,HAART 300 Extended Safety and Performance,内側幾何学的リング,4,Interventional,規制試験,68,Biostable Science & Engineering,2012-12,2014-06,COMPLETED,同上
