@@ -1,0 +1,155 @@
+{
+ "dpi": 200,
+ "gap": 16,
+ "sources": {
+  "lancet": "pdf/13-02_2023_Gaudino_Lancet_Current-concepts-coronary-artery-revascularisation_PMID37121245.pdf",
+  "g18": "pdf/03-02_2018_Gaudino_JAHA_Off--On-Pump-Coronary-Surgery-Effect-Follow-Up_PMID30373421.pdf",
+  "raja": "pdf/04-01_2026_Raja_ATS-ShortRep_Long-Term-Survival-Mortality-Predictors-Off-Pump-On_PMID42266971.pdf",
+  "pat": "pdf/05-04_2021_Gaudino_JAHA_Angiographic-Patency-Coronary-Artery-Bypass-Conduits_PMID33686866.pdf",
+  "paw": "pdf/07-01_2016_Pawliszak_JAHA_Cerebrovascular-Events-No-Touch-Off-Pump-Coronary-Ar_PMID26892526.pdf",
+  "vall": "pdf/07-02_2021_Vallely_JTCVS-Tech_Total-arterial-anaortic-off-pump-coronary-artery-sur_PMID34977717.pdf",
+  "sid": "pdf/11-01_2026_Sidik_JSurgEduc_Simulation-Based-Training-Coronary-Artery-Bypass-Gra_PMID42236427.pdf"
+ },
+ "figures": [
+  {
+   "name": "f01_timeline_revasc.png",
+   "parts": [
+    {
+     "src": "lancet",
+     "page": 2,
+     "rect": [
+      0.19,
+      0.132,
+      0.94,
+      0.501
+     ]
+    }
+   ]
+  },
+  {
+   "name": "f02_crossover_subgroup.png",
+   "parts": [
+    {
+     "src": "g18",
+     "page": 5,
+     "rect": [
+      0.07,
+      0.053,
+      0.48,
+      0.576
+     ]
+    }
+   ]
+  },
+  {
+   "name": "f03_incomplete_revasc_subgroup.png",
+   "parts": [
+    {
+     "src": "g18",
+     "page": 5,
+     "rect": [
+      0.508,
+      0.053,
+      0.932,
+      0.41
+     ]
+    }
+   ]
+  },
+  {
+   "name": "f04_raja_25yr_km.png",
+   "parts": [
+    {
+     "src": "raja",
+     "page": 3,
+     "rect": [
+      0.086,
+      0.108,
+      0.572,
+      0.425
+     ]
+    },
+    {
+     "src": "raja",
+     "page": 3,
+     "rect": [
+      0.086,
+      0.688,
+      0.572,
+      0.952
+     ]
+    }
+   ]
+  },
+  {
+   "name": "f05_conduit_patency.png",
+   "parts": [
+    {
+     "src": "pat",
+     "page": 4,
+     "rect": [
+      0.08,
+      0.048,
+      0.93,
+      0.203
+     ]
+    },
+    {
+     "src": "pat",
+     "page": 4,
+     "rect": [
+      0.08,
+      0.67,
+      0.508,
+      0.94
+     ]
+    }
+   ]
+  },
+  {
+   "name": "f06_notouch_aorta_cva.png",
+   "parts": [
+    {
+     "src": "paw",
+     "page": 8,
+     "rect": [
+      0.07,
+      0.383,
+      0.926,
+      0.91
+     ]
+    }
+   ]
+  },
+  {
+   "name": "f07_anaortic_grafting_strategies.png",
+   "parts": [
+    {
+     "src": "vall",
+     "page": 6,
+     "rect": [
+      0.068,
+      0.112,
+      0.932,
+      0.674
+     ]
+    }
+   ]
+  },
+  {
+   "name": "f08_simulation_performance.png",
+   "parts": [
+    {
+     "src": "sid",
+     "page": 11,
+     "rect": [
+      0.098,
+      0.088,
+      0.902,
+      0.422
+     ]
+    }
+   ]
+  }
+ ]
+}
