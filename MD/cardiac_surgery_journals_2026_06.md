@@ -23,17 +23,18 @@ updated: 2026-06-09
 > [!info] 対象号と論文数（2026-06-09 作成）
 > - **JTCVS** Vol.171 Issue 6（2026年6月号 完成）+ Online-First重要論文
 > - **JHLT** Vol.45 Issue 6（2026年6月号 完成）+ Online-First重要論文（一部はVol.45 Issue 7へ）
-> - **EJCTS** Vol.68 Issue 6（2026年6月号 — 組版開始・発行進行中）+ Issue 5後半Online-First
-> - 収録論文数: JTCVS 28件 ＋ JHLT 18件 ＋ EJCTS 5件 = **計51件**
+> - **EJCTS** Vol.68 Issue 6（2026年6月号）+ Issue 5後半Online-First ※**2026-07-26 追補済み**
+> - 収録論文数: JTCVS 28件 ＋ JHLT 18件 ＋ EJCTS 14件 = **計60件**（初版51件 + 追補9件）
 > - データソース: CrossRef API, PubMed E-utilities | 全DOI機械検証済（誤リンク0件）
 > - 関連ファイル: [[cardiothoracic_journals_schedule]] | [[cardiac_surgery_journals_2026_05]]
 > - DOI検証ログ: output/doi_verification_2026_06.md
 > - **✅DL済** = PDF入手・整理済（5本: Sugaya / Ferrel / Lamy / Grinstein / Kawada）→ `All Papers/Clinical/`
 
-> [!warning] EJCTS Vol.68 Issue 6 は発行進行中
-> 2026-06-09時点でEJCTS 6月号は組版が始まったばかりで **掲載確定は4論文**（うち本まとめ対象3編）。
-> EACTS公式発行は例年6月下旬（〜6/27頃）で、月末に追加論文が出る見込み。本まとめでは
-> Issue 6確定分＋5月後半に新規Online公開された Issue 5論文（QUACS等、5月号まとめ後に公開）を収録。
+> [!success] EJCTS Vol.68 Issue 6 追補完了（2026-07-26）
+> 初版（2026-06-09）時点ではEJCTS 6月号の掲載確定が4論文しかなく、EACTS公式発行（6月下旬）後の追補を
+> 予定として残していた。**本日、Issue 6の確定14編を再取得し、未収録だった9編を EJCTS 節 #6〜#14 として追補**した。
+> 目玉は **Govers らの VSARR 施設症例数閾値（≥12例/年）** と **EACTS Innovation Committee の「未来の心臓弁」**、
+> そして **Suma H による右胃大網動脈グラフト発案の一次証言**。7月号は [[cardiac_surgery_journals_2026_07]] を参照。
 
 > [!tip] 今月のハイライト（★★★★★／★★★★）
 > - **AATS 2026 肺移植ドナー/レシピエントサイズマッチ コンセンサス**（Chang, JTCVS）— 20推奨からなる初の体系的指針
@@ -494,7 +495,8 @@ updated: 2026-06-09
 
 ## EJCTS（European Journal of Cardio-Thoracic Surgery）
 
-**2026年6月号｜Vol.68 Issue 6（発行進行中）＋ Issue 5後半 Online-First**
+**2026年6月号｜Vol.68 Issue 6（確定14編）＋ Issue 5後半 Online-First**
+※ #1〜#5 は初版（2026-06-09）収録分、**#6〜#14 は 2026-07-26 の追補分**
 
 ### 周術期管理・QoL
 
@@ -549,6 +551,106 @@ updated: 2026-06-09
 
 ---
 
+### 【追補 2026-07-26】大動脈基部外科
+
+#### 6. 自己弁温存基部置換（VSARR）の「高volume施設」を定義する：年12例が閾値 ★★★★🔓
+
+> Govers PJ, et al; Aortic Valve Research Network Investigators. *Valve-sparing Aortic Root Replacement: Defining High-volume Centres Using Prospective Data.* EJCTS 2026;68(6):ezag177. DOI: [10.1093/ejcts/ezag177](https://doi.org/10.1093/ejcts/ezag177)
+
+> [!abstract]
+> Heart Valve Society Aortic Valve（HVS AV）データベースの待機的VSARR **2,668例・37施設**。EuroSCORE II調整、制限付き三次スプラインでvolume-outcome関係をモデル化しelbow法で閾値を導出。**早期複合アウトカム**（30日死亡・血栓塞栓・再介入・術中conversion・AR≥2度）**は年間症例数と関連しない（P=.8003）**が、**長期のAV再介入回避生存には有意な非線形関係があり、年12例以上（95%CI 10–12）の施設で良好**（P=.0023、感度分析でもP<.0001）。「早期成績はイベント率が低く症例数に鈍感、耐久性で差が出る」という構造を示した。**VSARRの集約化・施設要件を議論する際の一次資料**であり、[[small_annulus_avr]]／[[project_sakura_avr_protocol]] の施設選定基準にも援用しうる。
+
+---
+
+### 【追補】弁膜症・イノベーション
+
+#### 7. EACTS Innovation Committee による「未来の心臓弁」展望 ★★★★
+
+> Arabkhani B, Nemoto S, De Kerchove L, et al; De Paulis R. *The EACTS Innovation Committee's Perspective on the "Heart Valve of the Future".* EJCTS 2026;68(6):ezag185. DOI: [10.1093/ejcts/ezag185](https://doi.org/10.1093/ejcts/ezag185)
+
+> [!abstract]
+> EACTS Innovation Committee「Heart Valve of the Future」部会の公式論説（根本慎太郎氏ら13名）。現在の3潮流を **(1) 低侵襲・ロボット化、(2) 自己弁温存/形成技術の洗練、(3) bioengineered "living tissue" 弁** と整理。
+> - **アプローチ**: MIMVS・ロボット僧帽弁形成の同等成績、大動脈弁での上部部分胸骨切開／右前開胸／**経腋窩（カメラ不要・胸骨温存で患者満足度高）**、ロボット大動脈弁手術の伸長。専用シャフト器具・関節付きアーム・**自動縫合ファスナー**・専用開創器が再現性を高める。
+> - **VSARR**: Valsalva graft、cusp height計測用geometric calliper、remodeling時の外部弁輪リング、El Khoury機能分類、**術中に加圧して弁の閉鎖を直視下で生理的に評価するデバイス**、非拡大基部へのHAART annuloplasty。
+> - **生体材料**: 脱細胞化homograft（RVOT再建で最も臨床に近い）、電界紡糸による生分解性ポリマーconduit、合成ハイブリッドニット、**ポリマー弁（Tria/Foldax、僧帽弁位first-in-human 1年成績が良好）**、小児で普及する**Ozaki手術**（新生児での耐久性は課題、Rossへのbridgeという見方も）。
+> - 結論として「**今後5年が分水嶺**。弁形成を最優先し、術中評価ツールの市場投入を速め、計算モデル/AIによる耐久性予測、ロボット/低侵襲の推進、Rossの普及、脱細胞化homograftの拡大を」と提言。
+> 当院の弁膜症戦略・[[aae_technique_atlas]] の術式選択論と直接響き合う内容。
+
+---
+
+### 【追補】CABG・冠動脈外科（Surgical Heritage）
+
+#### 8. 右胃大網動脈（RGEA）をCABGに使う着想はどこから来たか（🇯🇵 須磨久善）★★★
+
+> Suma H. *How Did I Came Up With the Idea of Using the Right Gastroepiploic Artery for Coronary Artery Bypass Grafting.*（誌面表記のママ） EJCTS 2026;68(6):ezag180. DOI: [10.1093/ejcts/ezag180](https://doi.org/10.1093/ejcts/ezag180)
+
+> [!abstract]
+> **須磨久善氏本人による一次証言**。1984年、ユタ大LDS Hospitalのフェロー時代に「SVGは10年で高率に閉塞、ITAは長期開存が良く晩期生存に大きく影響する」という認識が広まっていた。翌1985年、大阪医科大学に戻り冠動脈外科チーフに就任すると、当時日本ではまだ稀だったITAの積極的使用と「第2の動脈グラフト」の探索に着手。虎の門病院の外科レジデント時代に食道外科の大家・**秋山洋**から学んだ胃切除の知見を想起し、
+> **①放射線科から無作為の腹腔動脈造影100例を借りてRGEAの走行・口径・長さのバリエーションを調査、②解剖実習室で幽門から各冠動脈までの距離を実測、③病理に依頼して切除胃標本のRGEAの動脈硬化度を評価**——という3段階の検証を経て「RGEAはCABGの動脈グラフトとして妥当」と確信した、という経緯が語られる。手技の着想から検証に至る方法論そのものが示唆に富む。EJCTSの「Surgical Heritage」枠として保存価値が高い。
+
+---
+
+#### 9. EACTSの起源：ボルチモアでの会話 ★★／若手外科医はなぜ学術的であるべきか ★★
+
+> Turina MI. *A Conversation in Baltimore: The Origins of EACTS.* EJCTS 2026;68(6):ezag181. DOI: [10.1093/ejcts/ezag181](https://doi.org/10.1093/ejcts/ezag181)
+> Caldonazo T, Runkel A, et al. *Why Should the Current Generation of Surgical Residents be Academically Active — Lessons From the Past.* EJCTS 2026;68(6):ezag113. DOI: [10.1093/ejcts/ezag113](https://doi.org/10.1093/ejcts/ezag113)
+
+> [!note]
+> 前者はEACTS創設の当事者Turinaによる回顧、後者は若手世代に向けた学術活動のすすめ。教育・キャリア形成のテーマ。
+
+---
+
+### 【追補】品質管理・レジストリ
+
+#### 10. オーストリア成人心臓外科レジストリ：全国品質保証システムの構造とガバナンス ★★★
+
+> Rizvanovic S, et al; Zuckermann A. *The Austrian Adult Cardiac Surgery Registry: Structure and Governance of a National Quality Assurance System.* EJCTS 2026;68(6):ezag179. DOI: [10.1093/ejcts/ezag179](https://doi.org/10.1093/ejcts/ezag179)
+
+> [!note]
+> ウィーン医科大（Zuckermann班）による、国家レベルの心臓外科品質保証レジストリの設計・運営・ガバナンスの記述。JCVSD（日本）やSTS/EACTS登録との比較材料として有用。
+
+---
+
+### 【追補】MCS
+
+#### 11. マイクロアキシャルポンプ（±V-A ECLS）から耐久補助へ：「荒波にかかる安全な橋」か（Editorial）★★★
+
+> Montes L, et al; Lorusso R. *Full Micro-Axial Flow Pump, With or Without V-A ECLS, Towards Durable Cardio-Circulatory Support: A Safer Bridge Over Troubled Waters?* EJCTS 2026;68(6):ezag173. DOI: [10.1093/ejcts/ezag173](https://doi.org/10.1093/ejcts/ezag173)
+
+> [!note]
+> Maastricht（Lorusso班）の論説。mAFP単独ないしECMELLAから耐久LVAD/移植へ橋渡しする戦略の妥当性を論じる。**同月のJHLT Grinstein論文（mAFP前置がdLVAD後のAI・右心不全を増やす）、翌7月号JHLTのAn/Takeda論文（Impella 5.5 の大動脈壁在血栓5例）と3点セットで読むべき**。
+
+---
+
+### 【追補】胸部外科・小児胸部外科
+
+#### 12. GGO優位肺癌の区域切除で縦隔郭清省略は腫瘍学的に安全か（JCOG1211補助解析）（🇯🇵 日本）★★★🔓
+
+> Onodera K, et al; Suzuki K. *Oncologic Safety of Omitting Mediastinal Lymph Node Dissection in Segmentectomy for Ground-Glass Opacity-Dominant Lung Cancer: A Supplementary Analysis of JCOG1211.* EJCTS 2026;68(6):ezag184. DOI: [10.1093/ejcts/ezag184](https://doi.org/10.1093/ejcts/ezag184)
+
+> [!note]
+> JCOG1211（GGO優位肺癌に対する区域切除の第II相試験）の補助解析。日本発の縮小手術エビデンスの一環。CC BY-NC でオープンアクセス。
+
+---
+
+#### 13. 小児のロボット支援解剖学的肺切除：複雑症例での開胸回避 ★★
+
+> Langeron M, et al; Khen-Dunlop N. *Robotic-Assisted Paediatric Lung Anatomical Resection: A Safe Alternative to Thoracotomy in Children's Complex Cases.* EJCTS 2026;68(6):ezag176. DOI: [10.1093/ejcts/ezag176](https://doi.org/10.1093/ejcts/ezag176)
+
+> [!abstract]
+> フランス大学病院3施設2016–2024年の小児肺切除687件中、ロボット支援30件（年齢中央値10歳、体重32.5 kg）。**術中合併症・開胸移行はゼロ**、術後合併症33%は主に軽度の air leak と胸水で自然軽快、Clavien-Dindo≥IIIは10%、在院中央値5日。慢性炎症性肺疾患が多数を占める複雑症例でも、胸腔鏡で高い開胸移行率が問題となる状況にロボットが有用と結論。
+
+---
+
+#### 14. 【正誤表】コルヒチンによる周術期心筋傷害予防（ラットモデル）
+
+> *Corrigendum to: Colchicine prevents perioperative myocardial injury in cardiac surgery by inhibiting the formation of neutrophil extracellular traps: evidence from rat models.* EJCTS 2026;68(6):ezag172. DOI: [10.1093/ejcts/ezag172](https://doi.org/10.1093/ejcts/ezag172)
+
+> [!note]
+> 7月号EJCTSにはCOP-AF試験の術式別サブグループ解析（コルヒチン）が掲載されており、併せて確認のこと。
+
+---
+
 ## 特に注目すべき論文 Top 10
 
 > [!tip] 2026年6月号 Top 10（心臓外科医の視点）
@@ -590,6 +692,8 @@ updated: 2026-06-09
 - **MV修復失敗の多くは技術的・回避可能**（Ferrel, JTCVS 237例）— 初回手術で残存MRを軽度以下にする重要性。
 - **機能性TRと治療アルゴリズム**（Kawada〔🇯🇵〕／Dreyfus, JTCVS）— FTR弁輪拡大は後尖優位、TRI-SCORE軸の治療選択。孤立性TR治療の進展。
 - **複雑心内膜炎へのhomograft**（Galeone EURECAH, JTCVS 544例）— 本領域最大規模の現代登録。
+- 〔追補〕**VSARRの高volume施設は年12例以上**（Govers, EJCTS 2,668例/37施設）— 早期成績は症例数に鈍感、差が出るのは長期の弁耐久性。集約化議論の一次資料。
+- 〔追補〕**「未来の心臓弁」EACTS提言**（Arabkhani, EJCTS）— 低侵襲/ロボット・自己弁温存・living valveの3潮流と、術中評価デバイス／脱細胞化homograft／ポリマー弁／Ozaki手術の位置づけ。
 
 ### 不整脈外科・周術期管理
 - **リウマチ弁でも同時AFアブレーションは有効**（Park, JTCVS 4,232例）— 心房線維化の懸念を覆し生存改善。
@@ -606,6 +710,7 @@ updated: 2026-06-09
 ### CABG・冠動脈外科
 - **No-touch SVGの長期優位性**（Sugaya〔🇯🇵〕, JTCVS 979例）— 5年生存・SVG関連イベントで勝り、CT形態でも裏づけ。
 - **有茎ITAの抗攣縮的優位の機序**（Zhang, JTCVS）— PVAT温存がアディポネクチン介在で弛緩増強。
+- 〔追補〕**RGEAグラフト発案の一次証言**（Suma H〔🇯🇵〕, EJCTS）— 腹腔動脈造影100例・解剖実習での実測・切除胃標本の病理評価という3段階検証。7月号のLytle（ITA）・Tatoulis（橈骨動脈）と合わせ、動脈グラフト史の連載として読める。
 
 ### 肺移植・呼吸器
 - **AATS肺サイズマッチ コンセンサス**（Chang, JTCVS）＋**レシピエントリスクが支配的**（Olson, JHLT 20,635例）— ドナー活用拡大（ECD肺は低リスクレシピエントで安全）の文脈で相補的。
@@ -614,6 +719,6 @@ updated: 2026-06-09
 
 ---
 
-*作成: 2026年6月9日 ｜ データソース: CrossRef API, PubMed E-utilities*
-*全51論文DOI機械検証済（誤リンク0件、PubMed未収載2件はCrossRefで確認） ｜ 検証ログ: output/doi_verification_2026_06.md*
-*次回更新予定: EJCTS Vol.68 Issue 6 正式発行（〜6月下旬）後に追補、JHLT Vol.45 Issue 7・JTCVS Vol.171 Issue 7（7月号）*
+*作成: 2026年6月9日 ｜ **追補: 2026年7月26日（EJCTS Vol.68 Issue 6 確定分 9編）** ｜ データソース: CrossRef API, PubMed E-utilities*
+*全60論文DOI機械検証済（誤リンク0件、PubMed未収載2件はCrossRefで確認） ｜ 検証ログ: output/doi_verification_2026_06.md（追補分は output/doi_verification_2026_07.md 併載）*
+*7月号: [[cardiac_surgery_journals_2026_07]]（JTCVS Vol.**172** Issue 1・JHLT Vol.45 Issue 7・EJCTS Vol.68 Issue 7）*

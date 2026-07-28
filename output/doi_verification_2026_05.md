@@ -151,5 +151,48 @@
 - 内訳: JTCVS 43 + JHLT 23 + EJCTS 18
 
 ---
+
+## 🆕🆕 2026-06-09 アップデート追加分（EJCTS Vol.68 Issue 5 完全版）
+
+**追加検証日時:** 2026-06-09  
+**検証方法:** CrossRef REST API（`journals/1010-7940/works`, Vol.68 Issue 5 でクライアント側フィルタ）+ PubMed esearch（DOI→PMID）で全件照合。Issue 6 発行開始により Issue 5 は **計24論文で確定**。
+
+### 分類訂正（5/16版で誤って「Online First」としていた論文 → 実際は Vol.68 Issue 5）
+
+| # | タイトル（短縮） | DOI | 訂正内容 |
+|---|---|---|---|
+| 44 | mAFP escalation before dLVAD | 10.1093/ejcts/ezag165 | OF → **V68 Iss5**（Lewin D et al. n=24） |
+| 13(旧) | AV choice in women planning pregnancy | 10.1093/ejcts/ezag168 | OF → **V68 Iss5**（Servito M et al. n=4） |
+| 16(旧) | TV determinant after ccTGA repair | 10.1093/ejcts/ezag174 | OF → **V68 Iss5**（Weixler V et al. n=2） |
+| 17(旧) | Fontan standardized approach | 10.1093/ejcts/ezag170 | OF → **V68 Iss5**（Avgeridou S et al. n=3） |
+| 18(旧) | LAAC elusive meaning of success | 10.1093/ejcts/ezag169 | OF → **V68 Iss5**（Servito M et al. n=3） |
+
+### 新規追加（5/16版に未収載だった Vol.68 Issue 5 論文 7本）
+
+| # | タイトル（短縮） | DOI | 検証結果（PMID） |
+|---|---|---|---|
+| 85 | QUACS: QoL after cardiac surgery + benefit model | 10.1093/ejcts/ezag159 | ✅ Nashef SAM, Willard J, Mills C et al. (n=8) — V68 Iss5 (PMID:42118099) |
+| 86 | Function-informed CABG (combined valve+CAD) editorial | 10.1093/ejcts/ezag167 | ✅ de Waha S, Marín-Cuartas M, Borger MA (n=3) — V68 Iss5 (PMID:42166254) |
+| 87 | Innovation in CT surgery: incremental→transformative | 10.1093/ejcts/ezag156 | ✅ Beyersdorf F, Myers PO, Gaudino M, Hazekamp M (n=4) — V68 Iss5 (PMID:42145076) |
+| 88 | RCTs in CT surgery: make sure you do it right | 10.1093/ejcts/ezag153 | ✅ Sundt TM (n=1) — V68 Iss5 (PMID:42152616) |
+| 89 | Learning vs claiming: hypothesis testing & multiplicity | 10.1093/ejcts/ezag171 | ✅ Redfors B (n=1) — V68 Iss5 (PMID:42154896) |
+| 90 | New Editor-in-Chief for the EJCTS | 10.1093/ejcts/ezag175 | ✅ Siepe M, Gaudino M (n=2) — V68 Iss5 (PMID なし — announcement) |
+| 91 | Corrigendum: AKI/aorta mortality suprarenal clamping | 10.1093/ejcts/ezag164 | ✅ Corrigendum (n=0) — V68 Iss5 (PMID:42226001) |
+
+### 継続 Online First（6/9時点 Issue未配属）
+
+| # | タイトル（短縮） | DOI | 検証結果 |
+|---|---|---|---|
+| 40(旧) | Transapical TAVR for AR multicenter trial | 10.1093/ejcts/ezag065 | ✅ Xiao B et al. — vol/iss 未付与（OF継続） |
+
+### サマリー（2026-06-09 更新後）
+- 総論文数: **91件**（5/16版84 + 6/9新規7）
+- EJCTS内訳: **Vol.68 Issue 5 = 24件確定** + Online First 1件（Xiao ezag065）
+- ✅ DOI一致: 91件（全件 CrossRef title↔DOI 照合 + PubMed PMID 確認）
+- ❌ 不一致: 0件
+- ⚠️ DOI未確認: 0件（ezag175 は学会アナウンスのためPubMed未収載だがCrossRefで確認済）
+
+---
 *初版検証完了: 2026-05-11 10:15 JST*
 *追加検証完了: 2026-05-16 22:00 JST — EJCTS Vol.68 Issue 5発行反映、Online First新規44本検証*
+*完全版検証完了: 2026-06-09 — EJCTS Vol.68 Issue 5 全24論文確定（誤分類5本訂正・新規7本検証）*

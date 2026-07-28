@@ -177,6 +177,23 @@ a:hover { text-decoration: underline; color: var(--link-hover); }
 
 hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
 ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
 li { margin-bottom: 5px; line-height: 1.6; }
 
@@ -330,21 +347,24 @@ mark {
   <main class="content">
 <h1 id="心臓外科mcslvad関連ジャーナル-2026年5月号-注目論文まとめ">心臓外科・MCS・LVAD関連ジャーナル 2026年5月号 注目論文まとめ</h1>
 
-<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対象号と論文数（2026-05-16 更新）</div>
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">対象号と論文数（2026-06-09 更新）</div>
 <ul>
 <li><strong>JTCVS</strong> Vol.171 Issue 5（2026年5月号 完成） + Online-First重要論文</li>
 <li><strong>JHLT</strong> Vol.45 Issue 5（2026年5月号 完成） + Online-First重要論文（一部はVol.45 Issue 6へ）</li>
-<li><strong>EJCTS</strong> Vol.68 Issue 5（2026年5月号 — 2026-05-11 EACTS公式発行） + Online-First</li>
-<li>収録論文数: JTCVS 21件＋OF追加15件 ＋ JHLT 19件＋OF追加13件 ＋ EJCTS 12件（Iss5）＋OF 6件 = 計86件</li>
-<li>データソース: PubMed E-utilities, CrossRef API | 初版: 2026-05-11 | 改訂: 2026-05-16</li>
+<li><strong>EJCTS</strong> Vol.68 Issue 5（<strong>全24論文確定</strong> — 2026-05-11 EACTS発行・2026-06-09 完全版） + Online-First</li>
+<li>収録論文数: JTCVS 21件＋OF追加15件 ＋ JHLT 19件＋OF追加13件 ＋ <strong>EJCTS 24件（Iss5）＋OF 1件</strong> = 計93件</li>
+<li>データソース: PubMed E-utilities, CrossRef API | 初版: 2026-05-11 | 改訂: 2026-05-16 → 2026-06-09（EJCTS完全版）</li>
 <li>関連ファイル: cardiothoracic_journals_schedule | cardiac_surgery_journals_2026_04</li>
 <li>DOI検証ログ: output/doi_verification_2026_05.md</li>
 </ul>
 </div>
 
-<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">2026-05-16 アップデート概要</div>
-<p>初版（2026-05-11）作成時、EJCTS Vol.68 Issue 5は発行進行中で <strong>Online First 5本のみ</strong> を掲載していた。 5月11日にEACTSが正式発行し、Issue 5は <strong>12論文</strong> で構成された。本改訂で全12論文を反映。 あわせてJTCVS・JHLTの新規Online First論文（5/11以降にCrossRef登録された主要論文）も追加。 特筆: <strong>ISHLT ALADコンセンサス</strong>（Juvet, JHLT 52著者）、<strong>AATS 2026 N2+ NSCLC コンセンサス</strong>（Linden, JTCVS）、 <strong>Coselli 10年Marfan AVR vs AVS多施設研究</strong>（JTCVS）、<strong>10°C SCS心臓移植成績改善</strong>（Ahmad, JHLT）等。</p>
+<div class="callout" style="background:#fff3e0;border-left:4px solid #ff9100;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#ff9100;font-weight:700;margin-bottom:4px;font-size:0.82rem;">2026-06-09 アップデート概要（EJCTS Issue 5 完全版）</div>
+<p>初版（5/11）はEJCTS Online First 5本のみ、5/16改訂でも <strong>17論文</strong>（うち5本を誤って「Online First」分類）に留まっていた。 6/9にCrossRef（ISSN 1010-7940, Vol.68 Issue 5）で全件照合した結果、<strong>Issue 5は計24論文</strong>で確定（Issue 6発行開始により確定）。 本改訂で誤分類5本（ezag165/168/174/170/169）をIssue 5へ再整理し、未収載7本を追加。 最重要追加: <strong>Nashef QUACS研究</strong>（心臓手術後QOL便益予測モデル, 全国2762例, ezag159, ★★★★）。 他に de Waha 機能ベースCABG論説、Beyersdorf イノベーション論説、Sundt/Redfors 研究方法論シリーズ、Siepe 新編集長就任、Corrigendum を追加。</p>
 </div>
+>
+> （参考・5/16既反映）**ISHLT ALADコンセンサス**（Juvet, JHLT 52著者）、**AATS 2026 N2+ NSCLC コンセンサス**（Linden, JTCVS）、
+> **Coselli 10年Marfan AVR vs AVS多施設研究**（JTCVS）、**10°C SCS心臓移植成績改善**（Ahmad, JHLT）等も収載。
 
 <hr />
 <h2 id="jtcvsjournal-of-thoracic-and-cardiovascular-surgery">JTCVS（Journal of Thoracic and Cardiovascular Surgery）</h2>
@@ -999,14 +1019,25 @@ mark {
 
 <hr />
 <h2 id="ejctseuropean-journal-of-cardio-thoracic-surgery">EJCTS（European Journal of Cardio-Thoracic Surgery）</h2>
-<p><strong>2026年5月号｜Vol.68 Issue 5（pp.発行完了 — 2026-05-11 EACTS発行）</strong></p>
+<p><strong>2026年5月号｜Vol.68 Issue 5（全24論文 — 2026-05-11 EACTS発行・2026-06-09 全件確定）</strong></p>
 
-<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">発行状況更新（2026-05-16）</div>
-<p>EJCTS Vol.68 Issue 5は2026-05-11にEACTS公式発行完了。<strong>Issue 5には12論文</strong>が掲載された。 初版（5/11）で既収載の5論文はすべて Online First のまま（Issue配属未確定）。</p>
+<div class="callout" style="background:#e8f5e9;border-left:4px solid #00c853;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00c853;font-weight:700;margin-bottom:4px;font-size:0.82rem;">発行状況更新（2026-06-09 完全版）</div>
+<p>EJCTS Vol.68 Issue 5は <strong>計24論文</strong> で確定（Issue 6が既に発行開始しており本号は確定）。 5/16時点では17論文のみ反映し、うち5論文（ezag165/168/174/170/169）を誤って「Online First」分類していた。 本改訂（6/9）で全24論文をIssue 5として再整理し、未収載だった7論文を追加： <strong>Nashef QUACS（QOL便益予測, ezag159）</strong>、de Waha 機能ベースCABG論説（ezag167）、 Beyersdorf イノベーション論説（ezag156）、Sundt RCT方法論（ezag153）、Redfors 統計多重性（ezag171）、 Siepe 新編集長就任（ezag175）、Corrigendum（ezag164）。 なお Xiao 経心尖AR-TAVR（ezag065）のみ 6/9 時点でも Online First（Issue未配属）。</p>
+</div>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">📥 本文PDF入手済（✅DL済 表記｜2026-06-09）</div>
+<p>以下5本の本文PDFを取得しローカル整理済（見出しに <strong>✅DL済</strong> を付記）:</p>
+<ul>
+<li><strong>ezag157</strong>（Lorusso, ESC/EACTS臨床コンセンサス声明）→ <code>Cardiac_Surgery_Guidelines/reference/Europe/Coronary_Artery_Disease/ESC_EACTS_2026_Post_AMI_Mechanical_Complications_Consensus.pdf</code></li>
+<li><strong>ezag158</strong>（Marín-Cuartas, Surgeons' Notebook）→ <code>Cardiac_Surgery_Guidelines/reference/Europe/Valvular_Heart_Disease/ESC_EACTS_2025_Valvular_Heart_Disease_Surgical_Implications.pdf</code></li>
+<li><strong>ezag160</strong>（Arai, 三尖弁修復レビュー）→ <code>All Papers/Clinical/Valve/2026_Arai_EJCTS_Anatomy-based-Tricuspid-Repair-RV-Dysfunction.pdf</code></li>
+<li><strong>ezag165</strong>（Lewin, mAFP段階化）→ <code>All Papers/Clinical/VAD/2026_Lewin_EJCTS_Microaxial-Escalation-to-LVAD.pdf</code>（既存・重複DL）</li>
+<li><strong>ezag167</strong>（de Waha, 機能ベースCABG論説）→ <code>All Papers/Clinical/Coronary/2026_deWaha_EJCTS_Function-Informed-CABG-Valve-CAD.pdf</code></li>
+</ul>
 </div>
 
 <hr />
-<h3 id="vol68-issue-5-掲載論文2026-05-11-発行">Vol.68 Issue 5 掲載論文（2026-05-11 発行）</h3>
+<h3 id="vol68-issue-5-掲載論文全24論文2026-06-09-完全版">Vol.68 Issue 5 掲載論文（全24論文｜2026-06-09 完全版）</h3>
 <h4 id="1-低リスク患者の自己拡張型tavr-vs-savr長期追跡データが示すもの-">1. 低リスク患者の自己拡張型TAVR vs SAVR：長期追跡データが示すもの ★★★★★</h4>
 <blockquote>
 <p>Heuts S, Marin-Cuartas M, Borger MA. <em>Longer-Term Follow-up of Self-Expanding Transcatheter Versus Surgical Aortic Valve Replacement in Low Risk Patients: What Does the Data Tell Us?</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag120">10.1093/ejcts/ezag120</a></p>
@@ -1017,17 +1048,17 @@ mark {
 </div>
 
 <hr />
-<h4 id="2-急性心筋梗塞合併の心室自由壁破裂偽性瘤乳頭筋断裂包括レビュー-">2. 急性心筋梗塞合併の心室自由壁破裂・偽性瘤・乳頭筋断裂：包括レビュー ★★★★★</h4>
+<h4 id="2-急性心筋梗塞合併の心室自由壁破裂偽性瘤乳頭筋断裂esceacts臨床コンセンサス声明--white_check_markdl済">2. 急性心筋梗塞合併の心室自由壁破裂・偽性瘤・乳頭筋断裂：ESC/EACTS臨床コンセンサス声明 ★★★★★ ✅DL済</h4>
 <blockquote>
 <p>Lorusso R, Matteucci M, Ronco D, et al. <em>Ventricular free-wall rupture, ventricular pseudoaneurysm, and papillary muscle rupture complicating acute myocardial infarction.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag157">10.1093/ejcts/ezag157</a></p>
 </blockquote>
 
 <div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
-<p>AMI後の機械的合併症（自由壁破裂・偽性瘤・乳頭筋断裂）は再灌流療法の進歩で&lt;1%まで減少したが、依然として致死率が高い。35名共著（Maastricht Lorussoグループ主導）による包括的レビュー。診断・血行動態評価・外科適応・MCSサポート・カテーテルベース介入・術後管理の全範囲を体系化。AMI合併mechanical complicationの現代的標準を確立。</p>
+<p>AMI後の機械的合併症（自由壁破裂・偽性瘤・乳頭筋断裂）は再灌流療法の進歩で&lt;1%まで減少したが、依然として致死率が高い。<strong>ESC心臓血管外科ワーキンググループ・EACTSをはじめとする多学会合同の臨床コンセンサス声明</strong>（35名共著, Lorusso主導）。診断・血行動態評価・外科適応・MCSサポート・カテーテルベース介入・術後管理の全範囲を体系化。AMI合併mechanical complicationの現代的標準を確立。本号Top表★5級の重要文書。</p>
 </div>
 
 <hr />
-<h4 id="3-2025-esceacts弁膜症ガイドラインの外科的含意橋渡し総括-">3. 2025 ESC/EACTS弁膜症ガイドラインの外科的含意：橋渡し総括 ★★★★★</h4>
+<h4 id="3-2025-esceacts弁膜症ガイドラインの外科的含意橋渡し総括surgeons-notebook--white_check_markdl済">3. 2025 ESC/EACTS弁膜症ガイドラインの外科的含意：橋渡し総括（Surgeons' Notebook） ★★★★★ ✅DL済</h4>
 <blockquote>
 <p>Marín-Cuartas M, de Waha S, Borger MA. <em>Surgical Implications of the 2025 ESC/EACTS Guidelines for the Management of Valvular Heart Disease: Key Recommendations Bridging Guidelines and Clinical Practice.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag158">10.1093/ejcts/ezag158</a></p>
 </blockquote>
@@ -1067,7 +1098,7 @@ mark {
 </div>
 
 <hr />
-<h4 id="7-rv機能不全への解剖学的基礎による三尖弁修復annuloplasty超えjp-日本-">7. RV機能不全への解剖学的基礎による三尖弁修復：annuloplasty超え（🇯🇵 日本） ★★★★</h4>
+<h4 id="7-rv機能不全への解剖学的基礎による三尖弁修復annuloplasty超えjp-日本--white_check_markdl済">7. RV機能不全への解剖学的基礎による三尖弁修復：annuloplasty超え（🇯🇵 日本） ★★★★ ✅DL済</h4>
 <blockquote>
 <p>Arai H, Grau JB. <em>Beyond Annuloplasty: Anatomy-based Tricuspid Valve Repair for Right Ventricular Dysfunction.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag160">10.1093/ejcts/ezag160</a></p>
 </blockquote>
@@ -1127,21 +1158,9 @@ mark {
 </div>
 
 <hr />
-<h3 id="ejcts-online-firstissue配属未確定">EJCTS Online First（Issue配属未確定）</h3>
-<h4 id="13-妊娠予定女性への大動脈弁選択適切な弁を適切な時期にコメンタリー-">13. 妊娠予定女性への大動脈弁選択：適切な弁を適切な時期に（コメンタリー） ★★★</h4>
+<h4 id="13-マイクロアキシャルフローポンプmafp部分全補助への段階的強化がdlvad前の転帰に与える影響24著者17欧州施設130例--white_check_markdl済">13. マイクロアキシャルフローポンプ（mAFP）部分→全補助への段階的強化がdLVAD前の転帰に与える影響（24著者・17欧州施設130例） ★★★★ ✅DL済</h4>
 <blockquote>
-<p>Servito M, Tawfik J, Tam DY, et al. <em>The Right Valve at the Right Time: aortic Valve Choice in Women Planning Pregnancy.</em> EJCTS Online First. DOI: <a href="https://doi.org/10.1093/ejcts/ezag168">10.1093/ejcts/ezag168</a></p>
-</blockquote>
-
-<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
-<p>妊娠予定の女性AS/AR患者の弁選択戦略（生体弁・機械弁・Ross・修復）を論じたコメンタリー。抗凝固管理・弁劣化・将来の再手術リスクのバランスを整理。日本における若年女性弁膜症患者の意思決定にも参照可能。</p>
-</div>
-
-<hr />
-<h3 id="ejcts-online-first初版511時点で収載済">EJCTS Online First（初版5/11時点で収載済）</h3>
-<h4 id="14-マイクロアキシャルフローポンプmafp部分から全補助への段階的強化がdlvad前の転帰に与える影響17欧州施設130例-">14. マイクロアキシャルフローポンプ（mAFP）部分から全補助への段階的強化がdLVAD前の転帰に与える影響（17欧州施設・130例） ★★★★</h4>
-<blockquote>
-<p>Lewin D, et al. <em>Impact of partial- to full-support escalation with microaxial flow pumps prior to durable left ventricular assist device implantation.</em> EJCTS Online First. DOI: <a href="https://doi.org/10.1093/ejcts/ezag165">10.1093/ejcts/ezag165</a></p>
+<p>Lewin D, et al. <em>Impact of partial- to full-support escalation with microaxial flow pumps prior to durable left ventricular assist device implantation.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag165">10.1093/ejcts/ezag165</a></p>
 </blockquote>
 
 <div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
@@ -1149,19 +1168,29 @@ mark {
 </div>
 
 <hr />
-<h4 id="15-経心尖的カテーテル弁植込みar多施設前向き試験中国15施設142例-">15. 経心尖的カテーテル弁植込み（AR）：多施設前向き試験（中国15施設・142例） ★★★</h4>
+<h4 id="14-new-quacs心臓手術後のqol変化と便益予測モデル英国全国多施設前向き2762例-">14. 🆕 QUACS：心臓手術後のQOL変化と便益予測モデル（英国全国多施設前向き2762例） ★★★★</h4>
 <blockquote>
-<p>Xiao B, et al. <em>Transapical transcatheter valve implantation for aortic regurgitation: a multicenter, prospective trial.</em> EJCTS Online First. DOI: <a href="https://doi.org/10.1093/ejcts/ezag065">10.1093/ejcts/ezag065</a></p>
+<p>Nashef SAM, Willard J, Mills C, et al. <em>Quality of Life After Cardiac Surgery: The QUACS Study and Benefit Prediction Model.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag159">10.1093/ejcts/ezag159</a></p>
 </blockquote>
 
 <div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
-<p>重症純粋大動脈弁逆流（AR）または混合AR＋ASに対する新規自己拡張型生体弁（Ken-Valve）を用いた経心尖TAVRの安全性と有効性を1年追跡で評価。中国15施設で2021–2022年に施行した142例（純粋AR 109例、AR+AS 33例）。純粋ARに対するTAVRはアンカリング困難のためデバイス選択が限られ、本試験はアジア初の多施設前向きデータとして注目される。</p>
+<p>安全性向上により高リスク・フレイル患者へも心臓手術が拡大する中、「生存」だけでなく「QOL便益を得られない・むしろ害される患者」を術前に同定することを目的とした英国全国多施設前向き研究（2019–2023、EuroSCORE II≥3または logistic EuroSCORE≥6）。2948例登録（解析2762例、平均72.9歳、女性39.6%）。院内死亡3.93%、退院後死亡5.86%。術後1年で有症状患者の <strong>74%</strong> がQOL正味便益を達成したが、無症状とされた患者では <strong>18%</strong> のみ。QOL便益が得られないリスク因子を同定し、術前QOL便益確率を定量化する <strong>calculator</strong> を開発（NCT04231461）。EuroSCORE創案者Nashef（Royal Papworth）による、心臓手術のインフォームドコンセント・適応判断を変えうる重要研究。手法は他の侵襲的大手術にも応用可能。</p>
+</div>
+
+<hr />
+<h4 id="15-妊娠予定女性への大動脈弁選択適切な弁を適切な時期にコメンタリー-">15. 妊娠予定女性への大動脈弁選択：適切な弁を適切な時期に（コメンタリー） ★★★</h4>
+<blockquote>
+<p>Servito M, Tawfik J, Tam DY, et al. <em>The Right Valve at the Right Time: Aortic Valve Choice in Women Planning Pregnancy.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag168">10.1093/ejcts/ezag168</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
+<p>妊娠予定の女性AS/AR患者の弁選択戦略（生体弁・機械弁・Ross・修復）を論じたコメンタリー。抗凝固管理・弁劣化・将来の再手術リスクのバランスを整理。日本における若年女性弁膜症患者の意思決定にも参照可能。</p>
 </div>
 
 <hr />
 <h4 id="16-cctga修復後の長期成功の鍵としての三尖弁-">16. ccTGA修復後の長期成功の鍵としての三尖弁 ★★★</h4>
 <blockquote>
-<p>Weixler V, et al. <em>Beyond survival - Tricuspid valve as key determinant for long-term success after ccTGA repair.</em> EJCTS Online First. DOI: <a href="https://doi.org/10.1093/ejcts/ezag174">10.1093/ejcts/ezag174</a></p>
+<p>Weixler V, et al. <em>Beyond survival - Tricuspid valve as key determinant for long-term success after ccTGA repair.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag174">10.1093/ejcts/ezag174</a></p>
 </blockquote>
 
 <div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
@@ -1169,9 +1198,19 @@ mark {
 </div>
 
 <hr />
-<h4 id="17-fontanループ患者への標準化アプローチの利点-">17. Fontanループ患者への標準化アプローチの利点 ★★</h4>
+<h4 id="17-new-弁膜症冠動脈合併病変に機能評価ベースcabgは妥当か編集論説--white_check_markdl済">17. 🆕 弁膜症＋冠動脈合併病変に機能評価ベースCABGは妥当か（編集論説） ★★★ ✅DL済</h4>
 <blockquote>
-<p>Avgeridou S, et al. <em>The benefits of a standardized approach in Fontan patients-an Effective Approach for Tailoring Treatment to Individual Needs.</em> EJCTS Online First. DOI: <a href="https://doi.org/10.1093/ejcts/ezag170">10.1093/ejcts/ezag170</a></p>
+<p>de Waha S, Marín-Cuartas M, Borger MA. <em>Is Function-Informed Coronary Bypass Grafting the Way to Go in Patients With Combined Valvular and Coronary Disease?</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag167">10.1093/ejcts/ezag167</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
+<p>弁膜症手術に冠動脈病変を合併する症例で、機能的虚血評価（FFR/iFR等）に基づくグラフト選択戦略の妥当性を論じたLeipzigグループ（de Waha, Marín-Cuartas, Borger）による編集論説。解剖学的狭窄に依らない機能ベースCABGの是非を提起。</p>
+</div>
+
+<hr />
+<h4 id="18-fontan患者への標準化アプローチの利点-">18. Fontan患者への標準化アプローチの利点 ★★</h4>
+<blockquote>
+<p>Avgeridou S, et al. <em>The Benefits of a Standardized Approach in Fontan Patients–an Effective Approach for Tailoring Treatment to Individual Needs.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag170">10.1093/ejcts/ezag170</a></p>
 </blockquote>
 
 <div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
@@ -1179,20 +1218,88 @@ mark {
 </div>
 
 <hr />
-<h4 id="18-左心耳閉鎖の成功の意味未解決の問いcommentary-">18. 左心耳閉鎖の「成功」の意味：未解決の問い（Commentary） ★★</h4>
+<h4 id="19-左心耳閉鎖の成功の意味未解決の問いコメンタリー-">19. 左心耳閉鎖の「成功」の意味：未解決の問い（コメンタリー） ★★</h4>
 <blockquote>
-<p>Servito M, et al. <em>More questions than answers: the elusive meaning of success in left atrial appendage closure.</em> EJCTS Online First. DOI: <a href="https://doi.org/10.1093/ejcts/ezag169">10.1093/ejcts/ezag169</a></p>
+<p>Servito M, et al. <em>More Questions Than Answers: The Elusive Meaning of Success in Left Atrial Appendage Closure.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag169">10.1093/ejcts/ezag169</a></p>
 </blockquote>
 
 <div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
-<p>左心耳閉鎖術（LAAC）における「成功」の定義・エンドポイント・評価基準の曖昧さを問題提起するコメンタリー。LAAC領域の方法論的課題を議論。</p>
+<p>左心耳閉鎖術（LAAC）における「成功」の定義・エンドポイント・評価基準の曖昧さを問題提起するコメンタリー（#4 Vadのシステマティックレビューと対をなす）。LAAC領域の方法論的課題を議論。</p>
+</div>
+
+<hr />
+<h3 id="ejcts-研究方法論イノベーション特集編集論説">EJCTS 研究方法論・イノベーション特集（編集論説）</h3>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p>本号には心臓胸部外科のエビデンス創出に関する編集論説が複数掲載された（Sundt・Redfors・Beyersdorf）。RCT実施・統計的多重性・破壊的イノベーションをテーマとする方法論シリーズ。</p>
+</div>
+
+<h4 id="20-new-心臓胸部外科のイノベーション漸進的進歩から変革へ編集論説-">20. 🆕 心臓胸部外科のイノベーション：漸進的進歩から変革へ（編集論説） ★★</h4>
+<blockquote>
+<p>Beyersdorf F, Myers PO, Gaudino M, Hazekamp M. <em>Innovation in Cardiothoracic Surgery: From Incremental Progress to Transformative Change.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag156">10.1093/ejcts/ezag156</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
+<p>心臓胸部外科における技術革新を「漸進的進歩」から「変革的（transformative）変化」へと位置づけ直す編集論説。Beyersdorf（前EJCTS編集長）、Myers、Gaudino、Hazekampら学会指導層による展望。</p>
+</div>
+
+<hr />
+<h4 id="21-new-心臓胸部外科のrct正しく実施するために方法論論説-">21. 🆕 心臓胸部外科のRCT：正しく実施するために（方法論論説） ★★</h4>
+<blockquote>
+<p>Sundt TM. <em>Randomized Trials in Cardiothoracic Surgery: Make Sure You Do It Right.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag153">10.1093/ejcts/ezag153</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
+<p>外科領域でのRCT実施上の落とし穴（術者習熟・盲検化困難・群間クロスオーバー等）を論じ、質の高い無作為化試験のデザイン要件を整理したSundt（MGH）による方法論論説。</p>
+</div>
+
+<hr />
+<h4 id="22-new-学ぶことと主張することの違い仮説検定と多重性制御は文脈に依存方法論論説-">22. 🆕 「学ぶ」ことと「主張する」ことの違い：仮説検定と多重性制御は文脈に依存（方法論論説） ★★</h4>
+<blockquote>
+<p>Redfors B. <em>The Difference Between Learning and Claiming: Why Hypothesis Testing and Multiplicity Control Should Depend on Context.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag171">10.1093/ejcts/ezag171</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
+<p>探索的解析（learning）と確証的主張（claiming）を区別し、仮説検定・多重比較補正の厳格さは研究文脈に応じて変えるべきと論じたRedforsによる統計方法論論説。サブグループ・副次評価項目の解釈に直結。</p>
+</div>
+
+<hr />
+<h3 id="ejcts-学会編集その他">EJCTS 学会・編集（その他）</h3>
+<h4 id="23-new-ejcts新編集長就任過去を振り返り頁をめくり未来を見据えてアナウンスメント-">23. 🆕 EJCTS新編集長就任：過去を振り返り、頁をめくり、未来を見据えて（アナウンスメント） ★</h4>
+<blockquote>
+<p>Siepe M, Gaudino M. <em>New Editor-in-Chief for the EJCTS: Reflecting on the Past, Turning the Page, and Looking Ahead.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag175">10.1093/ejcts/ezag175</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p>Matthias SiepeがEJCTS新編集長に就任し、本号で今後の編集方針を表明（Gaudino共著）。</p>
+</div>
+
+<hr />
+<h4 id="24-new-corrigendum腹部大動脈傍腎遮断手術におけるaki大動脈関連死亡-">24. 🆕 Corrigendum：腹部大動脈傍腎遮断手術におけるAKI・大動脈関連死亡 ★</h4>
+<blockquote>
+<p><em>Corrigendum to: Acute kidney injury and aorta-related mortality during open surgery of the abdominal aorta with suprarenal clamping using different renal protection strategies.</em> EJCTS 2026;68(5). DOI: <a href="https://doi.org/10.1093/ejcts/ezag164">10.1093/ejcts/ezag164</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e8f0fe;border-left:4px solid #448aff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#448aff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Note</div>
+<p>既発表論文（腎保護戦略別の傍腎遮断手術成績）の訂正記事。</p>
+</div>
+
+<hr />
+<h3 id="ejcts-online-firstissue未配属">EJCTS Online First（Issue未配属）</h3>
+<h4 id="25-経心尖的カテーテル弁植込みar多施設前向き試験中国15施設142例-">25. 経心尖的カテーテル弁植込み（AR）：多施設前向き試験（中国15施設・142例） ★★★</h4>
+<blockquote>
+<p>Xiao B, et al. <em>Transapical transcatheter valve implantation for aortic regurgitation: a multicenter, prospective trial.</em> EJCTS Online First. DOI: <a href="https://doi.org/10.1093/ejcts/ezag065">10.1093/ejcts/ezag065</a></p>
+</blockquote>
+
+<div class="callout" style="background:#e1f5fe;border-left:4px solid #00b0ff;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00b0ff;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Abstract</div>
+<p>重症純粋大動脈弁逆流（AR）または混合AR＋ASに対する新規自己拡張型生体弁（Ken-Valve）を用いた経心尖TAVRの安全性と有効性を1年追跡で評価。中国15施設で2021–2022年に施行した142例（純粋AR 109例、AR+AS 33例）。純粋ARに対するTAVRはアンカリング困難のためデバイス選択が限られ、本試験はアジア初の多施設前向きデータとして注目される。2026-06-09時点でも Online First のまま（Issue未配属）。</p>
 </div>
 
 <hr />
 <h2 id="特に注目すべき論文-一覧表">特に注目すべき論文 一覧表</h2>
 
 <div class="callout" style="background:#e0f7f4;border-left:4px solid #00bfa5;padding:12px 16px;margin:10px 0 18px;border-radius:4px;font-size:0.86rem;line-height:1.65;"><div class="callout-title" style="color:#00bfa5;font-weight:700;margin-bottom:4px;font-size:0.82rem;">Tip</div>
-<p>今月のTop 15（★4以上 + 2026-05-16 改訂版コンセンサス含む）</p>
+<p>今月のTop 16（★4以上 + 2026-06-09 EJCTS完全版で QUACS 追加）</p>
 </div>
 
 <div class="table-wrap"><table>
@@ -1327,9 +1434,17 @@ mark {
 <td>ASSIST CLAD：MSC第2相RCT</td>
 <td>肺移植</td>
 </tr>
+<tr>
+<td>16</td>
+<td>★★★★</td>
+<td>EJCTS</td>
+<td>Nashef SAM et al. 🆕🆕</td>
+<td>QUACS：心臓手術後QOL便益予測モデル（全国2762例）</td>
+<td>周術期/QOL</td>
+</tr>
 </tbody>
 </table></div>
-<p>🆕 = 2026-05-16 アップデートで追加された新規論文</p>
+<p>🆕 = 2026-05-16 アップデートで追加 ／ 🆕🆕 = 2026-06-09 EJCTS完全版で追加</p>
 <hr />
 <h2 id="キーポイント総括">キーポイント総括</h2>
 <h3 id="mcs--lvad">MCS / LVAD</h3>
@@ -1382,8 +1497,17 @@ mark {
 <li><strong>Arai（東京医科歯科）解剖学的tricuspid valve repair</strong> — 日本からの重要review</li>
 <li><strong>Sharew: AMVP外科vs TEER</strong>（1911例）— Arrhythmic MVPの治療選択戦略</li>
 </ul>
+<h3 id="newnew-2026-06-09-追加--ejcts-vol68-issue-5-完全版1724論文">🆕🆕 2026-06-09 追加 — EJCTS Vol.68 Issue 5 完全版（17→24論文）</h3>
+<ul>
+<li><strong>Nashef QUACS（ezag159, ★★★★）</strong> — 心臓手術後QOLを全国前向き2762例で評価。有症状患者の74%が1年でQOL便益を達成する一方、無症状例では18%のみ。便益確率を術前予測する calculator を開発。EuroSCORE創案者によるインフォームドコンセントを変えうる研究</li>
+<li><strong>de Waha 機能ベースCABG論説</strong>（ezag167）— 弁＋冠動脈合併病変でのFFR/iFRベースグラフト選択の是非（Leipzig）</li>
+<li><strong>EJCTS 研究方法論・イノベーション特集</strong> — Beyersdorf（イノベーション論, ezag156）／Sundt（RCT実施法, ezag153）／Redfors（仮説検定と多重性制御, ezag171）の編集論説クラスター</li>
+<li><strong>Siepe 新編集長就任</strong>（ezag175）／Corrigendum（傍腎遮断手術AKI, ezag164）</li>
+<li><strong>誤分類の訂正</strong>: 5/16版で「Online First」としていた5論文（Lewin mAFP段階化 ezag165／Servito妊娠女性弁選択 ezag168／Weixler ccTGA ezag174／Avgeridou Fontan ezag170／Servito LAAC論説 ezag169）はすべて Vol.68 Issue 5 掲載と確認</li>
+<li><strong>継続Online First</strong>: Xiao 経心尖AR-TAVR（中国15施設142例, ezag065）のみ 6/9 時点で Issue未配属</li>
+</ul>
 <hr />
-<p><em>初版: 2026年5月11日 10:15 JST</em> <em>改訂: 2026年5月16日 22:00 JST — EJCTS Vol.68 Issue 5発行完了反映、JTCVS/JHLTの5月11日以降Online First追加、Top 15ランキング更新</em> <em>DOI検証ログ: output/doi_verification_2026_05.md</em></p>
+<p><em>初版: 2026年5月11日 10:15 JST</em> <em>改訂: 2026年5月16日 22:00 JST — EJCTS Vol.68 Issue 5発行完了反映、JTCVS/JHLTの5月11日以降Online First追加、Top 15ランキング更新</em> <em>改訂: 2026年6月9日 — EJCTS Vol.68 Issue 5 完全版（全24論文）確定。誤分類5本を訂正、未収載7本（Nashef QUACS他）追加、Top 16へ更新</em> <em>DOI検証ログ: output/doi_verification_2026_05.md</em></p>
 
   </main>
 </div>
