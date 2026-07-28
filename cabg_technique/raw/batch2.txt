@@ -1,0 +1,718 @@
+### Q_ttfm  (40)
+18830071	2008	Curr Opin Cardiol	Intraoperative coronary graft assessment
+34318225	2021	JTCVS Tech	Intraoperative graft patency validation: Friend or foe?
+27366820	2017	J Cardiovasc Med (Hagerstown	Intraoperative graft verification in coronary surgery
+35381352	2023	Semin Thorac Cardiovasc Surg	Transit-Time Flow Measurement and Outcomes in Coronary Artery Bypass Graft Patients
+22433733	2012	J Cardiovasc Surg (Torino)	Intraoperative quality control in vascular surgery
+30505750	2018	Ann Cardiothorac Surg	The use of intraoperative graft assessment in guiding graft revision
+20682631	2010	Interact Cardiovasc Thorac S	Can transit-time flow measurement improve graft patency and clinical outcome in patients undergoing coronary artery bypa
+39272686	2024	Diagnostics (Basel)	Intraoperative Prediction of Coronary Graft Failure Based on Transit Time Flow Measurement: A PRELIMINARY STUDY
+34606302	2021	Circulation	The Use of Intraoperative Transit Time Flow Measurement for Coronary Artery Bypass Surgery: Systematic Review of the Evi
+39578831	2024	J Cardiothorac Surg	Fast Fourier transform analysis of intraoperative transit-time flow measurement during coronary artery bypass grafting
+36276694	2022	JTCVS Tech	Graft flow evaluation with intraoperative transit-time flow measurement in off-pump versus on-pump coronary artery bypas
+27298393	2017	Eur J Cardiothorac Surg	Techniques and standards in intraoperative graft verification by transit time flow measurement after coronary artery byp
+31730721	2020	J Card Surg	Intraoperative graft flow profiles in coronary artery bypass surgery: A meta-analysis
+31685277	2020	J Thorac Cardiovasc Surg	Intraoperative transit-time flow measurement and high-frequency ultrasound assessment in coronary artery bypass grafting
+11673148	2001	Heart Surg Forum	Graft control by transit time flow measurement and intraoperative angiography in coronary artery bypass surgery
+19942118	2009	Semin Thorac Cardiovasc Surg	Intraoperative grafts assessment
+21969147	2011	Surg Today	Assessing intraoperative blood flow in cardiovascular surgery
+35242366	2022	J Thorac Dis	Transit time flow measurement and outcome in coronary artery bypass grafting for surgeon and trainee
+38839351	2024	Circ J	Preoperative Quantitative Flow Ratio, Intraoperative Transit Time Flow Measurement Parameters, and Their Predictive Valu
+40889552	2026	J Thorac Cardiovasc Surg	Prediction of graft patency during the year following coronary artery bypass grafting: Preoperative computed tomography-
+32082731	2018	Turk Gogus Kalp Damar Cerrah	Intraoperative transit-time flow measurement in on-pump coronary artery bypass graft surgery: Single center experience
+34243799	2021	J Cardiothorac Surg	Transit time flow measurement of coronary bypass grafts before and after protamine administration
+29605596	2018	Ann Thorac Surg	Intraoperative Bypass Graft Flow Measurement With Transit Time Flowmetry: A Clinical Assessment
+34166508	2021	Eur J Cardiothorac Surg	Intraoperative transit-time flow measurement and high-frequency ultrasound in coronary artery bypass grafting: impact in
+30907418	2019	Eur J Cardiothorac Surg	Improving coronary artery bypass grafting: a systematic review and meta-analysis on the impact of adopting transit-time 
+36066981	2022	Kardiologiia	The Algorithm for Using Transit-time Flow Measurement and High-resolution Epicardial Ultrasound for Intraoperative Graft
+34460327	2021	Circulation	Saphenous Vein Graft Failure: From Pathophysiology to Prevention and Treatment Strategies
+34718571	2022	Interact Cardiovasc Thorac S	Graft flow assessment and early coronary artery bypass graft failure: a computed tomography analysis
+20031439	2010	Eur J Cardiothorac Surg	Pulsatility index variations using two different transit-time flowmeters in coronary artery bypass surgery
+24086086	2013	Eur Heart J	Coronary artery bypass grafting: Part 2--optimizing outcomes and future prospects
+18640329	2008	Ann Thorac Surg	Predicting midterm coronary artery bypass graft failure by intraoperative transit time flow measurement
+18036908	2007	Ann Thorac Surg	Predicting early coronary artery bypass graft failure by intraoperative transit time flow measurement
+39496296	2025	Thorac Cardiovasc Surg	Intraoperative Invasive Coronary Angiography after Coronary Artery Bypass Grafting
+33060952	2018	Indian J Thorac Cardiovasc S	Intraoperative graft assessment and imaging of native coronary arteries
+35998272	2022	J Card Surg	The use of intraoperative transit time flow measurement can reduce postoperative myocardial injury
+32393000	2020	Zhonghua Wai Ke Za Zhi	[Strengthening the quality control of coronary artery bypass grafting]
+16305862	2005	Ann Thorac Surg	Intraoperative transit time flow measurement: off-pump versus on-pump coronary artery bypass
+38126056	2023	J Cardiol Cases	Flow characteristics of in-situ internal thoracic artery graft with competitive flow
+35499921	2022	Innovations (Phila)	Transit Time Flow Measurement in Robotic Totally Endoscopic Coronary Artery Bypass: What Do the Numbers Mean?
+31985189	2020	J Cardiovasc Surg (Torino)	Blood flow assessment by transit time flow measurement and its prognostic impact in coronary bypass surgery
+
+### R_epiaortic  (40)
+11584170	2001	Curr Opin Cardiol	Minimally invasive CABG
+26153474	2015	Gen Thorac Cardiovasc Surg	Stroke associated with coronary artery bypass grafting
+21511187	2011	Heart Lung Circ	Coronary artery bypass grafting with and without manipulation of the ascending aorta--a meta-analysis
+28858911	2017	Curr Opin Cardiol	Less-invasive coronary artery bypass grafting international landscape and progress
+22451446	2012	Circ J	Off-pump coronary artery bypass grafting--the current state
+27942398	2016	J Thorac Dis	Off-pump coronary artery bypass grafting in octogenarians
+28231944	2017	J Am Coll Cardiol	Coronary Artery Bypass Grafting With and Without Manipulation of the Ascending Aorta: A Network Meta-Analysis
+24086086	2013	Eur Heart J	Coronary artery bypass grafting: Part 2--optimizing outcomes and future prospects
+31125606	2019	Semin Thorac Cardiovasc Surg	Current Readings on Outcomes After Off-Pump Coronary Artery Bypass Grafting
+19506319	2009	Circ J	Radial artery as a graft for coronary artery bypass grafting
+29398195	2018	J Clin Neurosci	Does epiaortic ultrasound screening reduce perioperative stroke in patients undergoing coronary surgery? A topical revie
+28972063	2017	Circulation	Current Practice of State-of-the-Art Surgical Coronary Revascularization
+36168952	2022	J Cardiovasc Surg (Torino)	Stroke and mortality rates after off-pump vs. pump-assisted/no-clamp coronary artery bypass grafting
+34589167	2021	World J Cardiol	Surgical strategies for severely atherosclerotic (porcelain) aorta during coronary artery bypass grafting
+27075152	2016	Kyobu Geka	[Intraoperative Aortic Dissection]
+31421104	2020	Ann Thorac Surg	Epiaortic Ultrasound to Prevent Stroke in Coronary Artery Bypass Grafting
+27942399	2016	J Thorac Dis	Impact of off-pump coronary artery bypass grafting on survival: current best available evidence
+40278202	2025	J Cardiovasc Dev Dis	Neuroprotective Strategies in Coronary Artery Disease Interventions
+19608042	2009	Eur J Cardiothorac Surg	The present status of off-pump coronary artery bypass grafting
+18346959	2008	Eur Heart J	Off pump coronary artery bypass: a passing fad or ready for prime time?
+9822882	1998	Curr Opin Cardiol	Coronary artery bypass grafting without cardiopulmonary bypass
+19730259	2009	Curr Opin Cardiol	Y grafting for coronary artery bypass: is it as good as single grafting?
+36907665	2023	Heart Lung Circ	Synchronous Carotid Endarterectomy and Anaortic Off-Pump Coronary Artery Bypass Surgery
+32388058	2020	J Surg Res	Coronary Artery Bypass Graft Patency and Survival in Patients on Dialysis
+34087237	2022	Ann Thorac Surg	Neurological Complications in High-Risk Patients Undergoing Coronary Artery Bypass Surgery
+41522115	2025	J Thorac Dis	Surgical strategies for anatomically high-risk CABG scenarios
+11276469	1999	Heart Surg Forum	Ascending aortic atherosclerosis--a complex and challenging problem for the cardiac surgeon
+31830873	2019	J Am Heart Assoc	Association Between Coronary Artery Bypass Surgical Techniques and Postoperative Stroke
+40583699	2025	Multimed Man Cardiothorac Su	Total arterial, anaortic, off-pump coronary artery bypass grafting
+21281950	2011	J Thorac Cardiovasc Surg	Neurologic complications after off-pump coronary artery bypass grafting with and without aortic manipulation: meta-analy
+27261083	2016	Ann Thorac Surg	Long-Term Survival After Off-Pump Coronary Artery Bypass Grafting
+33502822	2021	J Card Surg	Toward stroke-free coronary surgery: The role of the anaortic off-pump bypass technique
+18830072	2008	Curr Opin Cardiol	Off-pump coronary bypass surgery for high-risk patients: only in expert centers?
+16959741	2006	Semin Cardiothorac Vasc Anes	Aortic arch atheroma: stroke reduction in cardiac surgical patients
+39490961	2025	J Thorac Cardiovasc Surg	Impact of epiaortic ultrasound utilization in patients undergoing coronary artery bypass grafting
+12643401	2002	Ann Thorac Surg	Assessment of ascending aorta using epiaortic ultrasonography during off-pump coronary artery bypass grafting
+21102313	2011	Curr Opin Anaesthesiol	The current status of off-pump coronary bypass surgery
+2818072	1989	Ann Thorac Surg	Coronary artery bypass grafting in patients with calcified ascending aorta: aortic no-touch technique
+21862405	2011	Heart Lung Circ	Off-pump coronary artery bypass grafting in elderly and high-risk patients--a review
+34387975	2021	Braz J Cardiovasc Surg	The Anaortic Technique with Bilateral Internal Thoracic Artery Grafting - Filling the Gap in Coronary Artery Bypass Surg
+
+### S_learning_curve  (40)
+41159978	2026	J Am Coll Cardiol	PCI of Native Coronary Artery vs Saphenous Vein Graft After Prior Bypass Surgery: A Multicenter, Randomized Trial
+12808611	2003	Br J Surg	Telemedicine in surgery
+38565095	2024	Cardiology	Learning Curve for No-Touch Vein Harvesting Technique in Off-Pump Coronary Artery Bypass Grafting
+31230080	2019	Interact Cardiovasc Thorac S	Annual case volume on mortality after coronary artery bypass grafting: a dose-response meta-analysis
+40788514	2025	J Robot Surg	The learning curve of robotic cardiac surgery: a scoping review
+36848999	2023	Ann Thorac Surg	Mastering the Learning Curve for Robotic-Assisted Coronary Artery Bypass Surgery
+40886757	2026	Ann Thorac Surg	Defining the Learning Curve in Minimally Invasive Cardiac Surgery: A Systematic Review and Meta-Analysis
+41121332	2025	J Cardiothorac Surg	Learning curve in off-pump coronary artery bypass graft surgery in a low-income country: a single-center experience
+22976997	2012	Interact Cardiovasc Thorac S	Is totally endoscopic coronary artery bypass safe, feasible and effective?
+16242504	2005	Ann Thorac Surg	Acquiring proficiency in off-pump surgery: traversing the learning curve, reproducibility, and quality control
+14643813	2003	Eur J Cardiothorac Surg	Safe evolution towards routine off-pump coronary artery bypass: negotiating the learning curve
+19330750	2009	Thorac Cardiovasc Surg	Off-pump coronary artery bypass graft surgery: a training course for novices and its learning curve
+29697596	2018	Innovations (Phila)	Evolution of Minimally Invasive Coronary Artery Bypass Grafting: Learning Curve
+27059309	2016	J Cardiothorac Surg	A comprehensive review on learning curve associated problems in endoscopic vein harvesting and the requirement for a sta
+34459029	2021	J Card Surg	The learning curve of robotic coronary arterial bypass surgery: A report from the STS database
+38002729	2023	J Clin Med	Saphenous Vein Graft Failure: Current Challenges and a Review of the Contemporary Percutaneous Options for Management
+14762361	2004	J Thorac Cardiovasc Surg	Robotic totally endoscopic coronary artery bypass: program development and learning curve issues
+31416356	2019	Circ Cardiovasc Interv	Examining the Operator Learning Curve for Percutaneous Coronary Intervention of Chronic Total Occlusions
+41194753	2026	J Am Coll Cardiol	Beyond Technical Feasibility in Complex Percutaneous Coronary Intervention: Lessons From the PROCTOR Trial on Equipoise,
+33428084	2021	Gen Thorac Cardiovasc Surg	Effect of institutional case volume on mid-term mortality after coronary artery bypass grafting surgery
+42152840	2026	Indian J Thorac Cardiovasc S	Robotic-assisted coronary artery bypass grafting: comparative analysis of surgical outcomes and learning curve
+35546309	2023	Acta Chir Belg	Minimal invasive coronary surgery is not associated with increased mortality or morbidity during the period of learning 
+20660837	2010	Arch Intern Med	Case volume, quality of care, and care efficiency in coronary artery bypass surgery
+34820898	2022	J Card Surg	Evaluation of the learning curve for robotic coronary artery bypass surgery
+36410442	2023	Am Heart J	Percutaneous coronary intervention of native coronary artery versus saphenous vein graft in patients with prior coronary
+26384752	2015	J Thorac Cardiovasc Surg	Influence of experience and the surgical learning curve on long-term patient outcomes in cardiac surgery
+33764013	2021	Korean Circ J	Hospital Case Volume, Health Care Providers, and Mortality in Patients Undergoing Coronary Artery Bypass Grafting: a Nat
+42152832	2026	Indian J Thorac Cardiovasc S	PCI after SVG failure-native vessel or graft?
+37294049	2023	Innovations (Phila)	Learning Curve of Thoracoscopic Nonrobotic Harvest of the Left Internal Mammary Artery in Minimally Invasive Coronary Ar
+17485577	2007	Circulation	Case volume and mortality in pediatric cardiac surgery patients in California, 1998-2003
+24356429	2013	Innovations (Phila)	Can minimally invasive coronary artery bypass grafting be initiated and practiced safely?: a learning curve analysis
+24629222	2014	J Thorac Cardiovasc Surg	Analysis of the learning curve for beating heart, totally endoscopic, coronary artery bypass grafting
+41665799	2026	J Robot Surg	Understanding the learning curve in robotic-assisted cardiac surgery and its application on curriculum development - sys
+41775291	2026	Am J Cardiol	Native Coronary Artery Versus Saphenous Vein Graft Percutaneous Coronary Intervention After Coronary Artery Bypass Graft
+29481644	2018	Eur J Cardiothorac Surg	Learning curve analysis of transapical NeoChord mitral valve repair
+24346584	2013	Innovations (Phila)	Defining the learning curve for robotic-assisted endoscopic harvesting of the left internal mammary artery
+11016383	2000	Ann Thorac Surg	Endoscopic saphenous vein harvesting: initial experience and learning curve
+26516193	2016	Eur J Cardiothorac Surg	Sutureless, rapid deployment valves and stented bioprosthesis in aortic valve replacement: recommendations of an Interna
+36002863	2022	J Cardiothorac Surg	Minimally invasive left internal mammary artery harvesting techniques during the learning curve are safe and achieve sim
+42017544	2026	Perfusion	Defining the learning curve of multi-vessel MIDCAB using CUSUM analysis
+
+### T_training_program  (40)
+30882616	2021	J Patient Saf	Effectiveness of Discharge Education With the Teach-Back Method on 30-Day Readmission: A Systematic Review
+38652478	2024	JAMA Netw Open	Cognitive Training for Reduction of Delirium in Patients Undergoing Cardiac Surgery: A Randomized Clinical Trial
+26707761	2016	J Thorac Cardiovasc Surg	Equivalent outcomes after coronary artery bypass graft surgery performed by consultant versus trainee surgeons: A system
+28881069	2017	J Clin Nurs	Person-centred discharge education following coronary artery bypass graft: A critical review
+34407435	2022	Semin Thorac Cardiovasc Surg	Training Cardiac Surgeons: Safety and Requirements
+20002341	2009	Prog Cardiovasc Nurs	Coronary artery bypass graft surgery patient education: a systematic review
+27570162	2017	Ann Thorac Surg	Simulation-Based Training in Cardiac Surgery
+24331908	2014	J Thorac Cardiovasc Surg	Simulation in cardiothoracic surgical training: where do we stand?
+17525047	2007	Heart Surg Forum	Training models for coronary surgery
+36585799	2024	Nurs Crit Care	The effect of training on coronary artery bypass graft surgery patients
+38591292	2024	J Pak Med Assoc	Effects of interval training on haemodynamic variables after coronary artery bypass graft: A meta-analysis
+23015638	2013	Perfusion	Safety of training and assessment in operating theatres--a systematic review and meta-analysis
+25306500	2015	Heart Lung Circ	Interval training versus continuous exercise in patients with coronary artery disease: a meta-analysis
+40833785	2025	Interdiscip Cardiovasc Thora	Resident-Performed Coronary Artery Bypass Grafting Using Bilateral Internal Mammary Arteries: Clarifying Methodological 
+36138168	2022	Egypt Heart J	Exercise training and cardiac autonomic function following coronary artery bypass grafting: a systematic review and meta
+16365340	2005	Heart	Percutaneous coronary intervention: recommendations for good practice and training
+33234215	2020	Heart Surg Forum	Simulation Training in Minimally Invasive Direct Coronary Artery Bypass Grafting
+38307118	2024	Thorac Cardiovasc Surg	Is Single LIMA-LAD Bypass Appropriate for OPCAB Training?
+11369146	2001	Patient Educ Couns	Pre-operative education for the patient having coronary artery bypass surgery
+25662959	2015	Interact Cardiovasc Thorac S	How safe is it to train residents to perform off-pump coronary artery bypass surgery?
+39388224	2024	Interdiscip Cardiovasc Thora	Left-handed cardiac surgery and training: a survey-based assessment
+39590194	2024	J Cardiovasc Dev Dis	Effects of Respiratory Muscle Training Pre- and Post-Cardiac Surgery in Adults: A Scoping Review
+35760716	2022	J Perianesth Nurs	Effects of Music and Preoperative Education on Coronary Artery Bypass Graft Surgery Patients' Anxiety
+29103675	2018	Heart Lung Circ	Heart Valve Surgery Performed by Trainee Surgeons: Meta-Analysis of Clinical Outcomes
+29510803	2018	Dan Med J	Preoperative inspiratory muscle training prevents pulmonary complications after cardiac surgery - a systematic review
+41245856	2025	Scientifica (Cairo)	Preoperative Guidelines for Coronary Artery Bypass Grafting for Health Education and Anxiety Management: Scoping Review
+39076880	2023	Rev Cardiovasc Med	The Effects of Inspiratory Muscle Training (IMT) on Patients Undergoing Coronary Artery Bypass Graft (CABG) Surgery: A S
+37425436	2023	JTCVS Open	Quality control in a training course of off-pump coronary artery bypass grafting surgery
+34337649	2021	Eur J Cardiothorac Surg	Recommendations for the use of coronary and valve simulators in cardiac surgical training: a systematic review
+30642190	2019	Eur J Prev Cardiol	Exercise training for patients with type 2 diabetes and cardiovascular disease: What to pursue and how to do it. A Posit
+37560113	2023	Front Cardiovasc Med	Inspiratory muscle training to reduce risk of pulmonary complications after coronary artery bypass grafting: a systemati
+24138480	2014	Clin Physiol Funct Imaging	The effects of exercise training on arterial stiffness in coronary artery disease patients: a state-of-the-art review
+38624192	2024	Phys Ther	Inspiratory Muscle Training in Phase 1 and 2 Postoperative Cardiac Rehabilitation Following Coronary Artery Bypass Graft
+22698772	2012	Ann Thorac Surg	Coronary artery bypass graft patency: residents versus attending surgeons
+27580152	2017	Med Sci Sports Exerc	Strength Training and the Risk of Type 2 Diabetes and Cardiovascular Disease
+34647125	2022	Interact Cardiovasc Thorac S	Humanoids for teaching and training coronary artery bypass surgery to the next generation of cardiac surgeons
+32165177	2020	Ann Thorac Surg	Is Resident Training Safe in Cardiac Surgery?
+36286280	2022	J Cardiovasc Dev Dis	The Comparison of High-Intensity Interval Training Versus Moderate-Intensity Continuous Training after Coronary Artery B
+39839564	2024	Am J Cardiovasc Dis	The effects of high-intensity interval training and moderate-intensity continuous training on patients underwent Coronar
+37820249	2024	Epidemiology	Residential Greenness and Long-term Mortality Among Patients Who Underwent Coronary Artery Bypass Graft Surgery
+
+### U_simulation  (40)
+35937578	2022	Mater Today Bio	Advances in the development of biodegradable coronary stents: A translational perspective
+35143631	2022	BJS Open	Objective improvement with coronary anastomosis simulation training: meta-analysis
+36867601	2023	PLoS One	Patient-specific computational simulation of coronary artery bypass grafting
+27570162	2017	Ann Thorac Surg	Simulation-Based Training in Cardiac Surgery
+24331908	2014	J Thorac Cardiovasc Surg	Simulation in cardiothoracic surgical training: where do we stand?
+38864937	2024	3D Print Med	Desktop 3D printed anatomic models for minimally invasive direct coronary artery bypass
+17525047	2007	Heart Surg Forum	Training models for coronary surgery
+40213445	2024	Small Sci	Stem-Cell-Based Small-Diameter Blood Vessels with 3D Printing
+27440112	2016	Cardiovasc Eng Technol	Simulation of Anastomosis in Coronary Artery Bypass Surgery
+36216551	2024	Circ J	Virtual Reality Computed Tomography Evaluation　- Anatomy and Clinical Implications for Valve-Sparing Aortic Root Replace
+39773866	2025	J Med Internet Res	Stress Reduction in Perioperative Care: Feasibility Randomized Controlled Trial
+33428083	2021	Gen Thorac Cardiovasc Surg	Review of the use of simulators in learning revascularization techniques
+35621457	2022	Bioengineering (Basel)	3D Printed Surgical Guide for Coronary Artery Bypass Graft: Workflow from Computed Tomography to Prototype
+12732500	2002	Heart Surg Forum	Virtual reality and 3D visualizations in heart surgery education
+34559962	2021	Multimed Man Cardiothorac Su	Cardiac surgery simulation - Part 3: Coronary anastomosis
+32891660	2021	Ann Thorac Surg	Coronary Anastomosis Simulation: Directed Interventions to Optimize Success
+36937915	2023	Front Cardiovasc Med	New perspectives in patient education for cardiac surgery using 3D-printing and virtual reality
+36331023	2022	Innovations (Phila)	Virtual Reality Simulation for Minimally Invasive Coronary Artery Bypass Grafting With Aortic No-Touch Total Arterial Gr
+36712278	2022	Front Cardiovasc Med	Planning of graft size and 3D reconstruction using virtual reality technique in aortic valve reimplantation
+33224601	2020	Am J Cardiovasc Dis	Virtual reality on pulmonary function and functional independence after coronary artery bypass grafting: clinical trial
+39241214	2024	Braz J Cardiovasc Surg	Construction and Surgical Training of Coronary Anastomosis on a Low-Cost Portable Simulator: Experience in a Peruvian Mu
+34337649	2021	Eur J Cardiothorac Surg	Recommendations for the use of coronary and valve simulators in cardiac surgical training: a systematic review
+41045170	2026	J Perioper Pract	A randomised pilot study evaluating music therapy and virtual reality mindfulness sessions for reducing anxiety and stre
+36972602	2023	Heart Surg Forum	Sternal Reconstruction Using 3D-Printed Titanium Custom-Made Prosthesis for Sternal Dehiscence After Cardiac Surgery
+33103326	2021	Physiother Res Int	Different physiotherapy protocols after coronary artery bypass graft surgery: A randomized controlled trial
+17671805	2007	Med Biol Eng Comput	A procedure to simulate coronary artery bypass graft surgery
+39673743	2024	Eur J Cardiothorac Surg	The effect of virtual reality on postoperative anxiety and pain in patients following cardiac surgery: a randomized cont
+33234215	2020	Heart Surg Forum	Simulation Training in Minimally Invasive Direct Coronary Artery Bypass Grafting
+25524669	2015	J Thorac Cardiovasc Surg	Practice improves performance on a coronary anastomosis simulator, attending surgeon supervision does not
+39753923	2025	Cardiovasc Eng Technol	Flow-Based Coronary Artery Bypass Graft Patency Metrics: Uncertainty Quantification Simulations to Guide Development
+42236427	2026	J Surg Educ	Simulation-Based Training for Coronary Artery Bypass Grafting: Systematic Review and Meta-analysis
+19114195	2008	J Thorac Cardiovasc Surg	Improvement in coronary anastomosis with cardiac surgery simulation
+37753828	2023	Innovations (Phila)	Inexpensive and Easy to Set Up Robotic Cardiac Simulator Offers "Unlimited" Endoscopic Coronary Artery Bypass Grafting E
+34338650	2021	J Invasive Cardiol	Patient-Specific Coronary Artery Bypass Graft 3D Printing: Implications for Procedural Planning in Complex Percutaneous 
+17012641	2006	Phys Ther	Effect of a virtual reality-enhanced exercise protocol after coronary artery bypass grafting
+41779085	2026	Gen Thorac Cardiovasc Surg	Bypass graft design assisted by virtual reality simulation in multi-vessel coronary artery bypass grafting
+39408698	2024	Int J Mol Sci	Spatial Transcriptomic Profiling of Human Saphenous Vein Exposed to Ex Vivo Arterial Haemodynamics-Implications for Coro
+41776532	2026	J Cardiothorac Surg	The application of 3D printing technology in minimally invasive coronary artery bypass
+35137022	2022	Eur J Cardiothorac Surg	Feasibility and preliminary efficacy of perioperative interventions in patients undergoing coronary artery bypass grafti
+38082601	2023	Annu Int Conf IEEE Eng Med B	A comparison study on creating simulated patient data for individuals suffering from chronic coronary disorders
+
+### V_redo_cabg  (40)
+24906816	2014	Gen Thorac Cardiovasc Surg	Redo coronary artery bypass grafting
+33060949	2018	Indian J Thorac Cardiovasc S	Redo coronary artery bypass grafting
+39356274	2024	Curr Opin Cardiol	Redo coronary artery bypass grafting: when and how
+34244068	2021	Heart Lung Circ	Redo CABG: Where Every Ounce of Experience Matters Regardless of the Technique
+2979117	1987	J Cardiothorac Anesth	Reoperation for coronary artery bypass grafting: anesthetic challenge
+33016239	2021	Perfusion	Off-pump versus on-pump redo coronary artery bypass grafting: a systematic review and meta-analysis
+39370282	2024	Kyobu Geka	[Redo Coronary Artery Bypass Grafting Performed via Left Thoracotomy]
+20450302	2010	Expert Rev Cardiovasc Ther	Reoperative off-pump coronary artery bypass grafting: current outcomes, concerns and controversies
+23917173	2013	Kyobu Geka	[Re-do coronary artery bypass grafting]
+1929623	1991	Ann Thorac Surg	Multiple reoperative coronary artery bypass grafting
+33757681	2022	J Thorac Cardiovasc Surg	Modern practice and outcomes of reoperative cardiac surgery
+25475408	2015	Cardiovasc J Afr	Redo off-pump coronary artery bypass grafting via a left thoracotomy
+36179856	2023	Ann Thorac Surg	Cardiac Reoperations in Patients With Transcatheter Aortic Bioprosthesis
+35548406	2022	Front Cardiovasc Med	A Meta-Analysis of Early, Mid-term and Long-Term Mortality of On-Pump vs. Off-Pump in Redo Coronary Artery Bypass Surger
+9307447	1997	Ann Thorac Surg	Minimally invasive versus conventional reoperative coronary artery bypass
+39004754	2024	J Cardiothorac Surg	Reoperative approach after extra-anatomic ascending-to-descending aortic bypass graft
+24251029	2013	J Thorac Dis	Minimally invasive approach for redo mitral valve surgery
+16181865	2005	Ann Thorac Surg	Redo minimally invasive direct coronary artery bypass grafting
+24961148	2014	J Cardiothorac Surg	Does off-pump coronary revascularization confer superior organ protection in re-operative coronary artery surgery? A met
+35195525	2022	Swiss Med Wkly	Initial experience with minimally invasive extracorporeal circulation in coronary artery bypass graft reoperations
+12472384	2002	Ann Thorac Cardiovasc Surg	Minimally invasive direct redo coronary artery bypass grafting
+25319147	2014	Expert Rev Cardiovasc Ther	Is the evidence from first time off-pump coronary artery bypass graft surgery transferable to re-operative off-pump surg
+31229294	2020	J Thorac Cardiovasc Surg	Off-pump versus on-pump redo coronary artery bypass grafting: A propensity score analysis of long-term follow-up
+11016368	2000	Ann Thorac Surg	Off-pump redo coronary artery bypass grafting
+23520171	2013	Perfusion	Does off-pump coronary revascularization reduce mortality in re-operative coronary artery surgery? A meta-analysis of ob
+23026407	2012	Ann Thorac Surg	Reoperative coronary artery bypass surgery: avoiding repeat median sternotomy
+10860285	2000	Jpn J Thorac Cardiovasc Surg	Reoperative coronary artery bypass via left thoracotomy
+17493423	2007	Mayo Clin Proc	Off-pump strategy in high-risk coronary artery bypass reoperations
+34548438	2021	Kyobu Geka	[Reoperative Coronary Artery Bypass Grafting in Patients with Previous Heart Valve Surgery]
+11887045	2002	J Cardiovasc Surg (Torino)	Use of MIDCAB procedure for redo coronary artery bypass
+34365662	2021	J Card Surg	Early cardiac contractility outcome of reoperative coronary artery bypass grafting using right gastroepiploic artery
+12086378	2002	Indian Heart J	Beating heart versus conventional reoperative coronary artery bypass surgery
+41456827	2026	Ann Thorac Surg	Risk-Adjusted Outcomes of Reoperative vs Primary Coronary Artery Bypass Grafting
+9033309	1997	Ann Thorac Surg	Reoperative coronary bypass grafting without cardiopulmonary bypass through a small thoracotomy
+24402041	2014	Innovations (Phila)	Improved short-term outcomes with off-pump reoperative coronary artery bypass grafting
+11768828	2001	Am Surg	Reoperative coronary bypass surgery using normothermic cardiopulmonary bypass: comparison with first-time procedures
+24251026	2013	J Thorac Dis	Reoperative minimal access aortic valve replacement
+17235265	2006	Minerva Anestesiol	Redo coronary artery bypass grafting on the beating heart and transfusion needs
+28012643	2017	Ann Thorac Surg	Reoperation for Coronary Artery Bypass Grafting Surgery: Outcomes and Considerations for Expanding Interventional Proced
+10899692	2000	Ann Thorac Cardiovasc Surg	Bilateral radial arterial T graft and the left thoracotomy approach for second redo coronary artery bypass grafting
+
+### W_onpump_technique  (40)
+32643847	2020	J Card Surg	On-pump beating-heart coronary artery bypass grafting in high-risk patients: A systematic review and meta-analysis
+37405905	2023	J Cardiovasc Pharmacol	Myocardial Protection by Desflurane: From Basic Mechanisms to Clinical Applications
+12813693	2003	Semin Thorac Cardiovasc Surg	Beating heart coronary artery bypass: operative strategy and technique
+15245456	2004	J Card Surg	Myocardial protection in reoperative coronary artery bypass grafting:
+16519202	2006	Med Health R I	Beating heart surgery
+26271580	2015	Ann Thorac Surg	Beating-Heart Versus Conventional On-Pump Coronary Artery Bypass Grafting: A Meta-Analysis of Clinical Outcomes
+7677541	1995	Ann Thorac Surg	Myocardial protection for coronary bypass grafting: the Toronto Hospital perspective
+27107048	2016	Eur J Cardiothorac Surg	On-pump beating-heart technique is associated with lower morbidity and mortality following coronary artery bypass grafti
+15815135	2003	Am Heart Hosp J	Beating heart surgery: does it make a difference?
+26516420	2015	World J Cardiol	Is there a rationale for short cardioplegia re-dosing intervals?
+39570457	2024	Surg Case Rep	Left atrial rupture during on-pump beating coronary artery bypass grafting
+16163910	2005	Eur J Anaesthesiol	The effect of anaesthetics on the myocardium--new insights into myocardial protection
+34776662	2021	Indian J Thorac Cardiovasc S	On-pump beating heart versus off-pump myocardial revascularization-a propensity-matched comparison
+15571822	2004	Eur Heart J	Coronary artery bypass grafting on the beating heart: surgical revascularization for the next decade?
+25583646	2015	Interact Cardiovasc Thorac S	Off-pump or on-pump beating heart: which technique offers better outcomes following coronary revascularization?
+26503012	2016	Interact Cardiovasc Thorac S	How revascularization on the beating heart with cardiopulmonary bypass compares to off-pump? A meta-analysis of observat
+7887719	1995	Ann Thorac Surg	Tepid antegrade and retrograde cardioplegia
+10536962	1999	Eur J Cardiothorac Surg	Evaluation of myocardial metabolism and function during beating heart coronary surgery
+11316512	2001	Pharmacol Ther	Mitochondria: a target for myocardial protection
+39022701	2024	Postepy Kardiol Interwencyjn	Left main coronary artery disease treated with beating heart surgery: 10-year single center results
+9203610	1997	Ann Thorac Surg	Video-assisted coronary bypass grafting on the beating heart
+11156115	2000	Ann Thorac Surg	Endoscopic computer-enhanced beating heart coronary artery bypass grafting
+19161773	2009	Ann Thorac Surg	Multiple valve surgery with beating heart technique
+15179337	2004	J Cardiovasc Surg (Torino)	The role of beating heart coronary artery bypass grafting in the current era: a point of view
+33061051	2019	Indian J Thorac Cardiovasc S	Intermittent on-pump beating-heart coronary artery bypass grafting-a safer option
+24642387	2015	J Formos Med Assoc	Malignant ventricular arrhythmias after off-pump coronary artery bypass
+12062268	2002	Eur J Cardiothorac Surg	Systematic review of beating heart surgery with the Octopus Tissue Stabilizer
+36349729	2022	J Card Surg	Coronary artery bypass surgery for acute coronary syndrome: A network meta-analysis of on-pump cardioplegic arrest, off-
+24357162	2014	Gen Thorac Cardiovasc Surg	Optimal coronary artery bypass grafting strategy for acute coronary syndrome
+37720926	2023	Int J Surg	Comparative efficacy on outcomes of C-CABG, OPCAB, and ONBEAT in coronary heart disease: a systematic review and network
+24756305	2015	Perfusion	Is microplegia really superior to standard blood cardioplegia? The results from a meta-analysis
+8537152	1995	Int J Cardiol	The role of nitric oxide and NO-donor agents in myocardial protection from surgical ischemic-reperfusion injury
+8590743	1995	Semin Thorac Cardiovasc Surg	Myocardial protection for coronary artery bypass in patients with acute myocardial infarction: resuscitation of ischemic
+17383341	2007	Ann Thorac Surg	On-pump beating-heart coronary artery bypass: a propensity matched analysis
+39533046	2024	Sci Rep	Introducing sequential partial aortic clamp technique for proximal anastomoses and its advantages in myocardial protecti
+31638696	2020	Eur J Cardiothorac Surg	Robotic totally endoscopic beating-heart bypass to the right coronary artery: first worldwide experience
+34422347	2021	J Thorac Dis	Beating-heart on-pump coronary artery bypass grafting vs. off-pump coronary artery bypass grafting: a systematic review 
+19848312	2009	Chin Med Sci J	Sevoflurane versus propofol for myocardial protection in patients undergoing coronary artery bypass grafting surgery: a 
+37504545	2023	J Cardiovasc Dev Dis	Reduced Invasiveness of Cardiopulmonary Bypass: The Mini-Circuit and the Micro-Cardioplegia
+26336019	2015	Ann Saudi Med	On-pump beating heart coronary revascularization: Is it valid for emergency revascularization?
+
+### X_multivessel_strategy  (40)
+32491818	2026		Multivessel Disease
+31219874	2019	Curr Opin Cardiol	Total arterial off-pump coronary revascularization: The Holy Grail?
+23121323	2012	N Engl J Med	Strategies for multivessel revascularization in patients with diabetes
+36983276	2023	J Clin Med	Reconstruction Technique Options for Achieving Total Arterial Revascularization and Multiple Arterial Grafting
+24487941	2014	Coron Artery Dis	Hybrid coronary revascularization for multivessel coronary artery disease
+38372275	2024	Multimed Man Cardiothorac Su	Robotic-assisted minimally invasive multivessel coronary bypass surgery
+33036712	2020	Cardiol Clin	Complete Revascularization in Acute and Chronic Coronary Syndrome
+30094214	2018	Ann Cardiothorac Surg	Hybrid coronary revascularization for the treatment of multivessel coronary artery disease
+32293059	2020	J Card Surg	Multi-arterial and total-arterial coronary revascularization: Past, present, and future perspective
+35006006	2022	Future Cardiol	Hybrid coronary revascularization in multivessel coronary artery disease: a systematic review
+32114114	2020	Semin Thorac Cardiovasc Surg	Multivessel Arterial Revascularization via Left Anterior Thoracotomy
+30844786	2019	Cardiorenal Med	Multivessel Coronary Revascularization Strategies in Patients with Chronic Kidney Disease: A Meta-Analysis
+31376215	2019	J Card Surg	Total arterial revascularization strategies: A meta-analysis of propensity score-matched observational studies
+29994804	2018	Curr Opin Cardiol	Diabetes and multivessel disease: coronary artery bypass grafting remains king
+24434340	2013	Panminerva Med	Management of multivessel coronary artery disease
+34483299	2021	Curr Opin Cardiol	What does complete revascularization mean in 2021? - Definitions, implications, and biases
+39200977	2024	J Clin Med	A Single-Surgeon Experience Transitioning to Total Arterial Revascularization
+39267397	2024	Innovations (Phila)	Minimally Invasive Coronary Artery Bypass Grafting for Multivessel Coronary Artery Disease: A Systematic Review
+35644133	2023	Thorac Cardiovasc Surg	Can Minimally Invasive Multivessel Coronary Revascularization Be a Routine Approach?
+37462593	2023	J Am Coll Cardiol	Impact of Complete Revascularization in the ISCHEMIA Trial
+18550557	2008	Angiology	Total arterial myocardial revascularization
+30094221	2018	Ann Cardiothorac Surg	Dual inflow, total-arterial, anaortic, off-pump coronary artery bypass grafting: how to do it
+27698339	2016	Med Sci Monit Basic Res	Total Arterial Revascularization: Bypassing Antiquated Notions to Better Alternatives for Coronary Artery Disease
+35324020	2022	J Card Surg	Total arterial coronary artery bypass grafting in patients with preoperative anemia
+39128507	2024	Ann Thorac Surg	Total Arterial Multivessel Minimally Invasive Coronary Artery Bypass Surgery: 5-Year Outcomes
+15383048	2004	J Card Surg	Off-pump total arterial revascularization: our experience
+17053410	2006	Curr Opin Cardiol	Optimal revascularization strategies for multivessel coronary artery disease
+40550319	2025	Ann Thorac Surg	Outcomes of Total Arterial Coronary Artery Bypass Grafting for Kawasaki Disease in Pediatric Patients: A Single-Center C
+27410951	2016	Catheter Cardiovasc Interv	In multivessel coronary artery disease, a "state-of-the-art" randomized clinical trial of revascularization is needed
+36036747	2022	Kardiol Pol	Total arterial revascularization coronary artery bypass surgery in patients with atrial fibrillation
+23742927	2013	Int J Cardiol	The adequacy of myocardial revascularization in patients with multivessel coronary artery disease
+39540774	2024	Interdiscip Cardiovasc Thora	Endoscopic-assisted, minimally invasive versus sternotomy total arterial multivessel bypass grafting
+31952527	2020	J Cardiothorac Surg	Blood consumption in total arterial coronary artery bypass grafting
+41026043	2025	Ann Med	Effectiveness of the various revascularization techniques in multivessel coronary artery disease: a systematic review wi
+39372470	2024	JACC Adv	Mortality After Multivessel Revascularization in Patients With Diabetes and Acute Coronary Syndromes
+18544582	2008	Angiology	Multivessel disease: percutaneous coronary intervention for classic coronary artery bypass grafting indications
+25256534	2014	EuroIntervention	Multivessel PCI in STEMI: ready to be the recommended strategy?
+39056269	2024	Eur Heart J	Coronary bypass surgery for multivessel disease after percutaneous coronary intervention in acute coronary syndromes: wh
+23102694	2013	Heart Lung Circ	Anaortic, total-arterial, off-pump coronary artery bypass surgery: why bother?
+38774658	2024	Front Cardiovasc Med	Multi-vessel coronary artery grafting: analyzing the minimally invasive approach and its safety
+
+### Y_target_selection  (40)
+38910604	2024	Surg Res Pract	Antiplatelet Resistance in Coronary Artery Bypass Grafting: A Systematic Review
+22451446	2012	Circ J	Off-pump coronary artery bypass grafting--the current state
+33739157	2022	Perfusion	Intraoperative angiography during coronary artery bypass grafting
+31277888	2019	Can J Cardiol	Modality Selection for the Revascularization of Left Main Disease
+40274210	2025	Am J Cardiol	Percutaneous Coronary Intervention or Minimally Invasive Coronary Bypass for Isolated Left Anterior Descending Artery Di
+35613169	2021	Arq Bras Cardiol	Physiology or Angiography-Guided Coronary Artery Bypass Grafting: A Meta-Analysis
+38298759	2024	Front Cardiovasc Med	Management and outcomes of spontaneous coronary artery dissection: a systematic review of the literature
+38985226	2024	Curr Cardiol Rep	The Current State of Coronary Revascularization: Coronary Artery Bypass Graft Surgery Versus Percutaneous Coronary Inter
+12813693	2003	Semin Thorac Cardiovasc Surg	Beating heart coronary artery bypass: operative strategy and technique
+30797504	2019	Am J Med Sci	Percutaneous Coronary Intervention Versus Coronary Artery Bypass Grafting in Unprotected Left Main Coronary Artery Steno
+14500075	2003	Eur J Cardiothorac Surg	Off-pump coronary artery bypass grafting: the myth, the logic and the science
+39718243	2025	Eur Heart J	Arterial conduits for coronary bypass grafting: the set-point concept
+15361315	2004	Health Technol Assess	Coronary artery stents: a rapid systematic review and economic evaluation
+23574989	2013	Ann Surg	Saphenous vein graft failure after coronary artery bypass surgery: pathophysiology, management, and future directions
+37931047	2023		
+36912168	2025	Minerva Cardiol Angiol	A glimpse into the future of the percutaneous treatment of coronary chronic total occlusions
+11074393	2000	Health Technol Assess	Coronary artery stents in the treatment of ischaemic heart disease: a rapid and systematic review
+30552888	2019	Ann Thorac Surg	Technical Aspects of the Use of the Radial Artery in Coronary Artery Bypass Surgery
+39550720	2025	JAMA Cardiol	Partial Cardiac Denervation to Prevent Postoperative Atrial Fibrillation After Coronary Artery Bypass Grafting: The pCAD
+36856502	2023	Heart Surg Forum	Minimally Invasive Direct Coronary Artery Bypass Versus Percutaneous Coronary Intervention for Isolated Left Anterior De
+36402217	2023	Curr Probl Cardiol	Outcome of Percutaneous Coronary Intervention Versus Coronary Artery Bypass Grafting for Patients With Intermediate SYNT
+40576015	2025	Catheter Cardiovasc Interv	Outcomes Following Orbital Atherectomy for Coronary Calcified Nodules: A Retrospective Single-Center Experience
+34718571	2022	Interact Cardiovasc Thorac S	Graft flow assessment and early coronary artery bypass graft failure: a computed tomography analysis
+36805638	2023	Eur J Cardiothorac Surg	Anterolateral territory coronary artery bypass grafting strategies: a non-inferiority randomized clinical trial: the AMI
+37821187	2023	JACC Cardiovasc Interv	Everolimus-Eluting Stents or Bypass Surgery for Multivessel Disease in Diabetics: The BEST Extended Follow-Up Study
+39076928	2022	Rev Cardiovasc Med	Percutaneous Coronary Intervention of Native Artery Versus Bypass Graft in Patients with Prior Coronary Artery Bypass Gr
+32393000	2020	Zhonghua Wai Ke Za Zhi	[Strengthening the quality control of coronary artery bypass grafting]
+22511269	2012	Catheter Cardiovasc Interv	Revascularization of unprotected left main coronary artery disease: strategy selection and systematic risk assessment
+11761091	2001	Perfusion	Intra-operative quality assessment of coronary artery bypass grafts
+41977076	2026	J Clin Med	Complex Coronary Artery Bypass Grafting: Intraoperative Challenges and Surgical Strategies in Contemporary Practice
+39228473	2024	Rev Cardiovasc Med	A Systematic Review and Meta-Analysis of 35,409 Patients Undergoing PCI versus CABG for Unprotected Left Main Coronary A
+29561966	2018	Arq Bras Cardiol	Short-Term and Mid-Term Clinical Outcomes Following Hybrid Coronary Revascularization Versus Off-Pump Coronary Artery By
+36466372	2022	JTCVS Tech	Peripheral extracorporeal membrane oxygenation support expands the application of robot-assisted coronary artery bypass
+20723848	2010	JACC Cardiovasc Interv	Unprotected left main coronary disease and ST-segment elevation myocardial infarction: a contemporary review and argumen
+28082464	2017	Eur J Cardiothorac Surg	Conversion after off-pump coronary artery bypass grafting: the CORONARY trial experience
+39781739	2025	Circulation	Prevalence and Clinical Outcomes of Discordant Lesions Between Fractional Flow Reserve and Nonhyperemic Pressure Ratios 
+24100651	2013	Curr Opin Cardiol	Fractional flow reserve-guided coronary bypass surgery: should surgeons use it?
+41379597	2026	Expert Rev Cardiovasc Ther	Coronary artery bypass grafting versus percutaneous coronary intervention outcomes among patients with acute coronary sy
+30808554	2019	J Cardiothorac Vasc Anesth	Association Between Infection and Thrombosis After Coronary Artery Bypass Grafting: A Cohort Study
+19903686	2010	Interact Cardiovasc Thorac S	Does a skeletonized or pedicled right gastro-epiploic artery improve patency when used as a conduit in coronary artery b
+
+### Z_conversion_bailout  (40)
+26600406	2017	Thorac Cardiovasc Surg	Off-Pump Conversion: In-hospital Mortality and Long-Term Survival
+21801945	2011	Ann Thorac Surg	Meta-analysis of organ damage after conversion from off-pump coronary artery bypass procedures
+21256340	2011	Ann Thorac Surg	Conversion and safety in off-pump coronary artery bypass: a system failure that needs re-emphasis
+38123498	2023	Interdiscip Cardiovasc Thora	Conversion from off-pump to on-pump coronary artery bypass grafting: impact of surgeon and anaesthetist experience
+32140350	2020	Cureus	Conversion from Off to On-Pump Coronary Artery Bypass Grafting. Is it Avoidable?
+37605710	2023	Cureus	Predicting Determinants for Conversion of Off-Pump Coronary Revascularization to On-Pump Surgery: A Retrospective Analys
+30648674	2019	Ann Card Anaesth	Conversion during off-pump coronary artery bypass graft surgery: A case-control study
+36824043	2023	Korean J Anesthesiol	Hemodynamic management during off-pump coronary artery bypass surgery: a narrative review of proper targets for safe exe
+25841772	2015	Heart Lung Circ	Off-pump Bilateral Internal Thoracic Artery Grafting
+21684171	2012	Eur J Cardiothorac Surg	Intra-operative conversion is a cause of masked mortality in off-pump coronary artery bypass: a meta-analysis
+28082464	2017	Eur J Cardiothorac Surg	Conversion after off-pump coronary artery bypass grafting: the CORONARY trial experience
+17670644	2006	Interact Cardiovasc Thorac S	Emergency conversion in off-pump coronary artery bypass grafting
+34422337	2021	J Thorac Dis	Early pharmacologic conversion of atrial fibrillation after off-pump coronary artery bypass grafting
+22572047	2012	Heart	Decision making in off-pump coronary artery bypass surgery: where does conversion fit in?
+29124027	2017	Korean J Thorac Cardiovasc S	Risk Factors of On-Pump Conversion during Off-Pump Coronary Artery Bypass Graft
+25053661	2015	Asian Cardiovasc Thorac Ann	Intraaortic balloon pump boon for off-pump coronary artery bypass grafting
+25811204	2014	Ann Saudi Med	On-pump with beating heart or cardioplegic arrest for emergency conversion to cardiopulmonary bypass during off-pump cor
+39650970	2024	Cureus	Predictors and Causes of Intraoperative Conversion From Off-Pump to On-Pump Coronary Artery Bypass: A Retrospective Stud
+18515673	2008	Asian Cardiovasc Thorac Ann	Predictors of emergency conversion to on-pump during off-pump coronary surgery
+22159253	2012	Interact Cardiovasc Thorac S	Impact of off-pump to on-pump conversion rate on post-operative results in patients undergoing off-pump coronary artery 
+28610886	2017	Ann Thorac Surg	Conversion From Off-Pump Coronary Artery Bypass Grafting to On-Pump Coronary Artery Bypass Grafting
+26503012	2016	Interact Cardiovasc Thorac S	How revascularization on the beating heart with cardiopulmonary bypass compares to off-pump? A meta-analysis of observat
+26333309	2015	J Card Surg	Off-Pump to On-Pump Emergency Conversion: Incidence, Risk Factors, and Impact on Short- and Long-Term Results
+14530000	2003	Ann Thorac Surg	Conversion in off-pump coronary artery bypass grafting: an analysis of predictors and outcomes
+31111565	2019	J Card Surg	Hybrid off-pump coronary artery bypass grafting surgery and transaortic transcatheter aortic valve replacement: Literatu
+28180098	2017	Korean J Thorac Cardiovasc S	Analysis of Risk Factors for Conversion from Off-Pump to On-Pump Coronary Artery Bypass Graft
+16675245	2006	Eur J Cardiothorac Surg	Morbidity and mortality following acute conversion from off-pump to on-pump coronary surgery
+15514591	2004	J Thorac Cardiovasc Surg	Emergency conversion to cardiopulmonary bypass during attempted off-pump revascularization results in increased morbidit
+22436497	2005	Innovations (Phila)	Routine off-pump coronary artery bypass: reasons for on-pump conversion
+28498945	2017	Eur J Cardiothorac Surg	Conversion after off-pump coronary artery bypass grafting: where are the quality markers?
+26901749	2016	Innovations (Phila)	Nicorandil Infusion During Off-Pump Coronary Artery Bypass Grafting Reduces Incidence of Intra-aortic Balloon Pump Inser
+33389573	2021	Gen Thorac Cardiovasc Surg	Preoperative right ventricular dysfunction requires high vasoactive and inotropic support during off-pump coronary arter
+11899183	2002	Ann Thorac Surg	Conversion to off-pump coronary bypass without increased morbidity or change in practice
+10440647	1998	J Card Surg	Conversion to cardiopulmonary bypass in off-pump coronary artery bypass grafting: its effect on outcome
+15691685	2005	Eur J Cardiothorac Surg	Conversion to on pump from OPCAB is associated with increased mortality: results from a randomized controlled trial
+17054807	2007	Eur J Anaesthesiol	The outcome of patients requiring emergency conversion from off-pump to on-pump coronary artery bypass grafting
+24841542	2014	Ann Thorac Surg	Intraoperative conversion from off-pump to on-pump coronary artery bypass is associated with increased 30-day hospital r
+33242613	2021	Semin Thorac Cardiovasc Surg	Effect of Hospital and Surgeon Procedure Volumes on the Incidence of Intraoperative Conversion During Off-Pump Coronary 
+30648692	2019	Ann Card Anaesth	ANSiscope™: Can it be the crystal ball of cardiac anesthesia?
+22503849	2012	Ann Thorac Surg	Risk factors for conversion to cardiopulmonary bypass during off-pump coronary artery bypass surgery
+
+### AA_guidelines_consensus  (40)
+31504439	2020	Eur Heart J	2019 ESC Guidelines for the diagnosis and management of chronic coronary syndromes
+34895950	2022	J Am Coll Cardiol	2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization: A Report of the American College of Cardiology/Americ
+39210710	2024	Eur Heart J	2024 ESC Guidelines for the management of chronic coronary syndromes
+30165437	2019	Eur Heart J	2018 ESC/EACTS Guidelines on myocardial revascularization
+34882436	2022	Circulation	2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization: Executive Summary: A Report of the American College o
+31211361	2019	Eur Heart J	Expert consensus and evidence-based recommendations for the assessment of flow-mediated dilation in humans
+34882435	2022	Circulation	2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization: A Report of the American College of Cardiology/Americ
+39385505	2024	Eur J Cardiothorac Surg	2024 EACTS Guidelines on perioperative medication in adult cardiac surgery
+34153348	2022	J Vasc Surg	Society for Vascular Surgery clinical practice guidelines for management of extracranial cerebrovascular disease
+38343372	2024	EuroIntervention	Evaluation and management of patients with coronary chronic total occlusions considered for revascularisation. A clinica
+34272070	2021	J Thorac Cardiovasc Surg	2021: The American Association for Thoracic Surgery Expert Consensus Document: Coronary artery bypass grafting in patien
+40884067	2026	Eur Heart J	Antithrombotic therapy after coronary artery bypass graft surgery: a Clinical Consensus Statement of the ESC Working Gro
+30667361	2019	EuroIntervention	2018 ESC/EACTS Guidelines on myocardial revascularization
+31594016	2019	Dtsch Med Wochenschr	[Update ESC-Guideline: Myocardial Revascularization]
+39773827	2025	EuroIntervention	High-risk percutaneous coronary intervention in patients with reduced left ventricular ejection fraction deemed not suit
+37471475	2023	Circulation	Chronic Coronary Disease Guidelines
+34895951	2022	J Am Coll Cardiol	2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization: Executive Summary: A Report of the American College o
+37632756	2023	Eur Heart J	2022 Joint ESC/EACTS review of the 2018 guideline recommendations on the revascularization of left main coronary artery 
+41243815	2025	ESC Heart Fail	Guideline-directed medical therapy after revascularization and outcomes in ischaemic cardiomyopathy
+37632766	2023	Eur J Cardiothorac Surg	2022 Joint ESC/EACTS review of the 2018 guideline recommendations on the revascularization of left main coronary artery 
+30165632	2019	Eur J Cardiothorac Surg	2018 ESC/EACTS Guidelines on myocardial revascularization
+39406390	2024	Eur J Cardiothorac Surg	ESC/EACTS guideline for chronic coronary syndrome-invasive treatment perspectives important for daily practice
+32597391	2020	EuroIntervention	Management of myocardial revascularisation failure: an expert consensus document of the EAPCI
+39808108	2025	J Thorac Cardiovasc Surg	Multisociety endorsement of the 2024 European guideline recommendations on coronary revascularization
+39873335	2025	Braz J Cardiovasc Surg	Multisociety endorsement of the 2024 European guideline recommendations on coronary revascularization
+37839355	2023	Redox Biol	Health position paper and redox perspectives on reactive oxygen species as signals and targets of cardioprotection
+35273851	2022	Cureus	Co-prescription of Dual-Antiplatelet Therapy and Proton Pump Inhibitors: Current Guidelines
+34882433	2022	Circulation	The Long-Awaited Revascularization Guidelines Are Out: What's In Them?
+36002669	2023	Ir J Med Sci	Adherence to secondary prevention recommendations after coronary artery bypass graft surgery
+41262639	2025	Arch Peru Cardiol Cir Cardio	Recommendations for the management of ST-elevation myocardial infarction after reperfusion
+32926588	2021	Eur J Clin Invest	A systematic review of guidelines for dual antiplatelet therapy in coronary artery bypass graft
+34337649	2021	Eur J Cardiothorac Surg	Recommendations for the use of coronary and valve simulators in cardiac surgical training: a systematic review
+39142801	2024	Eur J Cardiothorac Surg	Hybrid coronary revascularization: position paper of the European Society of Cardiology Working Group on Cardiovascular 
+38069919	2024	J Heart Lung Transplant	Consensus statements from the International Society for Heart and Lung Transplantation consensus conference: Heart failu
+42209870	2026	Heart Fail Rev	State-of-the-art management of ischemic cardiomyopathy: integrating diagnostic pathways, revascularization strategies, a
+38476377	2024	Front Cardiovasc Med	Consensus statement-graft treatment in cardiovascular bypass graft surgery
+38181974	2024	Can J Cardiol	Do the Few Dictate Care for the Many? Revascularisation Considerations That Go Beyond the Guidelines
+36522806	2023	J Thorac Cardiovasc Surg	The 2021 American College of Cardiology/American Heart Association/Society for Cardiac Angiography and Interventions gui
+38104631	2024	Can J Cardiol	Canadian Cardiovascular Society/Canadian Association of Interventional Cardiology 2023 Focused Update of the Guidelines 
+40403850	2025	Int J Cardiol	Percutaneous or surgical revascularization in patients with severe left main coronary artery disease in Latin America: A
+
+### AB_lv_dysfunction_technique  (40)
+27040723	2016	N Engl J Med	Coronary-Artery Bypass Surgery in Patients with Ischemic Cardiomyopathy
+37655258	2023	Interv Cardiol	Revascularisation for Ischaemic Cardiomyopathy
+38548463	2024	Med Clin North Am	Medical Decision-Making and Revascularization in Ischemic Cardiomyopathy
+37763344	2023	Life (Basel)	Revascularization and Left Ventricular Dysfunction for ICD Eligibility
+24557101	2014	Anesth Analg	Perioperative assessment of myocardial deformation
+40368243	2025	J Pediatr	Myocardial Infarction in Kawasaki Disease
+41146481	2025	JACC Cardiovasc Interv	Revascularization in Ischemic Left Ventricular Dysfunction: A Pathophysiology-Guided, Evidence-Based Approach
+37751395	2023	Curr Opin Cardiol	Coronary artery bypass grafting in left ventricular dysfunction: when and how
+8960448	1996	Eur Heart J	Angina and left ventricular dysfunction
+36892041	2023	J Am Heart Assoc	Myocardial Revascularization in Patients With Ischemic Cardiomyopathy: For Whom and How
+37010802	2023	Curr Cardiol Rep	Revascularization in Ischemic Heart Failure with Reduced Left Ventricular Ejection Fraction
+37758014	2024	Can J Cardiol	Aortic Stenosis With Coronary Artery Disease: SAVR or TAVR-When and How?
+38070770	2024	Can J Cardiol	Less Invasive and Hybrid Surgical/Interventional Coronary Disease Management: The Future Is Now
+34475329	2021	Curr Opin Cardiol	Coronary artery bypass grafting in low ejection fraction: state of the art
+29994804	2018	Curr Opin Cardiol	Diabetes and multivessel disease: coronary artery bypass grafting remains king
+24434340	2013	Panminerva Med	Management of multivessel coronary artery disease
+30798611	2019	Asian Cardiovasc Thorac Ann	Fast-track off-pump coronary artery bypass: single-center experience
+40948139	2025	Circ Cardiovasc Interv	Current Concepts in Revascularization for Ischemic Heart Disease With Reduced Ejection Fraction
+39623426	2024	J Transl Med	Safety and therapeutic potential of allogeneic adipose-derived stem cell spray transplantation in ischemic cardiomyopath
+30903300	2019	Curr Cardiol Rep	Radial Artery Versus Saphenous Vein Grafts in Coronary Artery Bypass Surgery: a Literature Review
+38302051	2024	Ann Thorac Surg	Mechanical Circulatory Support During Surgical Revascularization for Ischemic Cardiomyopathy
+30377077	2019	Heart Lung Circ	A Review of Coronary Artery Bypass Grafting in the Indigenous Australian Population
+28936580	2018	Ir J Med Sci	Use of cardiopulmonary pump support during coronary artery bypass grafting in the high-risk: a meta-analysis
+7819624	1994	Curr Opin Cardiol	Coronary artery bypass grafting for left ventricular dysfunction
+37178417	2023	Curr Atheroscler Rep	Revascularization Options for Left Main Disease: What Clinicians Need to Know
+31433921	2019	N Engl J Med	Myocardial Viability and Long-Term Outcomes in Ischemic Cardiomyopathy
+36462143	2023	Gen Thorac Cardiovasc Surg	Outcomes of isolated CABG from "OPCAB favor institution" for patients with left ventricular dysfunction
+38681722	2024	Indian J Thorac Cardiovasc S	Selecting the appropriate patients for coronary artery bypass grafting in ischemic cardiomyopathy-importance of myocardi
+32643847	2020	J Card Surg	On-pump beating-heart coronary artery bypass grafting in high-risk patients: A systematic review and meta-analysis
+10217470	1999	Tex Heart Inst J	Ventricular arrhythmias in congestive heart failure: clinical significance and management
+28602372	2017	Heart Fail Clin	Surgical Revascularization in Older Adults with Ischemic Cardiomyopathy
+17394905	2007	Am Heart J	Revascularization for heart failure
+40107802	2025	Heart Fail Clin	Coronary Artery Disease and Heart Failure: Medical Management and Future Direction
+33476419	2021	J Card Surg	Off pump coronary artery bypass in patients with an ejection fraction of <20%. What is our strategy?
+21478241	2011	Eur J Heart Fail	Revascularization among patients with severe left ventricular dysfunction: a meta-analysis of observational studies
+12834568	2003	Curr Treat Options Cardiovas	Surgical Remodeling in Ischemic Cardiomyopathy
+39848508	2025	Semin Thorac Cardiovasc Surg	A Beating Heart is a Happy Heart, Especially in Patients with Left Ventricular Dysfunction Undergoing Coronary Artery By
+9225669	1997	Am Fam Physician	Management of stable coronary artery disease
+39057607	2024	J Cardiovasc Dev Dis	Surgical Management of Ischemic Cardiomyopathy Patients with Severe Left Ventricular Dysfunction: Is It Time to Reconsid
+3530484	1986	Cardiovasc Clin	Emergency coronary bypass surgery: indications and results
+
+### AC_acs_emergency  (40)
+30217621	2018	Am J Emerg Med	Coronary artery bypass graft surgery complications: A review for emergency clinicians
+38004366	2023	Life (Basel)	Diabetes Mellitus in Acute Coronary Syndrome
+1599651	1992	Crit Care Nurs Clin North Am	Acute myocardial infarction in women
+2525957	1989	Cardiology	Surgical treatment of acute myocardial infarction
+21989696	2011	Semin Respir Crit Care Med	Cardiovascular failure and cardiogenic shock
+37878803	2023	Eur J Cardiothorac Surg	National trends in emergency coronary artery bypass grafting
+15208803	2004	Acta Med Croatica	[Acute coronary syndrome in diabetes]
+15185921	2004	Ital Heart J	Surgical treatment of acute myocardial infarction
+33268279	2021	J Cardiothorac Vasc Anesth	Coronary Artery Bypass Grafting in Cardiogenic Shock: Decision-Making, Management Options, and Outcomes
+33289436	2021	Expert Rev Cardiovasc Ther	Current clinical management of acute myocardial infarction complicated by cardiogenic shock
+12556676	2003	Congest Heart Fail	Cardiogenic shock: a summary of the randomized SHOCK trial
+15362542	2004	Kyobu Geka	[Acute coronary syndrome]
+39268294	2024	Cureus	In-Hospital Mortality in Patients With Acute Myocardial Infarction: A Literature Overview
+23962854	2013	Interact Cardiovasc Thorac S	Coronary artery bypass grafting or percutaneous revascularization in acute myocardial infarction?
+35419440	2022	Front Cardiovasc Med	Appropriate Timing of Coronary Artery Bypass Graft Surgery for Acute Myocardial Infarction Patients: A Meta-Analysis
+2961516	1988	Chest	Surgical treatment of acute myocardial infarction
+33339773	2021	Cardiovasc Revasc Med	Percutaneous Versus Surgical Revascularization for Acute Myocardial Infarction
+17932574	2007	Can J Cardiol	Timing of bypass surgery in stable patients after acute myocardial infarction
+33599134	2021	J Am Heart Assoc	Platelet Quiescence in Patients With Acute Coronary Syndrome Undergoing Coronary Artery Bypass Graft Surgery
+12917910	2003	Cochrane Database Syst Rev	Primary angioplasty versus intravenous thrombolysis for acute myocardial infarction
+10796812	2000	Cochrane Database Syst Rev	Primary angioplasty versus intravenous thrombolysis for acute myocardial infarction
+41776917	2023	Angiol Sosud Khir	[Emergency myocardial revascularization in non-ST-segment elevation acute coronary syndrome (literature review)]
+1538022	1992	J Am Coll Cardiol	Percutaneous transluminal coronary angioplasty in patients with cardiogenic shock
+31645108	2020	J Cardiovasc Pharmacol Ther	What Are Optimal P2Y12 Inhibitor and Schedule of Administration in Patients With Acute Coronary Syndrome?
+39266068	2024	Heart Lung Circ	Does Coronary Artery Bypass Grafting Timing Matter? How Early to Operate Diabetic Patients With Acute Myocardial Infarct
+2653635	1989	Cardiovasc Clin	Interventional therapy in acute myocardial infarction
+34792311	2022	J Cardiovasc Surg (Torino)	The timing of surgical revascularization in acute myocardial infarction: when should we intervene?
+3530484	1986	Cardiovasc Clin	Emergency coronary bypass surgery: indications and results
+31376910	2019	Can J Cardiol	Urgent Revascularization Strategies in Patients With Diabetes Mellitus and Acute Coronary Syndrome
+35350095	2022	Korean J Anesthesiol	Therapeutic hypothermia for acute myocardial infarction: a narrative review of evidence from animal and clinical studies
+23200230	2013	Ann Thorac Surg	Optimal timing of coronary artery bypass grafting in acute myocardial infarction
+8590741	1995	Semin Thorac Cardiovasc Surg	Surgical intervention in acute myocardial infarction: an historical perspective
+40565875	2025	J Clin Med	Coronary Revascularization in Patients with Hemophilia and Acute Coronary Syndrome: Case Report and Brief Literature Rev
+17636680	2007	Cochrane Database Syst Rev	WITHDRAWN: Primary angioplasty versus intravenous thrombolysis for acute myocardial infarction
+19028640	2008	Anadolu Kardiyol Derg	Surgery as early revascularization after acute myocardial infarction
+31950276	2020	Curr Cardiol Rep	Device Therapy for Sudden Cardiac Death Prophylaxis After Acute Coronary Syndrome: When and Why?
+18473867	2008	Curr Pharm Des	Pharmacoeconomics of anticoagulants in acute coronary syndrome and percutaneous coronary intervention
+39139032	2024	Clin Cardiol	Optimal Revascularization Timing of Coronary Artery Bypass Grafting in Acute Myocardial Infarction
+35732552	2022	Am J Cardiol	Treatment Strategies and Outcomes of Emergency Left Main Percutaneous Coronary Intervention
+36905688	2023	Am J Cardiol	Acute Coronary Syndrome After Transcatheter Aortic Valve Implantation (Results from Over 40,000 Patients)
+
+### AD_hybrid  (0)
+
+### AE_anatomy_for_surgeon  (40)
+24453062	2014	Clin Anat	Clinical and surgical anatomy of the liver: a review for clinicians
+37940325	2023	JACC Cardiovasc Imaging	Coronary Anatomy, Physiology, and Beyond…
+32557439	2020	Facial Plast Surg	Periorbital Surgical Anatomy
+33196488	2022	Ann Surg	Artificial Intelligence for Intraoperative Guidance: Using Semantic Segmentation to Identify Surgical Anatomy During Lap
+31564392	2019	Thorac Surg Clin	Surgical Anatomy of Paraesophageal Hernias
+23962854	2013	Interact Cardiovasc Thorac S	Coronary artery bypass grafting or percutaneous revascularization in acute myocardial infarction?
+25159815	2014	Ann Chir Plast Esthet	[Surgical anatomy of the nose]
+36563670	2022	Facial Plast Surg	Essential Surgical Anatomy for Facelift
+31256550	2019	Arch Craniofac Surg	Surgical anatomy for Asian rhinoplasty
+28447049	2017	Transl Gastroenterol Hepatol	Surgical anatomy of gastric lymphatic drainage
+29707503	2018	Ann Cardiothorac Surg	Surgical anatomy of the trachea
+34754828	2021	World J Orthop	Mixed reality for visualization of orthopedic surgical anatomy
+26981262	2016	J Thorac Dis	Surgical anatomy of the tracheobronchial tree
+40049164	2025	Cell	CXCL12 drives natural variation in coronary artery anatomy across diverse populations
+37627461	2023	Animals (Basel)	Surgical Anatomy of the Gastrointestinal Tract in Cats
+25831182	2015	Am Surg	The surgical anatomy of the inguinal lymphatics
+30005783	2018	Facial Plast Surg Clin North	Surgical Anatomy of the Asian Nose
+2694067	1989	Otolaryngol Clin North Am	The surgical anatomy of cholesteatoma
+39647980	2024	Curr Probl Surg	The Wade Programme in surgical anatomy: educational approach and 10-year review
+18564541	2008	Semin Ultrasound CT MR	Cardiac and coronary anatomy in computed tomography
+38911434	2024	J Maxillofac Oral Surg	Surgical Anatomy in Orbital Fractures: A Surgeons Perspective
+25220721	2015	Clin Anat	The surgical anatomy of the lymphatic system of the pancreas
+26541478	2015	J Surg Oncol	Surgical anatomy of oropharynx and supraglottic larynx for transoral robotic surgery
+30554856	2019	Best Pract Res Clin Obstet G	Laparoscopic surgical anatomy for pelvic floor surgery
+40995628	2025	Circulation	Clinical and Prognostic Significance of Anomalous Origin of a Coronary Artery in Adults
+19679290	2009	JACC Cardiovasc Imaging	Does coronary flow trump coronary anatomy?
+31407011	2020	Oper Neurosurg	Surgical Anatomy of Vertical Perithalamic Hemispherotomy
+26825651	2016	Curr Opin Urol	Three-dimensional printing of surgical anatomy
+27495165	2016	Chirurg	[Surgical anatomy of the abdominal wall]
+2928899	1989	Surg Clin North Am	Surgical anatomy of the liver
+36222066	2023	Dis Esophagus	The surgical anatomy of a (robot-assisted) minimally invasive transcervical esophagectomy
+8378814	1993	Surg Clin North Am	The surgical anatomy and technique of the thoracoabdominal incision
+29363018	2018	J Gastrointest Surg	Surgical Anatomy of the Superior Mesenteric Vessels Related to Pancreaticoduodenectomy: a Systematic Review and Meta-Ana
+29240305	2018	Clin Otolaryngol	Surgical anatomy of the round window-Implications for cochlear implantation
+6348996	1983	Thorax	The surgical anatomy of the conduction tissues
+31240175	2019	Ann Cardiothorac Surg	Surgical anatomy of the aortic valve and root-implications for valve repair
+39484768	2025	Curr Cardiol Rev	Comprehensive Review of Coronary Artery Anatomy Relevant to Cardiac Surgery
+25449209	2015	J Clin Neurosci	Surgical anatomy of the minimally invasive lateral lumbar approach
+35234855	2022	Eur J Cardiothorac Surg	The surgical anatomy of hearts with isomeric atrial appendages-implications for surgical management
+17294146	2007	HNO	[Endoscopic forehead lifting: surgical anatomy and technique]
+
+### AF_graft_failure_technical  (40)
+16918271	2006	Expert Rev Cardiovasc Ther	Composite arterial grafting
+8573975	1995	Curr Opin Cardiol	Vein graft failure
+38572650	2024	Arterioscler Thromb Vasc Bio	Hemodynamics and Wall Mechanics of Vascular Graft Failure
+36053999	2022	Braz J Cardiovasc Surg	Pathophysiology and Mechanisms of Saphenous Vein Graft Failure
+29084780	2017	Circulation	Mechanisms, Consequences, and Prevention of Coronary Graft Failure
+34460327	2021	Circulation	Saphenous Vein Graft Failure: From Pathophysiology to Prevention and Treatment Strategies
+27194091	2016	Nat Rev Cardiol	Vein graft failure: from pathophysiology to clinical outcomes
+23574989	2013	Ann Surg	Saphenous vein graft failure after coronary artery bypass surgery: pathophysiology, management, and future directions
+22326889	2012	Curr Opin Pharmacol	Statins and vein graft failure in coronary bypass surgery
+39639997	2023	Vessel Plus	The biomechanics and prevention of vein graft failure in coronary revascularization
+37417248	2023	Circulation	Graft Failure After Coronary Artery Bypass Grafting and Its Association With Patient Characteristics and Clinical Events
+39272686	2024	Diagnostics (Basel)	Intraoperative Prediction of Coronary Graft Failure Based on Transit Time Flow Measurement: A PRELIMINARY STUDY
+34718571	2022	Interact Cardiovasc Thorac S	Graft flow assessment and early coronary artery bypass graft failure: a computed tomography analysis
+22796519	2012	Pharmacol Ther	Prevention of coronary in-stent restenosis and vein graft failure: does vascular gene therapy have a role?
+33060952	2018	Indian J Thorac Cardiovasc S	Intraoperative graft assessment and imaging of native coronary arteries
+2878224	1986	Lancet	Coronary artery bypass graft failure--an autoimmune phenomenon?
+34699002	2022	Gen Thorac Cardiovasc Surg	Translational model of vein graft failure following coronary artery bypass graft in atherosclerotic microswine
+39087882	2025	Minerva Cardiol Angiol	Comparative effectiveness of antiplatelet therapies for saphenous venous graft occlusion and cardiovascular outcomes: a 
+31397850	2020	Cardiovasc Res	Preventing treatment failures in coronary artery disease: what can we learn from the biology of in-stent restenosis, vei
+21349399	2011	J Am Coll Cardiol	Exploring mechanisms of graft occlusion toward improved outcomes in coronary artery bypass graft surgery
+29754654	2018	Am Heart J	Dual antiplatelet therapy for perioperative myocardial infarction following CABG surgery
+32343914	2020	Can J Physiol Pharmacol	Endothelin-1, endothelin receptor antagonists, and vein graft occlusion in coronary artery bypass surgery: 20 years on a
+12204729	2002	Eur J Cardiothorac Surg	Mechanisms and future directions for prevention of vein graft failure in coronary bypass surgery
+18721510	2008	Am J Cardiol	Impact of perioperative myocardial infarction on angiographic and clinical outcomes following coronary artery bypass gra
+10147834	1992	Curr Opin Cardiol	Saphenous vein graft failure: etiologic considerations and strategies for prevention
+41303005	2025	J Clin Med	Five-Year Mortality of Patients with Perioperative Myocardial Infarction After On-Pump Isolated or Combined Coronary Art
+6983005	1982	J Thorac Cardiovasc Surg	Perioperative myocardial infarction caused by atheroembolism
+39832076	2025	Neth Heart J	Symptomatic early coronary graft failure in bypass surgery patients: incidence, predictors and clinical impact
+39753923	2025	Cardiovasc Eng Technol	Flow-Based Coronary Artery Bypass Graft Patency Metrics: Uncertainty Quantification Simulations to Guide Development
+31006005	2019	Eur J Cardiothorac Surg	Early silent graft failure in off-pump coronary artery bypass grafting: a computed tomography analysis†
+27030683	2016	Interact Cardiovasc Thorac S	Predictors of early graft failure after coronary artery bypass grafting for chronic total occlusion
+40623893	2025	Open Heart	Survival, adverse events and management of silent in-hospital coronary bypass graft occlusion
+31606176	2020	J Thorac Cardiovasc Surg	Development of a risk score for early saphenous vein graft failure: An individual patient data meta-analysis
+39598033	2024	J Clin Med	Understanding Surgeons' Reluctance to Adopt Intraoperative Coronary Graft Verification Procedures: A Literature Review C
+18036908	2007	Ann Thorac Surg	Predicting early coronary artery bypass graft failure by intraoperative transit time flow measurement
+38839351	2024	Circ J	Preoperative Quantitative Flow Ratio, Intraoperative Transit Time Flow Measurement Parameters, and Their Predictive Valu
+18640329	2008	Ann Thorac Surg	Predicting midterm coronary artery bypass graft failure by intraoperative transit time flow measurement
+38441991	2024	J Invasive Cardiol	A unique cause of acute bypass graft failure: think outside the box
+6156506	1980	Thorac Cardiovasc Surg	Perioperative myocardial infarction in coronary artery bypass surgery
+33060965	2019	Indian J Thorac Cardiovasc S	Perioperative myocardial infarction diagnosis after coronary artery bypass grafting surgery using coupled electrocardiog
+
+### AG_sternotomy_closure  (40)
+15366689	2004	Semin Thorac Cardiovasc Surg	Prevention and management of deep sternal wound infection
+31531834	2019	Gen Thorac Cardiovasc Surg	Sternal wound closure in the current era: the need of a tailored approach
+23446674	2013	Interact Cardiovasc Thorac S	Skeletonized versus pedicled internal thoracic artery and risk of sternal wound infection after coronary bypass surgery:
+31829828	2020	Surg Infect (Larchmt)	Reining in Sternal Wound Infections: The Achilles' Heel of Bilateral Internal Thoracic Artery Grafting
+38342923	2024	J Cardiothorac Surg	The negative pressure wound therapy for prevention of sternal wound infection: Can we reduce infection rate after the us
+38355514	2024	J Cardiothorac Surg	Improved early risk stratification of deep sternal wound infection risk after coronary artery bypass grafting
+23688324	2013	J Cardiothorac Surg	Deep sternal wound infection after cardiac surgery
+20103378	2010	Ann Thorac Surg	Effect of skeletonization of the internal thoracic artery for coronary revascularization on the incidence of sternal wou
+35903265	2022	Front Surg	Deep sternal wound infection and pectoralis major muscle flap reconstruction: A single-center 20-year retrospective stud
+36313952	2022	Med Arch	Deep Sternal Wound Infection After Open-heart Cardiac Surgery and Vacuum-Assisted Closure Therapy: a Single-center Study
+15454387	2004	Heart Surg Forum	A new technical approach for sternal closure with suture anchors (Dogan technique)
+24828826	2014	Asian Cardiovasc Thorac Ann	Deep sternal wound infection after coronary artery bypass: How to manage?
+30309673	2019	J Thorac Cardiovasc Surg	Deep sternal wound infection after bilateral internal thoracic artery grafting: Insights from a Japanese national databa
+36071086	2022	Sci Rep	Performance of a novel risk model for deep sternal wound infection after coronary artery bypass grafting
+33364774	2020	Vasc Health Risk Manag	Obesity and Preoperative Anaemia as Independent Risk Factors for Sternal Wound Infection After Coronary Artery Bypass Gr
+36097530	2022	Infect Drug Resist	Analysis of Risk Factors for Sternal Wound Infection After Off-Pump Coronary Artery Bypass Grafting
+19896860	2010	Eur J Cardiothorac Surg	Economic aspects of deep sternal wound infections
+26432552	2015	Eur J Clin Microbiol Infect 	Triclosan-coated sutures and sternal wound infections: a prospective randomized clinical trial
+17888179	2007	BMC Infect Dis	Superficial and deep sternal wound infection after more than 9000 coronary artery bypass graft (CABG): incidence, risk f
+42058664	2026	Kardiochir Torakochirurgia P	Impact of topical vancomycin paste on prevention of deep sternal wound infection in patients undergoing bilateral intern
+30505751	2018	Ann Cardiothorac Surg	The risk of mediastinitis and deep sternal wound infections with single and bilateral, pedicled and skeletonized interna
+32599046	2021	Ann Thorac Surg	Effect of Skeletonization of Bilateral Internal Thoracic Arteries on Deep Sternal Wound Infections
+26588866	2016	Ann Thorac Surg	Assessment of the Association of Bilateral Internal Thoracic Artery Skeletonization and Sternal Wound Infection After Co
+25703409	2015	J Thorac Cardiovasc Surg	Gentamicin-collagen sponge reduces the risk of sternal wound infections after heart surgery: Meta-analysis
+32884963	2020	J Health Econ Outcomes Res	Sternal-Wound Infections following Coronary Artery Bypass Graft: Could Implementing Value-Based Purchasing be Beneficial
+37998515	2023	J Cardiovasc Dev Dis	Surgical Strategy for Sternal Closure in Patients with Surgical Myocardial Revascularization Using Mammary Arteries
+25882356	2015	Clin Microbiol Infect	Sternal wound infection after cardiac surgery: incidence and risk factors according to clinical presentation
+24773797	2014	Am J Infect Control	Care bundle to prevent methicillin-resistant Staphylococcus aureus sternal wound infection after off-pump coronary arter
+35341810	2022	J Hosp Infect	A bundle of infection control measures reduces postoperative sternal wound infection due to Staphylococcus aureus but no
+19700961	2009	Dimens Crit Care Nurs	Prevention of sternal wound infections after coronary artery bypass graft surgery with use of insulin drug therapy: a re
+24613159	2014	J Thorac Cardiovasc Surg	Toward zero: deep sternal wound infection after 1001 consecutive coronary artery bypass procedures using arterial grafts
+31119520	2019	Gen Thorac Cardiovasc Surg	Efficacy of new multimodal preventive measures for post-operative deep sternal wound infection
+32366992	2020	Sci Rep	Topical rifampicin for prevention of deep sternal wound infections in patients undergoing coronary artery bypass graftin
+28423122	2017	Braz J Cardiovasc Surg	Development and Validation of a Stratification Tool for Predicting Risk of Deep Sternal Wound Infection after Coronary A
+22719146	2012	Tex Heart Inst J	Negative-pressure wound therapy and laparoscopic omentoplasty for deep sternal wound infections after median sternotomy
+16286278	2005	Heart Surg Forum	Sternal wound complications in bilateral internal thoracic artery grafting: a comparison of the off-pump technique and c
+19031300	2009	Scand Cardiovasc J	Patients with sternal wound infection after cardiac surgery do not improve their quality of life
+26520592	2015	J Hosp Infect	Hygienic interventions to decrease deep sternal wound infections following coronary artery bypass grafting
+22498089	2012	J Thorac Cardiovasc Surg	Reduction of sternal wound infections in diabetic patients undergoing off-pump coronary artery bypass surgery and using 
+20920015	2010	J Clin Nurs	Risk factors for deep sternal wound infections after cardiac surgery in Jordan
+
+### AH_mics_cabg_technique  (40)
+38090335	2023	Ann Cardiothorac Surg	Minimally invasive surgical coronary artery bypass in women
+39434973	2024	Ann Cardiothorac Surg	Step-by-step technique of robotic-assisted minimally invasive direct coronary artery bypass
+28673140	2017	Asian Cardiovasc Thorac Ann	Minimally invasive coronary artery bypass grafting: a systematic review
+36378893	2022	J Card Surg	Minimally invasive off-pump anaortic coronary artery bypass (MACAB)
+33060953	2018	Indian J Thorac Cardiovasc S	Minimally invasive coronary artery bypass grafting
+30569257	2019	Gen Thorac Cardiovasc Surg	Initiation and modification of minimally invasive coronary artery bypass grafting
+30739774	2019	J Thorac Cardiovasc Surg	Minimally invasive coronary artery bypass: Twenty-year experience
+15179338	2004	J Cardiovasc Surg (Torino)	Minimally invasive direct coronary artery bypass grafting: a systematic review
+19043393	2008	J Cardiovasc Surg (Torino)	Minimally invasive direct coronary artery bypass grafting: a meta-analysis
+39434975	2024	Ann Cardiothorac Surg	How to advance from minimally invasive coronary artery bypass grafting to totally endoscopic coronary bypass grafting: c
+8561539	1996	Ann Thorac Surg	Minimally invasive coronary artery bypass grafting
+37241139	2023	Medicina (Kaunas)	Right-Sided Minimally Invasive Direct Coronary Artery Bypass: Clinical Experience and Perspectives
+21765688	2000	Ochsner J	Minimally invasive coronary artery bypass surgery
+9352176	1997	Curr Opin Cardiol	Minimally invasive coronary artery bypass grafting
+24413006	2013	Multimed Man Cardiothorac Su	Minimally invasive cardiac surgery-coronary artery bypass graft
+38673708	2024	J Clin Med	Robotic-Assisted Minimally Invasive Direct Coronary Artery Bypass Grafting: A Surgical Technique
+36704468	2022	Front Cardiovasc Med	Postoperative results of minimally invasive direct coronary artery bypass procedure in 234 patients
+9205187	1997	Ann Thorac Surg	Minimally invasive axillary-coronary artery bypass
+33234215	2020	Heart Surg Forum	Simulation Training in Minimally Invasive Direct Coronary Artery Bypass Grafting
+41025333	2025	Curr Opin Cardiol	Teaching minimally invasive coronary artery bypass grafting: a structured framework for well tolerated adoption and trai
+9347805	1997	South Med J	Reducing cardiac surgical trauma: the minimally invasive direct coronary artery bypass
+24667582	2014	Interact Cardiovasc Thorac S	What is the optimal revascularization technique for isolated disease of the left anterior descending artery: minimally i
+39037968	2024	Braz J Cardiovasc Surg	Minimally Invasive Coronary Artery Bypass Grafting in a Low-Risk Asian Cohort: A Propensity-Score Matched Study
+9798298	1998	Zhonghua Yi Xue Za Zhi (Taip	Minimally-invasive, direct coronary artery bypass grafting
+37464774	2023	Innovations (Phila)	Minimally Invasive Off-Pump Anaortic Complete Arterial Coronary Artery Bypass: How to Do It?
+9307447	1997	Ann Thorac Surg	Minimally invasive versus conventional reoperative coronary artery bypass
+35127332	2022	Thorac Cardiovasc Surg Rep	Bilateral Internal Thoracic Artery Minimally Invasive CABG Management in COPD
+35035305	2021	J Interv Cardiol	Surgical Challenges in Multi-Vessel Minimally Invasive Coronary Artery Bypass Grafting
+39267396	2024	Innovations (Phila)	Robot-Assisted Minimally Invasive Coronary Artery Bypass Grafting: Total Arterial Revascularization Using the Double-Doc
+16324587	2005	Rev Esp Cardiol	[Off-pump coronary artery bypass grafting and other minimally invasive techniques]
+39656945	2024	Interdiscip Cardiovasc Thora	A review of nomenclature in minimally invasive coronary artery bypass grafting-the anarchy of terminology
+11173347	2000	Ann Thorac Cardiovasc Surg	Minimally invasive direct coronary artery bypass (MIDCAB)
+35552396	2022	Eur J Cardiothorac Surg	Bilateral mini-thoracotomy for combined minimally invasive direct coronary artery bypass and mitral valve repair
+39790165	2024	Ann Thorac Surg Short Rep	Comparison of Robot-Assisted Multivessel Minimally Invasive Direct Coronary Artery Bypass and Hybrid Revascularization
+9262076	1997	Eur J Cardiothorac Surg	Minimally invasive thoracoscopically assisted coronary artery bypass surgery
+42301235	2026	Curr Opin Cardiol	Minimally invasive approaches to coronary artery bypass grafting: techniques, current evidence, and future directions
+38125327	2024	Indian J Thorac Cardiovasc S	Total arterial revascularization using robot assisted minimally invasive coronary artery bypass: an Indian experience
+38899107	2024	JTCVS Tech	Right-sided minimally invasive direct coronary artery bypass: Preoperative planning and surgical technique
+12472384	2002	Ann Thorac Cardiovasc Surg	Minimally invasive direct redo coronary artery bypass grafting
+40459585	2025	Multimed Man Cardiothorac Su	Robotic-assisted, minimally invasive direct coronary artery bypass-preparation, conduit harvest and execution
+
+
+[saved] 650 unique -> raw/batch2.json

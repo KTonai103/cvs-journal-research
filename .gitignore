@@ -23,6 +23,10 @@ __pycache__/
 # Ad-hoc screenshots taken while verifying rendered pages
 /*.png
 
+# Contact sheets used to check figure numbering against the source captions
+# (regenerable; never referenced by a page)
+*/figures/_sheet_*.png
+
 # Large PDF directories (keep papers/ out of GitHub)
 papers/
 
@@ -46,6 +50,7 @@ output/SAKURA-AVR_*.html
 */pdfs/
 */pdf_text/
 */pitfalls_digest.txt
+*/raw/digest_fig.txt
 */Reference/
 *.pdf
 

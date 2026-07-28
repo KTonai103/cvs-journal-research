@@ -1,0 +1,18 @@
+{
+"A_howto_overview": "(\"coronary artery bypass\"[ti] OR CABG[ti]) AND (technique[ti] OR \"how to\"[ti] OR \"step by step\"[ti] OR \"tips and tricks\"[ti] OR \"operative technique\"[ti] OR \"how we do it\"[ti])",
+"B_exposure_displacement": "(\"off-pump\"[tiab] OR \"beating heart\"[tiab]) AND (exposure[ti] OR displacement[ti] OR verticalization[ti] OR \"pericardial suture\"[tiab] OR positioning[ti]) AND (coronary[tiab])",
+"C_displacement_hemodynamics": "(\"cardiac displacement\"[tiab] OR \"heart displacement\"[tiab] OR \"vertical displacement\"[tiab]) AND (off-pump[tiab] OR beating[tiab]) AND (hemodynamic*[tiab] OR \"right ventric*\"[tiab])",
+"D_ita_skeletonization": "(\"internal thoracic artery\"[ti] OR \"internal mammary artery\"[ti]) AND (skeletoniz*[ti] OR harvest*[ti]) AND (technique[tiab] OR method[tiab])",
+"E_bita_technique": "\"bilateral internal thoracic artery\"[ti] AND (technique[tiab] OR harvest*[tiab] OR sternal[ti] OR configuration[tiab])",
+"F_radial_harvest": "\"radial artery\"[ti] AND (harvest*[ti] OR spasm[ti] OR technique[ti]) AND (coronary[tiab] OR bypass[tiab])",
+"G_endoscopic_vein_harvest": "\"endoscopic vein harvest*\"[tiab] OR (\"saphenous vein\"[ti] AND endoscopic[ti] AND harvest*[ti])",
+"H_notouch_svg": "\"no-touch\"[ti] AND (\"saphenous vein\"[ti] OR vein[ti]) AND (harvest*[tiab] OR technique[tiab])",
+"I_gastroepiploic": "(\"gastroepiploic artery\"[ti] OR \"right gastroepiploic\"[ti]) AND (coronary[tiab] OR bypass[tiab])",
+"J_composite_graft": "(\"composite graft\"[ti] OR \"Y graft\"[ti] OR \"T graft\"[ti] OR \"Y-graft\"[ti] OR \"T-graft\"[ti]) AND coronary[tiab]",
+"K_sequential_anastomosis": "(sequential[ti] AND (graft*[ti] OR anastomos*[ti]) AND coronary[tiab])",
+"L_graft_configuration": "(\"graft configuration\"[tiab] OR \"grafting strategy\"[tiab] OR \"conduit selection\"[tiab] OR \"graft design\"[tiab]) AND (coronary artery bypass[tiab])",
+"M_competitive_flow": "(\"competitive flow\"[ti] OR \"string sign\"[ti]) AND (coronary[tiab] OR graft*[tiab])",
+"N_distal_anastomosis": "(anastomosis[ti] OR anastomotic[ti]) AND coronary[ti] AND (technique[tiab] OR suture[tiab] OR training[tiab] OR simulation[tiab])",
+"O_endarterectomy": "(\"coronary endarterectomy\"[ti] OR \"diffuse coronary\"[ti] OR (\"onlay patch\"[tiab] AND coronary[tiab]) OR \"extensive reconstruction\"[tiab]) AND (bypass[tiab] OR graft*[tiab])",
+"P_proximal_anastomosis": "(\"proximal anastomosis\"[ti] OR \"proximal anastomoses\"[ti] OR clampless[ti] OR \"aortic no-touch\"[ti] OR \"anaortic\"[ti]) AND coronary[tiab]"
+}

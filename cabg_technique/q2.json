@@ -1,0 +1,20 @@
+{
+"Q_ttfm": "(\"transit-time flow\"[tiab] OR \"transit time flow\"[tiab] OR \"graft flow measurement\"[tiab]) AND (coronary[tiab]) AND (interpretation[tiab] OR technique[tiab] OR consensus[tiab] OR \"quality control\"[tiab] OR intraoperative[tiab])",
+"R_epiaortic": "(\"epiaortic\"[tiab] OR \"aortic manipulation\"[tiab] OR \"porcelain aorta\"[ti] OR \"calcified ascending aorta\"[ti]) AND (coronary artery bypass[tiab] OR CABG[tiab])",
+"S_learning_curve": "(\"learning curve\"[ti] OR proctor*[tiab] OR \"case volume\"[ti]) AND (\"coronary artery bypass\"[tiab] OR CABG[tiab] OR \"off-pump\"[tiab])",
+"T_training_program": "(training[ti] OR education[ti] OR curriculum[ti] OR \"skill acquisition\"[ti] OR resident*[ti] OR trainee*[ti] OR fellow*[ti]) AND (\"coronary artery bypass\"[tiab] OR CABG[tiab])",
+"U_simulation": "(simulat*[ti] OR \"wet lab\"[tiab] OR \"3D printed\"[tiab] OR \"virtual reality\"[tiab]) AND (coronary[tiab]) AND (bypass[tiab] OR anastomosis[tiab] OR graft*[tiab])",
+"V_redo_cabg": "(redo[ti] OR reoperat*[ti] OR \"second time\"[ti]) AND (\"coronary artery bypass\"[tiab] OR CABG[tiab]) AND (technique[tiab] OR strategy[tiab] OR approach[tiab] OR conduct[tiab])",
+"W_onpump_technique": "(\"on-pump beating\"[tiab] OR \"beating heart\"[ti] OR cardioplegi*[ti] OR \"myocardial protection\"[ti] OR \"aortic cross-clamp\"[ti]) AND (\"coronary artery bypass\"[tiab] OR CABG[tiab]) AND (technique[tiab] OR strategy[tiab] OR review[tiab])",
+"X_multivessel_strategy": "(\"complete revascularization\"[ti] OR \"multivessel\"[ti] OR \"multiple arterial\"[ti] OR \"total arterial\"[ti]) AND (\"coronary artery bypass\"[tiab] OR CABG[tiab]) AND (strategy[tiab] OR technique[tiab] OR programme[tiab] OR program[tiab] OR approach[tiab])",
+"Y_target_selection": "(\"target vessel\"[tiab] OR \"grafting the\"[ti] OR \"which conduit\"[tiab] OR \"vessel selection\"[tiab]) AND (\"coronary artery bypass\"[tiab]) AND (surgeon*[tiab] OR decision[tiab] OR strategy[tiab] OR quality[tiab])",
+"Z_conversion_bailout": "(conversion[ti] OR \"bail-out\"[tiab] OR bailout[tiab] OR \"emergency conversion\"[tiab]) AND (\"off-pump\"[tiab] OR OPCAB[tiab]) AND coronary[tiab]",
+"AA_guidelines_consensus": "(guideline*[ti] OR consensus[ti] OR \"expert opinion\"[ti] OR \"position paper\"[ti] OR recommendations[ti]) AND (\"coronary artery bypass\"[tiab] OR \"myocardial revascularization\"[tiab] OR conduit*[tiab]) AND (2019:2026[dp])",
+"AB_lv_dysfunction_technique": "(\"low ejection fraction\"[tiab] OR \"ischemic cardiomyopathy\"[tiab] OR \"left ventricular dysfunction\"[tiab]) AND (\"coronary artery bypass\"[tiab]) AND (technique[tiab] OR strategy[tiab] OR support[tiab] OR management[tiab] OR intraoperative[tiab])",
+"AC_acs_emergency": "(\"acute coronary syndrome\"[ti] OR \"cardiogenic shock\"[ti] OR emergency[ti] OR \"acute myocardial infarction\"[ti]) AND (\"coronary artery bypass\"[tiab] OR CABG[tiab]) AND (timing[tiab] OR strategy[tiab] OR technique[tiab] OR surgical[tiab])",
+"AD_hybrid": "(hybrid[ti]) AND (\"coronary revascularization\"[tiab] OR \"coronary artery bypass\"[tiab]) AND (technique[tiab] OR strategy[tiab] OR outcomes[tiab])",
+"AE_anatomy_for_surgeon": "(\"coronary anatomy\"[ti] OR \"surgical anatomy\"[ti] OR \"coronary artery anatomy\"[tiab]) AND (surgeon*[tiab] OR bypass[tiab] OR revascularization[tiab] OR grafting[tiab])",
+"AF_graft_failure_technical": "(\"graft failure\"[ti] OR \"graft occlusion\"[ti] OR \"technical error\"[tiab] OR \"perioperative myocardial infarction\"[ti]) AND (\"coronary artery bypass\"[tiab]) AND (mechanism*[tiab] OR cause*[tiab] OR technical[tiab] OR intraoperative[tiab])",
+"AG_sternotomy_closure": "(\"sternal closure\"[ti] OR \"sternal wound\"[ti] OR \"deep sternal wound infection\"[ti]) AND (\"coronary artery bypass\"[tiab] OR \"internal thoracic\"[tiab]) AND (prevention[tiab] OR technique[tiab] OR bundle[tiab])",
+"AH_mics_cabg_technique": "(\"minimally invasive\"[ti] AND (\"coronary artery bypass\"[ti] OR CABG[ti])) AND (technique[tiab] OR \"how to\"[tiab] OR program[tiab] OR adoption[tiab] OR setup[tiab] OR stepwise[tiab])"
+}
