@@ -9,6 +9,19 @@ __pycache__/
 # Editor
 .vscode/
 *.swp
+.obsidian/
+
+# Agent / tooling working dirs
+.claude/
+.claudian/
+.playwright-mcp/
+
+# Figure-cropping intermediates (page previews with fraction grid; regenerable
+# from the source PDFs via scripts/render.py)
+*/figwork/
+
+# Ad-hoc screenshots taken while verifying rendered pages
+/*.png
 
 # Large PDF directories (keep papers/ out of GitHub)
 papers/
@@ -52,3 +65,8 @@ future_cardiac_surgery/pdf_text/pmc_html/
 # Ross technique review: extracted paper text + Europe PMC XML caches (copyrighted sources)
 */pdf_text_clean/
 */corpus/epmc_xml/
+
+# Internal-only: Asan forum 2026 presentation materials (unpublished study proposal,
+# handouts quote guideline tables)
+small_annulus_avr/presentation_asan2026/
+small_annulus_avr/*.pptx
