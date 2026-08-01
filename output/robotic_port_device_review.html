@@ -443,13 +443,12 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
   <main class="content">
 <h1 id="ロボット心臓手術用止血機能つきバルーン固定ポート構想">ロボット心臓手術用「止血機能つき・バルーン固定ポート」構想</h1>
 <h2 id="背景先行技術新規性の検討">背景・先行技術・新規性の検討</h2>
-<p><em>作成: 2026-08-01 ／ 対象: ロボット支援心臓手術（僧帽弁形成・ASD・MAZE 等）の胸壁ポート</em></p>
+<p><em>作成: 2026-08-01 ／ 対象: ロボット支援心臓手術（僧帽弁形成・ASD・MAZE 等）の胸壁ポート</em> <em>改訂: 2026-08-01（敵対的検証フェーズの所見を反映。§7 の特許・事業性は判定が反転した）</em></p>
 <blockquote>
-<p><strong>表記ルール</strong>：〔一次確認済〕＝本調査で PMID/DOI/特許番号/公式サイトを直接当たって確認したもの。〔要一次確認〕＝並列調査エージェントの報告だが、独立の裏取りが取れていないもの。後者は必ず自分で確認してから対外資料に使うこと。</p>
+<p><strong>表記ルール</strong>：〔一次確認済〕＝本調査で PMID/DOI/特許請求項/FDA 510(k)/SEC 提出書類の原文を直接当たって確認したもの。〔要一次確認〕＝並列調査エージェントの報告で独立の裏取りが取れていないもの。〔未確認〕＝調べたが確認できなかったもの。後二者は必ず自分で確認してから対外資料に使うこと。</p>
 </blockquote>
 <hr />
 <h2 id="0-結論先に書く">0. 結論（先に書く）</h2>
-<p>構想は3つの独立した主張からなる。それぞれの評価は大きく異なる。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -460,84 +459,154 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 </thead>
 <tbody>
 <tr>
-<td><strong>問題設定</strong>：ポート刺入部からの出血が臨床的に重要</td>
-<td><strong>正しい。しかも既に定量化されている</strong></td>
-<td>ロボットは従来型 MICS より出血再開胸のオッズが <strong>1.86倍</strong>（PSM 8研究3,352例）。VATS の RCT では「ポート創面の出血で手術が中断される」のが対照群の <strong>51.8%</strong>。ロボット僧帽弁でバルーンタンポナーデ導入により出血再開胸 <strong>4.7% → 0%</strong></td>
+<td><strong>問題設定</strong>：ポート／胸壁刺入部からの出血が臨床的に重要</td>
+<td><strong>正しい。ただし決定的な数字はロボットではなく非ロボット MICS から来ている</strong></td>
+<td>右小開胸 MIMVS 151例で出血再開胸6例の内訳が <strong>肋間動脈4・心筋保護カニュレーション部位1・左房縫合線1</strong>（Pojar 2019）。埼玉医大の MICS 僧帽弁形成98例では<strong>再開胸3例が全例 chest wall bleeding</strong>（Aizawa 2026）。VATS の RCT では <strong>ポート創面出血で手術が中断されるのが対照群の 51.8%</strong>（Shimizu/Tanaka 2020）</td>
 </tr>
 <tr>
 <td><strong>① 先端バルーンで migration 予防＋タンポナーデ止血</strong></td>
-<td><strong>新規性は無い</strong>。概念・製品・特許・臨床報告のすべてが既存</td>
-<td>バルーントロカールは 1993年 FDA クリアランス（Origin Medsystems）以来の枯れた技術。<strong>Applied Medical は自社の Kii シリーズについて公式に「Tamponade Effect／切開部が圧迫されポート部位の出血を低減」と謳っている</strong>。さらに <strong><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a>「Tamponade trocar device and method」</strong>（Applied Medical, 2008出願）を保有。臨床応用も 2025年に報告済（Balkhy ら）</td>
+<td><strong>新規性は無い。日本市場でも既に売られている</strong></td>
+<td><strong>株式会社八光「E・ZバルーンⅡ」（認証番号 229ADBZX00064000、2017年10月発売）が公式に「トロッカーの逸脱を防止」「止血圧迫効果」と謳っている</strong>。Applied Medical の Kii も英日公式で「切開部が圧迫されることでポート部位の出血を低減します」。Applied Medical は <strong><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a>「Tamponade trocar device and method」</strong>（2008出願）を保有。臨床応用も 2025年に報告済（Balkhy ら）— <strong>ただしこの報告は無調整の前後比較で因果は未証明</strong>（§2.3）</td>
 </tr>
 <tr>
 <td><strong>② 止血材をポート外周にあらかじめ装着</strong></td>
-<td><strong>新規性は乏しい</strong>。しかも<strong>材料側から強い反対材料がある</strong></td>
-<td>神戸大が <strong>創縁保護材に酸化再生セルロース（ORC）リングを組み込む</strong>手法を報告（2016）→ <strong>RCT n=108</strong>（2020）で検証済。心臓外科でも Kiani/Poston がロボット CABG のポート孔に流動性止血材を注入し輸血率 40.8%→24.2% を報告（2012）。<strong>さらに WO2019122487「腹腔内トロカール孔止血デバイス」（二連バルーンプローブ）が存在する</strong></td>
+<td><strong>製品・登録特許としては白地。ただし公開文献は既にあり、材料側に強い反対材料がある</strong></td>
+<td><strong>複数DB・複数検索式で「止血材を外周に事前装着したトロカール」の製品も登録クレームも 0件</strong>（§3.2）。しかし ⑴神戸大が創縁保護材に酸化再生セルロース（ORC）リングを組み込む手法を報告（2016）→ <strong>RCT n=108</strong>（2020）で検証済、⑵<strong>WO 2019/122487 が「バルーン＋酸化セルロース」を公開済（ただし失効）</strong>、⑶ <strong><a href="https://www.freepatentsonline.com/7018392.html">US 7,018,392</a>（2001出願・2006登録・満了）が「バルーンの外周を止血材で覆う」構造をクレーム済</strong> 。⑵⑶は新規性・進歩性の壁になる</td>
 </tr>
 <tr>
 <td><strong>③ 電メ切開による熱傷創の解決</strong></td>
 <td><strong>主張として弱い。前面に出すべきでない</strong></td>
-<td>皮膚切開線に関する限り、Cochrane・複数のメタ解析はいずれも「電メは同等ないし優位（出血少・速い・整容同等）」。ただし <strong>「ポート孔を全層焼き広げる」操作を評価した研究は世界的に皆無</strong> なので、否定されたわけではなく <strong>未検証</strong> である</td>
+<td>皮膚切開線に関する限り、Cochrane・複数のメタ解析はいずれも「電メは同等ないし優位」。ただし <strong>「ポート孔を全層焼き広げる」操作を評価した研究は世界的に皆無</strong> なので、否定ではなく<strong>未検証</strong></td>
 </tr>
 </tbody>
 </table></div>
-<h3 id="残る新規性は3点に絞られる">残る新規性は3点に絞られる</h3>
-<ol type="1">
-<li><strong>全身ヘパリン化＋体外循環という条件での設計</strong>。ORC リング RCT も Applied Medical のタンポナーデトロカールも、土俵は非ヘパリン下の一般外科／呼吸器外科である</li>
-<li><strong>「バルーンを抜いた後どうするか」への解</strong>。Balkhy らのバルーンタンポナーデは抜けば終わりで、重度凝固障害例では ICU まで留置している ＝ <strong>抜去時の再出血がプロトコルの弱点であることを著者自身が露呈している</strong>。抜去と同時に刺入路へ止血材を残置する構造（tract sealant の発想）は、確認できた範囲のどの製品もカバーしていない</li>
-<li><strong>肋間という特殊な解剖への最適化</strong>。腹壁ではない。肋骨に挟まれ、肋間神経が並走し、呼吸で動く</li>
-</ol>
-<h3 id="事業面の最重要の発見">事業面の最重要の発見</h3>
-<p>da Vinci はカニューラをアームに機械的に結合するが、<strong>国産の hinotori はソフトウェアでピボット点を設定するためアームとトロカールのドッキングが不要</strong>である（メディカロイド公式）。実際に <strong>hinotori では「トロカールを一切使わず全ポートに創縁保護材を置く」術式が既に報告されている</strong>（兵庫医大, 2025）。</p>
-<p>→ ユーザーの懸念（「ロボット会社に特許で囲われている」）は <strong>da Vinci では概ね正しく、hinotori では当てはまらない</strong>。ただし FTO 上の主障壁は Intuitive ではなく <strong>Applied Medical</strong> である。詳細は §7・§8。</p>
-<hr />
-<h2 id="1-背景--ポート刺入部の出血はどれくらい問題なのか">1. 背景 — ポート刺入部の出血はどれくらい問題なのか</h2>
-<h3 id="11-心臓手術全体での出血再開胸の位置づけ一次確認済">1.1 心臓手術全体での「出血再開胸」の位置づけ〔一次確認済〕</h3>
-<p>成人心臓手術後の再開胸（出血/タンポナーデ）のメタ解析（Biancari F ら, J Cardiothorac Vasc Anesth 2018;32(4):1618-24, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/29338997/">PMID 29338997</a></strong>, 18研究 51,497例）：</p>
-<ul>
-<li>再開胸率 <strong>4.6%</strong>（95%CI 3.9–5.2）</li>
-<li>再開胸例の院内/30日死亡 <strong>9.3% vs 2.3%</strong>、リスク比 <strong>3.30</strong>（95%CI 2.52–4.32）</li>
-<li>外科的出血源が同定できたのは <strong>65.7%</strong></li>
-<li>出血部位の内訳：グラフト本体 20.2%、<strong>胸骨 17.0%</strong>、血管縫合部 12.5%、<strong>内胸動脈採取床 13.0%</strong>、吻合部 9.9%</li>
-</ul>
-<p><strong>読み方</strong>：胸骨切開の世界でも「心臓そのものではない胸壁側」（胸骨＋IMA床）が出血源の <strong>約30%</strong> を占める。「胸壁は無視できない出血源である」という構想の前提は、胸骨切開のデータで既に裏づけられている。ロボット手術ではこの「胸壁」が「肋間のポート孔」に置き換わる。</p>
-<h3 id="12-ロボットは低侵襲手術の中でも出血再開胸が多い一次確認済">1.2 ロボットは低侵襲手術の中でも出血再開胸が多い〔一次確認済〕</h3>
-<p><strong>Santos K ら, Asian Cardiovasc Thorac Ann 2026;34(1):57-66, <a href="https://pubmed.ncbi.nlm.nih.gov/41212734/">PMID 41212734</a></strong>（傾向スコアマッチ研究のみに限定したメタ解析、8研究3,352例、うちロボット1,578例）：</p>
+<h3 id="残る新規性は組合せだけ">残る新規性は「組合せ」だけ</h3>
+<p>要素ごとに分解すると次のとおり。<strong>単独では全て既知であり、特許性が残るのは掛け算の部分だけである。</strong></p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>アウトカム</th>
-<th>ロボット vs 従来型 MICS</th>
+<th>要素</th>
+<th>判定</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>出血再開胸</strong></td>
-<td><strong>OR 1.86（95%CI 1.1–3.2, p=0.02）</strong></td>
+<td>バルーンで体壁内側に引っ掛けて逸脱防止＋圧迫止血</td>
+<td><strong>新規性なし</strong>（八光 E・ZバルーンⅡ、Applied Medical Kii、US 8,142,467、Balkhy の臨床実装）</td>
 </tr>
 <tr>
-<td>胸骨切開への移行</td>
-<td>OR 2.9（1.6–5.4, p=0.0007）</td>
+<td>止血材をアクセスデバイス外周に事前装着</td>
+<td><strong>製品ゼロ・登録クレームゼロ＝白地</strong>。ただし WO 2019/122487（失効）と US 7,018,392（満了）が公開文献として存在</td>
 </tr>
 <tr>
-<td>体外循環時間</td>
-<td>+21.8分（0.8–42.9）</td>
+<td>胸腔／肋間専用</td>
+<td><strong>バルーン式の胸腔専用ポートは製品として不存在</strong>。ただし機械式の肋間アンカーは US 5,776,110（1996）が公知</td>
 </tr>
 <tr>
-<td>在院日数</td>
-<td>−1.8日（−3.0 to −0.5）</td>
+<td><strong>上記3つの掛け算 ＋ ロボットアーム荷重下での保持</strong></td>
+<td><strong>ここに特許性が残る</strong></td>
 </tr>
 </tbody>
 </table></div>
-<p><strong>これが構想にとって最も強いニーズの根拠である。</strong> ロボットにすると「出血で開け直す確率」が 1.86 倍になる。しかもそれは死亡リスクが 3.3 倍になるイベント（§1.1）。<strong>その増えた分がどこから出ているのかは、誰も報告していない</strong>（§10）。</p>
-<p>参考値：</p>
+<p>そのうえで、実務上の勝ち筋は次の3点：</p>
+<ol type="1">
+<li><strong>全身ヘパリン化＋体外循環という条件での設計</strong>。ORC リング RCT も Applied Medical のタンポナーデトロカールも、土俵は非ヘパリン下の一般外科／呼吸器外科である</li>
+<li><strong>「バルーンを抜いた後どうするか」への解</strong>。Balkhy らのバルーンタンポナーデは抜けば終わりで、重度凝固障害例では ICU まで留置している。<strong>抜去時の再出血は、頸部外傷のバルーンタンポナーデでも再探索の主因として報告されている</strong>（§9）。抜去と同時に刺入路へ止血材を残置する構造（tract sealant の発想）は、確認できた範囲のどの製品もカバーしていない</li>
+<li><strong>肋間という特殊な解剖への最適化</strong>。腹壁ではない。肋骨に挟まれ、肋間神経が並走し、呼吸で動く</li>
+</ol>
+<h3 id="事業面--ユーザーの懸念は事実として反証された">事業面 — ユーザーの懸念は事実として反証された</h3>
+<p>「ロボットのポートはアームと連結するから Intuitive に特許で囲われている」という懸念について、検証の結果は次のとおり。<strong>§7 で初版の判定を撤回する。</strong></p>
+<ol type="1">
+<li><strong>最も価値の高いポートは、そもそもアームに繋がっていない。</strong> EACTS のロボット僧帽弁推奨（Palmen ら）の逐語：「<strong>the working port is created in the third or fourth intercostal space by performing a 1.5- to 4-cm long skin incision. A soft-tissue retractor is placed…</strong>」。最も径が大きく（1.5〜4 cm）、最も肋間の剥離が大きく、したがって最も出血しやすい working port は<strong>ロボットアームに一切ドッキングしない</strong>。Intuitive のカニューラ特許はいずれも「アーム連結界面（bowl＋tube＋attachment portion）」を要件とするため、<strong>この部位には一切かからない</strong>〔一次確認済〕</li>
+<li><strong>第三者製の da Vinci 用アクセサリは実在し、FDA クリアランスを取得している。</strong> ConMed <strong>AirSeal® dV Solution（AirSeal Cannula Cap）<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211104">K211104</a>, 2021-08-19</strong> は Intuitive 純正カニューラに被せる第三者製キャップで、<strong>胸腔適応込み</strong>。さらにロボットアームに直結する器具ですら Restore Robotics（<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252926">K252926</a>, 2026-03-26）・Iconocare Health（<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210478">K210478</a> / <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242610">K242610</a>）・Rebotix（<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241872">K241872</a> ほか）がクリアランス済み〔一次確認済：openFDA 510(k) API〕</li>
+<li><strong>反トラスト訴訟は「Intuitive 勝訴で確定」ではない。</strong> SIS 事件は 2025-01-28 に一審で Intuitive 勝訴だが第9巡回区に控訴中（2026-06-25 口頭弁論済・判断待ち）、Restore Robotics Repairs 事件も第11巡回区で係属中〔一次確認済：Intuitive 10-Q〕。<strong>そしてこれらの争点はいずれも EndoWrist の修理・再製造役務であって、アクセサリの新規製造ではない。本構想の可否とは論理的に無関係である</strong></li>
+<li><strong>真の FTO 障壁は Intuitive ではなく Applied Medical のバルーントロカール特許群</strong>である（§2.2）</li>
+<li>hinotori は<strong>アームとトロカールがドッキングしない</strong>設計なので、そもそもポートが自由（§8）</li>
+</ol>
+<hr />
+<h2 id="1-背景--ポート胸壁刺入部の出血はどれくらい問題なのか">1. 背景 — ポート／胸壁刺入部の出血はどれくらい問題なのか</h2>
+<h3 id="11-心臓手術全体での出血再開胸の位置づけ一次確認済">1.1 心臓手術全体での「出血再開胸」の位置づけ〔一次確認済〕</h3>
+<p>成人心臓手術後の再開胸（出血/タンポナーデ）のメタ解析（Biancari F ら, J Cardiothorac Vasc Anesth 2018;32(4):1618-24, <a href="https://pubmed.ncbi.nlm.nih.gov/29338997/">PMID 29338997</a>, 18研究 51,497例）：</p>
 <ul>
-<li>ロボット変性僧帽弁形成の SR/MA（Eranki A ら, Ann Cardiothorac Surg 2026）：出血再手術 <strong>2.34%</strong>（95%CI 1.41–3.84、62/3,131例、11研究）</li>
-<li>旧い SR/MA（Fatehi Hassanabad A ら, Innovations 2022;17(6)）ではロボット vs 胸骨切開／vs 右小開胸で有意差なし</li>
-<li>Cleveland Clinic（Cullen P ら, MMCTS 2025）：再開胸率は <strong>2.5% → 1.3%</strong> に低下、「ほぼ常に右胸から対処できる」＝熟練施設では制御可能でもある</li>
+<li>再開胸率 <strong>4.6%</strong>（95%CI 3.9–5.2）</li>
+<li>再開胸例の院内/30日死亡 <strong>9.3% vs 2.3%</strong>、リスク比 <strong>3.30</strong>（95%CI 2.52–4.32）</li>
+<li>外科的出血源が同定できたのは <strong>65.7%</strong></li>
+<li>出血部位の内訳：グラフト本体 20.2%、胸骨 17.0%、血管縫合部 12.5%、内胸動脈採取床 13.0%、吻合部 9.9%</li>
 </ul>
-<h3 id="13-決定的な数字--ポート創面出血は手術を中断させる一次確認済">1.3 決定的な数字 — ポート創面出血は「手術を中断させる」〔一次確認済〕</h3>
-<p>VATS の単施設無作為化試験（Shimizu N, Tanaka Y ら, Interact Cardiovasc Thorac Surg 2020;30(3):346-52, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/31747012/">PMID 31747012</a></strong>、n=108、ORC群54 / 非ORC群54）：</p>
+<blockquote>
+<p><strong>⚠ 初版の誤りを訂正</strong>：初版はここから「胸骨17.0%＋IMA採取床13.0%＝胸壁由来30%であり、MICS ではこれが肋間ポート孔に置き換わる」と外挿したが、<strong>この外挿は成立しない</strong>。胸骨骨髄面と IMA 剥離床は<strong>胸骨切開に固有の出血源で、MICS では消滅する</strong>。同じ論理を使えば「胸壁アプローチにすると出血は減る」という逆の結論が出るし、実際 RCT のメタ解析（Spadini 2026, <a href="https://pubmed.ncbi.nlm.nih.gov/41592916/">PMID 41592916</a>、8試験1,248例、ロボット除外）では MIMVS の再開胸が <strong>RR 0.24（95%CI 0.06–0.92）</strong> と 1/4 に減っている。この論文は「再開胸は死亡リスクを3.3倍にする重大イベントである」という一般論の根拠としてのみ使うべきである。</p>
+</blockquote>
+<h3 id="12-ロボットの出血再開胸は本当に多いのか--証拠は割れている一次確認済">1.2 ロボットの出血再開胸は本当に多いのか — 証拠は割れている〔一次確認済〕</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>研究</th>
+<th>データ</th>
+<th>結果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Santos K ら, Asian Cardiovasc Thorac Ann 2026;34(1):57-66, <a href="https://pubmed.ncbi.nlm.nih.gov/41212734/">PMID 41212734</a></td>
+<td>傾向スコアマッチ研究のみのメタ解析、8研究3,352例</td>
+<td>ロボット vs 従来型 MICS で <strong>出血再開胸 OR 1.86（95%CI 1.1–3.2, p=0.02）</strong>、胸骨切開への移行 OR 2.9、CPB +21.8分、在院 −1.8日</td>
+</tr>
+<tr>
+<td><strong>Mori M ら, Ann Thorac Surg 2024;117(1):96-104, <a href="https://pubmed.ncbi.nlm.nih.gov/37595861/">PMID 37595861</a></strong></td>
+<td><strong>STS 全米データベース 2015-2021、変性 MR 僧帽弁形成 61,322例。ロボット vs 小開胸 5,540ペア／ロボット vs 胸骨切開 6,962ペアの PSM</strong></td>
+<td><strong>死亡率・罹病率に有意差なし。むしろロボットで開胸転換が少ない（1.2% vs 3.1%／1.0% vs 3.7%）</strong></td>
+</tr>
+<tr>
+<td>Eranki A ら, Ann Cardiothorac Surg 2026</td>
+<td>ロボット変性僧帽弁形成の SR/MA、11研究</td>
+<td>出血再手術 <strong>2.34%</strong>（95%CI 1.41–3.84、62/3,131例）</td>
+</tr>
+<tr>
+<td>Fatehi Hassanabad A ら, Innovations 2022;17(6)</td>
+<td>ロボット vs 胸骨切開／vs 右小開胸の SR/MA</td>
+<td>出血再手術に<strong>有意差なし</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>読み方</strong>：Santos の OR 1.86 は 95%CI 下限が 1.1 と 1 に近く、母集団も 3,352例。一方 STS の 61,322例・PSM では差が出ていない。<strong>「ロボットにすると出血再開胸が増える」と単独で断ずるには弱く、両者を併記すべきである。</strong> ニーズの主張は疫学の差ではなく、<strong>出血源の内訳</strong>（§1.3）に置いたほうが強い。</p>
+<p>参考：Cleveland Clinic（Cullen P ら, MMCTS 2025）は再開胸率が <strong>2.5% → 1.3%</strong> に低下、「ほぼ常に右胸から対処できる」＝熟練施設では制御可能でもある。</p>
+<h3 id="13-出血源の内訳--3件の一次データが存在する一次確認済">1.3 出血源の内訳 — 3件の一次データが存在する〔一次確認済〕</h3>
+<p>初版では「MICS/ロボットの出血再開胸の出血源内訳を報告した論文は無い」と書いたが、<strong>これは誤りだった</strong>。以下は全文で逐語確認した。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>研究</th>
+<th>対象</th>
+<th>逐語</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pojar M ら, Ann Thorac Cardiovasc Surg 2019;25(1):18-25, <a href="https://pubmed.ncbi.nlm.nih.gov/30232298/">PMID 30232298</a> / PMC6388298</strong></td>
+<td>右小開胸 MIMVS 連続151例（チェコ）</td>
+<td>「Re-exploration was performed in six patients (4.0%) as a result of bleeding. In all cases, the revision was possible through the same minithoracotomy… <strong>Bleeding sources included intercostal artery in four</strong>, cardioplegic cannulation site in one and left atrial suture line in one.」→ <strong>再開胸6例中4例（67%）が肋間動脈</strong></td>
+</tr>
+<tr>
+<td><strong>Aizawa H ら, Ann Thorac Cardiovasc Surg 2026;32(1):25-00208, <a href="https://pubmed.ncbi.nlm.nih.gov/41730659/">PMID 41730659</a> / PMC12950296（埼玉医大国際医療センター）</strong></td>
+<td>MICS 僧帽弁形成98例 vs 胸骨切開70例（2015-2024）</td>
+<td>「In the MIMVr group, complications included <strong>postoperative chest wall bleeding requiring re-exploration (n = 3)</strong>…」。表：Re-exploration for bleeding <strong>3 (3%) vs 0 (0%)</strong>, p=0.267 → <strong>MICS 群の再開胸3例は全例が胸壁出血。日本の施設データ</strong></td>
+</tr>
+<tr>
+<td><strong>Chen Y ら, J Cardiothorac Surg 2021;16(1):91, <a href="https://pubmed.ncbi.nlm.nih.gov/33865420/">PMID 33865420</a> / PMC8052820</strong></td>
+<td>完全内視鏡下僧帽弁手術188例</td>
+<td>再開胸1例＝<strong>創部（incision site）出血</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>合算すると 437例中の再開胸10例のうち8例（80%）が胸壁／肋間／創部由来。</strong> ただし次の限界を必ず併記すること：</p>
+<ul>
+<li><strong>3件とも非ロボットの小開胸／内視鏡</strong>であり、<strong>ロボットの 8mm ポート孔に限った内訳データは依然としてゼロ</strong></li>
+<li>分子が計10例であり、点推定として使えない（信頼区間が極端に広い）</li>
+<li>後ろ向き・単施設・報告バイアス（「肋間から出た」と書く施設は書く）</li>
+</ul>
+<p>→ <strong>これが構想のニーズ根拠として最も強い材料である。同時に、自施設で前向きに「出血源」を記録することが最初の研究テーマになる理由でもある。</strong></p>
+<h3 id="14-ポート創面出血は手術を中断させる一次確認済">1.4 ポート創面出血は「手術を中断させる」〔一次確認済〕</h3>
+<p>VATS の単施設無作為化試験（Shimizu N, Tanaka Y ら, Interact Cardiovasc Thorac Surg 2020;30(3):346-52, <a href="https://pubmed.ncbi.nlm.nih.gov/31747012/">PMID 31747012</a>、n=108、ORC群54 / 非ORC群54）：</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -568,16 +637,16 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 </tr>
 </tbody>
 </table></div>
-<p><strong>非ORC群の 51.8% で「ポート創面から垂れる血で手術が中断された」。</strong> ユーザーが「ポートから胸壁に垂れる出血」と表現した現象は、無作為化試験の主要評価項目になるレベルで頻度が高い。<strong>しかもこれはヘパリン化していない呼吸器外科の数字である。</strong></p>
-<h3 id="14-心臓外科での直接の証拠--kianiposton-2012要一次確認本文未入手">1.4 心臓外科での直接の証拠 — Kiani/Poston 2012〔要一次確認：本文未入手〕</h3>
-<p><strong>Kiani S, Poston R ら. "Managing port-site bleeding during less invasive coronary artery bypass grafting." Heart Surg Forum 2012, <a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a></strong></p>
+<p><strong>非ORC群の 51.8% で「ポート創面から垂れる血で手術が中断された」。</strong> ただしこれは<strong>ヘパリン化していない呼吸器外科</strong>の数字である。心臓外科で同じ指標を測った報告は無い。</p>
+<h3 id="15-心臓外科での止血材使用の先行--kianiposton-2012要一次確認本文未入手">1.5 心臓外科での止血材使用の先行 — Kiani/Poston 2012〔要一次確認：本文未入手〕</h3>
+<p><strong>Kiani S, Poston R ら. "Managing port-site bleeding during less invasive coronary artery bypass grafting." Heart Surg Forum 2012 Oct;15(5):E272-6, <a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a></strong></p>
 <ul>
 <li>ロボット支援 CABG のポート孔に<strong>流動性止血材を注入</strong>するプロトコル</li>
 <li><strong>輸血率 40.8% → 24.2%</strong></li>
-<li>著者の結論：「<strong>ポート穿刺部からの検出されない出血は、過小評価された morbidity の原因である</strong>」</li>
+<li>⚠ <strong>有意差が出たのは輸血率のみで、再開胸率・胸腔ドレーン量・在院日数には有意差なし</strong>〔要一次確認〕。<strong>「止血材で再開胸が減る」根拠として引用してはならない</strong></li>
+<li>著者の結論：「ポート穿刺部からの検出されない出血は、過小評価された morbidity の原因である」</li>
 </ul>
-<p>→ <strong>心臓外科領域で、ポート孔の出血に止血材で対処した先行報告が既に14年前に存在する。</strong> 構想②の心臓外科版の先行技術であり、同時に構想の臨床的妥当性を最も直接的に支持する文献でもある。<strong>最優先で本文を入手すべき</strong>（購読誌）。</p>
-<h3 id="15-ロボット心臓手術に特異的な増悪因子">1.5 ロボット心臓手術に特異的な増悪因子</h3>
+<h3 id="16-ロボット心臓手術に特異的な増悪因子">1.6 ロボット心臓手術に特異的な増悪因子</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -595,12 +664,12 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <tr>
 <td>触覚フィードバックの欠如</td>
 <td>軽微な血管損傷が術中に気づかれず、遅発性のポート部位出血になる</td>
-<td>Kawata Y ら, Cureus 2026, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/41913831/">PMID 41913831</a></strong>（hinotori 使用の婦人科手術で POD5 に 9cm 皮下血腫、下腹壁動脈穿通枝から）〔一次確認済〕</td>
+<td>Kawata Y ら, Cureus 2026, <a href="https://pubmed.ncbi.nlm.nih.gov/41913831/">PMID 41913831</a>（hinotori 使用の婦人科手術で POD5 に 9cm 皮下血腫、下腹壁動脈穿通枝から）〔一次確認済〕</td>
 </tr>
 <tr>
 <td>単肺換気＋CO2 送気</td>
 <td>陽圧・虚脱肺の下では胸壁からの静脈性出血が見えにくく、肺再膨張・陽圧解除後に顕在化</td>
-<td>機序としては妥当だが<strong>一次文献での直接記載は見つからなかった</strong></td>
+<td>機序としては妥当だが<strong>一次文献での直接記載は見つからなかった</strong>〔未確認〕</td>
 </tr>
 <tr>
 <td>ロボットアームの可動</td>
@@ -609,8 +678,8 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 </tr>
 <tr>
 <td><strong>日本人の小柄な体格</strong></td>
-<td>日本の多施設前向き研究で、<strong>RATS はポート数 5.0・損傷肋間数 2.9 で、VATS に対し POD30 の疼痛の非劣性を証明できなかった</strong>。<strong>身長が低いほどポート痛が残る（OR 0.907/cm）</strong></td>
-<td>Tokuishi ら 2024（Lung Cancer, <a href="https://pubmed.ncbi.nlm.nih.gov/39340899/">PMID 39340899</a>）〔要一次確認：数値の一次照合が未了〕</td>
+<td>日本の多施設前向き研究で、RATS はポート数 5.0・損傷肋間数 2.9 で VATS に対し POD30 の疼痛の非劣性を証明できず、<strong>身長が低いほどポート痛が残る（OR 0.907/cm）</strong></td>
+<td>Tokuishi ら 2024, Lung Cancer, <a href="https://pubmed.ncbi.nlm.nih.gov/39340899/">PMID 39340899</a>〔要一次確認〕</td>
 </tr>
 <tr>
 <td>肋間動脈の走行変異</td>
@@ -619,56 +688,70 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 </tr>
 </tbody>
 </table></div>
+<h3 id="17-ただし競合する出血源がある--鼠径大腿要一次確認">1.7 ただし競合する出血源がある — 鼠径／大腿〔要一次確認〕</h3>
+<p>MICS のアクセス関連合併症の主役は胸壁ではなく<strong>大腿カニュレーション部位</strong>である可能性がある。</p>
+<ul>
+<li>Sromicki J ら, Interdiscip Cardiovasc Thorac Surg 2026;41(7):ivag185, <a href="https://pubmed.ncbi.nlm.nih.gov/42386682/">PMID 42386682</a> / PMC13390282（MICS 僧帽弁823例）：複合効率エンドポイントの差は主に access-site complication（大腿カニュレーション）で説明された</li>
+<li>Speziale ら 2026, <a href="https://pubmed.ncbi.nlm.nih.gov/41960123/">PMID 41960123</a> / PMC13059993（MICS 僧帽弁140例）：<strong>groin cannulation 関連合併症 11.3%（16/140）に対し出血再開胸 3.6%（5/140）</strong></li>
+</ul>
+<p>→ <strong>胸壁ポートだけを解決しても MICS のアクセス関連合併症の大半は残る。</strong> 提案書ではこれを認めたうえで「それでも胸壁は解ける」と論じるほうが強い。</p>
 <hr />
 <h2 id="2-先行技術a--バルーン付きトロカールは完全に枯れた技術である">2. 先行技術A — バルーン付きトロカールは完全に枯れた技術である</h2>
-<h3 id="21-商用製品要一次確認製品名と-510k-番号はエージェント報告">2.1 商用製品〔要一次確認：製品名と 510(k) 番号はエージェント報告〕</h3>
+<h3 id="21-商用製品--逸脱防止圧迫止血は既に製品の売り文句である一次確認済">2.1 商用製品 — 「逸脱防止＋圧迫止血」は既に製品の売り文句である〔一次確認済〕</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>製品</th>
 <th>メーカー</th>
-<th>備考</th>
+<th>公式に謳われている効能</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Blunt Tip Surgical Trocar</td>
 <td>Origin Medsystems</td>
-<td><strong>K924011（1993）</strong> ＝ この分野の起源</td>
+<td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K924011">K924011</a>（1993）＝ この分野の起源〔要一次確認〕</td>
 </tr>
 <tr>
-<td><strong>Kii® Balloon Blunt Tip / Kii Advanced Fixation</strong></td>
+<td><strong>Kii® Balloon Blunt Tip</strong></td>
 <td><strong>Applied Medical</strong></td>
-<td><strong>公式サイト（日本語版・英語版とも）で「切開部が圧迫されることでポート部位の出血を低減します／Tamponade Effect」と明示</strong></td>
+<td>英語公式：「<strong>The retention disk and balloon compress the incision site, potentially reducing port-site bleeding.</strong>」<br>日本語公式：「<strong>切開部が圧迫されることで、ポート部位の出血を低減します</strong>」〔一次確認済〕</td>
+</tr>
+<tr>
+<td><strong>E・ZバルーンⅡ</strong></td>
+<td><strong>株式会社八光（国産）</strong></td>
+<td>認証番号 <strong>229ADBZX00064000</strong>、JMDN 37148002（単回使用トロカールスリーブ）、<strong>2017年10月販売開始</strong>。公式：「弾力性に優れたバルーンと可動ストッパーで腹壁を確実に固定でき、<strong>トロッカーの逸脱を防止</strong>します。バルーンと可動ストッパーで<strong>止血圧迫効果</strong>が得られ腹壁からの出血や損傷を抑えることができます。」規格 5–65mm シャープ／ブラント〔一次確認済〕</td>
 </tr>
 <tr>
 <td>VersaOne™ Optical Trocar with Fixation Balloon Cannula</td>
 <td>Medtronic/Covidien</td>
-<td>K213818</td>
+<td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K213818">K213818</a>〔要一次確認〕</td>
 </tr>
 <tr>
 <td>SoftFix</td>
 <td>Unimax</td>
-<td>K211577</td>
+<td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211577">K211577</a>〔要一次確認〕</td>
 </tr>
 <tr>
 <td>ADAPT Balloon Open Access Port</td>
 <td>Teleflex</td>
-<td>—</td>
+<td>〔要一次確認〕</td>
 </tr>
 </tbody>
 </table></div>
-<p><strong>Applied Medical が既に「バルーンによるポート部位出血の低減」を製品の売り文句にしている</strong>という事実は、構想①の新規性主張を実質的に不可能にする。<strong>この一点は必ず自分で公式サイトを確認しておくこと</strong>（対外説明で最初に突かれる）。</p>
-<h3 id="22-特許一次確認済applied-medical-2件">2.2 特許〔一次確認済（Applied Medical 2件）〕</h3>
+<blockquote>
+<p><strong>これが構想①にとって最も厳しい事実である。</strong> 「バルーンで固定して逸脱を防ぎ、同時に圧迫で止血する」というコンセプトは、Applied Medical だけでなく <strong>国産メーカー（八光）が9年前から同じ言葉で販売している</strong>。<strong>日本市場での新規性・進歩性をこの要素で主張することは不可能</strong>である。</p>
+<p>差別化できるとすれば「腹壁ではなく<strong>肋間</strong>」「<strong>止血材の併載</strong>」「ヘパリン化・体外循環下」の3点に限られる。</p>
+</blockquote>
+<h3 id="22-特許--障壁になるのは-us-8142467-系だけ一次確認済">2.2 特許 — 障壁になるのは US 8,142,467 系だけ〔一次確認済〕</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>特許</th>
 <th>名称</th>
 <th>権利者</th>
-<th>出願</th>
-<th>登録</th>
-<th>状態</th>
+<th>出願／登録</th>
+<th>状態と射程</th>
 </tr>
 </thead>
 <tbody>
@@ -676,23 +759,41 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <td><strong><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a></strong></td>
 <td><strong>Tamponade trocar device and method</strong></td>
 <td><strong>Applied Medical Resources</strong></td>
-<td>2008-04-21</td>
-<td>2012-03-27</td>
-<td>有効。継続 <a href="https://www.freepatentsonline.com/8834505.html">US 8,834,505</a> / <a href="https://www.freepatentsonline.com/8951277.html">US 8,951,277</a></td>
+<td>2008-04-21／2012-03-27</td>
+<td><strong>有効。これが本丸。</strong> 明細書に「a trocar device that <strong>significantly reduces or prevents bleeding at the trocar penetration site in the body wall</strong>」「substantially eliminates bleeding at the trocar site」と明記。"tamponade" が57回出現。満了は概ね2028年見込〔要一次確認〕。継続 <a href="https://www.freepatentsonline.com/8834505.html">US 8,834,505</a> / <a href="https://www.freepatentsonline.com/8951277.html">US 8,951,277</a></td>
 </tr>
 <tr>
-<td><strong><a href="https://www.freepatentsonline.com/8287503.html">US 8,287,503</a></strong></td>
+<td><a href="https://www.freepatentsonline.com/8287503.html">US 8,287,503</a></td>
 <td>Balloon trocar</td>
 <td>Applied Medical Resources</td>
-<td>2007-03-08</td>
-<td>2012-10-16</td>
-<td>有効。<strong>満了予定 2030-07-10</strong>〔要一次確認〕</td>
+<td>2007-03-08／2012-10-16</td>
+<td>有効（満了予定 2030-07-10〔要一次確認〕）。<strong>ただし明細書に bleeding / hemostasis / tamponade / migration の語が1つも無く、目的は「切開部のシール」</strong>。止血目的の権利範囲は及ばない〔要一次確認：エージェントの全文 grep 結果〕</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.freepatentsonline.com/7018392.html">US 7,018,392</a></strong></td>
+<td><strong>Hemostatic system for body cavities</strong></td>
+<td><strong>Arthrocare Corporation</strong></td>
+<td>2001-11-28／2006-03-28</td>
+<td><strong>満了済（Expired-Lifetime）。しかし「バルーンの外周を止血材で覆う」構造そのもののクレーム。</strong> 要旨逐語「Bleeding is controlled … by inserting into the cavity <strong>an expandable balloon which is covered by a hemostatic shroud</strong>, expanding the balloon, and compressing the shroud against the site of bleeding.」請求項1「an insertable shaft … comprised of <strong>a hemostatic shroud disposed around an inner component</strong>」／請求項3「said inner component comprises <strong>a balloon</strong>」／請求項4「said balloon is <strong>rolled around said central tube</strong>」。適用は鼻腔・体腔（Rapid Rhino 型）で体壁ポートではないため<strong>新規性は壊さないが、進歩性審査で最初に引かれる文献</strong>〔一次確認済〕</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.freepatentsonline.com/5776110.html">US 5,776,110</a></strong></td>
+<td><strong>Thoracic port</strong></td>
+<td><strong>United States Surgical</strong></td>
+<td>1996-01-26／1998-07-07</td>
+<td><strong>満了済。肋間内側アンカリングの先行技術。</strong> 要旨逐語「The thoracic port is inserted into the <strong>intercostal space between two ribs</strong> and turned to a locking position wherein the legs may bias the ribs … and the <strong>wings abut the distal surface of the ribs to prevent inadvertent withdrawal of the port</strong>.」バルーンではなく機械式ウィング〔要一次確認〕</td>
+</tr>
+<tr>
+<td>KR 10-2058617 B1</td>
+<td>Medical trocar and hemostatic system using the same</td>
+<td><strong>ソウル大学校病院</strong></td>
+<td>2017-07-18／2019-12-26</td>
+<td><strong>Active、満了見込2037年。</strong> ワイヤ操舵式フレキシブルトロカール＋体壁穿刺孔を通して出血部位を圧迫する「圧迫部」。構造は異なるが<strong>「トロカール＋止血機能の一体化」の権利化が既に進行している</strong>〔要一次確認〕</td>
 </tr>
 <tr>
 <td><a href="https://www.freepatentsonline.com/8382707.html">US 8,382,707</a></td>
 <td>二段バルーン</td>
 <td>Applied Medical Resources</td>
-<td>—</td>
 <td>—</td>
 <td>〔要一次確認〕</td>
 </tr>
@@ -700,8 +801,7 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <td><a href="https://www.freepatentsonline.com/12251130.html">US 12,251,130</a></td>
 <td>Surgical access device having a balloon</td>
 <td>Covidien</td>
-<td>—</td>
-<td>2025登録</td>
+<td>／2025登録</td>
 <td>〔要一次確認〕</td>
 </tr>
 <tr>
@@ -709,7 +809,6 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <td>Laparoscopic trocar with self-locking port sleeve</td>
 <td>—</td>
 <td>1990出願</td>
-<td>—</td>
 <td><strong>2009満了＝自由に使える</strong>〔要一次確認〕</td>
 </tr>
 <tr>
@@ -717,20 +816,20 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <td>—</td>
 <td>—</td>
 <td>優先1994</td>
-<td>—</td>
 <td><strong>2014満了＝自由に使える</strong>〔要一次確認〕</td>
 </tr>
 </tbody>
 </table></div>
-<p><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a> の請求項1は「近位端・遠位端・ルーメンをもつ細長いバルーンで、遠位端が閉じておりガス密、低プロファイル小径から固定された大径へ拡張しうるもの／そのバルーンのルーメン内に配置されたカニューラ…」という構造クレームで、明細書中に "tamponade" が57回出現する。〔一次確認済〕</p>
-<p><strong>含意：FTO の主障壁は Intuitive ではなく Applied Medical である。</strong></p>
-<h3 id="23-臨床応用も既に報告されている構想①の直接の先行文献一次確認済">2.3 臨床応用も既に報告されている（構想①の直接の先行文献）〔一次確認済〕</h3>
+<p><strong>含意</strong>：</p>
+<ol type="1">
+<li><strong>FTO の主障壁は Intuitive ではなく Applied Medical、しかも US 8,142,467 系1本に絞られる。</strong> US 8,287,503 は止血を目的としていないので射程外</li>
+<li><strong>「バルーン＋止血材」の組合せ自体は 2001年出願・2006年登録の US 7,018,392 が既にクレームしている</strong>（満了済）。新規性（体壁ポートでない）は壊れないが、<strong>進歩性の壁になる</strong></li>
+<li><strong>「肋間の内側に引っ掛けて抜けを防ぐ」着想も 1996年から公知</strong>（US 5,776,110、機械式・満了済）</li>
+<li>→ <strong>特許性が残るのは「肋間専用形状 ×止血材の事前装着 × ロボットアーム荷重下での保持」という組合せに絞られる</strong></li>
+</ol>
+<h3 id="23-臨床応用の先行報告とその限界一次確認済">2.3 臨床応用の先行報告と、その限界〔一次確認済〕</h3>
 <p><strong>Qi SS, Grady K, Kitahara H, Nisivaco S, Johnson B, Tsukioka Y, Balkhy HH. "Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery." Innovations (Phila) 2025. <a href="https://doi.org/10.1177/15569845251365733,">doi:10.1177/15569845251365733,</a> <a href="https://pubmed.ncbi.nlm.nih.gov/40913323/">PMID 40913323</a></strong>（シカゴ大 Balkhy グループ）</p>
-<ul>
-<li>2016年8月〜2022年7月のロボット僧帽弁手術 320例（胸骨切開移行5例除外、n=315）</li>
-<li>焼灼で止まらないポート部位出血に <strong>バルーン付き coudé カテーテル</strong>でタンポナーデするプロトコルの導入前（対照 n=127）／導入後（バルーン n=188）を比較</li>
-<li>体外循環離脱中にバルーンを当て、<strong>通常はプロタミン投与後に抜去</strong>。重度凝固障害例では<strong>留置したまま ICU に上げ、凝固障害改善後に抜去</strong></li>
-</ul>
+<p>焼灼で止まらないポート部位出血に<strong>バルーン付き coudé カテーテル</strong>を当てるプロトコルの導入前（対照 n=127）／導入後（バルーン n=188）を比較。体外循環離脱中にバルーンを当て、通常はプロタミン投与後に抜去。重度凝固障害例では留置したまま ICU に上げる。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -742,7 +841,7 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 </thead>
 <tbody>
 <tr>
-<td><strong>出血による再手術</strong></td>
+<td>出血による再手術</td>
 <td><strong>0%</strong></td>
 <td><strong>4.7%</strong></td>
 <td>0.004</td>
@@ -767,33 +866,59 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 </tr>
 </tbody>
 </table></div>
-<p><strong>この論文は構想①の臨床的正しさをほぼ証明していると同時に、構想①の新規性を消している。</strong> 残る空白は次の2点：</p>
+<blockquote>
+<p><strong>⚠ 初版はこれを「構想①の臨床的正しさをほぼ証明している」と評価したが、格下げする。</strong> 検証で以下が判明した：</p>
 <ul>
-<li>既製の尿道カテーテルの流用であって専用デバイスではない</li>
-<li><strong>抜去したら終わり</strong>。著者自身が「重度凝固障害では抜けないので ICU まで留置する」と書いている</li>
+<li><strong>無調整の前後比較（before-after）</strong>。2016年からの6年間の学習曲線・術式変更と完全に交絡する</li>
+<li><strong>決定的な内的妥当性の破綻：ペースメーカー植込みが 3.9% → 0.5%（P=0.04）と有意に低下している。</strong> ポート孔のバルーンタンポナーデが房室ブロックを減らす生物学的機序は存在しない。この「起こり得ない差」が出ている以上、両群は介入以外の要因で系統的に異なると考えるのが自然で、再開胸 4.7% → 0% も同じ交絡で説明されうる</li>
+<li><strong>輸血率も在院日数も同等</strong>。ポート孔出血が再開胸の主因なら輸血も減るはずで、この不整合は因果鎖を弱める</li>
+<li><strong>対照群の再開胸6例の出血源がポート孔だったかは抄録に一切書かれていない</strong>（本文は購読制で未入手）</li>
+<li><strong>Husam H. Balkhy は Intuitive Surgical の proctor</strong>（COI 文に明記）</li>
 </ul>
-<h3 id="24-心臓外科肋間バルーンの唯一の報告要一次確認">2.4 心臓外科×肋間×バルーンの唯一の報告〔要一次確認〕</h3>
-<p>Tian ら（Front Cardiovasc Med 2025, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/40495985/">PMID 40495985</a></strong>）：右腋窩開胸による VSD 閉鎖後の<strong>第6肋間刺入部からの出血</strong>を、<strong>10Fr Foley・バルーン5mL・胸壁への牽引固定のみ</strong>で止め、再開胸を回避した。<strong>心臓外科×肋間×ポート様刺入孔という3条件が揃った唯一の報告</strong>とされる。要精読。</p>
+<p>→ <strong>「概念実証が済んでいる」ではなく「仮説生成レベルの前後比較」。</strong> ユーザーにとっては追い風でも逆風でもなく、<strong>新規デバイスの臨床試験を設計する余地がまだ大きい</strong>ことを意味する。</p>
+</blockquote>
+<h3 id="24-心臓外科肋間バルーンの報告要一次確認">2.4 心臓外科×肋間×バルーンの報告〔要一次確認〕</h3>
+<p>Tian ら（Front Cardiovasc Med 2025, <a href="https://pubmed.ncbi.nlm.nih.gov/40495985/">PMID 40495985</a>）：右腋窩開胸による VSD 閉鎖後の<strong>第6肋間刺入部からの出血</strong>を、<strong>10Fr Foley・バルーン5mL・胸壁への牽引固定のみ</strong>で止め、再開胸を回避した。要精読。</p>
 <hr />
 <h2 id="3-先行技術b--止血材を組み込んだアクセスデバイスも既にある日本発">3. 先行技術B — 止血材を組み込んだアクセスデバイスも既にある（日本発）</h2>
 <h3 id="31-神戸大の-orc-リング付き創縁保護材一次確認済">3.1 神戸大の ORC リング付き創縁保護材〔一次確認済〕</h3>
 <ol type="1">
-<li><strong>Tanaka Y, Tane S, Hokka D, Ogawa H, Maniwa Y. "The Use of Oxidized Regenerated Cellulose for Video-Assisted Thoracic Surgery." Ann Thorac Surg 2016;101(2):786-8. <a href="https://pubmed.ncbi.nlm.nih.gov/26777946/">PMID 26777946</a></strong>
-<ul>
-<li><strong>創縁保護材（wound edge protector）に酸化再生セルロース（ORC）のリングを組み込む</strong></li>
-<li>「ORC リングは術中の創面出血を完全に止め、閉創前に創面の止血処置を要さなかった」</li>
-</ul></li>
-<li><strong>Shimizu N, Tanaka Y ら. Interact Cardiovasc Thorac Surg 2020;30(3):346-52. <a href="https://pubmed.ncbi.nlm.nih.gov/31747012/">PMID 31747012</a></strong> — 上記を単施設 RCT（n=108）で検証（§1.3 の表）</li>
+<li><strong>Tanaka Y, Tane S, Hokka D, Ogawa H, Maniwa Y. Ann Thorac Surg 2016;101(2):786-8. <a href="https://pubmed.ncbi.nlm.nih.gov/26777946/">PMID 26777946</a></strong> — 創縁保護材に ORC のリングを組み込む。「ORC リングは術中の創面出血を完全に止め、閉創前に創面の止血処置を要さなかった」</li>
+<li><strong>Shimizu N, Tanaka Y ら. Interact Cardiovasc Thorac Surg 2020;30(3):346-52. <a href="https://pubmed.ncbi.nlm.nih.gov/31747012/">PMID 31747012</a></strong> — 上記を単施設 RCT（n=108）で検証（§1.4）</li>
 </ol>
-<p><strong>「止血材をあらかじめアクセスデバイスに装着しておく」という発想は、2016年に日本で報告され、2020年に RCT で有効性が示されている。</strong> しかも材料はまさにユーザーが挙げた酸化セルロース系である。</p>
-<h3 id="32-構想を直撃する国際特許部分的に一次確認">3.2 構想を直撃する国際特許〔部分的に一次確認〕</h3>
+<p><strong>「止血材をあらかじめアクセスデバイスに装着しておく」という発想は、2016年に日本で報告され、2020年に RCT で有効性が示されている。</strong> 材料はまさにユーザーが挙げた酸化セルロース系である。</p>
+<h3 id="32-構想を直撃する国際特許--実在するがいずれも失効している要一次確認">3.2 構想を直撃する国際特許 — 実在するが、いずれも失効している〔要一次確認〕</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>出願</th>
+<th>内容</th>
+<th>法的地位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WO 2019/122487「DEVICE FOR HAEMOSTASIS OF AN INTRAPERITONEAL TROCAR ORIFICE」</strong>（Servicio Andaluz de Salud）</td>
+<td>腹腔内トロカール孔の止血デバイス。遠位部に<strong>2つの膨張式バルーン</strong>を持つプローブ。WIPO PATENTSCOPE に実在を確認〔一次確認済〕。<strong>請求項3で「バルーンおよび／またはプローブ遠位部に抗出血物質（好ましくは酸化セルロース）を含浸させる」</strong>とされる〔要一次確認〕＝<strong>構想①＋②の統合そのもの</strong></td>
+<td><strong>Status: Ceased（失効）。各国移行なし。</strong> 関連権利はスペイン実用新案 ES1203693Y / ES1204712Y のみ（スペイン国内限定、2027年頃満了）〔要一次確認〕</td>
+</tr>
+<tr>
+<td>WO 2019/075326「Hemostatic Port Cuff」（Generations International Asset Management Company LLC）</td>
+<td>膨張式トロカールスリーブ。止血・エアリーク防止＋トロカール migration 防止を明示し、胸腔鏡・ロボット手術を適用範囲に含むとされる</td>
+<td><strong>Status: Ceased（失効）。</strong> 親は米国仮出願 US 62/572,365 のみで正規出願なし〔要一次確認〕</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>含意（重要）</strong>：</p>
 <ul>
-<li><strong>WO 2019/122487「DEVICE FOR HAEMOSTASIS OF AN INTRAPERITONEAL TROCAR ORIFICE」</strong> — <strong>腹腔内トロカール孔の止血デバイス。遠位部に2つの膨張式バルーンを持つプローブで、それぞれのバルーンに繋がる2本のチューブを備える。</strong> WIPO PATENTSCOPE に実在を確認〔一次確認済〕。<strong>「バルーン表面に酸化セルロースを含浸させる」「出願人が Servicio Andaluz de Salud」という点はエージェント報告であり、一次確認できていない</strong>〔要一次確認〕。<strong>構想①＋②の統合そのものである可能性が高く、最優先で全文を確認すべき</strong></li>
-<li>WO 2019/075326「Hemostatic Port Cuff」（膨張式トロカールスリーブ。止血・エアリーク防止に加えトロカール migration 防止を明示し、胸腔鏡・ロボット手術を適用範囲に含む、とされる）— <strong>独立検索では確認できなかった。存在自体が要確認</strong>〔要一次確認〕</li>
+<li><strong>FTO 上の障壁ではない。</strong> 両者とも権利化されておらず、実施の自由を妨げない</li>
+<li><strong>しかし「新規性を否定する公知文献」ではある。</strong> 特に WO 2019/122487 は「バルーン＋酸化セルロース＋トロカール孔の止血」を公開文献として世に出しているため、<strong>同一構成での特許取得はできない</strong></li>
+<li>→ 特許を取るなら、<strong>肋間形状への最適化・留置中に接触し続ける構造・非酸性材料・抜去時の残置機構</strong>など、この公開内容を回避する構成に限定される</li>
+<li>⚠ <strong>上記の法的地位は Google Patents 表示に基づくエージェント報告であり、事業判断の前に Espacenet / INPADOC で確定させること</strong></li>
 </ul>
 <h3 id="33-ニューニットの正体と材料側からの重大な反対材料">3.3 「ニューニット」の正体と、材料側からの重大な反対材料</h3>
-<p><strong>「ニューニット」は独立した製品名ではなく、サージセル®・アブソーバブル・ヘモスタットMD（Ethicon/J&amp;J、酸化再生セルロース ORC）の剤形名（SURGICEL NU-KNIT）</strong>である。織布・高密度・高強度で <strong>縫合が可能</strong>なタイプ。承認番号 30400BZX00112000（2022年5月）、2022年12月に医薬品から特定保険医療材料へ移行、織布型は 1 cm² あたり48円。〔一次確認済：本プロジェクトの <code>hemostatic_agents/md/sections/04_orc_cellulose.md</code>〕</p>
-<p><strong>「巻く・縫う」ために設計された ORC であり、ポート外周に巻く構想と材料的な相性は良い。</strong> しかし添付文書と文献には、構想の中核を否定する記載が並ぶ：</p>
+<p><strong>「ニューニット」は独立した製品名ではなく、サージセル®・アブソーバブル・ヘモスタットMD（Ethicon/J&amp;J、酸化再生セルロース ORC）の剤形名（SURGICEL NU-KNIT）<strong>である。織布・高密度・高強度で</strong>縫合が可能</strong>なタイプ。承認番号 30400BZX00112000（2022年5月）、2022年12月に医薬品から特定保険医療材料へ移行、織布型は 1 cm² あたり48円。〔一次確認済：本プロジェクトの <code>hemostatic_agents/md/sections/04_orc_cellulose.md</code>〕</p>
+<p>「巻く・縫う」ために設計された ORC なので材料的な相性は良い。<strong>しかし添付文書と文献には、構想の中核を否定する記載が並ぶ。</strong></p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -811,62 +936,62 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <tr>
 <td>2</td>
 <td><strong>パッキング目的の留置は禁忌</strong></td>
-<td>「パッキング/充填目的での留置（後で除去する場合を除く）」。止血達成後は<strong>余剰分を可能な限り取り除く</strong>ことが【警告】</td>
+<td>「パッキング/充填目的での留置（後で除去する場合を除く）」。止血達成後は余剰分を可能な限り取り除くことが【警告】</td>
 </tr>
 <tr>
 <td>3</td>
-<td><strong>開胸創から硬膜外へ移動して対麻痺</strong></td>
-<td>開胸創で肋間から椎間孔を経て硬膜外へ移動し対麻痺を来した症例が複数報告されている。実例：T4-5 の出血を Surgicel でパッキング → 術後対麻痺、除圧後も回復せず（<a href="https://doi.org/10.31744/einstein_journal/2023RC0078,">doi:10.31744/einstein_journal/2023RC0078,</a> <a href="https://pubmed.ncbi.nlm.nih.gov/37436267/">PMID 37436267</a>）〔PDF取得済〕</td>
+<td><strong>「開胸創の肋間に ORC を置く」は既報の対麻痺機序そのもの</strong>〔要一次確認〕</td>
+<td>Brodbelt AR ら, Ann R Coll Surg Engl 2002;84(2):97-99, <a href="https://pubmed.ncbi.nlm.nih.gov/11995773/">PMID 11995773</a>：開胸時に使用した Surgicel が椎間孔を通過して脊髄を圧迫し<strong>対麻痺3例</strong>。Dogan S ら, Spinal Cord 2005;43(7):445-447, <a href="https://pubmed.ncbi.nlm.nih.gov/15897919/">PMID 15897919</a>：22歳女性、左開胸後 T6 硬膜外腫瘤、緊急椎弓切除で ORC 塊を摘出。ほかに <a href="https://pubmed.ncbi.nlm.nih.gov/37436267/">PMID 37436267</a>（T4-5 パッキング後の対麻痺、除圧後も回復せず）〔PDF取得済〕</td>
 </tr>
 <tr>
 <td>4</td>
 <td><strong>膨潤圧迫だけでなく酸による化学毒性</strong></td>
-<td>ORC の pH は <strong>2.6〜3.5</strong>。神経障害は物理的膨潤だけでなく<strong>酸の拡散による化学毒性</strong>でも起こる〔要一次確認〕</td>
+<td>ORC の pH は 2.6〜3.5。神経障害は物理的膨潤だけでなく酸の拡散でも起こる〔要一次確認〕</td>
 </tr>
 <tr>
 <td>5</td>
 <td><strong>創傷治癒を妨げうる</strong></td>
-<td>ORC は線維芽細胞の TGF-β シグナルと遊走を阻害する〔要一次確認〕。<strong>ユーザーの主訴の一つが「創が綺麗に治らない」であることを考えると、これは致命的な矛盾になりうる</strong></td>
+<td>ORC は線維芽細胞の TGF-β シグナルと遊走を阻害する〔要一次確認〕。<strong>ユーザーの主訴の一つが「創が綺麗に治らない」であることを考えると、致命的な矛盾になりうる</strong></td>
 </tr>
 <tr>
 <td>6</td>
-<td><strong>血管に巻くと狭窄</strong></td>
-<td>添付文書：血管をラッピングする用途では<strong>きつく締めすぎない</strong>（血管狭窄の報告あり）</td>
+<td><strong>術後 CT で腫瘤に見える</strong></td>
+<td>肺癌術後13例18領域で ORC 由来の異物肉芽腫が再発と紛れ EBUS 生検に至った（Türk İ ら, Updates Surg 2024, <a href="https://pubmed.ncbi.nlm.nih.gov/37558972/">PMID 37558972</a>）。11例で PET/CT 偽再発（median SUVmax 6.2、消失まで中央値334日）（Sayan M ら, Mol Imaging Radionucl Ther 2023, <a href="https://pubmed.ncbi.nlm.nih.gov/36816516/">PMID 36816516</a>）〔いずれも要一次確認〕。ほか SURGICEL 合併症の系統的レビュー <a href="https://pubmed.ncbi.nlm.nih.gov/37526076/">PMID 37526076</a>、脊椎手術後の大量膨潤 <a href="https://pubmed.ncbi.nlm.nih.gov/22278791/">PMID 22278791</a>〔PDF取得済〕</td>
 </tr>
 <tr>
 <td>7</td>
-<td><strong>サージフローとの併用不可</strong></td>
-<td>ORC は酸性でトロンビンを失活させる。サージフローは<strong>術中2剤混合キット</strong>であり、そもそも事前装着自体が不可能</td>
+<td><strong>血管に巻くと狭窄</strong></td>
+<td>添付文書：血管ラッピングではきつく締めすぎない（血管狭窄の報告あり）</td>
 </tr>
 <tr>
 <td>8</td>
-<td><strong>乾燥必須・再滅菌不可</strong></td>
-<td>乾燥状態でないと効果が出ない〔要一次確認〕</td>
+<td><strong>サージフローとの併用不可</strong></td>
+<td>ORC は酸性でトロンビンを失活させる。サージフローは<strong>術中2剤混合キット</strong>でそもそも事前装着自体が不可能</td>
 </tr>
 <tr>
 <td>9</td>
-<td><strong>タコシールも代替にならない</strong></td>
-<td>添付文書に「<strong>タンポンや栓の代わりに使用しないこと</strong>」と明記</td>
+<td><strong>乾燥必須・再滅菌不可</strong>〔要一次確認〕</td>
+<td>乾燥状態でないと効果が出ない</td>
 </tr>
 <tr>
 <td>10</td>
-<td>遺残物の画像誤診</td>
-<td>肉芽腫・膿瘍様所見として腫瘍再発と誤診される症例が多数（SURGICEL 合併症の系統的レビュー <a href="https://pubmed.ncbi.nlm.nih.gov/37526076/">PMID 37526076</a>、脊椎手術後の大量膨潤 <a href="https://pubmed.ncbi.nlm.nih.gov/22278791/">PMID 22278791</a> ほか）〔PDF取得済〕</td>
+<td><strong>タコシールも代替にならない</strong></td>
+<td>添付文書に「<strong>タンポンや栓の代わりに使用しないこと</strong>」と明記</td>
 </tr>
 </tbody>
 </table></div>
-<p><strong>ただし工学的一体化そのものは可能である。</strong> ORC をプラスチック部材へ積層した既承認品として <strong>PROCEED® メッシュ</strong>（Ethicon）が存在する〔要一次確認〕。<strong>「ORC は医療機器の構造部材にラミネートできる」という薬事・製造上の前例がある</strong>のは重要な追い風。</p>
+<p><strong>ただし工学的一体化そのものは可能である。</strong> ORC をプラスチック部材へ積層した既承認品として PROCEED® メッシュ（Ethicon）が存在する〔要一次確認〕。</p>
 <p>→ <strong>材料選定が構想②の成否を決める。</strong> ORC を肋間に留置する設計は上記1〜5と正面衝突するため、①非膨潤・中性 pH の材料に変える、②量を極小にする、③<strong>抜去時に一緒に回収される／刺入路に薄く残るだけ</strong>の構造にする、のいずれかが必須。</p>
 <hr />
 <h2 id="4-前提の検証--電メで開けるから治らないは成立するか">4. 前提の検証 — 「電メで開けるから治らない」は成立するか</h2>
-<p>ユーザーの前提の一つは「日本は電メでポート孔を開けるので熱傷になり治らない／海外はメスで切る」だった。調査の結果、<strong>「否定された」のではなく「そもそも誰も調べていない」</strong>が正確な答えである。</p>
+<p><strong>「否定された」のではなく「そもそも誰も調べていない」</strong>が正確な答えである。</p>
 <h3 id="41-海外の標準手技もむしろ電気メスを使っている一次確認済">4.1 海外の標準手技もむしろ電気メスを使っている〔一次確認済〕</h3>
 <p>Cleveland Clinic のロボット僧帽弁の公式手技記載（Cullen P, Malas T, Gillinov M. MMCTS 2025, <a href="https://pubmed.ncbi.nlm.nih.gov/40900082/">PMID 40900082</a>）：</p>
 <ul>
 <li>"…completing the incision with <strong>electrocautery for haemostasis</strong>"（胸腔進入時、<strong>止血のため</strong>電気メスで切開を完成させる）</li>
 <li>"We use <strong>limited Bovie cautery for coagulation</strong> and proceed to insert the angiocaths blindly"</li>
 </ul>
-<p>「海外＝メス、日本＝電メ」という対比は、少なくともロボット僧帽弁の主要施設の記載とは一致しない。<strong>電気メスは「雑に開けている」のではなく「出血させないために意図的に使われている」</strong>。</p>
+<p>「海外＝メス、日本＝電メ」という対比は、ロボット僧帽弁の主要施設の記載とは一致しない。<strong>電気メスは「雑に開けている」のではなく「出血させないために意図的に使われている」</strong>。</p>
 <h3 id="42-皮膚切開線については電メが同等ないし優位一次確認済">4.2 皮膚切開線については電メが同等ないし優位〔一次確認済〕</h3>
 <div class="table-wrap"><table>
 <thead>
@@ -885,7 +1010,7 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <tr>
 <td>Hajibandeh S ら. Int J Surg 2020;75:35-43（SR/MA、<a href="https://pubmed.ncbi.nlm.nih.gov/31978649/">PMID 31978649</a>）</td>
 <td>鼠径ヘルニア</td>
-<td>SSI・漿液腫・術後疼痛に<strong>差なし</strong>。電メは切開時間が短く<strong>血腫リスクを下げうる</strong></td>
+<td>SSI・漿液腫・術後疼痛に<strong>差なし</strong>。電メは切開時間が短く血腫リスクを下げうる</td>
 </tr>
 <tr>
 <td>Dos Santos Pimenta N ら. Cir Esp 2025;103(1):3-10（SR/MA、<a href="https://pubmed.ncbi.nlm.nih.gov/39304130/">PMID 39304130</a>）</td>
@@ -910,160 +1035,235 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <tr>
 <td>Cochrane 2017（16 RCT・2,769例）〔要一次確認〕</td>
 <td>腹部正中創</td>
-<td>創感染 <strong>RR 1.07</strong>、整容性も同等。<strong>ただし「創治癒時間」を報告した研究はゼロ</strong></td>
+<td>創感染 RR 1.07、整容性も同等。<strong>ただし「創治癒時間」を報告した研究はゼロ</strong></td>
 </tr>
 </tbody>
 </table></div>
 <h3 id="43-それでも構想を救う余地はある要一次確認">4.3 それでも構想を救う余地はある〔要一次確認〕</h3>
 <ul>
-<li><strong>ヒト組織学（Ruidiaz 2011）では、通常設定の電メは有意な熱損傷層・炎症・低い創破断強度・広い瘢痕幅を残す</strong>とされる。乳房フラップ挙上では sharp dissection のほうがセローマを有意に減らす</li>
+<li>ヒト組織学（Ruidiaz 2011）では、通常設定の電メは有意な熱損傷層・炎症・低い創破断強度・広い瘢痕幅を残すとされる</li>
 <li>そして決定的に、<strong>「一線の皮膚切開」と「全層を焼き広げてポート孔を作る操作」は別物である</strong>。後者を比較した研究は世界的に皆無</li>
 </ul>
-<p>→ <strong>戦略</strong>：「電メは悪い」と主張するのではなく、<strong>「ポート孔の作り方は誰も比較していない — 我々が最初に測る」<strong>と位置づけるほうが、はるかに強く、かつ正直である。ただし</strong>製品の主たる売り文句にはしないこと</strong>。査読者は Br J Surg 2012 を即座に出してくる。主戦場は <strong>出血と migration</strong> に置くべきで、そちらには §1.2 の OR 1.86 と §1.3 の 51.8% という数字がある。</p>
+<p>→ <strong>戦略</strong>：「電メは悪い」と主張するのではなく、<strong>「ポート孔の作り方は誰も比較していない — 我々が最初に測る」<strong>と位置づけるほうが強く、かつ正直である。ただし</strong>製品の主たる売り文句にはしないこと</strong>。主戦場は<strong>出血と migration</strong> に置くべきである。</p>
 <hr />
-<h2 id="5-先行技術c--そもそも硬いトロカールを使わないという潮流">5. 先行技術C — 「そもそも硬いトロカールを使わない」という潮流</h2>
-<p>これは構想にとって最大の競合であり、同時に最大のヒントでもある。</p>
+<h2 id="5-先行技術c--競合はトロカールを使わないと無償の手技的工夫">5. 先行技術C — 競合は「トロカールを使わない」と「無償の手技的工夫」</h2>
+<h3 id="51-硬性トロカールをやめる潮流一次確認済">5.1 硬性トロカールをやめる潮流〔一次確認済〕</h3>
 <ul>
-<li><strong>創縁保護材を硬性トロカールの代わりにカメラポートへ使う</strong>：<a href="https://pubmed.ncbi.nlm.nih.gov/27449461/">PMID 27449461</a>（Ann Thorac Surg 2016）、<strong><a href="https://pubmed.ncbi.nlm.nih.gov/29780712/">PMID 29780712</a>（J Vis Surg 2018）</strong>〔PDF取得済〕</li>
-<li><strong>Raveglia F ら（<a href="https://pubmed.ncbi.nlm.nih.gov/29780712/">PMID 29780712</a>）の前向き比較（WR 20例 vs 11.5mm 硬性トロカール 20例）</strong>：WR 群で<strong>術後疼痛・モルヒネ使用量が有意に少ない（P&lt;0.001）</strong>。論文は硬性トロカールの欠点の筆頭に「<strong>カニューラが肋間神経を強く圧迫し術後疼痛を惹起する</strong>」を挙げ、WR は「<strong>肋間を押し広げず、肋間筋と神経を保護する</strong>」と述べる。WR の利点として「<strong>胸壁からの少量出血からカメラを保護する</strong>」ことも挙げている</li>
-<li><strong>Alexis／Lap Protector 等の soft tissue retractor はロボット心臓手術でも標準</strong>：Cleveland Clinic は working port に Alexis を入れる（MMCTS 2025）。MMCTS の中隔心筋切除でも "XX small Alexis wound protector/retractor" が assistant port に使われている</li>
-<li><strong>決定打：hinotori でトロカールを一切使わない胸部手術</strong>〔一次確認済〕 <strong>Nakamura A, Kuroda A, Hashimoto M, Kondo N, Funaki S. "Trocarless Thoracic Surgery Using the Hinotori Surgical Robot System With a Wound Retractor." Asian J Endosc Surg 2025;18(1):e70213. <a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a></strong>（兵庫医科大）
-<ul>
-<li>2025年1〜7月に14例。<strong>4ポート全てに Lap Protector Mini Mini を使用、トロカールスリーブは使わない</strong></li>
-<li>可能な理由は <strong>hinotori のソフトウェア制御ピボット点（ドッキング不要）</strong></li>
-<li>報告された利点：セットアップ効率の向上、<strong>切開部の出血コントロール</strong>、ステープラー操作性の向上、術中合併症なし</li>
-</ul></li>
+<li><strong>Raveglia F ら（J Vis Surg 2018;4:66, <a href="https://pubmed.ncbi.nlm.nih.gov/29780712/">PMID 29780712</a> / PMC5945854）の前向き比較（創縁保護材 WR 20例 vs 11.5mm 硬性トロカール 20例）</strong>：WR 群で<strong>術後疼痛・モルヒネ使用量が有意に少ない（P&lt;0.001）</strong>。硬性トロカールの欠点の筆頭に「<strong>カニューラが肋間神経を強く圧迫し術後疼痛を惹起する</strong>」を挙げ、WR は「<strong>肋間を押し広げず、肋間筋と神経を保護する</strong>」と述べる。WR の利点として「<strong>胸壁からの少量出血からカメラを保護する</strong>」ことも挙げている</li>
+<li>創縁保護材を硬性トロカールの代わりにカメラポートへ使う：<a href="https://pubmed.ncbi.nlm.nih.gov/27449461/">PMID 27449461</a>（Ann Thorac Surg 2016）</li>
+<li><strong>Alexis／Lap Protector 等の soft tissue retractor はロボット心臓手術でも標準</strong>：Cleveland Clinic は working port に Alexis を入れる（MMCTS 2025）</li>
+<li><strong>hinotori でトロカールを一切使わない胸部手術</strong>：Nakamura A, Kuroda A, Hashimoto M, Kondo N, Funaki S. "Trocarless Thoracic Surgery Using the Hinotori Surgical Robot System With a Wound Retractor." Asian J Endosc Surg 2025;18(1):e70213. <a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a>（兵庫医科大）。2025年1〜7月に14例、<strong>4ポート全てに Lap Protector Mini Mini を使用、トロカールスリーブは使わない</strong>。可能な理由は hinotori のソフトウェア制御ピボット点（ドッキング不要）。利点として<strong>切開部の出血コントロール</strong>を明記</li>
 </ul>
-<p><strong>含意</strong>：構想は「硬いポートを高機能化する」方向だが、呼吸器外科の潮流は「硬いポートをやめて柔らかい創縁保護材にする」方向であり、<strong>その柔らかい保護材に ORC リングを付けたものが既に RCT で有効性を示している</strong>。</p>
-<p>→ <strong>競合として認識せよ。同時に「ロボット心臓外科版の ORC リング付き創縁保護材」という、より近道の製品像も見えてくる。</strong> 心臓外科のロボットポートは 8mm/12mm と細く、Lap Protector が入るのは working port だけなので、<strong>8mm ポートに対する解は依然として空白</strong>である。</p>
+<h3 id="52-既存の無償の解決策が高容量施設では確立している一次確認済">5.2 既存の「無償の解決策」が高容量施設では確立している〔一次確認済〕</h3>
+<p>Romary DJ, Jefferson HL, Hodges KE（Northwestern 大）. Ann Cardiothorac Surg 2026;15(1):4, <a href="https://pubmed.ncbi.nlm.nih.gov/41669172/">PMID 41669172</a> / PMC12884191 の逐語：</p>
+<ul>
+<li>「Three, 8-mm robotic trocars are inserted into the 3rd, 4th, and 6th interspaces, respectively. <strong>We use blunt-tipped obturators to avoid port site bleeding.</strong>」</li>
+<li>「(B) <strong>using camera to check for port-site bleeding</strong>」（アンドック後の工程図）</li>
+</ul>
+<p>→ <strong>①鈍的オブチュレーター、②創プロテクター、③終刀時のカメラによる全ポート点検、という追加コストゼロの手技的解決策が既に確立している。</strong> デバイスはこれらを上回る便益を示す必要がある。<strong>これが最大の競合であり、提案書で最初に潰しておくべき論点。</strong></p>
 <hr />
 <h2 id="6-先行技術d--刺入路に止血材を残置するという既存カテゴリ">6. 先行技術D — 「刺入路に止血材を残置する」という既存カテゴリ</h2>
-<p>構想の中で最も新規性が残る「抜去時に止血材を残す」については、隣接領域に確立したカテゴリがある。<strong>tract sealant（刺入路シーラント）</strong> である。</p>
+<p>構想の中で最も新規性が残る部分。隣接領域に <strong>tract sealant（刺入路シーラント）</strong> という確立したカテゴリがある。</p>
 <ul>
-<li><strong>BioSentry™</strong>（CT ガイド下肺生検の刺入路に自己拡張型ヒドロゲルプラグを留置し、気胸・出血を減らす）
-<ul>
-<li>前向き比較 <a href="https://pubmed.ncbi.nlm.nih.gov/27826786/">PMID 27826786</a>〔PDF取得済〕／実臨床 <a href="https://pubmed.ncbi.nlm.nih.gov/34178246/">PMID 34178246</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/39512979/">39512979</a>〔PDF取得済〕／SR/MA <a href="https://pubmed.ncbi.nlm.nih.gov/41897557/">PMID 41897557</a>（2026）〔PDF取得済〕／自己血パッチとの RCT <a href="https://pubmed.ncbi.nlm.nih.gov/30480487/">PMID 30480487</a>〔PDF取得済〕／プラグ周囲の組織反応の病理 <a href="https://pubmed.ncbi.nlm.nih.gov/31054891/">PMID 31054891</a>〔PDF取得済〕</li>
-</ul></li>
-<li>腹腔鏡ポート閉鎖での <strong>Surgicel プラグ法</strong>：<a href="https://pubmed.ncbi.nlm.nih.gov/37062549/">PMID 37062549</a>（Saudi Med J 2023、n=397、endoclose 法と合併症に有意差なし）〔PDF取得済〕、20例報告 <a href="https://pubmed.ncbi.nlm.nih.gov/12193814/">PMID 12193814</a>〔要一次確認〕</li>
+<li><strong>BioSentry™</strong>（CT ガイド下肺生検の刺入路に自己拡張型ヒドロゲルプラグを留置し気胸・出血を減らす）：前向き比較 <a href="https://pubmed.ncbi.nlm.nih.gov/27826786/">PMID 27826786</a>／実臨床 <a href="https://pubmed.ncbi.nlm.nih.gov/34178246/">PMID 34178246</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/39512979/">39512979</a>／SR/MA <a href="https://pubmed.ncbi.nlm.nih.gov/41897557/">PMID 41897557</a>（2026）／自己血パッチとの RCT <a href="https://pubmed.ncbi.nlm.nih.gov/30480487/">PMID 30480487</a>／プラグ周囲の組織反応の病理 <a href="https://pubmed.ncbi.nlm.nih.gov/31054891/">PMID 31054891</a>〔いずれも PDF取得済〕</li>
+<li>腹腔鏡ポート閉鎖での <strong>Surgicel プラグ法</strong>：<a href="https://pubmed.ncbi.nlm.nih.gov/37062549/">PMID 37062549</a>（Saudi Med J 2023、n=397）〔PDF取得済〕</li>
 <li>ポート部位の <strong>biological plug</strong> 閉鎖：<a href="https://pubmed.ncbi.nlm.nih.gov/36071329/">PMID 36071329</a>（Obes Surg 2022）〔PDF取得済〕</li>
-<li>ロボット CABG のポート孔への<strong>流動性止血材注入</strong>：<a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a>（§1.4）</li>
+<li>ロボット CABG のポート孔への流動性止血材注入：<a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a>（§1.5）</li>
 </ul>
 <p><strong>含意</strong>：「デバイスを抜くときに刺入路へ吸収性材料を置いてくる」という設計思想には確立した前例と規制上の前例（BioSentry は FDA クリア済み）がある。<strong>これを肋間ポート版に翻訳するのが、構想の中で最も筋の良い部分である。</strong></p>
 <hr />
-<h2 id="7-特許--ロボット会社に囲われているへの答え">7. 特許 — 「ロボット会社に囲われている」への答え</h2>
-<h3 id="71-intuitive-はカニューラを特許化しているがバルーンではない">7.1 Intuitive はカニューラを特許化している（が、バルーンではない）</h3>
+<h2 id="7-特許事業性--初版の判定を撤回する">7. 特許・事業性 — 初版の判定を撤回する</h2>
+<blockquote>
+<p><strong>初版は「da Vinci に第三者アクセサリで入る道は技術的にも法的にも険しい」と書いたが、これは誤りである。</strong> 検証の結果、①最も価値の高いポートはアームに繋がっていない、②第三者製アクセサリは実在し FDA クリアランスを得ている、③反トラスト訴訟の争点は本構想と無関係、が判明した。以下に訂正版を示す。</p>
+</blockquote>
+<h3 id="71-決定打--working-port-はロボットアームにドッキングしない一次確認済">7.1 決定打 — working port はロボットアームにドッキングしない〔一次確認済〕</h3>
+<p>EACTS のロボット僧帽弁推奨（Palmen M ら, <a href="https://pubmed.ncbi.nlm.nih.gov/35748726/">PMID 35748726</a> / PMC9724768）の逐語：</p>
+<blockquote>
+<p>「Basically, under single left-lung ventilation, <strong>the working port is created in the third or fourth intercostal space by performing a 1.5- to 4-cm long skin incision. A soft-tissue retractor is placed</strong> to prevent fatty tissue or debris from entering the heart during the procedure. Then, an 8-mm trocar is placed more anteriorly in the same intercostal space to serve as the camera port.」</p>
+</blockquote>
+<p><strong>最も径が大きく（1.5〜4 cm）、最も肋間の剥離が大きく、したがって最も出血しやすい working port（助手ポート）は、ロボットアームに一切ドッキングしない。</strong> Intuitive のカニューラ特許はいずれも「bowl＋tube＋attachment portion」というアーム連結界面を要件とするため、<strong>working port 向けのバルーン付き止血ポートには一切かからない。</strong></p>
+<p>→ <strong>ユーザーの懸念は、開発対象の中で最も価値の高い部位については前提から成立していない。</strong></p>
+<h3 id="72-intuitive-のカニューラ特許は磁石によるidが必須要件一次確認済請求項を実読">7.2 Intuitive のカニューラ特許は「磁石によるID」が必須要件〔一次確認済：請求項を実読〕</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
 <th>特許</th>
-<th>名称</th>
-<th>出願</th>
-<th>登録</th>
-<th>請求項1の要点</th>
-<th>確認</th>
+<th>クレーム対象</th>
+<th>請求項1の必須要素</th>
+<th>出願／登録</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong><a href="https://www.freepatentsonline.com/10485582.html">US 10,485,582</a></strong></td>
-<td>Cannulas having body wall retention features</td>
-<td>2017-06-14</td>
-<td>2019-11-26</td>
-<td>カニューラ管の <strong>くびれ（waisted portion）＋軸方向に並ぶリブ</strong></td>
-<td>一次確認済</td>
+<td><strong><a href="https://www.freepatentsonline.com/10172687.html">US 10,172,687</a> B2</strong></td>
+<td>カニューラ本体</td>
+<td>attachment portion に <strong>identification device、それが one or more magnets</strong></td>
+<td>優先2014-03-17／登録2019-01-08。満了見込 2035-03-17、Active</td>
 </tr>
 <tr>
-<td><strong><a href="https://www.freepatentsonline.com/12491005.html">US 12,491,005</a></strong></td>
-<td>同（継続）</td>
-<td>2022-08-01</td>
-<td><strong>2025-12-09</strong></td>
-<td><strong>マニピュレータアームへの結合機構（mounting feature）</strong>＋くびれ外面＋変曲点が体壁位置に来る構成</td>
-<td>一次確認済</td>
+<td><strong><a href="https://www.freepatentsonline.com/12138130.html">US 12,138,130</a> B2</strong></td>
+<td>カニューラ本体</td>
+<td>attachment portion に配置された <strong>one or more magnets</strong> が識別情報をエンコード</td>
+<td>出願2023-06-23／登録2024-11-12</td>
 </tr>
 <tr>
-<td><a href="https://www.freepatentsonline.com/11432844.html">US 11,432,844</a></td>
-<td>同ファミリー</td>
+<td><a href="https://www.freepatentsonline.com/10456208.html">US 10,456,208</a> B2</td>
+<td><strong>カニューラマウント本体</strong>（アーム側）</td>
 <td>—</td>
 <td>—</td>
-<td>—</td>
-<td>要一次確認</td>
 </tr>
 <tr>
-<td><a href="https://www.freepatentsonline.com/10172687.html">US 10,172,687</a> → <a href="https://www.freepatentsonline.com/12138130.html">US 12,138,130</a></td>
-<td>カニューラ本体＋<strong>磁石によるカニューラID</strong></td>
-<td>優先 2014-03-17</td>
+<td><a href="https://www.freepatentsonline.com/11678945.html">US 11,678,945</a> B2</td>
+<td><strong>カニューラマウント本体</strong>（pivotable clamping arm、latch assembly）</td>
 <td>—</td>
-<td>日本にも <strong>JP7348854B2</strong> 等</td>
-<td>要一次確認</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.freepatentsonline.com/11197729.html">US 11,197,729</a> B2</strong></td>
+<td><strong>滅菌アダプタ</strong></td>
+<td>「A sterile adaptor for <strong>engaging a cannula mount at a manipulator arm</strong>」</td>
+<td>登録2021-12-14、存続は概ね2035年</td>
+</tr>
+<tr>
+<td><strong>US 2025/0025249 A1（係属中）</strong></td>
+<td><strong>磁石なしのカニューラ本体</strong>：bowl section＋tube＋テーパ状 attachment portion のみ</td>
+<td>—</td>
+<td>出願18/777,746。<strong>Status: Pending</strong>。審査経過は本調査では確認できず〔未確認〕</td>
+</tr>
+<tr>
+<td><a href="https://www.freepatentsonline.com/10485582.html">US 10,485,582</a> / <a href="https://www.freepatentsonline.com/12491005.html">US 12,491,005</a></td>
+<td>カニューラの<strong>くびれ＋リブ</strong>（体壁保持）</td>
+<td>—</td>
+<td>2019/2025登録</td>
 </tr>
 </tbody>
 </table></div>
 <p><strong>読み取れること</strong>：</p>
 <ol type="1">
-<li><strong>Intuitive 自身が「カニューラが体壁からズレる／体壁を痛める」問題を認識し、2017年から2025年まで継続的に特許を積んでいる。</strong> ユーザーの problem statement はロボット企業も同意している</li>
-<li>しかし解法は <strong>形状（くびれ＋リブ）による受動的な保持</strong>であって<strong>バルーンではない</strong>。これらの請求項が直接バルーン方式を封じることはない</li>
-<li>ただし <a href="https://www.freepatentsonline.com/12491005.html">US 12,491,005</a> が 2025年12月成立という新しさは、<strong>同ファミリーの継続出願が今も係属している可能性</strong>を示す。バルーン実施例が明細書にあれば後から請求される余地がある → <strong>明細書全文の精査が必須</strong></li>
+<li><strong>登録済みのカニューラ本体クレームは全て磁石ID必須</strong> → 磁石を持たないカニューラは文言侵害しない</li>
+<li><strong>しかし「外付けスリーブなら安全」は無条件には成立しない。</strong> <a href="https://www.freepatentsonline.com/11197729.html">US 11,197,729</a> B2 は「<strong>マウント界面に噛む部材そのもの</strong>」をクレームしている。回避が成立するのは「カニューラの<strong>管部（tube）／体壁側</strong>に装着する部材」に限られる</li>
+<li><strong>最大の不確実要因は係属中の US 2025/0025249 A1</strong>（磁石を要件としないカニューラ本体）。登録されれば形状のみで抵触しうる。<strong>アーム直結カニューラ本体を作る路を選ぶなら、出願 18/777,746 の file wrapper 確認が最優先事項</strong></li>
+<li>Intuitive 自身が「カニューラが体壁からズレる／体壁を痛める」問題を認識し 2017→2025 と特許を積んでいる（<a href="https://www.freepatentsonline.com/10485582.html">US 10,485,582</a> / <a href="https://www.freepatentsonline.com/12491005.html">US 12,491,005</a> のくびれ＋リブ）。<strong>ユーザーの problem statement はロボット企業も同意している</strong></li>
 </ol>
-<h3 id="72-バルーントロカールの主障壁は-applied-medical22">7.2 バルーントロカールの主障壁は Applied Medical（§2.2）</h3>
-<p>基本特許 <a href="https://www.freepatentsonline.com/5147316.html">US 5,147,316</a>（2009満了）・<a href="https://www.freepatentsonline.com/7235064.html">US 7,235,064</a>（2014満了）は<strong>権利消滅済で自由に使える</strong>〔要一次確認〕。一方 <strong>Applied Medical の <a href="https://www.freepatentsonline.com/8287503.html">US 8,287,503</a>（満了予定 2030-07-10）と <a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a>（tamponade trocar）は有効</strong>であり、<strong>日本にもファミリーがある</strong>とされる〔要一次確認〕。<strong>具体構造の回避設計が要る。</strong></p>
-<h3 id="73-止血材装着ポートはホワイトスペースか--判断保留">7.3 止血材装着ポートは「ホワイトスペース」か — 判断保留</h3>
-<ul>
-<li>D6 調査：「<strong>トロカール外周に止血材（酸化セルロース／ゼラチン-トロンビン／フィブリン被覆コラーゲン）を装着する構成のクレームは複数の検索式で0件</strong>」〔要一次確認〕。素材側の基本特許（ORC の <a href="https://www.freepatentsonline.com/4626253.html">US 4,626,253</a>、TachoSil 系）も満了済</li>
-<li>しかし D5 調査：<strong>WO 2019/122487 がまさにその構成である可能性</strong>（§3.2）</li>
-</ul>
-<p><strong>この2つは矛盾する。どちらが正しいかは WO 2019/122487 の全文を読むまで決まらない。</strong> ここが本件の最重要の未解決点である。</p>
-<h3 id="74-da-vinci-用のサードパーティ製品を作れるか-法廷の答えは-intuitive-有利一次確認済">7.4 「da Vinci 用のサードパーティ製品を作れるか」— 法廷の答えは Intuitive 有利〔一次確認済〕</h3>
-<p><strong>Surgical Instrument Service Co. (SIS) v. Intuitive Surgical</strong>（N.D. Cal.）：SIS は EndoWrist の修理・再製造市場を巡り Intuitive のシャーマン法1条・2条違反を主張し（2021年提訴）、<span class="math inline">140<em>M</em>（3<em>倍</em><em>賠</em><em>償</em><em>で</em></span>420M）を請求した。<strong>2025年1月、Araceli Martínez-Olguín 判事は最終弁論直前に法律問題としての判決（JMOL）を Intuitive 有利に下し、陪審を解散して審理を終結させた</strong>（SIS は「修理・交換 EndoWrist のアフターマーケットの存在」を立証できなかった）。控訴審係属中。</p>
+<h3 id="73-第三者製-da-vinci-用アクセサリは実在する一次確認済openfda-510k">7.3 第三者製 da Vinci 用アクセサリは実在する〔一次確認済：openFDA 510(k)〕</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>510(k)</th>
+<th>決定日</th>
+<th>申請者</th>
+<th>製品</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211104">K211104</a></strong></td>
+<td><strong>2021-08-19</strong></td>
+<td><strong>Conmed Corporation</strong></td>
+<td><strong>AirSeal® dV Solution — AirSeal® Cannula Cap ＋ Bifurcated Filtered Tube Set</strong>。Intuitive 純正カニューラに被せる第三者製キャップ。<strong>腹部・胸腔・小児（≥20kg）適応</strong>。2026-07-22 に da Vinci 5 の 8mm hex cannula へ拡大、「Intuitive と共同で技術適合性試験を実施」と明記〔後段は要一次確認〕</td>
+</tr>
+<tr>
+<td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252926">K252926</a></td>
+<td>2026-03-26</td>
+<td>Restore Robotics</td>
+<td>Permanent Cautery Hook / Spatula。「intended for use with the <strong>da Vinci X/Xi Surgical System</strong>」</td>
+</tr>
+<tr>
+<td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242610">K242610</a> / <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K210478">K210478</a></td>
+<td>2025-03-11 / 2022-09-30</td>
+<td>Iconocare Health</td>
+<td>8mm Monopolar Curved Scissors</td>
+</tr>
+<tr>
+<td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241872">K241872</a> ほか（<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250399">K250399</a> / <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250539">K250539</a> / <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250387">K250387</a> / <a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250417">K250417</a>）</td>
+<td>2024-11-07 〜 2025-08</td>
+<td>Rebotix</td>
+<td>Remanufactured EndoWrist 各種</td>
+</tr>
+</tbody>
+</table></div>
+<p>（product code QSM、21 CFR 876.1500、Class II）</p>
+<p><strong>ConMed AirSeal dV は、本構想が採りうる「純正カニューラに被せる外付けデバイス」の規制上の実在前例であり、しかも胸腔適応を既に取っている。</strong> これ以上の追い風はない。</p>
+<h3 id="74-反トラスト訴訟は味方でも敵でもない一次確認済intuitive-10-q">7.4 反トラスト訴訟は味方でも敵でもない〔一次確認済：Intuitive 10-Q〕</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>事件</th>
+<th>状況（2026-08-01時点）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SIS v. Intuitive</strong></td>
+<td>2021-05-10 提訴 → 2025-01-28 一審で Intuitive 勝訴（JMOL）→ 2025-02-27 控訴 → <strong>第9巡回区で 2026-06-25 に口頭弁論済み、判断待ち。未確定</strong></td>
+</tr>
+<tr>
+<td><strong>Restore Robotics Repairs v. Intuitive</strong></td>
+<td>2024-09-18 提訴 → 2025-11-07 却下認容 → 第11巡回区へ控訴、<strong>係属中</strong></td>
+</tr>
+<tr>
+<td>In Re: da Vinci Surgical Robot Antitrust Litigation（病院クラス）</td>
+<td>2025-03-31 クラス認証、<strong>トライアル 2027-09-14 設定</strong></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>初版は「2025年1月に Intuitive 勝訴」と断定したが、いずれも控訴審係属中で確定していない。訂正する。</strong></p>
+<p>さらに重要なのは、<strong>これらの争点はすべて EndoWrist 器具の service / repair / remanufacturing であって、アクセサリの新規製造ではない</strong>という点である。10-Q の記載は SIS＝「relating to EndoWrist service, maintenance, and repair processes」、Restore＝「relating to the service and replacement of X/Xi EndoWrist instruments」。<strong>したがってこれらの勝敗は、新規ポートを作れるかどうかの根拠にも障害にもならない。</strong></p>
+</blockquote>
 <h3 id="75-まとめ作れるか">7.5 まとめ：作れるか</h3>
 <div class="table-wrap"><table>
 <thead>
 <tr>
-<th>プラットフォーム</th>
+<th>対象</th>
 <th>判定</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>da Vinci（Intuitive）</strong></td>
-<td><strong>条件付きで極めて困難</strong>。カニューラはアームに機械的に結合し、その結合機構と保持形状は Intuitive の特許領域。第三者アクセサリへの法的スタンスも強硬（§7.4）。純正カニューラに後付けする「外付けスリーブ／カラー」なら形式上は可能だが、Intuitive の販売網に乗らない限り事業性が乏しい</td>
+<td><strong>working port／助手ポート／左房リトラクタ用ポート向けのバルーン付き止血ポート</strong></td>
+<td><strong>Intuitive の IP は無関係。自由に作れる。</strong>（真の障壁は Applied Medical のバルーントロカール特許群）</td>
 </tr>
 <tr>
-<td><strong>hinotori（メディカロイド）</strong></td>
-<td><strong>設計上の障壁が無い</strong>。公式に「ピボット点はソフトウェアで設定され、<strong>アームはトロカールとドッキングする必要がない</strong>」とされ、実際に<strong>トロカールを使わない術式が報告されている</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a>）。つまり <strong>hinotori のポートは「汎用の胸腔用ポート」でよい</strong> ＝ 第三者が自由に設計・販売できる</td>
+<td><strong>Intuitive 純正 8mm カニューラの管部に被せる外付けスリーブ</strong>（バルーン＋止血材）</td>
+<td><strong>作れる。</strong> ConMed AirSeal dV（<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211104">K211104</a>、胸腔適応込み）が規制上の実在前例。ただし<strong>マウント／滅菌アダプタ界面に噛む形状は <a href="https://www.freepatentsonline.com/11197729.html">US 11,197,729</a> B2 に抵触しうる</strong>ため回避設計が必要</td>
 </tr>
 <tr>
-<td><strong>プラットフォーム非依存（汎用胸腔ポート／スリーブ）</strong></td>
-<td><strong>最も自由度が高い</strong>。MICS（非ロボット）・VATS・ロボットのいずれでも使える汎用品にすれば、ロボット企業の許諾を一切必要としない。市場も広い</td>
+<td><strong>アームに直結する純正代替カニューラ本体の新規製造</strong></td>
+<td><strong>条件付き＝要注意。</strong> 登録済み請求項は全て磁石ID必須なので磁石なし品は文言侵害しないが、それではシステムがカニューラ種別を認識できず実用性に疑問。加えて <strong>US 2025/0025249 A1 が係属中</strong>。この路を選ぶなら file wrapper 確認が最優先</td>
+</tr>
+<tr>
+<td><strong>hinotori 向け／プラットフォーム非依存の汎用胸腔ポート</strong></td>
+<td><strong>最も自由度が高い</strong>（§8）</td>
 </tr>
 </tbody>
 </table></div>
-<p><strong>いずれの道でも、避けるべきは Intuitive ではなく Applied Medical の特許である。</strong></p>
 <hr />
 <h2 id="8-事業戦略--hinotori-に売り込むという案について">8. 事業戦略 — hinotori に売り込むという案について</h2>
-<p>ユーザーの提案（「Intuitive が先に利権を取っていそうだから、日本企業の hinotori に売っていく」）は、<strong>調査の結果、技術的にも法的にも合理的である</strong>。</p>
-<h3 id="81-hinotori-の現況一次確認済公式サイト報道">8.1 hinotori の現況〔一次確認済（公式サイト・報道）〕</h3>
+<h3 id="81-hinotori-の現況一次確認済公式サイト報道">8.1 hinotori の現況〔一次確認済：公式サイト・報道〕</h3>
 <ul>
 <li>開発・製造：<strong>メディカロイド</strong>（川崎重工業＋シスメックスの合弁、神戸）</li>
 <li>日本：2020年8月 泌尿器科で製造販売承認 → 2022年10月 消化器外科 → 婦人科 → <strong>呼吸器外科</strong>（2024年に保険適用。「2024年4月時点で4科」「2024年6月1日 呼吸器外科保険適用」「2024年11月 厚労省承認」と情報源で記載が揺れており、<strong>正確な日付は要確認</strong>）</li>
 <li>海外：シンガポール 2023、マレーシア 2024、ベトナム 2026、<strong>CE マーク 2026年7月（MDR 2017/745、泌尿器・一般外科・婦人科・胸部外科）</strong></li>
-<li><strong>心臓外科は未承認</strong>。ただし欧州（ルーヴェン、Oosterlinck ら）が <strong>hinotori による両側内胸動脈採取を人体解剖体で実施</strong>して報告している（Algoet M ら, Innovations 2026, <a href="https://doi.org/10.1177/15569845251408012">doi:10.1177/15569845251408012</a>）＝<strong>心臓外科参入の初期段階にある</strong></li>
+<li><strong>心臓外科は未承認</strong>。ただし欧州（ルーヴェン、Oosterlinck ら）が hinotori による両側内胸動脈採取を人体解剖体で実施して報告（Algoet M ら, Innovations 2026, <a href="https://doi.org/10.1177/15569845251408012">doi:10.1177/15569845251408012</a>）＝<strong>心臓外科参入の初期段階</strong></li>
 <li>技術的特徴：<strong>8軸アーム／ソフトウェアによるピボット点設定でドッキング不要／トロカール周囲のワークスペースが開いている</strong>（公式）</li>
 </ul>
-<h3 id="82-なぜ-hinotori-なのか3つの理由">8.2 なぜ hinotori なのか（3つの理由）</h3>
+<h3 id="82-なぜ-hinotori-なのか">8.2 なぜ hinotori なのか</h3>
 <ol type="1">
-<li><strong>ポートを縛っていない</strong> — アームがトロカールに結合しないので、「純正カニューラ」に相当する強い縛りがない。第三者のポートを入れる余地が構造的に空いている</li>
-<li><strong>心臓外科がこれから</strong> — 完成した da Vinci の心臓外科エコシステムに割り込むより、<strong>これから心臓外科適応を取りに行くプラットフォームに「心臓外科向け専用ポート」を持ち込むほうが、相手にとっての価値が高い</strong>。「hinotori で心臓外科をやるとポート出血が問題になる。それを解く専用ポートがある」は、メーカーにとって適応拡大の材料になる</li>
-<li><strong>国内の開発支援制度に乗る</strong> — AMED の医療機器開発推進／医工連携イノベーション推進事業、PMDA の開発前相談。国内メーカー＋国内アカデミアの組み合わせは制度的に最も通りやすい</li>
+<li><strong>ポートを縛っていない</strong> — アームがトロカールに結合しないので「純正カニューラ」に相当する縛りが構造的に無い</li>
+<li><strong>心臓外科がこれから</strong> — 完成した da Vinci の心臓外科エコシステムに割り込むより、これから心臓外科適応を取りに行くプラットフォームに「心臓外科向け専用ポート」を持ち込むほうが相手にとっての価値が高い</li>
+<li><strong>国内の開発支援制度に乗る</strong> — AMED の医療機器開発推進／医工連携イノベーション推進事業、PMDA の開発前相談</li>
 </ol>
 <h3 id="83-ただし注意すべき点">8.3 ただし注意すべき点</h3>
 <ul>
-<li><strong>hinotori の心臓外科適応が取れる保証はない</strong>。hinotori 専用設計だとプラットフォームの適応拡大が止まった時点で心中する</li>
-<li>→ <strong>「hinotori 専用」ではなく「汎用の胸腔ポート／スリーブとして設計し、hinotori と相性が良い」とすべき</strong>。VATS・MICS・ロボットのどれでも使えるなら単独で薬事も市場も成立する</li>
-<li>競合として、<strong>兵庫医大の「トロカールレス＋創縁保護材」（<a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a>）は既に hinotori の胸部手術で実践されており、追加コストゼロ</strong>である。これを上回る理由（心臓外科特有のヘパリン下での止血、8mm 径での適用、抜去後の止血）を明示できなければ勝てない</li>
-<li><strong>兵庫医大（Nakamura/Funaki）と神戸大（Tanaka/Maniwa）は、いずれも兵庫県内でメディカロイド（神戸）と同じ圏内にある。</strong> 共同研究の座組として最も自然</li>
+<li><strong>da Vinci を捨てる必要は無い</strong>（§7.5）。working port 向けなら da Vinci でも自由に作れるし、ConMed のような外付けキャップの前例もある。<strong>「hinotori 専用」に絞るのはむしろ市場を狭める</strong></li>
+<li><strong>hinotori の心臓外科適応が取れる保証はない</strong>。専用設計だとプラットフォームの適応拡大が止まった時点で心中する</li>
+<li>→ <strong>「汎用の胸腔ポート／スリーブとして設計し、hinotori とも da Vinci とも相性が良い」</strong>が最適解。VATS・MICS・ロボットのどれでも使えるなら単独で薬事も市場も成立する</li>
+<li>競合として、<strong>兵庫医大の「トロカールレス＋創縁保護材」（<a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a>）と Northwestern の「鈍的オブチュレーター＋カメラ点検」（<a href="https://pubmed.ncbi.nlm.nih.gov/41669172/">PMID 41669172</a>）はいずれも追加コストゼロ</strong>である。これを上回る理由（心臓外科特有のヘパリン下での止血、8mm 径での適用、抜去後の止血）を明示できなければ勝てない</li>
+<li><strong>兵庫医大（Nakamura/Funaki）と神戸大（Tanaka/Maniwa）は、いずれも兵庫県内でメディカロイド（神戸）と同じ圏内</strong>。共同研究の座組として最も自然</li>
 </ul>
 <hr />
-<h2 id="9-設計上の技術課題">9. 設計上の技術課題</h2>
+<h2 id="9-設計上の技術課題とリスク">9. 設計上の技術課題とリスク</h2>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -1076,63 +1276,70 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <tr>
 <td>1</td>
 <td><strong>肋間神経の圧迫（最大のリスク）</strong></td>
-<td>硬性トロカールが肋間神経を圧迫し術後疼痛を増やすことは前向き比較で示済（Raveglia 2018, §5）。<strong>バルーンで肋間を内側から押し広げる設計はこの知見と真逆</strong>。設計解はバルーンを<strong>肋間の中に収めない</strong>こと — 胸腔側の胸壁内面に平たく当たる円盤/キノコ型にして、力を肋骨ではなく胸壁内面の広い面積で受ける</td>
+<td>硬性トロカールの肋間圧迫が術後疼痛を増やすことは前向き比較で示済（Raveglia 2018, §5.1）。<strong>バルーンで肋間を内側から押し広げる設計はこの唯一のランダム化データと真逆のベクトルを持つ。</strong> ただし「肋間でのバルーン圧迫の神経障害」を直接検証した文献は独自検索でも見つからず〔未確認＝空白〕。設計解はバルーンを<strong>肋間の中に収めない</strong>こと — 胸腔側の胸壁内面に平たく当たる円盤/キノコ型にして、力を肋骨ではなく胸壁内面の広い面積で受ける</td>
 </tr>
 <tr>
 <td>2</td>
-<td><strong>ORC の膨潤・酸性・治癒阻害</strong></td>
-<td>§3.3。骨・神経近傍は添付文書上の禁忌。pH 2.6–3.5 の化学毒性、TGF-β 阻害による治癒遅延。材料選定が構想②の成否を決める</td>
+<td><strong>ORC の膨潤・酸性・治癒阻害・画像偽陽性</strong></td>
+<td>§3.3。骨・神経近傍は添付文書上の禁忌で、<strong>開胸創の肋間に ORC を置くことは既報の対麻痺機序そのもの</strong>。材料選定が構想②の成否を決める</td>
 </tr>
 <tr>
 <td>3</td>
+<td><strong>バルーン抜去時の再出血</strong></td>
+<td>Balkhy らの弱点そのもの（§2.3）。<strong>一次データもある</strong>：穿通性頸部外傷のバルーンタンポナーデ 95例中、48–72時間で抜去した72例のうち<strong>2例が抜去時に出血</strong>（Scriba M ら, World J Surg 2020, <a href="https://pubmed.ncbi.nlm.nih.gov/32246186/">PMID 32246186</a>）〔要一次確認〕。9研究1,658例のメタ解析では、その後の外科的探索を要した 53.47% の主因が「主要血管損傷と <strong>rebleeding at removal</strong>」、合併症 11.70%・死亡 6.30%（Tan L ら, Ann R Coll Surg Engl 2026, <a href="https://pubmed.ncbi.nlm.nih.gov/41396248/">PMID 41396248</a>）〔要一次確認〕。→ <strong>手術終了時に必ず抜くポートでは「抜いた瞬間に元に戻る」。抜去と同時に止血材を刺入路へ残す機構が構想の中核的新規性になりうる</strong>（§6）</td>
+</tr>
+<tr>
+<td>4</td>
 <td><strong>止血材が挿入時に削れる</strong></td>
 <td>8mm ポートを肋間に押し込む際、外周の止血材が摩擦で剥落し胸腔内に散る。挿入時はシース／オブチュレータで覆い、<strong>留置位置で初めて露出させる</strong>機構が要る</td>
 </tr>
 <tr>
-<td>4</td>
+<td>5</td>
 <td><strong>血液がないと働かない／濡れると即固まる</strong></td>
 <td>ORC は湿潤で即座に膨潤・ゲル化。TachoSil 系は乾燥面に接着しない。<strong>「乾燥保存 → 挿入時は無反応 → 留置後に機能」</strong> という時間制御が最大の技術課題</td>
 </tr>
 <tr>
-<td>5</td>
-<td><strong>バルーンを抜いた瞬間の再出血</strong></td>
-<td>Balkhy らの弱点そのもの（§2.3）。<strong>抜去と同時に止血材が刺入路に残る</strong>機構が構想の中核的新規性になりうる（§6）</td>
+<td>6</td>
+<td><strong>感染巣化</strong></td>
+<td>ORC は低 pH で抗菌性がある一方、コラーゲン/ゼラチン系は感染巣化が添付文書に明記。MICS の創感染自体が 3–7% 台と決して低くなく、異物量を増やす設計はここに影響する〔要一次確認〕</td>
 </tr>
 <tr>
-<td>6</td>
+<td>7</td>
+<td><strong>バルーン破裂・遺残</strong></td>
+<td>胸腔内でのバルーン断片遺残を報告した文献は検索で0件〔該当報告なし＝安全性データが皆無〕。<strong>動物試験で自前に取る必要がある</strong></td>
+</tr>
+<tr>
+<td>8</td>
 <td>器具交換の運用</td>
 <td>ロボットではポートは留置したままで器具のみ交換するのでバルーンは1回でよい。ただしカメラ／アシストポートは径が違う</td>
 </tr>
 <tr>
-<td>7</td>
+<td>9</td>
 <td>CO2 送気とのシール</td>
 <td>胸腔は密閉腔でないので腹腔ほどのシールは不要。CO2 送気施設ではバルーンがシールも兼ねられる</td>
 </tr>
 <tr>
-<td>8</td>
-<td>異物・感染</td>
-<td>吸収性材料の遺残は肉芽腫化・膿瘍様所見・画像誤診の原因。「汚染創に留置して閉創しない」はサージセル添付文書の記載</td>
-</tr>
-<tr>
-<td>9</td>
-<td>滅菌・保存安定性</td>
-<td>止血材装着状態での滅菌耐性、貯蔵中の失活。<strong>ORC は再滅菌不可</strong>とされる〔要一次確認〕。PROCEED メッシュに前例あり</td>
-</tr>
-<tr>
 <td>10</td>
-<td>コスト</td>
-<td>対抗馬は「Lap Protector＋既存 ORC」と「尿道カテーテル」。いずれも安い。<strong>償還を取れるだけの臨床的優位性の証明</strong>が要る</td>
+<td>滅菌・保存安定性</td>
+<td>止血材装着状態での滅菌耐性、貯蔵中の失活。ORC は再滅菌不可とされる〔要一次確認〕。PROCEED メッシュに前例あり</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>コスト／競合</strong></td>
+<td>対抗馬は「Lap Protector＋既存 ORC」「尿道カテーテル」「鈍的オブチュレーター」。<strong>いずれも安いか無料</strong>。償還を取れるだけの臨床的優位性の証明が要る</td>
 </tr>
 </tbody>
 </table></div>
 <hr />
 <h2 id="10-未解決の空白この構想が主張できる場所">10. 未解決の空白（＝この構想が主張できる場所）</h2>
 <ol type="1">
-<li><strong>ロボット心臓手術の再開胸出血の「出血源の内訳」を報告した論文が無い。</strong> 胸骨切開ではメタ解析がある（§1.1）が、ロボット/MICS では誰も集計していない。<strong>§1.2 の「ロボットで OR 1.86」の中身が分からないということ。ニーズ立証の最大の穴であり、最初にやるべき臨床研究</strong></li>
-<li><strong>心臓外科（全身ヘパリン化・体外循環下）のポート創面出血を定量した報告が無い。</strong> §1.3 の RCT は呼吸器外科。<strong>ここを自分で測ることがそのまま新規性の主張になる</strong></li>
+<li><strong>ロボットの 8mm ポート孔に限定した出血源内訳データはゼロ。</strong> 非ロボットの小開胸／内視鏡には3件ある（§1.3）が、ロボットポートに限れば存在しない。<strong>自施設で前向きに出血源を記録することが最初の研究テーマ</strong></li>
+<li><strong>心臓外科（全身ヘパリン化・体外循環下）のポート創面出血を定量した報告が無い。</strong> §1.4 の RCT は呼吸器外科</li>
 <li><strong>「ポート孔をどう作るか（電メ vs メス vs 鈍的）」を比較した研究が世界的に皆無</strong>（§4.3）</li>
-<li><strong>8mm 径の胸腔ポートに対する止血ソリューションが無い。</strong> 創縁保護材は working port（3–4cm）にしか入らない</li>
-<li><strong>抜去時に止血材を残置する肋間ポートは、確認できた範囲では存在しない</strong>（ただし §3.2 の WO 2019/122487 次第）</li>
+<li><strong>8mm 径の胸腔ポートに対する止血ソリューションが無い。</strong> 創縁保護材は working port（1.5–4cm）にしか入らない</li>
+<li><strong>止血材を外周に事前装着したトロカール／ポートは、製品も登録特許クレームも存在しない</strong>（FreePatentsOnline 専門家検索・Google Patents XHR API・openFDA GUDID・openFDA 510(k)・PubMed の複数検索式でいずれも 0件）。ただし WO 2019/122487（失効）と <a href="https://www.freepatentsonline.com/7018392.html">US 7,018,392</a>（満了）が公開文献として存在するため、<strong>特許を取るならこれらを回避する構成が必要</strong></li>
+<li><strong>抜去時に止血材を刺入路へ残置する肋間ポートは存在しない</strong></li>
+<li><strong>肋間でのバルーン圧迫が神経障害を起こすかどうかを検証した文献が無い</strong>（リスクでもあり、自前で埋めるべき空白でもある）</li>
 </ol>
 <hr />
 <h2 id="11-次にやるべきこと優先順">11. 次にやるべきこと（優先順）</h2>
@@ -1146,27 +1353,31 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 <tbody>
 <tr>
 <td><strong>1</strong></td>
-<td><strong>WO 2019/122487 の全文入手・精読</strong>（§3.2）。構想①＋②の統合そのものである可能性。ここが新規性の生死を決める</td>
+<td><strong>WO 2019/122487 の全文と法的地位を Espacenet / INPADOC で確定</strong>（§3.2）。「請求項3に酸化セルロース含浸」「失効・各国移行なし」はいずれもエージェント報告で一次未確認。<strong>新規性の生死を決める</strong></td>
+</tr>
+<tr>
+<td><strong>1'</strong></td>
+<td><strong>J-PlatPat での国内先行技術調査</strong>。本調査では J-PlatPat に直接アクセスできず、<strong>日本国内出願の悉皆性が未担保</strong>。八光 E・ZバルーンⅡ の関連出願は必ず確認すること</td>
 </tr>
 <tr>
 <td><strong>2</strong></td>
-<td><strong>Kiani/Poston 2012（Heart Surg Forum, <a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a>）の本文入手</strong>。心臓外科でのポート孔止血の直接の先行</td>
+<td><strong>係属出願 US 2025/0025249 A1（18/777,746）の file wrapper 確認</strong>（弁理士）。アーム直結カニューラ本体を作る路の帰趨を決める。ただし §7.1 の通り working port 狙いなら不要</td>
 </tr>
 <tr>
 <td><strong>3</strong></td>
-<td><strong>Balkhy らの Innovations 2025（<a href="https://pubmed.ncbi.nlm.nih.gov/40913323/">PMID 40913323</a>）の本文入手</strong>。カテーテル径・留置時間・合併症の詳細</td>
+<td><strong>Applied Medical の公式サイト（日英）で「Tamponade Effect」の記載を自分の目で確認</strong>し、<a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a> / <a href="https://www.freepatentsonline.com/8287503.html">US 8,287,503</a> の明細書全文と満了日を精査。<strong>ここが真の FTO 障壁</strong></td>
 </tr>
 <tr>
 <td><strong>4</strong></td>
-<td><strong>Applied Medical の公式サイト（日英）で「Tamponade Effect」の記載を自分の目で確認</strong>。対外説明で最初に突かれる</td>
+<td><strong>Kiani/Poston 2012（<a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a>）と Balkhy 2025（<a href="https://pubmed.ncbi.nlm.nih.gov/40913323/">PMID 40913323</a>）の本文入手</strong>。前者は「有意なのは輸血だけ」の確認、後者は対照群6例の出血源の確認</td>
 </tr>
 <tr>
 <td><strong>5</strong></td>
-<td><strong><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a> ファミリー（Applied Medical）と <a href="https://www.freepatentsonline.com/10485582.html">US 10,485,582</a> ファミリー（Intuitive）の明細書全文精査</strong> — バルーン実施例の有無、係属中の継続出願、日本ファミリーの有無</td>
+<td><strong>自施設のロボット心臓手術データの後ろ向き集計</strong> — 再開胸出血の症例で「どこから出ていたか」。§10-1 の空白を自分で埋める</td>
 </tr>
 <tr>
 <td><strong>6</strong></td>
-<td><strong>自施設のロボット心臓手術データの後ろ向き集計</strong> — 再開胸出血の症例で「どこから出ていたか」。§10-1 の空白を自分で埋める</td>
+<td>ConMed に AirSeal dV の開発経緯をヒアリング（Intuitive とどう折り合いをつけたか）。<strong>外付けデバイスの実務的な進め方の最良の教師</strong></td>
 </tr>
 <tr>
 <td><strong>7</strong></td>
@@ -1174,15 +1385,11 @@ mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2p
 </tr>
 <tr>
 <td><strong>8</strong></td>
-<td>メディカロイドへの打診（PMDA 開発前相談の前に、プラットフォーム側の意向を確認）</td>
-</tr>
-<tr>
-<td><strong>9</strong></td>
-<td>J-PlatPat での国内特許調査（「トロカール バルーン 止血」「胸腔 ポート 止血材」）</td>
+<td>メディカロイドへの打診（PMDA 開発前相談の前にプラットフォーム側の意向を確認）</td>
 </tr>
 <tr>
 <td><strong>10</strong></td>
-<td>〔要一次確認〕と付した項目の裏取り（特に §2.1 の製品リスト、§2.2 の満了日、§3.3 の ORC 毒性・治癒阻害、§7.1 の Intuitive 特許番号）</td>
+<td>〔要一次確認〕〔未確認〕と付した項目の裏取り</td>
 </tr>
 </tbody>
 </table></div>
