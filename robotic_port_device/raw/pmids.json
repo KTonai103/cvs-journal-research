@@ -1,0 +1,938 @@
+[
+ {
+  "pmid": "29338997",
+  "title": "Meta-analysis of the Sources of Bleeding after Adult Cardiac Surgery",
+  "journal": "J Cardiothorac Vasc Anesth",
+  "year": "2018",
+  "first_author": "Biancari F",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "11888475",
+  "title": "Re-exploration for hemorrhage following open heart surgery differentiation on the causes of bleeding and the impact on patient outcomes",
+  "journal": "Ann Thorac Cardiovasc Surg",
+  "year": "2001",
+  "first_author": "Hall TS",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "22434857",
+  "title": "Re-exploration for bleeding or tamponade after cardiac operation",
+  "journal": "Interact Cardiovasc Thorac Surg",
+  "year": "2012",
+  "first_author": "Čanádyová J",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "34099003",
+  "title": "Re-exploration for bleeding after cardiac surgery: revaluation of urgency and factors promoting low rate",
+  "journal": "J Cardiothorac Surg",
+  "year": "2021",
+  "first_author": "Elassal AA",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "30346507",
+  "title": "Reduced re-exploration and blood product transfusion after the introduction of the Papworth haemostasis checklist†",
+  "journal": "Eur J Cardiothorac Surg",
+  "year": "2019",
+  "first_author": "Ali JM",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "35952856",
+  "title": "Early Reexploration for Bleeding Is Associated With Improved Outcome in Cardiac Surgery",
+  "journal": "Ann Thorac Surg",
+  "year": "2023",
+  "first_author": "Shou BL",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "7887708",
+  "title": "Resternotomy for bleeding after cardiac operation: a marker for increased morbidity and mortality",
+  "journal": "Ann Thorac Surg",
+  "year": "1995",
+  "first_author": "Unsworth-White MJ",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "28511245",
+  "title": "Low Fibrinogen Is Associated with Increased Bleeding-Related Re-exploration after Cardiac Surgery",
+  "journal": "Thorac Cardiovasc Surg",
+  "year": "2018",
+  "first_author": "Essa Y",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "25173720",
+  "title": "Planned cardiac reexploration in the intensive care unit is a safe procedure",
+  "journal": "Ann Thorac Surg",
+  "year": "2014",
+  "first_author": "LaPar DJ",
+  "cat": "A_出血源と再開胸"
+ },
+ {
+  "pmid": "40913323",
+  "title": "Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery",
+  "journal": "Innovations (Phila)",
+  "year": "2025",
+  "first_author": "Qi SS",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "23092664",
+  "title": "Managing port-site bleeding during less invasive coronary artery bypass grafting",
+  "journal": "Heart Surg Forum",
+  "year": "2012",
+  "first_author": "Kiani S",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "41985604",
+  "title": "Closed-Chest Robotic vs Port Access Approach for Mitral Repair: Comparison of Postoperative Outcomes",
+  "journal": "Ann Thorac Surg",
+  "year": "2026",
+  "first_author": "Ascaso M",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "18692654",
+  "title": "Robotic mitral valve repairs in 300 patients: a single-center experience",
+  "journal": "J Thorac Cardiovasc Surg",
+  "year": "2008",
+  "first_author": "Chitwood WR Jr",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "15172249",
+  "title": "Minimally invasive mitral valve repair using the da Vinci robotic system",
+  "journal": "Ann Thorac Surg",
+  "year": "2004",
+  "first_author": "Tatooles AJ",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "36237593",
+  "title": "Two hundred robotic mitral valve repair procedures for degenerative mitral regurgitation: the Yale experience",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2022",
+  "first_author": "Amabile A",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "36529985",
+  "title": "A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair",
+  "journal": "Innovations (Phila)",
+  "year": "2022",
+  "first_author": "Fatehi Hassanabad A",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "36483620",
+  "title": "Robotically assisted mitral valve surgery-experience during the restart of a robotic program in Germany",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2022",
+  "first_author": "Franke UFW",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "32072433",
+  "title": "Early results of robotically assisted mitral valve repair in a single institution: report of the first 100 cases",
+  "journal": "Gen Thorac Cardiovasc Surg",
+  "year": "2020",
+  "first_author": "Kakuta T",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "34802439",
+  "title": "Massive hemorrhage from the posterior intercostal artery following lower partial sternotomy",
+  "journal": "J Cardiothorac Surg",
+  "year": "2021",
+  "first_author": "Hattori M",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "41913831",
+  "title": "Delayed Port-Site Hematoma Following Robot-Assisted Hysterectomy Using the Hinotori Surgical Robot System in an Anticoagulated Patient With Cardiovascular Comorbidities: A Case Report",
+  "journal": "Cureus",
+  "year": "2026",
+  "first_author": "Kawata Y",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "36237595",
+  "title": "Robotic mitral valve repair in Japan and keyhole cardiac surgery in NewHeart Watanabe Institute",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2022",
+  "first_author": "Ishikawa N",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "41417160",
+  "title": "Minimally invasive cardiac surgeries in 2022: annual report by Japanese Society of Minimally Invasive Cardiac Surgery",
+  "journal": "Gen Thorac Cardiovasc Surg",
+  "year": "2026",
+  "first_author": "Shimokawa T",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "42273302",
+  "title": "Robotic Mitral Valve Repair in Patients With Thoracic Deformity",
+  "journal": "Circ Rep",
+  "year": "2026",
+  "first_author": "Tomita S",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "41669175",
+  "title": "Outcomes of robotic repair for the degenerative mitral valve: a systematic review and meta-analysis",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2026",
+  "first_author": "Eranki A",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "41619927",
+  "title": "The Society of Thoracic Surgeons Expert Consensus Pathway for Robotic Cardiac Surgical Training",
+  "journal": "Ann Thorac Surg",
+  "year": "2026",
+  "first_author": "Badhwar V",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "40900082",
+  "title": "Robotic mitral valve repair: patient positioning and port placement in male patients",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2025",
+  "first_author": "Cullen P",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "40900091",
+  "title": "Robotic mitral valve repair: patient positioning and port placement in female patients",
+  "journal": "Multimed Man Cardiothorac Surg",
+  "year": "2025",
+  "first_author": "Cullen P",
+  "cat": "B_ロボット心臓外科のポート出血"
+ },
+ {
+  "pmid": "22161136",
+  "title": "Use of Foley's catheter to control port-site bleeding in bariatric surgery",
+  "journal": "Obes Surg",
+  "year": "2012",
+  "first_author": "Ruiz-Tovar J",
+  "cat": "C_バルーン/Foleyタンポナーデ先行"
+ },
+ {
+  "pmid": "33752031",
+  "title": "Successful Foley catheter tamponade of an epigastric vessel trocar injury in a toddler - A case report",
+  "journal": "Int J Surg Case Rep",
+  "year": "2021",
+  "first_author": "Muensterer NR",
+  "cat": "C_バルーン/Foleyタンポナーデ先行"
+ },
+ {
+  "pmid": "22086319",
+  "title": "[Use of Foley's catheter to control abdominal wall bleeding in the trocar insertion place during laparoscopic surgery]",
+  "journal": "Rev Gastroenterol Peru",
+  "year": "2011",
+  "first_author": "Priego-Jiménez P",
+  "cat": "C_バルーン/Foleyタンポナーデ先行"
+ },
+ {
+  "pmid": "19751334",
+  "title": "Port wound closure assisted by Foley catheter: an easier way to provide fascia security",
+  "journal": "J Obstet Gynaecol Res",
+  "year": "2009",
+  "first_author": "Su WH",
+  "cat": "C_バルーン/Foleyタンポナーデ先行"
+ },
+ {
+  "pmid": "20489527",
+  "title": "Balloon compression technique in the management of persistent intraoperative intratumoral hemorrhage resulting from stereotactic biopsy: technical note",
+  "journal": "Neurosurgery",
+  "year": "2010",
+  "first_author": "Kutlay M",
+  "cat": "C_バルーン/Foleyタンポナーデ先行"
+ },
+ {
+  "pmid": "26676093",
+  "title": "Trocar types in laparoscopy",
+  "journal": "Cochrane Database Syst Rev",
+  "year": "2015",
+  "first_author": "la Chapelle CF",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "30657163",
+  "title": "Laparoscopic entry techniques",
+  "journal": "Cochrane Database Syst Rev",
+  "year": "2019",
+  "first_author": "Ahmad G",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "36842955",
+  "title": "Direct trocar insertion vs. Veress needle technique in laparoscopic surgeries. A systematic review and meta-analysis",
+  "journal": "J Visc Surg",
+  "year": "2023",
+  "first_author": "Elnaggar AA",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "37069276",
+  "title": "Major and minor complications in Veress needle (VN) and direct trocar insertion (DTI) for laparoscopic closed-entry techniques: an updated systematic review and meta-analysis",
+  "journal": "Langenbecks Arch Surg",
+  "year": "2023",
+  "first_author": "Taliento C",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "38743387",
+  "title": "Trocar-site incisional hernia after 8-mm robotic trocar placement: A prospective study",
+  "journal": "World J Surg",
+  "year": "2024",
+  "first_author": "Cianfarani A",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "38430543",
+  "title": "Robotic 8-mm trocar fascial wounds: To close or not to close?",
+  "journal": "Int J Med Robot",
+  "year": "2024",
+  "first_author": "Milone M",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "21152941",
+  "title": "Trocar site hernia after laparoscopic surgery: a qualitative systematic review",
+  "journal": "Hernia",
+  "year": "2011",
+  "first_author": "Helgstrand F",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "32728766",
+  "title": "Does closure of fascia, type, and location of trocar influence occurrence of port site hernias? A literature review",
+  "journal": "Surg Endosc",
+  "year": "2020",
+  "first_author": "Gutierrez M",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "39077265",
+  "title": "Insights Into Laparoscopic Port Site Complications: A Comprehensive Review",
+  "journal": "Cureus",
+  "year": "2024",
+  "first_author": "Chandra J N",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "15545574",
+  "title": "Trocar site hernia",
+  "journal": "Arch Surg",
+  "year": "2004",
+  "first_author": "Tonouchi H",
+  "cat": "D_トロカール合併症とエントリー法"
+ },
+ {
+  "pmid": "37062549",
+  "title": "Surgicel plug technique versus endoclose technique for port-site closure post minimally invasive (robotic and laparoscopic) surgeries: Retrospective cohort study",
+  "journal": "Saudi Med J",
+  "year": "2023",
+  "first_author": "Moazin MS",
+  "cat": "E_止血材によるポート閉鎖"
+ },
+ {
+  "pmid": "36071329",
+  "title": "Safety and Efficacy of Trocar Port-Site Closure Using a Biological Plug Closure in Laparoscopic Bariatric Surgery: a Prospective Study",
+  "journal": "Obes Surg",
+  "year": "2022",
+  "first_author": "Andraos Y",
+  "cat": "E_止血材によるポート閉鎖"
+ },
+ {
+  "pmid": "41933246",
+  "title": "A novel peritoneal channel technique using a hemostatic agent to minimize symptomatic fluid collections after single-port robot-assisted radical prostatectomy",
+  "journal": "J Robot Surg",
+  "year": "2026",
+  "first_author": "O'Hara J",
+  "cat": "E_止血材によるポート閉鎖"
+ },
+ {
+  "pmid": "18070734",
+  "title": "Microporous polysaccharide hemospheres for management of laparoscopic trocar injury to the spleen",
+  "journal": "Am J Surg",
+  "year": "2008",
+  "first_author": "Humphreys MR",
+  "cat": "E_止血材によるポート閉鎖"
+ },
+ {
+  "pmid": "18237509",
+  "title": "Use of bone wax during laparoscopic renal ablative procedures: optimizing port utilization and reducing tract-site exposure",
+  "journal": "JSLS",
+  "year": "2007",
+  "first_author": "Zorn KC",
+  "cat": "E_止血材によるポート閉鎖"
+ },
+ {
+  "pmid": "22367850",
+  "title": "Systematic review and meta-analysis of cutting diathermy versus scalpel for skin incision",
+  "journal": "Br J Surg",
+  "year": "2012",
+  "first_author": "Ly J",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "31978649",
+  "title": "Diathermy versus scalpel for skin incision in patients undergoing open inguinal hernia repair: A systematic review and meta-analysis",
+  "journal": "Int J Surg",
+  "year": "2020",
+  "first_author": "Hajibandeh S",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "39304130",
+  "title": "Diathermy versus scalpel in midline abdominal incision: A systematic review and meta-analysis of randomized controlled trials",
+  "journal": "Cir Esp (Engl Ed)",
+  "year": "2025",
+  "first_author": "Dos Santos Pimenta N",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "26021211",
+  "title": "Comparison of electrocautery incision with scalpel incision in midline abdominal surgery - A double blind randomized controlled trial",
+  "journal": "Int J Surg",
+  "year": "2015",
+  "first_author": "Prakash LD",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "24165306",
+  "title": "Cautery versus scalpel for abdominal skin incisions: a double blind, randomized crossover trial of scar cosmesis",
+  "journal": "ANZ J Surg",
+  "year": "2016",
+  "first_author": "Stupart DA",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "34840756",
+  "title": "Post-skin incision scar tissue assessment using patient and observer scar assessment scales: A randomised controlled trial",
+  "journal": "Ann Med Surg (Lond)",
+  "year": "2021",
+  "first_author": "Oley MH",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "11136307",
+  "title": "Randomized clinical trial of diathermy versus scalpel incision in elective midline laparotomy",
+  "journal": "Br J Surg",
+  "year": "2001",
+  "first_author": "Kearns SR",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "11425052",
+  "title": "A multicentre collaborative study on the use of cold scalpel and electrocautery for midline abdominal incision",
+  "journal": "Am J Surg",
+  "year": "2001",
+  "first_author": "Franchi M",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "2143426",
+  "title": "Wound infection after abdominal incision with scalpel or diathermy",
+  "journal": "Br J Surg",
+  "year": "1990",
+  "first_author": "Johnson CD",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "37963705",
+  "title": "Needle-tip electrocautery versus steel scalpel incision in neurosurgery: study protocol for a prospective single-centre randomised controlled double-blind trial",
+  "journal": "BMJ Open",
+  "year": "2023",
+  "first_author": "Xu W",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "39600331",
+  "title": "Comparison of Colorado Needle Electrocautery and Traditional Scalpel for Lower Eyelid Blepharoplasty Incision: A Randomized Controlled Trial",
+  "journal": "Plast Reconstr Surg Glob Open",
+  "year": "2024",
+  "first_author": "Pruksapong C",
+  "cat": "F_電メvsメス"
+ },
+ {
+  "pmid": "23521021",
+  "title": "Physician-performed ultrasound can accurately screen for a vulnerable intercostal artery prior to chest drainage procedures",
+  "journal": "Respirology",
+  "year": "2013",
+  "first_author": "Salamonsen M",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "40944085",
+  "title": "Intercostal Artery Screening with Color Doppler Thoracic Ultrasound in Pleural Procedures: A Potential Yet Underexplored Imaging Modality for Minimizing Iatrogenic Bleeding Risk in Interventional Pulmonology",
+  "journal": "J Clin Med",
+  "year": "2025",
+  "first_author": "Marchi G",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "28838023",
+  "title": "[Interventional Radiological Treatment of Intercostal Artery Bleedings - a Retrospective Analysis]",
+  "journal": "Zentralbl Chir",
+  "year": "2017",
+  "first_author": "Kupczyk P",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "34321811",
+  "title": "Role of Intercostal Artery Embolization in Management of Traumatic Hemothorax",
+  "journal": "J Emerg Trauma Shock",
+  "year": "2021",
+  "first_author": "Lohan R",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "26380751",
+  "title": "Transcatheter arterial embolization for intercostal arterial bleeding in a patient after chest tube insertion",
+  "journal": "J Thorac Dis",
+  "year": "2015",
+  "first_author": "Chen RB",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "33154815",
+  "title": "Management of a life-threatening intercostal artery bleeding, difficult to visualize in open surgery: a case report",
+  "journal": "J Surg Case Rep",
+  "year": "2020",
+  "first_author": "Laugsand EA",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "36440304",
+  "title": "Control of bleeding from intercostal artery laceration",
+  "journal": "Respir Med Case Rep",
+  "year": "2022",
+  "first_author": "Sabath BF",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "37690956",
+  "title": "Thoracodorsal Artery Injury After Tube Thoracostomy: A Case Report",
+  "journal": "J Emerg Med",
+  "year": "2023",
+  "first_author": "Kamei J",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "28790290",
+  "title": "[Postoperative Intrathoracic Hemorrhage;Perioperative Prevention and Management]",
+  "journal": "Kyobu Geka",
+  "year": "2017",
+  "first_author": "Maniwa Y",
+  "cat": "G_肋間動脈出血"
+ },
+ {
+  "pmid": "37015067",
+  "title": "Two-Centimeter Single-Port Incision Minimizing Intercostal Nerve Damage Applied in Video-Assisted Thoracoscopic Surgery Segmentectomy for Pulmonary Ground Glass Nodules",
+  "journal": "J Laparoendosc Adv Surg Tech A",
+  "year": "2023",
+  "first_author": "Hu H",
+  "cat": "H_肋間神経と慢性疼痛"
+ },
+ {
+  "pmid": "33956234",
+  "title": "Modified 2-cm super single port vs. the traditional 3-cm single port for video-assisted thoracoscopic surgery lobectomy",
+  "journal": "Surg Today",
+  "year": "2021",
+  "first_author": "Liu G",
+  "cat": "H_肋間神経と慢性疼痛"
+ },
+ {
+  "pmid": "39015471",
+  "title": "Outcomes of single- versus multi-port video-assisted thoracoscopic surgery: Data from a multicenter randomized controlled trial of video-assisted thoracoscopic surgery versus thoracotomy for lung cancer",
+  "journal": "JTCVS Open",
+  "year": "2024",
+  "first_author": "Lim E",
+  "cat": "H_肋間神経と慢性疼痛"
+ },
+ {
+  "pmid": "32802437",
+  "title": "Comparison of post-operative pain and quality of life between uniportal subxiphoid and intercostal video-assisted thoracoscopic lobectomy",
+  "journal": "J Thorac Dis",
+  "year": "2020",
+  "first_author": "Chen J",
+  "cat": "H_肋間神経と慢性疼痛"
+ },
+ {
+  "pmid": "39340899",
+  "title": "A prospective multi-institutional study to verify the non-inferiority of postoperative pain in robot-assisted thoracic surgery in comparison with video-assisted thoracoscopic surgery for lung cancer: The Japanese RATS interest group 01 (J-RATSIG 01)",
+  "journal": "Lung Cancer",
+  "year": "2024",
+  "first_author": "Kawaguchi K",
+  "cat": "H_肋間神経と慢性疼痛"
+ },
+ {
+  "pmid": "27826786",
+  "title": "Efficacy of a Self-expanding Tract Sealant Device in the Reduction of Pneumothorax and Chest Tube Placement Rates After Percutaneous Lung Biopsy: A Matched Controlled Study Using Propensity Score Analysis",
+  "journal": "Cardiovasc Intervent Radiol",
+  "year": "2017",
+  "first_author": "Ahrar JU",
+  "cat": "I_tract_sealant"
+ },
+ {
+  "pmid": "41897557",
+  "title": "Tract Sealing Techniques for Pneumothorax and Drainage Prevention After CT-Guided Lung Biopsy: A Systematic Review and Meta-Analysis",
+  "journal": "Diagnostics (Basel)",
+  "year": "2026",
+  "first_author": "Roman A",
+  "cat": "I_tract_sealant"
+ },
+ {
+  "pmid": "34178246",
+  "title": "Post-Biopsy Pneumothorax Incidence in Patients Treated with Biosentry™ Plug Device",
+  "journal": "Kans J Med",
+  "year": "2021",
+  "first_author": "Abouodah H",
+  "cat": "I_tract_sealant"
+ },
+ {
+  "pmid": "39512979",
+  "title": "Is the BioSentry Tract Sealant System Effective in Reducing the Pneumothorax Rate After CT-Guided Transthoracic Lung Biopsy With an 18G Biopsy Needle?",
+  "journal": "Cureus",
+  "year": "2024",
+  "first_author": "Naser-Tavakolian K",
+  "cat": "I_tract_sealant"
+ },
+ {
+  "pmid": "30480487",
+  "title": "Autologous Blood Patch Injection versus Hydrogel Plug in CT-guided Lung Biopsy: A Prospective Randomized Trial",
+  "journal": "Radiology",
+  "year": "2019",
+  "first_author": "Maybody M",
+  "cat": "I_tract_sealant"
+ },
+ {
+  "pmid": "31054891",
+  "title": "Pulmonary pathologic alterations associated with biopsy inserted hydrogel plugs",
+  "journal": "Hum Pathol",
+  "year": "2019",
+  "first_author": "Yousem SA",
+  "cat": "I_tract_sealant"
+ },
+ {
+  "pmid": "37526076",
+  "title": "A contemporary systematic review of the complications associated with SURGICEL",
+  "journal": "Expert Rev Med Devices",
+  "year": "2023",
+  "first_author": "Masoudi M",
+  "cat": "J_ORC安全性と膨潤"
+ },
+ {
+  "pmid": "22278791",
+  "title": "Massive swelling of Surgicel® Fibrillar™ hemostat after spinal surgery. Case report and a review of the literature",
+  "journal": "Minim Invasive Neurosurg",
+  "year": "2011",
+  "first_author": "Menovsky T",
+  "cat": "J_ORC安全性と膨潤"
+ },
+ {
+  "pmid": "37436267",
+  "title": "Post-thoracotomy paraplegia after oxidized cellulose spinal compression",
+  "journal": "Einstein (Sao Paulo)",
+  "year": "2023",
+  "first_author": "Than DJ",
+  "cat": "J_ORC安全性と膨潤"
+ },
+ {
+  "pmid": "33751255",
+  "title": "New hemostatic technique with combined use of Hydrofit(®) and Surgicel(®): an in vitro and in vivo study",
+  "journal": "J Artif Organs",
+  "year": "2021",
+  "first_author": "Naganuma M",
+  "cat": "J_ORC安全性と膨潤"
+ },
+ {
+  "pmid": "29878119",
+  "title": "Oxidized resorbable cellulose (Gelita-cel) causing foreign body reaction in the mediastinum",
+  "journal": "Interact Cardiovasc Thorac Surg",
+  "year": "2018",
+  "first_author": "Haidari TA",
+  "cat": "J_ORC安全性と膨潤"
+ },
+ {
+  "pmid": "16235029",
+  "title": "Clinical benefits and risk analysis of topical hemostats: a review",
+  "journal": "J Artif Organs",
+  "year": "2005",
+  "first_author": "Tomizawa Y",
+  "cat": "J_ORC安全性と膨潤"
+ },
+ {
+  "pmid": "40290711",
+  "title": "Could TachoSil application in cardiac surgery be potentially dangerous? A review of the literature",
+  "journal": "Kardiochir Torakochirurgia Pol",
+  "year": "2025",
+  "first_author": "Smreczak M",
+  "cat": "K_止血パッチ"
+ },
+ {
+  "pmid": "29563844",
+  "title": "A randomized, controlled trial of Veriset™ hemostatic patch in halting cardiovascular bleeding",
+  "journal": "Med Devices (Auckl)",
+  "year": "2018",
+  "first_author": "Glineur D",
+  "cat": "K_止血パッチ"
+ },
+ {
+  "pmid": "27466878",
+  "title": "Prospective Randomized Clinical Trial of HEMOPATCH Topical Sealant in Cardiac Surgery",
+  "journal": "Surg Technol Int",
+  "year": "2016",
+  "first_author": "Weltert L",
+  "cat": "K_止血パッチ"
+ },
+ {
+  "pmid": "26904247",
+  "title": "Efficacy and safety of human fibrinogen-thrombin patch (Tachosil(®)) in the management of diffuse bleeding after chest wall and spinal surgical resection for aggressive thoracic neoplasms",
+  "journal": "J Thorac Dis",
+  "year": "2016",
+  "first_author": "Filosso PL",
+  "cat": "K_止血パッチ"
+ },
+ {
+  "pmid": "37040815",
+  "title": "Balloon Trocar Is a Suitable Instrument for Retroperitoneal Para-aortic Lymphadenectomy in Gynecologic Malignant Diseases",
+  "journal": "J Minim Invasive Gynecol",
+  "year": "2023",
+  "first_author": "Kondo E",
+  "cat": "L_バルーントロカール"
+ },
+ {
+  "pmid": "34102770",
+  "title": "Comparison of Balloon Trocar versus Telescopic Dissection Method for TEP Inguinal Hernia Repair",
+  "journal": "J Coll Physicians Surg Pak",
+  "year": "2021",
+  "first_author": "Akin E",
+  "cat": "L_バルーントロカール"
+ },
+ {
+  "pmid": "39235339",
+  "title": "Telescopic Dissection as a Cost-Effective Alternative to Balloon Trocar for Preperitoneal Dissection in Total Extraperitoneal Inguinal Hernia Repair",
+  "journal": "J Laparoendosc Adv Surg Tech A",
+  "year": "2024",
+  "first_author": "Dinçer B",
+  "cat": "L_バルーントロカール"
+ },
+ {
+  "pmid": "40198491",
+  "title": "A comparative study on optical trocar entry vs. balloon trocar entry in laparoscopic eTEP inguinal hernia repair - a randomised control trial",
+  "journal": "Hernia",
+  "year": "2025",
+  "first_author": "Chitrambalam TG",
+  "cat": "L_バルーントロカール"
+ },
+ {
+  "pmid": "26465110",
+  "title": "Effectiveness of a reusable low-cost balloon trocar dissection device in the creation of preperitoneal space during endoscopic surgery. An experimental study in swine",
+  "journal": "Acta Cir Bras",
+  "year": "2015",
+  "first_author": "Nácul MP",
+  "cat": "L_バルーントロカール"
+ },
+ {
+  "pmid": "24977774",
+  "title": "Standard laparoscopic trocars for the treatment of tension pneumothorax: a superior alternative to needle decompression",
+  "journal": "J Trauma Acute Care Surg",
+  "year": "2014",
+  "first_author": "Hatch Q",
+  "cat": "L_バルーントロカール"
+ },
+ {
+  "pmid": "38498237",
+  "title": "hinotori(TM) vs. da Vinci(®): propensity score-matched analysis of surgical outcomes of robot-assisted radical prostatectomy",
+  "journal": "J Robot Surg",
+  "year": "2024",
+  "first_author": "Kohjimoto Y",
+  "cat": "M_hinotori/プラットフォーム"
+ },
+ {
+  "pmid": "42311029",
+  "title": "Early Experience of Hinotori Robot System in General Surgery: A Systematic Review",
+  "journal": "Asian J Endosc Surg",
+  "year": "2026",
+  "first_author": "de Vasconcellos CAM",
+  "cat": "M_hinotori/プラットフォーム"
+ },
+ {
+  "pmid": "40458571",
+  "title": "Robotic urologic applications of the hinotori™ Surgical Robot System",
+  "journal": "Asian J Urol",
+  "year": "2025",
+  "first_author": "Miyamoto S",
+  "cat": "M_hinotori/プラットフォーム"
+ },
+ {
+  "pmid": "39068349",
+  "title": "Evaluation of the hinotori(™) Surgical Robot System for accurate suturing in small cavities",
+  "journal": "J Robot Surg",
+  "year": "2024",
+  "first_author": "Kameoka Y",
+  "cat": "M_hinotori/プラットフォーム"
+ },
+ {
+  "pmid": "41095855",
+  "title": "Beyond Da Vinci: Comparative Review of Next-Generation Robotic Platforms in Urologic Surgery",
+  "journal": "J Clin Med",
+  "year": "2025",
+  "first_author": "Katsimperis S",
+  "cat": "M_hinotori/プラットフォーム"
+ },
+ {
+  "pmid": "40115596",
+  "title": "Perioperative, Oncological, and Functional Outcomes of New Multiport Robotic Platforms in Urology: A Systematic Review and Meta-analysis",
+  "journal": "Eur Urol Open Sci",
+  "year": "2025",
+  "first_author": "Reitano G",
+  "cat": "M_hinotori/プラットフォーム"
+ },
+ {
+  "pmid": "38625439",
+  "title": "Early experience and future prospects regarding use of newly developed surgical robot system, hinotori, in the field of urologic cancer surgery",
+  "journal": "Int J Clin Oncol",
+  "year": "2024",
+  "first_author": "Miyake H",
+  "cat": "M_hinotori/プラットフォーム"
+ },
+ {
+  "pmid": "33258023",
+  "title": "Clinical and Organizational Impact of the AIRSEAL(®) Insufflation System During Laparoscopic Surgery: A Systematic Review",
+  "journal": "World J Surg",
+  "year": "2021",
+  "first_author": "Balayssac D",
+  "cat": "N_AirSeal_woundprotector"
+ },
+ {
+  "pmid": "39434971",
+  "title": "Total endoscopic coronary artery bypass on a DaVinci Xi platform without an EndoWrist stabilizer combining the technology of GelPOINT Mini, AirSeal, and Octopus Nuvo",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2024",
+  "first_author": "Torregrossa G",
+  "cat": "N_AirSeal_woundprotector"
+ },
+ {
+  "pmid": "26777946",
+  "title": "The Use of Oxidized Regenerated Cellulose for Video-Assisted Thoracic Surgery",
+  "journal": "Ann Thorac Surg",
+  "year": "2016",
+  "first_author": "Tanaka Y",
+  "cat": "O_止血材一体型アクセス(先行)"
+ },
+ {
+  "pmid": "31747012",
+  "title": "Oxidized regenerated cellulose for a clear thoracoscopic view: a single-centre randomized trial",
+  "journal": "Interact Cardiovasc Thorac Surg",
+  "year": "2020",
+  "first_author": "Shimizu N",
+  "cat": "O_止血材一体型アクセス(先行)"
+ },
+ {
+  "pmid": "27449461",
+  "title": "An Alternative Use of Wound Retractor as Camera Trocar in Thoracoscopic Surgery",
+  "journal": "Ann Thorac Surg",
+  "year": "2016",
+  "first_author": "Raveglia F",
+  "cat": "O_止血材一体型アクセス(先行)"
+ },
+ {
+  "pmid": "29780712",
+  "title": "Advantages of wound retractor device versus rigid trocar at camera port in video-assisted thoracic surgery-a single institution experience",
+  "journal": "J Vis Surg",
+  "year": "2018",
+  "first_author": "Raveglia F",
+  "cat": "O_止血材一体型アクセス(先行)"
+ },
+ {
+  "pmid": "32042728",
+  "title": "International expert consensus on the management of bleeding during VATS lung surgery",
+  "journal": "Ann Transl Med",
+  "year": "2019",
+  "first_author": "Liu L",
+  "cat": "O_止血材一体型アクセス(先行)"
+ },
+ {
+  "pmid": "35118305",
+  "title": "Management of vascular injury during VATS lobectomy with hemostatic matrix sealant agent: a case report",
+  "journal": "Mediastinum",
+  "year": "2020",
+  "first_author": "Cascone R",
+  "cat": "O_止血材一体型アクセス(先行)"
+ },
+ {
+  "pmid": "41399246",
+  "title": "Trocarless Thoracic Surgery Using the Hinotori Surgical Robot System With a Wound Retractor",
+  "journal": "Asian J Endosc Surg",
+  "year": "2025",
+  "first_author": "Nakamura A",
+  "cat": "P_hinotori_トロカールレス"
+ },
+ {
+  "pmid": "33462900",
+  "title": "Robotic versus port-access mitral repair: A propensity score analysis",
+  "journal": "J Card Surg",
+  "year": "2021",
+  "first_author": "Barac YD",
+  "cat": "Q_ロボットvsPortAccess/出血"
+ },
+ {
+  "pmid": "31444139",
+  "title": "Meta-analysis of propensity matched studies of robotic versus conventional mitral valve surgery",
+  "journal": "J Cardiol",
+  "year": "2020",
+  "first_author": "Takagi H",
+  "cat": "Q_ロボットvsPortAccess/出血"
+ },
+ {
+  "pmid": "39499089",
+  "title": "Robotic Versus Thoracoscopic Minimally Invasive Mitral Valve Surgery: A Systematic Review and Meta-Analysis of Matched Studies",
+  "journal": "Cardiol Rev",
+  "year": "2024",
+  "first_author": "De Jesus J",
+  "cat": "Q_ロボットvsPortAccess/出血"
+ },
+ {
+  "pmid": "36483611",
+  "title": "Systematic review and meta-analysis of mid-term survival, reoperation, and recurrent mitral regurgitation for robotic-assisted mitral valve repair",
+  "journal": "Ann Cardiothorac Surg",
+  "year": "2022",
+  "first_author": "Williams ML",
+  "cat": "Q_ロボットvsPortAccess/出血"
+ },
+ {
+  "pmid": "41212734",
+  "title": "Operative outcomes following robotic-assisted and conventional minimally invasive mitral valve surgery: A meta-analysis of propensity-matched studies",
+  "journal": "Asian Cardiovasc Thorac Ann",
+  "year": "2026",
+  "first_author": "Santos K",
+  "cat": "Q_ロボットvsPortAccess/出血"
+ },
+ {
+  "pmid": "37423965",
+  "title": "Propensity-matched analysis of robotic versus sternotomy approaches for mitral valve replacement",
+  "journal": "J Robot Surg",
+  "year": "2023",
+  "first_author": "Yan W",
+  "cat": "Q_ロボットvsPortAccess/出血"
+ },
+ {
+  "pmid": "34704724",
+  "title": "Percutaneous Endoscopic Intercostal Neurectomy for Refractory Intercostal Neuralgia",
+  "journal": "Pain Physician",
+  "year": "2021",
+  "first_author": "Wei J",
+  "cat": "R_肋間神経障害リスク"
+ }
+]

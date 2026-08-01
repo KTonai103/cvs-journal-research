@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ロボット心臓手術用「先端バルーン＋外周止血材つき胸壁ポート」構想の背景・先行技術・新規性検討。ポート創面出血の疫学、バルーントロカールと止血材一体型アクセスデバイスの先行技術、Applied Medical / Intuitive の特許ランドスケープ、hinotori を含む事業戦略">
+<title>ロボット心臓手術用「止血機能つき・バルーン固定ポート」構想</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #5c5c5c;
+  --border: #d4d4d4;
+  --accent: #2c3e50;
+  --light-bg: #f7f8fa;
+  --header-bg: #2c3e50;
+  --header-fg: #ffffff;
+  --link: #1565c0;
+  --link-hover: #0d47a1;
+  --sidebar-width: 288px;
+  --sidebar-bg: #f7f8fa;
+  --sidebar-active: #eef1f5;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+main.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 32px 80px;
+}
+
+/* Sidebar */
+aside#sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 22px 14px 28px;
+  font-size: 0.82rem;
+  z-index: 50;
+  -webkit-overflow-scrolling: touch;
+}
+
+#sidebar-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-transform: uppercase;
+  padding: 0 8px 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+#sidebar-nav { display: flex; flex-direction: column; }
+
+#sidebar-nav a {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.12s, color 0.12s;
+  color: var(--fg);
+}
+
+#sidebar-nav a.nav-chapter {
+  font-weight: 800;
+  color: #fff;
+  background: var(--accent);
+  padding: 9px 10px;
+  font-size: 0.88rem;
+  margin-top: 22px;
+  border-radius: 4px;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-chapter:first-child { margin-top: 0; }
+#sidebar-nav a.nav-chapter:hover { filter: brightness(1.12); }
+#sidebar-nav a.nav-chapter.active { box-shadow: inset 0 0 0 2px rgba(255,255,255,0.55); }
+/* when chapters (h1) are present, h2 becomes a sub-level */
+#sidebar-nav.has-chapters a.nav-journal {
+  margin-top: 8px;
+  font-size: 0.82rem;
+  background: transparent;
+  padding-left: 12px;
+}
+#sidebar-nav.has-chapters a.nav-journal:hover { background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-journal {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 8px 10px;
+  font-size: 0.86rem;
+  margin-top: 14px;
+  border-left: 3px solid var(--accent);
+  background: #eaeef3;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.35;
+}
+#sidebar-nav a.nav-journal:first-child { margin-top: 0; }
+#sidebar-nav a.nav-journal:hover { background: #dde3ea; }
+
+#sidebar-nav a.nav-category {
+  font-weight: 600;
+  color: var(--muted);
+  padding: 6px 10px 4px 16px;
+  font-size: 0.74rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+#sidebar-nav a.nav-category:hover { color: var(--accent); background: var(--sidebar-active); }
+
+#sidebar-nav a.nav-paper {
+  padding: 4px 10px 4px 26px;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #444;
+  border-left: 2px solid transparent;
+  margin: 1px 0 1px 8px;
+}
+#sidebar-nav a.nav-paper:hover {
+  background: var(--sidebar-active);
+  color: var(--link);
+}
+#sidebar-nav a.nav-paper.active {
+  background: var(--sidebar-active);
+  color: var(--accent);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+#sidebar-nav a.nav-journal.active,
+#sidebar-nav a.nav-category.active { color: var(--accent); }
+
+h1 {
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.18rem);
+  font-weight: 700;
+  color: var(--accent);
+  border-left: 4px solid var(--accent);
+  padding-left: 12px;
+  margin: 44px 0 10px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: clamp(0.92rem, 2.5vw, 1rem);
+  font-weight: 600;
+  color: var(--fg);
+  margin: 28px 0 8px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin: 18px 0 6px;
+}
+
+p { margin: 8px 0; font-size: 0.9rem; }
+strong { color: var(--fg); }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; color: var(--link-hover); }
+
+hr { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 14px auto 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #fff;
+}
+img + em, p > img + em, figcaption {
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 4px auto 18px;
+}
+
+ul, ol { padding-left: 22px; margin: 8px 0; font-size: 0.9rem; }
+li { margin-bottom: 5px; line-height: 1.6; }
+
+/* Tables — horizontal scroll on mobile */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  min-width: 400px;
+}
+
+thead th {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  font-weight: 600;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+tbody td:first-child {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--light-bg);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:nth-child(even) td { background-color: #fafbfc; }
+tbody tr:nth-child(even) td:first-child { background-color: #f0f1f3; }
+tbody tr:hover td { background-color: #eef1f5; }
+tbody tr:hover td:first-child { background-color: #e4e8ed; }
+
+blockquote {
+  background: var(--light-bg);
+  border-left: 3px solid var(--border);
+  padding: 10px 16px;
+  margin: 12px 0 20px;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.65;
+  border-radius: 0 4px 4px 0;
+}
+blockquote strong { color: var(--fg); }
+
+mark {
+  background: #fff3cd;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.callout p { margin: 4px 0; }
+.callout ul, .callout ol { margin: 4px 0 4px 18px; }
+.callout table { font-size: 0.8rem; }
+
+/* Video figures — the thumbnail links out to the original video, with a ▶ badge */
+figure.vfig { margin: 20px 0; background: #eef1f5; padding: 10px; border-radius: 5px; }
+figure.vfig a { position: relative; display: block; text-decoration: none; }
+figure.vfig a img { cursor: pointer; margin: 0 auto; }
+figure.vfig .play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 56px; height: 56px; border-radius: 50%;
+  background: rgba(20,20,20,0.62); color: #fff;
+  font-size: 1.45rem; line-height: 56px; text-align: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+  transition: background 0.15s, transform 0.15s;
+}
+figure.vfig a:hover .play {
+  background: rgba(21,101,192,0.92); transform: translate(-50%, -50%) scale(1.08);
+}
+figure.vfig figcaption {
+  text-align: left; font-size: 0.79rem; color: var(--fg);
+  line-height: 1.6; margin: 9px 2px 2px;
+}
+figure.vfig figcaption a { font-weight: 600; }
+figure.vfig .src { display: block; margin-top: 4px; font-size: 0.72rem; color: var(--muted); }
+
+/* Video link lists — for videos with no reusable thumbnail (subscription journals) */
+.videolist {
+  border-left: 4px solid var(--accent); background: #eef4fc;
+  padding: 10px 16px; margin: 14px 0 20px; border-radius: 0 4px 4px 0;
+}
+.videolist p { margin: 6px 0; font-size: 0.83rem; line-height: 1.65; }
+.videolist p.vl-head {
+  margin: 0 0 6px; font-size: 0.8rem; font-weight: 600; color: var(--accent);
+}
+
+/* Sidebar toggle (mobile only) */
+#sidebar-toggle {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  z-index: 200;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.42);
+  z-index: 150;
+}
+
+@media print {
+  .layout { display: block; }
+  aside#sidebar, #sidebar-toggle, #sidebar-backdrop { display: none !important; }
+  main.content { max-width: 100%; padding: 16px; font-size: 11px; margin: 0; }
+  table { font-size: 9px; }
+  h2 { break-after: avoid; }
+}
+
+@media (max-width: 960px) {
+  main.content { padding: 24px 22px 80px; }
+  aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 84vw;
+    max-width: 320px;
+    transform: translateX(-100%);
+    transition: transform 0.22s ease;
+    box-shadow: 2px 0 14px rgba(0,0,0,0.18);
+    border-right: 1px solid var(--border);
+  }
+  aside#sidebar.open { transform: translateX(0); }
+  #sidebar-backdrop.open { display: block; }
+  #sidebar-toggle { display: flex; }
+}
+
+@media (max-width: 640px) {
+  main.content { padding: 16px 14px 76px; font-size: 14px; }
+  h2 { margin-top: 36px; }
+  h3 { margin-top: 22px; }
+  ul, ol { padding-left: 18px; }
+  li, p { font-size: 0.88rem; }
+  .callout { padding: 10px 12px !important; }
+  blockquote { padding: 8px 12px; }
+  .videolist { padding: 9px 12px; }
+  figure.vfig .play { width: 44px; height: 44px; line-height: 44px; font-size: 1.15rem; }
+}
+
+@media (max-width: 380px) {
+  main.content { padding: 12px 10px 76px; font-size: 13px; }
+  thead th { font-size: 0.72rem; padding: 8px; }
+  tbody td { padding: 6px 8px; font-size: 0.8rem; }
+}
+
+/* ---- search box + results ---- */
+#sidebar-search { padding: 0 8px 12px; position: sticky; top: 0; background: var(--sidebar-bg); z-index: 5; }
+#search-input {
+  width: 100%; padding: 8px 30px 8px 10px; font-size: 0.82rem;
+  border: 1px solid var(--border); border-radius: 6px; background: #fff; color: var(--fg);
+  font-family: inherit;
+}
+#search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(44,62,80,0.12); }
+#search-clear {
+  position: absolute; right: 16px; top: 7px; border: none; background: transparent;
+  font-size: 1rem; color: var(--muted); cursor: pointer; line-height: 1; display: none;
+}
+#search-meta {
+  display: none; align-items: center; gap: 6px; margin-top: 6px; font-size: 0.72rem; color: var(--muted);
+}
+#search-meta.show { display: flex; }
+#search-count { flex: 1; }
+#search-meta button {
+  border: 1px solid var(--border); background: #fff; border-radius: 4px; cursor: pointer;
+  width: 22px; height: 22px; font-size: 0.8rem; color: var(--accent); line-height: 1;
+}
+#search-meta button:hover { background: var(--sidebar-active); }
+#sidebar-nav a.filtered-out { display: none; }
+mark.search-hit { background: #ffe08a; color: inherit; padding: 0 1px; border-radius: 2px; }
+mark.search-hit.current { background: #ff9100; color: #fff; box-shadow: 0 0 0 2px rgba(255,145,0,0.35); }
+
+/* lead / meta blocks */
+.doc-meta { font-size: 0.8rem; color: var(--muted); margin: -8px 0 18px; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside id="sidebar" aria-label="目次と検索">
+    <div id="sidebar-search">
+      <div style="position:relative;">
+        <input id="search-input" type="search" placeholder="本文を検索 ( / でフォーカス )" autocomplete="off" aria-label="本文を検索">
+        <button id="search-clear" aria-label="検索をクリア">&times;</button>
+      </div>
+      <div id="search-meta">
+        <span id="search-count"></span>
+        <button id="search-prev" aria-label="前の一致">&#8593;</button>
+        <button id="search-next" aria-label="次の一致">&#8595;</button>
+      </div>
+    </div>
+    <div id="sidebar-header">目次</div>
+    <nav id="sidebar-nav"></nav>
+  </aside>
+  <main class="content">
+<h1 id="ロボット心臓手術用止血機能つきバルーン固定ポート構想">ロボット心臓手術用「止血機能つき・バルーン固定ポート」構想</h1>
+<h2 id="背景先行技術新規性の検討">背景・先行技術・新規性の検討</h2>
+<p><em>作成: 2026-08-01 ／ 対象: ロボット支援心臓手術（僧帽弁形成・ASD・MAZE 等）の胸壁ポート</em></p>
+<blockquote>
+<p><strong>表記ルール</strong>：〔一次確認済〕＝本調査で PMID/DOI/特許番号/公式サイトを直接当たって確認したもの。〔要一次確認〕＝並列調査エージェントの報告だが、独立の裏取りが取れていないもの。後者は必ず自分で確認してから対外資料に使うこと。</p>
+</blockquote>
+<hr />
+<h2 id="0-結論先に書く">0. 結論（先に書く）</h2>
+<p>構想は3つの独立した主張からなる。それぞれの評価は大きく異なる。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>構想要素</th>
+<th>判定</th>
+<th>根拠</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>問題設定</strong>：ポート刺入部からの出血が臨床的に重要</td>
+<td><strong>正しい。しかも既に定量化されている</strong></td>
+<td>ロボットは従来型 MICS より出血再開胸のオッズが <strong>1.86倍</strong>（PSM 8研究3,352例）。VATS の RCT では「ポート創面の出血で手術が中断される」のが対照群の <strong>51.8%</strong>。ロボット僧帽弁でバルーンタンポナーデ導入により出血再開胸 <strong>4.7% → 0%</strong></td>
+</tr>
+<tr>
+<td><strong>① 先端バルーンで migration 予防＋タンポナーデ止血</strong></td>
+<td><strong>新規性は無い</strong>。概念・製品・特許・臨床報告のすべてが既存</td>
+<td>バルーントロカールは 1993年 FDA クリアランス（Origin Medsystems）以来の枯れた技術。<strong>Applied Medical は自社の Kii シリーズについて公式に「Tamponade Effect／切開部が圧迫されポート部位の出血を低減」と謳っている</strong>。さらに <strong><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a>「Tamponade trocar device and method」</strong>（Applied Medical, 2008出願）を保有。臨床応用も 2025年に報告済（Balkhy ら）</td>
+</tr>
+<tr>
+<td><strong>② 止血材をポート外周にあらかじめ装着</strong></td>
+<td><strong>新規性は乏しい</strong>。しかも<strong>材料側から強い反対材料がある</strong></td>
+<td>神戸大が <strong>創縁保護材に酸化再生セルロース（ORC）リングを組み込む</strong>手法を報告（2016）→ <strong>RCT n=108</strong>（2020）で検証済。心臓外科でも Kiani/Poston がロボット CABG のポート孔に流動性止血材を注入し輸血率 40.8%→24.2% を報告（2012）。<strong>さらに WO2019122487「腹腔内トロカール孔止血デバイス」（二連バルーンプローブ）が存在する</strong></td>
+</tr>
+<tr>
+<td><strong>③ 電メ切開による熱傷創の解決</strong></td>
+<td><strong>主張として弱い。前面に出すべきでない</strong></td>
+<td>皮膚切開線に関する限り、Cochrane・複数のメタ解析はいずれも「電メは同等ないし優位（出血少・速い・整容同等）」。ただし <strong>「ポート孔を全層焼き広げる」操作を評価した研究は世界的に皆無</strong> なので、否定されたわけではなく <strong>未検証</strong> である</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="残る新規性は3点に絞られる">残る新規性は3点に絞られる</h3>
+<ol type="1">
+<li><strong>全身ヘパリン化＋体外循環という条件での設計</strong>。ORC リング RCT も Applied Medical のタンポナーデトロカールも、土俵は非ヘパリン下の一般外科／呼吸器外科である</li>
+<li><strong>「バルーンを抜いた後どうするか」への解</strong>。Balkhy らのバルーンタンポナーデは抜けば終わりで、重度凝固障害例では ICU まで留置している ＝ <strong>抜去時の再出血がプロトコルの弱点であることを著者自身が露呈している</strong>。抜去と同時に刺入路へ止血材を残置する構造（tract sealant の発想）は、確認できた範囲のどの製品もカバーしていない</li>
+<li><strong>肋間という特殊な解剖への最適化</strong>。腹壁ではない。肋骨に挟まれ、肋間神経が並走し、呼吸で動く</li>
+</ol>
+<h3 id="事業面の最重要の発見">事業面の最重要の発見</h3>
+<p>da Vinci はカニューラをアームに機械的に結合するが、<strong>国産の hinotori はソフトウェアでピボット点を設定するためアームとトロカールのドッキングが不要</strong>である（メディカロイド公式）。実際に <strong>hinotori では「トロカールを一切使わず全ポートに創縁保護材を置く」術式が既に報告されている</strong>（兵庫医大, 2025）。</p>
+<p>→ ユーザーの懸念（「ロボット会社に特許で囲われている」）は <strong>da Vinci では概ね正しく、hinotori では当てはまらない</strong>。ただし FTO 上の主障壁は Intuitive ではなく <strong>Applied Medical</strong> である。詳細は §7・§8。</p>
+<hr />
+<h2 id="1-背景--ポート刺入部の出血はどれくらい問題なのか">1. 背景 — ポート刺入部の出血はどれくらい問題なのか</h2>
+<h3 id="11-心臓手術全体での出血再開胸の位置づけ一次確認済">1.1 心臓手術全体での「出血再開胸」の位置づけ〔一次確認済〕</h3>
+<p>成人心臓手術後の再開胸（出血/タンポナーデ）のメタ解析（Biancari F ら, J Cardiothorac Vasc Anesth 2018;32(4):1618-24, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/29338997/">PMID 29338997</a></strong>, 18研究 51,497例）：</p>
+<ul>
+<li>再開胸率 <strong>4.6%</strong>（95%CI 3.9–5.2）</li>
+<li>再開胸例の院内/30日死亡 <strong>9.3% vs 2.3%</strong>、リスク比 <strong>3.30</strong>（95%CI 2.52–4.32）</li>
+<li>外科的出血源が同定できたのは <strong>65.7%</strong></li>
+<li>出血部位の内訳：グラフト本体 20.2%、<strong>胸骨 17.0%</strong>、血管縫合部 12.5%、<strong>内胸動脈採取床 13.0%</strong>、吻合部 9.9%</li>
+</ul>
+<p><strong>読み方</strong>：胸骨切開の世界でも「心臓そのものではない胸壁側」（胸骨＋IMA床）が出血源の <strong>約30%</strong> を占める。「胸壁は無視できない出血源である」という構想の前提は、胸骨切開のデータで既に裏づけられている。ロボット手術ではこの「胸壁」が「肋間のポート孔」に置き換わる。</p>
+<h3 id="12-ロボットは低侵襲手術の中でも出血再開胸が多い一次確認済">1.2 ロボットは低侵襲手術の中でも出血再開胸が多い〔一次確認済〕</h3>
+<p><strong>Santos K ら, Asian Cardiovasc Thorac Ann 2026;34(1):57-66, <a href="https://pubmed.ncbi.nlm.nih.gov/41212734/">PMID 41212734</a></strong>（傾向スコアマッチ研究のみに限定したメタ解析、8研究3,352例、うちロボット1,578例）：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アウトカム</th>
+<th>ロボット vs 従来型 MICS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>出血再開胸</strong></td>
+<td><strong>OR 1.86（95%CI 1.1–3.2, p=0.02）</strong></td>
+</tr>
+<tr>
+<td>胸骨切開への移行</td>
+<td>OR 2.9（1.6–5.4, p=0.0007）</td>
+</tr>
+<tr>
+<td>体外循環時間</td>
+<td>+21.8分（0.8–42.9）</td>
+</tr>
+<tr>
+<td>在院日数</td>
+<td>−1.8日（−3.0 to −0.5）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>これが構想にとって最も強いニーズの根拠である。</strong> ロボットにすると「出血で開け直す確率」が 1.86 倍になる。しかもそれは死亡リスクが 3.3 倍になるイベント（§1.1）。<strong>その増えた分がどこから出ているのかは、誰も報告していない</strong>（§10）。</p>
+<p>参考値：</p>
+<ul>
+<li>ロボット変性僧帽弁形成の SR/MA（Eranki A ら, Ann Cardiothorac Surg 2026）：出血再手術 <strong>2.34%</strong>（95%CI 1.41–3.84、62/3,131例、11研究）</li>
+<li>旧い SR/MA（Fatehi Hassanabad A ら, Innovations 2022;17(6)）ではロボット vs 胸骨切開／vs 右小開胸で有意差なし</li>
+<li>Cleveland Clinic（Cullen P ら, MMCTS 2025）：再開胸率は <strong>2.5% → 1.3%</strong> に低下、「ほぼ常に右胸から対処できる」＝熟練施設では制御可能でもある</li>
+</ul>
+<h3 id="13-決定的な数字--ポート創面出血は手術を中断させる一次確認済">1.3 決定的な数字 — ポート創面出血は「手術を中断させる」〔一次確認済〕</h3>
+<p>VATS の単施設無作為化試験（Shimizu N, Tanaka Y ら, Interact Cardiovasc Thorac Surg 2020;30(3):346-52, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/31747012/">PMID 31747012</a></strong>、n=108、ORC群54 / 非ORC群54）：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アウトカム</th>
+<th>ORC群</th>
+<th>非ORC群</th>
+<th>p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ポート創面からの血液滲出による手術の中断</strong></td>
+<td><strong>11.1%</strong></td>
+<td><strong>51.8%</strong></td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>閉創時に創面の止血処置を要した</td>
+<td>44.4%</td>
+<td>72.2%</td>
+<td>0.003</td>
+</tr>
+<tr>
+<td>手術時間（分）</td>
+<td>149.3</td>
+<td>168.8</td>
+<td>0.083</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>非ORC群の 51.8% で「ポート創面から垂れる血で手術が中断された」。</strong> ユーザーが「ポートから胸壁に垂れる出血」と表現した現象は、無作為化試験の主要評価項目になるレベルで頻度が高い。<strong>しかもこれはヘパリン化していない呼吸器外科の数字である。</strong></p>
+<h3 id="14-心臓外科での直接の証拠--kianiposton-2012要一次確認本文未入手">1.4 心臓外科での直接の証拠 — Kiani/Poston 2012〔要一次確認：本文未入手〕</h3>
+<p><strong>Kiani S, Poston R ら. "Managing port-site bleeding during less invasive coronary artery bypass grafting." Heart Surg Forum 2012, <a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a></strong></p>
+<ul>
+<li>ロボット支援 CABG のポート孔に<strong>流動性止血材を注入</strong>するプロトコル</li>
+<li><strong>輸血率 40.8% → 24.2%</strong></li>
+<li>著者の結論：「<strong>ポート穿刺部からの検出されない出血は、過小評価された morbidity の原因である</strong>」</li>
+</ul>
+<p>→ <strong>心臓外科領域で、ポート孔の出血に止血材で対処した先行報告が既に14年前に存在する。</strong> 構想②の心臓外科版の先行技術であり、同時に構想の臨床的妥当性を最も直接的に支持する文献でもある。<strong>最優先で本文を入手すべき</strong>（購読誌）。</p>
+<h3 id="15-ロボット心臓手術に特異的な増悪因子">1.5 ロボット心臓手術に特異的な増悪因子</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>因子</th>
+<th>内容</th>
+<th>出典</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>全身ヘパリン化・体外循環</td>
+<td>ACT 400秒超が数時間。血小板機能低下・希釈性凝固障害</td>
+<td>自明（一次文献での定量なし）</td>
+</tr>
+<tr>
+<td>触覚フィードバックの欠如</td>
+<td>軽微な血管損傷が術中に気づかれず、遅発性のポート部位出血になる</td>
+<td>Kawata Y ら, Cureus 2026, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/41913831/">PMID 41913831</a></strong>（hinotori 使用の婦人科手術で POD5 に 9cm 皮下血腫、下腹壁動脈穿通枝から）〔一次確認済〕</td>
+</tr>
+<tr>
+<td>単肺換気＋CO2 送気</td>
+<td>陽圧・虚脱肺の下では胸壁からの静脈性出血が見えにくく、肺再膨張・陽圧解除後に顕在化</td>
+<td>機序としては妥当だが<strong>一次文献での直接記載は見つからなかった</strong></td>
+</tr>
+<tr>
+<td>ロボットアームの可動</td>
+<td>ポート創に持続的な機械的ストレス。Intuitive 自身が「カニューラの体壁保持」を特許化している（§7）</td>
+<td>US 10485582 / US 12491005〔一次確認済〕</td>
+</tr>
+<tr>
+<td><strong>日本人の小柄な体格</strong></td>
+<td>日本の多施設前向き研究で、<strong>RATS はポート数 5.0・損傷肋間数 2.9 で、VATS に対し POD30 の疼痛の非劣性を証明できなかった</strong>。<strong>身長が低いほどポート痛が残る（OR 0.907/cm）</strong></td>
+<td>Tokuishi ら 2024（Lung Cancer, <a href="https://pubmed.ncbi.nlm.nih.gov/39340899/">PMID 39340899</a>）〔要一次確認：数値の一次照合が未了〕</td>
+</tr>
+<tr>
+<td>肋間動脈の走行変異</td>
+<td>後方ほど肋骨下縁から離れて肋間中央を走り損傷リスクが上がる。超音波でスクリーニング可能</td>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/23521021/">PMID 23521021</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/40944085/">40944085</a>〔一次確認済〕</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="2-先行技術a--バルーン付きトロカールは完全に枯れた技術である">2. 先行技術A — バルーン付きトロカールは完全に枯れた技術である</h2>
+<h3 id="21-商用製品要一次確認製品名と-510k-番号はエージェント報告">2.1 商用製品〔要一次確認：製品名と 510(k) 番号はエージェント報告〕</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>製品</th>
+<th>メーカー</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blunt Tip Surgical Trocar</td>
+<td>Origin Medsystems</td>
+<td><strong>K924011（1993）</strong> ＝ この分野の起源</td>
+</tr>
+<tr>
+<td><strong>Kii® Balloon Blunt Tip / Kii Advanced Fixation</strong></td>
+<td><strong>Applied Medical</strong></td>
+<td><strong>公式サイト（日本語版・英語版とも）で「切開部が圧迫されることでポート部位の出血を低減します／Tamponade Effect」と明示</strong></td>
+</tr>
+<tr>
+<td>VersaOne™ Optical Trocar with Fixation Balloon Cannula</td>
+<td>Medtronic/Covidien</td>
+<td>K213818</td>
+</tr>
+<tr>
+<td>SoftFix</td>
+<td>Unimax</td>
+<td>K211577</td>
+</tr>
+<tr>
+<td>ADAPT Balloon Open Access Port</td>
+<td>Teleflex</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Applied Medical が既に「バルーンによるポート部位出血の低減」を製品の売り文句にしている</strong>という事実は、構想①の新規性主張を実質的に不可能にする。<strong>この一点は必ず自分で公式サイトを確認しておくこと</strong>（対外説明で最初に突かれる）。</p>
+<h3 id="22-特許一次確認済applied-medical-2件">2.2 特許〔一次確認済（Applied Medical 2件）〕</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>特許</th>
+<th>名称</th>
+<th>権利者</th>
+<th>出願</th>
+<th>登録</th>
+<th>状態</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a></strong></td>
+<td><strong>Tamponade trocar device and method</strong></td>
+<td><strong>Applied Medical Resources</strong></td>
+<td>2008-04-21</td>
+<td>2012-03-27</td>
+<td>有効。継続 <a href="https://www.freepatentsonline.com/8834505.html">US 8,834,505</a> / <a href="https://www.freepatentsonline.com/8951277.html">US 8,951,277</a></td>
+</tr>
+<tr>
+<td><strong><a href="https://www.freepatentsonline.com/8287503.html">US 8,287,503</a></strong></td>
+<td>Balloon trocar</td>
+<td>Applied Medical Resources</td>
+<td>2007-03-08</td>
+<td>2012-10-16</td>
+<td>有効。<strong>満了予定 2030-07-10</strong>〔要一次確認〕</td>
+</tr>
+<tr>
+<td><a href="https://www.freepatentsonline.com/8382707.html">US 8,382,707</a></td>
+<td>二段バルーン</td>
+<td>Applied Medical Resources</td>
+<td>—</td>
+<td>—</td>
+<td>〔要一次確認〕</td>
+</tr>
+<tr>
+<td><a href="https://www.freepatentsonline.com/12251130.html">US 12,251,130</a></td>
+<td>Surgical access device having a balloon</td>
+<td>Covidien</td>
+<td>—</td>
+<td>2025登録</td>
+<td>〔要一次確認〕</td>
+</tr>
+<tr>
+<td><a href="https://www.freepatentsonline.com/5147316.html">US 5,147,316</a></td>
+<td>Laparoscopic trocar with self-locking port sleeve</td>
+<td>—</td>
+<td>1990出願</td>
+<td>—</td>
+<td><strong>2009満了＝自由に使える</strong>〔要一次確認〕</td>
+</tr>
+<tr>
+<td><a href="https://www.freepatentsonline.com/7235064.html">US 7,235,064</a></td>
+<td>—</td>
+<td>—</td>
+<td>優先1994</td>
+<td>—</td>
+<td><strong>2014満了＝自由に使える</strong>〔要一次確認〕</td>
+</tr>
+</tbody>
+</table></div>
+<p><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a> の請求項1は「近位端・遠位端・ルーメンをもつ細長いバルーンで、遠位端が閉じておりガス密、低プロファイル小径から固定された大径へ拡張しうるもの／そのバルーンのルーメン内に配置されたカニューラ…」という構造クレームで、明細書中に "tamponade" が57回出現する。〔一次確認済〕</p>
+<p><strong>含意：FTO の主障壁は Intuitive ではなく Applied Medical である。</strong></p>
+<h3 id="23-臨床応用も既に報告されている構想①の直接の先行文献一次確認済">2.3 臨床応用も既に報告されている（構想①の直接の先行文献）〔一次確認済〕</h3>
+<p><strong>Qi SS, Grady K, Kitahara H, Nisivaco S, Johnson B, Tsukioka Y, Balkhy HH. "Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery." Innovations (Phila) 2025. <a href="https://doi.org/10.1177/15569845251365733,">doi:10.1177/15569845251365733,</a> <a href="https://pubmed.ncbi.nlm.nih.gov/40913323/">PMID 40913323</a></strong>（シカゴ大 Balkhy グループ）</p>
+<ul>
+<li>2016年8月〜2022年7月のロボット僧帽弁手術 320例（胸骨切開移行5例除外、n=315）</li>
+<li>焼灼で止まらないポート部位出血に <strong>バルーン付き coudé カテーテル</strong>でタンポナーデするプロトコルの導入前（対照 n=127）／導入後（バルーン n=188）を比較</li>
+<li>体外循環離脱中にバルーンを当て、<strong>通常はプロタミン投与後に抜去</strong>。重度凝固障害例では<strong>留置したまま ICU に上げ、凝固障害改善後に抜去</strong></li>
+</ul>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>アウトカム</th>
+<th>バルーン群</th>
+<th>対照群</th>
+<th>p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>出血による再手術</strong></td>
+<td><strong>0%</strong></td>
+<td><strong>4.7%</strong></td>
+<td>0.004</td>
+</tr>
+<tr>
+<td>ペースメーカー植込み</td>
+<td>0.5%</td>
+<td>3.9%</td>
+<td>0.04</td>
+</tr>
+<tr>
+<td>POD1 でのドレーン抜去</td>
+<td>83%</td>
+<td>70%</td>
+<td>0.01</td>
+</tr>
+<tr>
+<td>術中・術後輸血率、在院日数</td>
+<td>有意差なし</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>この論文は構想①の臨床的正しさをほぼ証明していると同時に、構想①の新規性を消している。</strong> 残る空白は次の2点：</p>
+<ul>
+<li>既製の尿道カテーテルの流用であって専用デバイスではない</li>
+<li><strong>抜去したら終わり</strong>。著者自身が「重度凝固障害では抜けないので ICU まで留置する」と書いている</li>
+</ul>
+<h3 id="24-心臓外科肋間バルーンの唯一の報告要一次確認">2.4 心臓外科×肋間×バルーンの唯一の報告〔要一次確認〕</h3>
+<p>Tian ら（Front Cardiovasc Med 2025, <strong><a href="https://pubmed.ncbi.nlm.nih.gov/40495985/">PMID 40495985</a></strong>）：右腋窩開胸による VSD 閉鎖後の<strong>第6肋間刺入部からの出血</strong>を、<strong>10Fr Foley・バルーン5mL・胸壁への牽引固定のみ</strong>で止め、再開胸を回避した。<strong>心臓外科×肋間×ポート様刺入孔という3条件が揃った唯一の報告</strong>とされる。要精読。</p>
+<hr />
+<h2 id="3-先行技術b--止血材を組み込んだアクセスデバイスも既にある日本発">3. 先行技術B — 止血材を組み込んだアクセスデバイスも既にある（日本発）</h2>
+<h3 id="31-神戸大の-orc-リング付き創縁保護材一次確認済">3.1 神戸大の ORC リング付き創縁保護材〔一次確認済〕</h3>
+<ol type="1">
+<li><strong>Tanaka Y, Tane S, Hokka D, Ogawa H, Maniwa Y. "The Use of Oxidized Regenerated Cellulose for Video-Assisted Thoracic Surgery." Ann Thorac Surg 2016;101(2):786-8. <a href="https://pubmed.ncbi.nlm.nih.gov/26777946/">PMID 26777946</a></strong>
+<ul>
+<li><strong>創縁保護材（wound edge protector）に酸化再生セルロース（ORC）のリングを組み込む</strong></li>
+<li>「ORC リングは術中の創面出血を完全に止め、閉創前に創面の止血処置を要さなかった」</li>
+</ul></li>
+<li><strong>Shimizu N, Tanaka Y ら. Interact Cardiovasc Thorac Surg 2020;30(3):346-52. <a href="https://pubmed.ncbi.nlm.nih.gov/31747012/">PMID 31747012</a></strong> — 上記を単施設 RCT（n=108）で検証（§1.3 の表）</li>
+</ol>
+<p><strong>「止血材をあらかじめアクセスデバイスに装着しておく」という発想は、2016年に日本で報告され、2020年に RCT で有効性が示されている。</strong> しかも材料はまさにユーザーが挙げた酸化セルロース系である。</p>
+<h3 id="32-構想を直撃する国際特許部分的に一次確認">3.2 構想を直撃する国際特許〔部分的に一次確認〕</h3>
+<ul>
+<li><strong>WO 2019/122487「DEVICE FOR HAEMOSTASIS OF AN INTRAPERITONEAL TROCAR ORIFICE」</strong> — <strong>腹腔内トロカール孔の止血デバイス。遠位部に2つの膨張式バルーンを持つプローブで、それぞれのバルーンに繋がる2本のチューブを備える。</strong> WIPO PATENTSCOPE に実在を確認〔一次確認済〕。<strong>「バルーン表面に酸化セルロースを含浸させる」「出願人が Servicio Andaluz de Salud」という点はエージェント報告であり、一次確認できていない</strong>〔要一次確認〕。<strong>構想①＋②の統合そのものである可能性が高く、最優先で全文を確認すべき</strong></li>
+<li>WO 2019/075326「Hemostatic Port Cuff」（膨張式トロカールスリーブ。止血・エアリーク防止に加えトロカール migration 防止を明示し、胸腔鏡・ロボット手術を適用範囲に含む、とされる）— <strong>独立検索では確認できなかった。存在自体が要確認</strong>〔要一次確認〕</li>
+</ul>
+<h3 id="33-ニューニットの正体と材料側からの重大な反対材料">3.3 「ニューニット」の正体と、材料側からの重大な反対材料</h3>
+<p><strong>「ニューニット」は独立した製品名ではなく、サージセル®・アブソーバブル・ヘモスタットMD（Ethicon/J&amp;J、酸化再生セルロース ORC）の剤形名（SURGICEL NU-KNIT）</strong>である。織布・高密度・高強度で <strong>縫合が可能</strong>なタイプ。承認番号 30400BZX00112000（2022年5月）、2022年12月に医薬品から特定保険医療材料へ移行、織布型は 1 cm² あたり48円。〔一次確認済：本プロジェクトの <code>hemostatic_agents/md/sections/04_orc_cellulose.md</code>〕</p>
+<p><strong>「巻く・縫う」ために設計された ORC であり、ポート外周に巻く構想と材料的な相性は良い。</strong> しかし添付文書と文献には、構想の中核を否定する記載が並ぶ：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>問題</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>骨・神経近傍は禁忌</strong></td>
+<td>添付文書【禁忌・禁止】：「骨・骨の境界・脊髄・視神経および視交叉の内部/周囲/近傍、管状構造組織の近傍（膨潤による圧迫で麻痺・神経障害）」。<strong>肋間はまさに「骨に挟まれ神経が並走する狭い間隙」</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>パッキング目的の留置は禁忌</strong></td>
+<td>「パッキング/充填目的での留置（後で除去する場合を除く）」。止血達成後は<strong>余剰分を可能な限り取り除く</strong>ことが【警告】</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>開胸創から硬膜外へ移動して対麻痺</strong></td>
+<td>開胸創で肋間から椎間孔を経て硬膜外へ移動し対麻痺を来した症例が複数報告されている。実例：T4-5 の出血を Surgicel でパッキング → 術後対麻痺、除圧後も回復せず（<a href="https://doi.org/10.31744/einstein_journal/2023RC0078,">doi:10.31744/einstein_journal/2023RC0078,</a> <a href="https://pubmed.ncbi.nlm.nih.gov/37436267/">PMID 37436267</a>）〔PDF取得済〕</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>膨潤圧迫だけでなく酸による化学毒性</strong></td>
+<td>ORC の pH は <strong>2.6〜3.5</strong>。神経障害は物理的膨潤だけでなく<strong>酸の拡散による化学毒性</strong>でも起こる〔要一次確認〕</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>創傷治癒を妨げうる</strong></td>
+<td>ORC は線維芽細胞の TGF-β シグナルと遊走を阻害する〔要一次確認〕。<strong>ユーザーの主訴の一つが「創が綺麗に治らない」であることを考えると、これは致命的な矛盾になりうる</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>血管に巻くと狭窄</strong></td>
+<td>添付文書：血管をラッピングする用途では<strong>きつく締めすぎない</strong>（血管狭窄の報告あり）</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>サージフローとの併用不可</strong></td>
+<td>ORC は酸性でトロンビンを失活させる。サージフローは<strong>術中2剤混合キット</strong>であり、そもそも事前装着自体が不可能</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>乾燥必須・再滅菌不可</strong></td>
+<td>乾燥状態でないと効果が出ない〔要一次確認〕</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>タコシールも代替にならない</strong></td>
+<td>添付文書に「<strong>タンポンや栓の代わりに使用しないこと</strong>」と明記</td>
+</tr>
+<tr>
+<td>10</td>
+<td>遺残物の画像誤診</td>
+<td>肉芽腫・膿瘍様所見として腫瘍再発と誤診される症例が多数（SURGICEL 合併症の系統的レビュー <a href="https://pubmed.ncbi.nlm.nih.gov/37526076/">PMID 37526076</a>、脊椎手術後の大量膨潤 <a href="https://pubmed.ncbi.nlm.nih.gov/22278791/">PMID 22278791</a> ほか）〔PDF取得済〕</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>ただし工学的一体化そのものは可能である。</strong> ORC をプラスチック部材へ積層した既承認品として <strong>PROCEED® メッシュ</strong>（Ethicon）が存在する〔要一次確認〕。<strong>「ORC は医療機器の構造部材にラミネートできる」という薬事・製造上の前例がある</strong>のは重要な追い風。</p>
+<p>→ <strong>材料選定が構想②の成否を決める。</strong> ORC を肋間に留置する設計は上記1〜5と正面衝突するため、①非膨潤・中性 pH の材料に変える、②量を極小にする、③<strong>抜去時に一緒に回収される／刺入路に薄く残るだけ</strong>の構造にする、のいずれかが必須。</p>
+<hr />
+<h2 id="4-前提の検証--電メで開けるから治らないは成立するか">4. 前提の検証 — 「電メで開けるから治らない」は成立するか</h2>
+<p>ユーザーの前提の一つは「日本は電メでポート孔を開けるので熱傷になり治らない／海外はメスで切る」だった。調査の結果、<strong>「否定された」のではなく「そもそも誰も調べていない」</strong>が正確な答えである。</p>
+<h3 id="41-海外の標準手技もむしろ電気メスを使っている一次確認済">4.1 海外の標準手技もむしろ電気メスを使っている〔一次確認済〕</h3>
+<p>Cleveland Clinic のロボット僧帽弁の公式手技記載（Cullen P, Malas T, Gillinov M. MMCTS 2025, <a href="https://pubmed.ncbi.nlm.nih.gov/40900082/">PMID 40900082</a>）：</p>
+<ul>
+<li>"…completing the incision with <strong>electrocautery for haemostasis</strong>"（胸腔進入時、<strong>止血のため</strong>電気メスで切開を完成させる）</li>
+<li>"We use <strong>limited Bovie cautery for coagulation</strong> and proceed to insert the angiocaths blindly"</li>
+</ul>
+<p>「海外＝メス、日本＝電メ」という対比は、少なくともロボット僧帽弁の主要施設の記載とは一致しない。<strong>電気メスは「雑に開けている」のではなく「出血させないために意図的に使われている」</strong>。</p>
+<h3 id="42-皮膚切開線については電メが同等ないし優位一次確認済">4.2 皮膚切開線については電メが同等ないし優位〔一次確認済〕</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>文献</th>
+<th>対象</th>
+<th>結論</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ly J ら. <strong>Br J Surg 2012;99(5):613-20</strong>（SR/MA、<a href="https://pubmed.ncbi.nlm.nih.gov/22367850/">PMID 22367850</a>）</td>
+<td>皮膚切開全般</td>
+<td><strong>電メのほうが速く出血量が少ない。創合併症率・術後疼痛に差なし</strong></td>
+</tr>
+<tr>
+<td>Hajibandeh S ら. Int J Surg 2020;75:35-43（SR/MA、<a href="https://pubmed.ncbi.nlm.nih.gov/31978649/">PMID 31978649</a>）</td>
+<td>鼠径ヘルニア</td>
+<td>SSI・漿液腫・術後疼痛に<strong>差なし</strong>。電メは切開時間が短く<strong>血腫リスクを下げうる</strong></td>
+</tr>
+<tr>
+<td>Dos Santos Pimenta N ら. Cir Esp 2025;103(1):3-10（SR/MA、<a href="https://pubmed.ncbi.nlm.nih.gov/39304130/">PMID 39304130</a>）</td>
+<td>腹部正中切開</td>
+<td>電メで<strong>出血量が有意に減少</strong>、創感染・早期疼痛に差なし。<strong>電メを推奨</strong></td>
+</tr>
+<tr>
+<td>Stupart DA ら. <strong>ANZ J Surg 2016;86(4):303-6</strong>（二重盲検クロスオーバー RCT、<a href="https://pubmed.ncbi.nlm.nih.gov/24165306/">PMID 24165306</a>）</td>
+<td>腹部皮膚切開の<strong>瘢痕整容</strong></td>
+<td><strong>整容的に同等</strong>。「電メの日常使用は正当化される」</td>
+</tr>
+<tr>
+<td>Kearns SR ら. Br J Surg 2001;88(1):41-4（RCT、<a href="https://pubmed.ncbi.nlm.nih.gov/11136307/">PMID 11136307</a>）</td>
+<td>待機的正中開腹</td>
+<td>電メは切開時間・出血量・早期疼痛・鎮痛薬必要量で<strong>有意に有利</strong></td>
+</tr>
+<tr>
+<td>Franchi M ら. Am J Surg 2001;181(2):128-32（多施設、<a href="https://pubmed.ncbi.nlm.nih.gov/11425052/">PMID 11425052</a>）</td>
+<td>正中開腹</td>
+<td>早期・晩期の創合併症は<strong>同等</strong></td>
+</tr>
+<tr>
+<td>Cochrane 2017（16 RCT・2,769例）〔要一次確認〕</td>
+<td>腹部正中創</td>
+<td>創感染 <strong>RR 1.07</strong>、整容性も同等。<strong>ただし「創治癒時間」を報告した研究はゼロ</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="43-それでも構想を救う余地はある要一次確認">4.3 それでも構想を救う余地はある〔要一次確認〕</h3>
+<ul>
+<li><strong>ヒト組織学（Ruidiaz 2011）では、通常設定の電メは有意な熱損傷層・炎症・低い創破断強度・広い瘢痕幅を残す</strong>とされる。乳房フラップ挙上では sharp dissection のほうがセローマを有意に減らす</li>
+<li>そして決定的に、<strong>「一線の皮膚切開」と「全層を焼き広げてポート孔を作る操作」は別物である</strong>。後者を比較した研究は世界的に皆無</li>
+</ul>
+<p>→ <strong>戦略</strong>：「電メは悪い」と主張するのではなく、<strong>「ポート孔の作り方は誰も比較していない — 我々が最初に測る」<strong>と位置づけるほうが、はるかに強く、かつ正直である。ただし</strong>製品の主たる売り文句にはしないこと</strong>。査読者は Br J Surg 2012 を即座に出してくる。主戦場は <strong>出血と migration</strong> に置くべきで、そちらには §1.2 の OR 1.86 と §1.3 の 51.8% という数字がある。</p>
+<hr />
+<h2 id="5-先行技術c--そもそも硬いトロカールを使わないという潮流">5. 先行技術C — 「そもそも硬いトロカールを使わない」という潮流</h2>
+<p>これは構想にとって最大の競合であり、同時に最大のヒントでもある。</p>
+<ul>
+<li><strong>創縁保護材を硬性トロカールの代わりにカメラポートへ使う</strong>：<a href="https://pubmed.ncbi.nlm.nih.gov/27449461/">PMID 27449461</a>（Ann Thorac Surg 2016）、<strong><a href="https://pubmed.ncbi.nlm.nih.gov/29780712/">PMID 29780712</a>（J Vis Surg 2018）</strong>〔PDF取得済〕</li>
+<li><strong>Raveglia F ら（<a href="https://pubmed.ncbi.nlm.nih.gov/29780712/">PMID 29780712</a>）の前向き比較（WR 20例 vs 11.5mm 硬性トロカール 20例）</strong>：WR 群で<strong>術後疼痛・モルヒネ使用量が有意に少ない（P&lt;0.001）</strong>。論文は硬性トロカールの欠点の筆頭に「<strong>カニューラが肋間神経を強く圧迫し術後疼痛を惹起する</strong>」を挙げ、WR は「<strong>肋間を押し広げず、肋間筋と神経を保護する</strong>」と述べる。WR の利点として「<strong>胸壁からの少量出血からカメラを保護する</strong>」ことも挙げている</li>
+<li><strong>Alexis／Lap Protector 等の soft tissue retractor はロボット心臓手術でも標準</strong>：Cleveland Clinic は working port に Alexis を入れる（MMCTS 2025）。MMCTS の中隔心筋切除でも "XX small Alexis wound protector/retractor" が assistant port に使われている</li>
+<li><strong>決定打：hinotori でトロカールを一切使わない胸部手術</strong>〔一次確認済〕 <strong>Nakamura A, Kuroda A, Hashimoto M, Kondo N, Funaki S. "Trocarless Thoracic Surgery Using the Hinotori Surgical Robot System With a Wound Retractor." Asian J Endosc Surg 2025;18(1):e70213. <a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a></strong>（兵庫医科大）
+<ul>
+<li>2025年1〜7月に14例。<strong>4ポート全てに Lap Protector Mini Mini を使用、トロカールスリーブは使わない</strong></li>
+<li>可能な理由は <strong>hinotori のソフトウェア制御ピボット点（ドッキング不要）</strong></li>
+<li>報告された利点：セットアップ効率の向上、<strong>切開部の出血コントロール</strong>、ステープラー操作性の向上、術中合併症なし</li>
+</ul></li>
+</ul>
+<p><strong>含意</strong>：構想は「硬いポートを高機能化する」方向だが、呼吸器外科の潮流は「硬いポートをやめて柔らかい創縁保護材にする」方向であり、<strong>その柔らかい保護材に ORC リングを付けたものが既に RCT で有効性を示している</strong>。</p>
+<p>→ <strong>競合として認識せよ。同時に「ロボット心臓外科版の ORC リング付き創縁保護材」という、より近道の製品像も見えてくる。</strong> 心臓外科のロボットポートは 8mm/12mm と細く、Lap Protector が入るのは working port だけなので、<strong>8mm ポートに対する解は依然として空白</strong>である。</p>
+<hr />
+<h2 id="6-先行技術d--刺入路に止血材を残置するという既存カテゴリ">6. 先行技術D — 「刺入路に止血材を残置する」という既存カテゴリ</h2>
+<p>構想の中で最も新規性が残る「抜去時に止血材を残す」については、隣接領域に確立したカテゴリがある。<strong>tract sealant（刺入路シーラント）</strong> である。</p>
+<ul>
+<li><strong>BioSentry™</strong>（CT ガイド下肺生検の刺入路に自己拡張型ヒドロゲルプラグを留置し、気胸・出血を減らす）
+<ul>
+<li>前向き比較 <a href="https://pubmed.ncbi.nlm.nih.gov/27826786/">PMID 27826786</a>〔PDF取得済〕／実臨床 <a href="https://pubmed.ncbi.nlm.nih.gov/34178246/">PMID 34178246</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/39512979/">39512979</a>〔PDF取得済〕／SR/MA <a href="https://pubmed.ncbi.nlm.nih.gov/41897557/">PMID 41897557</a>（2026）〔PDF取得済〕／自己血パッチとの RCT <a href="https://pubmed.ncbi.nlm.nih.gov/30480487/">PMID 30480487</a>〔PDF取得済〕／プラグ周囲の組織反応の病理 <a href="https://pubmed.ncbi.nlm.nih.gov/31054891/">PMID 31054891</a>〔PDF取得済〕</li>
+</ul></li>
+<li>腹腔鏡ポート閉鎖での <strong>Surgicel プラグ法</strong>：<a href="https://pubmed.ncbi.nlm.nih.gov/37062549/">PMID 37062549</a>（Saudi Med J 2023、n=397、endoclose 法と合併症に有意差なし）〔PDF取得済〕、20例報告 <a href="https://pubmed.ncbi.nlm.nih.gov/12193814/">PMID 12193814</a>〔要一次確認〕</li>
+<li>ポート部位の <strong>biological plug</strong> 閉鎖：<a href="https://pubmed.ncbi.nlm.nih.gov/36071329/">PMID 36071329</a>（Obes Surg 2022）〔PDF取得済〕</li>
+<li>ロボット CABG のポート孔への<strong>流動性止血材注入</strong>：<a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a>（§1.4）</li>
+</ul>
+<p><strong>含意</strong>：「デバイスを抜くときに刺入路へ吸収性材料を置いてくる」という設計思想には確立した前例と規制上の前例（BioSentry は FDA クリア済み）がある。<strong>これを肋間ポート版に翻訳するのが、構想の中で最も筋の良い部分である。</strong></p>
+<hr />
+<h2 id="7-特許--ロボット会社に囲われているへの答え">7. 特許 — 「ロボット会社に囲われている」への答え</h2>
+<h3 id="71-intuitive-はカニューラを特許化しているがバルーンではない">7.1 Intuitive はカニューラを特許化している（が、バルーンではない）</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>特許</th>
+<th>名称</th>
+<th>出願</th>
+<th>登録</th>
+<th>請求項1の要点</th>
+<th>確認</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="https://www.freepatentsonline.com/10485582.html">US 10,485,582</a></strong></td>
+<td>Cannulas having body wall retention features</td>
+<td>2017-06-14</td>
+<td>2019-11-26</td>
+<td>カニューラ管の <strong>くびれ（waisted portion）＋軸方向に並ぶリブ</strong></td>
+<td>一次確認済</td>
+</tr>
+<tr>
+<td><strong><a href="https://www.freepatentsonline.com/12491005.html">US 12,491,005</a></strong></td>
+<td>同（継続）</td>
+<td>2022-08-01</td>
+<td><strong>2025-12-09</strong></td>
+<td><strong>マニピュレータアームへの結合機構（mounting feature）</strong>＋くびれ外面＋変曲点が体壁位置に来る構成</td>
+<td>一次確認済</td>
+</tr>
+<tr>
+<td><a href="https://www.freepatentsonline.com/11432844.html">US 11,432,844</a></td>
+<td>同ファミリー</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>要一次確認</td>
+</tr>
+<tr>
+<td><a href="https://www.freepatentsonline.com/10172687.html">US 10,172,687</a> → <a href="https://www.freepatentsonline.com/12138130.html">US 12,138,130</a></td>
+<td>カニューラ本体＋<strong>磁石によるカニューラID</strong></td>
+<td>優先 2014-03-17</td>
+<td>—</td>
+<td>日本にも <strong>JP7348854B2</strong> 等</td>
+<td>要一次確認</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>読み取れること</strong>：</p>
+<ol type="1">
+<li><strong>Intuitive 自身が「カニューラが体壁からズレる／体壁を痛める」問題を認識し、2017年から2025年まで継続的に特許を積んでいる。</strong> ユーザーの problem statement はロボット企業も同意している</li>
+<li>しかし解法は <strong>形状（くびれ＋リブ）による受動的な保持</strong>であって<strong>バルーンではない</strong>。これらの請求項が直接バルーン方式を封じることはない</li>
+<li>ただし <a href="https://www.freepatentsonline.com/12491005.html">US 12,491,005</a> が 2025年12月成立という新しさは、<strong>同ファミリーの継続出願が今も係属している可能性</strong>を示す。バルーン実施例が明細書にあれば後から請求される余地がある → <strong>明細書全文の精査が必須</strong></li>
+</ol>
+<h3 id="72-バルーントロカールの主障壁は-applied-medical22">7.2 バルーントロカールの主障壁は Applied Medical（§2.2）</h3>
+<p>基本特許 <a href="https://www.freepatentsonline.com/5147316.html">US 5,147,316</a>（2009満了）・<a href="https://www.freepatentsonline.com/7235064.html">US 7,235,064</a>（2014満了）は<strong>権利消滅済で自由に使える</strong>〔要一次確認〕。一方 <strong>Applied Medical の <a href="https://www.freepatentsonline.com/8287503.html">US 8,287,503</a>（満了予定 2030-07-10）と <a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a>（tamponade trocar）は有効</strong>であり、<strong>日本にもファミリーがある</strong>とされる〔要一次確認〕。<strong>具体構造の回避設計が要る。</strong></p>
+<h3 id="73-止血材装着ポートはホワイトスペースか--判断保留">7.3 止血材装着ポートは「ホワイトスペース」か — 判断保留</h3>
+<ul>
+<li>D6 調査：「<strong>トロカール外周に止血材（酸化セルロース／ゼラチン-トロンビン／フィブリン被覆コラーゲン）を装着する構成のクレームは複数の検索式で0件</strong>」〔要一次確認〕。素材側の基本特許（ORC の <a href="https://www.freepatentsonline.com/4626253.html">US 4,626,253</a>、TachoSil 系）も満了済</li>
+<li>しかし D5 調査：<strong>WO 2019/122487 がまさにその構成である可能性</strong>（§3.2）</li>
+</ul>
+<p><strong>この2つは矛盾する。どちらが正しいかは WO 2019/122487 の全文を読むまで決まらない。</strong> ここが本件の最重要の未解決点である。</p>
+<h3 id="74-da-vinci-用のサードパーティ製品を作れるか-法廷の答えは-intuitive-有利一次確認済">7.4 「da Vinci 用のサードパーティ製品を作れるか」— 法廷の答えは Intuitive 有利〔一次確認済〕</h3>
+<p><strong>Surgical Instrument Service Co. (SIS) v. Intuitive Surgical</strong>（N.D. Cal.）：SIS は EndoWrist の修理・再製造市場を巡り Intuitive のシャーマン法1条・2条違反を主張し（2021年提訴）、<span class="math inline">140<em>M</em>（3<em>倍</em><em>賠</em><em>償</em><em>で</em></span>420M）を請求した。<strong>2025年1月、Araceli Martínez-Olguín 判事は最終弁論直前に法律問題としての判決（JMOL）を Intuitive 有利に下し、陪審を解散して審理を終結させた</strong>（SIS は「修理・交換 EndoWrist のアフターマーケットの存在」を立証できなかった）。控訴審係属中。</p>
+<h3 id="75-まとめ作れるか">7.5 まとめ：作れるか</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>プラットフォーム</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>da Vinci（Intuitive）</strong></td>
+<td><strong>条件付きで極めて困難</strong>。カニューラはアームに機械的に結合し、その結合機構と保持形状は Intuitive の特許領域。第三者アクセサリへの法的スタンスも強硬（§7.4）。純正カニューラに後付けする「外付けスリーブ／カラー」なら形式上は可能だが、Intuitive の販売網に乗らない限り事業性が乏しい</td>
+</tr>
+<tr>
+<td><strong>hinotori（メディカロイド）</strong></td>
+<td><strong>設計上の障壁が無い</strong>。公式に「ピボット点はソフトウェアで設定され、<strong>アームはトロカールとドッキングする必要がない</strong>」とされ、実際に<strong>トロカールを使わない術式が報告されている</strong>（<a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a>）。つまり <strong>hinotori のポートは「汎用の胸腔用ポート」でよい</strong> ＝ 第三者が自由に設計・販売できる</td>
+</tr>
+<tr>
+<td><strong>プラットフォーム非依存（汎用胸腔ポート／スリーブ）</strong></td>
+<td><strong>最も自由度が高い</strong>。MICS（非ロボット）・VATS・ロボットのいずれでも使える汎用品にすれば、ロボット企業の許諾を一切必要としない。市場も広い</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>いずれの道でも、避けるべきは Intuitive ではなく Applied Medical の特許である。</strong></p>
+<hr />
+<h2 id="8-事業戦略--hinotori-に売り込むという案について">8. 事業戦略 — hinotori に売り込むという案について</h2>
+<p>ユーザーの提案（「Intuitive が先に利権を取っていそうだから、日本企業の hinotori に売っていく」）は、<strong>調査の結果、技術的にも法的にも合理的である</strong>。</p>
+<h3 id="81-hinotori-の現況一次確認済公式サイト報道">8.1 hinotori の現況〔一次確認済（公式サイト・報道）〕</h3>
+<ul>
+<li>開発・製造：<strong>メディカロイド</strong>（川崎重工業＋シスメックスの合弁、神戸）</li>
+<li>日本：2020年8月 泌尿器科で製造販売承認 → 2022年10月 消化器外科 → 婦人科 → <strong>呼吸器外科</strong>（2024年に保険適用。「2024年4月時点で4科」「2024年6月1日 呼吸器外科保険適用」「2024年11月 厚労省承認」と情報源で記載が揺れており、<strong>正確な日付は要確認</strong>）</li>
+<li>海外：シンガポール 2023、マレーシア 2024、ベトナム 2026、<strong>CE マーク 2026年7月（MDR 2017/745、泌尿器・一般外科・婦人科・胸部外科）</strong></li>
+<li><strong>心臓外科は未承認</strong>。ただし欧州（ルーヴェン、Oosterlinck ら）が <strong>hinotori による両側内胸動脈採取を人体解剖体で実施</strong>して報告している（Algoet M ら, Innovations 2026, <a href="https://doi.org/10.1177/15569845251408012">doi:10.1177/15569845251408012</a>）＝<strong>心臓外科参入の初期段階にある</strong></li>
+<li>技術的特徴：<strong>8軸アーム／ソフトウェアによるピボット点設定でドッキング不要／トロカール周囲のワークスペースが開いている</strong>（公式）</li>
+</ul>
+<h3 id="82-なぜ-hinotori-なのか3つの理由">8.2 なぜ hinotori なのか（3つの理由）</h3>
+<ol type="1">
+<li><strong>ポートを縛っていない</strong> — アームがトロカールに結合しないので、「純正カニューラ」に相当する強い縛りがない。第三者のポートを入れる余地が構造的に空いている</li>
+<li><strong>心臓外科がこれから</strong> — 完成した da Vinci の心臓外科エコシステムに割り込むより、<strong>これから心臓外科適応を取りに行くプラットフォームに「心臓外科向け専用ポート」を持ち込むほうが、相手にとっての価値が高い</strong>。「hinotori で心臓外科をやるとポート出血が問題になる。それを解く専用ポートがある」は、メーカーにとって適応拡大の材料になる</li>
+<li><strong>国内の開発支援制度に乗る</strong> — AMED の医療機器開発推進／医工連携イノベーション推進事業、PMDA の開発前相談。国内メーカー＋国内アカデミアの組み合わせは制度的に最も通りやすい</li>
+</ol>
+<h3 id="83-ただし注意すべき点">8.3 ただし注意すべき点</h3>
+<ul>
+<li><strong>hinotori の心臓外科適応が取れる保証はない</strong>。hinotori 専用設計だとプラットフォームの適応拡大が止まった時点で心中する</li>
+<li>→ <strong>「hinotori 専用」ではなく「汎用の胸腔ポート／スリーブとして設計し、hinotori と相性が良い」とすべき</strong>。VATS・MICS・ロボットのどれでも使えるなら単独で薬事も市場も成立する</li>
+<li>競合として、<strong>兵庫医大の「トロカールレス＋創縁保護材」（<a href="https://pubmed.ncbi.nlm.nih.gov/41399246/">PMID 41399246</a>）は既に hinotori の胸部手術で実践されており、追加コストゼロ</strong>である。これを上回る理由（心臓外科特有のヘパリン下での止血、8mm 径での適用、抜去後の止血）を明示できなければ勝てない</li>
+<li><strong>兵庫医大（Nakamura/Funaki）と神戸大（Tanaka/Maniwa）は、いずれも兵庫県内でメディカロイド（神戸）と同じ圏内にある。</strong> 共同研究の座組として最も自然</li>
+</ul>
+<hr />
+<h2 id="9-設計上の技術課題">9. 設計上の技術課題</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>課題</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>肋間神経の圧迫（最大のリスク）</strong></td>
+<td>硬性トロカールが肋間神経を圧迫し術後疼痛を増やすことは前向き比較で示済（Raveglia 2018, §5）。<strong>バルーンで肋間を内側から押し広げる設計はこの知見と真逆</strong>。設計解はバルーンを<strong>肋間の中に収めない</strong>こと — 胸腔側の胸壁内面に平たく当たる円盤/キノコ型にして、力を肋骨ではなく胸壁内面の広い面積で受ける</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>ORC の膨潤・酸性・治癒阻害</strong></td>
+<td>§3.3。骨・神経近傍は添付文書上の禁忌。pH 2.6–3.5 の化学毒性、TGF-β 阻害による治癒遅延。材料選定が構想②の成否を決める</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>止血材が挿入時に削れる</strong></td>
+<td>8mm ポートを肋間に押し込む際、外周の止血材が摩擦で剥落し胸腔内に散る。挿入時はシース／オブチュレータで覆い、<strong>留置位置で初めて露出させる</strong>機構が要る</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>血液がないと働かない／濡れると即固まる</strong></td>
+<td>ORC は湿潤で即座に膨潤・ゲル化。TachoSil 系は乾燥面に接着しない。<strong>「乾燥保存 → 挿入時は無反応 → 留置後に機能」</strong> という時間制御が最大の技術課題</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>バルーンを抜いた瞬間の再出血</strong></td>
+<td>Balkhy らの弱点そのもの（§2.3）。<strong>抜去と同時に止血材が刺入路に残る</strong>機構が構想の中核的新規性になりうる（§6）</td>
+</tr>
+<tr>
+<td>6</td>
+<td>器具交換の運用</td>
+<td>ロボットではポートは留置したままで器具のみ交換するのでバルーンは1回でよい。ただしカメラ／アシストポートは径が違う</td>
+</tr>
+<tr>
+<td>7</td>
+<td>CO2 送気とのシール</td>
+<td>胸腔は密閉腔でないので腹腔ほどのシールは不要。CO2 送気施設ではバルーンがシールも兼ねられる</td>
+</tr>
+<tr>
+<td>8</td>
+<td>異物・感染</td>
+<td>吸収性材料の遺残は肉芽腫化・膿瘍様所見・画像誤診の原因。「汚染創に留置して閉創しない」はサージセル添付文書の記載</td>
+</tr>
+<tr>
+<td>9</td>
+<td>滅菌・保存安定性</td>
+<td>止血材装着状態での滅菌耐性、貯蔵中の失活。<strong>ORC は再滅菌不可</strong>とされる〔要一次確認〕。PROCEED メッシュに前例あり</td>
+</tr>
+<tr>
+<td>10</td>
+<td>コスト</td>
+<td>対抗馬は「Lap Protector＋既存 ORC」と「尿道カテーテル」。いずれも安い。<strong>償還を取れるだけの臨床的優位性の証明</strong>が要る</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="10-未解決の空白この構想が主張できる場所">10. 未解決の空白（＝この構想が主張できる場所）</h2>
+<ol type="1">
+<li><strong>ロボット心臓手術の再開胸出血の「出血源の内訳」を報告した論文が無い。</strong> 胸骨切開ではメタ解析がある（§1.1）が、ロボット/MICS では誰も集計していない。<strong>§1.2 の「ロボットで OR 1.86」の中身が分からないということ。ニーズ立証の最大の穴であり、最初にやるべき臨床研究</strong></li>
+<li><strong>心臓外科（全身ヘパリン化・体外循環下）のポート創面出血を定量した報告が無い。</strong> §1.3 の RCT は呼吸器外科。<strong>ここを自分で測ることがそのまま新規性の主張になる</strong></li>
+<li><strong>「ポート孔をどう作るか（電メ vs メス vs 鈍的）」を比較した研究が世界的に皆無</strong>（§4.3）</li>
+<li><strong>8mm 径の胸腔ポートに対する止血ソリューションが無い。</strong> 創縁保護材は working port（3–4cm）にしか入らない</li>
+<li><strong>抜去時に止血材を残置する肋間ポートは、確認できた範囲では存在しない</strong>（ただし §3.2 の WO 2019/122487 次第）</li>
+</ol>
+<hr />
+<h2 id="11-次にやるべきこと優先順">11. 次にやるべきこと（優先順）</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>優先</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>WO 2019/122487 の全文入手・精読</strong>（§3.2）。構想①＋②の統合そのものである可能性。ここが新規性の生死を決める</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td><strong>Kiani/Poston 2012（Heart Surg Forum, <a href="https://pubmed.ncbi.nlm.nih.gov/23092664/">PMID 23092664</a>）の本文入手</strong>。心臓外科でのポート孔止血の直接の先行</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>Balkhy らの Innovations 2025（<a href="https://pubmed.ncbi.nlm.nih.gov/40913323/">PMID 40913323</a>）の本文入手</strong>。カテーテル径・留置時間・合併症の詳細</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td><strong>Applied Medical の公式サイト（日英）で「Tamponade Effect」の記載を自分の目で確認</strong>。対外説明で最初に突かれる</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td><strong><a href="https://www.freepatentsonline.com/8142467.html">US 8,142,467</a> ファミリー（Applied Medical）と <a href="https://www.freepatentsonline.com/10485582.html">US 10,485,582</a> ファミリー（Intuitive）の明細書全文精査</strong> — バルーン実施例の有無、係属中の継続出願、日本ファミリーの有無</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td><strong>自施設のロボット心臓手術データの後ろ向き集計</strong> — 再開胸出血の症例で「どこから出ていたか」。§10-1 の空白を自分で埋める</td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td>神戸大（Tanaka/Maniwa）・兵庫医大（Nakamura/Funaki）へのコンタクト。ORC リング付き創縁保護材と hinotori トロカールレスの両方が兵庫県内で走っている</td>
+</tr>
+<tr>
+<td><strong>8</strong></td>
+<td>メディカロイドへの打診（PMDA 開発前相談の前に、プラットフォーム側の意向を確認）</td>
+</tr>
+<tr>
+<td><strong>9</strong></td>
+<td>J-PlatPat での国内特許調査（「トロカール バルーン 止血」「胸腔 ポート 止血材」）</td>
+</tr>
+<tr>
+<td><strong>10</strong></td>
+<td>〔要一次確認〕と付した項目の裏取り（特に §2.1 の製品リスト、§2.2 の満了日、§3.3 の ORC 毒性・治癒阻害、§7.1 の Intuitive 特許番号）</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="12-参考文献">12. 参考文献</h2>
+<ul>
+<li>取得状況：<a href="download_status.md">download_status.md</a>（取得済 46 / 未取得 71）</li>
+<li>未取得文献の抄録：<a href="abstracts_not_downloaded.txt">abstracts_not_downloaded.txt</a></li>
+<li>PDF：<code>pdf/</code> ／ テキスト：<code>pdf_text/</code> ／ 特許 PDF・HTML：<code>patents/</code></li>
+</ul>
+
+  </main>
+</div>
+<div id="sidebar-backdrop"></div>
+<button id="sidebar-toggle" aria-label="目次を開く">&#9776;</button>
+
+<script>
+(function () {
+  var sidebar = document.getElementById('sidebar');
+  var nav = document.getElementById('sidebar-nav');
+  var btn = document.getElementById('sidebar-toggle');
+  var backdrop = document.getElementById('sidebar-backdrop');
+  var content = document.querySelector('main.content');
+  if (!sidebar || !nav || !content) return;
+
+  // ---------- build TOC ----------
+  var headings = content.querySelectorAll('h2, h3, h4');
+  var navLinks = [];
+  headings.forEach(function (h, idx) {
+    if (!h.id) h.id = 'heading-' + idx;
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+    if (h.tagName === 'H2') a.className = 'nav-journal';
+    else if (h.tagName === 'H3') a.className = 'nav-category';
+    else a.className = 'nav-paper';
+    a.dataset.target = h.id;
+    nav.appendChild(a);
+    navLinks.push(a);
+  });
+
+  function setOpen(open) {
+    sidebar.classList.toggle('open', open);
+    if (backdrop) backdrop.classList.toggle('open', open);
+  }
+  if (btn) btn.addEventListener('click', function () { setOpen(!sidebar.classList.contains('open')); });
+  if (backdrop) backdrop.addEventListener('click', function () { setOpen(false); });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 960px)').matches) setOpen(false);
+  });
+
+  // ---------- scroll spy ----------
+  if ('IntersectionObserver' in window) {
+    var current = null, visible = new Set();
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) visible.add(en.target.id); else visible.delete(en.target.id);
+      });
+      var firstId = null;
+      for (var i = 0; i < headings.length; i++) {
+        if (visible.has(headings[i].id)) { firstId = headings[i].id; break; }
+      }
+      if (firstId && firstId !== current) {
+        current = firstId;
+        navLinks.forEach(function (l) { l.classList.toggle('active', l.dataset.target === firstId); });
+        var act = nav.querySelector('a.active');
+        if (act) {
+          var r = act.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+          if (r.top < s.top || r.bottom > s.bottom) act.scrollIntoView({ block: 'nearest' });
+        }
+      }
+    }, { rootMargin: '-10% 0px -70% 0px', threshold: 0 });
+    headings.forEach(function (h) { obs.observe(h); });
+  }
+
+  // ---------- full-text search ----------
+  var input = document.getElementById('search-input');
+  var clearBtn = document.getElementById('search-clear');
+  var meta = document.getElementById('search-meta');
+  var countEl = document.getElementById('search-count');
+  var prevBtn = document.getElementById('search-prev');
+  var nextBtn = document.getElementById('search-next');
+  if (!input) return;
+
+  var hits = [], curHit = -1, timer = null;
+
+  function clearHits() {
+    var marks = content.querySelectorAll('mark.search-hit');
+    marks.forEach(function (m) {
+      var p = m.parentNode;
+      p.replaceChild(document.createTextNode(m.textContent), m);
+      p.normalize();
+    });
+    hits = []; curHit = -1;
+  }
+
+  function highlight(q) {
+    var lc = q.toLowerCase();
+    var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var t = node.parentNode && node.parentNode.tagName;
+        if (t === 'SCRIPT' || t === 'STYLE') return NodeFilter.FILTER_REJECT;
+        return node.nodeValue.toLowerCase().indexOf(lc) !== -1
+          ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue, lower = text.toLowerCase();
+      var frag = document.createDocumentFragment(), idx = 0, pos;
+      while ((pos = lower.indexOf(lc, idx)) !== -1) {
+        if (pos > idx) frag.appendChild(document.createTextNode(text.slice(idx, pos)));
+        var mk = document.createElement('mark');
+        mk.className = 'search-hit';
+        mk.textContent = text.slice(pos, pos + q.length);
+        frag.appendChild(mk);
+        hits.push(mk);
+        idx = pos + q.length;
+      }
+      if (idx < text.length) frag.appendChild(document.createTextNode(text.slice(idx)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  function filterNav(q) {
+    var lc = q.toLowerCase();
+    navLinks.forEach(function (l) {
+      var match = !q || l.textContent.toLowerCase().indexOf(lc) !== -1;
+      l.classList.toggle('filtered-out', !match);
+    });
+  }
+
+  function gotoHit(i) {
+    if (!hits.length) return;
+    if (curHit >= 0 && hits[curHit]) hits[curHit].classList.remove('current');
+    curHit = (i + hits.length) % hits.length;
+    var m = hits[curHit];
+    m.classList.add('current');
+    m.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    countEl.textContent = (curHit + 1) + ' / ' + hits.length + ' 件';
+  }
+
+  function run(q) {
+    clearHits();
+    filterNav(q);
+    if (!q || q.length < 2) {
+      meta.classList.remove('show');
+      clearBtn.style.display = q ? 'block' : 'none';
+      return;
+    }
+    highlight(q);
+    clearBtn.style.display = 'block';
+    meta.classList.add('show');
+    if (hits.length) { gotoHit(0); }
+    else { countEl.textContent = '該当なし'; }
+  }
+
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    var q = input.value.trim();
+    timer = setTimeout(function () { run(q); }, 180);
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); gotoHit(curHit + (e.shiftKey ? -1 : 1)); }
+    if (e.key === 'Escape') { input.value = ''; run(''); input.blur(); }
+  });
+  if (nextBtn) nextBtn.addEventListener('click', function () { gotoHit(curHit + 1); });
+  if (prevBtn) prevBtn.addEventListener('click', function () { gotoHit(curHit - 1); });
+  if (clearBtn) clearBtn.addEventListener('click', function () { input.value = ''; run(''); input.focus(); });
+
+  // keyboard shortcut: "/" focuses search
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== input) { e.preventDefault(); input.focus(); }
+  });
+})();
+</script>
+
+</body>
+</html>

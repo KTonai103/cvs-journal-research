@@ -1,0 +1,369 @@
+
+########## port_bleed_robotic (9)
+40913323	2025	Innovations (Phila)       	Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery
+41985604	2026	Ann Thorac Surg           	Closed-Chest Robotic vs Port Access Approach for Mitral Repair: Comparison of Postoperative Outcomes
+18692654	2008	J Thorac Cardiovasc Surg  	Robotic mitral valve repairs in 300 patients: a single-center experience
+15172249	2004	Ann Thorac Surg           	Minimally invasive mitral valve repair using the da Vinci robotic system
+40193468	2025	Interdiscip Cardiovasc Tho	Robotic-assisted left atrial appendage occlusion: an important complementary option in the surgical management of atrial fibrillation
+10451253	1999	Semin Thorac Cardiovasc Su	Video-assisted Port-Access mitral valve surgery: from debut to routine surgery. Will Trocar-Port-Access cardiac surgery ultimately lead
+14604249	2003	Perfusion                 	Peripheral cardiopulmonary bypass with modified assisted venous drainage and transthoracic aortic crossclamp: optimal management for ro
+41913831	2026	Cureus                    	Delayed Port-Site Hematoma Following Robot-Assisted Hysterectomy Using the Hinotori Surgical Robot System in an Anticoagulated Patient 
+16749980	2006	Can J Surg                	Computer-enhanced telemanipulation in mitral valve repair: preliminary experience in Canada with the da Vinci robotic system
+
+########## balloon_tamponade_port (10)
+40913323	2025	Innovations (Phila)       	Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in Robotic Mitral Valve Surgery
+31897697	2020	World J Surg              	Foley Balloon Facilitates Creation of Working Space in Transoral Thyroidectomy
+22161136	2012	Obes Surg                 	Use of Foley's catheter to control port-site bleeding in bariatric surgery
+33752031	2021	Int J Surg Case Rep       	Successful Foley catheter tamponade of an epigastric vessel trocar injury in a toddler - A case report
+36564265	2023	Fertil Steril             	Reducing blood loss during laparoscopic myomectomy using a tourniquet loop around the lower uterine segment
+19751334	2009	J Obstet Gynaecol Res     	Port wound closure assisted by Foley catheter: an easier way to provide fascia security
+16190831	2005	J Endourol                	Safety profile and complications of transperitoneal laparoscopic pyeloplasty: a critical analysis
+22086319	2011	Rev Gastroenterol Peru    	[Use of Foley's catheter to control abdominal wall bleeding in the trocar insertion place during laparoscopic surgery]
+23047399	2012	Surg Laparosc Endosc Percu	Trocar guided laparoscopic feeding jejunostomy: a simple new technique
+31683027	2020	J Minim Invasive Gynecol  	Laparoscopic Pectopexy with Burch Colposuspension for Pelvic Prolapse Associated with Stress Urinary Incontinence
+
+########## trocar_site_bleeding (40)
+39184254	2024	Gynecol Minim Invasive The	Myomectomy: Choosing the Surgical Approach - A Systematic Review
+30657163	2019	Cochrane Database Syst Rev	Laparoscopic entry techniques
+22336819	2012	Cochrane Database Syst Rev	Laparoscopic entry techniques
+16019768	2005	Scand J Urol Nephrol      	Laparoscopic nephrectomy
+37690734	2023	Fertil Steril             	Surgical techniques for mini-laparotomy myomectomy
+18425957	2008	Cochrane Database Syst Rev	Laparoscopic entry techniques
+35980870	2023	Int J Gynaecol Obstet     	Laparoscopic entry techniques: Which should you prefer?
+26676093	2015	Cochrane Database Syst Rev	Trocar types in laparoscopy
+38160031	2023	BMJ Case Rep              	Pyoderma gangrenosum following gynaecological surgery
+20483096	2010	Ugeskr Laeger             	[Transumbilical cholecystectomy]
+18470516	2008	World J Urol              	Complications of laparoscopic pyeloplasty
+20883246	2010	BJU Int                   	Robotic laparoendoscopic single-site surgery
+39295549	2024	J Surg Oncol              	Robotic and Laparoscopic Cytoreductive Surgery and Hyperthermic Intraperitoneal Chemotherapy, Multicenter Study From Saudi Arabia
+36071329	2022	Obes Surg                 	Safety and Efficacy of Trocar Port-Site Closure Using a Biological Plug Closure in Laparoscopic Bariatric Surgery: a Prospective Study
+33587285	2021	Updates Surg              	Meta-analysis and trial sequential analysis of three-port vs four-port laparoscopic cholecystectomy (level 1 evidence)
+18333079	2004	HPB (Oxford)              	Laparoscopic anatomic liver resection
+9197849	1997	Arch Surg                 	Laparoscopic paraesophageal hernia repair
+19186114	2008	Int J Surg                	Peri-operative complications of video-assisted thoracoscopic surgery (VATS)
+36842955	2023	J Visc Surg               	Direct trocar insertion vs. Veress needle technique in laparoscopic surgeries. A systematic review and meta-analysis
+37069276	2023	Langenbecks Arch Surg     	Major and minor complications in Veress needle (VN) and direct trocar insertion (DTI) for laparoscopic closed-entry techniques: an upda
+24112845	2014	Actas Urol Esp            	Laparoscopic partial nephrectomy: An experience in 227 cases
+8348864	1993	Dis Colon Rectum          	Laparoscopic-assisted bowel surgery
+31033631	2019	Surg Laparosc Endosc Percu	Retrieval of Gallbladder Via Umbilical Versus Epigastric Port Site During Laparoscopic Cholecystectomy: A Systematic Review and Meta-An
+32528673	2020	Ann Med Surg (Lond)       	Epigastric port retrieval of the gallbladder following laparoscopic cholecystectomy is associated with the reduced risk of port site in
+36567824	2022	World J Gastrointest Endos	Our initial single port robotic cholecystectomy experience: A feasible and safe option for benign gallbladder diseases
+23092664	2012	Heart Surg Forum          	Managing port-site bleeding during less invasive coronary artery bypass grafting
+35923475	2022	Cureus                    	Port Site Consequences After Laparoscopic Cholecystectomy Using an Open Versus Closed Approach of Pneumoperitoneum
+20941965	2010	Chirurgia (Bucur)         	Bariatric emergencies: what the general surgeon should know
+39811224	2024	Cureus                    	The Risk of Leakage and Bleeding After Using the Ezisurg Endostapler Technique for Bariatric Surgery
+36389442	2022	J Surg Case Rep           	Cyclically bleeding trocar-site endometrioma without known history of endometriosis: case report and literature review
+33895048	2021	Asian J Surg              	The role of laparoscopic surgery in the surgical management of gallbladder carcinoma: A systematic review and meta-analysis
+29544582	2018	J Coll Physicians Surg Pak	Robotic Sleeve Gastrectomy for Morbid Obesity
+22146159	2011	Surg Laparosc Endosc Percu	Laparoscopic cholecystectomy and liver cirrhosis
+27637520	2014	J Robot Surg              	Robot-assisted gastroesophageal surgery: usefulness and limitations
+16508770	2006	Eur Radiol                	Imaging findings of biliary and nonbiliary complications following laparoscopic surgery
+8863256	1996	J Pediatr Surg            	Complications of minimal-access surgery in children
+37062549	2023	Saudi Med J               	Surgicel plug technique versus endoclose technique for port-site closure post minimally invasive (robotic and laparoscopic) surgeries: 
+23519905	2013	Langenbecks Arch Surg     	Acute complications after laparoscopic bariatric procedures: update for the general surgeon
+32374421	2020	Cochrane Database Syst Rev	In-bag manual versus uncontained power morcellation for laparoscopic myomectomy
+40669538	2025	J Gynecol Obstet Hum Repro	Comparison of single-site to multi-port laparoscopic hysterectomy in patients with benign or malignant gynecological diseases: A meta-a
+
+########## intercostal_injury (40)
+36440304	2022	Respir Med Case Rep       	Control of bleeding from intercostal artery laceration
+11217470	2000	Ann Ital Chir             	Video-assisted thoracic surgery--state of the art
+30722083	2019	Zentralbl Chir            	[Postoperative Haemothorax Following Thoracic Surgery]
+37690956	2023	J Emerg Med               	Thoracodorsal Artery Injury After Tube Thoracostomy: A Case Report
+28790290	2017	Kyobu Geka                	[Postoperative Intrathoracic Hemorrhage;Perioperative Prevention and Management]
+28815070	2017	J Thorac Dis              	Supracarinal dissection of the oesophagus and lymphadenectomy by MIE
+20715412	2008	Kyobu Geka                	[Essence of perioperative chest tube management]
+37774755	2024	Thorac Cardiovasc Surg    	Simultaneous Minimally Invasive Coronary Artery Bypass Grafting and Lung Resection
+30034826	2018	J Thorac Dis              	Management of complications in thoracoscopic surgery
+35242381	2022	J Thorac Dis              	Successful thoracoscopic management of iatrogenic left subclavian arterial injury: a case report
+35909929	2022	Radiol Case Rep           	Subclavian vessel injury from chest-drain malposition in the treatment of a pneumothorax in the presence of a lateral third open clavic
+27440019	2016	Kyobu Geka                	[Minimally Invasive Mitral Valve Plasty;My Technique]
+36584058	2022	Chirurgia (Bucur)         	Thoracic Penetrating Wounds with Cardiac Injury: A Single-Center Experience
+30402395	2018	Korean J Thorac Cardiovasc	Nonintubated Uniportal Video-Assisted Thoracoscopic Surgery: A Single-Center Experience
+8986976	1996	J Pediatr Surg            	Thoracoscopy in children
+29924678	2018	J Laparoendosc Adv Surg Te	Bleeding at Removal of Nuss Bar: Rare But Sometimes Significant
+24251029	2013	J Thorac Dis              	Minimally invasive approach for redo mitral valve surgery
+36660403	2023	Trauma Case Rep           	Penetrating Chest trauma with right atrium rupture - A case report
+28614864	2017	Anasthesiol Intensivmed No	[The Patient with Chest Trauma: Surgical Management]
+40944085	2025	J Clin Med                	Intercostal Artery Screening with Color Doppler Thoracic Ultrasound in Pleural Procedures: A Potential Yet Underexplored Imaging Modali
+16408472	2005	Jpn J Thorac Cardiovasc Su	Spontaneous hemothorax in patients with von Recklinghausen's disease
+37326963	2023	Interdiscip Cardiovasc Tho	Endoscopic aortic valve surgery in isolated and concomitant procedures
+31065358	2019	SAGE Open Med Case Rep    	Hemothorax induced by severe cough: An unusual presentation
+34775776	2022	Ann Palliat Med           	Primary nephrotic syndrome complicated by chylothorax: a case report
+34321811	2021	J Emerg Trauma Shock      	Role of Intercostal Artery Embolization in Management of Traumatic Hemothorax
+19097724	2011	J Emerg Med               	Complications of tube thoracostomy placement in the emergency department
+23521021	2013	Respirology               	Physician-performed ultrasound can accurately screen for a vulnerable intercostal artery prior to chest drainage procedures
+26380751	2015	J Thorac Dis              	Transcatheter arterial embolization for intercostal arterial bleeding in a patient after chest tube insertion
+23587171	2013	J Cardiothorac Surg       	The feasibility of a Two-incision video-assisted thoracoscopic lobectomy
+36389335	2022	J Thorac Dis              	Dorsal incision shows more efficacy and safety to traditional incision in single-portal video-assisted thoracoscopic surgery segmentect
+8339668	1993	Chest                     	Recurrent massive bleeding from an intercostal artery aneurysm through an empyema chest tube
+33154815	2020	J Surg Case Rep           	Management of a life-threatening intercostal artery bleeding, difficult to visualize in open surgery: a case report
+40922847	2025	Cureus                    	Spontaneous Hemothorax in Neurofibromatosis Type 1: A Surgical Case Report
+35790581	2022	Surg Case Rep             	Robot-assisted thoracoscopic resection of a posterior mediastinal tumor with preserving the artery of Adamkiewicz
+7387238	1980	Ann Surg                  	Clinical evaluation of a new device for the treatment of tension pneumothorax
+28838023	2017	Zentralbl Chir            	[Interventional Radiological Treatment of Intercostal Artery Bleedings - a Retrospective Analysis]
+17022807	2006	World J Emerg Surg        	The role of diagnostic VATS in penetrating thoracic injuries
+27100164	2016	Innovations (Phila)       	Robotic Endoscopic Off-Pump Total Pericardiectomy in Constrictive Pericarditis
+19648149	2009	Interact Cardiovasc Thorac	Non-operative management of tube thoracostomy induced pulmonary artery injury
+10543561	1999	Ann Thorac Surg           	Comparison of direct aortic and femoral cannulation for port-access cardiac operations
+
+########## cautery_vs_scalpel (40)
+24978451	2014	J Craniofac Surg          	Craniosynostosis incision: scalpel or cautery?
+30634889	2019	J Obstet Gynaecol         	Scalpel versus diathermy skin incision in Caesarean section
+25692267	2015	Curr Opin Infect Dis      	Evidence update on prevention of surgical site infection
+22367850	2012	Br J Surg                 	Systematic review and meta-analysis of cutting diathermy versus scalpel for skin incision
+21273756	2011	Neurol Med Chir (Tokyo)   	Electrocautery skin incision for neurosurgery procedures--technical note
+31978649	2020	Int J Surg                	Diathermy versus scalpel for skin incision in patients undergoing open inguinal hernia repair: A systematic review and meta-analysis
+37963705	2023	BMJ Open                  	Needle-tip electrocautery versus steel scalpel incision in neurosurgery: study protocol for a prospective single-centre randomised cont
+39304130	2025	Cir Esp (Engl Ed)         	Diathermy versus scalpel in midline abdominal incision: A systematic review and meta-analysis of randomized controlled trials
+35915281	2023	Oral Maxillofac Surg      	Tissue response to different incision tools in animal model
+15457857	2004	J Reprod Med              	Choosing abdominal incision and closure techniques: a review
+39600331	2024	Plast Reconstr Surg Glob O	Comparison of Colorado Needle Electrocautery and Traditional Scalpel for Lower Eyelid Blepharoplasty Incision: A Randomized Controlled 
+42145357	2026	Bioinformation            	Comparative analysis of electrocautery and scalpel incisions in inguinal hernia repair
+25834739	2015	Iran Red Crescent Med J   	Randomized, clinical trial on diathermy and scalpel incisions in elective general surgery
+37579940	2024	J Shoulder Elbow Surg     	Effect of making skin incision with electrocautery on positive Cutibacterium acnes culture rates in shoulder arthroplasty: a prospectiv
+31187749	2019	Niger Postgrad Med J      	Surgical outcome of cutting diathermy versus scalpel skin incisions in uncomplicated appendectomy: A comparative study
+11136307	2001	Br J Surg                 	Randomized clinical trial of diathermy versus scalpel incision in elective midline laparotomy
+31908999	2019	Ann Maxillofac Surg       	Evaluation of Electrocautery and Stainless Steel Scalpel in Oral Mucoperiosteal Incision for Mandibular Anterior Fracture
+18476202	1993	Infect Dis Obstet Gynecol 	Abdominal wound problems after hysterectomy with electrocautery vs. scalpel subcutaneous incision
+26021211	2015	Int J Surg                	Comparison of electrocautery incision with scalpel incision in midline abdominal surgery - A double blind randomized controlled trial
+26446416	2015	J Obstet Gynaecol Res     	Diathermy versus scalpel in transverse abdominal incision in women undergoing repeated cesarean section: A randomized controlled trial
+15943407	2005	Am Surg                   	A prospective study comparing diathermy and scalpel incisions in tension-free inguinal hernioplasty
+2283608	1990	J R Coll Surg Edinb       	Electrosurgical skin incision versus conventional scalpel: a prospective trial
+34840756	2021	Ann Med Surg (Lond)       	Post-skin incision scar tissue assessment using patient and observer scar assessment scales: A randomised controlled trial
+34352836	2021	Dermatol Surg             	Histologic Comparison of Upper Blepharoplasty Skin Excision Using Scalpel Incision Versus Microdissection Electrocautery Needle Tip Ver
+41782598	2026	Asian J Neurosurg         	Outcomes of Craniotomy Scalp Incision Using Cutting Micro-Needle Diathermy versus Traditional Stainless-Steel Scalpel
+35974853	2022	Cureus                    	Bigger Is Not Always Better: Effects of Electrocautery Setting on Tissue Injury in a Porcine Model
+39486068	2025	J Neurosurg               	Risk factors for wound dehiscence after surgery for epilepsy
+17505649	2007	Acta Cir Bras             	Healing of abdominal wall aponeurosis of rats after incision with either cold scalpel or electrocautery
+25838766	2015	Niger J Surg              	Diathermy versus Scalpel Incision in a Heterogeneous Cohort of General Surgery Patients in a Nigerian Teaching Hospital
+11519378	2001	Isr Med Assoc J           	Effect of electrocautery vs. scalpel on fascial mechanical properties after midline laparotomy incision in rats
+26941063	2016	Lasers Surg Med           	Comparative study of wound healing in rat skin following incision with a novel picosecond infrared laser (PIRL) and different surgical 
+2143426	1990	Br J Surg                 	Wound infection after abdominal incision with scalpel or diathermy
+31273569	2020	Lasers Med Sci            	Efficacy and safety of diode laser during circumvestibular incision for Le Fort I osteotomy in orthognathic surgery: a triple-blind ran
+24165306	2016	ANZ J Surg                	Cautery versus scalpel for abdominal skin incisions: a double blind, randomized crossover trial of scar cosmesis
+21324486	2011	J Surg Res                	Comparative healing of rat fascia following incision with three surgical instruments
+21768669	2011	Indian J Cancer           	A comparative study of scalpel and surgical diathermy incision in elective operations of head and neck cancer
+11425052	2001	Am J Surg                 	A multicentre collaborative study on the use of cold scalpel and electrocautery for midline abdominal incision
+7293620	1981	Acta Chir Belg            	[Is wound healing modified by the use of diathermy incision (author's transl)]
+16703395	2006	Chirurg                   	[Incision and closure of the abdominal wall]
+9462069	1994	J Philipp Dent Assoc      	Histopathologic studies on wound healing caused by scalpel incision, cryosurgery and electrocautery on hamsters
+
+########## reexplore_bleeding_micas (40)
+30380574	2019	Thorac Cardiovasc Surg    	Minimally Invasive Surgery in Mitral Valve Endocarditis
+33829928	2021	Innovations (Phila)       	Systematic Review of Minimally Invasive Surgery for Mitral Valve Infective Endocarditis
+39188318	2024	Front Cardiovasc Med      	Minimally invasive vs. conventional mitral valve surgery: a meta-analysis of randomised controlled trials
+18829343	2008	Eur J Cardiothorac Surg   	Minimally invasive mitral valve surgery: a systematic review and meta-analysis
+12216924	2002	Indian Heart J            	Minimally invasive mitral valve surgery
+37647873	2023	Gerontology               	Isolated Minimally Invasive Mitral Valve Surgery in Octogenarians: Perioperative Outcome
+33781118	2021	Innovations (Phila)       	Minimally Invasive Versus Sternotomy for Mitral Surgery in the Elderly: A Systematic Review and Meta-Analysis
+9375607	1997	J Thorac Cardiovasc Surg  	Video-assisted minimally invasive mitral valve surgery
+36529985	2022	Innovations (Phila)       	A Systematic Review and Meta-Analysis of Robot-Assisted Mitral Valve Repair
+33020254	2020	Open Heart                	BISMICS consensus statement: implementing a safe minimally invasive mitral programme in the UK healthcare setting
+40857401	2025	Eur J Cardiothorac Surg   	Endo-Aortic Balloon Occlusion versus Transthoracic Clamping in Minimally Invasive Mitral Valve Surgery
+35127877	2021	Front Cardiovasc Med      	Robotic Cardiac Surgery in Europe: Status 2020
+26309839	2015	Ann Cardiothorac Surg     	A meta-analysis of robotic vs. conventional mitral valve surgery
+39590201	2024	J Cardiovasc Dev Dis      	Endo-Aortic Clamp for Minimally Invasive Redo Mitral Valve Surgery: Early Outcome
+37324626	2023	Front Cardiovasc Med      	Robotic-assisted mitral valve surgery without aortic cross-clamping: a safe and feasible technique
+33616351	2021	J Cardiovasc Surg (Torino)	Lower hemisternotomy: infrequently used but versatile
+31479637	2020	Ann Thorac Surg           	Minimal Access Versus Sternotomy for Complex Mitral Valve Repair: A Meta-Analysis
+25362732	2014	Multimed Man Cardiothorac 	Robotic-assisted mitral valve repair: surgical technique
+36987688	2023	Asian Cardiovasc Thorac An	Is robotic assistance an added value in minimally invasive mitral valve surgery? A meta-analysis from propensity score-matched series
+36237586	2022	Ann Cardiothorac Surg     	Robotic versus conventional sternotomy mitral valve surgery: a systematic review and meta-analysis
+33611952	2021	Asian Cardiovasc Thorac An	Minimally invasive (mini-thoracotomy) versus median sternotomy in redo mitral valve surgery: A meta-analysis of observational studies
+10451252	1999	Semin Thorac Cardiovasc Su	Minimally invasive direct access mitral valve surgery
+19447804	2009	Interact Cardiovasc Thorac	Is a minimally invasive approach for re-operative mitral valve surgery superior to standard resternotomy?
+39518462	2024	J Clin Med                	Minimally Invasive Mitral Valve Surgery in Elderly Patients: Results from a Multicenter Study
+37817430	2023	J Chest Surg              	Minimally Invasive Procedure versus Conventional Redo Sternotomy for Mitral Valve Surgery in Patients with Previous Cardiac Surgery: A 
+30232298	2019	Ann Thorac Cardiovasc Surg	Single-Center Experience with Minimally Invasive Mitral Operations through Right Minithoracotomy
+24349990	2013	Ann Cardiothorac Surg     	Video-atlas on minimally invasive mitral valve surgery-The David Adams technique
+24495015	2014	J Card Surg               	Minimally invasive mitral valve surgery utilizing heart port technology
+40964525	2025	Front Cardiovasc Med      	The impact of comorbidities on surgical outcome and mortality in minimally invasive mitral valve surgery: a systematic review
+17870004	2007	Semin Thorac Cardiovasc Su	Gore-tex chordoplasty in degenerative mitral valve repair
+34376231	2021	J Cardiothorac Surg       	Minimally invasive or sternotomy approach in mitral valve surgery: a propensity-matched comparison
+34738105	2022	Eur J Cardiothorac Surg   	Predictors of safety and success in minimally invasive surgery for degenerative mitral disease
+36237593	2022	Ann Cardiothorac Surg     	Two hundred robotic mitral valve repair procedures for degenerative mitral regurgitation: the Yale experience
+37145960	2024	Perfusion                 	A review and meta-analysis of conventional sternotomy versus minimally invasive mitral valve surgery for degenerative mitral valve dise
+29490388	2018	Thorac Cardiovasc Surg    	Minimally Invasive Mitral Valve Surgery in Re-Do Cases-The New Standard Procedure?
+37024952	2023	J Cardiothorac Surg       	Minithoracotomy versus sternotomy in mitral valve surgery: meta-analysis from recent matched and randomized studies
+32920639	2020	Eur J Cardiothorac Surg   	Minimally invasive versus sternotomy mitral valve surgery when initiating a minimally invasive programme
+31242521	2020	Thorac Cardiovasc Surg    	Minithoracotomy and Beating Heart Strategy for Mitral Surgery in Secondary Mitral Regurgitation
+38548608	2024	Zhonghua Wai Ke Za Zhi    	[Technical exploration and early results of two-port total thoracoscopic aortic-mitral double-valve replacement]
+24349970	2013	Ann Cardiothorac Surg     	A meta-analysis of minimally invasive versus conventional mitral valve repair for patients with degenerative mitral disease
+
+########## balloon_trocar (40)
+29878953	2018	Dis Colon Rectum          	Robotic Platform for an IPAA
+37470710	2023	J Craniofac Surg          	Novel Scalp Flap Elevation With Balloon Trocar Dissection Device
+11932687	2002	J Vasc Surg               	Retroperitoneoscopic lumbar sympathectomy
+9751332	1998	J Urol                    	Retroperitoneoscopy: experience with 200 cases
+28727386	2018	Int Braz J Urol           	Retroperitoneal access for robotic renal surgery
+39049743	2024	J Endourol                	One Trocar-Assisted Retroperitoneoscopic Ureteroureterostomy for Ureteral Duplication
+10922260	2000	Arch Surg                 	Laparoscopic posterior adrenalectomy: technical considerations
+9676362	1998	Chirurg                   	[Retroperitoneoscopy--experiences with the first cases]
+15636555	2004	Contemp Top Lab Anim Sci  	Noninvasive mechanical ventilation of mice by using a balloon-tipped cannula
+9241495	1997	Eur J Pediatr Surg        	Access techniques in endoscopic fetal surgery
+37040815	2023	J Minim Invasive Gynecol  	Balloon Trocar Is a Suitable Instrument for Retroperitoneal Para-aortic Lymphadenectomy in Gynecologic Malignant Diseases
+34102770	2021	J Coll Physicians Surg Pak	Comparison of Balloon Trocar versus Telescopic Dissection Method for TEP Inguinal Hernia Repair
+39235339	2024	J Laparoendosc Adv Surg Te	Telescopic Dissection as a Cost-Effective Alternative to Balloon Trocar for Preperitoneal Dissection in Total Extraperitoneal Inguinal 
+28942568	2017	Hernia                    	Endoscopic anterior component separation: a novel technical approach
+42321638	2026	BMC Cardiovasc Disord     	The modified balloon-anchored technique for iliac branch device deployment via ipsilateral femoral access
+40198491	2025	Hernia                    	A comparative study on optical trocar entry vs. balloon trocar entry in laparoscopic eTEP inguinal hernia repair - a randomised control
+33863676	2021	J Visc Surg               	A technical tip for enterotomy-drainage by balloon trocar of the small intestine
+40221634	2025	Pediatr Surg Int          	Direct balloon trocar technique for closed decompression of large predominantly cystic ovarian tumors in adolescents
+19220090	2009	J Endourol                	Asystolic cardiac arrest during balloon insufflation for endoscopic extraperitoneal radical prostatectomy
+7777808	1995	Scand J Gastroenterol Supp	Totally preperitoneal laparoscopic inguinal herniorrhaphy using balloon distention
+32881237	2020	Colorectal Dis            	Intra-operative enteroscopy for the identification of obscure bleeding source caused by gastrointestinal angiodysplasias: through a bal
+15646817	2004	In Vivo                   	In vivo activity of the potent oxytocin antagonist on uterine activity in the rat
+8200406	1994	Eur Urol                  	Retroperitoneal laparoscopic nephrectomy and other procedures in the upper retroperitoneum using a balloon dissection technique
+42020183	2026	Endoscopy                 	An endoscopic triumph: transgastric balloon-anchored antegrade dilation via gastrostomy reopens a "no-pass" esophagus
+31198854	2019	Pleura Peritoneum         	Staging laparoscopy and Pressurized IntraPeritoneal Aerosol Chemotherapy (PIPAC) for peritoneal metastasis: safe access to the abdomen
+24977774	2014	J Trauma Acute Care Surg  	Standard laparoscopic trocars for the treatment of tension pneumothorax: a superior alternative to needle decompression
+26465110	2015	Acta Cir Bras             	Effectiveness of a reusable low-cost balloon trocar dissection device in the creation of preperitoneal space during endoscopic surgery.
+9376847	1997	J Endourol                	Laparoscopy-assisted penile revascularization: a new method
+30676267	2019	J Laparoendosc Adv Surg Te	Laparoscopic Treatment of Inguinal Ovarian Hernia in Female Infants and Children: Standardizing the Technique
+11972231	2002	Surg Endosc               	Endoscopic extraperitoneal repair of a Grynfeltt hernia
+20855066	2010	Gastrointest Endosc       	Feasibility of a novel system for intraductal balloon-anchored direct peroral cholangioscopy and endotherapy with an ultraslim endoscop
+30410296	2018	Int J Angiol              	Balloon-Anchored CoKatte (®) for Successfully Delivering Balloons for an Occluded Anomalous Right Coronary Artery
+41043865	2026	J Neurointerv Surg        	Balloon-assisted retrieval of detached microwire tip during mechanical thrombectomy
+11569508	2001	J Laparoendosc Adv Surg Te	Laparoscopic intragastric stapled cystogastrostomy for pancreatic pseudocyst
+30315796	2019	Ann Thorac Surg           	Impact of Isolated Cerebral Perfusion Technique for Aortic Arch Aneurysm Repair in Elderly Patients
+35600785	2021	J Minim Invasive Surg     	Transpyloric optic navigation of tumor using a laparoscope during totally laparoscopic distal gastrectomy for gastric cancer
+12771721	2003	J Urol                    	Endoscopic extraperitoneal radical prostatectomy: initial experience after 70 procedures
+15896916	2005	Neuroscience              	Right atrial stretch activates neurons in autonomic brain regions that project to the rostral ventrolateral medulla in the rat
+17383464	2007	Gastrointest Endosc       	Gastrostomy port assisted full-thickness gastric resection by using the peroral SurgASSIST introduced via an oroesophageal overtube in 
+9660229	1998	J Pediatr Surg            	Single-port tracheoscopic surgery in the fetal lamb
+
+########## hemostatic_trocar (14)
+40820726	2025	Haematologica             	Rebalancing agents in hemophilia: knowns, unknowns, and uncertainties
+36071329	2022	Obes Surg                 	Safety and Efficacy of Trocar Port-Site Closure Using a Biological Plug Closure in Laparoscopic Bariatric Surgery: a Prospective Study
+37209389	2023	Obes Surg                 	Magnetic-Assisted Reduced-Port Sleeve Gastrectomy Versus Laparoscopic Sleeve Gastrectomy: a Comparative Study
+23092664	2012	Heart Surg Forum          	Managing port-site bleeding during less invasive coronary artery bypass grafting
+40449623	2025	Am J Infect Control       	Ex vivo modeling of extraluminal migration of pathogenic microbes in the presence of a hemostatic agent
+11162035	2001	J Surg Res                	Assessment of topical hemostats in a renal hemorrhage model in heparinized rats
+26551409	2016	Haemophilia               	US experience with recombinant factor VIIa for surgery and other invasive procedures in acquired haemophilia: analysis from the Hemosta
+11849223	2002	Br J Haematol             	Recombinant factor VIIa in the management of surgery and acute bleeding episodes in children with haemophilia and high responding inhib
+41933246	2026	J Robot Surg              	A novel peritoneal channel technique using a hemostatic agent to minimize symptomatic fluid collections after single-port robot-assiste
+17484006	2007	Surg Endosc               	Use of fibrin glue (Tissucol) as a hemostatic in laparoscopic conservative treatment of spleen trauma
+18070734	2008	Am J Surg                 	Microporous polysaccharide hemospheres for management of laparoscopic trocar injury to the spleen
+18237509	2007	JSLS                      	Use of bone wax during laparoscopic renal ablative procedures: optimizing port utilization and reducing tract-site exposure
+15713930	2005	J Vasc Interv Radiol      	Evaluation of a microcatheter-arterial port system for intraarterial therapy in an animal model
+20489527	2010	Neurosurgery              	Balloon compression technique in the management of persistent intraoperative intratumoral hemorrhage resulting from stereotactic biopsy
+
+########## tract_sealant (22)
+34178246	2021	Kans J Med                	Post-Biopsy Pneumothorax Incidence in Patients Treated with Biosentry™ Plug Device
+39512979	2024	Cureus                    	Is the BioSentry Tract Sealant System Effective in Reducing the Pneumothorax Rate After CT-Guided Transthoracic Lung Biopsy With an 18G
+27826786	2017	Cardiovasc Intervent Radio	Efficacy of a Self-expanding Tract Sealant Device in the Reduction of Pneumothorax and Chest Tube Placement Rates After Percutaneous Lu
+30863965	2019	Cardiovasc Intervent Radio	Post-Biopsy Manoeuvres to Reduce Pneumothorax Incidence in CT-Guided Transthoracic Lung Biopsies: A Systematic Review and Meta-analysis
+42026758	2026	J Biomed Mater Res B Appl 	Lung Biopsy Tract Sealant and Fiducial Marker Based on a Hydrogel/Shape Memory Polymer Foam Composite With Multimodal Contrast
+30772002	2019	Radiologia (Engl Ed)      	Cost-effectiveness of hydrogel plugs in CT-guided lung biopsies
+36278524	2022	Med Sci (Basel)           	Easy Intra-Operative Localization of Pulmonary Nodules during Uniportal Video-Assisted Thoracoscopy: Experience with Hydrogel Plugs at 
+36729490	2023	ACS Biomater Sci Eng      	Swellable and Thermally Responsive Hydrogel/Shape Memory Polymer Foam Composites for Sealing Lung Biopsy Tracts
+36706641	2023	Clin Imaging              	Radiologic and histopathologic features of hydrogel sealant after lung resection in participants of a prospective randomized clinical t
+41897557	2026	Diagnostics (Basel)       	Tract Sealing Techniques for Pneumothorax and Drainage Prevention After CT-Guided Lung Biopsy: A Systematic Review and Meta-Analysis
+38130883	2023	Biomed Mater Devices      	Development of Biopsy Tract Sealants Based on Shape Memory Polymer Foams
+31054891	2019	Hum Pathol                	Pulmonary pathologic alterations associated with biopsy inserted hydrogel plugs
+29961884	2019	Interact Cardiovasc Thorac	A new image-guided technique for intraoperative localization of lung small solid nodules or ground-glass opacities with a self-expandin
+30480487	2019	Radiology                 	Autologous Blood Patch Injection versus Hydrogel Plug in CT-guided Lung Biopsy: A Prospective Randomized Trial
+39890572	2025	Clin Lung Cancer          	Imaging Findings Related to Lung Tract Sealant Use in Percutaneous CT-guided Lung Biopsy
+30793736	2019	Interact Cardiovasc Thorac	Video-assisted thoracoscopic resection of lung nodules localized with a hydrogel plug
+29904738	2018	Adv Radiat Oncol          	Implications for high-precision dose radiation therapy planning or limited surgical resection after percutaneous computed tomography-gu
+27870824	2017	J Thorac Imaging          	Efficacy of a Dehydrated Hydrogel Plug to Reduce Complications Associated With Computed Tomography-guided Percutaneous Transthoracic Ne
+30889717	2019	Mater Sci Eng C Mater Biol	An injectable, degradable hydrogel plug for tracheal occlusion in congenital diaphragmatic hernia (CDH)
+39457991	2024	J Clin Med                	Unlocking the Potential of Computed Tomography-Guided Tracers in Pinpointing Lung Lesions during Surgery: A Collaborative Multi-Institu
+39682539	2024	Diagnostics (Basel)       	Improving Outcomes of CT-Guided Malignant Lung Lesion Microwave Ablation by Tract Sealing Using Venous Blood Clot
+32743888	2020	J Med Imaging Radiat Oncol	Tract sealing with normal saline after percutaneous transthoracic lung biopsies - promising but better evidence required
+
+########## port_site_pain_intercostal (40)
+12122825	2002	Chest Surg Clin N Am      	Postthoracotomy pain management
+28962710	2017	Thorac Surg Clin          	Subxiphoid Uniportal Video-Assisted Thoracoscopic Surgery Procedure
+36880136	2023	Postgrad Med              	Advantages and feasibility of intercostal nerve block in uniportal video-assisted thoracoscopic surgery (VATS)
+40142656	2025	J Clin Med                	New Trends in Uniportal Video-Assisted Thoracoscopic Surgery for Primary Spontaneous Pneumothorax: A Narrative Review
+29072964	2018	J Laparoendosc Adv Surg Te	Thoracoscopic Rib Resection in Children
+37673104	2024	Thorac Cardiovasc Surg    	Continuous Analgesia with Intercostal Catheterization after Thoracoscopy
+29701373	2017	Rev Port Cir Cardiotorac V	Uniportal VATS Lobectomy: Subxiphoid Approach
+31229477	2019	Ann Thorac Surg           	Liposomal Bupivacaine Enhances the Pain-Control Benefits of Uniportal Thoracoscopic Lobectomy
+32222960	2021	Thorac Cardiovasc Surg    	Serratus Anterior Plane Block and Intercostal Nerve Block after Thoracoscopic Surgery
+37015067	2023	J Laparoendosc Adv Surg Te	Two-Centimeter Single-Port Incision Minimizing Intercostal Nerve Damage Applied in Video-Assisted Thoracoscopic Surgery Segmentectomy f
+39354598	2024	J Cardiothorac Surg       	Assessment of intercostal nerve block analgesia and local anesthetic infiltration for thoracoscopic pulmonary bullae resection: a compa
+34537952	2021	Pain Ther                 	The Role of Serratus Anterior Plane Block During in Video-Assisted Thoracoscopic Surgery
+28757835	2017	Saudi J Anaesth           	Pain relief following thoracic surgical procedures: A literature review of the uncommon techniques
+35260084	2022	BMC Anesthesiol           	The effect of continuous intercostal nerve block vs. single shot on analgesic outcomes and hospital stays in minimally invasive direct 
+40400972	2025	J Thorac Dis              	Single versus multisite intercostal nerve block for post-thoracoscopic pain: a prospective observational study
+27014470	2016	J Thorac Dis              	Nonintubated uniportal thoracoscopic surgery for resection of lung lesions
+38951892	2024	J Cardiothorac Surg       	Comparative analysis of the analgesic effects of intercostal nerve block, ultrasound-guided paravertebral nerve block, and epidural blo
+39726901	2024	J Pain Res                	Ultrasound-Guided Continuous Rhomboid Intercostal and Sub-Serratus Plane Block Comparison of Thoracoscopic Intercostal Nerve Block Afte
+33786144	2021	Wideochir Inne Tech Maloin	Postoperative pain control with continuous paravertebral nerve block and intercostal nerve block after two-port video-assisted thoracic
+39015471	2024	JTCVS Open                	Outcomes of single- versus multi-port video-assisted thoracoscopic surgery: Data from a multicenter randomized controlled trial of vide
+39205418	2024	Kyobu Geka                	[Schwannoma of Intercostal Nerve Resulting in Significant Pain Relief Following Excision:Report of a Case]
+32802437	2020	J Thorac Dis              	Comparison of post-operative pain and quality of life between uniportal subxiphoid and intercostal video-assisted thoracoscopic lobecto
+39987421	2025	Pain Ther                 	Bayesian Network Meta-Analysis of Postoperative Analgesic Techniques in Thoracoscopic Lung Resection Patients
+28504587	2017	J Laparoendosc Adv Surg Te	A Single Intercostal Space Thoracoscopic Approach for Minimally Invasive Ivor Lewis Esophagectomy
+42232261	2025	J Vis Surg                	Biportal robotic-assisted surgery for lung segmentectomies: a surgical technique overview
+11156086	2000	Ann Thorac Surg           	The efficacy of intraoperative internal intercostal nerve block during video-assisted thoracic surgery on postoperative pain
+33956234	2021	Surg Today                	Modified 2-cm super single port vs. the traditional 3-cm single port for video-assisted thoracoscopic surgery lobectomy
+28149550	2016	J Thorac Dis              	Management of acute postoperative pain with continuous intercostal nerve block after single port video-assisted thoracoscopic anatomic 
+29701337	2017	Rev Port Cir Cardiotorac V	The First 24 Robotic Surgeries of Hospital da Luz
+42386651	2026	J Chest Surg              	Floating Intercostal Port Technique for Single-Port Robotic Resection of Posterior Mediastinal Schwannomas: A Case Report
+39340899	2024	Lung Cancer               	A prospective multi-institutional study to verify the non-inferiority of postoperative pain in robot-assisted thoracic surgery in compa
+29302423	2017	J Vis Surg                	Subxiphoid single incision thoracoscopic surgery approach for thymectomy: a case report
+32961460	2020	Int J Surg Case Rep       	Bilateral uniportal video-assisted thoracoscopic sympathectomy for managing secondary Raynaud's in CREST syndrome: A case report
+39872089	2025	J Pain Res                	Risk Factors for the Occurrence of Rebound Pain After Intercostal Nerves Block in Three-Port Thoracoscopic Surgery: A Case-Control Stud
+29302422	2017	J Vis Surg                	Subxiphoid approach for spontaneous bilateral pneumothorax: a case report
+41628208	2026	Pain Physician            	Effects of Continuous Intercostal Nerve Block Versus Patient-Controlled Intravenous Analgesia on Postoperative Pain After Video-Assiste
+27293824	2016	J Thorac Dis              	Management of post-operative pain by placement of an intraoperative intercostal catheter after single port video-assisted thoracoscopic
+42052452	2026	Front Oncol               	Association between modified same-intercostal chest tube placement and acute postoperative pain after uniportal VATS lobectomy: an over
+23115101	2013	Interact Cardiovasc Thorac	Total port-access lobectomy via a subcostal trans-diaphragmatic approach for lung cancer
+42388506	2026	Front Med (Lausanne)      	Efficacy of different nerve block techniques with liposomal bupivacaine for postoperative analgesia in patients undergoing single-port 
+
+########## orc_nerve_compression (40)
+38818121	2024	Bioeng Transl Med         	Bioadhesive microneedle patches for tissue sealing
+37526076	2023	Expert Rev Med Devices    	A contemporary systematic review of the complications associated with SURGICEL
+37436267	2023	Einstein (Sao Paulo)      	Post-thoracotomy paraplegia after oxidized cellulose spinal compression
+37933349	2023	Cureus                    	Surgicel® Granuloma Mimicking Recurrent Thyroid Tumor After Thyroidectomy: A Case Report and Literature Review
+30187219	2018	Acta Neurochir (Wien)     	Intracranial foreign material granulomas after cranial surgery
+42532231	2026	Int J Biol Macromol       	Development and preclinical investigation of vancomycin loaded oxidized cellulose dressing for management of wounds
+41485826	2026	Am J Obstet Gynecol       	Management of immediate and delayed postpartum hemorrhage with cesarean delivery
+37657582	2023	Int J Biol Macromol       	Preparation of pH-responsive oxidized regenerated cellulose hydrogels compounded with nano-ZnO/chitosan/aminocyclodextrin ibuprofen com
+37636794	2023	Indian J Otolaryngol Head 	Oxidized cellulose-based reaction mimicking thyroidal recurrence of disease: a case report and literature review
+7771819	1995	Ann Thorac Surg           	Paraplegia after thoracotomy: report of five cases and review of the literature
+38462109	2024	Int J Biol Macromol       	Silver-infused lysine crosslinked hydrogel with oxidized regenerated cellulose for prospective advanced wound dressings
+29420013	2018	Biomacromolecules         	Swelling and Free-Volume Characteristics of TEMPO-Oxidized Cellulose Nanofibril Films
+40835013	2026	J Arthroplasty            	The Effect of Intraoperative Administration of Oxidized Regenerated Cellulose on Blood Loss and Thigh Swelling After Total Knee Arthrop
+27178925	2016	Carbohydr Polym           	Thermo-responsive and compression properties of TEMPO-oxidized cellulose nanofiber-modified PNIPAm hydrogels
+24745805	2014	World J Surg Oncol        	Surgicel application in intracranial hemorrhage surgery contributed to giant-cell granuloma in a patient with hypertension: case report
+34973728	2022	Carbohydr Polym           	Stimuli-responsive composite hydrogels with three-dimensional stability prepared using oxidized cellulose nanofibers and chitosan
+34562535	2021	Int J Biol Macromol       	A TEMPO-oxidized cellulose nanofibers/MOFs hydrogel with temperature and pH responsiveness for fertilizers slow-release
+37727334	2023	Gland Surg                	The novel use and feasibility of hemostatic oxidized regenerated cellulose agent (SurgiGuard(®)): multicenter retrospective study
+36876783	2023	Carbohydr Polym           	Elongational behaviour of electrostatically stabilised and concentrated CNF and CNC hydrogels: Experiments and modelling
+16235029	2005	J Artif Organs            	Clinical benefits and risk analysis of topical hemostats: a review
+35777518	2022	Int J Biol Macromol       	Biological activity of multicomponent bio-hydrogels loaded with tragacanth gum
+42039987	2024	Galen Med J               	Managing Local Bleeding in Dentoalveolar Surgery: Practical Techniques and Best Practices: A Narrative Review
+34644247	2022	J Biomater Sci Polym Ed   	Fabrication of thrombin loaded TEMPO-oxidized cellulose nanofiber-gelatin sponges and their hemostatic behavior in rat liver hemorrhage
+32155120	2020	Wounds                    	Use of Oxidized Regenerated Cellulose (ORC)/Collagen/Silver-ORC Dressings Alone or Subsequent to Advanced Wound Therapies in Complex Wo
+39838550	2025	Brain Pathol              	Brain-derived textiloma post glioblastoma resection and application of oxidized regenerated cellulose: A pilot, bedside-to-bench, trans
+22572542	2012	Int J Surg Case Rep       	Oxidized cellulose (Surgicel) based reaction post thyroidectomy mimicking an abscess: A case report
+23759739	2013	Oncol Lett                	Surgicel(®) (oxidized regenerated cellulose) granuloma mimicking local recurrent gastrointestinal stromal tumor: A case report
+41344477	2026	Int J Biol Macromol       	Sandwiched ceftriaxone-impregnated oxidized regenerated cellulose within electrospun gelatin/polylactic acid fibers for enhanced wound 
+33751255	2021	J Artif Organs            	New hemostatic technique with combined use of Hydrofit(®) and Surgicel(®): an in vitro and in vivo study
+27446398	2016	Oncol Lett                	Surgicel(®) granuloma mimicking ovarian cancer: A case report
+22472162	2012	Int J Surg Case Rep       	Oxidized regenerated cellulose granuloma mimicking recurrent mass lesion after laparoscopic nephron sparing surgery
+38695613	2024	Cochrane Database Syst Rev	The role of sealants for achieving anastomotic hemostasis in vascular surgery
+38823913	2024	Carbohydr Polym           	Structure-properties relationships of defined CNF single-networks crosslinked by telechelic PEGs
+37875212	2024	J Minim Invasive Gynecol  	Multidirectional Traction Method Using SURGICEL NU-KNIT and Surgical Suture in Robot-assisted Laparoscopic Surgery for Endometrial Canc
+22278791	2011	Minim Invasive Neurosurg  	Massive swelling of Surgicel® Fibrillar™ hemostat after spinal surgery. Case report and a review of the literature
+35698375	2022	Carbohydr Polym           	A 3D printable dynamic nanocellulose/nanochitin self-healing hydrogel and soft strain sensor
+29878119	2018	Interact Cardiovasc Thorac	Oxidized resorbable cellulose (Gelita-cel) causing foreign body reaction in the mediastinum
+39829506	2025	ACS Omega                 	Preparation of TEMPO-Oxidized Cellulose Hydrogels Modified with β-Cyclodextrin and κ-Carrageenan for Potential Adsorption Applications
+40410772	2025	J Orthop Surg Res         	Oxidized regenerated cellulose powder reduces perioperative bleeding and thigh swelling in total hip arthroplasty: a prospective interv
+26884411	2016	Comp Med                  	Granuloma Due to Oxidized Regenerated Cellulose in an Aged Rhesus Macaque (Macaca mulatta)
+
+########## port_placement_robotic_mitral (10)
+40900091	2025	Multimed Man Cardiothorac 	Robotic mitral valve repair: patient positioning and port placement in female patients
+41682905	2026	J Clin Med                	Augmented and Mixed Reality in Cardiac Surgery: A Narrative Review
+40900082	2025	Multimed Man Cardiothorac 	Robotic mitral valve repair: patient positioning and port placement in male patients
+32353922	2020	J Card Surg               	Robotic-assisted cardiac surgery without lung isolation utilizing single-lumen endotracheal tube intubation
+15565905	2004	Nihon Geka Gakkai Zasshi  	[Use of the Zeus robotic surgical system for cardiac surgery]
+41563306	2026	Int J Surg                	Mastering robotic cardiac surgery: the impact of structured milestones and technological integration on the learning curve and patient 
+32950947	2020	Int J Surg Case Rep       	Totally endoscopic mitral valve repair without robotic assistance: A case report
+9769004	1998	Ann Thorac Surg           	Robotically assisted microsurgery for endoscopic coronary artery bypass grafting
+41904670	2026	Eur J Cardiothorac Surg   	Computed Tomography in Preoperative Planning of Minimally Invasive Valvular Heart Surgery: A Systematic Review of Mixed Evidence and Cl
+42494922	2026	Surg Case Rep             	Robotic Aortic Valve Replacement in Severe Scoliosis with Markedly Narrow Chest

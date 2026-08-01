@@ -75,3 +75,13 @@ future_cardiac_surgery/pdf_text/pmc_html/
 # handouts quote guideline tables)
 small_annulus_avr/presentation_asan2026/
 small_annulus_avr/*.pptx
+
+# LVAD driveline atlas: distributable package is a build artifact
+# (reproducible via `python3 lvad_driveline/build/build.py`) and contains
+# copyrighted publisher PDFs — never commit it or the zips.
+lvad_driveline/2026Jul_DLI_package/
+lvad_driveline/2026Jul_DLI_package_share/
+lvad_driveline/*.zip
+
+# robotic_port_device: 特許庁/FPO からスクレイプした特許原本のローカルキャッシュ
+robotic_port_device/patents/

@@ -1,0 +1,3363 @@
+1. J Cardiothorac Vasc Anesth. 2018 Aug;32(4):1618-1624. doi: 
+10.1053/j.jvca.2017.12.024. Epub 2017 Dec 13.
+
+Meta-analysis of the Sources of Bleeding after Adult Cardiac Surgery.
+
+Biancari F(1), Kinnunen EM(2), Kiviniemi T(3), Tauriainen T(2), Anttila V(3), 
+Airaksinen JKE(3), Brascia D(4), Vasques F(5).
+
+Author information:
+(1)Department of Surgery, University of Turku, Turku, Finland; Department of 
+Surgery, University of Oulu, Oulu, Finland; Heart Center, Turku University 
+Hospital and University of Turku, Turku, Finland. Electronic address: 
+faustobiancari@yahoo.it.
+(2)Department of Surgery, University of Oulu, Oulu, Finland.
+(3)Heart Center, Turku University Hospital and University of Turku, Turku, 
+Finland.
+(4)Department of Surgery, University of Turku, Turku, Finland.
+(5)Department of Anesthesia, Padua University Hospital, Padua, Italy.
+
+Comment in
+    J Cardiothorac Vasc Anesth. 2018 Aug;32(4):1625-1626. doi: 
+10.1053/j.jvca.2018.01.010.
+
+OBJECTIVE: The aim of this study was to pool data on the proportion and 
+prognostic impact of sources of bleeding in patients requiring re-exploration 
+after adult cardiac surgery.
+DESIGN: Systematic review of the literature and meta-analysis.
+SETTING: Multistitutional study.
+MEASUREMENTS AND MAIN RESULTS: A literature review was performed to identify 
+studies published since 1990 evaluating the outcome after reoperation for 
+bleeding or tamponade after adult cardiac surgery. Eighteen studies including 
+5,1497 patients fulfilled the selection criteria. Reoperation for 
+bleeding/tamponade was performed in 2,455 patients (4.6%; 95% confidence 
+interval [CI] 3.9%-5.2%, I2 92%). These had a significantly higher risk of 
+in-hospital/30-day mortality compared with patients not reoperated for bleeding 
+(pooled rates: 9.3% v 2.3%; risk ratio 3.30; 95% CI 2.52-4.32; I2 47%; 8 
+studies; 25,463 patients). Surgical sites of bleeding were identified in 65.7% 
+of cases (95% CI 58.3%-73.2%; I2 94%), cardiac site bleeding in 40.9% of cases 
+(95% CI 29.7%-52.0%; I2 94%), and mediastinal/sternum site bleeding in 27.0% of 
+cases (95% CI 16.8%-37.3%; I2 94%). The main sites of bleeding were the body of 
+the graft (20.2%), the sternum (17.0%), vascular sutures (12.5%), the internal 
+mammary artery harvest site (13.0%), and anastomoses (9.9%). In metaregression, 
+surgical site bleeding was associated with a lower risk of in-hospital/30-day 
+mortality compared with diffuse bleeding (p = 0.003).
+CONCLUSIONS: Surgical site bleeding is identified in two-thirds of patients 
+undergoing re-exploration after adult cardiac surgery. Meticulous surgical 
+technique and systematic intraoperative checking of potential surgical sites of 
+bleeding at the time of the original cardiac surgery may reduce the risk of such 
+a severe complication.
+
+Copyright © 2017 Elsevier Inc. All rights reserved.
+
+DOI: 10.1053/j.jvca.2017.12.024
+PMID: 29338997 [Indexed for MEDLINE]
+
+
+2. Ann Thorac Cardiovasc Surg. 2001 Dec;7(6):352-7.
+
+Re-exploration for hemorrhage following open heart surgery differentiation on 
+the causes of bleeding and the impact on patient outcomes.
+
+Hall TS(1), Brevetti GR, Skoultchi AJ, Sines JC, Gregory P, Spotnitz AJ.
+
+Author information:
+(1)Department of Cardiothoracic Surgery, University of California, San Francisco 
+94143, USA.
+
+Comment in
+    Ann Thorac Cardiovasc Surg. 2002 Aug;8(4):248-9; author reply 249.
+
+OBJECTIVES: To differentiate surgical bleeding requiring re-exploration from 
+postoperative coagulopathy and determine the differences in patient outcomes.
+METHODS: This was a retrospective chart review of 2,263 adult patients 
+undergoing elective and emergency open heart procedures encompassing coronary 
+artery bypass, valvular, and a combined procedure to determine the impact of 
+source of bleeding leading to re-exploration.
+RESULTS: Eighty-two patients (3.6%) required re-exploration. Sixty-six percent 
+had surgical bleeding; the remaining 34% were coagulopathic. Postoperative 
+coagulopathy was associated with preoperative heparin use (37% vs. 19.9% for 
+controls p<0.05). Re-operative procedures combined bypass/ valve (p<0.001) and 
+prolonged cardiopulmonary bypass and aortic cross-clamp times (p<0.05) were more 
+prevalent in the coagulopathy group. Postoperative inotrope use was increased in 
+patients who were re-explored (p<0.001), as were cardiac, pulmonary, renal and 
+abdominal complications (p<0.001), and in all cases those patients with 
+medically related bleeding had worse acute outcomes than the group with surgical 
+causes for re-exploration. The hospital stay was prolonged for both patients 
+with surgical bleeding (23.5 days) and patients with coagulopathy (27.1 days) 
+compared to patients not undergoing re-exploration for bleeding (12.0 days, 
+p<0.001). Survival was 91.3% for patients with surgical bleeding, 87.5% for 
+patients with coagulopathy, and 98.0% for all others (p<0.01).
+CONCLUSIONS: Severe postoperative hemorrhage is associated with significant 
+morbidity and increased mortality. Postoperative hospital stay, morbidity, and 
+mortality were significantly worse in patients suffering from coagulopathy when 
+compared to those patients with hemorrhage from surgical causes.
+
+PMID: 11888475 [Indexed for MEDLINE]
+
+
+3. Eur J Cardiothorac Surg. 2019 Apr 1;55(4):729-736. doi: 10.1093/ejcts/ezy362.
+
+Reduced re-exploration and blood product transfusion after the introduction of 
+the Papworth haemostasis checklist†.
+
+Ali JM(1), Gerrard C(1), Clayton J(1), Moorjani N(1).
+
+Author information:
+(1)Department of Cardiothoracic Surgery, Royal Papworth Hospital, Cambridge, UK.
+
+OBJECTIVES: Between 2% and 8% of patients return to the theatre for mediastinal 
+bleeding following cardiac surgery. In the majority of patients, a surgical 
+source of bleeding is identified. Both mediastinal bleeding and re-exploration 
+are associated with increased morbidity and mortality and the use of blood 
+products. The aim of this study was to develop a 'haemostasis checklist' with 
+the intention of reducing mediastinal bleeding and re-exploration following 
+cardiac surgery.
+METHODS: The Papworth haemostasis checklist was developed with a 
+multidisciplinary collaboration. It consists of 2 components: surgical sites and 
+coagulation status. The checklist is completed at a 'time-out' prior to sternal 
+wire insertion. The analysis compared the outcomes of patients undergoing 
+cardiac surgery in the 1 year before and after implementation. A propensity 
+analysis assessed the impact of re-exploration on outcomes.
+RESULTS: Three thousand eight hundred and eleven patients underwent cardiac 
+surgery during the study period. Re-exploration for bleeding was associated with 
+inferior outcomes. Following checklist implementation, there was a significant 
+reduction in the re-exploration rate (3.47% vs 2.08%, P = 0.01) and proportion 
+of patients bleeding >1 l in 12 h (6.1% vs 3.49%, P < 0.001). There was a 
+significant reduction in consumption of blood products saving £102 165 
+($134 198). The checklist implementation was associated with reduced intensive 
+care unit length of stay and hospital length of stay, adding to the financial 
+benefit.
+CONCLUSIONS: The haemostasis checklist represents a simple intervention which is 
+quick and easy to use but has had a substantial impact on clinical outcomes. We 
+have observed a significant reduction in the mediastinal blood loss, 
+return-to-theatre rate and consumption of blood products, which is associated 
+with a significant clinical and financial benefit.
+
+© The Author(s) 2018. Published by Oxford University Press on behalf of the 
+European Association for Cardio-Thoracic Surgery. All rights reserved.
+
+DOI: 10.1093/ejcts/ezy362
+PMID: 30346507 [Indexed for MEDLINE]
+
+
+4. Ann Thorac Surg. 2023 Jan;115(1):232-239. doi:
+10.1016/j.athoracsur.2022.07.037.  Epub 2022 Aug 8.
+
+Early Reexploration for Bleeding Is Associated With Improved Outcome in Cardiac 
+Surgery.
+
+Shou BL(1), Aravind P(1), Ong CS(1), Alejo D(1), Canner JK(1), Etchill EW(1), 
+DiNatale J(1), Prokupets R(1), Esfandiary T(1), Lawton JS(1), Schena S(2).
+
+Author information:
+(1)Division of Cardiac Surgery, Department of Surgery, Johns Hopkins University 
+School of Medicine, Baltimore, Maryland; Division of Surgical Outcomes, 
+Department of Surgery, Yale School of Medicine, New Haven, Connecticut.
+(2)Division of Cardiac Surgery, Department of Surgery, Johns Hopkins University 
+School of Medicine, Baltimore, Maryland; Division of Surgical Outcomes, 
+Department of Surgery, Yale School of Medicine, New Haven, Connecticut. 
+Electronic address: sschena1@jhmi.edu.
+
+Comment in
+    Ann Thorac Surg. 2023 Jan;115(1):239-240. doi: 
+10.1016/j.athoracsur.2022.08.003.
+    Ann Thorac Surg. 2023 Jun;115(6):1556-1557. doi: 
+10.1016/j.athoracsur.2022.08.027.
+    Ann Thorac Surg. 2024 Feb;117(2):483. doi: 10.1016/j.athoracsur.2023.03.035.
+
+BACKGROUND: Reexploration after cardiac surgery, most frequently for bleeding, 
+is a quality metric used to assess surgical performance. This may cause surgeons 
+to delay return to the operating room in favor of attempting nonoperative 
+management. This study investigated the impact of the timing of reexploration on 
+morbidity and mortality.
+METHODS: This study was a single-institution retrospective review of all adult 
+cardiac surgery patients from July 2010 to June 2020. Time to reexploration was 
+assessed, and outcomes were compared across increasing time intervals. Reported 
+bleeding sites were classified into 5 groups, and bleeding rate (chest tube 
+output) was compared across bleeding sites. Univariable analysis was performed 
+using the Fisher exact and Kruskal-Wallis tests. Multivariable logistic 
+regression models were used for risk-adjusted analyses.
+RESULTS: Of 10 070 eligible patients, 251 (2.5%) required reexploration for 
+postoperative bleeding. The most common site of bleeding was "any suture line" 
+(n = 70; 28%). Interestingly, in 30% of cases (n = 75) "no active bleeding" site 
+was reported. The highest rate of bleeding (mL/h) was observed in the "any 
+mediastinal structure" group (median, 450; interquartile range [IQR], 185, 
+8878), and the lowest rate was noted in the "no active bleeding" group (median, 
+151.2; IQR, 102, 270). Both morbidity rates (0-4 hours, 12.3% vs 25-48 hours, 
+37.5%; P = .001) and mortality rates (0-4 hours, 3.1% vs 25-48 hours, 43.8%; P = 
+.001) escalated significantly with increasing time to reexploration.
+CONCLUSIONS: Delayed reexploration for bleeding after cardiac surgery is 
+associated with increased risk for morbidity and mortality. Early surgical 
+intervention, particularly within 4 hours, may improve outcomes. Implications 
+from using reoperation as a performance metric may lead to unnecessary delay and 
+patient harm.
+
+Copyright © 2023 The Society of Thoracic Surgeons. Published by Elsevier Inc. 
+All rights reserved.
+
+DOI: 10.1016/j.athoracsur.2022.07.037
+PMID: 35952856 [Indexed for MEDLINE]
+
+
+5. Ann Thorac Surg. 1995 Mar;59(3):664-7. doi: 10.1016/0003-4975(94)00995-3.
+
+Resternotomy for bleeding after cardiac operation: a marker for increased 
+morbidity and mortality.
+
+Unsworth-White MJ(1), Herriot A, Valencia O, Poloniecki J, Smith EE, Murday AJ, 
+Parker DJ, Treasure T.
+
+Author information:
+(1)Cardiothoracic Unit, St. George's Hospital, London, United Kingdom.
+
+Over a 2-year period from January 1, 1992, to December 31, 1993, of 2,221 
+patients undergoing cardiac operations in our unit, 85 (3.8%) were reopened for 
+the control of bleeding (9 patients more than once). The incidence of 
+resternotomy in coronary cases was 2.3%, but resternotomy was more than three 
+times as likely in valve cases (odds ratio, 3.4; 95% confidence interval, 2.1 to 
+5.4). Previous cardiac operation was more common among resternotomy patients 
+than among the remainder (18% versus 9%, respectively; p = 0.018). An 
+identifiable source of bleeding was found in 57 of the 85 patients (67%), but a 
+concurrent coagulopathy was common (45 patients). Resternotomy patients, as a 
+group, had higher preoperative risk scores (Parsonnet) than did the other 
+patients (p < 0.0001), stayed longer in the intensive care unit (p < 0.0001), 
+and had greater requirements for intraaortic balloon counterpulsation (14% 
+versus 3%) and hemofiltration (9% versus 3%) (p < 0.0001 and p < 0.01, 
+respectively). Nineteen resternotomy patients (22%) died in the hospital, a 
+proportion significantly greater than the risk assigned to this group of 
+patients preoperatively (12.8%) (p = 0.008). In contrast, the observed mortality 
+for the other 2,136 patients (5.5%) was significantly less (8.3%) (p < 0.00006). 
+Multiple forward stepwise logistic-regression analysis confirmed resternotomy 
+for excessive bleeding after cardiac operation to be a significant independent 
+predictor of a prolonged stay in the intensive care unit (p < 0.0001), the need 
+for intraaortic balloon counterpulsation (p < 0.0001), and death (p < 0.0001).
+
+DOI: 10.1016/0003-4975(94)00995-3
+PMID: 7887708 [Indexed for MEDLINE]
+
+
+6. Thorac Cardiovasc Surg. 2018 Nov;66(8):622-628. doi: 10.1055/s-0037-1603205. 
+Epub 2017 May 16.
+
+Low Fibrinogen Is Associated with Increased Bleeding-Related Re-exploration 
+after Cardiac Surgery.
+
+Essa Y(1), Zeynalov N(1), Sandhaus T(1), Hofmann M(2), Lehmann T(3), Doenst 
+T(1).
+
+Author information:
+(1)Department of Cardiothoracic Surgery, Friedrich Schiller University of Jena, 
+Jena, Germany.
+(2)Department of Anaesthesiology and Critical Care Medicine, Jena University 
+Hospital, Friedrich Schiller University of Jena, Jena, Germany.
+(3)Institute of Medical Statistics, Computer Sciences and Documentation, 
+Friedrich Schiller University of Jena, Jena, Germany.
+
+BACKGROUND: Re-exploration after cardiac surgery remains a relatively frequent 
+complication associated with adverse effects on outcome. We aimed to identify 
+risk factors for re-exploration.
+METHODS: We retrospectively reviewed 2,403 patients having undergone cardiac 
+surgical procedure between January 2013 and December 2014. Re-exploration was 
+required in 114 patients (4.7%). Patients with oral anticoagulation, infective 
+endocarditis, or a clearly identified bleeding source were excluded. Therefore, 
+42 patients remained for analysis. A matched cohort was selected for age, sex, 
+ejection fraction, creatinine, and procedure out of the non-re-explored 
+patients.
+RESULTS: Demographic data were similar in both groups, except for a higher 
+prevalence of diabetes (45 vs. 21%; p = 0.036) in the non-re-explored patients. 
+Surgery was elective in two-thirds and preoperative plasma fibrinogen 
+concentration was lower in patients requiring re-exploration (2.8 ± 0.9 vs. 
+3.6 ± 0.9 g/L; p = 0.002). During the initial operation, re-explored patients 
+received more packed red blood cells (1.5 ± 3 vs. 0 ± 1 units; p < 0.001), 
+Postoperatively, re-explored patients had higher lactate levels (1.7 ± 1.4 vs. 
+1.3 ± 0.6 mmol/L, p = 0.044), more chest tube drainage (1,245 ± 948 vs. 
+685 ± 413 mL; p < 0.001), higher hospital mortality (19 vs. 7%; p = 0.19), and 
+longer intensive care unit (ICU) stays (8 ± 8 vs. 4 ± 7 days; p = 0.010). In 
+addition, more fibrinogen was administrated during the initial surgery. Plasma 
+fibrinogen concentration upon arrival at the ICU was lower in patients requiring 
+re-exploration (2 ± 0.6 vs. 2.7 ± 0.7 g; p < 0.001). Multivariable linear 
+regression analysis identified fibrinogen upon arrival at the ICU as an 
+independent predictor of postoperative bleeding.
+CONCLUSION: Cardiac surgery patients with low perioperative plasma fibrinogen 
+concentration appear to be more susceptible to bleeding and re-exploration. 
+Re-exploration in this group of patients is associated with increased morbidity 
+and mortality.
+
+Georg Thieme Verlag KG Stuttgart · New York.
+
+DOI: 10.1055/s-0037-1603205
+PMID: 28511245 [Indexed for MEDLINE]
+
+Conflict of interest statement: Disclosure The authors report no conflicts of 
+interest in this work.
+
+
+7. Ann Thorac Surg. 2014 Nov;98(5):1645-51; discussion 1651-2. doi: 
+10.1016/j.athoracsur.2014.05.090. Epub 2014 Aug 28.
+
+Planned cardiac reexploration in the intensive care unit is a safe procedure.
+
+LaPar DJ(1), Isbell JM(1), Mulloy DP(1), Stone ML(1), Kern JA(1), Ailawadi G(1), 
+Kron IL(2).
+
+Author information:
+(1)The Virginia Interdisciplinary Cardiothoracic Outcomes Research (VICTOR) 
+Center, Division of Thoracic and Cardiovascular Surgery, University of Virginia, 
+Charlottesville, Virginia.
+(2)The Virginia Interdisciplinary Cardiothoracic Outcomes Research (VICTOR) 
+Center, Division of Thoracic and Cardiovascular Surgery, University of Virginia, 
+Charlottesville, Virginia. Electronic address: ilk@virginia.edu.
+
+BACKGROUND: Cardiac surgical reexploration is necessary in approximately 5% of 
+all patients. However, the impact of routine, planned reexploration performed in 
+the intensive care unit (ICU) remains poorly defined. This study evaluated 
+postoperative outcomes after cardiac reexplorations to determine the safety and 
+efficacy of a planned approach in the ICU.
+METHODS: All patients undergoing ICU cardiac reexplorations (2000 to2011) at a 
+single institution were stratified according to a routine, planned ICU approach 
+to reexploration (planned) versus unplanned ICU or operating room reexploration. 
+Patient risk and outcomes were compared by univariate and multivariate analyses.
+RESULTS: 8,151 total patients underwent cardiac operations, including 267 (3.2%) 
+reexplorations (planned ICU=75% and unplanned ICU=18%). Among planned ICU 
+reexplorations, 38% of patients had an identifiable surgical bleeding source, 
+and 60% underwent reexploration less than 12 hours after the index procedure. 
+Unplanned ICU reexplorations had a higher Society of Thoracic Surgeons (STS) 
+predicted mortality (5% vs 3%, p<0.001) and incurred higher observed mortality 
+(37% vs 6%, p<0.001) and morbidity. Sternal wound infections were rare and were 
+similar between groups (p=0.81). Furthermore, upon STS mortality risk 
+adjustment, unplanned ICU reexplorations were associated with significantly 
+increased odds of mortality (OR=26.6 [7.1, 99.7], p<0.001) compared with planned 
+ICU reexplorations.
+CONCLUSIONS: Planned reexploration in the ICU is a safe procedure with 
+acceptable mortality and morbidity and low infection rates. Unplanned 
+reexplorations, however, increase postoperative risk and are associated with 
+high mortality and morbidity. These data argue for coordinated, routine 
+approaches to planned ICU reexploration to avoid delay in treatment for 
+postoperative hemorrhage.
+
+Copyright © 2014 The Society of Thoracic Surgeons. Published by Elsevier Inc. 
+All rights reserved.
+
+DOI: 10.1016/j.athoracsur.2014.05.090
+PMCID: PMC4692155
+PMID: 25173720 [Indexed for MEDLINE]
+
+
+8. Innovations (Phila). 2025 Sep-Oct;20(5):458-463. doi:
+10.1177/15569845251365733.  Epub 2025 Sep 5.
+
+Control of Port Site Bleeding With Liberal Use of Catheter Balloon Tamponade in 
+Robotic Mitral Valve Surgery.
+
+Qi SS(1), Grady K(1), Kitahara H(1), Nisivaco S(1), Johnson B(1), Tsukioka Y(1), 
+Balkhy HH(1).
+
+Author information:
+(1)Section of Cardiac Surgery, Department of Surgery, University of Chicago, IL, 
+USA.
+
+OBJECTIVE: Port sites are a common source of perioperative bleeding in robotic 
+cardiac surgery, which can be exacerbated by patient anatomy and 
+anticoagulation. We present results from the liberal usage of a balloon-tipped 
+coudé catheter for tamponade of robotic port sites during robotic mitral 
+surgery.
+METHODS: All patients who underwent robotic mitral valve surgery at our 
+institution from August 2016 to July 2022 were studied (N = 320). Patients 
+converted to sternotomy were excluded (n = 5). Patients were then divided into 2 
+groups for before or after implementation of a protocol for the liberal use of 
+balloon tamponade for patients with port site bleeding refractory to cautery. 
+Catheter balloon tamponade was applied to a bleeding port site while weaning 
+from cardiopulmonary bypass and usually removed after protamine administration. 
+In rare cases of severe coagulopathy, the catheter was left inserted and removed 
+in the intensive care unit after the coagulopathy resolved.
+RESULTS: A total of 315 patients were divided into a pre-protocol group 
+("control," n = 127) and a post-protocol group ("balloon," n = 188). The balloon 
+group showed lower rates of reoperation for bleeding (0% vs 4.7%, P = 0.004), 
+lower rates of pacemaker insertion (0.5% vs 3.9%, P = 0.04), and higher rates of 
+chest tube removal on the first postoperative day (83% vs 70%, P = 0.01). 
+Postoperative and intraoperative transfusion rates as well as hospital length of 
+stay were similar between groups.
+CONCLUSIONS: The liberal use of intraoperative balloon tamponade of robotic port 
+sites may decrease the risk of bleeding complications in robotic mitral valve 
+surgery.
+
+DOI: 10.1177/15569845251365733
+PMID: 40913323 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of Conflicting InterestsThe authors 
+declared the following potential conflicts of interest with respect to the 
+research, authorship, and/or publication of this article: Husam H. Balkhy 
+discloses he is a proctor for Intuitive Surgical.
+
+
+9. Heart Surg Forum. 2012 Oct;15(5):E272-6. doi: 10.1532/HSF98.20111179.
+
+Managing port-site bleeding during less invasive coronary artery bypass 
+grafting.
+
+Kiani S(1), Brecht ML, Lovinger K, Poston RS.
+
+Author information:
+(1)Division of Cardiothoracic Surgery, University of Arizona School of Medicine, 
+Tucson, AZ 85724-5071, USA.
+
+INTRODUCTION: Robotic-assisted coronary artery bypass grafting (r-CABG) requires 
+the placement of ports bluntly through the chest wall. When removed, these ports 
+create bleeding sites that can be difficult to detect and treat. This study 
+evaluated whether a topical hemostatic agent placed locally within these sites 
+helps to reduce bleeding and blood product requirements.
+METHODS: We retrospectively analyzed outcomes for r-CABG cases where 5 mL of a 
+flowable hemostatic agent was injected locally within all port sites (hemostat 
+group, n = 62) compared with patients whose port sites were untreated (controls, 
+n = 131). Outcomes included chest tube output, red blood cell (RBC) 
+transfusions, length of hospital stay, and the risk of reoperation for bleeding. 
+Analyses were adjusted for risk factors known to influence bleeding and Society 
+of Thoracic Surgeons (STS) risk score as a weighted composite of variables, 
+which controls for patient and clinical variables.
+RESULTS: The 2 study groups had similar baseline characteristics and underwent 
+the same r-CABG procedure. The hemostat group had significant reductions in RBC 
+transfusion (24.2% versus 40.8% receiving blood; P = .026; 0.44 versus 1.39 U 
+transfused postoperatively, P = .024). After adjustment for bleeding risks 
+(using STS risk score), differences in transfusions remained significant. 
+Reoperation rates for bleeding, length of stay, chest tube drainage, and 
+intraoperative transfusions were not significantly different in the 2 groups.
+CONCLUSIONS: There was significantly reduced postoperative bleeding and less 
+exposure to blood products in the hemostat group. These findings suggest that 
+undetected bleeding from sites used for port access serves as an 
+underappreciated source of morbidity after r-CABG.
+
+DOI: 10.1532/HSF98.20111179
+PMID: 23092664 [Indexed for MEDLINE]
+
+
+10. Ann Thorac Surg. 2026 Apr 13:S0003-4975(26)00333-4. doi: 
+10.1016/j.athoracsur.2026.03.068. Online ahead of print.
+
+Closed-Chest Robotic vs Port Access Approach for Mitral Repair: Comparison of 
+Postoperative Outcomes.
+
+Ascaso M(1), Sandoval E(1), Morales-Rey I(2), Pruna-Guillen R(3), Quintana E(4), 
+Alcocer J(2), Castella M(2), Pereda D(5).
+
+Author information:
+(1)Department of Cardiovascular Surgery, Hospital Clinic, Barcelona, Spain; PhD 
+Program in Medicine and Translational Research, University of Barcelona, 
+Barcelona, Spain; August Pi i Sunyer Biomedical Research Institute (IDIBAPS), 
+Barcelona, Spain.
+(2)Department of Cardiovascular Surgery, Hospital Clinic, Barcelona, Spain.
+(3)Department of Cardiovascular Surgery, Hospital Clinic, Barcelona, Spain; PhD 
+Program in Medicine and Translational Research, University of Barcelona, 
+Barcelona, Spain.
+(4)Department of Cardiovascular Surgery, Hospital Clinic, Barcelona, Spain; 
+August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain.
+(5)Department of Cardiovascular Surgery, Hospital Clinic, Barcelona, Spain; PhD 
+Program in Medicine and Translational Research, University of Barcelona, 
+Barcelona, Spain; August Pi i Sunyer Biomedical Research Institute (IDIBAPS), 
+Barcelona, Spain; Center for Biomedical Network Research on Cardiovascular 
+Diseases (CIBERCV), Madrid, Spain. Electronic address: dpereda@clinic.cat.
+
+BACKGROUND: A trocar-only approach has recently been proposed for mitral valve 
+repair. This closed-chest robotic-assisted (CCR) mitral valve repair completely 
+avoids minithoracotomy, thereby potentially enhancing surgical efficiency and 
+maximizing the benefits of robotic technology. We aimed to compare this approach 
+with the port-access approach.
+METHODS: This study was a retrospective analysis of patients undergoing surgery 
+using CCR or a port-access approach for isolated severe mitral regurgitation 
+secondary to mitral prolapse (2012-2025). A 1:1 propensity-matched cohort was 
+analyzed.
+RESULTS: A total of 306 patients were included (CCR, 117; port-access, 189), 
+with 107 matched pairs after propensity adjustment. Repair rates were 100% in 
+both groups with no conversions. Operative mortality was negligible, and major 
+complications were infrequent, including stroke (0.3%), prolonged mechanical 
+ventilation (2%), acute kidney injury (1%), pacemaker implantation (2%), and 
+reintervention for bleeding (3.2%), without group differences. The CCR approach 
+showed shorter total operative, bypass, and cross-clamp times (-25, -18, and -21 
+minutes; P < 0.001). Postoperative outcomes favored CCR, with lower drainage 
+output (145 mL vs 300 mL; P < .001), postoperative atrial fibrillation (11% vs 
+25%; P = .003), and infection rate (0% vs 5%; P = .017), as well as a shorter 
+hospital stay (3 days vs 7 days; P < .001). Five patients (1 CCR and 4 
+port-access) required early repeat repair during the index admission as a result 
+of suboptimal predischarge echocardiography; all patients underwent successful 
+repairs using the same approach. Overall, 99.3% of patients were discharged with 
+mild or less mitral regurgitation. At 2 years, freedom from severe regurgitation 
+was 96% in the CCR group and 94% in the port-access group.
+CONCLUSIONS: The CCR approach is a safe and effective alternative to the 
+port-access approach for elective mitral valve repair. Prospective randomized 
+studies are needed to define its clinical impact further.
+
+Copyright © 2026 The Society of Thoracic Surgeons. Published by Elsevier Inc. 
+All rights reserved.
+
+DOI: 10.1016/j.athoracsur.2026.03.068
+PMID: 41985604
+
+Conflict of interest statement: Disclosures The authors have no conflicts of 
+interest to disclose.
+
+
+11. J Thorac Cardiovasc Surg. 2008 Aug;136(2):436-41. doi: 
+10.1016/j.jtcvs.2008.03.053.
+
+Robotic mitral valve repairs in 300 patients: a single-center experience.
+
+Chitwood WR Jr(1), Rodriguez E, Chu MW, Hassan A, Ferguson TB, Vos PW, Nifong 
+LW.
+
+Author information:
+(1)Department of Cardiovascular Sciences, East Carolina Heart Institute, East 
+Carolina University, Greenville, NC 27858, USA. chitwoodw@ecu.edu
+
+OBJECTIVES: Mitral valve repair is the standard therapy for patients with 
+degenerative (myxomatous) disease and severe mitral regurgitation. Robotic 
+mitral valve repair provides the least-invasive surgical approach. We report the 
+largest single-center robotic mitral valve repair experience.
+METHODS: Between May 2000 and November 2006, 300 patients underwent a robotic 
+mitral valve repair (daVinci Surgical System; Intuitive Surgical, Inc, 
+Sunnyvale, Calif). All operations were done with 3- to 4-cm right intercostal 
+access, transthoracic aortic occlusion, and peripheral cardiopulmonary bypass. 
+Repairs included 1 or a combination of trapezoidal/triangular leaflet 
+resections, sliding plasties, chordal transfers/replacements, edge-to-edge 
+approximations, and ring annuloplasties. Echocardiographic and survival 
+follow-up were 93% and 100% complete, respectively.
+RESULTS: There were 2 (0.7%) 30-day mortalities and 6 (2.0%) late mortalities. 
+No sternotomy conversions or mitral valve replacements were required. Immediate 
+postrepair echocardiograms showed the following degrees of mitral regurgitation: 
+none/trivial, 294 (98%); mild, 3 (1.0%); moderate, 3 (1.0%); and severe, 0 
+(0.0%). Complications included 2 (0.7%) strokes, 2 transient ischemic attacks, 3 
+(1.0%) myocardial infarctions, and 7 (2.3%) reoperations for bleeding. The mean 
+hospital stay was 5.2 +/- 4.2 (standard deviation) days. Sixteen (5.3%) patients 
+required a reoperation. Mean postoperative echocardiographic follow-up at 815 
++/- 459 (standard deviation) days demonstrated the following degrees of mitral 
+regurgitation: none/trivial, 192 (68.8%); mild, 66 (23.6%); moderate, 15 (5.4%); 
+and severe, 6 (2.2%). Five-year Kaplan-Meier survival was 96.6% +/- 1.5%, with 
+93.8% +/- 1.6% freedom from reoperation.
+CONCLUSIONS: Robotic mitral valve repair is safe and is associated with good 
+midterm durability. Further long-term follow-up is necessary.
+
+DOI: 10.1016/j.jtcvs.2008.03.053
+PMID: 18692654 [Indexed for MEDLINE]
+
+
+12. Ann Thorac Surg. 2004 Jun;77(6):1978-82; discussion 1982-4. doi: 
+10.1016/j.athoracsur.2003.11.024.
+
+Minimally invasive mitral valve repair using the da Vinci robotic system.
+
+Tatooles AJ(1), Pappas PS, Gordon PJ, Slaughter MS.
+
+Author information:
+(1)Division of Cardiac Surgery, Advocate Christ Medical Center, Oak Lawn, 
+Illinois, USA.
+
+BACKGROUND: Minimally invasive mitral valve repair with a shortened hospital 
+stay and quick return to an active lifestyle is the ultimate goal for 
+robotically assisted surgery. We evaluated our da Vinci robotically assisted 
+mitral valve repair experience toward achieving this goal.
+METHODS: All procedures were performed with peripheral cardiopulmonary bypass, 
+transthoracic aortic cross-clamp, and antegrade cardioplegia. Two ports and a 
+4-cm intercostal incision in the right chest were used for access. All patients 
+had a ring annuloplasty, and all but 1 had a posterior leaflet resection. The 
+entire repair and all knot tying were performed robotically.
+RESULTS: Between October 2001 and October 2002, 25 patients (18 men) underwent 
+robotic mitral valve repair. The mean age was 56 years (range, 37 to 81 years). 
+There were no incisional conversions, deaths, strokes, or reoperations for 
+bleeding. Twenty-one (84%) of 25 patients were extubated in the operating room. 
+Overall mean study times were as follows: procedure, 199.7 minutes (range, 140 
+to 287 minutes); cardiopulmonary bypass, 126.6 minutes (range, 89 to 186 
+minutes); and cross-clamp, 87.7 minutes (range, 58 to 143 minutes). Eight (32%) 
+patients were discharged home in less than 24 hours, with an average length of 
+stay of 2.7 days. Comparing the first 10 patients to the last 15 there was a 
+significant reduction of times: total operating room time, 318.5 versus 275.1 
+minutes; cross-clamp, 97.6 versus 81.1 minutes; leaflet resection or repair, 
+26.2 versus 15.6 minutes; annuloplasty ring, 31.9 versus 24.8 minutes; and 
+length of stay, from 4.2 days to 1.67 days. Five patients had postoperative 
+atrial fibrillation. Two (8%) patients ultimately required mitral valve 
+replacement for recurrent mitral insufficiency.
+CONCLUSIONS: Mitral valve repair can be successfully performed with the da Vinci 
+robotic system. Long-term follow-up is needed to determine the durability of the 
+repair compared with a standard sternotomy approach.
+
+DOI: 10.1016/j.athoracsur.2003.11.024
+PMID: 15172249 [Indexed for MEDLINE]
+
+
+13. Gen Thorac Cardiovasc Surg. 2020 Oct;68(10):1079-1085. doi: 
+10.1007/s11748-020-01317-2. Epub 2020 Feb 18.
+
+Early results of robotically assisted mitral valve repair in a single 
+institution: report of the first 100 cases.
+
+Kakuta T(1), Fukushima S(1), Shimahara Y(1), Yajima S(1), Tadokoro N(1), Minami 
+K(2), Kobayashi J(1), Fujita T(3).
+
+Author information:
+(1)Department of Cardiac Surgery, National Cerebral and Cardiovascular Research 
+Center, 6-1 Kishibe-Shinmachi, Suita, Osaka, 564-8565, Japan.
+(2)Department of Surgical Intensive Care, National Cerebral and Cardiovascular 
+Research Center, Suita, Osaka, Japan.
+(3)Department of Cardiac Surgery, National Cerebral and Cardiovascular Research 
+Center, 6-1 Kishibe-Shinmachi, Suita, Osaka, 564-8565, Japan. 
+tfujita@ncvc.go.jp.
+
+OBJECTIVE: Robotically assisted mitral valve repair was approved for use in 
+Japan in April 2018. The study objective was to assess the safety and clinical 
+outcomes of robotic mitral valve surgery in the first 100 cases performed in our 
+center.
+METHODS: We reviewed the first 100 patients who underwent robotic primary mitral 
+valve repair, including concomitant procedures, from April 2018 to August 2019. 
+The cause of mitral valve disease was degenerative (n = 94), endocarditis 
+(n = 2), functional (n = 2), and other (n = 2).
+RESULTS: There was no in-hospital or 30-day mortality. Mitral valve repair was 
+completed in all patients. Only one patient required conversion to full 
+sternotomy due to left ventricular apex bleeding. In echocardiography performed 
+before hospital discharge, the mitral regurgitation was graded as none or 
+trivial in 94 patients (94%) and mild in 4 (4%). Only two patients required 
+surgical re-intervention due to postoperative hemolysis with moderate mitral 
+regurgitation. For patients who underwent the mitral valve procedure alone, the 
+median times of the total operation, cardiopulmonary bypass, aortic clamping, 
+and console usage were 185, 112, 71, and 60 min, respectively. The learning 
+curve showed that the operation time decreased slightly during the first ten 
+cases and then plateaued at a mean of approximately 180 min.
+CONCLUSIONS: Robotically assisted mitral valve repair was feasible, safe, and 
+therapeutically effective in the first 100 cases, with a minimal learning curve. 
+The robotically assisted approach provides a high-quality surgical view and 
+tremorless suture/cut handling, which will contribute to further development of 
+minimally invasive mitral valve surgery.
+
+DOI: 10.1007/s11748-020-01317-2
+PMID: 32072433 [Indexed for MEDLINE]
+
+
+14. Ann Thorac Surg. 2026 May;121(5):1038-1048. doi: 
+10.1016/j.athoracsur.2026.01.003. Epub 2026 Jan 29.
+
+The Society of Thoracic Surgeons Expert Consensus Pathway for Robotic Cardiac 
+Surgical Training.
+
+Badhwar V(1), Arghami A(2), Černý Š(3), Pereda D(4), Ramzy D(5), Patel N(6), 
+Chikwe J(7), Rove J(8), Smith JM(9), Oosterlinck W(10), Kempfert J(11), Pattakos 
+G(12), Hawkins RB(13), Gray K(14), Nakamura Y(15), Tabata M(16), Atroshchenko 
+GV(17), Chi NH(18), Nambala S(19), Bonatti JO(20), Balkhy HH(21), Smith RL 
+3rd(22), Weber A(23), Melnitchouk S(24), Pelletier M(14), Gillinov AM(25), 
+Grossi EA(26), Wyler von Ballmoos MC(27), Geirrson A(28).
+
+Author information:
+(1)Department of Cardiovascular and Thoracic Surgery, West Virginia University, 
+Morgantown, West Virginia. Electronic address: vinay.badhwar@wvumedicine.org.
+(2)Department of Cardiovascular Surgery, Mayo Clinic, Rochester, Minnesota.
+(3)Department of Cardiovascular Surgery, University Hospital Motol, Prague, 
+Czech Republic.
+(4)Department of Cardiovascular Surgery, Hospital Clinic, Barcelona, Spain.
+(5)Division of Cardiac Surgery, McGovern Medical School, UTHealth, Houston, 
+Texas.
+(6)Department of Cardiovascular and Thoracic Surgery, Lennox Hill Hospital, New 
+York, New York.
+(7)Department of Cardiac Surgery, Smidt Heart Institute, Cedars-Sinai, Los 
+Angeles, California.
+(8)Department of Surgery, University of Colorado Anschutz Medical Campus, 
+Denver, Colorado.
+(9)Division of Cardiac Surgery, The Christ Hospital, Cincinnati, Ohio.
+(10)Department of Cardiac Surgery, University Hospitals Leuven, Leuven, Belgium.
+(11)Department of Cardiothoracic and Vascular Surgery, Deutsches Herzzentrum der 
+Charité, Berlin, Germany.
+(12)Department of Cardiac Surgery, Hygeia Hospital, Athens, Greece.
+(13)Department of Cardiac Surgery, University of Michigan, Ann Arbor, Michigan.
+(14)Division of Cardiac Surgery, Yale School of Medicine, New Haven, 
+Connecticut.
+(15)Department of Cardiovascular Surgery, Chibanishi General Hospital, Matsudo 
+City, Japan.
+(16)Department of Cardiovascular Surgery, Toranomon Hospital, Juntendo 
+University, Tokyo, Japan.
+(17)Department of Cardiothoracic Surgery, Aalborg University Hospital, Aalborg, 
+Denmark.
+(18)Department of Surgery, National Taiwan University Hospital, Taipei, Taiwan.
+(19)Division of Cardiovascular and Thoracic Surgery, Apollo Hospital, Bengaluru, 
+Karnataka, India.
+(20)Department of Cardiothoracic Surgery, University of Pittsburgh, Pittsburgh, 
+Pennsylvania.
+(21)Division of Cardiac Surgery, University of Chicago, Chicago, Illinois.
+(22)Division of Cardiac Surgery, Baylor Scott & White Health, Plano, Texas.
+(23)Department of Cardiovascular Surgery, HerzZentrum Hirslanden, Zurich, 
+Switzerland.
+(24)Division of Cardiac Surgery, Massachusetts General Brigham, Harvard 
+University, Boston, Massachusetts.
+(25)Department of Thoracic and Cardiovascular Surgery, Cleveland Clinic, 
+Cleveland, Ohio.
+(26)Department of Cardiothoracic Surgery, NYU Langone Health, New York, New 
+York.
+(27)Department of Cardiovascular and Thoracic Surgery, Texas Health, Fort Worth, 
+Texas.
+(28)Division of Cardiac, Thoracic, and Vascular Surgery, Columbia University, 
+New York, New York.
+
+The Society of Thoracic Surgeons (STS) 2026 Expert Consensus Pathway on Robotic 
+Cardiac Training outlines principles for the safe initial introduction and 
+subsequent expansion of robotic cardiac programs. The 25-year history of robotic 
+cardiac surgery has established safety and efficacy while providing multiple 
+innovations. There is currently a unique opportunity to coalesce best practices 
+and evidence to inform a recent global surge in interest in incorporating 
+robotic techniques into standard cardiac surgical practice. This consensus is a 
+collaborative effort between the STS Workforce on Evidence Based Surgery, the 
+STS Robotic Cardiac Surgery Taskforce, and multinational leaders in robotic 
+cardiac surgery that aims to standardize initial core principles of preparatory 
+elements, followed by 4 phases of robotic cardiac training to proceed from 
+program commencement to mastery.
+
+Copyright © 2026 The Society of Thoracic Surgeons. Published by Elsevier Inc. 
+All rights reserved.
+
+DOI: 10.1016/j.athoracsur.2026.01.003
+PMID: 41619927 [Indexed for MEDLINE]
+
+Conflict of interest statement: Disclosures Štěpán Černý reports a relationship 
+with Intuitive Surgical Inc that includes: consulting or advisory. Kelsey Gray 
+reports a relationship with Intuitive Surgical Inc that includes: consulting or 
+advisory. Arnar Geirrson reports a relationship with Edwards that includes: 
+consulting or advisory; with Medtronic that includes: consulting or advisory; 
+and with Intuitive Surgical Inc that includes: consulting or advisory. A. Marc 
+Gillinov reports a relationship with Edwards Lifesciences that includes: 
+consulting or advisory; with Medtronic that includes: consulting or advisory; 
+with Abbott that includes: consulting or advisory; with Artivion, Inc. that 
+includes: consulting or advisory; with ClearFlow Inc that includes: consulting 
+or advisory; with AtriCure Inc that includes: consulting or advisory; and with 
+Baxter that includes: consulting or advisory. Nirav Patel reports a relationship 
+with Intuitive Surgical Inc that includes: consulting or advisory; and with 
+Vascular Graft Solutions that includes: consulting or advisory. Jessica Rove 
+reports a relationship with Intuitive Surgical Inc that includes: consulting or 
+advisory. J. Michael Smith reports a relationship with Intuitive Surgical Inc 
+that includes: consulting or advisory; and with AtriCure Inc that includes: 
+consulting or advisory. Wouter Oosterlinck reports a relationship with Intuitive 
+Surgical Inc that includes: consulting or advisory; and with Medtronic that 
+includes: consulting or advisory. Joerg Kempfert reports a relationship with 
+Intuitive Surgical Inc that includes: consulting or advisory; with Edwards 
+Lifesciences that includes: consulting or advisory; with Medtronic that 
+includes: consulting or advisory; with Abbott that includes: consulting or 
+advisory; with Artivion that includes: consulting or advisory; and with enableCV 
+that includes: consulting or advisory. Sathyaki Nambala reports a relationship 
+with Intuitive Surgical Inc that includes: consulting or advisory; with Edwards 
+Lifesciences that includes: consulting or advisory; and with Medtronic that 
+includes: consulting or advisory. Husam H. Balkhy reports a relationship with 
+Intuitive Surgical Inc that includes: consulting or advisory; with Edwards 
+Lifesciences that includes: consulting or advisory; and with Medtronic that 
+includes: consulting or advisory. Johannes O. Bonatti reports a relationship 
+with enableCV that includes: consulting or advisory. Robert L. Smith III reports 
+a relationship with Edwards Lifesciences that includes: consulting or advisory; 
+with Abbott that includes: consulting or advisory; with Medtronic that includes: 
+consulting or advisory; and with Artivion, Inc that includes: consulting or 
+advisory. The other authors have no conflicts of interest to disclose.
+
+
+15. Multimed Man Cardiothorac Surg. 2025 Sep 3;2025. doi: 10.1510/mmcts.2025.096.
+
+Robotic mitral valve repair: patient positioning and port placement in male 
+patients.
+
+Cullen P(1), Malas T(1), Gillinov M(1).
+
+Author information:
+(1)Department of Thoracic and Cardiovascular Surgery, Heart Vascular and 
+Thoracic Institute, Cleveland Clinic, Cleveland, OH, USA.
+
+Optimal exposure in mitral valve surgery is crucial for procedural success. 
+Robotic techniques provide unparalleled visualization when ports and retraction 
+sutures are positioned precisely. Here, we outline our standardized approach for 
+patient positioning, marking and port placement, derived from extensive 
+institutional experience. Adherence to this technique reliably ensures excellent 
+valve exposure and facilitates reproducible surgical outcomes.
+
+© The Author 2025. Published by MMCTS on behalf of the European Association for 
+Cardio-Thoracic Surgery. All rights reserved.
+
+DOI: 10.1510/mmcts.2025.096
+PMID: 40900082 [Indexed for MEDLINE]
+
+
+16. Multimed Man Cardiothorac Surg. 2025 Sep 3;2025. doi: 10.1510/mmcts.2025.097.
+
+Robotic mitral valve repair: patient positioning and port placement in female 
+patients.
+
+Cullen P(1), Malas T(1), Gillinov M(1).
+
+Author information:
+(1)Department of Thoracic and Cardiovascular Surgery, Heart Vascular and 
+Thoracic Institute, Cleveland Clinic, Cleveland, OH, USA.
+
+There are several important differences when positioning and placing ports for 
+robotic mitral surgery in female patients. Herein we demonstrate our technique 
+while highlighting some important tips and tricks. This approach almost 
+universally results in a perfect view, as well as a scar that is cosmetically 
+pleasing.
+
+© The Author 2025. Published by MMCTS on behalf of the European Association for 
+Cardio-Thoracic Surgery. All rights reserved.
+
+DOI: 10.1510/mmcts.2025.097
+PMID: 40900091 [Indexed for MEDLINE]
+
+
+17. Obes Surg. 2012 Feb;22(2):306-8. doi: 10.1007/s11695-011-0572-1.
+
+Use of Foley's catheter to control port-site bleeding in bariatric surgery.
+
+Ruiz-Tovar J(1), Priego-Jimenez P, Paiva-Coronel GA.
+
+Author information:
+(1)Department of Surgery, General University Hospital Elche, Elche, Alicante, 
+Spain. jruiztovar@gmail.com
+
+Abdominal wall bleeding in the port-site insertion placed during laparoscopic 
+bariatric surgery is often difficult to control. From January 2005 to August 
+2011, 226 patients underwent bariatric surgery at our institutions. Seventeen 
+patients (7.5%) presented port-site bleeding that could not be controlled with 
+electrocautery and Foley's catheter (24 F) was used for bleeding inhibition. Of 
+the 17 patients, there were 12 females (70.6%) and five males (29.4%) with a 
+mean age of 38.35 years. Mean body mass index (BMI) was 44.2. Most of bleeding 
+port-sites were located in hypochondrium and were 12-mm size. After the catheter 
+removal (median 36 h), bleeding did not recur in any case. There were no other 
+complications related to the port-side bleeding and the Foley catheter 
+placement. Hospital stay was not prolonged due to the use of the Foley catheter. 
+Port-site bleeding in bariatric surgery is a frequent complication. In up to 
+7.5% of the cases, the haemorrhage cannot be controlled with electrocautery. 
+Compression with Foley catheter balloon is a safe and efficient method to stop 
+bleeding.
+
+DOI: 10.1007/s11695-011-0572-1
+PMID: 22161136 [Indexed for MEDLINE]
+
+
+18. Rev Gastroenterol Peru. 2011 Jul-Sep;31(3):241-4.
+
+[Use of Foley's catheter to control abdominal wall bleeding in the trocar 
+insertion place during laparoscopic surgery].
+
+[Article in Spanish]
+
+Priego-Jiménez P(1), Ruiz-Tovar J, Paiva-Coronel GA.
+
+Author information:
+(1)Servicio de Cirugía General, Hospital General de Castellón, España.
+
+BACKGROUND: Abdominal wall bleeding in the port-site insertion place during 
+laparoscopic surgery is sometimes difficult to control and can be associated 
+with morbidity ranging from parietal pain up to haematoma and massive 
+haemoperitoneum.
+PATIENTS AND METHODS: We perform a retrospective study of our experience in the 
+management of the abdominal wall bleeding port-site using a Foley's catheter 
+(24F), in those cases when haemostasis with electrocautery was not achieved.
+RESULTS: This technique was used in 35 patients (27 women and 8 men) with a mean 
+age of 45,37 years (range 24-82 years). The median of time up to the removal of 
+the catheter was 36 hours (range 24-48 hours), without observing bleeding or 
+prolongation of the hospital stay or readmission.
+CONCLUSIONS: The use of Foley's catheter is a simple and efficient method for 
+the control of the port-site bleeding during laparoscopic surgery.
+
+PMID: 22086319 [Indexed for MEDLINE]
+
+
+19. J Obstet Gynaecol Res. 2009 Aug;35(4):725-31. doi: 
+10.1111/j.1447-0756.2008.01008.x.
+
+Port wound closure assisted by Foley catheter: an easier way to provide fascia 
+security.
+
+Su WH(1), Cheng MH, Tsou TS, Cheung SM, Chang SP, Wang PH.
+
+Author information:
+(1)Department of Obstetrics and Gynecology, Yee-Zen Hospital, Tao-Yuang, Taiwan.
+
+AIM: Specific laparoscopy-related complications, such as incisional hernia 
+(trocar hernia) or hemorrhage, are worthy of our special attention. Preventing 
+and managing these complications safely and efficiently are important, 
+suggesting that a definite closure of the 10-12 mm port wound after laparoscopy 
+is needed; for this, a newer, simpler method was used.
+METHODS: Ninety-six patients with benign ovarian tumor warranting laparoscopic 
+surgery were enrolled into the study. Forty-eight patients (50%) underwent a 
+Foley catheter-assisted port wound closure (Foley group) and the remaining 
+patients (50%) underwent a conventional port would closure (control group). The 
+outcome was measured by comparing operative time, the amount of suture material 
+used (difficulty of wound closure), therapeutic efficacy (hernia), postoperative 
+complications (bleeding, hematoma, and wound pain by a self-reported six-point 
+verbal numeric rating scale (VNRS-6)) and anesthesia use as measured by an 
+analgesic usage score (AUS), and dissatisfaction with the cosmetic results, in 
+both groups.
+RESULTS: The general characteristics of the patients were similar in both 
+groups. There were no statistical differences in mean operative time, 
+therapeutic efficacy, and postoperative complications between the two groups. 
+However, the amount of extra suture material needed was significantly less in 
+the Foley group compared to the control group (1.04 +/- 0.08 vs 1.29 +/- 0.44, P 
+= 0.015, and 4.2 vs 25%, P = 0.02, respectively).
+CONCLUSION: Wound closure with the assistance of a Foley catheter offers an easy 
+and secure way to close a 10-12 mm port wound.
+
+DOI: 10.1111/j.1447-0756.2008.01008.x
+PMID: 19751334 [Indexed for MEDLINE]
+
+
+20. Neurosurgery. 2010 Jun;66(6 Suppl Operative):334-5; discussion 335. doi: 
+10.1227/01.NEU.0000369655.96692.C5.
+
+Balloon compression technique in the management of persistent intraoperative 
+intratumoral hemorrhage resulting from stereotactic biopsy: technical note.
+
+Kutlay M(1), Simşek H, Colak A, Demircan MN.
+
+Author information:
+(1)Department of Neurosurgery, Haydarpaşa Training Hospital, Gülhane Military 
+Medical Academy, Istanbul, Turkey.
+
+BACKGROUND: Despite its proven safety, intraoperative intratumoral hemorrhage is 
+an uncommon but serious complication of stereotactic brain biopsy.
+OBJECTIVE: We describe the "balloon compression technique" that was used in the 
+management of persistent intraoperative bleeding that could not be arrested by 
+conventional methods of hemostasis.
+METHODS: Between January 2001 and March 2009, of 184 image-guided stereotactic 
+brain biopsy procedures, intraoperative intratumoral bleeding occurred in 12 
+cases (6.5%). In 3 of these 12 cases (1.6%), intraoperative hemorrhage was 
+persistent. In these cases, after adjustment of the optimum length, a balloon 
+catheter (Fogarty) was inserted through the cannula and inflated with a contrast 
+agent. We observed the patient for 10 minutes by checking the position of the 
+balloon with regular intervals, using a frozen C-arm fluoroscope to determine 
+any significant changes in its initial position due to possible enlargement of 
+the hematoma. The patient was also closely observed during this time.
+RESULTS: Hemostasis was obtained immediately after the inflation of the balloon 
+in all 3 cases. The patients tolerated the procedure well. During and after the 
+procedure no complications related to the technique were observed. None of the 
+cases required craniotomy for evacuation of the hematoma and to secure 
+hemostasis.
+CONCLUSION: Our preliminary results indicate that the balloon compression 
+technique seems to be a safe, rapid, and effective stereotactic practice in the 
+management of the persistent intraoperative intratumoral bleeding that could not 
+be arrested by standard, conventional hemostatic methods.
+
+DOI: 10.1227/01.NEU.0000369655.96692.C5
+PMID: 20489527 [Indexed for MEDLINE]
+
+
+21. J Visc Surg. 2023 Oct;160(5):337-345. doi: 10.1016/j.jviscsurg.2023.02.001.
+Epub  2023 Feb 24.
+
+Direct trocar insertion vs. Veress needle technique in laparoscopic surgeries. A 
+systematic review and meta-analysis.
+
+Elnaggar AA(1), Diab KR(1), El-Hangour BA(2), Kamel IS(3), Farhat AM(4), 
+Abdelsattar AT(3), Zarad MS(2).
+
+Author information:
+(1)Department of General Sugery, Faculty of medicine, Fayoum University, Fayuom, 
+Egypt.
+(2)Department of General Sugery, Faculty of medicine, Al-Azhar University, 
+Cairo, Egypt.
+(3)Faculty of Medicine, Fayoum University, Fayoum, Egypt.
+(4)Faculty of Medicine, Fayoum University, Fayoum, Egypt. Electronic address: 
+am3760@fayoum.edu.eg.
+
+AIM: To compare the safety and efficacy between Veress needle insertion and 
+direct trocar insertion in laparoscopic surgeries.
+METHODS: Relevant clinical trials were retrieved from major databases; Web of 
+Science, Cochrane CENTRAL, PubMed, and SCOPUS. The following outcomes were 
+pooled for analysis: failed entry, extraperitoneal insufflation, vascular 
+lesion, omental lesion and visceral lesion, site bleeding, reintervention, 
+subcutaneous emphysema, solid organ lesion, and infection of the trocar site. A 
+fixed-effects model was used to analyze homogeneous outcomes, whereas 
+random-effects models were used to analyze heterogeneous outcomes.
+RESULTS: We included a total of twelve clinical trials. The pooled analysis 
+showed that the Veress needle was accompanied by a significant increase in the 
+incidences of extraperitoneal insufflation (RR = 0.204; 95% Cl [0.136, 0.307], 
+P=0.001), omental lesion (RR=0.444 95% Cl [0.239, 0.825], P=0.01), and failed 
+entry (RR=0.169 95% Cl [0.101, 0.284], P=0.001). There is no significant 
+difference between both cohort regarding the vascular lesion (RR=0.847 95% Cl 
+[0.259, 2.777), P=0.7), infection of the trocar site (RR=0.583 95%Cl [0.106, 
+3.216], P=0.5, and visceral lesion (RR=1.308 95% Cl [0.314, 5.438], P=0.7.
+CONCLUSION: The DTI was accompanied by a significantly lower incidence of 
+complications such as extraperitoneal insufflation, failed entry, omental 
+lesion, and subcutaneous emphysema. On the other hand, both cohorts showed 
+similar results regarding; vascular lesions, visceral lesions, reintervention, 
+site bleeding, and solid organ lesion.
+
+Copyright © 2023 Elsevier Masson SAS. All rights reserved.
+
+DOI: 10.1016/j.jviscsurg.2023.02.001
+PMID: 36842955 [Indexed for MEDLINE]
+
+
+22. Langenbecks Arch Surg. 2023 Apr 17;408(1):152. doi:
+10.1007/s00423-023-02891-8.
+
+Major and minor complications in Veress needle (VN) and direct trocar insertion 
+(DTI) for laparoscopic closed-entry techniques: an updated systematic review and 
+meta-analysis.
+
+Taliento C(1), Pontrelli G(2), Rondoni A(3), Desgro M(2), Steinkasserer M(4), 
+Scutiero G(3), Vizzielli G(5), Greco P(3).
+
+Author information:
+(1)Department of Medical Sciences, Institute of Obstetrics and Gynecology, 
+University of Ferrara, Ferrara, Italy. cristina.taliento1@gmail.com.
+(2)Policlinico Abano Terme, Abano Terme, Padua, Italy.
+(3)Department of Medical Sciences, Institute of Obstetrics and Gynecology, 
+University of Ferrara, Ferrara, Italy.
+(4)Department of Obstetrics and Gynecology, Bolzano Hospital, Bolzano, Italy.
+(5)Department of Medical Area (DAME), Clinic of Obstetrics and Gynecology, 
+University of Udine, Santa Maria Della Misericordia" University Hospital, 
+Azienda Sanitaria Universitaria Friuli Centrale, Udine, Italy.
+
+OBJECTIVE: Direct insertion of the trocar is an alternative method to Veress 
+needle insertion for the creation of pneumoperitoneum. We conducted a systematic 
+review and meta-analysis to compare these two entry closed techniques.
+DATA SOURCE: A systematic review of the literature was done on PubMed, MEDLINE, 
+Embase, Scopus, and EBSCO.
+METHODS: The literature search was constructed until May 01, 2022, around search 
+terms for "Veress," "direct trocar," "needle," "insertion," and "laparoscopic 
+ways of entry." This systematic review was reported according to the PRISMA 
+Statement 2020.
+RESULTS: Sixteen controlled trials (RCTs) and 5 observational studies were 
+included in the systematic review. We found no significant differences in the 
+risk of major complication during the access manoeuvres between DTI and VN: 
+bowel injuries (OR = 0.76, 95% CI: 0.24-2.36, P = 0.63), major vascular injuries 
+(OR = 1.74, 95% CI 0.56-5.38, P = 0.34), port site hernia (OR = 2.41, 95% CI: 
+0.28-20.71, P = 0.42). DTI has a lower risk of minor complications such as 
+subcutaneous emphysema (OR = 5.19 95% CI: 2.27-11.87, P < 0.0001), 
+extraperitoneal insufflation (OR = 5.93 95% CI: 1.69-20.87, P = 0.006), omental 
+emphysema (OR = 18.41, 95% CI: 7. 01-48.34, P < 0.00001), omental bleeding 
+(OR = 2.32, 95% CI: 1.18-4.55, P = 0.01), and lower number of unsuccessful entry 
+or insufflation attempts (OR = 2.25, 95% CI: 1.05-4.81, P = 0.04). No 
+significant differences were found between the two groups in terms of time 
+required to achieve complete insufflation (MD =  - 15.53, 95% CI: - 91.32 to 
+60.27, P = 0.69), trocar site bleeding (OR = 0.66, 95% CI, 0.25-1.79, P = 0.42), 
+and trocar site infection (OR = 1.19, 95% CI, 0.34-4.20, P = 0.78).
+CONCLUSION: There were no statistically significant differences in the risk of 
+major complications during the access manoeuvres between DTI and VN. A lower 
+number of minor complications were observed in DTI compared with those in Veress 
+access.
+
+© 2023. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+part of Springer Nature.
+
+DOI: 10.1007/s00423-023-02891-8
+PMID: 37069276 [Indexed for MEDLINE]
+
+
+23. World J Surg. 2024 Jul;48(7):1656-1661. doi: 10.1002/wjs.12214. Epub 2024 May
+ 14.
+
+Trocar-site incisional hernia after 8-mm robotic trocar placement: A prospective 
+study.
+
+Cianfarani A(1)(2), Mongelli F(2)(3), Iaquinandi F(2), Xhepa G(2), Pini R(2), 
+Gaffuri P(2), La Regina D(2)(3).
+
+Author information:
+(1)Department of Surgery, Lugano Regional Hospital, EOC, Lugano, Switzerland.
+(2)Department of Surgery, Bellinzona e Valli Regional Hospital, EOC, Bellinzona, 
+Switzerland.
+(3)Faculty of Biomedical Sciences, Università della Svizzera Italiana, Lugano, 
+Switzerland.
+
+BACKGROUND: The current literature supports the closure of trocar sites ≥10-mm 
+for the risk of developing incisional hernias, while there is no need to suture 
+the abdominal fascia when using 5-mm trocars. To date, evidence regarding the 
+closure of 8-mm trocars that are use by new robotic systems is weak. The aim of 
+our study was to investigate the incidence of incisional hernia for 8-mm 
+trocars.
+METHODS: We prospectively collected data on all patients undergoing 
+robotic-assisted abdominal wall surgery from 2020 to 2023, in whom the abdominal 
+fascia of all 8-mm trocars was not closed. The enrolled patients underwent a 
+follow-up visit during which we conducted clinical and sonographic evaluations 
+of all 8-mm trocars, in addition to assessing the satisfaction levels of the 
+patients. The primary outcome was the incidence of port-site hernia.
+RESULTS: We enrolled 166 patients, 155 men and 11 women, for a total of 513 
+trocars accessed. Mean age was 61.1 ± 14.0 years, and mean BMI was 
+27.0 ± 3.9 kg/m2. The follow-up visits were carried out after a median follow-up 
+of 14.5 (9.0-23.2) months. Only one case developed an asymptomatic 1 × 1 cm 
+supra-umbilical hernia that was not treated. Patient reported a satisfaction 
+regarding the 8-mm trocars and skin sutures of 9.8 ± 0.5 out of 10 points.
+CONCLUSIONS: The occurrence of a trocar-site hernia after 8-mm robotic access is 
+extremely low. Hence, the fascia closure may not be necessary.
+
+© 2024 International Society of Surgery/Société Internationale de Chirurgie 
+(ISS/SIC).
+
+DOI: 10.1002/wjs.12214
+PMID: 38743387 [Indexed for MEDLINE]
+
+
+24. Int J Med Robot. 2024 Apr;20(2):e2624. doi: 10.1002/rcs.2624.
+
+Robotic 8-mm trocar fascial wounds: To close or not to close?
+
+Milone M(1), Anoldo P(2), Manigrasso M(1), Cantore G(1), Campanile S(1), 
+Rompianesi G(1), Troisi RI(1), D'Amore A(1), De Palma GD(1).
+
+Author information:
+(1)Department of Clinical Medicine and Surgery, Federico II University of 
+Naples, Naples, Italy.
+(2)Department of Advanced Biomedical Sciences, Federico II University of Naples, 
+Naples, Italy.
+
+BACKGROUND: The aim of this study was to investigate 8-mm robotic trocar site 
+hernia (TSH) rate over the short and long term, providing aids to manage the 
+related fascial wounds.
+METHODS: A retrospective analysis of 320 patients undergoing robotic surgery was 
+conducted. The primary outcome was 8-mm TSH rate with a minimum follow-up of 
+12 months. The secondary outcome was the rate of haematomas and infections 
+related to 8-mm wounds and their association with patient comorbidities and 
+trocar position.
+RESULTS: One case of TSH was observed (0.31%). There were 15 cases of wound 
+infection (4.68%) and 22 cases of wound haematoma (6.87%). Trocar related 
+complications were significantly associated with patient comorbidities, not with 
+trocar position.
+CONCLUSIONS: Our results do not justify the 8-mm fascial wound closure. Data 
+concerning the association between trocar-related complications and patient 
+comorbidities strengthen the need to implement the control of metabolic state 
+and correct administration of perioperative therapy in high-risk patients.
+
+© 2024 The Authors. The International Journal of Medical Robotics and Computer 
+Assisted Surgery published by John Wiley & Sons Ltd.
+
+DOI: 10.1002/rcs.2624
+PMID: 38430543 [Indexed for MEDLINE]
+
+
+25. Hernia. 2011 Apr;15(2):113-21. doi: 10.1007/s10029-010-0757-x. Epub 2010 Dec
+9.
+
+Trocar site hernia after laparoscopic surgery: a qualitative systematic review.
+
+Helgstrand F(1), Rosenberg J, Bisgaard T.
+
+Author information:
+(1)Department of Surgery, Køge Sygehus, University of Copenhagen, Lykkebækvej 1, 
+4600, Køge, Denmark. freh@regionsjaelland.dk
+
+PURPOSE: There is a risk of developing a trocar site hernia (TSH) after 
+laparoscopic surgery, but data is sparse and based mostly on retrospective 
+studies with a short and poorly defined follow-up period. Surgical approaches 
+and patient-related co-morbidity have also been suggested as risk factors for 
+development of TSH. The aim of the present review was to perform a qualitative 
+systematic analysis to estimate the incidence of TSH and to discuss the surgical 
+and patient-related risk factors for development of TSH.
+METHODS: The literature search was until 19 May 2010. Studies with TSH, defined 
+as either operation for TSH or a hernia found during clinical follow-up, were 
+included. We included randomised controlled trials, prospective non-controlled 
+studies including >200 patients, and retrospective studies including >200 
+patients. The review was completed according to the PRISMA guidelines.
+RESULTS: We included 19 studies in adults and 3 studies in paediatric patients 
+(<18 years), and a total of 30,568 adults and 1,098 children were analysed. The 
+overall incidence of TSH was 0-5.2%. TSH occurred most often (96%) in trocar 
+sites of a minimum of 10 mm, located mostly in the umbilicus region (82%). Data 
+supported a higher incidence of TSH when the trocar site fascia was not sutured, 
+and in pre-school children undergoing a laparoscopic procedure.
+CONCLUSIONS: Current data suggests a relatively low incidence of TSH but that 
+all trocar incisions of a minimum of 10 mm should be closed. In pre-school 
+children undergoing laparoscopic surgery, all port sites should be closed.
+
+DOI: 10.1007/s10029-010-0757-x
+PMID: 21152941 [Indexed for MEDLINE]
+
+
+26. Surg Endosc. 2020 Dec;34(12):5250-5258. doi: 10.1007/s00464-020-07826-8. Epub
+ 2020 Jul 29.
+
+Does closure of fascia, type, and location of trocar influence occurrence of 
+port site hernias? A literature review.
+
+Gutierrez M(1)(2), Stuparich M(1), Behbehani S(1), Nahas S(3).
+
+Author information:
+(1)Department of Obstetrics and Gynecology, University of California Riverside 
+School of Medicine, 19330 Jesse Ln Suite 100, Riverside, CA, 92508, USA.
+(2), Rancho Cucamonga, CA, USA.
+(3)Department of Obstetrics and Gynecology, University of California Riverside 
+School of Medicine, 19330 Jesse Ln Suite 100, Riverside, CA, 92508, USA. 
+samar.nahas@medsch.ucr.edu.
+
+Comment in
+    J Urol. 2021 Sep;206(3):752. doi: 10.1097/JU.0000000000001914.
+
+BACKGROUND: Since the introduction of laparoscopic surgery, it has become more 
+popular with many advantages over open surgery including faster recovery, 
+shorter hospital stays, and decreased tissue trauma. Despite its benefits, 
+laparoscopic surgery can result in its own unique complications, such as the 
+formation of a trocar site hernia (TSH), which have been reported in 
+approximately 0-1.0% of laparoscopic cases when using non-bladed trocars.
+METHODS: A literature review was performed from June 1990 to June 2019. PubMed 
+was searched using the keywords "laparoscopic surgery," "trocar site hernia," 
+and "port site hernia." Only articles in English were identified but not limited 
+to the USA.
+RESULTS: The total number of patients in all articles was 18,533 with a mean 
+follow-up period of 22.50 ± 1.76 months. The overall trocar site hernia rate was 
+0.104%. When comparing open vs. closed ports, there was no significant 
+difference in the hernia incidence rate for 5-mm and 10-mm ports. When comparing 
+bladed versus non-bladed trocars left open, there was a statistically 
+significant difference with lower hernia incidence rates for non-bladed trocars 
+over bladed trocars for 5-mm, 10-mm, and 12-mm ports. And when comparing trocar 
+location from midline versus off-midline, there was a statistically significant 
+higher TSH incidence in midline trocar locations.
+CONCLUSION: Results suggest that TSH rate is lower when using non-bladed trocars 
+for any size of trocar. When comparing whether fascial closure had an effect, 
+the 5-mm and 10-mm ports had no difference in incidence rates and leaving the 
+fascia open can reduce operative time, risk of needlestick injuries, and overall 
+procedural cost. In addition, trocars at midline locations resulted in higher 
+TSH incidence rates. Future research is still needed to assess for other factors 
+that may influence hernia formation and how it can be minimized.
+
+DOI: 10.1007/s00464-020-07826-8
+PMID: 32728766 [Indexed for MEDLINE]
+
+
+27. Arch Surg. 2004 Nov;139(11):1248-56. doi: 10.1001/archsurg.139.11.1248.
+
+Trocar site hernia.
+
+Tonouchi H(1), Ohmori Y, Kobayashi M, Kusunoki M.
+
+Author information:
+(1)Departments of Innovative Surgery, Mie University School of Medicine, Mie, 
+Japan.
+
+OBJECTIVE: To review the relationship between the pathogenesis and clinical 
+manifestations of trocar site hernias seeking to confirm the definition of 
+trocar site hernias by classification.
+DATA SOURCES: We searched this subject in English on MEDLINE by combining the 
+words "trocar," "port," "hernia, and "laparoscopy."Data Extraction and
+STUDY SELECTION: We limited the main operations to cholecystectomy, colon and 
+rectal surgery, fundoplication, and gastric surgery; finding 44 reports on these 
+procedures. Of these, 19 were case reports, 18 were original articles (setting 
+criteria; the incidence of the trocar site hernia was clarified, and involved 
+>100 patients), and 7 technical notes on "how to do it" were collected. We 
+obtained 19 additional reports using the references of those previously 
+obtained. We, thus, reviewed 63 reports (24 case reports, 27 original articles, 
+7 technical notes, and 5 review articles).
+DATA SYNTHESIS: Trocar site hernia was classified into 3 types. The early-onset 
+type that occurred immediately after the operation, with a small-bowel 
+obstruction, especially the Richter hernia, frequently developing. The 
+late-onset type that occurred several months after the operation, mostly with 
+local abdominal bulging with no small-bowel obstruction developing. The special 
+type that occurred indicated the protrusion of the intestine and/or omentum. 
+Trocar site hernias with fascial defects of 10 mm or larger should be closed, 
+including the peritoneum. Opinion varied if a 5-mm trocar site defect should be 
+closed.
+CONCLUSION: It is useful to clearly classify trocar site hernias to improve 
+management of laparoscopic procedures.
+
+DOI: 10.1001/archsurg.139.11.1248
+PMID: 15545574 [Indexed for MEDLINE]
+
+
+28. J Robot Surg. 2026 Apr 4;20(1):415. doi: 10.1007/s11701-026-03371-z.
+
+A novel peritoneal channel technique using a hemostatic agent to minimize 
+symptomatic fluid collections after single-port robot-assisted radical 
+prostatectomy.
+
+O'Hara J(1), Shalaby A(2), Lembrikova K(3), Gelman S(3), Saxena S(3), Hou L(3), 
+Kourouma A(3), Ambinder D(3), Billah MS(3), Stifelman M(2), Ahmed M(2).
+
+Author information:
+(1)Hackensack University Medical Center, Hackensack, NJ, USA. 
+jacob.ohara@hmhn.org.
+(2)Hackensack Meridian School of Medicine, Nutley, NJ, USA.
+(3)Hackensack University Medical Center, Hackensack, NJ, USA.
+
+Symptomatic fluid collections are a source of morbidity for patients after 
+single-port (SP) robot assisted radical prostatectomy (RARP). We previously 
+demonstrated a reduction in fluid collections by over 50% using peritoneal 
+windows. This study represents the first reported use of a hemostatic agent to 
+maintain peritoneal window patency, promoting wicking and reabsorption of 
+postoperative fluid collections. The institution’s IRB-approved prostate cancer 
+database was used to identify 467 patients who underwent extraperitoneal SP RARP 
+by two surgeons from January 2021 to September 2025. Patients were stratified 
+into cohorts based on surgical technique for prevention of postoperative fluid 
+collection: (1) peritoneal window, (2) peritoneal window with Surgicel, and (3) 
+neither (control). Symptomatic fluid collections were defined as having lower 
+abdominal/pelvic pain, worsening urgency/frequency, or fever. Among 467 
+patients, symptomatic fluid collections were rare across groups. The Surgicel 
+cohort (n = 77) had no symptomatic collections and no drainage procedures, 
+compared to 10 symptomatic cases in the control group (n = 195) and 4 in the 
+peritoneal window group (n = 195) (p = 0.005). Asymptomatic collections occurred 
+in 3 patients from the Surgicel cohort (3.9%), none requiring intervention. We 
+demonstrate a novel technique using hemostatic mesh to create a channel from the 
+prostatectomy bed to the peritoneum after extraperitoneal SP RARP. This 
+technique markedly reduced the incidence of symptomatic fluid collections and 
+trends toward the reduction of overall collections. This technique is less 
+complex and more time-efficient than the peritoneal window technique. Surgeons 
+seeking to reduce the incidence of symptomatic fluid collections after 
+extraperitoneal SP RARP should consider this technique.
+
+DOI: 10.1007/s11701-026-03371-z
+PMID: 41933246 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Competing interests: Authors Jacob 
+O’Hara, Ahmed Shalaby, Katerina Lembrikova, Simon Gelman, Sonam Saxena, Laurence 
+Hou, Aisha Kourouma, David Ambinder and Mubashir S. Billah declare they have no 
+financial interests. Michael Stifelman serves as a consultant for Intuitive 
+Surgical and Vascular Technology Inc. Mutahar Ahmed serves as a consultant for 
+Intuitive Surgical, BioTissue, Ethicon, Lexion Medical, and Vascular Technology 
+Inc. Ethics Approval: This study received ethics approval with its IRB approval 
+on 4/21/2021 (Pro2020-1293). Consent to Participate: Informed consent was 
+obtained from all individual participants included in this study. Consent to 
+Publish: Consent to publish was obtained from all individuals included in this 
+study.
+
+
+29. Am J Surg. 2008 Jan;195(1):99-103. doi: 10.1016/j.amjsurg.2007.03.006.
+
+Microporous polysaccharide hemospheres for management of laparoscopic trocar 
+injury to the spleen.
+
+Humphreys MR(1), Castle EP, Andrews PE, Gettman MT, Ereth MH.
+
+Author information:
+(1)Department of Urology, Mayo Clinic Arizona, Phoenix, AZ, USA. 
+Humphreys.Mitchell@mayo.edu
+
+BACKGROUND: Management of iatrogenic injuries during laparoscopy can be arduous. 
+Recent advancements in surgical hemostatic agents have provided beneficial 
+therapeutic alternatives. This project evaluates microporous polysaccharide 
+hemospheres (MPH), with demonstrated efficiency achieving topical hemostasis, in 
+the setting of intracorporeal laparoscopic splenic injury.
+METHODS: Four domestic female pigs were subjected to reproducible laparoscopic 
+12-mm and 5-mm trocar splenic injuries. Each surgery was an identical 
+transperitoneal hand-assisted laparoscopic procedure. Hemostasis, or no bleeding 
+after treatment, was achieved by measured dose applications of MPH.
+RESULTS: The MPH successfully achieved hemostasis for all splenic injuries 
+except in 1 case, where a 12-mm lesion transected the splenic artery. The mean 
+time to hemostasis, applications of MPH, and estimated blood loss for the 5- and 
+12-mm injuries were 165.3 +/- 45.7 and 200.7 +/- 106.5 seconds, 1.3 +/- .5 
+applications for both, and 12.0 +/- 4.6 and 17.7 +/- 9.1 g, respectively.
+CONCLUSIONS: MPH represents a powerful hemostatic agent that demonstrated 
+complete hemostasis for iatrogenic splenic injury.
+
+DOI: 10.1016/j.amjsurg.2007.03.006
+PMID: 18070734 [Indexed for MEDLINE]
+
+
+30. Br J Surg. 2012 May;99(5):613-20. doi: 10.1002/bjs.8708. Epub 2012 Feb 24.
+
+Systematic review and meta-analysis of cutting diathermy versus scalpel for skin 
+incision.
+
+Ly J(1), Mittal A, Windsor J.
+
+Author information:
+(1)Department of Surgery, University of Auckland, Auckland, New Zealand.
+
+Comment in
+    Br J Surg. 2012 May;99(5):620. doi: 10.1002/bjs.8711.
+
+BACKGROUND: Skin incisions have traditionally been made using a scalpel. Cutting 
+diathermy, a more recent alternative, is thought to increase the risk of 
+infection, impair healing and decrease cosmesis. Recent studies suggest 
+otherwise, claiming that diathermy may offer potential advantages with respect 
+to blood loss, incision time and postoperative pain. The aim of this 
+meta-analysis was to compare skin incisions made by either scalpel or cutting 
+diathermy.
+METHODS: A systematic literature search and review was performed for studies 
+published from January 1980 until June 2011. Randomized clinical trials 
+comparing scalpel and cutting diathermy for skin incisions of any operation were 
+included. Primary outcomes included wound complication rate, blood loss, 
+incision times and pain scores.
+RESULTS: Fourteen randomized trials met the criteria for inclusion in the 
+meta-analysis, providing outcome data for a total of 2541 patients (1267 
+undergoing skin incision by cutting diathermy and 1274 by scalpel). The median 
+length of follow-up across all studies was 6 weeks (range 4 days to 19 months). 
+Compared with a scalpel incision, cutting diathermy resulted in significantly 
+less blood loss (mean difference 0.72 ml/cm(2); P < 0.001) and shorter incision 
+times (mean difference 36 s; P < 0.001), with no differences in the wound 
+complication rate (odds ratio 0.87; P = 0.29) or pain score at 24 h (mean 
+difference 0.89; P = 0.05).
+CONCLUSION: Skin incisions made by cutting diathermy are quicker and associated 
+with less blood loss than those made by scalpel, and there are no differences in 
+the rate of wound complications or postoperative pain.
+
+Copyright © 2012 British Journal of Surgery Society Ltd. Published by John Wiley 
+& Sons, Ltd.
+
+DOI: 10.1002/bjs.8708
+PMID: 22367850 [Indexed for MEDLINE]
+
+
+31. Int J Surg. 2020 Mar;75:35-43. doi: 10.1016/j.ijsu.2020.01.020. Epub 2020 Jan
+ 22.
+
+Diathermy versus scalpel for skin incision in patients undergoing open inguinal 
+hernia repair: A systematic review and meta-analysis.
+
+Hajibandeh S(1), Hajibandeh S(2), Maw A(3).
+
+Author information:
+(1)Department of Colorectal and General Surgery, Glan Clwyd Hospital, Rhyl, UK. 
+Electronic address: shahab_hajibandeh@yahoo.com.
+(2)Department of General Surgery, Sandwell and West Birmingham Hospitals NHS 
+Trust, Birmingham, UK.
+(3)Department of Colorectal and General Surgery, Glan Clwyd Hospital, Rhyl, UK.
+
+Comment in
+    Int J Surg. 2020 Apr;76:45-46. doi: 10.1016/j.ijsu.2020.02.026.
+    Int J Surg. 2020 Jun;78:58-59. doi: 10.1016/j.ijsu.2020.04.021.
+
+OBJECTIVES: To compare outcomes of diathermy and scalpel for skin incision in 
+patients undergoing open inguinal hernia repair.
+METHODS: We performed a systematic review in accordance with Preferred Reporting 
+Items for Systematic Reviews and Meta-Analyses statement standards. We conducted 
+a search of electronic information sources to identify all randomised controlled 
+trials (RCTs) and observational studies comparing use of diathermy and scalpel 
+for skin incision in patients undergoing inguinal hernia repair. Surgical site 
+infection (SSI) was the primary outcome measure. Secondary outcome measures 
+included haematoma, seroma, visual analogue scale (VAS) pain score at 6 h, 12 h, 
+and 24 h, and incision time. We used Cochrane risk of bias tool and ROBINS-I 
+tool to assess the risk of bias of randomised and non-randomised studies. 
+Fixed-effect model was applied to calculate pooled outcome data.
+RESULTS: We identified 9 studies, 4 randomised controlled trials and 5 
+prospective cohort studies, enrolling a total of 830 patients. Meta-analysis of 
+RCTs showed no difference between the diathermy and scalpel groups in terms of 
+surgical site infection (OR: 0.77, 95% CI 0.34, 1.75, P = 0.53), seroma (OR: 
+0.86, 95% CI 0.29, 2.55, P = 0.78), VAS pain score at 6 h (MD: -0.10, 95% CI 
+-0.31, 0.11, P = 0.34), 12 h (MD: -0.10, 95% CI -0.13, 0.33, P = 0.40), and 24 h 
+(MD: 0.03, 95% CI -0.16, 0.21, P = 0.79). Use of diathermy for skin incision was 
+associated with shorter incision time (MD: -36.00, 95% CI -47.92, -24.08, 
+P < 0.00001) and lower risk of haematoma (OR: 0.14, 95% CI 0.03, 0.65, 
+P = 0.01). Meta-analysis of observational studies showed no difference between 
+the diathermy and scalpel groups in terms of surgical site infection (OR: 0.87, 
+95% CI 0.54, 1.39, P = 0.55), haematoma (OR 0.14, 95% CI 0.02-1.23, P = 0.08), 
+seroma (OR: 0.86, 95% CI 0.29, 2.55, P = 0.78), VAS pain score at 6 h (MD: 
+-0.10, 95% CI -0.44, 0.24, P = 0.56), 12 h (MD: -0.10, 95% CI -0.26, 0.46, 
+P = 0.58), and 24 h (MD: 0.10, 95% CI -0.27, 0.47, P = 0.59). Use of diathermy 
+for skin incision was associated with shorter incision time (MD: -39.40, 95% CI 
+-41.02, -37.78, P < 0.00001). The results remained consistent through 
+sensitivity analyses. The between-study heterogeneity was low and the quality of 
+the available evidence was moderate.
+CONCLUSIONS: There is no difference between use of diathermy and scalpel for 
+skin incision in patients undergoing open inguinal hernia repair in terms of 
+surgical site infection, seroma and postoperative pain. Use of diathermy for 
+skin incision may be associated with shorter incision time and may reduce the 
+risk of haematoma formation.
+
+Copyright © 2020 IJS Publishing Group Ltd. Published by Elsevier Ltd. All rights 
+reserved.
+
+DOI: 10.1016/j.ijsu.2020.01.020
+PMID: 31978649 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest Nothing to 
+declare.
+
+
+32. Cir Esp (Engl Ed). 2025 Jan;103(1):3-10. doi: 10.1016/j.cireng.2024.09.002.
+Epub  2024 Sep 18.
+
+Diathermy versus scalpel in midline abdominal incision: A systematic review and 
+meta-analysis of randomized controlled trials.
+
+Dos Santos Pimenta N(1), Felix de Farias Santos AC(2), Costa Esteves Almuinha 
+Salles JP(3), Millani de Oliveira J(4), Costa Matos da Silva PH(5), Colombari 
+RC(6).
+
+Author information:
+(1)Federal University of the State of Rio de Janeiro (UNIRIO), Rio de Janeiro, 
+Brazil. Electronic address: nicolepimenta@edu.unirio.br.
+(2)City University of São Paulo (UNICID), São Paulo, Brazil.
+(3)Federal University of the State of Rio de Janeiro (UNIRIO), Rio de Janeiro, 
+Brazil.
+(4)Universidad Abierta Interamericana, Buenos Aires, Argentina.
+(5)Department of Gynecologic and Obstetrics, Federal University of Goiás (UFG), 
+Goiânia, Brazil.
+(6)Colorectal Surgery Unit, Central Defense Gómez Ulla Hospital, Madrid, Spain.
+
+INTRODUCTION: Our study aimed to compare the midline abdominal incision with 
+scalpel and diathermy.
+METHODS: PubMed, EMBASE, and Cochrane were searched through January 2024 
+following PRISMA guidelines (PROSPERO, ID: CRD42024516771), and only randomized 
+controlled trials were included. Heterogeneity was assessed using Cochran's Q 
+test and the I2 heterogeneity index. Statistical analysis was performed using 
+Review Manager 5.4 software.
+RESULTS: Six randomized controlled trials were included, from which 469 patients 
+(51.5%) received diathermy incision and 442 patients (48.5%) underwent the 
+scalpel technique. Patients treated with the electrocautery approach had less 
+incision blood loss (MD -17.57 mL; P < .01). No statistically significant 
+differences were found between groups regarding wound infection incidence, 
+incision time, incision area or first-day postoperative pain.
+CONCLUSION: Diathermy use in midline abdominal incision may be advocated as it 
+demonstrated a significant reduction in incision-related blood loss, with no 
+differences in wound infection or early postoperative pain incidences compared 
+to the scalpel.
+
+Copyright © 2024 AEC. Published by Elsevier España, S.L.U. All rights reserved.
+
+DOI: 10.1016/j.cireng.2024.09.002
+PMID: 39304130 [Indexed for MEDLINE]
+
+
+33. Int J Surg. 2015 Jul;19:78-82. doi: 10.1016/j.ijsu.2015.04.085. Epub 2015 May
+ 26.
+
+Comparison of electrocautery incision with scalpel incision in midline abdominal 
+surgery - A double blind randomized controlled trial.
+
+Prakash LD(1), Balaji N(2), Kumar SS(3), Kate V(4).
+
+Author information:
+(1)Department of Surgery, Jawaharlal Institute of Postgraduate Medical Education 
+and Research (JIPMER), Pondicherry 605006, India. Electronic address: 
+doraiprakash@gmail.com.
+(2)Department of Surgery, Jawaharlal Institute of Postgraduate Medical Education 
+and Research (JIPMER), Pondicherry 605006, India. Electronic address: 
+nitesh.pagadala@gmail.com.
+(3)Department of Surgery, Jawaharlal Institute of Postgraduate Medical Education 
+and Research (JIPMER), Pondicherry 605006, India. Electronic address: 
+drsureshkumar08@yahoo.com.
+(4)Department of Surgery, Jawaharlal Institute of Postgraduate Medical Education 
+and Research (JIPMER), Pondicherry 605006, India. Electronic address: 
+drvikramkate@gmail.com.
+
+AIM &OBJECTIVES: To compare the electrocautery incision with scalpel incision in 
+patients undergoing abdominal surgery using a midline incision with respect to 
+incision time, blood loss during incision, postoperative incision site pain and 
+wound infection.
+METHODS: Patients undergoing midline abdominal surgery were randomized into 
+electrocautery and scalpel groups. The incision dimensions, incision time and 
+blood loss during incision were noted intraoperatively. Postoperative pain and 
+wound infection were recorded on every postoperative day for one week.
+RESULTS: 41 patients in each of the two groups were analyzed. Gender and age 
+distribution was similar in both the groups. The mean incision time per unit 
+wound area in the electrocautery group and scalpel group was 9.40 ± 3.37 s/cm(2) 
+and 9.07 ± 3.40 s/cm(2) (p = 0.87) respectively. The mean blood loss per unit 
+wound area was significantly lower in the electrocautery group at 6.46 ± 3.94 ml 
+when compared to that of 23.40 ± 15.28 ml in the scalpel group (p= < 0.0001, 
+CI = 11.97-21.89). There was no significant difference in pain on any of the 
+postoperative days between the two groups and there was no significant 
+difference in the wound infection rates between the electrocautery and scalpel 
+groups (14.63% vs. 12.19%; p = 0.347).
+CONCLUSION: With a comparable Postoperative incision site pain, wound infection 
+rate and significantly lower blood loss with the equal time taken for the 
+incision, electrocautery can be considered safe and effective in making skin 
+incision in midline laparotomy compared to scalpel incision.
+
+Copyright © 2015 IJS Publishing Group Limited. Published by Elsevier Ltd. All 
+rights reserved.
+
+DOI: 10.1016/j.ijsu.2015.04.085
+PMID: 26021211 [Indexed for MEDLINE]
+
+
+34. ANZ J Surg. 2016 Apr;86(4):303-6. doi: 10.1111/ans.12434. Epub 2013 Oct 28.
+
+Cautery versus scalpel for abdominal skin incisions: a double blind, randomized 
+crossover trial of scar cosmesis.
+
+Stupart DA(1), Sim FW(1), Chan ZH(1), Guest GD(1), Watters DA(1).
+
+Author information:
+(1)Department of Surgery, Geelong Hospital and Deakin University, Geelong, 
+Victoria, Australia.
+
+BACKGROUND: The purpose of this study was to determine whether there is any 
+difference in cosmetic outcome between using cutting diathermy and using a 
+scalpel to make abdominal skin incisions.
+METHOD: This was a prospective, randomized, double-blind crossover study. The 
+primary end point was wound cosmesis as judged by the patient. In each case, 
+one-half of the skin incision was made using diathermy, and one-half using a 
+scalpel blade. Patients were contacted at 6 months post-operatively, and were 
+asked which half of the wound looked better to them. A panel of 18 surgeons was 
+also shown photographs of the wounds taken after 6 months, and were asked the 
+same question.
+RESULTS: Of the 31 patients with complete follow-up, 11 (35%) reported no 
+difference between the two halves of the wound. Nine (29%) preferred the half 
+incised with diathermy, and 11 (35%) preferred the half incised with the scalpel 
+(P = 0.82, chi-squared test). Twenty-four patients consented to having their 
+wound photographed. There was no difference in the surgeons' preference between 
+the diathermy and scalpel halves of the incision (P = 0.35, signed-rank test).
+CONCLUSION: We found the use of cutting diathermy to make abdominal skin 
+incisions to be cosmetically equivalent to cutting with the scalpel. As previous 
+studies have not shown adverse wound outcomes using this technique, and 
+considering the safety concerns for theatre staff when the scalpel is used, the 
+routine use of cutting diathermy for skin incisions in abdominal surgery is 
+justified.
+
+© 2013 Royal Australasian College of Surgeons.
+
+DOI: 10.1111/ans.12434
+PMID: 24165306 [Indexed for MEDLINE]
+
+
+35. Br J Surg. 2001 Jan;88(1):41-4. doi: 10.1046/j.1365-2168.2001.01625.x.
+
+Randomized clinical trial of diathermy versus scalpel incision in elective 
+midline laparotomy.
+
+Kearns SR(1), Connolly EM, McNally S, McNamara DA, Deasy J.
+
+Author information:
+(1)Department of Surgery, Royal College of Surgeons in Ireland, Beaumont 
+Hospital, Dublin, Ireland. doc-sk72@hotmail.com
+
+Comment in
+    Br J Surg. 2001 Aug;88(8):1129. doi: 10.1046/j.1365-2168.2001.01882-7.x.
+
+BACKGROUND: Electrocautery is used increasingly for tissue dissection, although 
+fears of excessive scarring and poor wound healing have curtailed its widespread 
+use for skin incision. This study compared electrosurgical incision with 
+traditional scalpel incision.
+METHODS: One hundred patients requiring elective midline laparotomy were 
+randomized prospectively to either scalpel or diathermy incision. Parameters 
+measured included incision time, wound size, wound blood loss, total 
+intraoperative blood loss and postoperative wound pain. All wound complications 
+were recorded.
+RESULTS: The two groups did not differ significantly in relation to patient or 
+wound characteristics. Laparotomy incisions using diathermy were significantly 
+quicker than scalpel incisions (mean(s. e.m.) 6.1(0.4) versus 7.5(0.5) s/cm2; P 
+< 0.04). There was significantly less blood loss in the diathermy group compared 
+with the scalpel group (0.8(0.1) versus 1.7(0.3) ml/cm2; P = 0.002). 
+Postoperative pain scores were significantly lower in the diathermy group for 
+the first 48 h after operation (P < 0.05). Morphine requirements were also 
+significantly lower over the first 5 postoperative days in the diathermy 
+incision group (P < 0.04). There was no difference between groups in wound 
+complications before discharge and at the 1-month follow-up.
+CONCLUSION: Electrosurgical midline incision in elective surgery has significant 
+advantages over scalpel use on the basis of incision time, blood loss, early 
+postoperative pain and analgesia requirements.
+
+DOI: 10.1046/j.1365-2168.2001.01625.x
+PMID: 11136307 [Indexed for MEDLINE]
+
+
+36. Am J Surg. 2001 Feb;181(2):128-32. doi: 10.1016/s0002-9610(00)00561-4.
+
+A multicentre collaborative study on the use of cold scalpel and electrocautery 
+for midline abdominal incision.
+
+Franchi M(1), Ghezzi F, Benedetti-Panici PL, Melpignano M, Fallo L, Tateo S, 
+Maggi R, Scambia G, Mangili G, Buttarelli M.
+
+Author information:
+(1)Department of Obstetrics and Gynecology, University of Insubria, Varese, 
+Italy. ginecova@ospedale.varese.it
+
+BACKGROUND: Although studies in animals demonstrated a better wound healing 
+after abdominal incision with cold scalpel than with electrocautery, clinical 
+experiences did not confirm these findings. The purpose of this study was to 
+compare early and late wound complications between diathermy and scalpel in 
+gynecologic oncologic patients undergoing midline abdominal incision.
+METHODS: Patients undergoing midline abdominal incision for uterine malignancies 
+were divided into two groups according to the method used to perform the 
+abdominal midline incision: cold scalpel and diathermy in coagulation mode. 
+Early and late complications were compared. Logistic regressions were used for 
+statistical analysis.
+RESULTS: Nine hundred sixty-four patients were included, of whom 531 were in the 
+scalpel group and 433 in the electrocautery group. Both groups were similar with 
+respect to demographic, operative, and postoperative characteristics. Univariate 
+analysis revealed a higher incidence of severe wound complications in the 
+scalpel group than in the electrocautery group (8 of 531 versus 1 of 433, P 
+<0.05). After adjustment for confounding variables (eg, age, body mass index) no 
+differences were found between groups.
+CONCLUSIONS: Scalpel and diathermy are similar in terms of early and late wound 
+complications when used to perform midline abdominal incisions. Therefore the 
+choice of which method to use remains only a matter of surgeon preference.
+
+DOI: 10.1016/s0002-9610(00)00561-4
+PMID: 11425052 [Indexed for MEDLINE]
+
+
+37. Br J Surg. 1990 Jun;77(6):626-7. doi: 10.1002/bjs.1800770610.
+
+Wound infection after abdominal incision with scalpel or diathermy.
+
+Johnson CD(1), Serpell JW.
+
+Author information:
+(1)Department of Surgery, Kingston Hospital, Surrey, UK.
+
+DOI: 10.1002/bjs.1800770610
+PMID: 2143426 [Indexed for MEDLINE]
+
+
+38. Respirology. 2013 Aug;18(6):942-7. doi: 10.1111/resp.12088.
+
+Physician-performed ultrasound can accurately screen for a vulnerable 
+intercostal artery prior to chest drainage procedures.
+
+Salamonsen M(1), Dobeli K, McGrath D, Readdy C, Ware R, Steinke K, Fielding D.
+
+Author information:
+(1)Department of Thoracic Medicine, The Royal Brisbane and Women's Hospital, 
+Brisbane, Queensland, Australia. mattsalamonsen@gmail.com
+
+Comment in
+    Respirology. 2013 Aug;18(6):891-2. doi: 10.1111/resp.12136.
+
+BACKGROUND AND OBJECTIVE: Laceration of the intercostal artery during pleural 
+procedures is a rare but serious complication. This study evaluates the utility 
+of thoracic ultrasound (US) to screen for a vulnerable vessel compared with the 
+gold standard computed tomography (CT).
+METHODS: Before undergoing contrast-enhanced CT chest, thoracic US was performed 
+on 50 patients with a high-end and portable machine, and an attempt made to 
+visualize the vessel at three positions across the back to the axilla. These 
+positions were labelled with radio-opaque fiducial markers. On both US and CT 
+images, the location of the vessel at each position, relative to the overlying 
+rib, was calculated and compared.
+RESULTS: The vessel was unshielded by a rib according to CT in 114 of the 133 
+positions. The sensitivity, specificity and negative predictive value of 
+portable US to image the vessel, when it was within the intercostal space on CT, 
+was 0.86, 0.30 and 0.27 respectively. The performance of a high-end machine was 
+not significantly different. The median time required for a pulmonologist to 
+locate the vessel was 42 s and 18 s for the portable and high-end US 
+respectively.
+CONCLUSIONS: US can be used to screen for a vulnerable vessel prior to pleural 
+procedures, in a time amenable to use in clinical practice. Further, it is 
+achievable by a pulmonologist using a portable US machine. If thoracentesis or 
+chest tube insertion is being performed on a patient at increased risk of 
+bleeding, screening for a vulnerable vessel with US prior to beginning the 
+procedure is recommended.
+
+© 2013 The Authors. Respirology © 2013 Asian Pacific Society of Respirology.
+
+DOI: 10.1111/resp.12088
+PMID: 23521021 [Indexed for MEDLINE]
+
+
+39. Zentralbl Chir. 2017 Aug;142(4):404-410. doi: 10.1055/s-0043-114733. Epub
+2017  Aug 24.
+
+[Interventional Radiological Treatment of Intercostal Artery Bleedings - a 
+Retrospective Analysis].
+
+[Article in German; Abstract available in German from the publisher]
+
+Kupczyk P(1), Meyer C(1), Thomas D(1), Schild HH(1), Pieper CC(1).
+
+Author information:
+(1)Radiologische Klinik, Universitätsklinikum Bonn, Bonn, Deutschland.
+
+Background Intercostal artery bleedings are potentially fatal injuries. Apart 
+from conservative and surgical treatment options, emergency interventional 
+radiological treatment can also be performed. We report our experience with 
+emergency intercostal artery embolisation. Materials and Methods Patients with 
+acute arterial bleedings from the intercostal artery who were treated 
+interventionally over a period of 7 years were identified retrospectively. 
+Technical and clinical success, clinical and procedural parameters as well as 
+overall survival were analysed. Results Between 2010 and 2017, a total of 27 
+embolisation procedures was performed in 24 patients (14 male, mean age 
+65.7 ± 13.9 years). The majority of patients suffered from iatrogenic 
+intercostal artery bleedings (n = 17; 70.1%; especially after thoracocentesis). 
+In five cases, thoracoscopic surgery was attempted prior to intervention but was 
+unsuccessful. Primary technical success was obtained in 25/27 interventions. In 
+two cases, there was re-bleeding via collateral arteries so that re-intervention 
+became necessary (secondary technical success). In 15 cases, secondary surgery 
+after successful interventional treatment was necessary to evacuate the 
+haematoma/haemothorax. Intercostal artery embolisation was clinically successful 
+in 23/24 patients. One patient died despite technically successful embolisation, 
+due to extensive haemothorax. One case of spinal ischaemia was observed as a 
+major complication. Conclusion Intercostal artery embolisation is an effective 
+interventional radiological emergency measure in patients with acute bleeding 
+and is an alternative to surgical treatment even after attempted, unsuccessful 
+surgery. Because of potentially severe complications, the interventional 
+procedure should be performed by an experienced interventionalist.
+
+Publisher: Hintergrund Interkostalarterienblutungen sind potenziell 
+lebensbedrohliche Verletzungen, die neben einer konservativen und chirurgischen 
+Therapie auch einer interventionell-radiologischen Notfallmaßnahme zugeführt 
+werden können. Wir berichten über unsere Erfahrungen mit der notfallmäßigen 
+Interkostalarterienembolisation. Material und Methoden Retrospektiv wurden alle 
+Patienten identifiziert, die in einem Zeitraum von 7 Jahren aufgrund einer 
+akuten arteriellen Blutung mittels Interkostalarterienembolisation behandelt 
+wurden. Neben technischem und klinischem Erfolg wurden weitere klinische und 
+prozedurale Parameter sowie die Überlebenszeit der Patienten erfasst. Ergebnisse 
+Zwischen 2010 und 2017 wurden 27 Embolisationsprozeduren bei 24 Patienten (14 
+Männer, mittleres Alter 65,7 ± 13,9 Jahre) durchgeführt. Die Mehrzahl der 
+Patienten litt an iatrogenen Interkostalarterienblutungen (n = 17; 70,1%; 
+vorwiegend nach Thorakozentese). Bei 5 Patienten war zuvor ein frustraner 
+Versuch einer thorakoskopischen Blutstillung erfolgt. 25/27 Interventionen waren 
+primär technisch erfolgreich. In 2 Fällen kam es zu Nachblutungen über 
+Kollateralen, sodass eine Reintervention notwendig war (sekundärer technischer 
+Erfolg). In 15 Fällen war eine sekundäre chirurgische Hämatomausräumung 
+erforderlich. Die Interkostalarterienembolisation war bei 23/24 Patienten 
+klinisch erfolgreich, eine Patientin verstarb trotz erfolgreicher Embolisation 
+an den Folgen des ausgedehnten Hämatothorax. Eine spinale Ischämie trat als 
+Majorkomplikation auf. Schlussfolgerung Die Interkostalarterienembolisation ist 
+eine effektive interventionell-radiologische Notfallmaßnahme bei Patienten mit 
+akuten Blutungen und stellt eine Alternative zur chirurgischen Therapie, auch 
+nach erfolgloser chirurgischer Blutstillung, dar. Angesichts der potenziell 
+schweren Komplikationsmöglichkeiten sollte der Eingriff durch einen erfahrenen 
+Interventionalisten durchgeführt werden.
+
+Georg Thieme Verlag KG Stuttgart · New York.
+
+DOI: 10.1055/s-0043-114733
+PMID: 28838023 [Indexed for MEDLINE]
+
+Conflict of interest statement: Interessenkonflikt: Dr. Carsten Meyer ist 
+Consultant für Sirtex Medical, PharmaCept, and Gore Medical.
+
+
+40. J Emerg Med. 2023 Oct;65(4):e303-e306. doi: 10.1016/j.jemermed.2023.05.016.
+Epub  2023 Jun 7.
+
+Thoracodorsal Artery Injury After Tube Thoracostomy: A Case Report.
+
+Kamei J(1), Kuriyama A(1), Ohno T(2), Ohtsuru S(1).
+
+Author information:
+(1)Department of Primary Care and Emergency Medicine, Graduate School of 
+Medicine, Kyoto University, Kyoto, Japan.
+(2)Department of Diagnostic Imaging and Nuclear Medicine, Graduate School of 
+Medicine, Kyoto University, Kyoto, Japan.
+
+BACKGROUND: Tube thoracostomy is rarely associated with serious bleeding 
+complications. Although intercostal artery injury is a well-known bleeding 
+complication, other vascular injuries in the chest wall have only rarely been 
+reported.
+CASE REPORT: A 58-year-old man with alcoholic liver cirrhosis presented to the 
+emergency department with dyspnea. He was diagnosed by chest computed tomography 
+with spontaneous hemopneumothorax, for which he underwent tube thoracostomy. 
+However, bleeding in the chest wall continued, which required chest tube removal 
+and blood transfusion. Contrast-enhanced computed tomography and angiography 
+revealed contrast extravasation from the thoracodorsal artery, which confirmed a 
+diagnosis of thoracodorsal artery injury. WHY SHOULD AN EMERGENCY PHYSICIAN BE 
+AWARE OF THIS?: Because the thoracodorsal artery gives branches to the serratus 
+anterior muscles that are located in the "triangle of safety," chest tube 
+placement in this area is not always safe; it can still cause major bleeding 
+complications from vessels such as the thoracodorsal artery. Hence, close 
+monitoring for bleeding is needed after tube thoracostomy.
+
+Copyright © 2023 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.jemermed.2023.05.016
+PMID: 37690956 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of Competing Interest None.
+
+
+41. Kyobu Geka. 2017 Jul;70(8):688-691.
+
+[Postoperative Intrathoracic Hemorrhage;Perioperative Prevention and 
+Management].
+
+[Article in Japanese]
+
+Maniwa Y(1).
+
+Author information:
+(1)Department of Thoracic Surgery, Kobe University, Kobe, Japan.
+
+Postoperative intrathoracic hemorrhage is sometimes diagnosed in the thoracic 
+cavity, while the patient is in the recovery room after undergoing thoracic 
+surgery such as lung resection with thoracotomy or mediastinal surgery with a 
+median sternotomy. The information from the chest tube is important to identify 
+this kind of postoperative complication. When the condition becomes severe, the 
+patient may develop hemorrhagic shock due to hemothorax and re-exploration to 
+assess for bleeding and hemostasis may be required. The frequency of reoperation 
+required in patients with postoperative hemorrhage is considered to be 1~3%. The 
+bronchial artery, intercostal artery, and the intercostal vein are the most 
+frequent sources of the hemorrhage. In some cases, the source of hemorrhage 
+cannot be identified during re-exploration. However, intrathoracic hematoma 
+removal by reoperation is essential to allow for adequate expansion of the 
+remaining lung. Although a thoracoscope is usually inserted for re-exploration 
+of the thoracic cavity initially, quick thoracotomy might be required to control 
+hemorrhage, if the patient's vitals indicate rapid hemorrhage and subsequent 
+shock.
+
+PMID: 28790290 [Indexed for MEDLINE]
+
+
+42. J Laparoendosc Adv Surg Tech A. 2023 Jul;33(7):648-653. doi: 
+10.1089/lap.2022.0541. Epub 2023 Apr 4.
+
+Two-Centimeter Single-Port Incision Minimizing Intercostal Nerve Damage Applied 
+in Video-Assisted Thoracoscopic Surgery Segmentectomy for Pulmonary Ground Glass 
+Nodules.
+
+Hu H(1), Liu Y(1)(2), Dong P(1), Zhang S(1), Liu G(1), Mao Z(1).
+
+Author information:
+(1)Department of Thoracic Surgery and Renmin Hospital of Wuhan University, 
+Wuhan, People's Republic of China.
+(2)Department of Pharmacology, Renmin Hospital of Wuhan University, Wuhan, 
+People's Republic of China.
+
+Purposes: We introduced a novel modified 2-cm single-port incision made by blunt 
+separation minimizing intercostal muscle and nerve damage applied in 
+video-assisted thoracoscopic surgery (VATS) segmentectomy, and compared it with 
+the traditional single-port incision or the novel incision plus a 3-mm tiny 
+port, aiming to explore a more minimally invasive single-port technique for VATS 
+segmentectomy. Materials and Methods: We retrospectively analyzed the clinical 
+data of 174 pulmonary ground glass nodule patients who received single-port VATS 
+segmentectomy (54 modified 2-cm single port, 67 modified single port plus tiny 
+port, and 53 traditional single port, respectively) in our medical center from 
+May 2020 to December 2022. Three kinds of approaches were compared 
+retrospectively, concerning their safety, feasibility, and postoperative pain. 
+Results: There were no serious complications and mortality in either group. The 
+blood loss, tube duration, and hospitalization time were comparable among the 
+three groups (P > .05). The 2-cm single-port and 2-cm single-port plus tiny-port 
+group were obviously more advantageous in the visual analog scores of 
+postoperative pain, the wound numbness, incision healing and appearance than 
+that in the traditional group (P < .05), while they were comparable. Notably, 
+the operation time of the 2-cm plus tiny-port group was shorter than that of the 
+2-cm group (P < .05) and similar to the traditional single-port group. 
+Conclusions: The 2-cm modified single-port applied for VATS segmentectomy is 
+feasible and safe, and has obviously advantages in postoperative pain, numbness, 
+and appearance of incision. With addition of tiny port, the convenience of the 
+operation can be significantly increased without increasing pain. Our finding 
+could provide a promising new incision mode for VATS segmentectomy.
+
+DOI: 10.1089/lap.2022.0541
+PMID: 37015067 [Indexed for MEDLINE]
+
+
+43. Surg Today. 2021 Nov;51(11):1805-1812. doi: 10.1007/s00595-021-02290-w. Epub 
+2021 May 6.
+
+Modified 2-cm super single port vs. the traditional 3-cm single port for 
+video-assisted thoracoscopic surgery lobectomy.
+
+Liu G(#)(1), Dong P(#)(1), Hu H(1), Zhang S(1), Mao Z(2).
+
+Author information:
+(1)Department of Thoracic Surgery, Renmin Hospital of Wuhan University, 238 
+Jiefang Road, Wuhan, 430060, China.
+(2)Department of Thoracic Surgery, Renmin Hospital of Wuhan University, 238 
+Jiefang Road, Wuhan, 430060, China. maozhangfan@whu.edu.cn.
+(#)Contributed equally
+
+PURPOSES: We introduce a novel 2-cm single port designed to minimize intercostal 
+muscle and nerve damage in video-assisted thoracoscopic surgery (VATS) 
+lobectomy, and compared it with the 3-cm traditional single port.
+METHODS: We analyzed, retrospectively, the clinical data, safety, convenience, 
+incision complications, and postoperative pain and numbness in 81 patients who 
+underwent either modified (n = 42) or traditional (n = 39) single-port VATS 
+lobectomy.
+RESULTS: The preoperative variables were comparable between both single-port 
+VATS lobectomy groups after matching. There were no serious complications and 
+there was no mortality in either group. There were no remarkable differences 
+between the groups in intraoperative blood loss, chest tube duration, lymph node 
+dissection, or postoperative complications. The modified single-port group had a 
+longer operation time (p < 0.05), but the static and dynamic postoperative VAS 
+scores and incisional numbness were better in the modified single-port group 
+(p < 0.05). The modified single-port group also had an obvious advantage in 
+incision seepage, healing, and appearance.
+CONCLUSIONS: Our 2-cm modified single port for lobectomy is safe and effective, 
+and results in less postoperative pain and incisional numbness than the 3-cm 
+traditional single port.
+
+© 2021. Springer Nature Singapore Pte Ltd.
+
+DOI: 10.1007/s00595-021-02290-w
+PMID: 33956234 [Indexed for MEDLINE]
+
+
+44. Lung Cancer. 2024 Oct;196:107961. doi: 10.1016/j.lungcan.2024.107961. Epub
+2024  Sep 21.
+
+A prospective multi-institutional study to verify the non-inferiority of 
+postoperative pain in robot-assisted thoracic surgery in comparison with 
+video-assisted thoracoscopic surgery for lung cancer: The Japanese RATS interest 
+group 01 (J-RATSIG 01).
+
+Kawaguchi K(1), Ogura T(2), Kaneda S(3), Watanabe T(4), Soh J(5), Hashimoto 
+K(6), Sakakura N(7), Okazaki M(8), Mori S(9), Hashimoto M(10), Fukumoto K(11), 
+Miyajima M(12), Yoshida S(13), Moriyama S(14), Tamaru S(2), Takao M(3).
+
+Author information:
+(1)Department of Thoracic and Cardiovascular Surgery, Mie University, Tsu, 
+Japan; Clinical Research Support Center, Mie University Hospital, Tsu, Japan. 
+Electronic address: k-gucci@med.mie-u.ac.jp.
+(2)Clinical Research Support Center, Mie University Hospital, Tsu, Japan.
+(3)Department of Thoracic and Cardiovascular Surgery, Mie University, Tsu, 
+Japan.
+(4)Division of Thoracic Surgery, Respiratory Disease Center, Seirei Mikatahara 
+General Hospital, Hamamatsu, Japan.
+(5)Division of Thoracic Surgery, Kindai University Faculty of Medicine, 
+Osaka-Sayama, Japan.
+(6)Department of Thoracic Surgery, Toyohashi Municipal Hospital, Toyohashi, 
+Japan.
+(7)Department of Thoracic Surgery, Aichi Cancer Center, Nagoya, Japan.
+(8)Department of Thoracic Surgery, Okayama University, Okayama, Japan.
+(9)Department of Thoracic Surgery, Japanese Red Cross Aichi Medical Center 
+Nagoya Daiichi Hospital, Nagoya, Japan.
+(10)Department of Thoracic Surgery, Hyogo Medical University, Nishinomiya, 
+Japan.
+(11)Department of Thoracic Surgery, Nagoya University, Nagoya, Japan.
+(12)Department of Thoracic Surgery, Sapporo Medical University, Sapporo, Japan.
+(13)Department of Thoracic Surgery, Kanazawa University, Kanazawa, Japan.
+(14)Department of Thoracic Surgery, Toyota Memorial Hospital, Toyota, Japan.
+
+OBJECTIVES: We sought to compare the latest data on postoperative pain between 
+robot-assisted thoracic surgery (RATS) and video-assisted thoracoscopic surgery 
+(VATS), and to clarify the relationship between the number or placement of ports 
+and postoperative pain in patients with lung cancer.
+METHODS: Patients who underwent anatomical lung resection by RATS or VATS and 
+whose chest tube was removed within 7 days were enrolled. The primary endpoint 
+was the percentage of patients with a numeric rating scale (NRS) score ≤ 3 on 
+postoperative day 30 (POD30). The target sample size was 400 patients.
+RESULTS: Four hundred five patients (RATS, n = 196; VATS, n = 209) managed at 12 
+institutions were included. Ninety-nine patients in the VATS group underwent a 
+uniport procedure. Significant differences were observed between the RATS and 
+VATS groups in the mean number of inserted ports (5.0 vs. 2.2), number of 
+injured intercostal sites (2.9 vs. 1.9), largest wound size (3.4 vs. 3.7 cm), 
+operation time (202 vs. 165 min), and use of epidural anesthesia or continuous 
+nerve block (45 vs. 31 %). In the RATS and VATS groups, the rates of NRS≤3 on 
+POD30 were 82.0 % and 94.7 % (95 %CI: -19.0 to -6.6 %), respectively, which 
+could not prove noninferiority. However, in a multivariable analysis, the RATS 
+approach was not proven to be a significant risk factor.
+CONCLUSION: In the current status of minimally invasive thoracic surgery in 
+Japan, RATS involves a greater number of ports, longer operation time, and 
+higher frequency of local anesthesia than VATS and may be inferior in terms of 
+postoperative pain.
+
+Copyright © 2024 The Authors. Published by Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.lungcan.2024.107961
+PMID: 39340899 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors 
+declare that they have no known competing financial interests or personal 
+relationships that could have appeared to influence the work reported in this 
+paper.
+
+
+45. Cardiovasc Intervent Radiol. 2017 Feb;40(2):270-276. doi: 
+10.1007/s00270-016-1489-9. Epub 2016 Nov 8.
+
+Efficacy of a Self-expanding Tract Sealant Device in the Reduction of 
+Pneumothorax and Chest Tube Placement Rates After Percutaneous Lung Biopsy: A 
+Matched Controlled Study Using Propensity Score Analysis.
+
+Ahrar JU(1)(2), Gupta S(3), Ensor JE(4), Mahvash A(3), Sabir SH(3), Steele 
+JR(3), McRae SE(3), Avritscher R(3), Huang SY(3), Odisio BC(3), Murthy R(3), 
+Ahrar K(3), Wallace MJ(3), Tam AL(3).
+
+Author information:
+(1)Department of Interventional Radiology, The University of Texas M.D. Anderson 
+Cancer Center, Houston, TX, USA. judy.ahrar@mdanderson.org.
+(2)Unit 1471, Department of Interventional Radiology, The University of Texas 
+M.D. Anderson Cancer Center, PO Box 301402, Houston, TX, 77230-1402, USA. 
+judy.ahrar@mdanderson.org.
+(3)Department of Interventional Radiology, The University of Texas M.D. Anderson 
+Cancer Center, Houston, TX, USA.
+(4)The Houston Methodist Cancer Center, Houston Methodist Research Institute, 
+Houston, TX, USA.
+
+PURPOSE: To evaluate the use of a self-expanding tract sealant device 
+(BioSentry™) on the rates of pneumothorax and chest tube insertion after 
+percutaneous lung biopsy.
+MATERIALS AND METHODS: In this retrospective study, we compared 318 patients who 
+received BioSentry™ during percutaneous lung biopsy (treated group) with 1956 
+patients who did not (control group). Patient-, lesion-, and procedure-specific 
+variables, and pneumothorax and chest tube insertion rates were recorded. To 
+adjust for potential selection bias, patients in the treated group were matched 
+1:1 to patients in the control group using propensity score matching based on 
+the above-mentioned variables. Patients were considered a match if the absolute 
+difference in their propensity scores was ≤equal to 0.02.
+RESULTS: Before matching, the pneumothorax and chest tube rates were 24.5 and 
+13.1% in the control group, and 21.1 and 8.5% in the treated group, 
+respectively. Using propensity scores, a match was found for 317 patients in the 
+treatment group. Chi-square contingency matched pair analysis showed the treated 
+group had significantly lower pneumothorax (20.8 vs. 32.8%; p = 0.001) and chest 
+tube (8.2 vs. 20.8%; p < 0.0001) rates compared to the control group. 
+Sub-analysis including only faculty who had >30 cases of both treatment and 
+control cases demonstrated similar findings: the treated group had significantly 
+lower pneumothorax (17.6 vs. 30.2%; p = 0.002) and chest tube (7.2 vs. 18%; 
+p = 0.001) rates.
+CONCLUSIONS: The self-expanding tract sealant device significantly reduced the 
+pneumothorax rate, and more importantly, the chest tube placement rate after 
+percutaneous lung biopsy.
+
+DOI: 10.1007/s00270-016-1489-9
+PMCID: PMC5215969
+PMID: 27826786 [Indexed for MEDLINE]
+
+Conflict of interest statement: Authors #1–13 declare they have no conflict of 
+interest. Author #14 is a medical monitor for Galil Medical and receives 
+research support from Angiodynamics.
+
+
+46. Hum Pathol. 2019 Jul;89:40-43. doi: 10.1016/j.humpath.2019.04.011. Epub 2019
+May  2.
+
+Pulmonary pathologic alterations associated with biopsy inserted hydrogel plugs.
+
+Yousem SA(1), Amin RM(2), Levy R(3), Baker N(3), Lee P(4).
+
+Author information:
+(1)Department of Pathology, University of Pittsburgh Medical Center (UPMC), 
+Pittsburgh, PA 15213-2582. Electronic address: yousemsa@upmc.edu.
+(2)Department of Pathology, University of Pittsburgh Medical Center (UPMC), 
+Pittsburgh, PA 15213-2582.
+(3)Department of Radiology, University of Pittsburgh Medical Center (UPMC), 
+Pittsburgh, PA 15213-2582.
+(4)Department of Cardiothoracic Surgery, University of Pittsburgh Medical Center 
+(UPMC), Pittsburgh, PA 15213-2582.
+
+The prevention of pneumothorax after percutaneous lung biopsy is a major patient 
+safety concern. The insertion of hydrogel plugs into biopsy sites to mitigate 
+this complication is a new intervention. The histology of the plug has not been 
+previously reported, and in this study the histologic reaction is reported in 13 
+cases. The hydrogel plug forms a spherical basophilic matrix pool with an 
+adjacent foreign body giant cell reaction and patchy eosinophilia. No extension 
+to the pleural surface is present. The potential diagnostic errors related to 
+the presence of the plug are discussed.
+
+Copyright © 2019 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.humpath.2019.04.011
+PMID: 31054891 [Indexed for MEDLINE]
+
+
+47. Expert Rev Med Devices. 2023 Jul-Dec;20(9):741-752. doi: 
+10.1080/17434440.2023.2242776. Epub 2023 Aug 4.
+
+A contemporary systematic review of the complications associated with SURGICEL.
+
+Masoudi M(1), Wiseman J(1), Wiseman SM(1).
+
+Author information:
+(1)Department of Surgery, St. Paul's Hospital & University of British Columbia, 
+Vancouver, British Columbia, Canada.
+
+BACKGROUND: This review aims to summarize the findings from recent literature 
+(2010-2022) reporting on complications that resulted from the surgical use of 
+SURGICEL for intraoperative hemostasis.
+METHODS: A literature search was conducted using the MEDLINE (OVID), Embase, and 
+Cochrane Central Register of Controlled Trials - CENTRAL (OVID) databases. The 
+studies were sorted into case reports and other study types for data extraction. 
+Covidence was used for data extraction and statistics were descriptive.
+RESULTS: Of the total 560 articles screened, 73 papers were selected for a 
+full-text review and 70 studies were included in this review. A total of 7,242 
+participants were included in the studies (case studies n = 93, others 
+n = 7149). 67/70 of the included studies reported complications when SURGICEL 
+was used intraoperatively. Reported complications included: SURGICEL induced 
+masses (granulomas, abscesses, hematomas, cysts) (n = 25), hemorrhagic 
+complications (n = 12), masses misdiagnosed as tumors, cardiovascular, nervous 
+system, and hepatobiliary complications, pain, and infections. Other 
+complications included: fistulas, erectile dysfunction, chorioamnionitis, 
+swelling, urinary leak, renal failure, and anaphylaxis.
+CONCLUSIONS: Publications reporting on complications associated with the use of 
+SURGICEL intraoperatively have continued to emerge. Future studies should 
+compare how the types and rates of complications compare between SURGICEL and 
+alternative hemostatic agents.
+
+DOI: 10.1080/17434440.2023.2242776
+PMID: 37526076 [Indexed for MEDLINE]
+
+
+48. Minim Invasive Neurosurg. 2011 Oct;54(5-6):257-9. doi:
+10.1055/s-0031-1284394.  Epub 2012 Jan 25.
+
+Massive swelling of Surgicel® Fibrillar™ hemostat after spinal surgery. Case 
+report and a review of the literature.
+
+Menovsky T(1), Plazier M, Rasschaert R, Maas AI, Parizel PM, Verbeke S.
+
+Author information:
+(1)Department of Neurosurgery, Antwerp University Hospital, Edegem, Belgium. 
+tomas.menovsky@uza.be
+
+BACKGROUND: Oxidized regenerated cellulose is commonly used in many surgical 
+fields as a hemostatic agent. Complications related to swelling or compression 
+after application of small portions of Surgicel® Fibrillar™ have not yet been 
+described.
+PATIENTS: We report on a 65-year-old woman who was operated for a high-grade 
+spinal stenosis at the L2-L3 level. Small portions of Surgicel® Fibrillar™ were 
+used to control bleeding from the epidural venous plexus. The immediate 
+postoperative course was uneventful. However, one day after surgery, the patient 
+complained about progressive worsening pain at the operated level. A 
+non-contrast lumbar CT scan showed no evidence of a postoperative hematoma or 
+other complication. MR imaging showed a horseshoe-shaped mass compressing the 
+dural sac at the operated level from posterior and both sides. Because we 
+suspected a postoperative hematoma, the patient was re-operated. No hemorrhage 
+was seen but instead we found large, swollen firm pieces of Surgicel® Fibrillar™ 
+compressing the dural sac. These pieces were removed.
+RESULT: Postoperatively no neurological deficit or pain was present. 
+Histological examination of the removed mass of Surgicel® Fibrillar™ revealed 
+only the presence of blood, fibrin and an amorphous eosinophilic content. There 
+was no sign of any inflammation.
+CONCLUSION: On the basis of this experience, we advise caution with the use of 
+hemostatic agents during spinal surgery and - if used - strongly advise the 
+removal of Surgicel® Fibrillar™ after the hemostasis has been achieved to avoid 
+the development of complications due to a mass effect.
+
+© Georg Thieme Verlag KG Stuttgart · New York.
+
+DOI: 10.1055/s-0031-1284394
+PMID: 22278791 [Indexed for MEDLINE]
+
+
+49. J Artif Organs. 2021 Sep;24(3):358-364. doi: 10.1007/s10047-021-01257-5. Epub
+ 2021 Mar 9.
+
+New hemostatic technique with combined use of Hydrofit(®) and Surgicel(®): an in 
+vitro and in vivo study.
+
+Naganuma M(1), Kanda K(1), Sasaki K(1), Maeda K(1), Ito K(1), Katahira S(1), 
+Saiki Y(2).
+
+Author information:
+(1)Division of Cardiovascular Surgery, Tohoku University Graduate School of 
+Medicine, 1-1 Seiryo-machi, Aoba-ku, Sendai, Miyagi, 980-8574, Japan.
+(2)Division of Cardiovascular Surgery, Tohoku University Graduate School of 
+Medicine, 1-1 Seiryo-machi, Aoba-ku, Sendai, Miyagi, 980-8574, Japan. 
+yoshisaiki@med.tohoku.ac.jp.
+
+We developed an effective hemostatic technique using Hydrofit® and Surgicel® 
+simultaneously. The aim of this study was to demonstrate the hemostatic efficacy 
+of the Hydrofit® and Surgicel® combination technique through an in vitro 
+experiment and to elucidate mid-term consequences of the combined components 
+through an in vivo experiment. For the in vitro experiment, a closed circuit 
+using a heparin-coated cardiopulmonary bypass circuit and a prosthetic graft was 
+created. The amount of bleeding from the prosthetic graft was measured, and the 
+following three hemostatic methods were applied: only gauze compression in 
+control group, Hydrofit® application in Hydrofit group, Surgicel® spread 
+Hydrofit® application in Hydrofit and Surgicel (HS) group, respectively. In the 
+in vivo experiment, Hydrofit® and/or Surgicel® were implanted under skin on the 
+back of rats (n = 10) at 4 points. In the control group, only an incision was 
+made; in the Hydrofit, Surgicel, and HS groups, Hydrofit® and/or Surgicel® was 
+implanted. One and three months later, each of the five rats were killed and in 
+each section histopathologic examination was carried out. In the in vitro 
+experiment, the amount of bleeding was 7.84 ± 1.08, 2.26 ± 1.02, and 
+0.87 ± 0.38 ml in the control, Hydrofit, and HS groups, respectively. The amount 
+of bleeding in the HS group was more suppressed than in the Hydrofit group 
+(p = 0.012). In the in vivo experiment, the maximal depth diameter of each 
+remaining hemostatic sealant was measured. After 3 months, the diameter was 0, 
+2289.0 ± 768.2, 3850.3 ± 935.8 μm in Surgicel, Hydrofit and HS groups, 
+respectively. The diameter was significantly increased in the HS group compared 
+with the Surgicel and Hydrofit groups (p < 0.001, respectively,). In conclusion, 
+the combination of Hydrofit® and Surgicel® was effective in achieving 
+hemostasis. The remnants of Hydrofit® and Surgicel® were present for a long time 
+in the tissues which could compress the surrounding tissue.
+
+© 2021. The Japanese Society for Artificial Organs.
+
+DOI: 10.1007/s10047-021-01257-5
+PMID: 33751255 [Indexed for MEDLINE]
+
+
+50. Interact Cardiovasc Thorac Surg. 2018 Dec 1;27(6):881-883. doi: 
+10.1093/icvts/ivy180.
+
+Oxidized resorbable cellulose (Gelita-cel) causing foreign body reaction in the 
+mediastinum.
+
+Haidari TA(1), Petersen RH(1), Skov BG(2), Ravn J(1).
+
+Author information:
+(1)Department of Cardiothoracic Surgery, Copenhagen University Hospital, 
+Rigshospitalet, Copenhagen, Denmark.
+(2)Department of Clinical Medicine, Copenhagen University Hospital 
+Rigshospitalet, Copenhagen, Denmark.
+
+Erratum in
+    Interact Cardiovasc Thorac Surg. 2019 Sep 1;29(3):495. doi: 
+10.1093/icvts/ivz166.
+
+Different types of oxidized cellulose have been used for haemorrhage control in 
+thoracic surgery, abdominal surgery and neurosurgery. Oxidized resorbable 
+cellulose (Gelita-cel) is a new haemostatic agent. Once saturated with blood, it 
+swells and makes a gelatinous mass that formats as a fibrin clot. We have 
+performed a prospective observational cohort study of patients operated for lung 
+cancer or suspected lung cancer using Gelita-cel as a haemostatic agent. Between 
+October 2010 and April 2012, 477 patients were operated in our department for 
+lung cancer. Gelita-cel was used in 200 patients due to minor intraoperative 
+haemorrhage after lymph node resection from Stations 2 to 11. During follow-up 
+for lung cancer, computed tomography, which was performed 4-60 months after the 
+primary operation, showed enlarged lymph nodes in the mediastinum in 16 
+patients. Endoscopic bronchial ultrasonographic biopsies of the lymph nodes 
+showed foreign body material and granulomatous inflammation, and no sign of lung 
+cancer recurrence. Gelita-cel has a high risk of causing granuloma and should 
+not be used as a haemostatic agent in thoracic surgery.
+
+DOI: 10.1093/icvts/ivy180
+PMID: 29878119 [Indexed for MEDLINE]
+1. J Artif Organs. 2005;8(3):137-42. doi: 10.1007/s10047-005-0296-x.
+
+Clinical benefits and risk analysis of topical hemostats: a review.
+
+Tomizawa Y(1).
+
+Author information:
+(1)Department of Cardiovascular Surgery, Tokyo Women's Medical University, 8-1 
+Kawada-cho, Shinjuku-ku, Tokyo, 162-8666, Japan. 4CRNRY@hij.twmu.ac.jp
+
+A variety of local hemostats including absorbable gelatin sponge, collagen 
+hemostat, and oxidized cellulose are commercially available. Local hemostats are 
+applied when cautery, ligature, or other conventional hemostatic method is 
+impractical. Proper handling is essential to control bleeding and only the 
+required amount should be used, even though the hemostat is expected to dissolve 
+promptly. A dry local hemostat absorbs body fluid of several times its own 
+weight and expands postoperatively. Therefore, when an absorbable hemostatic 
+agent is retained on or near bony or neural spaces, the minimum amount should be 
+left after hemostasis is achieved. Documentation is important with regard to the 
+hemostat used, including the name of the agent, site, and amount. This 
+information is used as a reference in the interpretation of postoperative 
+diagnostic images, since retained hemostat may sometimes mimic an abscess or 
+recurrent tumor. The antigenicity of collagen is known to be low because of 
+homology. When the safety of collagen was evaluated, the incidence of positive 
+reactions was reported as 3.0%, and collagen may cause allergic reactions. 
+Minimum inflammation without strong foreign body reactions or blockade of 
+healing is desirable after the use of local hemostats. Strong foreign body 
+reactions, chronic inflammation, and infections can cause granuloma formation 
+after local hemostat use. By using local hemostats, it is possible to improve 
+the condition of the patient, reduce complications, and lower direct and 
+indirect costs.
+
+DOI: 10.1007/s10047-005-0296-x
+PMID: 16235029 [Indexed for MEDLINE]
+
+
+2. Surg Technol Int. 2016 Oct;XXIX:sti29/756. Epub 2016 Jul 29.
+
+Prospective Randomized Clinical Trial of HEMOPATCH Topical Sealant in Cardiac 
+Surgery.
+
+Weltert L(1), D'Aleo S(1), Chirichilli I(1), Falco M(2), Turani F(2), Bellisario 
+A(1), De Paulis R(1).
+
+Author information:
+(1)Heart Surgery Division, European Hospital, Rome, Italy.
+(2)Anesthesiology Division, European Hospital, Rome, Italy.
+
+OBJECTIVE: Hemostasis is a critical component of all surgical procedures and 
+especially cardiac surgery. In addition to traditional means, topical hemostatic 
+agents have been reported to be extremely effective in terminating bleeding 
+during cardiac procedures. We compared a hemostatic matrix sealant agent 
+(HEMOPATCH Baxter Healthcare Corporation, Deerfield, IL) with alternative 
+topical hemostatic treatment in patients undergoing ascending aorta surgery with 
+moderate bleeding.
+MATERIALS AND METHODS: Following sample size calculation, in a prospective 
+randomized study design, 85 patients were treated with HEMOPATCH matrix sealant 
+and 85 patients received alternative treatment (dry or wet gauze compression or 
+similar [control group]). The primary outcome measure was the percentage of 
+patients with successful hemostasis within three minutes of HEMOPATCH or 
+traditional treatment application. Other study outcome measures were 
+postoperative blood loss and the rate of transfusion of blood products.
+RESULTS: A statistically higher rate of successful hemostasis within three 
+minutes was observed in the HEMOPATCH group (97.6% [83/85] vs. 65.8% [56/85] in 
+the control group; p< 0.001). The percentages of patients with postoperative 
+bleeding and the rate of transfusion were lower in the HEMOPATCH group than in 
+the control group.
+CONCLUSIONS: The use of HEMOPATCH is effective in terminating bleeding in 
+patients undergoing ascending aorta cardiac procedures. Fewer patients treated 
+with HEMOPATCH required blood transfusion. The cost-utility profile of HEMOPATCH 
+should be addressed in dedicated trials.
+
+PMID: 27466878
+
+
+3. J Minim Invasive Gynecol. 2023 Jul;30(7):531-532. doi: 
+10.1016/j.jmig.2023.03.022. Epub 2023 Apr 9.
+
+Balloon Trocar Is a Suitable Instrument for Retroperitoneal Para-aortic 
+Lymphadenectomy in Gynecologic Malignant Diseases.
+
+Kondo E(1), Kubo-Kaneda M(2), Nii M(2), Yoshida K(2), Okamoto K(2), Ikeda T(2).
+
+Author information:
+(1)Department of Obstetrics and Gynecology, Mie University School of Medicine, 
+Mie, Japan (all authors). Electronic address: eijikon@clin.medic.mie-u.ac.jp.
+(2)Department of Obstetrics and Gynecology, Mie University School of Medicine, 
+Mie, Japan (all authors).
+
+OBJECTIVE: To demonstrate the surgical technique of retroperitoneal para-aortic 
+lymphadenectomy to prevent peritoneal rupture in gynecologic malignant disease. 
+In this video, the authors describe how to use a balloon trocar to create a safe 
+and efficient working space without peritoneal rupture.
+DESIGN: A step-by-step video demonstration of a surgical technique.
+SETTING: Department of Gynecology and Obstetrics, Mie University, Tsu, Japan.
+INTERVENTIONS: Para-aortic lymphadenectomy is a part of most gynecologic 
+oncology procedures for primary and recurrent gynecologic malignancies. There 
+are 2 approaches to para-aortic lymphadenectomy: transperitoneal and 
+retroperitoneal approaches. Although there are no significant differences 
+between these approaches (such as in terms of the number of isolated lymph nodes 
+or related complications), they are performed based on the operator's 
+preference. The retroperitoneal approach is an unfamiliar surgical technique 
+compared with usual laparotomy and laparoscopic surgery, and its disadvantages 
+include a steeper learning curve for attaining proficiency. It is also difficult 
+to develop the retroperitoneal space without a peritoneal rupture. In this 
+video, we demonstrate the use of balloon trocars to create a retroperitoneal 
+compartment. The patient was placed in the lithotomy position with the pelvis 
+elevated at 5° to 10°. The left internal iliac approach, which is considered the 
+standard approach, was used in this case (Fig 1). After identifying the left 
+psoas muscles and the ureter crossing the common iliac artery, dissection of the 
+left para-aortic lymph node was initiated (Supplemental Video 1, 2).
+CONCLUSION: Herein, we demonstrated a successful surgical technique for 
+retroperitoneal para-aortic lymphadenectomy to prevent peritoneal ruptures.
+
+Copyright © 2023 AAGL. Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.jmig.2023.03.022
+PMID: 37040815 [Indexed for MEDLINE]
+
+
+4. J Laparoendosc Adv Surg Tech A. 2024 Dec;34(12):1084-1087. doi: 
+10.1089/lap.2024.0223. Epub 2024 Sep 5.
+
+Telescopic Dissection as a Cost-Effective Alternative to Balloon Trocar for 
+Preperitoneal Dissection in Total Extraperitoneal Inguinal Hernia Repair.
+
+Dinçer B(1), Ömeroğlu S(2), Ethem Akgün İ(2).
+
+Author information:
+(1)Department of Surgical Oncology, Ankara Oncology Training and Research 
+Hospital, Ankara, Turkiye.
+(2)Department of General Surgery, Sisli Hamidiye Etfal Training and Research 
+Hospital, Istanbul, Turkiye.
+
+Background: Total extraperitoneal (TEP) approach is one of the commonly used 
+minimally invasive method in inguinal hernia repair. There are limited data that 
+compares the results of the telescopic dissection and balloon trocar for 
+preperitoneal dissection. In our study, we aimed to retrospectively evaluate the 
+TEP cases performed at our center and compare the results of these two 
+techniques. Methods: TEP cases performed between 2020 and 2024 were evaluated. 
+Strangulated and recurrent hernia cases were excluded. Telescopic dissection and 
+balloon trocar techniques were compared in terms of conversion, postoperative 
+pain, complications, and recurrence. Results: A total of 177 patients were 
+included. Telescopic method was used in 122 cases, while a balloon trocar was 
+used in 55 cases. The median age was 50 years (range: 20-86), and 163 patients 
+(92%) were male. Bilateral inguinal hernia was present in 61 patients (35%). The 
+median operative time was 100 minutes (IQR: 80-120 minutes). Conversion was 
+required in a total of 3 cases (1.5%); specifically, the transabdominal 
+preperitoneal method was employed in 2 cases, and Lichtenstein-style anterior 
+approach hernia repair was performed in one case. Between the telescopic 
+dissection and balloon trocar groups, no significant differences were observed 
+in operation time (P = .407), conversion rates (P = .228), postoperative pain 
+scores (P = .505, P = .264, P = .681, P = .743), complication rates (P = .205), 
+or recurrence rates (P = .311). Conclusions: The results of using a balloon 
+trocar and telescopic dissection in inguinal hernia repair with TEP are similar, 
+and telescopic dissection could be a cost-effective alternative to the balloon 
+trocar.
+
+DOI: 10.1089/lap.2024.0223
+PMID: 39235339 [Indexed for MEDLINE]
+
+
+5. Hernia. 2025 Apr 8;29(1):139. doi: 10.1007/s10029-025-03329-4.
+
+A comparative study on optical trocar entry vs. balloon trocar entry in 
+laparoscopic eTEP inguinal hernia repair - a randomised control trial.
+
+Chitrambalam TG(1), Harshan KSS(2), Ramanathan R(2), Vijayakumar M(2), Gilani 
+AS(2).
+
+Author information:
+(1)SRM Medical College & Research Centre, SRM Institute of Science and 
+Technology, SRM nagar, Kattankulathur, Chengalpattu, Tamilnadu, 603203, India. 
+tharungc@srmist.edu.in.
+(2)SRM Medical College & Research Centre, SRM Institute of Science and 
+Technology, SRM nagar, Kattankulathur, Chengalpattu, Tamilnadu, 603203, India.
+
+BACKGROUND: The enhanced Totally Extra-Peritoneal (eTEP) technique is a novel 
+minimally invasive approach to inguinal hernia repair that involves entry into 
+the retro-rectus space and dissection of preperitoneal spaces. Aim of this study 
+is to compare two methods for creating the preperitoneal space: optical trocar 
+dissection (Group A) and balloon trocar dissection (Group B).
+MATERIALS AND METHODS: A prospective, single-blinded, interventional study was 
+conducted with 116 patients, randomized into two groups (58 in each group) 
+undergoing eTEP inguinal hernia repair at SRM Medical College Hospital, India. 
+Key outcomes assessed included the duration of surgery, intraoperative 
+complications, postoperative pain, and postoperative occurences such as seroma 
+and hematoma.
+RESULTS: The study found that balloon trocar dissection resulted in 
+significantly shorter surgery duration (mean 62 min vs. 75 min, p<0.001) and 
+quicker preperitoneal space creation (13 min vs. 19 min, p<0.0001). Balloon 
+dissection also showed fewer incidents of peritoneal breaches (0% vs. 10.34%, 
+p<0.002), lower postoperative pain scores, and a lower incidence of seroma and 
+hematoma formation (1.72% vs. 17.24%, p<0.004).
+CONCLUSION: These findings suggest that balloon trocar dissection is a safer, 
+more efficient method for eTEP inguinal hernia repair, offering a smoother 
+learning curve for surgeons, especially during the early stages of the 
+procedure.
+
+© 2025. The Author(s), under exclusive licence to Springer-Verlag France SAS, 
+part of Springer Nature.
+
+DOI: 10.1007/s10029-025-03329-4
+PMID: 40198491 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Competing Interests: No conflicts 
+of interest.
+
+
+6. J Trauma Acute Care Surg. 2014 Jul;77(1):170-5. doi: 
+10.1097/TA.0000000000000249.
+
+Standard laparoscopic trocars for the treatment of tension pneumothorax: a 
+superior alternative to needle decompression.
+
+Hatch Q(1), Debarros M, Johnson E, Inaba K, Martin M.
+
+Author information:
+(1)From the Department of Surgery (Q.H., M.D., E.J., M.M.), Madigan Army Medical 
+Center, Tacoma, Washington; Department of Surgery (M.M.), Legacy Emanuel Medical 
+Center, Portland, Oregon, and Department of Surgery (K.I.), LA County Hospital + 
+USC Medical Center, Los Angeles, California.
+
+BACKGROUND: Needle thoracostomy (NT) is a commonly taught intervention for 
+tension pneumothorax (tPTX) but has a high failure rate. We hypothesize that 
+standard 5-mm laparoscopic trocars may be a safe and more effective alternative.
+METHODS: Thirty episodes of tPTX and 27 episodes of tension-induced pulseless 
+electrical activity (PEA) were induced in five adult swine using thoracic CO2 
+insufflation via balloon trocar. Tension was defined as a 50% decrease in 
+cardiac output. Chest decompression was performed with 5-mm laparoscopic trocars 
+for the treatment of both tPTX with hemodynamic compromise and tension-induced 
+PEA. The lungs and heart were inspected and graded at necropsy for 
+trocar-related injury. Results were also compared with success rates with NT in 
+the same model.
+RESULTS: The placement of a 5-mm trocar rapidly and immediately relieved tension 
+physiology in 100% of the cases. Mean arterial pressure, cardiac output, central 
+venous pressure, and pulmonary capillary wedge pressure all returned to baseline 
+within 1 minute of trocar placement. Adequate perfusion was restored in 100% of 
+tension-induced PEA cases within 30 seconds of trocar placement. There was no 
+evidence of trocar-related heart or lung damage in any of the experimental 
+animals at necropsy (mean injury scores, 0 for both). Five-millimeter trocars 
+significantly outperformed standard NT for both tPTX and tension-induced PEA 
+arrest.
+CONCLUSION: tPTX and tension-induced PEA can be safely and effectively treated 
+with chest decompression using 5-mm laparoscopic trocars. This technique may 
+serve as a more rapid and reliable alternative to needle decompression.
+
+DOI: 10.1097/TA.0000000000000249
+PMID: 24977774 [Indexed for MEDLINE]
+
+
+7. J Robot Surg. 2024 Mar 18;18(1):130. doi: 10.1007/s11701-024-01877-y.
+
+hinotori(TM) vs. da Vinci(®): propensity score-matched analysis of surgical 
+outcomes of robot-assisted radical prostatectomy.
+
+Kohjimoto Y(1), Yamashita S(2), Iwagami S(1), Muraoka S(1), Wakamiya T(1), Hara 
+I(1).
+
+Author information:
+(1)Department of Urology, Wakayama Medical University, 811-1 Kimiidera, 
+Wakayama, 641-0012, Japan.
+(2)Department of Urology, Wakayama Medical University, 811-1 Kimiidera, 
+Wakayama, 641-0012, Japan. keito608@wakayama-med.ac.jp.
+
+hinotori™ is a recently developed surgical robot system. The present study aims 
+to compare intraoperative and postoperative outcomes of robot-assisted radical 
+prostatectomy (RARP) by the hinotori™ system compared with those of the 
+longer-established da Vinci® system. This study includes 100 consecutive 
+patients who underwent RARP by da Vinci® and 60 patients who underwent RARP by 
+hinotori™. To minimize imbalances of patient demographics between the two 
+groups, 1:1 propensity score-matching was performed, and 43 patients each were 
+assigned to the da Vinci® and hinotori™ groups after matching. In the propensity 
+score-matched cohort, we could not find significant differences in patient 
+demographics between the two groups. Surgical outcomes, operative time, and 
+console time in the hinotori™ group were significantly longer than those in the 
+da Vinci® group. Meanwhile, we could not find significant differences in other 
+outcomes between the two groups, such as estimated blood loss, intraoperative 
+complications, major postoperative complications (Clavien-Dindo grade 3 or 4) or 
+length of hospital stay after surgery. The rate of positive cancer margin in the 
+hinotori™ group was higher than that in the da Vinci® group, but significant 
+difference could not be found between the two groups. Moreover, we could not 
+find significant differences in urinary continence rates after surgery between 
+the da Vinci® and hinotori™ groups. Our results suggest that the hinotori™ 
+surgical robot system could provide comparable surgical outcomes to that of the 
+da Vinci® system for patients undergoing RARP.
+
+© 2024. The Author(s), under exclusive licence to Springer-Verlag London Ltd., 
+part of Springer Nature.
+
+DOI: 10.1007/s11701-024-01877-y
+PMID: 38498237 [Indexed for MEDLINE]
+
+
+8. Asian J Endosc Surg. 2026 Jan-Dec;19(1):e70324. doi: 10.1111/ases.70324.
+
+Early Experience of Hinotori Robot System in General Surgery: A Systematic 
+Review.
+
+de Vasconcellos CAM(1), Lyons G(2), Faleiro MD(3), da Silva MFAG(4), Liu J(5), 
+Shigeta K(6), Nogueira R(7), Lima D(7).
+
+Author information:
+(1)Estácio de Sá University/IDOMED, Rio de Janeiro, Brazil.
+(2)Faculdade Souza Marques, Rio de Janeiro, Brazil.
+(3)Universidade Federal de Minas Gerais, Belo Horizonte, Brazil.
+(4)UNIFACS (Universidade Salvador), Salvador, Brazil.
+(5)Northshore University Hospital, Manhasset, New York, USA.
+(6)Keio University, Tokyo, Japan.
+(7)Montefiore Medical Center, Bronx, New York, USA.
+
+PURPOSE: Robotic-assisted surgery has enhanced visualization, precision, and 
+dexterity in general surgery. While the da Vinci system predominates, newer 
+platforms such as the Hinotori Surgical Robot System (Hinotori) have emerged. 
+This systematic review evaluates early clinical experience with Hinotori in 
+general surgery, focusing on procedural characteristics and perioperative 
+outcomes.
+MATERIALS AND METHODS: A systematic review was conducted according to PRISMA 
+guidelines. MEDLINE/PubMed, EMBASE, Cochrane Library, and Web of Science were 
+searched through March 2026 using the terms "Hinotori Surgical Robot System," 
+"General Surgery," and "Minimally Invasive Surgery." Risk of bias was assessed 
+using ROBINS-I. Studies reporting general surgical procedures with postoperative 
+outcomes were included; conference abstracts were excluded. Data extracted 
+included study design, procedure type, console time, operative time, blood loss, 
+complications, and length of stay (LOS).
+RESULTS: Of 475 records screened, 15 studies met inclusion criteria (4 case 
+reports and 11 retrospective cohorts), all conducted in Japan (2023 to 2026), 
+comprising 296 patients. Colorectal surgeries predominated (57.1%), followed by 
+gastric procedures (25%). Console times ranged from 252 to 400 min (gastric), 
+213 to 325 min (colorectal), 252 min (esophageal), 239 to 350 min (pancreatic), 
+and 292 min (biliary). No intraoperative complications or conversions were 
+reported. Median blood loss ranged from 3 to 164 mL. LOS varied by procedure 
+type (8-41 days). Postoperative complications were infrequent and primarily 
+Clavien-Dindo Grades I-II. Comparative studies with the da Vinci system have 
+demonstrated similar perioperative outcomes, with the main differences related 
+to platform use, particularly longer operative and console times.
+CONCLUSIONS: Early evidence supports the feasibility and safety of the Hinotori 
+system across multiple general surgical procedures, with outcomes comparable to 
+the da Vinci platform. Larger comparative studies with longer follow-up and 
+cost-effectiveness analyses are needed to define its clinical role.
+STUDY REGISTRATION: A review protocol for this systematic review was registered 
+in PROSPERO (CRD420250637267).
+
+© 2026 Asia Endosurgery Task Force and Japan Society of Endoscopic Surgery and 
+John Wiley & Sons Australia, Ltd.
+
+DOI: 10.1111/ases.70324
+PMCID: PMC13349567
+PMID: 42311029 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflicts of interest.
+
+
+9. World J Surg. 2021 Mar;45(3):705-718. doi: 10.1007/s00268-020-05869-5. Epub
+2020  Nov 30.
+
+Clinical and Organizational Impact of the AIRSEAL(®) Insufflation System During 
+Laparoscopic Surgery: A Systematic Review.
+
+Balayssac D(1)(2), Selvy M(3)(4), Martelin A(5), Giroudon C(6), Cabelguenne 
+D(7), Armoiry X(8)(9)(10).
+
+Author information:
+(1)INSERM, U1107, NEURO-DOL, Université Clermont Auvergne, 63000, 
+Clermont-Ferrand, France. dbalayssac@chu-clermontferrand.fr.
+(2)Délégation à la Recheche Clinique et à l'Innovation, CHU Clermont-Ferrand, 
+63000, Clermont-Ferrand, France. dbalayssac@chu-clermontferrand.fr.
+(3)INSERM, U1107, NEURO-DOL, Université Clermont Auvergne, 63000, 
+Clermont-Ferrand, France.
+(4)Service de Chirurgie Digestive, CHU Clermont-Ferrand, 63000, 
+Clermont-Ferrand, France.
+(5)Service Pharmacie, Unité des dispositifs médicaux, Hospices Civils de Lyon, 
+Hôpital Edouard Herriot, 69000, Lyon, France.
+(6)Service de Documentation Centrale, Hospices Civils de Lyon, 69000, Lyon, 
+France.
+(7)Service Pharmacie, Unité des dispositifs médicaux, Hospices Civils de Lyon, 
+Hôpital Lyon Sud, 69000, Lyon, France.
+(8)Délégation à la Recheche Clinique et à l'Innovation, CHU Clermont-Ferrand, 
+63000, Clermont-Ferrand, France.
+(9)Faculté de Pharmacie (ISPB), UMR CNRS 5510 MATEIS, Université de Lyon, 69000, 
+Lyon, France.
+(10)Division of Health Sciences, University of Warwick, Coventry, UK.
+
+Several low-impact laparoscopic strategies have been developed to improve the 
+safety of pneumoperitoneum. We conducted a systematic review to establish the 
+current evidence base for the use of the AIRSEAL® insufflation device for 
+low-pressure pneumoperitoneum in laparoscopic surgery. We searched the 
+literature using several electronic databases, for studies with comparative 
+design published in the English language from January 2010 to April 2020. The 
+population of interest included patients with any type of health condition who 
+underwent laparoscopic surgery using the AIRSEAL® insufflation system or a 
+standard CO2 insufflator. Ten studies (four randomized clinical trials/six 
+non-randomized clinical trials), that enrolled 1394 participants in total who 
+underwent urology, gynaecology or abdominal surgeries, were included. Total 
+complication rates were similar between groups. Only three studies evaluated the 
+impact of the insufflation system on post-operative pain, and showed 
+inconsistent benefit of AIRSEAL® (significant decrease in pain in two studies, 
+no difference in one). The same was observed in the two sole studies in which 
+pain killers consumption was measured (significant decrease in morphine 
+consumption 24 h after surgery in one study, no difference in the other). 
+Operative duration was significantly shorter with AIRSEAL® in three studies. For 
+both post-operative room and total length of stay, there was no difference 
+between groups. No studies reported economic outcomes. Current literature 
+supports the feasibility of the AIRSEAL® system during laparoscopic surgery but 
+more studies are required to establish the added clinical benefit and to explore 
+the preferences of physicians and patients.
+
+DOI: 10.1007/s00268-020-05869-5
+PMID: 33258023 [Indexed for MEDLINE]
+
+
+10. Ann Thorac Surg. 2016 Feb;101(2):786-8. doi:
+10.1016/j.athoracsur.2015.08.078.
+
+The Use of Oxidized Regenerated Cellulose for Video-Assisted Thoracic Surgery.
+
+Tanaka Y(1), Tane S(1), Hokka D(1), Ogawa H(1), Maniwa Y(2).
+
+Author information:
+(1)Division of Thoracic Surgery, Kobe University Graduate School of Medicine, 
+Kobe, Japan.
+(2)Division of Thoracic Surgery, Kobe University Graduate School of Medicine, 
+Kobe, Japan. Electronic address: maniwa@med.kobe-u.ac.jp.
+
+Comment in
+    Ann Thorac Surg. 2017 Jul;104(1):369. doi: 10.1016/j.athoracsur.2016.10.007.
+    Ann Thorac Surg. 2017 Jul;104(1):370. doi: 10.1016/j.athoracsur.2016.12.004.
+
+Disturbance of the surgical view during video-assisted thoracic surgery (VATS) 
+as a result of blood oozing from the wound surface of the access port may lead 
+to additional stress on surgeons and is difficult to prevent. We used a wound 
+edge protector with oxidized regenerated cellulose (ORC) rings for the wound 
+surfaces of the access ports and eliminated the problem. Furthermore, no 
+hemostatic procedure was required for the wound surface before wound closure 
+because the ORC rings completely stopped wound surface bleeding during the 
+operation. ORC rings enhanced protection of the thoracoscopic port and the 
+quality of VATS.
+
+Copyright © 2016 The Society of Thoracic Surgeons. Published by Elsevier Inc. 
+All rights reserved.
+
+DOI: 10.1016/j.athoracsur.2015.08.078
+PMID: 26777946 [Indexed for MEDLINE]
+
+
+11. Interact Cardiovasc Thorac Surg. 2020 Mar 1;30(3):346-352. doi: 
+10.1093/icvts/ivz271.
+
+Oxidized regenerated cellulose for a clear thoracoscopic view: a single-centre 
+randomized trial.
+
+Shimizu N(1), Tanaka Y(1), Kuroda S(1), Nakamura H(1), Matsumoto G(1), Mitsui 
+S(1), Sakai S(1), Minami K(1), Doi T(1), Hokka D(1), Maniwa Y(1).
+
+Author information:
+(1)Division of Thoracic Surgery, Kobe University Graduate School of Medicine, 
+Kobe, Japan.
+
+OBJECTIVES: During video-assisted thoracoscopic surgery (VATS), blood oozing 
+from the surface of the access port wound can hamper the surgical view. Although 
+this oozing is difficult to prevent, it can be decreased by placing a wound edge 
+protector with oxidized regenerated cellulose (ORC) on the surface of the access 
+port wound, thereby improving the surgical outcomes and safety of VATS.
+METHODS: We conducted a prospective, single-centre, open-label, randomized 
+clinical trial to evaluate the operative outcomes of VATS when using the ORC 
+(ORC group) compared with operative outcomes without using the ORC (non-ORC 
+group). The primary end point was interruption of the operation as a result of 
+blood oozing from the surface of the access port wound. The secondary end points 
+were the other intraoperative and postoperative outcomes.
+RESULTS: A total of 108 patients were divided into the ORC group (n = 54) and 
+the non-ORC group (n = 54). Compared with the non-ORC group, the ORC group had 
+fewer patients with an interruption in the operation (11.1% vs 51.8%; 
+P < 0.001), less need for wound haemostasis of the access ports during wound 
+closure (44.4% vs 72.2%; P = 0.003), similar rates of postoperative deaths and 
+complications and a tendency for shorter operation times (149.3 vs 168.8 min, 
+respectively; P = 0.083).
+CONCLUSION: The use of an ORC sheet around a wound edge protector for 
+haemostasis can ensure a clear view during VATS.
+CLINICAL TRIAL REGISTRATION NUMBER: UMIN000031112.
+
+© The Author(s) 2019. Published by Oxford University Press on behalf of the 
+European Association for Cardio-Thoracic Surgery. All rights reserved.
+
+DOI: 10.1093/icvts/ivz271
+PMID: 31747012 [Indexed for MEDLINE]
+
+
+12. Ann Thorac Surg. 2016 Aug;102(2):e177-9. doi:
+10.1016/j.athoracsur.2016.03.020.
+
+An Alternative Use of Wound Retractor as Camera Trocar in Thoracoscopic Surgery.
+
+Raveglia F(1), De Simone M(2), Cioffi U(2), Rizzi A(1), Baisi A(3).
+
+Author information:
+(1)Thoracic Surgery Unit, ASST Santi Paolo e Carlo, University of Milan, Milan, 
+Italy.
+(2)Department of Surgery, University of Milan, Milan, Italy.
+(3)Thoracic Surgery Unit, ASST Santi Paolo e Carlo, University of Milan, Milan, 
+Italy. Electronic address: alessandro.baisi@unimi.it.
+
+Trocars used during video-assisted thoracic surgery (VATS) present some 
+technical disadvantages due to their rigid structure. We propose the use of an 
+extra-small wound retractor system, designed for general surgery, as alternative 
+to rigid trocar for camera port during VATS. In our experience the wound 
+retractor presents 5 objective advantages: reduces intercostal nerve compression 
+and skin injuries, improves the camera maneuverability, does not displace during 
+operation, and protects the camera by any small parietal bleeding.
+
+Copyright © 2016 The Society of Thoracic Surgeons. Published by Elsevier Inc. 
+All rights reserved.
+
+DOI: 10.1016/j.athoracsur.2016.03.020
+PMID: 27449461 [Indexed for MEDLINE]
+
+
+13. Ann Transl Med. 2019 Dec;7(23):712. doi: 10.21037/atm.2019.11.142.
+
+International expert consensus on the management of bleeding during VATS lung 
+surgery.
+
+Liu L(1), Mei J(1), He J(2), Demmy TL(3), Gao S(2), Li S(4), He J(5)(6), Liu 
+Y(7), Huang Y(8), Xu S(9), Hu J(10), Chen L(11), Zhu Y(12), Luo Q(13), Mao 
+W(14), Tan Q(15), Chen C(16), Li X(17), Zhang Z(18), Jiang G(12), Xu L(19), 
+Zhang L(20), Fu J(20), Li H(21), Wang Q(22), Liu D(23), Tan L(24), Zhou Q(24), 
+Fu X(25), Jiang Z(26), Chen H(27), Fang W(28), Zhang X(29), Li Y(2), Tong T(30), 
+Yu Z(31), Liu Y(32), Zhi X(33), Yan T(34), Zhang X(35), Pu Q(1), Che G(1), Lin 
+Y(1), Ma L(1), Embun R(36), Aragón J(37), Evman S(38), Kocher GJ(39), 
+Bertolaccini L(40), Brunelli A(41), Gonzalez-Rivas D(42), Dunning J(43), Liu 
+HP(44), Swanson SJ(45), Borisovich RA(46), Sarkaria IS(47), Sihoe ADL(48), 
+Nagayasu T(49), Miyazaki T(49), Chida M(50), Kohno T(51), Thirugnanam A(52), 
+Soukiasian HJ(53), Onaitis MW(54), Liu CC(55); International Interest Group on 
+Bleeding during VATS Lung Surgery.
+
+Author information:
+(1)Department of Thoracic Surgery, West China Hospital, Sichuan University, 
+Chengdu 610041, China.
+(2)Department of Thoracic Surgery, National Cancer Center/National Clinical 
+Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences 
+and Peking Union Medical College, Beijing 100021, China.
+(3)Department of Thoracic Surgery, Roswell Park Cancer Institute, Buffalo, NY, 
+USA.
+(4)Department of Thoracic Surgery, Peking Union Medical College Hospital, 
+Chinese Academy of Medicine, Beijing 100032, China.
+(5)Department of Thoracic Surgery, The First Affiliated Hospital of Guangzhou 
+Medical University, Guangzhou 510120, China.
+(6)Guangzhou Institute of Respiratory Disease & China State Key Laboratory of 
+Respiratory Disease & National Clinical Research Center for Respiratory Disease, 
+Guangzhou 510120, China.
+(7)Department of Thoracic Surgery, Chinese PLA General Hospital, Beijing 100853, 
+China.
+(8)Department of Thoracic and Cardiovascular Surgery, The Third Affiliated 
+Hospital of Kunming Medical University (Yunnan Cancer Hospital), Kunming 650106, 
+China.
+(9)Department of Thoracic Surgery, Harbin Medical University Cancer Hospital, 
+Harbin 150086, China.
+(10)Department of Thoracic Surgery, First Hospital Affiliated to Medical College 
+of Zhejiang University, Hangzhou 310003, China.
+(11)Department of Thoracic Surgery, The First Affiliated Hospital of Nanjing 
+Medical University, Nanjing 210029, China.
+(12)Department of Thoracic Surgery, Shanghai Pulmonary Hospital, Tongji 
+University, Shanghai 200003, China.
+(13)Shanghai Lung Tumor Clinical Medical Center, Shanghai Chest Hospital, 
+Shanghai Jiao Tong University, Shanghai 200030, China.
+(14)Department of Thoracic Surgery, Zhejiang Cancer Hospital, Hangzhou 310022, 
+China.
+(15)Department of Thoracic Surgery, Institute of Surgery Research, Daping 
+Hospital, Third Military Medical University, Chongqing 400042, China.
+(16)Department of Thoracic Surgery, Fujian Medical University Union Hospital, 
+Fuzhou 350001, China.
+(17)Department of Thoracic Surgery, Tangdu Hospital, The Fourth Military Medical 
+University, Xi'an 710038, China.
+(18)Department of Thoracic Surgery, First Affiliated Hospital of Xinjiang 
+Medical University, Urumqi 830054, China.
+(19)Department of Thoracic Surgery, Nanjing Medical University Affiliated Cancer 
+Hospital, Jiangsu Key Laboratory of Molecular and Translational Cancer Research, 
+Cancer Institute of Jiangsu Province, Nanjing 210009, China.
+(20)Department of Thoracic Surgery, Sun Yat-Sen University Cancer Center, 
+Guangzhou 510060, China.
+(21)Department of Thoracic Surgery, Beijing Chao-Yang Hospital, Beijing 100043, 
+China.
+(22)Department of Thoracic Surgery, Shanghai Zhongshan Hospital of Fudan 
+University, Shanghai 200032, China.
+(23)Department of Thoracic Surgery, China and Japan Friendship Hospital, Beijing 
+100029, China.
+(24)Department of Lung Cancer Center, West China Hospital, Sichuan University, 
+Chengdu 610041, China.
+(25)Department of Thoracic Surgery, Tongji Hospital, Tongji Medical College, 
+Huazhong University of Science and Technology, Wuhan 430030, China.
+(26)Shandong Provincial Qianfoshan Hospital, Shandong University, Jinan 250014, 
+China.
+(27)Department of Thoracic Surgery, Fudan University Shanghai Cancer Center, 
+Shanghai 200032, China.
+(28)Department of Thoracic Surgery, Shanghai Chest Hospital, Jiao Tong 
+University, Shanghai 200032, China.
+(29)Department of Thoracic Surgery, Tianjin Chest Hospital, Tianjin 300051, 
+China.
+(30)Department of Thoracic Surgery, Second Hospital of Jilin University, 
+Changchun 130041, China.
+(31)Department of Esophageal Cancer, Tianjin Medical University Cancer Institute 
+and Hospital, National Clinical Research Center for Cancer, Key Laboratory of 
+Cancer Prevention and Therapy, Tianjin 300060, China.
+(32)Department of Thoracic Surgery, Liaoning Cancer Hospital and Institute, 
+Shenyang 110042, China.
+(33)Department of Thoracic Surgery, Xuanwu Hospital of Capital Medical 
+University, Beijing 100053, China.
+(34)Department of Thoracic Surgery, Peking University Third Hospital, Beijing 
+100191, China.
+(35)Department of Thoracic Surgery, The Second Hospital of Jilin University, 
+Changchun 130041, China.
+(36)Thoracic Surgery Department, Hospital Universitario Miguel Servet, IIS 
+Aragón, Zaragoza, Spain.
+(37)Department of Thoracic Surgery, Asturias University Central Hospital, 
+Oviedo, Spain.
+(38)Department of Thoracic Surgery, University of Health Sciences, Sureyyapasa 
+Training and Research Hospital, Istanbul, Turkey.
+(39)Division of Thoracic Surgery, Inselspital, University Hospital Bern, Bern, 
+Switzerland.
+(40)Department of Thoracic Surgery, Maggiore Teaching Hospital, Bologna, Italy.
+(41)Department of Thoracic Surgery, St. James's University Hospital, Leeds, UK.
+(42)Department of Thoracic Surgery, Coruña University Hospital and Minimally 
+Invasive Thoracic Surgery Unit (UCTMI), Coruña, Spain.
+(43)Department of Cardiothoracic Surgery, James Cook University Hospital, 
+Middlesbrough, UK.
+(44)Department of Thoracic Surgery, Chang Gung Memorial Hospital (Linkou), 
+Taiwan, China.
+(45)Department of Thoracic Surgery, Brigham and Women's Hospital, Boston, 
+Massachusetts, USA.
+(46)Department of Thoraco-abdominal Surgical Oncology. Herzen Moscow Cancer 
+Research Center, Russia.
+(47)Department of Cardiothoracic Surgery, University of Pittsburgh Medical 
+Center, Pittsburgh, PA, USA.
+(48)Honorary Consultant in Cardio-Thoracic Surgery, Gleneagles Hong Kong 
+Hospital, Hong Kong, China.
+(49)Department of Surgical Oncology, Nagasaki University Graduate School of 
+Biomedical Sciences, Nagasaki, Japan.
+(50)Department of General Thoracic Surgery, Dokkyo Medical University, Mibu, 
+Tochigi, Japan.
+(51)Department of Thoracic Surgery, Thoracoscopic Surgery Center, New Tokyo 
+Hospital, Chiba, Japan.
+(52)Agasthian Thoracic Surgery Pte Ltd. 3 Mount Elizabeth #14-12 Mount Elizabeth 
+Medical Centre, Singapore.
+(53)Division of Thoracic Surgery, Department of Surgery, Cedars-Sinai Medical 
+Center, Los Angeles, CA, USA.
+(54)Moores Cancer Center, UC San Diego Health - La Jolla, Moores Cancer Center, 
+La Jolla, USA.
+(55)Division of Thoracic Surgery, Sun Yat-Sen Cancer Center, Taipei, Taiwan, 
+China.
+
+Intraoperative bleeding is the most crucial safety concern of video-assisted 
+thoracic surgery (VATS) for a major pulmonary resection. Despite the advances in 
+surgical techniques and devices, intraoperative bleeding is still not rare and 
+remains the most common and potentially fatal cause of conversion from VATS to 
+open thoracotomy. Therefore, to guide the clinical practice of VATS lung 
+surgery, we proposed the International Interest Group on Bleeding during VATS 
+Lung Surgery with 65 experts from 10 countries in the field to develop this 
+consensus document. The consensus was developed based on the literature reports 
+and expert experience from different countries. The causes and incidence of 
+intraoperative bleeding were summarised first. Seven situations of 
+intraoperative bleeding were collected based on clinical practice, including the 
+bleeding from massive vessel injuries, bronchial arteries, vessel stumps, and 
+bronchial stumps, lung parenchyma, lymph nodes, incisions, and the chest wall. 
+The technical consensus for the management of intraoperative bleeding was 
+achieved on these seven surgical situations by six rounds of repeated revision. 
+Following expert consensus statements were achieved: (I) Bleeding from major 
+vascular injuries: direct compression with suction, retracted lung, or rolled 
+gauze is useful for bleeding control. The size and location of the vascular 
+laceration are evaluated to decide whether the bleeding can be stopped by direct 
+compression or by ligation. If suturing is needed, the suction-compressing 
+angiorrhaphy technique (SCAT) is recommended. Timely conversion to thoracotomy 
+with direct compression is required if the operator lacks experience in 
+thoracoscopic angiorrhaphy. (II) Bronchial artery bleeding: pre-emptive clipping 
+of bronchial artery before bronchial dissection or lymph node dissection can 
+reduce the incidence of bleeding. Bronchial artery bleeding can be stopped by 
+compression with the suction tip, followed by the handling of the vascular stump 
+with energy devices or clips. (III) Bleeding from large vessel stumps and 
+bronchial stumps: bronchial stump bleeding mostly comes from accompanying 
+bronchial artery, which can be clipped for hemostasis. Compression for 
+hemostasis is usually effective for bleeding at the vascular stump. Otherwise, 
+additional use of hemostatic materials, re-staple or a suture may be necessary. 
+(IV) Bleeding from the lung parenchyma: coagulation hemostasis is the first 
+choice. For wounds with visible air leakage or an insufficient hemostatic effect 
+of coagulation, suturing may be necessary. (V) Bleeding during lymph node 
+dissection: non-grasping en-bloc lymph node dissection is recommended for the 
+nourishing vessels of the lymph node are addressed first with this technique. If 
+bleeding occurs at the site of lymph node dissection, energy devices can be used 
+for hemostasis, sometimes in combination with hemostatic materials. (VI) 
+Bleeding from chest wall incisions: the chest wall incision(s) should always be 
+made along the upper edge of the rib(s), with good hemostasis layer by layer. 
+Recheck the incision for hemostasis before closing the chest is recommended. 
+(VII) Internal chest wall bleeding: it can usually be managed with 
+electrocoagulation. For diffuse capillary bleeding with the undefined bleeding 
+site, compression of the wound with gauze may be helpful.
+
+2019 Annals of Translational Medicine. All rights reserved.
+
+DOI: 10.21037/atm.2019.11.142
+PMCID: PMC6989967
+PMID: 32042728
+
+Conflict of interest statement: Conflicts of Interest: The authors have no 
+conflicts of interest to declare.
+
+
+14. Asian J Endosc Surg. 2025 Jan-Dec;18(1):e70213. doi: 10.1111/ases.70213.
+
+Trocarless Thoracic Surgery Using the Hinotori Surgical Robot System With a 
+Wound Retractor.
+
+Nakamura A(1), Kuroda A(1), Hashimoto M(1), Kondo N(1), Funaki S(1).
+
+Author information:
+(1)Department of Thoracic Surgery, Hyogo Medical University, Hyogo, Japan.
+
+INTRODUCTION: The hinotori Surgical Robot System, developed by Medicaroid 
+Corporation, is Japan's first robotic surgical assistant. As of June 1, 2024, it 
+has been approved to be covered by insurance in the field of thoracic surgery in 
+Japan. One of its most notable features is the software-controlled pivot point, 
+eliminating the need for docking between the robotic arms and ports.
+MATERIALS AND SURGICAL TECHNIQUE: To fully leverage this feature, we utilized 
+wound retractors (Lap Protector Mini Mini) at all four port sites instead of 
+inserting trocar sleeves when we introduced the hinotori on January 10, 2025. By 
+July 31, 2025, a total of 14 cases had been successfully completed without any 
+intraoperative complications. Implementing this approach, we confirmed 
+improvements in the efficiency of the roll-in process and effectively controlled 
+bleeding at the port sites. We also enhanced the operability of the stapler, 
+which could be inserted from all ports.
+DISCUSSION: This approach streamlines the complex setup procedures of hinotori 
+and facilitates surgical smoothing. Additional cases and comparative studies 
+with the conventional trocar sleeve method will be necessary to validate its 
+clinical utility.
+
+© 2025 The Author(s). Asian Journal of Endoscopic Surgery published by Asia 
+Endosurgery Task Force and Japan Society of Endoscopic Surgery and John Wiley & 
+Sons Australia, Ltd.
+
+DOI: 10.1111/ases.70213
+PMCID: PMC12706415
+PMID: 41399246 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflicts of interest.
+
+
+15. J Card Surg. 2021 Apr;36(4):1219-1225. doi: 10.1111/jocs.15342. Epub 2021 Jan
+ 19.
+
+Robotic versus port-access mitral repair: A propensity score analysis.
+
+Barac YD(1), Loungani RS(2), Sabulsky R(2), Zwischenberger B(2), Gaca J(2), Carr 
+K(2), Glower DD(2).
+
+Author information:
+(1)Rabin Medical Center and the Sackler Faculty of Medicine, Tel Aviv 
+University, Tel Aviv, Israel.
+(2)Duke University Medical Center, Durham, North Carolina, USA.
+
+BACKGROUND: Port-access (PORT) and robotic (ROBO) mitral repair are well 
+established, but differences in patient selection and outcomes are not well 
+documented.
+METHODS: A retrospective analysis was performed on 129 ROBO and 628 PORT mitral 
+repairs at one institution. ROBO patients had 4 cm nonrib spreading incisions 
+with robotic assistance, while PORT patients had 6-8 cm rib spreading incisions 
+with thoracoscopic assistance. Propensity score analysis matched patients for 
+differences in baseline characteristics.
+RESULTS: Unmatched ROBO patients were younger (58 ± 11 vs. 61 ± 13, p = .05), 
+had a higher percentage of males (77% vs. 63%, p = .003) and had less NYHA Class 
+3-4 symptoms (11% vs. 21%, p < .01), less atrial fibrillation (19% vs. 29%, 
+p = .02) and less tricuspid regurgitation (14% vs. 24%, p = .01). Propensity 
+score analysis of matched patients showed that pump time (275 ± 57 vs. 207 ± 55, 
+p < .0001) and clamp time (152 ± 38 vs. 130 ± 34, p < .0001) were longer for 
+ROBO patients. However, length of stay, postoperative morbidity, and 5-year 
+survival (97 ± 1% vs. 96 ± 3%, p = .7) were not different. For matched patients 
+with degenerative valve disease, 5-year incidence of mitral reoperation (3 ± 2% 
+vs. 1 ± 1%), severe mitral regurgitation (MR) (6 ± 4% vs. 1 ± 1%), or ≥2 + MR 
+(12 ± 5% vs. 12 ± 4%), were not significantly different between ROBO versus PORT 
+approaches. Predictors of recurrent moderate MR were connective tissue disease, 
+functional etiology, and non-White race, but not surgical approach.
+CONCLUSIONS: In this first comparison out to 5 years, robotic versus port-access 
+approach to mitral repair had longer pump and clamp times. Perioperative 
+morbidity, 5-year survival, and 5-year repair durability were otherwise similar.
+
+© 2021 Wiley Periodicals LLC.
+
+DOI: 10.1111/jocs.15342
+PMID: 33462900 [Indexed for MEDLINE]
+
+
+16. J Cardiol. 2020 Feb;75(2):177-181. doi: 10.1016/j.jjcc.2019.06.014. Epub 2019
+ Aug 21.
+
+Meta-analysis of propensity matched studies of robotic versus conventional 
+mitral valve surgery.
+
+Takagi H(1), Hari Y(2), Nakashima K(2), Kuno T(3), Ando T(4); ALICE 
+(All-Literature Investigation of Cardiovascular Evidence) Group.
+
+Author information:
+(1)Department of Cardiovascular Surgery, Shizuoka Medical Center, Shizuoka, 
+Japan; Department of Cardiovascular Surgery, Kitasato University School of 
+Medicine, Sagamihara, Japan. Electronic address: kfgth973@ybb.ne.jp.
+(2)Department of Cardiovascular Surgery, Shizuoka Medical Center, Shizuoka, 
+Japan; Department of Cardiovascular Surgery, Kitasato University School of 
+Medicine, Sagamihara, Japan.
+(3)Department of Medicine, Mount Sinai Beth Israel Medical Center, New York, NY, 
+USA.
+(4)Department of Cardiology, Detroit Medical Center, Detroit, MI, USA.
+
+BACKGROUND: To compare early outcomes after robotic versus conventional mitral 
+valve surgery (R-MVS versus C-MVS), we performed a meta-analysis of currently 
+available propensity score matched (PSM) studies.
+METHODS: To identify all PSM studies of R-MVS versus C-MVS, PubMed and Web of 
+Science were searched thorough November 2018 using the terms of robotic or 
+robot, mitral, and propensity. Inclusion criteria were PSM studies of isolated 
+R-MVS versus C-MVS. Odds ratios of dichotomous data and mean differences for 
+continuous data were generated for each study and combined in a meta-analysis 
+using the random-effects model.
+RESULTS: We identified 7 PSM studies of R-MVS versus C-MVS enrolling a total of 
+3764 patients. Pooled analyses demonstrated significantly longer cardiopulmonary 
+bypass (CPB) (p < 0.00001) and cross-clamp time (p = 0.004) in R-MVS than C-MVS. 
+However, intensive care unit (ICU) (p = 0.0005) and hospital stay (p < 0.0001) 
+was significantly shorter; and incidence of red blood cell (RBC) transfusion 
+(p = 0.03), prolonged ventilation (p = 0.048), and atrial fibrillation (AF) 
+(p = 0.01) was significantly less frequent after R-MVS than C-MVS. There was no 
+significant difference in incidence of reoperation for bleeding and valve 
+dysfunction, ≥moderate mitral regurgitation, renal failure, dialysis, pneumonia, 
+stroke, cardiac arrest, and all-cause death (p = 0.27) between R-MVS and C-MVS.
+CONCLUSIONS: ICU/hospital stay was shorter and RBC transfusion/prolonged 
+ventilation/AF was less frequent after R-MVS than C-MVS despite longer CPB and 
+cross-clamp time in R-MVS than C-MVS. The other early outcomes including 
+all-cause mortality were similarly frequent after R-MVS and C-MVS.
+
+Copyright © 2019 Japanese College of Cardiology. Published by Elsevier Ltd. All 
+rights reserved.
+
+DOI: 10.1016/j.jjcc.2019.06.014
+PMID: 31444139 [Indexed for MEDLINE]
+
+
+17. Cardiol Rev. 2024 Nov 5. doi: 10.1097/CRD.0000000000000814. Online ahead of 
+print.
+
+Robotic Versus Thoracoscopic Minimally Invasive Mitral Valve Surgery: A 
+Systematic Review and Meta-Analysis of Matched Studies.
+
+De Jesus J(1), Estrella J(2), Jesse J(3), Binny V(4), Sri Radhakrishnan 
+Parthasarathy P(5), Kabir Y(6), Nallamotu S(7), Guntupalli SV(8), Cai LY(9), 
+Al-Tawil M(10).
+
+Author information:
+(1)From the Accident and Emergency Department, Queen Alexandra Hospital, 
+Portsmouth, United Kingdom.
+(2)Acute Medicine Department, Queen Alexandra Hospital, Portsmouth, United 
+Kingdom.
+(3)Department of Cardiology, Universidad de Montemorelos, Nuevo Leon, Mexico.
+(4)Department of Cardiology, Gretchen Whitney High School, Cerritos, CA.
+(5)Department of Cardiology, Tbilisi State Medical University, Tbilisi, Georgia.
+(6)Department of Cardiology, Hywel Dda University Health Board, Wales, United 
+Kingdom.
+(7)Department of Cardiology, Kasturba Medical College, Manipal, India.
+(8)Department of Cardiology, Guntur Medical College, Guntur, India.
+(9)Department of Cardiology, Caribbean Medical University, Willemstad, Curaçao.
+(10)Department of Cardiovascular Surgery, Trier Heart Centre, Trier, Germany.
+
+Mitral regurgitation is the most prevalent form of valvular heart disease, 
+impacting over 24 million people globally. Robotic and thoracoscopic minimally 
+invasive mitral valve repair (MIMR) techniques have emerged as viable 
+alternatives to traditional open-heart surgery. However, the comparative 
+effectiveness and safety of these 2 approaches remain underexplored. This 
+systematic review and meta-analysis, conducted according to Preferred Reporting 
+Items for Systematic Review and Meta-Analysis (PRISMA) guidelines, aimed to 
+compare robotic and thoracoscopic MIMR outcomes. A literature search was 
+performed across PubMed, Scopus, and Embase databases to identify studies 
+comparing these 2 surgical techniques. Eligible studies included randomized 
+controlled trials and cohort studies. Six propensity score-matched studies and 1 
+retrospective cohort study, involving 11,823 patients, were included, with 5851 
+undergoing robotic mitral valve repair and 5972 receiving thoracoscopic MIMR. No 
+significant differences were found in perioperative mortality [risk ratio (RR): 
+0.97, 95% confidence interval (CI): 0.65-1.45] or pump/clamp times. Robotic 
+surgery was associated with longer operative times (mean difference: 33.01 
+minutes) and higher intraoperative transfusion rates (RR: 1.53, 95% CI: 
+1.07-2.18), but a lower risk of atrial fibrillation (RR: 0.89, 95% CI: 
+0.83-0.95). In conclusion, robotic and thoracoscopic MIMR show comparable 
+mortality and overall safety profiles. However, robotic surgery may require 
+longer operative times and increased transfusion needs, while reducing the risk 
+of atrial fibrillation. Further high-quality, randomized studies are warranted 
+to validate these findings.
+
+Copyright © 2024 Wolters Kluwer Health, Inc. All rights reserved.
+
+DOI: 10.1097/CRD.0000000000000814
+PMID: 39499089
+
+Conflict of interest statement: Disclosure: The authors declare no conflict of 
+interest.
+
+
+18. Ann Cardiothorac Surg. 2022 Nov;11(6):553-563. doi:
+10.21037/acs-2022-rmvs-22.
+
+Systematic review and meta-analysis of mid-term survival, reoperation, and 
+recurrent mitral regurgitation for robotic-assisted mitral valve repair.
+
+Williams ML(1)(2)(3), Eranki A(4), Mamo A(5), Wilson-Smith A(2)(6), Hwang B(2), 
+Sugunesegran R(1), Yan T(2)(7), Navarra E(8), Guy TS(9), Bonatti J(10).
+
+Author information:
+(1)Department of Cardiothoracic Surgery, Dunedin Hospital, Dunedin, New Zealand.
+(2)The Collaborative Research (CORE) Group, Macquarie University, Sydney, 
+Australia.
+(3)School of Medicine and Public Health, University of Newcastle, Newcastle, 
+Australia.
+(4)Department of Cardiothoracic Surgery, St. George Hospital, Sydney, Australia.
+(5)Department of Cardiology, Prince of Wales Hospital, Sydney, Australia.
+(6)Department of Surgery, John Hunter Hospital, Newcastle, New South Wales, 
+Australia.
+(7)Department of Cardiothoracic Surgery, Royal Prince Alfred Hospital, Sydney, 
+Australia.
+(8)Division of Cardiac Surgery; Sant' Andrea Hospital, La Sapienza University, 
+Rome, Italy.
+(9)Division of Cardiac Surgery, Thomas Jefferson University, Philadelphia, 
+Pennsylvania, USA.
+(10)Department of Cardiothoracic Surgery, University of Pittsburgh and UPMC 
+Heart and Vascular Institute, Pittsburgh, Pennsylvania, USA.
+
+BACKGROUND: Over the past two decades surgical approaches for mitral valve (MV) 
+disease have evolved with the advent of minimally invasive techniques. Robotic 
+mitral valve repair (RMVr) safety and efficacy has been well documented, 
+however, mid- to long-term data are limited. The aim of this review was to 
+provide a comprehensive analysis of the available mid- to long-term data for 
+RMVr.
+METHODS: Electronic searches of five databases were performed to identify all 
+relevant studies reporting minimum five-year data on RMVr. Pre-defined primary 
+outcomes of interest were overall survival, freedom from MV reoperation and from 
+moderate or worse mitral regurgitation (MR) at five years or more post-RMVr. A 
+meta-analysis of proportions or means was performed, utilizing a random effects 
+model, to present the data. Kaplan-Meier curves were aggregated using 
+reconstructed individual patient data.
+RESULTS: Nine studies totaling 3,300 patients undergoing RMVr were identified. 
+Rates of overall survival at 1-, 5- and 10-year were 99.2%, 97.4% and 92.3%, 
+respectively. Freedom from MV reoperation at eight-years post RMVr was 95.0%. 
+Freedom from moderate or worse MR at seven years was 86.0%. Rates of early 
+post-operative complications were low with only 0.2% all-cause mortality and 
+1.0% cerebrovascular accident. Reoperation for bleeding was low at 2.2% and 
+successful RMVr was 99.8%. Mean intensive care unit and hospital stay were 22.4 
+hours and 5.2 days, respectively.
+CONCLUSIONS: RMVr is a safe procedure with low rates of early mortality and 
+other complications. It can be performed with low complication rates in high 
+volume, experienced centers. Evaluation of available mid-term data post-RMVr 
+suggests favorable rates of overall survival, freedom from MV reoperation and 
+from moderate or worse MR recurrence.
+
+2022 Annals of Cardiothoracic Surgery. All rights reserved.
+
+DOI: 10.21037/acs-2022-rmvs-22
+PMCID: PMC9723530
+PMID: 36483611
+
+Conflict of interest statement: Conflicts of Interest: Dr. SG provides 
+consultation for Edwards Lifesciences, Johnson & Johnson, and Intuitive 
+Surgical. The other authors have no conflicts of interest to declare.
+
+
+19. Asian Cardiovasc Thorac Ann. 2026 Jan;34(1):57-66. doi: 
+10.1177/02184923251394563. Epub 2025 Nov 10.
+
+Operative outcomes following robotic-assisted and conventional minimally 
+invasive mitral valve surgery: A meta-analysis of propensity-matched studies.
+
+Santos K(1)(2), Consoli L(3), de Oliveira LGAM(3), Donaldy W(4), Płonek T(1).
+
+Author information:
+(1)Department of Cardiothoracic Surgery, Medisch Spectrum Twente, Enschede, The 
+Netherlands.
+(2)School of Medicine, New Vision University, Tbilisi, Georgia.
+(3)Federal University of Bahia, Salvador, Brazil.
+(4)New York City Health and Hospitals, New York City, NY, USA.
+
+BackgroundRobotic-assisted mitral valve surgery (RAMVS) has emerged as an 
+alternative to conventional minimally invasive mitral valve surgery (MIMVS). 
+However, previous studies have been limited by small sample sizes, heterogeneous 
+techniques and reliance on unmatched or indirectly compared cohorts, resulting 
+in inconclusive evidence. This meta-analysis focuses exclusively on 
+propensity-matched studies to provide a more robust comparison of RAMVS and 
+MIMVS.MethodsA comprehensive literature search was performed to identify 
+propensity-matched studies comparing RAMVS and MIMVS. Pooled odds ratios (ORs) 
+and mean differences (MDs) with 95% confidence intervals (CIs) were calculated 
+using RevMan 8.13.0. Subgroup analyses, including mitral valve repair only, 
+non-isolated mitral valve surgery and MIMVS via right minithoracotomy, were 
+conducted to explore heterogeneity.ResultsEight studies comprising 3352 patients 
+were included, with 1578 (47.1%) undergoing RAMVS. The RAMVS was associated with 
+a shorter hospital stay (MD -1.8 days; 95% CI -3.0 to -0.5; p = 0.006) but 
+significantly longer cardiopulmonary bypass time (MD 21.8 min; 95% CI 0.8-42.9; 
+p = 0.04), and higher odds of conversion to sternotomy (OR 2.9; 95% CI 1.6-5.4; 
+p = 0.0007) and re-exploration for bleeding (OR 1.86; 95% CI 1.1-3.2; p = 0.02). 
+Intensive care unit stay, operative time and postoperative complications were 
+comparable. All subgroup analyses consistently showed higher conversion rates 
+with RAMVS.ConclusionThe RAMVS offers potential recovery benefits but at the 
+cost of greater intraoperative complexity. Careful patient selection and 
+technical expertise are essential to maximise outcomes.
+
+DOI: 10.1177/02184923251394563
+PMID: 41212734 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of conflicting interestsThe 
+author(s) declared no potential conflicts of interest with respect to the 
+research, authorship and/or publication of this article.
+
+
+20. J Robot Surg. 2023 Oct;17(5):2375-2386. doi: 10.1007/s11701-023-01665-0. Epub
+ 2023 Jul 9.
+
+Propensity-matched analysis of robotic versus sternotomy approaches for mitral 
+valve replacement.
+
+Yan W(#)(1), Wang Y(#)(2), Wang W(1), Wang Q(1), Zheng X(3), Yang S(4).
+
+Author information:
+(1)Department of Cardiovascular Surgery, The Affiliated Hospital of Qingdao 
+University, Qingdao, Shandong, China.
+(2)Department of Nuclear Medicine, The Affiliated Hospital of Qingdao 
+University, Qingdao, Shandong, China.
+(3)Surgical Operating Room, The Affiliated Hospital of Qingdao University, 
+Qingdao, Shandong, China.
+(4)Department of Cardiovascular Surgery, The Affiliated Hospital of Qingdao 
+University, Qingdao, Shandong, China. yangsumin@qdu.edu.cn.
+(#)Contributed equally
+
+To compare early and medium-term outcomes between robotic and sternotomy 
+approaches for mitral valve replacement (MVR). Clinical data of 1393 cases who 
+underwent MVR between January 2014 and January 2023 were collected and 
+stratified into robotic MVR (n = 186) and conventional sternotomy MVR (n = 1207) 
+groups. The baseline data of the two groups of patients were corrected by the 
+propensity score matching (PSM) method. After matching, the baseline 
+characteristics were not significant different between the two groups 
+(standardized mean difference < 10%). Moreover, the rates of operative mortality 
+(P = 0.663), permanent stroke (P = 0.914), renal failure (P = 0.758), pneumonia 
+(P = 0.722), and reoperation (P = 0.509) were not significantly different. 
+Operation, CPB and cross-clamp time were shorter in the sternotomy group. On the 
+other hand, ICU stay time, post-operative LOS, intraoperative transfusion, and 
+intraoperative blood loss were shorter or less in the robot group. Operation, 
+CPB, and cross-clamp time in robot group were all remarkably improved with 
+experience. Finally, all-cause mortality (P = 0.633), redo mitral valve surgery 
+(P = 0.739), and valve-related complications (P = 0.866) in 5 years of follow-up 
+were not different between the two groups. Robotic MVR is safe, feasible, and 
+reproducible for carefully selected patients with good operative outcomes and 
+medium-term clinical outcomes.
+
+© 2023. The Author(s).
+
+DOI: 10.1007/s11701-023-01665-0
+PMCID: PMC10492871
+PMID: 37423965 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no financial 
+interests.
+
+
+21. Pain Physician. 2021 Nov;24(7):E1147-E1153.
+
+Percutaneous Endoscopic Intercostal Neurectomy for Refractory Intercostal 
+Neuralgia.
+
+Wei J(1), Gao S(1), Li W(1), Zhang L(1), Cao C(1), Zhai J, Gao B(1).
+
+Author information:
+(1)Department of Orthopedics Surgery, Hebei General Hospital, Shijiazhuang City, 
+Hebei, P.R. China.
+
+BACKGROUND: Refractory intercostal neuralgia is a troublesome disease with long 
+treatment cycle and short-term therapeutic effects. No treatment modality has 
+given effective pain relief. The authors present here a safe and effective 
+endoscopic surgical option for refractory intercostal neuralgia.
+OBJECTIVES: To introduce the surgical techniques of percutaneous endoscopic 
+intercostal neurectomy used for refractory intercostal neuralgia and to evaluate 
+its safety and efficacy.
+STUDY DESIGN: A retrospective study.
+SETTING: The Department of Orthopedics at the Hebei General Hospital in China.
+METHODS: Thirteen patients with refractory intercostal neuralgia were treated 
+with percutaneous endoscopic intercostal neurectomy. Patients were followed up 
+to 12 months postoperatively. The pain was measured by the Visual Analog Scale 
+(VAS) score. Complications, such as aspiration, dysfunction, infection, and 
+local hematoma were analyzed.
+RESULTS: Pain was relieved in all 13 patients, with only 1 patient reporting 
+burning sensation along the intercostal nerve distribution area after operation. 
+No other complications were found. All patients had significant improvement, 
+with significantly lower VAS scores recorded postoperatively. No recurrence was 
+reported during the follow-up period.
+LIMITATIONS: The retrospective nature of this study is a limitation, as well as 
+the small sample size and short observation time.
+CONCLUSIONS: Endoscopic intercostal neurotomy is an effective and safe minimally 
+invasive surgical treatment for refractory intercostal neuralgia.
+
+PMID: 34704724 [Indexed for MEDLINE]
